@@ -1,16 +1,25 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <ButcherCorpseFlesh.label>butcher creature</ButcherCorpseFlesh.label>
-    <ButcherCorpseFlesh.description>Butchers a creature to obtain its meat in usable form.</ButcherCorpseFlesh.description>
-    <ButcherCorpseFlesh.jobString>Butchering.</ButcherCorpseFlesh.jobString>
-    
-    <ButcherCorpseMechanoid.label>disassemble mechanoid</ButcherCorpseMechanoid.label>
-    <ButcherCorpseMechanoid.description>Disassembles a dead mechanoid into its component parts.</ButcherCorpseMechanoid.description>
-    <ButcherCorpseMechanoid.jobString>Disassembling mechanoid.</ButcherCorpseMechanoid.jobString>
-    
-    <MakeKibble.label>make kibble</MakeKibble.label>
-    <MakeKibble.description>Make animal kibble by combining raw meat and plants.</MakeKibble.description>
-    <MakeKibble.jobString>Making kibble.</MakeKibble.jobString>
-    
+  
+  <!-- EN: butcher creature -->
+  <ButcherCorpseFlesh.label>Kreatur schlachten</ButcherCorpseFlesh.label>
+  <!-- EN: Butcher a creature to obtain its meat, leather, and other body products. -->
+  <ButcherCorpseFlesh.description>Schlachte eine Kreatur, um Fleisch, Leder usw. zu erhalten.</ButcherCorpseFlesh.description>
+  <!-- EN: Butchering. -->
+  <ButcherCorpseFlesh.jobString>Schlachtet Kreatur.</ButcherCorpseFlesh.jobString>
+  
+  <!-- EN: shred mechanoid -->
+  <ButcherCorpseMechanoid.label>Mechanoiden zerlegen</ButcherCorpseMechanoid.label>
+  <!-- EN: Shred a dead mechanoid to try to salvage usable material. -->
+  <ButcherCorpseMechanoid.description>Zerlege einen toten Mechanoiden, um verwertbares Restmaterial zu erhalten.</ButcherCorpseMechanoid.description>
+  <!-- EN: Shredding mechanoid. -->
+  <ButcherCorpseMechanoid.jobString>Zerlegt Mechanoiden.</ButcherCorpseMechanoid.jobString>
+  
+  <!-- EN: smash mechanoid -->
+  <SmashCorpseMechanoid.label>Mechanoiden zertrümmern</SmashCorpseMechanoid.label>
+  <!-- EN: Smash a dead mechanoid with simple hand tools to salvage usable material. -->
+  <SmashCorpseMechanoid.description>Zertrümmere einen toten Mechanoiden mit einfachen Handwerkzeugen, um verwertbares Restmaterial zu erhalten.</SmashCorpseMechanoid.description>
+  <!-- EN: Smashing mechanoid. -->
+  <SmashCorpseMechanoid.jobString>Zertrümmert Mechanoiden.</SmashCorpseMechanoid.jobString>
+  
 </LanguageData>

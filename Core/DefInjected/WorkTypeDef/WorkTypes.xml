@@ -1,130 +1,224 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <Firefighter.labelShort>Apagar</Firefighter.labelShort>
-    <Firefighter.description>Apagar incêncios na colônia.</Firefighter.description>
-    <Firefighter.pawnLabel>Bombeiro</Firefighter.pawnLabel>
-    <Firefighter.gerundLabel>Apagando</Firefighter.gerundLabel>
-    <Firefighter.verb>Apagar</Firefighter.verb>
-    
-    <PatientEmergency.labelShort>Paciente</PatientEmergency.labelShort>
-    <PatientEmergency.description>Ir para a cama médica para tratamento, se você tem uma condição de saúde com risco de vida.</PatientEmergency.description>
-    <PatientEmergency.pawnLabel>Paciente</PatientEmergency.pawnLabel>
-    <PatientEmergency.gerundLabel>Sendo tratado</PatientEmergency.gerundLabel>
-    <PatientEmergency.verb>Ser paciente</PatientEmergency.verb>
-    
-    <Doctor.labelShort>Medicar</Doctor.labelShort>
-    <Doctor.description>Tratar os doentes, levar comida, animá-los e realizar cirurgias. Os médicos vão cuidar dos colonos e prisioneiros.</Doctor.description>
-    <Doctor.pawnLabel>Médico</Doctor.pawnLabel>
-    <Doctor.gerundLabel>Medicando</Doctor.gerundLabel>
-    <Doctor.verb>Medicar</Doctor.verb>
-    
-    <PatientBedRest.labelShort>Repousar</PatientBedRest.labelShort>
-    <PatientBedRest.description>Repouso na cama para se recuperar de problemas médicos sem risco de vida.</PatientBedRest.description>
-    <PatientBedRest.pawnLabel>Repouso</PatientBedRest.pawnLabel>
-    <PatientBedRest.gerundLabel>Repousando</PatientBedRest.gerundLabel>
-    <PatientBedRest.verb>Repousar</PatientBedRest.verb>
-    
-    <Flicker.labelShort>Clicar</Flicker.labelShort>
-    <Flicker.description>Clique em interruptores. Por exemplo, quando você alterna a energia em uma torre, um colono deve apertar manualmente para alternar a energia.</Flicker.description>
-    <Flicker.pawnLabel>Cliquer</Flicker.pawnLabel>
-    <Flicker.gerundLabel>Clicando</Flicker.gerundLabel>
-    <Flicker.verb>Clicar</Flicker.verb>
-    
-    <Warden.labelShort>Proteger</Warden.labelShort>
-    <Warden.description>Gerir, alimentar, conversar e recrutar prisioneiros.</Warden.description>
-    <Warden.pawnLabel>Guarda</Warden.pawnLabel>
-    <Warden.gerundLabel>Protegendo</Warden.gerundLabel>
-    <Warden.verb>Proteger</Warden.verb>
-    
-    <Handling.labelShort>Coletar</Handling.labelShort>
-    <Handling.description>Pegar coisas e pedaços de animais para abate.</Handling.description>
-    <Handling.pawnLabel>Coletor</Handling.pawnLabel>
-    <Handling.gerundLabel>Coletando</Handling.gerundLabel>
-    <Handling.verb>Coletar</Handling.verb>
-    
-    <Cooking.labelShort>Cozinhar</Cooking.labelShort>
-    <Cooking.description>Preparar refeições e tratar carnes.</Cooking.description>
-    <Cooking.pawnLabel>Cozinheiro</Cooking.pawnLabel>
-    <Cooking.gerundLabel>Cozinhando</Cooking.gerundLabel>
-    <Cooking.verb>Cozinhar</Cooking.verb>
-    
-    <Hunting.labelShort>Caçar</Hunting.labelShort>
-    <Hunting.description>Matar os animais que são designados para serem caçados.</Hunting.description>
-    <Hunting.pawnLabel>Caçador</Hunting.pawnLabel>
-    <Hunting.gerundLabel>Caçando</Hunting.gerundLabel>
-    <Hunting.verb>Caçar</Hunting.verb>
-    
-    <Construction.labelShort>Construir</Construction.labelShort>
-    <Construction.description>Construir coisas que foram designadas.</Construction.description>
-    <Construction.pawnLabel>Construtor</Construction.pawnLabel>
-    <Construction.gerundLabel>Construindo</Construction.gerundLabel>
-    <Construction.verb>Construir</Construction.verb>
-    
-    <Repair.labelShort>Reparar</Repair.labelShort>
-    <Repair.description>Reparar edifícios danificados e avariados.</Repair.description>
-    <Repair.pawnLabel>Reparador</Repair.pawnLabel>
-    <Repair.gerundLabel>Reparando</Repair.gerundLabel>
-    <Repair.verb>Reparar</Repair.verb>
-    
-    <Growing.labelShort>Cultivar</Growing.labelShort>
-    <Growing.description>Plantar sementes e colher frutos e plantações.</Growing.description>
-    <Growing.pawnLabel>Produtor</Growing.pawnLabel>
-    <Growing.gerundLabel>Cultivando</Growing.gerundLabel>
-    <Growing.verb>Cultivar</Growing.verb>
-    
-    <Mining.labelShort>Minerar</Mining.labelShort>
-    <Mining.description>Cavar áreas que são designadas para mineração.</Mining.description>
-    <Mining.pawnLabel>Minerador</Mining.pawnLabel>
-    <Mining.gerundLabel>Minerando</Mining.gerundLabel>
-    <Mining.verb>Minerar</Mining.verb>
-    
-    <PlantCutting.labelShort>Cortar</PlantCutting.labelShort>
-    <PlantCutting.description>Cortar plantas ou colher, conforme designado.</PlantCutting.description>
-    <PlantCutting.pawnLabel>Cortador de planta</PlantCutting.pawnLabel>
-    <PlantCutting.gerundLabel>Cortando</PlantCutting.gerundLabel>
-    <PlantCutting.verb>Cortar</PlantCutting.verb>
-    
-    <Smithing.labelShort>Forjar</Smithing.labelShort>
-    <Smithing.description>Criar armas e ferramentas a partir de matérias-primas, seja como um ferreiro ou por maquinas.</Smithing.description>
-    <Smithing.pawnLabel>Ferreiro</Smithing.pawnLabel>
-    <Smithing.gerundLabel>Forjando</Smithing.gerundLabel>
-    <Smithing.verb>Forjar</Smithing.verb>
-    
-    <Tailoring.labelShort>Costurar</Tailoring.labelShort>
-    <Tailoring.description>Criar roupas a partir de matérias-primas.</Tailoring.description>
-    <Tailoring.pawnLabel>Alfaiate</Tailoring.pawnLabel>
-    <Tailoring.gerundLabel>Costurando</Tailoring.gerundLabel>
-    <Tailoring.verb>Costurar</Tailoring.verb>
-    
-    <Art.labelShort>Esculpir</Art.labelShort>
-    <Art.description>Criar belas obras de arte.</Art.description>
-    <Art.pawnLabel>Artista</Art.pawnLabel>
-    <Art.gerundLabel>Esculpindo</Art.gerundLabel>
-    <Art.verb>Esculpir</Art.verb>
-    
-    <Crafting.labelShort>Criar</Crafting.labelShort>
-    <Crafting.description>Fazer trabalhos em geral pouco qualificados nas estações de trabalho. Isso inclui lapidação, fundição e mais.</Crafting.description>
-    <Crafting.pawnLabel>Artesão</Crafting.pawnLabel>
-    <Crafting.gerundLabel>Criando</Crafting.gerundLabel>
-    <Crafting.verb>Criar</Crafting.verb>
-    
-    <Hauling.labelShort>Transportar</Hauling.labelShort>
-    <Hauling.description>Leva as coisas para onde elas devem estar.</Hauling.description>
-    <Hauling.pawnLabel>Transportador</Hauling.pawnLabel>
-    <Hauling.gerundLabel>Transportando</Hauling.gerundLabel>
-    <Hauling.verb>Transportar</Hauling.verb>
-    
-    <Cleaning.labelShort>Limpar</Cleaning.labelShort>
-    <Cleaning.description>Limpar o chão da área da casa e a neve, se tiver.</Cleaning.description>
-    <Cleaning.pawnLabel>Faxineiro</Cleaning.pawnLabel>
-    <Cleaning.gerundLabel>Limpando</Cleaning.gerundLabel>
-    <Cleaning.verb>Limpar</Cleaning.verb>
-    
-    <Research.labelShort>Pesquisar</Research.labelShort>
-    <Research.description>Realiza trabalhos de pesquisa e investigação.</Research.description>
-    <Research.pawnLabel>Pesquisador</Research.pawnLabel>
-    <Research.gerundLabel>Pesquisando</Research.gerundLabel>
-    <Research.verb>Pesquisar</Research.verb>
-    
+  
+  <!-- EN: Create beautiful works of art from raw materials. -->
+  <Art.description>Künstler erschaffen wunderschöne Kunstwerke aus Rohmaterialien.</Art.description>
+  <!-- EN: art -->
+  <Art.gerundLabel>Kunst</Art.gerundLabel>
+  <!-- EN: art -->
+  <Art.labelShort>Kunst</Art.labelShort>
+  <!-- EN: Artist -->
+  <Art.pawnLabel>Künstler</Art.pawnLabel>
+  <!-- EN: Do art at -->
+  <Art.verb>bildhauen</Art.verb>
+  
+  <!-- EN: Unskilled and easy tasks. Release prisoners and flick switches on machines. -->
+  <BasicWorker.description>Hilfsarbeiter verrichten Aufgaben, die keine Fertigkeiten erfordern. Sie kümmern sich zum Beispiel darum, Gefangene freizulassen oder Schalter umzulegen.</BasicWorker.description>
+  <!-- EN: dealing with -->
+  <BasicWorker.gerundLabel>Hilfsarbeit</BasicWorker.gerundLabel>
+  <!-- EN: basic -->
+  <BasicWorker.labelShort>Hilfsarbeit</BasicWorker.labelShort>
+  <!-- EN: Worker -->
+  <BasicWorker.pawnLabel>Hilfsarbeiter</BasicWorker.pawnLabel>
+  <!-- EN: Deal with -->
+  <BasicWorker.verb>umschalten</BasicWorker.verb>
+  
+  <!-- EN: Clear snow, pollution and clean the floor in the home area. -->
+  <Cleaning.description>Reiniger räumen Schnee, entseuchen Böden und entfernen Schmutz im Heimatgebiet.</Cleaning.description>
+  <!-- EN: cleaning -->
+  <Cleaning.gerundLabel>Reinigen</Cleaning.gerundLabel>
+  <!-- EN: clean -->
+  <Cleaning.labelShort>Reinigen</Cleaning.labelShort>
+  <!-- EN: Cleaner -->
+  <Cleaning.pawnLabel>Reiniger</Cleaning.pawnLabel>
+  <!-- EN: Clean -->
+  <Cleaning.verb>reinigen</Cleaning.verb>
+  
+  <!-- EN: Build things that you've designated, and fix damaged or broken-down buildings. -->
+  <Construction.description>Bauarbeiter bauen deine Bauwerke und können diese reparieren oder wieder abreißen.</Construction.description>
+  <!-- EN: constructing -->
+  <Construction.gerundLabel>Bauen</Construction.gerundLabel>
+  <!-- EN: construct -->
+  <Construction.labelShort>Bauen</Construction.labelShort>
+  <!-- EN: Constructor -->
+  <Construction.pawnLabel>Bauarbeiter</Construction.pawnLabel>
+  <!-- EN: Construct -->
+  <Construction.verb>bauen</Construction.verb>
+  
+  <!-- EN: Prepare meals and butcher meat. -->
+  <Cooking.description>Köche bereiten Mahlzeiten zu und schlachten tote Tiere zur Fleischgewinnung.</Cooking.description>
+  <!-- EN: cooking -->
+  <Cooking.gerundLabel>Kochen</Cooking.gerundLabel>
+  <!-- EN: cook -->
+  <Cooking.labelShort>Kochen</Cooking.labelShort>
+  <!-- EN: Cook -->
+  <Cooking.pawnLabel>Koch</Cooking.pawnLabel>
+  <!-- EN: Cook -->
+  <Cooking.verb>zubereiten</Cooking.verb>
+  
+  <!-- EN: Do general low-skilled labor at work stations. This includes stonecutting, smelting, and more. -->
+  <Crafting.description>Handwerker führen Aufgaben an diversen Arbeitsstationen aus, die wenig Fertigkeiten erfordern, wie z.B. Steinbearbeitung, Schmelzen und so weiter.</Crafting.description>
+  <!-- EN: crafting -->
+  <Crafting.gerundLabel>Handwerk</Crafting.gerundLabel>
+  <!-- EN: craft -->
+  <Crafting.labelShort>Handwerk</Crafting.labelShort>
+  <!-- EN: Crafter -->
+  <Crafting.pawnLabel>Handwerker</Crafting.pawnLabel>
+  <!-- EN: Craft at -->
+  <Crafting.verb>herstellen</Crafting.verb>
+  
+  <!-- EN: Treat the sick, bring them food, cheer them up, and perform assigned surgeries. Doctors will care for both colonists and prisoners. -->
+  <Doctor.description>Ärzte behandeln die Kranken, bringen ihnen Essen, muntern sie auf und führen Operationen an ihnen durch. Sie kümmern sich sowohl um Kolonisten als auch Gefangene.</Doctor.description>
+  <!-- EN: doctoring -->
+  <Doctor.gerundLabel>Verarzten</Doctor.gerundLabel>
+  <!-- EN: doctor -->
+  <Doctor.labelShort>Arzt</Doctor.labelShort>
+  <!-- EN: Doctor -->
+  <Doctor.pawnLabel>Arzt</Doctor.pawnLabel>
+  <!-- EN: Care for -->
+  <Doctor.verb>verarzten</Doctor.verb>
+  
+  <!-- EN: Extinguish fires in the colony. -->
+  <Firefighter.description>Feuerwehrleute löschen Brände in der Kolonie.</Firefighter.description>
+  <!-- EN: firefighting -->
+  <Firefighter.gerundLabel>Brandbekämpfung</Firefighter.gerundLabel>
+  <!-- EN: firefight -->
+  <Firefighter.labelShort>Feuerwehr</Firefighter.labelShort>
+  <!-- EN: Firefighter -->
+  <Firefighter.pawnLabel>Feuerwehr</Firefighter.pawnLabel>
+  <!-- EN: Extinguish -->
+  <Firefighter.verb>löschen</Firefighter.verb>
+  
+  <!-- EN: Plant seeds, harvest crops, and forage for wild plants. -->
+  <Growing.description>Feldarbeiter können Nutzpflanzen anbauen, ernten und nach essbaren Pflanzen suchen.</Growing.description>
+  <!-- EN: growing -->
+  <Growing.gerundLabel>Feldarbeit</Growing.gerundLabel>
+  <!-- EN: grow -->
+  <Growing.labelShort>Feldarbeit</Growing.labelShort>
+  <!-- EN: Grower -->
+  <Growing.pawnLabel>Feldarbeiter</Growing.pawnLabel>
+  <!-- EN: Grow -->
+  <Growing.verb>anbauen</Growing.verb>
+  
+  <!-- EN: Tame, train, harvest resources from and slaughter animals. -->
+  <Handling.description>Tierpfleger können Tiere zähmen, trainieren, melken, scheren und schlachten.</Handling.description>
+  <!-- EN: handling -->
+  <Handling.gerundLabel>Tierpflege</Handling.gerundLabel>
+  <!-- EN: handle -->
+  <Handling.labelShort>Tierpflege</Handling.labelShort>
+  <!-- EN: Handler -->
+  <Handling.pawnLabel>Tierpfleger</Handling.pawnLabel>
+  <!-- EN: Handle -->
+  <Handling.verb>pflegen</Handling.verb>
+  
+  <!-- EN: Carry things to where they need to be. -->
+  <Hauling.description>Träger transportieren Dinge von A nach B.</Hauling.description>
+  <!-- EN: hauling -->
+  <Hauling.gerundLabel>Transport</Hauling.gerundLabel>
+  <!-- EN: haul -->
+  <Hauling.labelShort>Transport</Hauling.labelShort>
+  <!-- EN: Hauler -->
+  <Hauling.pawnLabel>Träger</Hauling.pawnLabel>
+  <!-- EN: Haul -->
+  <Hauling.verb>transportieren</Hauling.verb>
+  
+  <!-- EN: Kill animals which are designated to be hunted. -->
+  <Hunting.description>Jäger töten Tiere, die für die Jagd freigegeben sind.</Hunting.description>
+  <!-- EN: hunting -->
+  <Hunting.gerundLabel>Jagen</Hunting.gerundLabel>
+  <!-- EN: hunt -->
+  <Hunting.labelShort>Jagen</Hunting.labelShort>
+  <!-- EN: Hunter -->
+  <Hunting.pawnLabel>Jäger</Hunting.pawnLabel>
+  <!-- EN: Hunt -->
+  <Hunting.verb>jagen</Hunting.verb>
+  
+  <!-- EN: Digging and drilling. -->
+  <Mining.description>Bergarbeiter bauen Gestein ab und bohren nach Ressourcen.</Mining.description>
+  <!-- EN: mining -->
+  <Mining.gerundLabel>Bergbau</Mining.gerundLabel>
+  <!-- EN: mine -->
+  <Mining.labelShort>Bergbau</Mining.labelShort>
+  <!-- EN: Miner -->
+  <Mining.pawnLabel>Bergarbeiter</Mining.pawnLabel>
+  <!-- EN: Mine -->
+  <Mining.verb>abbauen</Mining.verb>
+  
+  <!-- EN: Go to a medical bed for treatment if you have an immediately life-threatening health condition. -->
+  <Patient.description>Kolonisten mit lebensbedrohlichen Gesundheitszuständen legen sich in ein Krankenbett, um sich medizinisch versorgen zu lassen.</Patient.description>
+  <!-- EN: patienting -->
+  <Patient.gerundLabel>Patient sein</Patient.gerundLabel>
+  <!-- EN: patient -->
+  <Patient.labelShort>Patient</Patient.labelShort>
+  <!-- EN: Patient -->
+  <Patient.pawnLabel>Patient</Patient.pawnLabel>
+  <!-- EN: Become patient -->
+  <Patient.verb>Patient werden</Patient.verb>
+  
+  <!-- EN: Rest in bed to recuperate from not-immediately-life-threatening medical problems. -->
+  <PatientBedRest.description>Kolonisten ruhen sich in einem Bett aus, um sich von Beschwerden zu erholen, die keine unmittelbare Gefahr darstellen.</PatientBedRest.description>
+  <!-- EN: resting in bed -->
+  <PatientBedRest.gerundLabel>Bettruhe</PatientBedRest.gerundLabel>
+  <!-- EN: bed rest -->
+  <PatientBedRest.labelShort>Bettruhe</PatientBedRest.labelShort>
+  <!-- EN: Bed rester -->
+  <PatientBedRest.pawnLabel>Erholender</PatientBedRest.pawnLabel>
+  <!-- EN: Become patient -->
+  <PatientBedRest.verb>Patient werden</PatientBedRest.verb>
+  
+  <!-- EN: Cut or harvest plants as designated. -->
+  <PlantCutting.description>Waldarbeiter fällen markierte Bäume zur Holzgewinnung oder entfernen markierte Pflanzen.</PlantCutting.description>
+  <!-- EN: plant cutting -->
+  <PlantCutting.gerundLabel>Waldarbeit</PlantCutting.gerundLabel>
+  <!-- EN: plant cut -->
+  <PlantCutting.labelShort>Waldarbeit</PlantCutting.labelShort>
+  <!-- EN: Plant cutter -->
+  <PlantCutting.pawnLabel>Waldarbeiter</PlantCutting.pawnLabel>
+  <!-- EN: Cut -->
+  <PlantCutting.verb>schneiden</PlantCutting.verb>
+  
+  <!-- EN: Perform research work. -->
+  <Research.description>Forscher erforschen neue Technologien.</Research.description>
+  <!-- EN: researching -->
+  <Research.gerundLabel>Forschen</Research.gerundLabel>
+  <!-- EN: research -->
+  <Research.labelShort>Forschen</Research.labelShort>
+  <!-- EN: Researcher -->
+  <Research.pawnLabel>Forscher</Research.pawnLabel>
+  <!-- EN: Research at -->
+  <Research.verb>forschen</Research.verb>
+  
+  <!-- EN: Create weapons and tools from raw materials, either as a blacksmith or by machining. Also repair mechanoids, if the colonist is a mechanitor. -->
+  <Smithing.description>Schmiedearbeiter stellen Waffen und Werkzeuge aus Rohmaterial her, entweder an einer Schmiede oder mit maschineller Hilfe. Mechanitoren unter ihnen können auch Mechanoiden reparieren.</Smithing.description>
+  <!-- EN: smithing -->
+  <Smithing.gerundLabel>Schmieden</Smithing.gerundLabel>
+  <!-- EN: smith -->
+  <Smithing.labelShort>Schmieden</Smithing.labelShort>
+  <!-- EN: Smith -->
+  <Smithing.pawnLabel>Schmied</Smithing.pawnLabel>
+  <!-- EN: Smith at -->
+  <Smithing.verb>schmieden</Smithing.verb>
+  
+  <!-- EN: Create apparel from raw materials. -->
+  <Tailoring.description>Schneider nähen Kleidung aus Rohmaterialien.</Tailoring.description>
+  <!-- EN: tailoring -->
+  <Tailoring.gerundLabel>Schneidern</Tailoring.gerundLabel>
+  <!-- EN: tailor -->
+  <Tailoring.labelShort>Schneidern</Tailoring.labelShort>
+  <!-- EN: Tailor -->
+  <Tailoring.pawnLabel>Schneider</Tailoring.pawnLabel>
+  <!-- EN: Tailor at -->
+  <Tailoring.verb>nähen</Tailoring.verb>
+  
+  <!-- EN: Manage, feed, chat with, and recruit prisoners. -->
+  <Warden.description>Wärter sind für die Gefangenen verantwortlich. Sie bringen den Gefangenen Essen, unterhalten sich mit ihnen, und versuchen, sie zu rekrutieren.</Warden.description>
+  <!-- EN: wardening -->
+  <Warden.gerundLabel>Wärterarbeit</Warden.gerundLabel>
+  <!-- EN: warden -->
+  <Warden.labelShort>Wärter</Warden.labelShort>
+  <!-- EN: Warden -->
+  <Warden.pawnLabel>Wärter</Warden.pawnLabel>
+  <!-- EN: Handle -->
+  <Warden.verb>beaufsichtigen</Warden.verb>
+  
 </LanguageData>

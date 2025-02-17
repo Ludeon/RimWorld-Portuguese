@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>scraped_present->glancing</li>
+    <li>scraped_present->bouncing</li>
+    <li>scraped_present->grazing</li>
+    <li>scraped_present->caroming</li>
+    <li>scraped_present->skipping</li>
+    <li>scraped_present->skating</li>
+    <li>scraped_past->glanced</li>
+    <li>scraped_past->bounced</li>
+    <li>scraped_past->grazed</li>
+    <li>scraped_past->caromed</li>
+    <li>scraped_past->skipped</li>
+    <li>scraped_past->skated</li>
+  -->
+  <Combat_DeflectIncludes.rulePack.rulesStrings>
+    <li>scraped_present->streift</li>
+    <li>scraped_present->prallt ab</li>
+    <li>scraped_present->streift</li>
+    <li>scraped_present->prallt ab</li>
+    <li>scraped_present->berührt</li>
+    <li>scraped_present->gleitet</li>
+    <li>scraped_past->striff</li>
+    <li>scraped_past->prallte ab</li>
+    <li>scraped_past->streifte</li>
+    <li>scraped_past->prallte ab</li>
+    <li>scraped_past->berührte</li>
+    <li>scraped_past->glitt</li>
+  </Combat_DeflectIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite] with [implement]</li>
+    <li>action->[INITIATOR_definite] [tried] to use [implement] to [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] swung [INITIATOR_possessive] [WEAPON_label] at [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite] with [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] with [implement]</li>
+    <li>towardsat->towards</li>
+    <li>towardsat->at</li>
+    <li>verb_genericattack->swung</li>
+    <li>verb_genericattack->flailed</li>
+    <li>verb_genericattack->thrashed</li>
+    <li>tried->tried</li>
+    <li>tried->attempted</li>
+  -->
+  <Combat_FailIncludes.rulePack.rulesStrings>
+    <li>action->[INITIATOR_definite] [tried], [RECIPIENT_nameDefAcc] zu [damaged_inf]</li>
+    <li>action->[INITIATOR_definite] [tried], [RECIPIENT_nameDefAcc] mit [implement_dat] zu [damaged_inf]</li>
+    <li>action->[INITIATOR_definite] [tried], [implement_acc] zu benutzen, um [RECIPIENT_nameDefAcc] zu [damaged_inf]</li>
+    <li>action->[INITIATOR_definite] wollte [RECIPIENT_nameDefAcc] [damaged_inf]</li>
+    <li>action->[INITIATOR_definite] wollte [RECIPIENT_nameDefAcc] mit [implement_dat] [damaged_inf]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] richtete [implement_acc] auf [RECIPIENT_nameDefAcc]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] zielte mit [implement_dat] auf [RECIPIENT_nameDefAcc]</li>
+    <li>tried->versuchte</li>
+    <li>tried->bemühte sich</li>
+  </Combat_FailIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>result(p=1)->[damaged_present] [RECIPIENT_possessive] [targetlist]</li>
+    <li>result(p=0.2)->[damaged_present] [RECIPIENT_possessive] [targetlist] and [flavortext_consequence]</li>
+    <li>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]</li>
+    <li>strikeAdv->painfully</li>
+    <li>strikeAdv->horribly</li>
+    <li>strikeAdv->savagely</li>
+    <li>strikeAdv->viciously</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a disgusting wound</li>
+    <li>flavortext_consequence->leaving a horrific wound</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
+    <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
+  -->
+  <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
+    <li>result(p=0.5)->und [damaged] dabei [recipient_part0_possessive_acc] [targetlist_acc]</li>
+    <li>result(p=0.1)->und [damaged] dabei [strikeAdv] [recipient_part0_possessive_acc] [targetlist_acc]</li>
+    <li>result(p=0.1)->und [damaged] dabei [recipient_part0_possessive_acc] [targetlist_acc], was [flavortext_consequence]</li>
+    <li>strikeAdv->schmerzhaft</li>
+    <li>strikeAdv->brutal</li>
+    <li>strikeAdv->grausam</li>
+    <li>strikeAdv->qualvoll</li>
+    <li>strikeAdv->heftig</li>
+    <li>strikeAdv->schonungslos</li>
+    <li>strikeAdv->erbarmungslos</li>
+    <li>strikeAdv->gnadenlos</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->eine hässliche Wunde hinterließ</li>
+    <li>flavortext_consequence->eine schreckliche Wunde hinterließ</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[RECIPIENT_objective] [painevent] [wince]</li>
+    <li>flavortext_consequence(p=0.2)->[RECIPIENT_objective] aus dem Gleichgewicht warf</li>
+  </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[action], [result].</li>
+    <li>r_logentry(priority=-10)->[action].</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->a [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->a [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
+    <li>targetlist(recipient_part_count==2)->[recipient_part0_label] and [recipient_part1_label]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], and [recipient_part2_label]</li>
+    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], and [recipient_part3_label]</li>
+    <li>damaged_present(deflected!=True)->wounding</li>
+    <li>damaged_present(deflected!=True)->injuring</li>
+    <li>destroyed(p=0.5)->destroyed</li>
+    <li>destroyed(p=0.5)->demolished</li>
+    <li>destroyed(p=0.5)->ruined</li>
+    <li>destroyed(p=0.5)->wrecked</li>
+    <li>wince(recipient_flesh==Normal)->wince</li>
+    <li>wince(recipient_flesh==Normal)->grimace</li>
+    <li>wince(recipient_flesh==Normal)->cringe</li>
+    <li>wince(recipient_flesh==Normal)->groan</li>
+    <li>wince(recipient_flesh!=Mechanoid)->scream</li>
+    <li>wince(recipient_flesh!=Mechanoid)->shout</li>
+    <li>wince->recoil</li>
+    <li>wince->stumble</li>
+    <li>painstate->in</li>
+    <li>painstate->with</li>
+    <li>painstate->from the</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] pain</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] agony</li>
+    <li>painevent(recipient_flesh==Normal)->with misery</li>
+    <li>painevent->from the injury</li>
+    <li>painevent->from the wound</li>
+    <li>to->to</li>
+    <li>to->into</li>
+  -->
+  <Combat_MeleeIncludes.rulePack.rulesStrings>
+    <li>r_logentry->[action], [result].</li>
+    <li>r_logentry(priority=-10)->[action].</li>
+    <!-- Dativ -->
+    <li>implement_dat(IMPLEMENTOWNER_type==weapon,p=1)->[his_dat] [weapon_dat]</li>
+    <li>implement_dat(IMPLEMENTOWNER_type==weapon,p=0.5)->[the_dat] [weapon_dat]</li>
+    <li>implement_dat(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive]{TOOL_gender ? em  : er} [tool_dat]</li>
+    <li>implement_dat(IMPLEMENTOWNER_type==hediff,p=1)->[his_dat] [weapon_dat]</li>
+    <li>implement_dat(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive]{TOOL_gender ? em  : er} [tool_dat]</li>
+    <li>his_dat->[INITIATOR_possessive]{replace: ^[WEAPON_indefinite]; "^ein [WEAPON_label]"-"em"; "^eine [WEAPON_label]"-"er"; "^"-""}</li>
+    <li>the_dat->{replace: ^[WEAPON_indefinite]; "^ein [WEAPON_label]"-"dem"; "^eine [WEAPON_label]"-"der"; "^"-""}</li>
+    <li>weapon_dat->{replace: [WEAPON_label]; "er "-"en "; "e "-"en "; "es "-"en "}</li>
+    <li>tool_dat->{replace: [TOOL_label]; "er "-"en "; "e "-"en "; "es "-"en "}</li>
+    <!-- Akkusativ -->
+    <li>implement_acc(IMPLEMENTOWNER_type==weapon,p=1)->[his_acc] [weapon_acc_pos]</li>
+    <li>implement_acc(IMPLEMENTOWNER_type==weapon,p=0.5)->[the_acc] [weapon_acc_def]</li>
+    <li>implement_acc(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive]{TOOL_gender ? en : e : } [tool_acc_pos]</li>
+    <li>implement_acc(IMPLEMENTOWNER_type==hediff,p=1)->[his_acc] [weapon_acc_pos]</li>
+    <li>implement_acc(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive]{TOOL_gender ? en : e : } [tool_acc_pos]</li>
+    <li>his_acc->[INITIATOR_possessive]{replace: ^[WEAPON_definite]; "^der [WEAPON_label]"-"en"; "^die [WEAPON_label]"-"e"; "^das [WEAPON_label]"-""; "^"-""}</li>
+    <li>the_acc->{replace: ^[WEAPON_definite]; "^der [WEAPON_label]"-"den"; "^die [WEAPON_label]"-"die"; "^das [WEAPON_label]"-"das"; "^"-""}</li>
+    <li>weapon_acc_pos->{replace: [WEAPON_label]; "er "-"en "}</li>
+    <li>weapon_acc_def->{replace: [WEAPON_label]; "er "-"en "; "es "-"e "}</li>
+    <li>tool_acc_pos->{replace: [TOOL_label]; "er "-"en "}</li>
+    <li>adjective_bodypart->hart</li>
+    <li>adjective_bodypart->stark</li>
+    <li>adjective_bodypart->kraftvoll</li>
+    <li>adjective_bodypart->kräftig</li>
+    <li>adjective_bodypart->mächtig</li>
+    <li>adjective_bodypart->schroff</li>
+    <li>adjective_bodypart->robust</li>
+    <li>adjective_bodypart->solid</li>
+    <li>adjective_bodypart->zäh</li>
+    <li>adjective_bodypart->unnachgiebig</li>
+    <li>adjective_bodypart->fest</li>
+    <!-- Artikel -->
+    <li>recipient_part0_article_acc->{replace: ^[recipient_part0_definite]; "^der [recipient_part0_label]"-"den"; "^die Kiefer"-"den"; "^die [recipient_part0_label]"-"die"; "^das [recipient_part0_label]"-"das"; "^"-""}</li>
+    <!-- Pronomen -->
+    <li>recipient_part0_possessive_acc->{replace: ^[recipient_part0_definite]; "^der [recipient_part0_label]"-"[RECIPIENT_possessive]en"; "^die Kiefer"-"[RECIPIENT_possessive]en"; "^die [recipient_part0_label]"-"[RECIPIENT_possessive]e"; "^das [recipient_part0_label]"-"[RECIPIENT_possessive]"; "^"-""}</li>
+    <!-- Akkusativ, unbestimmt -->
+    <li>targetlist_acc(recipient_part_count==1)->{replace: [recipient_part0_label]; "er "-"en "}</li>
+    <li>targetlist_acc(recipient_part_count==2)->{replace: [recipient_part0_label]; "er "-"en "} und {replace: [recipient_part1_label]; "er "-"en "}</li>
+    <li>targetlist_acc(recipient_part_count==3)->{replace: [recipient_part0_label]; "er "-"en "}, {replace: [recipient_part1_label]; "er "-"en "} und {replace: [recipient_part2_label]; "er "-"en "}</li>
+    <li>targetlist_acc->{replace: [recipient_part0_label]; "er "-"en "}, {replace: [recipient_part1_label]; "er "-"en "}, {replace: [recipient_part2_label]; "er "-"en "} und {replace: [recipient_part3_label]; "er "-"en "}</li>
+    <!-- Akkusativ, bestimmt -->
+    <li>targetlist_acc_def(recipient_part_count==1)->{replace: [recipient_part0_label]; "er "-"en "; "es "-"e "}</li>
+    <li>targetlist_acc_def(recipient_part_count==2)->{replace: [recipient_part0_label]; "er "-"en "; "es "-"e "} und {replace: [recipient_part1_label]; "er "-"en "; "es "-"e "}</li>
+    <li>targetlist_acc_def(recipient_part_count==3)->{replace: [recipient_part0_label]; "er "-"en "; "es "-"e "}, {replace: [recipient_part1_label]; "er "-"en "; "es "-"e "} und {replace: [recipient_part2_label]; "er "-"en "; "es "-"e "}</li>
+    <li>targetlist_acc_def->{replace: [recipient_part0_label]; "er "-"en "; "es "-"e "}, {replace: [recipient_part1_label]; "er "-"en "; "es "-"e "}, {replace: [recipient_part2_label]; "er "-"en "; "es "-"e "} und {replace: [recipient_part3_label]; "er "-"en "; "es "-"e "}</li>
+    <!-- don't include constraint; this acts as a fallback for >=4-->
+    <li>damaged_present(deflected!=True)->verwundet</li>
+    <li>damaged_present(deflected!=True)->verletzt</li>
+    <li>damaged(deflected!=True)->verwundete</li>
+    <li>damaged(deflected!=True)->verletzte</li>
+    <li>destroyed(p=0.5)->zerstört</li>
+    <li>destroyed(p=0.5)->demoliert</li>
+    <li>destroyed(p=0.5)->ruiniert</li>
+    <li>destroyed(p=0.5)->zertrümmert</li>
+    <li>wince(recipient_flesh==Normal)->zusammenzucken ließ</li>
+    <li>wince(recipient_flesh==Normal)->dazu brachte, das Gesicht zu verziehen</li>
+    <li>wince(recipient_flesh==Normal)->zum Erschaudern brachte</li>
+    <li>wince(recipient_flesh==Normal)->zum Stöhnen brachte</li>
+    <li>wince(recipient_flesh!=Mechanoid)->zum Schreien brachte</li>
+    <li>wince(recipient_flesh!=Mechanoid)->zum Brüllen brachte</li>
+    <li>wince->zurückweichen ließ</li>
+    <li>wince->zum Taumeln brachte</li>
+    <li>painstate->vor</li>
+    <li>painstate->wegen der</li>
+    <li>painstate->aufgrund der</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] Schmerzen</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] starken Schmerzen</li>
+    <li>painevent(recipient_flesh==Normal)->[painstate] Qual</li>
+    <li>painevent->durch die Verletzung</li>
+    <li>painevent->wegen der Wunde</li>
+    <li>to->in</li>
+    <li>to->in</li>
+  </Combat_MeleeIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
+    <li>skillDescMelee->[using] [implement] [skillAdv]</li>
+    <li>wielding(p=4)->wielding</li>
+    <li>wielding(p=3)->using</li>
+    <li>wielding(p=2)->handling</li>
+    <li>wielding->brandishing</li>
+    <li>wielding->manipulating</li>
+    <li>using(p=4)->using</li>
+    <li>using->driving</li>
+    <li>using->thrusting</li>
+    <li>using->utilizing</li>
+    <li>using->moving</li>
+    <li>skillAdv(INITIATOR_skill<=3)->incompetently</li>
+    <li>skillAdv(INITIATOR_skill<=3)->ineptly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->wildly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->randomly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->flailingly</li>
+    <li>skillAdv(INITIATOR_skill<=4)->awkwardly</li>
+    <li>skillAdv(INITIATOR_skill<=4)->clumsily</li>
+    <li>skillAdv(INITIATOR_skill<=5)->fearfully</li>
+    <li>skillAdv(INITIATOR_skill<=5)->falteringly</li>
+    <li>skillAdv(INITIATOR_skill<=5)->foolishly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->hesitantly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->reluctantly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->slowly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->tentatively</li>
+    <li>skillAdv(INITIATOR_skill<=6)->inexpertly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->amateurishly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->timidly</li>
+    <li>skillAdv(INITIATOR_skill<=8)->enthusiastically</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->proficiently</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->competently</li>
+    <li>skillAdv(INITIATOR_skill>=8)->professionally</li>
+    <li>skillAdv(INITIATOR_skill>=8)->deftly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->aptly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->cleverly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->dexterously</li>
+    <li>skillAdv(INITIATOR_skill>=8)->skillfully</li>
+    <li>skillAdv(INITIATOR_skill>=10)->adeptly</li>
+    <li>skillAdv(INITIATOR_skill>=10)->slickly</li>
+    <li>skillAdv(INITIATOR_skill>=12)->expertly</li>
+    <li>skillAdv(INITIATOR_skill>=12)->precisely</li>
+    <li>skillAdv(INITIATOR_skill>=14)->masterfully</li>
+    <li>skillAdv(INITIATOR_skill>=16)->artistically</li>
+    <li>skillAdv(INITIATOR_skill>=16)->gracefully</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->mechanically</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->robotically</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->directly</li>
+  -->
+  <Combat_SkillIncludes.rulePack.rulesStrings>
+    <li>skillDescMelee->{INITIATOR_gender ? der : die : das} [his_acc] [weapon_acc_pos] [skillAdv] [wielding]</li>
+    <li>skillDescMelee->{INITIATOR_gender ? der : die : das} [implement_acc] [skillAdv] benutzte</li>
+    <li>wielding(p=4)->führte</li>
+    <li>wielding(p=3)->benutzte</li>
+    <li>wielding(p=2)->schwang</li>
+    <!-- <li>wielding->herumfuchtelte</li> -->
+    <li>skillAdv(INITIATOR_skill&lt;=3)->ungeschickt</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->unpassend</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->wild</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->unkontrolliert</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->fuchtelnd</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->umständlich</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->unbeholfen</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->ängstlich</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->unsicher</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->tölpelhaft</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->zögerlich</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->unwillig</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->langsam</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->vorsichtig</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->unerfahren</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->amateurhaft</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->zaghaft</li>
+    <li>skillAdv(INITIATOR_skill&lt;=8)->begeistert</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->tüchtig</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->geschickt</li>
+    <li>skillAdv(INITIATOR_skill>=8)->professionell</li>
+    <li>skillAdv(INITIATOR_skill>=8)->flink</li>
+    <li>skillAdv(INITIATOR_skill>=8)->vorzüglich</li>
+    <li>skillAdv(INITIATOR_skill>=8)->klug</li>
+    <li>skillAdv(INITIATOR_skill>=8)->gewandt</li>
+    <li>skillAdv(INITIATOR_skill>=8)->fähig</li>
+    <li>skillAdv(INITIATOR_skill>=10)->geschickt</li>
+    <li>skillAdv(INITIATOR_skill>=10)->sauber</li>
+    <li>skillAdv(INITIATOR_skill>=12)->fachmännisch</li>
+    <li>skillAdv(INITIATOR_skill>=12)->präzise</li>
+    <li>skillAdv(INITIATOR_skill>=14)->meisterhaft</li>
+    <li>skillAdv(INITIATOR_skill>=16)->künstlerisch</li>
+    <li>skillAdv(INITIATOR_skill>=16)->elegant</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->mechanisch</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->roboterhaft</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->direkt</li>
+  </Combat_SkillIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] and [recipient_part_destroyed1_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], and [recipient_part_destroyed2_label]</li>
+    <li>destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label], and [recipient_part_destroyed3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] and [recipient_part_damaged1_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], and [recipient_part_damaged2_label]</li>
+    <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], and [recipient_part_damaged3_label]</li>
+  -->
+  <Combat_WoundIncludes.rulePack.rulesStrings>
+    <!-- Nominativ, unbestimmt -->
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] und [recipient_part_destroyed1_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label] und [recipient_part_destroyed2_label]</li>
+    <li>destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label] und [recipient_part_destroyed3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] und [recipient_part_damaged1_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label] und [recipient_part_damaged2_label]</li>
+    <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label] und [recipient_part_damaged3_label]</li>
+    <!-- Akkusativ, unbestimmt -->
+    <li>destroyed_targets_acc(recipient_part_destroyed_count==1)->{replace: [recipient_part_destroyed0_label]; "er "-"en "}</li>
+    <li>destroyed_targets_acc(recipient_part_destroyed_count==2)->{replace: [recipient_part_destroyed0_label]; "er "-"en "} und {replace: [recipient_part_destroyed1_label]; "er "-"en "}</li>
+    <li>destroyed_targets_acc(recipient_part_destroyed_count==3)->{replace: [recipient_part_destroyed0_label]; "er "-"en "}, {replace: [recipient_part_destroyed1_label]; "er "-"en "} und {replace: [recipient_part_destroyed2_label]; "er "-"en "}</li>
+    <li>destroyed_targets_acc->{replace: [recipient_part_destroyed0_label]; "er "-"en "}, {replace: [recipient_part_destroyed1_label]; "er "-"en "}, {replace: [recipient_part_destroyed2_label]; "er "-"en "} und {replace: [recipient_part_destroyed3_label]; "er "-"en "}</li>
+    <li>damaged_targets_acc(recipient_part_damaged_count==1)->{replace: [recipient_part_damaged0_label]; "er "-"en "}</li>
+    <li>damaged_targets_acc(recipient_part_damaged_count==2)->{replace: [recipient_part_damaged0_label]; "er "-"en "} und {replace: [recipient_part_damaged1_label]; "er "-"en "}</li>
+    <li>damaged_targets_acc(recipient_part_damaged_count==3)->{replace: [recipient_part_damaged0_label]; "er "-"en "}, {replace: [recipient_part_damaged1_label]; "er "-"en "} und {replace: [recipient_part_damaged2_label]; "er "-"en "}</li>
+    <li>damaged_targets_acc->{replace: [recipient_part_damaged0_label]; "er "-"en "}, {replace: [recipient_part_damaged1_label]; "er "-"en "}, {replace: [recipient_part_damaged2_label]; "er "-"en "} und {replace: [recipient_part_damaged3_label]; "er "-"en "}</li>
+    <!-- Akkusativ, bestimmt -->
+    <li>destroyed_targets_acc_def(recipient_part_destroyed_count==1)->{replace: [recipient_part_destroyed0_label]; "er "-"en "; "es "-"e "}</li>
+    <li>destroyed_targets_acc_def(recipient_part_destroyed_count==2)->{replace: [recipient_part_destroyed0_label]; "er "-"en "; "es "-"e "} und {replace: [recipient_part_destroyed1_label]; "er "-"en "; "es "-"e "}</li>
+    <li>destroyed_targets_acc_def(recipient_part_destroyed_count==3)->{replace: [recipient_part_destroyed0_label]; "er "-"en "; "es "-"e "}, {replace: [recipient_part_destroyed1_label]; "er "-"en "; "es "-"e "} und {replace: [recipient_part_destroyed2_label]; "er "-"en "; "es "-"e "}</li>
+    <li>destroyed_targets_acc_def->{replace: [recipient_part_destroyed0_label]; "er "-"en "; "es "-"e "}, {replace: [recipient_part_destroyed1_label]; "er "-"en "; "es "-"e "}, {replace: [recipient_part_destroyed2_label]; "er "-"en "; "es "-"e "} und {replace: [recipient_part_destroyed3_label]; "er "-"en "; "es "-"e "}</li>
+    <li>damaged_targets_acc_def(recipient_part_damaged_count==1)->{replace: [recipient_part_damaged0_label]; "er "-"en "; "es "-"e "}</li>
+    <li>damaged_targets_acc_def(recipient_part_damaged_count==2)->{replace: [recipient_part_damaged0_label]; "er "-"en "; "es "-"e "} und {replace: [recipient_part_damaged1_label]; "er "-"en "; "es "-"e "}</li>
+    <li>damaged_targets_acc_def(recipient_part_damaged_count==3)->{replace: [recipient_part_damaged0_label]; "er "-"en "; "es "-"e "}, {replace: [recipient_part_damaged1_label]; "er "-"en "; "es "-"e "} und {replace: [recipient_part_damaged2_label]; "er "-"en "; "es "-"e "}</li>
+    <li>damaged_targets_acc_def->{replace: [recipient_part_damaged0_label]; "er "-"en "; "es "-"e "}, {replace: [recipient_part_damaged1_label]; "er "-"en "; "es "-"e "}, {replace: [recipient_part_damaged2_label]; "er "-"en "; "es "-"e "} und {replace: [recipient_part_damaged3_label]; "er "-"en "; "es "-"e "}</li>
+    <!-- Artikel -->
+    <li>recipient_part_destroyed0_article_acc->{replace: ^[recipient_part_destroyed0_definite]; "^der [recipient_part_destroyed0_label]"-"den"; "^die Kiefer"-"den"; "^die [recipient_part_destroyed0_label]"-"die"; "^das [recipient_part_destroyed0_label]"-"das"; "^"-""}</li>
+    <li>recipient_part_damaged0_article_acc->{replace: ^[recipient_part_damaged0_definite]; "^der [recipient_part_damaged0_label]"-"den"; "^die Kiefer"-"den"; "^die [recipient_part_damaged0_label]"-"die"; "^das [recipient_part_damaged0_label]"-"das"; "^"-""}</li>
+    <!-- Pronomen -->
+    <li>recipient_part_destroyed0_possessive_acc->{replace: ^[recipient_part_destroyed0_definite]; "^der [recipient_part_destroyed0_label]"-"[RECIPIENT_possessive]en"; "^die Kiefer"-"[RECIPIENT_possessive]en"; "^die [recipient_part_destroyed0_label]"-"[RECIPIENT_possessive]e"; "^das [recipient_part_destroyed0_label]"-"[RECIPIENT_possessive]"; "^"-""}</li>
+    <li>recipient_part_damaged0_possessive_acc->{replace: ^[recipient_part_damaged0_definite]; "^der [recipient_part_damaged0_label]"-"[RECIPIENT_possessive]en"; "^die Kiefer"-"[RECIPIENT_possessive]en"; "^die [recipient_part_damaged0_label]"-"[RECIPIENT_possessive]e"; "^das [recipient_part_damaged0_label]"-"[RECIPIENT_possessive]"; "^"-""}</li>
+  </Combat_WoundIncludes.rulePack.rulesStrings>
+  
+</LanguageData>

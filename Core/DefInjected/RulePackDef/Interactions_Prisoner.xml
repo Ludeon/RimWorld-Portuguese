@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>sent->[RECIPIENT_nameDef] has accepted and joined [INITIATOR_nameDef]'s community.</li>
+  -->
+  <Sentence_RecruitAttemptAccepted.rulePack.rulesStrings>
+    <li>sent->[RECIPIENT_nameDef] hat angenommen und tritt {replace: [INITIATOR_nameDef]s; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"} Gemeinschaft bei.</li>
+  </Sentence_RecruitAttemptAccepted.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>sent->[RECIPIENT_nameDef] refused.</li>
+  -->
+  <Sentence_RecruitAttemptRejected.rulePack.rulesStrings>
+    <li>sent->[RECIPIENT_nameDef] lehnte ab.</li>
+  </Sentence_RecruitAttemptRejected.rulePack.rulesStrings>
+  
+</LanguageData>

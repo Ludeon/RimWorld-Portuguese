@@ -1,24 +1,36 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <GrizzlyBear.label>grizzly bear</GrizzlyBear.label>
-    <GrizzlyBear.description>Huge omnivorous mammals adapted for cold climates. Their thick blubber and fur keep them warm in winter.\n\nWhile their usual diet consists of fish, berries, honey, and scavenged meat, the grizzly is capable of using its massive strength and deadly claws to kill live prey. They are startlingly quick for such lumbering creatures.</GrizzlyBear.description>
-    <GrizzlyBear_Leather.label>bearskin</GrizzlyBear_Leather.label>
-    <GrizzlyBear_Leather.description>Leather made from the skin of a grizzly bear.</GrizzlyBear_Leather.description>
-    <GrizzlyBear_Leather.stuffProps.stuffAdjective>bearskin</GrizzlyBear_Leather.stuffProps.stuffAdjective>
-    <GrizzlyBear_Meat.label>grizzly bear meat</GrizzlyBear_Meat.label>
-    <GrizzlyBear_Meat.description>Raw flesh of a grizzly bear.</GrizzlyBear_Meat.description>
-    <GrizzlyBear_Corpse.label>grizzly bear corpse</GrizzlyBear_Corpse.label>
-    <GrizzlyBear_Corpse.description>Dead body of a grizzly bear.</GrizzlyBear_Corpse.description>
-    
-    <PolarBear.label>polar bear</PolarBear.label>
-    <PolarBear.description>A great white bear that lives in the far north. Their thick blubber and fur keep them warm in winter.\n\nWhile their usual diet consists of fish and scavenged meat, the polar bear is more than capable of using its massive strength and deadly claws to kill live prey. They are startlingly quick for such lumbering creatures.</PolarBear.description>
-    <PolarBear_Leather.label>polarbearskin</PolarBear_Leather.label>
-    <PolarBear_Leather.description>Leather made from the skin of a polar bear.</PolarBear_Leather.description>
-    <PolarBear_Leather.stuffProps.stuffAdjective>polarbearskin</PolarBear_Leather.stuffProps.stuffAdjective>
-    <PolarBear_Meat.label>polar bear meat</PolarBear_Meat.label>
-    <PolarBear_Meat.description>Raw flesh of a polar bear.</PolarBear_Meat.description>
-    <PolarBear_Corpse.label>polar bear corpse</PolarBear_Corpse.label>
-    <PolarBear_Corpse.description>Dead body of a polar bear.</PolarBear_Corpse.description>
-    
+  
+  <!-- EN: grizzly bear -->
+  <Bear_Grizzly.label>Grizzlybär</Bear_Grizzly.label>
+  <!-- EN: A huge omnivorous mammal adapted for cold climates. Bears' thick blubber and fur keeps them warm in winter.\n\nWhile their usual diet consists of fish, berries, honey, and scavenged meat, the grizzly is capable of using its massive strength and deadly claws to kill live prey. They are startlingly quick for such lumbering creatures. -->
+  <Bear_Grizzly.description>Riesige, allesfressende Säugetiere, die an kalte Klimazonen angepasst sind. Ihr dickes Fell hält die Bären im Winter warm.\n\nGrizzlybären ernähren sich hauptsächlich von Fisch, Beeren, Honig und Aas, aber sie sind auch in der Lage, mit ihrer enormen Stärke und ihren tödlichen Krallen lebende Beute zu erlegen. Trotz ihrer Schwerfälligkeit sind sie erstaunlich schnell.</Bear_Grizzly.description>
+  <!-- EN: bear meat -->
+  <Bear_Grizzly.race.meatLabel>Bärenfleisch</Bear_Grizzly.race.meatLabel>
+  <!-- EN: left claw -->
+  <Bear_Grizzly.tools.left_claw.label>linke Tatze</Bear_Grizzly.tools.left_claw.label>
+  <!-- EN: claw -->
+  <Bear_Grizzly.tools.left_claw.labelNoLocation>Tatze</Bear_Grizzly.tools.left_claw.labelNoLocation>
+  <!-- EN: right claw -->
+  <Bear_Grizzly.tools.right_claw.label>rechte Tatze</Bear_Grizzly.tools.right_claw.label>
+  <!-- EN: claw -->
+  <Bear_Grizzly.tools.right_claw.labelNoLocation>Tatze</Bear_Grizzly.tools.right_claw.labelNoLocation>
+  <!-- EN: head -->
+  <Bear_Grizzly.tools.head.label>Kopf</Bear_Grizzly.tools.head.label>
+  
+  <!-- EN: polar bear -->
+  <Bear_Polar.label>Eisbär</Bear_Polar.label>
+  <!-- EN: A great white bear adapted for frozen climates. Their thick blubber and fur keep them warm in winter.\n\nWhile their usual diet consists of fish and scavenged meat, the polar bear can also use its massive strength and deadly claws to kill live prey. They are startlingly quick for such lumbering creatures. -->
+  <Bear_Polar.description>Große, weiße Bären, die in eisigen Klimazonen leben. Ihr dickes Fell hält die Bären im Winter warm.\n\nEisbären ernähren sich hauptsächlich von Fisch und Aas, aber sie sind auch in der Lage, mit ihrer enormen Stärke und ihren tödlichen Krallen lebende Beute zu erlegen. Trotz ihrer Schwerfälligkeit sind sie erstaunlich schnell.</Bear_Polar.description>
+  <!-- EN: left claw -->
+  <Bear_Polar.tools.left_claw.label>linke Tatze</Bear_Polar.tools.left_claw.label>
+  <!-- EN: claw -->
+  <Bear_Polar.tools.left_claw.labelNoLocation>Tatze</Bear_Polar.tools.left_claw.labelNoLocation>
+  <!-- EN: right claw -->
+  <Bear_Polar.tools.right_claw.label>rechte Tatze</Bear_Polar.tools.right_claw.label>
+  <!-- EN: claw -->
+  <Bear_Polar.tools.right_claw.labelNoLocation>Tatze</Bear_Polar.tools.right_claw.labelNoLocation>
+  <!-- EN: head -->
+  <Bear_Polar.tools.head.label>Kopf</Bear_Polar.tools.head.label>
+  
 </LanguageData>

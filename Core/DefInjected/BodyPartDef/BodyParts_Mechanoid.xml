@@ -1,74 +1,85 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-	<MechanicalThorax.label>tórax</MechanicalThorax.label>
-	
-	<LeftKnifeProtrusion.label>protusão da faca esquerda</LeftKnifeProtrusion.label>
-	
-	<RightKnifeProtrusion.label>protusão da faca direita</RightKnifeProtrusion.label>
-	
-	<MechanicalNeck.label>pescoço</MechanicalNeck.label>
-	
-	<MechanicalHead.label>cabeça</MechanicalHead.label>
-	
-	<LeftSightSensor.label>sensor visual esquerdo</LeftSightSensor.label>
-	
-	<RightSightSensor.label>sensor visual direito</RightSightSensor.label>
-	
-	<LeftHearingSensor.label>sensor auditivo esquerdo</LeftHearingSensor.label>
-	
-	<RightHearingSensor.label>sensor auditivo direito</RightHearingSensor.label>
-	
-	<SmellSensor.label>sensor olfativo</SmellSensor.label>
-	
-	<LeftMechanicalShoulder.label>ombro esquerdo</LeftMechanicalShoulder.label>
-	
-	<LeftMechanicalArm.label>braço esquerdo</LeftMechanicalArm.label>
-	
-	<LeftMechanicalHand.label>mão esquerda</LeftMechanicalHand.label>
-	
-	<LeftHandMechanicalPinky.label>mindinho da mão esquerda</LeftHandMechanicalPinky.label>
-	
-	<LeftHandMechanicalMiddleFinger.label>dedo médio da mão esquerda</LeftHandMechanicalMiddleFinger.label>
-	
-	<LeftHandMechanicalIndexFinger.label>dedo indicador da mão esquerda</LeftHandMechanicalIndexFinger.label>
-	
-	<LeftHandMechanicalThumb.label>polegar da mão esquerda</LeftHandMechanicalThumb.label>
-	
-	<RightMechanicalShoulder.label>ombro direito</RightMechanicalShoulder.label>
-	
-	<RightMechanicalArm.label>braço direito</RightMechanicalArm.label>
-	
-	<RightMechanicalHand.label>mão direita</RightMechanicalHand.label>
-	
-	<RightHandMechanicalPinky.label>mindinho da mão direita</RightHandMechanicalPinky.label>
-	
-	<RightHandMechanicalMiddleFinger.label>dedo médio da mão direita</RightHandMechanicalMiddleFinger.label>
-	
-	<RightHandMechanicalIndexFinger.label>dedo indicador da mão direita</RightHandMechanicalIndexFinger.label>
-	
-	<RightHandMechanicalThumb.label>polegar da mão direita</RightHandMechanicalThumb.label>
-	
-	<LeftMechanicalLeg.label>perna esquerda</LeftMechanicalLeg.label>
-	
-	<LeftMechanicalFoot.label>pé esquerdo</LeftMechanicalFoot.label>
-	
-	<RightMechanicalLeg.label>perna direita</RightMechanicalLeg.label>
-	
-	<RightMechanicalFoot.label>pé direito</RightMechanicalFoot.label>
-	
-	<MechanicalCentipedeBodyFirstRing.label>primeiro anel corporal</MechanicalCentipedeBodyFirstRing.label>
-	
-	<MechanicalCentipedeBodySecondRing.label>segundo anel corporal</MechanicalCentipedeBodySecondRing.label>
-	
-	<MechanicalCentipedeBodyThirdRing.label>terceiro anel corporal</MechanicalCentipedeBodyThirdRing.label>
-	
-	<MechanicalCentipedeBodyFourthRing.label>quarto anel corporal</MechanicalCentipedeBodyFourthRing.label>
-	
-	<MechanicalCentipedeBodyFifthRing.label>quinto anel corporal</MechanicalCentipedeBodyFifthRing.label>
-	
-	<MechanicalCentipedeBodySixthRing.label>sexto anel corporal</MechanicalCentipedeBodySixthRing.label>
-	
-	<ArtificialBrain.label>cérebro Artificial</ArtificialBrain.label>
-    
+  
+  <!-- EN: artificial brain -->
+  <ArtificialBrain.label>künstliches Gehirn</ArtificialBrain.label>
+  
+  <!-- EN: blade -->
+  <Blade.label>Klinge</Blade.label>
+  
+  <!-- EN: fluid reprocessor -->
+  <FluidReprocessor.label>Wasseraufbereiter</FluidReprocessor.label>
+  
+  <!-- EN: sound sensor -->
+  <HearingSensor.label>Akustiksensor</HearingSensor.label>
+  
+  <!-- EN: arm -->
+  <MechanicalArm.label>Arm</MechanicalArm.label>
+  
+  <!-- EN: fifth body ring -->
+  <MechanicalCentipedeBodyFifthRing.label>fünfter Körperring</MechanicalCentipedeBodyFifthRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyFifthRing.labelShort>Körperring</MechanicalCentipedeBodyFifthRing.labelShort>
+  
+  <!-- EN: first body ring -->
+  <MechanicalCentipedeBodyFirstRing.label>erster Körperring</MechanicalCentipedeBodyFirstRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyFirstRing.labelShort>Körperring</MechanicalCentipedeBodyFirstRing.labelShort>
+  
+  <!-- EN: fourth body ring -->
+  <MechanicalCentipedeBodyFourthRing.label>vierter Körperring</MechanicalCentipedeBodyFourthRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyFourthRing.labelShort>Körperring</MechanicalCentipedeBodyFourthRing.labelShort>
+  
+  <!-- EN: second body ring -->
+  <MechanicalCentipedeBodySecondRing.label>zweiter Körperring</MechanicalCentipedeBodySecondRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodySecondRing.labelShort>Körperring</MechanicalCentipedeBodySecondRing.labelShort>
+  
+  <!-- EN: sixth body ring -->
+  <MechanicalCentipedeBodySixthRing.label>sechster Körperring</MechanicalCentipedeBodySixthRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodySixthRing.labelShort>Körperring</MechanicalCentipedeBodySixthRing.labelShort>
+  
+  <!-- EN: third body ring -->
+  <MechanicalCentipedeBodyThirdRing.label>dritter Körperring</MechanicalCentipedeBodyThirdRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyThirdRing.labelShort>Körperring</MechanicalCentipedeBodyThirdRing.labelShort>
+  
+  <!-- EN: finger -->
+  <MechanicalFinger.label>Finger</MechanicalFinger.label>
+  
+  <!-- EN: foot -->
+  <MechanicalFoot.label>Fuß</MechanicalFoot.label>
+  
+  <!-- EN: hand -->
+  <MechanicalHand.label>Hand</MechanicalHand.label>
+  
+  <!-- EN: head -->
+  <MechanicalHead.label>Kopf</MechanicalHead.label>
+  
+  <!-- EN: leg -->
+  <MechanicalLeg.label>Bein</MechanicalLeg.label>
+  
+  <!-- EN: neck -->
+  <MechanicalNeck.label>Hals</MechanicalNeck.label>
+  
+  <!-- EN: shoulder -->
+  <MechanicalShoulder.label>Schulter</MechanicalShoulder.label>
+  
+  <!-- EN: thorax -->
+  <MechanicalThorax.label>Brustkorb</MechanicalThorax.label>
+  
+  <!-- EN: thorax -->
+  <MechanicalThoraxCanManipulate.label>Brustkorb</MechanicalThoraxCanManipulate.label>
+  
+  <!-- EN: reactor -->
+  <Reactor.label>Reaktor</Reactor.label>
+  
+  <!-- EN: visual sensor -->
+  <SightSensor.label>Optiksensor</SightSensor.label>
+  
+  <!-- EN: chemical analyzer -->
+  <SmellSensor.label>Geruchssensor</SmellSensor.label>
+  
 </LanguageData>
