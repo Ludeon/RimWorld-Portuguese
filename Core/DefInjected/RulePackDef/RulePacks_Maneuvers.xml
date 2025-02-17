@@ -33,61 +33,24 @@
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] messy strips</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] an unrecognizable mess</li>
   -->
-  <Maneuver_Bite.rulePack.rulesStrings>
-    <li>damaged_inf->beißen</li>
-    <li>damaged_past->biss</li>
-    <li>damaged_present->beißt</li>
-    <li>damaged_adj->beißenden</li>
-    <li>damaged_type->Bissangriff</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->das darunterliegende Fleisch freilegte</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->die interne Maschinerie freilegte</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->grässliche Spuren in der Haut hinterließ</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->grässliche Spuren im Metall hinterließ</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->eine riesige Bisswunde hinterließ</li>
-    <li>destroyed_past->zerbiss</li>
-    <li>destroyed_past->zerkaute</li>
-    <li>destroyed_past->zerriss</li>
-    <li>destroyed_past->zerfraß</li>
-    <li>destroyed_present->zerbeißt</li>
-    <li>destroyed_present->zerkaut</li>
-    <li>destroyed_present->zerreißt</li>
-    <li>destroyed_present->zerfrisst</li>
-    <li>destroyed_suffix->in Stücke</li>
-    <li>destroyed_suffix->in Teile</li>
-    <li>was_destroyed->zerbissen</li>
-    <li>was_destroyed->zerkaut</li>
-    <li>was_destroyed->zerrissen</li>
-    <li>was_destroyed->zerfressen</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->in Fetzen</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->in Streifen</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->in blutige Streifen</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->bis zur Unkenntlichkeit</li>
-  </Maneuver_Bite.rulePack.rulesStrings>
+  <Maneuver_Bite.rulePack.rulesStrings>TODO</Maneuver_Bite.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] dodged out of the way.</li>
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] blocked it.</li>
   -->
-  <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] versuchte, [TOOL_label] in [RECIPIENT_label_s] Augen zu werfen, aber [RECIPIENT_definite] sprang zur Seite.</li>
-    <li>r_logentry->[INITIATOR_definite] versuchte, [TOOL_label] in [RECIPIENT_label_s] Augen zu werfen, aber [RECIPIENT_definite] konnte es abwehren.</li>
-  </Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
+  <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>TODO</Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] kicked [TOOL_label] in [RECIPIENT_definite]'s eyes.</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] kicked a spray of [TOOL_label] in [RECIPIENT_definite]'s eyes.</li>
   -->
-  <Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] warf [TOOL_label] in [RECIPIENT_label_s] Augen.</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] warf eine Ladung [TOOL_label] in [RECIPIENT_label_s] Augen.</li>
-  </Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
+  <Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>TODO</Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but missed.</li>
   -->
-  <Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] versuchte, [TOOL_label] in [RECIPIENT_label_s] Augen zu werfen, aber verfehlte.</li>
-  </Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
+  <Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>TODO</Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_inf(p=2)->poke</li>
@@ -124,34 +87,7 @@
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] a fine mist</li>
     <li>destroyed_suffix->[to] fragments</li>
   -->
-  <Maneuver_Poke.rulePack.rulesStrings>
-    <li>damaged_inf->stoßen</li>
-    <li>damaged_past->stieß</li>
-    <li>damaged_present->stößt</li>
-    <li>was_damaged->gestoßen</li>
-    <li>damaged_adj->stoßend</li>
-    <li>damaged_type->Stoßangriff</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->eine riesige Prellung hinterließ</li>
-    <li>flavortext_consequence->den Bereich sichtlich deformierte</li>
-    <li>flavortext_consequence->[RECIPIENT_objective] aus dem Gleichgewicht brachte</li>
-    <li>flavortext_consequence->[RECIPIENT_objective] zur Seite stieß</li>
-    <li>destroyed_past->zerschmetterte</li>
-    <li>destroyed_past->zerdrückte</li>
-    <li>destroyed_past->zerstörte</li>
-    <li>destroyed_past->zerbrach</li>
-    <li>destroyed_present->zerschmettert</li>
-    <li>destroyed_present->zerdrückt</li>
-    <li>destroyed_present->zerstört</li>
-    <li>destroyed_present->zerbrochen</li>
-    <li>was_destroyed->zerschmettert</li>
-    <li>was_destroyed->zerdrückt</li>
-    <li>was_destroyed->zerstört</li>
-    <li>was_destroyed->zerbrochen</li>
-    <li>destroyed_suffix->in Stücke</li>
-    <li>destroyed_suffix->in kleine Teile</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->zu Staub</li>
-    <li>destroyed_suffix->in Fragmente</li>
-  </Maneuver_Poke.rulePack.rulesStrings>
+  <Maneuver_Poke.rulePack.rulesStrings>TODO</Maneuver_Poke.rulePack.rulesStrings>
   
   <!-- EN:
     <li>woundname->wound</li>
@@ -166,17 +102,7 @@
     <li>destroyed_suffix->[to] fragments</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] a pile of gore</li>
   -->
-  <Maneuver_Scratch.rulePack.rulesStrings>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->das darunterliegende Fleisch freilegte</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->die interne Maschinerie freilegte</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->eine blutende Kratzwunde hinterließ</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->in blutige Streifen</li>
-    <li>destroyed_suffix->in Streifen</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->in blutige Stücke</li>
-    <li>destroyed_suffix->in Stücke</li>
-    <li>destroyed_suffix->in Fragmente</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->zu einem Bluthaufen</li>
-  </Maneuver_Scratch.rulePack.rulesStrings>
+  <Maneuver_Scratch.rulePack.rulesStrings>TODO</Maneuver_Scratch.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_inf(p=4)->scratch</li>
@@ -202,29 +128,7 @@
     <li>destroyed_present->shredding</li>
     <li>destroyed_present->ripping</li>
   -->
-  <Maneuver_Scratch_Damage.rulePack.rulesStrings>
-    <li>damaged_inf->kratzen</li>
-    <li>damaged_past->kratzte</li>
-    <li>damaged_present->kratzt</li>
-    <li>was_damaged->gekratzt</li>
-    <li>damaged_adj->kratzend</li>
-    <li>damaged_type->Kratzangriff</li>
-    <li>destroyed_past->verstümmelte</li>
-    <li>destroyed_past->zerfleischte</li>
-    <li>destroyed_past->zerriss</li>
-    <li>destroyed_past->zerfetzte</li>
-    <li>destroyed_past->zerstückelte</li>
-    <li>destroyed_present->verstümmelt</li>
-    <li>destroyed_present->zerfleischt</li>
-    <li>destroyed_present->zerreißt</li>
-    <li>destroyed_present->zerfetzt</li>
-    <li>destroyed_present->zerstückelt</li>
-    <li>was_destroyed->verstümmelt</li>
-    <li>was_destroyed->zerfleischt</li>
-    <li>was_destroyed->zerrissen</li>
-    <li>was_destroyed->zerfetzt</li>
-    <li>was_destroyed->zerstückelt</li>
-  </Maneuver_Scratch_Damage.rulePack.rulesStrings>
+  <Maneuver_Scratch_Damage.rulePack.rulesStrings>TODO</Maneuver_Scratch_Damage.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_inf(p=4)->slash</li>
@@ -265,36 +169,7 @@
     <li>destroyed_suffix(target_part_destroyed_count==1)->exposing its inner workings</li>
     <li>destroyed_suffix(target_part_destroyed_count==1)->slicing it in twain</li>
   -->
-  <Maneuver_Slash.rulePack.rulesStrings>
-    <li>damaged_inf->schneiden</li>
-    <li>damaged_inf->schlitzen</li>
-    <li>damaged_past->schnitt</li>
-    <li>damaged_past->schlitzte</li>
-    <li>damaged_present->schnitt</li>
-    <li>damaged_present->schlitzt</li>
-    <li>damaged_adj->schneidend</li>
-    <li>damaged_adj->schlitzend</li>
-    <li>damaged_type->Schnittangriff</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->das darunterliegende Fleisch freilegte</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->die interne Maschinerie freilegte</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->eine riesige Schnittwunde hinterließ</li>
-    <li>destroyed_past->zweiteilte</li>
-    <li>destroyed_past->spaltete</li>
-    <li>destroyed_past->halbierte</li>
-    <li>destroyed_past->zerstückelte</li>
-    <li>destroyed_present->zweiteilt</li>
-    <li>destroyed_present->spaltet</li>
-    <li>destroyed_present->halbiert</li>
-    <li>destroyed_present->zerstückelt</li>
-    <li>was_destroyed->gezweiteilt</li>
-    <li>was_destroyed->gespaltet</li>
-    <li>was_destroyed->halbiert</li>
-    <li>was_destroyed->zerstückelt</li>
-    <li>destroyed_suffix->in feine Stücke</li>
-    <li>destroyed_suffix->fein säuberlich</li>
-    <li>destroyed_suffix(target_part_destroyed_count==1)->, um das Innenleben freizulegen</li>
-    <li>destroyed_suffix(target_part_destroyed_count==1)->, um es in zwei Hälften aufzuteilen</li>
-  </Maneuver_Slash.rulePack.rulesStrings>
+  <Maneuver_Slash.rulePack.rulesStrings>TODO</Maneuver_Slash.rulePack.rulesStrings>
   
   <!-- EN:
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving an enormous bruise</li>
@@ -306,16 +181,7 @@
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] a fine mist</li>
     <li>destroyed_suffix->[to] fragments</li>
   -->
-  <Maneuver_Smash.rulePack.rulesStrings>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->eine riesige Prellung hinterließ</li>
-    <li>flavortext_consequence->den Bereich sichtlich deformierte</li>
-    <li>flavortext_consequence->[RECIPIENT_objective] aus dem Gleichgewicht brachte</li>
-    <li>flavortext_consequence->[RECIPIENT_objective] zur Seite stieß</li>
-    <li>destroyed_suffix->in Stücke</li>
-    <li>destroyed_suffix->in kleine Teile</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->zu Staub</li>
-    <li>destroyed_suffix->in Fragmente</li>
-  </Maneuver_Smash.rulePack.rulesStrings>
+  <Maneuver_Smash.rulePack.rulesStrings>TODO</Maneuver_Smash.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_inf->hit</li>
@@ -340,48 +206,7 @@
     <li>destroyed_present->crushing</li>
     <li>destroyed_present->breaking</li>
   -->
-  <Maneuver_Smash_Damage.rulePack.rulesStrings>
-    <li>damaged_inf(p=3)->schlagen</li>
-    <li>damaged_inf->rammen</li>
-    <li>damaged_inf(p=2)->hauen</li>
-    <li>damaged_inf->prügeln</li>
-    <li>damaged_inf->quetschen</li>
-    <li>damaged_past(p=3)->schlug</li>
-    <li>damaged_past->rammte</li>
-    <li>damaged_past(p=2)->haute</li>
-    <li>damaged_past->prügelte</li>
-    <li>damaged_past->quetschte</li>
-    <li>damaged_present(p=3)->schlägt</li>
-    <li>damaged_present->rammt</li>
-    <li>damaged_present(p=2)->haut</li>
-    <li>damaged_present->prügelt</li>
-    <li>damaged_present->quetscht</li>
-    <li>was_damaged(p=3)->geschlagen</li>
-    <li>was_damaged->gerammt</li>
-    <li>was_damaged(p=2)->gehauen</li>
-    <li>was_damaged->geprügelt</li>
-    <li>was_damaged->gequetscht</li>
-    <li>damaged_adj->schlagend</li>
-    <li>damaged_type->Schlagangriff</li>
-    <li>destroyed_past->zerquetschte</li>
-    <li>destroyed_past->zerschmetterte</li>
-    <li>destroyed_past->zerbrach</li>
-    <li>destroyed_past->zerschlug</li>
-    <li>destroyed_past->zertrümmerte</li>
-    <li>destroyed_past->zerbarst</li>
-    <li>destroyed_present->zerquetscht</li>
-    <li>destroyed_present->zerschmettert</li>
-    <li>destroyed_present->zerbricht</li>
-    <li>destroyed_present->zerschlägt</li>
-    <li>destroyed_present->zertrümmert</li>
-    <li>destroyed_present->zerberstet</li>
-    <li>was_destroyed->zerquetscht</li>
-    <li>was_destroyed->zerschmettert</li>
-    <li>was_destroyed->zerbrochen</li>
-    <li>was_destroyed->zerschlagen</li>
-    <li>was_destroyed->zertrümmert</li>
-    <li>was_destroyed->zerborsten</li>
-  </Maneuver_Smash_Damage.rulePack.rulesStrings>
+  <Maneuver_Smash_Damage.rulePack.rulesStrings>TODO</Maneuver_Smash_Damage.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_inf(p=4)->stab</li>
@@ -415,36 +240,6 @@
     <li>destroyed_suffix(recipient_flesh!=Mechanoid,target_part_destroyed_count==1)->leaving it leaking gory fluids</li>
     <li>destroyed_suffix(target_part_destroyed_count==1)->leaving it leaking unrecognizable fluids</li>
   -->
-  <Maneuver_Stab.rulePack.rulesStrings>
-    <li>damaged_inf(p=4)->stechen</li>
-    <li>damaged_inf->piksen</li>
-    <li>damaged_past(p=4)->stach</li>
-    <li>damaged_past->pikste</li>
-    <li>damaged_present(p=4)->sticht</li>
-    <li>damaged_present->pikst</li>
-    <li>was_damaged(p=4)->gestochen</li>
-    <li>was_damaged->gepikst</li>
-    <li>damaged_adj->stechend</li>
-    <li>damaged_type->Stichangriff</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->eine blutige Stichwunde hinterließ</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->eine aufgerissene Stichwunde hinterließ</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->eine blutende Stichwunde hinterließ</li>
-    <li>destroyed_past->pfählte</li>
-    <li>destroyed_past->durchlöcherte</li>
-    <li>destroyed_past->durchbohrte</li>
-    <li>destroyed_past->durchstach</li>
-    <li>destroyed_present->pfählt</li>
-    <li>destroyed_present->durchlöchert</li>
-    <li>destroyed_present->durchbohrt</li>
-    <li>destroyed_present->durchsticht</li>
-    <li>was_destroyed->gepfählt</li>
-    <li>was_destroyed->durchlöchert</li>
-    <li>was_destroyed->durchbohrt</li>
-    <li>was_destroyed->durchstochen</li>
-    <li>destroyed_suffix->wie durch Butter</li>
-    <li>destroyed_suffix->, was ein sauberes Loch hinterließ</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,target_part_destroyed_count==1)->, was eine blutige Pfütze hinterließ</li>
-    <li>destroyed_suffix(target_part_destroyed_count==1)->, was unbekannte Flüssigkeiten austreten ließ</li>
-  </Maneuver_Stab.rulePack.rulesStrings>
+  <Maneuver_Stab.rulePack.rulesStrings>TODO</Maneuver_Stab.rulePack.rulesStrings>
   
 </LanguageData>

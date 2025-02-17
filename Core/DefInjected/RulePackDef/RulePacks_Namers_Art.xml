@@ -2,16 +2,6 @@
 <LanguageData>
   
   <!-- EN:
-    <li>Artwork->Words/Nouns/Artworks</li>
-  -->
-  <ArtNameUtility.rulePack.rulesFiles>
-    <li>Artwork->Words/Nouns/Artworks</li>
-    <li>ArtworkFem->Words/Nouns/Artworks_Fem</li>
-    <li>ArtworkMas->Words/Nouns/Artworks_Mas</li>
-    <li>ArtworkNeu->Words/Nouns/Artworks_Neu</li>
-  </ArtNameUtility.rulePack.rulesFiles>
-  
-  <!-- EN:
     <li>r_art_name(p=4)->[Artwork] [Trans] [ConceptAny]</li>
     <li>r_art_name(p=4)->[maybe_a] [maybe_adjective] [Artwork]</li>
     <li>r_art_name->[maybe_a] [maybe_adjective] [ConceptAny]</li>
@@ -54,88 +44,7 @@
     <li>maybe_adjective->[AdjectiveBadass]</li>
     <li>maybe_adjective->[Color]</li>
   -->
-  <NamerArtCommon.rulePack.rulesStrings>
-    <!-- General -->
-    <li>r_art_name(p=1.33)->[Artwork] des [ConceptAnyMasGen]</li>
-    <li>r_art_name(p=1.33)->[Artwork] der [ConceptAnyFemGen]</li>
-    <li>r_art_name(p=1.33)->[Artwork] des [ConceptAnyNeuGen]</li>
-    <li>r_art_name(p=1.33)->[maybe_a_Mas] [maybe_adjective_Mas] [ArtworkMas]</li>
-    <li>r_art_name(p=1.33)->[maybe_a_Fem] [maybe_adjective_Fem] [ArtworkFem]</li>
-    <li>r_art_name(p=1.33)->[maybe_a_Neu] [maybe_adjective_Neu] [ArtworkNeu]</li>
-    <li>r_art_name(p=0.33)->[maybe_a_Mas] [maybe_adjective_Mas] [ConceptAnyMas]</li>
-    <li>r_art_name(p=0.33)->[maybe_a_Fem] [maybe_adjective_Fem] [ConceptAnyFem]</li>
-    <li>r_art_name(p=0.33)->[maybe_a_Neu] [maybe_adjective_Neu] [ConceptAnyNeu]</li>
-    <li>r_art_name(p=0.33)->[maybe_a_Mas] [maybe_adjective_Mas] [TerrainFeatureMas]</li>
-    <li>r_art_name(p=0.33)->[maybe_a_Fem] [maybe_adjective_Fem] [TerrainFeatureFem]</li>
-    <li>r_art_name(p=0.33)->[maybe_a_Neu] [maybe_adjective_Neu] [TerrainFeatureNeu]</li>
-    <li>r_art_name(p=0.5)->[maybe_a_Mas] [maybe_adjective_Mas] [VegetableMas]</li>
-    <li>r_art_name(p=0.5)->[maybe_a_Fem] [maybe_adjective_Fem] [VegetableFem]</li>
-    <li>r_art_name->[maybe_a_Neu] [maybe_adjective_Neu] [Game]-Spiel</li>
-    <li>r_art_name(p=0.33)->[maybe_a_Mas] [maybe_adjective_Mas] [AnimalMas]</li>
-    <li>r_art_name(p=0.33)->[maybe_a_Fem] [maybe_adjective_Fem] [AnimalFem]</li>
-    <li>r_art_name(p=0.33)->[maybe_a_Neu] [maybe_adjective_Neu] [AnimalNeu]</li>
-    <li>r_art_name->[maybe_a_Mas] [maybe_adjective_Mas] [NaturalObjectMas]</li>
-    <li>r_art_name->[maybe_a_Fem] [maybe_adjective_Fem] [NaturalObjectFem]</li>
-    <li>r_art_name->[maybe_a_Neu] [maybe_adjective_Neu] [NaturalObjectNeu]</li>
-    <li>r_art_name(p=0.5)->[maybe_a_Fem] [maybe_adjective_Fem] [PersonFamilyFem]</li>
-    <li>r_art_name(p=0.5)->[maybe_a_Mas] [maybe_adjective_Mas] [PersonFamilyMas]</li>
-    <li>r_art_name->[maybe_a_Mas] [maybe_adjective_Mas] [Enemy]</li>
-    <!-- Numeric -->
-    <li>r_art_name(p=2)->[Artwork] Nr. [art_name_numeric]</li>
-    <li>r_art_name->Nr. [art_name_numeric]</li>
-    <li>r_art_name->[art_name_numeric]</li>
-    <li>r_art_name->[Artwork] [art_name_numeric]</li>
-    <li>r_art_name->[ConceptAny] Nr. [art_name_numeric]</li>
-    <li>r_art_name->[art_name_numeric] von [ANYPAWN_nameIndefDat]</li>
-    <!-- Person. High probability; if we can use these we want to -->
-    <li>r_art_name(p=6)->[ANYPAWN_label_s] [Artwork]</li>
-    <li>r_art_name->Der [ArtworkMas] von [ANYPAWN_nameIndefDat]</li>
-    <li>r_art_name->Die [ArtworkFem] von [ANYPAWN_nameIndefDat]</li>
-    <li>r_art_name->Das [ArtworkNeu] von [ANYPAWN_nameIndefDat]</li>
-    <li>r_art_name->[ANYPAWN_nameIndef] in [ColorCap]</li>
-    <li>r_art_name->[ANYPAWN_label_s] [PersonalCharacteristic]</li>
-    <li>r_art_name->[ANYPAWN_label_s] [PersonalCharacteristics]</li>
-    <li>r_art_name->Die [PersonalCharacteristics] von [ANYPAWN_nameIndefDat]</li>
-    <li>r_art_name->Der [PersonalCharacteristicMas] von [ANYPAWN_nameIndefDat]</li>
-    <li>r_art_name->Die [PersonalCharacteristicFem] von [ANYPAWN_nameIndefDat]</li>
-    <li>r_art_name->Das [PersonalCharacteristicNeu] von [ANYPAWN_nameIndefDat]</li>
-    <li>r_art_name->[ANYPAWN_label_s] [ConceptAny]</li>
-    <li>r_art_name->Der [ConceptAnyMas] von [ANYPAWN_nameIndefDat]</li>
-    <li>r_art_name->Die [ConceptAnyFem] von [ANYPAWN_nameIndefDat]</li>
-    <li>r_art_name->Das [ConceptAnyNeu] von [ANYPAWN_nameIndefDat]</li>
-    <li>art_name_numeric->[maybe_letter][Digit][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][Digit][Digit][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][Digit][Digit][Digit][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][RomanNumeral][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][RomanNumeral][Digit][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][Digit][RomanNumeral][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][Digit][RomanNumeral][Digit][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][RomanNumeral][Digit][RomanNumeral][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][RomanNumeral][Digit][Digit][RomanNumeral][maybe_letter]</li>
-    <li>maybe_letter(p=8)-></li>
-    <li>maybe_letter->[Letter]</li>
-    <li>maybe_letter->[Letter][Letter]</li>
-    <li>maybe_a_Fem(p=3)-></li>
-    <li>maybe_a_Fem->Eine</li>
-    <li>maybe_a_Mas(p=3)-></li>
-    <li>maybe_a_Mas->Ein</li>
-    <li>maybe_a_Neu(p=3)-></li>
-    <li>maybe_a_Neu->Ein</li>
-    <li>maybe_adjective_Fem(p=5)-></li>
-    <li>maybe_adjective_Fem(p=2)->[AdjectiveAngsty]e</li>
-    <li>maybe_adjective_Fem->[AdjectiveBadass]e</li>
-    <li>maybe_adjective_Fem->[Color]e</li>
-    <li>maybe_adjective_Mas(p=5)-></li>
-    <li>maybe_adjective_Mas(p=2)->[AdjectiveAngsty]er</li>
-    <li>maybe_adjective_Mas->[AdjectiveBadass]er</li>
-    <li>maybe_adjective_Mas->[Color]er</li>
-    <li>maybe_adjective_Neu(p=5)-></li>
-    <li>maybe_adjective_Neu(p=2)->[AdjectiveAngsty]es</li>
-    <li>maybe_adjective_Neu->[AdjectiveBadass]es</li>
-    <li>maybe_adjective_Neu->[Color]es</li>
-    <li>ANYPAWN_label_s->{replace: [ANYPAWN_label]s; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"}</li>
-    <li>ANYPAWN_nameIndefDat->{replace: [ANYPAWN_nameDef]; ">der "-">einem "; ">die "-">einer "; ">das "-">einem "}</li>
-  </NamerArtCommon.rulePack.rulesStrings>
+  <NamerArtCommon.rulePack.rulesStrings>TODO</NamerArtCommon.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_art_name->[ConceptBadass]</li>
@@ -152,29 +61,16 @@
     <li>r_art_name(p=3)->[ColorBadass] [ANYPAWN_nameIndef]</li>
   -->
   <NamerArtWeapon.rulePack.rulesStrings>
-    <!-- General -->
-    <li>r_art_name->[ConceptBadass]</li>
-    <li>r_art_name(p=0.33)->Die [AnimalBadassFem]</li>
-    <li>r_art_name(p=0.33)->Der [AnimalBadassMas]</li>
-    <li>r_art_name(p=0.33)->Das [AnimalBadassNeu]</li>
-    <li>r_art_name(p=0.33)->[AdjectiveBadass]e [AnimalBadassFem]</li>
-    <li>r_art_name(p=0.33)->[AdjectiveBadass]er [AnimalBadassMas]</li>
-    <li>r_art_name(p=0.33)->[AdjectiveBadass]es [AnimalBadassNeu]</li>
-    <li>r_art_name(p=0.33)->[ColorBadass]e [AnimalBadassFem]</li>
-    <li>r_art_name(p=0.33)->[ColorBadass]er [AnimalBadassMas]</li>
-    <li>r_art_name(p=0.33)->[ColorBadass]es [AnimalBadassNeu]</li>
-    <li>r_art_name(p=0.33)->[ColorBadass]e [ConceptBadassFem]</li>
-    <li>r_art_name(p=0.33)->[ColorBadass]er [ConceptBadassMas]</li>
-    <li>r_art_name(p=0.33)->[ColorBadass]es [ConceptBadassNeu]</li>
-    <!-- Person. High probability; if we can use these we want to -->
-    <li>r_art_name(p=3)->[ANYPAWN_label_s] [ConceptBadass]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_label_s] [AnimalBadass]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_label_s] [PersonBadass]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_label_s] [PersonAlly]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_label_s] [PersonFamily]</li>
-    <li>r_art_name(p=3)->[ConceptBadass] von [ANYPAWN_nameIndefDat]</li>
-    <li>ANYPAWN_label_s->{replace: [ANYPAWN_label]s; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"}</li>
-    <li>ANYPAWN_nameIndefDat->{replace: [ANYPAWN_nameDef]; ">der "-">einem "; ">die "-">einer "; ">das "-">einem "}</li>
+    <li>art_name->[badassconcept]</li>
+    <li>art_name->The [badassanimal]</li>
+    <li>art_name->[badassadjective] [badassanimal]</li>
+    <li>art_name->[badasscolor] [badassanimal]</li>
+    <li>art_name->[badassconcept] [badasscolor]</li>
+    <li>art_name->[anyPawn_nameShort]'s [badassconcept]</li>
+    <li>art_name->[badassconcept] of [anyPawn_nameShort]</li>
+    <li>art_name->[badasscolor] [anyPawn_nameShort]</li>
+    <li>art_name->[anyPawn_nameShort]'s [badassanimal]</li>
+    <li>art_name->[anyPawn_nameShort]'s [badassperson]</li>
   </NamerArtWeapon.rulePack.rulesStrings>
   
 </LanguageData>

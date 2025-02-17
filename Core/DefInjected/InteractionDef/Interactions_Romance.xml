@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: breakup -->
-  <Breakup.label>Trennung</Breakup.label>
+  <Breakup.label>breakup</Breakup.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for a break.</li>
     <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for some space.</li>
@@ -10,27 +10,32 @@
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li>
   -->
   <Breakup.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] fragte [RECIPIENT_nameDef] nach einer Auszeit.</li>
-    <li>r_logentry->[INITIATOR_nameDef] erklärte [RECIPIENT_nameDef], dass etwas Abstand notwendig ist.</li>
-    <li>r_logentry->[INITIATOR_nameDef] sagte [RECIPIENT_nameDef], dass das nicht funktioniert.</li>
-    <li>r_logentry->[INITIATOR_nameDef] erklärte [RECIPIENT_nameDef], dass es besser ist, wenn sie andere Leute sehen.</li>
+    <li>logentry->Broke up with [other_nameShortIndef].</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
+  <!-- UNUSED -->
+  <Breakup.logRulesRecipient.rulesStrings>
+    <li>logentry->Was broken up with by [other_nameShortIndef].</li>
+  </Breakup.logRulesRecipient.rulesStrings>
+  
   <!-- EN: marriage proposal -->
-  <MarriageProposal.label>Heiratsantrag</MarriageProposal.label>
+  <MarriageProposal.label>marriage proposal</MarriageProposal.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] proposed marriage to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective].</li>
   -->
   <MarriageProposal.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] hat [RECIPIENT_nameDef] einen Heiratsantrag gemacht.</li>
-    <li>r_logentry->[INITIATOR_nameDef] hat [RECIPIENT_nameDef] die lebenslange Treue geschworen.</li>
-    <li>r_logentry->[INITIATOR_nameDef] kniete nieder und erklärte [RECIPIENT_nameDef], dass [RECIPIENT_pronoun] die Person ist, mit der [INITIATOR_pronoun] den Rest [INITIATOR_possessive]es Lebens verbringen will.</li>
+    <li>logentry->Proposed marriage to [other_nameShortIndef].</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
   
+  <!-- UNUSED -->
+  <MarriageProposal.logRulesRecipient.rulesStrings>
+    <li>logentry->Was proposed to by [other_nameShortIndef].</li>
+  </MarriageProposal.logRulesRecipient.rulesStrings>
+  
   <!-- EN: romance attempt -->
-  <RomanceAttempt.label>Umwerbungsversuch</RomanceAttempt.label>
+  <RomanceAttempt.label>romance attempt</RomanceAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] by [wootactic].</li>
     <li>wooed->tried to flirt with</li>
@@ -94,81 +99,12 @@
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   -->
   <RomanceAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [wooed], [wootactic].</li>
-    <li>wooed->flirtete mit [RECIPIENT_nameDef]</li>
-    <li>wooed->versuchte [RECIPIENT_nameDef] zu verführen</li>
-    <li>wooed->versuchte die Gunst von [RECIPIENT_nameDef] zu erlangen</li>
-    <li>wooed->versuchte [RECIPIENT_nameDef] zu verzücken</li>
-    <li>wooed->versuchte [RECIPIENT_nameDef] zu bezaubern</li>
-    <li>wooed->umwarb [RECIPIENT_nameDef]</li>
-    <li>wooed->umgarnte [RECIPIENT_nameDef]</li>
-    <li>wooed->machte [RECIPIENT_nameDef] den Hof</li>
-    <li>wootactic->indem [INITIATOR_pronoun] eine Geschichte über [TalkTopicAnyAcc] erzählte</li>
-    <li>wootactic->indem [INITIATOR_pronoun] eine Fabel über [TalkTopicAnyAcc] erzählte</li>
-    <li>wootactic->indem [INITIATOR_pronoun] Witze über [TalkTopicAnyAcc] erzählte</li>
-    <li>wootactic->indem [INITIATOR_pronoun] [INITIATOR_possessive]e Beobachtungen zum Thema '[TalkTopicHeavy]' beschrieb</li>
-    <li>wootactic(p=0.5)->indem [INITIATOR_pronoun] [RECIPIENT_objective] mit einer [romantic_adj]en [romantic_noun_Fem] verglich</li>
-    <li>wootactic(p=0.5)->indem [INITIATOR_pronoun] [RECIPIENT_objective] mit einem [romantic_adj]en [romantic_noun_Mas_Neu] verglich</li>
-    <li>wootactic(p=0.5)->indem [INITIATOR_pronoun] [RECIPIENT_objective] mit einer [romantic_adj]en [romantic_noun_Fem] gleichsetzte</li>
-    <li>wootactic(p=0.5)->indem [INITIATOR_pronoun] [RECIPIENT_objective] mit einem [romantic_adj]en [romantic_noun_Mas_Neu] gleichsetzte</li>
-    <li>wootactic(p=2)->[boasting]</li>
-    <li>wootactic(p=4)->[complimenting]</li>
-    <li>boasting->indem [INITIATOR_pronoun] mit [INITIATOR_possessive][en_Dingen] prahlte</li>
-    <li>boasting->indem [INITIATOR_pronoun] [INITIATOR_possessive][e_Dinge] positiv erwähnte</li>
-    <li>boasting->indem [INITIATOR_pronoun] mit [INITIATOR_possessive][en_Dingen] angab</li>
-    <li>boasting->indem [INITIATOR_pronoun] über [INITIATOR_possessive][e_Dinge] redete</li>
-    <li>boasting->indem [INITIATOR_pronoun] [RECIPIENT_possessive]e Aufmerksamkeit auf [INITIATOR_possessive][e_Dinge] lenkte</li>
-    <li>complimenting(p=3)->indem [INITIATOR_pronoun] Komplimente über [RECIPIENT_possessive][e_Dinge] machte</li>
-    <li>complimenting->indem [INITIATOR_pronoun] subtile Komplimente über [RECIPIENT_possessive][e_Dinge] machte</li>
-    <li>complimenting->indem [INITIATOR_pronoun] [RECIPIENT_possessive][e_Dinge] lobte</li>
-    <li>complimenting->indem [INITIATOR_pronoun] positiv [RECIPIENT_possessive][e_Dinge] kommentierte</li>
-    <li>complimenting->indem [INITIATOR_pronoun] positiv [RECIPIENT_possessive][e_Dinge] erwähnte</li>
-    <li>complimenting->indem [INITIATOR_pronoun] [RECIPIENT_objective] scherzhaft wegen [RECIPIENT_possessive][es_Dings] neckte</li>
-    <li>complimenting->indem [INITIATOR_pronoun] eine scherzhafte Anspielung auf [RECIPIENT_possessive][e_Dinge] machte</li>
-    <li>complimenting->indem [INITIATOR_pronoun] schelmisch nach [RECIPIENT_possessive][en_Dingen] fragte</li>
-    <li>complimenting->indem [INITIATOR_pronoun] einen vergnügten Scherz über [RECIPIENT_possessive][e_Dinge] machte</li>
-    <li>romantic_adj->wunderschön</li>
-    <li>romantic_adj->leuchtend</li>
-    <li>romantic_adj->glühend</li>
-    <li>romantic_adj->himmlisch</li>
-    <li>romantic_adj->golden</li>
-    <li>romantic_adj->hell</li>
-    <li>romantic_adj->atemberaubend</li>
-    <li>romantic_adj->bezaubernd</li>
-    <li>romantic_adj->umwerfend</li>
-    <li>romantic_adj->fabelhaft</li>
-    <li>romantic_adj->schön</li>
-    <li>romantic_adj->großartig</li>
-    <li>romantic_adj->lieblich</li>
-    <li>romantic_adj->wunderbar</li>
-    <li>romantic_adj(p=3)->[AdjectiveBadass]</li>
-    <li>romantic_noun_Fem->Blume</li>
-    <li>romantic_noun_Fem->Sonne</li>
-    <li>romantic_noun_Fem->Sternschnuppe</li>
-    <li>romantic_noun_Fem->Oase</li>
-    <li>romantic_noun_Fem->[TreeType]</li>
-    <li>romantic_noun_Mas_Neu->Polarlicht</li>
-    <li>romantic_noun_Mas_Neu->Frühling</li>
-    <li>romantic_noun_Mas_Neu->Fluss</li>
-    <li>romantic_noun_Mas_Neu->Stern</li>
-    <li>romantic_noun_Mas_Neu->Mond</li>
-    <li>romantic_noun_Mas_Neu->Haus</li>
-    <li>romantic_noun_Mas_Neu->Engel</li>
-    <li>romantic_noun->[TerrainFeature]</li>
-    <li>romantic_noun->[NaturalObject]</li>
-    <!-- gender-specific -->
-    <li>en_Dingen->en [PersonalCharacteristicsDat]</li>
-    <li>en_Dingen->em [PersonalCharacteristicMas]</li>
-    <li>en_Dingen->er [PersonalCharacteristicFem]</li>
-    <li>en_Dingen->em [PersonalCharacteristicNeu]</li>
-    <li>e_Dinge->e [PersonalCharacteristics]</li>
-    <li>e_Dinge->en [PersonalCharacteristicMas]</li>
-    <li>e_Dinge->e [PersonalCharacteristicFem]</li>
-    <li>e_Dinge-> [PersonalCharacteristicNeu]</li>
-    <li>es_Dings->er [PersonalCharacteristicsGen]</li>
-    <li>es_Dings->es [PersonalCharacteristicMasGen]</li>
-    <li>es_Dings->er [PersonalCharacteristicFemGen]</li>
-    <li>es_Dings->es [PersonalCharacteristicNeuGen]</li>
+    <li>logentry->Attempted to woo [other_nameShortIndef] into a romance.</li>
   </RomanceAttempt.logRulesInitiator.rulesStrings>
+  
+  <!-- UNUSED -->
+  <RomanceAttempt.logRulesRecipient.rulesStrings>
+    <li>logentry->Was wooed by [other_nameShortIndef].</li>
+  </RomanceAttempt.logRulesRecipient.rulesStrings>
   
 </LanguageData>

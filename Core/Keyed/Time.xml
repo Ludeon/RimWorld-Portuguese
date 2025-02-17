@@ -18,80 +18,80 @@
   <PM>PM</PM>
 
   <!-- EN: days -->
-  <DaysLower>Tage</DaysLower>
+  <DaysLower>dias</DaysLower>
   <!-- EN: hours -->
-  <HoursLower>Stunden</HoursLower>
+  <HoursLower>horas</HoursLower>
   <!-- EN: seconds -->
-  <SecondsLower>Sekunden</SecondsLower>
+  <SecondsLower>segundos</SecondsLower>
 
   <!-- EN: spring -->
-  <SeasonSpring>Frühling</SeasonSpring>
+  <SeasonSpring>primavera</SeasonSpring>
   <!-- EN: summer -->
-  <SeasonSummer>Sommer</SeasonSummer>
+  <SeasonSummer>verão</SeasonSummer>
   <!-- EN: fall -->
-  <SeasonFall>Herbst</SeasonFall>
+  <SeasonFall>outono</SeasonFall>
   <!-- EN: winter -->
-  <SeasonWinter>Winter</SeasonWinter>
+  <SeasonWinter>inverno</SeasonWinter>
   <!-- EN: permanent summer -->
-  <SeasonPermanentSummer>immer Sommer</SeasonPermanentSummer>
+  <SeasonPermanentSummer>verão permanente</SeasonPermanentSummer>
   <!-- EN: permanent winter -->
-  <SeasonPermanentWinter>immer Winter</SeasonPermanentWinter>
+  <SeasonPermanentWinter>inverno permanente</SeasonPermanentWinter>
 
   <!-- EN: Aprimay -->
-  <QuadrumAprimay>Aprai</QuadrumAprimay>
+  <QuadrumAprimay>Abrimaio</QuadrumAprimay>
   <!-- EN: Jugust -->
-  <QuadrumJugust>Jugust</QuadrumJugust>
+  <QuadrumJugust>Jugosto</QuadrumJugust>
   <!-- EN: Septober -->
-  <QuadrumSeptober>Septober</QuadrumSeptober>
+  <QuadrumSeptober>Setubro</QuadrumSeptober>
   <!-- EN: Decembary -->
-  <QuadrumDecembary>Dezebruar</QuadrumDecembary>
+  <QuadrumDecembary>Dezemeiro</QuadrumDecembary>
 
   <!-- EN: Apr -->
-  <QuadrumAprimay_Short>Apr</QuadrumAprimay_Short>
+  <QuadrumAprimay_Short>Abr</QuadrumAprimay_Short>
   <!-- EN: Jug -->
   <QuadrumJugust_Short>Jug</QuadrumJugust_Short>
   <!-- EN: Sep -->
-  <QuadrumSeptober_Short>Sep</QuadrumSeptober_Short>
+  <QuadrumSeptober_Short>Set</QuadrumSeptober_Short>
   <!-- EN: Dec -->
   <QuadrumDecembary_Short>Dez</QuadrumDecembary_Short>
   
   <!-- EN: Born: {0} -->
-  <Born>Geboren: {0}</Born>
+  <Born>Nascido: {0}</Born>
   <!-- EN: Chronological age: {0} years, {1} quadrums, {2} days -->
-  <AgeChronological>Chronologisches Alter: {0} Jahre, {1} Quartale, {2} Tage</AgeChronological>
+  <AgeChronological>Idade cronológica: {0} anos, {1} estações, {2} dias</AgeChronological>
   <!-- EN: Biological age: {0} years, {1} quadrums, {2} days -->
-  <AgeBiological>Biologisches Alter: {0} Jahre, {1} Quartale, {2} Tage</AgeBiological>
+  <AgeBiological>Idade biológica: {0} anos, {1} estações, {2} dias</AgeBiological>
 
   <!-- Date periods -->
   <!-- EN: 1 year -->
-  <Period1Year>1 Jahr</Period1Year>
+  <Period1Year>1 ano</Period1Year>
   <!-- EN: {0} years -->
-  <PeriodYears>{0} Jahre</PeriodYears>
+  <PeriodYears>{0} anos</PeriodYears>
   <!-- EN: 1 quadrum -->
-  <Period1Quadrum>1 Quartal</Period1Quadrum>
+  <Period1Quadrum>1 estação</Period1Quadrum>
   <!-- EN: {0} quadrums -->
-  <PeriodQuadrums>{0} Quartale</PeriodQuadrums>
+  <PeriodQuadrums>{0} estações</PeriodQuadrums>
   <!-- EN: 1 day -->
-  <Period1Day>1 Tag</Period1Day>
+  <Period1Day>1 dia</Period1Day>
   <!-- EN: {0} days -->
-  <PeriodDays>{0} Tage</PeriodDays>
+  <PeriodDays>{0} dias</PeriodDays>
   <!-- EN: 1 hour -->
-  <Period1Hour>1 Stunde</Period1Hour>
+  <Period1Hour>1 hora</Period1Hour>
   <!-- EN: {0} hours -->
-  <PeriodHours>{0} Stunden</PeriodHours>
+  <PeriodHours>{0} horas</PeriodHours>
   <!-- EN: 1 second -->
-  <Period1Second>1 Sekunde</Period1Second>
+  <Period1Second>1 segundo</Period1Second>
   <!-- EN: {0} seconds -->
-  <PeriodSeconds>{0} Sekunden</PeriodSeconds>
+  <PeriodSeconds>segundos</PeriodSeconds>
 
   <!-- Misc -->
   <!-- EN: Started -->
-  <Started>Begann am</Started>
+  <Started>Começou</Started>
   <!-- EN: Lasted -->
-  <Lasted>Dauerte</Lasted>
+  <Lasted>Durou</Lasted>
   <!-- EN: occurred {0} ago -->
-  <OccurredTimeAgo>geschah vor {replace: {0}; "Tage"-"Tagen"; "Jahre"-"Jahren"}</OccurredTimeAgo>
+  <OccurredTimeAgo>ocorreu há {0}</OccurredTimeAgo>
   <!-- EN: {0} ago -->
-  <TimeAgo>vor (*DateTime){replace: {0}; "Tage"-"Tagen"; "Jahre"-"Jahren"}(/DateTime)</TimeAgo>
-  
+  <TimeAgo>{0} atrás</TimeAgo>
+
 </LanguageData>

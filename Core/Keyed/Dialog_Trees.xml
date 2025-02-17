@@ -2,67 +2,67 @@
 <LanguageData>
 
   <!-- EN: {0} hurls some epithets into the microphone and disconnects. -->
-  <FactionGreetingHostile>{0} schreit ein paar Beleidigungen ins Mikrofon und trennt die Verbindung.</FactionGreetingHostile>
+  <FactionGreetingHostile>{0} lança alguns epítetos para o monitor e desconecta.</FactionGreetingHostile>
   <!-- EN: {0} demands that you make a gesture of goodwill, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nMuttering an insult, {0_pronoun} disconnects. -->
-  <FactionGreetingHostileAppreciative>{0} verlangt zunächst ein Zeichen deines guten Willens, z.B. indem du Geschenke in eine {0_possessive}er Siedlungen bringst oder Gefangene {0_possessive}er Fraktion unversehrt freilässt. Erst dann ist {0_pronoun} zu einem Gespräch bereit.\n\nEine Beleidigung murmelnd, beendet {0_pronoun} die Verbindung.</FactionGreetingHostileAppreciative>
+  <FactionGreetingHostileAppreciative>TODO</FactionGreetingHostileAppreciative>
   <!-- EN: {0} greets {NEGOTIATOR_labelShort} and asks what business you want to handle. -->
-  <FactionGreetingWary>{0} begrüßt {NEGOTIATOR_labelShort} und fragt, was du willst.</FactionGreetingWary>
+  <FactionGreetingWary>{0} cumprimenta {1} com cautela e pergunta qual é o assunto.</FactionGreetingWary>
   <!-- EN: {0} greets {NEGOTIATOR_labelShort} warmly and asks what {LEADER_pronoun} can do to help you. -->
-  <FactionGreetingWarm>{0} begrüßt {NEGOTIATOR_labelShort} herzlich und fragt, wie {LEADER_pronoun} dir helfen kann.</FactionGreetingWarm>
+  <FactionGreetingWarm>{0} cumprimenta {1} afectuosamente e pergunta como vai a colónia.</FactionGreetingWarm>
 
   <!-- EN: won't do {0} -->
-  <WorkTypeDisablesOption>verweigert {0}</WorkTypeDisablesOption>
+  <WorkTypeDisablesOption>TODO</WorkTypeDisablesOption>
   <!-- EN: Disconnect -->
-  <Disconnect>Verbindung trennen</Disconnect>
+  <Disconnect>Desconectar</Disconnect>
 
   <!-- Gift offer -->
   <!-- EN: Offer gift -->
-  <OfferGift>Geschenk anbieten</OfferGift>
+  <OfferGift>Oferecer presente</OfferGift>
   <!-- EN: must be ally -->
-  <MustBeAlly>muss verbündet sein</MustBeAlly>
+  <MustBeAlly>TODO</MustBeAlly>
   <!-- EN: need {0} goodwill -->
-  <NeedGoodwill>benötigt {0} Ruf</NeedGoodwill>
+  <NeedGoodwill>TODO</NeedGoodwill>
   <!-- EN: need {0} silver near trade beacons -->
-  <NeedSilverLaunchable>benötigt {0} Silber nahe Handelsbaken</NeedSilverLaunchable>
+  <NeedSilverLaunchable>necessário {0} de prata perto dos faróis de comércio</NeedSilverLaunchable>
   <!-- EN: not enough silver -->
-  <NotEnoughSilver>nicht genug Silber</NotEnoughSilver>
+  <NotEnoughSilver>Sem prata suficiente.</NotEnoughSilver>
   <!-- EN: {0} silver for {1} goodwill -->
-  <SilverForGoodwill>{0} Silber für {1} Ruf</SilverForGoodwill>
+  <SilverForGoodwill>{0} de prata por {1} de boa vontade</SilverForGoodwill>
   <!-- EN: {0} thanks you.\n\n(Goodwill improved by {1}) -->
-  <SilverGiftSent>Der Sprecher von '{0}' bedankt sich.\n\n(Ruf um {1} verbessert)</SilverGiftSent>
+  <SilverGiftSent>O representante de {0} agradece-te.\n\n(Boa vontade melhorada por {1}).</SilverGiftSent>
 
   <!-- Trade caravan request -->
   <!-- EN: Request a trade caravan (cost: {0} goodwill) -->
-  <RequestTrader>Fordere eine Handelskarawane an (kostet {0} Ruf)</RequestTrader>
+  <RequestTrader>TODO</RequestTrader>
   <!-- EN: {0} asks what kind of trade caravan you want. -->
-  <ChooseTraderKind>{0} fragt, welche Art von Handelskarawane du wünschst.</ChooseTraderKind>
+  <ChooseTraderKind>TODO</ChooseTraderKind>
   <!-- EN: {0} agrees to send you a trade caravan. It will arrive within a few days. -->
-  <TraderSent>{0} ist einverstanden und schickt eine Handelskarawane vorbei. Sie wird in ein paar Tagen eintreffen.</TraderSent>
+  <TraderSent>TODO</TraderSent>
   <!-- EN: wait {0} -->
-  <WaitTime>warte {0}</WaitTime>
+  <WaitTime>TODO</WaitTime>
   
   <!-- AI core request -->
   <!-- EN: Request the location of a {0} (cost: {1} silver) -->
-  <RequestAICoreInformation>Erfrage den Ort {0_gender ? eines : einer : eines} {lookup: {0}; decline; 1} (kostet {1} Silber)</RequestAICoreInformation>
+  <RequestAICoreInformation>TODO</RequestAICoreInformation>
   <!-- EN: {0} sends the requested information and wishes you good luck. -->
-  <RequestAICoreInformationResult>{0} sendet dir die entsprechenden Informationen und wünscht dir viel Glück.</RequestAICoreInformationResult>
+  <RequestAICoreInformationResult>TODO</RequestAICoreInformationResult>
   <!-- EN: no more locations known -->
-  <NoKnownAICore>keine weiteren Orte bekannt</NoKnownAICore>  
+  <NoKnownAICore>TODO</NoKnownAICore>  
   
   <!-- Military aid request -->
   <!-- EN: Request immediate military aid (cost: {0} goodwill) -->
-  <RequestMilitaryAid>Bitte um sofortige militärische Hilfe (kostet {0} Ruf)</RequestMilitaryAid>
+  <RequestMilitaryAid>Solicitar ajuda militar imediata ({0} de boa vontade)</RequestMilitaryAid>
   <!-- EN: {0} will not help you fight other factions who are not their enemies. This includes some who are currently threatening you, {1}. Do you still want to call for aid? -->
-  <MilitaryAidConfirmMutualEnemy>Die Fraktion '{0}' hilft dir nicht im Kampf gegen andere Fraktionen, mit denen sie selbst verbündet ist. Darunter sind auch einige, die dich gerade bedrohen: {1}. Willst du sie trotzdem um Hilfe bitten?</MilitaryAidConfirmMutualEnemy>
+  <MilitaryAidConfirmMutualEnemy>{0} não te ajudarão a lutar contra as outras facções que não sejam suas inimigas. Isto inclui algumas das que estão actualmente a te ameaçar, {1}. Ainda assim queres pedir ajuda?</MilitaryAidConfirmMutualEnemy>
   <!-- EN: Yes, call them anyway. -->
-  <CallConfirm>Ja, rufe sie trotzdem.</CallConfirm>
+  <CallConfirm>Sim, chama-os de qualquer maneira.</CallConfirm>
   <!-- EN: No, never mind. -->
-  <CallCancel>Nein, lieber nicht.</CallCancel>
+  <CallCancel>Não, deixa estar.</CallCancel>
   <!-- EN: {0} agrees to send fighters to help you. -->
-  <MilitaryAidSent>{0} ist einverstanden und entsendet Kämpfer, um dir zu helfen.</MilitaryAidSent>
+  <MilitaryAidSent>O representante de {0} aceita em enviar lutadores para de ajudar.</MilitaryAidSent>
   <!-- EN: {0} apologizes and says they won't be able to arrive in time.\n\n(This faction's technology level is too low for transport pods) -->
-  <CantSendMilitaryAidInTime>{0} entschuldigt sich und sagt, dass sie es nicht rechtzeitig schaffen werden.\n\n(Die Techstufe dieser Fraktion ist zu niedrig für Transportkapseln)</CantSendMilitaryAidInTime>
+  <CantSendMilitaryAidInTime>TODO</CantSendMilitaryAidInTime>
   <!-- EN: hostile visitors present -->
-  <HostileVisitorsPresent>feindliche Besucher anwesend</HostileVisitorsPresent>
+  <HostileVisitorsPresent>TODO</HostileVisitorsPresent>
 
 </LanguageData>

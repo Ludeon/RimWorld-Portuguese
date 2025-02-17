@@ -15,22 +15,7 @@
     <li>died(SUBJECT_flesh==Mechanoid)->stopped functioning</li>
     <li>died(SUBJECT_flesh==Mechanoid)->lost power</li>
   -->
-  <Transition_Died.rulePack.rulesStrings>
-    <li>die(SUBJECT_flesh!=Mechanoid,p=2)->sterben</li>
-    <li>die(SUBJECT_flesh!=Mechanoid)->verenden</li>
-    <li>die(SUBJECT_flesh!=Mechanoid)->das Zeitliche segnen</li>
-    <li>die(SUBJECT_flesh==Mechanoid)->abschalten</li>
-    <li>die(SUBJECT_flesh==Mechanoid)->aufhören zu funktionieren</li>
-    <li>die(SUBJECT_flesh==Mechanoid)->ausfallen</li>
-    <li>died(SUBJECT_flesh!=Mechanoid,p=2)->starb</li>
-    <li>died(SUBJECT_flesh!=Mechanoid)->erlag den Verletzungen</li>
-    <li>died(SUBJECT_flesh!=Mechanoid)->verschied</li>
-    <li>died(SUBJECT_flesh==Mechanoid)->schaltete sich ab</li>
-    <li>died(SUBJECT_flesh==Mechanoid)->hörte auf zu funktionieren</li>
-    <li>died(SUBJECT_flesh==Mechanoid)->fiel aus</li>
-    <li>zumTod(SUBJECT_flesh!=Mechanoid)->zum Tod</li>
-    <li>zumTod(SUBJECT_flesh==Mechanoid)->zur Abschaltung</li>
-  </Transition_Died.rulePack.rulesStrings>
+  <Transition_Died.rulePack.rulesStrings>TODO</Transition_Died.rulePack.rulesStrings>
   
   <!-- EN:
     <li>die(p=3)->explode [flavor]</li>
@@ -61,23 +46,7 @@
     <li>everywhere->everywhere</li>
     <li>everywhere->far and wide</li>
   -->
-  <Transition_DiedExplosive.rulePack.rulesStrings>
-    <li>die(p=3)->[flavor] explodieren</li>
-    <li>die(p=3)->explodieren [flavorsuffix]</li>
-    <li>die->[flavor] zerbersten</li>
-    <li>die->zerbersten [flavorsuffix]</li>
-    <li>died(p=3)->explodierte [flavor]</li>
-    <li>died->zerbarst [flavor]</li>
-    <li>flavor->in tausend [pieces]</li>
-    <li>flavor-></li>
-    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid,p=2)->, dabei flogen [Gore] in alle Himmelsrichtungen</li>
-    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid)->, was einen kleinen Haufen voller [Gore] hinterließ</li>
-    <li>flavorsuffix->, was einen kleinen Krater hinterließ</li>
-    <li>flavorsuffix(p=4)-></li>
-    <li>pieces->Stücke</li>
-    <li>pieces->Teile</li>
-    <li>pieces->Fragmente</li>
-  </Transition_DiedExplosive.rulePack.rulesStrings>
+  <Transition_DiedExplosive.rulePack.rulesStrings>TODO</Transition_DiedExplosive.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun] caused [SUBJECT_definite] to [die].</li>
@@ -87,18 +56,7 @@
     <li>r_logentry->[SUBJECT_definite] [died].</li>
     <li>r_logentry->[SUBJECT_definite] [died] [flavorsuffix].</li>
   -->
-  <Transition_DiedInclude.rulePack.rulesStrings>
-    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun] ließ [SUBJECT_nameDefAcc] [die].</li>
-    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun] führte [zumTod] von [SUBJECT_nameDefDat].</li>
-    <li>r_logentry(p=1.5,SUBJECT_flesh!=Mechanoid)->[CULPRITHEDIFF_labelNoun] kostete [SUBJECT_nameDefAcc] das Leben.</li>
-    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty] ließ [SUBJECT_nameDefAcc] [die].</li>
-    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty] führte [zumTod] von [SUBJECT_nameDefDat].</li>
-    <li>r_logentry(p=1.5,SUBJECT_flesh!=Mechanoid)->[CULPRITHEDIFF_labelNounPretty] kostete [SUBJECT_nameDefAcc] das Leben.</li>
-    <li>r_logentry->[SUBJECT_definite] [died].</li>
-    <li>r_logentry->[SUBJECT_definite] [died] [flavorsuffix].</li>
-    <li>SUBJECT_nameDefAcc->{replace: [SUBJECT_definite]; ">der "-">den "}</li>
-    <li>SUBJECT_nameDefDat->{replace: [SUBJECT_definite]; ">der "-">dem "; ">die "-">der "; ">das "-">dem "}</li>
-  </Transition_DiedInclude.rulePack.rulesStrings>
+  <Transition_DiedInclude.rulePack.rulesStrings>TODO</Transition_DiedInclude.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[CULPRITHEDIFF_labelNoun] caused [SUBJECT_definite] to [collapsemeta].</li>
@@ -130,42 +88,13 @@
     <li>collapsedmeta->[collapsed]</li>
     <li>collapsedmeta(p=0.5)->[collapsed] [helplessly]</li>
   -->
-  <Transition_Downed.rulePack.rulesStrings>
-    <li>r_logentry->[CULPRITHEDIFF_labelNoun] ließ [SUBJECT_nameDefAcc] [helplessly] [collapse].</li>
-    <li>r_logentry(p=0.5)->[CULPRITHEDIFF_labelNoun] löste bei [SUBJECT_nameDefDat] einen Kollaps aus.</li>
-    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] ließ [SUBJECT_nameDefAcc] [helplessly] [collapse].</li>
-    <li>r_logentry(p=0.5)->[CULPRITHEDIFF_labelNounPretty] löste bei [SUBJECT_nameDefDat] einen Kollaps aus.</li>
-    <li>r_logentry(p=0.1)->[SUBJECT_definite] [collapsed].</li>
-    <li>collapse->kollabieren</li>
-    <li>collapse->zusammenbrechen</li>
-    <li>collapse->zu Boden sacken</li>
-    <li>collapse(SUBJECT_flesh==Mechanoid)->abstürzen</li>
-    <li>collapse(SUBJECT_flesh==Mechanoid)->zum Stillstand kommen</li>
-    <li>collapse(SUBJECT_flesh==Mechanoid)->außer Betrieb gehen</li>
-    <li>collapsed->kollabierte</li>
-    <li>collapsed->brach [helplessly] zusammen</li>
-    <li>collapsed->sackte [helplessly] zu Boden</li>
-    <li>collapsed(SUBJECT_flesh==Mechanoid)->stürzte [helplessly] ab</li>
-    <li>collapsed(SUBJECT_flesh==Mechanoid)->kam [helplessly] zum Stillstand</li>
-    <li>collapsed(SUBJECT_flesh==Mechanoid)->ging [helplessly] außer Betrieb</li>
-    <li>helplessly(p=1.5)-></li>
-    <li>helplessly->hilflos</li>
-    <li>helplessly(SUBJECT_flesh!=Mechanoid)->bewusstlos</li>
-    <li>helplessly(SUBJECT_flesh!=Mechanoid)->kraftlos</li>
-    <li>helplessly(SUBJECT_flesh==Mechanoid)->unkontrolliert</li>
-    <li>SUBJECT_nameDefAcc->{replace: [SUBJECT_definite]; ">der "-">den "}</li>
-    <li>SUBJECT_nameDefDat->{replace: [SUBJECT_definite]; ">der "-">dem "; ">die "-">der "; ">das "-">dem "}</li>
-  </Transition_Downed.rulePack.rulesStrings>
+  <Transition_Downed.rulePack.rulesStrings>TODO</Transition_Downed.rulePack.rulesStrings>
   
   <!-- EN:
     <li>duetoa->due to</li>
     <li>duetoa(p=0.5)->because of</li>
     <li>duetoa(p=0.5)->thanks to</li>
   -->
-  <Transition_Include.rulePack.rulesStrings>
-    <li>duetoa->aufgrund von</li>
-    <li>duetoa(p=0.5)->wegen</li>
-    <li>duetoa(p=0.5)->verursacht durch</li>
-  </Transition_Include.rulePack.rulesStrings>
+  <Transition_Include.rulePack.rulesStrings>TODO</Transition_Include.rulePack.rulesStrings>
   
 </LanguageData>
