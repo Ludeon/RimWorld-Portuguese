@@ -21,5 +21,44 @@ namespace DefsSearcher
 
             return xmlDocuments;
         }
+
+        public static void NodeSearcher(XmlNode node, ref List<Tuple<string, string>> items)
+        {
+            string defName = string.Empty;
+            string label = string.Empty;
+            string description = string.Empty;
+            foreach (XmlNode def in node.ChildNodes)
+            {
+                if (node.HasChildNodes)
+                {
+                    NodeSearcher(def, ref items);
+                }
+
+                if (def.Name == "defName")
+                {
+                    defName = def.InnerXml;
+                }
+                if (def.Name == "label")
+                {
+                    label = def.InnerXml;
+                }
+                if (def.Name == "description")
+                {
+                    description = def.InnerXml;
+                }
+
+            }
+
+            if (!(label == string.Empty && description == string.Empty))
+            {
+                Console.WriteLine("defName: " + defName);
+                items.Add(new("defName", defName));
+                Console.WriteLine("label: " + label);
+                items.Add(new("label", label));
+                Console.WriteLine("description: " + description);
+                items.Add(new("description", description));
+                Console.WriteLine("\n");
+            }
+        }
     }
 }

@@ -2,7 +2,8 @@
 using System.Xml;
 
 Console.WriteLine("Analyzing all Defs folders...");
-var rootDirectory = "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Data\\Biotech\\Defs";
+// var rootDirectory = "F:\\SteamLibrary\\steamapps\\common\\RimWorld\\Data\\Biotech\\Defs";
+var rootDirectory = "/Users/titoferreira/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Data/Biotech/Defs";
 
 try
 {
@@ -14,19 +15,19 @@ try
     {
         Console.WriteLine("Filename: " + xmlFile.Key);
         Console.WriteLine("\n");
-        
-        
-        XmlNodeList labelNodes = xmlFile.Value.SelectNodes("//*[contains(name(), 'defName') or contains(name(), 'label') or contains(name(), 'description')]");
 
+        XmlNode DefsNode = xmlFile.Value.SelectSingleNode("Defs");
 
-        Console.WriteLine($"Found {labelNodes.Count} elements with 'label' in their name:");
-        foreach (XmlNode node in labelNodes)
+        List<Tuple<string, string>> items = new();
+        Helpers.NodeSearcher(DefsNode, ref items);
+
+        foreach (var item in items)
         {
-            Console.WriteLine($"Element: {node.Name}, Value: {node.InnerText}");
+            Console.WriteLine("key: " + item.Item1 + " Value: " + item.Item2);
         }
-            
 
-        
+
+
         break; //REMOVE
     }
 
@@ -35,38 +36,4 @@ catch (Exception ex)
 {
     Console.WriteLine($"Error: {ex.Message}");
 }
-
-//foreach (XmlNode DefsItems in DefsNode.ChildNodes)
-//{
-//    string defName = string.Empty;
-//    string label = string.Empty;
-//    string description = string.Empty;
-//    foreach (XmlNode def in DefsItems.ChildNodes)
-//    {
-//        if (def.Name == "defName")
-//        {
-//            defName = def.InnerXml;
-//        }
-//        if (def.Name == "label")
-//        {
-//            label = def.InnerXml;
-//        }
-//        if (def.Name == "description")
-//        {
-//            description = def.InnerXml;
-//        }
-
-//    }
-
-//    if (!(label == string.Empty || description == string.Empty))
-//    {
-//        Console.WriteLine("defName: " + defName);
-//        Console.WriteLine("label: " + label);
-//        Console.WriteLine("description: " + description);
-//        Console.WriteLine("\n");
-//    }
-
-//    //Console.WriteLine("\n");
-//    //break;
-//}
 
