@@ -17,7 +17,7 @@
   <!-- EN: Version {0} -->
   <VersionIndicator>Versão {0}</VersionIndicator>
   <!-- EN: Game version -->
-  <GameVersionIndicator>TODO</GameVersionIndicator>
+  <GameVersionIndicator>Versão do jogo</GameVersionIndicator>
   <!-- EN: development build -->
   <DevelopmentBuildLower>versão de desenvolvimento</DevelopmentBuildLower>
   <!-- EN: Compiled {0} -->
@@ -27,113 +27,113 @@
   
   <!-- ToCommaList() -->
   <!-- EN: {0} and {1} -->
-  <ToCommaListAnd>TODO</ToCommaListAnd>
+  <ToCommaListAnd>{0} e {1}</ToCommaListAnd>
   <!-- EN: {0} or {1} -->
-  <ToCommaListOr>TODO</ToCommaListOr>
+  <ToCommaListOr>{0} ou {1}</ToCommaListOr>
   
   <!-- General-use words -->
   <!-- EN: Yes -->
-  <Yes>TODO</Yes>
+  <Yes>Sim</Yes>
   <!-- EN: No -->
-  <No>TODO</No>
+  <No>Não</No>
   <!-- EN: No {0} -->
-  <NoSubject>TODO</NoSubject>
+  <NoSubject>Não {0}</NoSubject>
   <!-- EN: new -->
-  <New>TODO</New>
+  <New>novo</New>
   <!-- EN: Gender -->
-  <Gender>TODO</Gender>
+  <Gender>Género</Gender>
   <!-- EN: Sex -->
-  <Sex>TODO</Sex>
+  <Sex>Sexo</Sex>
   <!-- EN: min -->
-  <min>TODO</min>
+  <min>mín</min>
   <!-- EN: max -->
-  <max>TODO</max>
+  <max>máx</max>
   <!-- EN: chance -->
-  <chance>TODO</chance>
+  <chance>chance</chance>
   <!-- EN: context -->
-  <context>TODO</context>
+  <context>contexto</context>
   <!-- EN: multiplier -->
-  <multiplier>TODO</multiplier>
+  <multiplier>multiplicador</multiplier>
   <!-- EN: damage -->
-  <damage>TODO</damage>
+  <damage>dano</damage>
   <!-- EN: radius -->
-  <radius>TODO</radius>
+  <radius>raio</radius>
   <!-- EN: expired -->
-  <expired>TODO</expired>
+  <expired>expirado</expired>
   <!-- EN: duration (days) -->
-  <durationDays>TODO</durationDays>
+  <durationDays>duração (dias)</durationDays>
   <!-- EN: interval (days) -->
-  <intervalDays>TODO</intervalDays>
+  <intervalDays>intervalo (dias)</intervalDays>
   <!-- EN: delay (days) -->
-  <delayDays>TODO</delayDays>
+  <delayDays>atraso (dias)</delayDays>
   <!-- EN: repeat -->
-  <repeat>TODO</repeat>
+  <repeat>repetir</repeat>
   <!-- EN: default -->
-  <default>TODO</default>
+  <default>pré-definido</default>
   <!-- EN: distance -->
-  <distance>TODO</distance>
+  <distance>distância</distance>
   <!-- EN: YES -->
-  <YesUppercase>TODO</YesUppercase>
+  <YesUppercase>SIM</YesUppercase>
   <!-- EN: NO -->
-  <NoUppercase>TODO</NoUppercase>
+  <NoUppercase>NÃO</NoUppercase>
   <!-- EN: kg -->
-  <kg>TODO</kg>
+  <kg>kg</kg>
   <!-- EN: Day -->
   <Day>Dia</Day>
   <!-- EN: day -->
-  <day>TODO</day>
+  <day>dia</day>
   <!-- EN: Default -->
-  <Default>TODO</Default>
+  <Default>Pré-definido</Default>
   <!-- EN: Average -->
-  <Average>TODO</Average>
+  <Average>média</Average>
   <!-- EN: Cause -->
-  <Cause>TODO</Cause>
+  <Cause>causa</Cause>
   <!-- EN: etc -->
-  <Etc>TODO</Etc>
+  <Etc>etc</Etc>
   <!-- EN: ${0} -->
-  <MoneyFormat>TODO</MoneyFormat>
+  <MoneyFormat>{0}€</MoneyFormat>
   <!-- EN: Factors -->
-  <Factors>TODO</Factors>
+  <Factors>fatores</Factors>
   <!-- EN: Uses -->
-  <Uses>TODO</Uses>
+  <Uses>usos</Uses>
   <!-- EN: Translation -->
-  <Translation>TODO</Translation>
+  <Translation>tradução</Translation>
   <!-- EN: min(days) -->
-  <minDays>TODO</minDays>
+  <minDays>mín(dias)</minDays>
   <!-- EN: max(days) -->
-  <maxDays>TODO</maxDays>
+  <maxDays>máx(dias)</maxDays>
   <!-- EN: Processing -->
-  <Processing>TODO</Processing>
+  <Processing>processar</Processing>
   <!-- EN: Inspect -->
-  <Inspect>TODO</Inspect> 
+  <Inspect>inspecionar</Inspect> 
 
   <!-- Content generation-->
   
   <!-- EN: {0} meat -->
   <MeatLabel>carne: {0}</MeatLabel>
   <!-- EN: Raw butchered flesh. Can be cooked into meals, or eaten raw. -->
-  <MeatDesc>Carne crua de: {0}.</MeatDesc>
+  <MeatDesc>Carne cura. Pode ser cozinhada para refeições, ou ser comida crua.</MeatDesc>
   <!-- EN: Raw butchered flesh. If necessary, can be cooked into meals, or even eaten raw. Extremely unappetizing. -->
-  <MeatInsectDesc>TODO</MeatInsectDesc>
+  <MeatInsectDesc>Carne cura. Se necessário, pode ser cozinhada para refeições, ou ser comida crua. Nada apetitoso.</MeatInsectDesc>
   <!-- EN: Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea. -->
-  <MeatHumanDesc>TODO</MeatHumanDesc>
+  <MeatHumanDesc>Carne cura. Pode ser cozinhada para refeições, ou ser comida crua, embora a maioria dos humanos não gostem dessa ideia.</MeatHumanDesc>
 
   <!-- EN: techprint ({PROJECT_label}) -->
-  <TechprintLabel>TODO</TechprintLabel>
+  <TechprintLabel>projeto técnico ({PROJECT_label})</TechprintLabel>
   <!-- EN: This is a techprint for the research project '{PROJECT_label}'.
 \nThe physical form of techprints can range from scraps of paper with diagrams, all the way to advanced self-contained teaching machines. Regardless of form, they play the same role. They give your researchers the confidence that an idea is possible, and a rough idea of the designs used in more established societies.
 \nYour researchers need the foundational knowledge offered by techprints to know where to start on a given technology. Only after enough techprints have been applied can your researchers work out the fine details of how to make use of the technology in your particular situation.
 \nApplying techprints to a satisfied project fulfills half the remaining research progress. In addition, researchers always gain a boost to their intellectual skills when applying techprints, even on already-completed technologies. -->
-  <TechprintDesc>TODO</TechprintDesc>
+  <TechprintDesc>Este é um projeto técnico de pesquisa '{PROJECT_label}'.\nA forma física dos projetos técnicos podem variar de pedaços de papel com diagramas, até máquinas de ensino avançadas e independentes. Independentemente da sua forma, têm a mesma função. Eles dão aos pesquisadores, a confiança de que uma ideia é possível, e uma ideia aproximada dos projetos usados em sociedades mais estabelecidas.\nOs pesquisadores precisam do conhecimento básico oferecido pelos projetos técnicos para saberem por onde começar uma determinada tecnologia. Apenas após a aplicação de projétos técnicos suficientes, os pesquisadores poderão descobrir os detalhes de como usar a tecnologia numa situação específica.\nAplicar projetos técnicos a um projeto satisfeito, cumpre metade do progresso restante da pesquisa. Além disso, os pesquisadores sempre aumentam suas habilidades intelectuais ao aplicar projetos técnicos, mesmo em tecnologias já concluídas</TechprintDesc>
   <!-- EN: Unlocks -->
-  <Unlocks>TODO</Unlocks>
+  <Unlocks>Desbloqueia</Unlocks>
 
   <!-- EN: {0} corpse -->
-  <CorpseLabel>Corpo: {0}</CorpseLabel>
+  <CorpseLabel>Corpo de {0}</CorpseLabel>
   <!-- EN: Dead body of a {0}. -->
-  <CorpseDesc>Corpo sem vida de: {0}.</CorpseDesc>
+  <CorpseDesc>Corpo sem vida de {0}.</CorpseDesc>
   <!-- EN: {1_label} (dead) -->
-  <DeadLabel>{0} (morto)</DeadLabel>
+  <DeadLabel>{1_label} (morto)</DeadLabel>
 
   <!-- EN: rough {0} -->
   <RoughStoneTerrainLabel>{0} rudimentar</RoughStoneTerrainLabel>
@@ -154,13 +154,13 @@
   <FrameLabelExtra> (construção)</FrameLabelExtra>
 
   <!-- EN: Unaffiliated -->
-  <FactionUnaffiliated>TODO</FactionUnaffiliated>
+  <FactionUnaffiliated>Não afiliado</FactionUnaffiliated>
 
   <!-- EN: Continue anyway? -->
-  <StillWishContinue>TODO</StillWishContinue>
+  <StillWishContinue>Continuar mesmo assim?</StillWishContinue>
   
   <!-- EN: ba,bah,boo,buh,ga,gah,goo,nyah,na,nah,noo,woo,wah,wuh,ma,mah -->
-  <BabyTalk>TODO</BabyTalk>
+  <BabyTalk>ba,bah,boo,buh,ga,gah,goo,nyah,na,nah,noo,woo,wah,wuh,ma,mah</BabyTalk>
 
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
@@ -173,10 +173,10 @@
   <CouplesRoom>{2} de {0} e {1}</CouplesRoom>
   
   <!-- EN: Important for this type of room. -->
-  <StatRelatesToCurrentRoom>TODO</StatRelatesToCurrentRoom>
+  <StatRelatesToCurrentRoom>Importante para este tipo de quarto.</StatRelatesToCurrentRoom>
   
   <!-- EN: {COUNT} {RESOURCE_label} underground here. -->
-  <DeepResourceRemaining>TODO</DeepResourceRemaining>
+  <DeepResourceRemaining>{COUNT} {RESOURCE_label} aqui no subsolo.</DeepResourceRemaining>
   
   <!-- EN: (various) -->
   <VariousLabel>(vários)</VariousLabel>
@@ -187,33 +187,29 @@
   
   <!-- Rotation -->
   <!-- EN: North -->
-  <North>TODO</North>
+  <North>Norte</North>
   <!-- EN: South -->
-  <South>TODO</South>
+  <South>Sul</South>
   <!-- EN: West -->
-  <West>TODO</West>
+  <West>Oeste</West>
   <!-- EN: East -->
-  <East>TODO</East>
+  <East>Este</East>
 
   <!-- EN: applying techprint ({0}) -->
-  <ApplyingTechprint>TODO</ApplyingTechprint>
+  <ApplyingTechprint>a aplicar projeto técnico ({0})</ApplyingTechprint>
 
   <!-- Apparel Looks -->
   <!-- EN: variant of -->
-  <VariantOf>TODO</VariantOf>
+  <VariantOf>variante de</VariantOf>
   
   <!-- Familial relationships -->
   <!-- EN: born to {0} -->
-  <BornOfParents>TODO</BornOfParents>
+  <BornOfParents>nascido para {0}</BornOfParents>
   <!-- EN: unknown parents -->
-  <ParentsUnknown>TODO</ParentsUnknown>
+  <ParentsUnknown>pais desconhecidos</ParentsUnknown>
   
   <!-- Legal status -->
   <!-- EN: colonist -->
-  <Colonist>TODO</Colonist>
-
-  <!-- UNUSED -->
-  <LeatherLabel>Couro: {0}</LeatherLabel>
-  <LeatherDesc>Couro feito da pele de: {0}.</LeatherDesc>
+  <Colonist>colono</Colonist>
 
 </LanguageData>
