@@ -3,17 +3,17 @@
   <!-- EN: Escape interval -->
   <HoldingPlatformEscapeMTBDays>Intervalo de fuga</HoldingPlatformEscapeMTBDays>
   <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity’s movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
-  <HoldingPlatformEscapeMTBDaysDesc>O tempo médio entre fugas. Isso é afetado pela força de contenção, pelo tipo de entidade, pela capacidade de movimento da entidade e pela duração da prisão da entidade. Algumas entidades também são suprimidas pelo frio.</HoldingPlatformEscapeMTBDaysDesc>
+  <HoldingPlatformEscapeMTBDaysDesc>O tempo médio entre fugas. Isso é afetado pela força de contenção, pelo tipo de entidade, pela capacidade de movimento da entidade e pela duração da detenção da entidade. Algumas entidades também são suprimidas pelo frio.</HoldingPlatformEscapeMTBDaysDesc>
   <!-- EN: Entity -->
   <TabEntity>Entidade</TabEntity>
   <!-- EN: Study interval -->
   <StudyInterval>Intervalo de estudo</StudyInterval>
   <!-- EN: How often this entity can be studied. -->
-  <StudyIntervalDesc>Quantas vezes essa entidade pode ser estudada.</StudyIntervalDesc>
+  <StudyIntervalDesc>Com que frequência esta entidade pode ser estudada.</StudyIntervalDesc>
   <!-- EN: Maintain only -->
   <EntityStudyMode_MaintainOnly>Manter apenas</EntityStudyMode_MaintainOnly>
   <!-- EN: Wardens will not perform special actions on this entity, but other interactions are still available. -->
-  <EntityStudyMode_MaintainOnlyDesc>Wardens não irá realizar ações especiais nesta entidade, mas outras interações ainda estão disponíveis.</EntityStudyMode_MaintainOnlyDesc>
+  <EntityStudyMode_MaintainOnlyDesc>Guardas não irão realizar ações especiais nesta entidade, mas outras interações ainda estão disponíveis.</EntityStudyMode_MaintainOnlyDesc>
   <!-- EN: Study -->
   <EntityStudyMode_Study>Estudo</EntityStudyMode_Study>
   <!-- EN: Researchers will study the entity. -->
@@ -21,33 +21,33 @@
   <!-- EN: Release -->
   <EntityStudyMode_Release>Lançamento</EntityStudyMode_Release>
   <!-- EN: A warden will release the entity from the holding platform. Entities may be hostile when released. -->
-  <EntityStudyMode_ReleaseDesc>Um diretor liberará a entidade da plataforma de retenção. As entidades podem ser hostis quando liberadas.</EntityStudyMode_ReleaseDesc>
+  <EntityStudyMode_ReleaseDesc>Um guarda liberará a entidade da plataforma de retenção. As entidades podem ser hostis quando libertadas.</EntityStudyMode_ReleaseDesc>
   <!-- EN: Execute -->
   <EntityStudyMode_Execute>Executar</EntityStudyMode_Execute>
   <!-- EN: A warden will execute the restrained entity. -->
-  <EntityStudyMode_ExecuteDesc>Um director irá executar a entidade confinada.</EntityStudyMode_ExecuteDesc>
+  <EntityStudyMode_ExecuteDesc>Um guarda irá executar a entidade confinada.</EntityStudyMode_ExecuteDesc>
   <!-- EN: Extract bioferrite -->
   <EntityStudyMode_Extract>Extrato de bioferrite</EntityStudyMode_Extract>
   <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can’t be done if the entity is attached to a bioferrite harvester. -->
-  <EntityStudyMode_ExtractDesc>Os médicos extrairão bioferrite da entidade capturada sempre que possível. Este método de extração é simples, mas ineficiente. Não pode ser feito se a entidade estiver ligada a uma colheitadeira de bioferrite.</EntityStudyMode_ExtractDesc>
+  <EntityStudyMode_ExtractDesc>Os médicos irão extrair bioferrite da entidade capturada sempre que possível. Este método de extração é simples, mas ineficiente. Não pode ser feito se a entidade estiver ligada a uma ceifeira de bioferrite.</EntityStudyMode_ExtractDesc>
   <!-- EN: Requires bioferrite extraction. -->
   <RequiresBioferriteExtraction>Requer extração de bioferrite.</RequiresBioferriteExtraction>
   <!-- EN: Blocked by bioferrite harvester. -->
-  <BioferriteHarvesterAttached>Bloqueado pela colheitadeira de bioferrite.</BioferriteHarvesterAttached>
+  <BioferriteHarvesterAttached>Bloqueado pela ceifeira de bioferrite.</BioferriteHarvesterAttached>
   <!-- EN: Can't be executed. -->
   <CantBeExecuted>Não pode ser executado.</CantBeExecuted>
   <!-- EN: Knowledge gain -->
   <StudyKnowledgeGain>Ganho de conhecimento</StudyKnowledgeGain>
   <!-- EN: Amount of knowledge gained per study interval. Better containment helps the researcher focus on study instead of safety, yielding more knowledge. -->
-  <StudyKnowledgeGainDesc>Quantidade de conhecimento adquirido por intervalo de estudo. Melhor contenção ajuda o pesquisador a se concentrar em estudo em vez de segurança, produzindo mais conhecimento.</StudyKnowledgeGainDesc>
+  <StudyKnowledgeGainDesc>Quantidade de conhecimento adquirido por intervalo de estudo. Melhor contenção ajuda o pesquisador a concentrar-se no estudo em vez de na segurança, produzindo mais conhecimento.</StudyKnowledgeGainDesc>
   <!-- EN: What type of medicine can be given to this entity. -->
   <MedicineQualityDescriptionEntity>Que tipo de medicamento pode ser dado a esta entidade.</MedicineQualityDescriptionEntity>
   <!-- EN: Electroharvester -->
-  <FactorForElectroharvester>Eletrodomésticos</FactorForElectroharvester>
+  <FactorForElectroharvester>Ceifeira elétrica</FactorForElectroharvester>
   <!-- EN: Long captivity -->
-  <FactorForDaysInCaptivity>Captividade longa</FactorForDaysInCaptivity>
+  <FactorForDaysInCaptivity>Cativeiro longo</FactorForDaysInCaptivity>
   <!-- EN: Cold containment bonus -->
-  <FactorForColdCaptivity>Bônus de contenção a frio</FactorForColdCaptivity>
+  <FactorForColdCaptivity>Bónus de contenção de frio</FactorForColdCaptivity>
   <!-- EN: Incapable of escaping -->
   <IncapableOfEscaping>Incapaz de escapar</IncapableOfEscaping>
   <!-- EN: Entity downed -->
@@ -55,7 +55,7 @@
   <!-- EN: Containment strength -->
   <FactorContainmentStrength>Resistência à contenção</FactorContainmentStrength>
   <!-- EN: Electroharvester -->
-  <FactorElectroharvester>Eletrodomésticos</FactorElectroharvester>
+  <FactorElectroharvester>Ceifeira elétrica</FactorElectroharvester>
   <!-- EN: Activity -->
-  <FactorActivity>Actividades</FactorActivity>
+  <FactorActivity>Atividade</FactorActivity>
 </LanguageData>

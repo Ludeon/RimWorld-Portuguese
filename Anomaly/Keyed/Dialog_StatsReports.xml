@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
 <LanguageData>
   <!-- EN: Knowledge gain from study -->
-  <KnowledgeFromStudy>Ganho de conhecimento do estudo</KnowledgeFromStudy>
+  <KnowledgeFromStudy>Conhecimento ganho a partir do estudo</KnowledgeFromStudy>
   <!-- EN: The type and amount of anomaly knowledge that can be obtained when this entity is studied. More sophisticated entities can unlock more advanced anomaly research projects. -->
-  <KnowledgeFromStudyDesc>O tipo e quantidade de conhecimento anomalia que pode ser obtido quando esta entidade é estudada. As entidades mais sofisticadas podem desbloquear projetos de pesquisa de anomalias mais avançados.</KnowledgeFromStudyDesc>
+  <KnowledgeFromStudyDesc>O tipo e quantidade de conhecimento da anomalia que pode ser obtido quando esta entidade é estudada. As entidades mais sofisticadas podem desbloquear projetos de pesquisa de anomalias mais avançados.</KnowledgeFromStudyDesc>
   <!-- EN: {0} {1} -->
-  <Stat_Knowledge>Não</Stat_Knowledge>
+  <Stat_Knowledge>{0} {1}</Stat_Knowledge>
   <!-- EN: Study interval -->
   <StudyFrequency>Intervalo de estudo</StudyFrequency>
   <!-- EN: The duration between available study periods for this entity. -->
@@ -13,9 +13,9 @@
   <!-- EN: Healing -->
   <Stat_Hediff_Regeneration_Name>Cura</Stat_Hediff_Regeneration_Name>
   <!-- EN: A flat amount of healing per day. -->
-  <Stat_Hediff_Regeneration_Desc>Uma quantidade plana de cura por dia.</Stat_Hediff_Regeneration_Desc>
+  <Stat_Hediff_Regeneration_Desc>Uma quantidade constante de cura por dia.</Stat_Hediff_Regeneration_Desc>
   <!-- EN: {0} hp/day -->
-  <Stat_Hediff_Regeneration_Stat>{0} hp / dia</Stat_Hediff_Regeneration_Stat>
+  <Stat_Hediff_Regeneration_Stat>{0} hp/dia</Stat_Hediff_Regeneration_Stat>
   <!-- EN: Average lighting -->
   <Stat_ContainmentStrength_AverageLighting>Iluminação média</Stat_ContainmentStrength_AverageLighting>
   <!-- EN: Average wall HP -->
@@ -23,21 +23,21 @@
   <!-- EN: Average door HP -->
   <Stat_ContainmentStrength_AverageDoorHp>Porta média HP</Stat_ContainmentStrength_AverageDoorHp>
   <!-- EN: Multiple ({0}) holding platforms -->
-  <Stat_ContainmentStrength_OtherHoldingPlatforms>Plataformas de exploração múltiplas ({0})</Stat_ContainmentStrength_OtherHoldingPlatforms>
+  <Stat_ContainmentStrength_OtherHoldingPlatforms>Múltiplas ({0}) plataformas de exploração</Stat_ContainmentStrength_OtherHoldingPlatforms>
   <!-- EN: Map-wide offset -->
-  <Stat_ContainmentStrength_MapwideOffset>Compensação em todo o mapa</Stat_ContainmentStrength_MapwideOffset>
+  <Stat_ContainmentStrength_MapwideOffset>Deslocamento de todo o mapa</Stat_ContainmentStrength_MapwideOffset>
   <!-- EN: door open -->
   <Stat_ContainmentStrength_DoorForcedOpen>porta aberta</Stat_ContainmentStrength_DoorForcedOpen>
   <!-- EN: Not fully roofed -->
-  <Stat_ContainmentStrength_NotFullyRoofed>Não totalmente coberto</Stat_ContainmentStrength_NotFullyRoofed>
+  <Stat_ContainmentStrength_NotFullyRoofed>Não está totalmente coberto</Stat_ContainmentStrength_NotFullyRoofed>
   <!-- EN: Flooring -->
-  <Stat_ContainmentStrength_Flooring>Revestimento</Stat_ContainmentStrength_Flooring>
+  <Stat_ContainmentStrength_Flooring>Pavimento</Stat_ContainmentStrength_Flooring>
   <!-- EN: Building -->
   <Stat_ContainmentStrength_Platform>Construção</Stat_ContainmentStrength_Platform>
   <!-- EN: Bioferrite generation -->
   <StatsReport_BioferriteGeneration>Geração de bioferrite</StatsReport_BioferriteGeneration>
   <!-- EN: How much bioferrite this entity generates per day when connected to a bioferrite harvester. -->
-  <StatsReport_BioferriteGeneration_Desc>Quanto bioferrite esta entidade gera por dia quando conectado a uma colheitadeira de bioferrite.</StatsReport_BioferriteGeneration_Desc>
+  <StatsReport_BioferriteGeneration_Desc>Quanto de bioferrite esta entidade gera por dia quando está conectada a uma ceifeira de bioferrite.</StatsReport_BioferriteGeneration_Desc>
   <!-- EN: Multiplier for bioferrite density -->
   <StatsReport_BioferriteDensityMultiplier>Multiplicador para densidade de bioferrite</StatsReport_BioferriteDensityMultiplier>
   <!-- EN: Multiplier for bioferrite extracted recently -->
@@ -47,17 +47,17 @@
   <!-- EN: The ingredients required to perform the psychic ritual. -->
   <StatsReport_Offering_Desc>Os ingredientes necessários para realizar o ritual psíquico.</StatsReport_Offering_Desc>
   <!-- EN: Ritual duration -->
-  <StatsReport_RitualDuration>Duração ritual</StatsReport_RitualDuration>
+  <StatsReport_RitualDuration>Duração do ritual</StatsReport_RitualDuration>
   <!-- EN: The time it takes to perform this ritual. -->
   <StatsReport_RitualDuration_Desc>O tempo necessário para realizar este ritual.</StatsReport_RitualDuration_Desc>
   <!-- EN: Cooldown -->
-  <StatsReport_RitualCooldown>Refrigeração</StatsReport_RitualCooldown>
+  <StatsReport_RitualCooldown>Perído inativo</StatsReport_RitualCooldown>
   <!-- EN: After a ritual is performed, it disrupts ambient psychic energy for a period of time. During this time, the ritual can't be performed again. -->
-  <StatsReport_RitualCooldown_Desc>Depois que um ritual é realizado, ele interrompe a energia psíquica ambiente por um período de tempo. Durante este tempo, o ritual não pode ser executado novamente.</StatsReport_RitualCooldown_Desc>
+  <StatsReport_RitualCooldown_Desc>Depois de realizar um ritual, é interrompida a energia psíquica ambiente por um período de tempo. Durante este período, o ritual não pode ser executado novamente.</StatsReport_RitualCooldown_Desc>
   <!-- EN: Containment offset -->
-  <StatsReport_ContainmentStrengthOffset>Compensação de contenção</StatsReport_ContainmentStrengthOffset>
+  <StatsReport_ContainmentStrengthOffset>Deslocamento de contenção</StatsReport_ContainmentStrengthOffset>
   <!-- EN: How much this affects the ability of a holding platform to constrain an entity. Entities that are better contained are less likely to escape and provide more knowledge when studied. -->
-  <StatsReport_ContainmentStrengthOffset_Desc>Quanto isso afeta a capacidade de uma plataforma de retenção para restringir uma entidade. As entidades que estão melhor contidas são menos propensas a escapar e fornecer mais conhecimento quando estudadas.</StatsReport_ContainmentStrengthOffset_Desc>
+  <StatsReport_ContainmentStrengthOffset_Desc>Quanto isto afeta a capacidade de uma plataforma de retenção para conter uma entidade. As entidades que estão melhor contidas são menos propensas a escapar e fornecer mais conhecimento quando estudadas.</StatsReport_ContainmentStrengthOffset_Desc>
   <!-- EN: Duration -->
   <StatsReport_SerumDuration>Duração</StatsReport_SerumDuration>
   <!-- EN: How long the effects of a serum last. -->
@@ -65,7 +65,7 @@
   <!-- EN: Occupied -->
   <StatsReport_Occupied>Ocupada</StatsReport_Occupied>
   <!-- EN: {2} per nearby {BUILDING_label} ({0} / {1}) -->
-  <MeditationFocusPerBuilding>{2} per nearby {BUILDING_label} ({0} / {1})</MeditationFocusPerBuilding>
+  <MeditationFocusPerBuilding>{2} por perto {BUILDING_label} ({0} / {1})</MeditationFocusPerBuilding>
   <!-- EN: {1} per nearby {BUILDING_label} (up to {0}) -->
   <MeditationFocusPerBuildingAbstract>{1} por perto {BUILDING_label} (até {0})</MeditationFocusPerBuildingAbstract>
 </LanguageData>
