@@ -1,61 +1,87 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" ?>
 <LanguageData>
-
-  <ActivityMultipleDangerous>Dangerous activity levels</ActivityMultipleDangerous>
-  <ActivityDangerousDesc>These entities are at dangerously high activity levels</ActivityDangerousDesc>  
-  <ActivityDangerousDescAppended>When an entity reaches 100% activity, it will become dangerous.\n\nSend your warden to suppress these entities, or enable automatic suppression using the entity's activity panel.</ActivityDangerousDescAppended>
-
-  <NeedAnomalyProject>Need anomaly project</NeedAnomalyProject>
-  <NeedAnomalyProjectDesc>You have an entity marked for study but don't have a matching anomaly research project selected:</NeedAnomalyProjectDesc>
-  <NeedAnomalyProjectDescLine>Need {NAME} anomaly research project</NeedAnomalyProjectDescLine>
-  <NeedAnomalyProjectDescAppended>Open the research menu and select a project on the anomaly tab.\n\nYou can have a basic and an advanced research project selected at the same time.\n\n(Click to open the research menu.)</NeedAnomalyProjectDescAppended>
-
-  <CreepJoinerTimeout>Visitor ignored</CreepJoinerTimeout>
-  <CreepJoinerTimeoutDesc>The following visitors feel ignored and are becoming increasingly upset</CreepJoinerTimeoutDesc>
-  <CreepJoinerTimeoutDescAppended>Select a colonist and right-click on the visitor.\n\nAct quickly... they don't like being ignored.</CreepJoinerTimeoutDescAppended>
-
-  <Alert_UndercaveUnstable>Undercave unstable</Alert_UndercaveUnstable>
-  <Alert_UndercaveUnstableDesc>The undercave has become unstable and will collapse soon.\n\nGet your colonists out before it's too late.</Alert_UndercaveUnstableDesc>
-
-  <Alert_CultistPsychicRitual>Cultist psychic ritual</Alert_CultistPsychicRitual>
-  <Alert_CultistPsychicRitualDesc>{INVOKER_kindDef} {INVOKER_nameDef} has started to perform {RITUAL_definite} ritual. If you don't interrupt {INVOKER_objective}, the consequences could be dire.</Alert_CultistPsychicRitualDesc>
-
-  <AlertMeatHunger>Ghoul starvation</AlertMeatHunger>
-  <AlertMeatHungerDesc>These ghouls hunger for raw meat</AlertMeatHungerDesc>
-  <AlertMeatHungerDescAppended>They may attack if they're not fed soon. Get them some meat.</AlertMeatHungerDescAppended>
-  
-  <AlertEmergingPitGate>Pit gate opening</AlertEmergingPitGate>
-  <AlertEmergingPitGateDesc>The ground is collapsing in on itself. A pit gate will soon form.</AlertEmergingPitGateDesc>
-
-  <Alert_InsufficientContainment>Insufficient containment</Alert_InsufficientContainment>
-  <Alert_InsufficientContainmentDesc>The following entities are being held in rooms that do not meet their minimum containment strength</Alert_InsufficientContainmentDesc>
-  <Alert_InsufficientContainmentDescAppended>They will escape soon. Build stronger walls, doors, or other containment devices to hold them.</Alert_InsufficientContainmentDescAppended>
-
-  <AlertHoldingPlatform>Holding platforms needed</AlertHoldingPlatform>
-  <AlertHoldingPlatformDesc>Build holding platforms or place holding spots to contain and study captured entities.</AlertHoldingPlatformDesc>
-
-  <AlertCubeWithdrawal>Cube withdrawal</AlertCubeWithdrawal>
-  <AlertCubeWithdrawalDesc>The following people are suffering from cube withdrawal</AlertCubeWithdrawalDesc>
-  <AlertCubeWithdrawalDescAppended>Their skin itches and their mind races, craving closeness to the golden cube. Their symptoms will worsen until they can play with the cube.\n\nEnsure that they have free time and can reach the golden cube.</AlertCubeWithdrawalDescAppended>
-
-  <AlertDigestion>Devourer digestion</AlertDigestion>
-  <AlertDigestionDesc>The following people or creatures are being digested by a devourer</AlertDigestionDesc>
-  <AlertDigestionDescAppended>Kill the devourer to release them before it's too late.</AlertDigestionDescAppended>
-  
-  <AlertInhibitorBlocked>Inhibitor blocked</AlertInhibitorBlocked>
-  <AlertInhibitorBlockedDesc>One of your electric inhibitors is not functional because it’s blocked by another building.\n\nClear the space in front of the electric inhibitor.</AlertInhibitorBlockedDesc>
-
-  <EntityNeedsTreatment>Entity treatment needed</EntityNeedsTreatment>
-  <EntityNeedsTreatmentDesc>These entities need medical treatment. Without it, they may die in captivity.\n{0}\n\nSend a doctor to treat them.</EntityNeedsTreatmentDesc>
-
-  <AlertGhoulHypothermia>Ghoul hypothermia</AlertGhoulHypothermia>
-  <AlertGhoulHypothermiaDesc>These ghouls are suffering from hypothermia:\n{0}\n\nGet them to warmer temperatures.</AlertGhoulHypothermiaDesc>
-  
-  <AlertGrayFleshSample>Gray flesh</AlertGrayFleshSample>
-  <AlertGrayFleshSampleDesc>You’ve discovered a strip of fleshy tissue. Analyze it to learn more about the biosignature.</AlertGrayFleshSampleDesc>
-  <AlertNeuralLump>Neural lump</AlertNeuralLump>
-  <AlertNeuralLumpDesc>A fleshmass nerve bundle has dropped a neural lump. Analyze it to learn how to kill the fleshmass heart.</AlertNeuralLumpDesc>
-  <AlertRevenantFlesh>Revenant flesh</AlertRevenantFlesh>
-  <AlertRevenantFleshDesc>The wounded revenant left behind a piece of itself. Analyze it to learn how to track the revenant.</AlertRevenantFleshDesc>
-
+  <!-- EN: Dangerous activity levels -->
+  <ActivityMultipleDangerous>Níveis de actividade perigosa</ActivityMultipleDangerous>
+  <!-- EN: These entities are at dangerously high activity levels -->
+  <ActivityDangerousDesc>Essas entidades estão em níveis de atividade perigosamente elevados</ActivityDangerousDesc>
+  <!-- EN: When an entity reaches 100% activity, it will become dangerous.\n\nSend your warden to suppress these entities, or enable automatic suppression using the entity's activity panel. -->
+  <ActivityDangerousDescAppended>Quando uma entidade atinge 100% de atividade, ela se tornará perigosa.\n\nEnvie seu diretor para suprimir essas entidades ou permitir a supressão automática usando o painel de atividades da entidade.</ActivityDangerousDescAppended>
+  <!-- EN: Need anomaly project -->
+  <NeedAnomalyProject>Precisa de projeto de anomalia</NeedAnomalyProject>
+  <!-- EN: You have an entity marked for study but don't have a matching anomaly research project selected: -->
+  <NeedAnomalyProjectDesc>Você tem uma entidade marcada para estudo, mas não tem um projeto de pesquisa anomalia correspondente selecionado:</NeedAnomalyProjectDesc>
+  <!-- EN: Need {NAME} anomaly research project -->
+  <NeedAnomalyProjectDescLine>Necessidade de {NAME} projeto de pesquisa anomalia</NeedAnomalyProjectDescLine>
+  <!-- EN: Open the research menu and select a project on the anomaly tab.\n\nYou can have a basic and an advanced research project selected at the same time.\n\n(Click to open the research menu.) -->
+  <NeedAnomalyProjectDescAppended>Abra o menu de pesquisa e selecione um projeto na aba anomalia.\n\nVocê pode ter um projeto básico e avançado de pesquisa selecionado ao mesmo tempo.\n\n(Clique para abrir o menu de pesquisa.)</NeedAnomalyProjectDescAppended>
+  <!-- EN: Visitor ignored -->
+  <CreepJoinerTimeout>Visitante ignorado</CreepJoinerTimeout>
+  <!-- EN: The following visitors feel ignored and are becoming increasingly upset -->
+  <CreepJoinerTimeoutDesc>Os seguintes visitantes sentem-se ignorados e estão a ficar cada vez mais chateados</CreepJoinerTimeoutDesc>
+  <!-- EN: Select a colonist and right-click on the visitor.\n\nAct quickly... they don't like being ignored. -->
+  <CreepJoinerTimeoutDescAppended>Selecione um colonista e clique com o botão direito do rato no visitante.\n\nAja rapidamente... eles não gostam de ser ignorados.</CreepJoinerTimeoutDescAppended>
+  <!-- EN: Undercave unstable -->
+  <Alert_UndercaveUnstable>Caverna instável</Alert_UndercaveUnstable>
+  <!-- EN: The undercave has become unstable and will collapse soon.\n\nGet your colonists out before it's too late. -->
+  <Alert_UndercaveUnstableDesc>A caverna tornou-se instável e vai cair em breve.\n\nTire os colonos antes que seja tarde demais.</Alert_UndercaveUnstableDesc>
+  <!-- EN: Cultist psychic ritual -->
+  <Alert_CultistPsychicRitual>ritual psíquico de cultista</Alert_CultistPsychicRitual>
+  <!-- EN: {INVOKER_kindDef} {INVOKER_nameDef} has started to perform {RITUAL_definite} ritual. If you don't interrupt {INVOKER_objective}, the consequences could be dire. -->
+  <Alert_CultistPsychicRitualDesc>{INVOKER_kindDef} {INVOKER_nameDef} começou a realizar ritual {RITUAL_definite}. Se você não interromper {INVOKER_objective}, as consequências podem ser terríveis.</Alert_CultistPsychicRitualDesc>
+  <!-- EN: Ghoul starvation -->
+  <AlertMeatHunger>Ghoul esfomeado</AlertMeatHunger>
+  <!-- EN: These ghouls hunger for raw meat -->
+  <AlertMeatHungerDesc>Estes ghouls desejam carne crua</AlertMeatHungerDesc>
+  <!-- EN: They may attack if they're not fed soon. Get them some meat. -->
+  <AlertMeatHungerDescAppended>Podem atacar se não forem alimentados em breve. Dê-lhes carne.</AlertMeatHungerDescAppended>
+  <!-- EN: Pit gate opening -->
+  <AlertEmergingPitGate>Abertura do portão do poço</AlertEmergingPitGate>
+  <!-- EN: The ground is collapsing in on itself. A pit gate will soon form. -->
+  <AlertEmergingPitGateDesc>O chão está colapsando em si mesmo. Um portão de poços logo se formará.</AlertEmergingPitGateDesc>
+  <!-- EN: Insufficient containment -->
+  <Alert_InsufficientContainment>Contenção insuficiente</Alert_InsufficientContainment>
+  <!-- EN: The following entities are being held in rooms that do not meet their minimum containment strength -->
+  <Alert_InsufficientContainmentDesc>As seguintes entidades estão sendo mantidas em salas que não atendem à sua força mínima de contenção</Alert_InsufficientContainmentDesc>
+  <!-- EN: They will escape soon. Build stronger walls, doors, or other containment devices to hold them. -->
+  <Alert_InsufficientContainmentDescAppended>Eles escaparão em breve. Construa paredes, portas ou outros dispositivos de contenção mais fortes para segurá-las.</Alert_InsufficientContainmentDescAppended>
+  <!-- EN: Holding platforms needed -->
+  <AlertHoldingPlatform>Plataformas de retenção necessárias</AlertHoldingPlatform>
+  <!-- EN: Build holding platforms or place holding spots to contain and study captured entities. -->
+  <AlertHoldingPlatformDesc>Construa plataformas de retenção ou coloque pontos de retenção para conter e estudar as entidades capturadas.</AlertHoldingPlatformDesc>
+  <!-- EN: Cube withdrawal -->
+  <AlertCubeWithdrawal>Retirada do cubo</AlertCubeWithdrawal>
+  <!-- EN: The following people are suffering from cube withdrawal -->
+  <AlertCubeWithdrawalDesc>As seguintes pessoas estão sofrendo pela retirada do cubo</AlertCubeWithdrawalDesc>
+  <!-- EN: Their skin itches and their mind races, craving closeness to the golden cube. Their symptoms will worsen until they can play with the cube.\n\nEnsure that they have free time and can reach the golden cube. -->
+  <AlertCubeWithdrawalDescAppended>A pele deles dá comichão e as suas mentes disparam, ansiando a proximidade ao cubo dourado. Seus sintomas piorarão até que possam brincar com o cubo.\n\nCertifique-se de que eles têm tempo livre e que possam alcançar o cubo dourado.</AlertCubeWithdrawalDescAppended>
+  <!-- EN: Devourer digestion -->
+  <AlertDigestion>Digestão Devorador</AlertDigestion>
+  <!-- EN: The following people or creatures are being digested by a devourer -->
+  <AlertDigestionDesc>As seguintes pessoas ou criaturas estão sendo digeridas por um devorador</AlertDigestionDesc>
+  <!-- EN: Kill the devourer to release them before it's too late. -->
+  <AlertDigestionDescAppended>Mata o devorador para os libertar antes que seja tarde demais.</AlertDigestionDescAppended>
+  <!-- EN: Inhibitor blocked -->
+  <AlertInhibitorBlocked>Inibidor bloqueado</AlertInhibitorBlocked>
+  <!-- EN: One of your electric inhibitors is not functional because it’s blocked by another building.\n\nClear the space in front of the electric inhibitor. -->
+  <AlertInhibitorBlockedDesc>Um de seus inibidores elétricos não é funcional porque é bloqueado por outro edifício.\n\nLimpe o espaço em frente ao inibidor elétrico.</AlertInhibitorBlockedDesc>
+  <!-- EN: Entity treatment needed -->
+  <EntityNeedsTreatment>Tratamento de imunidade necessário</EntityNeedsTreatment>
+  <!-- EN: These entities need medical treatment. Without it, they may die in captivity.\n{0}\n\nSend a doctor to treat them. -->
+  <EntityNeedsTreatmentDesc>Estas entidades precisam de tratamento médico. Sem ele, podem morrer em cativeiro.\n{0}\n\nEnvie um médico para tratá-los.</EntityNeedsTreatmentDesc>
+  <!-- EN: Ghoul hypothermia -->
+  <AlertGhoulHypothermia>Ghoul em Hipotermia</AlertGhoulHypothermia>
+  <!-- EN: These ghouls are suffering from hypothermia:\n{0}\n\nGet them to warmer temperatures. -->
+  <AlertGhoulHypothermiaDesc>Estes ghouls estão a sofrer de hipotermia:\n{0}\n\nLeve-os para temperaturas mais quentes.</AlertGhoulHypothermiaDesc>
+  <!-- EN: Gray flesh -->
+  <AlertGrayFleshSample>Carne cinzenta</AlertGrayFleshSample>
+  <!-- EN: You’ve discovered a strip of fleshy tissue. Analyze it to learn more about the biosignature. -->
+  <AlertGrayFleshSampleDesc>Você descobriu uma tira de tecido carnudo. Analise-o para saber mais sobre a sua bioassinatura.</AlertGrayFleshSampleDesc>
+  <!-- EN: Neural lump -->
+  <AlertNeuralLump>Nódulo neural</AlertNeuralLump>
+  <!-- EN: A fleshmass nerve bundle has dropped a neural lump. Analyze it to learn how to kill the fleshmass heart. -->
+  <AlertNeuralLumpDesc>Um feixe de nervos de mass de carne deixou cair um nódulo neural. Analise-o para aprender a matar o coração da massa de carne.</AlertNeuralLumpDesc>
+  <!-- EN: Revenant flesh -->
+  <AlertRevenantFlesh>Carne de Revenant</AlertRevenantFlesh>
+  <!-- EN: The wounded revenant left behind a piece of itself. Analyze it to learn how to track the revenant. -->
+  <AlertRevenantFleshDesc>O revenant ferido deixou para trás um pedaço de si mesmo. Analise-o para aprender como localizar o revenant.</AlertRevenantFleshDesc>
 </LanguageData>

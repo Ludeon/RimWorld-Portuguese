@@ -1,62 +1,63 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" ?>
 <LanguageData>
-
-  <!-- Entities -->
-  <MessageActivityRisingDamage>{0_definite}'s activity is rising due to taking damage.</MessageActivityRisingDamage>
-  <EntityDiedOnHoldingPlatform>{0_definite} has died on a holding platform.</EntityDiedOnHoldingPlatform>
-  <MessageEntityDiscovered>New entity discovered</MessageEntityDiscovered>
-
-  <!-- Hate chanters -->
-  <MessageHateChantersAbsorbed>The cultists are in a trance and don't respond when attacked.</MessageHateChantersAbsorbed>
-  <MessageHateChantIncreased>The hate chanting has increased in volume.</MessageHateChantIncreased>
-
-  <!-- Self-resurrection -->
-  <SelfResurrectText>{0_nameDef} can self-resurrect on command using death refusal.</SelfResurrectText>
-  <MessageUsingSelfResurrection>{0_nameDef} is using death refusal to self-resurrect.</MessageUsingSelfResurrection>
-
-  <!-- Pit Gate -->
-  <MessagePitGateCollapsed>The pit gate has collapsed.</MessagePitGateCollapsed>
-  <MessagePitBurrowCollapsed>A pit burrow has collapsed.</MessagePitBurrowCollapsed>
-
-  <!-- Fleshsack -->
-  <FleshmassContainedMessage>The flesh sack contained something</FleshmassContainedMessage>
-
-  <!-- Psychic rituals -->
-  <MessagePsychicRitualAssault>{0_pawnsPluralDef} are attacking!</MessagePsychicRitualAssault>
-  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef} are beginning the psychic ritual</MessageAIPsychicRitualBegan>
-  
-  <!-- Biomutation lance -->
-  <MessageBiomutationLanceInvalidTargetRace>Cannot target: {0_nameDef} is not an animal or human.</MessageBiomutationLanceInvalidTargetRace>
-  <MessageBiomutationLanceTargetTooBig>Cannot target: {0_nameDef} is too large.</MessageBiomutationLanceTargetTooBig>
-
-  <!-- Containment -->
-  <MessageNoRoomWithMinimumContainmentStrength>Warning: No rooms have the minimum containment strength for {0}. It may escape soon.</MessageNoRoomWithMinimumContainmentStrength>
-  <MessageTargetBelowMinimumContainmentStrength>Warning: {0} is below minimum containment strength for {1}. It may escape soon.</MessageTargetBelowMinimumContainmentStrength>
-  <MessageHolderReserved>Can't transfer to {0} reserved by someone else.</MessageHolderReserved>
-  <MessageEntityExecuted>{EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}.</MessageEntityExecuted>
-  <MessageOccupiedHoldingPlatformReinstalled>Warning: Reinstalling an occupied holding platform will release the entity. Transfer the entity to another platform first.</MessageOccupiedHoldingPlatformReinstalled>
-  <MessageOccupiedHoldingPlatformUninstalled>Warning: Uninstalling an occupied holding platform will release the entity. Transfer the entity to another platform first.</MessageOccupiedHoldingPlatformUninstalled>
-  <MessageOccupiedHoldingPlatformDeconstructed>Warning: Deconstructing an occupied holding platform will release the entity. Transfer the entity to another platform first.</MessageOccupiedHoldingPlatformDeconstructed>
-  
-  <!-- Duplicator obelisk -->
-  <MessageHostileDuplicate>A hostile duplicate of {0_nameDef} has appeared.</MessageHostileDuplicate>
-  
-  <!-- Proximity detector -->
-  <MessageProximityDetectorTriggered>A proximity detector has detected an invisible creature.</MessageProximityDetectorTriggered>
-  
-  <!-- Unnatural darkness --> 
-  <MessagePawnAttackedInDarkness>Something in the darkness has attacked {0_nameDef}.</MessagePawnAttackedInDarkness>
-  
-  <!-- Revenant -->
-  <MessageRevenantForcedVisibility>A hidden revenant has been revealed!</MessageRevenantForcedVisibility>
-  <MessageRevenantHeard>{PAWN_nameDef} can hear the revenant {1} nearby!</MessageRevenantHeard>
-  
-  <!-- Abilities -->
-  <MessageCannotUseOnNonBleeder>{ABILITY_label} cannot be used on non-bleeding creatures.</MessageCannotUseOnNonBleeder>
-  
-  <MessageFingerspikeDisturbed>{WAKER_nameDef} has disturbed a fingerspike.</MessageFingerspikeDisturbed>
-  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} has disturbed several fingerspikes.</MessageFingerspikeDisturbedPlural>
-
-  <DeathPallResurrectedMessage>The death pall has resurrected {0_indefinite}.</DeathPallResurrectedMessage>
-  
+  <!-- EN: {0_definite}'s activity is rising due to taking damage. -->
+  <MessageActivityRisingDamage>a atividade de {0_definite} está aumentando devido a ter danos.</MessageActivityRisingDamage>
+  <!-- EN: {0_definite} has died on a holding platform. -->
+  <EntityDiedOnHoldingPlatform>{0_definite} morreu em uma plataforma de retenção.</EntityDiedOnHoldingPlatform>
+  <!-- EN: New entity discovered -->
+  <MessageEntityDiscovered>Nova entidade descoberta</MessageEntityDiscovered>
+  <!-- EN: The cultists are in a trance and don't respond when attacked. -->
+  <MessageHateChantersAbsorbed>Os cultistas estão em transe e não respondem quando atacados.</MessageHateChantersAbsorbed>
+  <!-- EN: The hate chanting has increased in volume. -->
+  <MessageHateChantIncreased>O canto de ódio aumentou em volume.</MessageHateChantIncreased>
+  <!-- EN: {0_nameDef} can self-resurrect on command using death refusal. -->
+  <SelfResurrectText>{0_nameDef} pode auto-resurgir no comando usando a recusa de morte.</SelfResurrectText>
+  <!-- EN: {0_nameDef} is using death refusal to self-resurrect. -->
+  <MessageUsingSelfResurrection>{0_nameDef} está usando a recusa de morte para auto-ressurreto.</MessageUsingSelfResurrection>
+  <!-- EN: The pit gate has collapsed. -->
+  <MessagePitGateCollapsed>O portão do poço entrou em colapso.</MessagePitGateCollapsed>
+  <!-- EN: A pit burrow has collapsed. -->
+  <MessagePitBurrowCollapsed>Um buraco caiu.</MessagePitBurrowCollapsed>
+  <!-- EN: The flesh sack contained something -->
+  <FleshmassContainedMessage>O saco de carne continha algo</FleshmassContainedMessage>
+  <!-- EN: {0_pawnsPluralDef} are attacking! -->
+  <MessagePsychicRitualAssault>{0_pawnsPlural Estão a atacar!</MessagePsychicRitualAssault>
+  <!-- EN: {FACTION_pawnsPluralDef} are beginning the psychic ritual -->
+  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef} estão começando o ritual psíquico</MessageAIPsychicRitualBegan>
+  <!-- EN: Cannot target: {0_nameDef} is not an animal or human. -->
+  <MessageBiomutationLanceInvalidTargetRace>Não pode ser alvo: {0_nameDef} não é um animal ou humano.</MessageBiomutationLanceInvalidTargetRace>
+  <!-- EN: Cannot target: {0_nameDef} is too large. -->
+  <MessageBiomutationLanceTargetTooBig>Não pode ser alvo: {0_nameDef} é muito grande.</MessageBiomutationLanceTargetTooBig>
+  <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It may escape soon. -->
+  <MessageNoRoomWithMinimumContainmentStrength>Aviso: Nenhum quarto tem a força de contenção mínima para {0}. Pode escapar em breve.</MessageNoRoomWithMinimumContainmentStrength>
+  <!-- EN: Warning: {0} is below minimum containment strength for {1}. It may escape soon. -->
+  <MessageTargetBelowMinimumContainmentStrength>Aviso: {0} está abaixo da força de contenção mínima para {1}. Pode escapar em breve.</MessageTargetBelowMinimumContainmentStrength>
+  <!-- EN: Can't transfer to {0} reserved by someone else. -->
+  <MessageHolderReserved>Não posso transferir para {0} reservado por outra pessoa.</MessageHolderReserved>
+  <!-- EN: {EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}. -->
+  <MessageEntityExecuted>{EXECUTIONER_labelShort} executou {VICTIM_kindIndef}.</MessageEntityExecuted>
+  <!-- EN: Warning: Reinstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
+  <MessageOccupiedHoldingPlatformReinstalled>Aviso: Reinstalar uma plataforma de retenção ocupada irá liberar a entidade. Transferir a entidade para outra plataforma primeiro.</MessageOccupiedHoldingPlatformReinstalled>
+  <!-- EN: Warning: Uninstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
+  <MessageOccupiedHoldingPlatformUninstalled>Aviso: Desinstalar uma plataforma de retenção ocupada irá liberar a entidade. Transferir a entidade para outra plataforma primeiro.</MessageOccupiedHoldingPlatformUninstalled>
+  <!-- EN: Warning: Deconstructing an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
+  <MessageOccupiedHoldingPlatformDeconstructed>Aviso: Desconstruir uma plataforma de retenção ocupada irá liberar a entidade. Transferir a entidade para outra plataforma primeiro.</MessageOccupiedHoldingPlatformDeconstructed>
+  <!-- EN: A hostile duplicate of {0_nameDef} has appeared. -->
+  <MessageHostileDuplicate>Uma duplicata hostil de {0_nameDef} apareceu.</MessageHostileDuplicate>
+  <!-- EN: A proximity detector has detected an invisible creature. -->
+  <MessageProximityDetectorTriggered>Um detector de proximidade detectou uma criatura invisível.</MessageProximityDetectorTriggered>
+  <!-- EN: Something in the darkness has attacked {0_nameDef}. -->
+  <MessagePawnAttackedInDarkness>Algo na escuridão atacou {0_nameDef}.</MessagePawnAttackedInDarkness>
+  <!-- EN: A hidden revenant has been revealed! -->
+  <MessageRevenantForcedVisibility>Um revenant escondido foi revelado!</MessageRevenantForcedVisibility>
+  <!-- EN: {PAWN_nameDef} can hear the revenant {1} nearby! -->
+  <MessageRevenantHeard>{PAWN_name Def} pode ouvir o revenant {1} nas proximidades!</MessageRevenantHeard>
+  <!-- EN: {ABILITY_label} cannot be used on non-bleeding creatures. -->
+  <MessageCannotUseOnNonBleeder>{ABILITY_label} não pode ser usado em criaturas não-soldados.</MessageCannotUseOnNonBleeder>
+  <!-- EN: {WAKER_nameDef} has disturbed a fingerspike. -->
+  <MessageFingerspikeDisturbed>(WAKER_nameDef) perturbou um palito de dedos.</MessageFingerspikeDisturbed>
+  <!-- EN: {WAKER_nameDef} has disturbed several fingerspikes. -->
+  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} tem perturbado vários palitos de dedos.</MessageFingerspikeDisturbedPlural>
+  <!-- EN: The death pall has resurrected {0_indefinite}. -->
+  <DeathPallResurrectedMessage>O pavilhão de morte ressuscitou {0_indefinido}.</DeathPallResurrectedMessage>
 </LanguageData>

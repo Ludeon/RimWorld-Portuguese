@@ -1,37 +1,61 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
+<?xml version="1.0" ?>
 <LanguageData>
-
-  <!-- ITab_Entity -->
-  <HoldingPlatformEscapeMTBDays>Escape interval</HoldingPlatformEscapeMTBDays>
-  <HoldingPlatformEscapeMTBDaysDesc>The average time between escapes. This is affected by containment strength, the type of entity, the entity’s movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold.</HoldingPlatformEscapeMTBDaysDesc>
-  <TabEntity>Entity</TabEntity>
-  <StudyInterval>Study interval</StudyInterval>
-  <StudyIntervalDesc>How often this entity can be studied.</StudyIntervalDesc>
-  <EntityStudyMode_MaintainOnly>Maintain only</EntityStudyMode_MaintainOnly>
-  <EntityStudyMode_MaintainOnlyDesc>Wardens will not perform special actions on this entity, but other interactions are still available.</EntityStudyMode_MaintainOnlyDesc>
-  <EntityStudyMode_Study>Study</EntityStudyMode_Study>
-  <EntityStudyMode_StudyDesc>Researchers will study the entity.</EntityStudyMode_StudyDesc>
-  <EntityStudyMode_Release>Release</EntityStudyMode_Release>
-  <EntityStudyMode_ReleaseDesc>A warden will release the entity from the holding platform. Entities may be hostile when released.</EntityStudyMode_ReleaseDesc>
-  <EntityStudyMode_Execute>Execute</EntityStudyMode_Execute>
-  <EntityStudyMode_ExecuteDesc>A warden will execute the restrained entity.</EntityStudyMode_ExecuteDesc>
-  <EntityStudyMode_Extract>Extract bioferrite</EntityStudyMode_Extract>
-  <EntityStudyMode_ExtractDesc>Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can’t be done if the entity is attached to a bioferrite harvester.</EntityStudyMode_ExtractDesc>
-  <RequiresBioferriteExtraction>Requires bioferrite extraction.</RequiresBioferriteExtraction>
-  <BioferriteHarvesterAttached>Blocked by bioferrite harvester.</BioferriteHarvesterAttached>
-  <CantBeExecuted>Can't be executed.</CantBeExecuted>
-  <StudyKnowledgeGain>Knowledge gain</StudyKnowledgeGain>
-  <StudyKnowledgeGainDesc>Amount of knowledge gained per study interval. Better containment helps the researcher focus on study instead of safety, yielding more knowledge.</StudyKnowledgeGainDesc>
-  <MedicineQualityDescriptionEntity>What type of medicine can be given to this entity.</MedicineQualityDescriptionEntity>
-
-  <FactorForElectroharvester>Electroharvester</FactorForElectroharvester>
-  <FactorForDaysInCaptivity>Long captivity</FactorForDaysInCaptivity>
-  <FactorForColdCaptivity>Cold containment bonus</FactorForColdCaptivity>
-  <IncapableOfEscaping>Incapable of escaping</IncapableOfEscaping>
-  <EntityDowned>Entity downed</EntityDowned>
-  <FactorContainmentStrength>Containment strength</FactorContainmentStrength>
-  <FactorElectroharvester>Electroharvester</FactorElectroharvester>
-  <FactorActivity>Activity</FactorActivity>
-
+  <!-- EN: Escape interval -->
+  <HoldingPlatformEscapeMTBDays>Intervalo de fuga</HoldingPlatformEscapeMTBDays>
+  <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity’s movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
+  <HoldingPlatformEscapeMTBDaysDesc>O tempo médio entre fugas. Isso é afetado pela força de contenção, pelo tipo de entidade, pela capacidade de movimento da entidade e pela duração da prisão da entidade. Algumas entidades também são suprimidas pelo frio.</HoldingPlatformEscapeMTBDaysDesc>
+  <!-- EN: Entity -->
+  <TabEntity>Entidade</TabEntity>
+  <!-- EN: Study interval -->
+  <StudyInterval>Intervalo de estudo</StudyInterval>
+  <!-- EN: How often this entity can be studied. -->
+  <StudyIntervalDesc>Quantas vezes essa entidade pode ser estudada.</StudyIntervalDesc>
+  <!-- EN: Maintain only -->
+  <EntityStudyMode_MaintainOnly>Manter apenas</EntityStudyMode_MaintainOnly>
+  <!-- EN: Wardens will not perform special actions on this entity, but other interactions are still available. -->
+  <EntityStudyMode_MaintainOnlyDesc>Wardens não irá realizar ações especiais nesta entidade, mas outras interações ainda estão disponíveis.</EntityStudyMode_MaintainOnlyDesc>
+  <!-- EN: Study -->
+  <EntityStudyMode_Study>Estudo</EntityStudyMode_Study>
+  <!-- EN: Researchers will study the entity. -->
+  <EntityStudyMode_StudyDesc>Os pesquisadores estudarão a entidade.</EntityStudyMode_StudyDesc>
+  <!-- EN: Release -->
+  <EntityStudyMode_Release>Lançamento</EntityStudyMode_Release>
+  <!-- EN: A warden will release the entity from the holding platform. Entities may be hostile when released. -->
+  <EntityStudyMode_ReleaseDesc>Um diretor liberará a entidade da plataforma de retenção. As entidades podem ser hostis quando liberadas.</EntityStudyMode_ReleaseDesc>
+  <!-- EN: Execute -->
+  <EntityStudyMode_Execute>Executar</EntityStudyMode_Execute>
+  <!-- EN: A warden will execute the restrained entity. -->
+  <EntityStudyMode_ExecuteDesc>Um director irá executar a entidade confinada.</EntityStudyMode_ExecuteDesc>
+  <!-- EN: Extract bioferrite -->
+  <EntityStudyMode_Extract>Extrato de bioferrite</EntityStudyMode_Extract>
+  <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can’t be done if the entity is attached to a bioferrite harvester. -->
+  <EntityStudyMode_ExtractDesc>Os médicos extrairão bioferrite da entidade capturada sempre que possível. Este método de extração é simples, mas ineficiente. Não pode ser feito se a entidade estiver ligada a uma colheitadeira de bioferrite.</EntityStudyMode_ExtractDesc>
+  <!-- EN: Requires bioferrite extraction. -->
+  <RequiresBioferriteExtraction>Requer extração de bioferrite.</RequiresBioferriteExtraction>
+  <!-- EN: Blocked by bioferrite harvester. -->
+  <BioferriteHarvesterAttached>Bloqueado pela colheitadeira de bioferrite.</BioferriteHarvesterAttached>
+  <!-- EN: Can't be executed. -->
+  <CantBeExecuted>Não pode ser executado.</CantBeExecuted>
+  <!-- EN: Knowledge gain -->
+  <StudyKnowledgeGain>Ganho de conhecimento</StudyKnowledgeGain>
+  <!-- EN: Amount of knowledge gained per study interval. Better containment helps the researcher focus on study instead of safety, yielding more knowledge. -->
+  <StudyKnowledgeGainDesc>Quantidade de conhecimento adquirido por intervalo de estudo. Melhor contenção ajuda o pesquisador a se concentrar em estudo em vez de segurança, produzindo mais conhecimento.</StudyKnowledgeGainDesc>
+  <!-- EN: What type of medicine can be given to this entity. -->
+  <MedicineQualityDescriptionEntity>Que tipo de medicamento pode ser dado a esta entidade.</MedicineQualityDescriptionEntity>
+  <!-- EN: Electroharvester -->
+  <FactorForElectroharvester>Eletrodomésticos</FactorForElectroharvester>
+  <!-- EN: Long captivity -->
+  <FactorForDaysInCaptivity>Captividade longa</FactorForDaysInCaptivity>
+  <!-- EN: Cold containment bonus -->
+  <FactorForColdCaptivity>Bônus de contenção a frio</FactorForColdCaptivity>
+  <!-- EN: Incapable of escaping -->
+  <IncapableOfEscaping>Incapaz de escapar</IncapableOfEscaping>
+  <!-- EN: Entity downed -->
+  <EntityDowned>Entidade derrubada</EntityDowned>
+  <!-- EN: Containment strength -->
+  <FactorContainmentStrength>Resistência à contenção</FactorContainmentStrength>
+  <!-- EN: Electroharvester -->
+  <FactorElectroharvester>Eletrodomésticos</FactorElectroharvester>
+  <!-- EN: Activity -->
+  <FactorActivity>Actividades</FactorActivity>
 </LanguageData>
