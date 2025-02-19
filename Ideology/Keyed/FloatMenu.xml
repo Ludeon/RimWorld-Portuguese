@@ -1,93 +1,167 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" ?>
 <LanguageData>
-
-  <IdeoligionForbids>Ideoligion forbids</IdeoligionForbids>
-  <OnlyMembersCanBuild>Only {0}s can build</OnlyMembersCanBuild>
-  <CantStartRitualAlreadyInProgress>{0} is already in progress.</CantStartRitualAlreadyInProgress>
-  <CantJoinRitualInExtremeWeather>One or more participants can't join due to extreme temperature.</CantJoinRitualInExtremeWeather>
-  <CantStartRitualTargetIsAlreadyInRitual>{0} is already participating in a ritual.</CantStartRitualTargetIsAlreadyInRitual>
-  <CantStartRitualRoleNotAssigned>You must assign the role of {0} in order to start this ritual.</CantStartRitualRoleNotAssigned>
-  <CantStartRitualNoConvertee>There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion.</CantStartRitualNoConvertee>
-  <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef} cannot be {ROLE}.</CantStartRitualSelectedPawnCannotBeRole>
-  <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} must be a {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
-  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} is psychically deaf.</CantStartRitualSelectedPawnPsychicallyDeaf>
-  <CantStartNotEnoughSpaceDuelSpectators>Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required.</CantStartNotEnoughSpaceDuelSpectators>
-  <CantStartNotEnoughSpaceDuelDuelists>Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required.</CantStartNotEnoughSpaceDuelDuelists>
-  <CantStartNotEnoughSpaceDuelSpeaker>Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}.</CantStartNotEnoughSpaceDuelSpeaker>
-  <CantStartFuneralForSlave>{0_labelShort} is a slave. Slaves don't get funerals.</CantStartFuneralForSlave>
-  <NoSlaveBed>Need a slave bed that is reachable, not reserved, and in safe temperature.</NoSlaveBed>
-  <ReturnToSlaveBed>Return to slave bed</ReturnToSlaveBed>
-  <NotAllowedForFaction>not allowed for faction</NotAllowedForFaction>
-
-  <Remove>Remove</Remove>
-  <RemovePrecept>Remove precept</RemovePrecept>
-  <Regenerate>Regenerate</Regenerate>
-  <CannotEdit>Cannot edit</CannotEdit>
-  <NoChoicesAvailable>No choices available</NoChoicesAvailable>
-  <RequiredByMeme>Required by meme {0}</RequiredByMeme>
-  <Required>Required</Required>
-  <StyleCategory>Style category</StyleCategory>
-  <AddStyleCategory>Add style category</AddStyleCategory>
-  <MaxRitualCount>Can't add more than {0} rituals.</MaxRitualCount>
-  <MaxRelicCount>Can't add more than {0} relics.</MaxRelicCount>
-  <MaxMultiRolesCount>can't have more than {0} specialists.</MaxMultiRolesCount>
-  <MaxPreceptCount>max {0}</MaxPreceptCount>
-  <SetTargetGender>Set gender</SetTargetGender>
-  <RoleApparelRequirementIncompatibleFaction>must be {0} faction</RoleApparelRequirementIncompatibleFaction>
+  <!-- EN: Ideoligion forbids -->
+  <IdeoligionForbids>Proibições de Ideoligação</IdeoligionForbids>
+  <!-- EN: Only {0}s can build -->
+  <OnlyMembersCanBuild>Apenas {0}s podem construir</OnlyMembersCanBuild>
+  <!-- EN: {0} is already in progress. -->
+  <CantStartRitualAlreadyInProgress>já está em andamento.</CantStartRitualAlreadyInProgress>
+  <!-- EN: One or more participants can't join due to extreme temperature. -->
+  <CantJoinRitualInExtremeWeather>Um ou mais participantes não podem participar devido à temperatura extrema.</CantJoinRitualInExtremeWeather>
+  <!-- EN: {0} is already participating in a ritual. -->
+  <CantStartRitualTargetIsAlreadyInRitual>{0} já está participando de um ritual.</CantStartRitualTargetIsAlreadyInRitual>
+  <!-- EN: You must assign the role of {0} in order to start this ritual. -->
+  <CantStartRitualRoleNotAssigned>Você deve atribuir o papel de {0} para iniciar este ritual.</CantStartRitualRoleNotAssigned>
+  <!-- EN: There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion. -->
+  <CantStartRitualNoConvertee>Não há ninguém para converter para {0}. Precisas de um colono, prisioneiro ou escravo de um ideoligion diferente.</CantStartRitualNoConvertee>
+  <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
+  <CantStartRitualSelectedPawnCannotBeRole>{PAWN_name Não pode ser.</CantStartRitualSelectedPawnCannotBeRole>
+  <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
+  <CantStartRitualSelectedPawnMustBeMember>{PAWN_name Def} deve ser um {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
+  <!-- EN: {PAWN_nameDef} is psychically deaf. -->
+  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_name Def} é psiquicamente surdo.</CantStartRitualSelectedPawnPsychicallyDeaf>
+  <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelSpectators>Não há espaço suficiente para espectadores. Deve haver um círculo claro de raio (MINRADIUS). Pelo menos {1} pontos standable naquele raio necessário.</CantStartNotEnoughSpaceDuelSpectators>
+  <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelDuelists>Não há espaço suficiente para duelistas. Deve haver um círculo claro de raio (MINRADIUS). Pelo menos {1} pontos standable naquele raio necessário.</CantStartNotEnoughSpaceDuelDuelists>
+  <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
+  <CantStartNotEnoughSpaceDuelSpeaker>Não há espaço suficiente para o alto-falante. Deve haver um círculo claro de raio (MINRADIUS).</CantStartNotEnoughSpaceDuelSpeaker>
+  <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
+  <CantStartFuneralForSlave>Não. Curto é um escravo. Os escravos não recebem funerais.</CantStartFuneralForSlave>
+  <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
+  <NoSlaveBed>Precisa de uma cama de escravo que seja acessível, não reservada, e em temperatura segura.</NoSlaveBed>
+  <!-- EN: Return to slave bed -->
+  <ReturnToSlaveBed>Voltar à cama de escravo</ReturnToSlaveBed>
+  <!-- EN: not allowed for faction -->
+  <NotAllowedForFaction>não permitido para facção</NotAllowedForFaction>
+  <!-- EN: Remove -->
+  <Remove>Remover</Remove>
+  <!-- EN: Remove precept -->
+  <RemovePrecept>Remover preceito</RemovePrecept>
+  <!-- EN: Regenerate -->
+  <Regenerate>Regenerar</Regenerate>
+  <!-- EN: Cannot edit -->
+  <CannotEdit>Não é possível editar</CannotEdit>
+  <!-- EN: No choices available -->
+  <NoChoicesAvailable>Sem escolhas disponíveis</NoChoicesAvailable>
+  <!-- EN: Required by meme {0} -->
+  <RequiredByMeme>Requisito por meme Não</RequiredByMeme>
+  <!-- EN: Required -->
+  <Required>Requisitos</Required>
+  <!-- EN: Style category -->
+  <StyleCategory>Categoria de estilo</StyleCategory>
+  <!-- EN: Add style category -->
+  <AddStyleCategory>Adicionar categoria de estilo</AddStyleCategory>
+  <!-- EN: Can't add more than {0} rituals. -->
+  <MaxRitualCount>Não posso adicionar mais do que os rituais.</MaxRitualCount>
+  <!-- EN: Can't add more than {0} relics. -->
+  <MaxRelicCount>Não posso adicionar mais do que relíquias.</MaxRelicCount>
+  <!-- EN: can't have more than {0} specialists. -->
+  <MaxMultiRolesCount>não pode ter mais do que {0} especialistas.</MaxMultiRolesCount>
+  <!-- EN: max {0} -->
+  <MaxPreceptCount>max</MaxPreceptCount>
+  <!-- EN: Set gender -->
+  <SetTargetGender>Definir gênero</SetTargetGender>
+  <!-- EN: must be {0} faction -->
+  <RoleApparelRequirementIncompatibleFaction>deve ser facção</RoleApparelRequirementIncompatibleFaction>
+  <!-- EN: tribal -->
   <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>tribal</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
-  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>non-tribal</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
-  <RoleApparelRequirementIncompatibleAnyMemeRequired>requires any of these memes</RoleApparelRequirementIncompatibleAnyMemeRequired>
-  <BodyPartAlreadyCovered>cannot be worn with assigned apparel</BodyPartAlreadyCovered>
-  <NoteRoleApparelRequirementEffects>People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated.</NoteRoleApparelRequirementEffects>
-  <NeuralSuperchargeNotReady>supercharge not ready</NeuralSuperchargeNotReady>
-  <NeuralSuperchargeAlreadyGetting>already getting</NeuralSuperchargeAlreadyGetting>
-  <SetApparelType>Set type</SetApparelType>
-
-  <ChangeStyle>change style</ChangeStyle>
-  <DeitiesRequired>{0} {DEITYNOUN} required</DeitiesRequired>
-  <Deity>deity</Deity>
-  <RequiresMeme>requires meme</RequiresMeme>
-  <RequiresOneOfMemes>requires one of</RequiresOneOfMemes>
-  <ConflictsWithMeme>conflicts with meme</ConflictsWithMeme>
-  <ConflictsWithMemes>conflicts with memes</ConflictsWithMemes>
-  <IdeoAlreadyHasAltar>can only have one altar/ideogram</IdeoAlreadyHasAltar>
-  <RecolorApparel>recolor apparel</RecolorApparel>
-
-  <Hack>Hack {0}</Hack>
-  <CannotHack>Cannot hack {0}</CannotHack>
-  <AlreadyHacked>Already hacked</AlreadyHacked>
-  <IncapableOfHacking>Incapable of hacking</IncapableOfHacking>
-  <ToDropSupplies>to drop supplies</ToDropSupplies>
-
-  <InstallRelic>Install {0}</InstallRelic>
-  <ExtractRelic>Extract {0}</ExtractRelic>
-  <ExtractRelicToInventory>Extract {0} to inventory ({1})</ExtractRelicToInventory>
-  <NoRelicToInstall>No relic to install</NoRelicToInstall>
-  <InstallInReliquary>Install in reliquary</InstallInReliquary>
-  <NoEmptyReliquary>no empty accessible reliquary</NoEmptyReliquary>
-
-  <NoWardenOfIdeo>No {MEMBERNAME} warden</NoWardenOfIdeo>
-
-  <RemoveCurrentRole>Remove current role</RemoveCurrentRole>
-
-  <EnterBiosculpterPod>Enter biosculpter pod for {0} cycle ({1})</EnterBiosculpterPod>
-  <BiosculpterBiotunedToAnother>Biotuned to someone else.</BiosculpterBiotunedToAnother>
-  <UnderMinBiosculpterAgeReversalAge>Must be {0} years old for age reversal.</UnderMinBiosculpterAgeReversalAge>
-  <CarryToBiosculpterPod>Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle)</CarryToBiosculpterPod>
-  <CannotCarryToBiosculpterPod>Cannot carry to biosculpter pod</CannotCarryToBiosculpterPod>
-  <NoBiosculpterPod>No available biosculpter pod.</NoBiosculpterPod>
-  <BiosculpterNutritionNotLoaded>Nutrition not loaded</BiosculpterNutritionNotLoaded>
-  <BiosculpterOccupied>Occupied</BiosculpterOccupied>
-  <CannotEnter>Cannot enter</CannotEnter>
-  <BiosculpterCannotStartCycle>Cannot start {0} cycle</BiosculpterCannotStartCycle>
-  <BiosculpterMissingIngredients>Cannot find cycle ingredients ({INGREDIENTS})</BiosculpterMissingIngredients>
-  <BiosculpterNoEligiblePawns>Nobody around can use this</BiosculpterNoEligiblePawns>
-  <BiosculpterNoEligiblePawnsBiotuned>Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around</BiosculpterNoEligiblePawnsBiotuned>
-  <BiosculpterAutoLoadNutritionLabel>Auto load nutrition</BiosculpterAutoLoadNutritionLabel>
-  <BiosculpterAutoLoadNutritionDescription>Automatically load the nutrition required to run a cycle</BiosculpterAutoLoadNutritionDescription>
-  <BiosculpterAutoAgeReversalLabel>Auto age reversal for {PAWN_labelShort}</BiosculpterAutoAgeReversalLabel>
-  <BiosculpterAutoAgeReversalDescription>Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
-  <BiosculpterAutoAgeReversalDescriptionFuture>If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready.</BiosculpterAutoAgeReversalDescriptionFuture>
-  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled.</BiosculpterAutoAgeReversalDescriptionNow>
-  <BiosculpterJobReportCollectIngredients>Collecting ingredients for biosculpter cycle</BiosculpterJobReportCollectIngredients>
+  <!-- EN: non-tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>não-tribal</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
+  <!-- EN: requires any of these memes -->
+  <RoleApparelRequirementIncompatibleAnyMemeRequired>requer qualquer um destes memes</RoleApparelRequirementIncompatibleAnyMemeRequired>
+  <!-- EN: cannot be worn with assigned apparel -->
+  <BodyPartAlreadyCovered>não pode ser usado com vestuário atribuído</BodyPartAlreadyCovered>
+  <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
+  <NoteRoleApparelRequirementEffects>As pessoas estão satisfeitas quando seus requisitos de vestuário são cumpridos e infelizes quando são violados.</NoteRoleApparelRequirementEffects>
+  <!-- EN: supercharge not ready -->
+  <NeuralSuperchargeNotReady>supercharge não está pronto</NeuralSuperchargeNotReady>
+  <!-- EN: already getting -->
+  <NeuralSuperchargeAlreadyGetting>já está chegando</NeuralSuperchargeAlreadyGetting>
+  <!-- EN: Set type -->
+  <SetApparelType>Tipo de conjunto</SetApparelType>
+  <!-- EN: change style -->
+  <ChangeStyle>estilo de mudança</ChangeStyle>
+  <!-- EN: {0} {DEITYNOUN} required -->
+  <DeitiesRequired>{0} (DEITYNOUN) obrigatório</DeitiesRequired>
+  <!-- EN: deity -->
+  <Deity>da</Deity>
+  <!-- EN: requires meme -->
+  <RequiresMeme>requer meme</RequiresMeme>
+  <!-- EN: requires one of -->
+  <RequiresOneOfMemes>requer um</RequiresOneOfMemes>
+  <!-- EN: conflicts with meme -->
+  <ConflictsWithMeme>conflitos com meme</ConflictsWithMeme>
+  <!-- EN: conflicts with memes -->
+  <ConflictsWithMemes>conflitos com memes</ConflictsWithMemes>
+  <!-- EN: can only have one altar/ideogram -->
+  <IdeoAlreadyHasAltar>só pode ter um altar/ideograma</IdeoAlreadyHasAltar>
+  <!-- EN: recolor apparel -->
+  <RecolorApparel>vestuário de recolor</RecolorApparel>
+  <!-- EN: Hack {0} -->
+  <Hack>Corte {0}</Hack>
+  <!-- EN: Cannot hack {0} -->
+  <CannotHack>Não é possível hackear</CannotHack>
+  <!-- EN: Already hacked -->
+  <AlreadyHacked>Já hackeado</AlreadyHacked>
+  <!-- EN: Incapable of hacking -->
+  <IncapableOfHacking>Incapaz de hackear</IncapableOfHacking>
+  <!-- EN: to drop supplies -->
+  <ToDropSupplies>para soltar suprimentos</ToDropSupplies>
+  <!-- EN: Install {0} -->
+  <InstallRelic>Instalar {0}</InstallRelic>
+  <!-- EN: Extract {0} -->
+  <ExtractRelic>Extrato</ExtractRelic>
+  <!-- EN: Extract {0} to inventory ({1}) -->
+  <ExtractRelicToInventory>Extrato {0} para inventário ({1})</ExtractRelicToInventory>
+  <!-- EN: No relic to install -->
+  <NoRelicToInstall>Nenhuma relíquia para instalar</NoRelicToInstall>
+  <!-- EN: Install in reliquary -->
+  <InstallInReliquary>Instalar no relicário</InstallInReliquary>
+  <!-- EN: no empty accessible reliquary -->
+  <NoEmptyReliquary>sem relicário acessível vazio</NoEmptyReliquary>
+  <!-- EN: No {MEMBERNAME} warden -->
+  <NoWardenOfIdeo>Não, não</NoWardenOfIdeo>
+  <!-- EN: Remove current role -->
+  <RemoveCurrentRole>Remover a função atual</RemoveCurrentRole>
+  <!-- EN: Enter biosculpter pod for {0} cycle ({1}) -->
+  <EnterBiosculpterPod>Insira biosculpter pod para {0} ciclo ({1})</EnterBiosculpterPod>
+  <!-- EN: Biotuned to someone else. -->
+  <BiosculpterBiotunedToAnother>Biotuado para outra pessoa.</BiosculpterBiotunedToAnother>
+  <!-- EN: Must be {0} years old for age reversal. -->
+  <UnderMinBiosculpterAgeReversalAge>Deve ter {0} anos de idade para reverso de idade.</UnderMinBiosculpterAgeReversalAge>
+  <!-- EN: Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle) -->
+  <CarryToBiosculpterPod>Carry {PAWN_labelShort} para biosculpter (ciclo{CYCLE})</CarryToBiosculpterPod>
+  <!-- EN: Cannot carry to biosculpter pod -->
+  <CannotCarryToBiosculpterPod>Não pode transportar para cápsula de biosculpter</CannotCarryToBiosculpterPod>
+  <!-- EN: No available biosculpter pod. -->
+  <NoBiosculpterPod>Não disponível biosculpter pod.</NoBiosculpterPod>
+  <!-- EN: Nutrition not loaded -->
+  <BiosculpterNutritionNotLoaded>Nutrição não carregada</BiosculpterNutritionNotLoaded>
+  <!-- EN: Occupied -->
+  <BiosculpterOccupied>Ocupada</BiosculpterOccupied>
+  <!-- EN: Cannot enter -->
+  <CannotEnter>Não pode entrar</CannotEnter>
+  <!-- EN: Cannot start {0} cycle -->
+  <BiosculpterCannotStartCycle>Não pode começar (0} ciclo</BiosculpterCannotStartCycle>
+  <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
+  <BiosculpterMissingIngredients>Não pode encontrar ingredientes de ciclo ({INGREDIENTS})</BiosculpterMissingIngredients>
+  <!-- EN: Nobody around can use this -->
+  <BiosculpterNoEligiblePawns>Ninguém pode usar isto</BiosculpterNoEligiblePawns>
+  <!-- EN: Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around -->
+  <BiosculpterNoEligiblePawnsBiotuned>Biotuned to {PAWN_labelShort} and {PAWN_pronoun} não está por perto</BiosculpterNoEligiblePawnsBiotuned>
+  <!-- EN: Auto load nutrition -->
+  <BiosculpterAutoLoadNutritionLabel>Nutrição de carga automática</BiosculpterAutoLoadNutritionLabel>
+  <!-- EN: Automatically load the nutrition required to run a cycle -->
+  <BiosculpterAutoLoadNutritionDescription>Carregar automaticamente a nutrição necessária para executar um ciclo</BiosculpterAutoLoadNutritionDescription>
+  <!-- EN: Auto age reversal for {PAWN_labelShort} -->
+  <BiosculpterAutoAgeReversalLabel>Reversão de idade automática para {PAWN_labelShort}</BiosculpterAutoAgeReversalLabel>
+  <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
+  <BiosculpterAutoAgeReversalDescription>Automaticamente satisfazer {PAWN_label O desejo de executar um tratamento de inversão de idade anual nesta vagem, de acordo com as crenças {PAWN_possessive}. - Não</BiosculpterAutoAgeReversalDescription>
+  <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready. -->
+  <BiosculpterAutoAgeReversalDescriptionFuture>Se ativado, {PAWN_label Short} automaticamente tomará {PAWN_possessive} próximo treament em {TIME} se o pod estiver pronto.</BiosculpterAutoAgeReversalDescriptionFuture>
+  <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
+  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} já quer {PAWN_possessive} próximo tratamento e começará automaticamente um se isso estiver ativado.</BiosculpterAutoAgeReversalDescriptionNow>
+  <!-- EN: Collecting ingredients for biosculpter cycle -->
+  <BiosculpterJobReportCollectIngredients>Coletar ingredientes para ciclo de biosculpter</BiosculpterJobReportCollectIngredients>
 </LanguageData>

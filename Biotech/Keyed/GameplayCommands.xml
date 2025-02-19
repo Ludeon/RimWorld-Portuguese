@@ -1,38 +1,51 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" ?>
 <LanguageData>
+  <!-- EN: Auto-repair -->
   <CommandAutoRepair>Auto-repair</CommandAutoRepair>
-  <CommandAutoRepairDesc>If active, a mechanitor will automatically repair this mechanoid. Repairing a mechanoid drains its energy.</CommandAutoRepairDesc>
-
-  <CommandDisabledDeathresting>{0_labelShort} is deathresting.</CommandDisabledDeathresting>
-
-  <CommandCancelGrowth>Cancel vatgrowth</CommandCancelGrowth>
-  <CommandCancelGrowthDesc>Cancel vatgrowth for the current occupant. The occupant will be ejected.</CommandCancelGrowthDesc>
-
-  <CommandSelectOverseer>Select overseer</CommandSelectOverseer>
-  <CommandSelectOverseerDesc>Select the mechanitor who is the overseer of this mech.</CommandSelectOverseerDesc>
-  <CommandSelectOverseerDisabledDesc>No overseer.</CommandSelectOverseerDisabledDesc>
-
-  <CommandCancelExtraction>Cancel extraction</CommandCancelExtraction>
-  <CommandCancelExtractionDesc>Cancel the extraction process. The contained person will be ejected.</CommandCancelExtractionDesc>
-
-  <CommandCallBossgroup>Summon mech threat...</CommandCallBossgroup>
-  <CommandCallBossgroupDesc>Summon an enemy leader mechanoid along with escorts.\n\nIf you defeat the leader mechanoid, it will drop a special chip which you can use to advance your own mechanoid technology.\n\nThere are three leader mechanoid types, each summoned a different way, each dropping a different type of chip.</CommandCallBossgroupDesc>
-
-  <CommandAutoLoad>Toggle auto load {0}</CommandAutoLoad>
-  <CommandAutoLoadDesc>If active, colonists will automatically load this with {0}.</CommandAutoLoadDesc>
-
-  <CommandEjectContents>Eject contents</CommandEjectContents>
-  <CommandEjectContentsDesc>Eject all contained {0} onto the ground.</CommandEjectContentsDesc>
-
-  <CommandSelectAllMechs>Select all mechs</CommandSelectAllMechs>
-  <CommandSelectAllMechsDesc>Select all mechanoids controlled by this mechanitor.</CommandSelectAllMechsDesc>
-
-  <CommandToggleTurret>Turret enabled</CommandToggleTurret>
-  <CommandToggleTurretDesc>Toggle turret being able to fire at will.\n\nWhen disabled, the turret will not automatically fire. This is useful while sneaking up on enemies.</CommandToggleTurretDesc>
-
-  <CommandCancelSubcoreScan>Cancel scan</CommandCancelSubcoreScan>
-  <CommandCancelSubcoreScanDesc>Cancel the scan process. The contained person will be ejected.</CommandCancelSubcoreScanDesc>
-
-  <ForceXenogermImplantation>Force xenogerm implantation</ForceXenogermImplantation>
-  <ForceXenogermImplantationDesc>Force this person to implant their xenogenes into another individual using a special injector organ. If this person's genes are currently regrowing, they will die in the process.\n\nWhen implanted, a xenogerm will overwrite the target's xenogenes. Germline genes will be unaffected.</ForceXenogermImplantationDesc>
+  <!-- EN: If active, a mechanitor will automatically repair this mechanoid. Repairing a mechanoid drains its energy. -->
+  <CommandAutoRepairDesc>Se ativo, um mecanitor irá reparar automaticamente este mecanóide. Reparar um mecanóide drena sua energia.</CommandAutoRepairDesc>
+  <!-- EN: {0_labelShort} is deathresting. -->
+  <CommandDisabledDeathresting>Não. Curto é morteiro.</CommandDisabledDeathresting>
+  <!-- EN: Cancel vatgrowth -->
+  <CommandCancelGrowth>Cancelar</CommandCancelGrowth>
+  <!-- EN: Cancel vatgrowth for the current occupant. The occupant will be ejected. -->
+  <CommandCancelGrowthDesc>Cancel vatgrowth para o ocupante atual. O ocupante será expulso.</CommandCancelGrowthDesc>
+  <!-- EN: Select overseer -->
+  <CommandSelectOverseer>Selecione overseer</CommandSelectOverseer>
+  <!-- EN: Select the mechanitor who is the overseer of this mech. -->
+  <CommandSelectOverseerDesc>Selecione o mecanitor que é o supervisor deste mech.</CommandSelectOverseerDesc>
+  <!-- EN: No overseer. -->
+  <CommandSelectOverseerDisabledDesc>Sem overseer.</CommandSelectOverseerDisabledDesc>
+  <!-- EN: Cancel extraction -->
+  <CommandCancelExtraction>Cancelar extração</CommandCancelExtraction>
+  <!-- EN: Cancel the extraction process. The contained person will be ejected. -->
+  <CommandCancelExtractionDesc>Cancelar o processo de extração. A pessoa contida será ejetada.</CommandCancelExtractionDesc>
+  <!-- EN: Summon mech threat... -->
+  <CommandCallBossgroup>Soma ameaça de mech...</CommandCallBossgroup>
+  <!-- EN: Summon an enemy leader mechanoid along with escorts.\n\nIf you defeat the leader mechanoid, it will drop a special chip which you can use to advance your own mechanoid technology.\n\nThere are three leader mechanoid types, each summoned a different way, each dropping a different type of chip. -->
+  <CommandCallBossgroupDesc>Invoque um mecanóide líder inimigo junto com escoltas.\n\nSe você derrotar o mecanóide líder, ele vai deixar cair um chip especial que você pode usar para avançar sua própria tecnologia mecanóide.\n\nExistem três tipos de mecanóide líder, cada um convocou uma maneira diferente, cada um deixando cair um tipo diferente de chip.</CommandCallBossgroupDesc>
+  <!-- EN: Toggle auto load {0} -->
+  <CommandAutoLoad>Carga automática de alavanca Não</CommandAutoLoad>
+  <!-- EN: If active, colonists will automatically load this with {0}. -->
+  <CommandAutoLoadDesc>Se ativo, os colonos carregarão automaticamente isso com {0}.</CommandAutoLoadDesc>
+  <!-- EN: Eject contents -->
+  <CommandEjectContents>Conteúdo do objeto</CommandEjectContents>
+  <!-- EN: Eject all contained {0} onto the ground. -->
+  <CommandEjectContentsDesc>Ejetar tudo contido {0} no chão.</CommandEjectContentsDesc>
+  <!-- EN: Select all mechs -->
+  <CommandSelectAllMechs>Selecione todos os mechs</CommandSelectAllMechs>
+  <!-- EN: Select all mechanoids controlled by this mechanitor. -->
+  <CommandSelectAllMechsDesc>Selecione todos os mecanóides controlados por este mecanitor.</CommandSelectAllMechsDesc>
+  <!-- EN: Turret enabled -->
+  <CommandToggleTurret>Turret habilitado</CommandToggleTurret>
+  <!-- EN: Toggle turret being able to fire at will.\n\nWhen disabled, the turret will not automatically fire. This is useful while sneaking up on enemies. -->
+  <CommandToggleTurretDesc>Torne-se turreto capaz de disparar à vontade.\n\nQuando desativado, a torre não disparará automaticamente. Isso é útil enquanto esgueirando-se em inimigos.</CommandToggleTurretDesc>
+  <!-- EN: Cancel scan -->
+  <CommandCancelSubcoreScan>Cancelar digitalização</CommandCancelSubcoreScan>
+  <!-- EN: Cancel the scan process. The contained person will be ejected. -->
+  <CommandCancelSubcoreScanDesc>Cancelar o processo de digitalização. A pessoa contida será ejetada.</CommandCancelSubcoreScanDesc>
+  <!-- EN: Force xenogerm implantation -->
+  <ForceXenogermImplantation>Implantação do xenogerm da força</ForceXenogermImplantation>
+  <!-- EN: Force this person to implant their xenogenes into another individual using a special injector organ. If this person's genes are currently regrowing, they will die in the process.\n\nWhen implanted, a xenogerm will overwrite the target's xenogenes. Germline genes will be unaffected. -->
+  <ForceXenogermImplantationDesc>Forçar esta pessoa a implantar seus xenogenes em outro indivíduo usando um órgão injector especial. Se os genes desta pessoa estão a regrowing, morrerão no processo.\n\nQuando implantado, um xenogerm substituirá o xenogenes do alvo. Os genes germinais não serão afetados.</ForceXenogermImplantationDesc>
 </LanguageData>

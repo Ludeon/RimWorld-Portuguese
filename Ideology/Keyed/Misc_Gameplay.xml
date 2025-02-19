@@ -1,363 +1,617 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" ?>
 <LanguageData>
-
-  <CustomizeIdeoligion>Customize ideoligion</CustomizeIdeoligion>
-  <ChooseYourIdeoligion>Choose your ideoligion</ChooseYourIdeoligion>
-  <RandomStructureTip>A random structure will be used for your ideoligion.</RandomStructureTip>
-  <RandomStyleTip>A random style will be used for your ideoligion.</RandomStyleTip>
-  <PlayClassic>Ideology system inactive</PlayClassic>
-  <CreateCustomFluid>Create custom\n(fluid)</CreateCustomFluid>
-  <CreateCustomFixed>Create custom\n(fixed)</CreateCustomFixed>
-  <CustomIdeoligions>Custom ideoligions</CustomIdeoligions>
-  <LoadSaved>Load saved</LoadSaved>
-  <Structure>Structure</Structure>
-  <ChooseYourIdeoligionDesc>What should your starting colonists believe? These beliefs affect gameplay and visuals. You'll be able to recruit others to your beliefs, or take on their beliefs.</ChooseYourIdeoligionDesc>
-  <CreateCustom>Create custom</CreateCustom>
-  <DeleteCustom>Delete custom</DeleteCustom>
-  <CreateNew>Create new</CreateNew>
-  <CreateFluid>Create fluid</CreateFluid>
-  <LoadExisting>Load existing</LoadExisting>
-  <CreateCustomIdeoligion>Create custom ideoligion</CreateCustomIdeoligion>
-  <CustomIdeoligionSectionHeader>Custom ideoligion</CustomIdeoligionSectionHeader>
-  <FactionIdeoligionSectionHeader>Faction ideoligions</FactionIdeoligionSectionHeader>
-  <LoadExistingIdeoligion>Load saved ideoligion</LoadExistingIdeoligion>
-  <SelectAnIdeo>Select an ideoligion for your faction on the left, or</SelectAnIdeo>
-  <Ideo>ideoligion</Ideo> 
-  <RandomizeAll>Randomize all</RandomizeAll>
-  <Appearance>Appearance</Appearance>
-  <DoneButton>Done</DoneButton>
-  <BeliefInIdeo>Belief in</BeliefInIdeo>
-  <Reward_RelicInfo>Information about {0}</Reward_RelicInfo>
-  <Reward_RelicInfoLabel>Info about {0}</Reward_RelicInfoLabel>
-  <RelicOf>Relic of {IDEO_name}</RelicOf>
+  <!-- EN: Customize ideoligion -->
+  <CustomizeIdeoligion>Personalizar a orientação</CustomizeIdeoligion>
+  <!-- EN: Choose your ideoligion -->
+  <ChooseYourIdeoligion>Escolha a sua orientação</ChooseYourIdeoligion>
+  <!-- EN: A random structure will be used for your ideoligion. -->
+  <RandomStructureTip>Uma estrutura aleatória será usada para o seu ideoligion.</RandomStructureTip>
+  <!-- EN: A random style will be used for your ideoligion. -->
+  <RandomStyleTip>Um estilo aleatório será usado para o seu ideoligion.</RandomStyleTip>
+  <!-- EN: Ideology system inactive -->
+  <PlayClassic>Sistema de Ideologia Inactiva</PlayClassic>
+  <!-- EN: Create custom\n(fluid) -->
+  <CreateCustomFluid>Criar personalizado\n(fluido)</CreateCustomFluid>
+  <!-- EN: Create custom\n(fixed) -->
+  <CreateCustomFixed>Criar personalizado\n(fixado)</CreateCustomFixed>
+  <!-- EN: Custom ideoligions -->
+  <CustomIdeoligions>Orientações personalizadas</CustomIdeoligions>
+  <!-- EN: Load saved -->
+  <LoadSaved>Carga salva</LoadSaved>
+  <!-- EN: Structure -->
+  <Structure>Estrutura</Structure>
+  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You'll be able to recruit others to your beliefs, or take on their beliefs. -->
+  <ChooseYourIdeoligionDesc>O que seus colonos iniciais devem acreditar? Essas crenças afetam a jogabilidade e os visuais. Você será capaz de recrutar outros para suas crenças, ou assumir suas crenças.</ChooseYourIdeoligionDesc>
+  <!-- EN: Create custom -->
+  <CreateCustom>Criar personalizado</CreateCustom>
+  <!-- EN: Delete custom -->
+  <DeleteCustom>Excluir personalizado</DeleteCustom>
+  <!-- EN: Create new -->
+  <CreateNew>Criar novo</CreateNew>
+  <!-- EN: Create fluid -->
+  <CreateFluid>Criar fluido</CreateFluid>
+  <!-- EN: Load existing -->
+  <LoadExisting>Carga existente</LoadExisting>
+  <!-- EN: Create custom ideoligion -->
+  <CreateCustomIdeoligion>Criar ideoligionário personalizado</CreateCustomIdeoligion>
+  <!-- EN: Custom ideoligion -->
+  <CustomIdeoligionSectionHeader>Personalização</CustomIdeoligionSectionHeader>
+  <!-- EN: Faction ideoligions -->
+  <FactionIdeoligionSectionHeader>Ideoligiões de facção</FactionIdeoligionSectionHeader>
+  <!-- EN: Load saved ideoligion -->
+  <LoadExistingIdeoligion>Carregar ideoligionário salvo</LoadExistingIdeoligion>
+  <!-- EN: Select an ideoligion for your faction on the left, or -->
+  <SelectAnIdeo>Selecione um ideoligion para sua facção à esquerda, ou</SelectAnIdeo>
+  <!-- EN: ideoligion -->
+  <Ideo>ideologia</Ideo>
+  <!-- EN: Randomize all -->
+  <RandomizeAll>Randomize todos</RandomizeAll>
+  <!-- EN: Appearance -->
+  <Appearance>Aparência</Appearance>
+  <!-- EN: Done -->
+  <DoneButton>Feito</DoneButton>
+  <!-- EN: Belief in -->
+  <BeliefInIdeo>Crença em</BeliefInIdeo>
+  <!-- EN: Information about {0} -->
+  <Reward_RelicInfo>Informação Não</Reward_RelicInfo>
+  <!-- EN: Info about {0} -->
+  <Reward_RelicInfoLabel>InformaÃ§Ãμes sobre {0}</Reward_RelicInfoLabel>
+  <!-- EN: Relic of {IDEO_name} -->
+  <RelicOf>Relíquia de {IDEO_name}</RelicOf>
+  <!-- EN: altar -->
   <Altar>altar</Altar>
+  <!-- EN: base -->
   <Base>base</Base>
-  <MinExpectation>min expectation</MinExpectation>
-  <PreceptThoughtMoodRange>{0} to {1}</PreceptThoughtMoodRange>
-  <ComesFromIdeo>Comes from ideo</ComesFromIdeo>
-  <CurrentTotalAnimalBodySizePerColonist>Current total animal bodysize per colonist</CurrentTotalAnimalBodySizePerColonist>
-  <AnimalsBodySizePerColonist>total bodysize per colonist</AnimalsBodySizePerColonist>
-  <VeneratedAnimalsBodySizePerColonist>total nearby bodysize per colonist</VeneratedAnimalsBodySizePerColonist>
-  <MinAnimalBodySizePerColonist>Expecting at least {0} body size per colonist.</MinAnimalBodySizePerColonist>
-  <Disables>Disables</Disables>
-  <RequiresOnePrecept>Requires one of precepts</RequiresOnePrecept>
-  <RequiredPrecepts>Required precepts</RequiredPrecepts>
-  <RequiredRituals>Required rituals</RequiredRituals>
-  <PreventsPrecepts>Prevents precepts</PreventsPrecepts>
-  <Styles>Styles</Styles>
-  <ChanceToHavePrecept>Chance to have precept</ChanceToHavePrecept>
-  <FavoriteColorTooltip>{PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye.</FavoriteColorTooltip>
-  <OrIdeoColor>, or the color of {PAWN_possessive} ideoligion,</OrIdeoColor>
-  <SetIdeoColor>Set ideo color</SetIdeoColor>
-  <SetFavoriteColor>Set to favorite color</SetFavoriteColor>
-  <FavoriteColorPickerTip>{PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.</FavoriteColorPickerTip>
-  <IdeoColorPickerTip>{PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier.</IdeoColorPickerTip>
-  <ConfigureIdeoligion>Configure your faction's ideoligion</ConfigureIdeoligion>
-  <NotEnoughDye>Not enough dye.</NotEnoughDye>
-  <ApparelLockedCannotRecolor>{PAWN_nameDef} is unwilling to recolor {PAWN_possessive} {APPAREL_labelShort}.</ApparelLockedCannotRecolor>
-  <NotEnoughDyeWillRecolorApparel>The colonist will recolor the apparel when dye becomes available.</NotEnoughDyeWillRecolorApparel>
-  <NotEnoughDyeWillRecolorHair>The colonist will recolor their hair when dye becomes available.</NotEnoughDyeWillRecolorHair>
-  <IdeoCertaintyTooltip>{PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE}</IdeoCertaintyTooltip>
-  <DisabledByPrecept>Disabled by precept {0}</DisabledByPrecept>
-  <Everyone>Everyone</Everyone>
-  <Narrative>Narrative</Narrative>
-  <NarrativeLower>narrative</NarrativeLower>
-  <PreceptName>Precept name</PreceptName>
-  <PreceptNameLower>precept name</PreceptNameLower>
-  <Changing>Changing {0}</Changing>
-  <StructuresLower>structures</StructuresLower>
+  <!-- EN: min expectation -->
+  <MinExpectation>min expectação</MinExpectation>
+  <!-- EN: {0} to {1} -->
+  <PreceptThoughtMoodRange>{0} para {1}</PreceptThoughtMoodRange>
+  <!-- EN: Comes from ideo -->
+  <ComesFromIdeo>Vem de ideo</ComesFromIdeo>
+  <!-- EN: Current total animal bodysize per colonist -->
+  <CurrentTotalAnimalBodySizePerColonist>Organismos animais totais atuais por colonista</CurrentTotalAnimalBodySizePerColonist>
+  <!-- EN: total bodysize per colonist -->
+  <AnimalsBodySizePerColonist>total de tamanho corporal por colono</AnimalsBodySizePerColonist>
+  <!-- EN: total nearby bodysize per colonist -->
+  <VeneratedAnimalsBodySizePerColonist>total de corpo próximo por cólonista</VeneratedAnimalsBodySizePerColonist>
+  <!-- EN: Expecting at least {0} body size per colonist. -->
+  <MinAnimalBodySizePerColonist>Esperando pelo menos {0} tamanho corporal por colonizador.</MinAnimalBodySizePerColonist>
+  <!-- EN: Disables -->
+  <Disables>Deficiências</Disables>
+  <!-- EN: Requires one of precepts -->
+  <RequiresOnePrecept>Requer um dos preceitos</RequiresOnePrecept>
+  <!-- EN: Required precepts -->
+  <RequiredPrecepts>Preceitos necessários</RequiredPrecepts>
+  <!-- EN: Required rituals -->
+  <RequiredRituals>Rituais obrigatórios</RequiredRituals>
+  <!-- EN: Prevents precepts -->
+  <PreventsPrecepts>Previne preceitos</PreventsPrecepts>
+  <!-- EN: Styles -->
+  <Styles>Estilos</Styles>
+  <!-- EN: Chance to have precept -->
+  <ChanceToHavePrecept>Chance de ter preceito</ChanceToHavePrecept>
+  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
+  <FavoriteColorTooltip>(PAWN_label Curto é a cor favorita. Ter mais do que {PERCENTAGE} de {PAWN_possessive} vestuário nesta cor {ORIDEO} fará {PAWN_objective} ligeiramente mais feliz.\n\nVocê pode alterar as cores do vestuário na estação de estilo usando tintura de tintura.</FavoriteColorTooltip>
+  <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
+  <OrIdeoColor>, ou a cor de {PAWN_possessive} ideoligion,</OrIdeoColor>
+  <!-- EN: Set ideo color -->
+  <SetIdeoColor>Definir cor ideo</SetIdeoColor>
+  <!-- EN: Set to favorite color -->
+  <SetFavoriteColor>Definir a cor favorita</SetFavoriteColor>
+  <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <FavoriteColorPickerTip>{PAWN_name A cor favorita de Def}. Tendo mais de 60% do vestuário {PAWN_possessive} nesta cor, ou a cor de {PAWN_possessive} ideoligion, fará {PAWN_objective} ligeiramente mais feliz.</FavoriteColorPickerTip>
+  <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <IdeoColorPickerTip>{PAWN_name Def} da cor do ideoligion. Ter mais de 60% do vestuário {PAWN_possessive} nesta cor, ou {PAWN_possessive} cor favorita, fará {PAWN_objective} ligeiramente mais feliz.</IdeoColorPickerTip>
+  <!-- EN: Configure your faction's ideoligion -->
+  <ConfigureIdeoligion>Configurar a orientação da sua facção</ConfigureIdeoligion>
+  <!-- EN: Not enough dye. -->
+  <NotEnoughDye>Não há corante suficiente.</NotEnoughDye>
+  <!-- EN: {PAWN_nameDef} is unwilling to recolor {PAWN_possessive} {APPAREL_labelShort}. -->
+  <ApparelLockedCannotRecolor>{PAWN_name Def} não está disposto a recolorir {PAWN_possessive} {APPAREL_labelShort}.</ApparelLockedCannotRecolor>
+  <!-- EN: The colonist will recolor the apparel when dye becomes available. -->
+  <NotEnoughDyeWillRecolorApparel>O colonista vai recolorir o vestuário quando o corante fica disponível.</NotEnoughDyeWillRecolorApparel>
+  <!-- EN: The colonist will recolor their hair when dye becomes available. -->
+  <NotEnoughDyeWillRecolorHair>O colonista vai recolorir seu cabelo quando o corante fica disponível.</NotEnoughDyeWillRecolorHair>
+  <!-- EN: {PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE} -->
+  <IdeoCertaintyTooltip>(PAWN_label A certeza em {IDEO} está em {PERCENTAGE}</IdeoCertaintyTooltip>
+  <!-- EN: Disabled by precept {0} -->
+  <DisabledByPrecept>Disabled by precept Não</DisabledByPrecept>
+  <!-- EN: Everyone -->
+  <Everyone>Todos</Everyone>
+  <!-- EN: Narrative -->
+  <Narrative>Narrativa</Narrative>
+  <!-- EN: narrative -->
+  <NarrativeLower>narrativa</NarrativeLower>
+  <!-- EN: Precept name -->
+  <PreceptName>Nome do preceito</PreceptName>
+  <!-- EN: precept name -->
+  <PreceptNameLower>nome preceito</PreceptNameLower>
+  <!-- EN: Changing {0} -->
+  <Changing>Mudança Não</Changing>
+  <!-- EN: structures -->
+  <StructuresLower>estruturas</StructuresLower>
+  <!-- EN: memes -->
   <MemesLower>memes</MemesLower>
-  <Reward_DevelopmentPointsLabel>Development points</Reward_DevelopmentPointsLabel>
-  <Reward_DevelopmentPoints>Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideoligion.\n\nEarn additional development points by completing other quests and rituals.</Reward_DevelopmentPoints>
-  <CurrentDevelopmentPoints>Current points</CurrentDevelopmentPoints>
-  <ReformDevelopmentPoints>Points needed to reform</ReformDevelopmentPoints>
+  <!-- EN: Development points -->
+  <Reward_DevelopmentPointsLabel>Pontos de vista</Reward_DevelopmentPointsLabel>
+  <!-- EN: Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideoligion.\n\nEarn additional development points by completing other quests and rituals. -->
+  <Reward_DevelopmentPoints>Seus pontos de desenvolvimento para {0} aumentarão por {1}.\n\nVocê atualmente tem {2} pontos de desenvolvimento. Uma vez que você tem {3} pontos de desenvolvimento você pode reformar o ideoligion.\n\nGanhe pontos de desenvolvimento adicionais completando outras missões e rituais.</Reward_DevelopmentPoints>
+  <!-- EN: Current points -->
+  <CurrentDevelopmentPoints>Pontos de corrente</CurrentDevelopmentPoints>
+  <!-- EN: Points needed to reform -->
+  <ReformDevelopmentPoints>Pontos necessários para a reforma</ReformDevelopmentPoints>
+  <!-- EN: quest -->
   <QuestLower>quest</QuestLower>
-  <MealKindVegetarian>Vegetarian</MealKindVegetarian>
-  <MealKindMeat>Contains meat</MealKindMeat>
-  <MealKindAny>Acceptable food for everyone</MealKindAny>
-  <WearingDesiredApparelMulti>this outfit</WearingDesiredApparelMulti>
-
-  <UnableToLoadIdeoTitle>Could not load ideoligion</UnableToLoadIdeoTitle>
-  <UnableToLoadIdeoDescription>Could not load the selected ideoligion due to the requirements of the factions that will be following this ideoligion. The violated requirements are:</UnableToLoadIdeoDescription>
-  <UnableToLoadIdeoMemeNotAllowed>Meme {MEME} is not allowed for {FACTIONTYPE} factions</UnableToLoadIdeoMemeNotAllowed>
-  <UnableToLoadIdeoMemeRequired>Meme {MEME} is required for {FACTIONTYPE} factions</UnableToLoadIdeoMemeRequired>
-  <UnableToLoadIdeoPreceptNotAllowed>Precept {PRECEPT} is not allowed for non-player factions</UnableToLoadIdeoPreceptNotAllowed>
-
-  <RitualTargetGraveInfo>Grave containing {PAWN_labelShort}'s corpse</RitualTargetGraveInfo>
-  <RitualTargetEmptyGraveInfo>Empty grave to mourn {PAWN_labelShort}'s passing</RitualTargetEmptyGraveInfo>
-  <RitualTargetGraveInfoAbstract>Grave containing {IDEO_memberNameIndef}'s corpse</RitualTargetGraveInfoAbstract>
-  <RitualTargetGraveInfoAbstractNoIdeo>Grave containing a corpse</RitualTargetGraveInfoAbstractNoIdeo>
-  <RitualTargetEmptyGraveInfoAbstract>Empty grave to mourn {IDEO_memberNameIndef}'s passing</RitualTargetEmptyGraveInfoAbstract>
-  <RitualTargetGraveInfoMustBeBuried>{PAWN_labelShort}'s body must be buried first</RitualTargetGraveInfoMustBeBuried>
-  <RitualTargetGatherSpotInfo>Any gathering spot, like a table</RitualTargetGatherSpotInfo>
-  <RitualTargetGatherAltarOrRitualSpotInfo>Altar or any ritual spot.</RitualTargetGatherAltarOrRitualSpotInfo>
-  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>Altar, ideogram or any ritual spot.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
-  <RitualTargetLightBallIsNotPowered>Lightball is not powered.</RitualTargetLightBallIsNotPowered>
-  <RitualTargetNoPoweredSpeakers>No powered speakers.</RitualTargetNoPoweredSpeakers>
-  <RitualTargetCampfireNoFuel>Campfire is not fueled.</RitualTargetCampfireNoFuel>
-  <RitualTargetCampfireMustBeUnroofed>Campfire must be unroofed.</RitualTargetCampfireMustBeUnroofed>
-  <RitualTargetNoDrum>No nearby drum.</RitualTargetNoDrum>
-  <RitualTargetNeedUnroofedCells>Need at least {0} unroofed cells nearby.</RitualTargetNeedUnroofedCells>
-  <RitualTargetCampfirePartyInfo>a lit campfire</RitualTargetCampfirePartyInfo>
-  <RitualTargetUnconnectedGaruanlenTreeInfo>an unconnected Gauranlen tree</RitualTargetUnconnectedGaruanlenTreeInfo>
-  <RitualTargetConnectedGauranlenTree>Already connected to {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
-  <RitualTargetConnectionTornGauranlenTree>{TREE_definite} has had its connection torn recently. It can connect again in {1}.</RitualTargetConnectionTornGauranlenTree>
-  <RitualTargetWoodInfo>You need {0} wood for each participant ({1} total).</RitualTargetWoodInfo>
-  <RitualTargetWoodInfoAppend>A participant cannot reach enough wood.</RitualTargetWoodInfoAppend>
-  <RitualTargetWoodInfoAppendMultiple>{0} participants cannot reach enough wood.</RitualTargetWoodInfoAppendMultiple>
-  <RitualTargetWoodInfoWarning>{PAWN_labelShort} cannot reach enough wood.</RitualTargetWoodInfoWarning>
-  <RitualTargetUnreachable>{0} must be able to reach ritual target.</RitualTargetUnreachable>
-  <Accuse>Accuse</Accuse>
-  <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified.</RitualScarificationWarnNonScarificationIdeo>
-  <RitualScarificationWarnWimp>{PAWN_labelShort} is a wimp and will not like being scarified.</RitualScarificationWarnWimp>
-  <RitualBlindingWarnWimp>{PAWN_labelShort} is a wimp and will not like being blinded.</RitualBlindingWarnWimp>
-  <RitualScarificationTriggerExtraDesc>Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}.</RitualScarificationTriggerExtraDesc>
-  <RitualBlindingTriggerExtraDesc>Blinding is expected for each current and joining {IDEOMEMBER} colonist.</RitualBlindingTriggerExtraDesc>
-  
-  <RitualOutcomeExtraDesc_DancePartyWorkFocus>Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
-  <RitualOutcomeExtraDesc_BlindingPsylink>Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level!</RitualOutcomeExtraDesc_BlindingPsylink>
-  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>With a new pyslink level {PAWN_pronoun} gained a {0} psycast.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
-  <RitualOutcomeExtraDesc_ConsumableInspiration>Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}!</RitualOutcomeExtraDesc_ConsumableInspiration>
-  <RitualOutcomeExtraDesc_SkylanternWanderers>Your skylanterns have attracted some friendly travelers. They will visit and leave a gift.</RitualOutcomeExtraDesc_SkylanternWanderers>
-  <RitualOutcomeExtraDesc_Execution>All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level.</RitualOutcomeExtraDesc_Execution>
-  
-  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
-  <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>Can't award development points beyond {0}.</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
-  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Due to the poor quality of the ritual, no development points were gained.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
-
-  <RitualAttachedReward>Additional reward</RitualAttachedReward>
-  <RitualAttachedRewardChoose>Choose</RitualAttachedRewardChoose>
-  <RitualAttachedRewardCantUseWithRitual>Can't use {0} with {1}.</RitualAttachedRewardCantUseWithRitual>
-  <RitualAttachedRewardRequiredMemeAny>Requires any of memes</RitualAttachedRewardRequiredMemeAny>
-  <RitualAttachedRewardRequiredFaction>Requires {0} faction</RitualAttachedRewardRequiredFaction>
-  <RitualAttachedOutcomes_Positive>positive</RitualAttachedOutcomes_Positive>
-  <RitualAttachedOutcomes_Negative>negative</RitualAttachedOutcomes_Negative>
-  <RitualAttachedOutcomesInfo>If the {0} is {1}</RitualAttachedOutcomesInfo>
-  <RitualAttachedApplliesForOutcome>Upon any {0} outcome</RitualAttachedApplliesForOutcome>
-  <RitualAttachedApplliesForOutcomes>Upon any {0} outcome</RitualAttachedApplliesForOutcomes>
-  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony.</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
-  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>The {0} has induced a Gauranlen pod to sprout nearby.</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
-  <RitualAttachedOutcomeCantApply>Can't apply reward</RitualAttachedOutcomeCantApply>
-  <RitualAttachedOutcomeCantApply_NoValidSpot>No valid spot</RitualAttachedOutcomeCantApply_NoValidSpot>
-  <RitualAttachedOutcomeCantApply_ExtremeBiome>Extreme biome</RitualAttachedOutcomeCantApply_ExtremeBiome>
-  <RitualAttachedOutcomeCantApply_AncientComplexIsPresent>There is already a known ancient complex to explore.</RitualAttachedOutcomeCantApply_AncientComplexIsPresent>
-  <RitualAttachedOutcomeCantApply_NotAvailableRightNow>Not available right now.</RitualAttachedOutcomeCantApply_NotAvailableRightNow>
-  
-  <IdeoBuildingVariationOf>This building is a variation of</IdeoBuildingVariationOf>
-  <IdeoBuildingMinimumExpectations>Minimum expectations</IdeoBuildingMinimumExpectations>
-  <Optional>optional</Optional>
-  <Expectations>expectations</Expectations>
-  <RitualRepeatPenaltyTip>Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now.</RitualRepeatPenaltyTip>
-  <RitualOutcomeCompTip_RitualTargetDefsPart1>For best quality, start the {0} at {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
-  <RitualOutcomeCompTip_RitualTargetDefsPart2>Currently, the {0} is being started at {1_labelShortIndef}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
-  <RitualDevelopmentPoints>Development points</RitualDevelopmentPoints>
-  <RitualDevelopmentPointsTip>Completing this ritual gives {0}-{1} development points depending on quality.</RitualDevelopmentPointsTip>
-  <RitualOutcomeBlockedNoPower>{0} needs to be powered.</RitualOutcomeBlockedNoPower>
-
-  <ForSlaveUse>For slave use</ForSlaveUse>
-  <SellingAsSlave>If you sell someone to any faction besides their own, they become slaves.</SellingAsSlave>
-  <SellingAsRansom>If you sell someone to their own faction, they are ransomed and not enslaved.</SellingAsRansom>
-
-  <MemeGoodwillImpact_Player>We are {0}</MemeGoodwillImpact_Player>
-  <MemeGoodwillImpact_Other>They are {0}</MemeGoodwillImpact_Other>
-
-  <!-- TextMotes -->
-  <TextMote_SuppressionIncreased>Slave suppression: {0}</TextMote_SuppressionIncreased>
-
-  <!-- Role requirements -->
-  <RoleRequirementsLabel>Requirements</RoleRequirementsLabel>
-  <RoleEffectsLabel>Passive effects</RoleEffectsLabel>
-  <RoleRequirementLabelSameIdeo>Must be {0}</RoleRequirementLabelSameIdeo>
-  <RoleRequirementLabelSupremeGender>Must be {0}</RoleRequirementLabelSupremeGender>
-  <RoleRequirementCannotBe>Cannot be child</RoleRequirementCannotBe>
-
-  <RoleGrantedAbilitiesLabel>Abilities</RoleGrantedAbilitiesLabel>
-  <RoleRequiredApparelLabel>Required apparel</RoleRequiredApparelLabel>
-  <RoleRitualsLabel>Has role in rituals</RoleRitualsLabel>
-  <RoleBelieverCountDesc>This role becomes active when your faction has {1} {0}. It becomes inactive when your faction has only {3} {2}.</RoleBelieverCountDesc>
-  <RoleExpectationOffset>Raised by {0} levels.</RoleExpectationOffset>
-  <RoleRaisedExpectation>The {0} has higher expectations.</RoleRaisedExpectation>
-  <RoleRaisedExpectationGracePeriod>The {0} will have higher expectations in {1}.</RoleRaisedExpectationGracePeriod>
-  <IdeoLeaderDifferentIdeoThoughtLabel>Led by {0}</IdeoLeaderDifferentIdeoThoughtLabel>
-  <AbilityDisabled_IncapableOfWorkTag>{PAWN_nameDef} will not do {1} work.</AbilityDisabled_IncapableOfWorkTag>
-  <AbilityDisabledNoAltarOrRitualsSpot>No reachable altar or ritual spot.</AbilityDisabledNoAltarOrRitualsSpot>
-  <AbilityDisabledNoAltarIdeogramOrRitualsSpot>No reachable altar, ideogram or ritual spot.</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
-  <AbilityDisabledNoRitualSpot>No reachable ritual spot.</AbilityDisabledNoRitualSpot>
-
-  <TextMote_WillReduced>Will\n{0} to {1}</TextMote_WillReduced>
-
-  <ConfirmationCharityJoiner>Accepting this join offer is an act of charity. If you refuse, the following people will be unhappy due to their pro-charity beliefs:\n{0}\n\nAre you sure you want to reject this join offer?</ConfirmationCharityJoiner>
-
-  <BelieversIn>Believers in {0} ({1})</BelieversIn>
-  <AddPrecept>add {0}</AddPrecept>
-  <Precept>precept</Precept>
-  <IdeoBuilding>building</IdeoBuilding>
-  <IdeoRelic>relic</IdeoRelic>
-  
-  <!-- Beggars -->
-  <GiveItemsTo>Give {0} to {1_nameDef}</GiveItemsTo>
-  <CannotGiveItemsTo>Cannot give {0} to {1_nameDef}</CannotGiveItemsTo>
-  <NoItemFound>No item found</NoItemFound>
-
-  <!-- Outfits -->
-  <OutfitSlave>Slave</OutfitSlave>
-
-  <!-- Hacking -->
-  <HackProgress>Hack progress</HackProgress>
-  <HackingSpeed>hacking speed</HackingSpeed>
-  <HackingLastUser>{0}'s</HackingLastUser>
-  <Hacked>hacked</Hacked>
-  <TerminalsHacked>Terminals hacked</TerminalsHacked>
-
-  <RelicInfoFound>Relic info found</RelicInfoFound>
-  <InactiveRoleRequiresMoreBelievers>inactive, requires at least {0} {1}s (have {2})</InactiveRoleRequiresMoreBelievers>
-  
-  <Certainty>certainty</Certainty>
-
-  <!-- Slave interaction -->
-  <EmancipateNonCololonistWithFactionTooltip>The slave will leave the map on foot and return to their home faction, {0}.</EmancipateNonCololonistWithFactionTooltip>
-  <EmancipateNonCololonistWithoutFactionTooltip>The slave will leave on foot and exit the map.</EmancipateNonCololonistWithoutFactionTooltip>
-  <EmancipateCololonistTooltip>The slave will return to being a colonist.</EmancipateCololonistTooltip>
-
-  <WorshippedTerminalFactionBecameHostileTimed>You've stayed in the village too long. The people of {FACTION_name} are attacking!</WorshippedTerminalFactionBecameHostileTimed>
-  <WorshippedTerminalRaidIncoming>Villagers are returning from nearby to protect the venerated terminal!</WorshippedTerminalRaidIncoming>
-
-  <!-- Relic hunt -->
-  <RelicHuntFoundRelicSite>The relic is housed in an ancient structure protected by a multi-unit security system.\n\nYou can defeat the security forces one unit at a time, or grab the relic and try to flee before they get you.</RelicHuntFoundRelicSite>
-  <RelicHuntFoundRelicSitePeaceful>The relic rests in an ancient structure nearby.</RelicHuntFoundRelicSitePeaceful>
-
-  <Relic>relic</Relic>
-  <RitualSeat>Ritual seat</RitualSeat>
-
-  <!-- Ritual requirements -->
-  <RitualPredictedOutcomeDescNumActiveLoudspeakers>Active loudspeakers</RitualPredictedOutcomeDescNumActiveLoudspeakers>
-  <RitualPredictedOutcomeDescNumDrums>Drums</RitualPredictedOutcomeDescNumDrums>
-
-  <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>Using ritual spot causes {0} mood bonus reduction for all participants.</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
-
-  <RitualOutcomeLabelAnyOfThese>Any of these</RitualOutcomeLabelAnyOfThese>
-
-  <PreceptReplaceWith>Replace with</PreceptReplaceWith>
-  <RitualSeatOf>Ritual seat of {IDEOS}</RitualSeatOf>
-  <StartingQuality>Starting quality</StartingQuality>
-  <ExpectedConvictionChance>Conviction chance</ExpectedConvictionChance>
- 
-  <MustBePlacedIndoors>Must be placed indoors.</MustBePlacedIndoors>
-
-  <!-- Gauranlen trees/Dryads -->
-  <ConnectedPawn>Connected to</ConnectedPawn>
-  <Nobody>Nobody</Nobody>
-  <ConnectedPawnDesc>The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}.</ConnectedPawnDesc>
-  <ConnectionTorn>Connection torn. Can connect in {0}.</ConnectionTorn>
-  <ConnectedPawnAway>{PAWN_nameDef} is too far away</ConnectedPawnAway>
-  <TreeBlockedByNearbyBuildingsDesc>Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here?</TreeBlockedByNearbyBuildingsDesc>
-  <GauranlenModeChangeDescFull>Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste.</GauranlenModeChangeDescFull>
-  <ChangeModeDesc>Change the type of dryads created by {TREE_definite}.</ChangeModeDesc>
-  <ConnectionStrengthFall>Connection strength fall</ConnectionStrengthFall>
-  <ConnectionStrength>Connection strength</ConnectionStrength>
-  <ConnectionStrengthDisplay>{0} strength</ConnectionStrengthDisplay>
-  <ConnectionStrengthDesc>Determines how many dryads this tree can support.</ConnectionStrengthDesc>
+  <!-- EN: Vegetarian -->
+  <MealKindVegetarian>Vegetariana</MealKindVegetarian>
+  <!-- EN: Contains meat -->
+  <MealKindMeat>Contém carne</MealKindMeat>
+  <!-- EN: Acceptable food for everyone -->
+  <MealKindAny>Comida aceitável para todos</MealKindAny>
+  <!-- EN: this outfit -->
+  <WearingDesiredApparelMulti>esta roupa</WearingDesiredApparelMulti>
+  <!-- EN: Could not load ideoligion -->
+  <UnableToLoadIdeoTitle>Não poderia carregar ideoligion</UnableToLoadIdeoTitle>
+  <!-- EN: Could not load the selected ideoligion due to the requirements of the factions that will be following this ideoligion. The violated requirements are: -->
+  <UnableToLoadIdeoDescription>Não poderia carregar o ideoligion selecionado devido aos requisitos das facções que estarão seguindo este ideoligion. Os requisitos violados são:</UnableToLoadIdeoDescription>
+  <!-- EN: Meme {MEME} is not allowed for {FACTIONTYPE} factions -->
+  <UnableToLoadIdeoMemeNotAllowed>Meme {ME} não é permitido para facções {FACTIONTYPE}</UnableToLoadIdeoMemeNotAllowed>
+  <!-- EN: Meme {MEME} is required for {FACTIONTYPE} factions -->
+  <UnableToLoadIdeoMemeRequired>Meme {ME} é necessário para facções {FACTIONTYPE}</UnableToLoadIdeoMemeRequired>
+  <!-- EN: Precept {PRECEPT} is not allowed for non-player factions -->
+  <UnableToLoadIdeoPreceptNotAllowed>Precept {PRECEPT} não é permitido para facções não-jogador</UnableToLoadIdeoPreceptNotAllowed>
+  <!-- EN: Grave containing {PAWN_labelShort}'s corpse -->
+  <RitualTargetGraveInfo>Grave contendo o corpo de {PAWN_labelShort}</RitualTargetGraveInfo>
+  <!-- EN: Empty grave to mourn {PAWN_labelShort}'s passing -->
+  <RitualTargetEmptyGraveInfo>Grave vazio para lamentar {PAWN_labelShort} está passando</RitualTargetEmptyGraveInfo>
+  <!-- EN: Grave containing {IDEO_memberNameIndef}'s corpse -->
+  <RitualTargetGraveInfoAbstract>Grave contendo o corpo de {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
+  <!-- EN: Grave containing a corpse -->
+  <RitualTargetGraveInfoAbstractNoIdeo>Grave contendo um cadáver</RitualTargetGraveInfoAbstractNoIdeo>
+  <!-- EN: Empty grave to mourn {IDEO_memberNameIndef}'s passing -->
+  <RitualTargetEmptyGraveInfoAbstract>Grave vazio para lamentar {IDEO_memberNameIndef}'s passando</RitualTargetEmptyGraveInfoAbstract>
+  <!-- EN: {PAWN_labelShort}'s body must be buried first -->
+  <RitualTargetGraveInfoMustBeBuried>(PAWN_label O corpo deve ser enterrado primeiro</RitualTargetGraveInfoMustBeBuried>
+  <!-- EN: Any gathering spot, like a table -->
+  <RitualTargetGatherSpotInfo>Qualquer ponto de encontro, como uma mesa</RitualTargetGatherSpotInfo>
+  <!-- EN: Altar or any ritual spot. -->
+  <RitualTargetGatherAltarOrRitualSpotInfo>Altar ou qualquer local ritual.</RitualTargetGatherAltarOrRitualSpotInfo>
+  <!-- EN: Altar, ideogram or any ritual spot. -->
+  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>Altar, ideograma ou qualquer local ritual.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
+  <!-- EN: Lightball is not powered. -->
+  <RitualTargetLightBallIsNotPowered>O Lightball não é alimentado.</RitualTargetLightBallIsNotPowered>
+  <!-- EN: No powered speakers. -->
+  <RitualTargetNoPoweredSpeakers>Nenhum alto-falante alimentado.</RitualTargetNoPoweredSpeakers>
+  <!-- EN: Campfire is not fueled. -->
+  <RitualTargetCampfireNoFuel>A fogueira não é alimentada.</RitualTargetCampfireNoFuel>
+  <!-- EN: Campfire must be unroofed. -->
+  <RitualTargetCampfireMustBeUnroofed>A fogueira deve ser destroçada.</RitualTargetCampfireMustBeUnroofed>
+  <!-- EN: No nearby drum. -->
+  <RitualTargetNoDrum>Não há bateria nas proximidades.</RitualTargetNoDrum>
+  <!-- EN: Need at least {0} unroofed cells nearby. -->
+  <RitualTargetNeedUnroofedCells>Necessita de pelo menos {0} células não roofadas nas proximidades.</RitualTargetNeedUnroofedCells>
+  <!-- EN: a lit campfire -->
+  <RitualTargetCampfirePartyInfo>uma fogueira iluminada</RitualTargetCampfirePartyInfo>
+  <!-- EN: an unconnected Gauranlen tree -->
+  <RitualTargetUnconnectedGaruanlenTreeInfo>uma árvore Gauranlen não conectada</RitualTargetUnconnectedGaruanlenTreeInfo>
+  <!-- EN: Already connected to {PAWN_nameDef} -->
+  <RitualTargetConnectedGauranlenTree>Já conectado a {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
+  <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
+  <RitualTargetConnectionTornGauranlenTree>{TREE_definite} teve sua conexão rasgada recentemente. Pode ligar novamente em {1}.</RitualTargetConnectionTornGauranlenTree>
+  <!-- EN: You need {0} wood for each participant ({1} total). -->
+  <RitualTargetWoodInfo>Você precisa {0} madeira para cada participante ({1} total).</RitualTargetWoodInfo>
+  <!-- EN: A participant cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppend>Um participante não pode chegar a madeira suficiente.</RitualTargetWoodInfoAppend>
+  <!-- EN: {0} participants cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppendMultiple>os participantes não podem chegar a madeira suficiente.</RitualTargetWoodInfoAppendMultiple>
+  <!-- EN: {PAWN_labelShort} cannot reach enough wood. -->
+  <RitualTargetWoodInfoWarning>(PAWN_label Não pode chegar a madeira suficiente.</RitualTargetWoodInfoWarning>
+  <!-- EN: {0} must be able to reach ritual target. -->
+  <RitualTargetUnreachable>deve ser capaz de atingir o alvo ritual.</RitualTargetUnreachable>
+  <!-- EN: Accuse -->
+  <Accuse>Acusado</Accuse>
+  <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
+  <RitualScarificationWarnNonScarificationIdeo>(PAWN_label Short} não acredita na escarificação ideoligiosa e não vai gostar de ser scarified.</RitualScarificationWarnNonScarificationIdeo>
+  <!-- EN: {PAWN_labelShort} is a wimp and will not like being scarified. -->
+  <RitualScarificationWarnWimp>(PAWN_label Short} é um wimp e não vai gostar de ser scarified.</RitualScarificationWarnWimp>
+  <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
+  <RitualBlindingWarnWimp>(PAWN_label Short} é um wimp e não vai gostar de ser cegado.</RitualBlindingWarnWimp>
+  <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
+  <RitualScarificationTriggerExtraDesc>A escassez é esperada para {IDEOMEMBERPLURAL} desde que haja menos do que {0} scarified {IDEOMEMBERPLURAL}.</RitualScarificationTriggerExtraDesc>
+  <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
+  <RitualBlindingTriggerExtraDesc>A blindagem é esperada para cada colono atual e juntando-se ao colono.</RitualBlindingTriggerExtraDesc>
+  <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
+  <RitualOutcomeExtraDesc_DancePartyWorkFocus>Todos os participantes no ritual ganharam um buff de foco de trabalho de um dia ({PERCENTAGE} velocidade de trabalho global)!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
+  <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
+  <RitualOutcomeExtraDesc_BlindingPsylink>Graças a um ritual de cegueira satisfatório, {PAWN_label Short} ganhou um nível de psylink!</RitualOutcomeExtraDesc_BlindingPsylink>
+  <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
+  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>Com um novo nível de pyslink {PAWN_pronoun} ganhou um psycast {0}.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
+  <!-- EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
+  <RitualOutcomeExtraDesc_ConsumableInspiration>Graças a um satisfatório {RITUAL}, {PAWN_labelShort} ganhou {INSPIRATION}!</RitualOutcomeExtraDesc_ConsumableInspiration>
+  <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
+  <RitualOutcomeExtraDesc_SkylanternWanderers>Suas claralanternas atraíram alguns viajantes amigáveis. Eles vão visitar e deixar um presente.</RitualOutcomeExtraDesc_SkylanternWanderers>
+  <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
+  <RitualOutcomeExtraDesc_Execution>Todos os escravos participantes foram abalados à vista da morte. Sua supressão foi elevada ao seu nível máximo.</RitualOutcomeExtraDesc_Execution>
+  <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>Devido à qualidade do ritual, seus pontos de desenvolvimento aumentaram {2} (de {0} a {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <!-- EN: Can't award development points beyond {0}. -->
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>Não pode premir pontos de desenvolvimento além {0}.</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
+  <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
+  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Devido à má qualidade do ritual, nenhum ponto de desenvolvimento foi ganho.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
+  <!-- EN: Additional reward -->
+  <RitualAttachedReward>Recompensa adicional</RitualAttachedReward>
+  <!-- EN: Choose -->
+  <RitualAttachedRewardChoose>Escolha</RitualAttachedRewardChoose>
+  <!-- EN: Can't use {0} with {1}. -->
+  <RitualAttachedRewardCantUseWithRitual>Não posso usar {0} com {1}.</RitualAttachedRewardCantUseWithRitual>
+  <!-- EN: Requires any of memes -->
+  <RitualAttachedRewardRequiredMemeAny>Requer qualquer um dos memes</RitualAttachedRewardRequiredMemeAny>
+  <!-- EN: Requires {0} faction -->
+  <RitualAttachedRewardRequiredFaction>Requer {0} facção</RitualAttachedRewardRequiredFaction>
+  <!-- EN: positive -->
+  <RitualAttachedOutcomes_Positive>positivo</RitualAttachedOutcomes_Positive>
+  <!-- EN: negative -->
+  <RitualAttachedOutcomes_Negative>negativo</RitualAttachedOutcomes_Negative>
+  <!-- EN: If the {0} is {1} -->
+  <RitualAttachedOutcomesInfo>Se o {0} é {1}</RitualAttachedOutcomesInfo>
+  <!-- EN: Upon any {0} outcome -->
+  <RitualAttachedApplliesForOutcome>Sobre qualquer resultado {0}</RitualAttachedApplliesForOutcome>
+  <!-- EN: Upon any {0} outcome -->
+  <RitualAttachedApplliesForOutcomes>Sobre qualquer resultado {0}</RitualAttachedApplliesForOutcomes>
+  <!-- EN: The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony. -->
+  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>A emoção da {0} atraiu alguns animais curiosos!\n\nEles parecem acostumados ao contato humano e estão se juntando à colônia.</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
+  <!-- EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
+  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>O {0} induziu uma vagem Gauranlen a brotar nas proximidades.</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
+  <!-- EN: Can't apply reward -->
+  <RitualAttachedOutcomeCantApply>Não posso aplicar recompensa</RitualAttachedOutcomeCantApply>
+  <!-- EN: No valid spot -->
+  <RitualAttachedOutcomeCantApply_NoValidSpot>Nenhum local válido</RitualAttachedOutcomeCantApply_NoValidSpot>
+  <!-- EN: Extreme biome -->
+  <RitualAttachedOutcomeCantApply_ExtremeBiome>Bioma extrema</RitualAttachedOutcomeCantApply_ExtremeBiome>
+  <!-- EN: There is already a known ancient complex to explore. -->
+  <RitualAttachedOutcomeCantApply_AncientComplexIsPresent>Já existe um complexo antigo conhecido para explorar.</RitualAttachedOutcomeCantApply_AncientComplexIsPresent>
+  <!-- EN: Not available right now. -->
+  <RitualAttachedOutcomeCantApply_NotAvailableRightNow>Não disponível agora.</RitualAttachedOutcomeCantApply_NotAvailableRightNow>
+  <!-- EN: This building is a variation of -->
+  <IdeoBuildingVariationOf>Este edifício é uma variação de</IdeoBuildingVariationOf>
+  <!-- EN: Minimum expectations -->
+  <IdeoBuildingMinimumExpectations>Esperanças mínimas</IdeoBuildingMinimumExpectations>
+  <!-- EN: optional -->
+  <Optional>opcional</Optional>
+  <!-- EN: expectations -->
+  <Expectations>expectativas</Expectations>
+  <!-- EN: Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now. -->
+  <RitualRepeatPenaltyTip>Repetir um ritual dentro de {0} dias reduz a sua qualidade. {1} dias passaram desde o último ritual, então a redução de qualidade atual é {2}. Esta penalidade cairá para zero (3} dias a partir de agora.</RitualRepeatPenaltyTip>
+  <!-- EN: For best quality, start the {0} at {1}. -->
+  <RitualOutcomeCompTip_RitualTargetDefsPart1>Para a melhor qualidade, comece o {0} em {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
+  <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
+  <RitualOutcomeCompTip_RitualTargetDefsPart2>Atualmente, o {0} está sendo iniciado em {1_labelShortIndef}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
+  <!-- EN: Development points -->
+  <RitualDevelopmentPoints>Pontos de vista</RitualDevelopmentPoints>
+  <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
+  <RitualDevelopmentPointsTip>Completar este ritual dá pontos de desenvolvimento {0}-{1} dependendo da qualidade.</RitualDevelopmentPointsTip>
+  <!-- EN: {0} needs to be powered. -->
+  <RitualOutcomeBlockedNoPower>tem de ser alimentado.</RitualOutcomeBlockedNoPower>
+  <!-- EN: For slave use -->
+  <ForSlaveUse>Para uso escravo</ForSlaveUse>
+  <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
+  <SellingAsSlave>Se você vender alguém a qualquer facção além deles, eles se tornam escravos.</SellingAsSlave>
+  <!-- EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
+  <SellingAsRansom>Se você vender alguém para sua própria facção, eles são resgatados e não escravizados.</SellingAsRansom>
+  <!-- EN: We are {0} -->
+  <MemeGoodwillImpact_Player>Nós somos</MemeGoodwillImpact_Player>
+  <!-- EN: They are {0} -->
+  <MemeGoodwillImpact_Other>Eles são..</MemeGoodwillImpact_Other>
+  <!-- EN: Slave suppression: {0} -->
+  <TextMote_SuppressionIncreased>Supressão de escravos: Não</TextMote_SuppressionIncreased>
+  <!-- EN: Requirements -->
+  <RoleRequirementsLabel>Requisitos</RoleRequirementsLabel>
+  <!-- EN: Passive effects -->
+  <RoleEffectsLabel>Efeitos passivos</RoleEffectsLabel>
+  <!-- EN: Must be {0} -->
+  <RoleRequirementLabelSameIdeo>Deve ser..</RoleRequirementLabelSameIdeo>
+  <!-- EN: Must be {0} -->
+  <RoleRequirementLabelSupremeGender>Deve ser..</RoleRequirementLabelSupremeGender>
+  <!-- EN: Cannot be child -->
+  <RoleRequirementCannotBe>Não pode ser criança</RoleRequirementCannotBe>
+  <!-- EN: Abilities -->
+  <RoleGrantedAbilitiesLabel>Habilidades</RoleGrantedAbilitiesLabel>
+  <!-- EN: Required apparel -->
+  <RoleRequiredApparelLabel>Vestuário necessário</RoleRequiredApparelLabel>
+  <!-- EN: Has role in rituals -->
+  <RoleRitualsLabel>Tem papel em rituais</RoleRitualsLabel>
+  <!-- EN: This role becomes active when your faction has {1} {0}. It becomes inactive when your faction has only {3} {2}. -->
+  <RoleBelieverCountDesc>Este papel torna-se ativo quando sua facção tem {1} {0}. Torna-se inativo quando sua facção tem apenas {3} {2}.</RoleBelieverCountDesc>
+  <!-- EN: Raised by {0} levels. -->
+  <RoleExpectationOffset>Criado por níveis {0}.</RoleExpectationOffset>
+  <!-- EN: The {0} has higher expectations. -->
+  <RoleRaisedExpectation>A {0} tem maiores expectativas.</RoleRaisedExpectation>
+  <!-- EN: The {0} will have higher expectations in {1}. -->
+  <RoleRaisedExpectationGracePeriod>O {0} terá maiores expectativas em {1}.</RoleRaisedExpectationGracePeriod>
+  <!-- EN: Led by {0} -->
+  <IdeoLeaderDifferentIdeoThoughtLabel>Conduzido por {0}</IdeoLeaderDifferentIdeoThoughtLabel>
+  <!-- EN: {PAWN_nameDef} will not do {1} work. -->
+  <AbilityDisabled_IncapableOfWorkTag>{PAWN_name Não vai funcionar.</AbilityDisabled_IncapableOfWorkTag>
+  <!-- EN: No reachable altar or ritual spot. -->
+  <AbilityDisabledNoAltarOrRitualsSpot>Nenhum altar acessível ou local ritual.</AbilityDisabledNoAltarOrRitualsSpot>
+  <!-- EN: No reachable altar, ideogram or ritual spot. -->
+  <AbilityDisabledNoAltarIdeogramOrRitualsSpot>Nenhum altar alcançável, ideograma ou ponto ritual.</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
+  <!-- EN: No reachable ritual spot. -->
+  <AbilityDisabledNoRitualSpot>Nenhum local ritual acessível.</AbilityDisabledNoRitualSpot>
+  <!-- EN: Will\n{0} to {1} -->
+  <TextMote_WillReduced>Will.\n{0} para {1}</TextMote_WillReduced>
+  <!-- EN: Accepting this join offer is an act of charity. If you refuse, the following people will be unhappy due to their pro-charity beliefs:\n{0}\n\nAre you sure you want to reject this join offer? -->
+  <ConfirmationCharityJoiner>Aceitar esta oferta é um acto de caridade. Se você recusar, as seguintes pessoas serão infelizes devido às suas crenças pró-caridade:\nNão.\n\nTem a certeza de que quer rejeitar esta oferta?</ConfirmationCharityJoiner>
+  <!-- EN: Believers in {0} ({1}) -->
+  <BelieversIn>Crentes em {0} ({1})</BelieversIn>
+  <!-- EN: add {0} -->
+  <AddPrecept>adicionar</AddPrecept>
+  <!-- EN: precept -->
+  <Precept>preceito</Precept>
+  <!-- EN: building -->
+  <IdeoBuilding>edifício</IdeoBuilding>
+  <!-- EN: relic -->
+  <IdeoRelic>relíquia</IdeoRelic>
+  <!-- EN: Give {0} to {1_nameDef} -->
+  <GiveItemsTo>Dar {0} a {1_nameDef}</GiveItemsTo>
+  <!-- EN: Cannot give {0} to {1_nameDef} -->
+  <CannotGiveItemsTo>Não posso dar {0} a {1_nameDef}</CannotGiveItemsTo>
+  <!-- EN: No item found -->
+  <NoItemFound>Nenhum item encontrado</NoItemFound>
+  <!-- EN: Slave -->
+  <OutfitSlave>Escravo</OutfitSlave>
+  <!-- EN: Hack progress -->
+  <HackProgress>Progresso de corte</HackProgress>
+  <!-- EN: hacking speed -->
+  <HackingSpeed>velocidade de corte</HackingSpeed>
+  <!-- EN: {0}'s -->
+  <HackingLastUser>não</HackingLastUser>
+  <!-- EN: hacked -->
+  <Hacked>hackeado</Hacked>
+  <!-- EN: Terminals hacked -->
+  <TerminalsHacked>Terminais hackeados</TerminalsHacked>
+  <!-- EN: Relic info found -->
+  <RelicInfoFound>Relic info encontrado</RelicInfoFound>
+  <!-- EN: inactive, requires at least {0} {1}s (have {2}) -->
+  <InactiveRoleRequiresMoreBelievers>inativo, requer pelo menos {0} {1}s (have {2})</InactiveRoleRequiresMoreBelievers>
+  <!-- EN: certainty -->
+  <Certainty>certeza</Certainty>
+  <!-- EN: The slave will leave the map on foot and return to their home faction, {0}. -->
+  <EmancipateNonCololonistWithFactionTooltip>O escravo vai deixar o mapa a pé e voltar para sua facção de casa, {0}.</EmancipateNonCololonistWithFactionTooltip>
+  <!-- EN: The slave will leave on foot and exit the map. -->
+  <EmancipateNonCololonistWithoutFactionTooltip>O escravo partirá a pé e sairá do mapa.</EmancipateNonCololonistWithoutFactionTooltip>
+  <!-- EN: The slave will return to being a colonist. -->
+  <EmancipateCololonistTooltip>O escravo voltará a ser colonizador.</EmancipateCololonistTooltip>
+  <!-- EN: You've stayed in the village too long. The people of {FACTION_name} are attacking! -->
+  <WorshippedTerminalFactionBecameHostileTimed>Ficaste muito tempo na aldeia. As pessoas de {FACTION_name} estão atacando!</WorshippedTerminalFactionBecameHostileTimed>
+  <!-- EN: Villagers are returning from nearby to protect the venerated terminal! -->
+  <WorshippedTerminalRaidIncoming>Os moradores estão retornando de perto para proteger o terminal venerado!</WorshippedTerminalRaidIncoming>
+  <!-- EN: The relic is housed in an ancient structure protected by a multi-unit security system.\n\nYou can defeat the security forces one unit at a time, or grab the relic and try to flee before they get you. -->
+  <RelicHuntFoundRelicSite>A relíquia está alojada em uma estrutura antiga protegida por um sistema de segurança multi-unidade.\n\nVocê pode derrotar as forças de segurança uma unidade de cada vez, ou pegar a relíquia e tentar fugir antes que eles te apanhem.</RelicHuntFoundRelicSite>
+  <!-- EN: The relic rests in an ancient structure nearby. -->
+  <RelicHuntFoundRelicSitePeaceful>A relíquia repousa em uma estrutura antiga nas proximidades.</RelicHuntFoundRelicSitePeaceful>
+  <!-- EN: relic -->
+  <Relic>relíquia</Relic>
+  <!-- EN: Ritual seat -->
+  <RitualSeat>Banco ritual</RitualSeat>
+  <!-- EN: Active loudspeakers -->
+  <RitualPredictedOutcomeDescNumActiveLoudspeakers>Alto-falantes ativos</RitualPredictedOutcomeDescNumActiveLoudspeakers>
+  <!-- EN: Drums -->
+  <RitualPredictedOutcomeDescNumDrums>Bateria</RitualPredictedOutcomeDescNumDrums>
+  <!-- EN: Using ritual spot causes {0} mood bonus reduction for all participants. -->
+  <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>Usar causas de ponto ritual {0} redução de bônus de humor para todos os participantes.</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
+  <!-- EN: Any of these -->
+  <RitualOutcomeLabelAnyOfThese>Qualquer um destes</RitualOutcomeLabelAnyOfThese>
+  <!-- EN: Replace with -->
+  <PreceptReplaceWith>Substituir com</PreceptReplaceWith>
+  <!-- EN: Ritual seat of {IDEOS} -->
+  <RitualSeatOf>Banco ritual de {IDEOS}</RitualSeatOf>
+  <!-- EN: Starting quality -->
+  <StartingQuality>Qualidade de início</StartingQuality>
+  <!-- EN: Conviction chance -->
+  <ExpectedConvictionChance>Chance de convencer</ExpectedConvictionChance>
+  <!-- EN: Must be placed indoors. -->
+  <MustBePlacedIndoors>Deve ser colocado dentro de casa.</MustBePlacedIndoors>
+  <!-- EN: Connected to -->
+  <ConnectedPawn>Conectado a</ConnectedPawn>
+  <!-- EN: Nobody -->
+  <Nobody>Ninguém</Nobody>
+  <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
+  <ConnectedPawnDesc>A pessoa com a qual este {TREE_label} está ligado. Se a pessoa conectada morrer, esta {TREE_label} será incapaz de se conectar a outra para {DURATION}.</ConnectedPawnDesc>
+  <!-- EN: Connection torn. Can connect in {0}. -->
+  <ConnectionTorn>Ligação rasgada. Pode ligar-se em {0}.</ConnectionTorn>
+  <!-- EN: {PAWN_nameDef} is too far away -->
+  <ConnectedPawnAway>{PAWN_name Def está muito longe</ConnectedPawnAway>
+  <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
+  <TreeBlockedByNearbyBuildingsDesc>Plantar {PLANT_definite} perto de edifícios artificiais fará com que sua força de conexão decaia ao longo do tempo. A força de conexão determina o número máximo de dryads {PLANT_definite} pode suportar de uma só vez.\n\nTens a certeza que queres plantar aqui?</TreeBlockedByNearbyBuildingsDesc>
+  <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
+  <GauranlenModeChangeDescFull>Mudar a casta seca de {TREE_definite} leva tempo e energia.\n\nDepois que a pessoa conectada interage com a árvore, todos os dryads passarão dias {DURATION} dentro dos casulos enquanto eles se transformam na casta selecionada.\n\nOs casulos existentes cancelarão sua transformação para que possam se transformar na casta atual.</GauranlenModeChangeDescFull>
+  <!-- EN: Change the type of dryads created by {TREE_definite}. -->
+  <ChangeModeDesc>Altere o tipo de secos criados por {TREE_definite}.</ChangeModeDesc>
+  <!-- EN: Connection strength fall -->
+  <ConnectionStrengthFall>Queda de força de conexão</ConnectionStrengthFall>
+  <!-- EN: Connection strength -->
+  <ConnectionStrength>Força de conexão</ConnectionStrength>
+  <!-- EN: {0} strength -->
+  <ConnectionStrengthDisplay>força</ConnectionStrengthDisplay>
+  <!-- EN: Determines how many dryads this tree can support. -->
+  <ConnectionStrengthDesc>Determina quantos dryads esta árvore pode suportar.</ConnectionStrengthDesc>
+  <!-- EN: Max dryads -->
   <MaximumDryads>Max dryads</MaximumDryads>
-  <MaximumDryadsDesc>The maximum number of dryads this tree can support.</MaximumDryadsDesc>
-  <MaxDryadsBasedOnConnectionStrength>Max dryads based on connection strength</MaxDryadsBasedOnConnectionStrength>
-  <PruningConnectionStrength>Pruning connection strength gain</PruningConnectionStrength>
-  <PruningHoursToMaintain>Hours per day to maintain</PruningHoursToMaintain>
-  <DesiredConnectionStrength>Desired</DesiredConnectionStrength>
-  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings.</DesiredConnectionStrengthDesc>
-  <WaitingForConnectorToChangeCaste>Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste.</WaitingForConnectorToChangeCaste>
-  <GauranlenTreeMode>Dryad caste</GauranlenTreeMode>
-  <NoCaste>no caste</NoCaste>
-  <GauranlenTreeModeDesc>Determines the currently created dryad caste.</GauranlenTreeModeDesc>
-  <SpawningDryadIn>Spawning {DRYAD_label} in {TIME}</SpawningDryadIn>
-  <ChangingDryadIntoType>Morphing {DRYAD_labelShort} into {TYPE_label}.</ChangingDryadIntoType>
-  <HoursEveryDay>{0} hours every day</HoursEveryDay>
-  <HoursEveryOtherDay>{0} hours every other day</HoursEveryOtherDay>
-  <DryadProducesResourcesDesc>{DRYAD_labelPlural} produce {RESOURCES} every {DURATION}.</DryadProducesResourcesDesc>
-  <DryadCannotChangeMaster>{ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed.</DryadCannotChangeMaster>
-  <ConnectionStrengthTooWeakForGaumakerPod>Connection strength too low to create Gauranlen pod.</ConnectionStrengthTooWeakForGaumakerPod>
-  <Unconnected>Unconnected</Unconnected>
-  <DryadPlural>Dryads</DryadPlural>
-  <ConnectionStrengthAffectedBy>Connection strength affected by</ConnectionStrengthAffectedBy>
-  <CurrentlyAffectedBy>Currently affected by</CurrentlyAffectedBy>
-  <NotEnoughConnectionStrengthForSingleDryad>{0} connection strength needed to support a dryad.</NotEnoughConnectionStrengthForSingleDryad>
-  <CannotAssignAllowedAreaToDryad>Cannot assign allowed area</CannotAssignAllowedAreaToDryad>
-
-  <!-- Shooting report -->
-  <TargetNightOutdoors>Target outdoors and night-time</TargetNightOutdoors>
-  <TargetDarkIndoors>Target indoors and dark</TargetDarkIndoors>
-  <TargetDayOutdoors>Target outdoors and daytime</TargetDayOutdoors>
-  <TargetLitIndoors>Target indoors and lit</TargetLitIndoors>  
-  <RechargeableCharging>Charging</RechargeableCharging>
-  <RechargeableReady>Ready</RechargeableReady>
-  
-  <RoleRequirementSkill>Skill</RoleRequirementSkill>
-  <RoleRequirementSkillAny>Any of skills</RoleRequirementSkillAny>
-  <RoleEffectWontUseRangedWeapons>Won't use ranged weapons</RoleEffectWontUseRangedWeapons>
-  <RoleEffectWontUseMeleeWeapons>Won't use melee weapons</RoleEffectWontUseMeleeWeapons>
-  <RoleEffectProductionQualityOffset>{0} quality to crafting or construction</RoleEffectProductionQualityOffset>
-  <RoleEffectHuntingRevengeChance>Hunting revenge chance {0}</RoleEffectHuntingRevengeChance>
-  <RoleEffectGiveThoughtOnTended>Give thought</RoleEffectGiveThoughtOnTended>
-
-  <AssignColonists>Assign colonists to your ideoligion</AssignColonists>
-  <RemoveNewIdeoligion>Remove new ideoligion</RemoveNewIdeoligion>
-  <MakeIdeoligionPrimary>Make this your primary ideoligion</MakeIdeoligionPrimary>
-
-  <!-- Archonexus -->
-  <GameOverArchotechInvokedIntro>You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n</GameOverArchotechInvokedIntro>
-  <GameOverArchotechInvokedEnding>The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful...</GameOverArchotechInvokedEnding>
-  <GameOverColonistsTranscended>These colonists have transcended:\n\n{0}</GameOverColonistsTranscended>
-  <Reward_ArchonexusMapPart>An archonexus map part</Reward_ArchonexusMapPart>
-  <Reward_ArchonexusMapPartLabel>Archonexus map part {0}/{1}</Reward_ArchonexusMapPartLabel>
-
-  <RelicsLower>relics</RelicsLower>
-  <RelicLower>relic</RelicLower>
-
-  <LinkedTo>Linked to</LinkedTo>
-  <SupplySatellite>Supply satellite</SupplySatellite>
-
-  <CannotExtractSkull>Colonist is not willing to extract skull from corpse (missing pro-skullspike precept)</CannotExtractSkull>
-  <TipPreviewRitualAmbienceSound>Preview the ritual ambience sound</TipPreviewRitualAmbienceSound>
-
-  <ChooseStuffForRelic>Choose</ChooseStuffForRelic>
-  <RelicStuff>Made from stuff</RelicStuff>
-
-  <!-- Bioscuplter pod -->
-  <BiosculpterPodCycleLabel>Cycle</BiosculpterPodCycleLabel>
-  <BiosculpterPodCycleLabelLoading>loading ingredients</BiosculpterPodCycleLabelLoading>
-  <BiosculpterPodCycleWillBiotune>(and biotuning)</BiosculpterPodCycleWillBiotune>
-  <BiosculpterPodCycleCommand>Begin {0} cycle</BiosculpterPodCycleCommand>
-  <BiosculpterPodCycleDuration>Duration</BiosculpterPodCycleDuration>
-  <BiosculpterPodCycleDurationTranshumanists>Duration (transhumanists)</BiosculpterPodCycleDurationTranshumanists>
-  <BiosculpterPodCycleSelection>Ready for cycle selection</BiosculpterPodCycleSelection>
-  <BiosculpterPodCycleStandby>On standby for {CYCLE} cycle with {PAWN_labelShort}</BiosculpterPodCycleStandby>
-  <BiosculpterPodCycleSelectionNoPower>Nutrition loaded, no power</BiosculpterPodCycleSelectionNoPower>
-  <BiosculpterCycleTimeRemaining>Ends in</BiosculpterCycleTimeRemaining>
-  <BiosculpterCycleAccelerated>accelerated for transhumanists</BiosculpterCycleAccelerated>
-  <BiosculpterCycleNoPowerInterrupt>Paused: No power (interrupt in {TIME})</BiosculpterCycleNoPowerInterrupt>
-  <BiosculpterBiotunedTo>Biotuned to</BiosculpterBiotunedTo>
-  <BiosculpterInteruptCycle>Interrupt cycle</BiosculpterInteruptCycle>
-  <BiosculpterInteruptCycleDesc>Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness.</BiosculpterInteruptCycleDesc>
-  <BiosculpterEnteringMessage>{PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle.</BiosculpterEnteringMessage>
-  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle.</BiosculpterLoadingStartedMessage>
-  <BiosculpterCarryStartedMessage>{PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle.</BiosculpterCarryStartedMessage>
-  <NumNutrition>{0} nutrition</NumNutrition>
-  <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort} was ejected from a biosculpter pod due to lack of power.</BiosculpterNoPowerEjectedMessage>
-  <BiosculpterHealCompletedMessage>{PAWN_labelShort} completed healing cycle.</BiosculpterHealCompletedMessage>
-  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured.</BiosculpterHealCompletedWithCureMessage>
-  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} completed {PAWN_possessive} age reversal cycle.</BiosculpterAgeReversalCompletedMessage>
-  <AgeReversalExpectationDeadline>{PAWN_pronoun} expects the next age reversal in {DEADLINE} days.</AgeReversalExpectationDeadline>
-  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}'s pleasure cycle is complete.</BiosculpterPleasureCompletedMessage>
-  <BiosculpterCleanlinessSpeedFactor>Cleanliness speed factor</BiosculpterCleanlinessSpeedFactor>
-  <BiosculpterBiotunedSpeedFactor>Biotuned speed factor</BiosculpterBiotunedSpeedFactor>
-  <HealingCycleWillHeal>These conditions will be healed</HealingCycleWillHeal>
-  <HealingCycleOneWillHeal>One of these conditions will be healed</HealingCycleOneWillHeal>
-  <MissingRequiredResearch>Missing required research</MissingRequiredResearch>
-  <BiosculpterRequiresIngredients>Requires</BiosculpterRequiresIngredients>
-  <OnCompletionOfCycle>On completion of the {CYCLE} cycle, the following will occur</OnCompletionOfCycle>
-  <BiosculpterNoCoditionsToHeal>{PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue?</BiosculpterNoCoditionsToHeal>
-
-  <Basic>basic</Basic>
-  <ChangeStyleDesc>Change the style this will be built in. This is purely visual and has no gameplay impact.</ChangeStyleDesc>
-  <ChangeStyleDisabledNoCategories>No available styles.</ChangeStyleDisabledNoCategories>
-
+  <!-- EN: The maximum number of dryads this tree can support. -->
+  <MaximumDryadsDesc>O número máximo de dryads esta árvore pode suportar.</MaximumDryadsDesc>
+  <!-- EN: Max dryads based on connection strength -->
+  <MaxDryadsBasedOnConnectionStrength>Max dryads com base na força de conexão</MaxDryadsBasedOnConnectionStrength>
+  <!-- EN: Pruning connection strength gain -->
+  <PruningConnectionStrength>Poda de ganho de força de conexão</PruningConnectionStrength>
+  <!-- EN: Hours per day to maintain -->
+  <PruningHoursToMaintain>Horas por dia para manter</PruningHoursToMaintain>
+  <!-- EN: Desired -->
+  <DesiredConnectionStrength>Desejado</DesiredConnectionStrength>
+  <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
+  <DesiredConnectionStrengthDesc>(CONNECTEDPAWN_name Def} ameixará {TREE_definite} muitas vezes o suficiente para manter a força de conexão acima deste nível.\n\nMaior força de conexão permite suportar mais secoads, mas também cai mais rápido e, portanto, leva a poda mais frequente para manter.\n\nVocê pode clicar na barra para ajustar a força de conexão de destino desejada.\n\nA força da conexão cai por dia: {FALL}\n\nA força de conexão é afetada por edifícios próximos.</DesiredConnectionStrengthDesc>
+  <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
+  <WaitingForConnectorToChangeCaste>Esperando por {CONNECTEDPAWN_name Para mudar a casta seca.</WaitingForConnectorToChangeCaste>
+  <!-- EN: Dryad caste -->
+  <GauranlenTreeMode>Castanho Dryad</GauranlenTreeMode>
+  <!-- EN: no caste -->
+  <NoCaste>sem castas</NoCaste>
+  <!-- EN: Determines the currently created dryad caste. -->
+  <GauranlenTreeModeDesc>Determina a casta seca atualmente criada.</GauranlenTreeModeDesc>
+  <!-- EN: Spawning {DRYAD_label} in {TIME} -->
+  <SpawningDryadIn>Spawning {DRYAD_label} em {TIME}</SpawningDryadIn>
+  <!-- EN: Morphing {DRYAD_labelShort} into {TYPE_label}. -->
+  <ChangingDryadIntoType>Morphing {DRYAD_labelShort} em {TYPE_label}.</ChangingDryadIntoType>
+  <!-- EN: {0} hours every day -->
+  <HoursEveryDay>horas todos os dias</HoursEveryDay>
+  <!-- EN: {0} hours every other day -->
+  <HoursEveryOtherDay>horas todos os dias</HoursEveryOtherDay>
+  <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
+  <DryadProducesResourcesDesc>(DRYAD_labelPlural} produzir (RESOURCES} cada {DURATION}.</DryadProducesResourcesDesc>
+  <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
+  <DryadCannotChangeMaster>(ANIMAL) Def} está ligado a {MASTER_nameDef} através {ANIMAL_possessive} Árvore de Gauranlen. O mestre não pode ser alterado.</DryadCannotChangeMaster>
+  <!-- EN: Connection strength too low to create Gauranlen pod. -->
+  <ConnectionStrengthTooWeakForGaumakerPod>Força de conexão muito baixa para criar Gauranlen pod.</ConnectionStrengthTooWeakForGaumakerPod>
+  <!-- EN: Unconnected -->
+  <Unconnected>Desconectado</Unconnected>
+  <!-- EN: Dryads -->
+  <DryadPlural>Secoads</DryadPlural>
+  <!-- EN: Connection strength affected by -->
+  <ConnectionStrengthAffectedBy>Força de conexão afetada por</ConnectionStrengthAffectedBy>
+  <!-- EN: Currently affected by -->
+  <CurrentlyAffectedBy>Atualmente afetado por</CurrentlyAffectedBy>
+  <!-- EN: {0} connection strength needed to support a dryad. -->
+  <NotEnoughConnectionStrengthForSingleDryad>{0} força de conexão necessária para suportar um dryad.</NotEnoughConnectionStrengthForSingleDryad>
+  <!-- EN: Cannot assign allowed area -->
+  <CannotAssignAllowedAreaToDryad>Não pode atribuir área permitida</CannotAssignAllowedAreaToDryad>
+  <!-- EN: Target outdoors and night-time -->
+  <TargetNightOutdoors>Alvo ao ar livre e à noite</TargetNightOutdoors>
+  <!-- EN: Target indoors and dark -->
+  <TargetDarkIndoors>Alvo interno e escuro</TargetDarkIndoors>
+  <!-- EN: Target outdoors and daytime -->
+  <TargetDayOutdoors>Alvo ao ar livre e dia</TargetDayOutdoors>
+  <!-- EN: Target indoors and lit -->
+  <TargetLitIndoors>Alvo interno e iluminado</TargetLitIndoors>
+  <!-- EN: Charging -->
+  <RechargeableCharging>Carregamento</RechargeableCharging>
+  <!-- EN: Ready -->
+  <RechargeableReady>Pronto</RechargeableReady>
+  <!-- EN: Skill -->
+  <RoleRequirementSkill>Habilidade</RoleRequirementSkill>
+  <!-- EN: Any of skills -->
+  <RoleRequirementSkillAny>Qualquer uma das habilidades</RoleRequirementSkillAny>
+  <!-- EN: Won't use ranged weapons -->
+  <RoleEffectWontUseRangedWeapons>Não vai usar armas variadas</RoleEffectWontUseRangedWeapons>
+  <!-- EN: Won't use melee weapons -->
+  <RoleEffectWontUseMeleeWeapons>Não usarão armas corporais</RoleEffectWontUseMeleeWeapons>
+  <!-- EN: {0} quality to crafting or construction -->
+  <RoleEffectProductionQualityOffset>{0} qualidade ao artesanato ou construção</RoleEffectProductionQualityOffset>
+  <!-- EN: Hunting revenge chance {0} -->
+  <RoleEffectHuntingRevengeChance>Caça chance de vingança Não</RoleEffectHuntingRevengeChance>
+  <!-- EN: Give thought -->
+  <RoleEffectGiveThoughtOnTended>Pensamento</RoleEffectGiveThoughtOnTended>
+  <!-- EN: Assign colonists to your ideoligion -->
+  <AssignColonists>Atribuir colonos ao seu ideoligion</AssignColonists>
+  <!-- EN: Remove new ideoligion -->
+  <RemoveNewIdeoligion>Remover nova orientação</RemoveNewIdeoligion>
+  <!-- EN: Make this your primary ideoligion -->
+  <MakeIdeoligionPrimary>Faça este seu ideoligionário primário</MakeIdeoligionPrimary>
+  <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
+  <GameOverArchotechInvokedIntro>Invocaste o núcleo do arquinexo. O mundo enche-se de luz cegante e o tempo parece lento...\n\n.</GameOverArchotechInvokedIntro>
+  <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
+  <GameOverArchotechInvokedEnding>O deus da máquina notou-te. Ninguém pode prever o que acontece a seguir. Ele pode destruir você, ou se comunicar diretamente com você, ou transportar sua consciência para outro plano da realidade.\n\nVocê sente uma vasta estrutura desumana de infinita complexidade fractal fluindo em sua mente. O tempo e a escala começam a se dissolver. É assustador. É lindo...</GameOverArchotechInvokedEnding>
+  <!-- EN: These colonists have transcended:\n\n{0} -->
+  <GameOverColonistsTranscended>Estes colonos transcenderam:\n\nNão</GameOverColonistsTranscended>
+  <!-- EN: An archonexus map part -->
+  <Reward_ArchonexusMapPart>Uma parte do mapa de Archonexus</Reward_ArchonexusMapPart>
+  <!-- EN: Archonexus map part {0}/{1} -->
+  <Reward_ArchonexusMapPartLabel>Parte do mapa de Archonexus Não</Reward_ArchonexusMapPartLabel>
+  <!-- EN: relics -->
+  <RelicsLower>relíquias</RelicsLower>
+  <!-- EN: relic -->
+  <RelicLower>relíquia</RelicLower>
+  <!-- EN: Linked to -->
+  <LinkedTo>Ligado a</LinkedTo>
+  <!-- EN: Supply satellite -->
+  <SupplySatellite>Fornecimento de satélite</SupplySatellite>
+  <!-- EN: Colonist is not willing to extract skull from corpse (missing pro-skullspike precept) -->
+  <CannotExtractSkull>O colonista não está disposto a extrair o crânio do cadáver (perdendo preceito pró-skullspike)</CannotExtractSkull>
+  <!-- EN: Preview the ritual ambience sound -->
+  <TipPreviewRitualAmbienceSound>Visualizar o som de ambiente ritual</TipPreviewRitualAmbienceSound>
+  <!-- EN: Choose -->
+  <ChooseStuffForRelic>Escolha</ChooseStuffForRelic>
+  <!-- EN: Made from stuff -->
+  <RelicStuff>Feito de coisas</RelicStuff>
+  <!-- EN: Cycle -->
+  <BiosculpterPodCycleLabel>Ciclo</BiosculpterPodCycleLabel>
+  <!-- EN: loading ingredients -->
+  <BiosculpterPodCycleLabelLoading>ingredientes de carga</BiosculpterPodCycleLabelLoading>
+  <!-- EN: (and biotuning) -->
+  <BiosculpterPodCycleWillBiotune>(e biotuning)</BiosculpterPodCycleWillBiotune>
+  <!-- EN: Begin {0} cycle -->
+  <BiosculpterPodCycleCommand>Começar (0} ciclo</BiosculpterPodCycleCommand>
+  <!-- EN: Duration -->
+  <BiosculpterPodCycleDuration>Duração</BiosculpterPodCycleDuration>
+  <!-- EN: Duration (transhumanists) -->
+  <BiosculpterPodCycleDurationTranshumanists>Duração (transhumanistas)</BiosculpterPodCycleDurationTranshumanists>
+  <!-- EN: Ready for cycle selection -->
+  <BiosculpterPodCycleSelection>Pronto para seleção de ciclos</BiosculpterPodCycleSelection>
+  <!-- EN: On standby for {CYCLE} cycle with {PAWN_labelShort} -->
+  <BiosculpterPodCycleStandby>Em espera para {CYCLE} ciclo com {PAWN_labelShort}</BiosculpterPodCycleStandby>
+  <!-- EN: Nutrition loaded, no power -->
+  <BiosculpterPodCycleSelectionNoPower>Nutrição carregada, sem poder</BiosculpterPodCycleSelectionNoPower>
+  <!-- EN: Ends in -->
+  <BiosculpterCycleTimeRemaining>Termina em</BiosculpterCycleTimeRemaining>
+  <!-- EN: accelerated for transhumanists -->
+  <BiosculpterCycleAccelerated>acelerado para transhumanistas</BiosculpterCycleAccelerated>
+  <!-- EN: Paused: No power (interrupt in {TIME}) -->
+  <BiosculpterCycleNoPowerInterrupt>Pausa: Nenhum poder (interrupto em {TIME})</BiosculpterCycleNoPowerInterrupt>
+  <!-- EN: Biotuned to -->
+  <BiosculpterBiotunedTo>Biotuado para</BiosculpterBiotunedTo>
+  <!-- EN: Interrupt cycle -->
+  <BiosculpterInteruptCycle>Ciclo interrompido</BiosculpterInteruptCycle>
+  <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
+  <BiosculpterInteruptCycleDesc>Interromper o ciclo atual. O ocupante será ejetado sem beneficiar dos efeitos do ciclo, e sofrerá de doença de biosculpter de curto prazo.</BiosculpterInteruptCycleDesc>
+  <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
+  <BiosculpterEnteringMessage>(PAWN_label Short} vai entrar biosculpter e começar um ciclo {CYCLE}.</BiosculpterEnteringMessage>
+  <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
+  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} vai recolher {INGREDIENTS}, e começar um ciclo {CYCLE}.</BiosculpterLoadingStartedMessage>
+  <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
+  <BiosculpterCarryStartedMessage>{PAWN_labelShort} vai recolher {INGREDIENTS}, lugar {DOWNED_label Short} dentro do biosculpter, e começar um ciclo {CYCLE}.</BiosculpterCarryStartedMessage>
+  <!-- EN: {0} nutrition -->
+  <NumNutrition>nutrição</NumNutrition>
+  <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
+  <BiosculpterNoPowerEjectedMessage>(PAWN_label Short} foi expulso de uma cápsula de biosculpter devido à falta de poder.</BiosculpterNoPowerEjectedMessage>
+  <!-- EN: {PAWN_labelShort} completed healing cycle. -->
+  <BiosculpterHealCompletedMessage>{PAWN_labelShort} completou o ciclo de cura.</BiosculpterHealCompletedMessage>
+  <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
+  <BiosculpterHealCompletedWithCureMessage>(PAWN_label Curto} ciclo de cura completado, e {PAWN_possessive} {HEDIFF_label} foi curado.</BiosculpterHealCompletedWithCureMessage>
+  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
+  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} concluído {PAWN_possessive} ciclo de inversão de idade.</BiosculpterAgeReversalCompletedMessage>
+  <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
+  <AgeReversalExpectationDeadline>{PAWN_pronoun} espera a próxima idade reversal em {DEADLINE} dias.</AgeReversalExpectationDeadline>
+  <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
+  <BiosculpterPleasureCompletedMessage>(PAWN_label O ciclo de prazer está completo.</BiosculpterPleasureCompletedMessage>
+  <!-- EN: Cleanliness speed factor -->
+  <BiosculpterCleanlinessSpeedFactor>Fator de velocidade de limpeza</BiosculpterCleanlinessSpeedFactor>
+  <!-- EN: Biotuned speed factor -->
+  <BiosculpterBiotunedSpeedFactor>Fator de velocidade bioatuada</BiosculpterBiotunedSpeedFactor>
+  <!-- EN: These conditions will be healed -->
+  <HealingCycleWillHeal>Estas condições serão curadas</HealingCycleWillHeal>
+  <!-- EN: One of these conditions will be healed -->
+  <HealingCycleOneWillHeal>Uma dessas condições será curada</HealingCycleOneWillHeal>
+  <!-- EN: Missing required research -->
+  <MissingRequiredResearch>Falta de pesquisa necessária</MissingRequiredResearch>
+  <!-- EN: Requires -->
+  <BiosculpterRequiresIngredients>Requerimentos</BiosculpterRequiresIngredients>
+  <!-- EN: On completion of the {CYCLE} cycle, the following will occur -->
+  <OnCompletionOfCycle>Após a conclusão do ciclo {CYCLE}, o seguinte ocorrerá</OnCompletionOfCycle>
+  <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
+  <BiosculpterNoCoditionsToHeal>{PAWN_name Def} não tem condições que podem ser curadas por um ciclo {CYCLE}.\n\nQueres continuar?</BiosculpterNoCoditionsToHeal>
+  <!-- EN: basic -->
+  <Basic>básico</Basic>
+  <!-- EN: Change the style this will be built in. This is purely visual and has no gameplay impact. -->
+  <ChangeStyleDesc>Mude o estilo em que será construído. Isso é puramente visual e não tem impacto na jogabilidade.</ChangeStyleDesc>
+  <!-- EN: No available styles. -->
+  <ChangeStyleDisabledNoCategories>Sem estilos disponíveis.</ChangeStyleDisabledNoCategories>
 </LanguageData>

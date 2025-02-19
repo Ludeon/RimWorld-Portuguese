@@ -1,111 +1,205 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" ?>
 <LanguageData>
-
-  <!-- Ideoligions -->
-  <Deities>Deities</Deities>
-  <ButtonShowAllIdeoligions>Show all ideoligions</ButtonShowAllIdeoligions>
-  <IdeoligionOf>Ideoligion of</IdeoligionOf>
+  <!-- EN: Deities -->
+  <Deities>Decisões</Deities>
+  <!-- EN: Show all ideoligions -->
+  <ButtonShowAllIdeoligions>Mostrar todos os ideoligions</ButtonShowAllIdeoligions>
+  <!-- EN: Ideoligion of -->
+  <IdeoligionOf>Ideoligação de</IdeoligionOf>
+  <!-- EN: Memes -->
   <Memes>Memes</Memes>
-  <CoreNarrative>Narrative</CoreNarrative>
-  <CoreNarrativeDesc>The core narrative of your ideoligion. This has no gameplay impact.</CoreNarrativeDesc>
-  <EditNarrative>Edit narrative</EditNarrative>
-  <LockButtonDesc>Lock or unlock the ideoligion's narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed.</LockButtonDesc>
-  <LockInOn>{0} lock is currently on. The {1} will not auto-regenerate.</LockInOn>
-  <LockInOff>{0} lock is currently off. The {1} text can auto-regenerate.</LockInOff>
-  <LockPreceptNameButtonDesc>Lock or unlock the name of this precept. When locked, the precept name will not auto-regenerate if the ideoligion is changed.</LockPreceptNameButtonDesc>
-  <Precepts>Precepts</Precepts>
-  <Rituals>Rituals</Rituals>
-  <IdeoRoles>Roles</IdeoRoles>
-  <IdeoBuildings>Buildings</IdeoBuildings>
+  <!-- EN: Narrative -->
+  <CoreNarrative>Narrativa</CoreNarrative>
+  <!-- EN: The core narrative of your ideoligion. This has no gameplay impact. -->
+  <CoreNarrativeDesc>A narrativa central do seu ideoligion. Isso não tem impacto na jogabilidade.</CoreNarrativeDesc>
+  <!-- EN: Edit narrative -->
+  <EditNarrative>Editar narrativa</EditNarrative>
+  <!-- EN: Lock or unlock the ideoligion's narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed. -->
+  <LockButtonDesc>Bloquear ou desbloquear a narrativa do ideoligion. Quando bloqueado, o texto narrativo não será auto-regenerado se o ideoligion for alterado.</LockButtonDesc>
+  <!-- EN: {0} lock is currently on. The {1} will not auto-regenerate. -->
+  <LockInOn>A fechadura está ligada. O {1} não será auto-regenerado.</LockInOn>
+  <!-- EN: {0} lock is currently off. The {1} text can auto-regenerate. -->
+  <LockInOff>A fechadura está desligada. O texto pode regenerar-se automaticamente.</LockInOff>
+  <!-- EN: Lock or unlock the name of this precept. When locked, the precept name will not auto-regenerate if the ideoligion is changed. -->
+  <LockPreceptNameButtonDesc>Bloquear ou desbloquear o nome deste preceito. Quando bloqueado, o nome preceito não será auto-regenerado se o ideoligion for alterado.</LockPreceptNameButtonDesc>
+  <!-- EN: Precepts -->
+  <Precepts>Preceitos</Precepts>
+  <!-- EN: Rituals -->
+  <Rituals>Rituais</Rituals>
+  <!-- EN: Roles -->
+  <IdeoRoles>Funções</IdeoRoles>
+  <!-- EN: Buildings -->
+  <IdeoBuildings>Edifícios</IdeoBuildings>
+  <!-- EN: Relics -->
   <IdeoRelics>Relics</IdeoRelics>
-  <IdeoApparel>Preferred apparel</IdeoApparel>
-  <IdeoApparelDesire>apparel desire</IdeoApparelDesire>
-  <UnwillingToDoIdeoAction>Won't do</UnwillingToDoIdeoAction>
-  <PreceptStats>Stats</PreceptStats>
-  <Prohibitions>Prohibitions</Prohibitions>
-  <Opinions>Opinions</Opinions>
-  <MentalBreaks>Mental breaks</MentalBreaks>
-  <RandomizeName>Randomize name</RandomizeName>
-  <RandomizePrecepts>Randomize precepts</RandomizePrecepts>
-  <RandomizeDeities>Randomize deities</RandomizeDeities>
-  <AddDeity>Add deity</AddDeity>
-  <ChooseMemes>Choose memes</ChooseMemes>
-  <ChooseStartingMeme>Choose starting meme</ChooseStartingMeme>
-  <ChooseStructure>Choose structure</ChooseStructure>
-  <ChooseCulture>Choose culture</ChooseCulture>
-  <Culture>Culture</Culture>
-  <CultureTip>Culture affects names, appearances, and symbols.</CultureTip>
-  <StructureMeme>Structure</StructureMeme>
-  <StructureMemeTip>An ideoligion's structure determines the kind of entities and forces it sees as important to the moral structure of the universe. It has no direct gameplay effects.</StructureMemeTip>
-  <Adjective>Adjective</Adjective>
-  <WorshipRoom>Ritual room</WorshipRoom>
-  <IdeoMembers>Member noun</IdeoMembers>
-  <IdeoMembersPlural>Member plural</IdeoMembersPlural>
-  <EditSymbols>Edit symbols</EditSymbols>
-  <EditDeity>Edit deity</EditDeity>
-  <EditApparelRequirement>Edit required apparel</EditApparelRequirement>
-  <EditName>Edit name</EditName>
-  <StartingCondition_Anytime>Any time</StartingCondition_Anytime>
-  <StartingCondition_Date>Date</StartingCondition_Date>
-  <StartingCondition>Starting condition</StartingCondition>
-  <Edit>Edit</Edit>
-  <RandomizeSymbols>Randomize symbols</RandomizeSymbols>
-  <RandomizeSymbolsTooltip>Randomize ideoligion name, icon, narrative, leader title and any other texts like ritual names or role names. This does not affect gameplay elements like memes or precepts.</RandomizeSymbolsTooltip>
-  <ClickAnyElementToEditIt>Click any element to edit it</ClickAnyElementToEditIt>
-  <LeaderTitle>Leader title</LeaderTitle>
-  <DeityName>Deity name</DeityName>
-  <DeityTitle>Deity title</DeityTitle>
-  <DeityGender>Deity gender</DeityGender>
-  <Name>Name</Name>
-  <Icon>Icon</Icon>
-  <RelatedToMeme>Related to meme</RelatedToMeme>
-  <IdeoCharityQuestInfo>This is a charity quest. If you don't fulfill it, believers in {0} will be unhappy due to their charitable beliefs. If you do, believers in {0} will be happy ({1}).</IdeoCharityQuestInfo>
-  <WorkDisabledSlave>Slaves will not do this work</WorkDisabledSlave>
-  <WorkDisabledHealth>Disabled by health condition</WorkDisabledHealth>
-  <WorkDisabledRole>Disabled by {0} role</WorkDisabledRole>
-  <AffectedByTraits>Affected by traits</AffectedByTraits>
-  <CharityQuestTip>This is a charity quest. People with charitable beliefs will be affected by its outcome.</CharityQuestTip>
-  <Formerly>formerly</Formerly>
-  <All>all</All>
-  <RelicTip>Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims, enhance rituals, and strengthen an ideoligion's ability to convert outsiders.</RelicTip>
-  <RelicTipClassic>Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims and enhance rituals.</RelicTipClassic>
+  <!-- EN: Preferred apparel -->
+  <IdeoApparel>Vestuário preferido</IdeoApparel>
+  <!-- EN: apparel desire -->
+  <IdeoApparelDesire>desejo de vestuário</IdeoApparelDesire>
+  <!-- EN: Won't do -->
+  <UnwillingToDoIdeoAction>Não</UnwillingToDoIdeoAction>
+  <!-- EN: Stats -->
+  <PreceptStats>Estatísticas</PreceptStats>
+  <!-- EN: Prohibitions -->
+  <Prohibitions>Proibições</Prohibitions>
+  <!-- EN: Opinions -->
+  <Opinions>Pareceres</Opinions>
+  <!-- EN: Mental breaks -->
+  <MentalBreaks>Quebras mentais</MentalBreaks>
+  <!-- EN: Randomize name -->
+  <RandomizeName>Nome aleatório</RandomizeName>
+  <!-- EN: Randomize precepts -->
+  <RandomizePrecepts>Randomize preceitos</RandomizePrecepts>
+  <!-- EN: Randomize deities -->
+  <RandomizeDeities>Deidades aleatórias</RandomizeDeities>
+  <!-- EN: Add deity -->
+  <AddDeity>Adicionar divindade</AddDeity>
+  <!-- EN: Choose memes -->
+  <ChooseMemes>Escolha memes</ChooseMemes>
+  <!-- EN: Choose starting meme -->
+  <ChooseStartingMeme>Escolher meme de partida</ChooseStartingMeme>
+  <!-- EN: Choose structure -->
+  <ChooseStructure>Escolha a estrutura</ChooseStructure>
+  <!-- EN: Choose culture -->
+  <ChooseCulture>Escolha a cultura</ChooseCulture>
+  <!-- EN: Culture -->
+  <Culture>Cultura</Culture>
+  <!-- EN: Culture affects names, appearances, and symbols. -->
+  <CultureTip>A cultura afeta nomes, aparências e símbolos.</CultureTip>
+  <!-- EN: Structure -->
+  <StructureMeme>Estrutura</StructureMeme>
+  <!-- EN: An ideoligion's structure determines the kind of entities and forces it sees as important to the moral structure of the universe. It has no direct gameplay effects. -->
+  <StructureMemeTip>A estrutura de um ideoligion determina o tipo de entidades e forças que vê como importante para a estrutura moral do universo. Não tem efeitos de jogo diretos.</StructureMemeTip>
+  <!-- EN: Adjective -->
+  <Adjective>Adjetivo</Adjective>
+  <!-- EN: Ritual room -->
+  <WorshipRoom>Quarto ritual</WorshipRoom>
+  <!-- EN: Member noun -->
+  <IdeoMembers>UNIÃO EUROPEIA</IdeoMembers>
+  <!-- EN: Member plural -->
+  <IdeoMembersPlural>Plural de membros</IdeoMembersPlural>
+  <!-- EN: Edit symbols -->
+  <EditSymbols>Editar símbolos</EditSymbols>
+  <!-- EN: Edit deity -->
+  <EditDeity>Editar divindade</EditDeity>
+  <!-- EN: Edit required apparel -->
+  <EditApparelRequirement>Editar vestuário necessário</EditApparelRequirement>
+  <!-- EN: Edit name -->
+  <EditName>Editar nome</EditName>
+  <!-- EN: Any time -->
+  <StartingCondition_Anytime>A qualquer hora</StartingCondition_Anytime>
+  <!-- EN: Date -->
+  <StartingCondition_Date>Data</StartingCondition_Date>
+  <!-- EN: Starting condition -->
+  <StartingCondition>Condição de início</StartingCondition>
+  <!-- EN: Edit -->
+  <Edit>Editar</Edit>
+  <!-- EN: Randomize symbols -->
+  <RandomizeSymbols>Símbolos aleatórios</RandomizeSymbols>
+  <!-- EN: Randomize ideoligion name, icon, narrative, leader title and any other texts like ritual names or role names. This does not affect gameplay elements like memes or precepts. -->
+  <RandomizeSymbolsTooltip>Randomize o nome do ideoligion, ícone, narrativa, título do líder e quaisquer outros textos como nomes rituais ou nomes de papéis. Isso não afeta elementos de jogabilidade como memes ou precepts.</RandomizeSymbolsTooltip>
+  <!-- EN: Click any element to edit it -->
+  <ClickAnyElementToEditIt>Clique em qualquer elemento para editá-lo</ClickAnyElementToEditIt>
+  <!-- EN: Leader title -->
+  <LeaderTitle>Título do líder</LeaderTitle>
+  <!-- EN: Deity name -->
+  <DeityName>Nome da divindade</DeityName>
+  <!-- EN: Deity title -->
+  <DeityTitle>Título da Deidade</DeityTitle>
+  <!-- EN: Deity gender -->
+  <DeityGender>Deidade de gênero</DeityGender>
+  <!-- EN: Name -->
+  <Name>Nome</Name>
+  <!-- EN: Icon -->
+  <Icon>Ícone</Icon>
+  <!-- EN: Related to meme -->
+  <RelatedToMeme>Relacionado a meme</RelatedToMeme>
+  <!-- EN: This is a charity quest. If you don't fulfill it, believers in {0} will be unhappy due to their charitable beliefs. If you do, believers in {0} will be happy ({1}). -->
+  <IdeoCharityQuestInfo>Isto é uma busca de caridade. Se você não o cumprir, os crentes em {0} serão infelizes devido às suas crenças caritativas. Se você fizer, os crentes em {0} serão felizes ({1}).</IdeoCharityQuestInfo>
+  <!-- EN: Slaves will not do this work -->
+  <WorkDisabledSlave>Escravos não farão este trabalho</WorkDisabledSlave>
+  <!-- EN: Disabled by health condition -->
+  <WorkDisabledHealth>Desativado pela condição de saúde</WorkDisabledHealth>
+  <!-- EN: Disabled by {0} role -->
+  <WorkDisabledRole>Desativado por {0} papel</WorkDisabledRole>
+  <!-- EN: Affected by traits -->
+  <AffectedByTraits>Atingido por traços</AffectedByTraits>
+  <!-- EN: This is a charity quest. People with charitable beliefs will be affected by its outcome. -->
+  <CharityQuestTip>Isto é uma busca de caridade. As pessoas com crenças de caridade serão afetadas por seu resultado.</CharityQuestTip>
+  <!-- EN: formerly -->
+  <Formerly>anteriormente</Formerly>
+  <!-- EN: all -->
+  <All>todos</All>
+  <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims, enhance rituals, and strengthen an ideoligion's ability to convert outsiders. -->
+  <RelicTip>As relíquias são objetos de significado espiritual ou ideológico. Eles podem ser descobertos completando longas e perigosas missões. Uma relíquia pode ser instalada em um relicário para atrair peregrinos, melhorar os rituais e fortalecer a capacidade de um ideoligion converter estranhos.</RelicTip>
+  <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims and enhance rituals. -->
+  <RelicTipClassic>As relíquias são objetos de significado espiritual ou ideológico. Eles podem ser descobertos completando longas e perigosas missões. Uma relíquia pode ser instalada em um relicário para atrair peregrinos e melhorar os rituais.</RelicTipClassic>
+  <!-- EN: animal -->
   <Animal>animal</Animal>
-  <VeneratedAnimals>Venerated animals</VeneratedAnimals>
-  <IdeoWeapon>weapon pair</IdeoWeapon>
-  <IdeoWeapons>Weapons</IdeoWeapons>
-  <SwapNobleAndDespised>Swap noble and despised</SwapNobleAndDespised>
-  <Noble>noble</Noble>
+  <!-- EN: Venerated animals -->
+  <VeneratedAnimals>Animais Venerados</VeneratedAnimals>
+  <!-- EN: weapon pair -->
+  <IdeoWeapon>par de armas</IdeoWeapon>
+  <!-- EN: Weapons -->
+  <IdeoWeapons>Armas</IdeoWeapons>
+  <!-- EN: Swap noble and despised -->
+  <SwapNobleAndDespised>Swap nobre e desprezado</SwapNobleAndDespised>
+  <!-- EN: noble -->
+  <Noble>nobre</Noble>
+  <!-- EN: despised -->
   <Despised>despised</Despised>
-  <UnlockedRecipes>Unlocked craftables</UnlockedRecipes>
-  <IdeoStartWithResearch>Start with research</IdeoStartWithResearch>
-  <AgreeableTraits>Agreeing traits</AgreeableTraits>
-  <DisagreeableTraits>Conflicting traits</DisagreeableTraits>
-  <Shooting>Shooting</Shooting>
-  <IdeoImpact>Impact</IdeoImpact>
-  <IdeoImpactOverall>Overall impact</IdeoImpactOverall>
-  <IdeoImpactOverallDesc>Some memes impact gameplay more than others. The meme's impact score gives a sense of how big of a gameplay impact it has.</IdeoImpactOverallDesc>
-  <IdeoMemeImpactLabel_1>low</IdeoMemeImpactLabel_1>
-  <IdeoMemeImpactLabel_2>medium</IdeoMemeImpactLabel_2>
-  <IdeoMemeImpactLabel_3>high</IdeoMemeImpactLabel_3>
-  <IdeoImpactLabel_1>low</IdeoImpactLabel_1>
-  <IdeoImpactLabel_2>low</IdeoImpactLabel_2>
-  <IdeoImpactLabel_3>moderate</IdeoImpactLabel_3>
-  <IdeoImpactLabel_4>moderate</IdeoImpactLabel_4>
-  <IdeoImpactLabel_5>strong</IdeoImpactLabel_5>
-  <IdeoImpactLabel_6>strong</IdeoImpactLabel_6>
-  <IdeoImpactLabel_7>very strong</IdeoImpactLabel_7>
-  <IdeoImpactLabel_8>very strong</IdeoImpactLabel_8>
-  <IdeoImpactLabel_9>extreme</IdeoImpactLabel_9>
-  <InitialPlayerIdeo>This was your colony's starting ideoligion.</InitialPlayerIdeo>
-  
-  
-  <FluidIdeoTip>Since this ideoligion is so new and has so few followers on this planet, it is fluid. This means that it can develop over time.\n\nDeveloping the ideoligion costs development points. You can earn development points by completing rituals and quests related to this ideoligion.\n\nWith enough development points, you can reform the ideoligion with new memes, precepts, styles, and more.</FluidIdeoTip>
-  <FluidIdeoTipGetPoints>How to get development points</FluidIdeoTipGetPoints>
-  <FluidIdeoTipGetPoinsByConversion>Convert someone to your ideoligion</FluidIdeoTipGetPoinsByConversion>
-
-  <ResearchProjectHasDefsWithMissingMemes>{0} unlocks things which you cannot build because they require memes that none of your people believe</ResearchProjectHasDefsWithMissingMemes>
-  <SelectedWorkTypeOpposedByIdeo>Warning: This kind of work is opposed by {0_possessive} ideoligion, so it may make this person unhappy.</SelectedWorkTypeOpposedByIdeo>
-
-  <DevelopmentPoints>Development points</DevelopmentPoints>
-
+  <!-- EN: Unlocked craftables -->
+  <UnlockedRecipes>Artesanato desbloqueado</UnlockedRecipes>
+  <!-- EN: Start with research -->
+  <IdeoStartWithResearch>Comece com a pesquisa</IdeoStartWithResearch>
+  <!-- EN: Agreeing traits -->
+  <AgreeableTraits>Acordo de características</AgreeableTraits>
+  <!-- EN: Conflicting traits -->
+  <DisagreeableTraits>Conflitos</DisagreeableTraits>
+  <!-- EN: Shooting -->
+  <Shooting>Tiro</Shooting>
+  <!-- EN: Impact -->
+  <IdeoImpact>Impacto</IdeoImpact>
+  <!-- EN: Overall impact -->
+  <IdeoImpactOverall>Impacto geral</IdeoImpactOverall>
+  <!-- EN: Some memes impact gameplay more than others. The meme's impact score gives a sense of how big of a gameplay impact it has. -->
+  <IdeoImpactOverallDesc>Alguns memes impactam a jogabilidade mais do que outros. A pontuação de impacto do meme dá uma sensação de quão grande de um impacto de jogabilidade tem.</IdeoImpactOverallDesc>
+  <!-- EN: low -->
+  <IdeoMemeImpactLabel_1>baixo</IdeoMemeImpactLabel_1>
+  <!-- EN: medium -->
+  <IdeoMemeImpactLabel_2>meio ambiente</IdeoMemeImpactLabel_2>
+  <!-- EN: high -->
+  <IdeoMemeImpactLabel_3>alta</IdeoMemeImpactLabel_3>
+  <!-- EN: low -->
+  <IdeoImpactLabel_1>baixo</IdeoImpactLabel_1>
+  <!-- EN: low -->
+  <IdeoImpactLabel_2>baixo</IdeoImpactLabel_2>
+  <!-- EN: moderate -->
+  <IdeoImpactLabel_3>moderada</IdeoImpactLabel_3>
+  <!-- EN: moderate -->
+  <IdeoImpactLabel_4>moderada</IdeoImpactLabel_4>
+  <!-- EN: strong -->
+  <IdeoImpactLabel_5>forte</IdeoImpactLabel_5>
+  <!-- EN: strong -->
+  <IdeoImpactLabel_6>forte</IdeoImpactLabel_6>
+  <!-- EN: very strong -->
+  <IdeoImpactLabel_7>muito forte</IdeoImpactLabel_7>
+  <!-- EN: very strong -->
+  <IdeoImpactLabel_8>muito forte</IdeoImpactLabel_8>
+  <!-- EN: extreme -->
+  <IdeoImpactLabel_9>extremo</IdeoImpactLabel_9>
+  <!-- EN: This was your colony's starting ideoligion. -->
+  <InitialPlayerIdeo>Esta foi a tua colónia a iniciar a ideologia.</InitialPlayerIdeo>
+  <!-- EN: Since this ideoligion is so new and has so few followers on this planet, it is fluid. This means that it can develop over time.\n\nDeveloping the ideoligion costs development points. You can earn development points by completing rituals and quests related to this ideoligion.\n\nWith enough development points, you can reform the ideoligion with new memes, precepts, styles, and more. -->
+  <FluidIdeoTip>Uma vez que este ideoligion é tão novo e tem tão poucos seguidores neste planeta, é fluido. Isso significa que pode se desenvolver ao longo do tempo.\n\nO desenvolvimento dos pontos de desenvolvimento dos custos de orientação. Você pode ganhar pontos de desenvolvimento completando rituais e missões relacionadas a este ideoligion.\n\nCom pontos de desenvolvimento suficientes, você pode reformar o ideoligion com novos memes, preceitos, estilos e muito mais.</FluidIdeoTip>
+  <!-- EN: How to get development points -->
+  <FluidIdeoTipGetPoints>Como obter pontos de desenvolvimento</FluidIdeoTipGetPoints>
+  <!-- EN: Convert someone to your ideoligion -->
+  <FluidIdeoTipGetPoinsByConversion>Converta alguém para o seu ideoligion</FluidIdeoTipGetPoinsByConversion>
+  <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
+  <ResearchProjectHasDefsWithMissingMemes>{0} desbloquea coisas que você não pode construir porque eles exigem memes que nenhum de seu povo acredita</ResearchProjectHasDefsWithMissingMemes>
+  <!-- EN: Warning: This kind of work is opposed by {0_possessive} ideoligion, so it may make this person unhappy. -->
+  <SelectedWorkTypeOpposedByIdeo>Aviso: Este tipo de trabalho é oposto por ideoligion {0_possessive}, por isso pode tornar esta pessoa infeliz.</SelectedWorkTypeOpposedByIdeo>
+  <!-- EN: Development points -->
+  <DevelopmentPoints>Pontos de vista</DevelopmentPoints>
 </LanguageData>

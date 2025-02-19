@@ -1,94 +1,151 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" ?>
 <LanguageData>
-
-  <NotAMechanitor>Not a mechanitor</NotAMechanitor>
-  <NotEnoughBandwidth>Not enough bandwidth</NotEnoughBandwidth>
-  <ControlMech>Take control of {0}</ControlMech>
-  <CannotControlMech>Cannot control {0}</CannotControlMech>
-  <CannotControlMechAlreadyControlled>Already controlled by {0}</CannotControlMechAlreadyControlled>
-  <CannotControlMechNotEnoughBandwidth>Not enough bandwidth</CannotControlMechNotEnoughBandwidth>
-  <CannotControlMechNeverControllable>Never controllable</CannotControlMechNeverControllable>
-  <CannotDisconnectMech>Cannot disconnect from {0}</CannotDisconnectMech>
-  <DisconnectMech>Disconnect from {0}</DisconnectMech>
-  <DisassembleMech>Permanently disassemble {0}</DisassembleMech>
-  <CannotDisassembleMech>Cannot permanently disassemble {0}</CannotDisassembleMech>
-  <MustBeOverseer>Must be overseer</MustBeOverseer>
-  <Extract>Extract</Extract>
-  <OutOfCommandRange>Out of command range</OutOfCommandRange>
-  <CannotGoOutOfRange>Cannot go here</CannotGoOutOfRange>
-  <WasteContainerFull>Must be emptied</WasteContainerFull>
-  <CannotRepairMech>Cannot repair mech {0}</CannotRepairMech>
-
-  <ExtractXenogermFrom>Extract xenogerm from {PAWN_nameDef}</ExtractXenogermFrom>
-  <EnterBuilding>Enter {0_labelShort}</EnterBuilding>
-  <PawnHasNoGenes>{PAWN_nameDef} has no genes</PawnHasNoGenes>
-  <PawnHasNoNonArchiteGenes>{PAWN_nameDef} has no extractable genes.</PawnHasNoNonArchiteGenes>
-  <InXenogerminationComa>In xenogermination coma</InXenogerminationComa>
-  <Occupied>Occupied</Occupied>
-  <OccupantEjectedFromGrowthVat>{PAWN_nameDef} was ejected from a growth vat</OccupantEjectedFromGrowthVat>
-  <TooOld>{PAWN_nameDef} must be younger than {AGEYEARS} years old.</TooOld>
-  <PawnIsTooOld>{PAWN_nameDef} is too old.</PawnIsTooOld>
-  <PawnBiostarving>{PAWN_nameDef} is suffering from biostarvation.</PawnBiostarving>
-  <NoViablePawns>No available people</NoViablePawns>
-  <NoExtractablePawns>No extractable people</NoExtractablePawns>
-  <NoImplantablePawns>No implantable people</NoImplantablePawns>
-  <CannotEnterBuilding>Cannot enter {0_labelShort}</CannotEnterBuilding>
-  <AssignedToOtherPawn>{0_labelShort} is assigned to another person.</AssignedToOtherPawn>
-
-  <AbsorbXenogerm>Absorb xenogerm of {PAWN_nameDef}</AbsorbXenogerm>
-  <CannotAbsorbXenogerm>Cannot absorb {PAWN_nameDef}'s xenogerm</CannotAbsorbXenogerm>
-  <SameXenotype>{PAWN_nameDef} is already {PAWN_xenotype}</SameXenotype>
-  <XenogermLossShockPresent>{PAWN_nameDef} suffering from xenogerm loss shock</XenogermLossShockPresent>
-  <CarryToSpecificThing>Carry to {0_labelShort}</CarryToSpecificThing>
-  <NoCasketOrBed>No reachable, un-reserved bed or deathrest casket in safe temperature.</NoCasketOrBed>
-  <TemporaryFactionMember>{PAWN_nameDef} is a temporary faction member.</TemporaryFactionMember>
-
-  <SubcoreScannerNotInit>Scanner not initiated</SubcoreScannerNotInit>
-  <SubcoreScannerRequiresIngredients>Waiting for ingredients</SubcoreScannerRequiresIngredients>
-  <SubcoreScannerOccupied>Occupied</SubcoreScannerOccupied>
-  <EnterSubcoreScanner>Enter {0}</EnterSubcoreScanner>
-
-  <BabyCareBreastfeed>Breastfeed {BABY_labelShort}</BabyCareBreastfeed>
-  <BabyCareBreastfeedUnable>Cannot breastfeed {BABY_labelShort}</BabyCareBreastfeedUnable>
-  <NoBabyFood>No baby-edible food</NoBabyFood>
-
-  <CannotInteractBabyPlayFull>play need full</CannotInteractBabyPlayFull>
-
+  <!-- EN: Not a mechanitor -->
+  <NotAMechanitor>Não um mecanitor</NotAMechanitor>
+  <!-- EN: Not enough bandwidth -->
+  <NotEnoughBandwidth>Não largura de banda suficiente</NotEnoughBandwidth>
+  <!-- EN: Take control of {0} -->
+  <ControlMech>Assumir o controle de {0}</ControlMech>
+  <!-- EN: Cannot control {0} -->
+  <CannotControlMech>Não consigo controlar Não</CannotControlMech>
+  <!-- EN: Already controlled by {0} -->
+  <CannotControlMechAlreadyControlled>Já controlado por {0}</CannotControlMechAlreadyControlled>
+  <!-- EN: Not enough bandwidth -->
+  <CannotControlMechNotEnoughBandwidth>Não largura de banda suficiente</CannotControlMechNotEnoughBandwidth>
+  <!-- EN: Never controllable -->
+  <CannotControlMechNeverControllable>Nunca controlável</CannotControlMechNeverControllable>
+  <!-- EN: Cannot disconnect from {0} -->
+  <CannotDisconnectMech>Não pode desligar de {0}</CannotDisconnectMech>
+  <!-- EN: Disconnect from {0} -->
+  <DisconnectMech>Desconectar-se de Não</DisconnectMech>
+  <!-- EN: Permanently disassemble {0} -->
+  <DisassembleMech>Desmontagem permanente Não</DisassembleMech>
+  <!-- EN: Cannot permanently disassemble {0} -->
+  <CannotDisassembleMech>Não pode desmontar permanentemente Não</CannotDisassembleMech>
+  <!-- EN: Must be overseer -->
+  <MustBeOverseer>Deve ser overseer</MustBeOverseer>
+  <!-- EN: Extract -->
+  <Extract>Extrato</Extract>
+  <!-- EN: Out of command range -->
+  <OutOfCommandRange>Fora do intervalo de comando</OutOfCommandRange>
+  <!-- EN: Cannot go here -->
+  <CannotGoOutOfRange>Não posso ir aqui</CannotGoOutOfRange>
+  <!-- EN: Must be emptied -->
+  <WasteContainerFull>Deve ser esvaziado</WasteContainerFull>
+  <!-- EN: Cannot repair mech {0} -->
+  <CannotRepairMech>Não pode reparar mech {0}</CannotRepairMech>
+  <!-- EN: Extract xenogerm from {PAWN_nameDef} -->
+  <ExtractXenogermFrom>Extrair xenogerm de {PAWN_nameDef}</ExtractXenogermFrom>
+  <!-- EN: Enter {0_labelShort} -->
+  <EnterBuilding>Entrar {0_labelShort}</EnterBuilding>
+  <!-- EN: {PAWN_nameDef} has no genes -->
+  <PawnHasNoGenes>{PAWN_name Não tem genes</PawnHasNoGenes>
+  <!-- EN: {PAWN_nameDef} has no extractable genes. -->
+  <PawnHasNoNonArchiteGenes>{PAWN_name Não tem genes extraíveis.</PawnHasNoNonArchiteGenes>
+  <!-- EN: In xenogermination coma -->
+  <InXenogerminationComa>Em coma de xenogerminação</InXenogerminationComa>
+  <!-- EN: Occupied -->
+  <Occupied>Ocupada</Occupied>
+  <!-- EN: {PAWN_nameDef} was ejected from a growth vat -->
+  <OccupantEjectedFromGrowthVat>{PAWN_name Def} foi expulso de um vat de crescimento</OccupantEjectedFromGrowthVat>
+  <!-- EN: {PAWN_nameDef} must be younger than {AGEYEARS} years old. -->
+  <TooOld>{PAWN_name Deve ser mais jovem do que os anos de idade.</TooOld>
+  <!-- EN: {PAWN_nameDef} is too old. -->
+  <PawnIsTooOld>{PAWN_name Def é muito velho.</PawnIsTooOld>
+  <!-- EN: {PAWN_nameDef} is suffering from biostarvation. -->
+  <PawnBiostarving>{PAWN_name Def} está sofrendo de biostarvation.</PawnBiostarving>
+  <!-- EN: No available people -->
+  <NoViablePawns>Sem pessoas disponíveis</NoViablePawns>
+  <!-- EN: No extractable people -->
+  <NoExtractablePawns>Sem pessoas extraídas</NoExtractablePawns>
+  <!-- EN: No implantable people -->
+  <NoImplantablePawns>Sem pessoas implantáveis</NoImplantablePawns>
+  <!-- EN: Cannot enter {0_labelShort} -->
+  <CannotEnterBuilding>Não pode entrar {0_label Curto</CannotEnterBuilding>
+  <!-- EN: {0_labelShort} is assigned to another person. -->
+  <AssignedToOtherPawn>Não. Curto é atribuído a outra pessoa.</AssignedToOtherPawn>
+  <!-- EN: Absorb xenogerm of {PAWN_nameDef} -->
+  <AbsorbXenogerm>Absorvente xenogerm de {PAWN_nameDef}</AbsorbXenogerm>
+  <!-- EN: Cannot absorb {PAWN_nameDef}'s xenogerm -->
+  <CannotAbsorbXenogerm>Não pode absorver o xenogerm de {PAWN_nameDef}</CannotAbsorbXenogerm>
+  <!-- EN: {PAWN_nameDef} is already {PAWN_xenotype} -->
+  <SameXenotype>{PAWN_name Def} já está {PAWN_xenotype}</SameXenotype>
+  <!-- EN: {PAWN_nameDef} suffering from xenogerm loss shock -->
+  <XenogermLossShockPresent>{PAWN_name Def} sofrendo de choque de perda de xenogerm</XenogermLossShockPresent>
+  <!-- EN: Carry to {0_labelShort} -->
+  <CarryToSpecificThing>Carregar para {0_labelShort}</CarryToSpecificThing>
+  <!-- EN: No reachable, un-reserved bed or deathrest casket in safe temperature. -->
+  <NoCasketOrBed>Não é possível, não-reservado cama ou enxerto de morte em temperatura segura.</NoCasketOrBed>
+  <!-- EN: {PAWN_nameDef} is a temporary faction member. -->
+  <TemporaryFactionMember>{PAWN_name Def} é um membro temporário da facção.</TemporaryFactionMember>
+  <!-- EN: Scanner not initiated -->
+  <SubcoreScannerNotInit>Scanner não iniciado</SubcoreScannerNotInit>
+  <!-- EN: Waiting for ingredients -->
+  <SubcoreScannerRequiresIngredients>Esperando por ingredientes</SubcoreScannerRequiresIngredients>
+  <!-- EN: Occupied -->
+  <SubcoreScannerOccupied>Ocupada</SubcoreScannerOccupied>
+  <!-- EN: Enter {0} -->
+  <EnterSubcoreScanner>Entrar</EnterSubcoreScanner>
+  <!-- EN: Breastfeed {BABY_labelShort} -->
+  <BabyCareBreastfeed>Amamentação (BABY_labelShort)</BabyCareBreastfeed>
+  <!-- EN: Cannot breastfeed {BABY_labelShort} -->
+  <BabyCareBreastfeedUnable>Não pode amamentar (BABY_labelShort)</BabyCareBreastfeedUnable>
+  <!-- EN: No baby-edible food -->
+  <NoBabyFood>Nenhuma comida comestível para bebês</NoBabyFood>
+  <!-- EN: play need full -->
+  <CannotInteractBabyPlayFull>necessidade de jogo completo</CannotInteractBabyPlayFull>
+  <!-- EN: Feed on {PAWN_nameDef} -->
   <BloodfeedOn>Feed on {PAWN_nameDef}</BloodfeedOn>
-  <CannotBloodfeedOn>Cannot feed on {PAWN_nameDef}</CannotBloodfeedOn>
-  <CannotFeedOnWouldKill>Not enough blood.</CannotFeedOnWouldKill>
-
-  <!-- BreastfeedFailReason strings-->
-  <BreastfeedFailReason_MomNotEnoughMilk>{MOM_labelShort} does not have enough milk</BreastfeedFailReason_MomNotEnoughMilk>
-  <BreastfeedFailReason_MomInMentalState>{MOM_labelShort} cannot breastfeed right now</BreastfeedFailReason_MomInMentalState>
-  <BreastfeedFailReason_BabyTooFull>{BABY_labelShort} is too full to suckle</BreastfeedFailReason_BabyTooFull>
-  <BreastfeedFailReason_BabyForbiddenToMom>{BABY_labelShort} is forbidden to {MOM_labelShort}</BreastfeedFailReason_BabyForbiddenToMom>
-  <BreastfeedFailReason_BabyForbiddenToHauler>{BABY_labelShort} is forbidden to {HAULER_labelShort}</BreastfeedFailReason_BabyForbiddenToHauler>
-  <BreastfeedFailReason_MomForbiddenToHauler>{MOM_labelShort} is forbidden to {HAULER_labelShort}</BreastfeedFailReason_MomForbiddenToHauler>
-  <BreastfeedFailReason_MomIsMobile>{MOM_labelShort} can breastfeed {BABY_labelShort} without help</BreastfeedFailReason_MomIsMobile>
-  <BreastfeedFailReason_HaulerCannotReachMom>{HAULER_labelShort} cannot go from {BABY_labelShort} to {MOM_labelShort}</BreastfeedFailReason_HaulerCannotReachMom>
-  <BreastfeedFailReason_HaulerCannotReachBaby>{HAULER_labelShort} cannot reach {BABY_labelShort}</BreastfeedFailReason_HaulerCannotReachBaby>
-  <BreastfeedFailReason_NoMomsAssignedToBaby>No lactating {BABY_factionPawnsPlural} are assigned to {BABY_labelShort}</BreastfeedFailReason_NoMomsAssignedToBaby>
-  <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort} is not assigned to childcare</BreastfeedFailReason_MomNotAssignedToChildcare>
-  <BreastfeedFailReason_MomInsideContainer>{MOM_labelShort} is inside a container</BreastfeedFailReason_MomInsideContainer>
-  <BreastfeedFailReason_MomBeingCarried>{MOM_labelShort} is being carried</BreastfeedFailReason_MomBeingCarried>
-
-  <OrderImplantationIntoPawn>Order implantation into {PAWN_nameDef}</OrderImplantationIntoPawn>
-  <AcceptXenogerm>Accept {0_xenotype} xenogerm</AcceptXenogerm>
-
-  <CarryToRechargerOrdered>Carry {PAWN_labelShort} to recharger</CarryToRechargerOrdered>
-  <CannotCarryToRecharger>Cannot carry {PAWN_labelShort} to recharger</CannotCarryToRecharger>
-  <CannotCarryToRechargerNoneAvailable>No available recharger</CannotCarryToRechargerNoneAvailable>
-
-  <NotAllowedHemogen>Hemogen packs disabled by food restriction.</NotAllowedHemogen>
-
-  <EjectGenepackFromGeneBank>Eject genepack from gene bank</EjectGenepackFromGeneBank>
-
-  <ResultingMetTooLow>Resulting metabolism would be too low</ResultingMetTooLow>
-
-  <RomanceOnCooldown>attempted romance too recently</RomanceOnCooldown>
-
-  <CarryToSafePlace>Take to safe location</CarryToSafePlace>
-  <CannotCarryToSafePlace>Cannot take to safe location</CannotCarryToSafePlace>
-
+  <!-- EN: Cannot feed on {PAWN_nameDef} -->
+  <CannotBloodfeedOn>Não se pode alimentar em {PAWN_nameDef}</CannotBloodfeedOn>
+  <!-- EN: Not enough blood. -->
+  <CannotFeedOnWouldKill>Não há sangue suficiente.</CannotFeedOnWouldKill>
+  <!-- EN: {MOM_labelShort} does not have enough milk -->
+  <BreastfeedFailReason_MomNotEnoughMilk>(MOM_label) Curto não tem leite suficiente</BreastfeedFailReason_MomNotEnoughMilk>
+  <!-- EN: {MOM_labelShort} cannot breastfeed right now -->
+  <BreastfeedFailReason_MomInMentalState>(MOM_label) Curto não pode amamentar agora</BreastfeedFailReason_MomInMentalState>
+  <!-- EN: {BABY_labelShort} is too full to suckle -->
+  <BreastfeedFailReason_BabyTooFull>(BABY_label Curto é demasiado cheio para chupar</BreastfeedFailReason_BabyTooFull>
+  <!-- EN: {BABY_labelShort} is forbidden to {MOM_labelShort} -->
+  <BreastfeedFailReason_BabyForbiddenToMom>(BABY_label Short} é proibido {MOM_labelShort}</BreastfeedFailReason_BabyForbiddenToMom>
+  <!-- EN: {BABY_labelShort} is forbidden to {HAULER_labelShort} -->
+  <BreastfeedFailReason_BabyForbiddenToHauler>(BABY_label Short} é proibido {HAULER_labelShort}</BreastfeedFailReason_BabyForbiddenToHauler>
+  <!-- EN: {MOM_labelShort} is forbidden to {HAULER_labelShort} -->
+  <BreastfeedFailReason_MomForbiddenToHauler>(MOM_label) Short} é proibido {HAULER_labelShort}</BreastfeedFailReason_MomForbiddenToHauler>
+  <!-- EN: {MOM_labelShort} can breastfeed {BABY_labelShort} without help -->
+  <BreastfeedFailReason_MomIsMobile>(MOM_label) Short} pode amamentar {BABY_label Curto, sem ajuda</BreastfeedFailReason_MomIsMobile>
+  <!-- EN: {HAULER_labelShort} cannot go from {BABY_labelShort} to {MOM_labelShort} -->
+  <BreastfeedFailReason_HaulerCannotReachMom>(HAULER) Short} não pode ir de {BABY_labelShort} para {MOM_labelShort}</BreastfeedFailReason_HaulerCannotReachMom>
+  <!-- EN: {HAULER_labelShort} cannot reach {BABY_labelShort} -->
+  <BreastfeedFailReason_HaulerCannotReachBaby>(HAULER) Short} não pode alcançar {BABY_labelShort}</BreastfeedFailReason_HaulerCannotReachBaby>
+  <!-- EN: No lactating {BABY_factionPawnsPlural} are assigned to {BABY_labelShort} -->
+  <BreastfeedFailReason_NoMomsAssignedToBaby>Nenhuma lactação {BABY_factionPawnsPlural} é atribuída a {BABY_labelShort}</BreastfeedFailReason_NoMomsAssignedToBaby>
+  <!-- EN: {MOM_labelShort} is not assigned to childcare -->
+  <BreastfeedFailReason_MomNotAssignedToChildcare>(MOM_label) Short} não é atribuído a cuidados infantis</BreastfeedFailReason_MomNotAssignedToChildcare>
+  <!-- EN: {MOM_labelShort} is inside a container -->
+  <BreastfeedFailReason_MomInsideContainer>(MOM_label) Short} está dentro de um recipiente</BreastfeedFailReason_MomInsideContainer>
+  <!-- EN: {MOM_labelShort} is being carried -->
+  <BreastfeedFailReason_MomBeingCarried>(MOM_label) Está a ser transportado</BreastfeedFailReason_MomBeingCarried>
+  <!-- EN: Order implantation into {PAWN_nameDef} -->
+  <OrderImplantationIntoPawn>Implantação de ordem em {PAWN_nameDef}</OrderImplantationIntoPawn>
+  <!-- EN: Accept {0_xenotype} xenogerm -->
+  <AcceptXenogerm>Aceitar {0_xenotype} xenogerm</AcceptXenogerm>
+  <!-- EN: Carry {PAWN_labelShort} to recharger -->
+  <CarryToRechargerOrdered>Carry {PAWN_labelShort} para recarregador</CarryToRechargerOrdered>
+  <!-- EN: Cannot carry {PAWN_labelShort} to recharger -->
+  <CannotCarryToRecharger>Não pode carregar {PAWN_labelShort} para recarregar</CannotCarryToRecharger>
+  <!-- EN: No available recharger -->
+  <CannotCarryToRechargerNoneAvailable>Sem recarga disponível</CannotCarryToRechargerNoneAvailable>
+  <!-- EN: Hemogen packs disabled by food restriction. -->
+  <NotAllowedHemogen>Pacotes hemogênicos desativados por restrição alimentar.</NotAllowedHemogen>
+  <!-- EN: Eject genepack from gene bank -->
+  <EjectGenepackFromGeneBank>Eject genepack do banco gene</EjectGenepackFromGeneBank>
+  <!-- EN: Resulting metabolism would be too low -->
+  <ResultingMetTooLow>O metabolismo resultante seria muito baixo</ResultingMetTooLow>
+  <!-- EN: attempted romance too recently -->
+  <RomanceOnCooldown>tentou romance muito recentemente</RomanceOnCooldown>
+  <!-- EN: Take to safe location -->
+  <CarryToSafePlace>Leve para um local seguro</CarryToSafePlace>
+  <!-- EN: Cannot take to safe location -->
+  <CannotCarryToSafePlace>Não pode levar para um local seguro</CannotCarryToSafePlace>
 </LanguageData>

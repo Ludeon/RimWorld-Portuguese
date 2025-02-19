@@ -1,77 +1,115 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" ?>
 <LanguageData>
-
-  <NeedSlaveBeds>Need slave beds</NeedSlaveBeds>
-  <NeedSlaveBedsDesc>You have more slaves than you have slave beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a colonist or prisoner bed to a slave bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly.</NeedSlaveBedsDesc>
-
-  <SlavesUnsuppressedLabel>Slave unsuppressed</SlavesUnsuppressedLabel>
-  <SlavesUnsuppressedDesc>{0_nameDef}'s suppression level is dangerously low. There is a good chance {0_pronoun} will rebel.\n\nMake sure there is a colonist assigned to warden work. Wardens will suppress slaves periodically to stop them from rebelling.</SlavesUnsuppressedDesc>
-  <SlaveUnattendedLabel>Slave unattended</SlaveUnattendedLabel>
-  <SlaveUnattendedMultipleLabel>Slaves unattended</SlaveUnattendedMultipleLabel>
-  <SlavesUnattendedDesc>Some slaves are alone on a map with no able-bodied colonists around.\n\nSlaves left unattended like this are very likely to rebel within days or hours.</SlavesUnattendedDesc>
-
-  <RitualOpportunity>{0} opportunity</RitualOpportunity>
-  <RitualOpportunityFor>{0} opportunity for {1}</RitualOpportunityFor>
-  <RitualExpiresIn>Expires in {0}, on {1}.</RitualExpiresIn>
-  <RitualSingleTargetDesc>To begin the ritual, select a {FOCUS} and click the 'Begin {RITUAL_label}' command.</RitualSingleTargetDesc>
-  <RitualMultiTargetDesc>To begin the ritual, select one of the following and click the 'Begin {RITUAL_label}' command</RitualMultiTargetDesc>
-  <RitualTargetsExplanation>To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1}</RitualTargetsExplanation>
-  <RitualJumpToTargets>Click to jump to targets</RitualJumpToTargets>
-  <RitualUnfilledRoles>In order to perform {0} you need to fill these roles</RitualUnfilledRoles>
-
-  <IdeoBuildingMissing>{0} desired</IdeoBuildingMissing>
-  <IdeoBuildingMissingDesc>{IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\n{0} is a variant of {BASEBUILDING_label}.{BUILDINGINFO}\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3}</IdeoBuildingMissingDesc>
-  <IdeoBuildingArchitectTabDesc> You can find it by opening the '{TABNAME}' tab of the architect menu.</IdeoBuildingArchitectTabDesc>
-  <IdeoBuildingCanBeCraftedAt> It can be created at:\n{0}.</IdeoBuildingCanBeCraftedAt>
-  <IdeoBuildingRoomRequirementsDesc>In order to dignify {0}, these room requirements must be met</IdeoBuildingRoomRequirementsDesc>
-  <IdeoBuildingExpectations>expectations are</IdeoBuildingExpectations>
-
-  <IdeoBuildingDisrespected>{0} disrespected</IdeoBuildingDisrespected>
-  <IdeoBuildingDisrespectedDesc>{0} requires that {1} be in a dignified room. These room requirements must be met:\n{2}\n\nIf the {1}'s room requirements are not met, these believers will become unhappy:\n{3}</IdeoBuildingDisrespectedDesc>
-  
-  <QuestPartRaidsDelay>Raids arriving in {0}</QuestPartRaidsDelay>
-  <QuestPartRaidsDelayDesc>Raids will start arriving in {0}.\n\nThe raiders will target the spacedrone and attempt to destroy it. Protect the spacedrone so your colonists can hack its computer and retrieve the data.</QuestPartRaidsDelayDesc>
-
-  <IdeoRoleEmpty>{0} role unfilled</IdeoRoleEmpty>
-  <IdeoRolesEmpty>{0} roles unfilled</IdeoRolesEmpty>
-  <IdeoRolesEmptyDesc>These roles are not filled:\n{0}\n\nYou can assign someone a role on their Social tab. You can also select a ritual spot or an altar and click 'Begin role change'. \n\nIf these roles remain empty, the following people will be unhappy</IdeoRolesEmptyDesc>
-
-  <AncientAltarThreatsWaking>Security threats activated in {0}</AncientAltarThreatsWaking>
-  <AncientAltarThreatsWakingDesc>Security threats will activate in {0}. They will attack any who may threaten the relic.</AncientAltarThreatsWakingDesc>
-
-  <AlertRitualComing>Ritual opportunity soon</AlertRitualComing>
-  <AlertRitualComingDesc>A ritual opportunity is coming soon for following rituals</AlertRitualComingDesc>
-  <AlertRitualComingExtra>Opportunities expire after {0} days, and reoccur on the same day each year.</AlertRitualComingExtra>
-  <AlertRitualComingEntry>{0} on {1}, {2} before opportunity arises</AlertRitualComingEntry>
-
-  <AlertAgeReversalDemandNear>Age reversal demanded</AlertAgeReversalDemandNear>
-  <AlertAgeReversalDemandDesc>Because of their beliefs, some of your colonists demand regular age reversal treatments in a biosculpter pod. If they don't get the treatments, they will be displeased.\n\nThe following people demand age reversal treatment</AlertAgeReversalDemandDesc>
-  <AlertAgeReversalDemandDesc_Recruit>{PAWN} joined {FACTION} recently, and wants to begin age reversal treatments in {DURATION}.</AlertAgeReversalDemandDesc_Recruit>
-  <AlertAgeReversalDemandDesc_Next>{PAWN} wants their next treatment in {DURATION}.</AlertAgeReversalDemandDesc_Next>
-  <AlertAgeReversalDemandDesc_Initial>{PAWN} wants their first treatment in {DURATION}.</AlertAgeReversalDemandDesc_Initial>
-  <AlertAgeReversalDemandDesc_Overdue>{PAWN}'s treatment is overdue by {DURATION}.</AlertAgeReversalDemandDesc_Overdue>
-
-  <AlertRoyalTitleNoVeneratedAnimalMeat>{PAWN_nameDef}'s belief in {IDEO_name} prevents {PAWN_objective} from eating the meat of {ANIMALS}.</AlertRoyalTitleNoVeneratedAnimalMeat>
-
-  <AlertGauranlenTreeWithoutDryadTypeLabel>Dryad caste not set</AlertGauranlenTreeWithoutDryadTypeLabel>
-  <AlertGauranlenTreeWithoutDryadTypeDesc>One or more Gauranlen trees do not have their dryad caste set.\n\nSelect the tree and click the '{0}' button to set produced dryad caste.</AlertGauranlenTreeWithoutDryadTypeDesc>
-  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>Connector not assigned to plant cutting</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
-  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
-
-  <AlertFuelNodeIgniting>Fuel node explodes in {0}</AlertFuelNodeIgniting>
-  <AlertFuelNodeIgnitingDesc>A fuel node has ignited! It will melt down and explode very soon.\n\nGet away and be ready to fight or escape the fires.</AlertFuelNodeIgnitingDesc>
-
-  <AlertInfestationArriving>Insects arriving in {0}</AlertInfestationArriving>
-  <AlertInfestationArrivingDesc>Giant insects have sensed your activity and are burrowing up from underground to attack. Infestations are about to begin.</AlertInfestationArrivingDesc>
-
-  <AlertHostilesWakingUp>{0_pawnsPlural} waking in {1}</AlertHostilesWakingUp>
-  <AlertHostilesWakingUpDesc>One or more {0_pawnsPlural} are waking up.\n\nThey will attack if they find you.</AlertHostilesWakingUpDesc>
-
-  <AlertCasketOpening>Cryptosleep caskets opening in {0}</AlertCasketOpening>
-  <AlertCasketOpeningDesc>Cryptosleep caskets containing unknown threats are opening soon.</AlertCasketOpeningDesc>
-
-  <AlertSlaveRebellionLikely>Slave rebellion likely</AlertSlaveRebellionLikely>
-  <AlertSlaveRebellionLikelyRebelliousCount>There are {REBELLIOUSCOUNT} slaves that are likely to initiate a rebellion.</AlertSlaveRebellionLikelyRebelliousCount>
-  <AlertSlaveRebellionLikelyMostRebellious>A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel:</AlertSlaveRebellionLikelyMostRebellious>
-  
+  <!-- EN: Need slave beds -->
+  <NeedSlaveBeds>Precisa de camas de escravos</NeedSlaveBeds>
+  <!-- EN: You have more slaves than you have slave beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a colonist or prisoner bed to a slave bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
+  <NeedSlaveBedsDesc>Tens mais escravos do que tu tens camas de escravos. Alguém terá falta de um lugar para dormir.\n\nOu fazer mais camas, ou mudar uma cama de colono ou prisioneiro para uma cama de escravo.\n\nSe você não tem recursos, os lugares de dormir são livres e podem ser colocados instantaneamente.</NeedSlaveBedsDesc>
+  <!-- EN: Slave unsuppressed -->
+  <SlavesUnsuppressedLabel>Escravo não comprimido</SlavesUnsuppressedLabel>
+  <!-- EN: {0_nameDef}'s suppression level is dangerously low. There is a good chance {0_pronoun} will rebel.\n\nMake sure there is a colonist assigned to warden work. Wardens will suppress slaves periodically to stop them from rebelling. -->
+  <SlavesUnsuppressedDesc>{0_name O nível de supressão é perigosamente baixo. Há uma boa hipótese de se rebelar.\n\nCertifique-se de que há um colonista designado para o trabalho do diretor. Wardens irá suprimir os escravos periodicamente para impedi-los de se rebelar.</SlavesUnsuppressedDesc>
+  <!-- EN: Slave unattended -->
+  <SlaveUnattendedLabel>Escravo sem supervisão</SlaveUnattendedLabel>
+  <!-- EN: Slaves unattended -->
+  <SlaveUnattendedMultipleLabel>Escravos sem supervisão</SlaveUnattendedMultipleLabel>
+  <!-- EN: Some slaves are alone on a map with no able-bodied colonists around.\n\nSlaves left unattended like this are very likely to rebel within days or hours. -->
+  <SlavesUnattendedDesc>Alguns escravos estão sozinhos num mapa sem colonos capazes.\n\nEscravos deixados sem supervisão como este são muito propensos a se rebelar dentro de dias ou horas.</SlavesUnattendedDesc>
+  <!-- EN: {0} opportunity -->
+  <RitualOpportunity>[0] oportunidade</RitualOpportunity>
+  <!-- EN: {0} opportunity for {1} -->
+  <RitualOpportunityFor>{0} oportunidade para {1}</RitualOpportunityFor>
+  <!-- EN: Expires in {0}, on {1}. -->
+  <RitualExpiresIn>Expira em {0}, em {1}.</RitualExpiresIn>
+  <!-- EN: To begin the ritual, select a {FOCUS} and click the 'Begin {RITUAL_label}' command. -->
+  <RitualSingleTargetDesc>Para iniciar o ritual, selecione um {FOCUS} e clique no comando 'Begin {RITUAL_label}'.</RitualSingleTargetDesc>
+  <!-- EN: To begin the ritual, select one of the following and click the 'Begin {RITUAL_label}' command -->
+  <RitualMultiTargetDesc>Para iniciar o ritual, selecione um dos seguintes e clique no botão 'Begin {RITUAL_label}' comando</RitualMultiTargetDesc>
+  <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
+  <RitualTargetsExplanation>Para iniciar o ritual, selecione um objeto de foco e clique no comando 'Begin {RITUAL_label}'. Os seguintes são objetos de foco válidos:\nNão</RitualTargetsExplanation>
+  <!-- EN: Click to jump to targets -->
+  <RitualJumpToTargets>Clique para saltar para alvos</RitualJumpToTargets>
+  <!-- EN: In order to perform {0} you need to fill these roles -->
+  <RitualUnfilledRoles>Para executar {0} você precisa preencher essas funções</RitualUnfilledRoles>
+  <!-- EN: {0} desired -->
+  <IdeoBuildingMissing>{0} desejado</IdeoBuildingMissing>
+  <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\n{0} is a variant of {BASEBUILDING_label}.{BUILDINGINFO}\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
+  <IdeoBuildingMissingDesc>{IDEO_name} requer que você tenha um {0} em sua colônia enquanto {2} ou superior.\n\n{0} é uma variante de {BASEBUILDING_label}.{ - Sim.\n\nEste requisito é apenas ativo se {IDEO_name} é o principal ideoligion de sua facção, ou há {MINBELIEVERS} crentes em sua facção.{4}\n\nSe a exigência não for cumprida, esses crentes ficarão infelizes:\n{3}</IdeoBuildingMissingDesc>
+  <!-- EN:  You can find it by opening the '{TABNAME}' tab of the architect menu. -->
+  <IdeoBuildingArchitectTabDesc>Você pode encontrá-lo abrindo a aba '{TABNAME}' do menu arquiteto.</IdeoBuildingArchitectTabDesc>
+  <!-- EN:  It can be created at:\n{0}. -->
+  <IdeoBuildingCanBeCraftedAt>Pode ser criado em:\nNão.</IdeoBuildingCanBeCraftedAt>
+  <!-- EN: In order to dignify {0}, these room requirements must be met -->
+  <IdeoBuildingRoomRequirementsDesc>A fim de dignificar {0}, estes requisitos de quarto devem ser cumpridos</IdeoBuildingRoomRequirementsDesc>
+  <!-- EN: expectations are -->
+  <IdeoBuildingExpectations>expectativas são</IdeoBuildingExpectations>
+  <!-- EN: {0} disrespected -->
+  <IdeoBuildingDisrespected>(0} desrespeitado</IdeoBuildingDisrespected>
+  <!-- EN: {0} requires that {1} be in a dignified room. These room requirements must be met:\n{2}\n\nIf the {1}'s room requirements are not met, these believers will become unhappy:\n{3} -->
+  <IdeoBuildingDisrespectedDesc>{0} requer que {1} esteja em um quarto digno. Estes requisitos de quarto devem ser atendidos:\n{2}\n\nSe os requisitos do quarto {1} não forem cumpridos, esses crentes ficarão infelizes:\n{3}</IdeoBuildingDisrespectedDesc>
+  <!-- EN: Raids arriving in {0} -->
+  <QuestPartRaidsDelay>Raids chegando em {0}</QuestPartRaidsDelay>
+  <!-- EN: Raids will start arriving in {0}.\n\nThe raiders will target the spacedrone and attempt to destroy it. Protect the spacedrone so your colonists can hack its computer and retrieve the data. -->
+  <QuestPartRaidsDelayDesc>Raids vai começar a chegar em {0}.\n\nOs invasores vão atacar a nave espacial e tentar destruí-la. Proteja o espaçodrone para que seus colonos possam hackear seu computador e recuperar os dados.</QuestPartRaidsDelayDesc>
+  <!-- EN: {0} role unfilled -->
+  <IdeoRoleEmpty>{0} papel não preenchido</IdeoRoleEmpty>
+  <!-- EN: {0} roles unfilled -->
+  <IdeoRolesEmpty>{0} funções não preenchidas</IdeoRolesEmpty>
+  <!-- EN: These roles are not filled:\n{0}\n\nYou can assign someone a role on their Social tab. You can also select a ritual spot or an altar and click 'Begin role change'. \n\nIf these roles remain empty, the following people will be unhappy -->
+  <IdeoRolesEmptyDesc>Estes papéis não são preenchidos:\nNão.\n\nVocê pode atribuir a alguém um papel na aba social deles. Você também pode selecionar um ponto ritual ou um altar e clicar em &quot;Começar a mudança de papel&quot;.\n\nSe esses papéis permanecerem vazios, as seguintes pessoas serão infelizes</IdeoRolesEmptyDesc>
+  <!-- EN: Security threats activated in {0} -->
+  <AncientAltarThreatsWaking>Ameaças de segurança ativadas em {0}</AncientAltarThreatsWaking>
+  <!-- EN: Security threats will activate in {0}. They will attack any who may threaten the relic. -->
+  <AncientAltarThreatsWakingDesc>As ameaças de segurança serão ativadas em {0}. Eles atacarão qualquer um que possa ameaçar a relíquia.</AncientAltarThreatsWakingDesc>
+  <!-- EN: Ritual opportunity soon -->
+  <AlertRitualComing>Oportunidade ritual em breve</AlertRitualComing>
+  <!-- EN: A ritual opportunity is coming soon for following rituals -->
+  <AlertRitualComingDesc>Uma oportunidade ritual está chegando em breve para seguir rituais</AlertRitualComingDesc>
+  <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
+  <AlertRitualComingExtra>As oportunidades expiram após {0} dias, e reoccur no mesmo dia a cada ano.</AlertRitualComingExtra>
+  <!-- EN: {0} on {1}, {2} before opportunity arises -->
+  <AlertRitualComingEntry>{0} em {1}, {2} antes da oportunidade surgir</AlertRitualComingEntry>
+  <!-- EN: Age reversal demanded -->
+  <AlertAgeReversalDemandNear>Reversão de idade exigida</AlertAgeReversalDemandNear>
+  <!-- EN: Because of their beliefs, some of your colonists demand regular age reversal treatments in a biosculpter pod. If they don't get the treatments, they will be displeased.\n\nThe following people demand age reversal treatment -->
+  <AlertAgeReversalDemandDesc>Por causa de suas crenças, alguns de seus colonos exigem tratamentos de reversão de idade regular em uma cápsula de biosculpter. Se não receberem os tratamentos, ficarão desagradados.\n\nAs pessoas a seguir exigem tratamento de inversão de idade</AlertAgeReversalDemandDesc>
+  <!-- EN: {PAWN} joined {FACTION} recently, and wants to begin age reversal treatments in {DURATION}. -->
+  <AlertAgeReversalDemandDesc_Recruit>{PAWN} juntou-se recentemente {FACTION} e quer começar a idade reversal tratamentos em {DURATION}.</AlertAgeReversalDemandDesc_Recruit>
+  <!-- EN: {PAWN} wants their next treatment in {DURATION}. -->
+  <AlertAgeReversalDemandDesc_Next>{PAWN} quer o seu próximo tratamento em {DURATION}.</AlertAgeReversalDemandDesc_Next>
+  <!-- EN: {PAWN} wants their first treatment in {DURATION}. -->
+  <AlertAgeReversalDemandDesc_Initial>{PAWN} quer o seu primeiro tratamento em {DURATION}.</AlertAgeReversalDemandDesc_Initial>
+  <!-- EN: {PAWN}'s treatment is overdue by {DURATION}. -->
+  <AlertAgeReversalDemandDesc_Overdue>O tratamento é exagerado por {DURATION}.</AlertAgeReversalDemandDesc_Overdue>
+  <!-- EN: {PAWN_nameDef}'s belief in {IDEO_name} prevents {PAWN_objective} from eating the meat of {ANIMALS}. -->
+  <AlertRoyalTitleNoVeneratedAnimalMeat>{PAWN_name A crença de Def} em {IDEO_name} impede {PAWN_objective} de comer a carne de {ANIMALS}.</AlertRoyalTitleNoVeneratedAnimalMeat>
+  <!-- EN: Dryad caste not set -->
+  <AlertGauranlenTreeWithoutDryadTypeLabel>Conjunto de castas secas</AlertGauranlenTreeWithoutDryadTypeLabel>
+  <!-- EN: One or more Gauranlen trees do not have their dryad caste set.\n\nSelect the tree and click the '{0}' button to set produced dryad caste. -->
+  <AlertGauranlenTreeWithoutDryadTypeDesc>Uma ou mais árvores gauranlen não têm seu conjunto de castas secas.\n\nSelecione a árvore e clique no botão '{0}' para definir a casta seca produzida.</AlertGauranlenTreeWithoutDryadTypeDesc>
+  <!-- EN: Connector not assigned to plant cutting -->
+  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>Conector não atribuído ao corte da planta</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
+  <!-- EN: You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>Você tem árvores Gauranlen que são definidas para ser podadas, mas seus conectores não são atribuídos ao corte de plantas.\n\nVocê deve atribuir trabalho de corte de plantas para as seguintes pessoas</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+  <!-- EN: Fuel node explodes in {0} -->
+  <AlertFuelNodeIgniting>Node de combustível explode em {0}</AlertFuelNodeIgniting>
+  <!-- EN: A fuel node has ignited! It will melt down and explode very soon.\n\nGet away and be ready to fight or escape the fires. -->
+  <AlertFuelNodeIgnitingDesc>Um nó de combustível ignited! Vai derreter e explodir muito em breve.\n\nAfaste-se e prepare-se para lutar ou escapar dos incêndios.</AlertFuelNodeIgnitingDesc>
+  <!-- EN: Insects arriving in {0} -->
+  <AlertInfestationArriving>Insetos chegando em {0}</AlertInfestationArriving>
+  <!-- EN: Giant insects have sensed your activity and are burrowing up from underground to attack. Infestations are about to begin. -->
+  <AlertInfestationArrivingDesc>Insetos gigantes têm sentido sua atividade e estão escavando do subterrâneo ao ataque. As infestações estão prestes a começar.</AlertInfestationArrivingDesc>
+  <!-- EN: {0_pawnsPlural} waking in {1} -->
+  <AlertHostilesWakingUp>{0_pawnsPlural} acordando em {1}</AlertHostilesWakingUp>
+  <!-- EN: One or more {0_pawnsPlural} are waking up.\n\nThey will attack if they find you. -->
+  <AlertHostilesWakingUpDesc>Um ou mais {0_pawns Estão a acordar.\n\nVão atacar se te encontrarem.</AlertHostilesWakingUpDesc>
+  <!-- EN: Cryptosleep caskets opening in {0} -->
+  <AlertCasketOpening>Caixas de Cryptosleep abertas em {0}</AlertCasketOpening>
+  <!-- EN: Cryptosleep caskets containing unknown threats are opening soon. -->
+  <AlertCasketOpeningDesc>Invólucros de criptografia contendo ameaças desconhecidas estão abrindo em breve.</AlertCasketOpeningDesc>
+  <!-- EN: Slave rebellion likely -->
+  <AlertSlaveRebellionLikely>A rebelião de escravos provavelmente</AlertSlaveRebellionLikely>
+  <!-- EN: There are {REBELLIOUSCOUNT} slaves that are likely to initiate a rebellion. -->
+  <AlertSlaveRebellionLikelyRebelliousCount>Há escravos que são susceptíveis de iniciar uma rebelião.</AlertSlaveRebellionLikelyRebelliousCount>
+  <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
+  <AlertSlaveRebellionLikelyMostRebellious>Espera-se que uma rebelião de escravos aconteça aproximadamente uma vez cada (COMBINEDTIME). Note que a chance de rebelião de cada escravo é independente, então se algum deles se rebela, eles podem levar outros com eles.\n\nO que é isto? Short} é o escravo mais rebelde e espera-se iniciar uma rebelião aproximadamente uma vez cada (INDIVIDUALTIME). Os seguintes fatores estão afetando com que frequência eles se rebelarão:</AlertSlaveRebellionLikelyMostRebellious>
 </LanguageData>

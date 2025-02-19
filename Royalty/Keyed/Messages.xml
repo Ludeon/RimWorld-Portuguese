@@ -1,30 +1,41 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" ?>
 <LanguageData>
-
-  <!-- Shuttle landing zones -->
-  <ShuttleBlocked>Shuttle could not land on pad: {0}</ShuttleBlocked>
-  <MessageShuttleArrived>The shuttle has arrived.</MessageShuttleArrived>
-  <MessageShuttleArrivedContentsLost>The shuttle arrived, but since there were no colonists inside, the contents were lost.</MessageShuttleArrivedContentsLost>
-  <CannotCallShuttle>Cannot call shuttle</CannotCallShuttle>
-
-  <ShuttleCannotLand_Fogged>Cannot land in undiscovered area.</ShuttleCannotLand_Fogged>
-  <ShuttleCannotLand_Unwalkable>Area must be walkable.</ShuttleCannotLand_Unwalkable>
-
-  <MessageBestowerWaiting>Select {BESTOWER_definite} and click 'Begin bestowing ceremony' to commence the ceremony.</MessageBestowerWaiting>
-  <MessageBestowerUnreachable>Cannot reach bestower!</MessageBestowerUnreachable>
-  <MessageBestowingTargetIsBusy>{0} is busy.</MessageBestowingTargetIsBusy>
-  <MessageBestowingSpotUnreachable>The bestower is annoyed with the interference and has decided to leave.</MessageBestowingSpotUnreachable>
-  <MessageBestowingDanger>The bestower is leaving due to life-threatening danger.</MessageBestowingDanger>
-  <MessageBestowingDangerTemperature>The bestower is leaving due to life-threatening temperature.</MessageBestowingDangerTemperature>
-  <MessageBestowingDangerGas>The bestower is leaving due to dangerous gases in the area.</MessageBestowingDangerGas>
-  <MessageBestowingInterrupted>The bestowing ceremony has been interrupted.</MessageBestowingInterrupted>
-
-  <MessageBestowingCeremonyStarted>{PAWN_definite}'s bestowing ceremony has begun.</MessageBestowingCeremonyStarted>
-  <MessageMissionGetBackToShuttle>You defeated the {FACTION_pawnsPlural}! Get back on the shuttle to launch it.</MessageMissionGetBackToShuttle>
-
-  <MessagePermitTransportDrop>{FACTION_name} has dropped resources nearby.</MessagePermitTransportDrop>
-  <MessagePermitTransportDropCaravan>{FACTION_name} has sent resources to {PAWN_nameDef}'s caravan.</MessagePermitTransportDropCaravan>
-
-  <MessageNoFactionForVerbMechCluster>No orbiting mechanoids found.</MessageNoFactionForVerbMechCluster>
-
+  <!-- EN: Shuttle could not land on pad: {0} -->
+  <ShuttleBlocked>O transporte não pode pousar na almofada: Não</ShuttleBlocked>
+  <!-- EN: The shuttle has arrived. -->
+  <MessageShuttleArrived>O vaivém chegou.</MessageShuttleArrived>
+  <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
+  <MessageShuttleArrivedContentsLost>O vaivém chegou, mas como não havia colonos lá dentro, o conteúdo foi perdido.</MessageShuttleArrivedContentsLost>
+  <!-- EN: Cannot call shuttle -->
+  <CannotCallShuttle>Não pode ligar para o vaivém</CannotCallShuttle>
+  <!-- EN: Cannot land in undiscovered area. -->
+  <ShuttleCannotLand_Fogged>Não pode pousar em área não descoberta.</ShuttleCannotLand_Fogged>
+  <!-- EN: Area must be walkable. -->
+  <ShuttleCannotLand_Unwalkable>A área deve ser acessível.</ShuttleCannotLand_Unwalkable>
+  <!-- EN: Select {BESTOWER_definite} and click 'Begin bestowing ceremony' to commence the ceremony. -->
+  <MessageBestowerWaiting>Selecione {BESTOWER_definite} e clique em 'Begin bestowing ceremony' para iniciar a cerimônia.</MessageBestowerWaiting>
+  <!-- EN: Cannot reach bestower! -->
+  <MessageBestowerUnreachable>Não pode chegar melhor!</MessageBestowerUnreachable>
+  <!-- EN: {0} is busy. -->
+  <MessageBestowingTargetIsBusy>está ocupado.</MessageBestowingTargetIsBusy>
+  <!-- EN: The bestower is annoyed with the interference and has decided to leave. -->
+  <MessageBestowingSpotUnreachable>O bestower está irritado com a interferência e decidiu sair.</MessageBestowingSpotUnreachable>
+  <!-- EN: The bestower is leaving due to life-threatening danger. -->
+  <MessageBestowingDanger>O melhor é sair devido ao perigo fatal.</MessageBestowingDanger>
+  <!-- EN: The bestower is leaving due to life-threatening temperature. -->
+  <MessageBestowingDangerTemperature>O bestower está saindo devido à temperatura de risco de vida.</MessageBestowingDangerTemperature>
+  <!-- EN: The bestower is leaving due to dangerous gases in the area. -->
+  <MessageBestowingDangerGas>O bestower está saindo devido a gases perigosos na área.</MessageBestowingDangerGas>
+  <!-- EN: The bestowing ceremony has been interrupted. -->
+  <MessageBestowingInterrupted>A cerimónia de concessão foi interrompida.</MessageBestowingInterrupted>
+  <!-- EN: {PAWN_definite}'s bestowing ceremony has begun. -->
+  <MessageBestowingCeremonyStarted>A cerimónia de auto-outorga do PAWN_definite começou.</MessageBestowingCeremonyStarted>
+  <!-- EN: You defeated the {FACTION_pawnsPlural}! Get back on the shuttle to launch it. -->
+  <MessageMissionGetBackToShuttle>Você derrotou o {FACTION_pawnsPlural}! Volta para o vaivém para o lançar.</MessageMissionGetBackToShuttle>
+  <!-- EN: {FACTION_name} has dropped resources nearby. -->
+  <MessagePermitTransportDrop>{FACTION_name} deixou recursos nas proximidades.</MessagePermitTransportDrop>
+  <!-- EN: {FACTION_name} has sent resources to {PAWN_nameDef}'s caravan. -->
+  <MessagePermitTransportDropCaravan>{FACTION_name} enviou recursos para a caravana de {PAWN_nameDef}.</MessagePermitTransportDropCaravan>
+  <!-- EN: No orbiting mechanoids found. -->
+  <MessageNoFactionForVerbMechCluster>Nenhum mecanóide orbitando encontrado.</MessageNoFactionForVerbMechCluster>
 </LanguageData>

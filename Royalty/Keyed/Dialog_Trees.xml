@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" ?>
 <LanguageData>
-
-  <!-- Royalty -->
-  <RequestChangeRoyalHeir>Change heir of {HOLDER_labelShort}'s {TITLE} title from {HEIR_labelShort}</RequestChangeRoyalHeir>
-  <RequestSetRoyalHeir>Designate heir of {HOLDER_labelShort}'s {TITLE} title</RequestSetRoyalHeir>
-  <RequestChangeRoyalHeirAlreadyInProgress>already in progress for {PAWN_labelShort}</RequestChangeRoyalHeirAlreadyInProgress>
-  
+  <!-- EN: Change heir of {HOLDER_labelShort}'s {TITLE} title from {HEIR_labelShort} -->
+  <RequestChangeRoyalHeir>Alterar herdeiro do título de {HOLDER_labelShort} de {TITLE} de {HEIR_labelShort}</RequestChangeRoyalHeir>
+  <!-- EN: Designate heir of {HOLDER_labelShort}'s {TITLE} title -->
+  <RequestSetRoyalHeir>Heir designado de {HOLDER_labelShort}'s {TITLE} título</RequestSetRoyalHeir>
+  <!-- EN: already in progress for {PAWN_labelShort} -->
+  <RequestChangeRoyalHeirAlreadyInProgress>já em andamento para {PAWN_labelShort}</RequestChangeRoyalHeirAlreadyInProgress>
 </LanguageData>
