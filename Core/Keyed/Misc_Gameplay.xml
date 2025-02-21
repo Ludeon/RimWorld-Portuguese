@@ -1200,15 +1200,15 @@
   
   <!-- Animal management -->
   <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSterilizeConfirm>TODO</AnimalSterilizeConfirm>
+  <AnimalSterilizeConfirm>Tens a certeza que queres esterilizar o(a) {PAWN_nameDef}? Isto vai chatear a fação {FACTION_name}.</AnimalSterilizeConfirm>
   <!-- EN: Are you sure you want to slaughter {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSlaughterConfirm>TODO</AnimalSlaughterConfirm>
+  <AnimalSlaughterConfirm>Tens a certeza que queres matar o(a) {PAWN_nameDef}? Isto vai chatear a fação {FACTION_name}.</AnimalSlaughterConfirm>
   <!-- EN: Are you sure you want to release {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalReleaseConfirm>TODO</AnimalReleaseConfirm>
+  <AnimalReleaseConfirm>Tens a certeza que queres libertar o(a) {PAWN_nameDef}? Isto vai chatear a fação {FACTION_name}.</AnimalReleaseConfirm>
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
-  <ShowLearningHelperWhenEmptyToggleButton>TODO</ShowLearningHelperWhenEmptyToggleButton>
+  <ShowLearningHelperWhenEmptyToggleButton>Alternar a visibilidade do ajudante de aprendizagem quando estiver vazio.\n\nO ajudante de aprendizagem é sempre visível se houver um conceito ativado para ser aprendido. Esta mudança faz desaparecer quando nenhum conceito está ativo.</ShowLearningHelperWhenEmptyToggleButton>
   <!-- EN: Toggle visiblity of zones. -->
   <ZoneVisibilityToggleButton>Alternar a visibilidade das zonas.</ZoneVisibilityToggleButton>
   <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
@@ -1216,41 +1216,41 @@
   <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
   <ShowRoomStatsToggleButton>Alterna a exibição dos dados da divisão.\n\nMostra os dados da divisão para onde o rato está a apontar.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
-  <ShowColonistBarToggleButton>TODO</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>Ativar a barra do colono.\n\nExibe ícones e estados básicos para todos os colonos ao longo da parte superior do ecrã.\n\Podes reordenar os colonos no barra dde colonos clicando com o botão direito do rato e arrastando-os.</ShowColonistBarToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
-  <ShowColonistBarToggleButtonController>TODO</ShowColonistBarToggleButtonController>
+  <ShowColonistBarToggleButtonController>Ativar barra do colono.\n\nExibe ícones e estados básicos para todos os colonos ao longo da parte superior do ecrã.\n\nPodes reordenar os colonos na barra de colonos pressionando o gatilho esquerdo e arrastando-os.</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>Alterna automaticamente a expansão da área residencial à volta de novas construções.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
-  <AutoRebuildButton>TODO</AutoRebuildButton>
+  <AutoRebuildButton>Ativar a reconstrução automática de estruturas destruídas na área de área da casa.</AutoRebuildButton>
   <!-- EN: Toggle categorized mode on the resource readout. -->
   <CategorizedResourceReadoutToggleButton>Alternar o modo categorizado da informação dos recursos.</CategorizedResourceReadoutToggleButton>
   <!-- EN: Toggle displaying animal names for tame named animals. -->
   <ShowAnimalNamesToggleButton>Alternar entre exibir ou não o nome dos animais domesticados.</ShowAnimalNamesToggleButton>
   <!-- EN: Toggle visibility of roofs. -->
-  <ShowRoofOverlayToggleButton>TODO</ShowRoofOverlayToggleButton>
+  <ShowRoofOverlayToggleButton>Ativar visibilidade dos telhados.</ShowRoofOverlayToggleButton>
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
   <ShowFertilityOverlayToggleButton>TODO</ShowFertilityOverlayToggleButton>
   <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
-  <ShowTerrainAffordanceOverlayToggleButton>TODO</ShowTerrainAffordanceOverlayToggleButton>
+  <ShowTerrainAffordanceOverlayToggleButton>Alterna a visibilidade da capacidade do terreno.\n\nIsto relaciona-se com os tipos de edifícios que podem ser construídos em cada local.\n\nPor exemplo, alguns tipos de terreno apenas aceitam edifícios leves ou médios, mas não pesados. Pontes só podem ser construídas na água.</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
-  <LockNorthUpToggleButton>TODO</LockNorthUpToggleButton>
+  <LockNorthUpToggleButton>Bloqueia a rotação da câmara para que o Polo Norte esteja sempre para cima.</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
-  <UsePlanetDayNightSystemToggleButton>TODO</UsePlanetDayNightSystemToggleButton>
+  <UsePlanetDayNightSystemToggleButton>Altera a iluminação dia/noite na vista do planeta.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
-  <ShowExpandingIconsToggleButton>TODO</ShowExpandingIconsToggleButton>
+  <ShowExpandingIconsToggleButton>Alterna a exibição de ícones expandidos em vez dos ícones normais para objetos distantes.</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
-  <ShowWorldFeaturesToggleButton>TODO</ShowWorldFeaturesToggleButton>
+  <ShowWorldFeaturesToggleButton>Alterna a visibilidade dos nomes das formas de relevo.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
-  <ShowTemperatureOverlayToggleButton>TODO</ShowTemperatureOverlayToggleButton>
+  <ShowTemperatureOverlayToggleButton>Alterna a vista do aquecimento. Isso mostra a temperatura do ar em cada sala e mesmo no exterior.\n\nOs colonos vão estar infelizes se a temperatura estiver demasiado alta ou baixa. A exposição a temperaturas extremas pode levar a hipotermia, congelamento, insolação, queimaduras e morte.</ShowTemperatureOverlayToggleButton>
 
   <!-- Hotkeys -->
   <!-- EN: Hotkey -->
-  <HotKeyTip>TODO</HotKeyTip>
+  <HotKeyTip>Tecla de atalho</HotKeyTip>
   
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
-  <FireOn>Incêndio em {0}</FireOn>
+  <FireOn>Incêndio em {1_label}</FireOn>
   <!-- EN: Burning -->
   <Burning>Em chamas</Burning>
   <!-- EN: fire size {0} -->
