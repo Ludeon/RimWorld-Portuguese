@@ -103,15 +103,15 @@
   <!-- EN: Fleshbeast lair -->
   <LetterLabelGateEntered>Covil do fleshbeast</LetterLabelGateEntered>
   <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
-  <LetterGateEntered>Nas profundezas do portão do poço, você descobriu um sistema de cavernas maciço infestado de carmas.\n\nO sistema de cavernas está coberto com massas de carne viva que bloqueiam o seu progresso. Ataque a massa de carne para destruí-la.\n\nTodo o sistema de caverna parece instável. Se você encontrar o que está por trás da massa de carne, você pode ser capaz de colapso os túneis e fechar o portão do poço.</LetterGateEntered>
+  <LetterGateEntered>Nas profundezas do buraco, você descobriu um sistema de cavernas maciço infestado com fleshbeasts.\n\nO sistema de cavernas está entupido de bocados de carne viva que bloqueiam o seu progresso. Ataque a fleshmass para destruí-la.\n\nTodo o sistema da caverna parece instável. Se você encontrar o que está por detrás da fleshmass, você pode ser capaz de colapsar os túneis e fechar o buraco.</LetterGateEntered>
   <!-- EN: Squirming sounds -->
-  <LetterLabelDreadmeldWarning>Squirming sons</LetterLabelDreadmeldWarning>
+  <LetterLabelDreadmeldWarning>Sons de contorção</LetterLabelDreadmeldWarning>
   <!-- EN: As {PAWN_nameDef} draws near the fleshmass here, {PAWN_pronoun} senses a heavy writhing and throbbing from under its warm surface. Some huge living entity is hidden behind the wall of flesh. -->
-  <LetterDreadmeldWarning>Como {PAWN_nameDef} se aproxima da massa de carne aqui, {PAWN_pronoun} detecta uma forte oscilação e aglomerado de debaixo da sua superfície quente. Uma grande entidade viva está escondida atrás da parede da carne.</LetterDreadmeldWarning>
+  <LetterDreadmeldWarning>Como {PAWN_nameDef} se aproxima da fleshmass aqui, {PAWN_pronoun} detecta contorções forte e latejantes debaixo da superfície quente. Alguma entidade viva gigante está escondida atrás da parede da carne.</LetterDreadmeldWarning>
   <!-- EN: Undercave unstable -->
-  <LetterLabelUndercaveCollapsing>Instável</LetterLabelUndercaveCollapsing>
+  <LetterLabelUndercaveCollapsing>Caverna instável</LetterLabelUndercaveCollapsing>
   <!-- EN: The dreadmeld's death has shocked the fleshmass and caused the cave system to destabilize. The fleshmass that supported the cavern is already beginning to deteriorate. Within half a day, the entire cavern will collapse.\n\nGet out of the undercave before it's too late! -->
-  <LetterUndercaveCollapsing>A morte do dreadmeld chocou a massa de carne e fez com que o sistema das cavernas desestabilizasse. A massa de carne que apoiou a caverna já está começando a deteriorar-se. Dentro de meio dia, toda a caverna entrará em colapso.\n\nSai da cabine antes que seja tarde demais!</LetterUndercaveCollapsing>
+  <LetterUndercaveCollapsing>A morte do dreadmeld chocou a fleshmass e fez com que o sistema de cavernas se desestabilizasse. A fleshmass que suportou a caverna já está a começar a deteriorar-se. Dentro de meio dia, toda a caverna entrará em colapso.\n\nSai-a da cabine antes que seja tarde demais!</LetterUndercaveCollapsing>
   <!-- EN: Holding -->
   <HoldingThing>Segurando</HoldingThing>
   <!-- EN: Remove {0_labelShort} -->
@@ -119,39 +119,39 @@
   <!-- EN: Remove the current entity held on the platform. -->
   <RemoveFromPlatformDesc>Remova a entidade atual mantida na plataforma.</RemoveFromPlatformDesc>
   <!-- EN: {GERUND} {TARGETLABEL} from -->
-  <ReleasingEntity>A partir de</ReleasingEntity>
+  <ReleasingEntity>{GERUND} {TARGETLABEL} de</ReleasingEntity>
   <!-- EN: {GERUND} {TARGETLABEL} -->
-  <TransferringEntity>- NÃO</TransferringEntity>
+  <TransferringEntity>{GERUND} {TARGETLABEL}</TransferringEntity>
   <!-- EN: Select holding platform -->
   <SelectHoldingPlatform>Selecione a plataforma de retenção</SelectHoldingPlatform>
   <!-- EN: Entity escape -->
-  <LetterLabelEscapingFromHoldingPlatform>Fuga de entidade</LetterLabelEscapingFromHoldingPlatform>
+  <LetterLabelEscapingFromHoldingPlatform>Fuga da entidade</LetterLabelEscapingFromHoldingPlatform>
   <!-- EN: The following entities have escaped their restraints:\n\n{0}\n\nBuild stronger containment rooms to stop entities escaping. Entities are less likely to escape from holding platforms with high containment strength, which comes from strong walls and doors, good lighting, and special containment devices. -->
-  <LetterEscapingFromHoldingPlatform>As seguintes entidades escaparam às suas restrições:\n\nNão.\n\nConstrua salas de contenção mais fortes para impedir que as entidades escapem. As entidades são menos propensas a escapar de plataformas de retenção com alta resistência de contenção, que vem de paredes fortes e portas, boa iluminação e dispositivos de contenção especiais.</LetterEscapingFromHoldingPlatform>
+  <LetterEscapingFromHoldingPlatform>As seguintes entidades escaparam das suas rentenções:\n\n{0}\n\nConstrua salas de contenção mais fortes para impedir que as entidades escapem. As entidades são menos propensas a escapar de plataformas de retenção com alta resistência de contenção, que vem de paredes e portas fortes, boa iluminação e dispositivos de contenção especiais.</LetterEscapingFromHoldingPlatform>
   <!-- EN: requires {0} -->
-  <HoldingPlatformRequiresStrength>requerimento não</HoldingPlatformRequiresStrength>
+  <HoldingPlatformRequiresStrength>Requer {0}</HoldingPlatformRequiresStrength>
   <!-- EN: No holding platforms available. -->
   <NoHoldingPlatformsAvailable>Não há plataformas disponíveis.</NoHoldingPlatformsAvailable>
   <!-- EN: Obelisk activation -->
   <MutatorObeliskLetterLabel>Ativação de Obelisco</MutatorObeliskLetterLabel>
   <!-- EN: The obelisk is activating! It swells with grisly energy as the air crackles around it. It is about to self-destruct in a great explosion, but before it does, it will use its hideous transformative power on any creature it can detect. -->
-  <MutatorObeliskLetter>O obelisco está a activar! Incha-se com a energia gelada à medida que o ar se racha. Está prestes a autodestruir-se em uma grande explosão, mas antes disso, usará seu poder transformador hediondo em qualquer criatura que possa detectar.</MutatorObeliskLetter>
+  <MutatorObeliskLetter>O obelisco está a ativar-se! Incha-se com uma energia sinistra à medida que o ar estala ao seu redor. Está prestes a autodestruir-se numa grande explosão, mas antes que isso aconteça, usará o seu poder transformador hediondo em qualquer criatura que possa detetar.</MutatorObeliskLetter>
   <!-- EN: Obelisk mutation -->
   <ObeliskTentacleLetterLabel>Mutação de Obelisco</ObeliskTentacleLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling. Moments later, {PAWN_possessive} skin split open as a fleshy growth erupted from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a squirming tentacle!\n\n{PAWN_nameDef} lost some blood, but seems otherwise unharmed. -->
-  <ObeliskTentacleLetter>Enquanto interagindo com o obelisco, {PAWN_nameDef} sentiu o braço {PAWN_possessive} tingling. Momentos mais tarde, a pele {PAWN_possessive} se divide aberta como um crescimento carnudo erupted de {PAWN_possessive} corpo. {PAWN_possessive} braço foi substituído por um tentáculo esguichando!\n\n{PAWN_name Perdeu algum sangue, mas parece desarmado.</ObeliskTentacleLetter>
+  <ObeliskTentacleLetter>Enquanto estava a interagir com o obelisco, {PAWN_nameDef} sentiu um formigueiro no braço. Momentos mais tarde, a sua pele dividiu-se enquanto um crescimento carnudo irrompeu de seu corpo. O seu braço foi substituído por um tentáculo contorcendo-se!\n\n{PAWN_nameDef} perdeu algum sangue, mas parece ter saído ileso.</ObeliskTentacleLetter>
   <!-- EN: Obelisk mutation -->
   <ObeliskFleshWhipLetterLabel>Mutação de Obelisco</ObeliskFleshWhipLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling. Moments later, {PAWN_possessive} skin split open violently as a growth burst from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a tentacle tipped with a bony blade!\n\n{PAWN_nameDef} lost some blood, but seems otherwise unharmed by this disturbing event. The tentacle is hideous, but it will make an excellent melee weapon. -->
-  <ObeliskFleshWhipLetter>Enquanto interagindo com o obelisco, {PAWN_nameDef} sentiu o braço {PAWN_possessive} tingling. Momentos mais tarde, a pele {PAWN_possessive} se divide violentamente quando um crescimento explode do corpo {PAWN_possessive}. O braço foi substituído por um tentáculo com uma lâmina óssea!\n\n{PAWN_name Def} perdeu algum sangue, mas parece de outra forma ileso por este evento perturbador. O tentáculo é horrível, mas vai fazer uma excelente arma de corpo.</ObeliskFleshWhipLetter>
+  <ObeliskFleshWhipLetter>Enquanto estava a interagir com o obelisco, {PAWN_nameDef} sentiu um formigueiro no braço. Momentos mais tarde, a sua pele divideu-se violentamente enquanto um crescimento explode do seu corpo. O braço foi substituído por um tentáculo com uma lâmina óssea na ponta!\n\n{PAWN_nameDef} perdeu algum sangue, mas parece ter saído ileso deste evento perturbador. O tentáculo é horrível, mas vai dar uma excelente arma de corpo-a-corpo.</ObeliskFleshWhipLetter>
   <!-- EN: Obelisk interaction -->
   <MutatorObeliskFailedArmLetterLabel>Interação obelisco</MutatorObeliskFailedArmLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
-  <MutatorObeliskFailedArmLetter>Enquanto interagindo com o obelisco, {PAWN_nameDef} sentiu o braço {PAWN_possessive} forrando por alguns momentos. O sentimento passou.\n\nO obelisco tentou mutar {PAWN_nameDef} mas falhou.</MutatorObeliskFailedArmLetter>
+  <MutatorObeliskFailedArmLetter>Enquanto interagindo com o obelisco, {PAWN_nameDef} sentiu um formigueiro no braço por alguns momentos. A sensação passou.\n\nO obelisco tentou mutar {PAWN_nameDef} mas falhou.</MutatorObeliskFailedArmLetter>
   <!-- EN: Obelisk mutation -->
   <ObeliskFleshmassStomachLetterLabel>Mutação de Obelisco</ObeliskFleshmassStomachLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt a sudden sharp pain in {PAWN_possessive} stomach, as {PAWN_possessive} tissue began to roil and mutate. {PAWN_possessive} stomach has mutated into a mass of semi-sentient flesh. The harsh acids it produces are painful but prevent food poisoning. -->
-  <ObeliskFleshmassStomachLetter>Enquanto interagindo com o obelisco, {PAWN_nameDef} sentiu uma dor súbita aguda no estômago {PAWN_possessive}, como o tecido {PAWN_possessive} começou a roer e mutar. O estômago tem mutado numa massa de carne semi-sensível. Os ácidos duros que produz são dolorosos, mas impedem a intoxicação alimentar.</ObeliskFleshmassStomachLetter>
+  <ObeliskFleshmassStomachLetter>Enquanto interagindo com o obelisco, {PAWN_nameDef} sentiu uma dor súbita e aguda no estômago, como o seu tecido começou a causar irritação e entrou em mutação. O estômago transformou-se numa massa de carne semi sensível. Os ácidos desagradáveis que produz são dolorosos, mas impedem a intoxicação alimentar.</ObeliskFleshmassStomachLetter>
   <!-- EN: Obelisk interaction -->
   <MutatorObeliskFailedStomachLetterLabel>Interação obelisco</MutatorObeliskFailedStomachLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} stomach aching for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
