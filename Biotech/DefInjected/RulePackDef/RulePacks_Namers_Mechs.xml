@@ -1,12 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>namefile->Names/Mech_Unisex</li>
   -->
-  <NamerMech.rulePack.rulesFiles>
-    <li>namefile->Names/Mech_Unisex</li>
-  </NamerMech.rulePack.rulesFiles>
+  <NamerMech.rulePack.rulesFiles>&lt;li&gt;namefile-&gt;Nomes/Mech_Unisex&lt;/li&gt;\n</NamerMech.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name(p=6)->[namefile]</li>
     <li>r_name->[exoticname]</li>
@@ -16,14 +13,5 @@
     <li>exoticname->[ConceptAny]</li>
     <li>exoticname->[Color]</li>
   -->
-  <NamerMech.rulePack.rulesStrings>
-    <li>r_name(p=6)->[namefile]</li>
-    <li>r_name->[exoticname]</li>
-    <li>exoticname(p=2)->[AdjectiveBadass]es</li>
-    <li>exoticname(p=2)->[PersonBadass]</li>
-    <li>exoticname->[Enemy]</li>
-    <li>exoticname->[ConceptAny]</li>
-    <li>exoticname->[Color]es</li>
-  </NamerMech.rulePack.rulesStrings>
-  
+  <NamerMech.rulePack.rulesStrings>&lt;li&gt;r_name(p=6)-&gt;[namefile]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[exoticname]&lt;/li&gt;\n&lt;li&gt;exoticname(p=2)-&gt;[AdjectiveBadass]&lt;/li&gt;\n&lt;li&gt;exoticname(p=2)-&gt;[PersonBadass]&lt;/li&gt;\n&lt;li&gt;exoticname-&gt; [Enemy]&lt;/li&gt;\n&lt;li&gt;exoticname-&gt;[ConceptAny]&lt;/li&gt;\n&lt;li&gt;exoticname-&gt;[Color]&lt;/li&gt;\n</NamerMech.rulePack.rulesStrings>
 </LanguageData>

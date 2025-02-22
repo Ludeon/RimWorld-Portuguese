@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>r_name(p=2)->[empire] of [ofThing]</li>
     <li>r_name(p=2)->The [empire] of [ofThing]</li>
@@ -24,51 +23,19 @@
     <li>ofThing->Eternity</li>
     <li>ofThing->the Spirit</li>
   -->
-  <NamerFactionEmpire.rulePack.rulesStrings>
-    <li>r_name(p=2)->[empire] [ofThing]</li>
-    <li>r_name(p=2)->Das [empire] [ofThing]</li>
-    <li>r_name->Das Exodus-[empire]</li>
-    <li>r_name->Das geflohene [empire]</li>
-    <li>r_name->Das zerrüttete [empire]</li>
-    <li>r_name->Das zerschlagene [empire]</li>
-    <li>r_name->Das gefallene [empire]</li>
-    <li>r_name->Das [Color]e [empire]</li>
-    <li>empire(p=4)->Reich</li>
-    <li>empire->Imperium</li>
-    <li>empire->Königreich</li>
-    <li>empire->Kaiserreich</li>
-    <li>ofThing(p=4)->der [WordImperial]</li>
-    <li>ofThing->der Sonne</li>
-    <li>ofThing->des Mondes</li>
-    <li>ofThing->des Universums</li>
-    <li>ofThing->Gottes</li>
-    <li>ofThing->der Perfektion</li>
-    <li>ofThing->der Ewigkeit</li>
-    <li>ofThing->des Geistes</li>
-  </NamerFactionEmpire.rulePack.rulesStrings>
-  
+  <NamerFactionEmpire.rulePack.rulesStrings>&lt;li&gt;r_name(p=2)-&gt;[empire] of [ofThing]&lt;/li&gt;\n&lt;li&gt;r_name(p=2)-&gt;The [empire] of [ofThing]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;The Exodus [empire]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;O Refugiado [empire]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;The Broken [empire]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;The Shattered [empire]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;The Fallen [empire]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;The [Color] [empire]&lt;/li&gt;\n&lt;li&gt;empire(p=4)-&gt;Empire&lt;/li&gt;\n&lt;li&gt;empire-&gt;Commonwealth&lt;/li&gt;\n&lt;li&gt;empire-&gt;Imperium&lt;/li&gt;\n&lt;li&gt;empire-&gt;Dominion&lt;/li&gt;\n&lt;li&gt;empire-&gt;Sovereignty&lt;/li&gt;\n&lt;li&gt;ofThing(p=4)-&gt;[WordImperial]&lt;/li&gt;\n&lt;li&gt;ofThing-&gt;the Sun&lt;/li&gt;\n&lt;li&gt;ofThing-&gt;the Moon&lt;/li&gt;\n&lt;li&gt;ofThing-&gt;the Universe&lt;/li&gt;\n&lt;li&gt;ofThing-&gt;God&lt;/li&gt;\n&lt;li&gt;ofThing-&gt;Perfection&lt;/li&gt;\n&lt;li&gt;ofThing-&gt;Eternidade&lt;/li&gt;\n&lt;li&gt;ofThing-&gt;the Spirit&lt;/li&gt;\n</NamerFactionEmpire.rulePack.rulesStrings>
   <!-- EN:
     <li>r_name(p=3)->[ImperialNameFirstMale] [ImperialNameLast]</li>
     <li>r_name(p=2)->[ImperialNameFirstMale] [WordImperial]</li>
     <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
   -->
-  <NamerPersonSophian.rulePack.rulesStrings>
-    <li>r_name(p=3)->[ImperialNameFirstMale] [ImperialNameLast]</li>
-    <li>r_name(p=2)->[ImperialNameFirstMale] [WordImperial]</li>
-    <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
-  </NamerPersonSophian.rulePack.rulesStrings>
-  
+  <NamerPersonSophian.rulePack.rulesStrings>&lt;li&gt;r_name(p=3)-&gt;[ImperialNameFirstMale] [ImperialNameLast]&lt;/li&gt;\n&lt;li&gt;r_name(p=2)-&gt;[ImperialNameFirstMale] [WordImperial]&lt;/li&gt;\n&lt;li&gt;r_name(p=2)-&gt;[WordImperial] [WordImperial]&lt;/li&gt;\n</NamerPersonSophian.rulePack.rulesStrings>
   <!-- EN:
     <li>r_name(p=3)->[ImperialNameFirstFemale] [ImperialNameLast]</li>
     <li>r_name(p=2)->[ImperialNameFirstFemale] [WordImperial]</li>
     <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
   -->
-  <NamerPersonSophianFemale.rulePack.rulesStrings>
-    <li>r_name(p=3)->[ImperialNameFirstFemale] [ImperialNameLast]</li>
-    <li>r_name(p=2)->[ImperialNameFirstFemale] [WordImperial]</li>
-    <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
-  </NamerPersonSophianFemale.rulePack.rulesStrings>
-  
+  <NamerPersonSophianFemale.rulePack.rulesStrings>&lt;li&gt;r_name(p=3)-&gt;[ImperialNameFirstFemale] [ImperialNameLast]&lt;/li&gt;\n&lt;li&gt;r_name(p=2)-&gt;[ImperialNameFirstFemale] [WordImperial]&lt;/li&gt;\n&lt;li&gt;r_name(p=2)-&gt;[WordImperial] [WordImperial]&lt;/li&gt;\n</NamerPersonSophianFemale.rulePack.rulesStrings>
   <!-- EN:
     <li>r_name->[townname_wordgen]</li>
     <li>r_name->[townname_fixed]</li>
@@ -95,31 +62,5 @@
     <li>townend->am</li>
     <li>townend->aeum</li>
   -->
-  <NamerSettlementEmpire.rulePack.rulesStrings>
-    <li>r_name->[townname_wordgen]</li>
-    <li>r_name->[townname_fixed]</li>
-    <li>townname_wordgen->[WordImperial]</li>
-    <li>townname_wordgen->[WordImperial][townend]</li>
-    <li>townend(p=3)->ium</li>
-    <li>townend(p=3)->ior</li>
-    <li>townend(p=3)->polis</li>
-    <li>townend->nor</li>
-    <li>townend->lan</li>
-    <li>townend->lax</li>
-    <li>townend->lix</li>
-    <li>townend->lin</li>
-    <li>townend->lian</li>
-    <li>townend->phrum</li>
-    <li>townend->phor</li>
-    <li>townend->teor</li>
-    <li>townend->ople</li>
-    <li>townend->opium</li>
-    <li>townend->or</li>
-    <li>townend->aetor</li>
-    <li>townend->aeum</li>
-    <li>townend->aetium</li>
-    <li>townend->am</li>
-    <li>townend->aeum</li>
-  </NamerSettlementEmpire.rulePack.rulesStrings>
-  
+  <NamerSettlementEmpire.rulePack.rulesStrings>&lt;li&gt;r_name-&gt;[townname_wordgen]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[townname_fixed]&lt;/li&gt;\n&lt;li&gt;townname_wordgen-&gt;[ WordImperial]&lt;/li&gt;\n&lt;li&gt;townname_wordgen-&gt;[ WordImperial][townend]&lt;/li&gt;\n&lt;li&gt;townend(p=3)-&gt;ium&lt;/li&gt;\n&lt;li&gt;townend(p=3)-&gt;ior&lt;/li&gt;\n&lt;li&gt;townend(p=3)-&gt;polis&lt;/li&gt;\n&lt;li&gt;townend-&gt;nor&lt;/li&gt;\n&lt;li&gt;townend-&gt;lan&lt;/li&gt;\n&lt;li&gt;townend-&gt;lax&lt;/li&gt;\n&lt;li&gt;townend-&gt;lix&lt;/li&gt;\n&lt;li&gt;townend-&gt;lin&lt;/li&gt;\n&lt;li&gt;townend-&gt;lian&lt;/li&gt;\n&lt;li&gt;townend-&gt;phrum&lt;/li&gt;\n&lt;li&gt;townend-&gt;phor&lt;/li&gt;\n&lt;li&gt;townend-&gt;teor&lt;/li&gt;\n&lt;li&gt;townend-&gt;ople&lt;/li&gt;\n&lt;li&gt;townend-&gt;opium&lt;/li&gt;\n&lt;li&gt;townend-&gt;or&lt;/li&gt;\n&lt;li&gt;townend-&gt;aetor&lt;/li&gt;\n&lt;li&gt;townend-&gt;aeum&lt;/li&gt;\n&lt;li&gt;townend-&gt;aetium&lt;/li&gt;\n&lt;li&gt;townend-&gt;am&lt;/li&gt;\n&lt;li&gt;townend-&gt;aeum&lt;/li&gt;\n</NamerSettlementEmpire.rulePack.rulesStrings>
 </LanguageData>

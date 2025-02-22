@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>sanguophageShuttleCrashedLetterLabel->Crashed shuttle</li>
     <li>sanguophageShuttleCrashedLetterText->A shuttle containing a sanguophage master and [thrallCount] thralls has crashed nearby. They will exit the crashed craft and prepare to fight.</li>
@@ -9,22 +8,12 @@
     <li>assaultBeginLetterLabel->Assault begun</li>
     <li>assaultBeginLetterText->The hostile sanguophage master and [sanguophage_possessive] thralls have initiated an assault on the colony!</li>
   -->
-  <SanguophageShip.questContentRules.rulesStrings>
-    <li>sanguophageShuttleCrashedLetterLabel->Shuttle abgestürzt</li>
-    <li>sanguophageShuttleCrashedLetterText->Ein Shuttle mit {sanguophage_gender ? einem Sanguophagenmeister : einer Sanguophagenmeisterin} und [thrallCount] Dienern ist in der Nähe abgestürzt. Sie werden aus dem Wrack klettern und sich auf den Kampf vorbereiten.</li>
-    <li>reinforcementsArrivedLetterLabel->Diener als Verstärkung eingetroffen</li>
-    <li>reinforcementsArrivedLetterText->Weitere Diener sind per Landungskapseln eingetroffen, um {sanguophage_gender ? ihrem Meister : ihrer Meisterin} beizustehen.</li>
-    <li>assaultBeginLetterLabel->Angriff gestartet</li>
-    <li>assaultBeginLetterText->{sanguophage_gender ? Der feindliche Sanguophagenmeister : Die feindliche Sanguophagenmeisterin} und [sanguophage_possessive]e Diener starten den Angriff auf die Kolonie!</li>
-  </SanguophageShip.questContentRules.rulesStrings>
+  <SanguophageShip.questContentRules.rulesStrings>&lt;li&gt;sanguophageShuttleCrashedLetterLabel-&gt;Volamento cortado &lt;/li&gt;\n&lt;li&gt;sanguophageShuttleCrashedLetterText-&gt; Um vaivém contendo um mestre de sanguophage e thralls [thrallCount] caiu nas proximidades. Eles sairão do ofício travado e se prepararão para lutar.&lt;/li&gt;\n&lt;li&gt;reinforcementsArrivedLetterLabel-&gt;Thrall reforços&lt;/li&gt;\n&lt;li&gt;reinforcementsArrivedLetterText-&gt;Thralls estão chegando em cápsulas drop para reforçar o sanguophage travado.&lt;/li&gt;\n&lt;li&gt;assaultBeginLetterLabel-&gt;Assault started&lt;/li&gt;\n&lt;li&gt;assaultBeginLetterText-&gt; O mestre de sanguophage hostil e os thralls [sanguophage_possessive] iniciaram um assalto à colônia!&lt;/li&gt;\n</SanguophageShip.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You have intercepted a distress signal! A hostile shuttle carrying a sanguophage master and [thrallCount] thralls is having trouble with its engines. You can use signals to draw it down to a crash near [map_definite].\n\nOnce the ship has crashed, you can fight the sanguophage and [sanguophage_possessive] minions. If you can capture the master, you can force [sanguophage_objective] to turn one of your colonists into a sanguophage.\n\n[sanguophageInfo]</li>
     <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
   -->
-  <SanguophageShip.questDescriptionRules.rulesStrings>
-    <li>questDescription->Du hast ein Notsignal abgefangen! {sanguophage_gender ? Ein feindlicher Sanguophagenmeister : Eine feindliche Sanguophagenmeisterin} und [thrallCount] Diener befinden sich an Bord eines Shuttles, das Probleme mit dem Antrieb hat. Du kannst dem Shuttle ein Signal senden, um es in der Nähe von [map_label] abstürzen zu lassen.\n\nSobald das Shuttle abgestürzt ist, kannst du gegen {sanguophage_gender ? den Sanguophagen : die Sanguophagin} und [sanguophage_possessive]e Diener kämpfen. Gelingt es dir, {sanguophage_gender ? den Meister : die Meisterin} einzufangen, kannst du [sanguophage_objective] dazu zwingen, einen deiner Kolonisten zu einem Sanguophagen zu machen.\n\n[sanguophageInfo]</li>
-    <li>sanguophageInfo->(*Gray)Sanguophagen sind alterslose, unsterbliche Übermenschen, die von Architen im Blutkreislauf angetrieben werden. Sie sind wunderschön und hochintelligent. Sie können jede Wunde heilen, werden nie krank und sind immun gegen Gifte. Im Kampf können sie tödliche Stacheln abfeuern und verletzte Verbündete heilen. Das hat allerdings einen hohen Preis: Sanguophagen müssen zum einen das lebenswichtige Hämogen konsumieren, welches aus menschlichem Blut gewonnen wird, und zum anderen ihren Körper regelmäßig für längere Zeit in den sogenannten Todesschlaf versetzen. Sie sind äußerst feueranfällig und werden durch UV-Licht verlangsamt.(/Gray)</li>
-  </SanguophageShip.questDescriptionRules.rulesStrings>
+  <SanguophageShip.questDescriptionRules.rulesStrings>&lt;li&gt;questDescription-&gt; Interceptaste um sinal de socorro! Um vaivém hostil carregando um mestre sanguofage e thralls [thrallCount] está tendo problemas com seus motores. Você pode usar sinais para atraí-lo para um acidente perto [map_definite].\n\nUma vez que o navio caiu, você pode lutar contra o sanguophage e [sanguophage_possessive] minions. Se você pode capturar o mestre, você pode forçar [sanguophage_objectivo] a transformar um de seus colonos em uma sanguofagem.\n\n[sanguophageInfo]&lt;/li&gt;\n&lt;li&gt;sanguophageInfo-&gt;(*Gray)Sobre sanguophages: Sanguophages são super-humanos sem idade, sem morte, alimentados por arqueiros criados pela arquiteta na corrente sanguínea. Eles são bonitos e extremamente inteligentes. Eles podem curar qualquer lesão, e nunca sofrem de doença ou veneno. Em combate, eles podem lançar espinhas mortais e curar amigos feridos. O preço é que os sanguófagos devem consumir hemógeno derivado do sangue humano para sobreviver, e eles devem periodicamente morrer por longos períodos. Eles são facilmente destruídos pelo fogo, e retardados pela luz UV.(/Gray)&lt;/li&gt;\n</SanguophageShip.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shipAdjective] [shipNoun]</li>
     <li>shipAdjective->sanguophage</li>
@@ -44,34 +33,5 @@
     <li>shipNoun->crash</li>
     <li>shipNoun->wreck</li>
   -->
-  <SanguophageShip.questNameRules.rulesStrings>
-    <li>questName(p=0.2)->[shipAdjective]er [shipNounMas]</li>
-    <li>questName(p=0.2)->[shipAdjective]e [shipNounFem]</li>
-    <li>questName(p=0.7)->[shipAdjective]es [shipNounNeu]</li>
-    <li>questName(p=0.35)->[shipNoun2][shipNounLow]</li>
-    <li>questName(p=0.35)->[shipNoun2]-[shipNoun]</li>
-    <li>shipAdjective->sanguophagisch</li>
-    <li>shipNoun2->Sanguophagen</li>
-    <li>shipAdjective->blutdurstig</li>
-    <li>shipNoun2->Blut</li>
-    <li>shipAdjective->blutig</li>
-    <li>shipNoun2->Schatten</li>
-    <li>shipAdjective->dunkl</li>
-    <li>shipAdjective->blutrot</li>
-    <li>shipAdjective->rot</li>
-    <li>shipAdjective->unheilig</li>
-    <li>shipNounNeu->Schiff</li>
-    <li>shipNounNeu->Shuttle</li>
-    <li>shipNounNeu->Raumschiff</li>
-    <li>shipNounFem->Raumfähre</li>
-    <li>shipNounMas->Absturz</li>
-    <li>shipNounNeu->Wrack</li>
-    <li>shipNounLow->schiff</li>
-    <li>shipNoun->Shuttle</li>
-    <li>shipNoun->Raumschiff</li>
-    <li>shipNoun->Raumfähre</li>
-    <li>shipNounLow->absturz</li>
-    <li>shipNounLow->wrack</li>
-  </SanguophageShip.questNameRules.rulesStrings>
-  
+  <SanguophageShip.questNameRules.rulesStrings>&lt;li&gt;questName-&gt;[shipAdjective] [shipNoun]&lt;/li&gt;\n&lt;li&gt;shipAdjetivo-&gt;sanguophage&lt;/li&gt;\n&lt;li&gt;shipAdjective-&gt;bloodthirsty&lt;/li&gt;\n&lt;li&gt;shipAdjetivo-&gt;sangue&lt;/li&gt;\n&lt;li&gt;shipAdjetivo-&gt;shadow&lt;/li&gt;\n&lt;li&gt;shipAdjetivo-&gt;dark&lt;/li&gt;\n&lt;li&gt;shipAdjetivo-&gt;crimson&lt;/li&gt;\n&lt;li&gt;shipAdjetivo-&gt;red&lt;/li&gt;\n&lt;li&gt;shipAdjetivo-&gt;scab&lt;/li&gt;\n&lt;li&gt;shipAdjetivo-&gt;hemic&lt;/li&gt;\n&lt;li&gt;shipAdjetivo-&gt;sanguine&lt;/li&gt;\n&lt;li&gt;shipNoun-&gt;ship&lt;/li&gt;\n&lt;li&gt;shipNoun-&gt;shuttle&lt;/li&gt;\n&lt;li&gt;shipNoun-&gt;craft&lt;/li&gt;\n&lt;li&gt;shipNoun-&gt;hulk&lt;/li&gt;\n&lt;li&gt;shipNoun-&gt;crash&lt;/li&gt;\n&lt;li&gt;shipNoun-&gt;wreck&lt;/li&gt;\n</SanguophageShip.questNameRules.rulesStrings>
 </LanguageData>

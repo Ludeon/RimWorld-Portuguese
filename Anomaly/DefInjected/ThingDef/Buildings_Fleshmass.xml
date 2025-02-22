@@ -1,67 +1,57 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: acid spit -->
-  <Bullet_Shell_AcidSpit.label>Säurespucke</Bullet_Shell_AcidSpit.label>
-  
+  <Bullet_Shell_AcidSpit.label>cuspir ácido</Bullet_Shell_AcidSpit.label>
   <!-- EN: fleshbulb -->
-  <Fleshbulb.label>Fleischknolle</Fleshbulb.label>
+  <Fleshbulb.label>carbulhão</Fleshbulb.label>
   <!-- EN: A bulbous mass of flesh. These fleshbeast organs store and refine nutrients for surrounding fleshmass. The chemical process generates a soft bioluminescent glow. -->
-  <Fleshbulb.description>Eine knollenförmige Masse aus Fleisch. Diese Fleischbestienorgane speichern und verfeinern Nährstoffe für die umliegende Fleischmasse. Der chemische Prozess erzeugt ein sanftes, biolumineszentes Leuchten.</Fleshbulb.description>
-  
+  <Fleshbulb.description>Uma massa bulbosa de carne. Estes órgãos carnais armazenam e refinam nutrientes para a massa de carne circundante. O processo químico gera um brilho bioluminescente suave.</Fleshbulb.description>
   <!-- EN: fleshmass -->
-  <Fleshmass.label>Fleischmasse</Fleshmass.label>
+  <Fleshmass.label>massa de carne</Fleshmass.label>
   <!-- EN: A solid mass of twisted flesh. It throbs and shivers with horrible life. -->
-  <Fleshmass.description>Eine solide Masse aus entstelltem Fleisch. Es pulsiert und zittert.</Fleshmass.description>
-  
+  <Fleshmass.description>Uma massa sólida de carne torcida. Ela treme e brilha com vida horrível.</Fleshmass.description>
   <!-- EN: fleshmass -->
-  <Fleshmass_Active.label>Fleischmasse</Fleshmass_Active.label>
+  <Fleshmass_Active.label>massa de carne</Fleshmass_Active.label>
   <!-- EN: A solid mass of twisted flesh. It throbs and shivers with horrible life. -->
-  <Fleshmass_Active.description>Eine solide Masse aus entstelltem Fleisch. Es pulsiert und zittert.</Fleshmass_Active.description>
-  
+  <Fleshmass_Active.description>Uma massa sólida de carne torcida. Ela treme e brilha com vida horrível.</Fleshmass_Active.description>
   <!-- EN: fleshmass heart -->
-  <FleshmassHeart.label>Fleischmassenherz</FleshmassHeart.label>
+  <FleshmassHeart.label>coração de massa de carne</FleshmassHeart.label>
   <!-- EN: The primary organ of a fleshmass infestation. The heart gathers material through roots extended into the ground. Once it has collected enough, it spreads fleshmass around itself in a spurt of cancer-like growth. It will keep growing until it consumes everything.\n\nThe heart grows fleshmass spitters. These defensive organs can spit acid long distances. The heart will also generate fleshbeast defenders to protect itself.\n\nUltra-rapid regeneration makes the heart nearly invulnerable. It can only be killed by analyzing samples taken from the nerve bundles that form within its growing mass. -->
-  <FleshmassHeart.description>Das Hauptorgan eines Fleischmassenbefalls. Das Herz sammelt Material mittels Wurzeln, die tief in den Boden reichen. Wenn es genug gesammelt hat, verteilt es die Fleischmasse krebsartig um sich herum. Es wächst weiter, bis es alles verschlungen hat.\n\nDas Herz erzeugt defensive Fleischmassenspucker, die Säure über weite Strecken spucken können, und Fleischbestien zur Selbstverteidigung.\n\nDie blitzschnelle Regeneration macht das Herz nahezu unverwundbar. Um es zu töten, müssen Proben aus den Nervenbündeln, die in seiner Masse wachsen, entnommen und analysiert werden.</FleshmassHeart.description>
+  <FleshmassHeart.description>O órgão primário de uma infestação de massa de carne. O coração reúne material através de raízes estendidas no chão. Uma vez que ele coletou o suficiente, ele espalha a massa de carne em torno de si mesmo em um estímulo do crescimento semelhante ao câncer. Vai continuar a crescer até consumir tudo.\n\nO coração cresce espetos de massa de carne. Estes órgãos defensivos podem cuspir longas distâncias ácidas. O coração também gerará defensores de carne para se proteger.\n\nA regeneração ultra-rápida torna o coração quase invulnerável. Ele só pode ser morto analisando amostras tiradas dos feixes nervosos que se formam dentro de sua massa crescente.</FleshmassHeart.description>
   <!-- EN: Use electrical pulses to induce a tachycardiac overload and kill the fleshmass heart. -->
-  <FleshmassHeart.comps.CompDestroyHeart.activateDescString>Nutze elektrische Impulse, um eine tachykarde Überlastung einzuleiten und das Fleischmassenherz zu töten.</FleshmassHeart.comps.CompDestroyHeart.activateDescString>
+  <FleshmassHeart.comps.CompDestroyHeart.activateDescString>Use pulsos elétricos para induzir uma sobrecarga taquicardiaca e matar o coração da massa de carne.</FleshmassHeart.comps.CompDestroyHeart.activateDescString>
   <!-- EN: Induce tachycardiac death... -->
-  <FleshmassHeart.comps.CompDestroyHeart.activateLabelString>Herz überlasten...</FleshmassHeart.comps.CompDestroyHeart.activateLabelString>
+  <FleshmassHeart.comps.CompDestroyHeart.activateLabelString>Induzir a morte taquicardiaca...</FleshmassHeart.comps.CompDestroyHeart.activateLabelString>
   <!-- EN: Inducing tachycardiac death: {1}s -->
-  <FleshmassHeart.comps.CompDestroyHeart.activatingString>Überlastet Herz ({replace: noch {1} Sekunden; "noch 1 Sekunden"-"noch 1 Sekunde"})</FleshmassHeart.comps.CompDestroyHeart.activatingString>
+  <FleshmassHeart.comps.CompDestroyHeart.activatingString>Induzindo a morte taquicardiaca: Não</FleshmassHeart.comps.CompDestroyHeart.activatingString>
   <!-- EN: Inducing tachycardiac death -->
-  <FleshmassHeart.comps.CompDestroyHeart.activatingStringPending>Überlastet Herz</FleshmassHeart.comps.CompDestroyHeart.activatingStringPending>
+  <FleshmassHeart.comps.CompDestroyHeart.activatingStringPending>Induzindo morte taquicardiac</FleshmassHeart.comps.CompDestroyHeart.activatingStringPending>
   <!-- EN: Choose who should do this -->
-  <FleshmassHeart.comps.CompDestroyHeart.guiLabelString>Wähle, wer dies tun soll</FleshmassHeart.comps.CompDestroyHeart.guiLabelString>
+  <FleshmassHeart.comps.CompDestroyHeart.guiLabelString>Escolha quem deve fazer isso</FleshmassHeart.comps.CompDestroyHeart.guiLabelString>
   <!-- EN: Induce tachycardiac death -->
-  <FleshmassHeart.comps.CompDestroyHeart.jobString>Überlaste Herz</FleshmassHeart.comps.CompDestroyHeart.jobString>
-  
+  <FleshmassHeart.comps.CompDestroyHeart.jobString>Induzir a morte taquicardiac</FleshmassHeart.comps.CompDestroyHeart.jobString>
   <!-- EN: underground emergence -->
-  <FleshmassHeartSpawner.label>Austrittstelle</FleshmassHeartSpawner.label>
+  <FleshmassHeartSpawner.label>emergência subterrânea</FleshmassHeartSpawner.label>
   <!-- EN: Something is emerging from the ground here. -->
-  <FleshmassHeartSpawner.description>Hier kommt etwas aus dem Boden.</FleshmassHeartSpawner.description>
+  <FleshmassHeartSpawner.description>Algo está surgindo do chão aqui.</FleshmassHeartSpawner.description>
   <!-- EN: Fleshmass heart -->
-  <FleshmassHeartSpawner.building.groundSpawnerLetterLabel>Fleischmassenherz</FleshmassHeartSpawner.building.groundSpawnerLetterLabel>
+  <FleshmassHeartSpawner.building.groundSpawnerLetterLabel>Coração de lã</FleshmassHeartSpawner.building.groundSpawnerLetterLabel>
   <!-- EN: A fleshmass heart has emerged! This cancer-like creature will expand its living mass across the surface.\n\nThe heart itself is invulnerable to normal weapons. Fleshmass nerve bundles will soon appear - attack them to gather samples and find a way to kill the heart. -->
-  <FleshmassHeartSpawner.building.groundSpawnerLetterText>Ein Fleischmassenherz ist aufgetaucht! Diese krebsartige Kreatur wird ihre lebende Masse über die Oberfläche verteilen.\n\nDas Herz selbst ist gegen normale Waffen unverwundbar. Bald werden Nervenbündel erscheinen - greife sie an, um Proben zu sammeln, und einen Weg zu finden, das Herz zu töten.</FleshmassHeartSpawner.building.groundSpawnerLetterText>
-  
+  <FleshmassHeartSpawner.building.groundSpawnerLetterText>Um coração de massa de carne surgiu! Esta criatura semelhante ao câncer irá expandir sua massa viva em toda a superfície.\n\nO próprio coração é invulnerável às armas normais. Os feixes de nervo de Fleshmass aparecerão em breve - atacá-los para reunir amostras e encontrar uma maneira de matar o coração.</FleshmassHeartSpawner.building.groundSpawnerLetterText>
   <!-- EN: fleshmass spitter -->
-  <FleshmassSpitter.label>Fleischmassenspucker</FleshmassSpitter.label>
+  <FleshmassSpitter.label>spitter de massa de carne</FleshmassSpitter.label>
   <!-- EN: A defensive fleshmass organ that can spit acid long distances. The acid is a natural byproduct of toxins filtered from the surrounding biomass. -->
-  <FleshmassSpitter.description>Ein defensives Fleischmassenorgan, das über weite Strecken Säure spucken kann. Die Säure ist ein natürliches Nebenprodukt von Toxinen, die aus der angrenzenden Biomasse herausgefiltert werden.</FleshmassSpitter.description>
+  <FleshmassSpitter.description>Um órgão de massa de carne defensiva que pode cuspir longas distâncias ácidas. O ácido é um subproduto natural de toxinas filtradas da biomassa circundante.</FleshmassSpitter.description>
   <!-- EN: fleshmass spitter -->
-  <FleshmassSpitter.verbs.Verb_Shoot.label>Fleischmassenspucker</FleshmassSpitter.verbs.Verb_Shoot.label>
-  
+  <FleshmassSpitter.verbs.Verb_Shoot.label>spitter de massa de carne</FleshmassSpitter.verbs.Verb_Shoot.label>
   <!-- EN: flesh sack -->
-  <FleshSack.label>Fleischsack</FleshSack.label>
+  <FleshSack.label>saco de carne</FleshSack.label>
   <!-- EN: A swollen lump of flesh with something inside. These stationary fleshbeasts act as digestive organs, supplying the surrounding fleshmass with nutrients. However, they're unable to break down non-organic matter, meaning that valuable items can occasionally be found within. -->
-  <FleshSack.description>Ein geschwollener Fleischklumpen, in dessen Innerem sich etwas befindet. Diese stationären Fleischbestien dienen als Verdauungsorgane und versorgen die angrenzende Fleischmasse mit Nährstoffen. Allerdings sind sie nicht in der Lage, anorganische Stoffe zu zersetzen, was bedeutet, dass sich in ihrem Inneren manchmal wertvolle Gegenstände befinden.</FleshSack.description>
-  
+  <FleshSack.description>Um pedaço inchado de carne com algo dentro. Estas carmas estacionárias atuam como órgãos digestivos, fornecendo a massa de carne circundante com nutrientes. No entanto, eles são incapazes de quebrar a matéria não orgânica, o que significa que itens valiosos podem ocasionalmente ser encontrados dentro.</FleshSack.description>
   <!-- EN: nerve bundle -->
-  <NerveBundle.label>Nervenbündel</NerveBundle.label>
+  <NerveBundle.label>feixe de nervo</NerveBundle.label>
   <!-- EN: A junction point in the fleshmass nervous system. When destroyed, it leaves behind a lump of neural tissue that you can study. Study enough different neural lumps and you can unlock a way to kill the fleshmass heart itself. -->
-  <NerveBundle.description>Ein Knoten im Nervensystem der Fleischmasse. Wenn es zerstört wird, bleibt ein Klumpen Nervengewebe zurück, der untersucht werden kann. Sobald genügend verschiedene Nervenklumpen analysiert worden sind, wird eine Möglichkeit freigeschaltet, das Fleischmassenherz zu töten.</NerveBundle.description>
+  <NerveBundle.description>Um ponto de junção no sistema nervoso de massa de carne. Quando destruído, deixa atrás de um pedaço de tecido neural que você pode estudar. Estude bastante diferentes pedaços neurais e você pode desbloquear uma maneira de matar o próprio coração de massa de carne.</NerveBundle.description>
   <!-- EN: Kill to collect: Neural lump -->
-  <NerveBundle.comps.CompInspectString.inspectString>Töte dies, um einen Nervenklumpen zu erhalten.</NerveBundle.comps.CompInspectString.inspectString>
-  
+  <NerveBundle.comps.CompInspectString.inspectString>Matar para coletar: Neural lump</NerveBundle.comps.CompInspectString.inspectString>
 </LanguageData>

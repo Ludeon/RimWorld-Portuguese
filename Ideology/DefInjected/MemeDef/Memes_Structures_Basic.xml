@@ -1,10 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: animist -->
-  <Structure_Animist.label>Animist</Structure_Animist.label>
+  <Structure_Animist.label>animação</Structure_Animist.label>
   <!-- EN: Spirits live in everything around us. In the plants and animals, rivers and trees, sky and stars. The moral structure of the universe springs from the necessity of respecting them. -->
-  <Structure_Animist.description>Die Geister leben in allem um uns herum. In den Pflanzen und Tieren, den Flüssen und Bäumen, dem Himmel und den Sternen. Die moralische Struktur des Universums entspringt der Notwendigkeit, sie zu respektieren.</Structure_Animist.description>
+  <Structure_Animist.description>Os Espíritos vivem em tudo ao nosso redor. Nas plantas e animais, rios e árvores, céu e estrelas. A estrutura moral do universo brota da necessidade de respeitá-los.</Structure_Animist.description>
   <!-- EN:
     <li>memeLeaderNoun->curate</li>
     <li>memeLeaderNoun->speaker</li>
@@ -16,38 +15,25 @@
     <li>memeMoralist->priest</li>
     <li>memeMoralist->elder</li>
   -->
-  <Structure_Animist.generalRules.rulesStrings>
-    <li>memeLeaderNoun->|M|Kurator</li>
-    <li>memeLeaderNoun->|M|Sprecher</li>
-    <li>memeLeaderNounCon->kurator</li>
-    <li>memeLeaderNounCon->sprecher</li>
-    <li>memeLeaderPrefix->Universal</li>
-    <li>memeLeaderPrefix->Geister</li>
-    <li>memeLeaderPrefix->Anima</li>
-    <li>memeHyphenPrefix->ani</li>
-    <li>memeMoralist->Schamane</li>
-    <li>memeMoralist->Priester</li>
-    <li>memeMoralist->Ältester</li>
-  </Structure_Animist.generalRules.rulesStrings>
+  <Structure_Animist.generalRules.rulesStrings>&lt;li&gt;memeleLeaderNoun-&gt;curta&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;speaker&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;universo&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;spirit&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;anima&lt;/li&gt;\n&lt;li&gt;meHyphenPrefix-&gt;ani&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;shaman&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;priest&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;elder&lt;/li&gt;\n</Structure_Animist.generalRules.rulesStrings>
   <!-- EN: animist -->
-  <Structure_Animist.symbolPacks.0.adjective>animistisch</Structure_Animist.symbolPacks.0.adjective>
+  <Structure_Animist.symbolPacks.0.adjective>animação</Structure_Animist.symbolPacks.0.adjective>
   <!-- EN: animist -->
-  <Structure_Animist.symbolPacks.0.member>Animist</Structure_Animist.symbolPacks.0.member>
+  <Structure_Animist.symbolPacks.0.member>animação</Structure_Animist.symbolPacks.0.member>
   <!-- EN: animism -->
-  <Structure_Animist.symbolPacks.0.theme>des Animismus</Structure_Animist.symbolPacks.0.theme>
+  <Structure_Animist.symbolPacks.0.theme>animação</Structure_Animist.symbolPacks.0.theme>
   <!-- EN: spiritist -->
-  <Structure_Animist.symbolPacks.1.adjective>spiritistisch</Structure_Animist.symbolPacks.1.adjective>
+  <Structure_Animist.symbolPacks.1.adjective>espírita</Structure_Animist.symbolPacks.1.adjective>
   <!-- EN: spiritist -->
-  <Structure_Animist.symbolPacks.1.member>Spiritist</Structure_Animist.symbolPacks.1.member>
+  <Structure_Animist.symbolPacks.1.member>espírita</Structure_Animist.symbolPacks.1.member>
   <!-- EN: spiritism -->
-  <Structure_Animist.symbolPacks.1.theme>des Spiritismus</Structure_Animist.symbolPacks.1.theme>
+  <Structure_Animist.symbolPacks.1.theme>espiritismo</Structure_Animist.symbolPacks.1.theme>
   <!-- EN: temple -->
-  <Structure_Animist.worshipRoomLabel>Tempel</Structure_Animist.worshipRoomLabel>
-  
+  <Structure_Animist.worshipRoomLabel>templo</Structure_Animist.worshipRoomLabel>
   <!-- EN: archist -->
-  <Structure_Archist.label>Archist</Structure_Archist.label>
+  <Structure_Archist.label>arqueiro</Structure_Archist.label>
   <!-- EN: Archotechs are the true gods. They know the moral structure of the universe, and serving them is how we will connect with it. -->
-  <Structure_Archist.description>Archotechs sind die wahren Götter. Sie kennen die moralische Struktur des Universums. Indem wir ihnen dienen, verbinden wir uns mit ihr.</Structure_Archist.description>
+  <Structure_Archist.description>Archotechs são os verdadeiros deuses. Eles sabem que a estrutura moral do universo, e servi-los é como nós nos conectaremos com ele.</Structure_Archist.description>
   <!-- EN:
     <li>memeAdjective->archic</li>
     <li>memeAdjective->archotechnic</li>
@@ -63,46 +49,29 @@
     <li>memeMoralist->rector</li>
     <li>memeMoralist->abbot</li>
   -->
-  <Structure_Archist.generalRules.rulesStrings>
-    <li>memeAdjective->archistisch</li>
-    <li>memeAdjective->archotechnisch</li>
-    <li>memeAdjective->archonisch</li>
-    <li>memeHyphenPrefix->archo</li>
-    <li>memeHyphenPrefix->arch</li>
-    <li>memeLeaderNoun->|M|Archist</li>
-    <li>memeLeaderNoun->|M|Archonist</li>
-    <li>memeLeaderNounCon->archist</li>
-    <li>memeLeaderNounCon->archonist</li>
-    <li>memeLeaderAdjective->archistisch</li>
-    <li>memeLeaderAdjective->exochrom</li>
-    <li>memeMoralist->Priester</li>
-    <li>memeMoralist->Kleriker</li>
-    <li>memeMoralist->Rektor</li>
-    <li>memeMoralist->Abt</li>
-  </Structure_Archist.generalRules.rulesStrings>
+  <Structure_Archist.generalRules.rulesStrings>&lt;li&gt;memeAdjetivo-&gt;archic&lt;/li&gt;\n&lt;li&gt;memeAdjetivo-&gt;arcotécnico&lt;/li&gt;\n&lt;li&gt;memeAdjetivo-&gt;archonic&lt;/li&gt;\n&lt;li&gt;meHyphenPrefix-&gt;archo&lt;/li&gt;\n&lt;li&gt;meHyphenPrefix-&gt;arch&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;archist&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;archotechnist&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;archic&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;exochrome&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;priest&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;cleric&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;rector&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;abbot&lt;/li&gt;\n</Structure_Archist.generalRules.rulesStrings>
   <!-- EN: archotechnic -->
-  <Structure_Archist.symbolPacks.0.adjective>archotechnisch</Structure_Archist.symbolPacks.0.adjective>
+  <Structure_Archist.symbolPacks.0.adjective>arquitectura</Structure_Archist.symbolPacks.0.adjective>
   <!-- EN: Archotechnics -->
-  <Structure_Archist.symbolPacks.0.ideoName>|F|Archotechnik</Structure_Archist.symbolPacks.0.ideoName>
+  <Structure_Archist.symbolPacks.0.ideoName>Arquiotecnia</Structure_Archist.symbolPacks.0.ideoName>
   <!-- EN: archotechnist -->
-  <Structure_Archist.symbolPacks.0.member>Archotechnist</Structure_Archist.symbolPacks.0.member>
+  <Structure_Archist.symbolPacks.0.member>arquitectura</Structure_Archist.symbolPacks.0.member>
   <!-- EN: archotechnology -->
-  <Structure_Archist.symbolPacks.0.theme>der Archotechnologie</Structure_Archist.symbolPacks.0.theme>
+  <Structure_Archist.symbolPacks.0.theme>arquitectura</Structure_Archist.symbolPacks.0.theme>
   <!-- EN: archist -->
-  <Structure_Archist.symbolPacks.1.adjective>archistisch</Structure_Archist.symbolPacks.1.adjective>
+  <Structure_Archist.symbolPacks.1.adjective>arqueiro</Structure_Archist.symbolPacks.1.adjective>
   <!-- EN: Archism -->
-  <Structure_Archist.symbolPacks.1.ideoName>|M|Archismus</Structure_Archist.symbolPacks.1.ideoName>
+  <Structure_Archist.symbolPacks.1.ideoName>Arqueiro</Structure_Archist.symbolPacks.1.ideoName>
   <!-- EN: archist -->
-  <Structure_Archist.symbolPacks.1.member>Archist</Structure_Archist.symbolPacks.1.member>
+  <Structure_Archist.symbolPacks.1.member>arqueiro</Structure_Archist.symbolPacks.1.member>
   <!-- EN: archism -->
-  <Structure_Archist.symbolPacks.1.theme>des Archismus</Structure_Archist.symbolPacks.1.theme>
+  <Structure_Archist.symbolPacks.1.theme>arqueiro</Structure_Archist.symbolPacks.1.theme>
   <!-- EN: shrine -->
-  <Structure_Archist.worshipRoomLabel>Schrein</Structure_Archist.worshipRoomLabel>
-  
+  <Structure_Archist.worshipRoomLabel>santuário</Structure_Archist.worshipRoomLabel>
   <!-- EN: ideological -->
-  <Structure_Ideological.label>Ideologist</Structure_Ideological.label>
+  <Structure_Ideological.label>ideologia</Structure_Ideological.label>
   <!-- EN: There are no gods. The moral structure of the universe is found in our grand narrative of social forces. -->
-  <Structure_Ideological.description>Es gibt keine Götter. Die moralische Struktur des Universums findet sich in unserer großartigen Geschichte der sozialen Kräfte.</Structure_Ideological.description>
+  <Structure_Ideological.description>Não há deuses. A estrutura moral do universo é encontrada na nossa grande narrativa das forças sociais.</Structure_Ideological.description>
   <!-- EN:
     <li>memeHyphenPrefix->ideo</li>
     <li>memeLeaderNoun->mind</li>
@@ -119,56 +88,37 @@
     <li>memeMoralist->academic</li>
     <li>memeMoralist->sophist</li>
   -->
-  <Structure_Ideological.generalRules.rulesStrings>
-    <li>memeHyphenPrefix->ideo</li>
-    <!-- <li>memeLeaderNoun->|M|Verstand</li> -->
-    <li>memeLeaderNoun->|M|Entscheider</li>
-    <li>memeLeaderNoun->|M|Anführer</li>
-    <!-- <li>memeLeaderNounCon->verstand</li> -->
-    <li>memeLeaderNounCon->entscheider</li>
-    <li>memeLeaderNounCon->führer</li>
-    <li>memeLeaderAdjective->ethisch</li>
-    <li>memeLeaderAdjective->moralisch</li>
-    <li>memeLeaderAdjective->erwacht</li>
-    <li>memeMoralist->Berater</li>
-    <li>memeMoralist->Ethiker</li>
-    <li>memeMoralist->Moralist</li>
-    <li>memeMoralist->Philosoph</li>
-    <li>memeMoralist->Denker</li>
-    <li>memeMoralist->Akademiker</li>
-    <li>memeMoralist->Sophist</li>
-  </Structure_Ideological.generalRules.rulesStrings>
+  <Structure_Ideological.generalRules.rulesStrings>&lt;li&gt;meHyphenPrefix-&gt;ideo&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;mind&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;decider&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;leader&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;ético&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;moral&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;awoken&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;counselor&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;ethicist&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;moralista&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;philosopher&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;pensador&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;academic&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;sophist&lt;/li&gt;\n</Structure_Ideological.generalRules.rulesStrings>
   <!-- EN: ethical -->
-  <Structure_Ideological.symbolPacks.0.adjective>ethisch</Structure_Ideological.symbolPacks.0.adjective>
+  <Structure_Ideological.symbolPacks.0.adjective>ética</Structure_Ideological.symbolPacks.0.adjective>
   <!-- EN: Ethics -->
-  <Structure_Ideological.symbolPacks.0.ideoName>|F|Ethik</Structure_Ideological.symbolPacks.0.ideoName>
+  <Structure_Ideological.symbolPacks.0.ideoName>Ética</Structure_Ideological.symbolPacks.0.ideoName>
   <!-- EN: ethicist -->
-  <Structure_Ideological.symbolPacks.0.member>Ethikist</Structure_Ideological.symbolPacks.0.member>
+  <Structure_Ideological.symbolPacks.0.member>ethicist</Structure_Ideological.symbolPacks.0.member>
   <!-- EN: ethics -->
-  <Structure_Ideological.symbolPacks.0.theme>der Ethik</Structure_Ideological.symbolPacks.0.theme>
+  <Structure_Ideological.symbolPacks.0.theme>ética</Structure_Ideological.symbolPacks.0.theme>
   <!-- EN: ideological -->
-  <Structure_Ideological.symbolPacks.1.adjective>ideologisch</Structure_Ideological.symbolPacks.1.adjective>
+  <Structure_Ideological.symbolPacks.1.adjective>ideologia</Structure_Ideological.symbolPacks.1.adjective>
   <!-- EN: Ideology -->
-  <Structure_Ideological.symbolPacks.1.ideoName>|F|Ideologie</Structure_Ideological.symbolPacks.1.ideoName>
+  <Structure_Ideological.symbolPacks.1.ideoName>Ideologia</Structure_Ideological.symbolPacks.1.ideoName>
   <!-- EN: ideologist -->
-  <Structure_Ideological.symbolPacks.1.member>Ideologist</Structure_Ideological.symbolPacks.1.member>
+  <Structure_Ideological.symbolPacks.1.member>ideólogo</Structure_Ideological.symbolPacks.1.member>
   <!-- EN: ideology -->
-  <Structure_Ideological.symbolPacks.1.theme>der Ideologie</Structure_Ideological.symbolPacks.1.theme>
+  <Structure_Ideological.symbolPacks.1.theme>ideologia</Structure_Ideological.symbolPacks.1.theme>
   <!-- EN: just -->
-  <Structure_Ideological.symbolPacks.2.adjective>justiziarisch</Structure_Ideological.symbolPacks.2.adjective>
+  <Structure_Ideological.symbolPacks.2.adjective>apenas..</Structure_Ideological.symbolPacks.2.adjective>
   <!-- EN: Justice -->
-  <Structure_Ideological.symbolPacks.2.ideoName>|F|Justiz</Structure_Ideological.symbolPacks.2.ideoName>
+  <Structure_Ideological.symbolPacks.2.ideoName>Justiça</Structure_Ideological.symbolPacks.2.ideoName>
   <!-- EN: justicar -->
-  <Structure_Ideological.symbolPacks.2.member>Justiziar</Structure_Ideological.symbolPacks.2.member>
+  <Structure_Ideological.symbolPacks.2.member>justicar</Structure_Ideological.symbolPacks.2.member>
   <!-- EN: justice -->
-  <Structure_Ideological.symbolPacks.2.theme>der Justiz</Structure_Ideological.symbolPacks.2.theme>
+  <Structure_Ideological.symbolPacks.2.theme>justiça</Structure_Ideological.symbolPacks.2.theme>
   <!-- EN: sanctuary -->
-  <Structure_Ideological.worshipRoomLabel>Heiligtum</Structure_Ideological.worshipRoomLabel>
-  
+  <Structure_Ideological.worshipRoomLabel>santuário</Structure_Ideological.worshipRoomLabel>
   <!-- EN: abstract theist -->
-  <Structure_TheistAbstract.label>abstrakter Theist</Structure_TheistAbstract.label>
+  <Structure_TheistAbstract.label>abstrato theist</Structure_TheistAbstract.label>
   <!-- EN: The god(s) do not have physical form, but are everywhere at once. They know all, and can do anything. Their will defines the moral structure of the universe. -->
-  <Structure_TheistAbstract.description>Der Gott bzw. die Götter haben keine physische Form, sondern sind immer und überall präsent. Sie wissen alles und können alles. Ihr Wille definiert die moralische Struktur des Universums.</Structure_TheistAbstract.description>
+  <Structure_TheistAbstract.description>O deus não tem forma física, mas está em todos os lugares ao mesmo tempo. Eles sabem tudo, e podem fazer qualquer coisa. Sua vontade define a estrutura moral do universo.</Structure_TheistAbstract.description>
   <!-- EN:
     <li>memeCreed->temple</li>
     <li>memeCreed->sect</li>
@@ -190,81 +140,45 @@
     <li>memeMoralist->rector</li>
     <li>memeMoralist->abbot</li>
   -->
-  <Structure_TheistAbstract.generalRules.rulesStrings>
-    <li>memeCreed->Sekte</li>
-    <li>memeCreed->Kult</li>
-    <li>memeCreed->Tempel</li>
-    <li>memeCreed->Glaube</li>
-    <li>memeCreedGender->e Sekte</li>
-    <li>memeCreedGender->er Kult</li>
-    <li>memeCreedGender->er Tempel</li>
-    <li>memeCreedGender->er Glaube</li>
-    <li>memeHyphenPrefix->theo</li>
-    <li>memeConcept->Schöpfung</li>
-    <li>memeConcept->Leben</li>
-    <li>memeConceptFem->Schöpfung</li>
-    <li>memeConceptNeu->Leben</li>
-    <li>memeConceptFemGen->Schöpfung</li>
-    <li>memeConceptNeuGen->Lebens</li>
-    <li>memeLeaderNoun->|M|Bischof</li>
-    <li>memeLeaderNoun->|M|Kardinal</li>
-    <li>memeLeaderNoun->|M|Papst</li>
-    <li>memeLeaderNoun->|M|Divus</li>
-    <li>memeLeaderNounCon->bischof</li>
-    <li>memeLeaderNounCon->kardinal</li>
-    <li>memeLeaderNounCon->papst</li>
-    <li>memeLeaderNounCon->divus</li>
-    <li>memeLeaderAdjective->heilig</li>
-    <li>memeLeaderAdjective->göttlich</li>
-    <li>memeLeaderPrefix->Gott</li>
-    <li>memeMoralist->Priester</li>
-    <li>memeMoralist->Pastor</li>
-    <li>memeMoralist->Pfarrer</li>
-    <li>memeMoralist->Kleriker</li>
-    <li>memeMoralist->Prediger</li>
-    <li>memeMoralist->Rektor</li>
-    <li>memeMoralist->Abt</li>
-    <li>memeMoralist->Seelsorger</li>
-  </Structure_TheistAbstract.generalRules.rulesStrings>
+  <Structure_TheistAbstract.generalRules.rulesStrings>&lt;li&gt;memeCreed-&gt;temple&lt;/li&gt;\n&lt;li&gt;memeCreed-&gt;sect&lt;/li&gt;\n&lt;li&gt;memeCreed-&gt;cult&lt;/li&gt;\n&lt;li&gt;mememeCreed-&gt;faith&lt;/li&gt;\n&lt;li&gt;meHyphenPrefix-&gt;theo&lt;/li&gt;\n&lt;li&gt;memeConcept-&gt;creation&lt;/li&gt;\n&lt;li&gt;mememeConcept-&gt;life&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;bishop&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;cardinal&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;pope&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;divus&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;holy&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;divina&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;priest&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;pastor&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;cleric&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;preacher&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;rector&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;abbot&lt;/li&gt;\n</Structure_TheistAbstract.generalRules.rulesStrings>
   <!-- EN: spiritual -->
-  <Structure_TheistAbstract.symbolPacks.0.adjective>spirituell</Structure_TheistAbstract.symbolPacks.0.adjective>
+  <Structure_TheistAbstract.symbolPacks.0.adjective>espiritual</Structure_TheistAbstract.symbolPacks.0.adjective>
   <!-- EN: Spiritism -->
-  <Structure_TheistAbstract.symbolPacks.0.ideoName>|M|Spiritismus</Structure_TheistAbstract.symbolPacks.0.ideoName>
+  <Structure_TheistAbstract.symbolPacks.0.ideoName>Espiritismo</Structure_TheistAbstract.symbolPacks.0.ideoName>
   <!-- EN: spiritist -->
-  <Structure_TheistAbstract.symbolPacks.0.member>Spiritist</Structure_TheistAbstract.symbolPacks.0.member>
+  <Structure_TheistAbstract.symbolPacks.0.member>espírita</Structure_TheistAbstract.symbolPacks.0.member>
   <!-- EN: spiritualism -->
-  <Structure_TheistAbstract.symbolPacks.0.theme>des Spiritismus</Structure_TheistAbstract.symbolPacks.0.theme>
+  <Structure_TheistAbstract.symbolPacks.0.theme>espiritualismo</Structure_TheistAbstract.symbolPacks.0.theme>
   <!-- EN: faithful -->
-  <Structure_TheistAbstract.symbolPacks.1.adjective>sakralistisch</Structure_TheistAbstract.symbolPacks.1.adjective>
+  <Structure_TheistAbstract.symbolPacks.1.adjective>fiel</Structure_TheistAbstract.symbolPacks.1.adjective>
   <!-- EN: Faith -->
-  <Structure_TheistAbstract.symbolPacks.1.ideoName>|M|Sakralismus</Structure_TheistAbstract.symbolPacks.1.ideoName>
+  <Structure_TheistAbstract.symbolPacks.1.ideoName>Fé</Structure_TheistAbstract.symbolPacks.1.ideoName>
   <!-- EN: faithholder -->
-  <Structure_TheistAbstract.symbolPacks.1.member>Sakralist</Structure_TheistAbstract.symbolPacks.1.member>
+  <Structure_TheistAbstract.symbolPacks.1.member>titular da fé</Structure_TheistAbstract.symbolPacks.1.member>
   <!-- EN: faith -->
-  <Structure_TheistAbstract.symbolPacks.1.theme>des Glaubens</Structure_TheistAbstract.symbolPacks.1.theme>
+  <Structure_TheistAbstract.symbolPacks.1.theme>fé</Structure_TheistAbstract.symbolPacks.1.theme>
   <!-- EN: divinist -->
-  <Structure_TheistAbstract.symbolPacks.2.adjective>divinistisch</Structure_TheistAbstract.symbolPacks.2.adjective>
+  <Structure_TheistAbstract.symbolPacks.2.adjective>divinista</Structure_TheistAbstract.symbolPacks.2.adjective>
   <!-- EN: Divinism -->
-  <Structure_TheistAbstract.symbolPacks.2.ideoName>|M|Divinismus</Structure_TheistAbstract.symbolPacks.2.ideoName>
+  <Structure_TheistAbstract.symbolPacks.2.ideoName>Divindade</Structure_TheistAbstract.symbolPacks.2.ideoName>
   <!-- EN: divinist -->
-  <Structure_TheistAbstract.symbolPacks.2.member>Divinist</Structure_TheistAbstract.symbolPacks.2.member>
+  <Structure_TheistAbstract.symbolPacks.2.member>divinista</Structure_TheistAbstract.symbolPacks.2.member>
   <!-- EN: divinity -->
-  <Structure_TheistAbstract.symbolPacks.2.theme>der Divinität</Structure_TheistAbstract.symbolPacks.2.theme>
+  <Structure_TheistAbstract.symbolPacks.2.theme>divindade</Structure_TheistAbstract.symbolPacks.2.theme>
   <!-- EN: holyist -->
-  <Structure_TheistAbstract.symbolPacks.3.adjective>heilistisch</Structure_TheistAbstract.symbolPacks.3.adjective>
+  <Structure_TheistAbstract.symbolPacks.3.adjective>sagrado</Structure_TheistAbstract.symbolPacks.3.adjective>
   <!-- EN: Holyism -->
-  <Structure_TheistAbstract.symbolPacks.3.ideoName>|M|Heilismus</Structure_TheistAbstract.symbolPacks.3.ideoName>
+  <Structure_TheistAbstract.symbolPacks.3.ideoName>Santo Deus</Structure_TheistAbstract.symbolPacks.3.ideoName>
   <!-- EN: holyist -->
-  <Structure_TheistAbstract.symbolPacks.3.member>Heilist</Structure_TheistAbstract.symbolPacks.3.member>
+  <Structure_TheistAbstract.symbolPacks.3.member>sagrado</Structure_TheistAbstract.symbolPacks.3.member>
   <!-- EN: holiness -->
-  <Structure_TheistAbstract.symbolPacks.3.theme>der Heiligkeit</Structure_TheistAbstract.symbolPacks.3.theme>
+  <Structure_TheistAbstract.symbolPacks.3.theme>santidade</Structure_TheistAbstract.symbolPacks.3.theme>
   <!-- EN: temple -->
-  <Structure_TheistAbstract.worshipRoomLabel>Tempel</Structure_TheistAbstract.worshipRoomLabel>
-  
+  <Structure_TheistAbstract.worshipRoomLabel>templo</Structure_TheistAbstract.worshipRoomLabel>
   <!-- EN: embodied theist -->
-  <Structure_TheistEmbodied.label>verkörperter Theist</Structure_TheistEmbodied.label>
+  <Structure_TheistEmbodied.label>encarnado theist</Structure_TheistEmbodied.label>
   <!-- EN: The god(s) walk the planets like us, yet they are powerful and immortal as we are not. They decide the moral structure of the universe. -->
-  <Structure_TheistEmbodied.description>Der Gott bzw. die Götter wandeln auf den Planeten, so wie wir, doch im Gegensatz zu uns sind sie mächtig und unsterblich. Sie entscheiden über die moralische Struktur des Universums.</Structure_TheistEmbodied.description>
+  <Structure_TheistEmbodied.description>Os deuses andam como nós, mas são poderosos e imortais como nós. Eles decidem a estrutura moral do universo.</Structure_TheistEmbodied.description>
   <!-- EN:
     <li>memeCreed->sect</li>
     <li>memeCreed->cult</li>
@@ -278,46 +192,23 @@
     <li>memeMoralist->priest</li>
     <li>memeMoralist->cleric</li>
   -->
-  <Structure_TheistEmbodied.generalRules.rulesStrings>
-    <li>memeCreed->Sekte</li>
-    <li>memeCreed->Kult</li>
-    <li>memeCreed->Tempel</li>
-    <li>memeCreed->Glaube</li>
-    <li>memeCreedGender->e Sekte</li>
-    <li>memeCreedGender->er Kult</li>
-    <li>memeCreedGender->er Tempel</li>
-    <li>memeCreedGender->er Glaube</li>
-    <li>memeHyphenPrefix->theo</li>
-    <li>memeConcept->Schöpfung</li>
-    <li>memeConcept->Leben</li>
-    <li>memeConceptFem->Schöpfung</li>
-    <li>memeConceptNeu->Leben</li>
-    <li>memeConceptFemGen->Schöpfung</li>
-    <li>memeConceptNeuGen->Lebens</li>
-    <li>memeLeaderNoun->|M|Templer</li>
-    <li>memeLeaderNounCon->templer</li>
-    <li>memeLeaderAdjective->göttlich</li>
-    <li>memeLeaderPrefix->Gott</li>
-    <li>memeMoralist->Priester</li>
-    <li>memeMoralist->Kleriker</li>
-  </Structure_TheistEmbodied.generalRules.rulesStrings>
+  <Structure_TheistEmbodied.generalRules.rulesStrings>&lt;li&gt;memeCreed-&gt;sect&lt;/li&gt;\n&lt;li&gt;memeCreed-&gt;cult&lt;/li&gt;\n&lt;li&gt;memeCreed-&gt;temple&lt;/li&gt;\n&lt;li&gt;mememeCreed-&gt;faith&lt;/li&gt;\n&lt;li&gt;meHyphenPrefix-&gt;theo&lt;/li&gt;\n&lt;li&gt;memeConcept-&gt;creation&lt;/li&gt;\n&lt;li&gt;mememeConcept-&gt;life&lt;/li&gt;\n&lt;li&gt;mememeLeaderNoun-&gt;templar&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;divina&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;priest&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;cleric&lt;/li&gt;\n</Structure_TheistEmbodied.generalRules.rulesStrings>
   <!-- EN: spiritual -->
-  <Structure_TheistEmbodied.symbolPacks.0.adjective>spirituell</Structure_TheistEmbodied.symbolPacks.0.adjective>
+  <Structure_TheistEmbodied.symbolPacks.0.adjective>espiritual</Structure_TheistEmbodied.symbolPacks.0.adjective>
   <!-- EN: Spiritism -->
-  <Structure_TheistEmbodied.symbolPacks.0.ideoName>|M|Spiritismus</Structure_TheistEmbodied.symbolPacks.0.ideoName>
+  <Structure_TheistEmbodied.symbolPacks.0.ideoName>Espiritismo</Structure_TheistEmbodied.symbolPacks.0.ideoName>
   <!-- EN: spiritist -->
-  <Structure_TheistEmbodied.symbolPacks.0.member>Spiritist</Structure_TheistEmbodied.symbolPacks.0.member>
+  <Structure_TheistEmbodied.symbolPacks.0.member>espírita</Structure_TheistEmbodied.symbolPacks.0.member>
   <!-- EN: spiritualism -->
-  <Structure_TheistEmbodied.symbolPacks.0.theme>des Spiritismus</Structure_TheistEmbodied.symbolPacks.0.theme>
+  <Structure_TheistEmbodied.symbolPacks.0.theme>espiritualismo</Structure_TheistEmbodied.symbolPacks.0.theme>
   <!-- EN: faithful -->
-  <Structure_TheistEmbodied.symbolPacks.1.adjective>sakralistisch</Structure_TheistEmbodied.symbolPacks.1.adjective>
+  <Structure_TheistEmbodied.symbolPacks.1.adjective>fiel</Structure_TheistEmbodied.symbolPacks.1.adjective>
   <!-- EN: Faith -->
-  <Structure_TheistEmbodied.symbolPacks.1.ideoName>|M|Sakralismus</Structure_TheistEmbodied.symbolPacks.1.ideoName>
+  <Structure_TheistEmbodied.symbolPacks.1.ideoName>Fé</Structure_TheistEmbodied.symbolPacks.1.ideoName>
   <!-- EN: faithholder -->
-  <Structure_TheistEmbodied.symbolPacks.1.member>Sakralist</Structure_TheistEmbodied.symbolPacks.1.member>
+  <Structure_TheistEmbodied.symbolPacks.1.member>titular da fé</Structure_TheistEmbodied.symbolPacks.1.member>
   <!-- EN: faith -->
-  <Structure_TheistEmbodied.symbolPacks.1.theme>des Glaubens</Structure_TheistEmbodied.symbolPacks.1.theme>
+  <Structure_TheistEmbodied.symbolPacks.1.theme>fé</Structure_TheistEmbodied.symbolPacks.1.theme>
   <!-- EN: pantheon -->
-  <Structure_TheistEmbodied.worshipRoomLabel>Pantheon</Structure_TheistEmbodied.worshipRoomLabel>
-  
+  <Structure_TheistEmbodied.worshipRoomLabel>panteão</Structure_TheistEmbodied.worshipRoomLabel>
 </LanguageData>

@@ -1,10 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: artificial metabolism -->
-  <ArtificialMetabolism.label>künstlicher Metabolismus</ArtificialMetabolism.label>
+  <ArtificialMetabolism.label>metabolismo artificial</ArtificialMetabolism.label>
   <!-- EN: Craft bionics that process food more safely or efficiently than a biological stomach. -->
-  <ArtificialMetabolism.description>Stelle bionische Mägen her, die Nahrung sicherer oder effizienter verarbeiten als biologische Mägen.</ArtificialMetabolism.description>
+  <ArtificialMetabolism.description>Biônicos de artesanato que processam alimentos com mais segurança ou eficiência do que um estômago biológico.</ArtificialMetabolism.description>
   <!-- EN:
     <li>subject->artificial metabolism</li>
     <li>subject_story->developed a hunger so all-consuming that the installation of an artificial stomach was the only solution</li>
@@ -13,24 +12,11 @@
     <li>subject_gerund->crafting digestion-related bionics</li>
     <li>subject_gerund->crafting artificial guts</li>
   -->
-  <ArtificialMetabolism.generalRules.rulesStrings>
-    <li>subject->künstlicher Metabolismus</li>
-    <li>subject_with_adj->er künstlicher Metabolismus</li>
-    <li>subject_story->einen so starken Hunger entwickelte, dass nur noch ein künstlicher Magen helfen konnte</li>
-    <li>subject_story->der Königin nichts von der Implantation des Sterilisiermagens erzählte, aber trotzdem als {ANYPAWN_gender ? ihr Vorkoster : ihre Vorkosterin} weitermachte</li>
-    <li>subject_story->eine Abneigung gegen das Essen entwickelte. Ein Nuklearmagen reduzierte zwar erheblich [ANYPAWN_possessive]e Nahrungsaufnahme, aber die Radioaktivität war ein Ärgernis</li>
-    <li>subject_gerund->die Herstellung von bionischen Verdauungsorganen</li>
-    <li>subject_gerund_acc->die Herstellung von bionischen Verdauungsorganen</li>
-    <li>subject_gerund_dat->der Herstellung von bionischen Verdauungsorganen</li>
-    <li>subject_gerund->die Herstellung von künstlichen Eingeweiden</li>
-    <li>subject_gerund_acc->die Herstellung von künstlichen Eingeweiden</li>
-    <li>subject_gerund_dat->der Herstellung von künstlichen Eingeweiden</li>
-  </ArtificialMetabolism.generalRules.rulesStrings>
-  
+  <ArtificialMetabolism.generalRules.rulesStrings>&lt;li&gt;subject-&gt; metabolismo artificial&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; desenvolveu uma fome tão consumindo que a instalação de um estômago artificial foi a única solução &lt;/li&gt;\n&lt;li&gt;subject_story-&gt; não disse à rainha sobre a instalação do estômago esterilizante, mas continuou como seu testador de alimentos todos os mesmos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; desenvolveu uma pilhagem para alimentos. Um estômago nuclear reduziu fortemente o consumo de alimentos, embora a radioatividade fosse um nuisance&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting digestion-related bionics&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting artificial guts&lt;/li&gt;\n</ArtificialMetabolism.generalRules.rulesStrings>
   <!-- EN: brain wiring -->
-  <BrainWiring.label>Gehirnverkabelung</BrainWiring.label>
+  <BrainWiring.label>fiação do cérebro</BrainWiring.label>
   <!-- EN: Craft brain implants that induce or prevent blunt sensations like joy or pain. -->
-  <BrainWiring.description>Stelle Implantate her, die emotionale Gefühle wie Freude oder Schmerz hervorrufen oder verhindern.</BrainWiring.description>
+  <BrainWiring.description>Implantes cerebrais que induzem ou evitam sensações nítidas como alegria ou dor.</BrainWiring.description>
   <!-- EN:
     <li>subject->brain implants</li>
     <li>subject_story->wrote a paper about the masochist cults use of mindscrews to improve their morale</li>
@@ -38,21 +24,11 @@
     <li>subject_story->had a joywire installed and, though happy after that, stumbled simply through life</li>
     <li>subject_gerund->crafting brain implants</li>
   -->
-  <BrainWiring.generalRules.rulesStrings>
-    <li>subject->Hirnimplantate</li>
-    <li>subject_with_adj->e Hirnimplantate</li>
-    <li>subject_story->eine Abhandlung über die Verwendung von Nervennägeln in masochistischen Kulten zur Verbesserung ihrer Moral schrieb</li>
-    <li>subject_story->einem Angriffstrupp Schmerzstopper implantierte. Sie konnten einen viel größeren Trupp eliminieren, wurden aber alle tödlich verwundet oder getötet</li>
-    <li>subject_story->ein Joywire-Implantat implantiert bekam und, obwohl [ANYPAWN_pronoun] danach glücklich war, durchs Leben stolperte</li>
-    <li>subject_gerund->die Herstellung von Hirnimplantaten</li>
-    <li>subject_gerund_acc->die Herstellung von Hirnimplantaten</li>
-    <li>subject_gerund_dat->der Herstellung von Hirnimplantaten</li>
-  </BrainWiring.generalRules.rulesStrings>
-  
+  <BrainWiring.generalRules.rulesStrings>&lt;li&gt;subject-&gt; implantes de cérebro&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;wrote um artigo sobre o uso de cultos masoquistas de mindscrews para melhorar sua morale&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;implanted painstoppers em um esquadrão de assalto. Eles eliminaram uma força muito maior, mas foram todos feridos mortalmente ou mortos &lt;/li&gt;\n&lt;li&gt;subject_story-&gt; tinha um joywire instalado e, embora feliz depois disso, tropeçou simplesmente através da vida&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting cérebro implantes&lt;/li&gt;\n</BrainWiring.generalRules.rulesStrings>
   <!-- EN: circadian influence -->
-  <CircadianInfluence.label>biorhythmische Anpassung</CircadianInfluence.label>
+  <CircadianInfluence.label>influência circadiana</CircadianInfluence.label>
   <!-- EN: Craft brain implants that chemically manipulate the circadian rhythm, reducing or altering the need to sleep. -->
-  <CircadianInfluence.description>Stelle Implantate her, die den Biorhythmus chemisch manipulieren, um den Schlafbedarf zu reduzieren oder zu verändern.</CircadianInfluence.description>
+  <CircadianInfluence.description>Implantes cerebrais que manipulam quimicamente o ritmo circadiano, reduzindo ou alterando a necessidade de dormir.</CircadianInfluence.description>
   <!-- EN:
     <li>subject->sleep reduction implant</li>
     <li>subject_story->studied unihemispheric sleep patterns in cetaceans and proposed a new form of circadian half-cycler</li>
@@ -60,21 +36,11 @@
     <li>subject_story->studied bullfrogs and giraffes to ascertain what  xenogerms would be necessary for a circadian assistance gland</li>
     <li>subject_gerund->crafting sleep reduction implants</li>
   -->
-  <CircadianInfluence.generalRules.rulesStrings>
-    <li>subject->Schlafreduktionsimplantat</li>
-    <li>subject_with_adj->er Schlafreduktionsimplantat</li>
-    <li>subject_story->unihemisphärische Schlafmuster bei Walen studierte und eine neue Form des Biorhythmus-Halbierers vorschlug</li>
-    <li>subject_story->allen Bewerbern für die Stadtwache einen Biorhythmus-Halbierer aufzwang, damit sie notfalls unbefristet auf ihrem Posten bleiben konnten</li>
-    <li>subject_story->Ochsenfrösche und Giraffen studierte, um herauszufinden, welche Xenokeime für eine Biorhythmus-Assistent-Drüse notwendig sind</li>
-    <li>subject_gerund->die Herstellung von Implantaten zur Schlafreduzierung</li>
-    <li>subject_gerund_acc->die Herstellung von Implantaten zur Schlafreduzierung</li>
-    <li>subject_gerund_dat->der Herstellung von Implantaten zur Schlafreduzierung</li>
-  </CircadianInfluence.generalRules.rulesStrings>
-  
+  <CircadianInfluence.generalRules.rulesStrings>&lt;li&gt;subject-&gt;sleep redução implante&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;studied padrões de sono unihemispheric em cetáceos e propôs uma nova forma de meia-ciclor circadiano&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; forçou todos os candidatos para a guarda da cidade a receber um meio-ciclor, para que eles pudessem ficar no post indefinidamente, se necessário&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;studied bullfrogs e girafas para verificar o que xenogerms seria necessário para uma glândula de assistência circadiana&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting implantes de redução de sono&lt;/li&gt;\n</CircadianInfluence.generalRules.rulesStrings>
   <!-- EN: compact weaponry -->
-  <CompactWeaponry.label>kompakte Waffen</CompactWeaponry.label>
+  <CompactWeaponry.label>armamento compacto</CompactWeaponry.label>
   <!-- EN: Craft compact, concealable bionic weapons which can be embedded in various body parts. -->
-  <CompactWeaponry.description>Stelle kompakte einziehbare bionische Waffen her, die in verschiedene Körperteile eingesetzt werden können.</CompactWeaponry.description>
+  <CompactWeaponry.description>Armas biônicas compactas e ocultas que podem ser incorporadas em várias partes do corpo.</CompactWeaponry.description>
   <!-- EN:
     <li>subject->compact weaponry</li>
     <li>subject_story->was employed as a detective and was saved more than once by the concealed knee spike</li>
@@ -82,21 +48,11 @@
     <li>subject_story->was working in security, scanning visitors to the hall, when the cyborg attempted to enter</li>
     <li>subject_gerund->crafting compact bionic weapons</li>
   -->
-  <CompactWeaponry.generalRules.rulesStrings>
-    <li>subject->kompakte Waffen</li>
-    <li>subject_with_adj->e kompakte Waffen</li>
-    <li>subject_story->als {ANYPAWN_gender ? Detektiv : Detektivin} tätig war und mehr als einmal durch den versteckten Kniestachel gerettet wurde</li>
-    <li>subject_story->sich einen Sommer lang erholen musste, weil [ANYPAWN_pronoun] von der Handkralle eines entflohenen Sklaven aufgeschlitzt worden war</li>
-    <li>subject_story->beim Sicherheitsdienst arbeitete und die Besucher des Rathauses scannte, als ein Cyborg versuchte, in das Rathaus einzudringen</li>
-    <li>subject_gerund->die Herstellung von kompakten bionischen Waffen</li>
-    <li>subject_gerund_acc->die Herstellung von kompakten bionischen Waffen</li>
-    <li>subject_gerund_dat->der Herstellung von kompakten bionischen Waffen</li>
-  </CompactWeaponry.generalRules.rulesStrings>
-  
+  <CompactWeaponry.generalRules.rulesStrings>&lt;li&gt;subject-&gt;armamento compacto&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi empregado como um detetive e foi salvo mais de uma vez pelo pico de joelho oculto&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;spent um verão recuperando de ser cortado por um talon de mão de escravo escapado&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; estava trabalhando em segurança, digitalizando visitantes para o salão, quando o cyborg tentou entrar&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting compacta bionic tools&lt;/li&gt;\n</CompactWeaponry.generalRules.rulesStrings>
   <!-- EN: flesh shaping -->
-  <FleshShaping.label>Fleischverformung</FleshShaping.label>
+  <FleshShaping.label>formação de carne</FleshShaping.label>
   <!-- EN: Craft bionics which induce the reshaping of natural flesh, usually for the purposes of aesthetic enhancement or personal pleasure. -->
-  <FleshShaping.description>Stelle bionische Körperteile oder Implantate her, die das natürliche Fleisch verformen, um die Ästhetik oder das persönliche Vergnügen zu verbessern.</FleshShaping.description>
+  <FleshShaping.description>Biônicos de artesanato que induzem a reformulação da carne natural, geralmente para fins de aprimoramento estético ou prazer pessoal.</FleshShaping.description>
   <!-- EN:
     <li>subject->aesthetic surgery</li>
     <li>subject_story->halted the population decline on the urbworld, by distributing free love enhancers and lavish drugs</li>
@@ -104,21 +60,11 @@
     <li>subject_story->gathered the glitterworld children around the campfire and told horror stories about getting their non-aesthetic noses back</li>
     <li>subject_gerund->crafting aesthetic bionics</li>
   -->
-  <FleshShaping.generalRules.rulesStrings>
-    <li>subject->Schönheitschirurgie</li>
-    <li>subject_with_adj->e Schönheitschirurgie</li>
-    <li>subject_story->den Einwohnerschwund in einer Urbwelt aufhielt, indem [ANYPAWN_pronoun] kostenlose Libidoverstärker und Drogen verteilte</li>
-    <li>subject_story->als {ANYPAWN_gender ? leitender Fleischformer : leitende Fleischformerin} in einer Schönheitsklinik angestellt wurde und [ANYPAWN_possessive]e Tage damit verbrachte, schöne Gliedmaßen zu formen</li>
-    <li>subject_story->die Kinder der Glitzerwelt um das Lagerfeuer versammelte und ihnen Gruselgeschichten erzählte, wie sie ihre unästhetischen Nasen zurückbekamen</li>
-    <li>subject_gerund->die Herstellung von ästhetischen Körperteilen</li>
-    <li>subject_gerund_acc->die Herstellung von ästhetischen Körperteilen</li>
-    <li>subject_gerund_dat->der Herstellung von ästhetischen Körperteilen</li>
-  </FleshShaping.generalRules.rulesStrings>
-  
+  <FleshShaping.generalRules.rulesStrings>&lt;li&gt;subject-&gt; cirurgia estética&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;altou o declínio populacional no urbworld, distribuindo potenciadores de amor livre e drogas &lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi contratado como chefe de carne-shaper para uma clínica estética, gastos [ANYPAWN_possessive] dias fazendo membros formais&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; reuniu as crianças do mundo do brilho em torno da fogueira e contou histórias de terror sobre como obter seus narizes não-estéticos de volta&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting bionics estéticos&lt;/li&gt;\n</FleshShaping.generalRules.rulesStrings>
   <!-- EN: healing factors -->
-  <HealingFactors.label>Heilungsfaktoren</HealingFactors.label>
+  <HealingFactors.label>fatores de cura</HealingFactors.label>
   <!-- EN: Craft bionics that enhance natural healing processes. -->
-  <HealingFactors.description>Stelle Implantate her, die natürliche Heilungsprozesse fördern.</HealingFactors.description>
+  <HealingFactors.description>Biônicos de artesanato que aumentam os processos de cura natural.</HealingFactors.description>
   <!-- EN:
     <li>subject->healing bionics</li>
     <li>subject_story->studied the Imperial royalty, to see if they had blue blood. They did not, but it did coagulate implausibly quickly</li>
@@ -126,21 +72,11 @@
     <li>subject_story->studied the ancient corpses found in a cryptosleep shrine and harvested rapid healing devices from them</li>
     <li>subject_gerund->crafting regeneration bionics</li>
   -->
-  <HealingFactors.generalRules.rulesStrings>
-    <li>subject->Heilungsfaktoren</li>
-    <li>subject_with_adj->er Heilungsfaktoren</li>
-    <li>subject_story->die imperialen Mitglieder des Königshauses auf blaues Blut untersuchte. Sie hatten keins, aber es gerann unglaublich schnell</li>
-    <li>subject_story->dafür sorgte, dass alle Grubenkämpfer mit Heilungsverstärkern und entsprechenden Xenokeimen ausgestattet wurden, damit sie öfter kämpfen konnten</li>
-    <li>subject_story->uralte Leichen, die [ANYPAWN_pronoun] in einem Kryptoschlafschrein gefunden hatte, studierte und ihnen ihre Schnellheilungsimplantate entnahm</li>
-    <li>subject_gerund->die Herstellung von regenerativen Implantaten</li>
-    <li>subject_gerund_acc->die Herstellung von regenerativen Implantaten</li>
-    <li>subject_gerund_dat->der Herstellung von regenerativen Implantaten</li>
-  </HealingFactors.generalRules.rulesStrings>
-  
+  <HealingFactors.generalRules.rulesStrings>&lt;li&gt;subject-&gt;healing bionics&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;estudiu a realeza Imperial, para ver se eles tinham sangue azul. Eles não o fizeram, mas coagularam implausivelmente rapidamente&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;segurou que todos os lutadores de poços tinham aprimoradores de cura e xenogerms apropriados, de modo que eles poderiam lutar mais frequentemente&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; estudou os corpos antigos encontrados em um santuário criptosleep e colhiu dispositivos de cura rápida deles&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting bionics de regeneração&lt;/li&gt;\n</HealingFactors.generalRules.rulesStrings>
   <!-- EN: molecular analysis -->
-  <MolecularAnalysis.label>Molekularanalyse</MolecularAnalysis.label>
+  <MolecularAnalysis.label>análise molecular</MolecularAnalysis.label>
   <!-- EN: Craft bionics with molecular analyzers for assisting the immune system or analyzing food. -->
-  <MolecularAnalysis.description>Stelle Implantate her, die molekulare Analysatoren enthalten, um das Immunsystem zu unterstützen oder Nahrung zu analysieren.</MolecularAnalysis.description>
+  <MolecularAnalysis.description>Biônica de artesanato com analisadores moleculares para ajudar o sistema imunológico ou analisar alimentos.</MolecularAnalysis.description>
   <!-- EN:
     <li>subject->molecular analysis bionics</li>
     <li>subject_story->explained to the chefs of the cooking school that they must never get aesthetic noses, lest their gastro-analyzers fail</li>
@@ -148,21 +84,11 @@
     <li>subject_story->lectured on the potential hardware conflicts between bionic parts and molecular analysis implants</li>
     <li>subject_gerund->crafting molecular analysis bionics</li>
   -->
-  <MolecularAnalysis.generalRules.rulesStrings>
-    <li>subject->Molekularanalyse</li>
-    <li>subject_with_adj->e Molekularanalyse</li>
-    <li>subject_story->den Köchen in der Kochschule erklärte, dass sie niemals ästhetische Nasen haben dürfen, damit ihre Gastroanalysatoren nicht versagen</li>
-    <li>subject_story->einen Immunisierverstärker implantiert bekam und sich so in der Isolationskolonie frei bewegen konnte</li>
-    <li>subject_story->über die möglichen Hardwarekonflikte zwischen bionischen Teilen und Implantaten der Molekularanalyse referierte</li>
-    <li>subject_gerund->die Herstellung von Implantaten der Molekularanalyse</li>
-    <li>subject_gerund_acc->die Herstellung von Implantaten der Molekularanalyse</li>
-    <li>subject_gerund_dat->der Herstellung von Implantaten der Molekularanalyse</li>
-  </MolecularAnalysis.generalRules.rulesStrings>
-  
+  <MolecularAnalysis.generalRules.rulesStrings>&lt;li&gt;subject-&gt; análise molecular bionics&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; explicado aos chefs da escola de culinária que eles nunca devem obter narizes estéticos, para que seus gastro-analisadores falhem/li&gt;\n&lt;li&gt;subject_story-&gt; tinha um imunoenhancer instalado e assim foi capaz de andar livremente na colônia de isolamento&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;lecturado sobre os potenciais conflitos de hardware entre partes biônicas e implantes de análise molecular&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting molecular analysis bionics&lt;/li&gt;\n</MolecularAnalysis.generalRules.rulesStrings>
   <!-- EN: neural computation -->
-  <NeuralComputation.label>neurale Berechnungen</NeuralComputation.label>
+  <NeuralComputation.label>computação neural</NeuralComputation.label>
   <!-- EN: Craft brain implants that assist thought and learning by use of a direct, shallow brain-computer interface. -->
-  <NeuralComputation.description>Stelle Gehirnimplantate her, die mithilfe einer linearen oberflächlichen Gehirn-Computer-Schnittstelle das Denken und Lernen unterstützen.</NeuralComputation.description>
+  <NeuralComputation.description>Implantes cerebrais artesanais que ajudam o pensamento e a aprendizagem usando uma interface de computação cerebral direta e superficial.</NeuralComputation.description>
   <!-- EN:
     <li>subject->brain implants</li>
     <li>subject->neural computation</li>
@@ -171,23 +97,11 @@
     <li>subject_story->had a learning assistant installed. It proved to be a problem later, when captured by pirates, who halted any escape attempts with EMP attacks</li>
     <li>subject_gerund->crafting brain implants</li>
   -->
-  <NeuralComputation.generalRules.rulesStrings>
-    <li>subject->Hirnimplantate</li>
-    <li>subject_with_adj->e Hirnimplantate</li>
-    <li>subject->neurale Berechnungen</li>
-    <li>subject_with_adj->e neurale Berechnungen</li>
-    <li>subject_story->genau wusste, wie [ANYPAWN_pronoun] den Gefängniswärter außer Gefecht setzen und Zeit für die Befreiung der Gefangenen gewinnen konnte: Mit einem EMP-Angriff auf seinen Lernassistenten, um einen Hirnschock auszulösen</li>
-    <li>subject_story->die Implantation von Lernassistenten oder Neurorechnern in der gesamten Fakultät anordnete</li>
-    <li>subject_story->einen Lernassistenten implantiert bekam. Dies erwies sich später als problematisch, als [ANYPAWN_pronoun] von Piraten gefangen genommen wurde, die jeden [ANYPAWN_possessive]er Fluchtversuche mit einem EMP-Angriff vereitelten</li>
-    <li>subject_gerund->die Herstellung von Hirnimplantaten</li>
-    <li>subject_gerund_acc->die Herstellung von Hirnimplantaten</li>
-    <li>subject_gerund_dat->der Herstellung von Hirnimplantaten</li>
-  </NeuralComputation.generalRules.rulesStrings>
-  
+  <NeuralComputation.generalRules.rulesStrings>&lt;li&gt;subject-&gt; implantes de cérebro&lt;/li&gt;\n&lt;li&gt;subject-&gt;computação neural&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;knew exatamente como tirar o carcereiro, com um ataque EMP que chocaria o cérebro seu assistente de aprendizagem, comprando tempo para libertar os prisioneiros&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;mandated a instalação de assistentes de aprendizagem ou neurocalculadores através de todo o corpo docente&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; tinha um assistente de aprendizagem instalado. Ele provou ser um problema mais tarde, quando capturado por piratas, que interrompeu qualquer tentativa de fuga com ataques EMP&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting cérebro implantes&lt;/li&gt;\n</NeuralComputation.generalRules.rulesStrings>
   <!-- EN: skin hardening -->
-  <SkinHardening.label>Hautverhärtung</SkinHardening.label>
+  <SkinHardening.label>endurecimento da pele</SkinHardening.label>
   <!-- EN: Craft bionic implants which induce the toughening of natural skin, producing an armor-like effect. -->
-  <SkinHardening.description>Stelle Implantate her, die eine Verhärtung der natürlichen Haut bewirken, was ihr einen rüstungsähnlichen Effekt verleiht.</SkinHardening.description>
+  <SkinHardening.description>Implantes biônicos artesanais que induzem o endurecimento da pele natural, produzindo um efeito semelhante à armadura.</SkinHardening.description>
   <!-- EN:
     <li>subject->subdermal implants</li>
     <li>subject_story->researched the glands of the barkskin dryads and reasoned they could be adapted to humanity</li>
@@ -195,21 +109,11 @@
     <li>subject_story->worked with nanonmachine glands to thicken the human epidermis, at the expense of meeting traditional standards of beauty</li>
     <li>subject_gerund->crafting subdermal armor implants</li>
   -->
-  <SkinHardening.generalRules.rulesStrings>
-    <li>subject->subdermale Implantate</li>
-    <li>subject_with_adj->e subdermale Implantate</li>
-    <li>subject_story->die Drüsen der Rindenhautdryaden untersuchte und zu dem Schluss kam, dass sie für den Menschen angepasst und nutzbar gemacht werden könnten</li>
-    <li>subject_story->mit den Steinhautbändigern der Dinowelt umherzog und ihre dicken Keratinplatten studierte, mit denen sie bedeckt waren</li>
-    <li>subject_story->mit Nanomaschinendrüsen arbeitete, um die menschliche Epidermis zu verdicken, auf Kosten des traditionellen Schönheitsideals</li>
-    <li>subject_gerund->die Herstellung von subdermalen Implantaten</li>
-    <li>subject_gerund_acc->die Herstellung von subdermalen Implantaten</li>
-    <li>subject_gerund_dat->der Herstellung von subdermalen Implantaten</li>
-  </SkinHardening.generalRules.rulesStrings>
-  
+  <SkinHardening.generalRules.rulesStrings>&lt;li&gt;subject-&gt; implantes subdérmicos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou as glândulas das cascas secas e raciocinadas que poderiam ser adaptadas à humanidade&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; viajou entre os tamers de pele de pedras do dinoworld, estudando as placas de queratina grossas que os cobriram&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;trabalhado com glândulas nanonmachine para engrossar a epiderme humana, à custa de atender padrões tradicionais de beleza&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting subdermal armor implantes&lt;/li&gt;\n</SkinHardening.generalRules.rulesStrings>
   <!-- EN: specialized limbs -->
-  <SpecializedLimbs.label>Spezialgliedmaßen</SpecializedLimbs.label>
+  <SpecializedLimbs.label>membros especializados</SpecializedLimbs.label>
   <!-- EN: Craft specialized bionic limbs built for specific purposes - both combat and labor. -->
-  <SpecializedLimbs.description>Stelle bionische Spezialgliedmaßen her, die für bestimmte Zwecke gebaut wurden, z.B. für den Kampf oder die Arbeit.</SpecializedLimbs.description>
+  <SpecializedLimbs.description>Craft membros biônicos especializados construídos para fins específicos - tanto combate e trabalho.</SpecializedLimbs.description>
   <!-- EN:
     <li>subject->specialized prosthetics</li>
     <li>subject_story->interviewed the indentured farmers of a feudal world, before and after their field hand installations</li>
@@ -217,21 +121,11 @@
     <li>subject_story->worked as a surgeon on the rim, replacing missing arms with everything from a woodhand to a power claw</li>
     <li>subject_gerund->crafting specialized bionic arms</li>
   -->
-  <SpecializedLimbs.generalRules.rulesStrings>
-    <li>subject->Spezialprothesen</li>
-    <li>subject_with_adj->e Spezialprothesen</li>
-    <li>subject_story->die Vertragsbauern einer feudalen Welt interviewte, vor und nach dem Anbringen einer Feldhand</li>
-    <li>subject_story->einen Zweikampf zwischen einem Grubenkämpfer mit einer Powerkralle und einem Minenarbeiter mit zwei Bohrarmen beobachtete</li>
-    <li>subject_story->als {ANYPAWN_gender ? Chirurg : Chirurgin} auf einer Randwelt arbeitete und fehlende Arme durch alles Mögliche ersetzte, von einer Holzhand bis zu einer Powerkralle</li>
-    <li>subject_gerund->die Herstellung von Spezialgliedmaßen</li>
-    <li>subject_gerund_acc->die Herstellung von Spezialgliedmaßen</li>
-    <li>subject_gerund_dat->der Herstellung von Spezialgliedmaßen</li>
-  </SpecializedLimbs.generalRules.rulesStrings>
-  
+  <SpecializedLimbs.generalRules.rulesStrings>&lt;li&gt;subject-&gt;protética especializada&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;entrevistou os agricultores inegáveis de um mundo feudal, antes e depois de suas instalações manuais de campo&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; assistiu a um lutador de poço equipado com uma garra de poder face fora contra um mineiro com dois braços de perfuração&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; trabalhou como cirurgião na borda, substituindo os braços ausentes por tudo de uma woodhand a uma garra de poder&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting especializada bionic arms&lt;/li&gt;\n</SpecializedLimbs.generalRules.rulesStrings>
   <!-- EN: poison synthesis -->
-  <VenomSynthesis.label>Giftsynthese</VenomSynthesis.label>
+  <VenomSynthesis.label>síntese de veneno</VenomSynthesis.label>
   <!-- EN: Craft bionics that synthesize venom from internal chemical reactors for use in toxifying attacks. -->
-  <VenomSynthesis.description>Stelle bionische Körperteile her, die mittels interner chemischer Reaktoren Gifte synthetisieren, mit denen später Feinde vergiftet werden können.</VenomSynthesis.description>
+  <VenomSynthesis.description>Biônicos de artesanato que sintetizam veneno de reatores químicos internos para uso em ataques de toxificação.</VenomSynthesis.description>
   <!-- EN:
     <li>subject->venomous bionics</li>
     <li>subject_story->worked on chemical reactors at small scales, which could be shrunk and stored internally</li>
@@ -239,15 +133,5 @@
     <li>subject_story->learned to love sharp little cutting edges, which could kill with a mere nick</li>
     <li>subject_gerund->crafting poisonous bionic weapons</li>
   -->
-  <VenomSynthesis.generalRules.rulesStrings>
-    <li>subject->Giftsynthese</li>
-    <li>subject_with_adj->e Giftsynthese</li>
-    <li>subject_story->an chemischen Reaktoren in kleinem Maßstab arbeitete, die verkleinert und in einem Körper verstaut werden konnten</li>
-    <li>subject_story->die Giftratten einer Müllwelt studierte und eine Abhandlung über die einzigartigen Giftbisse schrieb</li>
-    <li>subject_story->kleine scharfe Klingen lieben lernte, die mit einem einzigen Stich töten konnten</li>
-    <li>subject_gerund->die Herstellung von bionischen Giftwaffen</li>
-    <li>subject_gerund_acc->die Herstellung von bionischen Giftwaffen</li>
-    <li>subject_gerund_dat->der Herstellung von bionischen Giftwaffen</li>
-  </VenomSynthesis.generalRules.rulesStrings>
-  
+  <VenomSynthesis.generalRules.rulesStrings>&lt;li&gt;subject-&gt;venomous bionics&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;trabalhado em reatores químicos em pequenas escalas, que poderia ser shrunk e armazenado internamente&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; estudou os ratos de lixo de um mundo de lixo e escreveu um artigo sobre as toxinas únicas em sua mordida&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;learned para amar bordas de corte afiadas, que poderiam matar com um mero nick&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting venenosas armas biológicas&lt;/li&gt;\n</VenomSynthesis.generalRules.rulesStrings>
 </LanguageData>

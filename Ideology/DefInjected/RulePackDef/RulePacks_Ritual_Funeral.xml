@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>r_ritualName(p=2)->[memeAdjective] [funeral]</li>
     <li>r_ritualName->[funeral] of [chosenTheme]</li>
@@ -17,31 +16,5 @@
     <li>funeral->interment</li>
     <li>funeral->requiem</li>
   -->
-  <NamerRitualFuneral.rulePack.rulesStrings>
-    <li>r_ritualName(p=3)->[memeAdjective]e [funeral_fem]</li>
-    <li>r_ritualName->[memeAdjective]es [funeral_neu]</li>
-    <li>r_ritualName->[funeral] [chosenTheme]</li>
-    <li>r_ritualName(p=3)->[chosenAdjective]e [funeral_fem]</li>
-    <li>r_ritualName->[chosenAdjective]es [funeral_neu]</li>
-    <li>r_ritualName->{replace: [keyDeity]'s; "s's"-"s'"; "ß's"-"ß'"; "z's"-"z'"; "x's"-"x'"; "ce's"-"ce'"; "'s"-"s"} [funeral]</li>
-    <li>r_ritualName->[funeral] von [keyDeity]</li>
-    <li>r_ritualName->[funeral] [memeConceptGenDef]</li>
-    <li>r_ritualName->[funeral] {replace: des [chosenIdeoName]; "des |M|"-"des "; "des |F|"-"der "; "des |N|"-"des "}</li>
-    <li>r_ritualName(p=0.01)->Beerdigung</li>
-    <li>funeral(p=3)->[funeral_fem]</li>
-    <li>funeral->[funeral_neu]</li>
-    <li>funeral_fem->Beerdigung</li>
-    <li>funeral_fem->Bestattung</li>
-    <li>funeral_fem->Beisetzung</li>
-    <li>funeral_fem->Totenmesse</li>
-    <li>funeral_fem->Trauerrede</li>
-    <li>funeral_fem->Grabrede</li>
-    <li>funeral_neu->Begräbnis</li>
-    <li>funeral_neu->Requiem</li>
-    <!-- gender-specific -->
-    <li>memeConceptGenDef->des [memeConceptMasGen]</li>
-    <li>memeConceptGenDef->der [memeConceptFemGen]</li>
-    <li>memeConceptGenDef->des [memeConceptNeuGen]</li>
-  </NamerRitualFuneral.rulePack.rulesStrings>
-  
+  <NamerRitualFuneral.rulePack.rulesStrings>&lt;li&gt;r_ritualName(p=2)-&gt;[memeAdjetivo] [funeral]&lt;/li&gt;\n&lt;li&gt;r_ritualName-&gt;[funeral] de [chosenTheme]&lt;/li&gt;\n&lt;li&gt;r_ritualName-&gt;[chosenAdjective] [funeral]&lt;/li&gt;\n&lt;li&gt;r_ritualName-&gt;[keyDeity] [funeral]&lt;/li&gt;\n&lt;li&gt;r_ritualName-&gt;[funeral] de [keyDeity]&lt;/li&gt;\n&lt;li&gt;r_ritualName-&gt;[funeral] de [memeConcept]&lt;/li&gt;\n&lt;li&gt;r_ritualName-&gt;[funeral] de [chosenIdeoName]&lt;/li&gt;\n&lt;li&gt;r_ritualName(p=0,01)-&gt;funeral&lt;/li&gt;\n&lt;li&gt;funeral-&gt;funeral&lt;/li&gt;\n&lt;li&gt;funeral-&gt;mourning&lt;/li&gt;\n&lt;li&gt;funeral-&gt;eulogy&lt;/li&gt;\n&lt;li&gt;funeral-&gt;burial&lt;/li&gt;\n&lt;li&gt;funeral-&gt;interment&lt;/li&gt;\n&lt;li&gt;funeral-&gt;requiem&lt;/li&gt;\n</NamerRitualFuneral.rulePack.rulesStrings>
 </LanguageData>

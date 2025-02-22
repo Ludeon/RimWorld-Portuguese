@@ -1,24 +1,16 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>wastepacksLetterLabel->Wastepacks arrived</li>
     <li>wastepacksLetterText->The toxic wastepacks have been delivered.</li>
   -->
-  <PollutionDump.questContentRules.rulesStrings>
-    <li>wastepacksLetterLabel->Giftmüllpakete eingetroffen</li>
-    <li>wastepacksLetterText->Die Giftmüllpakete wurden geliefert.</li>
-  </PollutionDump.questContentRules.rulesStrings>
+  <PollutionDump.questContentRules.rulesStrings>&lt;li&gt;wastepacksLetterLabel-&gt; Pacotes de lixo chegaram &lt;/li&gt;\n&lt;li&gt;wastepacksLetterText-&gt; Os resíduos tóxicos foram entregues.&lt;/li&gt;\n</PollutionDump.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==True)->A machine persona in an orbiting ship has a special request. She wishes to offload an excess of toxic wastepacks and hopes that you will store them responsibly.\n\nIf you accept, she will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has a special request. [asker_pronoun] has produced an abundance of toxic wastepacks that [asker_pronoun] does not wish to store.\n\nIf you accept, [asker_nameDef] will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
     <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has a special request. Someone has dumped an abundance of toxic wastepacks near one of [asker_possessive] settlements and [asker_pronoun] is unable to safely store them.\n\nIf you accept, [asker_nameDef] will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
   -->
-  <PollutionDump.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==True)->Eine im Orbit befindliche Maschinenpersona hat ein spezielles Anliegen. Sie möchte überschüssige Giftmüllpakete bei dir abladen und hofft, dass du diese vernünftig lagerst.\n\nWenn du zusagst, wird sie [wastepackCount] Giftmüllpakete per Transportkapseln zustellen.\n\nWenn die Giftmüllpakete nicht tiefgekühlt gelagert werden, lösen sie sich mit der Zeit auf und verseuchen den umliegenden Boden.</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] der Fraktion [asker_faction_name], hat ein spezielles Anliegen. [asker_pronoun] hat unglaublich viele Giftmüllpakete produziert, die [asker_pronoun] nicht bei sich lagern möchte.\n\nWenn du zusagst, wird [asker_pronoun] [wastepackCount] Giftmüllpakete per Transportkapseln zustellen.\n\nWenn die Giftmüllpakete nicht tiefgekühlt gelagert werden, lösen sie sich mit der Zeit auf und verseuchen den umliegenden Boden.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] der Fraktion [asker_faction_name], hat ein spezielles Anliegen. Jemand hat bei einer [asker_possessive]er Siedlungen massenhaft Giftmüllpakete abgeladen, die [asker_pronoun] nicht sicher lagern kann.\n\nWenn du zusagst, wird [asker_pronoun] [wastepackCount] Giftmüllpakete per Transportkapseln zustellen.\n\nWenn die Giftmüllpakete nicht tiefgekühlt gelagert werden, lösen sie sich mit der Zeit auf und verseuchen den umliegenden Boden.</li>
-  </PollutionDump.questDescriptionRules.rulesStrings>
+  <PollutionDump.questDescriptionRules.rulesStrings>&lt;li&gt;questDescription (askerIsNull==True)-&gt; Uma persona de máquina em um navio orbitando tem um pedido especial. Ela deseja descarregar um excesso de lixo tóxico e espera que você os armazene de forma responsável.\n\nSe você aceitar, ela vai entregar [wastepackCount] lixos tóxicos por vagem de transporte.\n\nSe não for mantido congelado, os resíduos tóxicos dissolverão ao longo do tempo, poluindo terreno próximo.&lt;/li&gt;\n&lt;li&gt;questDescription(asker_royalInCurrentFaction==True)-&gt;[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] tem um pedido especial. [asker_pronoun] produziu uma abundância de lixos tóxicos que [asker_pronoun] não deseja armazenar.\n\nSe você aceitar, [asker_nameDef] entregará [wastepackCount] lixos tóxicos por vagem de transporte.\n\nSe não for mantido congelado, os resíduos tóxicos dissolverão ao longo do tempo, poluindo terreno próximo.&lt;/li&gt;\n&lt;li&gt;questDescription(asker_factionLeader=True)-&gt;[asker_faction_leaderTitle] [asker_nameFull] de [asker_faction_name] tem um pedido especial. Alguém despejou uma abundância de lixos tóxicos perto de um dos assentamentos [asker_possessive] e [asker_pronoun] é incapaz de armazená-los com segurança.\n\nSe você aceitar, [asker_nameDef] entregará [wastepackCount] lixos tóxicos por vagem de transporte.\n\nSe não for mantido congelado, os resíduos tóxicos dissolverão ao longo do tempo, poluindo terreno próximo.&lt;/li&gt;\n</PollutionDump.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[waste] [dump]</li>
     <li>questName(askerIsNull==False)->[asker_faction_pawnSingular] [waste] [dump]</li>
@@ -32,22 +24,5 @@
     <li>dump->clearance</li>
     <li>dump->problem</li>
   -->
-  <PollutionDump.questNameRules.rulesStrings>
-    <li>questName->[waste][dump]</li>
-    <li>questName(p=0.7,askerIsNull==False,asker_royalInCurrentFaction==True)->Imperiale [waste][dumpFem]</li>
-    <li>questName(p=0.3,askerIsNull==False,asker_royalInCurrentFaction==True)->Imperiales [waste][dumpNeu]</li>
-    <li>questName(askerIsNull==False,asker_royalInCurrentFaction==False)->{replace: [asker_nameDef]s; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"} [waste][dump]</li>
-    <li>waste->Abfall</li>
-    <li>waste->Müll</li>
-    <li>waste->Verseuchungs</li>
-    <li>waste->Gift</li>
-    <li>waste->Giftmüll</li>
-    <li>dumpFem->entsorgung</li>
-    <li>dumpFem->beseitigung</li>
-    <li>dumpNeu->problem</li>
-    <li>dumpFem->problematik</li>
-    <li>dump->[dumpFem]</li>
-    <li>dump(p=0.33)->[dumpNeu]</li>
-  </PollutionDump.questNameRules.rulesStrings>
-  
+  <PollutionDump.questNameRules.rulesStrings>&lt;li&gt;questName-&gt;[waste] [dump]&lt;/li&gt;\n&lt;li&gt;questName (askerIsNull=False)-&gt;[asker_faction_pawnSingular] [waste] [dump]&lt;/li&gt;\n&lt;li&gt;questName(askerIsNull=False,asker_royalInCurrentFaction=False)-&gt;[asker_nameDef] [waste] [dump]&lt;/li&gt;\n&lt;li&gt;waste-&gt;waste&lt;/li&gt;\n&lt;li&gt;waste-&gt;pollution&lt;/li&gt;\n&lt;li&gt;waste-&gt;toxin&lt;/li&gt;\n&lt;li&gt;waste-&gt;wastepack&lt;/li&gt;\n&lt;li&gt;dump-&gt;dump&lt;/li&gt;\n&lt;li&gt;dump-&gt;drop&lt;/li&gt;\n&lt;li&gt;dump-&gt;clearance&lt;/li&gt;\n&lt;li&gt;dump-&gt;problem&lt;/li&gt;\n</PollutionDump.questNameRules.rulesStrings>
 </LanguageData>

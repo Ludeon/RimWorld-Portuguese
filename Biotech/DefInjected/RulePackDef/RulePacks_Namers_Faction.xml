@@ -1,13 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>SylI->WordParts/Syllables_Impid</li>
   -->
-  <ImpidUtility.rulePack.rulesFiles>
-    <li>SylI->WordParts/Syllables_Impid</li>
-    <li>SylICap->WordParts/Syllables_Impid_Cap</li>
-  </ImpidUtility.rulePack.rulesFiles>
+  <ImpidUtility.rulePack.rulesFiles>&lt;li&gt;SylI-&gt;WordParts/Syllables_Impid&lt;/li&gt;\n</ImpidUtility.rulePack.rulesFiles>
   <!-- EN:
     <li>placeNameCore->[SylI][SylI]</li>
     <li>placeNameCore->[SylI][SylI][SylI]</li>
@@ -32,37 +28,11 @@
     <li>placeEnd->kev</li>
     <li>placeEnd->vel</li>
   -->
-  <ImpidUtility.rulePack.rulesStrings>
-    <li>placeNameCore->[SylICap][SylI]</li>
-    <li>placeNameCore->[SylICap][SylI][SylI]</li>
-    <li>placeNameCore->[SylICap][placeEnd]</li>
-    <li>placeNameCore->[SylICap][SylI][placeEnd]</li>
-    <li>placeEnd->ach</li>
-    <li>placeEnd->az</li>
-    <li>placeEnd->eth</li>
-    <li>placeEnd->zoz</li>
-    <li>placeEnd->och</li>
-    <li>placeEnd->oz</li>
-    <li>placeEnd->echz</li>
-    <li>placeEnd->ess</li>
-    <li>placeEnd->onss</li>
-    <li>placeEnd->in</li>
-    <li>placeEnd->ichs</li>
-    <li>placeEnd->izz</li>
-    <li>placeEnd->sezz</li>
-    <li>placeEnd->tch</li>
-    <li>placeEnd->tchz</li>
-    <li>placeEnd->ken</li>
-    <li>placeEnd->kev</li>
-    <li>placeEnd->vel</li>
-  </ImpidUtility.rulePack.rulesStrings>
-  
+  <ImpidUtility.rulePack.rulesStrings>&lt;li&gt;placeNameCore-&gt;[SylI][SylI]&lt;/li&gt;\n&lt;li&gt;placeNameCore-&gt;[SylI][SylI][SylI]&lt;/li&gt;\n&lt;li&gt;placeNameCore-&gt;[SylI][placeEnd]&lt;/li&gt;\n&lt;li&gt;placeNameCore-&gt;[SylI][SylI][placeEnd]&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;ach&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;az&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;eth&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;zoz&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;och&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;oz&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;echz&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;ess&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;onss&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;in&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;ichs&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;izz&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;sezz&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;tch&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;tchz&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;ken&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;kev&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;vel&lt;/li&gt;\n</ImpidUtility.rulePack.rulesStrings>
   <!-- EN:
     <li>political_union_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
   -->
-  <NamerFactionOutlanderPig.rulePack.rulesFiles>
-    <li>political_union_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
-  </NamerFactionOutlanderPig.rulePack.rulesFiles>
+  <NamerFactionOutlanderPig.rulePack.rulesFiles>&lt;li&gt;political_union_outlander-&gt;Words/Nouns/PoliticalUnions_Outlander&lt;/li&gt;\n</NamerFactionOutlanderPig.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name(p=2)->[nameCore]</li>
     <li>r_name->[nameCore] [political_union_outlander]</li>
@@ -85,49 +55,11 @@
     <li>end->mok</li>
     <li>end->mm</li>
   -->
-  <NamerFactionOutlanderPig.rulePack.rulesStrings>
-    <li>r_name(p=2)->[nameCore]</li>
-    <li>r_name->[nameCore]-[political_union_outlander]</li>
-    <li>r_name->[political_union_outlander] der [nameCore]</li>
-    <li>maybeHyphenSylP(p=3)->[SylP]</li>
-    <li>maybeHyphenSylP->-[SylPCap]</li>
-    <li>maybeHyphenEnd(p=3)->[end]</li>
-    <li>maybeHyphenEnd->-[endCap]</li>
-    <li>nameCore->[SylPCap][maybeHyphenSylP]</li>
-    <li>nameCore->[SylPCap][maybeHyphenSylP][maybeHyphenSylP]</li>
-    <li>nameCore->[SylPCap][maybeHyphenEnd]</li>
-    <li>nameCore->[SylPCap][maybeHyphenSylP][maybeHyphenEnd]</li>
-    <li>end->oo</li>
-    <li>end->lok</li>
-    <li>end->lom</li>
-    <li>end->oink</li>
-    <li>end->gug</li>
-    <li>end->und</li>
-    <li>end->oog</li>
-    <li>end->pig</li>
-    <li>end->pog</li>
-    <li>end->mok</li>
-    <li>end->mm</li>
-    <li>endCap->Oo</li>
-    <li>endCap->Lok</li>
-    <li>endCap->Lom</li>
-    <li>endCap->Pig</li>
-    <li>endCap->Gug</li>
-    <li>endCap->Und</li>
-    <li>endCap->Oog</li>
-    <li>endCap->Oink</li>
-    <li>endCap->Pog</li>
-    <li>endCap->Mok</li>
-    <li>endCap->Mm</li>
-  </NamerFactionOutlanderPig.rulePack.rulesStrings>
-  
+  <NamerFactionOutlanderPig.rulePack.rulesStrings>&lt;li&gt;r_name(p=2)-&gt;[nameCore]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[nameCore] [political_union_outlander]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[political_union_outlander] de [nameCore]&lt;/li&gt;\n&lt;li&gt;maybeHyphen(p=3)-&gt;&lt;/li&gt;\n&lt;li&gt;maybeHyphen-&gt;-&lt;/li&gt;\n&lt;li&gt;nameCore-&gt;[SylP][maybeHyphen][SylP]&lt;/li&gt;\n&lt;li&gt;nameCore-&gt;[SylP][maybeHyphen][SylP][maybeHyphen][SylP]&lt;/li&gt;\n&lt;li&gt;nameCore-&gt;[SylP][maybeHyphen][end]&lt;/li&gt;\n&lt;li&gt;nameCore-&gt;[SylP][maybeHyphen][SylP][maybeHyphen][end]&lt;/li&gt;\n&lt;li&gt;end-&gt;oo&lt;/li&gt;\n&lt;li&gt;end-&gt;lok&lt;/li&gt;\n&lt;li&gt;end-&gt;lom&lt;/li&gt;\n&lt;li&gt;end-&gt;oink&lt;/li&gt;\n&lt;li&gt;end-&gt;gug&lt;/li&gt;\n&lt;li&gt;end-&gt;und&lt;/li&gt;\n&lt;li&gt;end-&gt;oog&lt;/li&gt;\n&lt;li&gt;end-&gt;pig&lt;/li&gt;\n&lt;li&gt;end-&gt;pog&lt;/li&gt;\n&lt;li&gt;end-&gt;mok&lt;/li&gt;\n&lt;li&gt;end-&gt;mm&lt;/li&gt;\n</NamerFactionOutlanderPig.rulePack.rulesStrings>
   <!-- EN:
     <li>groupname->Words/Nouns/GroupNames</li>
   -->
-  <NamerFactionPirateWaster.rulePack.rulesFiles>
-    <li>groupname->Words/Nouns/GroupNames</li>
-    <li>groupname_low->Words/Nouns/GroupNames_Low</li>
-  </NamerFactionPirateWaster.rulePack.rulesFiles>
+  <NamerFactionPirateWaster.rulePack.rulesFiles>&lt;li&gt;groupname-&gt; Palavras/Nouns/GroupNames&lt;/li&gt;\n</NamerFactionPirateWaster.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name->[poison] [groupname]</li>
     <li>r_name->[poison] [men]</li>
@@ -146,24 +78,7 @@
     <li>men->pests</li>
     <li>men->trash</li>
   -->
-  <NamerFactionPirateWaster.rulePack.rulesStrings>
-    <li>r_name->[poison]-[groupname]</li>
-    <li>r_name->[poison][groupname_low]</li>
-    <li>r_name->[poison]-[men]</li>
-    <li>men->Menschen</li>
-    <li>men->Crew</li>
-    <li>men->Gang</li>
-    <li>men->Würger</li>
-    <li>men->Psychos</li>
-    <li>men->Vergifter</li>
-    <li>men->Verseucher</li>
-    <li>men->Verpester</li>
-    <li>men->Verschmutzer</li>
-    <li>men->Verderber</li>
-    <li>men->Glitscher</li>
-    <li>men->Plagen</li>
-  </NamerFactionPirateWaster.rulePack.rulesStrings>
-  
+  <NamerFactionPirateWaster.rulePack.rulesStrings>&lt;li&gt;r_name-&gt;[poison] [nome do grupo]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[poison] [men]&lt;/li&gt;\n&lt;li&gt;men-&gt;men&lt;/li&gt;\n&lt;li&gt;men-&gt;crew&lt;/li&gt;\n&lt;li&gt;men-&gt;gang&lt;/li&gt;\n&lt;li&gt;men-&gt;chokers&lt;/li&gt;\n&lt;li&gt;men-&gt;pillers&lt;/li&gt;\n&lt;li&gt;men-&gt;psychers&lt;/li&gt;\n&lt;li&gt;men-&gt;toxers&lt;/li&gt;\n&lt;li&gt;men-&gt;blighters&lt;/li&gt;\n&lt;li&gt;men-&gt;wasters&lt;/li&gt;\n&lt;li&gt;men-&gt;packers&lt;/li&gt;\n&lt;li&gt;men-&gt;slickers&lt;/li&gt;men\n&lt;li&gt;men-&gt;slickers&lt;/li&gt;men\n&lt;li&gt;men-&gt;pests&lt;/li&gt;\n&lt;li&gt;men-&gt;trash&lt;/li&gt;\n</NamerFactionPirateWaster.rulePack.rulesStrings>
   <!-- EN:
     <li>r_name(p=2)->[placeNameCore]</li>
     <li>r_name->[placeNameCore] [faction]</li>
@@ -177,25 +92,7 @@
     <li>faction->fur</li>
     <li>faction->kinroar</li>
   -->
-  <NamerFactionPirateYttakin.rulePack.rulesStrings>
-    <li>r_name(p=2)->[placeNameCore]</li>
-    <li>r_name->[placeNameCore]-[faction]</li>
-    <li>r_name->[faction] der [placeNameCore]</li>
-    <li>faction->Brüllsippe</li>
-    <li>faction->Brüllclan</li>
-    <li>faction->Stamm</li>
-    <li>faction->Clan</li>
-    <li>faction->Sippe</li>
-    <li>faction->Pack</li>
-    <li>faction->Rotte</li>
-    <li>faction->Meute</li>
-    <li>faction->Familie</li>
-    <li>faction->Pelzclan</li>
-    <li>faction->Pelzsippe</li>
-    <li>faction->Fellclan</li>
-    <li>faction->Fellsippe</li>
-  </NamerFactionPirateYttakin.rulePack.rulesStrings>
-  
+  <NamerFactionPirateYttakin.rulePack.rulesStrings>&lt;li&gt;r_name(p=2)-&gt;[placeNameCore]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[placeNameCore] [faction]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[facção] de [placeNameCore]&lt;/li&gt;\n&lt;li&gt;faction-&gt;roarclan&lt;/li&gt;\n&lt;li&gt;faction-&gt;tribe&lt;/li&gt;\n&lt;li&gt;faction-&gt;clan&lt;/li&gt;faction\n&lt;li&gt;faction-&gt;roar&lt;/li&gt;faction\n&lt;li&gt;faction-&gt;pack&lt;/li&gt;faction\n&lt;li&gt;faction-&gt;family&lt;/li&gt;\n&lt;li&gt;faction-&gt;fur&lt;/li&gt;faction\n&lt;li&gt;faction-&gt;kinroar&lt;/li&gt;\n</NamerFactionPirateYttakin.rulePack.rulesStrings>
   <!-- EN:
     <li>r_name(p=2)->[placeNameCore]</li>
     <li>r_name->[placeNameCore] [faction]</li>
@@ -207,35 +104,17 @@
     <li>faction->flamehome</li>
     <li>faction->firehome</li>
   -->
-  <NamerFactionTribalImpid.rulePack.rulesStrings>
-    <li>r_name(p=2)->[placeNameCore]</li>
-    <li>r_name->[placeNameCore]-[faction]</li>
-    <li>r_name->[faction] der [placeNameCore]</li>
-    <li>faction->Stamm</li>
-    <li>faction->Liga</li>
-    <li>faction->Rennschaft</li>
-    <li>faction->Sprintschaft</li>
-    <li>faction->Flammenheim</li>
-    <li>faction->Feuerheim</li>
-  </NamerFactionTribalImpid.rulePack.rulesStrings>
-  
+  <NamerFactionTribalImpid.rulePack.rulesStrings>&lt;li&gt;r_name(p=2)-&gt;[placeNameCore]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[placeNameCore] [faction]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[facção] de [placeNameCore]&lt;/li&gt;\n&lt;li&gt;faction-&gt;clade&lt;/li&gt;faction\n&lt;li&gt;faction-&gt;league&lt;/li&gt;faction\n&lt;li&gt;faction-&gt;runship&lt;/li&gt;faction-&gt;runship&lt;/li&gt;\n&lt;li&gt;faction-&gt;sprintship&lt;/li&gt;\n&lt;li&gt;faction-&gt;flamehome&lt;/li&gt;\n&lt;li&gt;faction-&gt;firehome&lt;/li&gt;\n</NamerFactionTribalImpid.rulePack.rulesStrings>
   <!-- EN:
     <li>political_union_tribal->Words/Nouns/PoliticalUnions_Tribal</li>
   -->
-  <NamerFactionTribalNeanderthal.rulePack.rulesFiles>
-    <li>political_union_tribal->Words/Nouns/PoliticalUnions_Tribal</li>
-  </NamerFactionTribalNeanderthal.rulePack.rulesFiles>
+  <NamerFactionTribalNeanderthal.rulePack.rulesFiles>&lt;li&gt;political_union_tribal-&gt;Words/Nouns/PoliticalUnions_Tribal&lt;/li&gt;\n</NamerFactionTribalNeanderthal.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name(p=2)->[placeNameCore]</li>
     <li>r_name->[placeNameCore] [political_union_tribal]</li>
     <li>r_name->[political_union_tribal] of [placeNameCore]</li>
   -->
-  <NamerFactionTribalNeanderthal.rulePack.rulesStrings>
-    <li>r_name(p=2)->[placeNameCore]</li>
-    <li>r_name->[placeNameCore]-[political_union_tribal]</li>
-    <li>r_name->[political_union_tribal] der [placeNameCore]</li>
-  </NamerFactionTribalNeanderthal.rulePack.rulesStrings>
-  
+  <NamerFactionTribalNeanderthal.rulePack.rulesStrings>&lt;li&gt;r_name(p=2)-&gt;[placeNameCore]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[placeNameCore] [political_union_tribal]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[political_union_tribal] de [placeNameCore]&lt;/li&gt;\n</NamerFactionTribalNeanderthal.rulePack.rulesStrings>
   <!-- EN:
     <li>r_name->[townname_wordgen]</li>
     <li>maybeHyphen(p=3)-></li>
@@ -267,62 +146,7 @@
     <li>townend->op</li>
     <li>townend->pig</li>
   -->
-  <NamerSettlementOutlanderPig.rulePack.rulesStrings>
-    <li>r_name->[townname_wordgen]</li>
-    <li>maybeHyphenSylP(p=3)->[SylP]</li>
-    <li>maybeHyphenSylP->-[SylPCap]</li>
-    <li>maybeHyphenTownend(p=3)->[townend]</li>
-    <li>maybeHyphenTownend->-[townendCap]</li>
-    <li>townname_wordgen->[SylPCap][maybeHyphenSylP]</li>
-    <li>townname_wordgen->[SylPCap][maybeHyphenSylP][maybeHyphenSylP]</li>
-    <li>townname_wordgen->[SylPCap][maybeHyphenTownend]</li>
-    <li>townname_wordgen->[SylPCap][maybeHyphenSylP][maybeHyphenTownend]</li>
-    <li>townend->bille</li>
-    <li>townend->wille</li>
-    <li>townend->bwug</li>
-    <li>townend->born</li>
-    <li>townend->grab</li>
-    <li>townend->bal</li>
-    <li>townend->wope</li>
-    <li>townend->ig</li>
-    <li>townend->kess</li>
-    <li>townend->mur</li>
-    <li>townend->wig</li>
-    <li>townend->gon</li>
-    <li>townend->og</li>
-    <li>townend->wen</li>
-    <li>townend->wag</li>
-    <li>townend->woog</li>
-    <li>townend->worg</li>
-    <li>townend->roog</li>
-    <li>townend->rog</li>
-    <li>townend->welg</li>
-    <li>townend->op</li>
-    <li>townend->pig</li>
-    <li>townendCap->Bille</li>
-    <li>townendCap->Wille</li>
-    <li>townendCap->Bwug</li>
-    <li>townendCap->Born</li>
-    <li>townendCap->Grab</li>
-    <li>townendCap->Bal</li>
-    <li>townendCap->Wope</li>
-    <li>townendCap->Ig</li>
-    <li>townendCap->Kess</li>
-    <li>townendCap->Mur</li>
-    <li>townendCap->Wig</li>
-    <li>townendCap->Gon</li>
-    <li>townendCap->Og</li>
-    <li>townendCap->Wen</li>
-    <li>townendCap->Wag</li>
-    <li>townendCap->Woog</li>
-    <li>townendCap->Worg</li>
-    <li>townendCap->Roog</li>
-    <li>townendCap->Rog</li>
-    <li>townendCap->Welg</li>
-    <li>townendCap->Op</li>
-    <li>townendCap->Pig</li>
-  </NamerSettlementOutlanderPig.rulePack.rulesStrings>
-  
+  <NamerSettlementOutlanderPig.rulePack.rulesStrings>&lt;li&gt;r_name-&gt;[townname_wordgen]&lt;/li&gt;\n&lt;li&gt;maybeHyphen(p=3)-&gt;&lt;/li&gt;\n&lt;li&gt;maybeHyphen-&gt;-&lt;/li&gt;\n&lt;li&gt;townname_wordgen-&gt;[SylP][maybeHyphen][SylP]&lt;/li&gt;\n&lt;li&gt;townname_wordgen-&gt;[SylP][maybeHyphen][SylP][maybeHyphen][SylP]&lt;/li&gt;\n&lt;li&gt;townname_wordgen-&gt;[SylP][maybeHyphen][townend]&lt;/li&gt;\n&lt;li&gt;townname_wordgen-&gt;[SylP][maybeHyphen][SylP][maybeHyphen][townend]&lt;/li&gt;\n&lt;li&gt;townend-&gt;bille&lt;/li&gt;\n&lt;li&gt;townend-&gt;wille&lt;/li&gt;\n&lt;li&gt;townend-&gt;bwug&lt;/li&gt;\n&lt;li&gt;townend-&gt;born&lt;/li&gt;\n&lt;li&gt;townend-&gt;grab&lt;/li&gt;\n&lt;li&gt;townend-&gt;bal&lt;/li&gt;\n&lt;li&gt;townend-&gt;wope&lt;/li&gt;\n&lt;li&gt;townend-&gt;ig&lt;/li&gt;\n&lt;li&gt;townend-&gt;kes&lt;/li&gt;\n&lt;li&gt;townend-&gt;mur&lt;/li&gt;\n&lt;li&gt;townend-&gt;wig&lt;/li&gt;\n&lt;li&gt;townend-&gt;gon&lt;/li&gt;\n&lt;li&gt;townend-&gt;og&lt;/li&gt;\n&lt;li&gt;townend-&gt;wen&lt;/li&gt;\n&lt;li&gt;townend-&gt;wag&lt;/li&gt;\n&lt;li&gt;townend-&gt;woog&lt;/li&gt;\n&lt;li&gt;townend-&gt;worg&lt;/li&gt;\n&lt;li&gt;townend-&gt;roog&lt;/li&gt;\n&lt;li&gt;townend-&gt;rog&lt;/li&gt;\n&lt;li&gt;townend-&gt;welg&lt;/li&gt;\n&lt;li&gt;townend-&gt;op&lt;/li&gt;\n&lt;li&gt;townend-&gt;pig&lt;/li&gt;\n</NamerSettlementOutlanderPig.rulePack.rulesStrings>
   <!-- EN:
     <li>r_name->[townNameWordgen]</li>
     <li>r_name->[townNameCombo]</li>
@@ -349,62 +173,23 @@
     <li>town->butchery</li>
     <li>town->tank</li>
   -->
-  <NamerSettlementPirateWaster.rulePack.rulesStrings>
-    <li>r_name->[townNameWordgen]</li>
-    <li>r_name->[townNameCombo]</li>
-    <li>townNameWordgen->[SylE][SylE]</li>
-    <li>townNameWordgen->[SylE][SylE][SylE]</li>
-    <li>townNameWordgen->[SylE][townEndToxic]</li>
-    <li>townNameWordgen->[SylE][SylE][townEndToxic]</li>
-    <li>townEndToxic->tox</li>
-    <li>townEndToxic->vor</li>
-    <li>townEndToxic->son</li>
-    <li>townEndToxic->zon</li>
-    <li>townEndToxic->toth</li>
-    <li>townEndToxic->zoun</li>
-    <li>townEndToxic->slick</li>
-    <li>townEndToxic->pill</li>
-    <li>townEndToxic->ash</li>
-    <li>townEndToxic->ven</li>
-    <li>townNameCombo->[poison][townLow]</li>
-    <li>town->Stadt</li>
-    <li>town->Basis</li>
-    <li>town->Fort</li>
-    <li>town->Hafen</li>
-    <li>townLow->stadt</li>
-    <li>townLow->basis</li>
-    <li>townLow->fort</li>
-    <li>townLow->hafen</li>
-  </NamerSettlementPirateWaster.rulePack.rulesStrings>
-  
+  <NamerSettlementPirateWaster.rulePack.rulesStrings>&lt;li&gt;r_name-&gt;[townNameWordgen]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[townNameCombo]&lt;/li&gt;\n&lt;li&gt;townNameWordgen-&gt;[SylE][SylE]&lt;/li&gt;\n&lt;li&gt;townNameWordgen-&gt;[SylE][SylE][SylE]&lt;/li&gt;\n&lt;li&gt;townNameWordgen-&gt;[SylE][townEndToxic]&lt;/li&gt;\n&lt;li&gt;townNameWordgen-&gt;[SylE][SylE][townEndToxic]&lt;/li&gt;\n&lt;li&gt;townEndToxic-&gt;tox&lt;/li&gt;\n&lt;li&gt;townEndToxic-&gt;vor&lt;/li&gt;\n&lt;li&gt;townEndToxic-&gt;son&lt;/li&gt;\n&lt;li&gt;townEndToxic-&gt;zon&lt;/li&gt;\n&lt;li&gt;townEndToxic-&gt;toth&lt;/li&gt;\n&lt;li&gt;townEndToxic-&gt;zoun&lt;/li&gt;\n&lt;li&gt;townEndToxic-&gt;slick&lt;/li&gt;\n&lt;li&gt;townEndToxic-&gt;pill&lt;/li&gt;\n&lt;li&gt;townEndToxic-&gt;ash&lt;/li&gt;\n&lt;li&gt;townEndToxic-&gt;ven&lt;/li&gt;\n&lt;li&gt;townNameCombo-&gt;[poison] [town]&lt;/li&gt;\n&lt;li&gt;town-&gt;town&lt;/li&gt;\n&lt;li&gt;town-&gt;base&lt;/li&gt;\n&lt;li&gt;town-&gt;fort&lt;/li&gt;\n&lt;li&gt;town-&gt;port&lt;/li&gt;\n&lt;li&gt;town-&gt;abattoir&lt;/li&gt;\n&lt;li&gt;town-&gt;butchery&lt;/li&gt;\n&lt;li&gt;town-&gt;tank&lt;/li&gt;\n</NamerSettlementPirateWaster.rulePack.rulesStrings>
   <!-- EN:
     <li>r_name->[placeNameCore]</li>
   -->
-  <NamerSettlementPirateYttakin.rulePack.rulesStrings>
-    <li>r_name->[placeNameCore]</li>
-  </NamerSettlementPirateYttakin.rulePack.rulesStrings>
-  
+  <NamerSettlementPirateYttakin.rulePack.rulesStrings>&lt;li&gt;r_name-&gt;[placeNameCore]&lt;/li&gt;\n</NamerSettlementPirateYttakin.rulePack.rulesStrings>
   <!-- EN:
     <li>r_name->[placeNameCore]</li>
   -->
-  <NamerSettlementTribalImpid.rulePack.rulesStrings>
-    <li>r_name->[placeNameCore]</li>
-  </NamerSettlementTribalImpid.rulePack.rulesStrings>
-  
+  <NamerSettlementTribalImpid.rulePack.rulesStrings>&lt;li&gt;r_name-&gt;[placeNameCore]&lt;/li&gt;\n</NamerSettlementTribalImpid.rulePack.rulesStrings>
   <!-- EN:
     <li>r_name->[placeNameCore]</li>
   -->
-  <NamerSettlementTribalNeaderthal.rulePack.rulesStrings>
-    <li>r_name->[placeNameCore]</li>
-  </NamerSettlementTribalNeaderthal.rulePack.rulesStrings>
-  
+  <NamerSettlementTribalNeaderthal.rulePack.rulesStrings>&lt;li&gt;r_name-&gt;[placeNameCore]&lt;/li&gt;\n</NamerSettlementTribalNeaderthal.rulePack.rulesStrings>
   <!-- EN:
     <li>SylN->WordParts/Syllables_Neanderthal</li>
   -->
-  <NeanderthalUtility.rulePack.rulesFiles>
-    <li>SylN->WordParts/Syllables_Neanderthal</li>
-    <li>SylNCap->WordParts/Syllables_Neanderthal_Cap</li>
-  </NeanderthalUtility.rulePack.rulesFiles>
+  <NeanderthalUtility.rulePack.rulesFiles>&lt;li&gt;SylN-&gt;WordParts/Syllables_Neanderthal&lt;/li&gt;\n</NeanderthalUtility.rulePack.rulesFiles>
   <!-- EN:
     <li>maybeApo(p=8)-></li>
     <li>maybeApo->'</li>
@@ -431,33 +216,7 @@
     <li>placeEnd->sonk</li>
     <li>placeEnd->soud</li>
   -->
-  <NeanderthalUtility.rulePack.rulesStrings>
-    <li>maybeApo(p=8)-></li>
-    <li>maybeApo->'</li>
-    <li>placeNameCore->[SylNCap][maybeApo][SylN]</li>
-    <li>placeNameCore->[SylNCap][maybeApo][SylN][maybeApo][SylN]</li>
-    <li>placeNameCore->[SylNCap][maybeApo][placeEnd]</li>
-    <li>placeNameCore->[SylNCap][maybeApo][SylN][maybeApo][placeEnd]</li>
-    <li>placeEnd->ils</li>
-    <li>placeEnd->ilt</li>
-    <li>placeEnd->ig</li>
-    <li>placeEnd->fweg</li>
-    <li>placeEnd->then</li>
-    <li>placeEnd->thor</li>
-    <li>placeEnd->bog</li>
-    <li>placeEnd->ton</li>
-    <li>placeEnd->ten</li>
-    <li>placeEnd->moor</li>
-    <li>placeEnd->mouk</li>
-    <li>placeEnd->mun</li>
-    <li>placeEnd->mursh</li>
-    <li>placeEnd->man</li>
-    <li>placeEnd->bel</li>
-    <li>placeEnd->sil</li>
-    <li>placeEnd->sonk</li>
-    <li>placeEnd->soud</li>
-  </NeanderthalUtility.rulePack.rulesStrings>
-  
+  <NeanderthalUtility.rulePack.rulesStrings>&lt;li&gt;maybeApo(p=8)-&gt;&lt;/li&gt;\n&lt;li&gt;maybeApo-&gt;'&lt;/li&gt;\n&lt;li&gt;placeNameCore-&gt;[SylN][maybeApo][SylN]&lt;/li&gt;\n&lt;li&gt;placeNameCore-&gt;[SylN][maybeApo][SylN][maybeApo][SylN]&lt;/li&gt;\n&lt;li&gt;placeNameCore-&gt;[SylN][maybeApo][placeEnd]&lt;/li&gt;\n&lt;li&gt;placeNameCore-&gt;[SylN][maybeApo][SylN][maybeApo][placeEnd]&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;ils&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;ilt&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;ig&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;fweg&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;then&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;thor&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;bog&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;ton&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;ten&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;moor&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;mouk&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;mun&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;mursh&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;man&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;bel&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;sil&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;sonk&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;soud&lt;/li&gt;\n</NeanderthalUtility.rulePack.rulesStrings>
   <!-- EN:
     <li>poison->poison</li>
     <li>poison->toxin</li>
@@ -479,33 +238,11 @@
     <li>poison->trash</li>
     <li>poison->pest</li>
   -->
-  <WasterUtility.rulePack.rulesStrings>
-    <li>poison->Gift</li>
-    <li>poison->Toxin</li>
-    <li>poison->Tox</li>
-    <li>poison->Würg</li>
-    <li>poison->Gas</li>
-    <li>poison->Psyck</li>
-    <li>poison->Virus</li>
-    <li>poison->Karzinom</li>
-    <li>poison->Toxoid</li>
-    <li>poison->Verderbnis</li>
-    <li>poison->Miasma</li>
-    <li>poison->Schmutz</li>
-    <li>poison->Müll</li>
-    <li>poison->Fäulnis</li>
-    <li>poison->Abfall</li>
-    <li>poison->Pest</li>
-    <li>poison->Seuchen</li>
-  </WasterUtility.rulePack.rulesStrings>
-  
+  <WasterUtility.rulePack.rulesStrings>&lt;li&gt;poison-&gt;poison&lt;/li&gt;poison\n&lt;li&gt;poison-&gt;toxin&lt;/li&gt;poison-&gt;toxin&gt;\n&lt;li&gt;poison-&gt;tox&lt;/li&gt;\n&lt;li&gt;poison-&gt;choke&lt;/li&gt;\n&lt;li&gt;poison-&gt;gas&lt;/li&gt;\n&lt;li&gt;poison-&gt;pill&lt;/li&gt;poison\n&lt;li&gt;poison-&gt;psyck&lt;/li&gt;\n&lt;li&gt;poison-&gt;vírus&lt;/li&gt;\n&lt;li&gt;poison-&gt;venom&lt;/li&gt;\n&lt;li&gt;poison-&gt;cancer&lt;/li&gt;\n&lt;li&gt;poison-&gt;toxoid&lt;/li&gt;\n&lt;li&gt;poison-&gt;blight&lt;/li&gt;\n&lt;li&gt;poison-&gt;miasma&lt;/li&gt;\n&lt;li&gt;poison-&gt;filth&lt;/li&gt;\n&lt;li&gt;poison-&gt;garbage&lt;/li&gt;\n&lt;li&gt;poison-&gt;pollution&lt;/li&gt;\n&lt;li&gt;poison-&gt;decay&lt;/li&gt;\n&lt;li&gt;poison-&gt;trash&lt;/li&gt;\n&lt;li&gt;poison-&gt;pest&lt;/li&gt;\n</WasterUtility.rulePack.rulesStrings>
   <!-- EN:
     <li>SylY->WordParts/Syllables_Yttakin</li>
   -->
-  <YttakinUtility.rulePack.rulesFiles>
-    <li>SylY->WordParts/Syllables_Yttakin</li>
-    <li>SylYCap->WordParts/Syllables_Yttakin_Cap</li>
-  </YttakinUtility.rulePack.rulesFiles>
+  <YttakinUtility.rulePack.rulesFiles>&lt;li&gt;SylY-&gt;WordParts/Syllables_Yttakin&lt;/li&gt;\n</YttakinUtility.rulePack.rulesFiles>
   <!-- EN:
     <li>placeNameCore->[SylY][SylY]</li>
     <li>placeNameCore->[SylY][SylY][SylY]</li>
@@ -531,30 +268,5 @@
     <li>placeEnd->ys</li>
     <li>placeEnd->yn</li>
   -->
-  <YttakinUtility.rulePack.rulesStrings>
-    <li>placeNameCore->[SylYCap][SylY]</li>
-    <li>placeNameCore->[SylYCap][SylY][SylY]</li>
-    <li>placeNameCore->[SylYCap][placeEnd]</li>
-    <li>placeNameCore->[SylYCap][SylY][placeEnd]</li>
-    <li>placeEnd->esh</li>
-    <li>placeEnd->sytt</li>
-    <li>placeEnd->wytt</li>
-    <li>placeEnd->wott</li>
-    <li>placeEnd->wosh</li>
-    <li>placeEnd->barg</li>
-    <li>placeEnd->berg</li>
-    <li>placeEnd->bersh</li>
-    <li>placeEnd->bug</li>
-    <li>placeEnd->bytt</li>
-    <li>placeEnd->byon</li>
-    <li>placeEnd->den</li>
-    <li>placeEnd->gen</li>
-    <li>placeEnd->yul</li>
-    <li>placeEnd->ya</li>
-    <li>placeEnd->ysh</li>
-    <li>placeEnd->ytt</li>
-    <li>placeEnd->ys</li>
-    <li>placeEnd->yn</li>
-  </YttakinUtility.rulePack.rulesStrings>
-  
+  <YttakinUtility.rulePack.rulesStrings>&lt;li&gt;placeNameCore-&gt;[SylY][SylY]&lt;/li&gt;\n&lt;li&gt;placeNameCore-&gt;[SylY][SylY][SylY]&lt;/li&gt;\n&lt;li&gt;placeNameCore-&gt;[SylY][placeEnd]&lt;/li&gt;\n&lt;li&gt;placeNameCore-&gt;[SylY][SylY][placeEnd]&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;esh&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;sytt&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;wytt&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;wott&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;wosh&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;barg&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;berg&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;bersh&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;bug&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;bytt&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;byon&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;den&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;gen&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;yul&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;ya&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;ysh&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;ytt&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;ys&lt;/li&gt;\n&lt;li&gt;placeEnd-&gt;yn&lt;/li&gt;\n</YttakinUtility.rulePack.rulesStrings>
 </LanguageData>

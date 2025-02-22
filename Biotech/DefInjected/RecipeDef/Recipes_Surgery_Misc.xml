@@ -1,91 +1,79 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: blood transfusion -->
-  <BloodTransfusion.label>Bluttransfusion</BloodTransfusion.label>
+  <BloodTransfusion.label>transfusão de sangue</BloodTransfusion.label>
   <!-- EN: Use hemogen packs to reduce the effects of blood loss. Each hemogen pack used recovers 35% blood loss. The operation will also restore hemogen to hemogenic individuals. -->
-  <BloodTransfusion.description>Verwende Hämogenpakete, um die Auswirkungen eines Blutverlustes zu verringern. Jedes verwendete Hämogenpaket deckt 35 Prozent des Blutverlustes ab. Die Operation füllt zudem den Hämogenvorrat einer hämogenischen Person wieder auf.</BloodTransfusion.description>
+  <BloodTransfusion.description>Use pacotes hemogênicos para reduzir os efeitos da perda de sangue. Cada pacote hemogênico usado recupera 35% de perda de sangue. A operação também irá restaurar hemogênico para indivíduos hemogênicos.</BloodTransfusion.description>
   <!-- EN: performing blood transfusion on TargetA. -->
-  <BloodTransfusion.jobString>vollzieht Bluttransfusion bei TargetA.</BloodTransfusion.jobString>
-  
+  <BloodTransfusion.jobString>realizando transfusão de sangue no TargetA.</BloodTransfusion.jobString>
   <!-- EN: extract hemogen pack -->
-  <ExtractHemogenPack.label>Hämogenpaket extrahieren</ExtractHemogenPack.label>
+  <ExtractHemogenPack.label>pacote de hemogênio extrato</ExtractHemogenPack.label>
   <!-- EN: Extract a hemogen pack from the target. The operation will fail to produce a hemogen pack if the target does not have enough blood.\n\nHemogen packs can be administered to others to reduce blood loss or to satiate those who feed on blood. -->
-  <ExtractHemogenPack.description>Extrahiere ein Hämogenpaket aus der Zielperson. Die Operation liefert kein Hämogenpaket, wenn die Zielperson zu wenig Blut hat.\n\nHämogenpakete können verabreicht werden, um den Blutverlust einer Person zu verringern oder um Blutsauger zu sättigen.</ExtractHemogenPack.description>
+  <ExtractHemogenPack.description>Extraia um pacote hemogênico do alvo. A operação falhará em produzir um pacote hemogênico se o alvo não tiver sangue suficiente.\n\nPacotes hemogênicos podem ser administrados a outros para reduzir a perda de sangue ou para saciar aqueles que se alimentam de sangue.</ExtractHemogenPack.description>
   <!-- EN: Extracting hemogen pack. -->
-  <ExtractHemogenPack.jobString>Extrahiert Hämogenpaket.</ExtractHemogenPack.jobString>
-  
+  <ExtractHemogenPack.jobString>Extraindo o pacote de hemogene.</ExtractHemogenPack.jobString>
   <!-- EN: extract ovum for IVF -->
-  <ExtractOvum.label>Eizelle für IVF extrahieren</ExtractOvum.label>
+  <ExtractOvum.label>extração de ovum para IVF</ExtractOvum.label>
   <!-- EN: Extract an ovum into a storage capsule. It can then be fertilized by a man, and finally implanted into a mother to start a pregnancy. -->
-  <ExtractOvum.description>Extrahiere eine Eizelle in eine Lagerkapsel. Die Eizelle kann dann von einem Mann befruchtet werden und schließlich einer gebärfähigen Frau eingepflanzt werden, um eine Schwangerschaft einzuleiten.</ExtractOvum.description>
+  <ExtractOvum.description>Extraia um óvulo em uma cápsula de armazenamento. Pode então ser fertilizado por um homem, e finalmente implantado em uma mãe para iniciar uma gravidez.</ExtractOvum.description>
   <!-- EN: extracting ovum from TargetA. -->
-  <ExtractOvum.jobString>Extrahiert Eizelle aus TargetA.</ExtractOvum.jobString>
-  
+  <ExtractOvum.jobString>extraindo ovum de TargetA.</ExtractOvum.jobString>
   <!-- EN: implant embryo -->
-  <ImplantEmbryo.label>Embryo implantieren</ImplantEmbryo.label>
+  <ImplantEmbryo.label>embrião do implante</ImplantEmbryo.label>
   <!-- EN: Implant an embryo in a surrogate mother to begin a pregnancy. -->
-  <ImplantEmbryo.description>Implantiere einen Embryo in eine Leihmutter, um eine Schwangerschaft einzuleiten.</ImplantEmbryo.description>
+  <ImplantEmbryo.description>Implante um embrião em uma mãe substituta para começar uma gravidez.</ImplantEmbryo.description>
   <!-- EN: Implanting embryo in TargetA. -->
-  <ImplantEmbryo.jobString>Implantiert Embryo in TargetA.</ImplantEmbryo.jobString>
-  
+  <ImplantEmbryo.jobString>Embrião implantante no TargetA.</ImplantEmbryo.jobString>
   <!-- EN: implant IUD -->
-  <ImplantIUD.label>Spirale implantieren</ImplantIUD.label>
+  <ImplantIUD.label>iUD de implante</ImplantIUD.label>
   <!-- EN: Implant a small metal device in the uterus to prevent pregnancies. It can later be removed, but there is a small chance of leaving the patient permanently sterile. This surgery terminates pregnancies in the first trimester. -->
-  <ImplantIUD.description>Implantiere einen kleinen metallischen Gegenstand in die Gebärmutter der Patientin, um eine Schwangerschaft zu verhindern. Die Spirale kann später wieder operativ entfernt werden, aber es besteht ein geringes Risiko, dass die Patientin dauerhaft sterilisiert bleibt. Dieser Eingriff bricht eine Schwangerschaft im ersten Trimester ab.</ImplantIUD.description>
+  <ImplantIUD.description>Implantar um pequeno dispositivo de metal no útero para evitar gravidezes. Mais tarde pode ser removido, mas há uma pequena chance de deixar o paciente permanentemente estéril. Esta cirurgia termina gravidezes no primeiro trimestre.</ImplantIUD.description>
   <!-- EN: implanting a IUD in TargetA. -->
-  <ImplantIUD.jobString>implantiert eine Spirale in TargetA.</ImplantIUD.jobString>
+  <ImplantIUD.jobString>implantar um DIU no TargetA.</ImplantIUD.jobString>
   <!-- EN: {0} has successfully implanted an IUD in {1}. -->
-  <ImplantIUD.successfullyRemovedHediffMessage>{0} hat erfolgreich eine Spirale in {1} implantiert.</ImplantIUD.successfullyRemovedHediffMessage>
-  
+  <ImplantIUD.successfullyRemovedHediffMessage>{0} implantou com sucesso um DIU em {1}.</ImplantIUD.successfullyRemovedHediffMessage>
   <!-- EN: implant xenogerm -->
-  <ImplantXenogerm.label>Xenokeim implantieren</ImplantXenogerm.label>
+  <ImplantXenogerm.label>implante xenogerm</ImplantXenogerm.label>
   <!-- EN: Implant a xenogerm into a patient. This replaces any previous xenogerm they may have had. -->
-  <ImplantXenogerm.description>Implantiere einen Xenokeim in einen Patienten. Dieser Eingriff ersetzt einen bereits vorhandenen Xenokeim.</ImplantXenogerm.description>
+  <ImplantXenogerm.description>Implantar um xenogerm em um paciente. Isso substitui qualquer xenogerm anterior que possam ter tido.</ImplantXenogerm.description>
   <!-- EN: Implanting xenogerm. -->
-  <ImplantXenogerm.jobString>Implantiert Xenokeim.</ImplantXenogerm.jobString>
-  
+  <ImplantXenogerm.jobString>Xenogerm Implante.</ImplantXenogerm.jobString>
   <!-- EN: remove IUD -->
-  <RemoveIUD.label>Spirale entfernen</RemoveIUD.label>
+  <RemoveIUD.label>remover IUD</RemoveIUD.label>
   <!-- EN: Remove an implanted intrauterine device to allow normal pregnancy. If the surgery goes wrong, the patient will be rendered permanently sterile. -->
-  <RemoveIUD.description>Entferne eine implantierte Spirale, um eine normale Schwangerschaft wieder möglich zu machen. Wenn die Operation scheitert, wird die Patientin dauerhaft sterilisiert bleiben.</RemoveIUD.description>
+  <RemoveIUD.description>Remova um dispositivo intrauterino implantado para permitir a gravidez normal. Se a cirurgia correr mal, o paciente será estéril permanentemente.</RemoveIUD.description>
   <!-- EN: removing IUD from TargetA. -->
-  <RemoveIUD.jobString>entfernt Spirale aus TargetA.</RemoveIUD.jobString>
+  <RemoveIUD.jobString>remover DIU do TargetA.</RemoveIUD.jobString>
   <!-- EN: {0} has successfully removed {1}'s IUD. -->
-  <RemoveIUD.successfullyRemovedHediffMessage>{0} hat erfolgreich die Spirale aus {1} entfernt.</RemoveIUD.successfullyRemovedHediffMessage>
-  
+  <RemoveIUD.successfullyRemovedHediffMessage>{0} removeu com sucesso {1} o DIU.</RemoveIUD.successfullyRemovedHediffMessage>
   <!-- EN: reverse vasectomy -->
-  <ReverseVasectomy.label>Vasektomie rückgängig machen</ReverseVasectomy.label>
+  <ReverseVasectomy.label>vasectomia reversa</ReverseVasectomy.label>
   <!-- EN: Attempt to reverse the vasectomy and make a man capable of fathering children again. Most vasectomy reversals succeed, but if the surgery goes wrong the man will be left permanently sterile. -->
-  <ReverseVasectomy.description>Versuche, die Vasektomie rückgängig zu machen und einen Mann wieder zeugungsfähig zu machen. Die meisten Rückoperationen verlaufen erfolgreich, aber wenn der Eingriff scheitert, bleibt der Mann dauerhaft sterilisiert.</ReverseVasectomy.description>
+  <ReverseVasectomy.description>Tentar reverter a vasectomia e fazer um homem capaz de cuidar de crianças novamente. A maioria das inversão de vasectomia tem sucesso, mas se a cirurgia correr mal o homem será deixado permanentemente estéril.</ReverseVasectomy.description>
   <!-- EN: performing a vasectomy reversal on TargetA. -->
-  <ReverseVasectomy.jobString>Macht Vasektomie bei TargetA rückgängig.</ReverseVasectomy.jobString>
+  <ReverseVasectomy.jobString>realizando uma inversão de vasectomia no TargetA.</ReverseVasectomy.jobString>
   <!-- EN: {0} has successfully performed a vasectomy reversal on {1}. -->
-  <ReverseVasectomy.successfullyRemovedHediffMessage>{0} hat erfolgreich die Vasektomie bei {1} rückgängig gemacht.</ReverseVasectomy.successfullyRemovedHediffMessage>
-  
+  <ReverseVasectomy.successfullyRemovedHediffMessage>{0} realizou com sucesso uma inversão de vasectomia em {1}.</ReverseVasectomy.successfullyRemovedHediffMessage>
   <!-- EN: terminate pregnancy -->
-  <TerminatePregnancy.label>Schwangerschaft abbrechen</TerminatePregnancy.label>
+  <TerminatePregnancy.label>terminar a gravidez</TerminatePregnancy.label>
   <!-- EN: Terminate the pregnancy of an animal or human. -->
-  <TerminatePregnancy.description>Brich die Schwangerschaft eines Tieres oder eines Menschen ab.</TerminatePregnancy.description>
+  <TerminatePregnancy.description>Terminar a gravidez de um animal ou humano.</TerminatePregnancy.description>
   <!-- EN: terminating TargetA's pregnancy. -->
-  <TerminatePregnancy.jobString>Bricht Schwangerschaft von TargetA ab.</TerminatePregnancy.jobString>
-  
+  <TerminatePregnancy.jobString>terminando alvo A gravidez.</TerminatePregnancy.jobString>
   <!-- EN: perform tubal ligation -->
-  <TubalLigation.label>Tubenligatur vollziehen</TubalLigation.label>
+  <TubalLigation.label>executar ligadura tubal</TubalLigation.label>
   <!-- EN: Permanently render a patient sterile and unable to reproduce. -->
-  <TubalLigation.description>Sterilisiere dauerhaft eine Patientin, um zu verhindern, dass sie schwanger wird.</TubalLigation.description>
+  <TubalLigation.description>Tornar permanentemente um paciente estéril e incapaz de reproduzir.</TubalLigation.description>
   <!-- EN: performing tubal ligation on TargetA. -->
-  <TubalLigation.jobString>vollzieht Tubenligatur bei TargetA.</TubalLigation.jobString>
+  <TubalLigation.jobString>realizando ligadura tubal em TargetA.</TubalLigation.jobString>
   <!-- EN: {0} has successfully performed tubal ligation on {1}. -->
-  <TubalLigation.successfullyRemovedHediffMessage>{0} hat erfolgreich eine Tubenligatur bei {1} vollzogen.</TubalLigation.successfullyRemovedHediffMessage>
-  
+  <TubalLigation.successfullyRemovedHediffMessage>{0} realizou com sucesso a ligadura tubal em {1}.</TubalLigation.successfullyRemovedHediffMessage>
   <!-- EN: perform vasectomy -->
-  <Vasectomy.label>Vasektomie vollziehen</Vasectomy.label>
+  <Vasectomy.label>executar vasectomia</Vasectomy.label>
   <!-- EN: Cut the vas deferens to render the patient unable to reproduce. If the surgery goes wrong the patient will be left permanently sterile. -->
-  <Vasectomy.description>Durchtrenne die Samenleiter des Patienten, um ihn zeugungsunfähig zu machen. Wenn die Operation scheitert, bleibt der Patient dauerhaft sterilisiert.</Vasectomy.description>
+  <Vasectomy.description>Cortar as vas deferencia para tornar o paciente incapaz de reproduzir. Se a cirurgia correr mal, o paciente será deixado permanentemente estéril.</Vasectomy.description>
   <!-- EN: performing a vasectomy on TargetA. -->
-  <Vasectomy.jobString>vollzieht Vasektomie bei TargetA.</Vasectomy.jobString>
+  <Vasectomy.jobString>executar uma vasectomia no TargetA.</Vasectomy.jobString>
   <!-- EN: {0} has successfully performed a vasectomy on {1}. -->
-  <Vasectomy.successfullyRemovedHediffMessage>0} hat erfolgreich eine Vasektomie bei {1} vollzogen.</Vasectomy.successfullyRemovedHediffMessage>
-  
+  <Vasectomy.successfullyRemovedHediffMessage>{0} realizou com sucesso uma vasectomia em {1}.</Vasectomy.successfullyRemovedHediffMessage>
 </LanguageData>

@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>bossDefeatedLetterLabel->[escortees0_label] defeated: [reward_label]</li>
     <li>bossDefeatedStudyChipLetterText->[defeated][study][manufacture]</li>
@@ -9,28 +8,13 @@
     <li>manufacture->\n\nThe chip can also be used to create more advanced mechanoids.</li>
     <li>study->\n\nYou can study the [reward_label] by selecting a mechanitor and right-clicking the chip. Studying a [reward_label] helps unlock higher tiers of mechtech research.</li>
   -->
-  <Bossgroup.questContentRules.rulesStrings>
-    <li>bossDefeatedLetterLabel->[escortees0_label] besiegt: [reward_label]</li>
-    <li>bossDefeatedStudyChipLetterText->[defeated][study][manufacture]</li>
-    <li>bossDefeatedLetterText->[defeated][manufacture]</li>
-    <li>defeated->[Der] feindliche [escortees0_label] wurde besiegt und hat {replace: ^[reward_definite]; "^der "-"einen "; "^die "-"eine "; "^das "; "ein "; "^"-""} fallen lassen!</li>
-    <li>manufacture->\n\nDer Chip kann auch zur Herstellung fortschrittlicher Mechanoiden verwendet werden.</li>
-    <li>study->\n\n[reward_definite] kann analysiert werden. Selektiere einen Mechanitor und rechtsklicke auf den Chip. Die Analyse hilft, höhere Stufen der Mechtech-Forschung freizuschalten.</li>
-    <li>Der(escortees0_genderResolved==Male)->Der</li>
-    <li>Der(escortees0_genderResolved==Female)->Die</li>
-    <li>Der(escortees0_genderResolved==Neuter)->Das</li>
-  </Bossgroup.questContentRules.rulesStrings>
+  <Bossgroup.questContentRules.rulesStrings>&lt;li&gt;bossDefeatedLetterLabel-&gt;[escortees0_label] derrotado: [reward_label]&lt;/li&gt;\n&lt;li&gt;bossDefeatedStudyChipLetterText-&gt;[defeated][study][manufacture]&lt;/li&gt;\n&lt;li&gt;bossDefeatedLetterText-&gt;[defeated][manufactura]&lt;/li&gt;\n&lt;li&gt;defeated-&gt; O hostil [escortees0_label] foi derrotado e caiu um [reward_label]!&lt;/li&gt;\n&lt;li&gt; fabricação-&gt;\n\nO chip também pode ser usado para criar mecanóides mais avançados.&lt;/li&gt;\n&lt;li&gt;study-&gt;\n\nVocê pode estudar o [reward_label] selecionando um mecanitor e clicando com o botão direito do mouse no chip. Estudar um [reward_label] ajuda a desbloquear níveis mais elevados de pesquisa mechtech.&lt;/li&gt;\n</Bossgroup.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->bossgroup</li>
   -->
-  <Bossgroup.questDescriptionRules.rulesStrings>
-    <li>questDescription->Bossgruppe</li>
-  </Bossgroup.questDescriptionRules.rulesStrings>
+  <Bossgroup.questDescriptionRules.rulesStrings>&lt;li&gt;questDescription-&gt;bossgroup&lt;/li&gt;\n</Bossgroup.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->bossgroup</li>
   -->
-  <Bossgroup.questNameRules.rulesStrings>
-    <li>questName->Bossgruppe</li>
-  </Bossgroup.questNameRules.rulesStrings>
-  
+  <Bossgroup.questNameRules.rulesStrings>&lt;li&gt;questNome-&gt;bossgroup&lt;/li&gt;\n</Bossgroup.questNameRules.rulesStrings>
 </LanguageData>

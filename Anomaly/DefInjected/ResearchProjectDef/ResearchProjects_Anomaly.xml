@@ -1,10 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: advanced psychic rituals -->
-  <AdvancedPsychicRituals.label>Komplexe Psyrituale</AdvancedPsychicRituals.label>
+  <AdvancedPsychicRituals.label>rituais psíquicos avançados</AdvancedPsychicRituals.label>
   <!-- EN: Perform advanced psychic rituals. -->
-  <AdvancedPsychicRituals.description>Führe komplexe Psyrituale durch.</AdvancedPsychicRituals.description>
+  <AdvancedPsychicRituals.description>Realizar rituais psíquicos avançados.</AdvancedPsychicRituals.description>
   <!-- EN:
     <li>subject->advanced psychic rituals</li>
     <li>subject_story->was brought into a cult circle</li>
@@ -13,22 +12,11 @@
     <li>subject_story->was appointed professor of psychic history at the University of Ix</li>
     <li>subject_gerund->performing advanced psychic rituals</li>
   -->
-  <AdvancedPsychicRituals.generalRules.rulesStrings>
-    <li>subject->komplexe Psyrituale</li>
-    <li>subject_with_adj->e komplexe Psyrituale</li>
-    <li>subject_story->in einen Kultkreis aufgenommen wurde</li>
-    <li>subject_story->einem verbannten Kultmeister begegnete, der gerne mit seinen Geheimnissen prahlte</li>
-    <li>subject_story->[ANYPAWN_possessive] Verständnis des rituellen Opferns vertiefte</li>
-    <li>subject_story->{ANYPAWN_gender ? zum Professor : zur Professorin} für Geistesgeschichte an der Universität von Ix ernannt wurde</li>
-    <li>subject_gerund->die Durchführung komplexer Psyrituale</li>
-    <li>subject_gerund_acc->die Durchführung komplexer Psyrituale</li>
-    <li>subject_gerund_dat->der Durchführung komplexer Psyrituale</li>
-  </AdvancedPsychicRituals.generalRules.rulesStrings>
-  
+  <AdvancedPsychicRituals.generalRules.rulesStrings>&lt;li&gt;subject-&gt;avançados rituais psíquicos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi trazido para um círculo de culto&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;encontrou um mestre culto exilado, que felizmente se gabou de seus segredos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;deepened [ANYPAWN_possessive] compreensão do sacrifício ritual&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi nomeado professor de história psíquica na Universidade de Ix&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;performing avançados rituais psíquicos&lt;/li&gt;\n</AdvancedPsychicRituals.generalRules.rulesStrings>
   <!-- EN: atmospheric heater -->
-  <AtmosphericHeater.label>Atmosphärenheizung</AtmosphericHeater.label>
+  <AtmosphericHeater.label>aquecedor atmosférico</AtmosphericHeater.label>
   <!-- EN: Build bioferrite-powered heaters that produce enough heat to warm an entire region. -->
-  <AtmosphericHeater.description>Baue bioferritbetriebene Heizgeräte, die genug Wärme erzeugen, um eine ganze Region zu erwärmen.</AtmosphericHeater.description>
+  <AtmosphericHeater.description>Construa aquecedores alimentados com bioferrite que produzem calor suficiente para aquecer uma região inteira.</AtmosphericHeater.description>
   <!-- EN:
     <li>subject->bioferrite heating</li>
     <li>subject_story->upgraded archaic geothermal plants</li>
@@ -38,25 +26,11 @@
     <li>subject_gerund->heating with bioferrite</li>
     <li>subject_gerund->constructing bioferrite-fueled heaters</li>
   -->
-  <AtmosphericHeater.generalRules.rulesStrings>
-    <li>subject->Bioferritheizung</li>
-    <li>subject_with_adj->e Bioferritheizung</li>
-    <li>subject_story->veraltete geothermale Anlagen modernisierte</li>
-    <li>subject_story->die Wärmeleistung von Biometallen untersuchte</li>
-    <li>subject_story->die unvorstellbare Kapazität von Archotech-Energiespeichern erforschte</li>
-    <li>subject_story->die Hypokaustensysteme auf dicht besiedelten Eiswelten untersuchte</li>
-    <li>subject_gerund->das Heizen mit Bioferrit</li>
-    <li>subject_gerund_acc->das Heizen mit Bioferrit</li>
-    <li>subject_gerund_dat->dem Heizen mit Bioferrit</li>
-    <li>subject_gerund->der Bau von bioferritbetriebenen Heizungen</li>
-    <li>subject_gerund_acc->den Bau von bioferritbetriebenen Heizungen</li>
-    <li>subject_gerund_dat->dem Bau von bioferritbetriebenen Heizungen</li>
-  </AtmosphericHeater.generalRules.rulesStrings>
-  
+  <AtmosphericHeater.generalRules.rulesStrings>&lt;li&gt;subject-&gt;bioferrite aquecimento&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;upgradeed archaic geothermal plants&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;estudiu a saída de calor de biometais&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou a capacidade impossível de armazenamento de energia archotech&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;examinou os sistemas hipocaustos em mundos de gelo densamente ocupados&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;heating com bioferrite&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;constructing bioferrite-combustível aquecedores&lt;/li&gt;\n</AtmosphericHeater.generalRules.rulesStrings>
   <!-- EN: void provocation -->
-  <BasicPsychicRituals.label>Leere provozieren</BasicPsychicRituals.label>
+  <BasicPsychicRituals.label>provocação do vazio</BasicPsychicRituals.label>
   <!-- EN: Build a psychic ritual spot and perform psychic rituals. Use the void provocation ritual to discover new entities. -->
-  <BasicPsychicRituals.description>Baue einen Psyritualplatz und führe Psyrituale durch. Benutze das Ritual 'Leere provozieren', um neue Entitäten zu entdecken.</BasicPsychicRituals.description>
+  <BasicPsychicRituals.description>Construa um ponto ritual psíquico e realize rituais psíquicos. Use o ritual de provocação vazio para descobrir novas entidades.</BasicPsychicRituals.description>
   <!-- EN:
     <li>subject->psychic rituals</li>
     <li>subject_story->studied the rituals of Horax cultists</li>
@@ -68,29 +42,11 @@
     <li>subject_gerund->establishing ritual spots</li>
     <li>subject_gerund->provoking void entities</li>
   -->
-  <BasicPsychicRituals.generalRules.rulesStrings>
-    <li>subject->Psyrituale</li>
-    <li>subject_with_adj->e Psyrituale</li>
-    <li>subject_story->die Rituale der Horax-Kultisten studierte</li>
-    <li>subject_story->primitive Altäre rekonstruierte</li>
-    <li>subject_story->die Grundlagen der übersinnlichen Kommunikation etabliert hat</li>
-    <li>subject_story->ein gescheitertes Ritual zur Provokation der Leere auf einer Todeswelt beobachtete</li>
-    <li>subject_story->mit einem Archotechsplitter auf einer Wüstensäule kommunizierte</li>
-    <li>subject_gerund->die Durchführung von Psyritualen</li>
-    <li>subject_gerund_acc->die Durchführung von Psyritualen</li>
-    <li>subject_gerund_dat->der Durchführung von Psyritualen</li>
-    <li>subject_gerund->die Etablierung von Ritualplätzen</li>
-    <li>subject_gerund_acc->die Etablierung von Ritualplätzen</li>
-    <li>subject_gerund_dat->der Etablierung von Ritualplätzen</li>
-    <li>subject_gerund->die Provokation von Entitäten der Leere</li>
-    <li>subject_gerund_acc->die Provokation von Entitäten der Leere</li>
-    <li>subject_gerund_dat->der Provokation von Entitäten der Leere</li>
-  </BasicPsychicRituals.generalRules.rulesStrings>
-  
+  <BasicPsychicRituals.generalRules.rulesStrings>&lt;li&gt;subject-&gt;psychic rituals&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;studited os rituais dos cultos Horax&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;reconstruídos altars primitivos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; estabeleceu os fundamentos da comunicação psíquica&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; assistiu a um ritual de provocação do vazio falhado em um mundo de morte&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;communed with an archotech shard atop a desert pilar&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;conduzindo rituais psíquicos&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;establishing ritual spots&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;provoking entidades nulas&lt;/li&gt;\n</BasicPsychicRituals.generalRules.rulesStrings>
   <!-- EN: bioferrite extraction -->
-  <BioferriteExtraction.label>Bioferritextraktion</BioferriteExtraction.label>
+  <BioferriteExtraction.label>extração de bioferrite</BioferriteExtraction.label>
   <!-- EN: Extract bioferrite directly from captured entities. Use it to craft weapons and apparel at a crafting spot or bioferrite shaper. -->
-  <BioferriteExtraction.description>Extrahiere Bioferrit direkt aus gefangenen Entitäten. Verwende es zur Herstellung von Waffen und Kleidung an einem Arbeitsplatz oder Bioferritformer.</BioferriteExtraction.description>
+  <BioferriteExtraction.description>Extraia bioferrite diretamente de entidades capturadas. Use-o para criar armas e vestuário em um local de criação ou modelador de bioferrite.</BioferriteExtraction.description>
   <!-- EN:
     <li>subject->bioferrite extraction</li>
     <li>subject_story->extracted an organic compound from a rapidly mutating flesh sample</li>
@@ -99,21 +55,11 @@
     <li>subject_story->discovered a novel organic metal</li>
     <li>subject_gerund->extracting bioferrite</li>
   -->
-  <BioferriteExtraction.generalRules.rulesStrings>
-    <li>subject->Bioferritextraktion</li>
-    <li>subject_story->eine organische Verbindung aus einer schnell mutierenden Fleischprobe extrahierte</li>
-    <li>subject_story->das Fleisch eines Heroldbaums abschälte und kochte</li>
-    <li>subject_story->Berichte über ein Archotech-Phänomen untersuchte</li>
-    <li>subject_story->ein neuartiges organisches Metall entdeckte</li>
-    <li>subject_gerund->die Extraktion von Bioferrit</li>
-    <li>subject_gerund_acc->die Extraktion von Bioferrit</li>
-    <li>subject_gerund_dat->der Extraktion von Bioferrit</li>
-  </BioferriteExtraction.generalRules.rulesStrings>
-  
+  <BioferriteExtraction.generalRules.rulesStrings>&lt;li&gt;subject-&gt;bioferrite extração&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;extraiu um composto orgânico de uma amostra de carne rapidamente mutante&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;stripped e ferveu a carne de uma árvore de harbinger&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; relatórios investigados de um fenômeno archotech&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;descobriu um novo metal orgânico&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;extracting bioferrite&lt;/li&gt;\n</BioferriteExtraction.generalRules.rulesStrings>
   <!-- EN: bioferrite generator -->
-  <BioferriteGenerator.label>Bioferritgenerator</BioferriteGenerator.label>
+  <BioferriteGenerator.label>gerador de bioferrite</BioferriteGenerator.label>
   <!-- EN: Build power generators that burn bioferrite as a fuel. -->
-  <BioferriteGenerator.description>Baue Generatoren, die Bioferrit verbrennen, um Strom zu erzeugen.</BioferriteGenerator.description>
+  <BioferriteGenerator.description>Construa geradores de energia que queimam bioferrite como combustível.</BioferriteGenerator.description>
   <!-- EN:
     <li>subject->bioferrite power generation</li>
     <li>subject_story->was trained in the use of innovative power sources</li>
@@ -124,26 +70,11 @@
     <li>subject_gerund->constructing bioferrite-powered generators</li>
     <li>subject_gerund->powering generators using bioferrite</li>
   -->
-  <BioferriteGenerator.generalRules.rulesStrings>
-    <li>subject->Bioferrit-Stromerzeugung</li>
-    <li>subject_with_adj->e Bioferrit-Stromerzeugung</li>
-    <li>subject_story->im Umgang mit innovativen Energiequellen geschult wurde</li>
-    <li>subject_story->die Verwendung von Brennstoffen auf Metall- und Faserbasis erforschte</li>
-    <li>subject_story->[ANYPAWN_possessive]e Liebe zum Feuer und zu brennenden Dingen entdeckte</li>
-    <li>subject_story->als {ANYPAWN_gender ? Techniker : Technikerin} arbeitete und die orbitalen Energiesysteme wartete</li>
-    <li>subject_story->die Tierwelt eines Systems für Brennstoff ausrottete</li>
-    <li>subject_gerund->der Bau von bioferritbetriebenen Generatoren</li>
-    <li>subject_gerund_acc->den Bau von bioferritbetriebenen Generatoren</li>
-    <li>subject_gerund_dat->dem Bau von bioferritbetriebenen Generatoren</li>
-    <li>subject_gerund->die Stromerzeugung mit Bioferrit</li>
-    <li>subject_gerund_acc->die Stromerzeugung mit Bioferrit</li>
-    <li>subject_gerund_dat->der Stromerzeugung mit Bioferrit</li>
-  </BioferriteGenerator.generalRules.rulesStrings>
-  
+  <BioferriteGenerator.generalRules.rulesStrings>&lt;li&gt;subject-&gt;bioferrite geração de energia&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi treinado no uso de fontes de energia inovadoras&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;explorou o uso de combustíveis baseados em metal e fibra&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; descobriu um amor de fogo e coisas que queimam &lt;/li&gt;\n&lt;li&gt;subject_story-&gt; trabalhou como técnico, mantendo sistemas de energia orbital&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;renderou a vida selvagem de um sistema para baixo para combustível&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;constructing bioferrite-powered geradores&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;powering geradores usando bioferrite&lt;/li&gt;\n</BioferriteGenerator.generalRules.rulesStrings>
   <!-- EN: bioferrite harvester -->
-  <BioferriteHarvesting.label>Bioferritkollektor</BioferriteHarvesting.label>
+  <BioferriteHarvesting.label>colheitadeira de bioferrite</BioferriteHarvesting.label>
   <!-- EN: Build bioferrite harvesters that automatically extract bioferrite from captured entities. Produces more bioferrite than manual extraction. -->
-  <BioferriteHarvesting.description>Baue Bioferritkollektoren, die automatisch Bioferrit aus gefangenen Entitäten extrahieren. Produziert mehr Bioferrit als die manuelle Extraktion.</BioferriteHarvesting.description>
+  <BioferriteHarvesting.description>Construa colheitadeiras de bioferrite que extraem automaticamente bioferrite de entidades capturadas. Produz mais bioferrite do que a extração manual.</BioferriteHarvesting.description>
   <!-- EN:
     <li>subject->bioferrite</li>
     <li>subject_story->investigated an exotic metal-like fibrous substance</li>
@@ -152,22 +83,11 @@
     <li>subject_story->observed strange metal-infested wildlife</li>
     <li>subject_gerund->harvesting bioferrite</li>
   -->
-  <BioferriteHarvesting.generalRules.rulesStrings>
-    <li>subject->Bioferrit</li>
-    <li>subject_with_adj->es Bioferrit</li>
-    <li>subject_story->eine exotische metallähnliche faserige Substanz untersuchte</li>
-    <li>subject_story->einen ghulischen Leichnam vivisezierte</li>
-    <li>subject_story->einen Vorrat an organischen Metallen entdeckte</li>
-    <li>subject_story->seltsame metallverseuchte Wildtiere beobachtete</li>
-    <li>subject_gerund->die Gewinnung von Bioferrit</li>
-    <li>subject_gerund_acc->die Gewinnung von Bioferrit</li>
-    <li>subject_gerund_dat->der Gewinnung von Bioferrit</li>
-  </BioferriteHarvesting.generalRules.rulesStrings>
-  
+  <BioferriteHarvesting.generalRules.rulesStrings>&lt;li&gt;subject-&gt;bioferrite&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;investigado uma substância fibrosa tipo metal exótica &lt;/li&gt;\n&lt;li&gt;subject_story-&gt;vivisectou um corpo ghoulish&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; descobriu um cache de metais orgânicos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;observou a estranha vida selvagem infestada de metal&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;harvesting bioferrite&lt;/li&gt;\n</BioferriteHarvesting.generalRules.rulesStrings>
   <!-- EN: bioferrite weaponry -->
-  <BioferriteIgnition.label>Bioferritwaffen</BioferriteIgnition.label>
+  <BioferriteIgnition.label>armamento de bioferrite</BioferriteIgnition.label>
   <!-- EN: Create advanced weapons that use bioferrite as a fuel source. -->
-  <BioferriteIgnition.description>Stelle fortschrittliche Waffen her, die Bioferrit als Energieträger verwenden.</BioferriteIgnition.description>
+  <BioferriteIgnition.description>Criar armas avançadas que usam bioferrite como fonte de combustível.</BioferriteIgnition.description>
   <!-- EN:
     <li>subject->bioferrite combustion</li>
     <li>subject->bioferrite weaponry</li>
@@ -177,24 +97,11 @@
     <li>subject_story->cleared biomines in an archotech desert</li>
     <li>subject_gerund->building bioferrite-based weapons</li>
   -->
-  <BioferriteIgnition.generalRules.rulesStrings>
-    <li>subject->Bioferritverbrennung</li>
-    <li>subject_with_adj->e Bioferritverbrennung</li>
-    <li>subject->Bioferritwaffen</li>
-    <li>subject_with_adj->e Bioferritwaffen</li>
-    <li>subject_story->für eine Bohranlage auf einem Archotech-Asteroiden arbeitete</li>
-    <li>subject_story->die Brennpunkte von exotischen Materialien erforschte</li>
-    <li>subject_story->in die Forschungsabteilung eines Milwelt-Waffenkonzerns eintrat</li>
-    <li>subject_story->in einer Archotech-Wüste Biominen räumte</li>
-    <li>subject_gerund->der Bau von bioferritbasierten Waffen</li>
-    <li>subject_gerund_acc->den Bau von bioferritbasierten Waffen</li>
-    <li>subject_gerund_dat->dem Bau von bioferritbasierten Waffen</li>
-  </BioferriteIgnition.generalRules.rulesStrings>
-  
+  <BioferriteIgnition.generalRules.rulesStrings>&lt;li&gt;subject-&gt;bioferrite combustão&lt;/li&gt;\n&lt;li&gt;subject-&gt;bioferrite armamento&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; trabalhou para um equipamento de extração em um asteróide archotech&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou os pontos de combustão de materiais exóticos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;juntou o braço de pesquisa de uma milword armas corp&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;cleared biomines in an archotech desert&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;building bioferrite-based tools&lt;/li&gt;building\n</BioferriteIgnition.generalRules.rulesStrings>
   <!-- EN: bioferrite shaping -->
-  <BioferriteShaping.label>Bioferritformung</BioferriteShaping.label>
+  <BioferriteShaping.label>modelagem de bioferrite</BioferriteShaping.label>
   <!-- EN: Shape and re-form bioferrite into useful tools, weapons, flooring, and more. -->
-  <BioferriteShaping.description>Forme Bioferrit zu nützlichen Werkzeugen, Waffen, Fußböden und vielem mehr.</BioferriteShaping.description>
+  <BioferriteShaping.description>Forma e re-forma bioferrite em ferramentas úteis, armas, piso e muito mais.</BioferriteShaping.description>
   <!-- EN:
     <li>subject->bioferrite shaping</li>
     <li>subject_story->learned unique techniques for molding and sculpting</li>
@@ -204,23 +111,11 @@
     <li>subject_story->studied the formation of archotech artefacts</li>
     <li>subject_gerund->shaping bioferrite</li>
   -->
-  <BioferriteShaping.generalRules.rulesStrings>
-    <li>subject->Bioferritformung</li>
-    <li>subject_with_adj->e Bioferritformung</li>
-    <li>subject_story->einzigartige Methoden des Formens und Gestaltens erlernte</li>
-    <li>subject_story->in der Wärmeformtechnik ausgebildet wurde</li>
-    <li>subject_story->in einer Gießerei für exotische Materialien arbeitete</li>
-    <li>subject_story->einem Wissenschaftler für Archotech-Materialien half</li>
-    <li>subject_story->die Entstehung von Archotech-Artefakten studierte</li>
-    <li>subject_gerund->die Formung von Bioferrit</li>
-    <li>subject_gerund_acc->die Formung von Bioferrit</li>
-    <li>subject_gerund_dat->der Formung von Bioferrit</li>
-  </BioferriteShaping.generalRules.rulesStrings>
-  
+  <BioferriteShaping.generalRules.rulesStrings>&lt;li&gt;subject-&gt;bioferrite moldando&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;learned técnicas únicas para moldagem e escultura&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;trained in heat-shaping&lt;/li&gt;trained\n&lt;li&gt;subject_story-&gt;trabalhado em uma fundição de materiais exóticos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;aided an archotech materials cientista &lt;/li&gt;\n&lt;li&gt;subject_story-&gt;estudiu a formação de artefatos archotech&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;formando bioferrite&lt;/li&gt;\n</BioferriteShaping.generalRules.rulesStrings>
   <!-- EN: bliss lobotomy -->
-  <BlissLobotomy.label>Glückslobotomie</BlissLobotomy.label>
+  <BlissLobotomy.label>lobotomia da felicidade</BlissLobotomy.label>
   <!-- EN: Perform a surgery that lobotomizes a person, making them happier while rendering them incapable of intellectual and skilled labor. -->
-  <BlissLobotomy.description>Führe eine Lobotomie an einer Person durch, um sie glücklicher zu machen. Dies hat jedoch zur Folge, dass sie keine intellektuelle oder komplexe Arbeit mehr verrichten kann.</BlissLobotomy.description>
+  <BlissLobotomy.description>Realizar uma cirurgia que lobotomiza uma pessoa, tornando-os mais felizes ao torná-los incapazes de trabalho intelectual e qualificado.</BlissLobotomy.description>
   <!-- EN:
     <li>subject->lobotomy</li>
     <li>subject_story->was eventually lobotomized for thought-crimes against the state</li>
@@ -229,24 +124,11 @@
     <li>subject_gerund->performing lobotomies</li>
     <li>subject_gerund->excising brain tissue</li>
   -->
-  <BlissLobotomy.generalRules.rulesStrings>
-    <li>subject->Lobotomie</li>
-    <li>subject_with_adj->e Lobotomie</li>
-    <li>subject_story->schließlich wegen Gedankenverbrechen gegen den Staat lobotomiert wurde</li>
-    <li>subject_story->die wenigen Überlebenden des Eldof-Experiments rehabilitierte</li>
-    <li>subject_story->eine Lehre als {ANYPAWN_gender ? Gehirnchirurg und Barbier : Gehirnchirurgin und Barbierin} absolvierte</li>
-    <li>subject_gerund->die Durchführung von Lobotomien</li>
-    <li>subject_gerund_acc->die Durchführung von Lobotomien</li>
-    <li>subject_gerund_dat->der Durchführung von Lobotomien</li>
-    <li>subject_gerund->die Entnahme von Hirngewebe</li>
-    <li>subject_gerund_acc->die Entnahme von Hirngewebe</li>
-    <li>subject_gerund_dat->der Entnahme von Hirngewebe</li>
-  </BlissLobotomy.generalRules.rulesStrings>
-  
+  <BlissLobotomy.generalRules.rulesStrings>&lt;li&gt;subject-&gt;lobotomia&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi eventualmente lobotomizado para os críticos de pensamento contra o estado&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; reabilitou os poucos sobreviventes do experimento Eldof&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; fez uma aprendizagem como um cirurgião cerebral e barbeiro&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;performing lobotomies&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;excitando o tecido cerebral&lt;/li&gt;\n</BlissLobotomy.generalRules.rulesStrings>
   <!-- EN: blood rain -->
-  <BloodRain.label>Blutregen</BloodRain.label>
+  <BloodRain.label>chuva de sangue</BloodRain.label>
   <!-- EN: Perform a psychic ritual which causes blood-like psychofluid to fall from the sky. Anyone caught outside will soon be driven into a berserk rage. -->
-  <BloodRain.description>Führe ein Psyritual durch, um ein blutähnliches Psychofluid vom Himmel regnen zu lassen. Jeder, der sich zu lange draußen aufhält, gerät in einen Berserkerrausch.</BloodRain.description>
+  <BloodRain.description>Realizar um ritual psíquico que faz com que o psicofluido de sangue caia do céu. Quem for apanhado lá fora será levado para uma raiva berserk.</BloodRain.description>
   <!-- EN:
     <li>subject->blood rain</li>
     <li>subject_story->investigated ancient deist myths about organic precipitation</li>
@@ -255,22 +137,11 @@
     <li>subject_story->was exposed to a psychofluid shower and filled with unmanageable rage</li>
     <li>subject_gerund->causing it to rain blood</li>
   -->
-  <BloodRain.generalRules.rulesStrings>
-    <li>subject->Blutregen</li>
-    <li>subject_with_adj->er Blutregen</li>
-    <li>subject_story->antike deistische Mythen über organische Niederschläge untersuchte</li>
-    <li>subject_story->die Nervenbahnen von Wutkranken untersuchte</li>
-    <li>subject_story->die Psychofluidströme in der transzendenten Welt von Ix untersuchte</li>
-    <li>subject_story->einem Psychofluidschauer ausgesetzt und von unbändiger Wut erfüllt war</li>
-    <li>subject_gerund->das Verursachen von Blutregen</li>
-    <li>subject_gerund_acc->das Verursachen von Blutregen</li>
-    <li>subject_gerund_dat->dem Verursachen von Blutregen</li>
-  </BloodRain.generalRules.rulesStrings>
-  
+  <BloodRain.generalRules.rulesStrings>&lt;li&gt;subject-&gt;sangue chuva&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; investigou mitos antigos deístas sobre precipitação orgânica&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;estudiu os caminhos neurais dos sofredores de raiva&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;sampled fluxos psicofluidos no mundo transcendente de Ix&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi exposto a um chuveiro psicofluido e preenchido com raiva incontrolável&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;causando-o para chover sangue&lt;/li&gt;\n</BloodRain.generalRules.rulesStrings>
   <!-- EN: brainwipe -->
-  <Brainwipe.label>Gedankenlöschung</Brainwipe.label>
+  <Brainwipe.label>cérebro</Brainwipe.label>
   <!-- EN: Perform a psychic ritual which erases much of a person's episodic memories. Traumatic events will be forgotten. Resistant prisoners will become easier to recruit. Allows recruiting unwaveringly loyal prisoners. -->
-  <Brainwipe.description>Führe ein Psyritual durch, um einen Großteil der episodischen Erinnerungen einer Person zu löschen. Traumatische Erlebnisse werden vergessen. Widerstandsstarke Gefangene können leichter rekrutiert werden. Ermöglicht die Rekrutierung von absolut loyalen Gefangenen.</Brainwipe.description>
+  <Brainwipe.description>Realizar um ritual psíquico que apaga grande parte das memórias episódicas de uma pessoa. Eventos traumáticos serão esquecidos. Os prisioneiros resistentes tornar-se-ão mais fáceis de recrutar. Permite recrutar prisioneiros inabalavelmente leais.</Brainwipe.description>
   <!-- EN:
     <li>subject->mind erasure</li>
     <li>subject_story->studied stories of episodice amnesia</li>
@@ -280,25 +151,11 @@
     <li>subject_gerund->wiping a subject's mind</li>
     <li>subject_gerund->performing a ritual to erase a subject's mind</li>
   -->
-  <Brainwipe.generalRules.rulesStrings>
-    <li>subject->Gedankenlöschung</li>
-    <li>subject_with_adj->e Gedankenlöschung</li>
-    <li>subject_story->Geschichten von episodischer Amnesie studierte</li>
-    <li>subject_story->in einer Klinik mit Überlebenden von Hirnverletzungen arbeitete</li>
-    <li>subject_story->die Nervenbahnen von Amnesiekranken erforschte</li>
-    <li>subject_story->nach den Vergessenen Kriegen eine Einrichtung zur Gehirnwäsche leitete</li>
-    <li>subject_gerund->das Löschen der Gedanken eines Probanden</li>
-    <li>subject_gerund_acc->das Löschen der Gedanken eines Probanden</li>
-    <li>subject_gerund_dat->dem Löschen der Gedanken eines Probanden</li>
-    <li>subject_gerund->die Durchführung eines Rituals zur Löschung der Gedanken eines Probanden</li>
-    <li>subject_gerund_acc->die Durchführung eines Rituals zur Löschung der Gedanken eines Probanden</li>
-    <li>subject_gerund_dat->der Durchführung eines Rituals zur Löschung der Gedanken eines Probanden</li>
-  </Brainwipe.generalRules.rulesStrings>
-  
+  <Brainwipe.generalRules.rulesStrings>&lt;li&gt;subject-&gt;mind apagamento&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;studied stories of episodice amnesia&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;trabalhado em uma clínica com lesões cerebrais sobreviventes&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou as vias neurais de amnésias&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;geriu uma instalação de lavagem cerebral após as Guerras Esquecidas&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;wiping a mente de um assunto&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;performando um ritual para apagar a mente de um sujeito&lt;/li&gt;\n</Brainwipe.generalRules.rulesStrings>
   <!-- EN: chronophagy -->
-  <Chronophagy.label>Chronophagie</Chronophagy.label>
+  <Chronophagy.label>cronologia</Chronophagy.label>
   <!-- EN: Perform a psychic ritual that causes a target to age rapidly. The ritual invoker will become younger in the process. The target will suffer brain damage as a result, which may be lethal for elderly targets. -->
-  <Chronophagy.description>Führe ein Psyritual durch, das ein Ziel schnell altern lässt, aber den Ritualbeschwörer jünger macht. Das Ziel erleidet einen Hirnschaden, das für ältere Ziele tödlich sein kann.</Chronophagy.description>
+  <Chronophagy.description>Realizar um ritual psíquico que causa um alvo para a idade rapidamente. O invocador ritual se tornará mais jovem no processo. O alvo sofrerá danos cerebrais como resultado, o que pode ser letal para alvos idosos.</Chronophagy.description>
   <!-- EN:
     <li>subject->chronophagy</li>
     <li>subject_story->studied age-related degeneration</li>
@@ -309,28 +166,11 @@
     <li>subject_gerund->invoking chronophagy</li>
     <li>subject_gerund->performing a chronophagy ritual</li>
   -->
-  <Chronophagy.generalRules.rulesStrings>
-    <li>subject->Chronophagie</li>
-    <li>subject_with_adj->e Chronophagie</li>
-    <li>subject_story->die altersbedingte Degeneration studierte</li>
-    <li>subject_story->gesunde Strukturen destruktiv von einem Organismus auf einen anderen repliziert</li>
-    <li>subject_story->über die verschiedenen Rituale theoretisiert, die durch den Einsatz von Archotech möglich sind</li>
-    <li>subject_story->in Glitzerwelt-Kliniken teure Behandlungen zur Langlebigkeit beobachtete</li>
-    <li>subject_gerund->das Stehlen der Jugend</li>
-    <li>subject_gerund_acc->das Stehlen der Jugend</li>
-    <li>subject_gerund_dat->dem Stehlen der Jugend</li>
-    <li>subject_gerund->die Beschwörung von Chronophagie</li>
-    <li>subject_gerund_acc->die Beschwörung von Chronophagie</li>
-    <li>subject_gerund_dat->der Beschwörung von Chronophagie</li>
-    <li>subject_gerund->die Durchführung eines Chronophagie-Rituals</li>
-    <li>subject_gerund_acc->die Durchführung eines Chronophagie-Rituals</li>
-    <li>subject_gerund_dat->der Durchführung eines Chronophagie-Rituals</li>
-  </Chronophagy.generalRules.rulesStrings>
-  
+  <Chronophagy.generalRules.rulesStrings>&lt;li&gt;subject-&gt;chronophagy&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;studiu a degeneração relacionada à idade&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;destrutivamente replicado estruturas saudáveis de um organismo para outro&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;teorizado sobre os vários rituais que imbued archotech pode ativar&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;ob servidos tratamentos de longevidade ricos em clínicas de glitterworld&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;stealing juvenil&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt; invocando cronofagia&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;performing a chronophagy ritual&lt;/li&gt;\n</Chronophagy.generalRules.rulesStrings>
   <!-- EN: deadlife dust -->
-  <DeadlifeDust.label>Deadlife-Staub</DeadlifeDust.label>
+  <DeadlifeDust.label>poeira morta</DeadlifeDust.label>
   <!-- EN: Craft devices that produce clouds of microscopic archites. The archites can reanimate corpses to produce deadly shamblers that will only attack your enemies. -->
-  <DeadlifeDust.description>Stelle Geräte her, die Wolken von mikroskopisch kleinen Architen freisetzen. Die Architen können Leichen wiederbeleben, um tödliche Schlurfer zu erzeugen, die nur deine Feinde angreifen.</DeadlifeDust.description>
+  <DeadlifeDust.description>Dispositivos de artesanato que produzem nuvens de arcos microscópicos. Os arqueiros podem reanimar cadáveres para produzir mortíferos shamblers que só atacarão seus inimigos.</DeadlifeDust.description>
   <!-- EN:
     <li>subject->deadlife dust</li>
     <li>subject_story->synthesized an aerosol-dispersal system for nanobots</li>
@@ -340,25 +180,11 @@
     <li>subject_gerund->crafting deadlife dust</li>
     <li>subject_gerund->distributing archites to create shamblers</li>
   -->
-  <DeadlifeDust.generalRules.rulesStrings>
-    <li>subject->Deadlife-Staub</li>
-    <li>subject_with_adj->er Deadlife-Staub</li>
-    <li>subject_story->ein Aerosolverteilungssystem für Nanobots synthetisiert hat</li>
-    <li>subject_story->Atomzentrifugen benutzte, um verschiedene Architsorten zu trennen</li>
-    <li>subject_story->sich einen Urbwelt-Vidclip mit angreifenden Schlurfern ansah</li>
-    <li>subject_story->ein Architkontrollgerät mit automatisch abgestimmten IFF-Systemen entwickelte</li>
-    <li>subject_gerund->die Herstellung von Deadlife-Staub</li>
-    <li>subject_gerund_acc->die Herstellung von Deadlife-Staub</li>
-    <li>subject_gerund_dat->der Herstellung von Deadlife-Staub</li>
-    <li>subject_gerund->die Verteilung von Architen zur Schaffung von Schlurfern</li>
-    <li>subject_gerund_acc->die Verteilung von Architen zur Schaffung von Schlurfern</li>
-    <li>subject_gerund_dat->der Verteilung von Architen zur Schaffung von Schlurfern</li>
-  </DeadlifeDust.generalRules.rulesStrings>
-  
+  <DeadlifeDust.generalRules.rulesStrings>&lt;li&gt;subject-&gt;deadlife dust&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;synthesized um sistema aerossol-dispersal para nanobots&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; usou centrífugos atômicos para separar diferentes graus de archite&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; assistiu a um assalto mortal a um xabler em um Vidclip &lt;/li&gt;\n&lt;li&gt;subject_story-&gt; desenvolveu um dispositivo de controle archite com sistemas IFF autotuned&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting deadlife dust&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;distribuindo arcos para criar shamblers&lt;/li&gt;\n</DeadlifeDust.generalRules.rulesStrings>
   <!-- EN: death refusal -->
-  <DeathRefusal.label>Todestrotz</DeathRefusal.label>
+  <DeathRefusal.label>recusa</DeathRefusal.label>
   <!-- EN: Perform a psychic ritual which grants death refusal to an individual, allowing them to self-resurrect once after dying. -->
-  <DeathRefusal.description>Führe ein Psyritual durch, das einer Person Todestrotz gewährt, womit sie sich nach ihrem Tod einmal selbst wiedererwecken kann.</DeathRefusal.description>
+  <DeathRefusal.description>Realizar um ritual psíquico que concede a recusa de morte a um indivíduo, permitindo-lhes a auto-ressurreto uma vez depois de morrer.</DeathRefusal.description>
   <!-- EN:
     <li>subject->death refusal invocation</li>
     <li>subject_story->investigated tales of impossible survival</li>
@@ -368,25 +194,11 @@
     <li>subject_gerund->fending off death</li>
     <li>subject_gerund->performing a ritual to rebuke death</li>
   -->
-  <DeathRefusal.generalRules.rulesStrings>
-    <li>subject->Todestrotzanrufung</li>
-    <li>subject_with_adj->e Todestrotzanrufung</li>
-    <li>subject_story->Geschichten von unmöglichen Überlebensfällen untersuchte</li>
-    <li>subject_story->die letzten Momente von vielen Gefallenen der Letzten Schlacht VII beobachtete</li>
-    <li>subject_story->am Versuch teilnahm, den Urpropheten von Axhor wiederzuerwecken</li>
-    <li>subject_story->in den Bibliotheken einer Kernwelt Beweise für Todestrotz sammelte</li>
-    <li>subject_gerund->die Bekämpfung des Todes</li>
-    <li>subject_gerund_acc->die Bekämpfung des Todes</li>
-    <li>subject_gerund_dat->der Bekämpfung des Todes</li>
-    <li>subject_gerund->die Durchführung eines Rituals zur Ablehnung des Todes</li>
-    <li>subject_gerund_acc->die Durchführung eines Rituals zur Ablehnung des Todes</li>
-    <li>subject_gerund_dat->der Durchführung eines Rituals zur Ablehnung des Todes</li>
-  </DeathRefusal.generalRules.rulesStrings>
-  
+  <DeathRefusal.generalRules.rulesStrings>&lt;li&gt;subject-&gt;death recusa invocação&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;investigados contos de sobrevivência impossível&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;observou os últimos momentos das muitas baixas da última batalha VII&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;participado na tentativa de ressurreição do ur-prophet de Axhor&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; recolheram evidências de recusa de morte nas bibliotecas de um coreworld&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;fending off death&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;performing a ritual to rebuke death&lt;/li&gt;\n</DeathRefusal.generalRules.rulesStrings>
   <!-- EN: disruptor flares -->
-  <DisruptorFlares.label>Disruptorfackeln</DisruptorFlares.label>
+  <DisruptorFlares.label>sinais de ruptura</DisruptorFlares.label>
   <!-- EN: Build bioferrite-based flare packs that reveal invisible creatures and light up an area. -->
-  <DisruptorFlares.description>Stelle Rucksäcke mit bioferritischen Leuchtfackeln her, die unsichtbare Kreaturen enttarnen und Gebiete beleuchten können.</DisruptorFlares.description>
+  <DisruptorFlares.description>Construa pacotes de flare baseados em bioferrite que revelam criaturas invisíveis e iluminam uma área.</DisruptorFlares.description>
   <!-- EN:
     <li>subject->bioferrite flares</li>
     <li>subject->short-term lighting</li>
@@ -397,27 +209,11 @@
     <li>subject_gerund->boosting visibility temporarily</li>
     <li>subject_gerund->crafting bioferrite flares</li>
   -->
-  <DisruptorFlares.generalRules.rulesStrings>
-    <li>subject->Bioferritfackeln</li>
-    <li>subject_with_adj->e Bioferritfackeln</li>
-    <li>subject->Kurzzeitbeleuchtung</li>
-    <li>subject_with_adj->e Kurzzeitbeleuchtung</li>
-    <li>subject_story->das nicht-visuelle elektromagnetische Spektrum studierte</li>
-    <li>subject_story->die Sehzentren der Probanden lahmlegt</li>
-    <li>subject_story->die Biolumineszenztechniken einer Nachtweltfauna studierte</li>
-    <li>subject_story->das elektromagnetische Spektrum von Energiefreisetzungen durch Architen eingrenzte</li>
-    <li>subject_gerund->die temporäre Erhöhung der Sichtbarkeit</li>
-    <li>subject_gerund_acc->die temporäre Erhöhung der Sichtbarkeit</li>
-    <li>subject_gerund_dat->der temporären Erhöhung der Sichtbarkeit</li>
-    <li>subject_gerund->die Herstellung von Bioferritfackeln</li>
-    <li>subject_gerund_acc->die Herstellung von Bioferritfackeln</li>
-    <li>subject_gerund_dat->der Herstellung von Bioferritfackeln</li>
-  </DisruptorFlares.generalRules.rulesStrings>
-  
+  <DisruptorFlares.generalRules.rulesStrings>&lt;li&gt;subject-&gt;bioferrite flares&lt;/li&gt;\n&lt;li&gt;subject-&gt;short-term lighting&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;estudiu o espectro eletromagnético não visual&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;disabled os centros visuais dos sujeitos de teste&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;estudiu as técnicas de bioluminescência da fauna noturna&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;narrowed o espectro eletromagnético de liberações de energia arqueita&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;boosting visibilidade temporariamente&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting bioferrite flares&lt;/li&gt;\n</DisruptorFlares.generalRules.rulesStrings>
   <!-- EN: electroharvester -->
-  <Electroharvester.label>Elektrokollektor</Electroharvester.label>
+  <Electroharvester.label>eletrodomésticos</Electroharvester.label>
   <!-- EN: Build a generator that draws electricity from contained entities. This process aggravates entities, making them harder to contain. -->
-  <Electroharvester.description>Baue einen Generator, der gefangenen Entitäten Strom entzieht. Dies reizt die Entitäten und macht es schwieriger, sie einzudämmen.</Electroharvester.description>
+  <Electroharvester.description>Construa um gerador que atrai eletricidade de entidades contidas. Este processo agrava entidades, tornando-as mais difíceis de conter.</Electroharvester.description>
   <!-- EN:
     <li>subject->entity-derived power generation</li>
     <li>subject_story->researched ion pumps in cell membranes</li>
@@ -427,25 +223,11 @@
     <li>subject_gerund->harvesting from entities</li>
     <li>subject_gerund->constructing electroharvesters</li>
   -->
-  <Electroharvester.generalRules.rulesStrings>
-    <li>subject->entitätsbasierte Stromerzeugung</li>
-    <li>subject_with_adj->e entitätsbasierte Stromerzeugung</li>
-    <li>subject_story->Ionenpumpen in Zellmembranen erforschte</li>
-    <li>subject_story->das Leben des seltenen terranischen Zitteraals studierte</li>
-    <li>subject_story->die Architen provozierte und ihre Wärmeleistung untersuchte</li>
-    <li>subject_story->über das Energiepotenzial von Archotech theoretisierte</li>
-    <li>subject_gerund->die Entziehung von Strom aus Entitäten</li>
-    <li>subject_gerund_acc->die Entziehung von Strom aus Entitäten</li>
-    <li>subject_gerund_dat->der Entziehung von Strom aus Entitäten</li>
-    <li>subject_gerund->der Bau von Elektrokollektoren</li>
-    <li>subject_gerund_acc->den Bau von Elektrokollektoren</li>
-    <li>subject_gerund_dat->dem Bau von Elektrokollektoren</li>
-  </Electroharvester.generalRules.rulesStrings>
-  
+  <Electroharvester.generalRules.rulesStrings>&lt;li&gt;subject-&gt;entidade-derived power generation&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pescas de íons pesquisadas em membranas celulares&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;estudiu a vida do raro eel elétrico Terran&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;provoked archites e estudou sua saída térmica&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;teorizado sobre o potencial de energia de archotech&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;harvesting de entidades&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;constructing electroharvesters&lt;/li&gt;\n</Electroharvester.generalRules.rulesStrings>
   <!-- EN: entity containment -->
-  <EntityContainment.label>Entitätseindämmung</EntityContainment.label>
+  <EntityContainment.label>contenção de entidades</EntityContainment.label>
   <!-- EN: Build holding platforms and inhibitors to better contain entities. -->
-  <EntityContainment.description>Baue Halteplattformen und Inhibitoren, um Entitäten besser einzudämmen.</EntityContainment.description>
+  <EntityContainment.description>Construa plataformas de retenção e inibidores para melhor conter entidades.</EntityContainment.description>
   <!-- EN:
     <li>subject->entity containment</li>
     <li>subject_story->worked in a prisonworld research facility</li>
@@ -455,25 +237,11 @@
     <li>subject_gerund->containing entities</li>
     <li>subject_gerund->construction entity containment facilities</li>
   -->
-  <EntityContainment.generalRules.rulesStrings>
-    <li>subject->Entitätseindämmung</li>
-    <li>subject_with_adj->e Entitätseindämmung</li>
-    <li>subject_story->in einer Forschungseinrichtung einer Gefängniswelt arbeitete</li>
-    <li>subject_story->auf einer Gefängniswelt gefangen gehalten wurde</li>
-    <li>subject_story->mit einer Guerillabewegung zusammenarbeitete, um Haftanstalten zu knacken</li>
-    <li>subject_story->für Dinowelt-Ketten Fleischverpackungsanlagen baute</li>
-    <li>subject_gerund->die Eindämmung von Entitäten</li>
-    <li>subject_gerund_acc->die Eindämmung von Entitäten</li>
-    <li>subject_gerund_dat->der Eindämmung von Entitäten</li>
-    <li>subject_gerund->der Bau von Anlagen zur Eindämmung von Entitäten</li>
-    <li>subject_gerund_acc->den Bau von Anlagen zur Eindämmung von Entitäten</li>
-    <li>subject_gerund_dat->dem Bau von Anlagen zur Eindämmung von Entitäten</li>
-  </EntityContainment.generalRules.rulesStrings>
-  
+  <EntityContainment.generalRules.rulesStrings>&lt;li&gt;subject-&gt;entidade contenção&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;trabalhado em uma instalação de pesquisa do mundo prisional&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi mantido em cativeiro em um mundo prisional&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;trabalhado com um movimento guerrilheiro para quebrar instalações de retenção&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;constructed meatpacking plants in the dinoworld chains&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt; contendo entidades&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;construção entidade contenção instalações&lt;/li&gt;\n</EntityContainment.generalRules.rulesStrings>
   <!-- EN: frenzy inducer -->
-  <FrenzyInducer.label>Rauschinduktor</FrenzyInducer.label>
+  <FrenzyInducer.label>indutor frenesi</FrenzyInducer.label>
   <!-- EN: Build shard-powered structures that generate a frenetic psychic field to make anyone nearby move and work faster. However, the unstable emotional energy creates a tendency towards violence, irritating anyone nearby. -->
-  <FrenzyInducer.description>Baue splitterbetriebene Strukturen, die ein frenetisches Psychofeld erzeugen, das Umstehende dazu bringt, schneller zu laufen und zu arbeiten. Allerdings erzeugt die instabile emotionale Energie eine Tendenz zur Gewalt, was jeden in der Nähe irritiert.</FrenzyInducer.description>
+  <FrenzyInducer.description>Construa estruturas rígidas que geram um campo psíquico frenético para fazer qualquer pessoa próximo se mover e trabalhar mais rápido. No entanto, a energia emocional instável cria uma tendência para a violência, irritando qualquer pessoa nas proximidades.</FrenzyInducer.description>
   <!-- EN:
     <li>subject->archotech frenzy inducers</li>
     <li>subject_story->worked as a motivational therapist</li>
@@ -483,25 +251,11 @@
     <li>subject_gerund->inducing frenzy</li>
     <li>subject_gerund->constructing frenzy inducers from archotech</li>
   -->
-  <FrenzyInducer.generalRules.rulesStrings>
-    <li>subject->Rauschinduktoren</li>
-    <li>subject_with_adj->e Rauschinduktoren</li>
-    <li>subject_story->als {ANYPAWN_gender ? Therapeut : Therapeutin} für Motivation arbeitete</li>
-    <li>subject_story->die Trommeln auf einer Wildwelt-Galeere schlug</li>
-    <li>subject_story->die Auswirkungen von verschiedenen Archofeldern auf das menschliche Bewusstsein erforschte</li>
-    <li>subject_story->eine Trancestation in einem Urbwelt-Unterclub betrieb</li>
-    <li>subject_gerund->die Auslösung von Rausch</li>
-    <li>subject_gerund_acc->die Auslösung von Rausch</li>
-    <li>subject_gerund_dat->der Auslösung von Rausch</li>
-    <li>subject_gerund->der Bau von Rauschinduktoren</li>
-    <li>subject_gerund_acc->den Bau von Rauschinduktoren</li>
-    <li>subject_gerund_dat->dem Bau von Rauschinduktoren</li>
-  </FrenzyInducer.generalRules.rulesStrings>
-  
+  <FrenzyInducer.generalRules.rulesStrings>&lt;li&gt;subject-&gt;archotech indutores frenesi&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; trabalhou como terapeuta motivacional&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;beat the drums on a feralworld galley&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou os efeitos de arcos variados na consciência humana&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;geriu uma estação de trance em um underclub de urbworld&lt;/li&gt;subject_story\n&lt;li&gt;subject_gerund-&gt;induzindo frenzy&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;construindo indutores frenesi de archotech&lt;/li&gt;\n</FrenzyInducer.generalRules.rulesStrings>
   <!-- EN: ghoul enhancements -->
-  <GhoulEnhancements.label>Ghulverbesserungen</GhoulEnhancements.label>
+  <GhoulEnhancements.label>realce de ghoul</GhoulEnhancements.label>
   <!-- EN: Craft bioferrite prosthetics to make ghouls stronger. -->
-  <GhoulEnhancements.description>Stelle Prothesen aus Bioferrit her, um Ghule stärker zu machen.</GhoulEnhancements.description>
+  <GhoulEnhancements.description>Prostética de bioferrite artesanal para tornar os ghouls mais fortes.</GhoulEnhancements.description>
   <!-- EN:
     <li>subject->ghoul enhancements</li>
     <li>subject_story->experimented with the dead and the twice-dead</li>
@@ -509,21 +263,11 @@
     <li>subject_story->researched more complex ghoul prosthesis</li>
     <li>subject_gerund->enhancing a ghoul with bioferrite prosthetics</li>
   -->
-  <GhoulEnhancements.generalRules.rulesStrings>
-    <li>subject->Ghulverbesserungen</li>
-    <li>subject_with_adj->e Ghulverbesserungen</li>
-    <li>subject_story->mit den Toten und den zweimal gestorbenen Toten experimentierte</li>
-    <li>subject_story->den Ghulen immer seltsamere Gegenstände implantierte</li>
-    <li>subject_story->komplexere Ghulprothesen erforschte</li>
-    <li>subject_gerund->die Verbesserung eines Ghuls mit Bioferritprothesen</li>
-    <li>subject_gerund_acc->die Verbesserung eines Ghuls mit Bioferritprothesen</li>
-    <li>subject_gerund_dat->der Verbesserung eines Ghuls mit Bioferritprothesen</li>
-  </GhoulEnhancements.generalRules.rulesStrings>
-  
+  <GhoulEnhancements.generalRules.rulesStrings>&lt;li&gt;subject-&gt;ghoul aprimoramentos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;experimented com os mortos e o two-dead&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;implantado cada vez mais itens estranhos em ghouls&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou próteses ghoul mais complexas&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt; melhorar um ghoul com próteses bioferrite&lt;/li&gt;\n</GhoulEnhancements.generalRules.rulesStrings>
   <!-- EN: ghoul infusion -->
-  <GhoulInfusion.label>Ghulinfusion</GhoulInfusion.label>
+  <GhoulInfusion.label>infusão de ghoul</GhoulInfusion.label>
   <!-- EN: Perform a surgery that infuses a living person with an archotech shard, transforming them into a terrifying ghoul. Ghouls are strong melee combatants but are incapable of doing work. Ghouls will go mad if they are not fed enough raw meat. -->
-  <GhoulInfusion.description>Führe eine Operation durch, bei der ein Archotechsplitter in eine lebende Person infundiert wird, um sie in einen schrecklichen Ghul zu verwandeln. Ghule sind starke Nahkämpfer, können aber nicht arbeiten. Ghule werden wahnsinnig, wenn sie nicht genug rohes Fleisch zu fressen bekommen.</GhoulInfusion.description>
+  <GhoulInfusion.description>Realizar uma cirurgia que infunde uma pessoa viva com um fragmento arquitetônico, transformando-os em um ghoul aterrorizante. Ghouls são fortes combatentes corporais, mas são incapazes de fazer o trabalho. Ghouls vai ficar louco se eles não são alimentados carne crua suficiente.</GhoulInfusion.description>
   <!-- EN:
     <li>subject->ghoul creation</li>
     <li>subject_story->supplied condemned prisonworld inhabitants for urbworld conflicts</li>
@@ -532,24 +276,11 @@
     <li>subject_gerund->infusing an archotech shard into a living person</li>
     <li>subject_gerund->creating a ghoul</li>
   -->
-  <GhoulInfusion.generalRules.rulesStrings>
-    <li>subject->Ghulerschaffung</li>
-    <li>subject_with_adj->e Ghulerschaffung</li>
-    <li>subject_story->verurteilte Gefängnisweltbewohner für Urbwelt-Konflikte lieferte</li>
-    <li>subject_story->Architinjektionen im Rahmen eines experimentellen Programms militarisierte</li>
-    <li>subject_story->wildes Deadlife in den Ruinen einer Todeswelt studierte</li>
-    <li>subject_gerund->die Infusion eines Archotechsplitters in eine lebende Person</li>
-    <li>subject_gerund_acc->die Infusion eines Archotechsplitters in eine lebende Person</li>
-    <li>subject_gerund_dat->der Infusion eines Archotechsplitters in eine lebende Person</li>
-    <li>subject_gerund->die Erschaffung eines Ghuls</li>
-    <li>subject_gerund_acc->die Erschaffung eines Ghuls</li>
-    <li>subject_gerund_dat->der Erschaffung eines Ghuls</li>
-  </GhoulInfusion.generalRules.rulesStrings>
-  
+  <GhoulInfusion.generalRules.rulesStrings>&lt;li&gt;subject-&gt;ghoul criação&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;supplied condenado prisãoworld habitantes para conflitos urbworld&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; injeções de arco militarizadas como parte de um programa experimental&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;studied feral deadlife nas ruínas de um mundo morto&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;infusando um fragmento de archotech em uma pessoa viva&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;criando um ghoul&lt;/li&gt;\n</GhoulInfusion.generalRules.rulesStrings>
   <!-- EN: ghoul resurrection -->
-  <GhoulResurrection.label>Ghule wiedererwecken</GhoulResurrection.label>
+  <GhoulResurrection.label>ressurreição ghoul</GhoulResurrection.label>
   <!-- EN: Synthesize a serum that can bring dead ghouls back to life. -->
-  <GhoulResurrection.description>Synthetisiere ein Serum, das tote Ghule wieder zum Leben erwecken kann.</GhoulResurrection.description>
+  <GhoulResurrection.description>Sintetize um soro que pode trazer ghouls mortos de volta à vida.</GhoulResurrection.description>
   <!-- EN:
     <li>subject->ghoul resurrection</li>
     <li>subject_story->developed a new method of resurrecting ghouls</li>
@@ -559,25 +290,11 @@
     <li>subject_gerund->resurrecting a ghoul</li>
     <li>subject_gerund->synthesizing a serum to resurrect ghouls</li>
   -->
-  <GhoulResurrection.generalRules.rulesStrings>
-    <li>subject->Ghulwiedererweckung</li>
-    <li>subject_with_adj->e Ghulwiedererweckung</li>
-    <li>subject_story->eine neue Methode zur Wiedererweckung von Ghulen entwickelte</li>
-    <li>subject_story->eine Vielzahl von Archotech-Mischungen in Leichen spritzte</li>
-    <li>subject_story->die Auswirkungen höherer Archotech-Konzentrationen auf Ghule untersuchte</li>
-    <li>subject_story->{ANYPAWN_gender ? Zeuge : Zeugin} der wiederholten Wiederauferstehung eines Ghuls wurde</li>
-    <li>subject_gerund->die Wiedererweckung eines Ghuls</li>
-    <li>subject_gerund_acc->die Wiedererweckung eines Ghuls</li>
-    <li>subject_gerund_dat->der Wiedererweckung eines Ghuls</li>
-    <li>subject_gerund->die Synthese eines Serums zur Wiedererweckung eines Ghuls</li>
-    <li>subject_gerund_acc->die Synthese eines Serums zur Wiedererweckung eines Ghuls</li>
-    <li>subject_gerund_dat->der Synthese eines Serums zur Wiedererweckung eines Ghuls</li>
-  </GhoulResurrection.generalRules.rulesStrings>
-  
+  <GhoulResurrection.generalRules.rulesStrings>&lt;li&gt;subject-&gt;ghoul resurrection&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; desenvolveu um novo método de resurrecting ghouls&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;injetou uma variedade de compostos de archotech em cadáveres&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou os efeitos de maiores concentrações de archotech em ghouls&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;teste a ressurreição repetida de um ghoul&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;resurrecting a ghoul&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;synthesizing a serum to resurrect ghouls&lt;/li&gt;\n</GhoulResurrection.generalRules.rulesStrings>
   <!-- EN: insanity weaponry -->
-  <InsanityWeaponry.label>Verrücktmachende Waffen</InsanityWeaponry.label>
+  <InsanityWeaponry.label>armas de insanidade</InsanityWeaponry.label>
   <!-- EN: Restructure archotech shards into limited-use weapons that shock, manipulate, and destroy enemies using archotechnology. -->
-  <InsanityWeaponry.description>Restrukturiere Archotechsplitter zu Waffen mit begrenzter Ladung, die Feinde schockieren, manipulieren und zerstören können.</InsanityWeaponry.description>
+  <InsanityWeaponry.description>Reestruturar fragmentos arquitetônicos em armas de uso limitado que chocam, manipulam e destroem inimigos usando arqueologia.</InsanityWeaponry.description>
   <!-- EN:
     <li>subject->archotech insanity weaponry</li>
     <li>subject_story->explored psychological warfare for [ANYPAWN_possessive] dissertation</li>
@@ -586,22 +303,11 @@
     <li>subject_story->vivisected archite-infested wildlife to understand the effects on the mammalian brain</li>
     <li>subject_gerund->restructuring archotech into insanity-inducing weaponry</li>
   -->
-  <InsanityWeaponry.generalRules.rulesStrings>
-    <li>subject->verrücktmachende Waffen</li>
-    <li>subject_with_adj->e verrücktmachende Waffen</li>
-    <li>subject_story->für [ANYPAWN_possessive]e Dissertation die psychologische Kriegsführung untersuchte</li>
-    <li>subject_story->beobachtete, wie ein imperiales Bataillon in die Flucht geschlagen wurde und den Wert der Angst kennenlernte</li>
-    <li>subject_story->in einer Irrenanstalt für Archotech-Opfer arbeitete</li>
-    <li>subject_story->architbefallene Wildtiere vivisezierte, um die Auswirkungen auf das Gehirn von Säugetieren zu verstehen</li>
-    <li>subject_gerund->die Umstrukturierung von Archotech in verrücktmachende Waffen</li>
-    <li>subject_gerund_acc->die Umstrukturierung von Archotech in verrücktmachende Waffen</li>
-    <li>subject_gerund_dat->der Umstrukturierung von Archotech in verrücktmachende Waffen</li>
-  </InsanityWeaponry.generalRules.rulesStrings>
-  
+  <InsanityWeaponry.generalRules.rulesStrings>&lt;li&gt;subject-&gt;archotech insanity gunry&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;explorado guerra psicológica para [ANYPAWN_possessive] dissertação&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; assistiu a um roteamento de batalhão imperial e aprendeu o valor do medo&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;trabalhado em um asilo de vítimas de archotech&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;vivisected archite-infested vida selvagem para entender os efeitos no cérebro mamífero&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;reestruturando archotech em armamento insanity-inducing&lt;/li&gt;\n</InsanityWeaponry.generalRules.rulesStrings>
   <!-- EN: juggernaut serum -->
-  <JuggernautSerum.label>Molochserum</JuggernautSerum.label>
+  <JuggernautSerum.label>soro de soro</JuggernautSerum.label>
   <!-- EN: Synthesize a serum which temporarily increases the user's strength and speed, and allows them to recover from injuries faster. However, it reduces their mood. -->
-  <JuggernautSerum.description>Synthetisiere ein Serum, das die Stärke und Schnelligkeit des Benutzers kurzzeitig erhöht und seine Wundheilung beschleunigt. Es verschlechtert jedoch seine Stimmung.</JuggernautSerum.description>
+  <JuggernautSerum.description>Sintetize um soro que aumenta temporariamente a força e a velocidade do usuário, e permite que eles recuperem de lesões mais rapidamente. No entanto, reduz o seu humor.</JuggernautSerum.description>
   <!-- EN:
     <li>subject->juggernaut serum</li>
     <li>subject_story->was banned from the coreworld leagues after [ANYPAWN_pronoun] was caught doping a team with Juggernaut Serum</li>
@@ -610,22 +316,11 @@
     <li>subject_story->fell into a barrel of juggernaut serum</li>
     <li>subject_gerund->synthesizing juggernaut serums</li>
   -->
-  <JuggernautSerum.generalRules.rulesStrings>
-    <li>subject->Molochserum</li>
-    <li>subject_with_adj->es Molochserum</li>
-    <li>subject_story->aus den Kernweltligen verbannt wurde, nachdem [ANYPAWN_pronoun] beim Doping eines Teams mit Molochserum erwischt worden war</li>
-    <li>subject_story->den Soldaten Molochserum gab, weil ihre Munition ausging</li>
-    <li>subject_story->den Serumkonsum im Baugewerbe untersuchte</li>
-    <li>subject_story->in ein Fass mit Molochserum fiel</li>
-    <li>subject_gerund->die Synthese von Molochseren</li>
-    <li>subject_gerund_acc->die Synthese von Molochseren</li>
-    <li>subject_gerund_dat->der Synthese von Molochseren</li>
-  </JuggernautSerum.generalRules.rulesStrings>
-  
+  <JuggernautSerum.generalRules.rulesStrings>&lt;li&gt;subject-&gt;juggernaut soro&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi banido das ligas do coreworld após [ANYPAWN_pronoun] foi pego doping uma equipe com Juggernaut Serum&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;gave soldados Juggernaut Serum quando suas munições correram para fora&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou o uso do soro entre os setores de construção indentured&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;fell em um barril de soro juggernaut&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;synthesizing juggernaut soros&lt;/li&gt;\n</JuggernautSerum.generalRules.rulesStrings>
   <!-- EN: metalblood serum -->
-  <MetalbloodSerum.label>Metallblutserum</MetalbloodSerum.label>
+  <MetalbloodSerum.label>soro de metal</MetalbloodSerum.label>
   <!-- EN: Synthesize metalblood serums that make the user more resistant to damage. -->
-  <MetalbloodSerum.description>Synthetisiere ein Serum, das den Benutzer widerstandsfähiger gegen Schäden macht.</MetalbloodSerum.description>
+  <MetalbloodSerum.description>Sintetize soros de metal que tornam o usuário mais resistente a danos.</MetalbloodSerum.description>
   <!-- EN:
     <li>subject->metalblood serums</li>
     <li>subject_story->researched reactive liquids for use in milworld armor</li>
@@ -634,22 +329,11 @@
     <li>subject_story->deployed flamethrowers against a metalblood-using militia</li>
     <li>subject_gerund->synthesizing metalblood serums</li>
   -->
-  <MetalbloodSerum.generalRules.rulesStrings>
-    <li>subject->Metallblutserum</li>
-    <li>subject_with_adj->es Metallblutserum</li>
-    <li>subject_story->reaktive Flüssigkeiten für den Einsatz in Milwelt-Rüstungen erforschte</li>
-    <li>subject_story->{ANYPAWN_gender ? ein früher Pionier : eine frühe Pionierin} von Blutersatztechnologien war</li>
-    <li>subject_story->auf einer trostlosen Todeswelt einen Metallblutspender entdeckte</li>
-    <li>subject_story->Flammenwerfer gegen eine metallblutnutzende Miliz einsetzte</li>
-    <li>subject_gerund->die Synthese von Metallblutseren</li>
-    <li>subject_gerund_acc->die Synthese von Metallblutseren</li>
-    <li>subject_gerund_dat->der Synthese von Metallblutseren</li>
-  </MetalbloodSerum.generalRules.rulesStrings>
-  
+  <MetalbloodSerum.generalRules.rulesStrings>&lt;li&gt;subjeto-&gt; soros de sangue metal&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; pesquisado líquidos reativos para uso em armadura milworld&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi um pioneiro das tecnologias de substituição de sangue&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;discovered a metalblood dispensar on a desolate deadworld&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;deployed flamethrowers against a metalblood-using militia&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;synthesizing metalblood soros&lt;/li&gt;\n</MetalbloodSerum.generalRules.rulesStrings>
   <!-- EN: mind-numb serum -->
-  <MindNumbSerum.label>Gedankenfrostserum</MindNumbSerum.label>
+  <MindNumbSerum.label>soro</MindNumbSerum.label>
   <!-- EN: Synthesize a serum that stabilizes a person's mood, preventing mental breaks. -->
-  <MindNumbSerum.description>Synthetisiere ein Serum, das die Stimmung einer Person stabilisiert und Nervenzusammenbrüche verhindert.</MindNumbSerum.description>
+  <MindNumbSerum.description>Sintetize um soro que estabiliza o humor de uma pessoa, evitando rupturas mentais.</MindNumbSerum.description>
   <!-- EN:
     <li>subject->mind-numb serum</li>
     <li>subject_story->sabotaged an emotional performance by secretly numbing the lead singer</li>
@@ -658,22 +342,11 @@
     <li>subject_story->investigated the use of archotech to numb pain</li>
     <li>subject_gerund->synthesizing mind-numb serums</li>
   -->
-  <MindNumbSerum.generalRules.rulesStrings>
-    <li>subject->Gedankenfrostserum</li>
-    <li>subject_with_adj->es Gedankenfrostserum</li>
-    <li>subject_story->einen emotionalen Auftritt sabotierte, indem [ANYPAWN_pronoun] den Frontsänger heimlich gefühllos machte</li>
-    <li>subject_story->niedrig dosiertes Gedankenfrostserum in die Wasserversorgung einer Irrenanstalt filterte</li>
-    <li>subject_story->vor und nach der Schlacht Gedankenfrostserum an junge Soldaten verteilte</li>
-    <li>subject_story->die Verwendung von Archotech zur Schmerzbetäubung untersuchte</li>
-    <li>subject_gerund->die Synthese von Gedankenfrostseren</li>
-    <li>subject_gerund_acc->die Synthese von Gedankenfrostseren</li>
-    <li>subject_gerund_dat->der Synthese von Gedankenfrostseren</li>
-  </MindNumbSerum.generalRules.rulesStrings>
-  
+  <MindNumbSerum.generalRules.rulesStrings>&lt;li&gt;subject-&gt;mind-numb soro&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;sabotaged an emocional performance by secretly numbing the lead singer&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;filtered low-dose mind-numb soro em um abastecimento de água de asilo&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;distributed mind-numb soro para soldados júnior antes e depois da batalha&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; investigou o uso de archotech para dor numb&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;synthesizing mind-numb soros&lt;/li&gt;\n</MindNumbSerum.generalRules.rulesStrings>
   <!-- EN: mutation weaponry -->
-  <MutationWeaponry.label>Mutationswaffen</MutationWeaponry.label>
+  <MutationWeaponry.label>armamento de mutação</MutationWeaponry.label>
   <!-- EN: Restructure archotech shards into limited-use weapons that twist living targets into terrifying creatures. -->
-  <MutationWeaponry.description>Restrukturiere Archotechsplitter zu Waffen mit begrenzter Ladung, die lebende Ziele in schreckliche Kreaturen verwandeln können.</MutationWeaponry.description>
+  <MutationWeaponry.description>Reestruturar fragmentos arquitetônicos em armas de uso limitado que torcem alvos vivos em criaturas terríveis.</MutationWeaponry.description>
   <!-- EN:
     <li>subject->mutation induction</li>
     <li>subject->archotech mutation weaponry</li>
@@ -685,28 +358,11 @@
     <li>subject_gerund->inducing mutations</li>
     <li>subject_gerund->restructuring archotech into mutation-inducing weaponry</li>
   -->
-  <MutationWeaponry.generalRules.rulesStrings>
-    <li>subject->Mutationsinduktion</li>
-    <li>subject_with_adj->e Mutationsinduktion</li>
-    <li>subject->Mutationswaffen</li>
-    <li>subject_with_adj->e Mutationswaffen</li>
-    <li>subject_story->von neuem Leben träumte, durchsetzt mit Architen</li>
-    <li>subject_story->{ANYPAWN_gender ? Zeuge : Zeugin} wurde, wie Archotech die Pflanzenwelt entstellte</li>
-    <li>subject_story->mit neuen Waffen experimentierte</li>
-    <li>subject_story->neues Leben auf transzendenten Welten studierte</li>
-    <li>subject_story->im Labor architbasiertes Leben züchtete</li>
-    <li>subject_gerund->die Induzierung von Mutationen</li>
-    <li>subject_gerund_acc->die Induzierung von Mutationen</li>
-    <li>subject_gerund_dat->der Induzierung von Mutationen</li>
-    <li>subject_gerund->die Umstrukturierung von Archotech in mutationserzeugende Waffen</li>
-    <li>subject_gerund_acc->die Umstrukturierung von Archotech in mutationserzeugende Waffen</li>
-    <li>subject_gerund_dat->der Umstrukturierung von Archotech in mutationserzeugende Waffen</li>
-  </MutationWeaponry.generalRules.rulesStrings>
-  
+  <MutationWeaponry.generalRules.rulesStrings>&lt;li&gt;subject-&gt;mutation induction&lt;/li&gt;\n&lt;li&gt;subject-&gt;archotech mutação armamento&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;dreamed da nova vida, infundido com archites&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;witnessed archotech warping plant life&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;experiente com novas armas&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; estudou nova vida em mundos transcendentes&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;grew vida baseada em arco no laboratório&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;induzindo mutações&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;reestruturando a archotech em armamento indutor de mutação&lt;/li&gt;\n</MutationWeaponry.generalRules.rulesStrings>
   <!-- EN: neurosis pulse -->
-  <NeurosisPulse.label>neurotische Welle</NeurosisPulse.label>
+  <NeurosisPulse.label>pulso de neurose</NeurosisPulse.label>
   <!-- EN: Perform a psychic ritual that makes everyone in the region work faster but become more irritable. -->
-  <NeurosisPulse.description>Führe ein Psyritual durch, das jeden in der Region schneller arbeiten lässt, aber auch reizbarer macht.</NeurosisPulse.description>
+  <NeurosisPulse.description>Realizar um ritual psíquico que faz com que todos na região trabalhem mais rápido, mas fiquem mais irritados.</NeurosisPulse.description>
   <!-- EN:
     <li>subject->neurosis pulse</li>
     <li>subject->work imperative</li>
@@ -717,27 +373,11 @@
     <li>subject_gerund->inducing neuroses psychically</li>
     <li>subject_gerund->performing a ritual to raise worker productivity</li>
   -->
-  <NeurosisPulse.generalRules.rulesStrings>
-    <li>subject->neurotische Welle</li>
-    <li>subject_with_adj->e neurotische Welle</li>
-    <li>subject->Arbeitszwang</li>
-    <li>subject_with_adj->er Arbeitszwang</li>
-    <li>subject_story->sich einem Arbeiterkult auf einer Urbwelt anschloss</li>
-    <li>subject_story->während der Arbeit den psychischen Druck eines Rituals spürte</li>
-    <li>subject_story->die Nervenbahnen eines Neurotikers studierte</li>
-    <li>subject_story->die Überschneidungen zwischen Verwaltungstropen und Kultritualen untersuchte</li>
-    <li>subject_gerund->die psychische Induzierung von Neurosen</li>
-    <li>subject_gerund_acc->die psychische Induzierung von Neurosen</li>
-    <li>subject_gerund_dat->der psychischen Induzierung von Neurosen</li>
-    <li>subject_gerund->die Durchführung eines Rituals zur Steigerung der Produktivität der Arbeiter</li>
-    <li>subject_gerund_acc->die Durchführung eines Rituals zur Steigerung der Produktivität der Arbeiter</li>
-    <li>subject_gerund_dat->der Durchführung eines Rituals zur Steigerung der Produktivität der Arbeiter</li>
-  </NeurosisPulse.generalRules.rulesStrings>
-  
+  <NeurosisPulse.generalRules.rulesStrings>&lt;li&gt;subject-&gt;neurosis pulso&lt;/li&gt;\n&lt;li&gt;subject-&gt;work imperativo&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; reuniu um culto dos trabalhadores em um urbworld&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;felt a pressão psíquica de um ritual durante o trabalho&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; estudou as vias neurais do neurótico&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; investigou o crossover entre os tropes de gestão e rituais de culto&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;induzindo neuroses psiquicamente&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;performando um ritual para aumentar a produtividade do trabalhador&lt;/li&gt;\n</NeurosisPulse.generalRules.rulesStrings>
   <!-- EN: philophagy -->
-  <Philophagy.label>Philophagie</Philophagy.label>
+  <Philophagy.label>filosófico</Philophagy.label>
   <!-- EN: Perform a psychic ritual that drains experience from a victim and gives it to the invoker. The process will dull the target's mind, weakening their skills and causing brain damage. -->
-  <Philophagy.description>Führe ein Psyritual durch, um einem Opfer Erfahrung zu entziehen und sie auf den Beschwörer zu übertragen. Dies beeinträchtigt den Verstand des Opfers, schwächt seine Fertigkeiten und führt zu Hirnschäden.</Philophagy.description>
+  <Philophagy.description>Executar um ritual psíquico que drena a experiência de uma vítima e dá-lo ao invocador. O processo vai diminuir a mente do alvo, enfraquecendo suas habilidades e causando danos cerebrais.</Philophagy.description>
   <!-- EN:
     <li>subject->philophagy</li>
     <li>subject->skill transfer</li>
@@ -748,27 +388,11 @@
     <li>subject_gerund->transferring a subject's learning</li>
     <li>subject_gerund->performing a ritual to steal a victim's skills</li>
   -->
-  <Philophagy.generalRules.rulesStrings>
-    <li>subject->Philophagie</li>
-    <li>subject_with_adj->e Philophagie</li>
-    <li>subject->Fertigkeitstransfer</li>
-    <li>subject_with_adj->er Fertigkeitstransfer</li>
-    <li>subject_story->einer Spur von Opfern folgte, die ein Philophage hinterlassen hatte</li>
-    <li>subject_story->in den Laboren einer Glitzerwelt die neuralen Replikationsprozesse erforschte</li>
-    <li>subject_story->die geschädigte Psyche von Kultopfern untersuchte</li>
-    <li>subject_story->feststellte, dass [ANYPAWN_possessive]e Fertigkeiten nach einem psychischen Angriff geschwächt waren</li>
-    <li>subject_gerund->die Übertragung von Erfahrung</li>
-    <li>subject_gerund_acc->die Übertragung von Erfahrung</li>
-    <li>subject_gerund_dat->der Übertragung von Erfahrung</li>
-    <li>subject_gerund->die Durchführung eines Rituals, um die Fertigkeiten eines Opfers zu stehlen</li>
-    <li>subject_gerund_acc->die Durchführung eines Rituals, um die Fertigkeiten eines Opfers zu stehlen</li>
-    <li>subject_gerund_dat->der Durchführung eines Rituals, um die Fertigkeiten eines Opfers zu stehlen</li>
-  </Philophagy.generalRules.rulesStrings>
-  
+  <Philophagy.generalRules.rulesStrings>&lt;li&gt;subject-&gt;philophagy&lt;/li&gt;\n&lt;li&gt;subject-&gt; transferência de habilidade&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;followed uma trilha de vítimas deixadas por uma filosofia&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; pesquisado processos de replicação neural em laboratórios de um glitterworld&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; investigou as mentes danificadas das vítimas de culto&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;found [ANYPAWN_possessive] habilidades enfraquecidas após um ataque psíquico&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;transferindo a aprendizagem de um assunto&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;performando um ritual para roubar as habilidades de uma vítima&lt;/li&gt;\n</Philophagy.generalRules.rulesStrings>
   <!-- EN: pleasure pulse -->
-  <PleasurePulse.label>Genusswelle</PleasurePulse.label>
+  <PleasurePulse.label>pulso de prazer</PleasurePulse.label>
   <!-- EN: Perform a psychic ritual that makes everyone in the region happier but reduces their desire to work. -->
-  <PleasurePulse.description>Führe ein Psyritual durch, das jeden in der Region glücklicher macht, aber seine Arbeitslust verringert.</PleasurePulse.description>
+  <PleasurePulse.description>Realizar um ritual psíquico que faz com que todos na região mais felizes, mas reduz o seu desejo de trabalhar.</PleasurePulse.description>
   <!-- EN:
     <li>subject->pleasure invocation</li>
     <li>subject_story->read an ancient Earth story that boasted of a miracle food called soma</li>
@@ -778,25 +402,11 @@
     <li>subject_gerund->inducing pleasure psychically</li>
     <li>subject_gerund->performing a psychic ritual to induce pleasure</li>
   -->
-  <PleasurePulse.generalRules.rulesStrings>
-    <li>subject->Genussanrufung</li>
-    <li>subject_with_adj->e Genussanrufung</li>
-    <li>subject_story->eine uralte Geschichte von der Erde las, in der von einem Wundertrank namens Soma die Rede war</li>
-    <li>subject_story->den Mythos der Lotusesser erforschte</li>
-    <li>subject_story->mit Sozialphilosophen zusammenarbeitete, um ein utilitaristisches Ritual zu schaffen</li>
-    <li>subject_story->einem seltenen Archotech-Kult beitrat, der sich der Freizeit und dem Vergnügen widmete</li>
-    <li>subject_gerund->die psychische Induzierung von Vergnügen</li>
-    <li>subject_gerund_acc->die psychische Induzierung von Vergnügen</li>
-    <li>subject_gerund_dat->der psychischen Induzierung von Vergnügen</li>
-    <li>subject_gerund->die Durchführung eines Rituals zur Induzierung von Vergnügen</li>
-    <li>subject_gerund_acc->die Durchführung eines Rituals zur Induzierung von Vergnügen</li>
-    <li>subject_gerund_dat->der Durchführung eines Rituals zur Induzierung von Vergnügen</li>
-  </PleasurePulse.generalRules.rulesStrings>
-  
+  <PleasurePulse.generalRules.rulesStrings>&lt;li&gt;subject-&gt;pleasure invocation&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;ler uma história da Terra antiga que se gabou de um alimento milagroso chamado soma&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou o mito do Lotus Eaters&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; trabalhou com filósofos sociais para criar um ritual utilitarista&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;juntou um culto raro archotech dedicado ao lazer e prazer&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;induzindo prazer psiquicamente&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;performando um ritual psíquico para induzir prazer&lt;/li&gt;\n</PleasurePulse.generalRules.rulesStrings>
   <!-- EN: proximity detector -->
-  <ProximityDetector.label>Näherungsdetektor</ProximityDetector.label>
+  <ProximityDetector.label>detector de proximidade</ProximityDetector.label>
   <!-- EN: Build a device that can detect invisible creatures. -->
-  <ProximityDetector.description>Baue ein Gerät, das unsichtbare Kreaturen aufspüren kann.</ProximityDetector.description>
+  <ProximityDetector.description>Construa um dispositivo que possa detectar criaturas invisíveis.</ProximityDetector.description>
   <!-- EN:
     <li>subject->proximity detectors</li>
     <li>subject->motion sensors</li>
@@ -807,27 +417,11 @@
     <li>subject_gerund->revealing the unseen</li>
     <li>subject_gerund->detecting invisible creatures</li>
   -->
-  <ProximityDetector.generalRules.rulesStrings>
-    <li>subject->Näherungsdetektoren</li>
-    <li>subject_with_adj->e Näherungsdetektoren</li>
-    <li>subject->Bewegungsmelder</li>
-    <li>subject_with_adj->er Bewegungsmelder</li>
-    <li>subject_story->uralte Unterhaltungsfilme sah und sich inspirieren ließ</li>
-    <li>subject_story->Prototypen von einfachen psi-gehärteten Geräten entwickelte</li>
-    <li>subject_story->die Frühwarnsysteme eines Außenpostens einer Todeswelt instand hielt</li>
-    <li>subject_story->Multibandscanner für systemübergreifende Mustererkennung studierte</li>
-    <li>subject_gerund->die Enttarnung des Unsichtbaren</li>
-    <li>subject_gerund_acc->die Enttarnung des Unsichtbaren</li>
-    <li>subject_gerund_dat->der Enttarnung des Unsichtbaren</li>
-    <li>subject_gerund->die Erkennung unsichtbarer Kreaturen</li>
-    <li>subject_gerund_acc->die Erkennung unsichtbarer Kreaturen</li>
-    <li>subject_gerund_dat->der Erkennung unsichtbarer Kreaturen</li>
-  </ProximityDetector.generalRules.rulesStrings>
-  
+  <ProximityDetector.generalRules.rulesStrings>&lt;li&gt;subject-&gt; detectores de proximidade&lt;/li&gt;\n&lt;li&gt;subject-&gt; sensores de emoção&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; assistiu bobinas de entretenimento antigos e foi inspirado&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;prototyped simple psi-hardened devices&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;mantido os sistemas de alerta precoce de um posto avançado do mundo da morte&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;studited scanners multiband para detecção de padrão cross-system&lt;/li&gt;subject_story\n&lt;li&gt;subject_gerund-&gt;revealing o unseen&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;detetando criaturas invisíveis&lt;/li&gt;\n</ProximityDetector.generalRules.rulesStrings>
   <!-- EN: psychophagy -->
-  <Psychophagy.label>Psychophagie</Psychophagy.label>
+  <Psychophagy.label>psicofágico</Psychophagy.label>
   <!-- EN: Perform a psychic ritual which deadens a target's psychic sensitivity and temporarily boosts the ritual invoker's psychic sensitivity. The target will suffer brain damage as a side-effect. -->
-  <Psychophagy.description>Führe ein Psyritual durch, das die mentale Sensibilität des Ziels dämpft und die mentale Sensibilität des Ritualbeschwörers kurzzeitig erhöht. Als Nebeneffekt erleidet das Ziel einen Hirnschaden.</Psychophagy.description>
+  <Psychophagy.description>Realizar um ritual psíquico que atenua a sensibilidade psíquica de um alvo e temporariamente aumenta a sensibilidade psíquica do invocador ritual. O alvo sofrerá danos cerebrais como um efeito colateral.</Psychophagy.description>
   <!-- EN:
     <li>subject->psychophagy</li>
     <li>subject_story->studied managed desensitization to psychic effects</li>
@@ -837,25 +431,11 @@
     <li>subject_gerund->stealing psychic abilities</li>
     <li>subject_gerund->performing a psychophagy ritual</li>
   -->
-  <Psychophagy.generalRules.rulesStrings>
-    <li>subject->Psychophagie</li>
-    <li>subject_with_adj->e Psychophagie</li>
-    <li>subject_story->studierte kontrollierte Desensibilisierung gegenüber psychischen Effekten</li>
-    <li>subject_story->den Architransfer von verstorbenen Probanden verwaltete</li>
-    <li>subject_story->Gerüchte über psychische Transferrituale sammelte</li>
-    <li>subject_story->{ANYPAWN_gender ? Zeuge : Zeugin} wurde, wie ein Horax-Kult die Kräfte eines imperialen Adligen an sich riss</li>
-    <li>subject_gerund->der Diebstahl von mentalen Kräften</li>
-    <li>subject_gerund_acc->den Diebstahl von mentalen Kräften</li>
-    <li>subject_gerund_dat->dem Diebstahl von mentalen Kräften</li>
-    <li>subject_gerund->die Durchführung eines Psychophagie-Rituals</li>
-    <li>subject_gerund_acc->die Durchführung eines Psychophagie-Rituals</li>
-    <li>subject_gerund_dat->der Durchführung eines Psychophagie-Rituals</li>
-  </Psychophagy.generalRules.rulesStrings>
-  
+  <Psychophagy.generalRules.rulesStrings>&lt;li&gt;subject-&gt;psychophagy&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;studied gerido dessensibilização para efeitos psíquicos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;managed archite transfer de sujeitos falecidos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;collated rumores de rituais de transferência psíquica&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;witnessed a Horax cult sap the power of an Imperial nobre&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;stealing habilidades psíquicas&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;performing a psicophagy ritual&lt;/li&gt;\n</Psychophagy.generalRules.rulesStrings>
   <!-- EN: revenant invisibility -->
-  <RevenantInvisibility.label>Unsichtbarkeit des Wiedergängers</RevenantInvisibility.label>
+  <RevenantInvisibility.label>invisibilidade de revenimento</RevenantInvisibility.label>
   <!-- EN: Modify a revenant spine so that it can be implanted in a human, allowing them to become temporarily invisible. -->
-  <RevenantInvisibility.description>Modifiziere die Wirbelsäule eines Wiedergängers und implantiere sie in einen Menschen, womit er sich kurzzeitig unsichtbar machen kann.</RevenantInvisibility.description>
+  <RevenantInvisibility.description>Modifique uma coluna de revenant para que possa ser implantada em um humano, permitindo que eles se tornem temporariamente invisíveis.</RevenantInvisibility.description>
   <!-- EN:
     <li>subject->invisibility</li>
     <li>subject_story->implanted a monster's spine into a human, without considering the consequences</li>
@@ -865,25 +445,11 @@
     <li>subject_gerund->adapting a revenant spine</li>
     <li>subject_gerund->implanting a revenant spine into a human</li>
   -->
-  <RevenantInvisibility.generalRules.rulesStrings>
-    <li>subject->Unsichtbarkeit</li>
-    <li>subject_with_adj->e Unsichtbarkeit</li>
-    <li>subject_story->einem Menschen das Rückgrat eines Ungeheuers einpflanzte, ohne die Folgen zu bedenken</li>
-    <li>subject_story->einen Roman über die schwindende Moral einer unsichtbaren Person schrieb</li>
-    <li>subject_story->eine seltsame metallische Wirbelsäule in einem Todessternsystem entdeckte</li>
-    <li>subject_story->von einer Armee unsichtbarer Krieger träumte</li>
-    <li>subject_gerund->die Anpassung einer Wiedergängerwirbelsäule</li>
-    <li>subject_gerund_acc->die Anpassung einer Wiedergängerwirbelsäule</li>
-    <li>subject_gerund_dat->der Anpassung einer Wiedergängerwirbelsäule</li>
-    <li>subject_gerund->die Implantation einer Wiedergängerwirbelsäule in einen Menschen</li>
-    <li>subject_gerund_acc->die Implantation einer Wiedergängerwirbelsäule in einen Menschen</li>
-    <li>subject_gerund_dat->der Implantation einer Wiedergängerwirbelsäule in einen Menschen</li>
-  </RevenantInvisibility.generalRules.rulesStrings>
-  
+  <RevenantInvisibility.generalRules.rulesStrings>&lt;li&gt;subject-&gt;invisibilidade&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;implantou a espinha de um monstro em um humano, sem considerar as conseqüências&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;wrote um romance sobre a moralidade desaparecendo de uma pessoa invisível&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; descobriu uma coluna metálica estranha em um sistema deadstar&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;dreamed de um exército de guerreiros invisíveis&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;adapting a revenant spine&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;implantando uma coluna de revenant em um humano&lt;/li&gt;\n</RevenantInvisibility.generalRules.rulesStrings>
   <!-- EN: serum synthesis -->
-  <SerumSynthesis.label>Serumsynthese</SerumSynthesis.label>
+  <SerumSynthesis.label>síntese sérica</SerumSynthesis.label>
   <!-- EN: Build a serum lab to synthesize high-tech serums. Serums harness archotechnological power to bestow a temporary effect on the user. -->
-  <SerumSynthesis.description>Baue ein Serumlabor, um hoch entwickelte Seren zu synthetisieren. Seren nutzen Archotech-Kräfte, um dem Benutzer einen temporären Effekt zu verleihen.</SerumSynthesis.description>
+  <SerumSynthesis.description>Construa um laboratório sérico para sintetizar soros de alta tecnologia. Serums aproveita o poder arquitetônico para conceder um efeito temporário no usuário.</SerumSynthesis.description>
   <!-- EN:
     <li>subject->serum synthesis</li>
     <li>subject_story->was injected with archites to understand their effects</li>
@@ -892,22 +458,11 @@
     <li>subject_story->managed a serum-testing programme for a coreworld brigade</li>
     <li>subject_gerund->synthesizing serums</li>
   -->
-  <SerumSynthesis.generalRules.rulesStrings>
-    <li>subject->Serumsynthese</li>
-    <li>subject_with_adj->e Serumsynthese</li>
-    <li>subject_story->mit Architen gespritzt wurde, um deren Wirkung zu verstehen</li>
-    <li>subject_story->eine schwarze, ölige Pfütze in einem Todeswelttempel entdeckte</li>
-    <li>subject_story->dank eines Serums einen gefährlichen Sturz überlebte</li>
-    <li>subject_story->ein Serumtestprogramm für eine Kernweltbrigade leitete</li>
-    <li>subject_gerund->die Synthese von Seren</li>
-    <li>subject_gerund_acc->die Synthese von Seren</li>
-    <li>subject_gerund_dat->der Synthese von Seren</li>
-  </SerumSynthesis.generalRules.rulesStrings>
-  
+  <SerumSynthesis.generalRules.rulesStrings>&lt;li&gt;subject-&gt;serum síntese&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi injetado com arcos para entender seus efeitos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; descobriu uma piscina de fluido preto oleoso em um templo do mundo morto&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; sobreviveu a uma queda perigosa graças a um soro&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;geriu um programa de teste sérico para uma brigada coreworld&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;synthesizing soros&lt;/li&gt;\n</SerumSynthesis.generalRules.rulesStrings>
   <!-- EN: skip abduction -->
-  <SkipAbductionPlayer.label>translokale Entführung</SkipAbductionPlayer.label>
+  <SkipAbductionPlayer.label>pular abdução</SkipAbductionPlayer.label>
   <!-- EN: Perform a psychic ritual that abducts a random hostile person from anywhere in the world, putting them in a short-term coma for capture. -->
-  <SkipAbductionPlayer.description>Führe ein Psyritual durch, das eine zufällig ausgewählte feindliche Person von einem beliebigen Ort auf der Welt entführt. Die Person wird in ein kurzes Koma versetzt, damit sie eingefangen werden kann.</SkipAbductionPlayer.description>
+  <SkipAbductionPlayer.description>Realizar um ritual psíquico que abduz uma pessoa hostil aleatória de qualquer lugar do mundo, colocando-os em um coma de curto prazo para a captura.</SkipAbductionPlayer.description>
   <!-- EN:
     <li>subject->psychic abduction</li>
     <li>subject->skip abduction</li>
@@ -918,27 +473,11 @@
     <li>subject_gerund->abducting enemies through psychic ritual</li>
     <li>subject_gerund->performing a ritual of skip abduction</li>
   -->
-  <SkipAbductionPlayer.generalRules.rulesStrings>
-    <li>subject->psychische Entführung</li>
-    <li>subject_with_adj->e psychische Entführung</li>
-    <li>subject->translokale Entführung</li>
-    <li>subject_with_adj->e translokale Entführung</li>
-    <li>subject_story->{ANYPAWN_gender ? Zeuge : Zeugin} eines Entführungsversuchs auf einen imperialen Adligen wurde</li>
-    <li>subject_story->von plündernden Dreckwühlern gegen Lösegeld freigekauft wurde</li>
-    <li>subject_story->ein gescheitertes Translokationsritual beobachtete, das von einem Kultführer durchgeführt wurde</li>
-    <li>subject_story->den transpatialen Transfer mittels Archotech erforschte</li>
-    <li>subject_gerund->die Entführung von Feinden durch Psyrituale</li>
-    <li>subject_gerund_acc->die Entführung von Feinden durch Psyrituale</li>
-    <li>subject_gerund_dat->der Entführung von Feinden durch Psyrituale</li>
-    <li>subject_gerund->die Durchführung eines Rituals der translokalen Entführung</li>
-    <li>subject_gerund_acc->die Durchführung eines Rituals der translokalen Entführung</li>
-    <li>subject_gerund_dat->der Durchführung eines Rituals der translokalen Entführung</li>
-  </SkipAbductionPlayer.generalRules.rulesStrings>
-  
+  <SkipAbductionPlayer.generalRules.rulesStrings>&lt;li&gt;subject-&gt;psychic abdução&lt;/li&gt;\n&lt;li&gt;subject-&gt;skip abduction&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;witnessed uma tentativa de abdução em um nobre Imperial&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi resgatado por scavengers da sujeira&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;ob serviu um ritual de translocação fracassado realizado por um líder culto&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou transferência transpatial mediada por archotech&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;abdutando inimigos através do ritual psíquico&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;performing a ritual of skip abduction&lt;/li&gt;\n</SkipAbductionPlayer.generalRules.rulesStrings>
   <!-- EN: sleep suppressor -->
-  <SleepSuppressor.label>Schlafunterdrücker</SleepSuppressor.label>
+  <SleepSuppressor.label>supressor de sono</SleepSuppressor.label>
   <!-- EN: Build shard-powered structures that stimulate those nearby to prevent fatigue. The device will irritate anyone nearby. -->
-  <SleepSuppressor.description>Baue splitterbetriebene Strukturen, die Umstehende stimulieren und ihre Müdigkeit unterdrücken. Das Gerät wird jeden in der Nähe irritieren.</SleepSuppressor.description>
+  <SleepSuppressor.description>Construa estruturas robustas que estimulam as próximas para evitar a fadiga. O dispositivo vai irritar qualquer pessoa nas proximidades.</SleepSuppressor.description>
   <!-- EN:
     <li>subject->sleep suppression</li>
     <li>subject_story->studied sleep deprivation in factory workers</li>
@@ -949,26 +488,11 @@
     <li>subject_gerund->constructing sleep suppressors from archotech</li>
     <li>subject_gerund->suppressing sleep with archotech</li>
   -->
-  <SleepSuppressor.generalRules.rulesStrings>
-    <li>subject->Schlafunterdrückung</li>
-    <li>subject_with_adj->e Schlafunterdrückung</li>
-    <li>subject_story->den Schlafmangel bei Fabrikarbeitern studierte</li>
-    <li>subject_story->den Konsum von Aufputschmitteln unter den imperialen Soldaten untersuchte</li>
-    <li>subject_story->die Auswirkungen der verschiedenen Archofelder auf das menschliche Bewusstsein erforschte</li>
-    <li>subject_story->in einem glitzerweltlichen Dauerschlaflabor arbeitete, wo die Reichen ihr Leben wegträumten</li>
-    <li>subject_story->für den Weckruf in einem Arbeitslager einer Gefängniswelt zuständig war</li>
-    <li>subject_gerund->der Bau von Schlafunterdrückern</li>
-    <li>subject_gerund_acc->den Bau von Schlafunterdrückern</li>
-    <li>subject_gerund_dat->dem Bau von Schlafunterdrückern</li>
-    <li>subject_gerund->die Unterdrückung von Schlaf mittels Archotech</li>
-    <li>subject_gerund_acc->die Unterdrückung von Schlaf mittels Archotech</li>
-    <li>subject_gerund_dat->der Unterdrückung von Schlaf mittels Archotech</li>
-  </SleepSuppressor.generalRules.rulesStrings>
-  
+  <SleepSuppressor.generalRules.rulesStrings>&lt;li&gt;subject-&gt;sleep supressão&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;estudiu a privação do sono em trabalhadores de fábrica&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou o uso do estimulante entre as tropas imperiais&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou os efeitos de arcos variados na consciência humana&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;trabalhado em um laboratório do mundo do brilho, onde os ricos sonharam suas vidas longe&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;geriu a reveille em um campo de trabalho do mundo prisional&lt;/li&gt;subject_story\n&lt;li&gt;subject_gerund-&gt;construindo supressores de sono de archotech&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;suppressing sono com archotech&lt;/li&gt;\n</SleepSuppressor.generalRules.rulesStrings>
   <!-- EN: draw animals -->
-  <SummonAnimals.label>Tiere anlocken</SummonAnimals.label>
+  <SummonAnimals.label>desenhar animais</SummonAnimals.label>
   <!-- EN: Perform a psychic ritual which will draw a herd of animals. -->
-  <SummonAnimals.description>Führe ein Psyritual durch, das eine Herde von Tieren anlockt.</SummonAnimals.description>
+  <SummonAnimals.description>Realizar um ritual psíquico que irá desenhar um rebanho de animais.</SummonAnimals.description>
   <!-- EN:
     <li>subject->stampede invocation</li>
     <li>subject_story->worked as a shepherd amidst the mountains of a primitive world</li>
@@ -977,22 +501,11 @@
     <li>subject_story->watched a nature cult commune with their herds</li>
     <li>subject_gerund->summoning animal herds</li>
   -->
-  <SummonAnimals.generalRules.rulesStrings>
-    <li>subject->Stampedenanrufung</li>
-    <li>subject_with_adj->e Stampedenanrufung</li>
-    <li>subject_story->als {ANYPAWN_gender ? Schäfer : Schäferin} inmitten der Berge einer primitiven Welt arbeitete</li>
-    <li>subject_story->lernte, mit den Tieren des Feldes zu kommunizieren</li>
-    <li>subject_story->mit den Auswirkungen von Archit auf verschiedene Tierarten experimentierte</li>
-    <li>subject_story->einen Naturkult beobachtete, der mit seinen Herden kommunizierte</li>
-    <li>subject_gerund->die Beschwörung von Tierherden</li>
-    <li>subject_gerund_acc->die Beschwörung von Tierherden</li>
-    <li>subject_gerund_dat->der Beschwörung von Tierherden</li>
-  </SummonAnimals.generalRules.rulesStrings>
-  
+  <SummonAnimals.generalRules.rulesStrings>&lt;li&gt;subject-&gt;stampede invocation&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; trabalhou como um pastor em meio às montanhas de um mundo primitivo&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;learned para commune com os animais dos campos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;experiente com os efeitos do arco em diferentes raças animais&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; assistiu a uma comuna de culto de natureza com seus rebanhos&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;summoning animal herds&lt;/li&gt;\n</SummonAnimals.generalRules.rulesStrings>
   <!-- EN: summon fleshbeasts -->
-  <SummonFleshbeastsPlayer.label>Fleischbestien anlocken</SummonFleshbeastsPlayer.label>
+  <SummonFleshbeastsPlayer.label>convocar carnais</SummonFleshbeastsPlayer.label>
   <!-- EN: Perform a psychic ritual which provokes fleshbeasts to emerge from the ground near enemies, attacking anyone nearby. -->
-  <SummonFleshbeastsPlayer.description>Führe ein Psyritual durch, das Fleischbestien dazu bringt, sich nach oben zu graben und in der Nähe deiner Feinde aufzutauchen. Sie greifen jeden in Sichtweite an.</SummonFleshbeastsPlayer.description>
+  <SummonFleshbeastsPlayer.description>Executar um ritual psíquico que provoca o carnaval para emergir do chão perto de inimigos, atacando qualquer pessoa nas proximidades.</SummonFleshbeastsPlayer.description>
   <!-- EN:
     <li>subject->fleshbeast summoning</li>
     <li>subject_story->read ancient tomes about the origins of life</li>
@@ -1003,26 +516,11 @@
     <li>subject_gerund->summoning fleshbeasts</li>
     <li>subject_gerund->performing a ritual to summon fleshbeasts</li>
   -->
-  <SummonFleshbeastsPlayer.generalRules.rulesStrings>
-    <li>subject->Fleischbestienbeschwörung</li>
-    <li>subject_with_adj->e Fleischbestienbeschwörung</li>
-    <li>subject_story->alte Folianten über die Ursprünge des Lebens las</li>
-    <li>subject_story->aus erster Hand die Spontangeburt bei den Boomratten von Sahe erlebte</li>
-    <li>subject_story->einen uralten Film über das Fleischschmelzen sah und inspiriert wurde</li>
-    <li>subject_story->die Übertragung und Trennung des Bewusstseins bei organischer Verschmelzung studierte</li>
-    <li>subject_story->eine Dreckwühler-Gemeinschaft beobachtete, die unter der Erde auf schreckliche Bestien gestoßen war</li>
-    <li>subject_gerund->die Beschwörung von Fleischbestien</li>
-    <li>subject_gerund_acc->die Beschwörung von Fleischbestien</li>
-    <li>subject_gerund_dat->der Beschwörung von Fleischbestien</li>
-    <li>subject_gerund->die Durchführung eines Rituals zur Beschwörung von Fleischbestien</li>
-    <li>subject_gerund_acc->die Durchführung eines Rituals zur Beschwörung von Fleischbestien</li>
-    <li>subject_gerund_dat->der Durchführung eines Rituals zur Beschwörung von Fleischbestien</li>
-  </SummonFleshbeastsPlayer.generalRules.rulesStrings>
-  
+  <SummonFleshbeastsPlayer.generalRules.rulesStrings>&lt;li&gt;subject-&gt;fleshbeast convocação&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;ler tomes antigos sobre as origens da vida&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;experiente em primeira mão geração espontânea nos boomrats de Sahe&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; assistiu a um filme antigo sobre a fundição de carne e foi inspirado&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;studied transferência de consciência e separação em fusão orgânica&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;ob servida a uma comunidade que tinha encontrado animais horríveis subterrâneos&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;summoning meatbeasts&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;performando um ritual para convocar bestas&lt;/li&gt;\n</SummonFleshbeastsPlayer.generalRules.rulesStrings>
   <!-- EN: provoke pit gate -->
-  <SummonPitGate.label>Grubentor provozieren</SummonPitGate.label>
+  <SummonPitGate.label>provocar portão de poço</SummonPitGate.label>
   <!-- EN: Perform a psychic ritual which causes underground fleshbeasts to open up a massive hole in the ground. The hole leads down to a fleshbeast-infested cavern which can be explored for resources. -->
-  <SummonPitGate.description>Führe ein Psyritual durch, das unterirdische Fleischbestien dazu bringt, ein riesiges Loch im Boden zu öffnen. Das Loch führt zu einer erkundbaren Höhle voller Fleischbestien und nützlicher Ressourcen.</SummonPitGate.description>
+  <SummonPitGate.description>Execute um ritual psíquico que faz com que os monstros subterrâneos abram um buraco enorme no chão. O buraco leva até uma caverna infestada de carne, que pode ser explorada por recursos.</SummonPitGate.description>
   <!-- EN:
     <li>subject->pit gate invocation</li>
     <li>subject_story->researched fleshmeld infestations</li>
@@ -1032,25 +530,11 @@
     <li>subject_gerund->performing a ritual to create a pit gate</li>
     <li>subject_gerund->summoning a pit gate</li>
   -->
-  <SummonPitGate.generalRules.rulesStrings>
-    <li>subject->Grubentoranrufung</li>
-    <li>subject_with_adj->e Grubentoranrufung</li>
-    <li>subject_story->Fleischschmelzbefälle erforschte</li>
-    <li>subject_story->Erzählungen über gestalthafte Organismen sammelte</li>
-    <li>subject_story->die Bibliothek einer Todeswelt-Kultschule verwaltete</li>
-    <li>subject_story->ein Ritual der Absenkung vollzog</li>
-    <li>subject_gerund->die Durchführung eines Rituals zur Schaffung eines Grubentors</li>
-    <li>subject_gerund_acc->die Durchführung eines Rituals zur Schaffung eines Grubentors</li>
-    <li>subject_gerund_dat->der Durchführung eines Rituals zur Schaffung eines Grubentors</li>
-    <li>subject_gerund->die Beschwörung eines Grubentors</li>
-    <li>subject_gerund_acc->die Beschwörung eines Grubentors</li>
-    <li>subject_gerund_dat->der Beschwörung eines Grubentors</li>
-  </SummonPitGate.generalRules.rulesStrings>
-  
+  <SummonPitGate.generalRules.rulesStrings>&lt;li&gt;subject-&gt;pit gate invocation&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou infestações de carmelado&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;gathered tales de organismos gestalt&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;geriu a biblioteca de tome de um cult-school do mundo morto&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; oficiado em um ritual de subsidência&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;performing a ritual to create a pit gate&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;summoning a pit gate&lt;/li&gt;\n</SummonPitGate.generalRules.rulesStrings>
   <!-- EN: draw shamblers -->
-  <SummonShamblers.label>Schlurfer anlocken</SummonShamblers.label>
+  <SummonShamblers.label>sorteio de xablers</SummonShamblers.label>
   <!-- EN: Perform a psychic ritual which will draw a horde of animated corpses. While hostile, the corpses won't attack your colony directly. They can be captured for study. -->
-  <SummonShamblers.description>Führe ein Psyritual durch, um eine Horde lebender Leichen anzulocken. Die Leichen sind feindselig, greifen deine Kolonie aber nicht direkt an. Sie können eingefangen und studiert werden.</SummonShamblers.description>
+  <SummonShamblers.description>Realizar um ritual psíquico que irá desenhar uma horda de cadáveres animados. Enquanto hostil, os cadáveres não atacarão a tua colónia directamente. Podem ser capturados para estudo.</SummonShamblers.description>
   <!-- EN:
     <li>subject->shambler summoning rituals</li>
     <li>subject_story->studied the necrocults of the deadworlds, from the safety of a university library</li>
@@ -1060,25 +544,11 @@
     <li>subject_gerund->summoning shamblers</li>
     <li>subject_gerund->calling shamblers through ritual</li>
   -->
-  <SummonShamblers.generalRules.rulesStrings>
-    <li>subject->Schlurferbeschwörungsrituale</li>
-    <li>subject_with_adj->e Schlurferbeschwörungsrituale</li>
-    <li>subject_story->die Nekrokulte der Todeswelten studierte, im Schutze einer Universitätsbibliothek</li>
-    <li>subject_story->Geschichten von Schlurferangriffen sammelte</li>
-    <li>subject_story->Architfadenbildung bei verstorbenen Organismen studierte</li>
-    <li>subject_story->als {ANYPAWN_gender ? Todesweltkurator : Todesweltkuratorin} alle möglichen seltsamen Dinge sah</li>
-    <li>subject_gerund->die Beschwörung von Schlurfern</li>
-    <li>subject_gerund_acc->die Beschwörung von Schlurfern</li>
-    <li>subject_gerund_dat->der Beschwörung von Schlurfern</li>
-    <li>subject_gerund->das Rufen von Schlurfern via Ritual</li>
-    <li>subject_gerund_acc->das Rufen von Schlurfern via Ritual</li>
-    <li>subject_gerund_dat->dem Rufen von Schlurfern via Ritual</li>
-  </SummonShamblers.generalRules.rulesStrings>
-  
+  <SummonShamblers.generalRules.rulesStrings>&lt;li&gt;subject-&gt;shambler convocando rituais&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;estudiu os necrocultos dos mundos mortos, da segurança de uma biblioteca universitária&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;coletos histórias de ataques de shambler&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;studied formação de thread archite em organismos falecidos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; viu todos os tipos de coisas estranhas como um curador do mundo da morte&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;summoning shamblers&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;calling shamblers através ritual&lt;/li&gt;\n</SummonShamblers.generalRules.rulesStrings>
   <!-- EN: void sculptures -->
-  <VoidSculptures.label>Leerenskulpturen</VoidSculptures.label>
+  <VoidSculptures.label>esculturas vazias</VoidSculptures.label>
   <!-- EN: Craft special void sculptures from bioferrite to enhance the quality of psychic rituals. -->
-  <VoidSculptures.description>Stelle spezielle Leerenskulpturen aus Bioferrit her, um die Qualität von Psyritualen zu verbessern.</VoidSculptures.description>
+  <VoidSculptures.description>Crie esculturas anuladas especiais de bioferrite para melhorar a qualidade dos rituais psíquicos.</VoidSculptures.description>
   <!-- EN:
     <li>subject->void sculptures</li>
     <li>subject->bioferrite sculpture</li>
@@ -1090,22 +560,5 @@
     <li>subject_gerund->sculpting with bioferrite</li>
     <li>subject_gerund->crafting bioferrite ritual sculptures</li>
   -->
-  <VoidSculptures.generalRules.rulesStrings>
-    <li>subject->Leerenskulpturen</li>
-    <li>subject_with_adj->e Leerenskulpturen</li>
-    <li>subject->Bioferritskulptur</li>
-    <li>subject_with_adj->e Bioferritskulptur</li>
-    <li>subject_story->am Computer archotechnische W-Räume modellierte</li>
-    <li>subject_story->von einer Sibylle angestellt wurde, um ihre Träume zu formen</li>
-    <li>subject_story->Skulpturen zum Leben erwecken wollte</li>
-    <li>subject_story->von einem endlosen Ozean träumte, geformt von Menschenhand</li>
-    <li>subject_story->imperiale Psywirker bei der Arbeit beobachtete</li>
-    <li>subject_gerund->die Bildhauerei mit Bioferrit</li>
-    <li>subject_gerund_acc->die Bildhauerei mit Bioferrit</li>
-    <li>subject_gerund_dat->der Bildhauerei mit Bioferrit</li>
-    <li>subject_gerund->die Herstellung von Ritualskulpturen aus Bioferrit</li>
-    <li>subject_gerund_acc->die Herstellung von Ritualskulpturen aus Bioferrit</li>
-    <li>subject_gerund_dat->der Herstellung von Ritualskulpturen aus Bioferrit</li>
-  </VoidSculptures.generalRules.rulesStrings>
-  
+  <VoidSculptures.generalRules.rulesStrings>&lt;li&gt;subject-&gt; esculturas volídicas&lt;/li&gt;\n&lt;li&gt;subject-&gt;bioferrite escultura&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;computer-modelled archotech possibilidade espaços&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi empregado por um sibilo para esculpir seus sonhos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; queria trazer esculturas à vida&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;dreamed de um oceano infinito, moldado por mãos humanas&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;ob servida médiuns imperiais no trabalho&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;sculpting com bioferrite&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting bioferrite ritual esculturas&lt;/li&gt;\n</VoidSculptures.generalRules.rulesStrings>
 </LanguageData>

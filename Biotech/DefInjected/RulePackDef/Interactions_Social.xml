@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>situation(p=2)->safely</li>
     <li>situation->at night</li>
@@ -8,25 +7,12 @@
     <li>situation->while injured</li>
     <li>situation(p=0.2)->while drunk</li>
   -->
-  <LessonInteractionCommonSituations.rulePack.rulesStrings>
-    <li>situation(p=2)->gefahrlos</li>
-    <li>situation->nachts</li>
-    <li>situation->in der Kälte</li>
-    <li>situation->verwundet</li>
-    <li>situation(p=0.2)->alkoholisiert</li>
-  </LessonInteractionCommonSituations.rulePack.rulesStrings>
-  
+  <LessonInteractionCommonSituations.rulePack.rulesStrings>&lt;li&gt;situation(p=2)-&gt;safely&lt;/li&gt;\n&lt;li&gt;situation-&gt;at night&lt;/li&gt;\n&lt;li&gt;situation-&gt;in o frio &lt;/li&gt;\n&lt;li&gt;situation-&gt; enquanto ferido&lt;/li&gt;\n&lt;li&gt;situation(p=0.2)-&gt; enquanto bêbado&lt;/li&gt;\n</LessonInteractionCommonSituations.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
   -->
-  <LessonInteractionHowTo.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_verb] [RECIPIENT_nameDef] [teach_adverb], wie man [article_tool_acc] [action].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_verb] [RECIPIENT_nameDef] [teach_adverb], wie man mit [article_tool_dat] [action_with].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [teach_verb] [RECIPIENT_nameDef], wie man [article_tool_acc] [action].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [teach_verb] [RECIPIENT_nameDef], wie man mit [article_tool_dat] [action_with].</li>
-  </LessonInteractionHowTo.rulePack.rulesStrings>
-  
+  <LessonInteractionHowTo.rulePack.rulesStrings>&lt;li&gt;r_logentry(p=0.5)-&gt;[INITIATOR_nameDef] [teach_adverb] [teach_verb] como [action] [article_tool] para [RECIPIENT_nameDef].&lt;/li&gt;\n&lt;li&gt;r_logentry-&gt;[INITIATOR_nameDef] [teach_verb] como [action] [article_tool] para [RECIPIENT_nameDef].&lt;/li&gt;\n</LessonInteractionHowTo.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] on [action_gerund] [article_tool] [situation].</li>
     <li>teach_test->quizzed</li>
@@ -34,17 +20,7 @@
     <li>teach_test->grilled</li>
     <li>teach_test->cross-examined</li>
   -->
-  <LessonInteractionQuiz.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef], wie man [situation] [article_tool_acc] [action].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef], wie man [situation] mit [article_tool_dat] [action_with].</li>
-    <li>teach_test->befragte</li>
-    <li>teach_test->testete</li>
-    <li>teach_test->prüfte</li>
-    <li>teach_test->fragte</li>
-    <li>teach_test->verhörte</li>
-    <li>teach_test->kontrollierte</li>
-  </LessonInteractionQuiz.rulePack.rulesStrings>
-  
+  <LessonInteractionQuiz.rulePack.rulesStrings>&lt;li&gt;r_logentry(p=0.5)-&gt;[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] em [action_gerund] [article_tool] [situação].\n&lt;li&gt;teach_test-&gt;quizzed&lt;/li&gt;\n&lt;li&gt;teach_test-&gt;tested&lt;/li&gt;\n&lt;li&gt;teach_test-&gt;grilled&lt;/li&gt;\n&lt;li&gt;teach_test-&gt;cross-examined&lt;/li&gt;\n</LessonInteractionQuiz.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
@@ -53,17 +29,7 @@
     <li>study_verb->researched</li>
     <li>study_verb->studied</li>
   -->
-  <LessonInteractionStudySubjectWith.rulePack.rulesStrings>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] besprach mit [RECIPIENT_nameDef] [teach_adverb] [subject].</li>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] ging mit [RECIPIENT_nameDef] [teach_adverb] [subject] durch.</li>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] nahm mit [RECIPIENT_nameDef] [teach_adverb] [subject] unter die Lupe.</li>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] studierte [teach_adverb] mit [RECIPIENT_nameDef] [subject].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] besprach mit [RECIPIENT_nameDef] [subject].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] ging mit [RECIPIENT_nameDef] [subject] durch.</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] nahm mit [RECIPIENT_nameDef] [subject] unter die Lupe.</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] studierte mit [RECIPIENT_nameDef] [subject].</li>
-  </LessonInteractionStudySubjectWith.rulePack.rulesStrings>
-  
+  <LessonInteractionStudySubjectWith.rulePack.rulesStrings>&lt;li&gt;r_logentry(p=0.25)-&gt;[INITIATOR_nameDef] [teach_adverb] [study_verb] [subject] with [RECIPIENT_nameDef].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.5)-&gt;[INITIATOR_nameDef] [study_verb] [subject] com [RECIPIENT_nameDef].&lt;/li&gt;\n&lt;li&gt;study_verb-&gt;covered&lt;/li&gt;\n&lt;li&gt;study_verb-&gt; passou sobre&lt;/li&gt;\n&lt;li&gt;study_verb-&gt;pesquisado&lt;/li&gt;\n&lt;li&gt;study_verb-&gt;studied&lt;/li&gt;\n</LessonInteractionStudySubjectWith.rulePack.rulesStrings>
   <!-- EN:
     <li>teach_adverb->calmly</li>
     <li>teach_adverb->animatedly</li>
@@ -72,28 +38,14 @@
     <li>teach_adverb->lightheartedly</li>
     <li>teach_adverb->carefully</li>
   -->
-  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
-    <li>teach_adverb->in aller Ruhe</li>
-    <li>teach_adverb->lebhaft</li>
-    <li>teach_adverb->genau</li>
-    <li>teach_adverb->auf die Schnelle</li>
-    <li>teach_adverb->spielerisch</li>
-    <li>teach_adverb->liebevoll</li>
-  </LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
-  
+  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings>&lt;li&gt;teach_adverb-&gt;calmly&lt;/li&gt;\n&lt;li&gt;teach_adverb-&gt;animatedly&lt;/li&gt;\n&lt;li&gt;teach_adverb-&gt;intentamente&lt;/li&gt;\n&lt;li&gt;teach_adverb-&gt;quickly&lt;/li&gt;\n&lt;li&gt;teach_adverb-&gt;lightheartedly&lt;/li&gt;\n&lt;li&gt;teach_adverb-&gt;carefully&lt;/li&gt;\n</LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
   <!-- EN:
     <li>teach_verb->demonstrated</li>
     <li>teach_verb->explained</li>
     <li>teach_verb->showed</li>
     <li>teach_verb->taught</li>
   -->
-  <LessonInteractionTeachingVerbs.rulePack.rulesStrings>
-    <li>teach_verb->unterrichtete</li>
-    <li>teach_verb->erklärte</li>
-    <li>teach_verb->zeigte</li>
-    <li>teach_verb->lehrte</li>
-  </LessonInteractionTeachingVerbs.rulePack.rulesStrings>
-  
+  <LessonInteractionTeachingVerbs.rulePack.rulesStrings>&lt;li&gt;teach_verb-&gt;demonstrado&lt;/li&gt;\n&lt;li&gt;teach_verb-&gt;explained&lt;/li&gt;\n&lt;li&gt;teach_verb-&gt;showed&lt;/li&gt;\n&lt;li&gt;teach_verb-&gt;taught&lt;/li&gt;\n</LessonInteractionTeachingVerbs.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
@@ -102,15 +54,5 @@
     <li>talk_verb->gave a summary of</li>
     <li>talk_verb->lectured about</li>
   -->
-  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] belehrte [RECIPIENT_nameDef] [teach_adverb] über [subject].</li>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] gab [RECIPIENT_nameDef] [teach_adverb] einen Überblick über [subject].</li>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] gab [RECIPIENT_nameDef] [teach_adverb] eine Zusammenfassung über [subject].</li>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] hielt [RECIPIENT_nameDef] [teach_adverb] einen Vortrag über [subject].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] belehrte [RECIPIENT_nameDef] über [subject].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] gab [RECIPIENT_nameDef] einen Überblick über [subject].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] gab [RECIPIENT_nameDef] eine Zusammenfassung über [subject].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] hielt [RECIPIENT_nameDef] einen Vortrag über [subject].</li>
-  </LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
-  
+  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>&lt;li&gt;r_logentry(p=0.25)-&gt;[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject] para [RECIPIENT_nameDef].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.5)-&gt;[INITIATOR_nameDef] [talk_verb] [subject] para [RECIPIENT_nameDef].&lt;/li&gt;\n&lt;li&gt;talk_verb-&gt;falou sobre&lt;/li&gt;\n&lt;li&gt;talk_verb-&gt; deu uma visão geral de&lt;/li&gt;\n&lt;li&gt;talk_verb-&gt;gave um resumo de&lt;/li&gt;\n&lt;li&gt;talk_verb-&gt;lectured about&lt;/li&gt;\n</LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
 </LanguageData>

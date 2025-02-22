@@ -1,8 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: death pall -->
-  <DeathPall.label>Todesschleier</DeathPall.label>
+  <DeathPall.label>palha de morte</DeathPall.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] facing the encroaching death pall</li>
     <li>image->[PAWN_nameFull] gazing in horror as the death pall blankets the land, resurrecting the dead [circumstance_group]</li>
@@ -17,27 +16,9 @@
     <li>desc_sentence->Shivers run down [PAWN_nameDef]'s spine as the death pall's influence continues to spread.</li>
     <li>desc_sentence->The weight of despair settles upon [PAWN_nameDef], testing [PAWN_possessive] resolve in the face of the macabre.</li>
   -->
-  <DeathPall.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] dem nahenden Tod ins Auge blickte</li>
-    <li>image->[PAWN_nameFullIndefDat], wie [PAWN_pronoun] entsetzt auf den Todesschleier starrt, der das Land bedeckt und die Toten wieder auferstehen lässt, [circumstance_group]</li>
-    <li>image->[PAWN_nameFullIndefDat], wie [PAWN_pronoun] [PAWN_possessive]e Waffe fest umklammert, während der Todesschleier sich senkt und die Toten auferstehen lässt, [circumstance_group]</li>
-    <li>image->[PAWN_nameFullIndefDat], wie [PAWN_pronoun] vor Unbehagen zittert, als [PAWN_pronoun] sieht, wie der Todesschleier den Toten das Leben einhaucht, [circumstance_group]</li>
-    <li>image->[PAWN_nameFullIndefDat], wie [PAWN_pronoun] entsetzt zusieht, wie der Todesschleier [PAWN_possessive]e idyllische Heimat einhüllt und in ein Schlachtfeld gegen die Toten verwandelt, [circumstance_group]</li>
-    <li>circumstance_phrase->und [PAWN_possessive]e verzweifelten Gebete nach Sicherheit übertönt</li>
-    <li>circumstance_phrase->mit dem Geruch von Verfall und Verzweiflung in der Luft</li>
-    <li>circumstance_phrase->und [PAWN_objective] in eine Horde von Schlurfern treibt</li>
-    <li>desc_sentence->In der Mitte des Todesschleiers bereitet sich [PAWN_nameDef] auf den Kampf vor.</li>
-    <li>desc_sentence->Der herannahende Todesschleier erfüllt [PAWN_nameDef_s] Freunde mit Schrecken.</li>
-    <li>desc_sentence->[PAWN_nameDefDat] läuft ein Schauer über den Rücken, als sich der Einfluss des Todesschleiers weiter ausbreitet.</li>
-    <li>desc_sentence->Die Verzweiflung lastet auf [PAWN_nameDefAcc] und stellt [PAWN_possessive]e Entschlossenheit im Angesicht des Grauens auf die Probe.</li>
-    <li>PAWN_nameFullIndefDat->{replace: [PAWN_nameFull]; ">ein "-">einem "; ">eine "-">einer "}</li>
-    <li>PAWN_nameDefDat->{replace: [PAWN_nameIndef]; ">ein "-">dem "; ">eine "-">der "}</li>
-    <li>PAWN_nameDefAcc->{replace: [PAWN_nameDef]; ">der "-">den "}</li>
-    <li>PAWN_nameDef_s->{replace: [PAWN_label]s; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"}</li>
-  </DeathPall.rulePack.rulesStrings>
-  
+  <DeathPall.rulePack.rulesStrings>&lt;li&gt;tale_noun-&gt;[PAWN_nameDef] enfrentando a morte de invasão pall&lt;/li&gt;\n&lt;li&gt;image-&gt;[PAWN_nameFull] olhando em horror como o pall da morte cobre a terra, ressuscitando os mortos [circumstance_group]&lt;/li&gt;\n&lt;li&gt;image-&gt;[PAWN_nameFull] agarrando [PAWN_possessive] arma firmemente, como o pall da morte desce, levantando os mortos [circumstance_group]&lt;/li&gt;\n&lt;li&gt;image-&gt;[PAWN_nameFull] tremendo com inquietação, testemunhando a chegada do pavilhão de morte, sua influência dando vida ao sem vida [circumstance_group]&lt;/li&gt;\n&lt;li&gt;image-&gt;[PAWN_nameFull] observando em horror como o pall de morte envolve [PAWN_possessive] casa pacífica, transformando-o em um campo de batalha contra os mortos [circumstance_group]&lt;/li&gt;\n&lt;li&gt;circumstance_phrase-&gt; e afogando-se [PAWN_possessive] orações desesperadas por segurança&lt;/li&gt;\n&lt;li&gt;circumstance_phrase-&gt; com o aroma da decadência e desespero enchendo o ar&lt;/li&gt;\n&lt;li&gt;circumstance_phrase-&gt;and trapping [PAWN_objective] em uma horda de shamblers&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; No centro do pavilhão de morte, [PAWN_nameDef] prepara-se para a batalha.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; O encroachment da pall da morte preenche os amigos de [PAWN_nameDef] com terror.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; Shivers corre para baixo [PAWN_nameDef]'s spine como a influência do pall de morte continua a espalhar-se.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; O peso do desespero assenta em [PAWN_nameDef], testando [PAWN_possessive] resolver na face do macabro.&lt;/li&gt;\n</DeathPall.rulePack.rulesStrings>
   <!-- EN: unnatural darkness -->
-  <UnnaturalDarkness.label>unnatürliche Finsternis</UnnaturalDarkness.label>
+  <UnnaturalDarkness.label>escuridão natural</UnnaturalDarkness.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] confronts the unnatural darkness</li>
     <li>image->[PAWN_nameFull] standing in awe as the world is consumed by an impenetrable darkness [circumstance_group]</li>
@@ -53,21 +34,5 @@
     <li>desc_sentence->Groups of shadowy creatures are visible at the edge of the darkness.</li>
     <li>desc_sentence->[PAWN_nameDef] tries to find a glimmer of hope amidst the encroaching darkness.</li>
   -->
-  <UnnaturalDarkness.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] mit der unnatürlichen Finsternis konfrontiert wurde</li>
-    <li>image->[PAWN_nameFullIndefDat], wie [PAWN_pronoun] staunend dasteht, während die Welt von einer undurchdringlichen Finsternis verschlungen wird, [circumstance_group]</li>
-    <li>image->[PAWN_nameFullIndefDat], wie [PAWN_pronoun] von schwarzen Säulen umgeben ist, die vom Himmel fallen und das Land in Finsternis hüllen, [circumstance_group]</li>
-    <li>image->[PAWN_nameFullIndefDat], wie [PAWN_pronoun] sich durch die erstickende Finsternis kämpft und {PAWN_gender ? ihm : ihr} Noctole auf den Fersen sind, [circumstance_group]</li>
-    <li>image->[PAWN_nameFullIndefDat], wie [PAWN_pronoun] zusieht, wie die Welt von einem Abgrund aus Schatten verschlungen wird, [circumstance_group]</li>
-    <li>circumstance_phrase->inmitten der verzweifelten Versuche [PAWN_possessive]er Freunde, ins sichere Licht zurückzukehren</li>
-    <li>circumstance_phrase->mit durchdringenden Schreien, die überall widerhallen</li>
-    <li>circumstance_phrase->während das Licht kaum in der Lage zu sein scheint, es zurückzuhalten</li>
-    <li>circumstance_phrase->während [PAWN_pronoun] um Gnade winselt</li>
-    <li>desc_sentence->Nicht einmal das geringste Flackern von Licht in der Ferne ist zu sehen.</li>
-    <li>desc_sentence->Die Lage scheint aussichtslos.</li>
-    <li>desc_sentence->Am Rande der Finsternis sind Gruppen von schattenhaften Gestalten zu sehen.</li>
-    <li>desc_sentence->[PAWN_nameDef] versucht, inmitten der hereinbrechenden Finsternis einen Hoffnungsschimmer zu finden.</li>
-    <li>PAWN_nameFullIndefDat->{replace: [PAWN_nameFull]; ">ein "-">einem "; ">eine "-">einer "}</li>
-  </UnnaturalDarkness.rulePack.rulesStrings>
-  
+  <UnnaturalDarkness.rulePack.rulesStrings>&lt;li&gt;tale_noun-&gt;[PAWN_nameDef] confronta a escuridão não natural&lt;/li&gt;\n&lt;li&gt;image-&gt;[PAWN_nameFull] em pé no temor como o mundo é consumido por uma escuridão impenetrável [circumstance_group]&lt;/li&gt;\n&lt;li&gt;image-&gt;[PAWN_nameFull] cercado por pilares negros que caem do céu que cobrem a terra na escuridão [circumstance_group]&lt;/li&gt;\n&lt;li&gt;image-&gt;[PAWN_nameFull] lutando para encontrar [PAWN_possessive] caminho através da escuridão sufocante, noctols que soa em saltos [PAWN_possessive], [circumstance_group]&lt;/li&gt;\n&lt;li&gt;image-&gt;[PAWN_nameFull] observando o mundo ser engolido por um abismo de sombras [circumstance_group]&lt;/li&gt;\n&lt;li&gt;circumstance_phrase-&gt;amidst por [PAWN_possessive] as tentativas desesperadas dos amigos para voltar à segurança da luz&lt;/li&gt;\n&lt;li&gt;circumstance_phrase-&gt; com gritos de piercing ecoando todos em torno de&lt;/li&gt;\n&lt;li&gt;circumstance_phrase-&gt; a luz aparentemente mal capaz de mantê-la de volta&lt;/li&gt;\n&lt;li&gt;circumstance_phrase-&gt;as [PAWN_pronoun] oferece fundamentos para a salvação&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; Nem mesmo a menor cintilação de luzes na distância é visível.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; A situação parece totalmente sem esperança.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; Grupos de criaturas sombras são visíveis na borda da escuridão.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; [PAWN_nameDef] tenta encontrar um brilho de esperança em meio à escuridão envolvente.&lt;/li&gt;\n</UnnaturalDarkness.rulePack.rulesStrings>
 </LanguageData>

@@ -1,38 +1,33 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: berserk -->
-  <BerserkShort.label>Berserker</BerserkShort.label>
+  <BerserkShort.label>a sério</BerserkShort.label>
   <!-- EN: Mental state: Berserk -->
-  <BerserkShort.baseInspectLine>Übergeschnappt: Berserker</BerserkShort.baseInspectLine>
+  <BerserkShort.baseInspectLine>Estado mental: Berserk</BerserkShort.baseInspectLine>
   <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
-  <BerserkShort.beginLetter>{0} ist in einen Berserkerrausch verfallen.\n\n[PAWN_pronoun] wird jeden in Sichtweite angreifen.</BerserkShort.beginLetter>
+  <BerserkShort.beginLetter>Foi um berserk.\n\n[PAWN_pronoun] vai atacar qualquer um [PAWN_pronoun] vê.</BerserkShort.beginLetter>
   <!-- EN: {0}'s berserk rage has come to an end. -->
-  <BerserkShort.recoveryMessage>Der Berserkerrausch von {0} hat sich gelegt.</BerserkShort.recoveryMessage>
-  
+  <BerserkShort.recoveryMessage>a raiva berserk chegou ao fim.</BerserkShort.recoveryMessage>
   <!-- EN: cube sculpting -->
-  <CubeSculpting.label>baut Würfelskulptur</CubeSculpting.label>
+  <CubeSculpting.label>esculpir cubo</CubeSculpting.label>
   <!-- EN: Mental state: Cube sculpting -->
-  <CubeSculpting.baseInspectLine>Übergeschnappt: Baut Würfelskulptur</CubeSculpting.baseInspectLine>
+  <CubeSculpting.baseInspectLine>Estado mental: Esculpir cubo</CubeSculpting.baseInspectLine>
   <!-- EN: {PAWN_nameDef}'s obsession with the cube has caused {PAWN_objective} to fall into a daze. {PAWN_pronoun} is going to build a sculpture to release the pressure growing in {PAWN_possessive} mind. -->
-  <CubeSculpting.beginLetter>{replace: {PAWN_nameDef}s; "s(/Name)s"-"s(/Name)'"; "ß(/Name)s"-"ß(/Name)'"; "z(/Name)s"-"z(/Name)'"; "x(/Name)s"-"x(/Name)'"; "ce(/Name)s"-"ce(/Name)'"} Besessenheit mit dem Würfel hat {PAWN_objective} in Trance versetzt. {PAWN_pronoun} wird eine Skulptur bauen, um den wachsenden Druck in {PAWN_possessive}em Kopf zu lösen.</CubeSculpting.beginLetter>
+  <CubeSculpting.beginLetter>{PAWN_name A obsessão de Def} com o cubo tem causado {PAWN_objectivo} cair em um daze. {PAWN_pronoun} vai construir uma escultura para liberar a pressão crescendo em {PAWN_possessive} mente.</CubeSculpting.beginLetter>
   <!-- EN: cube obsession -->
-  <CubeSculpting.beginLetterLabel>Würfelobsession</CubeSculpting.beginLetterLabel>
+  <CubeSculpting.beginLetterLabel>obsessão</CubeSculpting.beginLetterLabel>
   <!-- EN: {PAWN_nameDef} has finished {PAWN_possessive} cube structure. -->
-  <CubeSculpting.recoveryMessage>{PAWN_nameDef} hat {PAWN_possessive}e Würfelskulptur fertiggestellt.</CubeSculpting.recoveryMessage>
-  
+  <CubeSculpting.recoveryMessage>{PAWN_nameDef} terminou {PAWN_possessive} estrutura de cubo.</CubeSculpting.recoveryMessage>
   <!-- EN: humanity break -->
-  <HumanityBreak.label>Menschlichkeitskrise</HumanityBreak.label>
+  <HumanityBreak.label>quebra da humanidade</HumanityBreak.label>
   <!-- EN: Mental state: Humanity break -->
-  <HumanityBreak.baseInspectLine>Übergeschnappt: Menschlichkeitskrise</HumanityBreak.baseInspectLine>
+  <HumanityBreak.baseInspectLine>Estado mental: quebra da humanidade</HumanityBreak.baseInspectLine>
   <!-- EN: {PAWN_nameDef} has relinquished {PAWN_possessive} remaining ties to humanity and embraced {PAWN_possessive} ideology’s worship of the void. {PAWN_possessive} concern for health, family, friendship, and love have been broken.\n\n{PAWN_nameDef} is now inhumanized, and will suffer a breakdown as {PAWN_pronoun} tries to grapple with {PAWN_possessive} new mental alignment. -->
-  <HumanityBreak.beginLetter>{PAWN_nameDef} hat {PAWN_possessive}e verbliebene Menschlichkeit aufgegeben und sich der Verehrung der Leere gemäß {PAWN_possessive}er Ideologie verschrieben. {PAWN_possessive}e Sorge um Gesundheit, Familie, Freundschaft und Liebe ist erloschen.\n\n{PAWN_nameDef} ist nun entmenschlicht und wird einen Zusammenbruch erleiden, während {PAWN_pronoun} versucht, mit {PAWN_possessive}er neuen Geisteshaltung zurechtzukommen.</HumanityBreak.beginLetter>
-  
+  <HumanityBreak.beginLetter>{PAWN_nameDef} renunciou {PAWN_possessive} mantendo laços com a humanidade e abraçou a adoração da ideologia do vazio. A preocupação com a saúde, a família, a amizade e o amor foram quebrados.\n\n{PAWN_name Def} agora está desumanizado, e sofrerá um colapso como {PAWN_pronoun} tenta acumular com {PAWN_possessive} novo alinhamento mental.</HumanityBreak.beginLetter>
   <!-- EN: manhunter -->
-  <ManhunterBloodRain.label>Menschenjäger</ManhunterBloodRain.label>
+  <ManhunterBloodRain.label>caçador de homens</ManhunterBloodRain.label>
   <!-- EN: Maddened: Manhunter -->
-  <ManhunterBloodRain.baseInspectLine>Übergeschnappt: Menschenjäger</ManhunterBloodRain.baseInspectLine>
+  <ManhunterBloodRain.baseInspectLine>Maddened: Caçador de Homem</ManhunterBloodRain.baseInspectLine>
   <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
-  <ManhunterBloodRain.recoveryMessage>{0} hat nicht mehr den Drang, Menschen zu jagen.</ManhunterBloodRain.recoveryMessage>
-  
+  <ManhunterBloodRain.recoveryMessage>a caça ao sangue acabou.</ManhunterBloodRain.recoveryMessage>
 </LanguageData>

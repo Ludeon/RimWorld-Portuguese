@@ -1,16 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>questDescription->[enemiesLabel] have set up a camp and are harassing caravans of [asker_faction_name]. [asker_nameDef] is planning an aerial assault on the camp, which is guarded by [enemiesCount] [enemiesLabel]. [asker_pronoun] wants you to provide [soldiers] to carry out the attack.\n\n[asker_pronoun] will send a shuttle to pick up your fighters, bring them to the attack site, and take them home afterward. They will be fed and medically tended en-route.\n\nOnce the attack begins, you must defeat all enemies and turrets within [timeoutTicks_duration].</li>
     <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldiers</li>
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
   -->
-  <Mission_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[enemiesCount] [enemiesLabel] haben ein Lager errichtet und bedrohen die Karawanen der Fraktion [asker_faction_name]. [asker_nameDef] plant einen Luftangriff auf das Lager. [asker_pronoun] möchte, dass du {asker_gender ? ihm : ihr} [soldiers] zur Verfügung stellst, um den Angriff durchzuführen.\n\n[asker_pronoun] wird ein Shuttle schicken, das deine Soldaten abholt, zu dem Angriffsort fliegt und sie anschließend wieder nach Hause bringt. Unterwegs bekommen sie Nahrung und werden medizinisch versorgt.\n\nSobald der Angriff beginnt, hast du [timeoutTicks_duration] Zeit, um alle Feinde und Geschütztürme zu besiegen.</li>
-    <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] Soldaten</li>
-    <li>soldiers(requiredPawnCount==1)->einen Soldaten</li>
-  </Mission_BanditCamp.questDescriptionRules.rulesStrings>
+  <Mission_BanditCamp.questDescriptionRules.rulesStrings>&lt;li&gt;questDescription-&gt;[enemiesLabel] montaram um acampamento e estão assediando caravanas de [asker_faction_name]. [asker_nameDef] está planejando um ataque aéreo ao acampamento, que é guardado por [enemiesCount] [enemiesLabel]. [asker_pronoun] quer que você forneça [soldidores] para realizar o ataque.\n\n[asker_pronoun] vai enviar um vaivém para pegar seus caças, trazê-los para o local de ataque, e levá-los para casa depois. Eles serão alimentados e clinicamente cuidadas en-route.\n\nUma vez que o ataque começa, você deve derrotar todos os inimigos e torres dentro [timeoutTicks_duration].&lt;/li&gt;\n&lt;li&gt;soldiers(requiredPawnCount&gt;1)-&gt;[requiredPawnCount] soldados&lt;/li&gt;\n&lt;li&gt;soldiers(requiredPawnCount=1)-&gt;[requiredPawnCount] soldado&lt;/li&gt;\n</Mission_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[questNameInner]</li>
     <li>questName->[asker_nameDef]'s [questNameInner]</li>
@@ -28,15 +23,5 @@
     <li>work->work</li>
     <li>work->job</li>
   -->
-  <Mission_BanditCamp.questNameRules.rulesStrings>
-    <li>questName->[questNameInner]</li>
-    <li>questName->{replace: [asker_nameDef]s; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"} [questNameInner]</li>
-    <li>questNameInner->Luftangriff</li>
-    <li>questNameInner(p=0.5)->Angriff auf das [targetNeu]</li>
-    <li>questNameInner(p=0.5)->Angriff auf die [targetFem]</li>
-    <li>targetNeu->Lager</li>
-    <li>targetFem->Basis</li>
-    <li>targetFem->Festung</li>
-  </Mission_BanditCamp.questNameRules.rulesStrings>
-  
+  <Mission_BanditCamp.questNameRules.rulesStrings>&lt;li&gt;questName-&gt;[questNameInner]&lt;/li&gt;\n&lt;li&gt;questName-&gt;[asker_nameDef]'s [questNameInner]&lt;/li&gt;\n&lt;li&gt;questNameInner-&gt;[aerial] [attack]&lt;/li&gt;\n&lt;li&gt;questNameInner-&gt;[target] [attack]&lt;/li&gt;\n&lt;li&gt;questNameInner-&gt;[attack] [work]&lt;/li&gt;\n&lt;li&gt;target-&gt;camp&lt;/li&gt;\n&lt;li&gt;target-&gt;base&lt;/li&gt;\n&lt;li&gt;target-&gt;fort&lt;/li&gt;\n&lt;li&gt;aerial-&gt;aerial&lt;/li&gt;\n&lt;li&gt;aerial-&gt;air&lt;/li&gt;\n&lt;li&gt;aerial-&gt;shuttle-borne&lt;/li&gt;\n&lt;li&gt;attack-&gt;attack&lt;/li&gt;attack\n&lt;li&gt;attack-&gt;assault&lt;/li&gt;\n&lt;li&gt;work-&gt;work&lt;/li&gt;\n&lt;li&gt;work-&gt;job&lt;/li&gt;\n</Mission_BanditCamp.questNameRules.rulesStrings>
 </LanguageData>

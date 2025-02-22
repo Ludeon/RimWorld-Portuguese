@@ -1,14 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: healed me -->
-  <HealedMe.label>mich geheilt</HealedMe.label>
-  
+  <HealedMe.label>curou-me</HealedMe.label>
   <!-- EN: mutated my arm -->
-  <MutatedMyArm.label>mein Arm mutiert</MutatedMyArm.label>
-  
+  <MutatedMyArm.label>mutado meu braço</MutatedMyArm.label>
   <!-- EN: studied an entity -->
-  <StudiedEntity.label>eine Entität studiert</StudiedEntity.label>
+  <StudiedEntity.label>estudou uma entidade</StudiedEntity.label>
   <!-- EN:
     <li>tale_noun->[STUDIER_nameDef] studying [ENTITY_nameIndef]</li>
     <li>image->[STUDIER_nameFull] carefully examining [ENTITY_nameDef] [circumstance_group]</li>
@@ -23,24 +20,5 @@
     <li>desc_sentence->[ENTITY_nameDef] is only just held in the place by the ceaseless work of electro-inhibitors.</li>
     <li>desc_sentence->[ENTITY_nameDef] does not appear to react to [STUDIER_nameDef]'s efforts.</li>
   -->
-  <StudiedEntity.rulePack.rulesStrings>
-    <li>tale_noun->[STUDIER_nameDef] [ENTITY_nameDefAcc] studierte</li>
-    <li>image->[STUDIER_nameFull], wie [STUDIER_pronoun] [ENTITY_nameIndefAcc] vorsichtig untersucht, [circumstance_group]</li>
-    <li>image->[STUDIER_nameFull], wie [STUDIER_pronoun] Experimente an [ENTITY_nameIndefAcc] durchführt, um [ENTITY_possessive]e Geheimnisse zu ergründen, [circumstance_group]</li>
-    <li>image->[STUDIER_nameFull], wie [STUDIER_pronoun] danach strebt, die Eigenschaften von [ENTITY_nameIndefDat] zu begreifen, [circumstance_group]</li>
-    <li>circumstance_phrase->mit kaum verhohlenem Abscheu in [STUDIER_possessive]en Augen</li>
-    <li>circumstance_phrase->während [STUDIER_pronoun] in ein Notizbuch kritzelt</li>
-    <li>circumstance_phrase->während [STUDIER_pronoun] einen alten Folianten zurate zieht</li>
-    <li>desc_sentence->Im Hintergrund sind stetig laufende Bioferritkollektoren zu sehen.</li>
-    <li>desc_sentence->Die tiefe Faszination des Kolonisten für [ENTITY_nameDefAcc] ist offensichtlich.</li>
-    <li>desc_sentence->[STUDIER_nameDef] ist ganz in [STUDIER_possessive] Studium von [ENTITY_nameDefDat] vertieft und bemüht sich, [ENTITY_possessive]e Geheimnisse zu lüften.</li>
-    <li>desc_sentence->[ENTITY_nameDef] wird nur durch den unermüdlichen Einsatz der elektrischen Inhibitoren an Ort und Stelle gehalten.</li>
-    <li>desc_sentence->[ENTITY_nameDef] scheint auf [STUDIER_nameDef_s] Bemühungen nicht zu reagieren.</li>
-    <li>ENTITY_nameDefAcc->{replace: [ENTITY_nameDef]; ">der "-">den "}</li>
-    <li>ENTITY_nameDefDat->{replace: [ENTITY_nameDef]; ">der "-">dem "; ">die "-">der "; ">das "-">dem "}</li>
-    <li>ENTITY_nameIndefAcc->{replace: [ENTITY_nameDef]; ">der "-">einen "; ">die "-">eine "; ">das "-">ein "}</li>
-    <li>ENTITY_nameIndefDat->{replace: [ENTITY_nameDef]; ">der "-">einem "; ">die "-">einer "; ">das "-">einem "}</li>
-    <li>STUDIER_nameDef_s->{replace: [STUDIER_label]s; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"}</li>
-  </StudiedEntity.rulePack.rulesStrings>
-  
+  <StudiedEntity.rulePack.rulesStrings>&lt;li&gt;tale_noun-&gt;[STUDIER_nameDef] estudando [ENTITY_nameIndef]&lt;/li&gt;\n&lt;li&gt;image-&gt;[STUDIER_nameFull] cuidadosamente examinando [ENTITY_nameDef] [circumstance_group]&lt;/li&gt;\n&lt;li&gt;image-&gt;[STUDIER_nameFull] conduzindo experimentos, buscando entender os segredos de [ENTITY_nameDef], [circumstance_group]&lt;/li&gt;\n&lt;li&gt;image-&gt;[STUDIER_nameFull] esforçando-se para compreender a natureza de [ENTITY_nameDef] [circumstance_group]&lt;/li&gt;\n&lt;li&gt;circumstance_phrase-&gt; com mal escondido desgosto em [STUDIER_possessive] olhos&lt;/li&gt;\n&lt;li&gt;circumstance_phrase-&gt; enquanto scribbling em um notebook&lt;/li&gt;\n&lt;li&gt;circumstance_phrase-&gt; enquanto consulta um tome antigo&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; O trabalho constante das colheitadeiras de bioferrite pode ser visto no fundo.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; O profundo fascínio do colonista com [ENTITY_nameDef] é evidente.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt;[STUDIER_nameDef] é completamente absorvido em [STUDIER_possessive] estudo de [ENTITY_nameDef], esforçando-se para desbloquear seus segredos.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt;[ENTITY_nameDef] é apenas realizada no lugar pelo trabalho incessante de electro-inibidores.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt;[ENTITY_nameDef] não parece reagir aos esforços de [STUDIER_nameDef].&lt;/li&gt;\n</StudiedEntity.rulePack.rulesStrings>
 </LanguageData>

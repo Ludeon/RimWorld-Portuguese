@@ -1,10 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: bioregeneration -->
-  <Bioregeneration.label>Bioregeneration</Bioregeneration.label>
+  <Bioregeneration.label>biorregeneração</Bioregeneration.label>
   <!-- EN: Unlock the biosculpter pod's bioregeneration cycle. This cycle heals old scars, regenerates small lost body parts like fingers and toes, and cures many of the physical maladies that come with old age. -->
-  <Bioregeneration.description>Schalte den Bioregenerationszyklus für die Bioformerkapsel frei. Dieser Zyklus heilt alte Narben, regeneriert kleine verlorene Körperteile wie Finger und Zehen und kuriert viele altersbedingte körperliche Leiden.</Bioregeneration.description>
+  <Bioregeneration.description>Desbloqueie o ciclo de biorregeneração da cápsula de biosculpter. Este ciclo cura cicatrizes antigas, regenera pequenas partes do corpo perdidas como dedos e dedos dos pés, e cura muitas das doenças físicas que vêm com a velhice.</Bioregeneration.description>
   <!-- EN:
     <li>subject->bioregeneration</li>
     <li>subject_story->studied Boomalope antler regrowth for parallels with human regeneration</li>
@@ -14,25 +13,11 @@
     <li>subject_gerund->regenerating the human form</li>
     <li>subject_gerund->activating regeneration with biosculpters</li>
   -->
-  <Bioregeneration.generalRules.rulesStrings>
-    <li>subject->Bioregeneration</li>
-    <li>subject_with_adj->e Bioregeneration</li>
-    <li>subject_story->das Geweihwachstum einer Boomalope untersuchte, um Parallelen zur menschlichen Regeneration zu finden</li>
-    <li>subject_story->Genmaterial von Salamandern in [ANYPAWN_possessive]en eigenen Körper einpflanzte</li>
-    <li>subject_story->in einem Glitzerwelt-Krankenhaus ausgebildet wurde</li>
-    <li>subject_story->einen Fernkurs in Glitzerwelt-Ästhetik absolvierte</li>
-    <li>subject_gerund->die Regeneration des menschlichen Körpers</li>
-    <li>subject_gerund_acc->die Regeneration des menschlichen Körpers</li>
-    <li>subject_gerund_dat->der Regeneration des menschlichen Körpers</li>
-    <li>subject_gerund->die Aktivierung der Regeneration mit Bioformerkapseln</li>
-    <li>subject_gerund_acc->die Aktivierung der Regeneration mit Bioformerkapseln</li>
-    <li>subject_gerund_dat->der Aktivierung der Regeneration mit Bioformerkapseln</li>
-  </Bioregeneration.generalRules.rulesStrings>
-  
+  <Bioregeneration.generalRules.rulesStrings>&lt;li&gt;subject-&gt;bioregeneração&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;studited Boomalope antler regrowth para paralelos com regeneração humana&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;spliced salamander dados genéticos em [ANYPAWN_possessive] próprio corpo&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; treinado em um hospital Glitterworld&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;completou um curso de correspondência na estética Glitterworld&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;regenerando a forma humana&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;activando a regeneração com biosculpters&lt;/li&gt;\n</Bioregeneration.generalRules.rulesStrings>
   <!-- EN: biosculpting -->
-  <Biosculpting.label>Bioverformung</Biosculpting.label>
+  <Biosculpting.label>biosculpação</Biosculpting.label>
   <!-- EN: Construct biosculpter pods which can perform various biological alterations to colonists. These are especially important to believers in transhumanism. -->
-  <Biosculpting.description>Errichte Bioformerkapseln, die verschiedene biologische Veränderungen an Kolonisten durchführen können. Essenziell für die Anhänger des Transhumanismus.</Biosculpting.description>
+  <Biosculpting.description>Construir cápsulas de biosculpter que podem realizar várias alterações biológicas aos colonos. Estes são especialmente importantes para os crentes no transhumanismo.</Biosculpting.description>
   <!-- EN:
     <li>subject->biosculpting</li>
     <li>subject_story->constructed biosculpter pods on contract for various colonies</li>
@@ -43,26 +28,11 @@
     <li>subject_gerund->constructing biosculpter pods</li>
     <li>subject_gerund->sculpting the human form</li>
   -->
-  <Biosculpting.generalRules.rulesStrings>
-    <li>subject->Bioverformung</li>
-    <li>subject_with_adj->e Bioverformung</li>
-    <li>subject_story->für verschiedene Kolonien Bioformerkapseln baute</li>
-    <li>subject_story->die transhumanistischen Prinzipien studierte, einschließlich der Notwendigkeit der Bioverformung</li>
-    <li>subject_story->erforschte, welche biologischen Veränderungen gefahrlos vorgenommen werden können</li>
-    <li>subject_story->mit diesen Bauplänen von einem Glitzerwelt-Nebenhof floh</li>
-    <li>subject_story->als willkommenes Mitglied in eine transhumanistische Kolonie aufgenommen wurde</li>
-    <li>subject_gerund->der Bau von Bioformerkapseln</li>
-    <li>subject_gerund_acc->den Bau von Bioformerkapseln</li>
-    <li>subject_gerund_dat->dem Bau von Bioformerkapseln</li>
-    <li>subject_gerund->die Verformung des menschlichen Körpers</li>
-    <li>subject_gerund_acc->die Verformung des menschlichen Körpers</li>
-    <li>subject_gerund_dat->der Verformung des menschlichen Körpers</li>
-  </Biosculpting.generalRules.rulesStrings>
-  
+  <Biosculpting.generalRules.rulesStrings>&lt;li&gt;subject-&gt;biosculpting&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;constructed biosculpter pods em contrato para várias colônias&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;studied precepts transhumanist, incluindo a necessidade de biosculpture&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou quais alterações biológicas poderiam ser feitas com segurança&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;escaped a glitterworld support farm with these plans&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi recebido em uma colônia transhumanista&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;constructing biosculpter pods&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;sculpting the human form&lt;/li&gt;\n</Biosculpting.generalRules.rulesStrings>
   <!-- EN: neural supercharger -->
-  <NeuralSupercharger.label>neuraler Überlader</NeuralSupercharger.label>
+  <NeuralSupercharger.label>sobrecarregador neural</NeuralSupercharger.label>
   <!-- EN: Construct neural supercharger devices. Neural superchargers improve consciousness and learning rate, but they also increase hunger and the effect must be refreshed daily. Transhumanists often hold neural supercharging as an important practice. -->
-  <NeuralSupercharger.description>Errichte neurale Überladungsgeräte. Neurale Überladungen erhöhen das Bewusstsein und die Lernrate, aber auch den Hunger. Der Effekt muss täglich aufgefrischt werden. Neurale Überladung ist ein wichtiger Bestandteil im Alltag eines Transhumanisten.</NeuralSupercharger.description>
+  <NeuralSupercharger.description>Construir dispositivos de sobrecarga neural. Os sobrecarregadores neurais melhoram a consciência e a taxa de aprendizagem, mas também aumentam a fome e o efeito deve ser atualizado diariamente. Os transhumanistas frequentemente mantêm a supercarga neural como uma prática importante.</NeuralSupercharger.description>
   <!-- EN:
     <li>subject->neural superchargers</li>
     <li>subject_story->implemented neural superchargers in [ANYPAWN_possessive] boarding school</li>
@@ -72,19 +42,5 @@
     <li>subject_gerund->supercharging a human's intellect</li>
     <li>subject_gerund->constructing neural superchargers</li>
   -->
-  <NeuralSupercharger.generalRules.rulesStrings>
-    <li>subject->neurale Überlader</li>
-    <li>subject_with_adj->e neurale Überlader</li>
-    <li>subject_story->in [ANYPAWN_possessive]em Internat neurale Überlader einführte</li>
-    <li>subject_story->die Neuronen von gezüchteten Klonen überlud, um ihre Entwicklung massiv zu beschleunigen</li>
-    <li>subject_story->versuchte, die neurale Überladung in den Universitätskursen, die [ANYPAWN_pronoun] unterrichtete, zu unterbinden</li>
-    <li>subject_story->einer transhumanistischen Sekte beitrat, in der neuronale Überladung Pflicht war</li>
-    <li>subject_gerund->die Überladung des menschlichen Intellekts</li>
-    <li>subject_gerund_acc->die Überladung des menschlichen Intellekts</li>
-    <li>subject_gerund_dat->der Überladung des menschlichen Intellekts</li>
-    <li>subject_gerund->der Bau von neuralen Überladern</li>
-    <li>subject_gerund_acc->den Bau von neuralen Überladern</li>
-    <li>subject_gerund_dat->dem Bau von neuralen Überladern</li>
-  </NeuralSupercharger.generalRules.rulesStrings>
-  
+  <NeuralSupercharger.generalRules.rulesStrings>&lt;li&gt;subject-&gt; sobrecarregadores neurais&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;implemented neural superchargers in [ANYPAWN_possessive] boarding school&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; supercharged os neurônios de clones cultivados para acelerar maciçamente seu desenvolvimento&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;tentou proibir a supercarga neural no curso universitário [ANYPAWN_pronoun] ensinou&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; uniu uma seita transhumanista onde a supercarga neural era obrigatória&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;supercargando um intelecto humano&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;construindo sobrecarregadores neurais&lt;/li&gt;\n</NeuralSupercharger.generalRules.rulesStrings>
 </LanguageData>

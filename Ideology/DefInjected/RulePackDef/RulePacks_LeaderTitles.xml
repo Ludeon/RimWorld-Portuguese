@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
     <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
@@ -10,25 +9,7 @@
     <li>cultureLeaderAdjective->grand</li>
     <li>cultureLeaderNoun->chief</li>
   -->
-  <LeaderTitleMaker_Corunan.rulePack.rulesStrings>
-    <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
-    <li>memeLeaderNounCon(priority=1)->[cultureLeaderNounCon]</li>
-    <li>cultureLeaderTitle->[cultureLeaderAdjective]{replace: er [cultureLeaderNoun]; "er |M|"-"er "; "er |F|"-"e "; "er |N|"-"es "}</li>
-    <li>cultureLeaderTitle->[cultureLeaderPrefix][cultureLeaderNounCon]</li>
-    <li>cultureLeaderAdjective->erst</li>
-    <li>cultureLeaderAdjective->oberst</li>
-    <li>cultureLeaderPrefix->Premier</li>
-    <li>cultureLeaderPrefix->Groß</li>
-    <li>cultureLeaderPrefix->Hoch</li>
-    <li>cultureLeaderPrefix->Erz</li>
-    <li>cultureLeaderPrefix->Haupt</li>
-    <li>cultureLeaderPrefix->Ober</li>
-    <li>cultureLeaderNoun->|M|Häuptling</li>
-    <li>cultureLeaderNoun->|M|Stammesführer</li>
-    <li>cultureLeaderNounCon->häuptling</li>
-    <li>cultureLeaderNounCon->stammesführer</li>
-  </LeaderTitleMaker_Corunan.rulePack.rulesStrings>
-  
+  <LeaderTitleMaker_Corunan.rulePack.rulesStrings>&lt;li&gt;memeLeaderNoun (prioridade=1)-&gt;[culturaLeaderNoun]&lt;/li&gt;\n&lt;li&gt;cultureLeaderTitle-&gt;[cultureLeaderAdjective] [cultureLeaderNoun]&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;great&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;high&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;first&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;grand&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;chief&lt;/li&gt;\n</LeaderTitleMaker_Corunan.rulePack.rulesStrings>
   <!-- EN:
     <li>cultureLeaderAdjective->high</li>
     <li>cultureLeaderAdjective->great</li>
@@ -39,44 +20,14 @@
     <li>cultureLeaderNoun->governor</li>
     <li>cultureLeaderNoun->leader</li>
   -->
-  <LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
-    <li>cultureLeaderAdjective->erst</li>
-    <li>cultureLeaderAdjective->oberst</li>
-    <li>cultureLeaderPrefix->Premier</li>
-    <li>cultureLeaderPrefix->Groß</li>
-    <li>cultureLeaderPrefix->Hoch</li>
-    <li>cultureLeaderPrefix->Erz</li>
-    <li>cultureLeaderPrefix->General</li>
-    <li>cultureLeaderPrefix->Haupt</li>
-    <li>cultureLeaderPrefix->Ober</li>
-    <li>cultureLeaderNoun->|M|Präsident</li>
-    <li>cultureLeaderNoun->|M|Direktor</li>
-    <li>cultureLeaderNoun->|M|Gouverneur</li>
-    <li>cultureLeaderNoun->|M|Anführer</li>
-    <li>cultureLeaderNounCon->präsident</li>
-    <li>cultureLeaderNounCon->direktor</li>
-    <li>cultureLeaderNounCon->gouverneur</li>
-    <li>cultureLeaderNounCon->führer</li>
-  </LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
-  
+  <LeaderTitleMaker_GenericContent.rulePack.rulesStrings>&lt;li&gt;cultureLeaderAdjetivo-&gt;high&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;great&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;first&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;prime&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;president&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;director&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;governor&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;leader&lt;/li&gt;\n</LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
   <!-- EN:
     <li>r_leaderTitle(p=6)->[memeLeaderAdjective] [memeLeaderNoun]</li>
     <li>r_leaderTitle(p=3)->[cultureLeaderAdjective] [memeLeaderNoun]</li>
     <li>r_leaderTitle(p=1)->[memeLeaderAdjective] [cultureLeaderNoun]</li>
     <li>r_leaderTitle(p=1)->[cultureLeaderTitle]</li>
   -->
-  <LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
-    <li>r_leaderTitle(p=3)->[memeLeaderAdjective][memeLeaderTitleWithAdj]</li>
-    <li>r_leaderTitle(p=6)->[memeLeaderPrefix][memeLeaderNounCon]</li>
-    <li>r_leaderTitle(p=1.5)->[cultureLeaderAdjective][memeLeaderTitleWithAdj]</li>
-    <li>r_leaderTitle(p=3)->[cultureLeaderPrefix][memeLeaderNounCon]</li>
-    <li>r_leaderTitle(p=1)->[memeLeaderAdjective][cultureLeaderTitleWithAdj]</li>
-    <li>r_leaderTitle(p=1)->[memeLeaderPrefix][cultureLeaderNounCon]</li>
-    <li>r_leaderTitle(p=1)->[cultureLeaderTitle]</li>
-    <li>memeLeaderTitleWithAdj->{replace: er [memeLeaderNoun]; "er |M|"-"er "; "er |F|"-"e "; "er |N|"-"es "}</li>
-    <li>cultureLeaderTitleWithAdj->{replace: er [cultureLeaderNoun]; "er |M|"-"er "; "er |F|"-"e "; "er |N|"-"es "}</li>
-  </LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
-  
+  <LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>&lt;li&gt;r_leaderTitle(p=6)-&gt;[memeLeaderAdjective] [memeLeaderNoun]&lt;/li&gt;\n&lt;li&gt;r_leaderTitle(p=3)-&gt;[cultureLeaderAdjective] [memeLeaderNoun]&lt;/li&gt;\n&lt;li&gt;r_leaderTitle(p=1)-&gt;[memeLeaderAdjective] [cultureLeaderNoun]&lt;/li&gt;\n&lt;li&gt;r_leaderTitle(p=1)-&gt;[cultureLeaderTitle]&lt;/li&gt;\n</LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
   <!-- EN:
     <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
     <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
@@ -89,28 +40,7 @@
     <li>cultureLeaderNoun->gun</li>
     <li>cultureLeaderNoun->dog</li>
   -->
-  <LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
-    <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
-    <li>memeLeaderNounCon(priority=1)->[cultureLeaderNounCon]</li>
-    <li>cultureLeaderTitle->[cultureLeaderAdjective]{replace: er [cultureLeaderNoun]; "er |M|"-"er "; "er |F|"-"e "; "er |N|"-"es "}</li>
-    <li>cultureLeaderTitle->[cultureLeaderPrefix][cultureLeaderNounCon]</li>
-    <li>cultureLeaderAdjective->erst</li>
-    <li>cultureLeaderAdjective->oberst</li>
-    <li>cultureLeaderPrefix->General</li>
-    <li>cultureLeaderPrefix->Groß</li>
-    <li>cultureLeaderPrefix->Erz</li>
-    <li>cultureLeaderPrefix->Haupt</li>
-    <li>cultureLeaderPrefix->Ober</li>
-    <li>cultureLeaderNoun->|M|Boss</li>
-    <li>cultureLeaderNoun->|M|Schurke</li>
-    <li>cultureLeaderNoun->|M|Babo</li>
-    <li>cultureLeaderNoun->|M|Chef</li>
-    <li>cultureLeaderNounCon->boss</li>
-    <li>cultureLeaderNounCon->schurke</li>
-    <li>cultureLeaderNounCon->-Babo</li>
-    <li>cultureLeaderNounCon->chef</li>
-  </LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
-  
+  <LeaderTitleMaker_Kriminul.rulePack.rulesStrings>&lt;li&gt;memeLeaderNoun (prioridade=1)-&gt;[culturaLeaderNoun]&lt;/li&gt;\n&lt;li&gt;cultureLeaderTitle-&gt;[cultureLeaderAdjective] [cultureLeaderNoun]&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;big&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;top&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;full&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;boss&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;thug&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;cheese&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;gun&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;dog&lt;/li&gt;\n</LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
   <!-- EN:
     <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
     <li>cultureLeaderAdjective->prime</li>
@@ -121,37 +51,9 @@
     <li>cultureLeaderNoun->guide</li>
     <li>cultureLeaderNoun->steersman</li>
   -->
-  <LeaderTitleMaker_Rustican.rulePack.rulesStrings>
-    <li>cultureLeaderTitle->[cultureLeaderAdjective]{replace: er [cultureLeaderNoun]; "er |M|"-"er "; "er |F|"-"e "; "er |N|"-"es "}</li>
-    <li>cultureLeaderTitle->[cultureLeaderPrefix][cultureLeaderNounCon]</li>
-    <li>cultureLeaderAdjective->oberst</li>
-    <li>cultureLeaderAdjective->erst</li>
-    <li>cultureLeaderPrefix->Premier</li>
-    <li>cultureLeaderPrefix->Groß</li>
-    <li>cultureLeaderPrefix->Hoch</li>
-    <li>cultureLeaderPrefix->Erz</li>
-    <li>cultureLeaderPrefix->General</li>
-    <li>cultureLeaderPrefix->Haupt</li>
-    <li>cultureLeaderPrefix->Ober</li>
-    <li>cultureLeaderNoun->|M|Rat</li>
-    <li>cultureLeaderNoun->|M|Anführer</li>
-    <li>cultureLeaderNoun->|M|Minister</li>
-    <li>cultureLeaderNoun->|M|Leiter</li>
-    <li>cultureLeaderNoun->|M|Lenker</li>
-    <li>cultureLeaderNoun->|M|Navigator</li>
-    <li>cultureLeaderNounCon->rat</li>
-    <li>cultureLeaderNounCon->führer</li>
-    <li>cultureLeaderNounCon->minister</li>
-    <li>cultureLeaderNounCon->leiter</li>
-    <li>cultureLeaderNounCon->lenker</li>
-    <li>cultureLeaderNounCon->navigator</li>
-  </LeaderTitleMaker_Rustican.rulePack.rulesStrings>
-  
+  <LeaderTitleMaker_Rustican.rulePack.rulesStrings>&lt;li&gt;cultureLeaderTitle-&gt;[cultureLeaderAdjective] [cultureLeaderNoun]&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;prime&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;first&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;councilor&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;leader&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;minister&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;guia&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;steersman&lt;/li&gt;\n</LeaderTitleMaker_Rustican.rulePack.rulesStrings>
   <!-- EN:
     <li>r_leaderTitle->high stellarch</li>
   -->
-  <LeaderTitleMaker_Sophian.rulePack.rulesStrings>
-    <li>r_leaderTitle->Hochstellarch</li>
-  </LeaderTitleMaker_Sophian.rulePack.rulesStrings>
-  
+  <LeaderTitleMaker_Sophian.rulePack.rulesStrings>&lt;li&gt;r_leaderTitle-&gt;high stellarch&lt;/li&gt;\n</LeaderTitleMaker_Sophian.rulePack.rulesStrings>
 </LanguageData>

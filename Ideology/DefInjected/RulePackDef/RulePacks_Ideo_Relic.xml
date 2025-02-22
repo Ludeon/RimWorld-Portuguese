@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>r_ideoRelicName(p=2)->[first][second]</li>
     <li>r_ideoRelicName->[thingLabel] of [memeConcept]</li>
@@ -65,73 +64,5 @@
     <li>second->lash</li>
     <li>second->krome</li>
   -->
-  <NamerIdeoRelic.rulePack.rulesStrings>
-    <li>r_ideoRelicName(p=2)->[first][second]</li>
-    <li>r_ideoRelicName->[thingLabel] [memeConceptGenDef]</li>
-    <!-- <li>r_ideoRelicName->[memeAdjective]es [thingLabel]</li> -->
-    <li>r_ideoRelicName->[memeHyphenPrefix]-[thingLabel]</li>
-    <li>r_ideoRelicName->[memeAdjective]es [relic]</li>
-    <li>r_ideoRelicName->[relic] [memeConceptGenDef]</li>
-    <li>r_ideoRelicName->[memeHyphenPrefix]-[relic]</li>
-    <li>relic->Relikt</li>
-    <li>relic->Artefakt</li>
-    <li>relic->Andenken</li>
-    <li>relic->Memento</li>
-    <li>relic->Fragment</li>
-    <li>relic->Erbstück</li>
-    <li>relic->Überbleibsel</li>
-    <li>first(p=5)->[memeHyphenPrefix]</li>
-    <li>first->Lang</li>
-    <li>first->Himmels</li>
-    <li>first->Sternen</li>
-    <li>first->Tiefen</li>
-    <li>first->Weit</li>
-    <li>first->Todes</li>
-    <li>first->Lebens</li>
-    <li>first->Licht</li>
-    <li>first->Dunkel</li>
-    <li>first->Ende</li>
-    <li>first->Hor</li>
-    <li>first->An</li>
-    <li>first->Ex</li>
-    <li>first->Ton</li>
-    <li>first->Dow</li>
-    <li>first->Bor</li>
-    <li>first->Ven</li>
-    <li>first->Xan</li>
-    <li>first->Arl</li>
-    <li>first->Hex</li>
-    <li>first->Bax</li>
-    <li>first->Cel</li>
-    <li>first->Loc</li>
-    <li>first->Pole</li>
-    <li>first->Lode</li>
-    <li>second->rufer</li>
-    <li>second->bringer</li>
-    <li>second->sprecher</li>
-    <li>second->lier</li>
-    <li>second->link</li>
-    <li>second->bund</li>
-    <li>second->schleife</li>
-    <li>second->nexus</li>
-    <li>second->kern</li>
-    <li>second->crux</li>
-    <li>second->masse</li>
-    <li>second->korpus</li>
-    <li>second->fokus</li>
-    <li>second->linse</li>
-    <li>second->licht</li>
-    <li>second->schatten</li>
-    <li>second->sicher</li>
-    <li>second->lokus</li>
-    <li>second->form</li>
-    <li>second->finger</li>
-    <li>second->geißel</li>
-    <li>second->krom</li>
-    <!-- gender-specific -->
-    <li>memeConceptGenDef->des [memeConceptMasGen]</li>
-    <li>memeConceptGenDef->der [memeConceptFemGen]</li>
-    <li>memeConceptGenDef->des [memeConceptNeuGen]</li>
-  </NamerIdeoRelic.rulePack.rulesStrings>
-  
+  <NamerIdeoRelic.rulePack.rulesStrings>&lt;li&gt;r_ideoRelicName(p=2)-&gt;[primeiro][segundo]&lt;/li&gt;\n&lt;li&gt;r_ideoRelicName-&gt;[thingLabel] de [memeConcept]&lt;/li&gt;\n&lt;li&gt;r_ideoRelicName-&gt;[memeAdjetivo] [thingLabel]&lt;/li&gt;\n&lt;li&gt;r_ideoRelicName-&gt;[meHyphenPrefix]-[thingLabel]&lt;/li&gt;\n&lt;li&gt;r_ideoRelicName-&gt;[memeAdjective] [relic]&lt;/li&gt;\n&lt;li&gt;r_ideoRelicName-&gt;[relic] de [memeConcept]&lt;/li&gt;\n&lt;li&gt;r_ideoRelicName-&gt;[ memeHyphenPrefix]-[relic]&lt;/li&gt;\n&lt;li&gt;relic-&gt;relic&lt;/li&gt;\n&lt;li&gt;relic-&gt;artifact&lt;/li&gt;\n&lt;li&gt;relic-&gt;keepsake&lt;/li&gt;\n&lt;li&gt;relic-&gt;memento&lt;/li&gt;\n&lt;li&gt;relic-&gt;remnant&lt;/li&gt;\n&lt;li&gt;relic-&gt;heirloom&lt;/li&gt;\n&lt;li&gt;remembrance&lt;/li&gt;relic-&gt;remembrance&lt;/li&gt;\n&lt;li&gt;first(p=5)-&gt;[meHyphenPrefix]&lt;/li&gt;\n&lt;li&gt;first-&gt;long&lt;/li&gt;\n&lt;li&gt;first-&gt;sky&lt;/li&gt;\n&lt;li&gt;first-&gt;star&lt;/li&gt;\n&lt;li&gt;first-&gt;deep&lt;/li&gt;\n&lt;li&gt;first-&gt;far&lt;/li&gt;\n&lt;li&gt;first-&gt;dead&lt;/li&gt;\n&lt;li&gt;first-&gt;life&lt;/li&gt;\n&lt;li&gt;first-&gt;light&lt;/li&gt;\n&lt;li&gt;first-&gt;dark&lt;/li&gt;\n&lt;li&gt;first-&gt;end&lt;/li&gt;\n&lt;li&gt;first-&gt;hor&lt;/li&gt;\n&lt;li&gt;first-&gt;an&lt;/li&gt;\n&lt;li&gt;first-&gt;ex&lt;/li&gt;\n&lt;li&gt;first-&gt;ton&lt;/li&gt;\n&lt;li&gt;first-&gt;dow&lt;/li&gt;\n&lt;li&gt;first-&gt;bor&lt;/li&gt;\n&lt;li&gt;first-&gt;ven&lt;/li&gt;\n&lt;li&gt;first-&gt;xan&lt;/li&gt;\n&lt;li&gt;first-&gt;arl&lt;/li&gt;\n&lt;li&gt;first-&gt;hex&lt;/li&gt;\n&lt;li&gt;first-&gt;bax&lt;/li&gt;\n&lt;li&gt;first-&gt;cel&lt;/li&gt;\n&lt;li&gt;first-&gt;loc&lt;/li&gt;\n&lt;li&gt;first-&gt;pole&lt;/li&gt;\n&lt;li&gt;first-&gt;lode&lt;/li&gt;\n&lt;li&gt;second-&gt;caller&lt;/li&gt;\n&lt;li&gt;second-&gt;bringer&lt;/li&gt;\n&lt;li&gt;second-&gt;speaker&lt;/li&gt;\n&lt;li&gt;second-&gt;lier&lt;/li&gt;\n&lt;li&gt;second-&gt;link&lt;/li&gt;\n&lt;li&gt;second-&gt;bond&lt;/li&gt;\n&lt;li&gt;second-&gt;loop&lt;/li&gt;\n&lt;li&gt;second-&gt;nexus&lt;/li&gt;\n&lt;li&gt;second-&gt;core&lt;/li&gt;\n&lt;li&gt;second-&gt;crux&lt;/li&gt;\n&lt;li&gt;second-&gt;mass&lt;/li&gt;\n&lt;li&gt;second-&gt;corpus&lt;/li&gt;\n&lt;li&gt;second-&gt;focus&lt;/li&gt;\n&lt;li&gt;second-&gt;lens&lt;/li&gt;\n&lt;li&gt;second-&gt;light&lt;/li&gt;\n&lt;li&gt;second-&gt;shadow&lt;/li&gt;\n&lt;li&gt;second-&gt;sure&lt;/li&gt;\n&lt;li&gt;second-&gt;locus&lt;/li&gt;\n&lt;li&gt;second-&gt;form&lt;/li&gt;\n&lt;li&gt;second-&gt;finger&lt;/li&gt;\n&lt;li&gt;second-&gt;lash&lt;/li&gt;\n&lt;li&gt;second-&gt;krome&lt;/li&gt;\n</NamerIdeoRelic.rulePack.rulesStrings>
 </LanguageData>

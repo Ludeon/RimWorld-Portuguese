@@ -1,95 +1,89 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: digestion -->
-  <Digested.label>Verdauung</Digested.label>
+  <Digested.label>digestão</Digested.label>
   <!-- EN: This part has been digested. -->
-  <Digested.description>Dieser Körperteil wurde verdaut.</Digested.description>
+  <Digested.description>Esta parte foi digerida.</Digested.description>
   <!-- EN: Digested -->
-  <Digested.injuryProps.destroyedLabel>Verdaut</Digested.injuryProps.destroyedLabel>
+  <Digested.injuryProps.destroyedLabel>Digestão</Digested.injuryProps.destroyedLabel>
   <!-- EN: a digested part -->
-  <Digested.labelNoun>ein verdauter Körperteil</Digested.labelNoun>
+  <Digested.labelNoun>uma parte digerida</Digested.labelNoun>
   <!-- EN: digested {1} -->
-  <Digested.labelNounPretty>{1_gender ? ein verdauter : eine verdaute : ein verdautes} {1}</Digested.labelNounPretty>
-  
+  <Digested.labelNounPretty>digerido não</Digested.labelNounPretty>
   <!-- EN: energy bolt -->
-  <EnergyBolt.label>Energieblitz</EnergyBolt.label>
+  <EnergyBolt.label>parafuso de energia</EnergyBolt.label>
   <!-- EN: A wound from an energy bolt. -->
-  <EnergyBolt.description>Eine Wunde durch einen Energieblitz.</EnergyBolt.description>
+  <EnergyBolt.description>Uma ferida de um parafuso de energia.</EnergyBolt.description>
   <!-- EN: set -->
-  <EnergyBolt.comps.HediffComp_TendDuration.labelSolidTendedWell>geschient</EnergyBolt.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <EnergyBolt.comps.HediffComp_TendDuration.labelSolidTendedWell>conjunto</EnergyBolt.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
-  <EnergyBolt.comps.HediffComp_TendDuration.labelTendedWell>bandagiert</EnergyBolt.comps.HediffComp_TendDuration.labelTendedWell>
+  <EnergyBolt.comps.HediffComp_TendDuration.labelTendedWell>bandagem</EnergyBolt.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
-  <EnergyBolt.comps.HediffComp_TendDuration.labelTendedWellInner>vernäht</EnergyBolt.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <EnergyBolt.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</EnergyBolt.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: permanent energy bolt wound -->
-  <EnergyBolt.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>permanente Energieblitzwunde</EnergyBolt.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
+  <EnergyBolt.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>feridas de parafuso de energia permanente</EnergyBolt.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
   <!-- EN: old energy bolt wound -->
-  <EnergyBolt.comps.HediffComp_GetsPermanent.permanentLabel>alte Energieblitzwunde</EnergyBolt.comps.HediffComp_GetsPermanent.permanentLabel>
+  <EnergyBolt.comps.HediffComp_GetsPermanent.permanentLabel>ferida de parafuso de energia velha</EnergyBolt.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Blasted off -->
-  <EnergyBolt.injuryProps.destroyedLabel>Abgesprengt</EnergyBolt.injuryProps.destroyedLabel>
+  <EnergyBolt.injuryProps.destroyedLabel>Explodiu</EnergyBolt.injuryProps.destroyedLabel>
   <!-- EN: Blasted out -->
-  <EnergyBolt.injuryProps.destroyedOutLabel>Herausgesprengt</EnergyBolt.injuryProps.destroyedOutLabel>
+  <EnergyBolt.injuryProps.destroyedOutLabel>Explodido fora</EnergyBolt.injuryProps.destroyedOutLabel>
   <!-- EN: an energy bolt wound -->
-  <EnergyBolt.labelNoun>eine Energieblitzwunde</EnergyBolt.labelNoun>
+  <EnergyBolt.labelNoun>uma ferida de parafuso de energia</EnergyBolt.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <EnergyBolt.labelNounPretty>eine Energieblitzwunde {1_gender ? am : an der} {replace: {1}; "er "-"en "; "e "-"en "; "es "-"en "}</EnergyBolt.labelNounPretty>
-  
+  <EnergyBolt.labelNounPretty>não, não</EnergyBolt.labelNounPretty>
   <!-- EN: psychic burn -->
-  <PsychicInjury.label>mentale Verbrennung</PsychicInjury.label>
+  <PsychicInjury.label>queima psíquica</PsychicInjury.label>
   <!-- EN: A psychic burn. -->
-  <PsychicInjury.description>Eine mentale Verbrennung.</PsychicInjury.description>
+  <PsychicInjury.description>Uma queimadura psíquica.</PsychicInjury.description>
   <!-- EN: treated -->
-  <PsychicInjury.comps.HediffComp_TendDuration.labelSolidTendedWell>behandelt</PsychicInjury.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <PsychicInjury.comps.HediffComp_TendDuration.labelSolidTendedWell>tratados</PsychicInjury.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: treated -->
-  <PsychicInjury.comps.HediffComp_TendDuration.labelTendedWell>behandelt</PsychicInjury.comps.HediffComp_TendDuration.labelTendedWell>
+  <PsychicInjury.comps.HediffComp_TendDuration.labelTendedWell>tratados</PsychicInjury.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: treated -->
-  <PsychicInjury.comps.HediffComp_TendDuration.labelTendedWellInner>behandelt</PsychicInjury.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <PsychicInjury.comps.HediffComp_TendDuration.labelTendedWellInner>tratados</PsychicInjury.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: psychic scarring -->
-  <PsychicInjury.comps.HediffComp_GetsPermanent.permanentLabel>mentale Narbe</PsychicInjury.comps.HediffComp_GetsPermanent.permanentLabel>
+  <PsychicInjury.comps.HediffComp_GetsPermanent.permanentLabel>cicatrização psíquica</PsychicInjury.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Psychically incinerated -->
-  <PsychicInjury.injuryProps.destroyedLabel>Mental verbrannt</PsychicInjury.injuryProps.destroyedLabel>
+  <PsychicInjury.injuryProps.destroyedLabel>Psicologicamente incinerado</PsychicInjury.injuryProps.destroyedLabel>
   <!-- EN: a psychic burn -->
-  <PsychicInjury.labelNoun>eine mentale Verbrennung</PsychicInjury.labelNoun>
+  <PsychicInjury.labelNoun>uma queima psíquica</PsychicInjury.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <PsychicInjury.labelNounPretty>eine mentale Verbrennung {1_gender ? am : an der} {replace: {1}; "er "-"en "; "e "-"en "; "es "-"en "}</PsychicInjury.labelNounPretty>
-  
+  <PsychicInjury.labelNounPretty>não, não</PsychicInjury.labelNounPretty>
   <!-- EN: psychic burn -->
-  <PsychicInjurySkin.label>mentale Verbrennung</PsychicInjurySkin.label>
+  <PsychicInjurySkin.label>queima psíquica</PsychicInjurySkin.label>
   <!-- EN: A psychic burn. -->
-  <PsychicInjurySkin.description>Eine mentale Verbrennung.</PsychicInjurySkin.description>
+  <PsychicInjurySkin.description>Uma queimadura psíquica.</PsychicInjurySkin.description>
   <!-- EN: treated -->
-  <PsychicInjurySkin.comps.HediffComp_TendDuration.labelSolidTendedWell>behandelt</PsychicInjurySkin.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <PsychicInjurySkin.comps.HediffComp_TendDuration.labelSolidTendedWell>tratados</PsychicInjurySkin.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
-  <PsychicInjurySkin.comps.HediffComp_TendDuration.labelTendedWell>bandagiert</PsychicInjurySkin.comps.HediffComp_TendDuration.labelTendedWell>
+  <PsychicInjurySkin.comps.HediffComp_TendDuration.labelTendedWell>bandagem</PsychicInjurySkin.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: dressed -->
-  <PsychicInjurySkin.comps.HediffComp_TendDuration.labelTendedWellInner>verbunden</PsychicInjurySkin.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <PsychicInjurySkin.comps.HediffComp_TendDuration.labelTendedWellInner>vestido</PsychicInjurySkin.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: psychic scarring -->
-  <PsychicInjurySkin.comps.HediffComp_GetsPermanent.permanentLabel>mentale Narbe</PsychicInjurySkin.comps.HediffComp_GetsPermanent.permanentLabel>
+  <PsychicInjurySkin.comps.HediffComp_GetsPermanent.permanentLabel>cicatrização psíquica</PsychicInjurySkin.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Psychically incinerated -->
-  <PsychicInjurySkin.injuryProps.destroyedLabel>Mental verbrannt</PsychicInjurySkin.injuryProps.destroyedLabel>
+  <PsychicInjurySkin.injuryProps.destroyedLabel>Psicologicamente incinerado</PsychicInjurySkin.injuryProps.destroyedLabel>
   <!-- EN: a psychic burn -->
-  <PsychicInjurySkin.labelNoun>eine mentale Verbrennung</PsychicInjurySkin.labelNoun>
+  <PsychicInjurySkin.labelNoun>uma queima psíquica</PsychicInjurySkin.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <PsychicInjurySkin.labelNounPretty>eine mentale Verbrennung {1_gender ? am : an der} {replace: {1}; "er "-"en "; "e "-"en "; "es "-"en "}</PsychicInjurySkin.labelNounPretty>
-  
+  <PsychicInjurySkin.labelNounPretty>não, não</PsychicInjurySkin.labelNounPretty>
   <!-- EN: psychic burn -->
-  <PsychicInjurySolid.label>mentale Verbrennung</PsychicInjurySolid.label>
+  <PsychicInjurySolid.label>queima psíquica</PsychicInjurySolid.label>
   <!-- EN: A psychic burn. -->
-  <PsychicInjurySolid.description>Eine mentale Verbrennung.</PsychicInjurySolid.description>
+  <PsychicInjurySolid.description>Uma queimadura psíquica.</PsychicInjurySolid.description>
   <!-- EN: treated -->
-  <PsychicInjurySolid.comps.HediffComp_TendDuration.labelSolidTendedWell>behandelt</PsychicInjurySolid.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <PsychicInjurySolid.comps.HediffComp_TendDuration.labelSolidTendedWell>tratados</PsychicInjurySolid.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: treated -->
-  <PsychicInjurySolid.comps.HediffComp_TendDuration.labelTendedWell>behandelt</PsychicInjurySolid.comps.HediffComp_TendDuration.labelTendedWell>
+  <PsychicInjurySolid.comps.HediffComp_TendDuration.labelTendedWell>tratados</PsychicInjurySolid.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: treated -->
-  <PsychicInjurySolid.comps.HediffComp_TendDuration.labelTendedWellInner>behandelt</PsychicInjurySolid.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <PsychicInjurySolid.comps.HediffComp_TendDuration.labelTendedWellInner>tratados</PsychicInjurySolid.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: permanent psychic scarring -->
-  <PsychicInjurySolid.comps.HediffComp_GetsPermanent.permanentLabel>permanente mentale Narbe</PsychicInjurySolid.comps.HediffComp_GetsPermanent.permanentLabel>
+  <PsychicInjurySolid.comps.HediffComp_GetsPermanent.permanentLabel>cicatrização psíquica permanente</PsychicInjurySolid.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Psychically incinerated -->
-  <PsychicInjurySolid.injuryProps.destroyedLabel>Mental verbrannt</PsychicInjurySolid.injuryProps.destroyedLabel>
+  <PsychicInjurySolid.injuryProps.destroyedLabel>Psicologicamente incinerado</PsychicInjurySolid.injuryProps.destroyedLabel>
   <!-- EN: a psychic burn -->
-  <PsychicInjurySolid.labelNoun>eine mentale Verbrennung</PsychicInjurySolid.labelNoun>
+  <PsychicInjurySolid.labelNoun>uma queima psíquica</PsychicInjurySolid.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <PsychicInjurySolid.labelNounPretty>eine mentale Verbrennung {1_gender ? am : an der} {replace: {1}; "er "-"en "; "e "-"en "; "es "-"en "}</PsychicInjurySolid.labelNounPretty>
-  
+  <PsychicInjurySolid.labelNounPretty>não, não</PsychicInjurySolid.labelNounPretty>
 </LanguageData>

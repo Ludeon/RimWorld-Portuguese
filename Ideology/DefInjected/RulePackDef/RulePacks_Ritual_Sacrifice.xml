@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>r_ritualName(p=2)->[memeAdjective] [sacrifice]</li>
     <li>r_ritualName->[sacrifice] of [chosenTheme]</li>
@@ -15,22 +14,5 @@
     <li>sacrifice->oblation</li>
     <li>sacrifice->slaughtering</li>
   -->
-  <NamerRitualSacrifice.rulePack.rulesStrings>
-    <li>r_ritualName(p=2)->[memeAdjective]e [sacrifice]</li>
-    <li>r_ritualName->[sacrifice] [chosenTheme]</li>
-    <li>r_ritualName->[chosenAdjective]e [sacrifice]</li>
-    <li>r_ritualName->{replace: [keyDeity]'s; "s's"-"s'"; "ß's"-"ß'"; "z's"-"z'"; "x's"-"x'"; "ce's"-"ce'"; "'s"-"s"} [sacrifice]</li>
-    <li>r_ritualName->[sacrifice] von [keyDeity]</li>
-    <li>r_ritualName->[sacrifice] [memeConceptGenDef]</li>
-    <li>r_ritualName->[sacrifice] {replace: des [chosenIdeoName]; "des |M|"-"des "; "des |F|"-"der "; "des |N|"-"des "}</li>
-    <li>sacrifice->Opferung</li>
-    <li>sacrifice->Opfergabe</li>
-    <li>sacrifice->Aufopferung</li>
-    <li>sacrifice->Schlachtung</li>
-    <!-- gender-specific -->
-    <li>memeConceptGenDef->des [memeConceptMasGen]</li>
-    <li>memeConceptGenDef->der [memeConceptFemGen]</li>
-    <li>memeConceptGenDef->des [memeConceptNeuGen]</li>
-  </NamerRitualSacrifice.rulePack.rulesStrings>
-  
+  <NamerRitualSacrifice.rulePack.rulesStrings>&lt;li&gt;r_ritualName(p=2)-&gt;[memeAdjetivo] [sacrifício]&lt;/li&gt;\n&lt;li&gt;r_ritualName-&gt;[sacrifice] de [cosenTheme]&lt;/li&gt;\n&lt;li&gt;r_ritualName-&gt;[chosenAdjective] [sacrifice]&lt;/li&gt;\n&lt;li&gt;r_ritualName-&gt;[keyDeity]'s [sacrifice]&lt;/li&gt;\n&lt;li&gt;r_ritualName-&gt;[sacrifício] de [keyDeity]&lt;/li&gt;\n&lt;li&gt;r_ritualName-&gt;[sacrifício] de [memeConcept]&lt;/li&gt;\n&lt;li&gt;r_ritualName-&gt;[sacrifício] de [chosenIdeoName]&lt;/li&gt;\n&lt;li&gt;sacrifice-&gt;sacrifice&lt;/li&gt;\n&lt;li&gt;sacrifice-&gt;offering&lt;/li&gt;\n&lt;li&gt;sacrifice-&gt;immolation&lt;/li&gt;\n&lt;li&gt;sacrifice-&gt;oblation&lt;/li&gt;\n&lt;li&gt;sacrifice-&gt;slaughtering&lt;/li&gt;\n</NamerRitualSacrifice.rulePack.rulesStrings>
 </LanguageData>

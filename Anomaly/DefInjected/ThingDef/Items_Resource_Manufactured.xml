@@ -1,66 +1,57 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: deadlife capsule -->
-  <Bullet_Shell_Deadlife.label>Deadlife-Kapsel</Bullet_Shell_Deadlife.label>
-  
+  <Bullet_Shell_Deadlife.label>cápsula de morte</Bullet_Shell_Deadlife.label>
   <!-- EN: ghoul resurrection serum -->
-  <GhoulResurrectionSerum.label>Ghulerweckungsserum</GhoulResurrectionSerum.label>
+  <GhoulResurrectionSerum.label>soro de ressurreição ghoul</GhoulResurrectionSerum.label>
   <!-- EN: A capsule of thick grey fluid containing a mixture of deadlife dust and advanced biochemicals. Inject it into the corpse of a ghoul to return them to life. The resurrection process takes several hours. -->
-  <GhoulResurrectionSerum.description>Eine Kapsel mit einer dicken grauen Flüssigkeit, die eine Mischung aus Deadlife-Staub und biochemischen Substanzen enthält. Injiziere die Flüssigkeit in einen toten Ghul, um ihn wieder zum Leben zu erwecken. Der Prozess der Wiedererweckung dauert mehrere Stunden.</GhoulResurrectionSerum.description>
+  <GhoulResurrectionSerum.description>Uma cápsula de fluido cinza grosso contendo uma mistura de pó morto e bioquímicos avançados. Injectá-lo no corpo de um ghoul para devolvê-los à vida. O processo de ressurreição leva várias horas.</GhoulResurrectionSerum.description>
   <!-- EN: Use {0_label} -->
-  <GhoulResurrectionSerum.comps.CompUsable.useLabel>Benutze {0_label}</GhoulResurrectionSerum.comps.CompUsable.useLabel>
-  
+  <GhoulResurrectionSerum.comps.CompUsable.useLabel>Usar {0_label}</GhoulResurrectionSerum.comps.CompUsable.useLabel>
   <!-- EN: juggernaut serum -->
-  <JuggernautSerum.label>Molochserum</JuggernautSerum.label>
+  <JuggernautSerum.label>soro de soro</JuggernautSerum.label>
   <!-- EN: A syringe of opaque milky-yellow liquid that increases the user's strength and speed, and allows them to recover from injuries faster. The serum is injected into the user's musculature, where it adds energy to various metabolic processes. However, the unstable substance also psychically influences the mind, provoking unsettling thoughts and severely reducing the user's mood. -->
-  <JuggernautSerum.description>Eine Spritze mit einer milchig-gelben, trüben Flüssigkeit, die die Stärke und Schnelligkeit des Benutzers erhöht und seine Wundheilung beschleunigt. Die Flüssigkeit wird in die Muskulatur des Anwenders gespritzt, wo sie verschiedene Stoffwechselprozesse energetisiert. Allerdings wirkt sich die instabile Substanz auch auf die Psyche aus, da sie beunruhigende Gedanken hervorruft und die Stimmung des Benutzers erheblich verschlechtert.</JuggernautSerum.description>
+  <JuggernautSerum.description>Uma seringa de líquido leitoso-amarelo opaco que aumenta a força e a velocidade do usuário, e permite-lhes recuperar de lesões mais rápido. O soro é injetado na musculatura do usuário, onde adiciona energia a vários processos metabólicos. No entanto, a substância instável também influencia psiquicamente a mente, provocando pensamentos instáveis e reduzindo severamente o humor do usuário.</JuggernautSerum.description>
   <!-- EN: Use {0_label} -->
-  <JuggernautSerum.comps.CompUsable.useLabel>Benutze {0_label}</JuggernautSerum.comps.CompUsable.useLabel>
+  <JuggernautSerum.comps.CompUsable.useLabel>Usar {0_label}</JuggernautSerum.comps.CompUsable.useLabel>
   <!-- EN: Ingest {0} -->
-  <JuggernautSerum.ingestible.ingestCommandString>Nimm {0} ein</JuggernautSerum.ingestible.ingestCommandString>
+  <JuggernautSerum.ingestible.ingestCommandString>Ingestão {0}</JuggernautSerum.ingestible.ingestCommandString>
   <!-- EN: Ingesting {0}. -->
-  <JuggernautSerum.ingestible.ingestReportString>Nimmt {0} ein.</JuggernautSerum.ingestible.ingestReportString>
-  
+  <JuggernautSerum.ingestible.ingestReportString>Ingestão {0}.</JuggernautSerum.ingestible.ingestReportString>
   <!-- EN: metalblood serum -->
-  <MetalbloodSerum.label>Metallblutserum</MetalbloodSerum.label>
+  <MetalbloodSerum.label>soro de metal</MetalbloodSerum.label>
   <!-- EN: A syringe full of rust-colored liquid that constantly hardens and liquifies. When injected into the bloodstream, the metalblood substance can harden the flesh when it anticipates a blow, making the user more resistant to damage. However, the bioferrite-based chemistry of this serum also makes the user particularly vulnerable to fire. -->
-  <MetalbloodSerum.description>Eine Spritze mit einer rostfarbenen Flüssigkeit, die sich ständig verfestigt und verflüssigt. Einmal in den Blutkreislauf gespritzt, kann das Metallblut das Fleisch verhärten, wenn es einen Schlag antizipiert, und den Benutzer widerstandsfähiger gegen Schäden machen. Allerdings macht die Bioferrit-basierte Chemie dieses Serums den Benutzer auch besonders anfällig für Feuer.</MetalbloodSerum.description>
+  <MetalbloodSerum.description>Uma seringa cheia de líquido de cor de ferrugem que constantemente endurece e liquifies. Quando injetado na corrente sanguínea, a substância de metal pode endurecer a carne quando antecipa um golpe, tornando o usuário mais resistente a danos. No entanto, a química baseada em bioferrite deste soro também torna o usuário particularmente vulnerável ao fogo.</MetalbloodSerum.description>
   <!-- EN: Use {0_label} -->
-  <MetalbloodSerum.comps.CompUsable.useLabel>Benutze {0_label}</MetalbloodSerum.comps.CompUsable.useLabel>
+  <MetalbloodSerum.comps.CompUsable.useLabel>Usar {0_label}</MetalbloodSerum.comps.CompUsable.useLabel>
   <!-- EN: Ingest {0} -->
-  <MetalbloodSerum.ingestible.ingestCommandString>Nimm {0} ein</MetalbloodSerum.ingestible.ingestCommandString>
+  <MetalbloodSerum.ingestible.ingestCommandString>Ingestão {0}</MetalbloodSerum.ingestible.ingestCommandString>
   <!-- EN: Ingesting {0}. -->
-  <MetalbloodSerum.ingestible.ingestReportString>Nimmt {0} ein.</MetalbloodSerum.ingestible.ingestReportString>
-  
+  <MetalbloodSerum.ingestible.ingestReportString>Ingestão {0}.</MetalbloodSerum.ingestible.ingestReportString>
   <!-- EN: mind-numb serum -->
-  <MindNumbSerum.label>Gedankenfrostserum</MindNumbSerum.label>
+  <MindNumbSerum.label>soro</MindNumbSerum.label>
   <!-- EN: A syringe of clear, viscous fluid. Injected near the brainstem, it deadens the mind, rendering the user unable to feel the highs and lows of human emotion. This temporarily prevents them from having mental breaks and inspirations. -->
-  <MindNumbSerum.description>Eine Spritze mit einer klaren, zähen Flüssigkeit. Einmal in die Nähe des Hirnstamms gespritzt, betäubt sie die Psyche des Benutzers, was ihn daran hindert, die Höhen und Tiefen menschlicher Emotionen zu empfinden. Während das Serum wirkt, bekommt der Benutzer keinen mentalen Zusammenbruch, aber auch keine Inspiration.</MindNumbSerum.description>
+  <MindNumbSerum.description>Uma seringa de fluido transparente e viscoso. Injetado perto do tronco cerebral, ele diminui a mente, tornando o usuário incapaz de sentir os altos e baixos da emoção humana. Isso impede-os temporariamente de ter quebras mentais e inspirações.</MindNumbSerum.description>
   <!-- EN: Use {0_label} -->
-  <MindNumbSerum.comps.CompUsable.useLabel>Benutze {0_label}</MindNumbSerum.comps.CompUsable.useLabel>
+  <MindNumbSerum.comps.CompUsable.useLabel>Usar {0_label}</MindNumbSerum.comps.CompUsable.useLabel>
   <!-- EN: Ingest {0} -->
-  <MindNumbSerum.ingestible.ingestCommandString>Nimm {0} ein</MindNumbSerum.ingestible.ingestCommandString>
+  <MindNumbSerum.ingestible.ingestCommandString>Ingestão {0}</MindNumbSerum.ingestible.ingestCommandString>
   <!-- EN: Ingesting {0}. -->
-  <MindNumbSerum.ingestible.ingestReportString>Nimmt {0} ein.</MindNumbSerum.ingestible.ingestReportString>
-  
+  <MindNumbSerum.ingestible.ingestReportString>Ingestão {0}.</MindNumbSerum.ingestible.ingestReportString>
   <!-- EN: deadlife shell -->
-  <Shell_Deadlife.label>Deadlife-Granate</Shell_Deadlife.label>
+  <Shell_Deadlife.label>concha de morte</Shell_Deadlife.label>
   <!-- EN: An artillery shell packed with a dust-like substance that, after exploding into a cloud, will settle on nearby human and animal corpses and raise them as shamblers. The shamblers will only attack your enemies.\n\nThis can be fired from mortars or installed as a trap. Explodes when damaged. -->
-  <Shell_Deadlife.description>Eine Mörsergranate, die mit einer staubähnlichen Substanz gefüllt ist. Wenn die Granate explodiert, wird eine Wolke dieser Substanz freigesetzt, die sich auf menschliche und tierische Leichen in der Nähe absetzt und diese als Schlurfer wiederbelebt. Die Schlurfer greifen nur deine Feinde an.\n\nKann von Mörsern abgefeuert oder als Falle eingesetzt werden. Explodiert bei Beschädigung.</Shell_Deadlife.description>
-  
+  <Shell_Deadlife.description>Um escudo de artilharia embalado com uma substância semelhante a poeira que, depois de explodir em uma nuvem, vai se estabelecer em corpos humanos e animais próximos e criá-los como xabeiros. Os shamblers só atacarão os seus inimigos.\n\nIsso pode ser disparado de morteiros ou instalado como uma armadilha. Explode quando danificado.</Shell_Deadlife.description>
   <!-- EN: deadlife capsule -->
-  <Shell_Deadlife_Releasing.label>Deadlife-Kapsel</Shell_Deadlife_Releasing.label>
-  
+  <Shell_Deadlife_Releasing.label>cápsula de morte</Shell_Deadlife_Releasing.label>
   <!-- EN: voidsight serum -->
-  <VoidsightSerum.label>Leerensichtserum</VoidsightSerum.label>
+  <VoidsightSerum.label>soro vazio</VoidsightSerum.label>
   <!-- EN: A capsule of oily black fluid that squirms endlessly inside the glass. When injected into the eye, it suppresses the inhibitory neurons that keep perception focused on the real world, thus lifting dark psychic phenomena into conscious perception. This increases the amount of knowledge gained when studying unnatural entities, as well as psychic sensitivity, but also impacts mood.\n\nThe effect is temporary and does not stack. -->
-  <VoidsightSerum.description>Eine Kapsel mit einer schwarzen, öligen Flüssigkeit, die sich endlos im Glas windet. Einmal ins Auge gespritzt, werden hemmende Neuronen unterdrückt, die den Benutzer nur die reale Welt wahrnehmen lassen; das heißt, er wird empfänglich für dunkle übersinnliche Phänomene. Dies erhöht seinen Erkenntnisgewinn beim Studium unnatürlicher Entitäten sowie seine mentale Sensibilität, beeinträchtigt aber auch seine Stimmung.\n\nDie Wirkung ist temporär und nicht stapelbar.</VoidsightSerum.description>
+  <VoidsightSerum.description>Uma cápsula de fluido preto oleoso que esguicha infinitamente dentro do vidro. Quando injetado no olho, suprime os neurônios inibitórios que mantêm a percepção focada no mundo real, levantando assim fenômenos psíquicos escuros em percepção consciente. Isso aumenta a quantidade de conhecimento adquirido ao estudar entidades não naturais, bem como sensibilidade psíquica, mas também impacta o humor.\n\nO efeito é temporário e não empilha.</VoidsightSerum.description>
   <!-- EN: Use {0_label} -->
-  <VoidsightSerum.comps.CompUsable.useLabel>Benutze {0_label}</VoidsightSerum.comps.CompUsable.useLabel>
+  <VoidsightSerum.comps.CompUsable.useLabel>Usar {0_label}</VoidsightSerum.comps.CompUsable.useLabel>
   <!-- EN: Ingest {0} -->
-  <VoidsightSerum.ingestible.ingestCommandString>Nimm {0} ein</VoidsightSerum.ingestible.ingestCommandString>
+  <VoidsightSerum.ingestible.ingestCommandString>Ingestão {0}</VoidsightSerum.ingestible.ingestCommandString>
   <!-- EN: Ingesting {0}. -->
-  <VoidsightSerum.ingestible.ingestReportString>Nimmt {0} ein.</VoidsightSerum.ingestible.ingestReportString>
-  
+  <VoidsightSerum.ingestible.ingestReportString>Ingestão {0}.</VoidsightSerum.ingestible.ingestReportString>
 </LanguageData>

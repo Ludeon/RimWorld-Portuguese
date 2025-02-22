@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>dangersDescription(priority=1)->\n\nThe pods contain these dangers:\n\n[allThreats]</li>
     <li>dangersDescription-></li>
@@ -8,13 +7,7 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [commonMainPart]</li>
     <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, (*Threat)a mechanoid cluster(/Threat) will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.[helpersParagraph]</li>
   -->
-  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
-    <li>dangersDescription(priority=1)->\n\nDie Kapseln enthalten folgende Gefahren:\n\n[allThreats]</li>
-    <li>dangersDescription-></li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] der Fraktion [asker_faction_name], hat ein dringliches Anliegen. [commonMainPart]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], [asker_royalTitleInCurrentFaction] der Fraktion [asker_faction_name], hat ein dringliches Anliegen. [commonMainPart]</li>
-    <li>commonMainPart->Ein mechanoider Schwarm attackiert seit geraumer Zeit [asker_possessive]e Siedlungen. [asker_pronoun] möchte, dass du die Mechs mit einem Signal in deine Richtung lockst, damit sie das Nest vernichten können. Wenn du das tust, wird (*Threat)ein mechanoider Cluster(/Threat) in [map_label] landen.[dangersDescription]\n\nDer mechanoide Cluster wird sich vorerst im Ruhezustand befinden. Er könnte wach werden, wenn er angegriffen wird, oder, sofern vorhanden, ein Timer abgelaufen ist oder ein Näherungssensor ausgelöst wird.[helpersParagraph]</li>
-  </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>&lt;li&gt;dangersDescrição (prioridade=1)-&gt;\n\nAs cápsulas contêm estes perigos:\n\n[allThreats]\n&lt;li&gt;dangersDescription-&gt;&lt;/li&gt;\n&lt;li&gt;questDescription(asker_factionLeader==True)-&gt;[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], está fazendo um pedido. [commonMainPart]&lt;/li&gt;\n&lt;li&gt;questDescription(asker_royalInCurrentFaction==True)-&gt;[asker_nameDef], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], está fazendo um pedido. [commonMainPart]&lt;/li&gt;\n&lt;li&gt;commonMainPart-&gt; Um enxame mecanóide tem atacado [asker_possessive] assentamentos. [asker_pronoun] quer que você sinalize os mechs para distraí-los enquanto [asker_pronoun] limpa a colmeia. Se você fizer, (*Três) um cluster mecanóide (/Três) pousará em [map_definite]. [descrição]\n\nO aglomerado mecanóide será inicialmente adormecido. Pode ter um ativador de contagem regressiva, ou pode ficar adormecido para sempre até perturbado. [helpersParagraph]&lt;/li&gt;\n</ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>
     <li>questName->[menace] pods</li>
@@ -30,21 +23,5 @@
     <li>menace->terror</li>
     <li>menace->fear</li>
   -->
-  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
-    <li>questName->Die [menace]en Schwärme</li>
-    <li>questName->Die [menace]en Kapseln</li>
-    <li>questName->[nameBased]</li>
-    <li>nameBased->[asker_nameDef_s] Mechs</li>
-    <li>nameBased->[asker_nameDef_s] Mechanoiden</li>
-    <li>nameBased->[asker_nameDef_s] Mech-Cluster</li>
-    <li>nameBased->[asker_nameDef_s] [menace]e Mechanoiden</li>
-    <li>menace->unheilig</li>
-    <li>menace->bedrohlich</li>
-    <li>menace->verflucht</li>
-    <li>menace->gefährlich</li>
-    <li>menace->schrecklich</li>
-    <li>menace->fürchterlich</li>
-    <li>asker_nameDef_s->{replace: [asker_nameDef]s; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"}</li>
-  </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
-  
+  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>&lt;li&gt;questName-&gt;[menace] cluster&lt;/li&gt;\n&lt;li&gt;questName-&gt;[menace] pods&lt;/li&gt;\n&lt;li&gt;questName-&gt;[nameBased]&lt;/li&gt;\n&lt;li&gt;nameBased-&gt;[asker_name Def]'s mechs&lt;/li&gt;\n&lt;li&gt;nameBased-&gt;[asker_name Mecanoides de Def]&lt;/li&gt;\n&lt;li&gt;nameBased-&gt;[asker_name Def]'s mech cluster&lt;/li&gt;\n&lt;li&gt;nameBased-&gt;[asker_name Mech [menace]&lt;/li&gt;\n&lt;li&gt;menace-&gt;threat&lt;/li&gt;\n&lt;li&gt;menace-&gt;menace&lt;/li&gt;\n&lt;li&gt;menace-&gt;scourge&lt;/li&gt;\n&lt;li&gt;menace-&gt;danger&lt;/li&gt;\n&lt;li&gt;menace-&gt;terror&lt;/li&gt;\n&lt;li&gt;menace-&gt;fear&lt;/li&gt;\n</ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
 </LanguageData>

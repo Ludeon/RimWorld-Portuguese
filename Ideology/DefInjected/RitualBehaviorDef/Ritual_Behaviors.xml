@@ -1,228 +1,205 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: target -->
-  <BlindingCeremony.roles.0.label>Ziel</BlindingCeremony.roles.0.label>
+  <BlindingCeremony.roles.0.label>alvo</BlindingCeremony.roles.0.label>
   <!-- EN: the person to blind -->
-  <BlindingCeremony.roles.0.missingDesc>die Person, die geblendet werden soll</BlindingCeremony.roles.0.missingDesc>
+  <BlindingCeremony.roles.0.missingDesc>a pessoa a cego</BlindingCeremony.roles.0.missingDesc>
   <!-- EN: cutter -->
-  <BlindingCeremony.roles.1.label>Blender</BlindingCeremony.roles.1.label>
+  <BlindingCeremony.roles.1.label>cortador de corte</BlindingCeremony.roles.1.label>
   <!-- EN: the person who performs the blinding -->
-  <BlindingCeremony.roles.1.missingDesc>die Person, die die Blendung durchführt</BlindingCeremony.roles.1.missingDesc>
+  <BlindingCeremony.roles.1.missingDesc>a pessoa que executa a cegueira</BlindingCeremony.roles.1.missingDesc>
   <!-- EN: Target is not reachable. -->
-  <BlindingCeremony.stages.0.failTriggers.0.desc>Ziel ist nicht erreichbar.</BlindingCeremony.stages.0.failTriggers.0.desc>
+  <BlindingCeremony.stages.0.failTriggers.0.desc>O alvo não é acessível.</BlindingCeremony.stages.0.failTriggers.0.desc>
   <!-- EN: escort asleep -->
-  <BlindingCeremony.stages.0.failTriggers.1.desc>Helfer schläft</BlindingCeremony.stages.0.failTriggers.1.desc>
-  
+  <BlindingCeremony.stages.0.failTriggers.1.desc>acompanha o sono</BlindingCeremony.stages.0.failTriggers.1.desc>
   <!-- EN: participate -->
-  <BurnCircle.spectatorGerund>teilnehmen</BurnCircle.spectatorGerund>
+  <BurnCircle.spectatorGerund>participar</BurnCircle.spectatorGerund>
   <!-- EN: Participants -->
-  <BurnCircle.spectatorsLabel>Teilnehmer</BurnCircle.spectatorsLabel>
-  
+  <BurnCircle.spectatorsLabel>Participantes</BurnCircle.spectatorsLabel>
   <!-- EN: participate -->
-  <CelebrationPartyDanceDrum.spectatorGerund>teilnehmen</CelebrationPartyDanceDrum.spectatorGerund>
+  <CelebrationPartyDanceDrum.spectatorGerund>participar</CelebrationPartyDanceDrum.spectatorGerund>
   <!-- EN: Participants -->
-  <CelebrationPartyDanceDrum.spectatorsLabel>Teilnehmer</CelebrationPartyDanceDrum.spectatorsLabel>
+  <CelebrationPartyDanceDrum.spectatorsLabel>Participantes</CelebrationPartyDanceDrum.spectatorsLabel>
   <!-- EN: Campfire is missing. -->
-  <CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>Lagerfeuer fehlt.</CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>
+  <CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>A fogueira desapareceu.</CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>
   <!-- EN: Campfire is not lit. -->
-  <CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>Lagerfeuer ist nicht entzündet.</CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>
+  <CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>A fogueira não está iluminada.</CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>
   <!-- EN: No drums. -->
-  <CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>Keine Trommeln.</CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>
-  
+  <CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>Sem bateria.</CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>
   <!-- EN: participate -->
-  <CelebrationSkyLanterns.spectatorGerund>teilnehmen</CelebrationSkyLanterns.spectatorGerund>
+  <CelebrationSkyLanterns.spectatorGerund>participar</CelebrationSkyLanterns.spectatorGerund>
   <!-- EN: Participants -->
-  <CelebrationSkyLanterns.spectatorsLabel>Teilnehmer</CelebrationSkyLanterns.spectatorsLabel>
-  
+  <CelebrationSkyLanterns.spectatorsLabel>Participantes</CelebrationSkyLanterns.spectatorsLabel>
   <!-- EN: participate -->
-  <CelebrationTree.spectatorGerund>teilnehmen</CelebrationTree.spectatorGerund>
+  <CelebrationTree.spectatorGerund>participar</CelebrationTree.spectatorGerund>
   <!-- EN: Participants -->
-  <CelebrationTree.spectatorsLabel>Teilnehmer</CelebrationTree.spectatorsLabel>
-  
+  <CelebrationTree.spectatorsLabel>Participantes</CelebrationTree.spectatorsLabel>
   <!-- EN: speaker -->
-  <Conversion.roles.0.label>Redner</Conversion.roles.0.label>
+  <Conversion.roles.0.label>alto-falante</Conversion.roles.0.label>
   <!-- EN: convertee -->
-  <Conversion.roles.1.label>Konvertit</Conversion.roles.1.label>
+  <Conversion.roles.1.label>conversor</Conversion.roles.1.label>
   <!-- EN: Prisoner is not reachable. -->
-  <Conversion.stages.0.failTriggers.0.desc>Gefangener ist nicht erreichbar.</Conversion.stages.0.failTriggers.0.desc>
+  <Conversion.stages.0.failTriggers.0.desc>Prisioneiro não é acessível.</Conversion.stages.0.failTriggers.0.desc>
   <!-- EN: escort asleep -->
-  <Conversion.stages.0.failTriggers.1.desc>Helfer schläft</Conversion.stages.0.failTriggers.1.desc>
-  
+  <Conversion.stages.0.failTriggers.1.desc>acompanha o sono</Conversion.stages.0.failTriggers.1.desc>
   <!-- EN: participate -->
-  <DancePartyTech.spectatorGerund>teilnehmen</DancePartyTech.spectatorGerund>
+  <DancePartyTech.spectatorGerund>participar</DancePartyTech.spectatorGerund>
   <!-- EN: Participants -->
-  <DancePartyTech.spectatorsLabel>Teilnehmer</DancePartyTech.spectatorsLabel>
+  <DancePartyTech.spectatorsLabel>Participantes</DancePartyTech.spectatorsLabel>
   <!-- EN: Lightball is missing. -->
-  <DancePartyTech.stages.0.failTriggers.0.desc>Lichterkugel fehlt.</DancePartyTech.stages.0.failTriggers.0.desc>
+  <DancePartyTech.stages.0.failTriggers.0.desc>O Lightball desapareceu.</DancePartyTech.stages.0.failTriggers.0.desc>
   <!-- EN: Lightball is not powered. -->
-  <DancePartyTech.stages.0.failTriggers.1.desc>Lichterkugel wird nicht mit Strom versorgt.</DancePartyTech.stages.0.failTriggers.1.desc>
+  <DancePartyTech.stages.0.failTriggers.1.desc>O Lightball não é alimentado.</DancePartyTech.stages.0.failTriggers.1.desc>
   <!-- EN: No powered loudspeakers. -->
-  <DancePartyTech.stages.0.failTriggers.2.desc>Keine mit Strom versorgten Lautsprecher.</DancePartyTech.stages.0.failTriggers.2.desc>
-  
+  <DancePartyTech.stages.0.failTriggers.2.desc>Nenhum alto-falante alimentado.</DancePartyTech.stages.0.failTriggers.2.desc>
   <!-- EN: speaker -->
-  <DateRitual.roles.0.label>Redner</DateRitual.roles.0.label>
+  <DateRitual.roles.0.label>alto-falante</DateRitual.roles.0.label>
   <!-- EN: participate -->
-  <DateRitual.spectatorGerund>teilnehmen</DateRitual.spectatorGerund>
+  <DateRitual.spectatorGerund>participar</DateRitual.spectatorGerund>
   <!-- EN: Participants -->
-  <DateRitual.spectatorsLabel>Teilnehmer</DateRitual.spectatorsLabel>
+  <DateRitual.spectatorsLabel>Participantes</DateRitual.spectatorsLabel>
   <!-- EN: {0}: The speech is over, and the party is beginning. -->
-  <DateRitual.stages.0.postAction.text>{0}: Die Rede ist zu Ende und die Party fängt an.</DateRitual.stages.0.postAction.text>
-  
+  <DateRitual.stages.0.postAction.text>O discurso acabou, e o partido está começando.</DateRitual.stages.0.postAction.text>
   <!-- EN: executioner -->
-  <Execution.roles.0.label>Henker</Execution.roles.0.label>
+  <Execution.roles.0.label>executor</Execution.roles.0.label>
   <!-- EN: an executioner -->
-  <Execution.roles.0.missingDesc>ein Henker</Execution.roles.0.missingDesc>
+  <Execution.roles.0.missingDesc>um executor</Execution.roles.0.missingDesc>
   <!-- EN: prisoner -->
-  <Execution.roles.1.label>Gefangener</Execution.roles.1.label>
+  <Execution.roles.1.label>prisioneiro</Execution.roles.1.label>
   <!-- EN: a prisoner -->
-  <Execution.roles.1.missingDesc>ein Gefangener</Execution.roles.1.missingDesc>
+  <Execution.roles.1.missingDesc>um prisioneiro</Execution.roles.1.missingDesc>
   <!-- EN: Spectators must be willing to watch the execution. -->
-  <Execution.spectatorFilter.description>Zuschauer müssen gewillt sein, bei der Hinrichtung zuzuschauen.</Execution.spectatorFilter.description>
+  <Execution.spectatorFilter.description>Os espectadores devem estar dispostos a assistir à execução.</Execution.spectatorFilter.description>
   <!-- EN: Prisoner is not reachable. -->
-  <Execution.stages.0.failTriggers.0.desc>Gefangener ist nicht erreichbar.</Execution.stages.0.failTriggers.0.desc>
+  <Execution.stages.0.failTriggers.0.desc>Prisioneiro não é acessível.</Execution.stages.0.failTriggers.0.desc>
   <!-- EN: escort asleep -->
-  <Execution.stages.0.failTriggers.1.desc>Helfer schläft</Execution.stages.0.failTriggers.1.desc>
-  
+  <Execution.stages.0.failTriggers.1.desc>acompanha o sono</Execution.stages.0.failTriggers.1.desc>
   <!-- EN: participate -->
-  <FeastCannibal.spectatorGerund>teilnehmen</FeastCannibal.spectatorGerund>
+  <FeastCannibal.spectatorGerund>participar</FeastCannibal.spectatorGerund>
   <!-- EN: Participants -->
-  <FeastCannibal.spectatorsLabel>Teilnehmer</FeastCannibal.spectatorsLabel>
-  
+  <FeastCannibal.spectatorsLabel>Participantes</FeastCannibal.spectatorsLabel>
   <!-- EN: speaker -->
-  <Funeral.roles.0.label>Redner</Funeral.roles.0.label>
-  
+  <Funeral.roles.0.label>alto-falante</Funeral.roles.0.label>
   <!-- EN: speaker -->
-  <GladiatorDuel.roles.0.label>Redner</GladiatorDuel.roles.0.label>
+  <GladiatorDuel.roles.0.label>alto-falante</GladiatorDuel.roles.0.label>
   <!-- EN: duelist -->
-  <GladiatorDuel.roles.1.label>Duellant</GladiatorDuel.roles.1.label>
+  <GladiatorDuel.roles.1.label>duelista</GladiatorDuel.roles.1.label>
   <!-- EN: duelists -->
-  <GladiatorDuel.roles.1.categoryLabel>Duellanten</GladiatorDuel.roles.1.categoryLabel>
+  <GladiatorDuel.roles.1.categoryLabel>listas de vencimento</GladiatorDuel.roles.1.categoryLabel>
   <!-- EN: prisoners / slaves (duelists) -->
-  <GladiatorDuel.roles.1.missingDesc>Gefangene / Sklaven (Duellanten)</GladiatorDuel.roles.1.missingDesc>
+  <GladiatorDuel.roles.1.missingDesc>prisioneiros / escravos (duelistas)</GladiatorDuel.roles.1.missingDesc>
   <!-- EN: duelist -->
-  <GladiatorDuel.roles.2.label>Duellant</GladiatorDuel.roles.2.label>
+  <GladiatorDuel.roles.2.label>duelista</GladiatorDuel.roles.2.label>
   <!-- EN: duelists -->
-  <GladiatorDuel.roles.2.categoryLabel>Duellanten</GladiatorDuel.roles.2.categoryLabel>
+  <GladiatorDuel.roles.2.categoryLabel>listas de vencimento</GladiatorDuel.roles.2.categoryLabel>
   <!-- EN: prisoners / slaves (duelists) -->
-  <GladiatorDuel.roles.2.missingDesc>Gefangene / Sklaven (Duellanten)</GladiatorDuel.roles.2.missingDesc>
+  <GladiatorDuel.roles.2.missingDesc>prisioneiros / escravos (duelistas)</GladiatorDuel.roles.2.missingDesc>
   <!-- EN: duelist escort -->
-  <GladiatorDuel.roles.3.label>Helfer</GladiatorDuel.roles.3.label>
+  <GladiatorDuel.roles.3.label>acompanhante de duelista</GladiatorDuel.roles.3.label>
   <!-- EN: duelist escorts -->
-  <GladiatorDuel.roles.3.categoryLabel>Helfer</GladiatorDuel.roles.3.categoryLabel>
+  <GladiatorDuel.roles.3.categoryLabel>acompanhantes de duelista</GladiatorDuel.roles.3.categoryLabel>
   <!-- EN: non-downed colonists capable of hauling -->
-  <GladiatorDuel.roles.3.missingDesc>handlungsfähige Kolonisten, die in der Lage sind, Dinge wegzutragen</GladiatorDuel.roles.3.missingDesc>
+  <GladiatorDuel.roles.3.missingDesc>colonos não derrubados capazes de transportar</GladiatorDuel.roles.3.missingDesc>
   <!-- EN: duelist escort -->
-  <GladiatorDuel.roles.4.label>Helfer</GladiatorDuel.roles.4.label>
+  <GladiatorDuel.roles.4.label>acompanhante de duelista</GladiatorDuel.roles.4.label>
   <!-- EN: duelist escorts -->
-  <GladiatorDuel.roles.4.categoryLabel>Helfer</GladiatorDuel.roles.4.categoryLabel>
+  <GladiatorDuel.roles.4.categoryLabel>acompanhantes de duelista</GladiatorDuel.roles.4.categoryLabel>
   <!-- EN: non-downed colonists capable of hauling -->
-  <GladiatorDuel.roles.4.missingDesc>handlungsfähige Kolonisten, die in der Lage sind, Dinge wegzutragen</GladiatorDuel.roles.4.missingDesc>
+  <GladiatorDuel.roles.4.missingDesc>colonos não derrubados capazes de transportar</GladiatorDuel.roles.4.missingDesc>
   <!-- EN: participate -->
-  <GladiatorDuel.spectatorGerund>teilnehmen</GladiatorDuel.spectatorGerund>
+  <GladiatorDuel.spectatorGerund>participar</GladiatorDuel.spectatorGerund>
   <!-- EN: Spectators -->
-  <GladiatorDuel.spectatorsLabel>Zuschauer</GladiatorDuel.spectatorsLabel>
+  <GladiatorDuel.spectatorsLabel>Espectadores</GladiatorDuel.spectatorsLabel>
   <!-- EN: Duelist is not reachable. -->
-  <GladiatorDuel.stages.2.failTriggers.0.desc>Duellant ist nicht erreichbar.</GladiatorDuel.stages.2.failTriggers.0.desc>
+  <GladiatorDuel.stages.2.failTriggers.0.desc>Duelista não é acessível.</GladiatorDuel.stages.2.failTriggers.0.desc>
   <!-- EN: escort asleep -->
-  <GladiatorDuel.stages.2.failTriggers.1.desc>Helfer schläft</GladiatorDuel.stages.2.failTriggers.1.desc>
+  <GladiatorDuel.stages.2.failTriggers.1.desc>acompanha o sono</GladiatorDuel.stages.2.failTriggers.1.desc>
   <!-- EN: escort asleep -->
-  <GladiatorDuel.stages.2.failTriggers.2.desc>Helfer schläft</GladiatorDuel.stages.2.failTriggers.2.desc>
-  
+  <GladiatorDuel.stages.2.failTriggers.2.desc>acompanha o sono</GladiatorDuel.stages.2.failTriggers.2.desc>
   <!-- EN: {SPEAKER_labelShort} is giving a {RITUAL_labelIndef}.\n      \nIf all goes well, listeners will feel inspired, and gain respect for {SPEAKER_labelShort}. If it goes poorly, the speech will do social damage. Positive effects are reduced for non-{IDEOMEMBERS}. -->
-  <LeaderSpeech.letterText>{SPEAKER_labelShort} hält eine Führungsrede.\n      \nWenn alles gut läuft, werden sich die Zuhörer inspiriert fühlen und Respekt für {SPEAKER_labelShort} empfinden. Wenn es schlecht läuft, wird die Rede sozialen Schaden anrichten. Positive Effekte sind für Anhänger einer anderen Ideologie reduziert.</LeaderSpeech.letterText>
+  <LeaderSpeech.letterText>(SPEAKER) Short} está dando um {RITUAL_labelIndef}.\n\nSe tudo correr bem, os ouvintes se sentirão inspirados e ganharão respeito por {SPEAKER_labelShort}. Se correr mal, o discurso fará dano social. Os efeitos positivos são reduzidos para não-{IDEOMEMBERS}.</LeaderSpeech.letterText>
   <!-- EN: {RITUAL_labelCap} -->
-  <LeaderSpeech.letterTitle>Führungsrede</LeaderSpeech.letterTitle>
+  <LeaderSpeech.letterTitle>- Não</LeaderSpeech.letterTitle>
   <!-- EN: speaker -->
-  <LeaderSpeech.roles.0.label>Redner</LeaderSpeech.roles.0.label>
-  
+  <LeaderSpeech.roles.0.label>alto-falante</LeaderSpeech.roles.0.label>
   <!-- EN: role changer -->
-  <RoleChange.roles.0.label>Rollenwechsler</RoleChange.roles.0.label>
+  <RoleChange.roles.0.label>mudança de função</RoleChange.roles.0.label>
   <!-- EN: a role changer -->
-  <RoleChange.roles.0.missingDesc>ein Rollenwechsler</RoleChange.roles.0.missingDesc>
+  <RoleChange.roles.0.missingDesc>uma mudança de papel</RoleChange.roles.0.missingDesc>
   <!-- EN: spectate -->
-  <RoleChange.spectatorGerund>zuschauen</RoleChange.spectatorGerund>
+  <RoleChange.spectatorGerund>espetacular</RoleChange.spectatorGerund>
   <!-- EN: Spectators -->
-  <RoleChange.spectatorsLabel>Zuschauer</RoleChange.spectatorsLabel>
-  
+  <RoleChange.spectatorsLabel>Espectadores</RoleChange.spectatorsLabel>
   <!-- EN: cutter -->
-  <SacrificeAnimal.roles.0.label>Vollstrecker</SacrificeAnimal.roles.0.label>
+  <SacrificeAnimal.roles.0.label>cortador de corte</SacrificeAnimal.roles.0.label>
   <!-- EN: sacrifice -->
-  <SacrificeAnimal.roles.1.label>Opfergabe</SacrificeAnimal.roles.1.label>
+  <SacrificeAnimal.roles.1.label>sacrifício</SacrificeAnimal.roles.1.label>
   <!-- EN: an animal with body size of at least 0.8 -->
-  <SacrificeAnimal.roles.1.missingDesc>ein Tier mit einer Mindestgröße von 0.8</SacrificeAnimal.roles.1.missingDesc>
+  <SacrificeAnimal.roles.1.missingDesc>um animal com tamanho corporal de pelo menos 0,8</SacrificeAnimal.roles.1.missingDesc>
   <!-- EN: participate -->
-  <SacrificeAnimal.spectatorGerund>teilnehmen</SacrificeAnimal.spectatorGerund>
+  <SacrificeAnimal.spectatorGerund>participar</SacrificeAnimal.spectatorGerund>
   <!-- EN: Participants -->
-  <SacrificeAnimal.spectatorsLabel>Teilnehmer</SacrificeAnimal.spectatorsLabel>
+  <SacrificeAnimal.spectatorsLabel>Participantes</SacrificeAnimal.spectatorsLabel>
   <!-- EN: Animal is not reachable. -->
-  <SacrificeAnimal.stages.0.failTriggers.0.desc>Tier ist nicht erreichbar.</SacrificeAnimal.stages.0.failTriggers.0.desc>
+  <SacrificeAnimal.stages.0.failTriggers.0.desc>O animal não é acessível.</SacrificeAnimal.stages.0.failTriggers.0.desc>
   <!-- EN: escort asleep -->
-  <SacrificeAnimal.stages.0.failTriggers.1.desc>Helfer schläft</SacrificeAnimal.stages.0.failTriggers.1.desc>
+  <SacrificeAnimal.stages.0.failTriggers.1.desc>acompanha o sono</SacrificeAnimal.stages.0.failTriggers.1.desc>
   <!-- EN: sacrifice no longer dead -->
-  <SacrificeAnimal.stages.3.failTriggers.0.desc>Opfergabe nicht mehr tot</SacrificeAnimal.stages.3.failTriggers.0.desc>
-  
+  <SacrificeAnimal.stages.3.failTriggers.0.desc>sacrifício já não morto</SacrificeAnimal.stages.3.failTriggers.0.desc>
   <!-- EN: cutter -->
-  <SacrificePrisoner.roles.0.label>Vollstrecker</SacrificePrisoner.roles.0.label>
+  <SacrificePrisoner.roles.0.label>cortador de corte</SacrificePrisoner.roles.0.label>
   <!-- EN: sacrifice -->
-  <SacrificePrisoner.roles.1.label>Opfergabe</SacrificePrisoner.roles.1.label>
+  <SacrificePrisoner.roles.1.label>sacrifício</SacrificePrisoner.roles.1.label>
   <!-- EN: a prisoner -->
-  <SacrificePrisoner.roles.1.missingDesc>ein Gefangener</SacrificePrisoner.roles.1.missingDesc>
+  <SacrificePrisoner.roles.1.missingDesc>um prisioneiro</SacrificePrisoner.roles.1.missingDesc>
   <!-- EN: participate -->
-  <SacrificePrisoner.spectatorGerund>teilnehmen</SacrificePrisoner.spectatorGerund>
+  <SacrificePrisoner.spectatorGerund>participar</SacrificePrisoner.spectatorGerund>
   <!-- EN: Participants -->
-  <SacrificePrisoner.spectatorsLabel>Teilnehmer</SacrificePrisoner.spectatorsLabel>
+  <SacrificePrisoner.spectatorsLabel>Participantes</SacrificePrisoner.spectatorsLabel>
   <!-- EN: Prisoner is not reachable. -->
-  <SacrificePrisoner.stages.0.failTriggers.0.desc>Gefangener ist nicht erreichbar.</SacrificePrisoner.stages.0.failTriggers.0.desc>
+  <SacrificePrisoner.stages.0.failTriggers.0.desc>Prisioneiro não é acessível.</SacrificePrisoner.stages.0.failTriggers.0.desc>
   <!-- EN: escort asleep -->
-  <SacrificePrisoner.stages.0.failTriggers.1.desc>Helfer schläft</SacrificePrisoner.stages.0.failTriggers.1.desc>
+  <SacrificePrisoner.stages.0.failTriggers.1.desc>acompanha o sono</SacrificePrisoner.stages.0.failTriggers.1.desc>
   <!-- EN: sacrifice no longer dead -->
-  <SacrificePrisoner.stages.3.failTriggers.0.desc>Opfergabe nicht mehr tot</SacrificePrisoner.stages.3.failTriggers.0.desc>
-  
+  <SacrificePrisoner.stages.3.failTriggers.0.desc>sacrifício já não morto</SacrificePrisoner.stages.3.failTriggers.0.desc>
   <!-- EN: target -->
-  <ScarificationCeremony.roles.0.label>Ziel</ScarificationCeremony.roles.0.label>
+  <ScarificationCeremony.roles.0.label>alvo</ScarificationCeremony.roles.0.label>
   <!-- EN: the person to scarify -->
-  <ScarificationCeremony.roles.0.missingDesc>die zu vernarbende Person</ScarificationCeremony.roles.0.missingDesc>
+  <ScarificationCeremony.roles.0.missingDesc>a pessoa para assustar</ScarificationCeremony.roles.0.missingDesc>
   <!-- EN: cutter -->
-  <ScarificationCeremony.roles.1.label>Narbenmacher</ScarificationCeremony.roles.1.label>
+  <ScarificationCeremony.roles.1.label>cortador de corte</ScarificationCeremony.roles.1.label>
   <!-- EN: the person who performs the scarification -->
-  <ScarificationCeremony.roles.1.missingDesc>die Person, die die Skarifizierung durchführt</ScarificationCeremony.roles.1.missingDesc>
+  <ScarificationCeremony.roles.1.missingDesc>a pessoa que realiza a cicatrização</ScarificationCeremony.roles.1.missingDesc>
   <!-- EN: Target is not reachable. -->
-  <ScarificationCeremony.stages.0.failTriggers.0.desc>Ziel ist nicht erreichbar.</ScarificationCeremony.stages.0.failTriggers.0.desc>
+  <ScarificationCeremony.stages.0.failTriggers.0.desc>O alvo não é acessível.</ScarificationCeremony.stages.0.failTriggers.0.desc>
   <!-- EN: escort asleep -->
-  <ScarificationCeremony.stages.0.failTriggers.1.desc>Helfer schläft</ScarificationCeremony.stages.0.failTriggers.1.desc>
-  
+  <ScarificationCeremony.stages.0.failTriggers.1.desc>acompanha o sono</ScarificationCeremony.stages.0.failTriggers.1.desc>
   <!-- EN: participate -->
-  <SmokeCircle.spectatorGerund>teilnehmen</SmokeCircle.spectatorGerund>
+  <SmokeCircle.spectatorGerund>participar</SmokeCircle.spectatorGerund>
   <!-- EN: Participants -->
-  <SmokeCircle.spectatorsLabel>Teilnehmer</SmokeCircle.spectatorsLabel>
-  
+  <SmokeCircle.spectatorsLabel>Participantes</SmokeCircle.spectatorsLabel>
   <!-- EN: connector -->
-  <TreeConnection.roles.0.label>Verbinder</TreeConnection.roles.0.label>
+  <TreeConnection.roles.0.label>conector de conector</TreeConnection.roles.0.label>
   <!-- EN: Only adults can connect to the Gauranlen tree. -->
-  <TreeConnection.roles.0.customChildDisallowMessage>Nur Erwachsene können sich mit dem Gauralanbaum verbinden.</TreeConnection.roles.0.customChildDisallowMessage>
+  <TreeConnection.roles.0.customChildDisallowMessage>Somente os adultos podem se conectar à árvore Gauranlen.</TreeConnection.roles.0.customChildDisallowMessage>
   <!-- EN: spectate -->
-  <TreeConnection.spectatorGerund>zuschauen</TreeConnection.spectatorGerund>
+  <TreeConnection.spectatorGerund>espetacular</TreeConnection.spectatorGerund>
   <!-- EN: Spectators -->
-  <TreeConnection.spectatorsLabel>Zuschauer</TreeConnection.spectatorsLabel>
-  
+  <TreeConnection.spectatorsLabel>Espectadores</TreeConnection.spectatorsLabel>
   <!-- EN: judge -->
-  <Trial.roles.0.label>Richter</Trial.roles.0.label>
+  <Trial.roles.0.label>juiz</Trial.roles.0.label>
   <!-- EN: convict -->
-  <Trial.roles.1.label>Verurteilter</Trial.roles.1.label>
-  
+  <Trial.roles.1.label>condenado</Trial.roles.1.label>
   <!-- EN: judge -->
-  <TrialMentalState.roles.0.label>Richter</TrialMentalState.roles.0.label>
+  <TrialMentalState.roles.0.label>juiz</TrialMentalState.roles.0.label>
   <!-- EN: convict -->
-  <TrialMentalState.roles.1.label>Verurteilter</TrialMentalState.roles.1.label>
-  
+  <TrialMentalState.roles.1.label>condenado</TrialMentalState.roles.1.label>
   <!-- EN: judge -->
-  <TrialPrisoner.roles.0.label>Richter</TrialPrisoner.roles.0.label>
+  <TrialPrisoner.roles.0.label>juiz</TrialPrisoner.roles.0.label>
   <!-- EN: convict -->
-  <TrialPrisoner.roles.1.label>Verurteilter</TrialPrisoner.roles.1.label>
+  <TrialPrisoner.roles.1.label>condenado</TrialPrisoner.roles.1.label>
   <!-- EN: Convicted prisoner is not reachable. -->
-  <TrialPrisoner.stages.0.failTriggers.0.desc>Der verurteilte Gefangene ist nicht erreichbar.</TrialPrisoner.stages.0.failTriggers.0.desc>
+  <TrialPrisoner.stages.0.failTriggers.0.desc>O prisioneiro condenado não é acessível.</TrialPrisoner.stages.0.failTriggers.0.desc>
   <!-- EN: escort asleep -->
-  <TrialPrisoner.stages.0.failTriggers.1.desc>Helfer schläft</TrialPrisoner.stages.0.failTriggers.1.desc>
-  
+  <TrialPrisoner.stages.0.failTriggers.1.desc>acompanha o sono</TrialPrisoner.stages.0.failTriggers.1.desc>
 </LanguageData>

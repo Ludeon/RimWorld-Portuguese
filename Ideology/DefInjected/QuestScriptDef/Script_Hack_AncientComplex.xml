@@ -1,20 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>terminalHackedMessage->Terminal hacked. {COUNT} / [terminalCount] complete.</li>
     <li>allTerminalsHackedMessage->You've hacked all of the terminals and discovered secret information about [relic_name]! You can now leave.</li>
   -->
-  <AncientComplex_Standard.questContentRules.rulesStrings>
-    <li>terminalHackedMessage->Terminal gehackt. {COUNT} / [terminalCount] abgeschlossen.</li>
-    <li>allTerminalsHackedMessage->Du hast alle Terminals gehackt und geheime Infos über die Reliquie '[relic_name]' gefunden! Du kannst nun das Gebiet verlassen.</li>
-  </AncientComplex_Standard.questContentRules.rulesStrings>
+  <AncientComplex_Standard.questContentRules.rulesStrings>&lt;li&gt;terminalHackedMessage-&gt; Terminal hackeado. {COUNT} / [terminalCount] completa.&lt;/li&gt;\n&lt;li&gt; allTerminalsHackedMessage-&gt; Você hackeou todos os terminais e descobriu informações secretas sobre [relic_name]! Agora você pode sair.&lt;/li&gt;\n</AncientComplex_Standard.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You've learned of an ancient complex nearby. It is said to contain information about [relic_name].\n\nIf you can break into the structure and hack the computers inside, you can collect the information.\n\nWatch out - there may be all manner of dangers inside, and other enemies may also be attracted by activity at the structure.</li>
   -->
-  <AncientComplex_Standard.questDescriptionRules.rulesStrings>
-    <li>questDescription->Du hast von einem antiken Komplex in der Nähe erfahren. Er soll Informationen über die Reliquie [relic_name] enthalten.\n\nWenn du es schaffst, in den Komplex einzudringen und die dortigen Computer zu hacken, kannst du die Informationen abrufen.\n\nAber Vorsicht - im Inneren können allerlei Gefahren lauern, außerdem könnten andere Feinde durch die Aktivitäten im Komplex angelockt werden.</li>
-  </AncientComplex_Standard.questDescriptionRules.rulesStrings>
+  <AncientComplex_Standard.questDescriptionRules.rulesStrings>&lt;li&gt;questDescription-&gt; Você aprendeu sobre um complexo antigo nas proximidades. Diz-se que contém informações sobre [relic_name].\n\nSe você pode invadir a estrutura e hackear os computadores dentro, você pode coletar as informações.\n\nCuidado - pode haver todos os tipos de perigos dentro, e outros inimigos também podem ser atraídos pela atividade na estrutura.&lt;/li&gt;\n</AncientComplex_Standard.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=6)->The [complexAdj] [complex]</li>
     <li>questName->The [dig]</li>
@@ -28,18 +22,5 @@
     <li>dig->dig</li>
     <li>dig->excavation</li>
   -->
-  <AncientComplex_Standard.questNameRules.rulesStrings>
-    <li>questName(p=6)->[complexAdj][complex]</li>
-    <li>questName->Die [dig]</li>
-    <li>complexAdj->Antike</li>
-    <li>complexAdj->Alte</li>
-    <li>complexAdj->Staubige</li>
-    <li>complexAdj->Geheime</li>
-    <li>complex->r Komplex</li>
-    <li>complex->s Gelände</li>
-    <li>complex-> Einrichtung</li>
-    <li>dig->Grabung</li>
-    <li>dig->Ausgrabung</li>
-  </AncientComplex_Standard.questNameRules.rulesStrings>
-  
+  <AncientComplex_Standard.questNameRules.rulesStrings>&lt;li&gt;questName(p=6)-&gt;O [complexAdj] [complexo]&lt;/li&gt;\n&lt;li&gt;questNome-&gt;O [dig]&lt;/li&gt;\n&lt;li&gt;complexAdj-&gt;ancient&lt;/li&gt;\n&lt;li&gt;complexAdj-&gt;old&lt;/li&gt;\n&lt;li&gt;complexAdj-&gt;dusty&lt;/li&gt;\n&lt;li&gt;complexAdj-&gt;secret&lt;/li&gt;\n&lt;li&gt;complexo-&gt;complexo&lt;/li&gt;\n&lt;li&gt;complexo-&gt;compound&lt;/li&gt;\n&lt;li&gt;complexo-&gt;instalação&lt;/li&gt;\n&lt;li&gt;dig-&gt;dig&lt;/li&gt;\n&lt;li&gt;dig-&gt;excavação&lt;/li&gt;\n</AncientComplex_Standard.questNameRules.rulesStrings>
 </LanguageData>

@@ -1,8 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: acidic smog -->
-  <NoxiousHaze.label>Säuresmog</NoxiousHaze.label>
+  <NoxiousHaze.label>smog ácido</NoxiousHaze.label>
   <!-- EN:
     <li>tale_noun->acidic smog sweeping over [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->the atmosphere near [PAWN_nameDef]'s [Community] becoming noxious</li>
@@ -18,24 +17,5 @@
     <li>desc_sentence->[Quantity_adjphrase] suffocating [Animal]s lay on the ground.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee.</li>
   -->
-  <NoxiousHaze.rulePack.rulesStrings>
-    <li>tale_noun->ein Säuresmog über die [CommunityFemAcc] von [PAWN_nameDef] hinwegzog</li>
-    <li>tale_noun->ein Säuresmog über das [CommunityNeuAcc] von [PAWN_nameDef] hinwegzog</li>
-    <li>tale_noun->die Atmosphäre in der [CommunityFemDat] von [PAWN_nameDef] verpestet wurde</li>
-    <li>tale_noun->die Atmosphäre im [CommunityNeuDat] von [PAWN_nameDef] verpestet wurde</li>
-    <li>image->einem bedrohlichen Himmel, [circumstance_group]</li>
-    <li>image->einer stickig werdenden Luft, [circumstance_group]</li>
-    <li>circumstance_phrase->während weit und breit kein Leben zu sehen ist</li>
-    <li>circumstance_phrase->während darauf gewartet wird, dass sich der Säuresmog wieder lichtet</li>
-    <li>circumstance_phrase->während Tiere am Flüchten sind</li>
-    <li>desc_sentence(p=0.33)->[PAWN_nameDef] versteckt sich in der Nähe eines [TerrainFeatureMasGen] und beobachtet das Geschehen mit einem [AdjectiveAngsty]en Blick.</li>
-    <li>desc_sentence(p=0.33)->[PAWN_nameDef] versteckt sich in der Nähe einer [TerrainFeatureFemGen] und beobachtet das Geschehen mit einem [AdjectiveAngsty]en Blick.</li>
-    <li>desc_sentence(p=0.33)->[PAWN_nameDef] versteckt sich in der Nähe eines [TerrainFeatureNeuGen] und beobachtet das Geschehen mit einem [AdjectiveAngsty]en Blick.</li>
-    <li>desc_sentence->[PAWN_nameDef] schaut mit einem Tuch vor dem Gesicht zu.</li>
-    <li>desc_sentence->[Quantity_adjphrase] tote [Animals] liegen auf dem Boden.</li>
-    <li>desc_sentence->[Quantity_adjphrase] sterbende [Animals] liegen auf dem Boden.</li>
-    <li>desc_sentence->[Quantity_adjphrase] erstickende [Animals] liegen auf dem Boden.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animals] fliehen gerade.</li>
-  </NoxiousHaze.rulePack.rulesStrings>
-  
+  <NoxiousHaze.rulePack.rulesStrings>&lt;li&gt;tale_noun-&gt;acidic smog varrendo sobre [PAWN_nameDef] [Comunidade]&lt;/li&gt;\n&lt;li&gt;tale_noun-&gt; a atmosfera perto [PAWN_nameDef] [Comunidade] tornando-se noxious&lt;/li&gt;\n&lt;li&gt;image-&gt;an ominous sky, [circumstance_group]&lt;/li&gt;\n&lt;li&gt;image-&gt;o ar se tornando grosso e [circumstance_group]&lt;/li&gt;\n&lt;li&gt;circumstance_phrase-&gt; sem vida à vista&lt;/li&gt;\n&lt;li&gt;circumstance_phrase-&gt; aguardando para o smog ácido para clear&lt;/li&gt;\n&lt;li&gt;circumstance_phrase-&gt;watching os animais fogem &lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; [PAWN_nameDef] esconde-se perto de uma [TerrainFeature], olhando para fora com um olhar [AdjectiveAngsty].&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; [PAWN_nameDef] olha com um pano enrolado em volta [PAWN_possessive] face.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; [Quantity_adjphrase] mortos [Animal] estão no chão.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; [Quantity_adjphrase] morrendo [Animal]s no chão.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; [Quantity_adjphrase] suffocating [Animal]s lay on the ground.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; [Quantity_adjphrase] [Animal]s fogem.&lt;/li&gt;\n</NoxiousHaze.rulePack.rulesStrings>
 </LanguageData>

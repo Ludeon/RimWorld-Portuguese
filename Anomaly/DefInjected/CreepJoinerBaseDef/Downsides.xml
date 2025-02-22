@@ -1,45 +1,35 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: aggressive -->
-  <Aggressive.label>aggressiv</Aggressive.label>
+  <Aggressive.label>agressiva</Aggressive.label>
   <!-- EN: {PAWN_nameDef}'s demeanor has suddenly changed. A menacing grin splits {PAWN_possessive} face.\n\n{PAWN_nameDef} has become hostile. -->
-  <Aggressive.letterDesc>{replace: {PAWN_nameDef}s; "s(/Name)s"-"s(/Name)'"; "ß(/Name)s"-"ß(/Name)'"; "z(/Name)s"-"z(/Name)'"; "x(/Name)s"-"x(/Name)'"; "ce(/Name)s"-"ce(/Name)'"} Verhalten hat sich plötzlich geändert. Ein bedrohliches Grinsen ist auf {PAWN_possessive}em Gesicht zu sehen.\n\n{PAWN_nameDef} ist feindselig geworden.</Aggressive.letterDesc>
+  <Aggressive.letterDesc>{PAWN_name A demeanor mudou de repente. Um sorriso ameaçador divide o rosto.\n\n{PAWN_name Def) tornou-se hostil.</Aggressive.letterDesc>
   <!-- EN: {PAWN_nameDef} hostile -->
-  <Aggressive.letterLabel>{PAWN_nameDef} ist feindselig</Aggressive.letterLabel>
-  
+  <Aggressive.letterLabel>(PAWN_nameDef) hostil</Aggressive.letterLabel>
   <!-- EN: crumbling mind -->
-  <CrumblingMind.label>verkümmert geistig</CrumblingMind.label>
-  
+  <CrumblingMind.label>mente desmoronada</CrumblingMind.label>
   <!-- EN: disturbing -->
-  <Disturbing.label>verstörend</Disturbing.label>
-  
+  <Disturbing.label>perturbação</Disturbing.label>
   <!-- EN: entity jailbreaker -->
-  <EntityJailbreaker.label>lässt Entitäten frei</EntityJailbreaker.label>
-  
+  <EntityJailbreaker.label>entidade jailbreaker</EntityJailbreaker.label>
   <!-- EN: leaves -->
-  <Leaves.label>reist ab</Leaves.label>
+  <Leaves.label>folhas</Leaves.label>
   <!-- EN: {PAWN_nameDef} thanks you for your hospitality, but says that it is time for {PAWN_objective} to move on. -->
-  <Leaves.letterDesc>{PAWN_nameDef} bedankt sich für die Gastfreundschaft, sagt aber, dass es für {PAWN_objective} an der Zeit ist, weiterzuziehen.</Leaves.letterDesc>
+  <Leaves.letterDesc>{PAWN_name Def. Obrigado por sua hospitalidade, mas diz que é hora de {PAWN_objective} seguir em frente.</Leaves.letterDesc>
   <!-- EN: {PAWN_nameDef} departure -->
-  <Leaves.letterLabel>{PAWN_nameDef} reist ab</Leaves.letterLabel>
-  
+  <Leaves.letterLabel>{PAWN_name Def) partida</Leaves.letterLabel>
   <!-- EN: metalhorror -->
-  <Metalhorror.label>Metallschrecken</Metalhorror.label>
-  
+  <Metalhorror.label>máquina de montagem automática</Metalhorror.label>
   <!-- EN: nothing -->
-  <Nothing.label>nichts</Nothing.label>
-  
+  <Nothing.label>nada</Nothing.label>
   <!-- EN: organ decay -->
-  <OrganDecay.label>Organzerfall</OrganDecay.label>
-  
+  <OrganDecay.label>decadência de órgãos</OrganDecay.label>
   <!-- EN: psychic agony -->
-  <PsychicAgony.label>mentale Agonie</PsychicAgony.label>
+  <PsychicAgony.label>psíquica agonia</PsychicAgony.label>
   <!-- EN: {PAWN_nameDef} has involuntarily released a wave of psychic suffering! {PAWN_pronoun} tried to prevent it, but was unable to do so.\n\nNearby creatures will experience intense pain. The effects will linger for several days. -->
-  <PsychicAgony.letterDesc>{PAWN_nameDef} hat unfreiwillig eine Welle mentalen Leids ausgelöst! {PAWN_pronoun} hat versucht, dies zu verhindern, aber es ist {PAWN_gender ? ihm : ihr} nicht gelungen.\n\nKreaturen in der Nähe werden starke Schmerzen verspüren. Die Auswirkungen werden mehrere Tage andauern.</PsychicAgony.letterDesc>
+  <PsychicAgony.letterDesc>{PAWN_nameDef} lançou involuntariamente uma onda de sofrimento psíquico! {PAWN_pronoun} tentou impedi-lo, mas foi incapaz de fazê-lo.\n\nAs criaturas próximas experimentarão intensa dor. Os efeitos vão durar vários dias.</PsychicAgony.letterDesc>
   <!-- EN: Psychic agony -->
-  <PsychicAgony.letterLabel>Mentale Agonie</PsychicAgony.letterLabel>
+  <PsychicAgony.letterLabel>Pecuária</PsychicAgony.letterLabel>
   <!-- EN: {SURGEON_nameDef} detected a faint but painful psychic presence emanating from {PAWN_nameDef} but failed to understand what was causing it. -->
-  <PsychicAgony.surgicalInspectionLetterExtra>{SURGEON_nameDef} hat eine schwache, aber schmerzhafte mentale Präsenz entdeckt, die von {PAWN_nameDef} ausgeht, aber {SURGEON_pronoun} weiß nicht, was die Ursache dafür ist.</PsychicAgony.surgicalInspectionLetterExtra>
-  
+  <PsychicAgony.surgicalInspectionLetterExtra>{SURGEON_nameDef} detectou uma presença psíquica fraca mas dolorosa que emana de {PAWN_nameDef} mas não conseguiu entender o que estava causando isso.</PsychicAgony.surgicalInspectionLetterExtra>
 </LanguageData>

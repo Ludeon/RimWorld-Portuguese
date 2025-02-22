@@ -1,8 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: spark slave rebellion -->
-  <SparkSlaveRebellion.label>entfachter Sklavenaufstand</SparkSlaveRebellion.label>
+  <SparkSlaveRebellion.label>rebelião escravo de faísca</SparkSlaveRebellion.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] suggested they make a break for it.</li>
     <li>r_logentry->[INITIATOR_nameDef] encouraged [RECIPIENT_nameDef] to take back [RECIPIENT_possessive] freedom.</li>
@@ -10,27 +9,14 @@
     <li>r_logentry->[INITIATOR_nameDef] spoke of a life beyond servitude and encouraged [RECIPIENT_nameDef] to escape.</li>
     <li>r_logentry->[INITIATOR_nameDef] whispered that security was lax and now would be a good time to escape.</li>
   -->
-  <SparkSlaveRebellion.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] schlug vor, dass sie sich aus dem Staub machen sollten.</li>
-    <li>r_logentry->[INITIATOR_nameDef] ermutigte [RECIPIENT_nameDef], [RECIPIENT_possessive]e Freiheit zurückzuholen.</li>
-    <li>r_logentry->[INITIATOR_nameDef] sprach davon, ihre Versklavung zu beenden und sich aus dem Staub zu machen.</li>
-    <li>r_logentry->[INITIATOR_nameDef] sprach von einem Leben jenseits der Knechtschaft und ermutigte [RECIPIENT_nameDef] zur Flucht.</li>
-    <li>r_logentry->[INITIATOR_nameDef] flüsterte, dass die Sicherheitsvorkehrungen zu lasch seien und jetzt ein guter Zeitpunkt wäre, zu fliehen.</li>
-  </SparkSlaveRebellion.logRulesInitiator.rulesStrings>
-  
+  <SparkSlaveRebellion.logRulesInitiator.rulesStrings>&lt;li&gt;r_logentry-&gt;[INITIATOR_nameDef] sugeriu que fizessem uma pausa para ele.&lt;/li&gt;\n&lt;li&gt;r_logentry-&gt;[INITIATOR_nameDef] incentivou [RECIPIENT_nameDef] a recuperar a liberdade [RECIPIENT_possessive].&lt;/li&gt;\n&lt;li&gt;r_logentry-&gt;[INITIATOR_nameDef] falou de terminar sua escravidão e fazer uma pausa para ele.&lt;/li&gt;\n&lt;li&gt;r_logentry-&gt;[INITIATOR_nameDef] falou de uma vida além da servidão e incentivou [RECIPIENT_nameDef] a escapar.&lt;/li&gt;\n&lt;li&gt;r_logentry-&gt;[INITIATOR_nameDef] sussurrou que a segurança era lax e agora seria um bom momento para escapar.&lt;/li&gt;\n</SparkSlaveRebellion.logRulesInitiator.rulesStrings>
   <!-- EN: suppress -->
-  <Suppress.label>Unterdrückung</Suppress.label>
+  <Suppress.label>supressão</Suppress.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] there would be punishments for rebellion.</li>
     <li>r_logentry->[INITIATOR_nameDef] warned [RECIPIENT_nameDef] that disobedience would be punished.</li>
     <li>r_logentry->[INITIATOR_nameDef] cautioned [RECIPIENT_nameDef] against infractions of any kind.</li>
     <li>r_logentry->[INITIATOR_nameDef] suggested that [RECIPIENT_nameDef] follow orders and not ask questions.</li>
   -->
-  <Suppress.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] sagte [RECIPIENT_nameDef], dass Rebellion Strafen nach sich ziehen würde.</li>
-    <li>r_logentry->[INITIATOR_nameDef] warnte [RECIPIENT_nameDef], dass Ungehorsam bestraft werden würde.</li>
-    <li>r_logentry->[INITIATOR_nameDef] warnte [RECIPIENT_nameDef] vor Verstößen jeglicher Art.</li>
-    <li>r_logentry->[INITIATOR_nameDef] schlug [RECIPIENT_nameDef] vor, Befehle zu befolgen und keine Fragen zu stellen.</li>
-  </Suppress.logRulesInitiator.rulesStrings>
-  
+  <Suppress.logRulesInitiator.rulesStrings>&lt;li&gt;r_logentry-&gt;[INITIATOR_nameDef] disse [RECIPIENT_nameDef] haveria castigos por rebelião.&lt;/li&gt;\n&lt;li&gt;r_logentry-&gt;[INITIATOR_nameDef] alertou [RECIPIENT_nameDef] que a desobediência seria punida.&lt;/li&gt;\n&lt;li&gt;r_logentry-&gt;[INITIATOR_nameDef] advertiu [RECIPIENT_nameDef] contra infrações de qualquer tipo.&lt;/li&gt;\n&lt;li&gt;r_logentry-&gt;[INITIATOR_nameDef] sugeriu que [RECIPIENT_nameDef] siga ordens e não faça perguntas.&lt;/li&gt;\n</Suppress.logRulesInitiator.rulesStrings>
 </LanguageData>

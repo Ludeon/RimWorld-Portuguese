@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>r_roleName->creaturizer</li>
     <li>r_roleName->animalor</li>
@@ -15,19 +14,7 @@
     <li>secondPart(p=4)->kin</li>
     <li>secondPart(p=4)->touch</li>
   -->
-  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings>
-    <li>r_roleName->Kreaturisator</li>
-    <li>r_roleName->Animalor</li>
-    <li>firstPart->Pelz</li>
-    <li>firstPart->Pfoten</li>
-    <li>firstPart->Huf</li>
-    <li>firstPart->Schweif</li>
-    <li>firstPart->Schnurrhaar</li>
-    <li>firstPart->Reißzahn</li>
-    <li>firstPart->Wild</li>
-    <li>firstPart->Schnauzen</li>
-  </NamerRoleAnimalsSpecialist.rulePack.rulesStrings>
-  
+  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings>&lt;li&gt;r_roleName-&gt;creaturizer&lt;/li&gt;\n&lt;li&gt;r_roleName-&gt;animalor&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;fur&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;paw&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;hoof&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;tail&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;whisker&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;fang&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;feral&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;snout&lt;/li&gt;\n&lt;li&gt;secondPart(p=4)-&gt;kin&lt;/li&gt;\n&lt;li&gt;secondPart(p=4)-&gt;touch&lt;/li&gt;\n</NamerRoleAnimalsSpecialist.rulePack.rulesStrings>
   <!-- EN:
     <li>r_roleName->berserker</li>
     <li>firstPart->slash</li>
@@ -44,22 +31,7 @@
     <li>firstPart->smash</li>
     <li>firstPart->crush</li>
   -->
-  <NamerRoleBrawler.rulePack.rulesStrings>
-    <li>r_roleName->Berserker</li>
-    <li>firstPart->Schlitz</li>
-    <li>firstPart->Faust</li>
-    <li>firstPart->Quetsch</li>
-    <li>firstPart->Klingen</li>
-    <li>firstPart->Kampf</li>
-    <li>firstPart->Knöchel</li>
-    <li>firstPart->Speer</li>
-    <li>firstPart->Schwert</li>
-    <li>firstPart->Keulen</li>
-    <li>firstPart->Schnitt</li>
-    <li>firstPart->Schmetter</li>
-    <li>firstPart->Stampf</li>
-  </NamerRoleBrawler.rulePack.rulesStrings>
-  
+  <NamerRoleBrawler.rulePack.rulesStrings>&lt;li&gt;r_roleName-&gt;berserker&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;slash&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;fist&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;bruise&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;blade&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;brawl&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;knuckle&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;spear&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;sword&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;club&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;edge&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;cut&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;smash&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;crush&lt;/li&gt;\n</NamerRoleBrawler.rulePack.rulesStrings>
   <!-- EN:
     <li>firstPart->health</li>
     <li>firstPart->heal</li>
@@ -70,18 +42,7 @@
     <li>firstPart->surgo</li>
     <li>firstPart->clinic</li>
   -->
-  <NamerRoleMedicalSpecialist.rulePack.rulesStrings>
-    <li>r_roleName->[firstPart][secondPart]</li>
-    <li>firstPart->Lebens</li>
-    <li>firstPart->Heilungs</li>
-    <li>firstPart->Herz</li>
-    <li>firstPart->Medi</li>
-    <li>firstPart->Skalpel</li>
-    <li>firstPart->Sanito</li>
-    <li>firstPart->Chiro</li>
-    <li>firstPart->Klinik</li>
-  </NamerRoleMedicalSpecialist.rulePack.rulesStrings>
-  
+  <NamerRoleMedicalSpecialist.rulePack.rulesStrings>&lt;li&gt;firstPart-&gt;health&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;heal&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;heart&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;medi&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;scalpel&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;sanito&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;surgo&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;clinic&lt;/li&gt;\n</NamerRoleMedicalSpecialist.rulePack.rulesStrings>
   <!-- EN:
     <li>r_roleName->spelunker</li>
     <li>firstPart->mine</li>
@@ -98,22 +59,7 @@
     <li>firstPart->tunnel</li>
     <li>firstPart->crack</li>
   -->
-  <NamerRoleMiner.rulePack.rulesStrings>
-    <li>r_roleName->Höhlenforscher</li>
-    <li>firstPart->Minen</li>
-    <li>firstPart->Bergbau</li>
-    <li>firstPart->Tiefen</li>
-    <li>firstPart->Felsen</li>
-    <li>firstPart->Höhlen</li>
-    <li>firstPart->Berg</li>
-    <li>firstPart->Bohr</li>
-    <li>firstPart->Stein</li>
-    <li>firstPart->Hügel</li>
-    <li>firstPart->Loch</li>
-    <li>firstPart->Tunnel</li>
-    <li>firstPart->Spalten</li>
-  </NamerRoleMiner.rulePack.rulesStrings>
-  
+  <NamerRoleMiner.rulePack.rulesStrings>&lt;li&gt;r_roleName-&gt;spelunker&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;mine&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;deep&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;depth&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;rock&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;cave&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;pick&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;drill&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;under&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;stone&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;hill&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;hole&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;tunnel&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;crack&lt;/li&gt;\n</NamerRoleMiner.rulePack.rulesStrings>
   <!-- EN:
     <li>r_roleName(p=4)->[memeMoralist]</li>
     <li>r_roleName(p=2)->[memeAdjective] [memeMoralist]</li>
@@ -124,21 +70,7 @@
     <li>r_roleName->[chosenAdjective] [memeMoralist]</li>
     <li>r_roleName->[keyDeity]'s [memeMoralist]</li>
   -->
-  <NamerRoleMoralist.rulePack.rulesStrings>
-    <li>r_roleName(p=4)->[memeMoralist]</li>
-    <li>r_roleName(p=2)->[memeAdjective]er [memeMoralist]</li>
-    <li>r_roleName->[memeMoralist] [chosenTheme]</li>
-    <li>r_roleName->[memeMoralist] von [keyDeity]</li>
-    <li>r_roleName->[memeMoralist] [memeConceptGenDef]</li>
-    <li>r_roleName->[memeMoralist] {replace: des [chosenIdeoName]; "des |M|"-"des "; "des |F|"-"der "; "des |N|"-"des "}</li>
-    <li>r_roleName->[chosenAdjective]er [memeMoralist]</li>
-    <li>r_roleName->{replace: [keyDeity]'s; "s's"-"s'"; "ß's"-"ß'"; "z's"-"z'"; "x's"-"x'"; "ce's"-"ce'"; "'s"-"s"} [memeMoralist]</li>
-    <!-- gender-specific -->
-    <li>memeConceptGenDef->des [memeConceptMasGen]</li>
-    <li>memeConceptGenDef->der [memeConceptFemGen]</li>
-    <li>memeConceptGenDef->des [memeConceptNeuGen]</li>
-  </NamerRoleMoralist.rulePack.rulesStrings>
-  
+  <NamerRoleMoralist.rulePack.rulesStrings>&lt;li&gt;r_roleName(p=4)-&gt;[memoralista]&lt;/li&gt;\n&lt;li&gt;r_roleName(p=2)-&gt;[memeAdjective] [mememeMoralist]&lt;/li&gt;\n&lt;li&gt;r_roleName-&gt;[mememoralista] de [chosenTheme]&lt;/li&gt;\n&lt;li&gt;r_roleName-&gt;[mememoralista] de [keyDeity]&lt;/li&gt;\n&lt;li&gt;r_roleName-&gt;[mememoralista] de [memeConcept]&lt;/li&gt;\n&lt;li&gt;r_roleName-&gt;[mememoralista] de [chosenIdeoName]&lt;/li&gt;\n&lt;li&gt;r_roleName-&gt;[chosenAdjective] [mememoralista]&lt;/li&gt;\n&lt;li&gt;r_roleName-&gt;[keyDeity]'s [memeMoralist]&lt;/li&gt;\n</NamerRoleMoralist.rulePack.rulesStrings>
   <!-- EN:
     <li>r_roleName->manufactor</li>
     <li>r_roleName->handyman</li>
@@ -149,17 +81,7 @@
     <li>firstPart->manu</li>
     <li>firstPart->make</li>
   -->
-  <NamerRoleProductionSpecialist.rulePack.rulesStrings>
-    <li>r_roleName->Produzent</li>
-    <li>r_roleName->Handwerker</li>
-    <li>r_roleName->Macher</li>
-    <li>firstPart->Bastler</li>
-    <li>firstPart->Handwerks</li>
-    <li>firstPart->Bau</li>
-    <li>firstPart->Fabrik</li>
-    <li>firstPart->Fertigungs</li>
-  </NamerRoleProductionSpecialist.rulePack.rulesStrings>
-  
+  <NamerRoleProductionSpecialist.rulePack.rulesStrings>&lt;li&gt;r_roleName-&gt;manufactor&lt;/li&gt;\n&lt;li&gt;r_roleName-&gt;handyman&lt;/li&gt;\n&lt;li&gt;r_roleName-&gt;maker&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;make&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;craft&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;build&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;manu&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;make&lt;/li&gt;\n</NamerRoleProductionSpecialist.rulePack.rulesStrings>
   <!-- EN:
     <li>r_roleName->highmind</li>
     <li>r_roleName->cogitor</li>
@@ -172,19 +94,7 @@
     <li>firstPart->cogito</li>
     <li>firstPart->idea</li>
   -->
-  <NamerRoleResearcher.rulePack.rulesStrings>
-    <li>r_roleName->Intelligenzbestie</li>
-    <li>r_roleName->Cogitor</li>
-    <li>r_roleName->Denker</li>
-    <li>r_roleName->Lerner</li>
-    <li>firstPart->Verstands</li>
-    <li>firstPart->Gedanken</li>
-    <li>firstPart->Fokus</li>
-    <li>firstPart->Neuro</li>
-    <li>firstPart->Cogito</li>
-    <li>firstPart->Ideen</li>
-  </NamerRoleResearcher.rulePack.rulesStrings>
-  
+  <NamerRoleResearcher.rulePack.rulesStrings>&lt;li&gt;r_roleName-&gt;highmind&lt;/li&gt;\n&lt;li&gt;r_roleName-&gt;cogitor&lt;/li&gt;\n&lt;li&gt;r_roleName-&gt;thinker&lt;/li&gt;\n&lt;li&gt;r_roleName-&gt;learner&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;mind&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;thought&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;focus&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;neuro&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;cogito&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;idea&lt;/li&gt;\n</NamerRoleResearcher.rulePack.rulesStrings>
   <!-- EN:
     <li>firstPart->gun</li>
     <li>firstPart->shot</li>
@@ -197,17 +107,7 @@
     <li>firstPart->shoot</li>
     <li>secondPart(p=4)->slinger</li>
   -->
-  <NamerRoleShooter.rulePack.rulesStrings>
-    <li>firstPart->Gewehr</li>
-    <li>firstPart->Schützen</li>
-    <li>firstPart->Patronen</li>
-    <li>firstPart->Geschoss</li>
-    <li>firstPart->Ziel</li>
-    <li>firstPart->Scharfschützen</li>
-    <li>firstPart->Genauigkeits</li>
-    <li>firstPart->Schieß</li>
-  </NamerRoleShooter.rulePack.rulesStrings>
-  
+  <NamerRoleShooter.rulePack.rulesStrings>&lt;li&gt;firstPart-&gt;gun&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;shot&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;trigger&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;bullet&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;shell&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;aim&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;snipe&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;point&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;shoot&lt;/li&gt;\n&lt;li&gt;secondPart(p=4)-&gt;slinger&lt;/li&gt;\n</NamerRoleShooter.rulePack.rulesStrings>
   <!-- EN:
     <li>r_roleName->fertilizer</li>
     <li>firstPart->leaf</li>
@@ -225,24 +125,7 @@
     <li>firstPart->soil</li>
     <li>firstPart->root</li>
   -->
-  <NamerRoleSower.rulePack.rulesStrings>
-    <li>r_roleName->Fertilisator</li>
-    <li>firstPart->Blatt</li>
-    <li>firstPart->Pflanzen</li>
-    <li>firstPart->Wald</li>
-    <li>firstPart->Sprossen</li>
-    <li>firstPart->Garten</li>
-    <li>firstPart->Flora</li>
-    <li>firstPart->Kräuter</li>
-    <li>firstPart->Ernte</li>
-    <li>firstPart->Farm</li>
-    <li>firstPart->Land</li>
-    <li>firstPart->Erde</li>
-    <li>firstPart->Saatgut</li>
-    <li>firstPart->Boden</li>
-    <li>firstPart->Wurzel</li>
-  </NamerRoleSower.rulePack.rulesStrings>
-  
+  <NamerRoleSower.rulePack.rulesStrings>&lt;li&gt;r_roleName-&gt;fertilizador&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;leaf&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;plant&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;green&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;sprout&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;garden&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;flora&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;herb&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;crop&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;farm&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;land&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;dirt&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;seed&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;soil&lt;/li&gt;\n&lt;li&gt;firstPart-&gt;root&lt;/li&gt;\n</NamerRoleSower.rulePack.rulesStrings>
   <!-- EN:
     <li>r_roleName(p=7)->[firstPart][secondPart]</li>
     <li>secondPart->master</li>
@@ -270,28 +153,5 @@
     <li>secondPart->izer</li>
     <li>secondPart->iner</li>
   -->
-  <NamerRoleSpecialistUtility.rulePack.rulesStrings>
-    <li>r_roleName(p=7)->[firstPart][secondPart]</li>
-    <li>secondPart->meister</li>
-    <li>secondPart->krat</li>
-    <li>secondPart->experte</li>
-    <li>secondPart->profi</li>
-    <li>secondPart->auge</li>
-    <li>secondPart->hand</li>
-    <li>secondPart->funktionär</li>
-    <li>secondPart->halter</li>
-    <li>secondPart->bringer</li>
-    <li>secondPart->sprecher</li>
-    <li>secondPart->weiser</li>
-    <li>secondPart->freund</li>
-    <li>secondPart->nutzer</li>
-    <li>secondPart->perte</li>
-    <li>secondPart->itor</li>
-    <li>secondPart->inor</li>
-    <li>secondPart->alor</li>
-    <li>secondPart->or</li>
-    <li>secondPart->ierer</li>
-    <li>secondPart->iner</li>
-  </NamerRoleSpecialistUtility.rulePack.rulesStrings>
-  
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings>&lt;li&gt;r_roleName(p=7)-&gt;[firstPart][secondPart]&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;master&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;crat&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;flame&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;mind&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;head&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;eye&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;hand&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;func&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;brain&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;holder&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;bringer&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;talker&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;speaker&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;knower&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;lover&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;user&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;one&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;pert&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;itor&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;inor&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;alor&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;or&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;izer&lt;/li&gt;\n&lt;li&gt;secondPart-&gt;iner&lt;/li&gt;\n</NamerRoleSpecialistUtility.rulePack.rulesStrings>
 </LanguageData>

@@ -1,8 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: attended concert -->
-  <AttendedConcert.label>einem Konzert beigewohnt</AttendedConcert.label>
+  <AttendedConcert.label>concerto frequentado</AttendedConcert.label>
   <!-- EN:
     <li>tale_noun->[ATTENDER_nameDef] attending [ORGANIZER_nameDef]'s concert</li>
     <li>tale_noun->[ATTENDER_nameDef] listening to [ORGANIZER_nameDef]'s performance</li>
@@ -14,23 +13,9 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s dance along.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s listen attentively.</li>
   -->
-  <AttendedConcert.rulePack.rulesStrings>
-    <li>tale_noun->[ATTENDER_nameDef] [ORGANIZER_nameDef_s] Konzert beiwohnte</li>
-    <li>tale_noun->[ATTENDER_nameDef] [ORGANIZER_nameDef_s] Auftritt zuhörte</li>
-    <li>image->[ATTENDER_nameFullIndefDat], wie [ATTENDER_pronoun] ruhig zuhört [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFullIndefDat], wie [ATTENDER_pronoun] den Auftritt von [ORGANIZER_nameFullIndefDat] genießt [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFullIndefDat], wie [ATTENDER_pronoun] zu der Musik wippt [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFullIndefDat], wie [ATTENDER_pronoun] sich in der Musik verliert [circumstance_group]</li>
-    <li>circumstance_phrase->, während [ATTENDER_pronoun] klatscht</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJobs] tanzen mit.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animals] hören aufmerksam zu.</li>
-    <li>ATTENDER_nameFullIndefDat->{replace: [ATTENDER_nameFull]; ">ein "-">einem "; ">eine "-">einer "}</li>
-    <li>ORGANIZER_nameDef_s->{replace: [ORGANIZER_label]s; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"}</li>
-    <li>ORGANIZER_nameFullIndefDat->{replace: [ORGANIZER_nameFull]; ">ein "-">einem "; ">eine "-">einer "}</li>
-  </AttendedConcert.rulePack.rulesStrings>
-  
+  <AttendedConcert.rulePack.rulesStrings>&lt;li&gt;tale_noun-&gt;[ATTENDER_nameDef] participando [ORGANIZER_nameDef] do concerto&lt;/li&gt;\n&lt;li&gt;tale_noun-&gt;[ATTENDER_nameDef] ouvindo [ORGANIZER_nameDef] o desempenho&lt;/li&gt;\n&lt;li&gt;image-&gt;[ATTENDER_nameFull] escuta silenciosamente, [circumstance_group]&lt;/li&gt;\n&lt;li&gt;image-&gt;[ATTENDER_nameFull] aproveitando o desempenho [ORGANIZER_nameFull] [circumstance_group]&lt;/li&gt;\n&lt;li&gt;image-&gt;[ATTENDER_nameFull] balançando para a música [circumstance_group]&lt;/li&gt;\n&lt;li&gt;image-&gt;[ATTENDER_nameFull] absorvido no som [circumstance_group]&lt;/li&gt;\n&lt;li&gt;circumstance_phrase-&gt; enquanto clapping&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; [Quantity_adjphrase] [PersonJob]s dance along.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; [Quantity_adjphrase] [Animal]s ouvir atentamente.&lt;/li&gt;\n</AttendedConcert.rulePack.rulesStrings>
   <!-- EN: held concert -->
-  <HeldConcert.label>Konzert abgehalten</HeldConcert.label>
+  <HeldConcert.label>concerto</HeldConcert.label>
   <!-- EN:
     <li>tale_noun->[ORGANIZER_nameDef] performing a concert</li>
     <li>image->[ORGANIZER_nameFull] playing their signature song [circumstance_group]</li>
@@ -41,18 +26,5 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s listen nearby.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s listen nearby.</li>
   -->
-  <HeldConcert.rulePack.rulesStrings>
-    <li>tale_noun->[ORGANIZER_nameDef] ein Konzert abhielt</li>
-    <li>image->[ORGANIZER_nameFullIndefDat], wie [ORGANIZER_pronoun] [circumstance_group] [ORGANIZER_possessive] berühmtes Lied spielt</li>
-    <li>image->[ORGANIZER_nameFullIndefDat], wie [ORGANIZER_pronoun] die Menge zum Mitsingen einlädt</li>
-    <li>image->[ORGANIZER_nameFullIndefDat], wie [ORGANIZER_pronoun] ein inspirierendes Lied spielt</li>
-    <li>image->[ORGANIZER_nameFullIndefDat], wie [ORGANIZER_pronoun] [circumstance_group] ein kompliziertes Stück aufführt</li>
-    <li>circumstance_phrase->konzentriert</li>
-    <li>circumstance_phrase->euphorisch</li>
-    <li>circumstance_phrase->leidenschaftlich</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJobs] verfolgen gebannt den Auftritt.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animals] hören aufmerksam zu.</li>
-    <li>ORGANIZER_nameFullIndefDat->{replace: [ORGANIZER_nameFull]; ">ein "-">einem "; ">eine "-">einer "}</li>
-  </HeldConcert.rulePack.rulesStrings>
-  
+  <HeldConcert.rulePack.rulesStrings>&lt;li&gt;tale_noun-&gt;[ORGANIZER_nameDef] realizando um concerto&lt;/li&gt;\n&lt;li&gt;image-&gt;[ORGANIZER_nameFull] tocando sua canção de assinatura [circumstance_group]&lt;/li&gt;\n&lt;li&gt;image-&gt;[ORGANIZER_nameFull] convidando a multidão a cantar ao longo de&lt;/li&gt;\n&lt;li&gt;image-&gt;[ORGANIZER_nameFull] tocando uma música inspiradora&lt;/li&gt;\n&lt;li&gt;image-&gt;[ORGANIZER_nameFull] executando uma peça difícil [circumstance_group]&lt;/li&gt;\n&lt;li&gt;circumstance_phrase-&gt; com uma expressão intensa&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; [Quantity_adjphrase] [PersonJob]s ouvir nas proximidades.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; [Quantity_adjphrase] [Animal]s ouvir nas proximidades.&lt;/li&gt;\n</HeldConcert.rulePack.rulesStrings>
 </LanguageData>

@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>sanguophagesArriveLetterLabel->Sanguophages arrived</li>
     <li>sanguophagesArriveLetterText->The [sanguophageCount] sanguophages are arriving at [map_definite] from different directions. They will meet and carry out their discussion in the colony.</li>
@@ -9,26 +8,14 @@
     <li>raidArrivedLetterLabel->Sanguophage hunters</li>
     <li>raidArrivedLetterText->A group of sanguophage hunters from [enemyFaction_name] are approaching!\n\nThey will attack the meeting sanguophages as well as those who hosted them.</li>
   -->
-  <SanguophageMeetingHost.questContentRules.rulesStrings>
-    <li>sanguophagesArriveLetterLabel->Sanguophagen eingetroffen</li>
-    <li>sanguophagesArriveLetterText->Die [sanguophageCount] Sanguophagen nähern sich [map_label] aus verschiedenen Richtungen, um dort ihr Treffen abzuhalten.</li>
-    <li>successLetterLabel->Treffen beendet</li>
-    <li>successLetterText->Die Sanguophagen haben ihr Treffen beendet und werden dir nun deine Belohnung geben.</li>
-    <li>raidArrivedLetterLabel->Sanguophagenjäger</li>
-    <li>raidArrivedLetterText->Mehrere Sanguophagenjäger von der Fraktion [enemyFaction_name] sind im Anmarsch!\n\nSie werden sowohl die anwesenden Sanguophagen als auch die Gastgeber angreifen.</li>
-  </SanguophageMeetingHost.questContentRules.rulesStrings>
+  <SanguophageMeetingHost.questContentRules.rulesStrings>&lt;li&gt;sanguophagesArriveLetterLabel-&gt;Sanguophages chegou&lt;/li&gt;\n&lt;li&gt;sanguophagesArriveLetterText-&gt; Os sanguophages [sanguophageCount] estão chegando em [map_definite] de direções diferentes. Eles vão encontrar e realizar sua discussão na colônia.&lt;/li&gt;\n&lt;li&gt;successLetterLabel-&gt;Meeting complete&lt;/li&gt;\n&lt;li&gt;sucessoCarta Texto-&gt; Os sanguophages terminaram sua reunião e agora lhe dará sua recompensa.&lt;/li&gt;\n&lt;li&gt;raidArrivedLetterLabel-&gt; Caçadores de Sanguophage&lt;/li&gt;\n&lt;li&gt;raidArrivedLetterText-&gt; Um grupo de caçadores de sanguophage de [enemyFaction_name] estão se aproximando!\n\nEles vão atacar os sanguophages reunião, bem como aqueles que os acolheram.&lt;/li&gt;\n</SanguophageMeetingHost.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->A sanguophage named [asker_nameDef] is looking for a safe place to meet with [sanguophageCountMinusOne] other [sanguophageSingOrPlural] where they won't be tracked. Their leader [asker_nameDef] is asking for you to host the meeting at [map_definite].\n\nIf you accept, [sanguophageCount] sanguophages will arrive at [map_definite] from different directions. They will spend several hours discussing their own secret issues before departing. They promise to give you your reward before they leave.\n\nYou may betray the sanguophages and attack them. Downed sanguophages can be forced to turn one of your own colonists into a sanguophage.\n\n[sanguophageInfo]</li>
     <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->sanguophage</li>
     <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->sanguophages</li>
     <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
   -->
-  <SanguophageMeetingHost.questDescriptionRules.rulesStrings>
-    <li>questDescription->{asker_gender ? Ein [asker_kind] : Eine [asker_kind]} namens [asker_nameDef] sucht einen sicheren Ort, um sich heimlich mit [sanguophageSingOrPlural] zu treffen. [asker_nameDef] ist {asker_gender ? der Anführer : die Anführerin} und möchte, dass das Treffen in [map_label] stattfindet.\n\nWenn du zusagst, werden [sanguophageCount] Sanguophagen aus verschiedenen Richtungen in [map_label] eintreffen. Sie werden mehrere Stunden damit verbringen, ihre geheimen Angelegenheiten zu besprechen, bevor sie wieder gehen. Deine Belohnung bekommst du vor ihrer Abreise.\n\nDu kannst die Sanguophagen verraten und angreifen. Am Boden liegende Sanguophagen können gezwungen werden, einen deiner Kolonisten zu einem Sanguophagen zu machen.\n\n[sanguophageInfo]</li>
-    <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->einem anderen Sanguophagen</li>
-    <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->[sanguophageCountMinusOne] anderen Sanguophagen</li>
-    <li>sanguophageInfo->(*Gray)Sanguophagen sind alterslose, unsterbliche Übermenschen, die von Architen im Blutkreislauf angetrieben werden. Sie sind wunderschön und hochintelligent. Sie können jede Wunde heilen, werden nie krank und sind immun gegen Gifte. Im Kampf können sie tödliche Stacheln abfeuern und verletzte Verbündete heilen. Das hat allerdings einen hohen Preis: Sanguophagen müssen zum einen das lebenswichtige Hämogen konsumieren, welches aus menschlichem Blut gewonnen wird, und zum anderen ihren Körper regelmäßig für längere Zeit in den sogenannten Todesschlaf versetzen. Sie sind äußerst feueranfällig und werden durch UV-Licht verlangsamt.(/Gray)</li>
-  </SanguophageMeetingHost.questDescriptionRules.rulesStrings>
+  <SanguophageMeetingHost.questDescriptionRules.rulesStrings>&lt;li&gt;questDescription-&gt; Um sanguophage chamado [asker_nameDef] está procurando um lugar seguro para se encontrar com [sanguophageCountMinusOne] outro [sanguophageSingOrPlural] onde eles não serão rastreados. Seu líder [asker_nameDef] está pedindo para você sediar a reunião em [map_definite].\n\nSe você aceitar, [sanguophageCount] sanguophages chegará a [map_definite] de diferentes direções. Eles passarão várias horas discutindo suas próprias questões secretas antes de partir. Prometem dar-lhe a sua recompensa antes de partirem.\n\nVocê pode trair os sanguófagos e atacá-los. Os sanguophages derrubados podem ser forçados a transformar um de seus próprios colonos em um sanguophage.\n\n[sanguophageInfo]&lt;/li&gt;\n&lt;li&gt;sanguophageSingOrPlural(sanguophageCountMinusOne=1)-&gt;sanguophage&lt;/li&gt;\n&lt;li&gt;sanguophageSingOrPlural(sanguophageCountMinusOne&gt;=2)-&gt;sanguophages&lt;/li&gt;\n&lt;li&gt;sanguophageInfo-&gt;(*Gray)Sobre sanguophages: Sanguophages são super-humanos sem idade, sem morte, alimentados por arqueiros criados pela arquiteta na corrente sanguínea. Eles são bonitos e extremamente inteligentes. Eles podem curar qualquer lesão, e nunca sofrem de doença ou veneno. Em combate, eles podem lançar espinhas mortais e curar amigos feridos. O preço é que os sanguófagos devem consumir hemógeno derivado do sangue humano para sobreviver, e eles devem periodicamente morrer por longos períodos. Eles são facilmente destruídos pelo fogo, e retardados pela luz UV.(/Gray)&lt;/li&gt;\n</SanguophageMeetingHost.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[meetAdjective] [meetNoun]</li>
     <li>meetAdjective->sanguophage</li>
@@ -50,35 +37,5 @@
     <li>meetNoun->congress</li>
     <li>meetNoun->parley</li>
   -->
-  <SanguophageMeetingHost.questNameRules.rulesStrings>
-    <li>questName(p=0.5)->[meetAdjective]e [meetNoun]</li>
-    <li>questName(p=0.7)->[meetNoun2][meetNounLow]</li>
-    <li>meetAdjective->sanguophagisch</li>
-    <li>meetNoun2->Sanguophagen</li>
-    <li>meetAdjective->blutdurstig</li>
-    <li>meetNoun2->Blut</li>
-    <li>meetAdjective->blutig</li>
-    <li>meetNoun2->Schatten</li>
-    <li>meetAdjective->dunkl</li>
-    <li>meetAdjective->blutrot</li>
-    <li>meetAdjective->rot</li>
-    <li>meetAdjective->unheilig</li>
-    <li>meetNoun->Begegnung</li>
-    <li>meetNoun->Versammlung</li>
-    <li>meetNoun->Zusammenkunft</li>
-    <li>meetNoun->Besprechung</li>
-    <li>meetNoun->Konferenz</li>
-    <li>meetNoun->Tagung</li>
-    <li>meetNoun->Unterredung</li>
-    <li>meetNoun->Sitzung</li>
-    <li>meetNounLow->begegnung</li>
-    <li>meetNounLow->versammlung</li>
-    <li>meetNounLow->zusammenkunft</li>
-    <li>meetNounLow->besprechung</li>
-    <li>meetNounLow->konferenz</li>
-    <li>meetNounLow->tagung</li>
-    <li>meetNounLow->unterredung</li>
-    <li>meetNounLow->sitzung</li>
-  </SanguophageMeetingHost.questNameRules.rulesStrings>
-  
+  <SanguophageMeetingHost.questNameRules.rulesStrings>&lt;li&gt;questNome-&gt;[meetAdjective] [meetNoun]&lt;/li&gt;\n&lt;li&gt;meetAdjective-&gt;sanguophage&lt;/li&gt;\n&lt;li&gt;meetAdjective-&gt;bloodthirsty&lt;/li&gt;\n&lt;li&gt;meetAdjective-&gt;blood&lt;/li&gt;\n&lt;li&gt;meetAdjetivo-&gt;shadow&lt;/li&gt;\n&lt;li&gt;meetAdjetivo-&gt;dark&lt;/li&gt;\n&lt;li&gt;meetAdjetivo-&gt;crimson&lt;/li&gt;\n&lt;li&gt;meetAdjective-&gt;red&lt;/li&gt;\n&lt;li&gt;meetAdjetivo-&gt;scab&lt;/li&gt;\n&lt;li&gt;meetAdjective-&gt;hemic&lt;/li&gt;\n&lt;li&gt;meetAdjetivo-&gt;sanguine&lt;/li&gt;\n&lt;li&gt;meetNoun-&gt;meeting&lt;/li&gt;\n&lt;li&gt;meetNoun-&gt;host&lt;/li&gt;\n&lt;li&gt;meetNoun-&gt;gathering&lt;/li&gt;\n&lt;li&gt;meetNoun-&gt;reunion&lt;/li&gt;\n&lt;li&gt;meetNoun-&gt;assembly&lt;/li&gt;\n&lt;li&gt;meetNoun-&gt;conclave&lt;/li&gt;\n&lt;li&gt;meetNoun-&gt;congress&lt;/li&gt;\n&lt;li&gt;meetNoun-&gt;parley&lt;/li&gt;\n</SanguophageMeetingHost.questNameRules.rulesStrings>
 </LanguageData>

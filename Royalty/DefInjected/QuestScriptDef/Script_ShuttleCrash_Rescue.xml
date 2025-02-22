@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.</li>
     <li>successLetterEndingCommon->You have succesfully completed the quest '[resolvedQuestName]'.</li>
@@ -25,39 +24,12 @@
     <li>shuttleDestroyedLetterLabel->Quest failed: [resolvedQuestName]</li>
     <li>shuttleDestroyedLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been destroyed. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
   -->
-  <ShuttleCrash_Rescue.questContentRules.rulesStrings>
-    <li>failLetterEndingCommon->Die Quest '[resolvedQuestName]' ist gescheitert.</li>
-    <li>successLetterEndingCommon->Du hast die Quest '[resolvedQuestName]' erfolgreich abgeschlossen.</li>
-    <li>goodwillSomeCiviliansLost->Es konnten nicht alle [pawnLabelPlural] der [asker_faction_pawnsPlural] gerettet werden. [goodwillNegativelyAffected]</li>
-    <li>goodwillAllCiviliansLost->Es konnte kein einziger [pawnLabel] der [asker_faction_pawnsPlural] gerettet werden. [goodwillNegativelyAffected]</li>
-    <li>goodwillNegativelyAffected->Dies wirkt sich negativ auf die Rufpunkte aus, die du von der Fraktion [asker_faction_name] erhalten wirst.</li>
-    <li>commanderLandingDesc->{asker_gender ? Kommandant : Kommandantin} [asker_nameDef], {asker_gender ? der : die} um die Landung [asker_possessive]es Shuttles in [map_label] gebeten hat</li>
-    <li>raidArrivedLetterLabel->Überfall: [enemyFaction_name]</li>
-    <li>raidArrivedLetterText->[enemyFaction_pawnsPlural] der Fraktion [enemyFaction_name] sind eingetroffen. Sie werden die [asker_faction_pawnsPlural] angreifen, die in [map_label] abgestürzt sind.\n\nVerteidige die [asker_faction_pawnsPlural], bis ihr Rettungsshuttle in {replace: [rescueShuttleAfterRaidDelay_duration]; "Tage"-"Tagen"; "Jahre"-"Jahren"} eintrifft.</li>
-    <li>rescueShuttleArrivedLetterLabel->Rettungsshuttle eingetroffen</li>
-    <li>rescueShuttleArrivedLetterText->Das Rettungsshuttle ist eingetroffen, um [pawnLabelSingleOrPlural] abzuholen. Sorge dafür, dass folgende Personen an Bord sind, bevor das Shuttle in {replace: [leaveDelay_duration]; "Tage"-"Tagen"; "Jahre"-"Jahren"} abhebt:\n\n[civilians]</li>
-    <li>questCompletedSuccessLetterLabel->Quest abgeschlossen: [resolvedQuestName]</li>
-    <li>questCompletedSuccessLetterText->[commanderLandingDesc], ist entkommen. [asker_pronoun] ist dankbar für die Hilfe, die [asker_pronoun] in [map_label] erhalten hat.\n\n[successLetterEndingCommon]</li>
-    <li>questCompletedCiviliansLostSuccessLetterLabel->Quest abgeschlossen: [resolvedQuestName]</li>
-    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], ist entkommen.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
-    <li>askerLostLetterLabel->Quest gescheitert: [resolvedQuestName]</li>
-    <li>askerLostLetterText->[commanderLandingDesc], war nicht an Bord, als das Shuttle abhob.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
-    <li>allLostLetterLabel->Quest gescheitert: [resolvedQuestName]</li>
-    <li>allLostLetterText->Das Rettungsshuttle für die abgestürzten [asker_faction_pawnsPlural] ist abgehoben, ohne dass sich jemand an Bord befand.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
-    <li>askerDiedLetterLabel->Quest gescheitert: [resolvedQuestName]</li>
-    <li>askerDiedLetterText->[commanderLandingDesc], ist gestorben.\n\n[failLetterEndingCommon]</li>
-    <li>shuttleDestroyedLetterLabel->Quest gescheitert: [resolvedQuestName]</li>
-    <li>shuttleDestroyedLetterText->Das Shuttle, das die abgestürzten [asker_faction_pawnsPlural] abholen sollte, wurde zerstört. Die [asker_faction_pawnsPlural] werden das Gebiet nun zu Fuß verlassen.\n\n[failLetterEndingCommon]</li>
-  </ShuttleCrash_Rescue.questContentRules.rulesStrings>
+  <ShuttleCrash_Rescue.questContentRules.rulesStrings>&lt;li&gt;failLetterEndingCommon-&gt; Você falhou a busca '[resolvedQuestName]'.&lt;/li&gt;\n&lt;li&gt;sucesso LetterEndingCommon-&gt; Você concluiu sucessivamente a busca '[resolvedQuestName]'.&lt;/li&gt;\n&lt;li&gt;goodwillSomeCiviliansLost-&gt; Nem todo o [asker_faction_pawnSingular] [pawnLabel] poderia ser resgatado. [boa vontade negativamente afetado]&lt;/li&gt;\n&lt;li&gt;goodwillAllCiviliansLost-&gt;None of the [asker_faction_pawnSingular] [pawnLabelPlural] poderia ser resgatado. [boa vontade negativamente afetado]&lt;/li&gt;\n&lt;li&gt; goodwillNegativelyAffected-&gt; Sua boa vontade com [asker_faction_name] foi negativamente afetada por cada [pawnLabel] esquerda.&lt;/li&gt;\n&lt;li&gt;commanderLandingDesc-&gt;[asker_nameDef], o comandante que pediu para pousar [asker_possessive] vaivém [map_definite]&lt;/li&gt;\n&lt;li&gt;raidArrivedLetterLabel-&gt;Raid: [enemyFaction_name]&lt;/li&gt;\n&lt;li&gt;raidArrivedLetterText-&gt;[enemyFaction_pawnsPlural] do [enemyFaction_name] chegaram. Eles vão atacar o [asker_faction_pawnsPlural] que caiu em [map_definite].\n\nDefenda o [asker_faction_pawnsPlural] até que seu vaivém de resgate chegue [rescueShuttleAfterRaidDelay_duration].&lt;/li&gt;\n&lt;li&gt;rescueShuttleArrivedLetterLabel-&gt; Transporte de resgate chegou &lt;/li&gt;\n&lt;li&gt;rescueShuttleArivedLetter Text-&gt; O vaivém de resgate chegou para recolher o [pawnLabelSingleOrPlural] que caiu aterrou. Certifique-se de ter essas pessoas no vaivém antes de sair em [leaveDelay_duration]:\n\n[civilians]&lt;/li&gt;\n&lt;li&gt;questCompletedSuccessLetterLabel-&gt; Quest concluída: [resolvedQuestName]&lt;/li&gt;\n&lt;li&gt;questCompletedSuccessLetterText-&gt;[commanderLandingDesc], escapou. [asker_pronoun] é grato pela ajuda [asker_pronoun] recebida em [map_definite].\n\n[sucesso LetterEndingCommon]&lt;/li&gt;\n&lt;li&gt;questCompletedCiviliansLostSuccessLetterLabel-&gt; Quest concluída: [resolvedQuestName]&lt;/li&gt;\n&lt;li&gt;questCompletedCiviliansLostSuccessLetterText-&gt;[commanderLandingDesc], escapou.\n\n[Bom trabalho]\n\n[sucesso LetterEndingCommon]&lt;/li&gt;\n&lt;li&gt;askerLostLetterLabel-&gt; Quest falhou: [resolvedQuestName]&lt;/li&gt;\n&lt;li&gt;askerLostLetterText-&gt;[commanderLandingDesc] não estava a bordo quando o vaivém partiu.\n\n[Bom trabalho]\n\n[failLetterEndingCommon]&lt;/li&gt;\n&lt;li&gt; allLostLetterLabel-&gt; Quest falhou: [resolvedQuestName]&lt;/li&gt;\n&lt;li&gt; allLostLetterText-&gt; O vaivém de resgate para o acidente [asker_faction_pawnsPlural] partiu sem ninguém a bordo.\n\n[boa vontade todos os cidadãos]\n\n[failLetterEndingCommon]&lt;/li&gt;\n&lt;li&gt;askerDiferiu LetterLabel-&gt; Quest falhou: [resolvedQuestName]&lt;/li&gt;\n&lt;li&gt;askerDiedLetterText-&gt;[commanderLandingDesc] morreu.\n\n[failLetterEndingCommon]&lt;/li&gt;\n&lt;li&gt;shuttleDestroyedLetterLabel-&gt; Quest falhou: [resolvedQuestName]&lt;/li&gt;\n&lt;li&gt;shuttleDestroyedLetterText-&gt; O vaivém enviado para recolher o acidente [asker_faction_pawnsPlural] foi destruído. O [asker_faction_pawnsPlural] partirá agora a pé.\n\n[failLetterEndingCommon]&lt;/li&gt;\n</ShuttleCrash_Rescue.questContentRules.rulesStrings>
   <!-- EN:
     <li>pawnLabel->civilian</li>
     <li>pawnLabelPlural->civilians</li>
   -->
-  <ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
-    <li>pawnLabel->Zivilist</li>
-    <li>pawnLabelAccDef->Zivilisten</li>
-    <li>pawnLabelPlural->Zivilisten</li>
-  </ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
+  <ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>&lt;li&gt;pawnLabel-&gt;civilian&lt;/li&gt;\n&lt;li&gt;pawnLabelPlural-&gt;civilians&lt;/li&gt;\n</ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
@@ -71,23 +43,7 @@
     <li>soldierCountKinds(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
     <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]</li>
   -->
-  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
-    <li>pawnLabelSingleOrPlural(civilians_count==1)->den abgestürzten [pawnLabelAccDef]</li>
-    <li>pawnLabelSingleOrPlural(civilians_count>=2)->die abgestürzten [pawnLabelPlural]</li>
-    <li>questDescription->Ein Shuttle der Fraktion [asker_faction_name] ist beschädigt und sucht einen sicheren Platz zum Landen. [asker_nameDef], {asker_gender ? der Kommandant : die Kommandantin} des Shuttles, ist der festen Überzeugung, diesen in [map_label] gefunden zu haben.\n\n[enemyFaction_pawnsPlural] der Fraktion [enemyFaction_name] werden den Absturzort des Shuttles angreifen und versuchen, die Insassen zu töten. Du musst sie verteidigen.\n\nIm Shuttle befinden sich [asker_nameDef][andOtherCivilians] und [soldiers_count] [Soldat]. {asker_gender ? Der Kommandant : Die Kommandantin} [andCivilians] [muss] gerettet werden, aber [der_Soldat_ist] entbehrlich.\n\nIn {replace: [rescueDelay_duration]; "Tage"-"Tagen"; "Jahre"-"Jahren"} wird ein Rettungsshuttle eintreffen, um die Überlebenden abzuholen. Du hast [leaveDelay_duration] Zeit, alle an Bord zu bringen.</li>
-    <li>andOtherCivilians(civilians_count==1)-></li>
-    <li>andOtherCivilians(civilians_count==2)->, ein weiterer [pawnLabel]</li>
-    <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] weitere [pawnLabelPlural]</li>
-    <li>andCivilians(civilians_count==1)-></li>
-    <li>andCivilians(civilians_count==2)->und der [pawnLabel]</li>
-    <li>andCivilians(civilians_count>=3)->und die [pawnLabelPlural]</li>
-    <li>muss(civilians_count==1)->muss</li>
-    <li>muss(civilians_count>=2)->müssen</li>
-    <li>Soldat(soldiers_count==1)->[soldiers0_kind]</li>
-    <li>Soldat(soldiers_count>=2)->[soldiers0_kindPlural]</li>
-    <li>der_Soldat_ist(soldiers_count==1)->der {lookup: [soldiers0_kind]; decline; 4} ist</li>
-    <li>der_Soldat_ist(soldiers_count>=2)->die {lookup: [soldiers0_kind]; plural; 5} sind</li>
-  </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>&lt;li&gt;pawnLabelSingleOrPlural(civilians_count=1)-&gt;[pawnLabel]&lt;/li&gt;\n&lt;li&gt;pawnLabelSingleOrPlural(civilians_count&gt;=2)-&gt;[pawnLabelPlural]&lt;/li&gt;\n&lt;li&gt;questDescription-&gt; Um vaivém de [asker_faction_name] tomou danos e está procurando um lugar para pousar. Seu comandante [asker_nameDef] quer aterrar em [map_definite].\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] atacará o local de transporte em uma tentativa de matar seus ocupantes. Tem de defendê-los.\n\nO vaivém contém [asker_nameDef][eOtherCivilians] e [soldierCountKinds]. O comandante deve ser resgatado, mas o [soldiers0_kindPlural] pode ser sacrificado.\n\nDepois de [rescueDelay_duration], um vaivém de resgate virá buscar os sobreviventes. Você precisará colocá-los todos a bordo dentro [leaveDelay_duration].&lt;/li&gt;\n&lt;li&gt; andOtherCivilians(civilians_count=1)-&gt;&lt;/li&gt;\n&lt;li&gt; andOtherCivilians(civilians_count=2)-&gt;, outro [pawnLabel],&lt;/li&gt;\n&lt;li&gt; andOtherCivilians(civilians_count&gt;=3)-&gt;, [civilianCountMinusOne] other [pawnLabelSingleOrPlural],&lt;/li&gt;\n&lt;li&gt; andCivilians(civilians_count=1)-&gt;&lt;/li&gt;\n&lt;li&gt;andCivilians(civilians_count=2)-&gt;and [pawnLabel]&lt;/li&gt;\n&lt;li&gt; andCivilians(civilians_count&gt;=3)-&gt;and [pawnLabelPlural]&lt;/li&gt;\n&lt;li&gt;soldierCountKinds(soldiers_count=1)-&gt;[soldiers_count] [soldiers0_kind]&lt;/li&gt;\n&lt;li&gt;soldierCountKinds(soldiers_count&gt;1)-&gt;[soldiers_count] [soldiers0_kindPlural]&lt;/li&gt;\n</ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
     <li>questName->[asker_faction_pawnSingular] [shuttle] [crash]</li>
@@ -109,27 +65,5 @@
     <li>landing->descent</li>
     <li>landing->approach</li>
   -->
-  <ShuttleCrash_Rescue.questNameRules.rulesStrings>
-    <li>questName(p=0.5)->[shuttleNeu][crash]</li>
-    <li>questName(p=0.5)->[shuttleMal][crash]</li>
-    <li>questName->[asker_faction_pawnsPlural][crash]</li>
-    <li>questName(p=0.5)->[damaged]es [shuttleNeu]</li>
-    <li>questName(p=0.5)->[damaged]er [shuttleMal]</li>
-    <li>questName(p=0.5)->[asker_nameDef_s] [damaged]es [shuttleNeu]</li>
-    <li>questName(p=0.5)->[asker_nameDef_s] [damaged]er [shuttleMal]</li>
-    <li>questName->Notlandung</li>
-    <li>questName->erzwungene Landung</li>
-    <li>questName->[asker_nameDef_s] Notlandung</li>
-    <li>questName->[asker_nameDef_s] erzwungene Landung</li>
-    <li>shuttleNeu->Shuttle</li>
-    <li>shuttleMal->Transporter</li>
-    <li>shuttleNeu->Schiff</li>
-    <li>crash->absturz</li>
-    <li>crash-> am Boden</li>
-    <li>damaged->beschädigt</li>
-    <li>damaged->kaputt</li>
-    <li>damaged->defekt</li>
-    <li>asker_nameDef_s->{replace: [asker_nameDef]s; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"}</li>
-  </ShuttleCrash_Rescue.questNameRules.rulesStrings>
-  
+  <ShuttleCrash_Rescue.questNameRules.rulesStrings>&lt;li&gt;questName-&gt;[shuttle] [crash]&lt;/li&gt;\n&lt;li&gt;questName-&gt;[asker_faction_pawnSingular] [shuttle] [crash]&lt;/li&gt;\n&lt;li&gt;questName-&gt;[danificado] [shuttle]&lt;/li&gt;\n&lt;li&gt;questName-&gt;[asker_nameDef] [danificado] [shuttle]&lt;/li&gt;\n&lt;li&gt;questName-&gt;[emergência] [landing]&lt;/li&gt;\n&lt;li&gt;questName-&gt;[asker_nameDef] [emergência] [terrando]&lt;/li&gt;\n&lt;li&gt;shuttle-&gt;shuttle&lt;/li&gt;\n&lt;li&gt;shuttle-&gt;transporter&lt;/li&gt;\n&lt;li&gt;shuttle-&gt;ship&lt;/li&gt;\n&lt;li&gt;crash-&gt;crash&lt;/li&gt;\n&lt;li&gt;crash-&gt;down&lt;/li&gt;\n&lt;li&gt;danificado -&gt;danificado &lt;/li&gt;\n&lt;li&gt;damaged-&gt;busted&lt;/li&gt;\n&lt;li&gt;danificado-&gt;failing&lt;/li&gt;\n&lt;li&gt;emergency-&gt;emergency&lt;/li&gt;emergency\n&lt;li&gt;emergency-&gt;forced&lt;/li&gt;\n&lt;li&gt;landing-&gt;landing&lt;/li&gt;landing\n&lt;li&gt;landing-&gt;descent&lt;/li&gt;\n&lt;li&gt;landing-&gt;approach&lt;/li&gt;\n</ShuttleCrash_Rescue.questNameRules.rulesStrings>
 </LanguageData>

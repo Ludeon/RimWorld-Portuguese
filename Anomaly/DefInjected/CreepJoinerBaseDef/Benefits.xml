@@ -1,54 +1,43 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: alchemist -->
-  <Alchemist.label>Alchemist</Alchemist.label>
+  <Alchemist.label>alquimista</Alchemist.label>
   <!-- EN: {PAWN_nameDef} claims an extensive knowledge of alchemical practice. {PAWN_pronoun} can, using unknown archotechnological influence, transmute steel into various valuable resources. -->
-  <Alchemist.letterExtra>{PAWN_nameDef} ist nach eigenen Angaben mit der Alchemie bestens vertraut. {PAWN_pronoun} kann durch unbekannte archotechnische Einflüsse Stahl in verschiedene wertvolle Ressourcen transmutieren.</Alchemist.letterExtra>
-  
+  <Alchemist.letterExtra>{PAWN_name Def} reivindica um extenso conhecimento da prática alquímica. {PAWN_pronoun} pode, usando influência arquitetônica desconhecida, aço transmutado em vários recursos valiosos.</Alchemist.letterExtra>
   <!-- EN: body mastery -->
-  <BodyMastery.label>Körperbeherrschung</BodyMastery.label>
+  <BodyMastery.label>mestre do corpo</BodyMastery.label>
   <!-- EN: {PAWN_nameDef}'s eyes are pure white. Using local folk knowledge, {PAWN_pronoun} has mastered {PAWN_possessive} metabolic and circadian rhythms. At least, that's what {PAWN_pronoun} claims. {PAWN_nameDef} never sleeps and doesn't need to eat, though in {PAWN_possessive} eyes you see a primal hunger. -->
-  <BodyMastery.letterExtra>{replace: {PAWN_nameDef}s; "s(/Name)s"-"s(/Name)'"; "ß(/Name)s"-"ß(/Name)'"; "z(/Name)s"-"z(/Name)'"; "x(/Name)s"-"x(/Name)'"; "ce(/Name)s"-"ce(/Name)'"} Augen sind vollkommen weiß. Einheimisches Wissen verhalf {PAWN_gender ? ihm : ihr}, {PAWN_possessive}en Stoffwechsel und Biorhythmus zu optimieren. Zumindest behauptet {PAWN_pronoun} das. {PAWN_nameDef} schläft nie und muss nicht essen, obwohl du in {PAWN_possessive}en Augen einen urzeitlichen Hunger erkennen kannst.</BodyMastery.letterExtra>
-  
+  <BodyMastery.letterExtra>{PAWN_name Os olhos são brancos puros. Usando o conhecimento popular local, {PAWN_pronoun} dominava os ritmos metabólicos e circadianos. Pelo menos, isso é o que afirma. {PAWN_nameDef} nunca dorme e não precisa comer, embora em {PAWN_possessive} olhos você vê uma fome primordial.</BodyMastery.letterExtra>
   <!-- EN: death refusal -->
-  <DeathRefusal.label>Todestrotz</DeathRefusal.label>
+  <DeathRefusal.label>recusa</DeathRefusal.label>
   <!-- EN: As the former subject of a cultist ritual, {PAWN_nameDef} has the ability to defy death. Black archotechnology courses throughout {PAWN_possessive} body, allowing {PAWN_objective} to self-resurrect. When {PAWN_pronoun} does, {PAWN_possessive} flesh rapidly reforms, replacing missing organs and healing wounds. The process is, however, imperfect. -->
-  <DeathRefusal.letterExtra>Als ehemaliges Versuchsobjekt eines Kultistenrituals hat {PAWN_nameDef} die Fähigkeit, dem Tod zu trotzen. {PAWN_possessive} Körper ist von schwarzer Archotechnologie durchdrungen, die es {PAWN_gender ? ihm : ihr} ermöglicht, sich selbst wiederzuerwecken. Wenn {PAWN_pronoun} dies tut, wird {PAWN_possessive} Fleisch schnell wiederhergestellt, wobei fehlende Organe ersetzt und Wunden geheilt werden – allerdings nicht ohne Nebenwirkungen.</DeathRefusal.letterExtra>
-  
+  <DeathRefusal.letterExtra>Como o antigo sujeito de um ritual cultista, {PAWN_nameDef} tem a capacidade de desafiar a morte. Cursos de arquitetura preta em todo o corpo {PAWN_possessive}, permitindo {PAWN_objective} auto-ressurreto. Quando {PAWN_pronoun} faz, {PAWN_possessive} carne rapidamente reformas, substituindo órgãos ausentes e feridas curativas. O processo é, no entanto, imperfeito.</DeathRefusal.letterExtra>
   <!-- EN: fleshcrafter -->
-  <Fleshcrafter.label>Fleischformer</Fleshcrafter.label>
+  <Fleshcrafter.label>artesanato de carne</Fleshcrafter.label>
   <!-- EN: {PAWN_nameDef} claims to be gifted with the dark art of animating dead flesh. {PAWN_pronoun} can turn corpses into hideous fleshbeasts. -->
-  <Fleshcrafter.letterExtra>{PAWN_nameDef} behauptet, mit der dunklen Gabe gesegnet zu sein, totes Fleisch wiederzubeleben. {PAWN_pronoun} kann Leichen in abscheuliche Fleischbestien verwandeln.</Fleshcrafter.letterExtra>
-  
+  <Fleshcrafter.letterExtra>{PAWN_name Def} afirma ser dotado com a arte escura de animar carne morta. {PAWN_pronoun} pode transformar cadáveres em horríveis couves.</Fleshcrafter.letterExtra>
   <!-- EN: joybringer -->
-  <Joybringer.label>Freudenbringer</Joybringer.label>
+  <Joybringer.label>júbilo</Joybringer.label>
   <!-- EN: {PAWN_nameDef} is a bringer of joy and serenity whose abilities go beyond mere charisma. {PAWN_pronoun} lifts spirits and inspires others by telling jokes and spreading blissful thoughts. -->
-  <Joybringer.letterExtra>{PAWN_nameDef} ist ein Überbringer von Freude und Gelassenheit, {PAWN_gender ? dessen : deren} Fähigkeiten über bloßes Charisma hinausgehen. {PAWN_pronoun} kann andere aufmuntern und inspirieren, indem {PAWN_pronoun} Witze erzählt und wohltuende Gedanken verbreitet.</Joybringer.letterExtra>
-  
+  <Joybringer.letterExtra>{PAWN_name Def} é um portador de alegria e serenidade cujas habilidades vão além do mero carisma. {PAWN_pronoun} levanta espíritos e inspira outros dizendo piadas e espalhando pensamentos bem-aventurados.</Joybringer.letterExtra>
   <!-- EN: occultist -->
-  <Occultist.label>Okkultist</Occultist.label>
+  <Occultist.label>ocultista</Occultist.label>
   <!-- EN: {PAWN_pronoun} is deeply knowledgeable of all things related to the void. {PAWN_pronoun} can study unnatural phenomena faster than others and will also teach others when {PAWN_pronoun} gets the chance. -->
-  <Occultist.letterExtra>{PAWN_pronoun} kennt sich bestens mit allen Dingen aus, die mit der Leere zu tun haben. {PAWN_pronoun} kann unnatürliche Phänomene schneller studieren und andere unterrichten, wenn {PAWN_pronoun} die Gelegenheit dazu bekommt.</Occultist.letterExtra>
-  
+  <Occultist.letterExtra>{PAWN_pronoun} é profundamente conhecedor de todas as coisas relacionadas ao vazio. {PAWN_pronoun} pode estudar fenômenos não naturais mais rápido do que outros e também ensinará outros quando {PAWN_pronoun} tem a chance.</Occultist.letterExtra>
   <!-- EN: perfect human -->
-  <PerfectHuman.label>perfekter Mensch</PerfectHuman.label>
+  <PerfectHuman.label>perfeito humano</PerfectHuman.label>
   <!-- EN: {PAWN_nameDef} is skilled in everything to an unnatural degree. Regardless of the subject, {PAWN_pronoun} has mastered it. In addition, {PAWN_possessive} work ethic is remarkable. {PAWN_pronoun} appears to be the perfect worker. -->
-  <PerfectHuman.letterExtra>{PAWN_nameDef} beherrscht alles in einem unnatürlichen Ausmaß. Ganz egal was, {PAWN_pronoun} kann es. Darüber hinaus hat {PAWN_pronoun} eine hervorragende Arbeitsmoral. {PAWN_pronoun} scheint {PAWN_gender ? der perfekte Arbeiter : die perfekte Arbeiterin} zu sein.</PerfectHuman.letterExtra>
-  
+  <PerfectHuman.letterExtra>{PAWN_name Def} é qualificado em tudo para um grau não natural. Independentemente do assunto, {PAWN_pronoun} domina-o. Além disso, a ética de trabalho {PAWN_possessive} é notável. {PAWN_pronoun} parece ser o trabalhador perfeito.</PerfectHuman.letterExtra>
   <!-- EN: psychic butcher -->
-  <PsychicButcher.label>mentaler Schlachter</PsychicButcher.label>
+  <PsychicButcher.label>açougueiro psíquico</PsychicButcher.label>
   <!-- EN: Animals are skittish around {PAWN_nameDef}. {PAWN_pronoun} has the unnatural power to deform the flesh of living creatures, causing them to erupt into piles of twisted meat. {PAWN_nameDef} claims to use {PAWN_possessive} gift only to butcher animals - but it's clear {PAWN_pronoun} could just as easily butcher a person. -->
-  <PsychicButcher.letterExtra>Tiere fühlen sich in {replace: {PAWN_nameDef}s; "s(/Name)s"-"s(/Name)'"; "ß(/Name)s"-"ß(/Name)'"; "z(/Name)s"-"z(/Name)'"; "x(/Name)s"-"x(/Name)'"; "ce(/Name)s"-"ce(/Name)'"} Nähe unwohl. {PAWN_pronoun} hat die unnatürliche Gabe, das Fleisch von Lebewesen so zu verformen, dass sie buchstäblich zerplatzen und mehrere Haufen entstellten Fleisches zurücklassen. {PAWN_nameDef} behauptet, dass {PAWN_pronoun} {PAWN_possessive}e Gabe nur zum Schlachten von Tieren einsetzt - aber es ist offensichtlich, dass {PAWN_pronoun} genauso gut einen Menschen schlachten könnte.</PsychicButcher.letterExtra>
-  
+  <PsychicButcher.letterExtra>Os animais são skittish ao redor {PAWN_nameDef}. {PAWN_pronoun} tem o poder não natural para deformar a carne de criaturas vivas, fazendo com que erupt em pilhas de carne torcida. {PAWN_nameDef} afirma usar {PAWN_possessive} presente apenas para açougue animais - mas é claro {PAWN_pronoun} poderia apenas abastecer facilmente uma pessoa.</PsychicButcher.letterExtra>
   <!-- EN: shambler overlord -->
-  <ShamblerOverlord.label>Schlurfer-Overlord</ShamblerOverlord.label>
+  <ShamblerOverlord.label>shambler overlord</ShamblerOverlord.label>
   <!-- EN: {PAWN_nameDef}'s body is riddled with corrupt archites. {PAWN_pronoun} can release them at will, creating a cloud of deadlife dust which can reanimate nearby corpses. -->
-  <ShamblerOverlord.letterExtra>{replace: {PAWN_nameDef}s; "s(/Name)s"-"s(/Name)'"; "ß(/Name)s"-"ß(/Name)'"; "z(/Name)s"-"z(/Name)'"; "x(/Name)s"-"x(/Name)'"; "ce(/Name)s"-"ce(/Name)'"} Körper ist mit korrupten Architen durchsetzt. {PAWN_pronoun} kann sie nach Belieben freisetzen und so eine Wolke aus Deadlife-Staub erzeugen, die nahe Leichen reanimieren kann.</ShamblerOverlord.letterExtra>
-  
+  <ShamblerOverlord.letterExtra>{PAWN_name O corpo de Def} está cheio de arcos corruptos. {PAWN_pronoun} pode libertá-los à vontade, criando uma nuvem de poeira morta que pode reanimar cadáveres próximos.</ShamblerOverlord.letterExtra>
   <!-- EN: unnatural healing -->
-  <UnnaturalHealing.label>unnatürliche Heilung</UnnaturalHealing.label>
+  <UnnaturalHealing.label>cura natural</UnnaturalHealing.label>
   <!-- EN: {PAWN_pronoun} offers to use {PAWN_possessive} healing power to help you. -->
-  <UnnaturalHealing.letterExtra>{PAWN_pronoun} bietet an, dir mit {PAWN_possessive}en Heilkräften zu helfen.</UnnaturalHealing.letterExtra>
-  
+  <UnnaturalHealing.letterExtra>{PAWN_pronoun} oferece para usar {PAWN_possessive} poder de cura para ajudá-lo.</UnnaturalHealing.letterExtra>
 </LanguageData>

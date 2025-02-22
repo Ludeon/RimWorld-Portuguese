@@ -1,22 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>terminalHackedMessage->Terminal hacked. You've collected the information and can now leave.</li>
   -->
-  <Hack_WorshippedTerminal.questContentRules.rulesStrings>
-    <li>terminalHackedMessage->Terminal wurde gehackt. Du hast die Infos erhalten und kannst nun das Gebiet verlassen.</li>
-  </Hack_WorshippedTerminal.questContentRules.rulesStrings>
+  <Hack_WorshippedTerminal.questContentRules.rulesStrings>&lt;li&gt;terminalHackedMessage-&gt; Terminal hackeado. Você coletou as informações e agora pode deixar.&lt;/li&gt;\n</Hack_WorshippedTerminal.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You've learned of an ancient terminal that contains information about the [relic_name]. However, the terminal is surrounded by a tribal village, and the locals venerate it. They aren't part of any major faction.\n\n[visitInfo]</li>
     <li>visitInfo(allowViolentQuests==true)->They are willing to let you visit on the pretense of worshiping it, but they will attack when you touch it.\n\nYou can attack the village from the outside, or enter peacefully and try to quickly escape with the data from the terminal.\n\nBeware - If you spend over [timer_duration] in the village or build anything near it, the locals will attack, and call reinforcements.</li>
     <li>visitInfo(allowViolentQuests==false)->They are willing to let you visit.</li>
   -->
-  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
-    <li>questDescription->Du hast von einem antiken Terminal erfahren, das Informationen über die Reliquie [relic_name] enthält. Das Terminal ist jedoch von einem Stammesdorf umgeben und wird von den Einheimischen verehrt. Sie gehören keiner der großen Fraktionen an.\n\n[visitInfo]</li>
-    <li>visitInfo(allowViolentQuests==true)->Du darfst das Terminal besuchen, um es zu verehren, aber sobald du es berührst, werden sie dich angreifen.\n\nDu kannst das Dorf von außen angreifen, oder es friedlich betreten und versuchen, schnell mit den Daten des Terminals zu entkommen.\n\nAber Vorsicht - wenn du dich länger als [timer_duration] im Dorf aufhältst oder in der Nähe etwas baust, werden die Einheimischen dich sofort angreifen und Verstärkung rufen.</li>
-    <li>visitInfo(allowViolentQuests==false)->Du darfst das Terminal besuchen.</li>
-  </Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
+  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>&lt;li&gt;questDescription-&gt; Você aprendeu sobre um terminal antigo que contém informações sobre o [relic_name]. No entanto, o terminal é cercado por uma aldeia tribal, e os moradores o veneram. Não fazem parte de nenhuma facção importante.\n\n[visitInfo]&lt;/li&gt;\n&lt;li&gt;visitInfo (allowViolentQuests=true)-&gt; Eles estão dispostos a deixar você visitar a pretensão de adorar, mas eles vão atacar quando você tocar.\n\nVocê pode atacar a aldeia de fora, ou entrar pacificamente e tentar escapar rapidamente com os dados do terminal.\n\nCuidado - Se você passar por cima [timer_duration] na aldeia ou construir qualquer coisa perto dele, os moradores atacarão e chamarão reforços.&lt;/li&gt;\n&lt;li&gt;visitInfo (allowViolentQuests==false)-&gt; Eles estão dispostos a deixar você visitar.&lt;/li&gt;\n</Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [adj] [terminalName]</li>
     <li>adj->worshipped</li>
@@ -35,27 +28,5 @@
     <li>terminalName->database</li>
     <li>terminalName->silicon</li>
   -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings>
-    <li>questName(p=4)->Das [adj]e Terminal</li>
-    <li>questName->Die [adj]e Maschine</li>
-    <li>questName->Das [adj]e Gerät</li>
-    <li>questName->Der [adj]e Bildschirm</li>
-    <li>questName->Der [adj]e Computer</li>
-    <li>questName->Die [adj]e Datenbank</li>
-    <li>questName->Das [adj]e Silizium</li>
-    <li>questName(p=4)->Das [pre]terminal</li>
-    <li>questName->Die [pre]maschine</li>
-    <li>questName->Das [pre]gerät</li>
-    <li>questName->Der [pre]bildschirm</li>
-    <li>questName->Der [pre]computer</li>
-    <li>questName->Die [pre]datenbank</li>
-    <li>questName->Das [pre]silizium</li>
-    <li>adj->vergöttert</li>
-    <li>adj->verehrt</li>
-    <li>adj->antik</li>
-    <li>adj->geheim</li>
-    <li>pre->Dorf</li>
-    <li>pre->Stammes</li>
-  </Hack_WorshippedTerminal.questNameRules.rulesStrings>
-  
+  <Hack_WorshippedTerminal.questNameRules.rulesStrings>&lt;li&gt;questName-&gt;The [adj] [terminalName]&lt;/li&gt;\n&lt;li&gt;adj-&gt;worshipped&lt;/li&gt;\n&lt;li&gt;adj-&gt;venerado&lt;/li&gt;\n&lt;li&gt;adj-&gt;ancient&lt;/li&gt;\n&lt;li&gt;adj-&gt;villager's&lt;/li&gt;\n&lt;li&gt;adj-&gt;village&lt;/li&gt;\n&lt;li&gt;adj-&gt;tribal&lt;/li&gt;\n&lt;li&gt;adj-&gt;secret&lt;/li&gt;\n&lt;li&gt;terminalNome (p=4)-&gt;terminal&lt;/li&gt;\n&lt;li&gt;terminalName-&gt;machine&lt;/li&gt;\n&lt;li&gt;terminalName-&gt;device&lt;/li&gt;\n&lt;li&gt;terminalName-&gt;screen&lt;/li&gt;\n&lt;li&gt;terminalNome-&gt;computador&lt;/li&gt;\n&lt;li&gt;terminalNome-&gt;databank&lt;/li&gt;\n&lt;li&gt;terminalName-&gt;database&lt;/li&gt;\n&lt;li&gt;terminalNome-&gt;silicon&lt;/li&gt;\n</Hack_WorshippedTerminal.questNameRules.rulesStrings>
 </LanguageData>

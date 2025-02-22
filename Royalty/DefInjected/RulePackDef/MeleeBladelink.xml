@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>r_weapon_name(p=3)->[noun][verber]</li>
     <li>r_weapon_name(p=2)->[beginSyl][middleSyl][endSyl]</li>
@@ -59,63 +58,5 @@
     <li>endSyl->mar</li>
     <li>endSyl->gur</li>
   -->
-  <NamerWeaponBladelink.rulePack.rulesStrings>
-    <li>r_weapon_name(p=3)->[noun][verber]</li>
-    <li>r_weapon_name(p=2)->[beginSyl][middleSyl][endSyl]</li>
-    <li>r_weapon_name(p=1)->[beginSyl][middleSyl][middleSyl][endSyl]</li>
-    <li>r_weapon_name(p=1)->[beginSyl][endSyl]</li>
-    <li>r_weapon_name(p=1)->[NamePerson]</li>
-    <li>r_weapon_name(p=1)->[nameAnimal]</li>
-    <li>nameAnimal->[NameAnimalUnisex]</li>
-    <li>nameAnimal->[NameAnimalMale]</li>
-    <li>nameAnimal->[NameAnimalFemale]</li>
-    <li>noun->Eid</li>
-    <li>noun->Gelöbnis</li>
-    <li>noun->Todes</li>
-    <li>noun->Schmerz</li>
-    <li>noun->Blut</li>
-    <li>noun->Unheils</li>
-    <li>noun->Mord</li>
-    <li>noun->Gerechtigkeits</li>
-    <li>noun->Angst</li>
-    <li>noun->Terror</li>
-    <li>noun->Chaos</li>
-    <li>noun->Ordnungs</li>
-    <li>noun->Kriegs</li>
-    <li>noun->Stille</li>
-    <li>noun->Schulden</li>
-    <li>verber->bewahrer</li>
-    <li>verber->bringer</li>
-    <li>verber->bewirker</li>
-    <li>verber->geber</li>
-    <li>verber->macher</li>
-    <li>verber->zerstörer</li>
-    <li>verber->brecher</li>
-    <li>verber->schläger</li>
-    <li>verber->bändiger</li>
-    <li>verber->kenner</li>
-    <li>verber->täter</li>
-    <li>beginSyl->Vi</li>
-    <li>beginSyl->Na</li>
-    <li>beginSyl->Lo</li>
-    <li>beginSyl->Ra</li>
-    <li>beginSyl->To</li>
-    <li>beginSyl->Ger</li>
-    <li>beginSyl->Xan</li>
-    <li>beginSyl->Kel</li>
-    <li>middleSyl->ser</li>
-    <li>middleSyl->gar</li>
-    <li>middleSyl->lor</li>
-    <li>middleSyl->ven</li>
-    <li>middleSyl->zan</li>
-    <li>middleSyl->xal</li>
-    <li>endSyl->ys</li>
-    <li>endSyl->or</li>
-    <li>endSyl->ar</li>
-    <li>endSyl->sum</li>
-    <li>endSyl->dor</li>
-    <li>endSyl->mar</li>
-    <li>endSyl->gur</li>
-  </NamerWeaponBladelink.rulePack.rulesStrings>
-  
+  <NamerWeaponBladelink.rulePack.rulesStrings>&lt;li&gt;r_weapon_name(p=3)-&gt;[substantivo][verber]&lt;/li&gt;\n&lt;li&gt;r_weapon_name(p=2)-&gt;[beginSyl][middleSyl][endSyl]&lt;/li&gt;\n&lt;li&gt;r_weapon_name(p=1)-&gt;[beginSyl][middleSyl][middleSyl][endSyl]&lt;/li&gt;\n&lt;li&gt;r_weapon_name(p=1)-&gt;[beginSyl][endSyl]&lt;/li&gt;\n&lt;li&gt;r_weapon_name(p=1)-&gt;[NamePerson]&lt;/li&gt;\n&lt;li&gt;r_weapon_name(p=1)-&gt;[nameAnimal]&lt;/li&gt;\n&lt;li&gt;nameAnimal-&gt;[NameAnimalUnisex]&lt;/li&gt;\n&lt;li&gt;nameAnimal-&gt;[NameAnimalMale]&lt;/li&gt;\n&lt;li&gt;nameAnimal-&gt;[NameAnimalFemale]&lt;/li&gt;\n&lt;li&gt;noun-&gt;oath&lt;/li&gt;\n&lt;li&gt;noun-&gt;promise&lt;/li&gt;\n&lt;li&gt;noun-&gt;death&lt;/li&gt;\n&lt;li&gt;noun-&gt;pain&lt;/li&gt;\n&lt;li&gt;noun-&gt;blood&lt;/li&gt;\n&lt;li&gt;noun-&gt;doom&lt;/li&gt;\n&lt;li&gt;noun-&gt;murder&lt;/li&gt;\n&lt;li&gt;noun-&gt;justice&lt;/li&gt;\n&lt;li&gt;noun-&gt;fear&lt;/li&gt;\n&lt;li&gt;noun-&gt;terror&lt;/li&gt;\n&lt;li&gt;noun-&gt;chaos&lt;/li&gt;\n&lt;li&gt;noun-&gt;order&lt;/li&gt;\n&lt;li&gt;noun-&gt;war&lt;/li&gt;\n&lt;li&gt;noun-&gt;silence&lt;/li&gt;\n&lt;li&gt;noun-&gt;debt&lt;/li&gt;\n&lt;li&gt;verber-&gt;keeper&lt;/li&gt;\n&lt;li&gt;verber-&gt;bringer&lt;/li&gt;\n&lt;li&gt;verber-&gt;sender&lt;/li&gt;\n&lt;li&gt;verber-&gt;giver&lt;/li&gt;\n&lt;li&gt;verber-&gt;maker&lt;/li&gt;\n&lt;li&gt;verber-&gt;crusher&lt;/li&gt;\n&lt;li&gt;verber-&gt;breaker&lt;/li&gt;\n&lt;li&gt;verber-&gt;smasher&lt;/li&gt;\n&lt;li&gt;verber-&gt;bender&lt;/li&gt;\n&lt;li&gt;verber-&gt;knower&lt;/li&gt;\n&lt;li&gt;verber-&gt;doer&lt;/li&gt;\n&lt;li&gt;beginSyl-&gt;vi&lt;/li&gt;\n&lt;li&gt;beginSyl-&gt;na&lt;/li&gt;\n&lt;li&gt;beginSyl-&gt;lo&lt;/li&gt;\n&lt;li&gt;beginSyl-&gt;ra&lt;/li&gt;\n&lt;li&gt;beginSyl-&gt;to&lt;/li&gt;\n&lt;li&gt;beginSyl-&gt;ger&lt;/li&gt;\n&lt;li&gt;beginSyl-&gt;xan&lt;/li&gt;\n&lt;li&gt;beginSyl-&gt;kel&lt;/li&gt;\n&lt;li&gt;middleSyl-&gt;ser&lt;/li&gt;\n&lt;li&gt;middleSyl-&gt;gar&lt;/li&gt;\n&lt;li&gt;middleSyl-&gt;lor&lt;/li&gt;\n&lt;li&gt;middleSyl-&gt;ven&lt;/li&gt;\n&lt;li&gt;middleSyl-&gt;zan&lt;/li&gt;\n&lt;li&gt;middleSyl-&gt;xal&lt;/li&gt;\n&lt;li&gt;endSyl-&gt;ys&lt;/li&gt;\n&lt;li&gt;endSyl-&gt;or&lt;/li&gt;\n&lt;li&gt;endSyl-&gt;ar&lt;/li&gt;\n&lt;li&gt;endSyl-&gt;sum&lt;/li&gt;\n&lt;li&gt;endSyl-&gt;dor&lt;/li&gt;\n&lt;li&gt;endSyl-&gt;mar&lt;/li&gt;\n&lt;li&gt;endSyl-&gt;gur&lt;/li&gt;\n</NamerWeaponBladelink.rulePack.rulesStrings>
 </LanguageData>

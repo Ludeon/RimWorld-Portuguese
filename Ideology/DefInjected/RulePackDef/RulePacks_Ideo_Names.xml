@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>globalAdjective->Spacer</li>
     <li>globalAdjective->Star</li>
@@ -9,22 +8,11 @@
     <li>globalHyphenPrefix->astro</li>
     <li>globalHyphenPrefix->stello</li>
   -->
-  <CultureSpacer.rulePack.rulesStrings>
-    <li>globalNoun->Raumfahrer</li>
-    <li>globalNoun->Sternen</li>
-    <li>globalNoun->Stellar</li>
-    <li>globalNoun->Interstellar</li>
-    <li>globalHyphenPrefix->astro</li>
-    <li>globalHyphenPrefix->stello</li>
-  </CultureSpacer.rulePack.rulesStrings>
-  
+  <CultureSpacer.rulePack.rulesStrings>&lt;li&gt;globalAdjetivo-&gt;Spacer&lt;/li&gt;\n&lt;li&gt;globalAdjetivo-&gt;Star&lt;/li&gt;\n&lt;li&gt;globalAdjetivo-&gt;Stellar&lt;/li&gt;\n&lt;li&gt;globalAdjetivo-&gt;Interstellar&lt;/li&gt;\n&lt;li&gt;globalHyphenPrefix-&gt;astro&lt;/li&gt;\n&lt;li&gt;globalHyphenPrefix-&gt;stello&lt;/li&gt;\n</CultureSpacer.rulePack.rulesStrings>
   <!-- EN:
     <li>globalAdjective(p=15)->Tribal</li>
   -->
-  <NamerIdeoCorunan.rulePack.rulesStrings>
-    <li>globalAdjective(p=15)->Indigen</li>
-  </NamerIdeoCorunan.rulePack.rulesStrings>
-  
+  <NamerIdeoCorunan.rulePack.rulesStrings>&lt;li&gt;globalAdjetivo(p=15)-&gt;Tribal&lt;/li&gt;\n</NamerIdeoCorunan.rulePack.rulesStrings>
   <!-- EN:
     <li>r_ideoName->[keyDeity]ism</li>
     <li>r_ideoName->[hyphenPrefix]-[keyDeity]ism</li>
@@ -56,42 +44,5 @@
     <li>globalHyphenPrefix->archaeo</li>
     <li>globalHyphenPrefix->hyper</li>
   -->
-  <NamerIdeoGlobal.rulePack.rulesStrings>
-    <li>r_ideoName->[keyDeity]ismus</li>
-    <li>r_ideoName->[hyphenPrefix]-[keyDeity]ismus</li>
-    <li>r_ideoName->{replace: [keyDeity]'s; "s's"-"s'"; "ß's"-"ß'"; "z's"-"z'"; "x's"-"x'"; "ce's"-"ce'"; "'s"-"s"} [creed]</li>
-    <li>r_ideoName->[creed] von [keyDeity]</li>
-    <li>r_ideoName(p=6)->{replace: [packIdeoName]; "|M|"-""; "|F|"-""; "|N|"-""}</li>
-    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-{replace: [packIdeoName]; "|M|"-""; "|F|"-""; "|N|"-""}</li>
-    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-{replace: [packIdeoNameStructure]; "|M|"-""; "|F|"-""; "|N|"-""}</li>
-    <li>r_ideoName(p=2)->[memeAdjective][creedGender]</li>
-    <li>r_ideoName(p=1)->[creed] [packTheme]</li>
-    <li>r_ideoName(p=1)->[place_adjective][creedGender]</li>
-    <li>r_ideoName(p=0.25)->{replace: ^[memeCreedGender]; "^er "-"Der "; "^e "-"Die "; "^es "-"Das "; "^"-""}</li>
-    <li>r_memberName->[packMember]</li>
-    <li>r_memberName->[keyDeity]ist</li>
-    <li>r_memberName->[keyDeity]it</li>
-    <li>r_ideoAdjective->[keyDeity]isch</li>
-    <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
-    <li>creed(priority=1)->[memeCreed]</li>
-    <li>creed->[genericCreed]</li>
-    <li>creedGender(priority=1)->[memeCreedGender]</li>
-    <li>creedGender->[genericCreedGender]</li>
-    <li>genericCreed->Kredo</li>
-    <li>genericCreed->Doktrin</li>
-    <li>genericCreed->Weg</li>
-    <li>genericCreed->Pfad</li>
-    <li>genericCreedGender->es Kredo</li>
-    <li>genericCreedGender->e Doktrin</li>
-    <li>genericCreedGender->er Weg</li>
-    <li>genericCreedGender->er Pfad</li>
-    <li>hyphenPrefix->[globalHyphenPrefix]</li>
-    <li>hyphenPrefix->[memeHyphenPrefix]</li>
-    <li>globalHyphenPrefix(p=4)->neo</li>
-    <li>globalHyphenPrefix(p=2)->post</li>
-    <li>globalHyphenPrefix->nova</li>
-    <li>globalHyphenPrefix->archaeo</li>
-    <li>globalHyphenPrefix->hyper</li>
-  </NamerIdeoGlobal.rulePack.rulesStrings>
-  
+  <NamerIdeoGlobal.rulePack.rulesStrings>&lt;li&gt;r_ideoName-&gt;[keyDeity]ism&lt;/li&gt;\n&lt;li&gt;r_ideoName-&gt;[hyphenPrefix]-[keyDeity]ism&lt;/li&gt;\n&lt;li&gt;r_ideoName-&gt;[keyDeity]'s [creed]&lt;/li&gt;\n&lt;li&gt;r_ideoName-&gt;[creed] de [keyDeity]&lt;/li&gt;\n&lt;li&gt;r_ideoAdjetivo-&gt;[keyDeity]ic&lt;/li&gt;\n&lt;li&gt;r_memberName-&gt;[keyDeity]ist&lt;/li&gt;\n&lt;li&gt;r_memberName-&gt;[keyDeity]ite&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=6)-&gt;[packIdeoName]&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=2,forcePrefix=False)-&gt;[hyphenPrefix]-[packIdeoName]&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=2,forcePrefix=False)-&gt;[hyphenPrefix]-[packIdeoNameStructure]&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=2)-&gt;[memeAdjective] [creed]&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=1)-&gt;[creed] de [packTheme]&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=1)-&gt;[place_adjetivo] [creed]&lt;/li&gt;\n&lt;li&gt;r_ideoName (p=0,25)-&gt; O [memeCreed]&lt;/li&gt;\n&lt;li&gt;r_ideoAdjetivo(prioridade=1)-&gt;[packAdjetivo]&lt;/li&gt;\n&lt;li&gt;r_memberName-&gt;[packMember]&lt;/li&gt;\n&lt;li&gt;creed(priority=1)-&gt;[memeCreed]&lt;/li&gt;\n&lt;li&gt;creed-&gt;[genericCreed]&lt;/li&gt;\n&lt;li&gt;genericCreed-&gt;creed&lt;/li&gt;\n&lt;li&gt;genericCreed-&gt;doctrine&lt;/li&gt;\n&lt;li&gt;genericCreed-&gt;way&lt;/li&gt;\n&lt;li&gt;genericCreed-&gt;path&lt;/li&gt;\n&lt;li&gt;hyphenPrefix-&gt;[globalHyphenPrefix]&lt;/li&gt;\n&lt;li&gt;hyphenPrefix-&gt;[meHyphenPrefix]&lt;/li&gt;\n&lt;li&gt;globalHyphenPrefix (p=4)-&gt;neo&lt;/li&gt;\n&lt;li&gt;globalHyphenPrefix (p=2)-&gt;post&lt;/li&gt;\n&lt;li&gt;globalHyphenPrefix-&gt;nova&lt;/li&gt;\n&lt;li&gt;globalHyphenPrefix-&gt;archaeo&lt;/li&gt;\n&lt;li&gt;globalHyphenPrefix-&gt;hyper&lt;/li&gt;\n</NamerIdeoGlobal.rulePack.rulesStrings>
 </LanguageData>

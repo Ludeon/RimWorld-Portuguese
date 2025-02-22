@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] [firedat] [RECIPIENT_definite] with [INITIATOR_possessive] [WEAPON_label].</li>
     <li>r_logentry->[INITIATOR_definite] [fired] [INITIATOR_possessive] [WEAPON_label] at [RECIPIENT_definite].</li>
@@ -15,17 +14,5 @@
     <li>firedat(p=0.3)->opened fire at</li>
     <li>verb_fired->fired</li>
   -->
-  <Combat_RangedFlamethrower.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [fired] mit [seiner_Waffe] auf [RECIPIENT_nameDefAcc].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] eröffnete das Feuer auf [RECIPIENT_nameDefAcc].</li>
-    <li>r_logentry->[INITIATOR_definite] [fired] auf [RECIPIENT_nameDefAcc].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [fired] mit [seiner_Waffe].</li>
-    <li>fired(p=2)->[verb_fired]</li>
-    <li>fired->[verb_fired] [skillAdv]</li>
-    <li>fired(p=0.5)->zielte und [verb_fired]</li>
-    <li>fired(p=0.5)->zielte [skillAdv] und [verb_fired]</li>
-    <li>verb_fired->feuerte</li>
-    <li>seiner_Waffe->[INITIATOR_possessive]{replace: ^[WEAPON_indefinite]; "^ein [WEAPON_label]"-"em"; "^eine [WEAPON_label]"-"er"} {replace: [WEAPON_label]; "er "-"en "; "e "-"en "; "es "-"en "}</li>
-  </Combat_RangedFlamethrower.rulePack.rulesStrings>
-  
+  <Combat_RangedFlamethrower.rulePack.rulesStrings>&lt;li&gt;r_logentry-&gt;[INITIATOR_definite] [firedat] [RECIPIENT_definite] com [INITIATOR_possessive] [WEAPON_label].&lt;/li&gt;\n&lt;li&gt;r_logentry-&gt; [INITIATOR_definite] [fired] [INITIATOR_possessive] [WEAPON_label] em [RECIPIENT_definite].\n&lt;li&gt;r_logentry-&gt;[INITIATOR_definite] [firedat] [RECIPIENT_definite].&lt;/li&gt;\n&lt;li&gt;r_logentry (RECIPIENT_missing==True)-&gt;[INITIATOR_definite] [fired] [INITIATOR_possessive] [WEAPON_label].&lt;/li&gt;\n&lt;li&gt;fired(p=2)-&gt;[verb_fired]&lt;/li&gt;\n&lt;li&gt;fired-&gt;[skillAdv] [verb_fired]&lt;/li&gt;\n&lt;li&gt;firedat-&gt; disparou em&lt;/li&gt;\n&lt;li&gt;firedat-&gt;fired [skillAdv] em&lt;/li&gt;fired [skillAdv]\n&lt;li&gt;firedat(p=0.5)-&gt; destinado e demitido em&lt;/li&gt;\n&lt;li&gt;firedat(p=0.5)-&gt;[skillAdv] destinado e demitido em&lt;/li&gt;\n&lt;li&gt;firedat(p=0.3)-&gt;open fire at&lt;/li&gt;\n&lt;li&gt;verb_fired-&gt;fired&lt;/li&gt;\n</Combat_RangedFlamethrower.rulePack.rulesStrings>
 </LanguageData>
