@@ -63,7 +63,7 @@
 
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
-  <TranslationThanks>TODO</TranslationThanks>
+  <TranslationThanks>Todas as traduções do RimWorld são feitas por fãs. Esta tradução feita por fãs foi criada pelos seguintes excelentes voluntários:\n\n{0}</TranslationThanks>
   <!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
   <TranslationHowToContribute>Também podes contribuir. Clica em baixo para aprender mais (abre o navegador).</TranslationHowToContribute>
   <!-- EN: Learn more -->
@@ -271,67 +271,67 @@
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>O mod necessita de ter uma versão suportada formatada na informação no About.xml. Por exemplo: {0} - está obsoleto. Vê a log para mais informação.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>TODO</MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>O Mod precisa de um packageId exclusivo e devidamente formatado em About.xml. Ele deve atender aos seguintes requisitos:\n\n  - Caracteres alfanuméricos e somente pontos.\n  - Sem espaços.\n  - Pelo menos um ponto.\n  - Sem pontos repetidos seguidos, ou começar/terminar com um ponto.\n  - 60 caracteres ou menos.\n  - Não é possível conter a palavra "Ludeon".\n\nPor exemplo:\nAuthorName.ModName\nAuthorName.ModName.Specific</MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
-  <ModHadLoadFolderIssues>TODO</ModHadLoadFolderIssues>
+  <ModHadLoadFolderIssues>Este mod possui problemas no LoadFolders.xml que precisas de resolver antes de fazer upload:</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
-  <ModLoadFolderDoesntExist>TODO</ModLoadFolderDoesntExist>
+  <ModLoadFolderDoesntExist>A pasta {0} especificada para a versão {1} não existe.</ModLoadFolderDoesntExist>
   <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
-  <ModLoadFolderMalformedVersion>TODO</ModLoadFolderMalformedVersion>
+  <ModLoadFolderMalformedVersion>Versão incorreta da string '{0}'. O formato correto é Major.Minor (por exemplo, 1.1)</ModLoadFolderMalformedVersion>
   <!-- EN: The list of load folders for version {0} is empty. -->
-  <ModLoadFolderListEmpty>TODO</ModLoadFolderListEmpty>
+  <ModLoadFolderListEmpty>A lista de pastas carregadas para a versão {0} está vazia.</ModLoadFolderListEmpty>
   <!-- EN: Version {0} lists the same folder more than once: {1}. -->
-  <ModLoadFolderRepeatingFolder>TODO</ModLoadFolderRepeatingFolder>
+  <ModLoadFolderRepeatingFolder>Versão {0} lista a mesma pasta mais de uma vez: {1}.</ModLoadFolderRepeatingFolder>
   <!-- EN: Invalid version order: {0} should come before {1}. -->
-  <ModLoadFolderOutOfOrder>TODO</ModLoadFolderOutOfOrder>
+  <ModLoadFolderOutOfOrder>Ordem de versão inválida: {0} deve vir antes de {1}.</ModLoadFolderOutOfOrder>
   <!-- EN: Invalid version order: 'default' should be defined first. -->
-  <ModLoadFolderOutOfOrderDefault>TODO</ModLoadFolderOutOfOrderDefault>
+  <ModLoadFolderOutOfOrderDefault>Ordem de versão inválida: 'default' deve ser definido em primeiro lugar.</ModLoadFolderOutOfOrderDefault>
   <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
-  <ModLoadFolderDefaultDeprecated>TODO</ModLoadFolderDefaultDeprecated>
+  <ModLoadFolderDefaultDeprecated>O uso de 'default' nas pastas de carregamento está obsoleto. Define as pastas para cada versão utilizando as etiquetas (tags).</ModLoadFolderDefaultDeprecated>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
-  <ModLoadFolderDefinesUnsupportedGameVersion>TODO</ModLoadFolderDefinesUnsupportedGameVersion>
+  <ModLoadFolderDefinesUnsupportedGameVersion>A versão {0} está definida nas pastas de carregamento, mas não está listada em 'supportedVersions' do About.xml do mod.</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
-  <DragToReorder>TODO</DragToReorder>
+  <DragToReorder>Arrasta para reordenar</DragToReorder>
 
   <!-- Select scenario -->
   <!-- EN: Choose scenario -->
-  <ChooseScenario>TODO</ChooseScenario>
+  <ChooseScenario>Escolher cenário</ChooseScenario>
   <!-- EN: Custom -->
-  <ScenariosCustom>TODO</ScenariosCustom>
+  <ScenariosCustom>Personalizado</ScenariosCustom>
   <!-- EN: Steam Workshop -->
-  <ScenariosSteamWorkshop>TODO</ScenariosSteamWorkshop>
+  <ScenariosSteamWorkshop>Steam Workshop</ScenariosSteamWorkshop>
   <!-- EN: Scenario editor -->
-  <ScenarioEditor>TODO</ScenarioEditor>
+  <ScenarioEditor>Editor de cenário</ScenarioEditor>
   <!-- EN: Delete -->
-  <Delete>TODO</Delete>
+  <Delete>Apagar</Delete>
   
   <!-- Scenario editor -->
   <!-- EN: seed -->
-  <Seed>TODO</Seed>
+  <Seed>semente</Seed>
   <!-- EN: Load -->
-  <Load>TODO</Load>
+  <Load>Carregar</Load>
   <!-- EN: edit mode -->
-  <EditMode>TODO</EditMode>
+  <EditMode>editar modo</EditMode>
   <!-- EN: Summary -->
-  <Summary>TODO</Summary>
+  <Summary>Sumário</Summary>
   <!-- EN: Add part -->
-  <AddPart>TODO</AddPart>
+  <AddPart>Adicionar parte</AddPart>
   <!-- EN: All text fields must be filled. -->
-  <TextFieldsMustBeFilled>TODO</TextFieldsMustBeFilled>
+  <TextFieldsMustBeFilled>Todos os campos de texto devem ser preenchidos.</TextFieldsMustBeFilled>
   <!-- EN: Are you sure you want to upload this to the Steam Workshop?\n\nYou must agree to the Steam Workshop terms of service. Find the full terms here:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement -->
-  <ConfirmSteamWorkshopUpload>TODO</ConfirmSteamWorkshopUpload>
+  <ConfirmSteamWorkshopUpload>Tens a certeza de que pretendes enviar isto para o Steam Workshop?\n\nTens de concordar com os termos de serviço do Steam Workshop. Encontra os termos completos aqui:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
   <!-- EN: Obviously you should only upload content that you created yourself.\n\nDid you create this content yourself? -->
-  <ConfirmContentAuthor>TODO</ConfirmContentAuthor>
+  <ConfirmContentAuthor>Obviamente, só deves enviar conteúdo que foi criado por ti. \n\nCriaste este conteúdo?</ConfirmContentAuthor>
   <!-- EN: Incompatible -->
-  <Incompatible>TODO</Incompatible>
+  <Incompatible>Incompatível</Incompatible>
   <!-- EN: Tag as translation -->
-  <TagAsTranslation>TODO</TagAsTranslation>
+  <TagAsTranslation>Marcar como tradução</TagAsTranslation>
   <!-- EN: Too many (max {0}):  -->
-  <TooMany>TODO</TooMany>
+  <TooMany>Muitos (máx. {0}):</TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
-  <CanBeUpdatedOnWorkshop>TODO</CanBeUpdatedOnWorkshop>
+  <CanBeUpdatedOnWorkshop>Pode ser atualizado no Workshop, desde que sejas o autor.</CanBeUpdatedOnWorkshop>
   <!-- EN: This scenario has been edited.\n\nDo you want to save it before proceeding? -->
-  <ScenarioChangedSavePrompt>TODO</ScenarioChangedSavePrompt>
+  <ScenarioChangedSavePrompt>Este cenário foi editado.\n\nDesejas guardá-lo antes de continuar?</ScenarioChangedSavePrompt>
   
   <!-- Select storyteller -->
   <!-- EN: Choose AI Storyteller -->
@@ -343,197 +343,197 @@
   <!-- EN: Difficulty -->
   <Difficulty>Dificuldade</Difficulty>
   <!-- EN: Commitment mode -->
-  <CommitmentMode>TODO</CommitmentMode>
+  <CommitmentMode>Modo de compromisso</CommitmentMode>
   <!-- EN: Reload anytime mode -->
-  <ReloadAnytimeMode>TODO</ReloadAnytimeMode>
+  <ReloadAnytimeMode>Modo de recarregar a qualquer momento</ReloadAnytimeMode>
   <!-- EN: Please choose commitment mode or reload anytime mode. -->
-  <MustChoosePermadeath>TODO</MustChoosePermadeath>
+  <MustChoosePermadeath>Escolhe o modo de compromisso ou o modo de recarregar a qualquer momento.</MustChoosePermadeath>
   <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
-  <ReloadAnytimeModeInfo>TODO</ReloadAnytimeModeInfo>
+  <ReloadAnytimeModeInfo>Podes guardar e carregar o jogo a qualquer momento.\n\nEsta é uma boa opção se ainda estiveres a aprender o jogo, se se adequar ao teu estilo de jogo, se estiveres a utilizar mods que possam interromper o teu jogo ou se pretendes impor o modo de compromisso por conta própria.</ReloadAnytimeModeInfo>
   <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
-  <PermadeathModeInfo>No modo morte-permanente, só podes guardar o jogo quando sais. Não podes voltar atrás para reparar enganos, e quando a colónia morre, fim.\n\nÉ assim que o Rimworld é suposto ser jogado, com cada volta dramática - quer seja trágica ou optimista - seja desenrolada por completo.</PermadeathModeInfo>
+  <PermadeathModeInfo>Só podes guardar ao sair do jogo.\n\nComo o RimWorld é um gerador de histórias, mesmo perder todas as pessoas, exceto uma, não é o fim do jogo - faz parte da história. O jogo foi concebido para permitir a recuperação após derrotas.\n\nJogar estas situações terríveis cria uma história com tragédia e triunfo. É assim que o RimWorld foi concebido para ser jogado.\n\nHá uma razão pela qual Luke Skywalker não desistiu e recarregou quando a sua família foi morta: a perda e a recuperação são dramáticas.</PermadeathModeInfo>
   <!-- EN: Storyteller and playstyle can be changed any time. -->
-  <CanChangeStorytellerSettingsDuringPlay>TODO</CanChangeStorytellerSettingsDuringPlay>
+  <CanChangeStorytellerSettingsDuringPlay>O narrador e o estilo de jogo podem ser alterados a qualquer altura.</CanChangeStorytellerSettingsDuringPlay>
 
   <!-- custom difficulty settings -->
   <!-- EN: Custom playstyle settings -->
-  <DifficultyCustomSectionLabel>TODO</DifficultyCustomSectionLabel>
+  <DifficultyCustomSectionLabel>Definições personalizadas de estilo de jogo</DifficultyCustomSectionLabel>
   <!-- EN: Set to standard playstyle... -->
-  <DifficultyReset>TODO</DifficultyReset>
+  <DifficultyReset>Escolher o estilo de jogo padrão...</DifficultyReset>
   
   <!-- EN: Threats -->
-  <DifficultyThreatSection>TODO</DifficultyThreatSection>
+  <DifficultyThreatSection>Ameaças</DifficultyThreatSection>
   <!-- EN: Threat scale -->
-  <Difficulty_ThreatScale_Label>TODO</Difficulty_ThreatScale_Label>
+  <Difficulty_ThreatScale_Label>Escala das ameaças</Difficulty_ThreatScale_Label>
   <!-- EN: Adjust the size of threats like raids and infestations, and the difficulty of quests. -->
-  <Difficulty_ThreatScale_Info>TODO</Difficulty_ThreatScale_Info>
+  <Difficulty_ThreatScale_Info>Ajuste o tamanho das ameaças, como ataques e infestações, e a dificuldade das missões.</Difficulty_ThreatScale_Info>
   <!-- EN: Major threats -->
-  <Difficulty_AllowBigThreats_Label>TODO</Difficulty_AllowBigThreats_Label>
+  <Difficulty_AllowBigThreats_Label>Grandes ameaças</Difficulty_AllowBigThreats_Label>
   <!-- EN: Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more. -->
-  <Difficulty_AllowBigThreats_Info>TODO</Difficulty_AllowBigThreats_Info>
+  <Difficulty_AllowBigThreats_Info>Permite grandes ameaças, como ataques, infestações, matilhas de caçadores, naves mechanoids acidentadas e muito mais.</Difficulty_AllowBigThreats_Info>
   <!-- EN: Quest threats -->
-  <Difficulty_AllowViolentQuests_Label>TODO</Difficulty_AllowViolentQuests_Label>
+  <Difficulty_AllowViolentQuests_Label>Ameaças da missão</Difficulty_AllowViolentQuests_Label>
   <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
-  <Difficulty_AllowViolentQuests_Info>TODO</Difficulty_AllowViolentQuests_Info>
+  <Difficulty_AllowViolentQuests_Info>Permita que as missões apresentem ameaças e desafios violentos. Se estiver desativado, as missões serão modificadas para não serem violentas.</Difficulty_AllowViolentQuests_Info>
   <!-- EN: Intro threats -->
-  <Difficulty_AllowIntroThreats_Label>TODO</Difficulty_AllowIntroThreats_Label>
+  <Difficulty_AllowIntroThreats_Label>Ameaças introdutórias</Difficulty_AllowIntroThreats_Label>
   <!-- EN: Enable the fixed intro threats that appear near game start. -->
-  <Difficulty_AllowIntroThreats_Info>TODO</Difficulty_AllowIntroThreats_Info>
+  <Difficulty_AllowIntroThreats_Info>Ativa as ameaças introdutórias corrigidas que aparecem perto do início do jogo.</Difficulty_AllowIntroThreats_Info>
   <!-- EN: Predators hunt humans -->
-  <Difficulty_PredatorsHuntHumanlikes_Label>TODO</Difficulty_PredatorsHuntHumanlikes_Label>
+  <Difficulty_PredatorsHuntHumanlikes_Label>Predadores caçam humanos</Difficulty_PredatorsHuntHumanlikes_Label>
   <!-- EN: Allow wild predators to hunt humans. -->
-  <Difficulty_PredatorsHuntHumanlikes_Info>TODO</Difficulty_PredatorsHuntHumanlikes_Info>
+  <Difficulty_PredatorsHuntHumanlikes_Info>Permita que os predadores selvagens cacem humanos.</Difficulty_PredatorsHuntHumanlikes_Info>
   <!-- EN: Extreme weather -->
-  <Difficulty_AllowExtremeWeatherIncidents_Label>TODO</Difficulty_AllowExtremeWeatherIncidents_Label>
+  <Difficulty_AllowExtremeWeatherIncidents_Label>Clima extremo</Difficulty_AllowExtremeWeatherIncidents_Label>
   <!-- EN: Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms. -->
-  <Difficulty_AllowExtremeWeatherIncidents_Info>TODO</Difficulty_AllowExtremeWeatherIncidents_Info>
+  <Difficulty_AllowExtremeWeatherIncidents_Info>Permitir incidentes climáticos extremos, como precipitação tóxica, invernos vulcânicos e tempestades repentinas.</Difficulty_AllowExtremeWeatherIncidents_Info>
 
   <!-- EN: Economy -->
-  <DifficultyEconomySection>TODO</DifficultyEconomySection>
+  <DifficultyEconomySection>Economia</DifficultyEconomySection>
   <!-- EN: Trade price disadvantage -->
-  <Difficulty_TradePriceFactorLoss_Label>TODO</Difficulty_TradePriceFactorLoss_Label>
+  <Difficulty_TradePriceFactorLoss_Label>Desvantagem do preço de troca</Difficulty_TradePriceFactorLoss_Label>
   <!-- EN: When trading, buy prices are increased by this amount while sell prices are reduced by this amount. -->
-  <Difficulty_TradePriceFactorLoss_Info>TODO</Difficulty_TradePriceFactorLoss_Info>
+  <Difficulty_TradePriceFactorLoss_Info>Ao negociar, os preços de compra aumentam neste valor, enquanto os preços de venda são reduzidos neste valor.</Difficulty_TradePriceFactorLoss_Info>
   <!-- EN: Harvest yield -->
-  <Difficulty_CropYieldFactor_Label>TODO</Difficulty_CropYieldFactor_Label>
+  <Difficulty_CropYieldFactor_Label>Rendimento da colheita</Difficulty_CropYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when harvesting plants and crops. This includes harvesting plants and cutting trees. -->
-  <Difficulty_CropYieldFactor_Info>TODO</Difficulty_CropYieldFactor_Info>
+  <Difficulty_CropYieldFactor_Info>Ajusta a quantidade de materiais produzidos ao colher plantas e culturas. Isto inclui a colheita de plantas e o corte de árvores.</Difficulty_CropYieldFactor_Info>
   <!-- EN: Mining yield -->
-  <Difficulty_MineYieldFactor_Label>TODO</Difficulty_MineYieldFactor_Label>
+  <Difficulty_MineYieldFactor_Label>Rendimento de mineração</Difficulty_MineYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when mining. -->
-  <Difficulty_MineYieldFactor_Info>TODO</Difficulty_MineYieldFactor_Info>
+  <Difficulty_MineYieldFactor_Info>Ajusta a quantidade de materiais produzidos durante a mineração.</Difficulty_MineYieldFactor_Info>
   <!-- EN: Butchering yield -->
-  <Difficulty_ButcherYieldFactor_Label>TODO</Difficulty_ButcherYieldFactor_Label>
+  <Difficulty_ButcherYieldFactor_Label>Rendimento de abate</Difficulty_ButcherYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids. -->
-  <Difficulty_ButcherYieldFactor_Info>TODO</Difficulty_ButcherYieldFactor_Info>
+  <Difficulty_ButcherYieldFactor_Info>Ajusta a quantidade de materiais produzidos durante o abate. Isto inclui carne, couro e rendimento da trituração de mechanoids.</Difficulty_ButcherYieldFactor_Info>
   <!-- EN: Research speed -->
-  <Difficulty_ResearchSpeedFactor_Label>TODO</Difficulty_ResearchSpeedFactor_Label>
+  <Difficulty_ResearchSpeedFactor_Label>Velocidade de pesquisa</Difficulty_ResearchSpeedFactor_Label>
   <!-- EN: Adjust the speed of research. -->
-  <Difficulty_ResearchSpeedFactor_Info>TODO</Difficulty_ResearchSpeedFactor_Info>
+  <Difficulty_ResearchSpeedFactor_Info>Ajusta a velocidade de pesquisa.</Difficulty_ResearchSpeedFactor_Info>
   <!-- EN: Quest rewards -->
-  <Difficulty_QuestRewardValueFactor_Label>TODO</Difficulty_QuestRewardValueFactor_Label>
+  <Difficulty_QuestRewardValueFactor_Label>Recompensas da missão</Difficulty_QuestRewardValueFactor_Label>
   <!-- EN: Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
-  <Difficulty_QuestRewardValueFactor_Info>TODO</Difficulty_QuestRewardValueFactor_Info>
+  <Difficulty_QuestRewardValueFactor_Info>Ajusta o valor das recompensas dadas nas missões.\n\nNota: o valor das recompensas das missões é também automaticamente ajustado para compensar a escala da ameaça. Se ajustar esta definição, adicionarás um multiplicador adicional.</Difficulty_QuestRewardValueFactor_Info>
   <!-- EN: Raid loot -->
-  <Difficulty_RaidLootPointsFactor_Label>TODO</Difficulty_RaidLootPointsFactor_Label>
+  <Difficulty_RaidLootPointsFactor_Label>Saque do ataque</Difficulty_RaidLootPointsFactor_Label>
   <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
-  <Difficulty_RaidLootPointsFactor_Info>TODO</Difficulty_RaidLootPointsFactor_Info>
+  <Difficulty_RaidLootPointsFactor_Info>Ajusta o valor do saque transportado pelos atacantes.\n\nNota: o valor do saque do ataque é também ajustado automaticamente para compensar a escala da ameaça. Se ajustares esta definição, adicionarás um multiplicador adicional.</Difficulty_RaidLootPointsFactor_Info>
   <!-- EN: Turret rearm cost -->
-  <Difficulty_MaintenanceCostFactor_Label>TODO</Difficulty_MaintenanceCostFactor_Label>
+  <Difficulty_MaintenanceCostFactor_Label>Custo de rearmamento da torre</Difficulty_MaintenanceCostFactor_Label>
   <!-- EN: Adjust the cost of rearming turrets. -->
-  <Difficulty_MaintenanceCostFactor_Info>TODO</Difficulty_MaintenanceCostFactor_Info>
+  <Difficulty_MaintenanceCostFactor_Info>Ajusta o custo de rearmamento de torres.</Difficulty_MaintenanceCostFactor_Info>
   <!-- EN: Scaria rot chance -->
-  <Difficulty_ScariaRotChance_Label>TODO</Difficulty_ScariaRotChance_Label>
+  <Difficulty_ScariaRotChance_Label>Possibilidade de podridão de Scaria</Difficulty_ScariaRotChance_Label>
   <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
-  <Difficulty_ScariaRotChance_Info>TODO</Difficulty_ScariaRotChance_Info>
+  <Difficulty_ScariaRotChance_Info>A probabilidade de um cadáver apodrecer imediatamente após a morte, se a criatura tiver a doença scaria.\n\nNota: As definições padrão foram concebidas para equilibrar exatamente o aumento da contagem de animais em dificuldades mais elevadas, para que todos os jogadores recebam as mesmas recompensas de carne.</Difficulty_ScariaRotChance_Info>
   <!-- EN: Enemy death on downed -->
-  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>TODO</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>Morte do inimigo ao ser incapacitado</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
   <!-- EN: Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates. -->
-  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>TODO</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>Ajusta a probabilidade extra de um inimigo morrer imediatamente ao ser incapacitado. Isto afeta as hipóteses de fazer prisioneiros e, portanto, as taxas de crescimento populacional das colónias.</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
 
   <!-- EN: General -->
-  <DifficultyGeneralSection>TODO</DifficultyGeneralSection>
+  <DifficultyGeneralSection>Geral</DifficultyGeneralSection>
   <!-- EN: Colonist mood -->
-  <Difficulty_ColonistMoodOffset_Label>TODO</Difficulty_ColonistMoodOffset_Label>
+  <Difficulty_ColonistMoodOffset_Label>Humor do colono</Difficulty_ColonistMoodOffset_Label>
   <!-- EN: A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%. -->
-  <Difficulty_ColonistMoodOffset_Info>TODO</Difficulty_ColonistMoodOffset_Info>
+  <Difficulty_ColonistMoodOffset_Info>Uma compensação permanente de humor aplicada a todos os colonos e prisioneiros. Os colonos têm um humor base de 50%.</Difficulty_ColonistMoodOffset_Info>
   <!-- EN: Food poison chance -->
-  <Difficulty_FoodPoisonChanceFactor_Label>TODO</Difficulty_FoodPoisonChanceFactor_Label>
+  <Difficulty_FoodPoisonChanceFactor_Label>Probabilidade de intoxicação alimentar</Difficulty_FoodPoisonChanceFactor_Label>
   <!-- EN: Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal. -->
-  <Difficulty_FoodPoisonChanceFactor_Info>TODO</Difficulty_FoodPoisonChanceFactor_Info>
+  <Difficulty_FoodPoisonChanceFactor_Info>Ajusta a probabilidade de uma pessoa ter uma intoxicação alimentar ao comer uma refeição potencialmente envenenada.</Difficulty_FoodPoisonChanceFactor_Info>
   <!-- EN: Animal revenge chance -->
-  <Difficulty_ManhunterChanceOnDamageFactor_Label>TODO</Difficulty_ManhunterChanceOnDamageFactor_Label>
+  <Difficulty_ManhunterChanceOnDamageFactor_Label>Probabilidade de vingança do animal</Difficulty_ManhunterChanceOnDamageFactor_Label>
   <!-- EN: Adjust the chance that injuring a wild animal will cause it to attack. -->
-  <Difficulty_ManhunterChanceOnDamageFactor_Info>TODO</Difficulty_ManhunterChanceOnDamageFactor_Info>
+  <Difficulty_ManhunterChanceOnDamageFactor_Info>Ajusta a probabilidade de ferir um animal selvagem fazer com que ele te ataque.</Difficulty_ManhunterChanceOnDamageFactor_Info>
   <!-- EN: Friendly fire -->
-  <Difficulty_FriendlyFireChanceFactor_Label>TODO</Difficulty_FriendlyFireChanceFactor_Label>
+  <Difficulty_FriendlyFireChanceFactor_Label>Fogo amigo</Difficulty_FriendlyFireChanceFactor_Label>
   <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
-  <Difficulty_FriendlyFireChanceFactor_Info>TODO</Difficulty_FriendlyFireChanceFactor_Info>
+  <Difficulty_FriendlyFireChanceFactor_Info>Ajusta a probabilidade de fogo amigo.\n\nNota: Esta definição apenas afeta os tiros diretos que atingiriam o alvo. Não evita danos causados por explosões ou por tiros que falhariam o alvo.</Difficulty_FriendlyFireChanceFactor_Info>
   <!-- EN: Colonist instant kills -->
-  <Difficulty_AllowInstantKillChance_Label>TODO</Difficulty_AllowInstantKillChance_Label>
+  <Difficulty_AllowInstantKillChance_Label>Mortes instantâneas do colono</Difficulty_AllowInstantKillChance_Label>
   <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
-  <Difficulty_AllowInstantKillChance_Info>TODO</Difficulty_AllowInstantKillChance_Info>
+  <Difficulty_AllowInstantKillChance_Info>Ajusta a probabilidade de um colono morrer instantaneamente devido a um ataque. O dano recebido é ajustado para derrubar o colono.\n\nIsto apenas evita alguns tipos de mortes instantâneas - os colonos ainda podem ser abatidos e sangrar até à morte, morrer por fogo, explosões, doenças e assim por diante.</Difficulty_AllowInstantKillChance_Info>
   <!-- EN: Infection chance -->
-  <Difficulty_PlayerPawnInfectionChanceFactor_Label>TODO</Difficulty_PlayerPawnInfectionChanceFactor_Label>
+  <Difficulty_PlayerPawnInfectionChanceFactor_Label>Probabilidade de infeção</Difficulty_PlayerPawnInfectionChanceFactor_Label>
   <!-- EN: Adjust the chance that a wound will become infected. -->
-  <Difficulty_PlayerPawnInfectionChanceFactor_Info>TODO</Difficulty_PlayerPawnInfectionChanceFactor_Info>
+  <Difficulty_PlayerPawnInfectionChanceFactor_Info>Ajuste a hipótese de uma ferida tornar-se infetada.</Difficulty_PlayerPawnInfectionChanceFactor_Info>
   <!-- EN: Disease frequency -->
-  <Difficulty_DiseaseIntervalFactor_Inverted_Label>TODO</Difficulty_DiseaseIntervalFactor_Inverted_Label>
+  <Difficulty_DiseaseIntervalFactor_Inverted_Label>Frequência das doenças</Difficulty_DiseaseIntervalFactor_Inverted_Label>
   <!-- EN: Adjust the frequency of random disease events. -->
-  <Difficulty_DiseaseIntervalFactor_Inverted_Info>TODO</Difficulty_DiseaseIntervalFactor_Inverted_Info>
+  <Difficulty_DiseaseIntervalFactor_Inverted_Info>Ajusta a frequência de eventos aleatórios de doenças.</Difficulty_DiseaseIntervalFactor_Inverted_Info>
   <!-- EN: Insect spawning rate -->
-  <Difficulty_EnemyReproductionRateFactor_Label>TODO</Difficulty_EnemyReproductionRateFactor_Label>
+  <Difficulty_EnemyReproductionRateFactor_Label>Taxa de nascimento de insetos</Difficulty_EnemyReproductionRateFactor_Label>
   <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
-  <Difficulty_EnemyReproductionRateFactor_Info>TODO</Difficulty_EnemyReproductionRateFactor_Info>
+  <Difficulty_EnemyReproductionRateFactor_Info>Ajusta a taxa a que as colmeias de insetos existentes geram novos insetos. Valores mais baixos significam mais tempo entre os eventos de desova.\n\nIsto não afeta a possibilidade de ocorrência de infestações - apenas a velocidade com que as colmeias ativas produzem insetos.</Difficulty_EnemyReproductionRateFactor_Info>
   <!-- EN: Deep drilling infestations -->
-  <Difficulty_DeepDrillInfestationChanceFactor_Label>TODO</Difficulty_DeepDrillInfestationChanceFactor_Label>
+  <Difficulty_DeepDrillInfestationChanceFactor_Label>Infestações de perfuração profunda</Difficulty_DeepDrillInfestationChanceFactor_Label>
   <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
-  <Difficulty_DeepDrillInfestationChanceFactor_Info>TODO</Difficulty_DeepDrillInfestationChanceFactor_Info>
+  <Difficulty_DeepDrillInfestationChanceFactor_Info>Ajuste a hipótese de que a perfuração profunda provoque uma infestação.</Difficulty_DeepDrillInfestationChanceFactor_Info>
   <!-- EN: Map generation ancient threats -->
-  <Difficulty_PeacefulTemples_Inverted_Label>TODO</Difficulty_PeacefulTemples_Inverted_Label>
+  <Difficulty_PeacefulTemples_Inverted_Label>Ameaças antigas na geração de mapas</Difficulty_PeacefulTemples_Inverted_Label>
   <!-- EN: Ancient structures may contain dangerous threats. -->
-  <Difficulty_PeacefulTemples_Inverted_Info>TODO</Difficulty_PeacefulTemples_Inverted_Info>
+  <Difficulty_PeacefulTemples_Inverted_Info>As estruturas antigas podem conter ameaças perigosas.</Difficulty_PeacefulTemples_Inverted_Info>
   <!-- EN: Map generation natural hives -->
-  <Difficulty_AllowCaveHives_Label>TODO</Difficulty_AllowCaveHives_Label>
+  <Difficulty_AllowCaveHives_Label>Colmeias naturais na geração de mapas</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
-  <Difficulty_AllowCaveHives_Info>TODO</Difficulty_AllowCaveHives_Info>
+  <Difficulty_AllowCaveHives_Info>As colmeias de insetos dormentes (Dormant) podem aparecer em grutas naturais.\n\nEsta definição aplica-se apenas à geração de mapas e não afeta os insetos ativos que possam entrar em túneis durante o jogo.</Difficulty_AllowCaveHives_Info>
   <!-- EN: Add unwavering prisoners -->
-  <Difficulty_UnwaveringPrisoners_Label>TODO</Difficulty_UnwaveringPrisoners_Label>
+  <Difficulty_UnwaveringPrisoners_Label>Adicionar prisioneiros inabaláveis</Difficulty_UnwaveringPrisoners_Label>
   <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
-  <Difficulty_UnwaveringPrisoners_Info>TODO</Difficulty_UnwaveringPrisoners_Info>
+  <Difficulty_UnwaveringPrisoners_Info>Esta opção adiciona prisioneiros capturáveis adicionais ao jogo que não podem ser recrutados devido à lealdade inabalável.\n\nPrisioneiros inabaláveis são adicionados aos prisioneiros normais, portanto, desativar esta opção não dará mais prisioneiros recrutáveis - simplesmente remove os inabaláveis.\n\nOs prisioneiros inabaláveis ainda podem ser libertados para ganhos diplomáticos, vendidos, escravizados, extraídos para obter órgãos ou de outra forma utilizados. Em geral, oferecem mais opções e funcionalidades, e tornam o jogo um pouco mais rico e fácil.</Difficulty_UnwaveringPrisoners_Info>
 
   <!-- EN: Player tools -->
-  <DifficultyPlayerToolsSection>TODO</DifficultyPlayerToolsSection>
+  <DifficultyPlayerToolsSection>Ferramentas de jogador</DifficultyPlayerToolsSection>
   <!-- EN: Player can build traps -->
-  <Difficulty_AllowTraps_Label>TODO</Difficulty_AllowTraps_Label>
+  <Difficulty_AllowTraps_Label>Jogador pode construir armadilhas</Difficulty_AllowTraps_Label>
   <!-- EN: Player can build traps like spike traps and IED traps. -->
-  <Difficulty_AllowTraps_Info>TODO</Difficulty_AllowTraps_Info>
+  <Difficulty_AllowTraps_Info>O jogador pode construir armadilhas como armadilhas de espinhos e armadilhas IED.</Difficulty_AllowTraps_Info>
   <!-- EN: Player can build turrets -->
-  <Difficulty_AllowTurrets_Label>TODO</Difficulty_AllowTurrets_Label>
+  <Difficulty_AllowTurrets_Label>Jogador pode construir torres</Difficulty_AllowTurrets_Label>
   <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
-  <Difficulty_AllowTurrets_Info>TODO</Difficulty_AllowTurrets_Info>
+  <Difficulty_AllowTurrets_Info>O jogador pode construir torres estáticas como mini-torres, torres de canhão automático e torres de bala de urânio.\n\nPode ainda utilizar torres capturadas mesmo que esta opção esteja desativada.</Difficulty_AllowTurrets_Info>
   <!-- EN: Player can build mortars -->
-  <Difficulty_AllowMortars_Label>TODO</Difficulty_AllowMortars_Label>
+  <Difficulty_AllowMortars_Label>Jogador pode construir morteiros</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
-  <Difficulty_AllowMortars_Info>TODO</Difficulty_AllowMortars_Info>
+  <Difficulty_AllowMortars_Info>O jogador pode construir morteiros.\n\nPode ainda utilizar morteiros capturados mesmo que esta opção esteja desativada.</Difficulty_AllowMortars_Info>
   <!-- EN: Classic mortars -->
-  <Difficulty_ClassicMortars_Label>TODO</Difficulty_ClassicMortars_Label>
+  <Difficulty_ClassicMortars_Label>Morteiros clássicos</Difficulty_ClassicMortars_Label>
   <!-- EN: Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access. -->
-  <Difficulty_ClassicMortars_Info>TODO</Difficulty_ClassicMortars_Info>
+  <Difficulty_ClassicMortars_Info>Os morteiros não requerem barris reforçados para serem construídos ou recarregados e são equilibrados para facilitar o acesso.</Difficulty_ClassicMortars_Info>
   
   <!-- EN: Adaptation -->
-  <DifficultyAdaptationSection>TODO</DifficultyAdaptationSection>
+  <DifficultyAdaptationSection>Adaptação</DifficultyAdaptationSection>
   <!-- EN: Adaptation growth rate -->
-  <Difficulty_AdaptationGrowthRateFactorOverZero_Label>TODO</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Label>Taxa de crescimento da adaptação</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
   <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how fast the adaptation score grows over time. -->
-  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>TODO</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>A adaptação significa que o narrador IA torna o jogo mais desafiante quando estás a dar-te bem. Uma pontuação de adaptação aumenta com o tempo e é reduzida quando sofres dano.\n\nEsta definição ajusta a rapidez com que a pontuação de adaptação cresce ao longo do tempo.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
   <!-- EN: Adaptation impact -->
-  <Difficulty_AdaptationEffectFactor_Label>TODO</Difficulty_AdaptationEffectFactor_Label>
+  <Difficulty_AdaptationEffectFactor_Label>Impacto da adaptação</Difficulty_AdaptationEffectFactor_Label>
   <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how much the adaptation score affects the difficulty. -->
-  <Difficulty_AdaptationEffectFactor_Info>TODO</Difficulty_AdaptationEffectFactor_Info>
+  <Difficulty_AdaptationEffectFactor_Info>A adaptação significa que o narrador IA torna o jogo mais desafiante quando estás a dar-te bem. Uma pontuação de adaptação aumenta com o tempo e é reduzida quando sofres dano.\n\nEsta definição ajusta o quanto a pontuação de adaptação afeta a dificuldade.</Difficulty_AdaptationEffectFactor_Info>
   <!-- EN: Wealth-independent progress mode -->
-  <Difficulty_FixedWealthMode_Label>TODO</Difficulty_FixedWealthMode_Label>
+  <Difficulty_FixedWealthMode_Label>Modo de progresso independente da riqueza</Difficulty_FixedWealthMode_Label>
   <!-- EN: Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
-  <Difficulty_FixedWealthMode_Info>TODO</Difficulty_FixedWealthMode_Info>
+  <Difficulty_FixedWealthMode_Info>Joga num modo de progresso independente da riqueza.\n\nNo modo normal, o narrador IA escala as ameaças de acordo com a contagem de colonos, a riqueza do jogador e uma variedade de outros fatores. O modo independente de riqueza remove o fator riqueza e substitui-o por uma curva de progresso fixa baseada no tempo. O tempo é contado a partir da fundação de cada colónia.\n\nIsto só é recomendado para quem procura um desafio de habilidade rigoroso. No modo independente de riqueza, pode ser quase impossível recuperar de perdas graves, a menos que encontre um novo acordo. Também é possível chegar muito à frente da curva e achar o jogo muito fácil.</Difficulty_FixedWealthMode_Info>
   <!-- EN: Years until maximum threat -->
-  <Difficulty_FixedWealthTimeFactor_Label>TODO</Difficulty_FixedWealthTimeFactor_Label>
+  <Difficulty_FixedWealthTimeFactor_Label>Anos até à ameaça máxima</Difficulty_FixedWealthTimeFactor_Label>
   <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->
-  <Difficulty_FixedWealthTimeFactor_Info>TODO</Difficulty_FixedWealthTimeFactor_Info>
+  <Difficulty_FixedWealthTimeFactor_Info>O número de anos de jogo até que o modo independente de riqueza atinja o seu nível máximo de ameaça.\n\nNote que o narrador IA ainda irá escalar as ameaças de acordo com a contagem de colonos e uma variedade de outros fatores.</Difficulty_FixedWealthTimeFactor_Info>
 
   <!-- EN: Ideology -->
-  <DifficultyIdeologySection>TODO</DifficultyIdeologySection>
+  <DifficultyIdeologySection>Ideologia (Ideology)</DifficultyIdeologySection>
   <!-- EN: Low pop conversion boost -->
-  <Difficulty_LowPopConversionBoost_Label>TODO</Difficulty_LowPopConversionBoost_Label>
+  <Difficulty_LowPopConversionBoost_Label>Impulso de Conversão Inicial</Difficulty_LowPopConversionBoost_Label>
   <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to their ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
-  <Difficulty_LowPopConversionBoost_Info>TODO</Difficulty_LowPopConversionBoost_Info>
+  <Difficulty_LowPopConversionBoost_Info>Com um único colono da ideologia inicial do jogador, a chance de conversão para a tua ideologia é multiplicada por esse valor. As tentativas de conversão contra ele têm o seu impacto dividido por esse valor.\n\nCom dois colonos da ideologia inicial do jogador, o efeito é reduzido pela metade.\n\nCom três ou mais colonos da ideologia inicial do jogador, não tem efeito.</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
-  <SelectStartingSite>Selecciona um local para começar</SelectStartingSite>
+  <SelectStartingSite>Seleciona um local para começar</SelectStartingSite>
   <!-- EN: Select random site -->
-  <SelectRandomSite>Seleccionar local ao acaso</SelectRandomSite>
+  <SelectRandomSite>Selecionar local ao acaso</SelectRandomSite>
   <!-- EN: Select site -->
-  <SelectSite>Selecciona o local</SelectSite>
+  <SelectSite>Seleciona o local</SelectSite>
   <!-- EN: Please select a site. -->
   <MustSelectStartingSite>Por favor seleciona um local.</MustSelectStartingSite>
   <!-- EN: You cannot land on this biome: {0} -->
@@ -541,7 +541,7 @@
   <!-- EN: Biome not implemented -->
   <BiomeNotImplemented>Bioma não implementado</BiomeNotImplemented>
   <!-- EN: You cannot land on impassable mountains. -->
-  <CannotLandImpassableMountains>TODO</CannotLandImpassableMountains>
+  <CannotLandImpassableMountains>Não pode aterrar em montanhas intransponíveis.</CannotLandImpassableMountains>
   <!-- EN: {0} already have a base there. -->
   <BaseAlreadyThere>{0} já tem uma base aí.</BaseAlreadyThere>
   <!-- EN: You already have a base there. -->
@@ -693,7 +693,7 @@
   <!-- EN: Back -->
   <Back>Voltar</Back>
   <!-- EN: Change material... -->
-  <ShowMaterials>TODO</ShowMaterials>
+  <ShowMaterials>Mudar material...</ShowMaterials>
   <!-- EN: Gameplay -->
   <Gameplay>Jogabilidade</Gameplay>
   <!-- EN: Really quit? You'll lose unsaved progress. -->
