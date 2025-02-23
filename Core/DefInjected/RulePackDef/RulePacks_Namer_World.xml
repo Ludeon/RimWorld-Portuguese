@@ -1,6 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+  <!-- EN:
+    <li>celestial_name->Names/Celestial</li>
+    <li>celestial_suffix->Names/CelestialSuffix</li>
+    <li>celestial_prefix->Names/CelestialPrefix</li>
+  -->
+  <NamerWorld.rulePack.rulesFiles>&lt;li&gt;celestial_name-&gt;Nomes/Celestial&lt;/li&gt;\n&lt;li&gt;celestial_suffix-&gt;Nomes/CelestialSuffix&lt;/li&gt;\n&lt;li&gt;celestial_prefix-&gt;Nomes/CelestialPrefix&lt;/li&gt;\n</NamerWorld.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name->[celestial_name]</li>
     <li>r_name->[celestial_prefix] [celestial_name]</li>
@@ -23,12 +28,5 @@
     <li>planet->World</li>
     <li>planet->Planet</li>
   -->
-  <NamerWorld.rulePack.rulesStrings>
-    <li>name->[celestialname]</li>
-    <li>name->[celestialprefix] [celestialname]</li>
-    <li>name->[celestialname] [romannumeral]</li>
-    <li>name->[celestialname] [celestialname]</li>
-    <li>name->[celestialname] [celestialsuffix]</li>
-  </NamerWorld.rulePack.rulesStrings>
-  
+  <NamerWorld.rulePack.rulesStrings>&lt;li&gt;r_name-&gt;[celestial_name]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[celestial_prefix] [celestial_name]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[celestial_name] [celestial_suffix]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[world_name_numeric]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[world_name_numeric] [celestial_suffix]&lt;/li&gt;\n&lt;li&gt;r_name(p=0.5)-&gt;[celestial_name] [RomanNumeral]&lt;/li&gt;\n&lt;li&gt;r_name(p=0.5)-&gt;[celestial_name]-[RomanNumeral]&lt;/li&gt;\n&lt;li&gt;r_name(p=0.5)-&gt;[celestial_name]-[numbers]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[celestial_name] [celestial_name]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[NamePerson]'s [planet]&lt;/li&gt;\n&lt;li&gt;world_name_numeric-&gt;[letters]-[números]&lt;/li&gt;\n&lt;li&gt;world_name_numeric-&gt;[letters] [números]&lt;/li&gt;\n&lt;li&gt;letters-&gt;[Carta]&lt;/li&gt;\n&lt;li&gt;letters-&gt;[Carta][Carta]&lt;/li&gt;\n&lt;li&gt;letters-&gt;[Carta][Carta][Carta]\n&lt;li&gt;numbers-&gt;[Digit]&lt;/li&gt;\n&lt;li&gt;numbers-&gt;[Digit][Digit]&lt;/li&gt;\n&lt;li&gt;numbers-&gt;[Digit][Digit][Digit]&lt;/li&gt;\n&lt;li&gt;planet-&gt;World&lt;/li&gt;\n&lt;li&gt;planet-&gt;Planet&lt;/li&gt;\n</NamerWorld.rulePack.rulesStrings>
 </LanguageData>

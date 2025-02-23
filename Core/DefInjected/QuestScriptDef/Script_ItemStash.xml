@@ -1,11 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>questDescription(askerIsNull==true)->We've intercepted messages about a collection of valuable items worth [itemStashContentsValue] not far from [map_definite]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
   -->
-  <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>TODO</OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
+  <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>&lt;li&gt;questDescription (askerIsNull=true)-&gt; Interceptamos mensagens sobre uma coleção de itens valiosos que valem [itemStashContentsValue] não muito longe de [map_definite]. A coleção consiste em:\n\n[itemStashContents]\n\nParece que [allSitePartsDescriptionsExceptFirst]&lt;/li&gt;\n&lt;li&gt;questDescription(asker_factionLeader==True)-&gt;[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], nos informou de uma coleção de itens valiosos no valor [itemStashContentsValue] não muito longe de nós. A coleção consiste em:\n\n[itemStashContents]\n\n[asker_label] diz que [allSitePartsDescriptionsExceptFirst]&lt;/li&gt;\n</OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>
     <li>questName->[stash] of [treasure]</li>
@@ -19,10 +18,9 @@
     <li>treasure->Goodies</li>
     <li>treasure->Supplies</li>
   -->
-  <OpportunitySite_ItemStash.questNameRules.rulesStrings>TODO</OpportunitySite_ItemStash.questNameRules.rulesStrings>
+  <OpportunitySite_ItemStash.questNameRules.rulesStrings>&lt;li&gt;questName(priority=1)-&gt;[asker_nameDef]'s [stash] of [treasure]&lt;/li&gt;\n&lt;li&gt;questName-&gt;[stash] de [treasure]&lt;/li&gt;\n&lt;li&gt;stash-&gt;Stash&lt;/li&gt;\n&lt;li&gt;stash-&gt;Cache&lt;/li&gt;\n&lt;li&gt;stash-&gt;Collection&lt;/li&gt;\n&lt;li&gt;stash-&gt;Shack&lt;/li&gt;\n&lt;li&gt;treasure-&gt;Treasure&lt;/li&gt;\n&lt;li&gt;treasure-&gt;Valuables&lt;/li&gt;\n&lt;li&gt;treasure-&gt;Fortune&lt;/li&gt;\n&lt;li&gt;treasure-&gt;Goodies&lt;/li&gt;\n&lt;li&gt;treasure-&gt;Supplies&lt;/li&gt;\n</OpportunitySite_ItemStash.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>TODO</OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>Quest expirou: [resolvedQuestName]</OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>TODO</OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>
-  
+  <OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>Comunicações intercetadas indicam que o item stash foi reivindicado por outros. A busca [resolvedQuestName] expirou.</OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>
 </LanguageData>

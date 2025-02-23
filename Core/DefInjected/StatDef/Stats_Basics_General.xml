@@ -1,90 +1,73 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: beauty -->
   <Beauty.label>beleza</Beauty.label>
   <!-- EN: How enjoyable an object is to look at.\n\nBeautiful objects fulfill characters' need for beauty. -->
-  <Beauty.description>Quão agradável é estar perto e olhar para o objecto.</Beauty.description>
-  
+  <Beauty.description>Como um objeto é agradável para olhar.\n\nBons objetos cumprem a necessidade de beleza dos personagens.</Beauty.description>
   <!-- EN: outdoor beauty -->
-  <BeautyOutdoors.label>TODO</BeautyOutdoors.label>
+  <BeautyOutdoors.label>beleza ao ar livre</BeautyOutdoors.label>
   <!-- EN: How enjoyable something is to look at if it's outside.\n\nBeautiful objects fulfill peoples' need for beauty. -->
-  <BeautyOutdoors.description>TODO</BeautyOutdoors.description>
-  
+  <BeautyOutdoors.description>Como algo agradável é olhar se está lá fora.\n\nObjetos bonitos cumprem a necessidade de beleza das pessoas.</BeautyOutdoors.description>
   <!-- EN: cleanliness -->
-  <Cleanliness.label>cleanliness</Cleanliness.label>
+  <Cleanliness.label>limpeza</Cleanliness.label>
   <!-- EN: How much an object contributes to an area's cleanliness score. -->
-  <Cleanliness.description>How clean an object is.</Cleanliness.description>
-  
+  <Cleanliness.description>Quanto um objeto contribui para a pontuação de limpeza de uma área.</Cleanliness.description>
   <!-- EN: comfort -->
-  <Comfort.label>comfort</Comfort.label>
+  <Comfort.label>conforto</Comfort.label>
   <!-- EN: How comfortable an object is to sit or lay on.\n\nUsing comfortable objects fulfills a character's need for comfort. -->
-  <Comfort.description>How comfortble an object is to sit or lay on.</Comfort.description>
-  
+  <Comfort.description>Quão confortável um objeto é sentar-se ou deitar-se.\n\nUsar objetos confortáveis cumpre a necessidade de um personagem para o conforto.</Comfort.description>
   <!-- EN: deterioration rate -->
-  <DeteriorationRate.label>deterioration rate</DeteriorationRate.label>
-  <!-- EN: The rate at which this item deteriorates when left outside, in average hit points per day.\n\nDeterioration rate is also affected by things like weather, roofs, toxic fallout, or being left in shallow water. -->
-  <DeteriorationRate.description>The rate at which this item deteriorates when left outside, especially in the rain.</DeteriorationRate.description>
+  <DeteriorationRate.label>taxa de deterioração</DeteriorationRate.label>
+  <!-- EN: The rate at which this item deteriorates when left outside, in average hit points per day.\n\nDeterioration rate is also affected by things like weather, roofs, toxic fallout, pollution or being left in shallow water. -->
+  <DeteriorationRate.description>A taxa em que este item se deteriora quando deixada fora, em pontos médios de impacto por dia.\n\nA taxa de deterioração também é afetada por coisas como clima, telhados, queda tóxica, poluição ou ser deixado em águas rasas.</DeteriorationRate.description>
   <!-- EN: {0} / day -->
-  <DeteriorationRate.formatString>TODO</DeteriorationRate.formatString>
-  
+  <DeteriorationRate.formatString>{0} / dia</DeteriorationRate.formatString>
   <!-- EN: flammability -->
-  <Flammability.label>flamabilidade</Flammability.label>
+  <Flammability.label>inflamabilidade</Flammability.label>
   <!-- EN: How easily an object catches fire and how quickly a fire will grow as it burns. -->
-  <Flammability.description>Quão facilmente um objecto pega fogo e o quão forte arde.</Flammability.description>
-  
+  <Flammability.description>Quão facilmente um objeto pega fogo e quão rapidamente um fogo crescerá enquanto queima.</Flammability.description>
   <!-- EN: food poison chance -->
-  <FoodPoisonChanceFixedHuman.label>TODO</FoodPoisonChanceFixedHuman.label>
+  <FoodPoisonChanceFixedHuman.label>chance de veneno alimentar</FoodPoisonChanceFixedHuman.label>
   <!-- EN: The chance this food will cause food poisoning. -->
-  <FoodPoisonChanceFixedHuman.description>TODO</FoodPoisonChanceFixedHuman.description>
+  <FoodPoisonChanceFixedHuman.description>A hipótese desta comida causar intoxicação alimentar.</FoodPoisonChanceFixedHuman.description>
   <!-- EN: food poison chance (food stat) -->
-  <FoodPoisonChanceFixedHuman.labelForFullStatList>TODO</FoodPoisonChanceFixedHuman.labelForFullStatList>
-  
+  <FoodPoisonChanceFixedHuman.labelForFullStatList>chance de veneno alimentar (estat alimentar)</FoodPoisonChanceFixedHuman.labelForFullStatList>
   <!-- EN: market value -->
   <MarketValue.label>valor de mercado</MarketValue.label>
   <!-- EN: The market value of an object.\n\nThe actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors. -->
-  <MarketValue.description>O valor de mercado de um objecto. O valor atual da troca será modificado pelo estado do relacionamento e da habilidade de negociação.</MarketValue.description>
-  
+  <MarketValue.description>O valor de mercado de um objeto.\n\nO preço comercial real será ajustado pela habilidade de negociação, status de relacionamento e outros fatores contextuais.</MarketValue.description>
   <!-- EN: market value ignoring hitpoints -->
-  <MarketValueIgnoreHp.label>TODO</MarketValueIgnoreHp.label>
-  
+  <MarketValueIgnoreHp.label>valor de mercado ignorando pontos de acesso</MarketValueIgnoreHp.label>
   <!-- EN: mass -->
-  <Mass.label>TODO</Mass.label>
+  <Mass.label>massa</Mass.label>
   <!-- EN: The physical mass of an object. -->
-  <Mass.description>TODO</Mass.description>
+  <Mass.description>A massa física de um objeto.</Mass.description>
   <!-- EN: {0} kg -->
-  <Mass.formatString>TODO</Mass.formatString>
-  
+  <Mass.formatString>{0} kg</Mass.formatString>
   <!-- EN: max hit points -->
-  <MaxHitPoints.label>max hit points</MaxHitPoints.label>
+  <MaxHitPoints.label>pontos de acesso máximo</MaxHitPoints.label>
   <!-- EN: The maximum hit points of an object.\n\nThis represents how much damage it can take before being destroyed. -->
-  <MaxHitPoints.description>The maximum hit points of an object. This represents how much damage it can take before being destroyed.</MaxHitPoints.description>
-  
+  <MaxHitPoints.description>Os pontos máximos de um objeto.\n\nIsso representa quanto dano pode levar antes de ser destruído.</MaxHitPoints.description>
   <!-- EN: nutrition -->
-  <Nutrition.label>TODO</Nutrition.label>
+  <Nutrition.label>nutrição</Nutrition.label>
   <!-- EN: How nutritious this food is. -->
-  <Nutrition.description>TODO</Nutrition.description>
-  
+  <Nutrition.description>Como esta comida é nutritiva.</Nutrition.description>
   <!-- EN: honor value -->
-  <RoyalFavorValue.label>TODO</RoyalFavorValue.label>
+  <RoyalFavorValue.label>valor de honra</RoyalFavorValue.label>
   <!-- EN: The amount of honor your trader will earn for giving this to a tribute collector. -->
-  <RoyalFavorValue.description>TODO</RoyalFavorValue.description>
-  
+  <RoyalFavorValue.description>A quantidade de honra que seu comerciante vai ganhar para dar isso a um colecionador de tributo.</RoyalFavorValue.description>
   <!-- EN: sell price multiplier -->
-  <SellPriceFactor.label>sell price multiplier</SellPriceFactor.label>
+  <SellPriceFactor.label>multiplicador de preço de venda</SellPriceFactor.label>
   <!-- EN: A multiplier on the price at which you can sell items. -->
-  <SellPriceFactor.description>A multiplier on the price at which you can sell items.</SellPriceFactor.description>
-  
+  <SellPriceFactor.description>Um multiplicador no preço em que você pode vender itens.</SellPriceFactor.description>
   <!-- EN: shooting accuracy -->
-  <ShootingAccuracyTurret.label>TODO</ShootingAccuracyTurret.label>
+  <ShootingAccuracyTurret.label>precisão de disparo</ShootingAccuracyTurret.label>
   <!-- EN: Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
-  <ShootingAccuracyTurret.description>TODO</ShootingAccuracyTurret.description>
+  <ShootingAccuracyTurret.description>Chance base para não perder por célula de distância de tiro.\n\nA chance de acertar também é afetada por muitos outros fatores. Uma explicação de chance de sucesso para qualquer tiro pode ser visto selecionando um atirador e esfregando sobre um alvo.</ShootingAccuracyTurret.description>
   <!-- EN: shooting accuracy (turrets) -->
-  <ShootingAccuracyTurret.labelForFullStatList>TODO</ShootingAccuracyTurret.labelForFullStatList>
-  
+  <ShootingAccuracyTurret.labelForFullStatList>precisão de tiro (turrets)</ShootingAccuracyTurret.labelForFullStatList>
   <!-- EN: work to make -->
-  <WorkToMake.label>work to make</WorkToMake.label>
+  <WorkToMake.label>trabalhar para fazer</WorkToMake.label>
   <!-- EN: The base amount of work it takes to make an item, once all materials are gathered. -->
-  <WorkToMake.description>The base amount of work it takes to make this, once all materials and tools are gathered.</WorkToMake.description>
-  
+  <WorkToMake.description>A quantidade base de trabalho que leva para fazer um item, uma vez que todos os materiais são reunidos.</WorkToMake.description>
 </LanguageData>

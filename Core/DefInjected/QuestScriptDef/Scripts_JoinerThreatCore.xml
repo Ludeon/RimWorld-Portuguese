@@ -1,12 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>questDescription->[introduction] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] is being chased by [enemyFaction_pawnsPlural] from [enemyFaction_name]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept, you'll have to fight off [enemyFaction_pawnsPluralDef] on [joiner_possessive] tail. The group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] is too frantic to offer more information.</li>
     <li>introduction(childCount==1,priority=1)->A [joiner_age]-year-old child</li>
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
-  <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>TODO</ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
+  <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>&lt;li&gt;questDescription-&gt;[introdução] nomeado [joiner_nameDef] está chamando de perto. [joiner_pronoun] está sendo perseguido por [enemyFaction_pawnsPlural] de [enemyFaction_name]!\n\n[joiner_pronoun] pede segurança e oferece para se juntar a você em [map_definite].[joiner_relation Info]\n\nSe você aceitar, você terá que lutar [enemyFaction_pawnsPluralDef] na cauda [joiner_possessive]. O grupo de [enemyFaction_pawnsPlural] é composto por:\n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] é muito frenético para oferecer mais informações.&lt;/li&gt;\n&lt;li&gt;introdução (childCount=1,priority=1)-&gt; Uma criança [joiner_age] de anos &lt;/li&gt;\n&lt;li&gt;introdução-&gt; A [joiner_age]-year-old [joiner_title]&lt;/li&gt;\n</ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [runnerIndef]</li>
     <li>questName->The Salvation of [runnerIndef]</li>
@@ -22,10 +21,9 @@
     <li>runnerIndef->a Refugee</li>
     <li>runnerIndef(childCount==1,priority=1)->a child</li>
   -->
-  <ThreatReward_Raid_Joiner.questNameRules.rulesStrings>TODO</ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
+  <ThreatReward_Raid_Joiner.questNameRules.rulesStrings>&lt;li&gt;questName-&gt;Saving [runnerIndef]&lt;/li&gt;\n&lt;li&gt;questName-&gt;A Salvação de [runnerIndef]&lt;/li&gt;\n&lt;li&gt;questNome-&gt;Ajudando [runnerIndef]&lt;/li&gt;\n&lt;li&gt;questName-&gt;Accepting [runnerIndef]&lt;/li&gt;\n&lt;li&gt;questName-&gt;[enemyFaction_pawnsPlural] caça [runnerIndef]&lt;/li&gt;\n&lt;li&gt;questName-&gt;[runnerIndef] no Run&lt;/li&gt;\n&lt;li&gt;questName-&gt;[runnerIndef] Procura um Home&lt;/li&gt;\n&lt;li&gt;questName-&gt;[runnerIndef] Perseguido por [enemyFaction_pawnsPlural]&lt;/li&gt;\n&lt;li&gt;questName-&gt;[runnerIndef] e [enemyFaction_pawnsPlural]&lt;/li&gt;\n&lt;li&gt;runnerIndef-&gt;[joiner_titleIndef]&lt;/li&gt;\n&lt;li&gt;runnerIndef-&gt;[joiner_nameIndef]&lt;/li&gt;\n&lt;li&gt;runnerIndef-&gt;a Refugiados &lt;/li&gt;\n&lt;li&gt;runnerIndef(childCount=1,priority=1)-&gt;a child&lt;/li&gt;\n</ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
-  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>TODO</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>
+  <ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL} perseguindo [./joiner_nameDef]</ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>
   <!-- EN: {BASETEXT}\n              \nThe [enemyFaction_pawnsPlural] have come to get [../joiner_nameDef]. -->
-  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>TODO</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>
-  
+  <ThreatReward_Raid_Joiner.LetterTextChasing.value.slateRef>(BASETEXT)\n\nO [enemyFaction_pawnsPlural] veio para obter [../joiner_nameDef].</ThreatReward_Raid_Joiner.LetterTextChasing.value.slateRef>
 </LanguageData>

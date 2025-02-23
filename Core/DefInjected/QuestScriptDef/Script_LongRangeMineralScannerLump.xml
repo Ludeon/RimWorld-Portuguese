@@ -1,10 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.[lumpThreatDescription]</li>
   -->
-  <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>TODO</LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
+  <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>&lt;li&gt;questDescription-&gt; Usando seu scanner mineral de longo alcance, [worker_definite] encontrou um pedaço de [targetMineable_label] nas proximidades.\n\nInfelizmente, nÃ£o durarÃ¡ - outros o minÃ£o primeiro em [timeoutTicks_duration] se nÃ£o o fizermos. [lumpThreatDescription]&lt;/li&gt;\n</LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[lump] of [targetMineableThing_label]</li>
     <li>questName->[targetMineableThing_label] [lump]</li>
@@ -26,10 +25,9 @@
     <li>discovered->found</li>
     <li>discovered->scanned</li>
   -->
-  <LongRangeMineralScannerLump.questNameRules.rulesStrings>TODO</LongRangeMineralScannerLump.questNameRules.rulesStrings>
+  <LongRangeMineralScannerLump.questNameRules.rulesStrings>&lt;li&gt;questName-&gt;[lump] de [targetMineableThing_label]&lt;/li&gt;\n&lt;li&gt;questName-&gt;[targetMineableThing_label] [lump]&lt;/li&gt;\n&lt;li&gt;questNome-&gt;The [targetMineableThing_label] [lump]&lt;/li&gt;\n&lt;li&gt;questName-&gt;[adj] [targetMineableThing_label]&lt;/li&gt;\n&lt;li&gt;questNome-&gt;[targetMineableThing_label] [descoberto]&lt;/li&gt;\n&lt;li&gt;lump-&gt;lump&lt;/li&gt;\n&lt;li&gt;lump-&gt;pile&lt;/li&gt;\n&lt;li&gt;lump-&gt;deposit&lt;/li&gt;\n&lt;li&gt;lump-&gt;seam&lt;/li&gt;\n&lt;li&gt;lump-&gt;chunk&lt;/li&gt;\n&lt;li&gt;lump-&gt;pile&lt;/li&gt;\n&lt;li&gt;adj-&gt;distant&lt;/li&gt;\n&lt;li&gt;adj-&gt;far&lt;/li&gt;\n&lt;li&gt;adj-&gt;unknown&lt;/li&gt;\n&lt;li&gt;adj-&gt;scanned&lt;/li&gt;\n&lt;li&gt;descoberto-&gt;descoberto&lt;/li&gt;\n&lt;li&gt;discovered-&gt;detected&lt;/li&gt;\n&lt;li&gt;discovered-&gt;found&lt;/li&gt;\n&lt;li&gt;discovered-&gt;scanned&lt;/li&gt;\n</LongRangeMineralScannerLump.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>TODO</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>
+  <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>Quest expirou: [resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>
   <!-- EN: Others have mined the lump of [targetMineable_label]. The quest [resolvedQuestName] has expired. -->
-  <LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>TODO</LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>
-  
+  <LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>Outros minaram o pedaço de [targetMineable_label]. A busca [resolvedQuestName] expirou.</LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>
 </LanguageData>

@@ -1,16 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] used [ABILITY_label] on [SUBJECT_definite].</li>
   -->
-  <Event_AbilityUsed.rulePack.rulesStrings>TODO</Event_AbilityUsed.rulePack.rulesStrings>
-  
+  <Event_AbilityUsed.rulePack.rulesStrings>&lt;li&gt;r_logentry-&gt;[INITIATOR_definite] usado [ABILITY_label] em [SUBJECT_definite].&lt;/li&gt;\n</Event_AbilityUsed.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] used [ITEM_indefinite] on [SUBJECT_definite].</li>
   -->
-  <Event_ItemUsed.rulePack.rulesStrings>TODO</Event_ItemUsed.rulePack.rulesStrings>
-  
+  <Event_ItemUsed.rulePack.rulesStrings>&lt;li&gt;r_logentry-&gt;[INITIATOR_definite] usado [ITEM_indefinite] em [SUBJECT_definite].&lt;/li&gt;\n</Event_ItemUsed.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry->[SUBJECT_definite] was [stunned] by the attack.</li>
     <li>r_logentry->[SUBJECT_definite] was [stunned] by [INITIATOR_definite]'s attack.</li>
@@ -32,6 +29,5 @@
     <li>stumbled->wobbled</li>
     <li>stumbled->staggered</li>
   -->
-  <Event_Stun.rulePack.rulesStrings>TODO</Event_Stun.rulePack.rulesStrings>
-  
+  <Event_Stun.rulePack.rulesStrings>&lt;li&gt;r_logentry-&gt;[SUBJECT_definite] foi [atribuído] pelo ataque.&lt;/li&gt;\n&lt;li&gt;r_logentry-&gt;[SUBJECT_definite] foi [atribuído] pelo ataque [INITIATOR_definite].&lt;/li&gt;\n&lt;li&gt;stunned(p=3)-&gt;stunned&lt;/li&gt;\n&lt;li&gt;stunned-&gt;staggered&lt;/li&gt;\n&lt;li&gt;stunned-&gt;dazed&lt;/li&gt;\n&lt;li&gt;stunned-&gt;disoriented&lt;/li&gt;\n&lt;li&gt;r_logentry-&gt;[SUBJECT_definite] [apostado].&lt;/li&gt;\n&lt;li&gt;r_logentry-&gt;[SUBJECT_definite] [acionado] do ataque.&lt;/li&gt;\n&lt;li&gt;r_logentry-&gt;[SUBJECT_definite] [acionado] do ataque [INITIATOR_definite].&lt;/li&gt;\n&lt;li&gt; escalonado(p=3)-&gt; escalonado&lt;/li&gt;\n&lt;li&gt; escalonado-&gt;faltered&lt;/li&gt;\n&lt;li&gt; escalonado-&gt;wobbled&lt;/li&gt;\n&lt;li&gt; escalonado-&gt;onda&lt;/li&gt;\n&lt;li&gt;r_logentry-&gt;[SUBJECT_definite] [desintegrado] em torno de blearily.&lt;/li&gt;\n&lt;li&gt;r_logentry-&gt;[SUBJECT_definite] [desintegrado] em torno de confusão.&lt;/li&gt;\n&lt;li&gt;stumbled(p=3)-&gt;stumbled&lt;/li&gt;\n&lt;li&gt;stumbled-&gt;wavered&lt;/li&gt;\n&lt;li&gt;stumbled-&gt;wobbled&lt;/li&gt;\n&lt;li&gt;stumbled-&gt;staggered&lt;/li&gt;\n</Event_Stun.rulePack.rulesStrings>
 </LanguageData>

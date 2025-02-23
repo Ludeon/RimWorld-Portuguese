@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>scraped_present->glancing</li>
     <li>scraped_present->bouncing</li>
@@ -15,8 +14,7 @@
     <li>scraped_past->skipped</li>
     <li>scraped_past->skated</li>
   -->
-  <Combat_DeflectIncludes.rulePack.rulesStrings>TODO</Combat_DeflectIncludes.rulePack.rulesStrings>
-  
+  <Combat_DeflectIncludes.rulePack.rulesStrings>&lt;li&gt;scraped_present-&gt;glancing&lt;/li&gt;\n&lt;li&gt;scraped_present-&gt;bouncing&lt;/li&gt;\n&lt;li&gt;scraped_present-&gt;grazing&lt;/li&gt;\n&lt;li&gt;scraped_present-&gt;caroming&lt;/li&gt;\n&lt;li&gt;scraped_present-&gt;skipping&lt;/li&gt;\n&lt;li&gt;scraped_present-&gt;skating&lt;/li&gt;\n&lt;li&gt;scraped_past-&gt;glanced&lt;/li&gt;\n&lt;li&gt;scraped_past-&gt;bounced&lt;/li&gt;\n&lt;li&gt;scraped_past-&gt;grazed&lt;/li&gt;\n&lt;li&gt;scraped_past-&gt;caromed&lt;/li&gt;\n&lt;li&gt;scraped_past-&gt;skipped&lt;/li&gt;\n&lt;li&gt;scraped_past-&gt;skated&lt;/li&gt;\n</Combat_DeflectIncludes.rulePack.rulesStrings>
   <!-- EN:
     <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite]</li>
     <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite] with [implement]</li>
@@ -33,8 +31,7 @@
     <li>tried->tried</li>
     <li>tried->attempted</li>
   -->
-  <Combat_FailIncludes.rulePack.rulesStrings>TODO</Combat_FailIncludes.rulePack.rulesStrings>
-  
+  <Combat_FailIncludes.rulePack.rulesStrings>&lt;li&gt;action-&gt;[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite]&lt;/li&gt;\n&lt;li&gt;action-&gt;[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite] with [implement]&lt;/li&gt;\n&lt;li&gt;action-&gt;[INITIATOR_definite] [tried] para usar [implement] para [damaged_inf] [RECIPIENT_definite]&lt;/li&gt;\n&lt;li&gt;action-&gt;[INITIATOR_definite] swung [INITIATOR_possessive] [WEAPON_label] at [RECIPIENT_definite]&lt;/li&gt;\n&lt;li&gt;action(p=0.3)-&gt;[INITIATOR_definite] [verb_genericattack] [parawardsat] [RECIPIENT_definite] com [implement]&lt;/li&gt;\n&lt;li&gt;action(p=0.3)-&gt;[INITIATOR_definite] [verb_genericattack] [parawardsat] [RECIPIENT_definite]&lt;/li&gt;\n&lt;li&gt;action(p=0.3)-&gt;[INITIATOR_definite] [verb_genericattack] com [implementação]&lt;/li&gt;\n&lt;li&gt;towardsat-&gt;towards&lt;/li&gt;\n&lt;li&gt;towardsat-&gt;at&lt;/li&gt;\n&lt;li&gt;verb_genericattack-&gt;swung&lt;/li&gt;\n&lt;li&gt;verb_genericattack-&gt;flailed&lt;/li&gt;\n&lt;li&gt;verb_genericattack-&gt;thrashed&lt;/li&gt;\n&lt;li&gt;tried-&gt;tried&lt;/li&gt;\n&lt;li&gt;tried-&gt;attempted&lt;/li&gt;\n</Combat_FailIncludes.rulePack.rulesStrings>
   <!-- EN:
     <li>result(p=1)->[damaged_present] [RECIPIENT_possessive] [targetlist]</li>
     <li>result(p=0.2)->[damaged_present] [RECIPIENT_possessive] [targetlist] and [flavortext_consequence]</li>
@@ -48,8 +45,7 @@
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
     <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
   -->
-  <Combat_MeleeDamageIncludes.rulePack.rulesStrings>TODO</Combat_MeleeDamageIncludes.rulePack.rulesStrings>
-  
+  <Combat_MeleeDamageIncludes.rulePack.rulesStrings>&lt;li&gt;result(p=1)-&gt;[damaged_present] [RECIPIENT_possessive] [targetlist]&lt;/li&gt;\n&lt;li&gt;result(p=0.2)-&gt;[damaged_present] [RECIPIENT_possessive] [targetlist] e [flavortext_consequence]&lt;/li&gt;\n&lt;li&gt;result(p=0.1)-&gt;[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]&lt;/li&gt;\n&lt;li&gt;strikeAdv-&gt;painfully&lt;/li&gt;\n&lt;li&gt;strikeAdv-&gt;horribly&lt;/li&gt;\n&lt;li&gt;strikeAdv-&gt;savagely&lt;/li&gt;\n&lt;li&gt;strikeAdv-&gt;viciously&lt;/li&gt;\n&lt;li&gt;flavortext_consequence(recipient_flesh!=Mechanoid)-&gt; levando uma ferida repugnante&lt;/li&gt;\n&lt;li&gt;flavortext_consequence-&gt; deixando uma ferida horrível&lt;/li&gt;\n&lt;li&gt;flavortext_consequence(recipient_flesh!=Mechanoid)-&gt;making [RECIPIENT_objective] [wince] [painevent]&lt;/li&gt;\n&lt;li&gt;flavortext_consequence(p=0.2)-&gt;throwing [RECIPIENT_objective] off balance&lt;/li&gt;\n</Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry->[action], [result].</li>
     <li>r_logentry(priority=-10)->[action].</li>
@@ -90,8 +86,7 @@
     <li>to->to</li>
     <li>to->into</li>
   -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings>TODO</Combat_MeleeIncludes.rulePack.rulesStrings>
-  
+  <Combat_MeleeIncludes.rulePack.rulesStrings>&lt;li&gt;r_logentry-&gt;[action], [result].&lt;/li&gt;\n&lt;li&gt;r_logentry(priority=-10)-&gt;[action].&lt;/li&gt;\n&lt;li&gt;implement(IMPLEMENTOWNER_type==weapon,p=2)-&gt;[INITIATOR_possessive] [WEAPON_label] [TOOL_label]&lt;/li&gt;\n&lt;li&gt;implement(IMPLEMENTOWNER_type==arma,p=1)-&gt;[INITIATOR_possessive] [WEAPON_label]&lt;/li&gt;\n&lt;li&gt;implementação (IMPLEMENTOWNER_type=arma,p=1)-&gt;a [WEAPON_label]'s [TOOL_label]&lt;/li&gt;\n&lt;li&gt;implement (IMPLEMENTOWNER_type==arma,p=0.5)-&gt;a [WEAPON_label]&lt;/li&gt;\n&lt;li&gt;implement (IMPLEMENTOWNER_type=bodypart,p=2)-&gt;[INITIATOR_possessive] [TOOL_label]&lt;/li&gt;\n&lt;li&gt;implement (IMPLEMENTOWNER_type=hediff,p=2)-&gt;[INITIATOR_possessive] [WEAPON_label] [TOOL_label]&lt;/li&gt;\n&lt;li&gt;implement (IMPLEMENTOWNER_type=hediff,p=1)-&gt;[INITIATOR_possessive] [WEAPON_label]&lt;/li&gt;\n&lt;li&gt;implement (IMPLEMENTOWNER_type=hediff,p=1)-&gt;[INITIATOR_possessive] [TOOL_label]&lt;/li&gt;\n&lt;li&gt;targetlist(recipient_part_count=1)-&gt;[recipient_part0_label]&lt;/li&gt;\n&lt;li&gt;targetlist (recipient_part_count=2)-&gt;[recipient_part0_label] e [recipient_part1_label]&lt;/li&gt;\n&lt;li&gt;targetlist(recipient_part_count=3)-&gt;[recipient_part0_label], [recipient_part1_label], and [recipient_part2_label]&lt;/li&gt;\n&lt;li&gt;targetlist-&gt;[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], e [recipient_part3_label]&lt;/li&gt;\n&lt;li&gt;damaged_present(deflected!=True)-&gt;wounding&lt;/li&gt;\n&lt;li&gt;damaged_present(deflected!=True)-&gt;injuring&lt;/li&gt;\n&lt;li&gt;destroyed(p=0.5)-&gt;destroyed&lt;/li&gt;\n&lt;li&gt;destroyed(p=0.5)-&gt;demolished&lt;/li&gt;\n&lt;li&gt;destroyed(p=0.5)-&gt;ruined&lt;/li&gt;\n&lt;li&gt;destroyed(p=0.5)-&gt;wrecked&lt;/li&gt;\n&lt;li&gt;wince(recipient_flesh=Normal)-&gt;wince&lt;/li&gt;\n&lt;li&gt;wince(recipient_flesh=Normal)-&gt;grimace&lt;/li&gt;\n&lt;li&gt;wince(recipient_flesh=Normal)-&gt;cringe&lt;/li&gt;\n&lt;li&gt;wince(recipient_flesh=Normal)-&gt;groan&lt;/li&gt;\n&lt;li&gt;wince(recipient_flesh!=Mecanoid)-&gt;scream&lt;/li&gt;\n&lt;li&gt;wince(recipient_flesh!=Mechanoid)-&gt;shout&lt;/li&gt;\n&lt;li&gt;wince-&gt;recoil&lt;/li&gt;\n&lt;li&gt;wince-&gt;stumble&lt;/li&gt;\n&lt;li&gt;painstate-&gt;in&lt;/li&gt;\n&lt;li&gt;painstate-&gt;com&lt;/li&gt;\n&lt;li&gt;painstate-&gt; da &lt;/li&gt;\n&lt;li&gt;painevent(recipient_flesh!=Mechanoid)-&gt;[painstate] pain&lt;/li&gt;\n&lt;li&gt;painevent(recipient_flesh!=Mechanoid)-&gt;[painstate] agonia&lt;/li&gt;\n&lt;li&gt;painevent(recipient_flesh=Normal)-&gt; com miséria&lt;/li&gt;\n&lt;li&gt;painevent-&gt; da lesão &lt;/li&gt;\n&lt;li&gt;painevent-&gt; da ferida&lt;/li&gt;\n&lt;li&gt;to-&gt;to&lt;/li&gt;\n&lt;li&gt;to-&gt;into&lt;/li&gt;\n</Combat_MeleeIncludes.rulePack.rulesStrings>
   <!-- EN:
     <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
     <li>skillDescMelee->[using] [implement] [skillAdv]</li>
@@ -142,8 +137,7 @@
     <li>skillAdv(initiator_flesh==Mechanoid)->robotically</li>
     <li>skillAdv(initiator_flesh==Mechanoid)->directly</li>
   -->
-  <Combat_SkillIncludes.rulePack.rulesStrings>TODO</Combat_SkillIncludes.rulePack.rulesStrings>
-  
+  <Combat_SkillIncludes.rulePack.rulesStrings>&lt;li&gt;skillDescMelee-&gt;[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]&lt;/li&gt;\n&lt;li&gt;skillDescMelee-&gt;[usando] [implement] [skillAdv]&lt;/li&gt;\n&lt;li&gt;wielding(p=4)-&gt;wielding&lt;/li&gt;\n&lt;li&gt;wielding(p=3)-&gt;usando &lt;/li&gt;\n&lt;li&gt;wielding(p=2)-&gt;handling&lt;/li&gt;\n&lt;li&gt;wielding-&gt;brandishing&lt;/li&gt;\n&lt;li&gt;wielding-&gt;manipulating&lt;/li&gt;\n&lt;li&gt;usando(p=4)-&gt;usando&lt;/li&gt;\n&lt;li&gt;usando-&gt;driving&lt;/li&gt;\n&lt;li&gt;usando-&gt;thrusting&lt;/li&gt;\n&lt;li&gt;using-&gt;utilizing&lt;/li&gt;\n&lt;li&gt;usando-&gt;moving&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=3)-&gt;incompetentamente&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=3)-&gt;ineptly&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=3)-&gt;wildly&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=3)-&gt;randomly&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=3)-&gt;flailingly&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=4)-&gt;awkwardly&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=4)-&gt;clumsily&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=5)-&gt;fearfully&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=5)-&gt;falteringly&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=5)-&gt;foolishly&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=6)-&gt;hesitantly&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=6)-&gt;relutamente&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=6)-&gt;slowly&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=6)-&gt;tentativamente&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=6)-&gt;inexpertly&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=6)-&gt;amateurishly&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=6)-&gt;timidly&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&lt;=8)-&gt;enthusiastically&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&gt;=6,INITIATOR_skill&lt;=10)-&gt;proficientemente&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&gt;=6,INITIATOR_skill&lt;=10)-&gt;competentemente&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&gt;=8)-&gt;profissionalmente&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&gt;=8)-&gt;deftly&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&gt;=8)-&gt;aptly&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&gt;=8)-&gt;cleverly&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&gt;=8)-&gt;dexterously&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&gt;=8)-&gt; habilmente&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&gt;=10)-&gt;adeptly&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&gt;=10)-&gt;slickly&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&gt;=12)-&gt;expertamente&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&gt;=12)-&gt;precisamente&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&gt;=14)-&gt; magistralmente&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&gt;=16)-&gt;artistically&lt;/li&gt;\n&lt;li&gt;skillAdv(INITIATOR_skill&gt;=16)-&gt;gracely&lt;/li&gt;\n&lt;li&gt;skillAdv (iniciador_flesh=Mechanoid)-&gt;mecanicamente&lt;/li&gt;\n&lt;li&gt;skillAdv(iniciador_flesh=Mechanoid)-&gt;roboticamente&lt;/li&gt;\n&lt;li&gt;skillAdv (iniciador_flesh=Mechanoid)-&gt;diretamente&lt;/li&gt;\n</Combat_SkillIncludes.rulePack.rulesStrings>
   <!-- EN:
     <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
     <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] and [recipient_part_destroyed1_label]</li>
@@ -154,6 +148,5 @@
     <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], and [recipient_part_damaged2_label]</li>
     <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], and [recipient_part_damaged3_label]</li>
   -->
-  <Combat_WoundIncludes.rulePack.rulesStrings>TODO</Combat_WoundIncludes.rulePack.rulesStrings>
-  
+  <Combat_WoundIncludes.rulePack.rulesStrings>&lt;li&gt;destroyed_targets(recipient_part_destroyed_count=1)-&gt;[recipient_part_destroyed0_label]&lt;/li&gt;\n&lt;li&gt;destroyed_targets(recipient_part_destroyed_count=2)-&gt;[recipient_part_destroyed0_label] e [recipient_part_destroyed1_label]&lt;/li&gt;\n&lt;li&gt;destroyed_targets(recipient_part_destroyed_count=3)-&gt;[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], e [recipient_part_destroyed2_label]&lt;/li&gt;\n&lt;li&gt;destroyed_targets-&gt;[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label], e [recipient_part_destroyed3_label]&lt;/li&gt;\n&lt;li&gt;damaged_targets(recipient_part_damaged_count=1)-&gt;[recipient_part_damaged0_label]&lt;/li&gt;\n&lt;li&gt;damaged_targets(recipient_part_damaged_count=2)-&gt;[recipient_part_damaged0_label] e [recipient_part_damaged1_label]&lt;/li&gt;\n&lt;li&gt;damaged_targets(recipient_part_damaged_count=3)-&gt;[recipient_part_damaged0_label], [recipient_part_damaged1_label], e [recipient_part_damaged2_label]&lt;/li&gt;\n&lt;li&gt;damaged_targets-&gt;[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], e [recipient_part_damaged3_label]&lt;/li&gt;\n</Combat_WoundIncludes.rulePack.rulesStrings>
 </LanguageData>

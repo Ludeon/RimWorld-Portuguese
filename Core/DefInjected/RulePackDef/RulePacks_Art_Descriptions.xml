@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>r_art_description->[physical_description_root] [context_sentence]</li>
     <li>circumstance_group->[circumstance_phrase]</li>
@@ -9,24 +8,12 @@
     <li>context_sentence->This [depiction] relates to [tale_noun] on [DATE].</li>
     <li>context_sentence->This [depiction] tells the story of [tale_noun] on [DATE].</li>
   -->
-  <ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
-    <li>art_description_root->[physical_description_root] [context_sentence]</li>
-    <li>circumstance_group->[circumstance_phrase]</li>
-    <li>desc_sentence_group->[desc_sentence] [style_group]</li>
-    <li>context_sentence->This [depiction] refers to [tale_noun] on [date].</li>
-    <li>context_sentence->This [depiction] related to [tale_noun] on [date].</li>
-    <li>context_sentence->This [depiction] tells the story of [tale_noun] on [date].</li>
-  </ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
-  
+  <ArtDescriptionRoot_HasTale.rulePack.rulesStrings>&lt;li&gt;r_art_description-&gt;[physical_description_root] [context_sentence]&lt;/li&gt;\n&lt;li&gt;circumstance_group-&gt;[circumstance_phrase]&lt;/li&gt;\n&lt;li&gt;desc_sentence_group-&gt;[desc_sentence] [style_group]&lt;/li&gt;\n&lt;li&gt;context_sentence-&gt; Este [depiction] refere-se a [tale_noun] em [DATE].&lt;/li&gt;\n&lt;li&gt;context_sentence-&gt; Este [depiction] se relaciona com [tale_noun] em [DATE].&lt;/li&gt;\n&lt;li&gt;context_sentence-&gt; Esta [depicção] conta a história de [tale_noun] em [DATE].&lt;/li&gt;\n</ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
   <!-- EN:
     <li>r_art_description->[physical_description_root]</li>
     <li>desc_sentence_group->[style_group]</li>
   -->
-  <ArtDescriptionRoot_Taleless.rulePack.rulesStrings>
-    <li>art_description_root->[physical_description_root]</li>
-    <li>desc_sentence_group->[style_group]</li>
-  </ArtDescriptionRoot_Taleless.rulePack.rulesStrings>
-  
+  <ArtDescriptionRoot_Taleless.rulePack.rulesStrings>&lt;li&gt;r_art_description-&gt;[physical_description_root]&lt;/li&gt;\n&lt;li&gt;desc_sentence_group-&gt;[style_group]&lt;/li&gt;\n</ArtDescriptionRoot_Taleless.rulePack.rulesStrings>
   <!-- EN:
     <li>style_group->[artextra_clause]. [style_clause].</li>
     <li>style_group->[style_clause]. [artconjunction] [artextra_clause].</li>
@@ -200,120 +187,5 @@
     <li>artstyle_adj->sensual</li>
     <li>artstyle_adj->heartfelt</li>
   -->
-  <ArtDescriptionUtility_Global.rulePack.rulesStrings>
-    <li>style_group->[artextra_clause]. [style_clause].</li>
-    <li>style_group->[style_clause]. [artextra_clause].</li>
-    <li>style_group->[artextra_clause], and [style_clause].</li>
-    <li>style_group->[artextra_clause], while [style_clause].</li>
-    <li>artextra_clause->the image is bordered by [quantity_adjphrase] [animal]s</li>
-    <li>artextra_clause->there is a [community] [side_position]</li>
-    <li>artextra_clause->there is a [terrainfeature] [side_position]</li>
-    <li>artextra_clause->there is a [animal] [side_position]</li>
-    <li>artextra_clause->the subjects are in front of a [terrainfeature]</li>
-    <li>artextra_clause->the scene takes place in the middle of a [community]</li>
-    <li>artextra_clause->the scene seems to take place on the outskirts of a [community]</li>
-    <li>artextra_clause->the smiling head of a [outlander] watches over all</li>
-    <li>artextra_clause->the scene takes place inside a [community] built near a [terrainfeature]</li>
-    <li>artextra_clause->the lower part of the image is dominated by a [terrainfeature]</li>
-    <li>artextra_clause->the whole image is depicted by the careful arrangement of hundreds of tiny [animal]s</li>
-    <li>artextra_clause->a [outlander] [idle_verb_progressive] [side_position]</li>
-    <li>artextra_clause->a [animal] [idle_verb_progressive] [side_position]</li>
-    <li>artextra_clause->a dead [animal] [idle_verb_progressive] [side_position]</li>
-    <li>artextra_clause->a personified depiction of [concept] [idle_verb_progressive] [side_position]</li>
-    <li>artextra_clause->a [animal] [side_position] seems to symbolize [concept]</li>
-    <li>artextra_clause->[quantity_adjphrase] [outlander]s [idle_verb_progressive] [side_position]</li>
-    <li>artextra_clause->if you squint your eyes, the [composition] composition of the image reveals the outline of a [animal]</li>
-    <li>style_clause->the image seems to express [concept]</li>
-    <li>style_clause->the work is infused with the idea of [concept] and is done in a [artstyle_adj] style</li>
-    <li>style_clause->the work suggests the concept of [concept]</li>
-    <li>style_clause->the work is executed in a [artstyle_adj] style</li>
-    <li>style_clause->the [artstyle_adj] style of the central scene clashes with the [artstyle_adj] depiction of the background</li>
-    <li>style_clause->the work has a [artstyle_adj] feeling and a [composition] structure</li>
-    <li>style_clause->the overall composition is [composition]</li>
-    <li>style_clause->the style is [artstyle_adj] with [artstyle_adj] elements</li>
-    <li>style_clause->the image is totally devoid of both [concept] and [concept]</li>
-    <li>style_clause->the image somehow expresses both [concept] and [concept]</li>
-    <li>style_clause->the [composition] structure of the image almost conflicts with its [artstyle_adj] style</li>
-    <li>style_clause->the work is shaded in hues of [color] and [color]</li>
-    <li>style_clause->almost every shape in the image seems to be [composition]</li>
-    <li>depicts->depicts</li>
-    <li>depicts->shows</li>
-    <li>depicts->portrays</li>
-    <li>depicts->resembles</li>
-    <li>depicts->illustrates</li>
-    <li>depicts->represents</li>
-    <li>depicts->is shaped like</li>
-    <li>depiction->depiction</li>
-    <li>depiction->image</li>
-    <li>depiction->portrayal</li>
-    <li>depiction->representation</li>
-    <li>depiction->illustration</li>
-    <li>depiction->artwork</li>
-    <li>composition->triangular</li>
-    <li>composition->rectangular</li>
-    <li>composition->square</li>
-    <li>composition->unbalanced</li>
-    <li>composition->well-balanced</li>
-    <li>composition->very dynamic</li>
-    <li>composition->very static</li>
-    <li>artstyle_adj->unoriginal</li>
-    <li>artstyle_adj->simple</li>
-    <li>artstyle_adj->complex and realistic</li>
-    <li>artstyle_adj->surrealistic</li>
-    <li>artstyle_adj->classical</li>
-    <li>artstyle_adj->modern</li>
-    <li>artstyle_adj->symbolic</li>
-    <li>artstyle_adj->amateurish yet attractive</li>
-    <li>artstyle_adj->detail-oriented</li>
-    <li>artstyle_adj->blocky</li>
-    <li>artstyle_adj->cubist</li>
-    <li>artstyle_adj->impressionistic</li>
-    <li>artstyle_adj->expressionistic</li>
-    <li>artstyle_adj->photographic</li>
-    <li>artstyle_adj->baroque</li>
-    <li>artstyle_adj->dadaist</li>
-    <li>artstyle_adj->glitch-art</li>
-    <li>artstyle_adj->pixelated</li>
-    <li>artstyle_adj->fauvist</li>
-    <li>artstyle_adj->folksy</li>
-    <li>artstyle_adj->figurative</li>
-    <li>artstyle_adj->sinuous</li>
-    <li>artstyle_adj->geometric</li>
-    <li>artstyle_adj->abstract</li>
-    <li>artstyle_adj->hyper-realistic</li>
-    <li>artstyle_adj->pop art</li>
-    <li>artstyle_adj->minimalistic</li>
-    <li>artstyle_adj->neoclassical</li>
-    <li>artstyle_adj->cel-shaded</li>
-    <li>artstyle_adj->post-impressionistic</li>
-    <li>artstyle_adj->purist</li>
-    <li>artstyle_adj->rococo</li>
-    <li>artstyle_adj->romanesque</li>
-    <li>artstyle_adj->romantic</li>
-    <li>artstyle_adj->graffiti-like</li>
-    <li>artstyle_adj->erotic</li>
-    <li>artstyle_adj->sensual</li>
-    <li>artstyle_adj->heartfelt</li>
-    <li>idle_verb_progressive->sits</li>
-    <li>idle_verb_progressive->stands</li>
-    <li>idle_verb_progressive->waits</li>
-    <li>idle_verb_progressive->smiles</li>
-    <li>idle_verb_progressive->lies</li>
-    <li>idle_verb_progressive->poses</li>
-    <li>idle_verb_progressive->appears</li>
-    <li>idle_verb_progressive->is shown</li>
-    <li>idle_verb_progressive->fades in</li>
-    <li>idle_verb_progressive->floats</li>
-    <li>side_position->off to one side</li>
-    <li>side_position->near the edge of the image</li>
-    <li>side_position->in the background</li>
-    <li>side_position->in the distance</li>
-    <li>side_position->in the lower part of the image</li>
-    <li>side_position->in the upper part of the image</li>
-    <li>side_position->beneath the main subject</li>
-    <li>side_position->behind the focal point</li>
-    <li>side_position->at the left part of the image</li>
-    <li>side_position->to the right of the main scene</li>
-  </ArtDescriptionUtility_Global.rulePack.rulesStrings>
-  
+  <ArtDescriptionUtility_Global.rulePack.rulesStrings>&lt;li&gt;style_group-&gt;[artextra_clause]. [style_clause].&lt;/li&gt;\n&lt;li&gt;style_group-&gt;[style_clause]. [artconjunction] [artextra_clause].&lt;/li&gt;\n&lt;li&gt;style_group-&gt;[style_clause].&lt;/li&gt;\n&lt;li&gt;style_group-&gt;[artextra_clause].&lt;/li&gt;\n&lt;li&gt;style_group-&gt;&lt;/li&gt;\n&lt;li&gt;artconjunction(p=6)-&gt;&lt;/li&gt;\n&lt;li&gt;artconjunction-&gt; como um contraste interessante,&lt;/li&gt;\n&lt;li&gt;artconjunction-&gt;arredondando o trabalho,&lt;/li&gt;\n&lt;li&gt;artconjunction-&gt; além disso,&lt;/li&gt;\n&lt;li&gt;artconjunction-&gt;strikingly,&lt;/li&gt;\n&lt;li&gt;artconjunction-&gt;provocativamente,&lt;/li&gt;\n&lt;li&gt;artconjunction-&gt;unusually para este tipo de trabalho,&lt;/li&gt;\n&lt;li&gt;artconjunction-&gt;embora poucos o esperassem,&lt;/li&gt;\n&lt;li&gt;artconjunction-&gt;besides that,&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt; a imagem é limitada por [subimageplural]&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt; na borda da imagem são [subimageplural]&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt; há [subimagesingle] [side_position]&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt; os assuntos estão na frente de [subimageany]&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt; a parte inferior da imagem é dominada por [subimageany]&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt;a cena acontece no meio de uma [Comunidade]&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt;a cena acontece nos arredores de uma [Comunidade]&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt;a cena ocorre dentro de uma [Comunidade] construída perto de uma [TerrainFeature]&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt;a [Character] [idles] [side_position]&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt;a [PAWN_adj] [Character] [idles] [side_position]&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt; [Quantity_adjphrase] [Character]s aparecem [side_position]&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt; [Quantity_adjphrase] [PAWN_adj] [Character]s aparecem [side_position]&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt;a [Animal] [idles] [side_position]&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt;se você manchar seus olhos, a composição [composição] da imagem revela o contorno de [subimageany]&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt;the [emotional_expression] cabeça de um [PAWN_adj] [PersonJob] relógios sobre todo&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt;a [PAWN_adj] [PersonJob] relógios sobre todos enquanto [emotional_expression]&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt; a cabeça de um [PAWN_adj] [PersonJob] relógios sobre todo&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt; toda a imagem é representada pelo arranjo cuidadoso de [subimageplural]&lt;/li&gt;\n&lt;li&gt;subimageany-&gt;[subimagesingle]&lt;/li&gt;\n&lt;li&gt;subimageany-&gt;[subimageplural]&lt;/li&gt;\n&lt;li&gt;subimagesingle(p=4)-&gt;a [Character]&lt;/li&gt;\n&lt;li&gt;subimagesingle-&gt;a [TerrainFeature]&lt;/li&gt;\n&lt;li&gt;subimagesingle-&gt;a [Comunidade]&lt;/li&gt;\n&lt;li&gt;subimagesingle-&gt;a [TreeType] árvore&lt;/li&gt;\n&lt;li&gt;subimagesingle-&gt;a [Vegetable]&lt;/li&gt;\n&lt;li&gt;subimagesingle-&gt;a [AnimalGroup] de [Animal]s&lt;/li&gt;\n&lt;li&gt;subimageplural(p=3)-&gt;[Quantity_adjphrase] [Character]s&lt;/li&gt;\n&lt;li&gt;subimageplural-&gt; [Quantity_adjphrase] [Vegetables&lt;/li&gt;\n&lt;li&gt;subimageplural-&gt; [Quantity_adjphrase] [Shape]s&lt;/li&gt;\n&lt;li&gt;pawn_adj-&gt;dead&lt;/li&gt;\n&lt;li&gt;pawn_adj-&gt;dying&lt;/li&gt;\n&lt;li&gt;pawn_adj-&gt;injured&lt;/li&gt;\n&lt;li&gt;pawn_adj-&gt;sleeping&lt;/li&gt;\n&lt;li&gt;pawn_adj-&gt;standing&lt;/li&gt;\n&lt;li&gt;pawn_adj-&gt;sitting&lt;/li&gt;\n&lt;li&gt;pawn_adj-&gt;crazy&lt;/li&gt;\n&lt;li&gt;pawn_adj-&gt;young&lt;/li&gt;\n&lt;li&gt;pawn_adj-&gt;old&lt;/li&gt;\n&lt;li&gt;pawn_adj-&gt;[Gore]-covered&lt;/li&gt;\n&lt;li&gt;pawn_adj-&gt;filthy&lt;/li&gt;\n&lt;li&gt;pawn_adj-&gt;[Apparel]-wearing&lt;/li&gt;\n&lt;li&gt;pawn_adj-&gt;[Weapon]-wielding&lt;/li&gt;\n&lt;li&gt;pawn_adj-&gt;[Vegetable]-eating&lt;/li&gt;\n&lt;li&gt;emotional_expression-&gt;smiling&lt;/li&gt;\n&lt;li&gt;emotional_expression-&gt;frowning&lt;/li&gt;\n&lt;li&gt;emotional_expression-&gt;scowling&lt;/li&gt;\n&lt;li&gt;emotional_expression-&gt;laughing&lt;/li&gt;\n&lt;li&gt;emotional_expression-&gt;staring&lt;/li&gt;\n&lt;li&gt;emotional_expression-&gt;crying&lt;/li&gt;\n&lt;li&gt;emotional_expression-&gt;screaming&lt;/li&gt;\n&lt;li&gt;emotional_expression-&gt;overjoyed&lt;/li&gt;\n&lt;li&gt;idles-&gt;sits&lt;/li&gt;\n&lt;li&gt;idles-&gt;stands&lt;/li&gt;\n&lt;li&gt;idles-&gt; espera&lt;/li&gt;\n&lt;li&gt;idles-&gt;smiles&lt;/li&gt;\n&lt;li&gt;idles-&gt;lies&lt;/li&gt;\n&lt;li&gt;idles-&gt;poses&lt;/li&gt;\n&lt;li&gt;idles-&gt;aparece&lt;/li&gt;\n&lt;li&gt;idles-&gt;is mostrados&lt;/li&gt;\n&lt;li&gt;idles-&gt;fades in&lt;/li&gt;\n&lt;li&gt;idles-&gt;floats&lt;/li&gt;\n&lt;li&gt;side_position-&gt;off para um lado&lt;/li&gt;\n&lt;li&gt;side_position-&gt;in o fundo&lt;/li&gt;\n&lt;li&gt;side_position-&gt;in a distância &lt;/li&gt;\n&lt;li&gt;side_position-&gt; na parte inferior da imagem&lt;/li&gt;\n&lt;li&gt;side_position-&gt; na parte superior da imagem&lt;/li&gt;\n&lt;li&gt;side_position-&gt; à esquerda da cena principal&lt;/li&gt;\n&lt;li&gt;side_position-&gt; à direita da cena principal&lt;/li&gt;\n&lt;li&gt;side_position-&gt;near a borda da imagem&lt;/li&gt;\n&lt;li&gt;side_position-&gt;near o assunto principal&lt;/li&gt;\n&lt;li&gt;side_position-&gt; longe do assunto principal&lt;/li&gt;\n&lt;li&gt;side_position-&gt;beneath the main subject&lt;/li&gt;\n&lt;li&gt;side_position-&gt;sendo o ponto focal&lt;/li&gt;\n&lt;li&gt;style_clause(p=4)-&gt; o trabalho [simboliza] [ConceptAny]&lt;/li&gt;\n&lt;li&gt;artextra_clause-&gt;[subimagesingle] [side_position] [simboliza] [ConceptAny]&lt;/li&gt;\n&lt;li&gt;style_clause-&gt; o trabalho é infundido com a ideia de [ConceptAny] e é feito em um estilo [artstyle_adj]&lt;/li&gt;\n&lt;li&gt;style_clause-&gt; o trabalho é executado em um estilo [artstyle_adj]&lt;/li&gt;\n&lt;li&gt;style_clause-&gt;the [artstyle_adj] estilo da cena central choca com a representação [artstyle_adj] do fundo&lt;/li&gt;\n&lt;li&gt;style_clause-&gt; o trabalho tem um sentimento [artstyle_adj] e uma estrutura [composição]&lt;/li&gt;\n&lt;li&gt;style_clause-&gt; a composição geral é [composição]&lt;/li&gt;\n&lt;li&gt;style_clause-&gt; o estilo é [artstyle_adj] com [artstyle_adj] elementos&lt;/li&gt;\n&lt;li&gt;style_clause-&gt; a imagem de alguma forma expressa tanto [ConceptAny] quanto [ConceptAny]&lt;/li&gt;\n&lt;li&gt;style_clause-&gt; a imagem contrasta [ConceptAny] com [ConceptAny]&lt;/li&gt;\n&lt;li&gt;style_clause-&gt;a estrutura [composição] da imagem quase conflitos com seu estilo [artstyle_adj]&lt;/li&gt;a estrutura [composição] da imagem\n&lt;li&gt;style_clause-&gt; o trabalho é sombreado em tons de [cor] e [cor]&lt;/li&gt;\n&lt;li&gt;style_clause-&gt;quase cada forma na imagem parece ser [composição]&lt;/li&gt;\n&lt;li&gt;symbolizes-&gt;symbolizes&lt;/li&gt;\n&lt;li&gt;symbolizes-&gt; significa simbolizar&lt;/li&gt;\n&lt;li&gt;symbolizes-&gt;representa&lt;/li&gt;\n&lt;li&gt;symbolizes-&gt;parece representar&lt;/li&gt;\n&lt;li&gt;symbolizes-&gt; significa expressar&lt;/li&gt;\n&lt;li&gt;symbolizes-&gt; lembra o espectador de&lt;/li&gt;\n&lt;li&gt;symbolizes-&gt;conveys as emoções de&lt;/li&gt;\n&lt;li&gt;symbolizes-&gt; faz o espectador pensar de&lt;/li&gt;\n&lt;li&gt;symbolizes-&gt;representa o artista's&lt;/li&gt;\n&lt;li&gt;symbolizes-&gt;suggests o conceito de&lt;/li&gt;\n&lt;li&gt;depicts-&gt;depicts&lt;/li&gt;\n&lt;li&gt;depicts-&gt;shows&lt;/li&gt;\n&lt;li&gt;depicts-&gt;portrays&lt;/li&gt;\n&lt;li&gt;depicts-&gt;resembles&lt;/li&gt;\n&lt;li&gt;depicts-&gt;illustrates&lt;/li&gt;\n&lt;li&gt;depicts-&gt;representes&lt;/li&gt;\n&lt;li&gt;depicts-&gt;é moldado como&lt;/li&gt;\n&lt;li&gt;depiction-&gt;depiction&lt;/li&gt;depiction\n&lt;li&gt;depiction-&gt;image&lt;/li&gt;\n&lt;li&gt;depiction-&gt;portrayal&lt;/li&gt;\n&lt;li&gt;depiction-&gt;representação&lt;/li&gt;\n&lt;li&gt;depiction-&gt;illustration&lt;/li&gt;\n&lt;li&gt;depiction-&gt;artwork&lt;/li&gt;\n&lt;li&gt;composição-&gt;triangular&lt;/li&gt;\n&lt;li&gt;composição-&gt;rectangular&lt;/li&gt;\n&lt;li&gt;composição-&gt;square&lt;/li&gt;\n&lt;li&gt;composition-&gt;unbalanced&lt;/li&gt;\n&lt;li&gt;composition-&gt;well-balanced&lt;/li&gt;\n&lt;li&gt;composition-&gt;dynamic&lt;/li&gt;\n&lt;li&gt;composição-&gt;static&lt;/li&gt;\n&lt;li&gt;composição-&gt;vertical&lt;/li&gt;\n&lt;li&gt;composição-&gt;horizontal&lt;/li&gt;\n&lt;li&gt;composition-&gt;focused&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;unoriginal&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;simple&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;complexo e realista&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;surrealistic&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;classical&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;modern&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;symbolic&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;amateurish ainda atraente&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;detalhe-oriented&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;blocky&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;cubist&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;impressionistic&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;expressionistic&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;photographic&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;baroque&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;dadadista&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;glitch-art&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;pixelated&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;fauvist&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;folksy&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;figurative&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;sinuous&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;geometric&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;abstract&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;hyper-realistic&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;pop art&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;minimalistic&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;neoclassical&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;cel-shaded&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;post-impressionistic&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;purist&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;rococo&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;romanesque&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;romantic&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;graffiti-like&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;erotic&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;sensual&lt;/li&gt;\n&lt;li&gt;artstyle_adj-&gt;heartfelt&lt;/li&gt;\n</ArtDescriptionUtility_Global.rulePack.rulesStrings>
 </LanguageData>

@@ -1,29 +1,18 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>physical_description_root->This furniture is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
     <li>physical_description_root->This furniture bears a [depiction] of [image]. [desc_sentence_group]</li>
     <li>physical_description_root->An engraving on this furniture [depicts] [image]. [desc_sentence_group]</li>
   -->
-  <ArtDescription_Furniture.rulePack.rulesStrings>
-    <li>physical_description_root->This furniture is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
-    <li>physical_description_root->This furniture bears a [depiction] of [image]. [desc_sentence_group]</li>
-    <li>physical_description_root->An engraving on this furniture [depicts] [image]. [desc_sentence_group]</li>
-  </ArtDescription_Furniture.rulePack.rulesStrings>
-  
+  <ArtDescription_Furniture.rulePack.rulesStrings>&lt;li&gt;physical_description_root-&gt; Este mobiliário é gravado com um [depiction] de [imagem]. [desc_sentence_group]&lt;/li&gt;\n&lt;li&gt;physical_description_root-&gt; Esta mobília carrega uma [depiction] de [imagem]. [desc_sentence_group]&lt;/li&gt;\n&lt;li&gt;physical_description_root-&gt; Uma gravação sobre este mobiliário [depicts] [imagem]. [desc_sentence_group]&lt;/li&gt;\n</ArtDescription_Furniture.rulePack.rulesStrings>
   <!-- EN:
     <li>physical_description_root->The sarcophagus is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
     <li>physical_description_root->The sarcophagus bears a [depiction] of [image]. [desc_sentence_group]</li>
     <li>physical_description_root->The sarcophagus is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
     <li>physical_description_root->An engraving on this sarcophagus [depicts] [image]. [desc_sentence_group]</li>
   -->
-  <ArtDescription_SarcophagusPlate.rulePack.rulesStrings>
-    <li>physical_description_root->The sarcophagus is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
-    <li>physical_description_root->The sarcophagus bears a [depiction] of [image]. [desc_sentence_group]</li>
-    <li>physical_description_root->An engraving on this sarcophagus [depicts] [image]. [desc_sentence_group]</li>
-  </ArtDescription_SarcophagusPlate.rulePack.rulesStrings>
-  
+  <ArtDescription_SarcophagusPlate.rulePack.rulesStrings>&lt;li&gt;physical_description_root-&gt; O sarcófago é gravado com um [depício] de [imagem]. [desc_sentence_group]&lt;/li&gt;\n&lt;li&gt;physical_description_root-&gt; O sarcófago carrega uma [depção] de [imagem]. [desc_sentence_group]&lt;/li&gt;\n&lt;li&gt;physical_description_root-&gt; O sarcófago é gravado com um [depício] de [imagem]. [desc_sentence_group]&lt;/li&gt;\n&lt;li&gt;physical_description_root-&gt; Uma gravura neste sarcófago [depicts] [imagem]. [desc_sentence_group]&lt;/li&gt;\n</ArtDescription_SarcophagusPlate.rulePack.rulesStrings>
   <!-- EN:
     <li>physical_description_root->This [sculpture] [depicts] [image]. [desc_sentence_group]</li>
     <li>physical_description_root->This [sculpture] bears a [depiction] of [image]. [desc_sentence_group]</li>
@@ -33,36 +22,17 @@
     <li>sculpture->piece</li>
     <li>sculpture->carving</li>
   -->
-  <ArtDescription_Sculpture.rulePack.rulesStrings>
-    <li>physical_description_root->This [sculpture] [depicts] [image]. [desc_sentence_group]</li>
-    <li>physical_description_root->This [sculpture] bears a [depiction] of [image]. [desc_sentence_group]</li>
-    <li>physical_description_root->On this [sculpture] is a [depiction] of [image]. [desc_sentence_group]</li>
-    <li>sculpture->sculpture</li>
-    <li>sculpture->work</li>
-    <li>sculpture->piece</li>
-    <li>sculpture->carving</li>
-  </ArtDescription_Sculpture.rulePack.rulesStrings>
-  
+  <ArtDescription_Sculpture.rulePack.rulesStrings>&lt;li&gt;physical_description_root-&gt; Esta [escultura] [depícios] [imagem]. [desc_sentence_group]&lt;/li&gt;\n&lt;li&gt;physical_description_root-&gt; Esta [escultura] traz uma [depção] de [imagem]. [desc_sentence_group]&lt;/li&gt;\n&lt;li&gt;physical_description_root-&gt; Sobre esta [escultura] é uma [depicção] de [imagem]. [desc_sentence_group]&lt;/li&gt;\n&lt;li&gt;sculpture-&gt;sculpture&lt;/li&gt;\n&lt;li&gt;sculpture-&gt;work&lt;/li&gt;\n&lt;li&gt;sculpture-&gt;piece&lt;/li&gt;\n&lt;li&gt;sculpture-&gt;carving&lt;/li&gt;\n</ArtDescription_Sculpture.rulePack.rulesStrings>
   <!-- EN:
     <li>physical_description_root->This weapon is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
     <li>physical_description_root->This weapon bears a [depiction] of [image]. [desc_sentence_group]</li>
     <li>physical_description_root->An engraving on this weapon [depicts] [image]. [desc_sentence_group]</li>
   -->
-  <ArtDescription_WeaponGun.rulePack.rulesStrings>
-    <li>physical_description_root->This weapon is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
-    <li>physical_description_root->This weapon bears a [depiction] of [image]. [desc_sentence_group]</li>
-    <li>physical_description_root->An engraving on this weapon [depicts] [image]. [desc_sentence_group]</li>
-  </ArtDescription_WeaponGun.rulePack.rulesStrings>
-  
+  <ArtDescription_WeaponGun.rulePack.rulesStrings>&lt;li&gt;physical_description_root-&gt; Esta arma é gravada com uma [depicção] de [imagem]. [desc_sentence_group]&lt;/li&gt;\n&lt;li&gt;physical_description_root-&gt; Esta arma traz uma [depção] de [imagem]. [desc_sentence_group]&lt;/li&gt;\n&lt;li&gt;physical_description_root-&gt; Uma gravação nesta arma [depicts] [imagem]. [desc_sentence_group]&lt;/li&gt;\n</ArtDescription_WeaponGun.rulePack.rulesStrings>
   <!-- EN:
     <li>physical_description_root->This weapon is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
     <li>physical_description_root->This weapon bears a [depiction] of [image]. [desc_sentence_group]</li>
     <li>physical_description_root->An engraving on this weapon [depicts] [image]. [desc_sentence_group]</li>
   -->
-  <ArtDescription_WeaponMelee.rulePack.rulesStrings>
-    <li>physical_description_root->This weapon is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
-    <li>physical_description_root->This weapon bears a [depiction] of [image]. [desc_sentence_group]</li>
-    <li>physical_description_root->An engraving on this weapon [depicts] [image]. [desc_sentence_group]</li>
-  </ArtDescription_WeaponMelee.rulePack.rulesStrings>
-  
+  <ArtDescription_WeaponMelee.rulePack.rulesStrings>&lt;li&gt;physical_description_root-&gt; Esta arma é gravada com uma [depicção] de [imagem]. [desc_sentence_group]&lt;/li&gt;\n&lt;li&gt;physical_description_root-&gt; Esta arma traz uma [depção] de [imagem]. [desc_sentence_group]&lt;/li&gt;\n&lt;li&gt;physical_description_root-&gt; Uma gravação nesta arma [depicts] [imagem]. [desc_sentence_group]&lt;/li&gt;\n</ArtDescription_WeaponMelee.rulePack.rulesStrings>
 </LanguageData>

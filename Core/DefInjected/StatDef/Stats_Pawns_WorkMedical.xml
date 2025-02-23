@@ -1,36 +1,19 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- UNUSED -->
-  <BaseHealingQuality.label>base healing quality</BaseHealingQuality.label>
-  <BaseHealingQuality.description>Base quality of treatment given to patients when acting as a doctor.</BaseHealingQuality.description>
-  
-  <!-- UNUSED -->
-  <HealingSpeed.label>healing speed</HealingSpeed.label>
-  <HealingSpeed.description>Speed at which the character heals wounds as a doctor.</HealingSpeed.description>
-  
   <!-- EN: medical operation speed -->
-  <MedicalOperationSpeed.label>medical operation speed</MedicalOperationSpeed.label>
+  <MedicalOperationSpeed.label>velocidade de operação médica</MedicalOperationSpeed.label>
   <!-- EN: The speed at which the character performs medical operations. -->
-  <MedicalOperationSpeed.description>Speed at which the character performs medical operations.</MedicalOperationSpeed.description>
-  
+  <MedicalOperationSpeed.description>A velocidade em que o personagem realiza operações médicas.</MedicalOperationSpeed.description>
   <!-- EN: medical surgery success chance -->
-  <MedicalSurgerySuccessChance.label>TODO</MedicalSurgerySuccessChance.label>
+  <MedicalSurgerySuccessChance.label>chance de sucesso de cirurgia médica</MedicalSurgerySuccessChance.label>
   <!-- EN: The base chance that a character will succeed when performing a medical operation.\n\nThe actual success chance is also affected by factors like facilities, room cleanliness, medicine used, the difficulty of the surgery, and inspirations.\n\nNo matter how high this stat is, there is always a small chance of failure on any operation. -->
-  <MedicalSurgerySuccessChance.description>TODO</MedicalSurgerySuccessChance.description>
-  
+  <MedicalSurgerySuccessChance.description>A chance de base de que um personagem terá sucesso ao executar uma operação médica.\n\nA verdadeira chance de sucesso também é afetada por fatores como instalações, limpeza de sala, medicina utilizada, a dificuldade da cirurgia e inspirações.\n\nNão importa quão alta esta estatística é, há sempre uma pequena chance de falha em qualquer operação.</MedicalSurgerySuccessChance.description>
   <!-- EN: medical tend quality -->
-  <MedicalTendQuality.label>TODO</MedicalTendQuality.label>
+  <MedicalTendQuality.label>qualidade da tendência médica</MedicalTendQuality.label>
   <!-- EN: The base quality of tending given when tending wounds and illnesses.\n\nThe actual tend quality will also be affected by factors like medicine used, facilities, luck, and so on. -->
-  <MedicalTendQuality.description>TODO</MedicalTendQuality.description>
-  
+  <MedicalTendQuality.description>A qualidade de base de cuidar dado ao cuidar de feridas e doenças.\n\nA qualidade da tendência real também será afetada por fatores como medicina utilizada, instalações, sorte, e assim por diante.</MedicalTendQuality.description>
   <!-- EN: medical tend speed -->
-  <MedicalTendSpeed.label>TODO</MedicalTendSpeed.label>
+  <MedicalTendSpeed.label>velocidade de tendência médica</MedicalTendSpeed.label>
   <!-- EN: Speed at which the character tends to wounds and illnesses. -->
-  <MedicalTendSpeed.description>TODO</MedicalTendSpeed.description>
-  
-  <!-- UNUSED -->
-  <SurgerySuccessChance.label>surgery success chance</SurgerySuccessChance.label>
-  <SurgerySuccessChance.description>The likelihood that a character will succeed when attempting to perform a surgery. Failures can result in simple wasted time and medicine, or catastrophic damage to the patient.</SurgerySuccessChance.description>
-  
+  <MedicalTendSpeed.description>Velocidade em que o personagem tende a feridas e doenças.</MedicalTendSpeed.description>
 </LanguageData>

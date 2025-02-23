@@ -1,29 +1,22 @@
-RimWorld-pt
-===========
+# Tradução Portuguesa (PT-PT) do RimWorld
 
-A Portuguese translation for RimWorld.
+Esta é a tradução portuguesa do RimWorld.
 
-See this page for license info:
-
-http://ludeon.com/forums/index.php?topic=2933.0
+Verifica esta página para obter informações sobre a licença utilizada: **[LICENÇA](http://ludeon.com/forums/index.php?topic=2933.0)**.
 
 ------------------------
-Translators:
 
-Ribas
-DarkTakayanagi
+Para uma melhor comunicação, entra no nosso servidor de Discord: [Tradução PT - Rimworld](https://discord.gg/c9YkDhuRmg)
 
+------------------------
 
+### 🧩 Tradutores:
 
-#################################
-# TRADUÇÃO RIMWORLD Português #
-#################################
+ - [Ribas](https://github.com/Ribas-7)
+ - [DarkTakayanagi](https://github.com/darktakayanagi)
+ - [TitoFerreira](https://github.com/titoferreira)
+ - [g-pereiraa](https://github.com/g-pereiraa)
 
-Versão em português para o RimWorld Alpha 13.
-Participe no projeto em: https://github.com/ludeon/rimworld-portuguese
+-------------------------
 
-===INSTALAÇÃO===
-1- Dentro do arquivo encontra-se a pasta "Mods" (/Mods/Core/Languages/Portuguese).
-2- Cole a pasta Mods onde o seu RimWorld foi instalado, (exemplo; C:\RimWorld_Alpha13), na mesma onde se encontra o arquivo.exe
-3- Substítua todos os arquivos e pronto.
-4- vá às Options no jogo, e mude o idioma (language) para Portuguese.
+Caso estejas interessado em contribuir para a tradução, verifica a seguinte página para informações adicionais: http://ludeon.com/forums/index.php?topic=2933.0

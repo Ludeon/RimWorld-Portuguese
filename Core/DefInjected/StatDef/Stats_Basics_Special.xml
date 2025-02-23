@@ -1,50 +1,51 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: cleaning time multiplier -->
-  <CleaningTimeFactor.label>TODO</CleaningTimeFactor.label>
+  <CleaningTimeFactor.label>multiplicador de tempo de limpeza</CleaningTimeFactor.label>
   <!-- EN: A multiplier on how long it takes to clean filth from this surface. -->
-  <CleaningTimeFactor.description>TODO</CleaningTimeFactor.description>
-  
+  <CleaningTimeFactor.description>Um multiplicador em quanto tempo leva para limpar a sujeira desta superfície.</CleaningTimeFactor.description>
   <!-- EN: construction speed -->
-  <ConstructionSpeedFactor.label>TODO</ConstructionSpeedFactor.label>
+  <ConstructionSpeedFactor.label>velocidade de construção</ConstructionSpeedFactor.label>
   <!-- EN: The speed at which buildings made of this are constructed is multiplied by this value.\n\nSome materials, like stone, are slow to build from, while others, like wood, are fast. -->
-  <ConstructionSpeedFactor.description>TODO</ConstructionSpeedFactor.description>
+  <ConstructionSpeedFactor.description>A velocidade em que os edifícios feitos disto são construídos é multiplicada por este valor.\n\nAlguns materiais, como pedra, são lentos para construir, enquanto outros, como madeira, são rápidos.</ConstructionSpeedFactor.description>
   <!-- EN: construction speed (material factor) -->
-  <ConstructionSpeedFactor.labelForFullStatList>TODO</ConstructionSpeedFactor.labelForFullStatList>
-  
+  <ConstructionSpeedFactor.labelForFullStatList>velocidade de construção (factor material)</ConstructionSpeedFactor.labelForFullStatList>
   <!-- EN: filth multiplier -->
-  <FilthMultiplier.label>TODO</FilthMultiplier.label>
+  <FilthMultiplier.label>multiplicador de sujeira</FilthMultiplier.label>
   <!-- EN: How susceptible this surface is to filth. If this is less than 100%, some of the filth deposited here will disappear on contact. This only applies to organic filth. -->
-  <FilthMultiplier.description>TODO</FilthMultiplier.description>
-  
+  <FilthMultiplier.description>Quão suscetível esta superfície é sujar. Se isso for menos de 100%, alguns dos depósitos aqui desaparecerão em contato. Isso só se aplica à sujeira orgânica.</FilthMultiplier.description>
   <!-- EN: medical potency -->
-  <MedicalPotency.label>medical potency</MedicalPotency.label>
+  <MedicalPotency.label>potência médica</MedicalPotency.label>
   <!-- EN: How effective this is when used to tend wounds and diseases, or do surgery.\n\nHigher medical potency improves the quality of tending, and acts as a multiplier on the chance of success during surgery.\nMedical potency is just one factor in medical outcomes, among many others, including doctor ability, equipment, cleanliness, and luck. -->
-  <MedicalPotency.description>How effective this is when used to heal wounds and diseases, or do surgery. Higher medical potency improves the chances of a doctor treating wounds properly, and reduces the chances of failure during surgery.</MedicalPotency.description>
-  
+  <MedicalPotency.description>Como isso é eficaz quando usado para cuidar de feridas e doenças, ou fazer cirurgia.\n\nMaior potência médica melhora a qualidade da tendência, e atua como um multiplicador na chance de sucesso durante a cirurgia.\nA potência médica é apenas um fator nos resultados médicos, entre muitos outros, incluindo a capacidade do médico, equipamentos, limpeza e sorte.</MedicalPotency.description>
   <!-- EN: medical tend quality maximum -->
-  <MedicalQualityMax.label>TODO</MedicalQualityMax.label>
+  <MedicalQualityMax.label>qualidade de tendência médica máxima</MedicalQualityMax.label>
   <!-- EN: The maximum quality of medical tending that can be achieved while using this.\n\nBetter tend quality allows skilled doctors to treat wounds better, as well as more reliably. -->
-  <MedicalQualityMax.description>TODO</MedicalQualityMax.description>
-  
+  <MedicalQualityMax.description>A qualidade máxima da tendência médica que pode ser alcançada ao usar isso.\n\nMelhor qualidade de tendência permite que médicos qualificados para tratar feridas melhor, bem como mais confiável.</MedicalQualityMax.description>
   <!-- EN: meditation psyfocus bonus -->
-  <MeditationFocusStrength.label>TODO</MeditationFocusStrength.label>
+  <MeditationFocusStrength.label>bônus de foco de meditação</MeditationFocusStrength.label>
   <!-- EN: The amount of extra psyfocus someone gains by focusing on this object during meditation, in addition to their own base rate of meditation psyfocus gain.\n\nFor some objects, this number can change depending on the surroundings and the person doing the meditating. -->
-  <MeditationFocusStrength.description>TODO</MeditationFocusStrength.description>
+  <MeditationFocusStrength.description>A quantidade de foco extra que alguém ganha focando neste objeto durante a meditação, além de sua própria taxa de base de ganho de foco de meditação.\n\nPara alguns objetos, esse número pode mudar dependendo dos arredores e da pessoa que faz a meditação.</MeditationFocusStrength.description>
   <!-- EN: {0} / day -->
-  <MeditationFocusStrength.formatString>TODO</MeditationFocusStrength.formatString>
+  <MeditationFocusStrength.formatString>{0} / dia</MeditationFocusStrength.formatString>
   <!-- EN: {0} / day -->
-  <MeditationFocusStrength.formatStringUnfinalized>TODO</MeditationFocusStrength.formatStringUnfinalized>
-  
+  <MeditationFocusStrength.formatStringUnfinalized>{0} / dia</MeditationFocusStrength.formatStringUnfinalized>
+  <!-- EN: neural heat limit offset -->
+  <PsychicEntropyMaxOffset.label>deslocamento do limite de calor neural</PsychicEntropyMaxOffset.label>
+  <!-- EN: An offset applied to the user's neural heat limit. -->
+  <PsychicEntropyMaxOffset.description>Um deslocamento aplicado ao limite de calor neural do usuário.</PsychicEntropyMaxOffset.description>
+  <!-- EN: neural heat recovery rate offset -->
+  <PsychicEntropyRecoveryRateOffset.label>compensação da taxa de recuperação de calor neural</PsychicEntropyRecoveryRateOffset.label>
+  <!-- EN: An offset applied to the user's neural heat recovery rate. -->
+  <PsychicEntropyRecoveryRateOffset.description>Um deslocamento aplicado à taxa de recuperação de calor neural do usuário.</PsychicEntropyRecoveryRateOffset.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRateOffset.formatString>não</PsychicEntropyRecoveryRateOffset.formatString>
   <!-- EN: psychic sensitivity factor -->
-  <PsychicSensitivityFactor.label>TODO</PsychicSensitivityFactor.label>
+  <PsychicSensitivityFactor.label>fator de sensibilidade psíquica</PsychicSensitivityFactor.label>
   <!-- EN: A factor applied to the user's psychic sensitivity. -->
-  <PsychicSensitivityFactor.description>TODO</PsychicSensitivityFactor.description>
-  
+  <PsychicSensitivityFactor.description>Um fator aplicado à sensibilidade psíquica do usuário.</PsychicSensitivityFactor.description>
   <!-- EN: psychic sensitivity offset -->
-  <PsychicSensitivityOffset.label>TODO</PsychicSensitivityOffset.label>
+  <PsychicSensitivityOffset.label>sensibilidade psíquica offset</PsychicSensitivityOffset.label>
   <!-- EN: An offset applied to the user's psychic sensitivity. -->
-  <PsychicSensitivityOffset.description>TODO</PsychicSensitivityOffset.description>
-  
+  <PsychicSensitivityOffset.description>Um deslocamento aplicado à sensibilidade psíquica do usuário.</PsychicSensitivityOffset.description>
 </LanguageData>

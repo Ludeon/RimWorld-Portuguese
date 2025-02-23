@@ -1,53 +1,39 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: Arrest success chance -->
-  <ArrestSuccessChance.label>TODO</ArrestSuccessChance.label>
+  <ArrestSuccessChance.label>Possibilidade de sucesso</ArrestSuccessChance.label>
   <!-- EN: How effective this person is in arresting people. This affects chance that this person will be able to arrest someone without resistance. -->
-  <ArrestSuccessChance.description>TODO</ArrestSuccessChance.description>
-  
+  <ArrestSuccessChance.description>Quão eficaz esta pessoa está a prender pessoas. Isso afeta a chance de que esta pessoa será capaz de prender alguém sem resistência.</ArrestSuccessChance.description>
   <!-- EN: bond chance factor -->
-  <BondAnimalChanceFactor.label>TODO</BondAnimalChanceFactor.label>
+  <BondAnimalChanceFactor.label>fator de chance de ligação</BondAnimalChanceFactor.label>
   <!-- EN: A multiplier on the chance to bond with an animal when interacting with it. -->
-  <BondAnimalChanceFactor.description>TODO</BondAnimalChanceFactor.description>
-  
+  <BondAnimalChanceFactor.description>Um multiplicador na chance de se unir com um animal ao interagir com ele.</BondAnimalChanceFactor.description>
   <!-- EN: drug sell price improvement -->
-  <DrugSellPriceImprovement.label>TODO</DrugSellPriceImprovement.label>
+  <DrugSellPriceImprovement.label>melhoria do preço de venda de drogas</DrugSellPriceImprovement.label>
   <!-- EN: When this person sells non-medical drugs, prices are improved by this percentage. -->
-  <DrugSellPriceImprovement.description>TODO</DrugSellPriceImprovement.description>
-  
+  <DrugSellPriceImprovement.description>Quando esta pessoa vende drogas não médicas, os preços são melhorados por esta percentagem.</DrugSellPriceImprovement.description>
   <!-- EN: negotiation ability -->
-  <NegotiationAbility.label>diplomatic gift impact</NegotiationAbility.label>
+  <NegotiationAbility.label>capacidade de negociação</NegotiationAbility.label>
   <!-- EN: How effective this person is as a negotiator.\n\nThis affects the speed of prisoner recruitment, impact on faction relations when giving gifts, and the outcome of peace talks. -->
-  <NegotiationAbility.description>When this person gives gifts to another faction, this multiplier is applied to their impact on faction relations.</NegotiationAbility.description>
-  
+  <NegotiationAbility.description>Quão eficaz esta pessoa é como um negociador.\n\nIsso afeta a velocidade do recrutamento de prisioneiros, o impacto nas relações de facção ao dar presentes e o resultado das negociações de paz.</NegotiationAbility.description>
   <!-- EN: beauty -->
-  <PawnBeauty.label>TODO</PawnBeauty.label>
+  <PawnBeauty.label>beleza</PawnBeauty.label>
   <!-- EN: How physically attractive this person is. This affects social interactions. -->
-  <PawnBeauty.description>TODO</PawnBeauty.description>
-  
-  <!-- UNUSED -->
-  <RecruitPrisonerChance.label>recruit prisoner chance</RecruitPrisonerChance.label>
-  <RecruitPrisonerChance.description>Base chance this person will recruit a prisoner.</RecruitPrisonerChance.description>
-  
+  <PawnBeauty.description>Quão fisicamente atraente esta pessoa é. Isso afeta as interações sociais.</PawnBeauty.description>
   <!-- EN: social impact -->
-  <SocialImpact.label>social chat impact</SocialImpact.label>
+  <SocialImpact.label>impacto social</SocialImpact.label>
   <!-- EN: A multiplier on how much other people are affected by this person's social interactions. -->
-  <SocialImpact.description>When this person interacts socially, this is how much the other person is affected.</SocialImpact.description>
-  
+  <SocialImpact.description>Um multiplicador em quanto outras pessoas são afetadas pelas interações sociais desta pessoa.</SocialImpact.description>
   <!-- EN: tame animal chance -->
-  <TameAnimalChance.label>tame animal chance</TameAnimalChance.label>
+  <TameAnimalChance.label>chance animal de estimação</TameAnimalChance.label>
   <!-- EN: The base chance this person will successfully tame an animal on any given attempt.\n\nThe actual chance is also affected by the animal's wildness.\nFailed tame attempt can induce animal attacks, especially for more vicious animals. -->
-  <TameAnimalChance.description>Base chance this person will tame an animal.</TameAnimalChance.description>
-  
+  <TameAnimalChance.description>A chance base desta pessoa vai domar com sucesso um animal em qualquer tentativa dada.\n\nA verdadeira chance também é afetada pela loucura do animal.\nA tentativa de tame fraca pode induzir ataques de animais, especialmente para animais mais viciosos.</TameAnimalChance.description>
   <!-- EN: trade price improvement -->
-  <TradePriceImprovement.label>trade price improvement</TradePriceImprovement.label>
+  <TradePriceImprovement.label>melhoria do preço do comércio</TradePriceImprovement.label>
   <!-- EN: When this person acts as a trade negotiator, buy and sell prices are improved by this percentage. -->
-  <TradePriceImprovement.description>When this person negotiates prices, buy and sell prices are improved by this percentage.</TradePriceImprovement.description>
-  
+  <TradePriceImprovement.description>Quando esta pessoa age como um negociador comercial, comprar e vender preços são melhorados por esta percentagem.</TradePriceImprovement.description>
   <!-- EN: train animal chance -->
-  <TrainAnimalChance.label>train animal chance</TrainAnimalChance.label>
+  <TrainAnimalChance.label>chance animal de trem</TrainAnimalChance.label>
   <!-- EN: The base chance this person will make progress training an animal on a given attempt.\n\nThe actual chance for a given attempt will also depend on the animal's wildness, whether it is bonded with the trainer, and so on. -->
-  <TrainAnimalChance.description>Base chance this person will make progress training an animal on a given attempt. May change based on the animal.</TrainAnimalChance.description>
-  
+  <TrainAnimalChance.description>A chance de base desta pessoa fará o progresso treinando um animal em uma determinada tentativa.\n\nA verdadeira chance de uma determinada tentativa também dependerá da loucura do animal, seja ligada ao treinador, e assim por diante.</TrainAnimalChance.description>
 </LanguageData>

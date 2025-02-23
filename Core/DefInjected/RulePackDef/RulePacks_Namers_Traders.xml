@@ -1,6 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+  <!-- EN:
+    <li>businessname->Names/Business</li>
+    <li>businesstype->Words/Nouns/BusinessTypes</li>
+  -->
+  <NamerTraderGeneral.rulePack.rulesFiles>&lt;li&gt;nome de negócio-&gt;Nomes/Negócios&lt;/li&gt;\n&lt;li&gt;businesstype-&gt;Words/Nouns/BusinessTypes&lt;/li&gt;\n</NamerTraderGeneral.rulePack.rulesFiles>
   <!-- EN:
     <li>r_name(p=4)->[businessname] [businesstype]</li>
     <li>r_name->[NamePerson] [businesstype]</li>
@@ -19,13 +23,5 @@
     <li>maybe_adjective->[AdjectiveFriendly]</li>
     <li>maybe_adjective->[AdjectiveBadass]</li>
   -->
-  <NamerTraderGeneral.rulePack.rulesStrings>
-    <li>name->[businessname] [businesstype]</li>
-    <li>name->[businessname] [businesstype]</li>
-    <li>name->[businessname] [businesstype]</li>
-    <li>name->[businessname] [businesstype]</li>
-    <li>name->[color] [animal] [businesstype]</li>
-    <li>name->[letter][letter] [businesstype]</li>
-  </NamerTraderGeneral.rulePack.rulesStrings>
-  
+  <NamerTraderGeneral.rulePack.rulesStrings>&lt;li&gt;r_name(p=4)-&gt;[nome comercial] [tipo de negócio]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[NamePerson] [businesstype]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[maybe_adjective] [Animal] [businesstype]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[Carta] [Carta] [tipo de negócio]&lt;/li&gt;\n&lt;li&gt;r_name(p=0.5)-&gt;[PersonAlly] [businesstype]&lt;/li&gt;\n&lt;li&gt;r_name(p=0.5)-&gt;[AdjectiveFriendly] [businesstype]&lt;/li&gt;\n&lt;li&gt;r_name(p=0.5)-&gt;[AdjectiveBadass] [businesstype]&lt;/li&gt;\n&lt;li&gt;r_name(p=0.3)-&gt;[PersonFamily] [businesstype]&lt;/li&gt;\n&lt;li&gt;r_name(p=0.3)-&gt;[maybe_adjective] [NaturalObject] [businesstype]&lt;/li&gt;\n&lt;li&gt;r_name(p=0.2)-&gt;[maybe_adjective] [TreeType] [tipo de negócio]&lt;/li&gt;\n&lt;li&gt;r_name(p=0.2)-&gt;[maybe_adjective] [Vegetable] [businesstype]&lt;/li&gt;\n&lt;li&gt;r_name(p=0.2)-&gt;[Direção] [tipo de negócio]&lt;/li&gt;\n&lt;li&gt;maybe_adjetivo-&gt;&lt;/li&gt;\n&lt;li&gt;maybe_adjective-&gt;[Color]&lt;/li&gt;\n&lt;li&gt;maybe_adjetivo-&gt;[ AdjetivoFriendly]&lt;/li&gt;\n&lt;li&gt;maybe_adjetivo-&gt;[ AdjectiveBadass]&lt;/li&gt;\n</NamerTraderGeneral.rulePack.rulesStrings>
 </LanguageData>

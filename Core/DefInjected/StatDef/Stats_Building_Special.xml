@@ -1,93 +1,67 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: rest effectiveness -->
-  <BedRestEffectiveness.label>rest effectiveness</BedRestEffectiveness.label>
+  <BedRestEffectiveness.label>eficácia do descanso</BedRestEffectiveness.label>
   <!-- EN: How fast people sleeping on this gain rest. -->
-  <BedRestEffectiveness.description>How fast people sleeping on this gain rest.</BedRestEffectiveness.description>
-  
+  <BedRestEffectiveness.description>Quão rápido as pessoas a dormir neste ganho de descanso.</BedRestEffectiveness.description>
   <!-- EN: door opening speed -->
-  <DoorOpenSpeed.label>door opening speed</DoorOpenSpeed.label>
+  <DoorOpenSpeed.label>velocidade de abertura da porta</DoorOpenSpeed.label>
   <!-- EN: The speed at which the door opens when unpowered.\n\nSlow doors will slow down everyone who uses them. -->
-  <DoorOpenSpeed.description>The speed at which the door opens.</DoorOpenSpeed.description>
-  
-  <!-- UNUSED -->
-  <EntertainmentStrengthFactor.label>entertainment strength factor</EntertainmentStrengthFactor.label>
-  <EntertainmentStrengthFactor.description>How effectively this item entertains people and gives them joy.</EntertainmentStrengthFactor.description>
-  
+  <DoorOpenSpeed.description>A velocidade em que a porta se abre quando não tem força.\n\nAs portas lentas irão abrandar todos os que os usam.</DoorOpenSpeed.description>
   <!-- EN: immunity gain speed factor -->
-  <ImmunityGainSpeedFactor.label>immunity gain speed factor</ImmunityGainSpeedFactor.label>
+  <ImmunityGainSpeedFactor.label>fator de velocidade de ganho de imunidade</ImmunityGainSpeedFactor.label>
   <!-- EN: Immunity gain speed is multiplied by this value. -->
-  <ImmunityGainSpeedFactor.description>Immunity gain speed is multiplied by this value.</ImmunityGainSpeedFactor.description>
-  
+  <ImmunityGainSpeedFactor.description>A velocidade de ganho de imunidade é multiplicada por este valor.</ImmunityGainSpeedFactor.description>
   <!-- EN: recreation power -->
-  <JoyGainFactor.label>TODO</JoyGainFactor.label>
+  <JoyGainFactor.label>poder de recreação</JoyGainFactor.label>
   <!-- EN: How effectively this item entertains people and fulfills the need for recreation. -->
-  <JoyGainFactor.description>TODO</JoyGainFactor.description>
-  
+  <JoyGainFactor.description>Como efetivamente este item entretém as pessoas e cumpre a necessidade de recreação.</JoyGainFactor.description>
   <!-- EN: medical tend quality offset -->
-  <MedicalTendQualityOffset.label>TODO</MedicalTendQualityOffset.label>
+  <MedicalTendQualityOffset.label>deslocamento da qualidade da tendência médica</MedicalTendQualityOffset.label>
   <!-- EN: Medical tend quality is offset by this value. -->
-  <MedicalTendQualityOffset.description>TODO</MedicalTendQualityOffset.description>
-  
-  <!-- UNUSED -->
-  <MedicalTreatmentQualityFactor.label>medical treatment quality factor</MedicalTreatmentQualityFactor.label>
-  <MedicalTreatmentQualityFactor.description>Medical treatment quality is multiplied by this value.</MedicalTreatmentQualityFactor.description>
-  
+  <MedicalTendQualityOffset.description>A qualidade da tendência médica é compensada por este valor.</MedicalTendQualityOffset.description>
   <!-- EN: max power output -->
-  <PowerPlantMaxPowerOuput.label>TODO</PowerPlantMaxPowerOuput.label>
+  <PowerPlantMaxPowerOuput.label>saída de potência máxima</PowerPlantMaxPowerOuput.label>
   <!-- EN: The maximum power that this generator can output in ideal conditions. -->
-  <PowerPlantMaxPowerOuput.description>TODO</PowerPlantMaxPowerOuput.description>
-  
+  <PowerPlantMaxPowerOuput.description>A potência máxima que este gerador pode produzir em condições ideais.</PowerPlantMaxPowerOuput.description>
   <!-- EN: research speed factor -->
-  <ResearchSpeedFactor.label>research speed factor</ResearchSpeedFactor.label>
+  <ResearchSpeedFactor.label>fator de velocidade de pesquisa</ResearchSpeedFactor.label>
   <!-- EN: The speed at which people do research is multiplied by this value. -->
-  <ResearchSpeedFactor.description>Speed at which people do research is multiplied by this value.</ResearchSpeedFactor.description>
+  <ResearchSpeedFactor.description>A velocidade em que as pessoas fazem a pesquisa é multiplicada por este valor.</ResearchSpeedFactor.description>
   <!-- EN: Room cleanliness -->
-  <ResearchSpeedFactor.parts.Room_cleanliness.customLabel>TODO</ResearchSpeedFactor.parts.Room_cleanliness.customLabel>
+  <ResearchSpeedFactor.parts.Room_cleanliness.customLabel>Limpeza do quarto</ResearchSpeedFactor.parts.Room_cleanliness.customLabel>
   <!-- EN: Reading bonus -->
-  <ResearchSpeedFactor.parts.Reading_bonus.customLabel>TODO</ResearchSpeedFactor.parts.Reading_bonus.customLabel>
-  
-  <!-- UNUSED -->
-  <ResearchSpeedFactor.parts.0.customLabel>Room cleanliness</ResearchSpeedFactor.parts.0.customLabel>
-  
+  <ResearchSpeedFactor.parts.Reading_bonus.customLabel>Bônus de leitura</ResearchSpeedFactor.parts.Reading_bonus.customLabel>
   <!-- EN: reading bonus -->
-  <RoomReadingBonus.label>TODO</RoomReadingBonus.label>
+  <RoomReadingBonus.label>bônus de leitura</RoomReadingBonus.label>
   <!-- EN: Provides a bonus to research speed, XP gained from reading, and recreation gained from reading in the same room as the bookcase. This is increased by placing more and higher quality books in the bookcase. -->
-  <RoomReadingBonus.description>TODO</RoomReadingBonus.description>
+  <RoomReadingBonus.description>Fornece um bônus à velocidade de pesquisa, XP adquirido a partir da leitura, e recreação obtida a partir da leitura na mesma sala que a mala. Isso é aumentado colocando mais e mais livros de qualidade na mala.</RoomReadingBonus.description>
   <!-- EN: Reading bonus -->
-  <RoomReadingBonus.parts.Reading_bonus.customLabel>TODO</RoomReadingBonus.parts.Reading_bonus.customLabel>
-  
+  <RoomReadingBonus.parts.Reading_bonus.customLabel>Bônus de leitura</RoomReadingBonus.parts.Reading_bonus.customLabel>
   <!-- EN: surgery success chance factor -->
-  <SurgerySuccessChanceFactor.label>TODO</SurgerySuccessChanceFactor.label>
+  <SurgerySuccessChanceFactor.label>fator de chance de sucesso de cirurgia</SurgerySuccessChanceFactor.label>
   <!-- EN: A multiplier to the chance that a surgery will succeed when performed here.\n\nSurgery success chances are also affected by many other factors, including the surgeon's ability and medicine used. -->
-  <SurgerySuccessChanceFactor.description>TODO</SurgerySuccessChanceFactor.description>
+  <SurgerySuccessChanceFactor.description>Um multiplicador para a chance de uma cirurgia ter sucesso quando realizada aqui.\n\nAs chances de sucesso da cirurgia também são afetadas por muitos outros fatores, incluindo a capacidade e a medicina do cirurgião usados.</SurgerySuccessChanceFactor.description>
   <!-- EN: Room cleanliness -->
-  <SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>TODO</SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>
-  
+  <SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>Limpeza do quarto</SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>
   <!-- EN: trap melee damage -->
-  <TrapMeleeDamage.label>trap melee damage</TrapMeleeDamage.label>
+  <TrapMeleeDamage.label>armadilha danos corpo a corpo</TrapMeleeDamage.label>
   <!-- EN: How much damage this trap does on average per hit. Each trap hits multiple times.\n\nThe actual damage in any instance will vary randomly. -->
-  <TrapMeleeDamage.description>How much damage this trap typically does. The actual damage may vary somewhat.</TrapMeleeDamage.description>
-  
+  <TrapMeleeDamage.description>Quanto dano esta armadilha faz em média por golpe. Cada armadilha atinge várias vezes.\n\nOs danos reais em qualquer instância variam aleatoriamente.</TrapMeleeDamage.description>
   <!-- EN: trap spring chance -->
-  <TrapSpringChance.label>trap spring chance</TrapSpringChance.label>
+  <TrapSpringChance.label>armadilha primavera chance</TrapSpringChance.label>
   <!-- EN: The likelihood that the trap will spring when an unaware creature passes over it. -->
-  <TrapSpringChance.description>The likelihood that the trap will spring when an unaware creature passes over it.</TrapSpringChance.description>
-  
+  <TrapSpringChance.description>A probabilidade de que a armadilha brote quando uma criatura inconsciente passa por cima dela.</TrapSpringChance.description>
   <!-- EN: work efficiency factor -->
-  <WorkTableEfficiencyFactor.label>TODO</WorkTableEfficiencyFactor.label>
+  <WorkTableEfficiencyFactor.label>fator de eficiência do trabalho</WorkTableEfficiencyFactor.label>
   <!-- EN: Work efficiency is multiplied by this value. -->
-  <WorkTableEfficiencyFactor.description>TODO</WorkTableEfficiencyFactor.description>
-  
+  <WorkTableEfficiencyFactor.description>A eficiência do trabalho é multiplicada por este valor.</WorkTableEfficiencyFactor.description>
   <!-- EN: work speed factor -->
-  <WorkTableWorkSpeedFactor.label>work speed factor</WorkTableWorkSpeedFactor.label>
+  <WorkTableWorkSpeedFactor.label>fator de velocidade do trabalho</WorkTableWorkSpeedFactor.label>
   <!-- EN: Work speed is multiplied by this value. -->
-  <WorkTableWorkSpeedFactor.description>Work speed is multiplied by this value.</WorkTableWorkSpeedFactor.description>
-  
+  <WorkTableWorkSpeedFactor.description>A velocidade de trabalho é multiplicada por este valor.</WorkTableWorkSpeedFactor.description>
   <!-- EN: work to build -->
-  <WorkToBuild.label>trabalho para construir</WorkToBuild.label>
+  <WorkToBuild.label>trabalhar para construir</WorkToBuild.label>
   <!-- EN: The base amount of work it takes to build a structure, once all materials are gathered.\n\nThe work required to deconstruct the structure is also based on this. -->
-  <WorkToBuild.description>Quantidade de trabalho que é preciso para construir isto.</WorkToBuild.description>
-  
+  <WorkToBuild.description>A quantidade base de trabalho que leva para construir uma estrutura, uma vez que todos os materiais são reunidos.\n\nO trabalho necessário para desconstruir a estrutura também é baseado nisso.</WorkToBuild.description>
 </LanguageData>

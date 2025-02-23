@@ -1,121 +1,99 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: Animals will attack doors -->
-  <AnimalsDontAttackDoors.label>TODO</AnimalsDontAttackDoors.label>
+  <AnimalsDontAttackDoors.label>Animais atacarão portas</AnimalsDontAttackDoors.label>
   <!-- EN: Manhunting animals will attack doors if they see one of your colonists moving through them. They will also attack inactive turrets. -->
-  <AnimalsDontAttackDoors.helpText>Animais caçadores-de-humanos geralmente não atacam portas ou torres.\n\nPodes escapar deles ficando no interior. Mas eles vão esperar por ti.</AnimalsDontAttackDoors.helpText>
-  
+  <AnimalsDontAttackDoors.helpText>Os animais de caça atacarão as portas se virem um dos vossos colonos a passar por eles. Eles também atacarão torres inativas.</AnimalsDontAttackDoors.helpText>
   <!-- EN: Bills tab -->
-  <BillsTab.label>TODO</BillsTab.label>
+  <BillsTab.label>Aba de contas</BillsTab.label>
   <!-- EN: To make colonists work at a table, select the table and open the Bills tab. Here, you can say what meals to cook, what things to craft, what creatures to butcher. -->
-  <BillsTab.helpText>Para fazeres os colonos trabalharem numa mesa, selecciona a mesa e abre a aba das Tarefas. Aqui, podes dizer o que cozinhar, que coisas construir, que animais talhar.</BillsTab.helpText>
-  
+  <BillsTab.helpText>Para fazer os colonos trabalharem em uma tabela, selecione a tabela e abra a guia Bills. Aqui, você pode dizer que refeições para cozinhar, que coisas para criar, que criaturas para açougueiro.</BillsTab.helpText>
   <!-- EN: books -->
-  <Books.label>TODO</Books.label>
+  <Books.label>livros</Books.label>
   <!-- EN: Colonists read books for recreation, to gain skills, to unlock research, and more. You can see a specific book's effects by selecting it and opening its 'Details' tab.\n\nTo choose what colonists will read, open the ASSIGN tab and configure READING POLICIES.\n\nStore books in bookcases to passively enhance intellectual and reading work done nearby, and increase the beauty of the bookcase. Bookcases passively increase research speed, XP gained from reading, and recreation gained from reading in the same room. -->
-  <Books.helpText>TODO</Books.helpText>
-  
+  <Books.helpText>Os colonos lêem livros para recreação, para ganhar habilidades, para desbloquear pesquisa e muito mais. Você pode ver os efeitos de um livro específico selecionando-o e abrindo a aba &quot;Detalhes&quot;.\n\nPara escolher o que os colonos irão ler, abra a aba ASSIGN e configure POLÍTICAS LER.\n\nGuarde livros em malas para melhorar passivamente o trabalho intelectual e de leitura feito nas proximidades, e aumente a beleza da mala. Bookcases aumentar passivamente a velocidade de pesquisa, XP ganhou de leitura, e recreação obtida a partir da leitura na mesma sala.</Books.helpText>
   <!-- EN: Build orbital trade beacon -->
-  <BuildOrbitalTradeBeacon.label>Contrói um farol orbital de comércio</BuildOrbitalTradeBeacon.label>
+  <BuildOrbitalTradeBeacon.label>Construa o farol de comércio orbital</BuildOrbitalTradeBeacon.label>
   <!-- EN: To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it. -->
-  <BuildOrbitalTradeBeacon.helpText>Para enviar itens ou prata para comerciantes orbitais, é necessário construires um FAROL ORBITAL DE COMÉRCIO e colocar uma zona de stock à sua volta.</BuildOrbitalTradeBeacon.helpText>
-  
+  <BuildOrbitalTradeBeacon.helpText>Para enviar itens ou prata para comerciantes orbitais, você deve construir um BEACON DE TRADE ORBITAL e colocar um estoque de itens perto dele.</BuildOrbitalTradeBeacon.helpText>
   <!-- EN: Capturing -->
-  <Capturing.label>TODO</Capturing.label>
+  <Capturing.label>Capturando</Capturing.label>
   <!-- EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, right-click on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use. -->
-  <Capturing.helpText>Um inimgo está incapacitado. Podes cáptura-lo!</Capturing.helpText>
+  <Capturing.helpText>Quando um inimigo é derrubado no chão, mas não morto, você pode CAPTURA-los.\n\nPara capturar, selecione um colonista, clique com o botão direito no inimigo incapacitado e selecione Captura.\n\nVais precisar de uma cama extra marcada para uso de prisioneiros.</Capturing.helpText>
   <!-- EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, press the left trigger button on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use. -->
-  <Capturing.helpTextController>TODO</Capturing.helpTextController>
-  
+  <Capturing.helpTextController>Quando um inimigo é derrubado no chão, mas não morto, você pode CAPTURA-los.\n\nPara capturar, selecione um colonista, pressione o botão de gatilho esquerdo no inimigo incapacitado e selecione Captura.\n\nVais precisar de uma cama extra marcada para uso de prisioneiros.</Capturing.helpTextController>
   <!-- EN: Door opening speeds -->
-  <DoorOpenSpeed.label>TODO</DoorOpenSpeed.label>
+  <DoorOpenSpeed.label>Velocidades de abertura da porta</DoorOpenSpeed.label>
   <!-- EN: Doors open at different speeds depending on what they're made of.\n\nWarning: Stone doors open very slowly. Anyone passing through will be significantly slowed down. -->
-  <DoorOpenSpeed.helpText>TODO</DoorOpenSpeed.helpText>
-  
+  <DoorOpenSpeed.helpText>Portas abertas a velocidades diferentes dependendo do que são feitas.\n\nAviso: As portas de pedra abrem muito lentamente. Qualquer pessoa que passe será significativamente abrandado.</DoorOpenSpeed.helpText>
   <!-- EN: Drafting for combat -->
-  <Drafting.label>TODO</Drafting.label>
+  <Drafting.label>Projecto de combate</Drafting.label>
   <!-- EN: To control colonists directly for combat, Draft them by selecting them and hitting the DRAFT button.\n\nA drafted colonist will do only what you tell them, and can only take combat actions. Those with weapons will use them when possible.\n\nDon't leave colonists Drafted forever - they'll starve and become unhappy. -->
-  <Drafting.helpText>Para controlar colonos directamente em combate, Alista-os seleccionando-os e carregando no botão ALISTAR.</Drafting.helpText>
-  
+  <Drafting.helpText>Para controlar os colonos diretamente para o combate, esboça-os selecionando-os e batendo no botão DRAFT.\n\nUm colonista esboçado fará apenas o que você lhes diz, e só pode tomar ações de combate. Aqueles com armas vão usá-los quando possível.\n\nNão deixe colonos. Esboçado para sempre - eles passarão fome e ficarão infelizes.</Drafting.helpText>
   <!-- EN: Drug addiction -->
-  <DrugAddiction.label>TODO</DrugAddiction.label>
+  <DrugAddiction.label>Toxicodependência</DrugAddiction.label>
   <!-- EN: You can inspect your colonists' desire to take a drug in their Needs tab.\n\nAs long as their need level is at zero, their addiction changes to a "withdrawal" state which can have various negative side effects.\n\nHowever, after long enough in withdrawal, their addiction will end and the drug need will disappear. -->
-  <DrugAddiction.helpText>TODO</DrugAddiction.helpText>
-  
+  <DrugAddiction.helpText>Você pode inspecionar o desejo dos colonos de tomar uma droga na aba Needs deles.\n\nDesde que seu nível de necessidade esteja em zero, seu vício muda para um estado de &quot;retirada&quot; que pode ter vários efeitos colaterais negativos.\n\nNo entanto, depois de muito tempo em retirada, seu vício terminará e a necessidade da droga desaparecerá.</DrugAddiction.helpText>
   <!-- EN: Drug burning -->
-  <DrugBurning.label>TODO</DrugBurning.label>
+  <DrugBurning.label>Queima de droga</DrugBurning.label>
   <!-- EN: Drugs can be useful, but can also lead to harmful addictions.\n\nIf you want to avoid drugs in your colony, you have the option of burning them at a campfire. -->
-  <DrugBurning.helpText>TODO</DrugBurning.helpText>
-  
+  <DrugBurning.helpText>As drogas podem ser úteis, mas também podem levar a vícios nocivos.\n\nSe você quiser evitar drogas em sua colônia, você tem a opção de queimá-los em uma fogueira.</DrugBurning.helpText>
   <!-- EN: Drug policies -->
-  <DrugPolicies.label>TODO</DrugPolicies.label>
+  <DrugPolicies.label>Políticas de droga</DrugPolicies.label>
   <!-- EN: You can assign colonists to take specific drugs on a specific schedule. For example, you can make them take infection-blocking drugs regularly, or drink a beer a day to stay happy.\n\nOpen the ASSIGN tab and press the 'Manage drug policies' button. Create a new drug policy. Then, you can assign this policy to colonists.\n\nColonists can still take drugs not in their policy. You can tell them what to do, but they also follow their own desires! -->
-  <DrugPolicies.helpText>TODO</DrugPolicies.helpText>
-  
+  <DrugPolicies.helpText>Você pode atribuir colonos para tomar drogas específicas em um horário específico. Por exemplo, você pode fazê-los tomar drogas bloqueio de infecção regularmente, ou beber uma cerveja por dia para ficar feliz.\n\nAbra a guia ASSIGN e pressione o botão &quot;Gerenciar políticas de drogas&quot;. Criar uma nova política de drogas. Então, você pode atribuir esta política aos colonos.\n\nOs colonos ainda podem tomar drogas não na sua política. Você pode dizer-lhes o que fazer, mas eles também seguem seus próprios desejos!</DrugPolicies.helpText>
   <!-- EN: Positioning fighters -->
-  <GroupGotoHereDragging.label>TODO</GroupGotoHereDragging.label>
+  <GroupGotoHereDragging.label>Lutadores de posicionamento</GroupGotoHereDragging.label>
   <!-- EN: Right-click and drag to have your drafted fighters form a line.\n\nSpread out - bunched-up targets are easy to hit! -->
-  <GroupGotoHereDragging.helpText>TODO</GroupGotoHereDragging.helpText>
+  <GroupGotoHereDragging.helpText>Clique com o botão direito do mouse e arraste para ter seus lutadores rascunhados formar uma linha.\n\nEspalhem-se - alvos cheios são fáceis de atingir!</GroupGotoHereDragging.helpText>
   <!-- EN: Hold the left trigger button and drag to have your drafted fighters form a line.\n\nSpread out - bunched-up targets are easy to hit! -->
-  <GroupGotoHereDragging.helpTextController>TODO</GroupGotoHereDragging.helpTextController>
-  
+  <GroupGotoHereDragging.helpTextController>Segure o botão esquerdo do gatilho e arraste para ter seus lutadores rascunhados formar uma linha.\n\nEspalhem-se - alvos cheios são fáceis de atingir!</GroupGotoHereDragging.helpTextController>
   <!-- EN: Interacting with traders -->
-  <InteractingWithTraders.label>TODO</InteractingWithTraders.label>
+  <InteractingWithTraders.label>Interagir com os comerciantes</InteractingWithTraders.label>
   <!-- EN: You can talk to people with ? over their heads.\n\nSelect a colonist and right-click on the character with ? attached to their head. -->
-  <InteractingWithTraders.helpText>Podes falar com as pessoas que têm um  ?  sobre elas.\n\nSelecciona um colono e click-direito na personagem com o  ?  por cima da sua cabeça.</InteractingWithTraders.helpText>
+  <InteractingWithTraders.helpText>Podes falar com as pessoas? sobre suas cabeças.\n\nSelecione um colonista e clique com o botão direito sobre o personagem com ? agarrados à cabeça.</InteractingWithTraders.helpText>
   <!-- EN: You can talk to people with ? over their heads.\n\nSelect a colonist and press the left trigger button on the character with ? attached to their head. -->
-  <InteractingWithTraders.helpTextController>TODO</InteractingWithTraders.helpTextController>
-  
+  <InteractingWithTraders.helpTextController>Podes falar com as pessoas? sobre suas cabeças.\n\nSelecione um colonista e pressione o botão de gatilho esquerdo no personagem com ? agarrados à cabeça.</InteractingWithTraders.helpTextController>
   <!-- EN: Using the comms console -->
-  <OpeningComms.label>TODO</OpeningComms.label>
+  <OpeningComms.label>Usando o console comms</OpeningComms.label>
   <!-- EN: To communicate, select a colonist and right-click on the comms console. -->
-  <OpeningComms.helpText>Para comunicares, selecciona um colono e click-direito na painel de comunicações.</OpeningComms.helpText>
+  <OpeningComms.helpText>Para comunicar, selecione um colonista e clique com o botão direito do mouse no console de comunicações.</OpeningComms.helpText>
   <!-- EN: To communicate, select a colonist and press the left trigger button on the comms console. -->
-  <OpeningComms.helpTextController>TODO</OpeningComms.helpTextController>
-  
+  <OpeningComms.helpTextController>Para comunicar, selecione um colonizador e pressione o botão de gatilho esquerdo no console de comandos.</OpeningComms.helpTextController>
   <!-- EN: Prisoner tab -->
-  <PrisonerTab.label>Aprende sobre a aba de prisioneiros</PrisonerTab.label>
+  <PrisonerTab.label>Aba de prisão</PrisonerTab.label>
   <!-- EN: Look in a prisoner's 'Prisoner' tab to set how they'll be treated.\n\nYou can set whether they'll be recruited, ignored, or executed, and what kind of medical care they get. You can set food restrictions for the prisoner in their health tab.\n\nColonists with the Warden work type will interact with the prisoner. -->
-  <PrisonerTab.helpText>Vê a aba 'Prisioneiro' de um prisioneiro para decidires como são tratados.\n\nPrecisas de um colono com o trabalho de Guarda para tratar dos prisioneiros.</PrisonerTab.helpText>
-  
+  <PrisonerTab.helpText>Olhe na aba &quot;Prisoner&quot; de um prisioneiro para definir como eles serão tratados.\n\nVocê pode definir se eles serão recrutados, ignorados ou executados, e que tipo de cuidados médicos eles recebem. Você pode definir restrições alimentares para o prisioneiro em sua aba de saúde.\n\nColonistas com o tipo de trabalho de Warden interagirão com o prisioneiro.</PrisonerTab.helpText>
   <!-- EN: Order queueing -->
-  <QueueOrders.label>TODO</QueueOrders.label>
+  <QueueOrders.label>Fila de ordem</QueueOrders.label>
   <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding "shift". This also works when giving jobs to undrafted pawns. -->
-  <QueueOrders.helpText>TODO</QueueOrders.helpText>
+  <QueueOrders.helpText>Ao dar comandos para peões, você pode filar várias ordens segurando &quot;shift&quot;. Isso também funciona ao dar empregos para peões desencapados.</QueueOrders.helpText>
   <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding {Key:QueueOrder}. This also works when giving jobs to undrafted pawns. -->
-  <QueueOrders.helpTextController>TODO</QueueOrders.helpTextController>
-  
+  <QueueOrders.helpTextController>Ao dar comandos para peões, você pode filar várias ordens segurando {Key:QueueOrder}. Isso também funciona ao dar empregos para peões desencapados.</QueueOrders.helpTextController>
   <!-- EN: Reforming caravans -->
-  <ReformCaravan.label>TODO</ReformCaravan.label>
+  <ReformCaravan.label>Reformar caravanas</ReformCaravan.label>
   <!-- EN: After an encounter, you can easily re-form a caravan by using the RE-FORM CARAVAN command in the World view. -->
-  <ReformCaravan.helpText>TODO</ReformCaravan.helpText>
-  
+  <ReformCaravan.helpText>Após um encontro, você pode facilmente re-formar uma caravana usando o comando RE-FORM CARAVAN na visão do mundo.</ReformCaravan.helpText>
   <!-- EN: Rescuing -->
-  <Rescuing.label>TODO</Rescuing.label>
+  <Rescuing.label>Resgatando</Rescuing.label>
   <!-- EN: To rescue a wounded person, select a healthy colonist and then right-click on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them. -->
-  <Rescuing.helpText>Para resgatar um colono ferido, selecciona um colono saudável e click-direito no ferido.</Rescuing.helpText>
+  <Rescuing.helpText>Para resgatar uma pessoa ferida, selecione um colonizador saudável e clique com o botão direito no ferido.\n\nSe resgatares um não-colonista, não vão necessariamente juntar-se à tua colónia. Eles podem simplesmente ir embora após a cura. Se você quiser garantir que eles se juntem, capturá-los e recrutá-los.</Rescuing.helpText>
   <!-- EN: To rescue a wounded person, select a healthy colonist and then press the left trigger button on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them. -->
-  <Rescuing.helpTextController>TODO</Rescuing.helpTextController>
-  
+  <Rescuing.helpTextController>Para resgatar uma pessoa ferida, selecione um colonizador saudável e, em seguida, pressione o botão esquerdo do gatilho no ferido.\n\nSe resgatares um não-colonista, não vão necessariamente juntar-se à tua colónia. Eles podem simplesmente ir embora após a cura. Se você quiser garantir que eles se juntem, capturá-los e recrutá-los.</Rescuing.helpTextController>
   <!-- EN: Set what plant to grow -->
-  <SetGrowingZonePlant.label>Aprende sobre a configuração da zona de cultivo</SetGrowingZonePlant.label>
+  <SetGrowingZonePlant.label>Definir que planta para crescer</SetGrowingZonePlant.label>
   <!-- EN: You can set what to plant in a growing zone. You can even grow trees!\n\nJust select the growing zone, open the Growing tab, and click the 'plant' button. -->
-  <SetGrowingZonePlant.helpText>Podes escolher o que plantas nas zonas de cultivo. Podes até plantar árvores!\n\nSelecciona uma zona de cultivo, abre a aba Cultivo, e clicka no botão 'plantar'.</SetGrowingZonePlant.helpText>
-  
+  <SetGrowingZonePlant.helpText>Você pode definir o que plantar em uma zona em crescimento. Você pode até cultivar árvores!\n\nBasta selecionar a zona de crescimento, abrir a guia Crescer e clicar no botão &quot;plantar&quot;.</SetGrowingZonePlant.helpText>
   <!-- EN: Shelves -->
-  <Shelves.label>TODO</Shelves.label>
+  <Shelves.label>Prateleiras</Shelves.label>
   <!-- EN: Shelves store three times as much as empty ground. Items on shelves will also never deteriorate and don't affect the beauty of their surroundings.\n\nYou can link shelves into groups and configure them as one. First, select two or more shelves, then click 'Link storage settings'. -->
-  <Shelves.helpText>TODO</Shelves.helpText>
-  
+  <Shelves.helpText>As prateleiras armazenam três vezes tanto como terreno vazio. Itens em prateleiras também nunca vai se deteriorar e não afetar a beleza de seus arredores.\n\nVocê pode ligar prateleiras em grupos e configurá-los como um. Primeiro, selecione duas ou mais prateleiras e clique em &quot;Configurações de armazenamento Link&quot;.</Shelves.helpText>
   <!-- EN: Shield belts -->
-  <ShieldBelts.label>TODO</ShieldBelts.label>
+  <ShieldBelts.label>Correias de escudo</ShieldBelts.label>
   <!-- EN: Shield belts stop ranged attacks from coming in or out. They have no effect on melee attacks.\n\nTo fight against shield belts, either concentrate a lot of gunfire on the target, or fight hand-to-hand. -->
-  <ShieldBelts.helpText>TODO</ShieldBelts.helpText>
-  
+  <ShieldBelts.helpText>Os cintos de proteção param de ataques de entrada ou saída. Não têm efeito sobre ataques corporais.\n\nLutar contra os cintos de proteção, ou concentrar um monte de tiros no alvo, ou lutar mão a mão.</ShieldBelts.helpText>
   <!-- EN: TV for sick people -->
-  <TVForSickPeople.label>TODO</TVForSickPeople.label>
+  <TVForSickPeople.label>TV para pessoas doentes</TVForSickPeople.label>
   <!-- EN: Sick people can watch TV while laying in bed. -->
-  <TVForSickPeople.helpText>Para entreteres pessoas doentes na cama, põe lá uma TV.</TVForSickPeople.helpText>
-  
+  <TVForSickPeople.helpText>Pessoas doentes podem assistir TV enquanto deita na cama.</TVForSickPeople.helpText>
 </LanguageData>

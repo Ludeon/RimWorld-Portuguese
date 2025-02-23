@@ -1,97 +1,73 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: animal gather speed -->
-  <AnimalGatherSpeed.label>TODO</AnimalGatherSpeed.label>
+  <AnimalGatherSpeed.label>animal recolher velocidade</AnimalGatherSpeed.label>
   <!-- EN: The speed at which this person milks, shears, and otherwise gathers resources from animals. -->
-  <AnimalGatherSpeed.description>TODO</AnimalGatherSpeed.description>
-  
+  <AnimalGatherSpeed.description>A velocidade em que esta pessoa ordenha, tesoura, e de outra forma reúne recursos de animais.</AnimalGatherSpeed.description>
   <!-- EN: animal gather yield -->
-  <AnimalGatherYield.label>TODO</AnimalGatherYield.label>
+  <AnimalGatherYield.label>animal de colheita</AnimalGatherYield.label>
   <!-- EN: The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal.\n\nHigher percentages reduce the chance of wasting the product. -->
-  <AnimalGatherYield.description>TODO</AnimalGatherYield.description>
-  
+  <AnimalGatherYield.description>A porcentagem de rendimento alguém recebe quando se derrama, leite ou de outra forma reúne recursos de um animal vivo.\n\nMaiores percentuais reduzem a chance de desperdiçar o produto.</AnimalGatherYield.description>
   <!-- EN: cleaning speed multiplier -->
-  <CleaningSpeed.label>TODO</CleaningSpeed.label>
+  <CleaningSpeed.label>multiplicador de velocidade de limpeza</CleaningSpeed.label>
   <!-- EN: A multiplier on how fast this cleans up filth from the ground. -->
-  <CleaningSpeed.description>TODO</CleaningSpeed.description>
-  
+  <CleaningSpeed.description>Um multiplicador no quão rápido isto limpa a sujeira do chão.</CleaningSpeed.description>
   <!-- EN: construction speed -->
-  <ConstructionSpeed.label>construction speed</ConstructionSpeed.label>
+  <ConstructionSpeed.label>velocidade de construção</ConstructionSpeed.label>
   <!-- EN: The speed at which this person constructs and repairs buildings. -->
-  <ConstructionSpeed.description>Speed at which this person constructs and repairs buildings.</ConstructionSpeed.description>
-  
+  <ConstructionSpeed.description>A velocidade em que esta pessoa constrói e repara edifícios.</ConstructionSpeed.description>
   <!-- EN: construct success chance -->
-  <ConstructSuccessChance.label>TODO</ConstructSuccessChance.label>
+  <ConstructSuccessChance.label>construir a chance de sucesso</ConstructSuccessChance.label>
   <!-- EN: The chance that this person will succeed in constructing something.\nFailing means wasting time and resources. -->
-  <ConstructSuccessChance.description>TODO</ConstructSuccessChance.description>
-  
+  <ConstructSuccessChance.description>A chance de que esta pessoa terá sucesso na construção de algo.\nFalhar significa perder tempo e recursos.</ConstructSuccessChance.description>
   <!-- EN: deep drilling speed -->
-  <DeepDrillingSpeed.label>TODO</DeepDrillingSpeed.label>
+  <DeepDrillingSpeed.label>velocidade de perfuração profunda</DeepDrillingSpeed.label>
   <!-- EN: A speed at which this person uses a deep drill to extract underground resources. -->
-  <DeepDrillingSpeed.description>TODO</DeepDrillingSpeed.description>
-  
+  <DeepDrillingSpeed.description>Uma velocidade em que esta pessoa usa uma broca profunda para extrair recursos subterrâneos.</DeepDrillingSpeed.description>
   <!-- EN: drug crop harvest yield -->
-  <DrugHarvestYield.label>TODO</DrugHarvestYield.label>
+  <DrugHarvestYield.label>produção de colheita de culturas</DrugHarvestYield.label>
   <!-- EN: The yield this person gets when harvesting drug crops.\n\nLow yields give a chance that this person will accidentally waste the harvest. High yields increase the yield from each plant. -->
-  <DrugHarvestYield.description>TODO</DrugHarvestYield.description>
-  
-  <!-- UNUSED -->
-  <FixBrokenDownBuildingFailChance.label>repair fail chance</FixBrokenDownBuildingFailChance.label>
-  <FixBrokenDownBuildingFailChance.description>The chance that this person will fail to repair a broken down building.</FixBrokenDownBuildingFailChance.description>
-  
+  <DrugHarvestYield.description>O rendimento que esta pessoa recebe na colheita de culturas de drogas.\n\nBaixo rendimento dá a chance de que esta pessoa acidentalmente desperdiçará a colheita. Altos rendimentos aumentam o rendimento de cada planta.</DrugHarvestYield.description>
   <!-- EN: repair success chance -->
-  <FixBrokenDownBuildingSuccessChance.label>TODO</FixBrokenDownBuildingSuccessChance.label>
+  <FixBrokenDownBuildingSuccessChance.label>reparação de sucesso</FixBrokenDownBuildingSuccessChance.label>
   <!-- EN: The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage. -->
-  <FixBrokenDownBuildingSuccessChance.description>TODO</FixBrokenDownBuildingSuccessChance.description>
-  
-  <!-- UNUSED -->
-  <HarvestFailChance.label>harvest fail chance</HarvestFailChance.label>
-  <HarvestFailChance.description>The chance that this person will accidentally destroy the harvest instead of collecting it.</HarvestFailChance.description>
-  
+  <FixBrokenDownBuildingSuccessChance.description>A chance de que esta pessoa irá reparar com sucesso um edifício quebrado usando um componente.\n\nFalhar significa perder tempo e recursos.\nNote que isso só se aplica à reparação de avarias, que é diferente da reparação de danos.</FixBrokenDownBuildingSuccessChance.description>
   <!-- EN: hunting stealth -->
-  <HuntingStealth.label>TODO</HuntingStealth.label>
+  <HuntingStealth.label>caça furtiva</HuntingStealth.label>
   <!-- EN: This stat reduces the chance of hunted animals attacking the hunter.\n\nA 0% score means no reduction.\nA 100% score means animals never attack. -->
-  <HuntingStealth.description>TODO</HuntingStealth.description>
-  
+  <HuntingStealth.description>Esta estatística reduz a chance de caçar animais atacando o caçador.\n\nUma pontuação de 0% significa nenhuma redução.\nUma pontuação de 100% significa que os animais nunca atacam.</HuntingStealth.description>
   <!-- EN: mining speed -->
-  <MiningSpeed.label>mining speed</MiningSpeed.label>
+  <MiningSpeed.label>velocidade de mineração</MiningSpeed.label>
   <!-- EN: A speed at which this person mines away walls. -->
-  <MiningSpeed.description>A multiplier on the speed at which this person mines rock.</MiningSpeed.description>
-  
+  <MiningSpeed.description>Uma velocidade em que esta pessoa mina paredes.</MiningSpeed.description>
   <!-- EN: mining yield -->
-  <MiningYield.label>TODO</MiningYield.label>
+  <MiningYield.label>produção de mineração</MiningYield.label>
   <!-- EN: The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks from deep drills. -->
-  <MiningYield.description>TODO</MiningYield.description>
-  
+  <MiningYield.description>A percentagem de recursos extraídos que um mineiro produzirá.\n\nIsso se aplica tanto à mineração de parede quanto à mineração de perfuração profunda.\nIsso não afeta a taxa de produção de pedaços de rocha de brocas profundas.</MiningYield.description>
   <!-- EN: plant harvest yield -->
-  <PlantHarvestYield.label>TODO</PlantHarvestYield.label>
+  <PlantHarvestYield.label>colheita da planta</PlantHarvestYield.label>
   <!-- EN: The yield this person gets when harvesting plants.\n\nLow yields give a chance that this person will accidentally waste the harvest. -->
-  <PlantHarvestYield.description>TODO</PlantHarvestYield.description>
-  
+  <PlantHarvestYield.description>O rendimento que esta pessoa recebe ao colher plantas.\n\nBaixo rendimento dá a chance de que esta pessoa acidentalmente desperdiçará a colheita.</PlantHarvestYield.description>
   <!-- EN: plant work speed -->
-  <PlantWorkSpeed.label>plant work speed</PlantWorkSpeed.label>
+  <PlantWorkSpeed.label>velocidade de trabalho da planta</PlantWorkSpeed.label>
   <!-- EN: The speed at which this person sows and harvests plants. -->
-  <PlantWorkSpeed.description>Speed at which this person sows and harvests plants.</PlantWorkSpeed.description>
-  
+  <PlantWorkSpeed.description>A velocidade em que esta pessoa semeia e colheita plantas.</PlantWorkSpeed.description>
   <!-- EN: reading speed -->
-  <ReadingSpeed.label>TODO</ReadingSpeed.label>
+  <ReadingSpeed.label>velocidade de leitura</ReadingSpeed.label>
   <!-- EN: A multiplier on how fast this person can read. -->
-  <ReadingSpeed.description>TODO</ReadingSpeed.description>
-  
+  <ReadingSpeed.description>Um multiplicador sobre o quão rápido esta pessoa pode ler.</ReadingSpeed.description>
   <!-- EN: research speed -->
-  <ResearchSpeed.label>research speed</ResearchSpeed.label>
+  <ResearchSpeed.label>velocidade de pesquisa</ResearchSpeed.label>
   <!-- EN: How fast this person performs research and how quickly they can find things using scanning equipment. -->
-  <ResearchSpeed.description>This person does research at this speed.</ResearchSpeed.description>
-  
+  <ResearchSpeed.description>Quão rápido esta pessoa realiza pesquisa e quão rápido eles podem encontrar coisas usando equipamentos de digitalização.</ResearchSpeed.description>
   <!-- EN: smoothing speed -->
-  <SmoothingSpeed.label>smoothing speed</SmoothingSpeed.label>
+  <SmoothingSpeed.label>velocidade de alisamento</SmoothingSpeed.label>
   <!-- EN: A multiplier on the speed at which this person smooths rough stone floors and walls. -->
-  <SmoothingSpeed.description>A multiplier on the speed at which this person smooths floors.</SmoothingSpeed.description>
-  
+  <SmoothingSpeed.description>Um multiplicador na velocidade em que esta pessoa alisa pisos de pedra e paredes ásperas.</SmoothingSpeed.description>
   <!-- EN: global work speed -->
-  <WorkSpeedGlobal.label>global work speed</WorkSpeedGlobal.label>
+  <WorkSpeedGlobal.label>velocidade de trabalho global</WorkSpeedGlobal.label>
   <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
-  <WorkSpeedGlobal.description>A multiplier on someone's speed at doing any work.</WorkSpeedGlobal.description>
-  
+  <WorkSpeedGlobal.description>Um multiplicador na velocidade de um personagem em fazer qualquer tipo de trabalho.</WorkSpeedGlobal.description>
+  <!-- EN: Offset from mechanitor -->
+  <WorkSpeedGlobal.parts.2.label>Fora do mecanitor</WorkSpeedGlobal.parts.2.label>
 </LanguageData>

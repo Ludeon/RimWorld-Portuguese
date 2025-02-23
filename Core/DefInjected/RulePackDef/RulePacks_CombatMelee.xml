@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>r_logentry(p=0.5)->[INITIATOR_definite] [damaged_past] [atMaybe] [RECIPIENT_definite] in the [recipient_part0_label] [deflected_result].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] with [implement] [deflected_result].</li>
@@ -31,8 +30,7 @@
     <li>deflecting->bouncing</li>
     <li>deflecting->glancing</li>
   -->
-  <Combat_Deflect.rulePack.rulesStrings>TODO</Combat_Deflect.rulePack.rulesStrings>
-  
+  <Combat_Deflect.rulePack.rulesStrings>&lt;li&gt;r_logentry(p=0.5)-&gt;[INITIATOR_definite] [damaged_past] [atMaybe] [RECIPIENT_definite] no [recipient_part0_label] [deflected_result].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.3)-&gt;[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] com [implement] [deflected_result].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.3)-&gt;[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] [deflected_result].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.1)-&gt;[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite] no [recipient_part0_label] [deflected_result].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.1)-&gt;[INITIATOR_definite] hit [RECIPIENT_definite] com um [damaged_inf] de [implementação] [deflected_result].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.1)-&gt;[INITIATOR_definite] [skillAdvMaybe] usado [implement] para [damaged_inf] [RECIPIENT_definite] [deflected_result].&lt;/li&gt;\n&lt;li&gt;skillAdvMaybe-&gt;&lt;/li&gt;\n&lt;li&gt;skillAdvMaybe-&gt;[skillAdv]&lt;/li&gt;\n&lt;li&gt;atMaybe-&gt;&lt;/li&gt;\n&lt;li&gt;atMaybe-&gt;at&lt;/li&gt;\n&lt;li&gt;deflected_result-&gt;, mas o [TOOL_label] [deflectido] off [harmlessly_opt]&lt;/li&gt;\n&lt;li&gt;deflected_result-&gt;, [deflecting] off [RECIPIENT_possessive] armor [harmlessly_opt]&lt;/li&gt;\n&lt;li&gt;harmlessly_opt(p=4)-&gt;&lt;/li&gt;\n&lt;li&gt;harmlessly_opt-&gt;[Sempre]&lt;/li&gt;\n&lt;li&gt; sem problemas-&gt; sem problemas&lt;/li&gt;\n&lt;li&gt; inutilmente-&gt; inutilmente&lt;/li&gt;\n&lt;li&gt;deflected-&gt;deflected&lt;/li&gt;\n&lt;li&gt;deflected-&gt;scraped&lt;/li&gt;\n&lt;li&gt;deflected-&gt;slid&lt;/li&gt;\n&lt;li&gt;deflected-&gt;grazed&lt;/li&gt;\n&lt;li&gt;deflected-&gt;bounced&lt;/li&gt;\n&lt;li&gt;deflected-&gt;glanced&lt;/li&gt;\n&lt;li&gt;deflecting-&gt;deflecting&lt;/li&gt;\n&lt;li&gt;deflecting-&gt;scraping&lt;/li&gt;\n&lt;li&gt;deflecting-&gt;sliding&lt;/li&gt;\n&lt;li&gt;deflecting-&gt;grazing&lt;/li&gt;\n&lt;li&gt;deflecting-&gt;bouncing&lt;/li&gt;\n&lt;li&gt;deflecting-&gt;glancing&lt;/li&gt;\n</Combat_Deflect.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite]'s [damaged_inf] from [implement].</li>
     <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite]'s [damaged_inf].</li>
@@ -42,8 +40,7 @@
     <li>result->but was deceived by [RECIPIENT_definite]'s feint</li>
     <li>result->but the attack was cleverly avoided</li>
   -->
-  <Combat_Dodge.rulePack.rulesStrings>TODO</Combat_Dodge.rulePack.rulesStrings>
-  
+  <Combat_Dodge.rulePack.rulesStrings>&lt;li&gt;r_logentry(p=0.5)-&gt;[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite]'s [damaged_inf] from [implement].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.5)-&gt;[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite]'s [damaged_inf].&lt;/li&gt;\n&lt;li&gt;skillAdvMaybe-&gt;&lt;/li&gt;\n&lt;li&gt;skillAdvMaybe-&gt;[skillAdv]&lt;/li&gt;\n&lt;li&gt;result-&gt;but [RECIPIENT_definite] pulou para fora do caminho&lt;/li&gt;\n&lt;li&gt;result-&gt;but foi enganado por [RECIPIENT_definite]'s feint&lt;/li&gt;\n&lt;li&gt;result-&gt; mas o ataque foi evitado inteligentemente&lt;/li&gt;\n</Combat_Dodge.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label] [strikeAdv].</li>
@@ -66,8 +63,7 @@
     <li>action(p=0.3)->[INITIATOR_definite] used [implement] to [damaged_inf] [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite] used [implement] [skillAdv] to [damaged_inf] [RECIPIENT_definite]</li>
   -->
-  <Combat_Hit.rulePack.rulesStrings>TODO</Combat_Hit.rulePack.rulesStrings>
-  
+  <Combat_Hit.rulePack.rulesStrings>&lt;li&gt;r_logentry(p=1.0)-&gt;[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] no [recipient_part0_label].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.4)-&gt;[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] no [recipient_part0_label] [strikeAdv].\n&lt;li&gt;r_logentry(p=0.4)-&gt;[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] no [recipient_part0_label], [flavortext_consequence].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.4)-&gt;[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.2)-&gt;[INITIATOR_definite], [skillDescMelee], [strikeAdv] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.4)-&gt;[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.4)-&gt;[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] [destroyed_suffix].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.4)-&gt;[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] with [implement].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=1,recipient_part_count=0)-&gt;[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] com [implement].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.4,recipient_part_count=0)-&gt;[INITIATOR_definite] [skillAdv] [damaged_past] [RECIPIENT_definite] com [implement].&lt;/li&gt;\n&lt;li&gt;result(p=1,recipient_part_damaged_count=0)-&gt;[destroyed_present] [RECIPIENT_possessive] [destroyed_targets]&lt;/li&gt;\n&lt;li&gt;result(p=1,recipient_part_destroyed_count=0)-&gt;[damaged_present] [RECIPIENT_possessive] [damaged_targets]&lt;/li&gt;\n&lt;li&gt;result(p=1)-&gt;[destroyed_present] [RECIPIENT_possessive] [destroyed_targets] e [damaged_present] [RECIPIENT_possessive] [damaged_targets]&lt;/li&gt;\n&lt;li&gt;action(p=1.0)-&gt;[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] com [implementação]&lt;/li&gt;\n&lt;li&gt;action(p=0.3)-&gt;[INITIATOR_definite] [damaged_past] [RECIPIENT_definite]&lt;/li&gt;\n&lt;li&gt;action(p=0.3)-&gt;[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite]&lt;/li&gt;\n&lt;li&gt;action(p=0.3)-&gt;[INITIATOR_definite] hit [RECIPIENT_definite] com um [damaged_inf] de [implementação]&lt;/li&gt;\n&lt;li&gt;action(p=0.3)-&gt;[INITIATOR_definite], [skillDescMelee], hit [RECIPIENT_definite] with a [damaged_inf] from [implement]&lt;/li&gt;\n&lt;li&gt;action(p=0.3)-&gt;[INITIATOR_definite] usado [implement] para [damaged_inf] [RECIPIENT_definite]&lt;/li&gt;\n&lt;li&gt;action(p=0.3)-&gt;[INITIATOR_definite] usado [implement] [skillAdv] para [damaged_inf] [RECIPIENT_definite]&lt;/li&gt;\n</Combat_Hit.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry(p=0.3)->[RECIPIENT_definite] avoided [INITIATOR_definite]'s [WEAPON_label] [damaged_inf].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] missed [RECIPIENT_definite] with a [damaged_inf] from [implement].</li>
@@ -87,6 +83,5 @@
     <li>result->but stumbled at the last second</li>
     <li>result(initiator_flesh!=Mechanoid)->but hesitated at the last second</li>
   -->
-  <Combat_Miss.rulePack.rulesStrings>TODO</Combat_Miss.rulePack.rulesStrings>
-  
+  <Combat_Miss.rulePack.rulesStrings>&lt;li&gt;r_logentry(p=0.3)-&gt;[RECIPIENT_definite] evitado [INITIATOR_definite] [WEAPON_label] [damaged_inf].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.3)-&gt;[INITIATOR_definite] perdeu [RECIPIENT_definite] com um [damaged_inf] de [implement].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.3)-&gt;[INITIATOR_definite] [failtype] ao tentar [damaged_inf] [RECIPIENT_definite] com [implement].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.3)-&gt;[INITIATOR_definite] [failtype] ao tentar [damaged_inf] [RECIPIENT_definite].&lt;/li&gt;\n&lt;li&gt;r_logentry(p=0.3)-&gt;[INITIATOR_definite] tentou [skillAdvMaybe] [damaged_inf] [RECIPIENT_definite], mas [failtype].&lt;/li&gt;\n&lt;li&gt;skillAdvMaybe-&gt;&lt;/li&gt;\n&lt;li&gt;skillAdvMaybe-&gt;[skillAdv]&lt;/li&gt;\n&lt;li&gt;failtype(p=5)-&gt;missed&lt;/li&gt;\n&lt;li&gt;failtype-&gt;stumbled&lt;/li&gt;\n&lt;li&gt;failtype-&gt;tripped&lt;/li&gt;\n&lt;li&gt;failtype-&gt;flailed&lt;/li&gt;\n&lt;li&gt;failtype-&gt;floundered&lt;/li&gt;\n&lt;li&gt;result(p=4)-&gt;mas falhou&lt;/li&gt;\n&lt;li&gt;result-&gt; mas atingiu apenas ar&lt;/li&gt;\n&lt;li&gt;result-&gt; mas o balanço foi largo&lt;/li&gt;\n&lt;li&gt;result-&gt; mas tropeçou na última segunda&lt;/li&gt;\n&lt;li&gt;result (iniciador_flesh!=Mechanoid)-&gt; mas hesitou no último segundo &lt;/li&gt;\n</Combat_Miss.rulePack.rulesStrings>
 </LanguageData>

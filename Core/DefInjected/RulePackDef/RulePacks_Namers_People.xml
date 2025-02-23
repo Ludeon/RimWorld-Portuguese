@@ -1,13 +1,17 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+  <!-- EN:
+    <li>ImperialNameFirstMale->Names/Imperial_First_Male</li>
+    <li>ImperialNameFirstFemale->Names/Imperial_First_Female</li>
+    <li>ImperialNameLast->Names/Imperial_Last</li>
+  -->
+  <EmpireNameUtility.rulePack.rulesFiles>&lt;li&gt;Nome ImperialPrimeiroMale-&gt;Nomes/Imperial_First_Male&lt;/li&gt;\n&lt;li&gt;Nome ImperialPrimeiroFemale-&gt;Nomes/Imperial_First_Female&lt;/li&gt;\n&lt;li&gt;Nome ImperialLast-&gt;Nomes/Imperial_Last&lt;/li&gt;\n</EmpireNameUtility.rulePack.rulesFiles>
   <!-- EN:
     <li>WordImperial(p=4)->[SylB][SylB]</li>
     <li>WordImperial(p=2)->[SylB][SylB][SylB]</li>
     <li>WordImperial(p=0.2)->[SylB][SylB][SylB][SylB]</li>
   -->
-  <EmpireNameUtility.rulePack.rulesStrings>TODO</EmpireNameUtility.rulePack.rulesStrings>
-  
+  <EmpireNameUtility.rulePack.rulesStrings>&lt;li&gt;WordImperial(p=4)-&gt;[SylB][SylB]&lt;/li&gt;\n&lt;li&gt;WordImperial(p=2)-&gt;[SylB][SylB][SylB]&lt;/li&gt;\n&lt;li&gt;WordImperial(p=0.2)-&gt;[SylB][SylB][SylB][SylB]&lt;/li&gt;\n</EmpireNameUtility.rulePack.rulesStrings>
   <!-- EN:
     <li>r_name(p=2)->[WordTribal] [WordTribal]</li>
     <li>r_name->[WordTribal] '[AnimalBadass]' [WordTribal]</li>
@@ -16,6 +20,5 @@
     <li>r_name->[Animal] [WordTribal]</li>
     <li>r_name->[Color] [Animal]</li>
   -->
-  <NamerPersonCorunan.rulePack.rulesStrings>TODO</NamerPersonCorunan.rulePack.rulesStrings>
-  
+  <NamerPersonCorunan.rulePack.rulesStrings>&lt;li&gt;r_name(p=2)-&gt;[WordTribal] [WordTribal]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[WordTribal] '[AnimalBadass]' [WordTribal]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[Color] [WordTribal]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[WordTribal] [Animal]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[Animal] [WordTribal]&lt;/li&gt;\n&lt;li&gt;r_name-&gt;[Color] [Animal]&lt;/li&gt;\n</NamerPersonCorunan.rulePack.rulesStrings>
 </LanguageData>

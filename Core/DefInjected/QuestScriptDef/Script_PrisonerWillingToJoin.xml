@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>questDescription->A prisoner being held by [siteFaction_name] has managed to steal a radio and call you!\n\n[prisoner_nameDef] is being held at a camp near [map_definite][underArmedGuard]. Rescue [prisoner_objective], and [prisoner_pronoun] will join your colony. [prisoner_pronoun] is a [prisoner_age]-year-old [prisoner_title]. [prisoner_pronoun] says that [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nIf you miss this opportunity, you may never hear from [prisoner_nameDef] again.</li>
     <li>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</li>
@@ -8,7 +7,7 @@
     <li>underArmedGuard(allowViolentQuests==true,priority=1)-> under armed guard</li>
     <li>underArmedGuard-></li>
   -->
-  <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>TODO</OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
+  <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>&lt;li&gt;questDescription-&gt; Um prisioneiro que está sendo mantido por [siteFaction_name] conseguiu roubar um rádio e ligar para você!\n\n[prisoner_nameDef] está sendo realizado em um acampamento perto [map_definite][underArmedGuard]. Resgate [prisoner_objective], e [prisoner_pronoun] vai se juntar à sua colônia. [prisoner_pronoun] é um [prisoner_age]-year-old [prisoner_title]. [prisoner_pronoun] diz que [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nSe você perder esta oportunidade, você pode nunca ouvir de [prisoner_nameDef] novamente.&lt;/li&gt;\n&lt;li&gt;formerColonistInfo(prioridade=1)-&gt;\n\n[prisoner_formerlyColonistInfo]&lt;/li&gt;\n&lt;li&gt;formerColonistInfo-&gt;&lt;/li&gt;\n&lt;li&gt;underArmedGuard (allowViolentQuests=true,priority=1)-&gt; sob guarda armada &lt;/li&gt;\n&lt;li&gt;underArmedGuard-&gt;&lt;/li&gt;\n</OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[prisoner_nameDef]'s Salvation</li>
     <li>questName->[prisoner_nameDef]'s Rescue</li>
@@ -17,6 +16,5 @@
     <li>questName->Saving [prisoner_nameDef]</li>
     <li>questName->Breaking [prisoner_nameDef] Out</li>
   -->
-  <OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>TODO</OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
-  
+  <OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>&lt;li&gt;questName-&gt;[prisoner_nameDef]'s Salvation&lt;/li&gt;\n&lt;li&gt;questName-&gt;[prisoner_nameDef]'s Rescue&lt;/li&gt;\n&lt;li&gt;questName-&gt;[prisoner_nameDef]'s Breakout&lt;/li&gt;\n&lt;li&gt;questName-&gt;Rescutando [prisoner_nameDef]&lt;/li&gt;\n&lt;li&gt;questName-&gt;Saving [prisoner_nameDef]&lt;/li&gt;\n&lt;li&gt;questNome-&gt;Breaking [prisoner_nameDef] Out&lt;/li&gt;\n</OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
 </LanguageData>

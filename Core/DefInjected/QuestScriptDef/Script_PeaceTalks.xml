@@ -1,16 +1,16 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] of [faction_name], has sent us a message. [faction_leader_pronoun] wants to talk with us in a nearby location.\n\nIt could be a great opportunity to improve relations with their faction and receive gifts, but beware - a poor negotiator can cause more harm than good and may even anger them.[extraLeaderPart][favorRewardDetails]</li>
     <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nSuccessful peace talks can earn your negotiator a small amount of personal [faction_royalFavorLabel] with [faction_name].</li>
     <li>favorRewardDetails-></li>
+    <li>extraLeaderPart(priority=1)->\n\n[leaderRoleEffect].[leaderPawnInfo]</li>
     <li>extraLeaderPart-></li>
     <li>leaderRoleEffect->Other factions will respect you more if you send your leader to handle the negotiations</li>
     <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)-> [playerFaction_leaderTitle] [playerFaction_leader_nameFull] will get a bonus to the chance of a successful outcome.</li>
     <li>leaderPawnInfo-></li>
   -->
-  <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>TODO</OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
+  <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>&lt;li&gt;questDescription-&gt;[faction_leader_nameFull], [faction_leaderTitle] de [faction_name], nos enviou uma mensagem. [faction_leader_pronoun] quer falar conosco em um local próximo.\n\nPode ser uma grande oportunidade para melhorar as relações com sua facção e receber presentes, mas cuidado - um negociador pobre pode causar mais danos do que o bem e até mesmo irritá-los.\n&lt;li&gt;favorRewardDetails(faction_leader_royalInCurrentFaction=True,priority=1)-&gt;\n\nConversas de paz bem sucedidas podem ganhar seu negociador uma pequena quantidade de pessoal [faction_royalFavorLabel] com [faction_name].&lt;/li&gt;\n&lt;li&gt;favorRewardDetails-&gt;&lt;/li&gt;\n&lt;li&gt;extraLeaderPart (prioridade=1)-&gt;\n\n[leaderRoleEffect][leaderPawnInfo]&lt;/li&gt;\n&lt;li&gt;extraLeaderPart-&gt;&lt;/li&gt;\n&lt;li&gt;leaderRoleEffect-&gt; Outras facções irão respeitá-lo mais se você enviar seu líder para lidar com as negociações&lt;/li&gt;\n&lt;li&gt;leaderPawnInfo(playerFaction_hasLeader==True,priority=1)-&gt; [playerFaction_leaderTitle] [playerFaction_leader_nameFull] terá um bônus para a chance de um resultado bem sucedido.&lt;/li&gt;\n&lt;li&gt;leaderPawnInfo-&gt;&lt;/li&gt;\n</OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[faction_leader_nameDef]'s [peaceTalks]</li>
     <li>questName->[peaceTalks] with [faction_leader_nameDef]</li>
@@ -20,10 +20,9 @@
     <li>peaceTalks->Diplomacy</li>
     <li>peaceTalks->Meeting</li>
   -->
-  <OpportunitySite_PeaceTalks.questNameRules.rulesStrings>TODO</OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
+  <OpportunitySite_PeaceTalks.questNameRules.rulesStrings>&lt;li&gt;questName-&gt;[faction_leader_nameDef]'s [peaceTalks]&lt;/li&gt;\n&lt;li&gt;questName-&gt;[peaceTalks] com [faction_leader_nameDef]&lt;/li&gt;\n&lt;li&gt;questName-&gt;The [peaceTalks]&lt;/li&gt;\n&lt;li&gt;questName-&gt;[peaceTalks]&lt;/li&gt;\n&lt;li&gt;peaceTalks-&gt;Peace Talks&lt;/li&gt;\n&lt;li&gt;peaceTalks-&gt;Diplomacy&lt;/li&gt;\n&lt;li&gt;peaceTalks-&gt;Meeting&lt;/li&gt;\n</OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>TODO</OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>Quest expirou: [resolvedQuestName]</OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>
   <!-- EN: The offer of peace talks with [faction_name] has expired. You have failed the quest [resolvedQuestName]. -->
-  <OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>TODO</OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>
-  
+  <OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>A oferta de conversações de paz com [faction_name] expirou. Você falhou a busca [resolvedQuestName].</OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>
 </LanguageData>
