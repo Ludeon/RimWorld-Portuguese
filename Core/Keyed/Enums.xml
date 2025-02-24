@@ -43,7 +43,7 @@
   <!-- EN: corpses -->
   <FoodTypeFlags_Corpse>corpos</FoodTypeFlags_Corpse>
   <!-- EN: seeds -->
-  <FoodTypeFlags_Seed>TODO</FoodTypeFlags_Seed>
+  <FoodTypeFlags_Seed>sementes</FoodTypeFlags_Seed>
   <!-- EN: animal products -->
   <FoodTypeFlags_AnimalProduct>produtos de origem animal</FoodTypeFlags_AnimalProduct>
   <!-- EN: live plants -->
@@ -55,19 +55,19 @@
   <!-- EN: processed foods -->
   <FoodTypeFlags_Processed>alimentos processados</FoodTypeFlags_Processed>
   <!-- EN: liquor -->
-  <FoodTypeFlags_Liquor>TODO</FoodTypeFlags_Liquor>
+  <FoodTypeFlags_Liquor>licor</FoodTypeFlags_Liquor>
   <!-- EN: kibble -->
-  <FoodTypeFlags_Kibble>TODO</FoodTypeFlags_Kibble>
+  <FoodTypeFlags_Kibble>ração</FoodTypeFlags_Kibble>
 
   <!-- Quality category -->
   <!-- EN: awful -->
   <QualityCategory_Awful>horrível</QualityCategory_Awful>
   <!-- EN: poor -->
-  <QualityCategory_Poor>fraca</QualityCategory_Poor>
+  <QualityCategory_Poor>fraco</QualityCategory_Poor>
   <!-- EN: normal -->
   <QualityCategory_Normal>normal</QualityCategory_Normal>
   <!-- EN: good -->
-  <QualityCategory_Good>boa</QualityCategory_Good>
+  <QualityCategory_Good>bom</QualityCategory_Good>
   <!-- EN: excellent -->
   <QualityCategory_Excellent>excelente</QualityCategory_Excellent>
   <!-- EN: masterwork -->
@@ -77,7 +77,7 @@
   <!-- EN: awfl -->
   <QualityCategoryShort_Awful>horrível</QualityCategoryShort_Awful>
   <!-- EN: poor -->
-  <QualityCategoryShort_Poor>fraca</QualityCategoryShort_Poor>
+  <QualityCategoryShort_Poor>fraco</QualityCategoryShort_Poor>
   <!-- EN: norm -->
   <QualityCategoryShort_Normal>norm</QualityCategoryShort_Normal>
   <!-- EN: good -->
@@ -119,7 +119,7 @@
   <!-- EN: mountainous -->
   <Hilliness_Mountainous>Montanhoso</Hilliness_Mountainous>
   <!-- EN: impassable -->
-  <Hilliness_Impassable>TODO</Hilliness_Impassable>
+  <Hilliness_Impassable>intransitável</Hilliness_Impassable>
   
   <!-- Steam workshop interaction -->
   <!-- EN: Creating -->
@@ -141,11 +141,11 @@
 
   <!-- Mod sources -->
   <!-- EN: Official content -->
-  <ContentSource_OfficialModsFolder>TODO</ContentSource_OfficialModsFolder>
+  <ContentSource_OfficialModsFolder>Conteúdo oficial</ContentSource_OfficialModsFolder>
   <!-- EN: Local folder -->
-  <ContentSource_ModsFolder>TODO</ContentSource_ModsFolder>
+  <ContentSource_ModsFolder>Ficheiro local</ContentSource_ModsFolder>
   <!-- EN: Steam Workshop -->
-  <ContentSource_SteamWorkshop>TODO</ContentSource_SteamWorkshop>
+  <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>
   
   <!-- Medical care category -->
   <!-- EN: no medical care -->
@@ -153,9 +153,9 @@
   <!-- EN: doctor care, but no medicine -->
   <MedicalCareCategory_NoMeds>Com cuidado médico, mas sem medicinas</MedicalCareCategory_NoMeds>
   <!-- EN: herbal medicine or worse -->
-  <MedicalCareCategory_HerbalOrWorse>Fito-terapia ou piro</MedicalCareCategory_HerbalOrWorse>
+  <MedicalCareCategory_HerbalOrWorse>Fitoterapia ou pior</MedicalCareCategory_HerbalOrWorse>
   <!-- EN: industrial-tech medicine or worse -->
-  <MedicalCareCategory_NormalOrWorse>Medicina normal ou pior</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_NormalOrWorse>Medicina de tecnologia industrial ou pior</MedicalCareCategory_NormalOrWorse>
   <!-- EN: best quality medicine -->
   <MedicalCareCategory_Best>Melhor tratamento médico</MedicalCareCategory_Best>
 
@@ -177,200 +177,200 @@
 
   <!-- TechLevel -->
   <!-- EN: animal -->
-  <TechLevel_Animal>TODO</TechLevel_Animal>
+  <TechLevel_Animal>animal</TechLevel_Animal>
   <!-- EN: neolithic -->
-  <TechLevel_Neolithic>TODO</TechLevel_Neolithic>
+  <TechLevel_Neolithic>neolítico</TechLevel_Neolithic>
   <!-- EN: medieval -->
-  <TechLevel_Medieval>TODO</TechLevel_Medieval>
+  <TechLevel_Medieval>medieval</TechLevel_Medieval>
   <!-- EN: industrial -->
-  <TechLevel_Industrial>TODO</TechLevel_Industrial>
+  <TechLevel_Industrial>industrial</TechLevel_Industrial>
   <!-- EN: spacer -->
-  <TechLevel_Spacer>TODO</TechLevel_Spacer>
+  <TechLevel_Spacer>espacial</TechLevel_Spacer>
   <!-- EN: ultra -->
-  <TechLevel_Ultra>TODO</TechLevel_Ultra>
+  <TechLevel_Ultra>ultra</TechLevel_Ultra>
   <!-- EN: archotech -->
-  <TechLevel_Archotech>TODO</TechLevel_Archotech>
+  <TechLevel_Archotech>archotech</TechLevel_Archotech>
 
   <!-- Player pawns arrive method -->
   <!-- EN: Standing -->
-  <PlayerPawnsArriveMethod_Standing>TODO</PlayerPawnsArriveMethod_Standing>
+  <PlayerPawnsArriveMethod_Standing>De pé</PlayerPawnsArriveMethod_Standing>
   <!-- EN: Drop pods -->
-  <PlayerPawnsArriveMethod_DropPods>TODO</PlayerPawnsArriveMethod_DropPods>
+  <PlayerPawnsArriveMethod_DropPods>Cápsulas de transporte</PlayerPawnsArriveMethod_DropPods>
 
   <!-- Pawn generation context -->
   <!-- EN: all characters -->
-  <PawnGenerationContext_All>TODO</PawnGenerationContext_All>
+  <PawnGenerationContext_All>todos os personagens</PawnGenerationContext_All>
   <!-- EN: player starting characters -->
-  <PawnGenerationContext_PlayerStarter>TODO</PawnGenerationContext_PlayerStarter>
+  <PawnGenerationContext_PlayerStarter>personagens iniciais do jogador</PawnGenerationContext_PlayerStarter>
   <!-- EN: non-player characters -->
-  <PawnGenerationContext_NonPlayer>TODO</PawnGenerationContext_NonPlayer>
+  <PawnGenerationContext_NonPlayer>personagens não jogáveis</PawnGenerationContext_NonPlayer>
 
   <!-- Screen shake mode -->
   <!-- EN: Screen shake intensity -->
-  <ScreenShakeIntensity>TODO</ScreenShakeIntensity>
+  <ScreenShakeIntensity>Intensidade de vibração do ecrã</ScreenShakeIntensity>
   
   <!-- Animal name display mode -->
   <!-- EN: Show animal names -->
-  <ShowAnimalNames>TODO</ShowAnimalNames>
+  <ShowAnimalNames>Mostrar nomes de animais</ShowAnimalNames>
   <!-- EN: Tame (named only) -->
-  <AnimalNameDisplayMode_TameNamed>TODO</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameNamed>Domado(s) (nomeado apenas)</AnimalNameDisplayMode_TameNamed>
   <!-- EN: Tame (all) -->
-  <AnimalNameDisplayMode_TameAll>TODO</AnimalNameDisplayMode_TameAll>
+  <AnimalNameDisplayMode_TameAll>Domado(s) (todos)</AnimalNameDisplayMode_TameAll>
 
   <!-- Highlight display mode -->
   <!-- EN: Character highlighting -->
-  <DotHighlightDisplayMode>TODO</DotHighlightDisplayMode>
+  <DotHighlightDisplayMode>Destaque de personagem</DotHighlightDisplayMode>
   <!-- EN: Highlight hostiles -->
-  <DotHighlightDisplayMode_HighlightHostiles>TODO</DotHighlightDisplayMode_HighlightHostiles>
+  <DotHighlightDisplayMode_HighlightHostiles>Destacar hostis</DotHighlightDisplayMode_HighlightHostiles>
   <!-- EN: Highlight all -->
-  <DotHighlightDisplayMode_HighlightAll>TODO</DotHighlightDisplayMode_HighlightAll> 
+  <DotHighlightDisplayMode_HighlightAll>Destacar todos</DotHighlightDisplayMode_HighlightAll> 
   
   <!-- Highlight style -->
   <!-- EN: Highlight mode -->
-  <HighlightStyleMode>TODO</HighlightStyleMode>
+  <HighlightStyleMode>Modo de destaque</HighlightStyleMode>
   <!-- EN: Dots -->
-  <HighlightStyleMode_Dots>TODO</HighlightStyleMode_Dots>
+  <HighlightStyleMode_Dots>Pontos</HighlightStyleMode_Dots>
   <!-- EN: Silhouettes -->
-  <HighlightStyleMode_Silhouettes>TODO</HighlightStyleMode_Silhouettes> 
+  <HighlightStyleMode_Silhouettes>Silhuetas</HighlightStyleMode_Silhouettes> 
 
   <!-- Mood gradient display strength-->
   <!-- EN: Visible mood -->
-  <VisibleMood>TODO</VisibleMood>
+  <VisibleMood>Humor visível</VisibleMood>
   <!-- EN: When on, displays a visual indicator on a character's portrait when they are at risk of a mental break. -->
-  <VisibleMoodDesc>TODO</VisibleMoodDesc>
+  <VisibleMoodDesc>Quando ativado, exibe um indicador visual no retrato das personagens quando esta corre o risco de sofrer uma rutura mental.</VisibleMoodDesc>
   
   <!-- Mech name display mode -->
   <!-- EN: Show player mech names -->
-  <ShowMechNames>TODO</ShowMechNames>
+  <ShowMechNames>Mostrar nomes de mechs de jogadores</ShowMechNames>
   <!-- EN: While drafted -->
-  <MechNameDisplayMode_WhileDrafted>TODO</MechNameDisplayMode_WhileDrafted>
+  <MechNameDisplayMode_WhileDrafted>Quando alistado</MechNameDisplayMode_WhileDrafted>
   <!-- EN: always -->
-  <MechNameDisplayMode_Always>TODO</MechNameDisplayMode_Always>
+  <MechNameDisplayMode_Always>sempre</MechNameDisplayMode_Always>
 
   <!-- Show weapons under portrait mode -->
   <!-- EN: Weapons below portrait -->
-  <ShowWeaponsUnderPortrait>TODO</ShowWeaponsUnderPortrait>
+  <ShowWeaponsUnderPortrait>Armas abaixo do retrato</ShowWeaponsUnderPortrait>
   <!-- EN: Show weapons below each person's portrait on the colonist bar at the top of the screen -->
-  <ShowWeaponsUnderPortraitTooltip>TODO</ShowWeaponsUnderPortraitTooltip>
+  <ShowWeaponsUnderPortraitTooltip>Mostrar as armas abaixo do retrato de cada pessoa na barra de colonos na parte superior do ecrã</ShowWeaponsUnderPortraitTooltip>
   <!-- EN: always -->
-  <ShowWeapons_Always>TODO</ShowWeapons_Always>
+  <ShowWeapons_Always>sempre</ShowWeapons_Always>
   <!-- EN: while drafted -->
-  <ShowWeapons_WhileDrafted>TODO</ShowWeapons_WhileDrafted>
+  <ShowWeapons_WhileDrafted>quando alistado</ShowWeapons_WhileDrafted>
 
   <!-- Temperature -->
   <!-- EN: Celsius -->
-  <Celsius>TODO</Celsius>
+  <Celsius>Celsius</Celsius>
   <!-- EN: Fahrenheit -->
-  <Fahrenheit>TODO</Fahrenheit>
+  <Fahrenheit>Fahrenheit</Fahrenheit>
   <!-- EN: Kelvin -->
-  <Kelvin>TODO</Kelvin>
+  <Kelvin>Kelvin</Kelvin>
   
   <!-- Direction8Way -->
   <!-- EN: N -->
-  <Direction8Way_North_Short>TODO</Direction8Way_North_Short>
+  <Direction8Way_North_Short>N</Direction8Way_North_Short>
   <!-- EN: NE -->
-  <Direction8Way_NorthEast_Short>TODO</Direction8Way_NorthEast_Short>
+  <Direction8Way_NorthEast_Short>NE</Direction8Way_NorthEast_Short>
   <!-- EN: E -->
-  <Direction8Way_East_Short>TODO</Direction8Way_East_Short>
+  <Direction8Way_East_Short>E</Direction8Way_East_Short>
   <!-- EN: SE -->
-  <Direction8Way_SouthEast_Short>TODO</Direction8Way_SouthEast_Short>
+  <Direction8Way_SouthEast_Short>SE</Direction8Way_SouthEast_Short>
   <!-- EN: S -->
-  <Direction8Way_South_Short>TODO</Direction8Way_South_Short>
+  <Direction8Way_South_Short>S</Direction8Way_South_Short>
   <!-- EN: SW -->
-  <Direction8Way_SouthWest_Short>TODO</Direction8Way_SouthWest_Short>
+  <Direction8Way_SouthWest_Short>SO</Direction8Way_SouthWest_Short>
   <!-- EN: W -->
-  <Direction8Way_West_Short>TODO</Direction8Way_West_Short>
+  <Direction8Way_West_Short>O</Direction8Way_West_Short>
   <!-- EN: NW -->
-  <Direction8Way_NorthWest_Short>TODO</Direction8Way_NorthWest_Short>
+  <Direction8Way_NorthWest_Short>NO</Direction8Way_NorthWest_Short>
   
   <!-- Diet category -->
   <!-- EN: Never eats -->
-  <DietCategory_NeverEats>TODO</DietCategory_NeverEats>
+  <DietCategory_NeverEats>Nunca come</DietCategory_NeverEats>
   <!-- EN: Herbivorous -->
-  <DietCategory_Herbivorous>TODO</DietCategory_Herbivorous>
+  <DietCategory_Herbivorous>Herbívoro</DietCategory_Herbivorous>
   <!-- EN: Dendrovorous -->
   <DietCategory_Dendrovorous>TODO</DietCategory_Dendrovorous>
   <!-- EN: Ovivorous -->
-  <DietCategory_Ovivorous>TODO</DietCategory_Ovivorous>
+  <DietCategory_Ovivorous>Ovívoro</DietCategory_Ovivorous>
   <!-- EN: Omnivorous -->
-  <DietCategory_Omnivorous>TODO</DietCategory_Omnivorous>
+  <DietCategory_Omnivorous>Omnívoro</DietCategory_Omnivorous>
   <!-- EN: Carnivorous -->
-  <DietCategory_Carnivorous>TODO</DietCategory_Carnivorous>
+  <DietCategory_Carnivorous>Carnívoro</DietCategory_Carnivorous>
   <!-- EN: - -->
-  <DietCategory_NeverEats_Short>TODO</DietCategory_NeverEats_Short>
+  <DietCategory_NeverEats_Short>-</DietCategory_NeverEats_Short>
   <!-- EN: H -->
-  <DietCategory_Herbivorous_Short>TODO</DietCategory_Herbivorous_Short>
+  <DietCategory_Herbivorous_Short>H</DietCategory_Herbivorous_Short>
   <!-- EN: D -->
-  <DietCategory_Dendrovorous_Short>TODO</DietCategory_Dendrovorous_Short>
+  <DietCategory_Dendrovorous_Short>D</DietCategory_Dendrovorous_Short>
   <!-- EN: Ov -->
-  <DietCategory_Ovivorous_Short>TODO</DietCategory_Ovivorous_Short>
+  <DietCategory_Ovivorous_Short>Ov</DietCategory_Ovivorous_Short>
   <!-- EN: O -->
-  <DietCategory_Omnivorous_Short>TODO</DietCategory_Omnivorous_Short>
+  <DietCategory_Omnivorous_Short>O</DietCategory_Omnivorous_Short>
   <!-- EN: C -->
-  <DietCategory_Carnivorous_Short>TODO</DietCategory_Carnivorous_Short>
+  <DietCategory_Carnivorous_Short>C</DietCategory_Carnivorous_Short>
 
   <!-- Food poison cause -->
   <!-- EN: incompetent cook -->
-  <FoodPoisonCause_IncompetentCook>TODO</FoodPoisonCause_IncompetentCook>
+  <FoodPoisonCause_IncompetentCook>cozinheiro incompetente</FoodPoisonCause_IncompetentCook>
   <!-- EN: dirty cooking area -->
-  <FoodPoisonCause_FilthyKitchen>TODO</FoodPoisonCause_FilthyKitchen>
+  <FoodPoisonCause_FilthyKitchen>área de cozinha suja</FoodPoisonCause_FilthyKitchen>
   <!-- EN: rotten food -->
-  <FoodPoisonCause_Rotten>TODO</FoodPoisonCause_Rotten>
+  <FoodPoisonCause_Rotten>comida estragada</FoodPoisonCause_Rotten>
   <!-- EN: dangerous food type -->
-  <FoodPoisonCause_DangerousFoodType>TODO</FoodPoisonCause_DangerousFoodType>
+  <FoodPoisonCause_DangerousFoodType>tipo de comida perigosa</FoodPoisonCause_DangerousFoodType>
 
   <!-- Psychic drone level -->
   <!-- EN: none -->
-  <PsychicDroneLevel_None>TODO</PsychicDroneLevel_None>
+  <PsychicDroneLevel_None>nenhum</PsychicDroneLevel_None>
   <!-- EN: medium -->
-  <PsychicDroneLevel_GoodMedium>TODO</PsychicDroneLevel_GoodMedium>
+  <PsychicDroneLevel_GoodMedium>médio</PsychicDroneLevel_GoodMedium>
   <!-- EN: low -->
-  <PsychicDroneLevel_BadLow>TODO</PsychicDroneLevel_BadLow>
+  <PsychicDroneLevel_BadLow>baixo</PsychicDroneLevel_BadLow>
   <!-- EN: medium -->
-  <PsychicDroneLevel_BadMedium>TODO</PsychicDroneLevel_BadMedium>
+  <PsychicDroneLevel_BadMedium>médio</PsychicDroneLevel_BadMedium>
   <!-- EN: high -->
-  <PsychicDroneLevel_BadHigh>TODO</PsychicDroneLevel_BadHigh>
+  <PsychicDroneLevel_BadHigh>alto</PsychicDroneLevel_BadHigh>
   <!-- EN: extreme -->
-  <PsychicDroneLevel_BadExtreme>TODO</PsychicDroneLevel_BadExtreme>
+  <PsychicDroneLevel_BadExtreme>extremo</PsychicDroneLevel_BadExtreme>
   
   <!-- Automatic pause mode -->
   <!-- EN: Never -->
-  <AutomaticPauseMode_Never>TODO</AutomaticPauseMode_Never>
+  <AutomaticPauseMode_Never>Nunca</AutomaticPauseMode_Never>
   <!-- EN: Major threats -->
-  <AutomaticPauseMode_MajorThreat>TODO</AutomaticPauseMode_MajorThreat>
+  <AutomaticPauseMode_MajorThreat>Grandes ameaças</AutomaticPauseMode_MajorThreat>
   <!-- EN: Any threat -->
-  <AutomaticPauseMode_AnyThreat>TODO</AutomaticPauseMode_AnyThreat>
+  <AutomaticPauseMode_AnyThreat>Qualquer ameaça</AutomaticPauseMode_AnyThreat>
   <!-- EN: Any letter -->
-  <AutomaticPauseMode_AnyLetter>TODO</AutomaticPauseMode_AnyLetter>
+  <AutomaticPauseMode_AnyLetter>Qualquer carta</AutomaticPauseMode_AnyLetter>
 
   <!-- Pain category -->
   <!-- EN: itchy -->
-  <PainCategory_LowPain>TODO</PainCategory_LowPain>
+  <PainCategory_LowPain>comichoso</PainCategory_LowPain>
   <!-- EN: aching -->
-  <PainCategory_MediumPain>TODO</PainCategory_MediumPain>
+  <PainCategory_MediumPain>dolorido</PainCategory_MediumPain>
   <!-- EN: painful -->
-  <PainCategory_HighPain>TODO</PainCategory_HighPain>
+  <PainCategory_HighPain>doloroso</PainCategory_HighPain>
   
   <!-- ExtraFactionType -->
   <!-- EN: home faction -->
-  <ExtraFactionType_HomeFaction>TODO</ExtraFactionType_HomeFaction>
+  <ExtraFactionType_HomeFaction>fação natal</ExtraFactionType_HomeFaction>
   <!-- EN: remote host faction -->
-  <ExtraFactionType_HostFaction>TODO</ExtraFactionType_HostFaction>
+  <ExtraFactionType_HostFaction>fação remota</ExtraFactionType_HostFaction>
   <!-- EN: group -->
-  <ExtraFactionType_MiniFaction>TODO</ExtraFactionType_MiniFaction>
+  <ExtraFactionType_MiniFaction>grupo</ExtraFactionType_MiniFaction>
 
   <!-- DrugCategory -->
   <!-- EN: drug category -->
-  <DrugCategory>TODO</DrugCategory>
+  <DrugCategory>categoria de drogas</DrugCategory>
   <!-- EN: none -->
-  <DrugCategory_None>TODO</DrugCategory_None>
+  <DrugCategory_None>nenhuma</DrugCategory_None>
   <!-- EN: medical -->
-  <DrugCategory_Medical>TODO</DrugCategory_Medical>
+  <DrugCategory_Medical>medicinal</DrugCategory_Medical>
   <!-- EN: social -->
-  <DrugCategory_Social>TODO</DrugCategory_Social>
+  <DrugCategory_Social>social</DrugCategory_Social>
   <!-- EN: hard -->
-  <DrugCategory_Hard>TODO</DrugCategory_Hard>
+  <DrugCategory_Hard>pesada</DrugCategory_Hard>
   <!-- EN: any -->
-  <DrugCategory_Any>TODO</DrugCategory_Any>
+  <DrugCategory_Any>qualquer uma</DrugCategory_Any>
 
 </LanguageData>
