@@ -49,7 +49,7 @@
   <!-- EN: Revenant emergence -->
   <LetterLabelRevenantEmergence>Emergência de revenant</LetterLabelRevenantEmergence>
   <!-- EN: The revenant has reemerged from the safety of its spine! Destroy it before it escapes.\n\nIn the process, the revenant has mutated and adopted a new biosignature. -->
-  <LetterRevenantEmergence>O revenant reemergiu da segurança da sua espinha dorsal! Destrua-a antes que escape.\n\nNo processo, o revenant sofreu mutações e adotou uma nova bioassinatura.</LetterRevenantEmergence>
+  <LetterRevenantEmergence>O revenant reemergiu da segurança da sua espinha dorsal! Destrua-o antes que escape.\n\nNo processo, o revenant sofreu mutações e adotou uma nova bioassinatura.</LetterRevenantEmergence>
   <!-- EN: Sightstealer revealed -->
   <LetterLabelSightstealerRevealed>Sightstealer revelado</LetterLabelSightstealerRevealed>
   <!-- EN: A twisted creature has appeared out of thin air! -->
@@ -449,57 +449,57 @@
   <!-- EN: {0} dropped a shard of dark archotechnology. You can collect and make use of it. -->
   <MessageShardDropped>Deixou cair um fragmento de arquetecnologia escura. Você pode coletá-la e utilizá-la.</MessageShardDropped>
   <!-- EN: The blood rain has driven {0_nameIndef} into a berserk rage! -->
-  <Berserk_BloodRain>A chuva de sangue tem conduzido {0_nameIndef} em uma raiva berserk!</Berserk_BloodRain>
+  <Berserk_BloodRain>A chuva de sangue levou {0_nameIndef} a uma raiva frenética!</Berserk_BloodRain>
   <!-- EN: The blood rain has driven {0_nameIndef} into a manhunting rage! -->
-  <Manhunter_BloodRain>A chuva de sangue levou {0_nameIndef} para uma raiva de caça ao homem!</Manhunter_BloodRain>
+  <Manhunter_BloodRain>A chuva de sangue levou {0_nameIndef} a uma raiva de caça ao homem!</Manhunter_BloodRain>
   <!-- EN: This happened because of blood rage buildup. -->
-  <MentalBreakReason_BloodRage>Isso aconteceu por causa do acúmulo de raiva de sangue.</MentalBreakReason_BloodRage>
+  <MentalBreakReason_BloodRage>Isto aconteceu devido ao acumular de raiva de sangue.</MentalBreakReason_BloodRage>
   <!-- EN: Corpse disappearance -->
   <LetterLabelCorpseDisappeared>Desaparecimento do corpo</LetterLabelCorpseDisappeared>
   <!-- EN: The unnatural corpse has vanished. -->
-  <LetterCorpseDisappeared>O cadáver não natural desapareceu.</LetterCorpseDisappeared>
+  <LetterCorpseDisappeared>O cadáver antinatural desapareceu.</LetterCorpseDisappeared>
   <!-- EN: {PAWN_nameDef} is starting to feel calmer. -->
-  <LetterCorpseDisappearedPawnAliveAppend>{PAWN_name Está a começar a sentir-se mais calmo.</LetterCorpseDisappearedPawnAliveAppend>
+  <LetterCorpseDisappearedPawnAliveAppend>{PAWN_nameDef} está a começar a sentir-se mais calmo.</LetterCorpseDisappearedPawnAliveAppend>
   <!-- EN: Corpse appearance -->
-  <LetterLabelCorpseReappeared>Aparência de Corpse</LetterLabelCorpseReappeared>
+  <LetterLabelCorpseReappeared>Aparência do cadáver</LetterLabelCorpseReappeared>
   <!-- EN: The corpse resembling {PAWN_nameDef} has appeared again, as if out of thin air. -->
-  <LetterCorpseReappeared>O corpo semelhante {PAWN_nameDef} apareceu novamente, como se estivesse fora do ar.</LetterCorpseReappeared>
+  <LetterCorpseReappeared>O corpo que se assemelha a {PAWN_nameDef} apareceu novamente vindo do nada.</LetterCorpseReappeared>
   <!-- EN: The corpse resembling {PAWN_nameDef} has somehow gotten out of its {CONTAINER_labelShort}. -->
-  <MessageCorpseEscaped>O corpo semelhante {PAWN_nameDef} de alguma forma saiu do seu {CONTAINER_labelShort}.</MessageCorpseEscaped>
+  <MessageCorpseEscaped>O corpo que se assemelha a {PAWN_nameDef} saiu de alguma forma do seu {CONTAINER_labelShort}.</MessageCorpseEscaped>
   <!-- EN: Failed to resurrect {PAWN_nameDef}. It simply does not respond. -->
-  <MessageUnnaturalCorpseResurrect>Não ressuscitou {PAWN_nameDef}. Simplesmente não responde.</MessageUnnaturalCorpseResurrect>
+  <MessageUnnaturalCorpseResurrect>Falhou o ressuscitamento de {PAWN_nameDef}. Simplesmente não responde.</MessageUnnaturalCorpseResurrect>
   <!-- EN: The unnatural corpse has caused {PAWN_nameDef} to faint. -->
-  <MessagePawnFainted>O cadáver não natural causou desmaios.</MessagePawnFainted>
+  <MessagePawnFainted>O cadáver antinatural fez com que {PAWN_nameDef} desmaiasse.</MessagePawnFainted>
   <!-- EN: The unnatural corpse has appeared near {PAWN_nameDef} and is approaching! -->
-  <MessageAwokenReappeared>O cadáver não natural apareceu perto {PAWN_nameDef} e está se aproximando!</MessageAwokenReappeared>
+  <MessageAwokenReappeared>O cadáver antinatural apareceu perto de {PAWN_nameDef} e está se a aproximar-se!</MessageAwokenReappeared>
   <!-- EN: The unnatural corpse has vanished. It will come for {PAWN_nameDef} later. -->
-  <MessageAwokenVanished>O cadáver não natural desapareceu. Ele virá para {PAWN_nameDef} mais tarde.</MessageAwokenVanished>
+  <MessageAwokenVanished>O cadáver antinatural desapareceu. Ele voltará pelo(a) {PAWN_nameDef} mais tarde.</MessageAwokenVanished>
   <!-- EN: The awoken corpse is attacking {PAWN_nameDef}! -->
-  <MessageAwokenAttacking>O cadáver acordado está atacando {PAWN_nameDef}!</MessageAwokenAttacking>
+  <MessageAwokenAttacking>O cadáver acordado está a atacar {PAWN_nameDef}!</MessageAwokenAttacking>
   <!-- EN: The awoken corpse has destroyed {PAWN_nameDef}'s brain. -->
-  <MessageAwokenKilledVictim>O cadáver desfeito destruiu o cérebro.</MessageAwokenKilledVictim>
+  <MessageAwokenKilledVictim>O cadáver acordado destruiu o cérebro de {PAWN_nameDef}.</MessageAwokenKilledVictim>
   <!-- EN: The awoken corpse has disappeared. -->
   <MessageAwokenDisappeared>O cadáver acordado desapareceu.</MessageAwokenDisappeared>
   <!-- EN: This happened because of the presence of an unnatural corpse. -->
-  <MentalBreakReason_MysteriousCorpse>Isso aconteceu por causa da presença de um cadáver não natural.</MentalBreakReason_MysteriousCorpse>
+  <MentalBreakReason_MysteriousCorpse>Isso aconteceu por causa da presença de um cadáver antinatural.</MentalBreakReason_MysteriousCorpse>
   <!-- EN: Unnatural corpse study progress -->
   <UnnaturalCorpseStudyLetter>Progresso de estudo de cadáveres não naturais</UnnaturalCorpseStudyLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed more about the body. An archotech shard at its core psychically links it with {VICTIM_nameDef}. It will rebuild itself if destroyed, and teleport any distance to be near {VICTIM_nameDef}. \n\n{RESEARCHER_nameDef} thinks that there may be a way to permanently destroy the corpse but will need to study it further.\n\nStudy the corpse more to learn how to destroy it. -->
-  <UnnaturalCorpseStudyLetterDesc>Sua investigação sobre o cadáver não natural revelou mais sobre o corpo. Um fragmento de archotech em seu núcleo links psiquicamente com {VICTIM_nameDef}. Ele vai se reconstruir se destruído, e teletransportar qualquer distância para estar perto {VICTIM_nameDef}.\n\nNão sei. Def} pensa que pode haver uma maneira de destruir permanentemente o corpo, mas terá de estudá-lo ainda mais.\n\nEstude o corpo mais para aprender a destruí-lo.</UnnaturalCorpseStudyLetterDesc>
+  <UnnaturalCorpseStudyLetterDesc>Sua investigação sobre o cadáver antinatural revelou mais sobre o corpo. Um fragmento de archotech em seu núcleo links psiquicamente com {VICTIM_nameDef}. Ele vai se reconstruir se destruído, e teletransportar qualquer distância para estar perto {VICTIM_nameDef}.\n\nNão sei. Def} pensa que pode haver uma maneira de destruir permanentemente o corpo, mas terá de estudá-lo ainda mais.\n\nEstude o corpo mais para aprender a destruí-lo.</UnnaturalCorpseStudyLetterDesc>
   <!-- EN: Unnatural corpse study complete -->
   <UnnaturalCorpseStudyCompletedLetter>Estudo de corpo natural completo</UnnaturalCorpseStudyCompletedLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed how to safely remove the archotech shard. Doing so will stop it from psychically tormenting {VICTIM_nameDef}. However, it will also prevent further study of the corpse. -->
-  <UnnaturalCorpseStudyCompletedLetterDesc>Sua investigação sobre o cadáver não natural revelou como remover com segurança o fragmento de archotech. Fazer isso vai impedi-lo de atordoamento psíquico {VICTIM_nameDef}. No entanto, também impedirá o estudo adicional do corpo.</UnnaturalCorpseStudyCompletedLetterDesc>
+  <UnnaturalCorpseStudyCompletedLetterDesc>Sua investigação sobre o cadáver antinatural revelou como remover com segurança o fragmento de archotech. Fazer isso vai impedi-lo de atordoamento psíquico {VICTIM_nameDef}. No entanto, também impedirá o estudo adicional do corpo.</UnnaturalCorpseStudyCompletedLetterDesc>
   <!-- EN: Corpse shard -->
   <UnnaturalCorpseDeactivatedLetter>Shard de cabo</UnnaturalCorpseDeactivatedLetter>
   <!-- EN: {PAWN_nameDef} extracted an archotech shard from the unnatural corpse, the corpse then began to violently bloat and exploded into gore. -->
-  <UnnaturalCorpseDeactivatedLetterDesc>{PAWN_name Def} extraiu um fragmento de archotech do cadáver não natural, o corpo então começou a violentamente inchaço e explodiu em gore.</UnnaturalCorpseDeactivatedLetterDesc>
+  <UnnaturalCorpseDeactivatedLetterDesc>{PAWN_name Def} extraiu um fragmento de archotech do cadáver antinatural, o corpo então começou a violentamente inchaço e explodiu em gore.</UnnaturalCorpseDeactivatedLetterDesc>
   <!-- EN: {PAWN_nameDef} is feeling better already. -->
   <UnnaturalCorpseDeactivatedLetterDescAppended>{PAWN_name Já está a sentir-se melhor.</UnnaturalCorpseDeactivatedLetterDescAppended>
   <!-- EN: Destroy unnatural corpse -->
-  <UnnaturalCorpseDeactivate>Destruir cadáver não natural</UnnaturalCorpseDeactivate>
+  <UnnaturalCorpseDeactivate>Destruir cadáver antinatural</UnnaturalCorpseDeactivate>
   <!-- EN: Permanently destroy the unnatural corpse. -->
-  <UnnaturalCorpseDeactivateDesc>Destruir permanentemente o cadáver não natural.</UnnaturalCorpseDeactivateDesc>
+  <UnnaturalCorpseDeactivateDesc>Destruir permanentemente o cadáver antinatural.</UnnaturalCorpseDeactivateDesc>
   <!-- EN: Choose who should destroy this. -->
   <UnnaturalCorpseGuiLabel>Escolha quem deve destruir isso.</UnnaturalCorpseGuiLabel>
   <!-- EN: destroy -->
@@ -511,7 +511,7 @@
   <!-- EN: Unnatural corpse -->
   <UnnaturalCorpseAwakeningLetter>Corpo natural</UnnaturalCorpseAwakeningLetter>
   <!-- EN: {PAWN_nameDef} feels the unnatural corpse growing rapidly stronger. Some horrible consciousness is flickering within it.\n\nSomething awful will happen in the next few days. -->
-  <UnnaturalCorpseAwakeningLetterDesc>{PAWN_name Def} sente o corpo não natural a crescer rapidamente mais forte. Uma consciência horrível está a tremer dentro dela.\n\nAlgo terrível acontecerá nos próximos dias.</UnnaturalCorpseAwakeningLetterDesc>
+  <UnnaturalCorpseAwakeningLetterDesc>{PAWN_name Def} sente o corpo antinatural a crescer rapidamente mais forte. Uma consciência horrível está a tremer dentro dela.\n\nAlgo terrível acontecerá nos próximos dias.</UnnaturalCorpseAwakeningLetterDesc>
   <!-- EN: Destroy the corpse before it's too late. -->
   <UnnaturalCorpseAwakeningLetterExtra_StudyComplete>Destruir o cadáver antes que seja tarde demais.</UnnaturalCorpseAwakeningLetterExtra_StudyComplete>
   <!-- EN: Study the corpse to learn how to destroy it. -->
@@ -519,11 +519,11 @@
   <!-- EN: Corpse awakened -->
   <UnnaturalCorpseAwokenLetter>Corpse despertado</UnnaturalCorpseAwokenLetter>
   <!-- EN: The unnatural corpse is rising! It intends to attack {PAWN_nameDef}!\n\nThe corpse will follow {PAWN_nameDef} forever no matter how far {PAWN_pronoun} goes.\n\nYou must destroy it now. -->
-  <UnnaturalCorpseAwokenLetterDesc>O cadáver não natural está a subir! Pretende atacar {PAWN_nameDef}!\n\nO corpo seguirá {PAWN_nameDef} para sempre, não importa o quão longe {PAWN_pronoun} vai.\n\nTens de o destruir agora.</UnnaturalCorpseAwokenLetterDesc>
+  <UnnaturalCorpseAwokenLetterDesc>O cadáver antinatural está a subir! Pretende atacar {PAWN_nameDef}!\n\nO corpo seguirá {PAWN_nameDef} para sempre, não importa o quão longe {PAWN_pronoun} vai.\n\nTens de o destruir agora.</UnnaturalCorpseAwokenLetterDesc>
   <!-- EN: Unnatural corpse destroyed! -->
-  <UnnaturalCorpseAwokenDefeatedLetter>Corpo não natural destruído!</UnnaturalCorpseAwokenDefeatedLetter>
+  <UnnaturalCorpseAwokenDefeatedLetter>Corpo antinatural destruído!</UnnaturalCorpseAwokenDefeatedLetter>
   <!-- EN: The unnatural corpse charging towards {PAWN_nameDef} has been defeated!\n\nThe corpse will no longer torment {PAWN_nameDef}. -->
-  <UnnaturalCorpseAwokenDefeatedLetterDesc>O cadáver não natural que carrega para {PAWN_nameDef} foi derrotado!\n\nO corpo não vai mais atormentar {PAWN_nameDef}.</UnnaturalCorpseAwokenDefeatedLetterDesc>
+  <UnnaturalCorpseAwokenDefeatedLetterDesc>O cadáver antinatural que carrega para {PAWN_nameDef} foi derrotado!\n\nO corpo não vai mais atormentar {PAWN_nameDef}.</UnnaturalCorpseAwokenDefeatedLetterDesc>
   <!-- EN: {PAWN_labelShort}'s obsession with the golden cube has intensified. -->
   <MessageGoldenCubeSeverityIncreased>(PAWN_label A obsessão com o cubo dourado intensificou-se.</MessageGoldenCubeSeverityIncreased>
   <!-- EN: {PAWN_labelShort} is experiencing cube withdrawal. -->
@@ -691,7 +691,7 @@
   <!-- EN: Increases the chance of lovin` -->
   <IncreasesChanceOfLovin>Aumenta a chance de lovin &quot;</IncreasesChanceOfLovin>
   <!-- EN: Unnatural {0_label} corpse -->
-  <UnnaturalCorpse>Corpo não natural (0_label)</UnnaturalCorpse>
+  <UnnaturalCorpse>Corpo antinatural (0_label)</UnnaturalCorpse>
   <!-- EN: Knowledge from study reduced -->
   <KnowledgeFactorOutdoors>Conhecimento de estudo reduzido</KnowledgeFactorOutdoors>
   <!-- EN: Emergence in {0} -->
