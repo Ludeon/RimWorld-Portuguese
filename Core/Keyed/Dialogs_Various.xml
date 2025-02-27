@@ -6,43 +6,43 @@
   <!-- EN: Go back -->
   <GoBack>Voltar</GoBack>
   <!-- EN: Do you want to continue? -->
-  <WantToContinue>TODO</WantToContinue>
+  <WantToContinue>Pretendes continuar?</WantToContinue>
   <!-- EN: OK -->
   <OK>OK</OK>
   <!-- EN: Close -->
-  <Close>TODO</Close>
+  <Close>Fechar</Close>
   <!-- EN: Accept -->
-  <Accept>TODO</Accept>
+  <Accept>Aceitar</Accept>
   <!-- EN: Cancel -->
-  <Cancel>TODO</Cancel>
+  <Cancel>Cancelar</Cancel>
   <!-- EN: Reset -->
-  <Reset>Resetar</Reset>
+  <Reset>Redefinir</Reset>
   <!-- EN: Reset all -->
-  <ResetAll>TODO</ResetAll>
+  <ResetAll>Redefinir tudo</ResetAll>
   <!-- EN: Disable -->
-  <Disable>TODO</Disable>
+  <Disable>Desativar</Disable>
   <!-- EN: Modify -->
-  <Modify>TODO</Modify>
+  <Modify>Modificar</Modify>
   <!-- EN: Settle here anyways? -->
-  <ConfirmSettle>TODO</ConfirmSettle>
+  <ConfirmSettle>Estabelecer-se aqui de qualquer maneira?</ConfirmSettle>
   <!-- EN: add -->
-  <Add>TODO</Add>
+  <Add>adicionar</Add>
   <!-- EN: Cannot shoot -->
-  <CannotShoot>TODO</CannotShoot>
+  <CannotShoot>Não consegues disparar</CannotShoot>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
-  <GameUpdatedToNewVersionInitial>TODO</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionInitial>O RimWorld foi atualizado da versão {0} para a versão {1}.</GameUpdatedToNewVersionInitial>
   <!-- EN: This may cause saved games and mods from the old version to stop working. -->
-  <GameUpdatedToNewVersionSavesIncompatible>TODO</GameUpdatedToNewVersionSavesIncompatible>
+  <GameUpdatedToNewVersionSavesIncompatible>Isto pode fazer com que os jogos e mods guardados da versão antiga deixem de funcionar.</GameUpdatedToNewVersionSavesIncompatible>
   <!-- EN: Saved games from the old version should be compatible, however some mods may stop working. -->
-  <GameUpdatedToNewVersionSavesCompatible>TODO</GameUpdatedToNewVersionSavesCompatible>
+  <GameUpdatedToNewVersionSavesCompatible>Os jogos guardados da versão antiga devem ser compatíveis, no entanto alguns mods podem deixar de funcionar.</GameUpdatedToNewVersionSavesCompatible>
   <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
-  <GameUpdatedToNewVersionNonSteam>TODO</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionNonSteam>Como se trata de uma cópia sem DRM, podes instalar o jogo duas vezes em duas pastas diferentes, para poder jogar as versões antigas e novas.</GameUpdatedToNewVersionNonSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
-  <GameUpdatedToNewVersionSteam>TODO</GameUpdatedToNewVersionSteam>
+  <GameUpdatedToNewVersionSteam>Se desejares continuar com a versão antiga, podes optar por utilizar a funcionalidade "Betas" do Steam.\n\n 1. Na biblioteca Steam, clique com o lado direito do rato em RimWorld.\n 2. Clica em Propriedades.\n 3. Clica no separador Betas.\n 4. Seleciona a versão pretendida no menu suspenso.</GameUpdatedToNewVersionSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature. -->
-  <GameUpdatedToNewVersionSteamController>TODO</GameUpdatedToNewVersionSteamController>
+  <GameUpdatedToNewVersionSteamController>Se desejares continuar com a versão antiga, podes optar por utilizar a funcionalidade “Betas” do Steam.</GameUpdatedToNewVersionSteamController>
   
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
@@ -68,15 +68,15 @@
   
   <!-- Unloaded mod with an assembly -->
   <!-- EN: The mod list has changed. The game will now restart automatically. -->
-  <ModsChanged>TODO</ModsChanged>
+  <ModsChanged>A lista de mods mudou. O jogo será agora reiniciado automaticamente.</ModsChanged>
   <!-- EN: Something went wrong while restarting the game. The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly. -->
-  <FailedToRestart>TODO</FailedToRestart>
+  <FailedToRestart>Algo correu mal ao reiniciar o jogo. O jogo não pode descarregar completamente o código modificado dos mods desativados, pelo que, o código dos mods desativados pode ainda estar ativo.\n\nÉ recomendável que saias e reinicies o jogo agora para carregar todos os mods corretamente.</FailedToRestart>
   <!-- EN: Restarting -->
-  <Restarting>TODO</Restarting>
+  <Restarting>A reiniciar</Restarting>
   
   <!-- Missing Steam -->
   <!-- EN: Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available. -->
-  <SteamClientMissing>TODO</SteamClientMissing>
+  <SteamClientMissing>Não foi possível inicializar a API Steam. Possíveis causas:\n\n-O Steam não está a ser executado.\n-Iniciado a partir de fora do Steam sem o steam_appid.txt instalado.\n-A executar com privilégios diferentes do cliente Steam (por exemplo, "como administrador").\n\nNa maioria dos casos, reiniciar o computador resolverá o problema.\n\nPodes jogar de qualquer forma, mas nenhuma estatística do Steam será registada e as funcionalidades do Steam não estarão disponíveis.</SteamClientMissing>
   
   <!-- Long events -->
   <!-- EN: Initializing interface -->
@@ -96,11 +96,11 @@
   <!-- EN: Loading map -->
   <LoadingMap>A carregar mapa</LoadingMap>
   <!-- EN: Initializing game -->
-  <InitializingGame>TODO</InitializingGame>
+  <InitializingGame>A inicializar jogo</InitializingGame>
   <!-- EN: Spawning things -->
   <SpawningAllThings>A gerar todas as coisas</SpawningAllThings>
   <!-- EN: Spawning colonists -->
-  <SpawningColonists>TODO</SpawningColonists>
+  <SpawningColonists>A gerar colonos</SpawningColonists>
   
   <!-- Save/load -->
   <!-- EN: Save -->
@@ -134,41 +134,41 @@
   <!-- EN: There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information. -->
   <ProblemSavingFile>Ocorreu um problema a guardar o ficheiro {0}:\n\n{1}</ProblemSavingFile>
   <!-- EN: Load anyway -->
-  <LoadAnyway>TODO</LoadAnyway>
+  <LoadAnyway>Carregar mesmo assim</LoadAnyway>
   <!-- EN: Load mod list from save -->
-  <ChangeLoadedMods>TODO</ChangeLoadedMods>
+  <ChangeLoadedMods>Carregar lista de mods do save</ChangeLoadedMods>
   <!-- EN: Some mods are unavailable, and need to be installed -->
-  <MissingMods>TODO</MissingMods>
+  <MissingMods>Alguns mods não estão disponíveis e têm de ser instalados</MissingMods>
   <!-- EN: Official content -->
-  <OfficialContent>TODO</OfficialContent>
+  <OfficialContent>Conteúdo oficial</OfficialContent>
   <!-- EN: Active -->
-  <ContentActive>TODO</ContentActive>
+  <ContentActive>Ativo</ContentActive>
   <!-- EN: Installed, but not active -->
-  <ContentInstalledButNotActive>TODO</ContentInstalledButNotActive>
+  <ContentInstalledButNotActive>Instalado, mas não ativo</ContentInstalledButNotActive>
   <!-- EN: Not installed -->
-  <ContentNotInstalled>TODO</ContentNotInstalled>
+  <ContentNotInstalled>Não instalado</ContentNotInstalled>
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
-  <NamePlayerFactionMessage>TODO</NamePlayerFactionMessage>
+  <NamePlayerFactionMessage>Como parece que vais ficar aqui por uns tempos, {0} acha que devias dar um nome à tua fação. Como deveria ser chamada a sua fação?</NamePlayerFactionMessage>
   <!-- EN: Your faction is now known as {0}. -->
-  <PlayerFactionGainsName>TODO</PlayerFactionGainsName>
+  <PlayerFactionGainsName>A tua fação é agora conhecida como {0}.</PlayerFactionGainsName>
   <!-- EN: That name isn't valid. -->
-  <PlayerFactionNameIsInvalid>TODO</PlayerFactionNameIsInvalid>
+  <PlayerFactionNameIsInvalid>Esse nome não é válido.</PlayerFactionNameIsInvalid>
 
   <!-- Player faction base naming -->
   <!-- EN: {0} thinks that you should give this settlement a name. What should the local settlement be called? -->
-  <NamePlayerFactionBaseMessage>TODO</NamePlayerFactionBaseMessage>
+  <NamePlayerFactionBaseMessage>{0} acha que deve dar um nome a esta povoação. Como deve ser designada a povoação local?</NamePlayerFactionBaseMessage>
   <!-- EN: This community is now known as {0}. -->
-  <PlayerFactionBaseGainsName>TODO</PlayerFactionBaseGainsName>
+  <PlayerFactionBaseGainsName>Esta comunidade é agora conhecida como {0}.</PlayerFactionBaseGainsName>
   <!-- EN: That name isn't valid. -->
-  <PlayerFactionBaseNameIsInvalid>TODO</PlayerFactionBaseNameIsInvalid>
+  <PlayerFactionBaseNameIsInvalid>Esse nome não é válido.</PlayerFactionBaseNameIsInvalid>
   
   <!-- Player faction and faction base naming -->
   <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
-  <NamePlayerFactionBaseMessage_NameFactionContinuation>TODO</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>{0} também acha que deve dar um nome a esta povoação. Como deveria ser chamada esta povoação local?</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
-  <PlayerFactionAndBaseGainsName>TODO</PlayerFactionAndBaseGainsName>
+  <PlayerFactionAndBaseGainsName>A tua fação é agora conhecida como {0} e esta comunidade é agora conhecida como {1}.</PlayerFactionAndBaseGainsName>
   
   <!-- Renaming -->
   <!-- EN: Please enter a valid name. -->
@@ -180,31 +180,31 @@
   
   <!-- Pawn naming -->
   <!-- EN: Chosen name is invalid. -->
-  <NameInvalid>TODO</NameInvalid>
+  <NameInvalid>O nome escolhido é inválido.</NameInvalid>
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
-  <PawnGainsName>A alcunha do colono agora é {0}.</PawnGainsName>
+  <PawnGainsName>A alcunha desta pessoa é agora {0}. O seu título é {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
-  <AnimalGainsName>TODO</AnimalGainsName>
+  <AnimalGainsName>O nome do animal é agora {0}.</AnimalGainsName>
   <!-- EN: rename person -->
-  <RenamePerson>TODO</RenamePerson>
+  <RenamePerson>renomear pessoa</RenamePerson>
   <!-- EN: mother -->
-  <Mother>TODO</Mother>
+  <Mother>mãe</Mother>
   <!-- EN: father -->
-  <Father>TODO</Father>
+  <Father>pai</Father>
   <!-- EN: unknown -->
-  <Unknown>TODO</Unknown>
+  <Unknown>desconhecido(a)</Unknown>
   <!-- EN: first name -->
-  <FirstName>TODO</FirstName>
+  <FirstName>primeiro nome</FirstName>
   <!-- EN: nickname -->
-  <NickName>TODO</NickName>
+  <NickName>alcunha</NickName>
   <!-- EN: last name -->
-  <LastName>TODO</LastName>
+  <LastName>último nome</LastName>
   <!-- EN: suggested -->
-  <Suggested>TODO</Suggested>
+  <Suggested>sugerido</Suggested>
   
   <!-- Choose new wanderers -->
   <!-- EN: Choose new wanderers -->
-  <ChooseNewWanderers>TODO</ChooseNewWanderers>
+  <ChooseNewWanderers>Escolher novos vagueantes</ChooseNewWanderers>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -288,7 +288,7 @@
   <!-- EN: Ingredient radius -->
   <IngredientSearchRadius>Raio de procura de ingredientes</IngredientSearchRadius>
   <!-- EN: Currently have -->
-  <CurrentlyHave>Actualmente tem</CurrentlyHave>
+  <CurrentlyHave>Atualmente tem</CurrentlyHave>
   <!-- EN: Counting -->
   <CountingProducts>A contar</CountingProducts>
   <!-- EN: Infinite -->
@@ -311,7 +311,7 @@
   <!-- EN: Requires -->
   <BillRequires>Requer {0} {1}</BillRequires>
   <!-- EN: nutrition -->
-  <BillNutrition>TODO</BillNutrition>
+  <BillNutrition>nutrição</BillNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
   <BillRequiresMayVary>Nota: ingredientes de pequeno volume como o ouro exigem 20x mais.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
@@ -322,13 +322,13 @@
   <BillRepeatTargetCountShort>Até {0}</BillRepeatTargetCountShort>
 
   <!-- EN: Pause when satisfied -->
-  <PauseWhenSatisfied>TODO</PauseWhenSatisfied>
+  <PauseWhenSatisfied>Pausar quando estiver satisfeito(a)</PauseWhenSatisfied>
   <!-- EN: Unpause at -->
-  <UnpauseWhenYouHave>TODO</UnpauseWhenYouHave>
+  <UnpauseWhenYouHave>Retomar em</UnpauseWhenYouHave>
   <!-- EN: paused -->
-  <Paused>TODO</Paused>
+  <Paused>pausado</Paused>
   <!-- EN: Unpause -->
-  <Unpause>TODO</Unpause>
+  <Unpause>Retomar</Unpause>
 
   <!-- EN: Count equipped -->
   <IncludeEquipped>TODO</IncludeEquipped>
