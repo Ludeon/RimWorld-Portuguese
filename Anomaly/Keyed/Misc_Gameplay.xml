@@ -449,7 +449,7 @@
   <!-- EN: {0} dropped a shard of dark archotechnology. You can collect and make use of it. -->
   <MessageShardDropped>Deixou cair um fragmento de arquetecnologia escura. Você pode coletá-la e utilizá-la.</MessageShardDropped>
   <!-- EN: The blood rain has driven {0_nameIndef} into a berserk rage! -->
-  <Berserk_BloodRain>A chuva de sangue levou {0_nameIndef} a uma raiva frenética!</Berserk_BloodRain>
+  <Berserk_BloodRain>A chuva de sangue levou {0_nameIndef} a uma raiva incontrolável!</Berserk_BloodRain>
   <!-- EN: The blood rain has driven {0_nameIndef} into a manhunting rage! -->
   <Manhunter_BloodRain>A chuva de sangue levou {0_nameIndef} a uma raiva de caça ao homem!</Manhunter_BloodRain>
   <!-- EN: This happened because of blood rage buildup. -->
@@ -541,9 +541,9 @@
   <!-- EN: {PAWN_labelShort}'s cube withdrawal has sent {PAWN_objective} into a coma. {PAWN_pronoun} will remain in a coma until the golden cube's psychic link has completely dissipated. -->
   <LetterGoldenCubeComa>A ausência do cubo de {PAWN_labelShort} enviou {PAWN_objective} para um coma. {PAWN_pronoun} permanecerá em coma até que a ligação psíquica do cubo dourado se tenha dissipado completamente.</LetterGoldenCubeComa>
   <!-- EN: Deactivating the golden cube will cause any cube-interested people to enter a violent berserk rage. Any cube-interested people in caravans will be permanently lost. -->
-  <CubeDeactivationConfirmation>Desativar o cubo dourado fará com que qualquer pessoa interessada no cubo entre numa raiva violenta. Qualquer pessoa interessada no cubo que esteja em caravana será perdida permanentemente.</CubeDeactivationConfirmation>
+  <CubeDeactivationConfirmation>Desativar o cubo dourado fará com que qualquer pessoa interessada no cubo entre numa raiva incontrolável. Qualquer pessoa interessada no cubo que esteja em caravana será perdida permanentemente.</CubeDeactivationConfirmation>
   <!-- EN: The following people will enter a berserk rage -->
-  <CubeDeactivationConfirmationPawnsBerserk>As seguintes pessoas entrarão numa raiva violenta</CubeDeactivationConfirmationPawnsBerserk>
+  <CubeDeactivationConfirmationPawnsBerserk>As seguintes pessoas entrarão numa raiva incontrolável</CubeDeactivationConfirmationPawnsBerserk>
   <!-- EN: The following people will run away and be lost -->
   <CubeDeactivationConfirmationPawnsLost>As seguintes pessoas irão fugir e serão perdidas</CubeDeactivationConfirmationPawnsLost>
   <!-- EN: Are you sure you want to continue? -->
@@ -551,15 +551,15 @@
   <!-- EN: Cube deactivation -->
   <CubeDeactivationBerserk>Desativação do cubo</CubeDeactivationBerserk>
   <!-- EN: {PAWN_labelShort} has successfully destroyed the golden cube. The psychic whiplash has driven colonists into a berserk rage! -->
-  <CubeDeactivationBerserkDesc>{PAWN_labelShort} destruiu com sucesso o cubo dourado. O chicote psíquico levou colonos a uma raiva violenta!</CubeDeactivationBerserkDesc>
+  <CubeDeactivationBerserkDesc>{PAWN_labelShort} destruiu com sucesso o cubo dourado. O chicote psíquico levou colonos a uma raiva incontrolável!</CubeDeactivationBerserkDesc>
   <!-- EN: These people have entered a temporary berserk rage -->
-  <CubeDeactivationBerserkPawns>Estas pessoas entraram em uma raiva temporária berserk</CubeDeactivationBerserkPawns>
+  <CubeDeactivationBerserkPawns>Estas pessoas entraram temporariamente numa raiva incontrolável</CubeDeactivationBerserkPawns>
   <!-- EN: These people in caravans have run away in a rage -->
-  <CubeDeactivationLostPawns>Estas pessoas em caravanas fugiram em uma raiva</CubeDeactivationLostPawns>
+  <CubeDeactivationLostPawns>Estas pessoas em caravanas fugiram com raiva</CubeDeactivationLostPawns>
   <!-- EN: This happened because of {PAWN_possessive} obsession with the cube. -->
-  <MentalBreakReason_CubeSculpting>Isso aconteceu por causa da obsessão de {PAWN_possessive} com o cubo.</MentalBreakReason_CubeSculpting>
+  <MentalBreakReason_CubeSculpting>Isto aconteceu por causa da sua obsessão com o cubo.</MentalBreakReason_CubeSculpting>
   <!-- EN: dirt -->
-  <CubeMaterialDirt>sujeira</CubeMaterialDirt>
+  <CubeMaterialDirt>terra</CubeMaterialDirt>
   <!-- EN: stone -->
   <CubeMaterialStone>pedra</CubeMaterialStone>
   <!-- EN: sand -->
@@ -567,13 +567,13 @@
   <!-- EN: scrap -->
   <CubeMaterialScrap>sucata</CubeMaterialScrap>
   <!-- EN: building a sculpture. -->
-  <ReportBuildingCubeEnroute>construir uma escultura.</ReportBuildingCubeEnroute>
+  <ReportBuildingCubeEnroute>esculpir uma escultura.</ReportBuildingCubeEnroute>
   <!-- EN: Cannot slaughter: {PAWN_labelShort} does not have flesh. -->
-  <MessageSlaughterNoFlesh>Não pode abater: {PAWN_labelShort} não tem carne.</MessageSlaughterNoFlesh>
+  <MessageSlaughterNoFlesh>Não é possível abater: {PAWN_labelShort} não tem carne.</MessageSlaughterNoFlesh>
   <!-- EN: Cannot slaughter: {PAWN_labelShort} is too large. -->
-  <MessageSlaughterTooBig>Não pode abater: {PAWN_labelShort} é demasiado grande.</MessageSlaughterTooBig>
+  <MessageSlaughterTooBig>Não é possível abater: {PAWN_labelShort} é demasiado grande.</MessageSlaughterTooBig>
   <!-- EN: Entering the labyrinth -->
-  <GeneratingLabyrinth>Entrando no labirinto</GeneratingLabyrinth>
+  <GeneratingLabyrinth>A entrar no labirinto</GeneratingLabyrinth>
   <!-- EN: {PAWN_nameDef} has vanished. -->
   <MessagePawnVanished>{PAWN_name Def} desapareceu.</MessagePawnVanished>
   <!-- EN: {PAWN_nameDef} has reappeared. -->
@@ -581,45 +581,45 @@
   <!-- EN: Exit direction -->
   <FloorEtchingsInspectorExit>Direção de saída</FloorEtchingsInspectorExit>
   <!-- EN: Warped obelisk -->
-  <LetterLabelObeliskDiscovered>Obelisco de guerra</LetterLabelObeliskDiscovered>
+  <LetterLabelObeliskDiscovered>Obelisco deformado</LetterLabelObeliskDiscovered>
   <!-- EN: {PAWN_nameDef} has discovered a large obelisk. It looks nearly identical to the one that originally brought {PAWN_objective} here. Perhaps it can be activated to return {PAWN_objective} home.\n\nSelect {PAWN_nameDef} and right-click the obelisk to activate it. -->
-  <LetterObeliskDiscovered>{PAWN_nameDef} descobriu um grande obelisco. Parece quase idêntico ao que originalmente trouxe {PAWN_objective} aqui. Talvez possa ser activado para regressar a casa (PAWN_objective).\n\nSelecione {PAWN_nameDef} e clique com o botão direito do mouse no obelisco para ativá-lo.</LetterObeliskDiscovered>
+  <LetterObeliskDiscovered>{PAWN_nameDef} descobriu um grande obelisco. Parece quase idêntico ao que originalmente trouxe {PAWN_objective} aqui. Talvez possa ser ativado para fazer {PAWN_objective} regressar a casa.\n\nSelecione {PAWN_nameDef} e clique com o botão direito do rato no obelisco para ativá-lo.</LetterObeliskDiscovered>
   <!-- EN: Floor etchings -->
-  <LetterLabelFloorEtchings>Gravações de piso</LetterLabelFloorEtchings>
+  <LetterLabelFloorEtchings>Gravuras no chão</LetterLabelFloorEtchings>
   <!-- EN: {PAWN_nameDef} has managed to decipher the floor etchings.\n\n{RAMBLINGS}\n\nThey seem to indicate that an exit is somewhere {DIRECTION} of here. -->
-  <LetterFloorEtchings>{PAWN_name Def} conseguiu decifrar o chão.\n\nNão.\n\nParecem indicar que uma saída está algures por aqui.</LetterFloorEtchings>
+  <LetterFloorEtchings>{PAWN_name Def} conseguiu decifrar as gravuras do chão.\n\n{RAMBLINGS}\n\nParecem indicar que uma saída {DIRECTION} está algures por aqui.</LetterFloorEtchings>
   <!-- EN: Floor etchings -->
-  <LetterLabelFloorEtchingRamblings>Gravações de piso</LetterLabelFloorEtchingRamblings>
+  <LetterLabelFloorEtchingRamblings>Gravuras no chão</LetterLabelFloorEtchingRamblings>
   <!-- EN: {PAWN_nameDef} has managed to decipher the floor etchings. -->
-  <LetterFloorEtchingsRamblings>{PAWN_name Def} conseguiu decifrar o chão.</LetterFloorEtchingsRamblings>
+  <LetterFloorEtchingsRamblings>{PAWN_name Def} conseguiu decifrar as gravuras no chão.</LetterFloorEtchingsRamblings>
   <!-- EN: Colonists returned -->
   <LetterLabelLabyrinthExit>Os colonos voltaram</LetterLabelLabyrinthExit>
   <!-- EN: The whirring obelisk has returned your abducted colonists. Shortly after doing so, it vanished into thin air.\n\nBe careful, the obelisk may have returned other creatures as well. -->
-  <LetterLabyrinthExit>O obelisco assobiado devolveu os seus colonos raptados. Pouco depois de fazer isso, desapareceu no ar.\n\nTenha cuidado, o obelisco pode ter retornado outras criaturas também.</LetterLabyrinthExit>
+  <LetterLabyrinthExit>O obelisco que zumbe devolveu os seus colonos raptados. Pouco depois de fazer isso, desapareceu do nada.\n\nTenha cuidado, o obelisco pode ter devolvido outras criaturas também.</LetterLabyrinthExit>
   <!-- EN: Jammed shut. Must be forced open. -->
   <GrayDoorJammed>Fechado. Deve ser forçado a abrir.</GrayDoorJammed>
   <!-- EN: Activated by proximity. -->
-  <ActivatedByProximity>Activado pela proximidade.</ActivatedByProximity>
+  <ActivatedByProximity>Ativado por proximidade.</ActivatedByProximity>
   <!-- EN: No available pawns. -->
   <MonolithActivateDisabledPawns>Não há peões disponíveis.</MonolithActivateDisabledPawns>
   <!-- EN: The monolith's dark metallic surface is warm to the touch, and {PAWN_nameDef} thinks {PAWN_pronoun} can hear a faint hum emanating from inside. The lines on its dusty surface seem to squirm in unsettling patterns.\n\n{PAWN_nameDef} focuses on the shapes, trying to uncover their meaning.\n\nThe hum strengthens. The shapes begin to flow in {PAWN_nameDef}'s vision, but the surface isn't changing. Power begins to uncoil in the empty space all around. A black shape is forming in {PAWN_possessive} mind.\n\nThe Anomaly is stirring... -->
-  <VoidMonolithInvestigatedText>A superfície metálica escura do monólito é quente ao toque, e {PAWN_nameDef} pensa que {PAWN_pronoun} pode ouvir um zumbido fraco que emana de dentro. As linhas em sua superfície empoeirada parecem esguichar em padrões instáveis.\n\n{PAWN_name Def} foca-se nas formas, tentando descobrir seu significado.\n\nO zumbido fortalece. As formas começam a fluir em {PAWN_name A visão, mas a superfície não está a mudar. O poder começa a desenrolar-se no espaço vazio por todo o lado. Uma forma preta está se formando em {PAWN_possessive} mente.\n\nA Anomaly está mexendo...</VoidMonolithInvestigatedText>
+  <VoidMonolithInvestigatedText>A superfície metálica escura do monólito é quente ao toque, e {PAWN_nameDef} pensa que pode ouvir um zumbido fraco que emitido de dentro. As linhas na sua superfície empoeirada ilustram padrões instáveis.\n\n{PAWN_nameDef} foca-se nas formas, tentando descobrir o seu significado.\n\nO zumbido fica mais forte. As formas começam a surgir na visão de {PAWN_nameDef}, mas a superfície não está a mudar. O poder começa a desenrolar-se no espaço vazio por todo o lado. Uma forma preta está a formar-se na sua mente.\n\nA Anomalia está mexer-se...</VoidMonolithInvestigatedText>
   <!-- EN: Keep focusing on the Anomaly -->
-  <VoidMonolithInvestigate>Continue focando na Anomalia</VoidMonolithInvestigate>
+  <VoidMonolithInvestigate>Continue a forcar-se na Anomalia</VoidMonolithInvestigate>
   <!-- EN: Walk away -->
-  <VoidMonolithWalkAway>Afasta-te</VoidMonolithWalkAway>
+  <VoidMonolithWalkAway>Afaste-se</VoidMonolithWalkAway>
   <!-- EN: View quest -->
   <VoidMonolithViewQuest>Ver missão</VoidMonolithViewQuest>
   <!-- EN: View Anomaly research -->
-  <VoidMonolithViewResearch>Ver pesquisa Anomaly</VoidMonolithViewResearch>
+  <VoidMonolithViewResearch>Ver pesquisa da Anomalia</VoidMonolithViewResearch>
   <!-- EN: Current monolith level -->
-  <CurrentMonolithLevel>Nível de monolito atual</CurrentMonolithLevel>
+  <CurrentMonolithLevel>Nível atual do monolito</CurrentMonolithLevel>
   <!-- EN: Investigate to learn more. -->
   <VoidMonolithUndiscovered>Investigar para aprender mais.</VoidMonolithUndiscovered>
   <!-- EN: In order to advance the monolith to the next step, you need to discover {0} {1} tier entities. -->
-  <VoidMonolithRequiredEntityCategory>Para avançar o monólito para o próximo passo, você precisa descobrir {0} {1} entidades de nível.</VoidMonolithRequiredEntityCategory>
+  <VoidMonolithRequiredEntityCategory>Para avançar o monólito para o próximo passo, você precisa descobrir entidades de nível {0} {1}.</VoidMonolithRequiredEntityCategory>
   <!-- EN: Discovered: {0} -->
-  <DiscoveredCount>Descobrido: Não</DiscoveredCount>
+  <DiscoveredCount>Descoberto: {0}</DiscoveredCount>
   <!-- EN: Required entities discovered. -->
   <VoidMonolithAllEntitiesDiscovered>Entidades necessárias descobertas.</VoidMonolithAllEntitiesDiscovered>
   <!-- EN: Required to increase level -->
@@ -627,15 +627,15 @@
   <!-- EN: Undiscovered entities -->
   <VoidMonolithRequiresDiscoveryShort>Entidades não descobertas</VoidMonolithRequiresDiscoveryShort>
   <!-- EN: Must discover {0} more {1} monolith entities. -->
-  <VoidMonolithRequiresCategory>Deve descobrir Mais entidades monolíticas.</VoidMonolithRequiresCategory>
+  <VoidMonolithRequiresCategory>Deve descobrir {0} mais {1} entidades monolíticas.</VoidMonolithRequiresCategory>
   <!-- EN: Disturbing vision -->
   <VoidMonolithVisionLabel>Visão perturbadora</VoidMonolithVisionLabel>
   <!-- EN: {PAWN_nameDef} has had a strange dream. In it, {PAWN_pronoun} saw a black shape, unfurling in space and time, growing and consuming. The shape originated from a nearby crumbled monolith.\n\nUpon waking from the vision, {PAWN_nameDef} feels strangely drawn to the monolith. It calls to {PAWN_objective}. -->
-  <VoidMonolithVisionText>{PAWN_name Def) teve um sonho estranho. Nele, {PAWN_pronoun} viu uma forma preta, desordenando no espaço e no tempo, crescendo e consumindo. A forma originou-se de um monólito desmoronado próximo.\n\nAo acordar da visão, {PAWN_nameDef} se sente estranhamente atraído para o monólito. Chama para {PAWN_objectivo}.</VoidMonolithVisionText>
+  <VoidMonolithVisionText>{PAWN_nameDef} teve um sonho estranho. Nele, {PAWN_pronoun} viu uma forma preta, desenrolando-se no espaço e no tempo, crescendo e consumindo. A forma originou-se de um monólito desmoronado próximo.\n\nAo acordar da visão, {PAWN_nameDef} sente-se estranhamente atraído para o monólito. Chama por {PAWN_objective}.</VoidMonolithVisionText>
   <!-- EN: Choose who should do this -->
-  <VoidMonolithChooseActivator>Escolha quem deve fazer isso</VoidMonolithChooseActivator>
+  <VoidMonolithChooseActivator>Escolha quem deve fazer isto</VoidMonolithChooseActivator>
   <!-- EN: Target is downed -->
-  <VoidMonolithActivatorDowned>O alvo é derrubado</VoidMonolithActivatorDowned>
+  <VoidMonolithActivatorDowned>O alvo está derrubado</VoidMonolithActivatorDowned>
   <!-- EN: Target in mental state -->
   <VoidMonolithActivatorMentalState>Alvo em estado mental</VoidMonolithActivatorMentalState>
   <!-- EN: Target is busy -->
@@ -643,105 +643,105 @@
   <!-- EN: Target is incapable -->
   <VoidMonolithActivatorIncapable>O alvo é incapaz</VoidMonolithActivatorIncapable>
   <!-- EN: Monolith arrival -->
-  <MonolithArrivalLabel>Chegada de Monolith</MonolithArrivalLabel>
+  <MonolithArrivalLabel>Chegada do monólito</MonolithArrivalLabel>
   <!-- EN: Interacting with the psychic signal has caused a strange structure to appear. -->
-  <MonolithArrivalText>Interagir com o sinal psíquico causou uma estrutura estranha para aparecer.</MonolithArrivalText>
+  <MonolithArrivalText>Interagir com o sinal psíquico fez com que uma estrutura estranha aparecesse.</MonolithArrivalText>
   <!-- EN: It is very similar, if not identical, to the monolith you previously encountered. -->
   <MonolithArrivalTextExt>É muito semelhante, se não idêntico, ao monólito que você encontrou anteriormente.</MonolithArrivalTextExt>
   <!-- EN: Can't {0} monolith -->
-  <CantActivateMonolith>Não posso</CantActivateMonolith>
+  <CantActivateMonolith>Não pode {0} monólito</CantActivateMonolith>
   <!-- EN: Monolith twisting -->
-  <MonolithTwistingAlert>Torção de Monolith</MonolithTwistingAlert>
+  <MonolithTwistingAlert>Monólito a retorcer-se</MonolithTwistingAlert>
   <!-- EN: Your presence has caused the monolith to twist and morph. Soon the process will be complete. Be prepared for whatever comes next. -->
-  <MonolithTwistingExplanation>Sua presença fez com que o monólito torcesse e se transformasse. Logo o processo será concluído. Esteja preparado para o que vier a seguir.</MonolithTwistingExplanation>
+  <MonolithTwistingExplanation>Sua presença fez com que o monólito se retorcesse e se transformasse. Em breve o processo estará concluído. Esteja preparado para o que vier a seguir.</MonolithTwistingExplanation>
   <!-- EN: Fallen monolith -->
   <MonolithAutoActivatingLabel>Monólito caído</MonolithAutoActivatingLabel>
   <!-- EN: A wave of dread passes over your colonists. The fallen monolith has begun to stir. Slowly, it begins to twist and rearrange itself, morphing into something new.\n\nWithin a matter of days, the process will be complete. Be prepared for whatever comes next. -->
-  <MonolithAutoActivatingText>Uma onda de medo passa sobre seus colonos. O monólito caído começou a mexer. Devagar, começa a torcer e reorganizar-se, transformando-se em algo novo.\n\nDentro de dias, o processo será concluído. Esteja preparado para o que vier a seguir.</MonolithAutoActivatingText>
+  <MonolithAutoActivatingText>Uma onda de medo passa sobre os seus colonos. O monólito caído começou a mexer. Devagar, começa a contorcer-se e a reorganizar-se, transformando-se em algo novo.\n\nDentro de dias, o processo estará concluído. Esteja preparado para o que vier a seguir.</MonolithAutoActivatingText>
   <!-- EN: Void monolith -->
-  <MonolithAutoActivatedLabel>Monolith de Void</MonolithAutoActivatedLabel>
+  <MonolithAutoActivatedLabel>Monólito do Void</MonolithAutoActivatedLabel>
   <!-- EN: The monolith’s transformation is almost complete... -->
-  <MonolithAutoActivatedText>A transformação do monólito é quase completa...</MonolithAutoActivatedText>
+  <MonolithAutoActivatedText>A transformação do monólito está quase completa...</MonolithAutoActivatedText>
   <!-- EN: Gray pall -->
-  <LetterLabelGrayPallDescending>Pall cinza</LetterLabelGrayPallDescending>
+  <LetterLabelGrayPallDescending>Manto cinzento</LetterLabelGrayPallDescending>
   <!-- EN: A blanket of gritty fog has descended on this area. The fog smells ancient, somehow, and it stings the skin. The unnatural grayness of it invokes a sense of dread. -->
-  <LetterGrayPallDescending>Um cobertor de nevoeiro sujo desceu nesta área. O nevoeiro cheira antigo, de alguma forma, e picadas a pele. A cinza natural dela invoca uma sensação de medo.</LetterGrayPallDescending>
+  <LetterGrayPallDescending>Um manto de nevoeiro arenoso desceu sobre esta área. O nevoeiro cheira a antigo, de alguma forma, dá picadas na pele. O cinzento antinatural dele invoca uma sensação de medo.</LetterGrayPallDescending>
   <!-- EN: Awakening the void monolith will engulf your colony in darkness for days and attract powerful entities. Make sure you are well prepared:\n\n- Stockpile food, building material, and weapons.\n- Make sure your colony is well lit, and has ample power. Avoid relying on solar generators.\n- Ensure your colony is well defended, and your colonists are ready to fight.\n\nOnce you awaken the void monolith, there is no going back.\n\nAre you sure you want to continue? -->
-  <VoidAwakeningConfirmationText>Despertar o monólito vazio irá incutir sua colônia na escuridão por dias e atrair entidades poderosas. Certifique-se de que você está bem preparado:\n\n- Stockpile comida, material de construção e armas.\n- Certifique-se de que sua colônia está bem iluminada, e tem grande poder. Evite confiar em geradores solares.\n- Certifique-se de que sua colônia está bem defendida, e seus colonos estão prontos para lutar.\n\nQuando você acorda o monólito vazio, não há retorno.\n\nTens a certeza que queres continuar?</VoidAwakeningConfirmationText>
+  <VoidAwakeningConfirmationText>Despertar o monólito void irá engolir a sua colónia na escuridão por dias e atrair entidades poderosas. Certifique-se de que está bem preparado:\n\n- Acumule comida, material de construção e armas.\n- Certifique-se de que sua colónia está bem iluminada, e que tem bastante energia elétrica. Evite depender de geradores solares.\n- Certifique-se de que sua colónia está bem defendida, e os seus colonos estão prontos para lutar.\n\nQuando você acorda o monólito void não há volta atrás.\n\nTem a certeza que quer continuar?</VoidAwakeningConfirmationText>
   <!-- EN: A sphere of writhing psychic energy rises before {PAWN_nameDef}.\n\n{PAWN_nameDef} feels a presence inside {PAWN_possessive} mind, deeper than any normal human sense. {PAWN_pronoun} stands on the shoreline of an infinite black ocean of power. It beckons {PAWN_objective} in...\n\nNearby archotech devices support the sphere along fragile connections. {PAWN_nameDef} could disrupt them, closing this link between worlds.\n\nOr, {PAWN_pronoun} could step into the sphere and merge with the void. It's unknown what dark power could be gained from such an inhuman act. -->
-  <VoidNodeLetter>Uma esfera de writhing energia psíquica sobe antes {PAWN_nameDef}.\n\n{PAWN_name Def} sente uma presença dentro da mente {PAWN_possessiva}, mais profunda do que qualquer sentido humano normal. {PAWN_pronoun} está na costa de um infinito oceano negro de poder. Embarcações em...\n\nDispositivos arquitetônicos próximos suportam a esfera ao longo de conexões frágeis. {PAWN_nameDef} poderia interrompê-los, fechando esta ligação entre mundos.\n\nOu, {PAWN_pronoun} poderia entrar na esfera e fundir-se com o vazio. É desconhecido o que o poder escuro poderia ser ganho de um ato tão desumano.</VoidNodeLetter>
+  <VoidNodeLetter>Uma esfera de energia psíquica contorcida surge diante {PAWN_nameDef}.\n\n{PAWN_nameDef} sente uma presença dentro da mente, mais profunda do que qualquer sensação humana normal. {PAWN_pronoun} está à costa de um infinito oceano negro de poder. Ele acena a {PAWN_objective} em...\n\nDispositivos arqueotecnologicos próximos suportam a esfera através de conexões frágeis. {PAWN_nameDef} poderia interrompê-las, ao fechar esta ligação entre mundos.\n\nOu, {PAWN_pronoun} poderia entrar na esfera e fundir-se com o void. É desconhecido que poder escuro poderia ser ganho de um ato tão desumano.</VoidNodeLetter>
   <!-- EN: Disrupt the link -->
-  <VoidNodeDisrupt>Destruir o link</VoidNodeDisrupt>
+  <VoidNodeDisrupt>Destruir a ligação</VoidNodeDisrupt>
   <!-- EN: Embrace the void -->
-  <VoidNodeEmbrace>Abraçar o vazio</VoidNodeEmbrace>
+  <VoidNodeEmbrace>Abraçar o void</VoidNodeEmbrace>
   <!-- EN: Postpone -->
-  <VoidNodePostpone>Postponeses</VoidNodePostpone>
+  <VoidNodePostpone>Adiar</VoidNodePostpone>
   <!-- EN: The psychic flows destabilize and the twisted machinery screams. The swirling void flickers. {PAWN_nameDef} feels it shuddering and collapsing into itself.\n\nThe metallic cavern begins to twist, reshaping like the chamber of a massive heart. Before {PAWN_nameDef} has a chance to scream, {PAWN_pronoun} blinks out of existence.\n\n{PAWN_nameDef} has rejected the void.\n\n{PAWN_possessive} story continues... -->
-  <DisruptTheLinkCredits>Os fluxos psíquicos desestabilizam e as máquinas torcidas gritam. Os cintilantes vazios. {PAWN_nameDef} sente-o encolher e colapsar em si mesmo.\n\nA caverna metálica começa a torcer, remodelando como a câmara de um coração maciço. Antes de {PAWN_name Def} tem uma chance de gritar, {PAWN_pronoun} pisca fora da existência.\n\n{PAWN_name Def} rejeitou o vazio.\n\nA história continua...</DisruptTheLinkCredits>
+  <DisruptTheLinkCredits>Os fluxos psíquicos desestabilizam e as máquinas retorcidas gritam. O void rodopiante cintila. {PAWN_nameDef} sente-o encolher e a colapsar em si mesmo.\n\nA caverna metálica começa a torcer-se, remodelando-se como a câmara de um coração maciço. Antes de {PAWN_nameDef} ter uma oportunidade de gritar, {PAWN_pronoun} desapareceu instantaneamente.\n\n{PAWN_nameDef} rejeitou o void.\n\nA história continua...</DisruptTheLinkCredits>
   <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
   <EmbraceTheVoidCredits>{PAWN_name Def} entra no vazio e o oceano negro inunda em {PAWN_objectivo}, esmagando todos os sentidos, sufocando cada pensamento em {PAWN_possessive} mente.\n\nO nó vazio foi refocused afastado do mundo, para uma única pessoa. As estruturas vazias gritam, depois piscam fora da existência.\n\n{PAWN_name Def} abraçou o vazio.\n\nA história continua...</EmbraceTheVoidCredits>
   <!-- EN: {PAWN_nameDef} has finished activating {STRUCTURE_definite} -->
-  <StructureActivatedMessage>{PAWN_name Def} terminou a ativação {STRUCTURE_definite}</StructureActivatedMessage>
+  <StructureActivatedMessage>{PAWN_nameDef} terminou a ativação de {STRUCTURE_definite}</StructureActivatedMessage>
   <!-- EN: Structures activated -->
   <StructuresActivatedAlertLabel>Estruturas activadas</StructuresActivatedAlertLabel>
   <!-- EN: Activate void structures to complete the monolith awakening. -->
-  <StructuresActivatedAlertDescription>Ativar estruturas nulas para completar o despertar monólito.</StructuresActivatedAlertDescription>
+  <StructuresActivatedAlertDescription>Ative estruturas void para finalizar o despertar do monólito.</StructuresActivatedAlertDescription>
   <!-- EN: {PAWN_nameDef}'s connection to the void monolith has been broken. It must be activated again. -->
-  <GleamingMonolithInterrupted>{PAWN_name A ligação ao monólito vazio foi quebrada. Deve ser activado novamente.</GleamingMonolithInterrupted>
+  <GleamingMonolithInterrupted>A ligação de {PAWN_nameDef} ao monólito void foi interrompida. Precisa de ser ativada novamente.</GleamingMonolithInterrupted>
   <!-- EN: Increases the chance of lovin` -->
-  <IncreasesChanceOfLovin>Aumenta a chance de lovin &quot;</IncreasesChanceOfLovin>
+  <IncreasesChanceOfLovin>Aumenta a probabilidade de romance;</IncreasesChanceOfLovin>
   <!-- EN: Unnatural {0_label} corpse -->
-  <UnnaturalCorpse>Corpo antinatural (0_label)</UnnaturalCorpse>
+  <UnnaturalCorpse>Corpo antinatural {0_label}</UnnaturalCorpse>
   <!-- EN: Knowledge from study reduced -->
   <KnowledgeFactorOutdoors>Conhecimento de estudo reduzido</KnowledgeFactorOutdoors>
   <!-- EN: Emergence in {0} -->
   <EmergenceIn>Emergência em {0}</EmergenceIn>
   <!-- EN: Something will emerge from the ground in {0}. -->
-  <EmergenceInDesc>Algo sairá do chão em {0}.</EmergenceInDesc>
+  <EmergenceInDesc>Algo surgirá do chão em {0}.</EmergenceInDesc>
   <!-- EN: Bioferrite contained -->
   <BioferriteHarvesterContained>Bioferrite contida</BioferriteHarvesterContained>
   <!-- EN: per day -->
   <BioferriteHarvesterPerDay>por dia</BioferriteHarvesterPerDay>
   <!-- EN: Eject contents -->
-  <BioferriteHarvesterEjectContents>Conteúdo do objeto</BioferriteHarvesterEjectContents>
+  <BioferriteHarvesterEjectContents>Ejetar conteúdo</BioferriteHarvesterEjectContents>
   <!-- EN: Eject all contained {0} onto the ground. -->
-  <BioferriteHarvesterEjectContentsDesc>Ejetar tudo contido {0} no chão.</BioferriteHarvesterEjectContentsDesc>
+  <BioferriteHarvesterEjectContentsDesc>Ejetar todo o {0} contido no chão.</BioferriteHarvesterEjectContentsDesc>
   <!-- EN: Toggle bioferrite unloading -->
-  <BioferriteHarvesterToggleUnloading>Alternar a descarga de bioferrite</BioferriteHarvesterToggleUnloading>
+  <BioferriteHarvesterToggleUnloading>Alternar o descarregamento de bioferrite</BioferriteHarvesterToggleUnloading>
   <!-- EN: When active, colonists will automatically unload bioferrite from the harvester as it is filling up. -->
-  <BioferriteHarvesterToggleUnloadingDesc>Quando ativo, os colonos descarregarão automaticamente o bioferrite do harvester como ele está enchendo.</BioferriteHarvesterToggleUnloadingDesc>
+  <BioferriteHarvesterToggleUnloadingDesc>Quando ativo, os colonos descarregarão automaticamente a bioferrite da ceifeira è medida que for enchendo.</BioferriteHarvesterToggleUnloadingDesc>
   <!-- EN: Invisible creature detected. -->
-  <ProximityDetectorCreatureDetected>Criatura invisível detectada.</ProximityDetectorCreatureDetected>
+  <ProximityDetectorCreatureDetected>Criatura invisível detetada.</ProximityDetectorCreatureDetected>
   <!-- EN: Generating frenzy field. -->
-  <FrenzyInducerEffectDescription>Gerar campo frenesi.</FrenzyInducerEffectDescription>
+  <FrenzyInducerEffectDescription>Gerar campo de frenético.</FrenzyInducerEffectDescription>
   <!-- EN: This happened due to the influence of a frenzy inducer. -->
-  <MentalBreakReason_FrenzyInducer>Isso aconteceu devido à influência de um indutor frenesi.</MentalBreakReason_FrenzyInducer>
+  <MentalBreakReason_FrenzyInducer>Isto aconteceu devido à influência de um indutor de frenesim.</MentalBreakReason_FrenzyInducer>
   <!-- EN: sleepless psychic pulsation. -->
-  <SleepSuppressorEffectDescription>pulsação psíquica sem dormir.</SleepSuppressorEffectDescription>
+  <SleepSuppressorEffectDescription>pulsação psíquica de insónia.</SleepSuppressorEffectDescription>
   <!-- EN: Being digested by {0_labelShort}. -->
-  <DigestedBy>Ser digerido por {0_labelShort}.</DigestedBy>
+  <DigestedBy>A ser digerido por {0_labelShort}.</DigestedBy>
   <!-- EN: The chimera is {0} -->
   <MessageChimeraModeChangeSingular>A quimera é {0}</MessageChimeraModeChangeSingular>
   <!-- EN: The chimeras are {0} -->
-  <MessageChimeraModeChangePlural>Os chimeras são {0}</MessageChimeraModeChangePlural>
+  <MessageChimeraModeChangePlural>As quimeras são {0}</MessageChimeraModeChangePlural>
   <!-- EN: temporarily withdrawing. -->
   <MessageChimeraWithdrawing>retirada temporária.</MessageChimeraWithdrawing>
   <!-- EN: Chimeras attacking -->
-  <LetterChimerasAttackingLabel>Chimeras atacando</LetterChimerasAttackingLabel>
+  <LetterChimerasAttackingLabel>Quimeras estão a atacar</LetterChimerasAttackingLabel>
   <!-- EN: The chimeras have begun their attack! -->
-  <LetterChimerasAttacking>Os chimeras começaram seu ataque!</LetterChimerasAttacking>
+  <LetterChimerasAttacking>As quimeras começaram o ataque!</LetterChimerasAttacking>
   <!-- EN: No major threats -->
   <AnomalyFrequency_None>Sem grandes ameaças</AnomalyFrequency_None>
   <!-- EN: Very rare -->
   <AnomalyFrequency_VeryRare>Muito raro</AnomalyFrequency_VeryRare>
   <!-- EN: Rare -->
-  <AnomalyFrequency_Rare>Raízes</AnomalyFrequency_Rare>
+  <AnomalyFrequency_Rare>Raro</AnomalyFrequency_Rare>
   <!-- EN: Balanced -->
-  <AnomalyFrequency_Balanced>Balança</AnomalyFrequency_Balanced>
+  <AnomalyFrequency_Balanced>Equilibrado</AnomalyFrequency_Balanced>
   <!-- EN: Intense -->
   <AnomalyFrequency_Intense>Intenso</AnomalyFrequency_Intense>
   <!-- EN: Overwhelming -->
-  <AnomalyFrequency_Overwhelming>Overwhelming</AnomalyFrequency_Overwhelming>
+  <AnomalyFrequency_Overwhelming>Sobrecarga</AnomalyFrequency_Overwhelming>
   <!-- EN: Security doors only -->
-  <SecurityDoorsOnly>Portas de segurança apenas</SecurityDoorsOnly>
+  <SecurityDoorsOnly>Apenas portas de segurança</SecurityDoorsOnly>
 </LanguageData>
