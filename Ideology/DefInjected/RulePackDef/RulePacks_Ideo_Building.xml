@@ -7,20 +7,38 @@
     <li>buildingName->chancel</li>
     <li>buildingName->platform</li>
   -->
-  <NamerAltar.rulePack.rulesStrings>&lt;li>buildingName->altar&lt;/li>\n&lt;li>buildingName->shrine&lt;/li>\n&lt;li>buildingName->chancel&lt;/li>\n&lt;li>buildingName->platform&lt;/li>\n</NamerAltar.rulePack.rulesStrings>
+  <NamerAltar.rulePack.rulesStrings>
+    <li>buildingName->altar</li>
+    <li>buildingName->santuário</li>
+    <li>buildingName->presbitério</li>
+    <li>buildingName->estrado</li>
+  </NamerAltar.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerAltar.rulePack.rulesStrings>&lt;li>buildingName->altar&lt;/li>\n&lt;li>buildingName->shrine&lt;/li>\n&lt;li>buildingName->chancel&lt;/li>\n&lt;li>buildingName->platform&lt;/li>\n</NamerAltar.rulePack.rulesStrings>
+  <NamerAltar.rulePack.rulesStrings>
+    <li>buildingName->altar</li>
+    <li>buildingName->santuário</li>
+    <li>buildingName->presbitério</li>
+    <li>buildingName->estrado</li>
+  </NamerAltar.rulePack.rulesStrings>
   
   <!-- EN:
     <li>buildingName->totem</li>
     <li>buildingName->effigy</li>
     <li>buildingName->pyre</li>
   -->
-  <NamerBurnTarget.rulePack.rulesStrings>&lt;li>buildingName->totem&lt;/li>\n&lt;li>buildingName->effigy&lt;/li>\n&lt;li>buildingName->pyre&lt;/li>building\n</NamerBurnTarget.rulePack.rulesStrings>
+  <NamerBurnTarget.rulePack.rulesStrings>
+    <li>buildingName->totem</li>
+    <li>buildingName->ídolo</li>
+    <li>buildingName->braseiro</li>
+  </NamerBurnTarget.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerBurnTarget.rulePack.rulesStrings>&lt;li>buildingName->totem&lt;/li>\n&lt;li>buildingName->effigy&lt;/li>\n&lt;li>buildingName->pyre&lt;/li>building\n</NamerBurnTarget.rulePack.rulesStrings>
+  <NamerBurnTarget.rulePack.rulesStrings>
+    <li>buildingName->totem</li>
+    <li>buildingName->ídolo</li>
+    <li>buildingName->braseiro</li>
+  </NamerBurnTarget.rulePack.rulesStrings>
   
   <!-- EN:
     <li>buildingName->platter</li>
@@ -28,19 +46,35 @@
     <li>buildingName->feast</li>
     <li>buildingName->manpork</li>
   -->
-  <NamerCannibalPlatter.rulePack.rulesStrings>&lt;li>buildingName->platter&lt;/li>\n&lt;li>buildingName->dish&lt;/li>\n&lt;li>buildingName->feast&lt;/li>\n&lt;li>buildingName->manpork&lt;/li>\n</NamerCannibalPlatter.rulePack.rulesStrings>
+  <NamerCannibalPlatter.rulePack.rulesStrings>
+    <li>buildingName->prato</li>
+    <li>buildingName->manjar</li>
+    <li>buildingName->banquete</li>
+    <li>buildingName->pernil humano</li>
+  </NamerCannibalPlatter.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerCannibalPlatter.rulePack.rulesStrings>&lt;li>buildingName->platter&lt;/li>\n&lt;li>buildingName->dish&lt;/li>\n&lt;li>buildingName->feast&lt;/li>\n&lt;li>buildingName->manpork&lt;/li>\n</NamerCannibalPlatter.rulePack.rulesStrings>
+  <NamerCannibalPlatter.rulePack.rulesStrings>
+    <li>buildingName->prato</li>
+    <li>buildingName->manjar</li>
+    <li>buildingName->banquete</li>
+    <li>buildingName->pernil humano</li>
+  </NamerCannibalPlatter.rulePack.rulesStrings>
   
   <!-- EN:
     <li>buildingName->tree</li>
     <li>buildingName->pine</li>
   -->
-  <NamerChristmasTree.rulePack.rulesStrings>&lt;li>buildingName->tree&lt;/li>building\n&lt;li>buildingName->pine&lt;/li>\n</NamerChristmasTree.rulePack.rulesStrings>
+  <NamerChristmasTree.rulePack.rulesStrings>
+    <li>buildingName->pinheiro</li>
+    <li>buildingName->abeto</li>
+  </NamerChristmasTree.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerChristmasTree.rulePack.rulesStrings>&lt;li>buildingName->tree&lt;/li>building\n&lt;li>buildingName->pine&lt;/li>\n</NamerChristmasTree.rulePack.rulesStrings>
+  <NamerChristmasTree.rulePack.rulesStrings>
+    <li>buildingName->pinheiro</li>
+    <li>buildingName->abeto</li>
+  </NamerChristmasTree.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_ideoBuildingName(p=2)->[memeAdjective] [buildingName]</li>
@@ -51,10 +85,26 @@
     <li>r_ideoBuildingName->[buildingName] of [memeConcept]</li>
     <li>r_ideoBuildingName->[buildingName] of [chosenIdeoName]</li>
   -->
-  <NamerIdeoBuilding.rulePack.rulesStrings>&lt;li>r_ideoBuildingName (p=2)->[memeAdjective] [buildingName]&lt;/li>\n&lt;li>r_ideoBuildingName->[buildingName] de [chosenTheme]&lt;/li>\n&lt;li>r_ideoBuildingName->[chosenAdjective] [buildingName]&lt;/li>\n&lt;li>r_ideoBuildingName->[keyDeity]'s [buildingName]&lt;/li>\n&lt;li>r_ideoBuildingName->[buildingName] de [keyDeity]&lt;/li>\n&lt;li>r_ideoBuildingName->[buildingName] de [memeConcept]&lt;/li>\n&lt;li>r_ideoBuildingName->[buildingName] de [chosenIdeoName]&lt;/li>\n</NamerIdeoBuilding.rulePack.rulesStrings>
+  <NamerIdeoBuilding.rulePack.rulesStrings>
+    <li>r_ideoBuildingName(p=2)->[buildingName] [memeAdjective]</li>
+    <li>r_ideoBuildingName->[buildingName] de [chosenTheme]</li>
+    <li>r_ideoBuildingName->[buildingName] [chosenAdjective]</li>
+    <li>r_ideoBuildingName->[buildingName] de [keyDeity]</li>
+    <li>r_ideoBuildingName->[buildingName] consagrado a [keyDeity]</li>
+    <li>r_ideoBuildingName->[buildingName] de [memeConcept]</li>
+    <li>r_ideoBuildingName->[buildingName] de [chosenIdeoName]</li>
+  </NamerIdeoBuilding.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerIdeoBuilding.rulePack.rulesStrings>&lt;li>r_ideoBuildingName (p=2)->[memeAdjective] [buildingName]&lt;/li>\n&lt;li>r_ideoBuildingName->[buildingName] de [chosenTheme]&lt;/li>\n&lt;li>r_ideoBuildingName->[chosenAdjective] [buildingName]&lt;/li>\n&lt;li>r_ideoBuildingName->[keyDeity]'s [buildingName]&lt;/li>\n&lt;li>r_ideoBuildingName->[buildingName] de [keyDeity]&lt;/li>\n&lt;li>r_ideoBuildingName->[buildingName] de [memeConcept]&lt;/li>\n&lt;li>r_ideoBuildingName->[buildingName] de [chosenIdeoName]&lt;/li>\n</NamerIdeoBuilding.rulePack.rulesStrings>
+  <NamerIdeoBuilding.rulePack.rulesStrings>
+    <li>r_ideoBuildingName(p=2)->[buildingName] [memeAdjective]</li>
+    <li>r_ideoBuildingName->[buildingName] de [chosenTheme]</li>
+    <li>r_ideoBuildingName->[buildingName] [chosenAdjective]</li>
+    <li>r_ideoBuildingName->[buildingName] de [keyDeity]</li>
+    <li>r_ideoBuildingName->[buildingName] consagrado a [keyDeity]</li>
+    <li>r_ideoBuildingName->[buildingName] de [memeConcept]</li>
+    <li>r_ideoBuildingName->[buildingName] de [chosenIdeoName]</li>
+  </NamerIdeoBuilding.rulePack.rulesStrings>
   
   <!-- EN:
     <li>buildingName->ideogram</li>
@@ -66,10 +116,28 @@
     <li>buildingName->image</li>
     <li>buildingName->logo</li>
   -->
-  <NamerIdeogram.rulePack.rulesStrings>&lt;li>buildingName->ideograma&lt;/li>\n&lt;li>buildingName->symbol&lt;/li>\n&lt;li>buildingName->mark&lt;/li>\n&lt;li>buildingName->shape&lt;/li>\n&lt;li>buildingName->emblem&lt;/li>\n&lt;li>buildingName->figure&lt;/li>\n&lt;li>buildingName->image&lt;/li>\n&lt;li>buildingName->logo&lt;/li>\n</NamerIdeogram.rulePack.rulesStrings>
+  <NamerIdeogram.rulePack.rulesStrings>
+    <li>buildingName->ideograma</li>
+    <li>buildingName->símbolo</li>
+    <li>buildingName->sinal</li>
+    <li>buildingName->traço</li>
+    <li>buildingName->emblema</li>
+    <li>buildingName->desenho</li>
+    <li>buildingName->ícone</li>
+    <li>buildingName->logótipo</li>
+  </NamerIdeogram.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerIdeogram.rulePack.rulesStrings>&lt;li>buildingName->ideograma&lt;/li>\n&lt;li>buildingName->symbol&lt;/li>\n&lt;li>buildingName->mark&lt;/li>\n&lt;li>buildingName->shape&lt;/li>\n&lt;li>buildingName->emblem&lt;/li>\n&lt;li>buildingName->figure&lt;/li>\n&lt;li>buildingName->image&lt;/li>\n&lt;li>buildingName->logo&lt;/li>\n</NamerIdeogram.rulePack.rulesStrings>
+  <NamerIdeogram.rulePack.rulesStrings>
+    <li>buildingName->ideograma</li>
+    <li>buildingName->símbolo</li>
+    <li>buildingName->sinal</li>
+    <li>buildingName->traço</li>
+    <li>buildingName->emblema</li>
+    <li>buildingName->desenho</li>
+    <li>buildingName->ícone</li>
+    <li>buildingName->logótipo</li>
+  </NamerIdeogram.rulePack.rulesStrings>
   
   <!-- EN:
     <li>buildingName->statue</li>
@@ -79,10 +147,24 @@
     <li>buildingName->form</li>
     <li>buildingName->shape</li>
   -->
-  <NamerIdeoSculpture.rulePack.rulesStrings>&lt;li>buildingName->statue&lt;/li>building\n&lt;li>buildingName->sculpture&lt;/li>\n&lt;li>buildingName->carving&lt;/li>\n&lt;li>buildingName->image&lt;/li>\n&lt;li>buildingName->form&lt;/li>building\n&lt;li>buildingName->shape&lt;/li>\n</NamerIdeoSculpture.rulePack.rulesStrings>
+  <NamerIdeoSculpture.rulePack.rulesStrings>
+    <li>buildingName->monumento</li>
+    <li>buildingName->busto</li>
+    <li>buildingName->entalhe</li>
+    <li>buildingName->ícone</li>
+    <li>buildingName->vulto</li>
+    <li>buildingName->molde</li>
+  </NamerIdeoSculpture.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerIdeoSculpture.rulePack.rulesStrings>&lt;li>buildingName->statue&lt;/li>building\n&lt;li>buildingName->sculpture&lt;/li>\n&lt;li>buildingName->carving&lt;/li>\n&lt;li>buildingName->image&lt;/li>\n&lt;li>buildingName->form&lt;/li>building\n&lt;li>buildingName->shape&lt;/li>\n</NamerIdeoSculpture.rulePack.rulesStrings>
+  <NamerIdeoSculpture.rulePack.rulesStrings>
+    <li>buildingName->monumento</li>
+    <li>buildingName->busto</li>
+    <li>buildingName->entalhe</li>
+    <li>buildingName->ícone</li>
+    <li>buildingName->vulto</li>
+    <li>buildingName->molde</li>
+  </NamerIdeoSculpture.rulePack.rulesStrings>
   
   <!-- EN:
     <li>buildingName->smoker</li>
@@ -90,9 +172,19 @@
     <li>buildingName->fumer</li>
     <li>buildingName->smolderer</li>
   -->
-  <NamerSmoker.rulePack.rulesStrings>&lt;li>buildingName->smoker&lt;/li>\n&lt;li>buildingName->gasser&lt;/li>\n&lt;li>buildingName->fumer&lt;/li>\n&lt;li>buildingName->smolderer&lt;/li>\n</NamerSmoker.rulePack.rulesStrings>
+  <NamerSmoker.rulePack.rulesStrings>
+    <li>buildingName->fumeiro</li>
+    <li>buildingName->defumador</li>
+    <li>buildingName->incensório</li>
+    <li>buildingName->braseiro</li>
+  </NamerSmoker.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerSmoker.rulePack.rulesStrings>&lt;li>buildingName->smoker&lt;/li>\n&lt;li>buildingName->gasser&lt;/li>\n&lt;li>buildingName->fumer&lt;/li>\n&lt;li>buildingName->smolderer&lt;/li>\n</NamerSmoker.rulePack.rulesStrings>
+  <NamerSmoker.rulePack.rulesStrings>
+    <li>buildingName->fumeiro</li>
+    <li>buildingName->defumador</li>
+    <li>buildingName->incensório</li>
+    <li>buildingName->braseiro</li>
+  </NamerSmoker.rulePack.rulesStrings>
   
 </LanguageData>

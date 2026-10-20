@@ -9,11 +9,20 @@
     <li>mechlinkAvailableLetterLabel->[mechanitor_nameDef]'s mechlink available</li>
     <li>mechlinkAvailableLetterText->The crashed ship contained the corpse of an ancient mechanitor.\n\nExtract [mechanitor_possessive] mechlink by selecting a colonist and right-clicking the corpse.</li>
   -->
-  <MechanitorShip.questContentRules.rulesStrings>&lt;li>mecanitorShuttleCrashedLetterLabel->Mechanitor ship&lt;/li>\n&lt;li>mecanitorShuttleCrashedLetterText-> Um navio mecanitor contendo mecanoides ferais caiu nas proximidades. Os mecanóides sairão do navio que caiu e se prepararão para lutar.&lt;/li>\n&lt;li>assaultBeginLetterLabel->Ataque mecânico&lt;/li>\n&lt;li>assaultBeginLetterText-> Os mecanóides ferais estão vindo a atacar a colônia!\n&lt;li>mechlinkAvailableLetterLabel->[mechanitor_name Def]'s mechlink available&lt;/li>\n&lt;li>mechlinkAvailableLetterText-> A nave caiu continha o cadáver de um antigo mecanitor.\n\nExtrair [mechanitor_possessive] mechlink selecionando um colonista e clicando com o botão direito do mouse no corpo.&lt;/li>\n</MechanitorShip.questContentRules.rulesStrings>
+  <MechanitorShip.questContentRules.rulesStrings>
+    <li>mechanitorShuttleCrashedLetterLabel->Nave de mecanitor</li>
+    <li>mechanitorShuttleCrashedLetterText->Uma nave de mecanitor com mecanoides selvagens despenhou-se nas proximidades. Os mecanoides sairão da nave despenhada e preparar-se-ão para lutar.</li>
+    <li>assaultBeginLetterLabel->Ataque de mecanoides</li>
+    <li>assaultBeginLetterText->Os mecanoides selvagens vêm assaltar a colónia!</li>
+    <li>mechlinkAvailableLetterLabel->Mecaligação de [mechanitor_nameDef] disponível</li>
+    <li>mechlinkAvailableLetterText->A nave despenhada continha o cadáver de um mecanitor antigo.\n\nExtrai a mecaligação do mecanitor: seleciona um colono e clica com o botão direito no cadáver.</li>
+  </MechanitorShip.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You have decrypted an ancient transponder, revealing the location of a mechanoid ship in orbit. The ship is badly damaged but you can signal it to land nearby.\n\nThe ship contains the remains of a long-dead mechanitor. Mechanitors can create and control mechanoids for work and combat. By extracting the deceased mechanitor's mechlink, you can turn one of your own colonists into a mechanitor.\n\nBeware - the ship also contains hostile mechanoids. The mechanoid group is composed of:\n\n[mechList]</li>
   -->
-  <MechanitorShip.questDescriptionRules.rulesStrings>&lt;li>questDescription-> Você descriptografou um antigo transponder, revelando a localização de um navio mecanóide em órbita. O navio está muito danificado, mas você pode sinalizá-lo para pousar nas proximidades.\n\nO navio contém os restos de um mecanitor de longa data. Mecanitores podem criar e controlar mecanóides para o trabalho e combate. Ao extrair o meclink do mecanitor falecido, você pode transformar um dos seus próprios colonos em um mecanitor.\n\nCuidado - o navio também contém mecanóides hostis. O grupo mecanóide é composto por:\n\n[mechList]&lt;/li>\n</MechanitorShip.questDescriptionRules.rulesStrings>
+  <MechanitorShip.questDescriptionRules.rulesStrings>
+    <li>questDescription->Desencriptaste um antigo transponder, que revela a localização de uma nave mecanoide em órbita. A nave está muito danificada, mas podes sinalizá-la para que aterre nas proximidades.\n\nA nave contém os restos de um mecanitor morto há muito tempo. Os mecanitores podem criar e controlar mecanoides para trabalho e combate. Ao extrair a mecaligação do mecanitor falecido, podes transformar um dos teus colonos num mecanitor.\n\nCuidado: a nave também contém mecanoides hostis. O grupo de mecanoides é composto por:\n\n[mechList]</li>
+  </MechanitorShip.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shipAdjective] [shipNoun]</li>
     <li>shipAdjective->mechanitor</li>
@@ -27,11 +36,44 @@
     <li>shipNoun->wreckage</li>
     <li>shipNoun->transport</li>
   -->
-  <MechanitorShip.questNameRules.rulesStrings>&lt;li>questName->[shipAdjective] [shipNoun]&lt;/li>\n&lt;li>shipAdjetivo->mecanitor&lt;/li>\n&lt;li>shipAdjetivo-> o overseer's&lt;/li>\n&lt;li>shipAdjetivo->ancient&lt;/li>\n&lt;li>shipAdjetivo->mechanoid&lt;/li>\n&lt;li>shipNoun->ship&lt;/li>\n&lt;li>shipNoun->shuttle&lt;/li>\n&lt;li>shipNoun->craft&lt;/li>\n&lt;li>shipNoun->wreck&lt;/li>\n&lt;li>shipNoun->wreckage&lt;/li>\n&lt;li>shipNoun->transporte&lt;/li>\n</MechanitorShip.questNameRules.rulesStrings>
+  <MechanitorShip.questNameRules.rulesStrings>
+    <li>questName->[shipNoun] [shipAdjective]</li>
+    <li>shipAdjective->de mecanitor</li>
+    <li>shipAdjective->do supervisor</li>
+    <li>shipAdjective->antigo</li>
+    <li>shipAdjective->mecanoide</li>
+    <li>shipNoun->navio</li>
+    <li>shipNoun->vaivém</li>
+    <li>shipNoun->veículo</li>
+    <li>shipNoun->naufrágio</li>
+    <li>shipNoun->destroço</li>
+    <li>shipNoun->transporte</li>
+  </MechanitorShip.questNameRules.rulesStrings>
   
   <!-- UNUSED -->
-  <MechanitorShip.questContentRules.rulesStrings>&lt;li>mecanitorShuttleCrashedLetterLabel->Mechanitor ship&lt;/li>\n&lt;li>mecanitorShuttleCrashedLetterText-> Um navio mecanitor contendo mecanoides ferais caiu nas proximidades. Os mecanóides sairão do navio que caiu e se prepararão para lutar.&lt;/li>\n&lt;li>assaultBeginLetterLabel->Ataque mecânico&lt;/li>\n&lt;li>assaultBeginLetterText-> Os mecanóides ferais estão vindo a atacar a colônia!\n&lt;li>mechlinkAvailableLetterLabel->[mechanitor_name Def]'s mechlink available&lt;/li>\n&lt;li>mechlinkAvailableLetterText-> A nave caiu continha o cadáver de um antigo mecanitor.\n\nExtrair [mechanitor_possessive] mechlink selecionando um colonista e clicando com o botão direito do mouse no corpo.&lt;/li>\n</MechanitorShip.questContentRules.rulesStrings>
-  <MechanitorShip.questDescriptionRules.rulesStrings>&lt;li>questDescription-> Você descriptografou um antigo transponder, revelando a localização de um navio mecanóide em órbita. O navio está muito danificado, mas você pode sinalizá-lo para pousar nas proximidades.\n\nO navio contém os restos de um mecanitor de longa data. Mecanitores podem criar e controlar mecanóides para o trabalho e combate. Ao extrair o meclink do mecanitor falecido, você pode transformar um dos seus próprios colonos em um mecanitor.\n\nCuidado - o navio também contém mecanóides hostis. O grupo mecanóide é composto por:\n\n[mechList]&lt;/li>\n</MechanitorShip.questDescriptionRules.rulesStrings>
-  <MechanitorShip.questNameRules.rulesStrings>&lt;li>questName->[shipAdjective] [shipNoun]&lt;/li>\n&lt;li>shipAdjetivo->mecanitor&lt;/li>\n&lt;li>shipAdjetivo-> o overseer's&lt;/li>\n&lt;li>shipAdjetivo->ancient&lt;/li>\n&lt;li>shipAdjetivo->mechanoid&lt;/li>\n&lt;li>shipNoun->ship&lt;/li>\n&lt;li>shipNoun->shuttle&lt;/li>\n&lt;li>shipNoun->craft&lt;/li>\n&lt;li>shipNoun->wreck&lt;/li>\n&lt;li>shipNoun->wreckage&lt;/li>\n&lt;li>shipNoun->transporte&lt;/li>\n</MechanitorShip.questNameRules.rulesStrings>
+  <MechanitorShip.questContentRules.rulesStrings>
+    <li>mechanitorShuttleCrashedLetterLabel->Nave de mecanitor</li>
+    <li>mechanitorShuttleCrashedLetterText->Uma nave de mecanitor com mecanoides selvagens despenhou-se nas proximidades. Os mecanoides sairão da nave despenhada e preparar-se-ão para lutar.</li>
+    <li>assaultBeginLetterLabel->Ataque de mecanoides</li>
+    <li>assaultBeginLetterText->Os mecanoides selvagens vêm assaltar a colónia!</li>
+    <li>mechlinkAvailableLetterLabel->Mecaligação de [mechanitor_nameDef] disponível</li>
+    <li>mechlinkAvailableLetterText->A nave despenhada continha o cadáver de um mecanitor antigo.\n\nExtrai a mecaligação do mecanitor: seleciona um colono e clica com o botão direito no cadáver.</li>
+  </MechanitorShip.questContentRules.rulesStrings>
+  <MechanitorShip.questDescriptionRules.rulesStrings>
+    <li>questDescription->Desencriptaste um antigo transponder, que revela a localização de uma nave mecanoide em órbita. A nave está muito danificada, mas podes sinalizá-la para que aterre nas proximidades.\n\nA nave contém os restos de um mecanitor morto há muito tempo. Os mecanitores podem criar e controlar mecanoides para trabalho e combate. Ao extrair a mecaligação do mecanitor falecido, podes transformar um dos teus colonos num mecanitor.\n\nCuidado: a nave também contém mecanoides hostis. O grupo de mecanoides é composto por:\n\n[mechList]</li>
+  </MechanitorShip.questDescriptionRules.rulesStrings>
+  <MechanitorShip.questNameRules.rulesStrings>
+    <li>questName->[shipNoun] [shipAdjective]</li>
+    <li>shipAdjective->de mecanitor</li>
+    <li>shipAdjective->do supervisor</li>
+    <li>shipAdjective->antigo</li>
+    <li>shipAdjective->mecanoide</li>
+    <li>shipNoun->navio</li>
+    <li>shipNoun->vaivém</li>
+    <li>shipNoun->veículo</li>
+    <li>shipNoun->naufrágio</li>
+    <li>shipNoun->destroço</li>
+    <li>shipNoun->transporte</li>
+  </MechanitorShip.questNameRules.rulesStrings>
   
 </LanguageData>

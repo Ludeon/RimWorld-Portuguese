@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: death pall -->
-  <DeathPall.label>palha de morte</DeathPall.label>
+  <DeathPall.label>manto da morte</DeathPall.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] facing the encroaching death pall</li>
     <li>image->[PAWN_nameFull] gazing in horror as the death pall blankets the land, resurrecting the dead [circumstance_group]</li>
@@ -17,13 +17,39 @@
     <li>desc_sentence->Shivers run down [PAWN_nameDef]'s spine as the death pall's influence continues to spread.</li>
     <li>desc_sentence->The weight of despair settles upon [PAWN_nameDef], testing [PAWN_possessive] resolve in the face of the macabre.</li>
   -->
-  <DeathPall.rulePack.rulesStrings>&lt;li>tale_noun->[PAWN_nameDef] enfrentando a morte de invasão pall&lt;/li>\n&lt;li>image->[PAWN_nameFull] olhando em horror como o pall da morte cobre a terra, ressuscitando os mortos [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] agarrando [PAWN_possessive] arma firmemente, como o pall da morte desce, levantando os mortos [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] tremendo com inquietação, testemunhando a chegada do pavilhão de morte, sua influência dando vida ao sem vida [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] observando em horror como o pall de morte envolve [PAWN_possessive] casa pacífica, transformando-o em um campo de batalha contra os mortos [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> e afogando-se [PAWN_possessive] orações desesperadas por segurança&lt;/li>\n&lt;li>circumstance_phrase-> com o aroma da decadência e desespero enchendo o ar&lt;/li>\n&lt;li>circumstance_phrase->and trapping [PAWN_objective] em uma horda de shamblers&lt;/li>\n&lt;li>desc_sentence-> No centro do pavilhão de morte, [PAWN_nameDef] prepara-se para a batalha.&lt;/li>\n&lt;li>desc_sentence-> O encroachment da pall da morte preenche os amigos de [PAWN_nameDef] com terror.&lt;/li>\n&lt;li>desc_sentence-> Shivers corre para baixo [PAWN_nameDef]'s spine como a influência do pall de morte continua a espalhar-se.&lt;/li>\n&lt;li>desc_sentence-> O peso do desespero assenta em [PAWN_nameDef], testando [PAWN_possessive] resolver na face do macabro.&lt;/li>\n</DeathPall.rulePack.rulesStrings>
+  <DeathPall.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] a enfrentar o avanço do manto da morte</li>
+    <li>image->[PAWN_nameFull] a observar com horror o manto da morte a cobrir a terra e a ressuscitar os mortos [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a agarrar a arma com força enquanto o manto da morte desce e ergue os mortos [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a tremer de inquietação ao testemunhar a chegada do manto da morte, cuja influência dá vida aos que não a têm [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a ver com horror o manto da morte a envolver o seu lar pacífico, transformando-o num campo de batalha contra os mortos [circumstance_group]</li>
+    <li>circumstance_phrase->e a abafar as suas preces desesperadas por segurança</li>
+    <li>circumstance_phrase->com o cheiro a decomposição e desespero a encher o ar</li>
+    <li>circumstance_phrase->e a encurralá-lo numa horda de cambaleantes</li>
+    <li>desc_sentence->No centro do manto da morte, [PAWN_nameDef] prepara-se para a batalha.</li>
+    <li>desc_sentence->O avanço do manto da morte enche de terror os amigos de [PAWN_nameDef].</li>
+    <li>desc_sentence->Um arrepio percorre a espinha de [PAWN_nameDef] à medida que a influência do manto da morte continua a alastrar.</li>
+    <li>desc_sentence->O peso do desespero abate-se sobre [PAWN_nameDef], pondo à prova a sua determinação perante o macabro.</li>
+  </DeathPall.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <DeathPall.rulePack.rulesStrings>&lt;li>tale_noun->[PAWN_nameDef] enfrentando a morte de invasão pall&lt;/li>\n&lt;li>image->[PAWN_nameFull] olhando em horror como o pall da morte cobre a terra, ressuscitando os mortos [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] agarrando [PAWN_possessive] arma firmemente, como o pall da morte desce, levantando os mortos [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] tremendo com inquietação, testemunhando a chegada do pavilhão de morte, sua influência dando vida ao sem vida [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] observando em horror como o pall de morte envolve [PAWN_possessive] casa pacífica, transformando-o em um campo de batalha contra os mortos [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> e afogando-se [PAWN_possessive] orações desesperadas por segurança&lt;/li>\n&lt;li>circumstance_phrase-> com o aroma da decadência e desespero enchendo o ar&lt;/li>\n&lt;li>circumstance_phrase->and trapping [PAWN_objective] em uma horda de shamblers&lt;/li>\n&lt;li>desc_sentence-> No centro do pavilhão de morte, [PAWN_nameDef] prepara-se para a batalha.&lt;/li>\n&lt;li>desc_sentence-> O encroachment da pall da morte preenche os amigos de [PAWN_nameDef] com terror.&lt;/li>\n&lt;li>desc_sentence-> Shivers corre para baixo [PAWN_nameDef]'s spine como a influência do pall de morte continua a espalhar-se.&lt;/li>\n&lt;li>desc_sentence-> O peso do desespero assenta em [PAWN_nameDef], testando [PAWN_possessive] resolver na face do macabro.&lt;/li>\n</DeathPall.rulePack.rulesStrings>
+  <DeathPall.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] a enfrentar o avanço do manto da morte</li>
+    <li>image->[PAWN_nameFull] a observar com horror o manto da morte a cobrir a terra e a ressuscitar os mortos [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a agarrar a arma com força enquanto o manto da morte desce e ergue os mortos [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a tremer de inquietação ao testemunhar a chegada do manto da morte, cuja influência dá vida aos que não a têm [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a ver com horror o manto da morte a envolver o seu lar pacífico, transformando-o num campo de batalha contra os mortos [circumstance_group]</li>
+    <li>circumstance_phrase->e a abafar as suas preces desesperadas por segurança</li>
+    <li>circumstance_phrase->com o cheiro a decomposição e desespero a encher o ar</li>
+    <li>circumstance_phrase->e a encurralá-lo numa horda de cambaleantes</li>
+    <li>desc_sentence->No centro do manto da morte, [PAWN_nameDef] prepara-se para a batalha.</li>
+    <li>desc_sentence->O avanço do manto da morte enche de terror os amigos de [PAWN_nameDef].</li>
+    <li>desc_sentence->Um arrepio percorre a espinha de [PAWN_nameDef] à medida que a influência do manto da morte continua a alastrar.</li>
+    <li>desc_sentence->O peso do desespero abate-se sobre [PAWN_nameDef], pondo à prova a sua determinação perante o macabro.</li>
+  </DeathPall.rulePack.rulesStrings>
   
   <!-- EN: unnatural darkness -->
-  <UnnaturalDarkness.label>escuridão natural</UnnaturalDarkness.label>
+  <UnnaturalDarkness.label>escuridão antinatural</UnnaturalDarkness.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] confronts the unnatural darkness</li>
     <li>image->[PAWN_nameFull] standing in awe as the world is consumed by an impenetrable darkness [circumstance_group]</li>
@@ -39,9 +65,37 @@
     <li>desc_sentence->Groups of shadowy creatures are visible at the edge of the darkness.</li>
     <li>desc_sentence->[PAWN_nameDef] tries to find a glimmer of hope amidst the encroaching darkness.</li>
   -->
-  <UnnaturalDarkness.rulePack.rulesStrings>&lt;li>tale_noun->[PAWN_nameDef] confronta a escuridão antinatural&lt;/li>\n&lt;li>image->[PAWN_nameFull] em pé no temor como o mundo é consumido por uma escuridão impenetrável [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] cercado por pilares negros que caem do céu que cobrem a terra na escuridão [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] lutando para encontrar [PAWN_possessive] caminho através da escuridão sufocante, noctols que soa em saltos [PAWN_possessive], [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] observando o mundo ser engolido por um abismo de sombras [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase->amidst por [PAWN_possessive] as tentativas desesperadas dos amigos para voltar à segurança da luz&lt;/li>\n&lt;li>circumstance_phrase-> com gritos de piercing ecoando todos em torno de&lt;/li>\n&lt;li>circumstance_phrase-> a luz aparentemente mal capaz de mantê-la de volta&lt;/li>\n&lt;li>circumstance_phrase->as [PAWN_pronoun] oferece fundamentos para a salvação&lt;/li>\n&lt;li>desc_sentence-> Nem mesmo a menor cintilação de luzes na distância é visível.&lt;/li>\n&lt;li>desc_sentence-> A situação parece totalmente sem esperança.&lt;/li>\n&lt;li>desc_sentence-> Grupos de criaturas sombras são visíveis na borda da escuridão.&lt;/li>\n&lt;li>desc_sentence-> [PAWN_nameDef] tenta encontrar um brilho de esperança em meio à escuridão envolvente.&lt;/li>\n</UnnaturalDarkness.rulePack.rulesStrings>
+  <UnnaturalDarkness.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] enfrenta a escuridão antinatural</li>
+    <li>image->[PAWN_nameFull] em assombro enquanto o mundo é consumido por uma escuridão impenetrável [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] rodeado de pilares negros que caem do céu e cobrem a terra de escuridão [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a tentar encontrar o caminho na escuridão sufocante, com noctóis no seu encalço, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a ver o mundo ser engolido por um abismo de sombras [circumstance_group]</li>
+    <li>circumstance_phrase->no meio das tentativas desesperadas dos amigos para regressarem à segurança da luz</li>
+    <li>circumstance_phrase->com gritos lancinantes a ecoar por todo o lado</li>
+    <li>circumstance_phrase->com a luz quase incapaz de a conter</li>
+    <li>circumstance_phrase->enquanto suplica pela salvação</li>
+    <li>desc_sentence->Não se vê sequer a mais ténue luz a tremeluzir ao longe.</li>
+    <li>desc_sentence->A situação parece completamente desesperada.</li>
+    <li>desc_sentence->Veem-se grupos de criaturas sombrias na orla da escuridão.</li>
+    <li>desc_sentence->[PAWN_nameDef] tenta encontrar um vislumbre de esperança no meio da escuridão que avança.</li>
+  </UnnaturalDarkness.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <UnnaturalDarkness.rulePack.rulesStrings>&lt;li>tale_noun->[PAWN_nameDef] confronta a escuridão antinatural&lt;/li>\n&lt;li>image->[PAWN_nameFull] em pé no temor como o mundo é consumido por uma escuridão impenetrável [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] cercado por pilares negros que caem do céu que cobrem a terra na escuridão [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] lutando para encontrar [PAWN_possessive] caminho através da escuridão sufocante, noctols que soa em saltos [PAWN_possessive], [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] observando o mundo ser engolido por um abismo de sombras [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase->amidst por [PAWN_possessive] as tentativas desesperadas dos amigos para voltar à segurança da luz&lt;/li>\n&lt;li>circumstance_phrase-> com gritos de piercing ecoando todos em torno de&lt;/li>\n&lt;li>circumstance_phrase-> a luz aparentemente mal capaz de mantê-la de volta&lt;/li>\n&lt;li>circumstance_phrase->as [PAWN_pronoun] oferece fundamentos para a salvação&lt;/li>\n&lt;li>desc_sentence-> Nem mesmo a menor cintilação de luzes na distância é visível.&lt;/li>\n&lt;li>desc_sentence-> A situação parece totalmente sem esperança.&lt;/li>\n&lt;li>desc_sentence-> Grupos de criaturas sombras são visíveis na borda da escuridão.&lt;/li>\n&lt;li>desc_sentence-> [PAWN_nameDef] tenta encontrar um brilho de esperança em meio à escuridão envolvente.&lt;/li>\n</UnnaturalDarkness.rulePack.rulesStrings>
+  <UnnaturalDarkness.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] enfrenta a escuridão antinatural</li>
+    <li>image->[PAWN_nameFull] em assombro enquanto o mundo é consumido por uma escuridão impenetrável [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] rodeado de pilares negros que caem do céu e cobrem a terra de escuridão [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a tentar encontrar o caminho na escuridão sufocante, com noctóis no seu encalço, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a ver o mundo ser engolido por um abismo de sombras [circumstance_group]</li>
+    <li>circumstance_phrase->no meio das tentativas desesperadas dos amigos para regressarem à segurança da luz</li>
+    <li>circumstance_phrase->com gritos lancinantes a ecoar por todo o lado</li>
+    <li>circumstance_phrase->com a luz quase incapaz de a conter</li>
+    <li>circumstance_phrase->enquanto suplica pela salvação</li>
+    <li>desc_sentence->Não se vê sequer a mais ténue luz a tremeluzir ao longe.</li>
+    <li>desc_sentence->A situação parece completamente desesperada.</li>
+    <li>desc_sentence->Veem-se grupos de criaturas sombrias na orla da escuridão.</li>
+    <li>desc_sentence->[PAWN_nameDef] tenta encontrar um vislumbre de esperança no meio da escuridão que avança.</li>
+  </UnnaturalDarkness.rulePack.rulesStrings>
   
 </LanguageData>

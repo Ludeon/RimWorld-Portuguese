@@ -8,7 +8,13 @@
     <li>underArmedGuard(allowViolentQuests==true,priority=1)-> under armed guard</li>
     <li>underArmedGuard-></li>
   -->
-  <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>&lt;li>questDescription-> Um prisioneiro que está sendo mantido por [siteFaction_name] conseguiu roubar um rádio e ligar para você!\n\n[prisoner_nameDef] está sendo realizado em um acampamento perto [map_definite][underArmedGuard]. Resgate [prisoner_objective], e [prisoner_pronoun] vai se juntar à sua colônia. [prisoner_pronoun] é um [prisoner_age]-year-old [prisoner_title]. [prisoner_pronoun] diz que [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nSe você perder esta oportunidade, você pode nunca ouvir de [prisoner_nameDef] novamente.&lt;/li>\n&lt;li>formerColonistInfo(prioridade=1)->\n\n[prisoner_formerlyColonistInfo]&lt;/li>\n&lt;li>formerColonistInfo->&lt;/li>\n&lt;li>underArmedGuard (allowViolentQuests=true,priority=1)-> sob guarda armada &lt;/li>\n&lt;li>underArmedGuard->&lt;/li>\n</OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
+  <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
+    <li>questDescription->Alguém que está preso por [siteFaction_name] conseguiu roubar um rádio e contactar-te!\n\n[prisoner_nameDef] está detido num acampamento perto de [map_definite][underArmedGuard]. Resgata [prisoner_nameDef] e juntar-se-á à tua colónia. [prisoner_nameDef] é [prisoner_title], com [prisoner_age] anos, e diz que [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nSe perderes esta oportunidade, talvez nunca mais ouças falar de [prisoner_nameDef].</li>
+    <li>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</li>
+    <li>formerColonistInfo-></li>
+    <li>underArmedGuard(allowViolentQuests==true,priority=1)-> sob guarda armada</li>
+    <li>underArmedGuard-></li>
+  </OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[prisoner_nameDef]'s Salvation</li>
     <li>questName->[prisoner_nameDef]'s Rescue</li>
@@ -17,10 +23,30 @@
     <li>questName->Saving [prisoner_nameDef]</li>
     <li>questName->Breaking [prisoner_nameDef] Out</li>
   -->
-  <OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>&lt;li>questName->[prisoner_nameDef]'s Salvation&lt;/li>\n&lt;li>questName->[prisoner_nameDef]'s Rescue&lt;/li>\n&lt;li>questName->[prisoner_nameDef]'s Breakout&lt;/li>\n&lt;li>questName->Rescutando [prisoner_nameDef]&lt;/li>\n&lt;li>questName->Saving [prisoner_nameDef]&lt;/li>\n&lt;li>questNome->Breaking [prisoner_nameDef] Out&lt;/li>\n</OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
+  <OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
+    <li>questName->A Salvação de [prisoner_nameDef]</li>
+    <li>questName->O Resgate de [prisoner_nameDef]</li>
+    <li>questName->A Fuga de [prisoner_nameDef]</li>
+    <li>questName->Resgatar [prisoner_nameDef]</li>
+    <li>questName->Salvar [prisoner_nameDef]</li>
+    <li>questName->Libertar [prisoner_nameDef]</li>
+  </OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
   
   <!-- UNUSED -->
-  <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>&lt;li>questDescription-> Um prisioneiro que está sendo mantido por [siteFaction_name] conseguiu roubar um rádio e ligar para você!\n\n[prisoner_nameDef] está sendo realizado em um acampamento perto [map_definite][underArmedGuard]. Resgate [prisoner_objective], e [prisoner_pronoun] vai se juntar à sua colônia. [prisoner_pronoun] é um [prisoner_age]-year-old [prisoner_title]. [prisoner_pronoun] diz que [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nSe você perder esta oportunidade, você pode nunca ouvir de [prisoner_nameDef] novamente.&lt;/li>\n&lt;li>formerColonistInfo(prioridade=1)->\n\n[prisoner_formerlyColonistInfo]&lt;/li>\n&lt;li>formerColonistInfo->&lt;/li>\n&lt;li>underArmedGuard (allowViolentQuests=true,priority=1)-> sob guarda armada &lt;/li>\n&lt;li>underArmedGuard->&lt;/li>\n</OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
-  <OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>&lt;li>questName->[prisoner_nameDef]'s Salvation&lt;/li>\n&lt;li>questName->[prisoner_nameDef]'s Rescue&lt;/li>\n&lt;li>questName->[prisoner_nameDef]'s Breakout&lt;/li>\n&lt;li>questName->Rescutando [prisoner_nameDef]&lt;/li>\n&lt;li>questName->Saving [prisoner_nameDef]&lt;/li>\n&lt;li>questNome->Breaking [prisoner_nameDef] Out&lt;/li>\n</OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
+  <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
+    <li>questDescription->Alguém que está preso por [siteFaction_name] conseguiu roubar um rádio e contactar-te!\n\n[prisoner_nameDef] está detido num acampamento perto de [map_definite][underArmedGuard]. Resgata [prisoner_nameDef] e juntar-se-á à tua colónia. [prisoner_nameDef] é [prisoner_title], com [prisoner_age] anos, e diz que [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nSe perderes esta oportunidade, talvez nunca mais ouças falar de [prisoner_nameDef].</li>
+    <li>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</li>
+    <li>formerColonistInfo-></li>
+    <li>underArmedGuard(allowViolentQuests==true,priority=1)-> sob guarda armada</li>
+    <li>underArmedGuard-></li>
+  </OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
+  <OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
+    <li>questName->A Salvação de [prisoner_nameDef]</li>
+    <li>questName->O Resgate de [prisoner_nameDef]</li>
+    <li>questName->A Fuga de [prisoner_nameDef]</li>
+    <li>questName->Resgatar [prisoner_nameDef]</li>
+    <li>questName->Salvar [prisoner_nameDef]</li>
+    <li>questName->Libertar [prisoner_nameDef]</li>
+  </OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
   
 </LanguageData>

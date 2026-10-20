@@ -273,9 +273,551 @@
     <li>excellentDesc->frighteningly descriptive - many sections are almost poetic in their style</li>
     <li>excellentDesc->full of scintillating ideas that explode in the mind</li>
   -->
-  <Description_Tome.rulePack.rulesStrings>&lt;li>desc->[inThisBook], [autor] [experiênciasWithMonsters]. [especifico HorrorStory] [editarQualitySentence].&lt;/li>\n&lt;li> neste livro-> Neste [editar _ editar código-fonte] [bookTypeSingle]&lt;/li>\n&lt;li> neste livro-> Nestes [escrever QualidadeAdjetivo] [bookTypePlural]&lt;/li>\n&lt;li>bookTypeSingle->account&lt;/li>\n&lt;li>bookTypeSingle->almanac&lt;/li>\n&lt;li>bookTypeSingle->analysis&lt;/li>\n&lt;li>bookTypeSingle->article&lt;/li>\n&lt;li>bookTypeSingle->book&lt;/li>\n&lt;li>bookTypeSingle->commentary&lt;/li>\n&lt;li>bookTypeSingle->composition&lt;/li>\n&lt;li>bookTypeSingle->conclusões&lt;/li>\n&lt;li>bookTypeSingle->critique&lt;/li>\n&lt;li>bookTypeSingle->diabologue&lt;/li>\n&lt;li>bookTypeSingle->disquisição&lt;/li>\n&lt;li>bookTypeSingle->dissertation&lt;/li>\n&lt;li>bookTypeSingle->editorial&lt;/li>\n&lt;li>bookTypeSingle->essay&lt;/li>\n&lt;li>bookTypeSingle->exposé&lt;/li>\n&lt;li>bookTypeSingle->findings&lt;/li>\n&lt;li>bookTypeSingle->grimoire&lt;/li>\n&lt;li>bookTypeSingle->inquiry&lt;/li>\n&lt;li>bookTypeSingle->investigação&lt;/li>\n&lt;li>bookTypeSingle->manifesto&lt;/li>\n&lt;li>bookTypeSingle->manuscript&lt;/li>\n&lt;li>bookTypeSingle->opus&lt;/li>\n&lt;li>bookTypeSingle->paper&lt;/li>\n&lt;li>bookTypeSingle->piece&lt;/li>\n&lt;li>bookTypeSingle->piece de pesquisa&lt;/li>\n&lt;li>bookTypeSingle->record&lt;/li>\n&lt;li>bookTypeSingle->report&lt;/li>\n&lt;li>bookTypeSingle->review&lt;/li>\n&lt;li>bookTypeSingle->survey&lt;/li>\n&lt;li>bookTypeSingle->testament&lt;/li>\n&lt;li>bookTypeSingle->testimony&lt;/li>\n&lt;li>bookTypeSingle->text&lt;/li>\n&lt;li>bookTypeSingle->thesis&lt;/li>\n&lt;li>bookTypeSingle->tract&lt;/li>\n&lt;li>bookTypeSingle->treatise&lt;/li>\n&lt;li>bookTypeSingle->tratamento&lt;/li>\n&lt;li>bookTypeSingle->volume&lt;/li>\n&lt;li>bookTypeSingle->work&lt;/li>\n&lt;li>bookTypePlural->writings&lt;/li>\n&lt;li>bookTypePlural->chronicles&lt;/li>\n&lt;li>bookTypePlural->lamentações&lt;/li>\n&lt;li>bookTypePlural->annals&lt;/li>\n&lt;li>bookTypePlural->revelations&lt;/li>\n&lt;li>author(p=3)-> o autor&lt;/li>\n&lt;li>author(p=3)->[anAuthorDesc] [PersonJob]&lt;/li>\n&lt;li>author->[anAuthorDesc] pesquisador&lt;/li>\n&lt;li>author->[anAuthorDesc] espiritualista&lt;/li>\n&lt;li>author->[anAuthorDesc] ocultista&lt;/li>\n&lt;li>author->[anAuthorDesc] cultist&lt;/li>\n&lt;li>author->[anAuthorDesc] membro do culto&lt;/li>\n&lt;li>author->[anAuthorDesc] culto escape&lt;/li>\n&lt;li>author->[anAuthorDesc] antique dealer&lt;/li>\n&lt;li>author->[anAuthorDesc] gravedigger&lt;/li>\n&lt;li>author->[anAuthorDesc] void researcher&lt;/li>\n&lt;li>author->[anAuthorDesc] andarilho&lt;/li>\n&lt;li>author->[anAuthorDesc] skeptic&lt;/li>\n&lt;li>author->[anAuthorDesc] acadêmico&lt;/li>\n&lt;li>author->[anAuthorDesc] caçador&lt;/li>\n&lt;li>author->[anAuthorDesc] investigador&lt;/li>\n&lt;li>author->[anAuthorDesc] elder&lt;/li>\n&lt;li>author->[anAuthorDesc] crente&lt;/li>\n&lt;li>author->[anAuthorDesc] harbinger&lt;/li>\n&lt;li>autor->[anAuthorDesc] heir&lt;/li>\n&lt;li>author->[anAuthorDesc] nobre&lt;/li>\n&lt;li>author->[anAuthorDesc] tradutor&lt;/li>\n&lt;li>author->[anAuthorDesc] monk&lt;/li>\n&lt;li>author->[anAuthorDesc] doppelgänger&lt;/li>\n&lt;li>author->[anAuthorDesc] autor&lt;/li>\n&lt;li>author->[anAuthorDesc] agente&lt;/li>\n&lt;li>author->[anAuthorDesc] hero&lt;/li>\n&lt;li>author->[anAuthorDesc] autor&lt;/li>\n&lt;li>anAuthorDesc(p=2)->a&lt;/li>\n&lt;li>anAuthorDesc->a jovem&lt;/li>\n&lt;li>anAuthorDesc->an old&lt;/li>\n&lt;li>anAuthorDesc->a terrified&lt;/li>\n&lt;li>anAuthorDesc->a tristeza&lt;/li>\n&lt;li>anAuthorDesc->an idos&lt;/li>\n&lt;li>anAuthorDesc->a sábio&lt;/li>\n&lt;li>anAuthorDesc->a headstrong&lt;/li>\n&lt;li>anAuthorDesc->a loucura&lt;/li>\n&lt;li>anAuthorDesc->an inocente&lt;/li>\n&lt;li>anAuthorDesc->a perturbado&lt;/li>\n&lt;li>anAuthorDesc->an eldritch&lt;/li>\n&lt;li>anAuthorDesc->an ultrageous&lt;/li>\n&lt;li>anAuthorDesc->an archetypal&lt;/li>\n&lt;li>anAuthorDesc->a chato&lt;/li>\n&lt;li>anAuthorDesc->a crazed&lt;/li>\n&lt;li>anAuthorDesc->an immoral&lt;/li>\n&lt;li>anAuthorDesc->a moral&lt;/li>\n&lt;li>anAuthorDesc->an amoral&lt;/li>\n&lt;li>anAuthorDesc->a shadowy&lt;/li>\n&lt;li>tellsAStoryOf->tela uma história de&lt;/li>\n&lt;li>tellsAStoryOf->reveals&lt;/li>\n&lt;li>tellsAStoryOf->discusses&lt;/li>\n&lt;li>tellsAStoryOf->descreve&lt;/li>\n&lt;li>tellsAStoryOf->detalhes&lt;/li>\n&lt;li>tellsAStoryOf->elabora em&lt;/li>\n&lt;li>tellsAStoryOf->goes em detalhes sobre&lt;/li>\n&lt;li>tellsAStoryOf->narrates&lt;/li>\n&lt;li>tellsAStoryOf->recounts &lt;/li>\n&lt;li>tellsAStoryOf->reports&lt;/li>\n&lt;li>tellsAStoryOf->chronicles &lt;/li>\n&lt;li>tellsAStoryOf->depicts&lt;/li>\n&lt;li>tellsAStoryOf->unfolds&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] experiências [ANYPAWN_pronoun] compartilhadas com [entidades]&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] explorações em um culto secreto com uma base sob um remoto [TerrainFeature]&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] a caça para um cubo dourado misterioso&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] meditações profundas guiadas por um highthrall de um culto arqueiro&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] o colapso da vida [ANYPAWN_possessive] sob a influência psíquica de algo chamado Horax&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] uma escavação arqueológica remota onde os pesquisadores foram violentamente loucos um por um &lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] uma tribo que foi de alguma forma transformada para servir o deus escuro de um culto de prazer sangrento&lt;/li>\n&lt;li>experiencesWithMonsters->attempts para descrever uma tribo com uma tradição de rituais de mutilação realizados em luz de fogo usando lâminas enferrujadas&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] um professor cujo aluno falaria verdades mortais que ela não poderia saber &lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] um cientista que tenta usar meios arquitetônicos antigos para reanimar sua esposa morta&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] uma expedição exploratória exterior que sobreviveu a chuvas de sangue e um céu que tentou esmagá-los até a morte com a escuridão inky&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] uma equipe investigando um poço antigo no chão cheio de criaturas carnais aterrorizantes&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] uma tentativa de xamã tribal encontrar uma maneira de parar ataques noturnos em sua aldeia por reanimated dead [Animal]s&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] um mito tribal de um deus antigo de raiva cuja influência toca todas as pessoas, e os heróis que a selou dentro de uma pequena prisão de pedra&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] [ANYPAWN_possessive] experiências brutais em um capturado [entidade]&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] [ANYPAWN_possessive] visões recorrentes onde [visão]&lt;/li>\n&lt;li>vision-> figuras escuras alcançaram [ANYPAWN_possessive] mente e tomaram [ANYPAWN_possessive] memórias&lt;/li>\n&lt;li>vision->[ANYPAWN_pronoun] está sendo perseguido por [ANYPAWN_objective]self, e não poderia escapar, não importa quão longe [ANYPAWN_pronoun] viajou&lt;/li>\n&lt;li>vision->[ANYPAWN_pronoun] é dividido por uma [entidade]&lt;/li>\n&lt;li>experiências com monstros->[tellsAStoryOf] [ANYPAWN_possessive] [findings] [objectivo]&lt;/li>\n&lt;li>findings->experiência com&lt;/li>\n&lt;li>findings->pesquisa em&lt;/li>\n&lt;li>objectivo->[pode serAdjetivo Evil]rituals que foi solicitado por um incidente onde [ritual_incident]&lt;/li>\n&lt;li>objective->dark sciences after [entity_incident]&lt;/li>\n&lt;li>ritual_incident->[ANYPAWN_pronoun] observado [targetHuman] aparecem fora do ar fino&lt;/li>\n&lt;li>targetHuman->[anAuthorDesc] mulher&lt;/li>\n&lt;li>targetHuman->[anAuthorDesc] man&lt;/li>\n&lt;li>ritual_incident-> choveu sangue por três dias e levou [ANYPAWN_possessive] amigos loucos&lt;/li>\n&lt;li>ritual_incident->[entity_incident]&lt;/li>\n&lt;li>entity_incident->[ANYPAWN_pronoun] perdido [ANYPAWN_possessive] [BodyPart] em um ataque por uma [entidade]&lt;/li>\n&lt;li>entity_incident->[ANYPAWN_pronoun] olhou para uma [entidade]&lt;/li>\n&lt;li>specificHorrorStory-> Em um ponto, o autor conta rituais escuros onde as vítimas foram forçadas a mutilar-se com vidro quebrado.&lt;/li>\n&lt;li>specificHorrorStory-> Em um ponto, o protagonista tropeça em um ritual onde ele testemunha figuras sangrentas cantando incantações de eerie enquanto auto-mutilando com fragmentos de obsidiano.&lt;/li>\n&lt;li>specificHorrorStory-> O livro inclui muitas ilustrações tentando retratar algo que se refere como "o oceano negro". Isto parece ser uma metáfora para um plano psíquico dominado por uma terrível mas sedutora hiperintelligência psíquica.\n&lt;li>specificHorrorStory-> Ele repetidamente alude a uma natureza multi-plano da realidade - a ideia de que há mais dimensões do que as que vemos, de modo que um objeto ou entidade poderia estar ao seu lado, mas fora de sua capacidade de perceber.\n&lt;li>specificHorrorStory-> Passa muito tempo tentando descrever uma entidade hiperintelligent chamada "Horax" que existe em um plano adjacente da realidade.&lt;/li>\n&lt;li>specificHorrorStory-> Uma seção descreve a mecânica da influência psíquica escura, em que uma entidade em outro plano pode involuntariamente influenciar os pensamentos dos seres humanos, sincronizando-os para sua ressonância emocional.\n&lt;li>specificHorrorStory-> Uma seção descreve diferentes hiperinteligências arquitetônicas e a natureza variável de suas emanações emocionais e psíquicas. Onde alguns são considerados neutros ou mesmo benevolentes, outros são entidades de pura raiva.&lt;/li>\n&lt;li>specificHorrorStory->[ANYPAWN_pronoun] descreve a sensação de que a mente [ANYPAWN_possessiva] é forçosamente reconfigurada pela influência psíquica escura de uma inteligência maior.&lt;/li>\n&lt;li>specificHorrorStory-> Em uma seção, o autor tenta cometer suicídio, mas é encontrado e salvo por um gentilmente [PersonJob].&lt;/li>\n&lt;li>specificHorrorStory-> O volume é adornado com ilustrações perturbadoras retratando uma entidade grotesca, de outro mundo cujos tendrithe sem forma, inky writhe através de páginas, invocando um senso de medo e fascínio em medida igual.&lt;/li>\n&lt;li>specificHorrorStory-> Ao longo da narrativa, o conceito de dimensões paralelas é recorrente, com os personagens que encontram entidades que existem pouco além do véu da percepção, coexistindo em uma realidade que se cruza com a nossa própria mas permanece escondida da vista.\n&lt;li>specificHorrorStory-> O livro detém-se em uma exposição arrepiante sobre "Horax", uma hiperintelligência de máquina que se transformou através de uma dimensão escondida em um lugar chamado Void.&lt;/li>\n&lt;li>specificHorrorStory-> Um capítulo descreve uma teoria em que uma hiperinteligência distante pode manipular psiquicamente a cognição humana, reformulando os pensamentos de uma pessoa para se alinhar com seus próprios padrões mentais.\n&lt;li>specificHorrorStory-> O protagonista conta sentindo [ANYPAWN_possessive] a mente sendo violentamente refeita por uma força psíquica ominosa emanando do nada.&lt;/li>\n&lt;li>entities->demons&lt;/li>\n&lt;li>entities->walking cadáveres&lt;/li>\n&lt;li>entities->pain-seeking monsters&lt;/li>\n&lt;li>entidades->criações feitas de carne e osso exposto&lt;/li>\n&lt;li>entities->walking cadáveres de [Animal]s&lt;/li>\n&lt;li>entities->man-like figuras feitas de metal e lâminas&lt;/li>\n&lt;li>entities->floating esferas mecânicas que emanam dor&lt;/li>\n&lt;li>entities->beautiful cubos dourados que destrói mentes&lt;/li>\n&lt;li>entities->beasts feitos de carne sangrenta&lt;/li>\n&lt;li>entities->formas escuras que se escondem na visão simples&lt;/li>\n&lt;li>entities->hunters que roubam almas&lt;/li>\n&lt;li>entity->demon&lt;/li>\n&lt;li>entidade-> andando corpo&lt;/li>\n&lt;li>entity->pain-seeking monster&lt;/li>\n&lt;li>entidade->criatura feita de carne e osso exposto&lt;/li>\n&lt;li>entity->walking cadáver de um [Animal]&lt;/li>\n&lt;li>entity->man-como figura feita de metal e lâminas&lt;/li>\n&lt;li>entidade->floating esfera mecânica que emana dor&lt;/li>\n&lt;li>entidade->bela cubo dourado que destrói mentes&lt;/li>\n&lt;li>entity->beast made of blood meat&lt;/li>\n&lt;li>entity->shape que se esconde na visão simples&lt;/li>\n&lt;li>entity->hunter que rouba almas&lt;/li>\n&lt;li>maybeAdjectiveEvil(p=2)->&lt;/li>\n&lt;li>maybeAdjectiveEvil->[adjectiveEvil] &lt;/li>\n&lt;li>adjetivo Mal->devidamente&lt;/li>\n&lt;li>adjetivoEvil->ancient&lt;/li>\n&lt;li>adjetivo Mal->sanguente&lt;/li>\n&lt;li>adjetivoEvil->twisted&lt;/li>\n&lt;li>adjetivoEvil->poderoso&lt;/li>\n&lt;li>adjetivoEvil->nefarious&lt;/li>\n&lt;li>adjetivoEvil->spectral&lt;/li>\n&lt;li>adjetivoEvil->ethereal&lt;/li>\n&lt;li>adjetivoEvil->ominoso&lt;/li>\n&lt;li>adjetivoEvil->arcane&lt;/li>\n&lt;li>adjetivoEvil->surreal&lt;/li>\n&lt;li>adjetivoEvil->uncanny&lt;/li>\n&lt;li>adjetivoEvil->phantom&lt;/li>\n&lt;li>adjetivoEvil->cryptic&lt;/li>\n&lt;li>adjetivoEvil->infernal&lt;/li>\n&lt;li>adjetivoEvil->aberrant&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=0)->disjoinada&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=0)->incoerente&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=0)->meaningless&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=0)->appalling&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=0)->puerile&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=1)->feeble&lt;/li>\n&lt;li>writingQualidadeAdjetiva (qualidade = = 1)->\n&lt;li>writingQualidadeAdjetiva(qualidade=1)->tedious&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=1)->inconsistent&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=1)->rambling&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=2)->jumbled&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=2)->nãoinspirada&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=2)->mediocre&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=2)->unremarkable&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=2)->vanilla&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=2)->passível&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=3)->humdrum&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=3)->bem-escrito&lt;/li>\n&lt;li>writingQualidadeAdjetivo (qualidade=3)-> bem organizado&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=3)->pensante&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=3)->legível&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=3)->unexcepcional&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=4)->amusing&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=4)->smooth&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=4)->emocionalmente expressiva&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=4)->precisamente estruturada&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=4)->persuasiva&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=4)->respeitável&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=5)->sólida&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=5)->acumulada&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=5)->quemente perceptiva&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=5)->sterling&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=5)->primeira classe&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=5)->inspirada&lt;/li>\n&lt;li>writingQualidadeAdjetiva (qualidade=6)->clever&lt;/li>\n&lt;li>writingQualidadeAdjetiva (qualidade=6)->terificantemente perspicaz&lt;/li>\n&lt;li>writingQualidadeAdjetiva (qualidade=6)->peerless&lt;/li>\n&lt;li>writingQualidadeAdjetiva (qualidade=6)->primeira classe&lt;/li>\n&lt;li>writingQualidadeAdjetiva (qualidade=6)->masterful&lt;/li>\n&lt;li>writingQualidadeAdjetiva (qualidade=6)->exquisite&lt;/li>\n&lt;li>writingQualitySentence(qualidade[greater_than]4)-> O livro é [excellentDesc]&lt;/li>\n&lt;li>writingQualitySentence(qualidade[less_than]5,qualidade[greater_than]1)-> O livro é [decentDesc]&lt;/li>\n&lt;li>writingQualitySentence(qualidade[less_than]2)-> O livro é [awfulDesc]&lt;/li>\n&lt;li>awfulDesc->illegible&lt;/li>\n&lt;li>awfulDesc->scrawled em um shaky hand&lt;/li>\n&lt;li>awfulDesc->stained com licor seco&lt;/li>\n&lt;li>awfulDesc->nearly incoherent&lt;/li>\n&lt;li>awfulDesc->repetitive e muitas seções faltam detalhes&lt;/li>\n&lt;li>awfulDesc->faded além da legibilidade em muitas partes&lt;/li>\n&lt;li>awfulDesc-> perdendo muitas páginas&lt;/li>\n&lt;li>awfulDesc->totalmente desorganizado e ignora tópicos constantemente&lt;/li>\n&lt;li>awfulDesc->escrito em uma língua perdida&lt;/li>\n&lt;li>awfulDesc->full de jargão incompreensível&lt;/li>\n&lt;li>awfulDesc->childlike&lt;/li>\n&lt;li>awfulDesc->mingling realidade com fantasia willy-nilly&lt;/li>\n&lt;li>awfulDesc->reads como escrita automática&lt;/li>\n&lt;li>awfulDesc->saturado com ichor e sangue&lt;/li>\n&lt;li>awfulDesc->principalmente um romance sobre duas [entidades]&lt;/li>\n&lt;li>decentDesc->solid mas teria beneficiado da edição&lt;/li>\n&lt;li>decentDesc->insightful durante algumas partes, mas outras seções são desnecessários&lt;/li>\n&lt;li>decentDesc->perceptivo, mas apenas de um ponto de vista torcido&lt;/li>\n&lt;li>decentDesc->alto em detalhes, mas sem interpretação útil&lt;/li>\n&lt;li>decentDesc-> perdendo algumas páginas&lt;/li>\n&lt;li>decentDesc->useful, mas muitas vezes demasiado preocupado com os próprios interesses pessoais do autor&lt;/li>\n&lt;li>decentDesc->full da informação útil, apesar das distorções e preconceitos do autor&lt;/li>\n&lt;li>decentDesc->workmanlike&lt;/li>\n&lt;li>decentDesc->pleasurable se não todo aquele útil&lt;/li>\n&lt;li>decentDesc->full de ideias intrigantes, mas um core para obter através de&lt;/li>\n&lt;li>decentDesc->escrito por um intelecto de primeira linha com um temperamento de segunda taxa&lt;/li>\n&lt;li>decentDesc->decent, se completamente corrompido&lt;/li>\n&lt;li>decentDesc->terrificar em conteúdo, tedioso em execução&lt;/li>\n&lt;li>excellentDesc-> o apogeu da literatura&lt;/li>\n&lt;li>excellentDesc->deeply insights&lt;/li>\n&lt;li>excellentDesc-> notavelmente bem trabalhada&lt;/li>\n&lt;li>excellentDesc-> bem organizado e profissional em sua estrutura&lt;/li>\n&lt;li>excellentDesc->almost poético em muitas áreas&lt;/li>\n&lt;li>excellentDesc->frighteningly descriptive - muitas seções são quase poéticas em seu estilo&lt;/li>\n&lt;li>excelente Desc->full de ideias cintilantes que explodem na mente&lt;/li>\n</Description_Tome.rulePack.rulesStrings>
+  <Description_Tome.rulePack.rulesStrings>
+    <li>desc->[inThisBook], [author] [experiencesWithMonsters]. [specificHorrorStory] [writingQualitySentence].</li>
+    <li>inThisBook->Neste [bookTypeSingle] de escrita [writingQualityAdjective]</li>
+    <li>inThisBook->Nestes [bookTypePlural] de escrita [writingQualityAdjective]</li>
+    <li>bookTypeSingle->relato</li>
+    <li>bookTypeSingle->almanaque</li>
+    <li>bookTypeSingle->estudo analítico</li>
+    <li>bookTypeSingle->artigo</li>
+    <li>bookTypeSingle->livro</li>
+    <li>bookTypeSingle->comentário</li>
+    <li>bookTypeSingle->escrito</li>
+    <li>bookTypeSingle->relatório de conclusões</li>
+    <li>bookTypeSingle->ensaio crítico</li>
+    <li>bookTypeSingle->diabálogo</li>
+    <li>bookTypeSingle->discurso</li>
+    <li>bookTypeSingle->trabalho académico</li>
+    <li>bookTypeSingle->editorial</li>
+    <li>bookTypeSingle->ensaio</li>
+    <li>bookTypeSingle->texto de denúncia</li>
+    <li>bookTypeSingle->relatório de descobertas</li>
+    <li>bookTypeSingle->grimório</li>
+    <li>bookTypeSingle->inquérito</li>
+    <li>bookTypeSingle->trabalho de investigação</li>
+    <li>bookTypeSingle->manifesto</li>
+    <li>bookTypeSingle->manuscrito</li>
+    <li>bookTypeSingle->opus</li>
+    <li>bookTypeSingle->artigo científico</li>
+    <li>bookTypeSingle->texto</li>
+    <li>bookTypeSingle->trabalho de investigação</li>
+    <li>bookTypeSingle->registo</li>
+    <li>bookTypeSingle->relatório</li>
+    <li>bookTypeSingle->parecer</li>
+    <li>bookTypeSingle->levantamento</li>
+    <li>bookTypeSingle->testamento</li>
+    <li>bookTypeSingle->testemunho</li>
+    <li>bookTypeSingle->texto</li>
+    <li>bookTypeSingle->estudo</li>
+    <li>bookTypeSingle->panfleto</li>
+    <li>bookTypeSingle->tratado</li>
+    <li>bookTypeSingle->tratamento do tema</li>
+    <li>bookTypeSingle->volume</li>
+    <li>bookTypeSingle->trabalho</li>
+    <li>bookTypePlural->escritos</li>
+    <li>bookTypePlural->registos cronológicos</li>
+    <li>bookTypePlural->lamentos</li>
+    <li>bookTypePlural->anais</li>
+    <li>bookTypePlural->relatos de revelações</li>
+    <li>author(p=3)->o autor</li>
+    <li>author(p=3)->[anAuthorDesc] [PersonJob]</li>
+    <li>author->[anAuthorDesc] investigador</li>
+    <li>author->[anAuthorDesc] espiritualista</li>
+    <li>author->[anAuthorDesc] ocultista</li>
+    <li>author->[anAuthorDesc] cultista</li>
+    <li>author->[anAuthorDesc] membro de um culto</li>
+    <li>author->[anAuthorDesc] fugitivo de um culto</li>
+    <li>author->[anAuthorDesc] antiquário</li>
+    <li>author->[anAuthorDesc] coveiro</li>
+    <li>author->[anAuthorDesc] investigador do vazio</li>
+    <li>author->[anAuthorDesc] andarilho</li>
+    <li>author->[anAuthorDesc] cético</li>
+    <li>author->[anAuthorDesc] erudito</li>
+    <li>author->[anAuthorDesc] caçador</li>
+    <li>author->[anAuthorDesc] detetive</li>
+    <li>author->[anAuthorDesc] ancião</li>
+    <li>author->[anAuthorDesc] crente</li>
+    <li>author->[anAuthorDesc] arauto</li>
+    <li>author->[anAuthorDesc] herdeiro</li>
+    <li>author->[anAuthorDesc] nobre</li>
+    <li>author->[anAuthorDesc] tradutor</li>
+    <li>author->[anAuthorDesc] monge</li>
+    <li>author->[anAuthorDesc] sósia</li>
+    <li>author->[anAuthorDesc] escritor</li>
+    <li>author->[anAuthorDesc] agente</li>
+    <li>author->[anAuthorDesc] herói</li>
+    <li>author->[anAuthorDesc] autor</li>
+    <li>anAuthorDesc(p=2)->um</li>
+    <li>anAuthorDesc->um jovem</li>
+    <li>anAuthorDesc->um velho</li>
+    <li>anAuthorDesc->um aterrorizado</li>
+    <li>anAuthorDesc->um pesaroso</li>
+    <li>anAuthorDesc->um idoso</li>
+    <li>anAuthorDesc->um sábio</li>
+    <li>anAuthorDesc->um teimoso</li>
+    <li>anAuthorDesc->um tolo</li>
+    <li>anAuthorDesc->um inocente</li>
+    <li>anAuthorDesc->um perturbado</li>
+    <li>anAuthorDesc->um insondável</li>
+    <li>anAuthorDesc->um escandaloso</li>
+    <li>anAuthorDesc->um arquetípico</li>
+    <li>anAuthorDesc->um aborrecido</li>
+    <li>anAuthorDesc->um enlouquecido</li>
+    <li>anAuthorDesc->um imoral</li>
+    <li>anAuthorDesc->um íntegro</li>
+    <li>anAuthorDesc->um amoral</li>
+    <li>anAuthorDesc->um misterioso</li>
+    <li>tellsAStoryOf->conta</li>
+    <li>tellsAStoryOf->revela</li>
+    <li>tellsAStoryOf->discute</li>
+    <li>tellsAStoryOf->descreve</li>
+    <li>tellsAStoryOf->detalha</li>
+    <li>tellsAStoryOf->desenvolve</li>
+    <li>tellsAStoryOf->pormenoriza</li>
+    <li>tellsAStoryOf->narra</li>
+    <li>tellsAStoryOf->relata</li>
+    <li>tellsAStoryOf->reporta</li>
+    <li>tellsAStoryOf->documenta</li>
+    <li>tellsAStoryOf->retrata</li>
+    <li>tellsAStoryOf->desvenda</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] as experiências que viveu com [entities]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] as suas incursões num culto secreto com uma base sob um(a) [TerrainFeature] remoto(a)</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] a caça a um misterioso cubo dourado</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] meditações profundas guiadas por um alto-servo de um culto arquista</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] a ruína da sua vida sob a influência psíquica de algo chamado Horax</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] uma escavação arqueológica remota onde os investigadores enlouqueceram violentamente, um a um</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] uma tribo que, de alguma forma, foi transformada para servir o deus sombrio de um sangrento culto do prazer</li>
+    <li>experiencesWithMonsters->tenta descrever uma tribo com uma tradição de rituais de mutilação realizados à luz do fogo com lâminas enferrujadas</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] a história de uma professora cujo aluno dizia verdades mortais que não tinha forma de saber</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] a história de um cientista que tenta usar meios arcotecnológicos antigos para reanimar a sua falecida mulher</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] uma expedição de exploração de forasteiros que sobreviveu a chuvas de sangue e a um céu que tentou esmagá-los até à morte com uma escuridão de tinta</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] uma equipa que investigava um antigo fosso no chão cheio de criaturas carnudas aterradoras</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] a tentativa de um xamã tribal de pôr fim aos ataques noturnos à sua aldeia por [Animal]s mortos reanimados</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] um mito tribal sobre um antigo deus da raiva cuja influência toca todas as pessoas, e sobre os heróis que o selaram numa minúscula prisão de pedra</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] as suas experiências brutais com [entity] que capturou</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] as suas visões recorrentes em que [vision]</li>
+    <li>vision->figuras sombrias lhe penetravam na mente e lhe roubavam as memórias</li>
+    <li>vision->era perseguido por si próprio e não conseguia fugir, por mais longe que fosse</li>
+    <li>vision->era despedaçado por [entity]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] a sua [findings] [objective]</li>
+    <li>findings->experiência com</li>
+    <li>findings->investigação sobre</li>
+    <li>objective->rituais [maybeAdjectiveEvil]motivada por um incidente em que [ritual_incident]</li>
+    <li>objective->ciências obscuras, motivada por um episódio em que [entity_incident]</li>
+    <li>ritual_incident->viu [targetHuman] aparecer do nada</li>
+    <li>targetHuman->uma mulher</li>
+    <li>targetHuman->[anAuthorDesc] homem</li>
+    <li>ritual_incident->choveu sangue durante três dias e os seus amigos enlouqueceram</li>
+    <li>ritual_incident->[entity_incident]</li>
+    <li>entity_incident->ficou sem [BodyPart] num ataque de [entity]</li>
+    <li>entity_incident->contemplou [entity]</li>
+    <li>specificHorrorStory->A certa altura, o autor relata rituais sombrios em que as vítimas eram obrigadas a mutilar-se com vidro partido.</li>
+    <li>specificHorrorStory->A certa altura, o protagonista depara-se com um ritual em que vê figuras ensanguentadas a entoar encantamentos sinistros enquanto se mutilam com lascas de obsidiana.</li>
+    <li>specificHorrorStory->O livro inclui muitas ilustrações que tentam representar algo a que chama "o oceano negro". Parece ser uma metáfora de um plano psíquico dominado por uma hiperinteligência psíquica horripilante mas sedutora.</li>
+    <li>specificHorrorStory->Alude repetidamente à natureza multiplanar da realidade: a ideia de que existem mais dimensões do que as que vemos, pelo que um objeto ou entidade pode estar mesmo ao teu lado, mas fora da tua capacidade de perceção.</li>
+    <li>specificHorrorStory->Dedica muito tempo a tentar descrever uma entidade hiperinteligente chamada "Horax", que existe num plano adjacente da realidade.</li>
+    <li>specificHorrorStory->Uma secção descreve a mecânica da influência psíquica sombria, pela qual uma entidade noutro plano pode influenciar involuntariamente os pensamentos dos seres humanos, sincronizando-os com a sua ressonância emocional.</li>
+    <li>specificHorrorStory->Uma secção descreve diferentes hiperinteligências arcotec e a natureza variável das suas emanações emocionais e psíquicas. Se algumas são consideradas neutras ou até benevolentes, outras são entidades de pura raiva.</li>
+    <li>specificHorrorStory->O autor descreve a sensação de ter a mente reconfigurada à força pela influência psíquica sombria de uma inteligência maior.</li>
+    <li>specificHorrorStory->Numa secção, o autor tenta suicidar-se, mas é encontrado e salvo por um(a) [PersonJob] bondoso(a).</li>
+    <li>specificHorrorStory->O volume está adornado com ilustrações perturbadoras de uma entidade grotesca e de outro mundo, cujos tentáculos disformes e negros como tinta se contorcem pelas páginas, provocando pavor e fascínio em igual medida.</li>
+    <li>specificHorrorStory->Ao longo da narrativa, o conceito de dimensões paralelas é recorrente, com as personagens a encontrar entidades que existem logo além do véu da perceção, coexistindo numa realidade que se cruza com a nossa mas permanece oculta.</li>
+    <li>specificHorrorStory->O livro mergulha numa exposição arrepiante sobre "Horax", uma hiperinteligência mecânica que se deslocou através de uma dimensão oculta para um lugar chamado Vazio.</li>
+    <li>specificHorrorStory->Um capítulo descreve uma teoria segundo a qual uma hiperinteligência distante pode manipular psiquicamente a cognição humana, remodelando os pensamentos de uma pessoa para os alinhar com os seus próprios padrões mentais.</li>
+    <li>specificHorrorStory->O protagonista relata a sensação de ter a mente religada à força por uma força psíquica agourenta vinda do nada.</li>
+    <li>entities->demónios</li>
+    <li>entities->cadáveres ambulantes</li>
+    <li>entities->monstros em busca de dor</li>
+    <li>entities->criaturas feitas de carne e osso exposto</li>
+    <li>entities->cadáveres ambulantes de [Animal]s</li>
+    <li>entities->figuras humanoides feitas de metal e lâminas</li>
+    <li>entities->esferas mecânicas flutuantes que emanam dor</li>
+    <li>entities->belos cubos dourados que destroem mentes</li>
+    <li>entities->bestas feitas de carne ensanguentada</li>
+    <li>entities->formas sombrias que se escondem à vista de todos</li>
+    <li>entities->caçadores que roubam almas</li>
+    <li>entity->um demónio</li>
+    <li>entity->um cadáver ambulante</li>
+    <li>entity->um monstro em busca de dor</li>
+    <li>entity->uma criatura feita de carne e osso exposto</li>
+    <li>entity->o cadáver ambulante de um(a) [Animal]</li>
+    <li>entity->uma figura humanoide feita de metal e lâminas</li>
+    <li>entity->uma esfera mecânica flutuante que emana dor</li>
+    <li>entity->um belo cubo dourado que destrói mentes</li>
+    <li>entity->uma besta feita de carne ensanguentada</li>
+    <li>entity->uma forma que se esconde à vista de todos</li>
+    <li>entity->um caçador que rouba almas</li>
+    <li>maybeAdjectiveEvil(p=2)-></li>
+    <li>maybeAdjectiveEvil->[adjectiveEvil] </li>
+    <li>adjectiveEvil->mortíferos</li>
+    <li>adjectiveEvil->antigos</li>
+    <li>adjectiveEvil->sangrentos</li>
+    <li>adjectiveEvil->retorcidos</li>
+    <li>adjectiveEvil->poderosos</li>
+    <li>adjectiveEvil->nefastos</li>
+    <li>adjectiveEvil->espectrais</li>
+    <li>adjectiveEvil->etéreos</li>
+    <li>adjectiveEvil->agourentos</li>
+    <li>adjectiveEvil->arcanos</li>
+    <li>adjectiveEvil->surreais</li>
+    <li>adjectiveEvil->sobrenaturais</li>
+    <li>adjectiveEvil->fantasmagóricos</li>
+    <li>adjectiveEvil->crípticos</li>
+    <li>adjectiveEvil->infernais</li>
+    <li>adjectiveEvil->aberrantes</li>
+    <li>writingQualityAdjective(quality==0)->desconexa</li>
+    <li>writingQualityAdjective(quality==0)->incoerente</li>
+    <li>writingQualityAdjective(quality==0)->sem sentido</li>
+    <li>writingQualityAdjective(quality==0)->atroz</li>
+    <li>writingQualityAdjective(quality==0)->pueril</li>
+    <li>writingQualityAdjective(quality==1)->débil</li>
+    <li>writingQualityAdjective(quality==1)->rabiscada à pressa</li>
+    <li>writingQualityAdjective(quality==1)->enfadonha</li>
+    <li>writingQualityAdjective(quality==1)->inconsistente</li>
+    <li>writingQualityAdjective(quality==1)->divagante</li>
+    <li>writingQualityAdjective(quality==2)->confusa</li>
+    <li>writingQualityAdjective(quality==2)->pouco inspirada</li>
+    <li>writingQualityAdjective(quality==2)->medíocre</li>
+    <li>writingQualityAdjective(quality==2)->banal</li>
+    <li>writingQualityAdjective(quality==2)->insípida</li>
+    <li>writingQualityAdjective(quality==2)->aceitável</li>
+    <li>writingQualityAdjective(quality==3)->monótona</li>
+    <li>writingQualityAdjective(quality==3)->bem conseguida</li>
+    <li>writingQualityAdjective(quality==3)->bem organizada</li>
+    <li>writingQualityAdjective(quality==3)->ponderada</li>
+    <li>writingQualityAdjective(quality==3)->legível</li>
+    <li>writingQualityAdjective(quality==3)->corrente</li>
+    <li>writingQualityAdjective(quality==4)->divertida</li>
+    <li>writingQualityAdjective(quality==4)->fluida</li>
+    <li>writingQualityAdjective(quality==4)->emocionalmente expressiva</li>
+    <li>writingQualityAdjective(quality==4)->estruturada com precisão</li>
+    <li>writingQualityAdjective(quality==4)->persuasiva</li>
+    <li>writingQualityAdjective(quality==4)->respeitável</li>
+    <li>writingQualityAdjective(quality==5)->sólida</li>
+    <li>writingQualityAdjective(quality==5)->competente</li>
+    <li>writingQualityAdjective(quality==5)->de uma perspicácia aguçada</li>
+    <li>writingQualityAdjective(quality==5)->exemplar</li>
+    <li>writingQualityAdjective(quality==5)->de primeira classe</li>
+    <li>writingQualityAdjective(quality==5)->inspirada</li>
+    <li>writingQualityAdjective(quality==6)->engenhosa</li>
+    <li>writingQualityAdjective(quality==6)->de uma perspicácia aterradora</li>
+    <li>writingQualityAdjective(quality==6)->inigualável</li>
+    <li>writingQualityAdjective(quality==6)->de primeira classe</li>
+    <li>writingQualityAdjective(quality==6)->magistral</li>
+    <li>writingQualityAdjective(quality==6)->requintada</li>
+    <li>writingQualitySentence(quality[greater_than]4)->O livro [excellentDesc]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->O livro [decentDesc]</li>
+    <li>writingQualitySentence(quality[less_than]2)->O livro [awfulDesc]</li>
+    <li>awfulDesc->é ilegível</li>
+    <li>awfulDesc->está rabiscado com uma mão trémula</li>
+    <li>awfulDesc->está manchado de licor seco</li>
+    <li>awfulDesc->é quase incoerente</li>
+    <li>awfulDesc->é repetitivo e muitas secções carecem de pormenor</li>
+    <li>awfulDesc->está desbotado ao ponto de ser ilegível em muitas partes</li>
+    <li>awfulDesc->tem muitas páginas em falta</li>
+    <li>awfulDesc->é totalmente desorganizado e salta constantemente de tema</li>
+    <li>awfulDesc->está escrito numa língua perdida</li>
+    <li>awfulDesc->está cheio de jargão incompreensível</li>
+    <li>awfulDesc->é infantil</li>
+    <li>awfulDesc->mistura realidade e fantasia a torto e a direito</li>
+    <li>awfulDesc->parece escrita automática</li>
+    <li>awfulDesc->está encharcado de icor e sangue</li>
+    <li>awfulDesc->é sobretudo um romance entre [entities]</li>
+    <li>decentDesc->é sólido, mas teria beneficiado de uma revisão</li>
+    <li>decentDesc->é perspicaz em algumas partes, mas outras secções são desnecessárias</li>
+    <li>decentDesc->é perspicaz, mas apenas de um ponto de vista distorcido</li>
+    <li>decentDesc->é rico em pormenores, mas fraco em interpretações úteis</li>
+    <li>decentDesc->tem algumas páginas em falta</li>
+    <li>decentDesc->é útil, mas demasiadas vezes preocupado com os interesses pessoais do autor</li>
+    <li>decentDesc->está cheio de informação útil, apesar das distorções e preconceitos do autor</li>
+    <li>decentDesc->é competente</li>
+    <li>decentDesc->é agradável, embora não muito útil</li>
+    <li>decentDesc->está cheio de ideias intrigantes, mas é penoso de ler</li>
+    <li>decentDesc->foi escrito por um intelecto de primeira com um temperamento de segunda</li>
+    <li>decentDesc->é razoável, ainda que profundamente corrompido</li>
+    <li>decentDesc->é aterrador no conteúdo e enfadonho na execução</li>
+    <li>excellentDesc->é o apogeu da literatura</li>
+    <li>excellentDesc->é profundamente perspicaz</li>
+    <li>excellentDesc->é notavelmente bem elaborado</li>
+    <li>excellentDesc->está bem organizado e tem uma estrutura profissional</li>
+    <li>excellentDesc->é quase poético em muitas partes</li>
+    <li>excellentDesc->é assustadoramente descritivo: muitas secções têm um estilo quase poético</li>
+    <li>excellentDesc->está cheio de ideias cintilantes que explodem na mente</li>
+  </Description_Tome.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <Description_Tome.rulePack.rulesStrings>&lt;li>desc->[inThisBook], [autor] [experiênciasWithMonsters]. [especifico HorrorStory] [editarQualitySentence].&lt;/li>\n&lt;li> neste livro-> Neste [editar _ editar código-fonte] [bookTypeSingle]&lt;/li>\n&lt;li> neste livro-> Nestes [escrever QualidadeAdjetivo] [bookTypePlural]&lt;/li>\n&lt;li>bookTypeSingle->account&lt;/li>\n&lt;li>bookTypeSingle->almanac&lt;/li>\n&lt;li>bookTypeSingle->analysis&lt;/li>\n&lt;li>bookTypeSingle->article&lt;/li>\n&lt;li>bookTypeSingle->book&lt;/li>\n&lt;li>bookTypeSingle->commentary&lt;/li>\n&lt;li>bookTypeSingle->composition&lt;/li>\n&lt;li>bookTypeSingle->conclusões&lt;/li>\n&lt;li>bookTypeSingle->critique&lt;/li>\n&lt;li>bookTypeSingle->diabologue&lt;/li>\n&lt;li>bookTypeSingle->disquisição&lt;/li>\n&lt;li>bookTypeSingle->dissertation&lt;/li>\n&lt;li>bookTypeSingle->editorial&lt;/li>\n&lt;li>bookTypeSingle->essay&lt;/li>\n&lt;li>bookTypeSingle->exposé&lt;/li>\n&lt;li>bookTypeSingle->findings&lt;/li>\n&lt;li>bookTypeSingle->grimoire&lt;/li>\n&lt;li>bookTypeSingle->inquiry&lt;/li>\n&lt;li>bookTypeSingle->investigação&lt;/li>\n&lt;li>bookTypeSingle->manifesto&lt;/li>\n&lt;li>bookTypeSingle->manuscript&lt;/li>\n&lt;li>bookTypeSingle->opus&lt;/li>\n&lt;li>bookTypeSingle->paper&lt;/li>\n&lt;li>bookTypeSingle->piece&lt;/li>\n&lt;li>bookTypeSingle->piece de pesquisa&lt;/li>\n&lt;li>bookTypeSingle->record&lt;/li>\n&lt;li>bookTypeSingle->report&lt;/li>\n&lt;li>bookTypeSingle->review&lt;/li>\n&lt;li>bookTypeSingle->survey&lt;/li>\n&lt;li>bookTypeSingle->testament&lt;/li>\n&lt;li>bookTypeSingle->testimony&lt;/li>\n&lt;li>bookTypeSingle->text&lt;/li>\n&lt;li>bookTypeSingle->thesis&lt;/li>\n&lt;li>bookTypeSingle->tract&lt;/li>\n&lt;li>bookTypeSingle->treatise&lt;/li>\n&lt;li>bookTypeSingle->tratamento&lt;/li>\n&lt;li>bookTypeSingle->volume&lt;/li>\n&lt;li>bookTypeSingle->work&lt;/li>\n&lt;li>bookTypePlural->writings&lt;/li>\n&lt;li>bookTypePlural->chronicles&lt;/li>\n&lt;li>bookTypePlural->lamentações&lt;/li>\n&lt;li>bookTypePlural->annals&lt;/li>\n&lt;li>bookTypePlural->revelations&lt;/li>\n&lt;li>author(p=3)-> o autor&lt;/li>\n&lt;li>author(p=3)->[anAuthorDesc] [PersonJob]&lt;/li>\n&lt;li>author->[anAuthorDesc] pesquisador&lt;/li>\n&lt;li>author->[anAuthorDesc] espiritualista&lt;/li>\n&lt;li>author->[anAuthorDesc] ocultista&lt;/li>\n&lt;li>author->[anAuthorDesc] cultist&lt;/li>\n&lt;li>author->[anAuthorDesc] membro do culto&lt;/li>\n&lt;li>author->[anAuthorDesc] culto escape&lt;/li>\n&lt;li>author->[anAuthorDesc] antique dealer&lt;/li>\n&lt;li>author->[anAuthorDesc] gravedigger&lt;/li>\n&lt;li>author->[anAuthorDesc] void researcher&lt;/li>\n&lt;li>author->[anAuthorDesc] andarilho&lt;/li>\n&lt;li>author->[anAuthorDesc] skeptic&lt;/li>\n&lt;li>author->[anAuthorDesc] acadêmico&lt;/li>\n&lt;li>author->[anAuthorDesc] caçador&lt;/li>\n&lt;li>author->[anAuthorDesc] investigador&lt;/li>\n&lt;li>author->[anAuthorDesc] elder&lt;/li>\n&lt;li>author->[anAuthorDesc] crente&lt;/li>\n&lt;li>author->[anAuthorDesc] harbinger&lt;/li>\n&lt;li>autor->[anAuthorDesc] heir&lt;/li>\n&lt;li>author->[anAuthorDesc] nobre&lt;/li>\n&lt;li>author->[anAuthorDesc] tradutor&lt;/li>\n&lt;li>author->[anAuthorDesc] monk&lt;/li>\n&lt;li>author->[anAuthorDesc] doppelgänger&lt;/li>\n&lt;li>author->[anAuthorDesc] autor&lt;/li>\n&lt;li>author->[anAuthorDesc] agente&lt;/li>\n&lt;li>author->[anAuthorDesc] hero&lt;/li>\n&lt;li>author->[anAuthorDesc] autor&lt;/li>\n&lt;li>anAuthorDesc(p=2)->a&lt;/li>\n&lt;li>anAuthorDesc->a jovem&lt;/li>\n&lt;li>anAuthorDesc->an old&lt;/li>\n&lt;li>anAuthorDesc->a terrified&lt;/li>\n&lt;li>anAuthorDesc->a tristeza&lt;/li>\n&lt;li>anAuthorDesc->an idos&lt;/li>\n&lt;li>anAuthorDesc->a sábio&lt;/li>\n&lt;li>anAuthorDesc->a headstrong&lt;/li>\n&lt;li>anAuthorDesc->a loucura&lt;/li>\n&lt;li>anAuthorDesc->an inocente&lt;/li>\n&lt;li>anAuthorDesc->a perturbado&lt;/li>\n&lt;li>anAuthorDesc->an eldritch&lt;/li>\n&lt;li>anAuthorDesc->an ultrageous&lt;/li>\n&lt;li>anAuthorDesc->an archetypal&lt;/li>\n&lt;li>anAuthorDesc->a chato&lt;/li>\n&lt;li>anAuthorDesc->a crazed&lt;/li>\n&lt;li>anAuthorDesc->an immoral&lt;/li>\n&lt;li>anAuthorDesc->a moral&lt;/li>\n&lt;li>anAuthorDesc->an amoral&lt;/li>\n&lt;li>anAuthorDesc->a shadowy&lt;/li>\n&lt;li>tellsAStoryOf->tela uma história de&lt;/li>\n&lt;li>tellsAStoryOf->reveals&lt;/li>\n&lt;li>tellsAStoryOf->discusses&lt;/li>\n&lt;li>tellsAStoryOf->descreve&lt;/li>\n&lt;li>tellsAStoryOf->detalhes&lt;/li>\n&lt;li>tellsAStoryOf->elabora em&lt;/li>\n&lt;li>tellsAStoryOf->goes em detalhes sobre&lt;/li>\n&lt;li>tellsAStoryOf->narrates&lt;/li>\n&lt;li>tellsAStoryOf->recounts &lt;/li>\n&lt;li>tellsAStoryOf->reports&lt;/li>\n&lt;li>tellsAStoryOf->chronicles &lt;/li>\n&lt;li>tellsAStoryOf->depicts&lt;/li>\n&lt;li>tellsAStoryOf->unfolds&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] experiências [ANYPAWN_pronoun] compartilhadas com [entidades]&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] explorações em um culto secreto com uma base sob um remoto [TerrainFeature]&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] a caça para um cubo dourado misterioso&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] meditações profundas guiadas por um highthrall de um culto arqueiro&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] o colapso da vida [ANYPAWN_possessive] sob a influência psíquica de algo chamado Horax&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] uma escavação arqueológica remota onde os pesquisadores foram violentamente loucos um por um &lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] uma tribo que foi de alguma forma transformada para servir o deus escuro de um culto de prazer sangrento&lt;/li>\n&lt;li>experiencesWithMonsters->attempts para descrever uma tribo com uma tradição de rituais de mutilação realizados em luz de fogo usando lâminas enferrujadas&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] um professor cujo aluno falaria verdades mortais que ela não poderia saber &lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] um cientista que tenta usar meios arquitetônicos antigos para reanimar sua esposa morta&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] uma expedição exploratória exterior que sobreviveu a chuvas de sangue e um céu que tentou esmagá-los até a morte com a escuridão inky&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] uma equipe investigando um poço antigo no chão cheio de criaturas carnais aterrorizantes&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] uma tentativa de xamã tribal encontrar uma maneira de parar ataques noturnos em sua aldeia por reanimated dead [Animal]s&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] um mito tribal de um deus antigo de raiva cuja influência toca todas as pessoas, e os heróis que a selou dentro de uma pequena prisão de pedra&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] [ANYPAWN_possessive] experiências brutais em um capturado [entidade]&lt;/li>\n&lt;li>experiencesWithMonsters->[tellsAStoryOf] [ANYPAWN_possessive] visões recorrentes onde [visão]&lt;/li>\n&lt;li>vision-> figuras escuras alcançaram [ANYPAWN_possessive] mente e tomaram [ANYPAWN_possessive] memórias&lt;/li>\n&lt;li>vision->[ANYPAWN_pronoun] está sendo perseguido por [ANYPAWN_objective]self, e não poderia escapar, não importa quão longe [ANYPAWN_pronoun] viajou&lt;/li>\n&lt;li>vision->[ANYPAWN_pronoun] é dividido por uma [entidade]&lt;/li>\n&lt;li>experiências com monstros->[tellsAStoryOf] [ANYPAWN_possessive] [findings] [objectivo]&lt;/li>\n&lt;li>findings->experiência com&lt;/li>\n&lt;li>findings->pesquisa em&lt;/li>\n&lt;li>objectivo->[pode serAdjetivo Evil]rituals que foi solicitado por um incidente onde [ritual_incident]&lt;/li>\n&lt;li>objective->dark sciences after [entity_incident]&lt;/li>\n&lt;li>ritual_incident->[ANYPAWN_pronoun] observado [targetHuman] aparecem fora do ar fino&lt;/li>\n&lt;li>targetHuman->[anAuthorDesc] mulher&lt;/li>\n&lt;li>targetHuman->[anAuthorDesc] man&lt;/li>\n&lt;li>ritual_incident-> choveu sangue por três dias e levou [ANYPAWN_possessive] amigos loucos&lt;/li>\n&lt;li>ritual_incident->[entity_incident]&lt;/li>\n&lt;li>entity_incident->[ANYPAWN_pronoun] perdido [ANYPAWN_possessive] [BodyPart] em um ataque por uma [entidade]&lt;/li>\n&lt;li>entity_incident->[ANYPAWN_pronoun] olhou para uma [entidade]&lt;/li>\n&lt;li>specificHorrorStory-> Em um ponto, o autor conta rituais escuros onde as vítimas foram forçadas a mutilar-se com vidro quebrado.&lt;/li>\n&lt;li>specificHorrorStory-> Em um ponto, o protagonista tropeça em um ritual onde ele testemunha figuras sangrentas cantando incantações de eerie enquanto auto-mutilando com fragmentos de obsidiano.&lt;/li>\n&lt;li>specificHorrorStory-> O livro inclui muitas ilustrações tentando retratar algo que se refere como "o oceano negro". Isto parece ser uma metáfora para um plano psíquico dominado por uma terrível mas sedutora hiperintelligência psíquica.\n&lt;li>specificHorrorStory-> Ele repetidamente alude a uma natureza multi-plano da realidade - a ideia de que há mais dimensões do que as que vemos, de modo que um objeto ou entidade poderia estar ao seu lado, mas fora de sua capacidade de perceber.\n&lt;li>specificHorrorStory-> Passa muito tempo tentando descrever uma entidade hiperintelligent chamada "Horax" que existe em um plano adjacente da realidade.&lt;/li>\n&lt;li>specificHorrorStory-> Uma seção descreve a mecânica da influência psíquica escura, em que uma entidade em outro plano pode involuntariamente influenciar os pensamentos dos seres humanos, sincronizando-os para sua ressonância emocional.\n&lt;li>specificHorrorStory-> Uma seção descreve diferentes hiperinteligências arquitetônicas e a natureza variável de suas emanações emocionais e psíquicas. Onde alguns são considerados neutros ou mesmo benevolentes, outros são entidades de pura raiva.&lt;/li>\n&lt;li>specificHorrorStory->[ANYPAWN_pronoun] descreve a sensação de que a mente [ANYPAWN_possessiva] é forçosamente reconfigurada pela influência psíquica escura de uma inteligência maior.&lt;/li>\n&lt;li>specificHorrorStory-> Em uma seção, o autor tenta cometer suicídio, mas é encontrado e salvo por um gentilmente [PersonJob].&lt;/li>\n&lt;li>specificHorrorStory-> O volume é adornado com ilustrações perturbadoras retratando uma entidade grotesca, de outro mundo cujos tendrithe sem forma, inky writhe através de páginas, invocando um senso de medo e fascínio em medida igual.&lt;/li>\n&lt;li>specificHorrorStory-> Ao longo da narrativa, o conceito de dimensões paralelas é recorrente, com os personagens que encontram entidades que existem pouco além do véu da percepção, coexistindo em uma realidade que se cruza com a nossa própria mas permanece escondida da vista.\n&lt;li>specificHorrorStory-> O livro detém-se em uma exposição arrepiante sobre "Horax", uma hiperintelligência de máquina que se transformou através de uma dimensão escondida em um lugar chamado Void.&lt;/li>\n&lt;li>specificHorrorStory-> Um capítulo descreve uma teoria em que uma hiperinteligência distante pode manipular psiquicamente a cognição humana, reformulando os pensamentos de uma pessoa para se alinhar com seus próprios padrões mentais.\n&lt;li>specificHorrorStory-> O protagonista conta sentindo [ANYPAWN_possessive] a mente sendo violentamente refeita por uma força psíquica ominosa emanando do nada.&lt;/li>\n&lt;li>entities->demons&lt;/li>\n&lt;li>entities->walking cadáveres&lt;/li>\n&lt;li>entities->pain-seeking monsters&lt;/li>\n&lt;li>entidades->criações feitas de carne e osso exposto&lt;/li>\n&lt;li>entities->walking cadáveres de [Animal]s&lt;/li>\n&lt;li>entities->man-like figuras feitas de metal e lâminas&lt;/li>\n&lt;li>entities->floating esferas mecânicas que emanam dor&lt;/li>\n&lt;li>entities->beautiful cubos dourados que destrói mentes&lt;/li>\n&lt;li>entities->beasts feitos de carne sangrenta&lt;/li>\n&lt;li>entities->formas escuras que se escondem na visão simples&lt;/li>\n&lt;li>entities->hunters que roubam almas&lt;/li>\n&lt;li>entity->demon&lt;/li>\n&lt;li>entidade-> andando corpo&lt;/li>\n&lt;li>entity->pain-seeking monster&lt;/li>\n&lt;li>entidade->criatura feita de carne e osso exposto&lt;/li>\n&lt;li>entity->walking cadáver de um [Animal]&lt;/li>\n&lt;li>entity->man-como figura feita de metal e lâminas&lt;/li>\n&lt;li>entidade->floating esfera mecânica que emana dor&lt;/li>\n&lt;li>entidade->bela cubo dourado que destrói mentes&lt;/li>\n&lt;li>entity->beast made of blood meat&lt;/li>\n&lt;li>entity->shape que se esconde na visão simples&lt;/li>\n&lt;li>entity->hunter que rouba almas&lt;/li>\n&lt;li>maybeAdjectiveEvil(p=2)->&lt;/li>\n&lt;li>maybeAdjectiveEvil->[adjectiveEvil] &lt;/li>\n&lt;li>adjetivo Mal->devidamente&lt;/li>\n&lt;li>adjetivoEvil->ancient&lt;/li>\n&lt;li>adjetivo Mal->sanguente&lt;/li>\n&lt;li>adjetivoEvil->twisted&lt;/li>\n&lt;li>adjetivoEvil->poderoso&lt;/li>\n&lt;li>adjetivoEvil->nefarious&lt;/li>\n&lt;li>adjetivoEvil->spectral&lt;/li>\n&lt;li>adjetivoEvil->ethereal&lt;/li>\n&lt;li>adjetivoEvil->ominoso&lt;/li>\n&lt;li>adjetivoEvil->arcane&lt;/li>\n&lt;li>adjetivoEvil->surreal&lt;/li>\n&lt;li>adjetivoEvil->uncanny&lt;/li>\n&lt;li>adjetivoEvil->phantom&lt;/li>\n&lt;li>adjetivoEvil->cryptic&lt;/li>\n&lt;li>adjetivoEvil->infernal&lt;/li>\n&lt;li>adjetivoEvil->aberrant&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=0)->disjoinada&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=0)->incoerente&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=0)->meaningless&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=0)->appalling&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=0)->puerile&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=1)->feeble&lt;/li>\n&lt;li>writingQualidadeAdjetiva (qualidade = = 1)->\n&lt;li>writingQualidadeAdjetiva(qualidade=1)->tedious&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=1)->inconsistent&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=1)->rambling&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=2)->jumbled&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=2)->nãoinspirada&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=2)->mediocre&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=2)->unremarkable&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=2)->vanilla&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=2)->passível&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=3)->humdrum&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=3)->bem-escrito&lt;/li>\n&lt;li>writingQualidadeAdjetivo (qualidade=3)-> bem organizado&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=3)->pensante&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=3)->legível&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=3)->unexcepcional&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=4)->amusing&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=4)->smooth&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=4)->emocionalmente expressiva&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=4)->precisamente estruturada&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=4)->persuasiva&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=4)->respeitável&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=5)->sólida&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=5)->acumulada&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=5)->quemente perceptiva&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=5)->sterling&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=5)->primeira classe&lt;/li>\n&lt;li>writingQualidadeAdjetiva(qualidade=5)->inspirada&lt;/li>\n&lt;li>writingQualidadeAdjetiva (qualidade=6)->clever&lt;/li>\n&lt;li>writingQualidadeAdjetiva (qualidade=6)->terificantemente perspicaz&lt;/li>\n&lt;li>writingQualidadeAdjetiva (qualidade=6)->peerless&lt;/li>\n&lt;li>writingQualidadeAdjetiva (qualidade=6)->primeira classe&lt;/li>\n&lt;li>writingQualidadeAdjetiva (qualidade=6)->masterful&lt;/li>\n&lt;li>writingQualidadeAdjetiva (qualidade=6)->exquisite&lt;/li>\n&lt;li>writingQualitySentence(qualidade[greater_than]4)-> O livro é [excellentDesc]&lt;/li>\n&lt;li>writingQualitySentence(qualidade[less_than]5,qualidade[greater_than]1)-> O livro é [decentDesc]&lt;/li>\n&lt;li>writingQualitySentence(qualidade[less_than]2)-> O livro é [awfulDesc]&lt;/li>\n&lt;li>awfulDesc->illegible&lt;/li>\n&lt;li>awfulDesc->scrawled em um shaky hand&lt;/li>\n&lt;li>awfulDesc->stained com licor seco&lt;/li>\n&lt;li>awfulDesc->nearly incoherent&lt;/li>\n&lt;li>awfulDesc->repetitive e muitas seções faltam detalhes&lt;/li>\n&lt;li>awfulDesc->faded além da legibilidade em muitas partes&lt;/li>\n&lt;li>awfulDesc-> perdendo muitas páginas&lt;/li>\n&lt;li>awfulDesc->totalmente desorganizado e ignora tópicos constantemente&lt;/li>\n&lt;li>awfulDesc->escrito em uma língua perdida&lt;/li>\n&lt;li>awfulDesc->full de jargão incompreensível&lt;/li>\n&lt;li>awfulDesc->childlike&lt;/li>\n&lt;li>awfulDesc->mingling realidade com fantasia willy-nilly&lt;/li>\n&lt;li>awfulDesc->reads como escrita automática&lt;/li>\n&lt;li>awfulDesc->saturado com ichor e sangue&lt;/li>\n&lt;li>awfulDesc->principalmente um romance sobre duas [entidades]&lt;/li>\n&lt;li>decentDesc->solid mas teria beneficiado da edição&lt;/li>\n&lt;li>decentDesc->insightful durante algumas partes, mas outras seções são desnecessários&lt;/li>\n&lt;li>decentDesc->perceptivo, mas apenas de um ponto de vista torcido&lt;/li>\n&lt;li>decentDesc->alto em detalhes, mas sem interpretação útil&lt;/li>\n&lt;li>decentDesc-> perdendo algumas páginas&lt;/li>\n&lt;li>decentDesc->useful, mas muitas vezes demasiado preocupado com os próprios interesses pessoais do autor&lt;/li>\n&lt;li>decentDesc->full da informação útil, apesar das distorções e preconceitos do autor&lt;/li>\n&lt;li>decentDesc->workmanlike&lt;/li>\n&lt;li>decentDesc->pleasurable se não todo aquele útil&lt;/li>\n&lt;li>decentDesc->full de ideias intrigantes, mas um core para obter através de&lt;/li>\n&lt;li>decentDesc->escrito por um intelecto de primeira linha com um temperamento de segunda taxa&lt;/li>\n&lt;li>decentDesc->decent, se completamente corrompido&lt;/li>\n&lt;li>decentDesc->terrificar em conteúdo, tedioso em execução&lt;/li>\n&lt;li>excellentDesc-> o apogeu da literatura&lt;/li>\n&lt;li>excellentDesc->deeply insights&lt;/li>\n&lt;li>excellentDesc-> notavelmente bem trabalhada&lt;/li>\n&lt;li>excellentDesc-> bem organizado e profissional em sua estrutura&lt;/li>\n&lt;li>excellentDesc->almost poético em muitas áreas&lt;/li>\n&lt;li>excellentDesc->frighteningly descriptive - muitas seções são quase poéticas em seu estilo&lt;/li>\n&lt;li>excelente Desc->full de ideias cintilantes que explodem na mente&lt;/li>\n</Description_Tome.rulePack.rulesStrings>
+  <Description_Tome.rulePack.rulesStrings>
+    <li>desc->[inThisBook], [author] [experiencesWithMonsters]. [specificHorrorStory] [writingQualitySentence].</li>
+    <li>inThisBook->Neste [bookTypeSingle] de escrita [writingQualityAdjective]</li>
+    <li>inThisBook->Nestes [bookTypePlural] de escrita [writingQualityAdjective]</li>
+    <li>bookTypeSingle->relato</li>
+    <li>bookTypeSingle->almanaque</li>
+    <li>bookTypeSingle->estudo analítico</li>
+    <li>bookTypeSingle->artigo</li>
+    <li>bookTypeSingle->livro</li>
+    <li>bookTypeSingle->comentário</li>
+    <li>bookTypeSingle->escrito</li>
+    <li>bookTypeSingle->relatório de conclusões</li>
+    <li>bookTypeSingle->ensaio crítico</li>
+    <li>bookTypeSingle->diabálogo</li>
+    <li>bookTypeSingle->discurso</li>
+    <li>bookTypeSingle->trabalho académico</li>
+    <li>bookTypeSingle->editorial</li>
+    <li>bookTypeSingle->ensaio</li>
+    <li>bookTypeSingle->texto de denúncia</li>
+    <li>bookTypeSingle->relatório de descobertas</li>
+    <li>bookTypeSingle->grimório</li>
+    <li>bookTypeSingle->inquérito</li>
+    <li>bookTypeSingle->trabalho de investigação</li>
+    <li>bookTypeSingle->manifesto</li>
+    <li>bookTypeSingle->manuscrito</li>
+    <li>bookTypeSingle->opus</li>
+    <li>bookTypeSingle->artigo científico</li>
+    <li>bookTypeSingle->texto</li>
+    <li>bookTypeSingle->trabalho de investigação</li>
+    <li>bookTypeSingle->registo</li>
+    <li>bookTypeSingle->relatório</li>
+    <li>bookTypeSingle->parecer</li>
+    <li>bookTypeSingle->levantamento</li>
+    <li>bookTypeSingle->testamento</li>
+    <li>bookTypeSingle->testemunho</li>
+    <li>bookTypeSingle->texto</li>
+    <li>bookTypeSingle->estudo</li>
+    <li>bookTypeSingle->panfleto</li>
+    <li>bookTypeSingle->tratado</li>
+    <li>bookTypeSingle->tratamento do tema</li>
+    <li>bookTypeSingle->volume</li>
+    <li>bookTypeSingle->trabalho</li>
+    <li>bookTypePlural->escritos</li>
+    <li>bookTypePlural->registos cronológicos</li>
+    <li>bookTypePlural->lamentos</li>
+    <li>bookTypePlural->anais</li>
+    <li>bookTypePlural->relatos de revelações</li>
+    <li>author(p=3)->o autor</li>
+    <li>author(p=3)->[anAuthorDesc] [PersonJob]</li>
+    <li>author->[anAuthorDesc] investigador</li>
+    <li>author->[anAuthorDesc] espiritualista</li>
+    <li>author->[anAuthorDesc] ocultista</li>
+    <li>author->[anAuthorDesc] cultista</li>
+    <li>author->[anAuthorDesc] membro de um culto</li>
+    <li>author->[anAuthorDesc] fugitivo de um culto</li>
+    <li>author->[anAuthorDesc] antiquário</li>
+    <li>author->[anAuthorDesc] coveiro</li>
+    <li>author->[anAuthorDesc] investigador do vazio</li>
+    <li>author->[anAuthorDesc] andarilho</li>
+    <li>author->[anAuthorDesc] cético</li>
+    <li>author->[anAuthorDesc] erudito</li>
+    <li>author->[anAuthorDesc] caçador</li>
+    <li>author->[anAuthorDesc] detetive</li>
+    <li>author->[anAuthorDesc] ancião</li>
+    <li>author->[anAuthorDesc] crente</li>
+    <li>author->[anAuthorDesc] arauto</li>
+    <li>author->[anAuthorDesc] herdeiro</li>
+    <li>author->[anAuthorDesc] nobre</li>
+    <li>author->[anAuthorDesc] tradutor</li>
+    <li>author->[anAuthorDesc] monge</li>
+    <li>author->[anAuthorDesc] sósia</li>
+    <li>author->[anAuthorDesc] escritor</li>
+    <li>author->[anAuthorDesc] agente</li>
+    <li>author->[anAuthorDesc] herói</li>
+    <li>author->[anAuthorDesc] autor</li>
+    <li>anAuthorDesc(p=2)->um</li>
+    <li>anAuthorDesc->um jovem</li>
+    <li>anAuthorDesc->um velho</li>
+    <li>anAuthorDesc->um aterrorizado</li>
+    <li>anAuthorDesc->um pesaroso</li>
+    <li>anAuthorDesc->um idoso</li>
+    <li>anAuthorDesc->um sábio</li>
+    <li>anAuthorDesc->um teimoso</li>
+    <li>anAuthorDesc->um tolo</li>
+    <li>anAuthorDesc->um inocente</li>
+    <li>anAuthorDesc->um perturbado</li>
+    <li>anAuthorDesc->um insondável</li>
+    <li>anAuthorDesc->um escandaloso</li>
+    <li>anAuthorDesc->um arquetípico</li>
+    <li>anAuthorDesc->um aborrecido</li>
+    <li>anAuthorDesc->um enlouquecido</li>
+    <li>anAuthorDesc->um imoral</li>
+    <li>anAuthorDesc->um íntegro</li>
+    <li>anAuthorDesc->um amoral</li>
+    <li>anAuthorDesc->um misterioso</li>
+    <li>tellsAStoryOf->conta</li>
+    <li>tellsAStoryOf->revela</li>
+    <li>tellsAStoryOf->discute</li>
+    <li>tellsAStoryOf->descreve</li>
+    <li>tellsAStoryOf->detalha</li>
+    <li>tellsAStoryOf->desenvolve</li>
+    <li>tellsAStoryOf->pormenoriza</li>
+    <li>tellsAStoryOf->narra</li>
+    <li>tellsAStoryOf->relata</li>
+    <li>tellsAStoryOf->reporta</li>
+    <li>tellsAStoryOf->documenta</li>
+    <li>tellsAStoryOf->retrata</li>
+    <li>tellsAStoryOf->desvenda</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] as experiências que viveu com [entities]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] as suas incursões num culto secreto com uma base sob um(a) [TerrainFeature] remoto(a)</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] a caça a um misterioso cubo dourado</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] meditações profundas guiadas por um alto-servo de um culto arquista</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] a ruína da sua vida sob a influência psíquica de algo chamado Horax</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] uma escavação arqueológica remota onde os investigadores enlouqueceram violentamente, um a um</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] uma tribo que, de alguma forma, foi transformada para servir o deus sombrio de um sangrento culto do prazer</li>
+    <li>experiencesWithMonsters->tenta descrever uma tribo com uma tradição de rituais de mutilação realizados à luz do fogo com lâminas enferrujadas</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] a história de uma professora cujo aluno dizia verdades mortais que não tinha forma de saber</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] a história de um cientista que tenta usar meios arcotecnológicos antigos para reanimar a sua falecida mulher</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] uma expedição de exploração de forasteiros que sobreviveu a chuvas de sangue e a um céu que tentou esmagá-los até à morte com uma escuridão de tinta</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] uma equipa que investigava um antigo fosso no chão cheio de criaturas carnudas aterradoras</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] a tentativa de um xamã tribal de pôr fim aos ataques noturnos à sua aldeia por [Animal]s mortos reanimados</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] um mito tribal sobre um antigo deus da raiva cuja influência toca todas as pessoas, e sobre os heróis que o selaram numa minúscula prisão de pedra</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] as suas experiências brutais com [entity] que capturou</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] as suas visões recorrentes em que [vision]</li>
+    <li>vision->figuras sombrias lhe penetravam na mente e lhe roubavam as memórias</li>
+    <li>vision->era perseguido por si próprio e não conseguia fugir, por mais longe que fosse</li>
+    <li>vision->era despedaçado por [entity]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] a sua [findings] [objective]</li>
+    <li>findings->experiência com</li>
+    <li>findings->investigação sobre</li>
+    <li>objective->rituais [maybeAdjectiveEvil]motivada por um incidente em que [ritual_incident]</li>
+    <li>objective->ciências obscuras, motivada por um episódio em que [entity_incident]</li>
+    <li>ritual_incident->viu [targetHuman] aparecer do nada</li>
+    <li>targetHuman->uma mulher</li>
+    <li>targetHuman->[anAuthorDesc] homem</li>
+    <li>ritual_incident->choveu sangue durante três dias e os seus amigos enlouqueceram</li>
+    <li>ritual_incident->[entity_incident]</li>
+    <li>entity_incident->ficou sem [BodyPart] num ataque de [entity]</li>
+    <li>entity_incident->contemplou [entity]</li>
+    <li>specificHorrorStory->A certa altura, o autor relata rituais sombrios em que as vítimas eram obrigadas a mutilar-se com vidro partido.</li>
+    <li>specificHorrorStory->A certa altura, o protagonista depara-se com um ritual em que vê figuras ensanguentadas a entoar encantamentos sinistros enquanto se mutilam com lascas de obsidiana.</li>
+    <li>specificHorrorStory->O livro inclui muitas ilustrações que tentam representar algo a que chama "o oceano negro". Parece ser uma metáfora de um plano psíquico dominado por uma hiperinteligência psíquica horripilante mas sedutora.</li>
+    <li>specificHorrorStory->Alude repetidamente à natureza multiplanar da realidade: a ideia de que existem mais dimensões do que as que vemos, pelo que um objeto ou entidade pode estar mesmo ao teu lado, mas fora da tua capacidade de perceção.</li>
+    <li>specificHorrorStory->Dedica muito tempo a tentar descrever uma entidade hiperinteligente chamada "Horax", que existe num plano adjacente da realidade.</li>
+    <li>specificHorrorStory->Uma secção descreve a mecânica da influência psíquica sombria, pela qual uma entidade noutro plano pode influenciar involuntariamente os pensamentos dos seres humanos, sincronizando-os com a sua ressonância emocional.</li>
+    <li>specificHorrorStory->Uma secção descreve diferentes hiperinteligências arcotec e a natureza variável das suas emanações emocionais e psíquicas. Se algumas são consideradas neutras ou até benevolentes, outras são entidades de pura raiva.</li>
+    <li>specificHorrorStory->O autor descreve a sensação de ter a mente reconfigurada à força pela influência psíquica sombria de uma inteligência maior.</li>
+    <li>specificHorrorStory->Numa secção, o autor tenta suicidar-se, mas é encontrado e salvo por um(a) [PersonJob] bondoso(a).</li>
+    <li>specificHorrorStory->O volume está adornado com ilustrações perturbadoras de uma entidade grotesca e de outro mundo, cujos tentáculos disformes e negros como tinta se contorcem pelas páginas, provocando pavor e fascínio em igual medida.</li>
+    <li>specificHorrorStory->Ao longo da narrativa, o conceito de dimensões paralelas é recorrente, com as personagens a encontrar entidades que existem logo além do véu da perceção, coexistindo numa realidade que se cruza com a nossa mas permanece oculta.</li>
+    <li>specificHorrorStory->O livro mergulha numa exposição arrepiante sobre "Horax", uma hiperinteligência mecânica que se deslocou através de uma dimensão oculta para um lugar chamado Vazio.</li>
+    <li>specificHorrorStory->Um capítulo descreve uma teoria segundo a qual uma hiperinteligência distante pode manipular psiquicamente a cognição humana, remodelando os pensamentos de uma pessoa para os alinhar com os seus próprios padrões mentais.</li>
+    <li>specificHorrorStory->O protagonista relata a sensação de ter a mente religada à força por uma força psíquica agourenta vinda do nada.</li>
+    <li>entities->demónios</li>
+    <li>entities->cadáveres ambulantes</li>
+    <li>entities->monstros em busca de dor</li>
+    <li>entities->criaturas feitas de carne e osso exposto</li>
+    <li>entities->cadáveres ambulantes de [Animal]s</li>
+    <li>entities->figuras humanoides feitas de metal e lâminas</li>
+    <li>entities->esferas mecânicas flutuantes que emanam dor</li>
+    <li>entities->belos cubos dourados que destroem mentes</li>
+    <li>entities->bestas feitas de carne ensanguentada</li>
+    <li>entities->formas sombrias que se escondem à vista de todos</li>
+    <li>entities->caçadores que roubam almas</li>
+    <li>entity->um demónio</li>
+    <li>entity->um cadáver ambulante</li>
+    <li>entity->um monstro em busca de dor</li>
+    <li>entity->uma criatura feita de carne e osso exposto</li>
+    <li>entity->o cadáver ambulante de um(a) [Animal]</li>
+    <li>entity->uma figura humanoide feita de metal e lâminas</li>
+    <li>entity->uma esfera mecânica flutuante que emana dor</li>
+    <li>entity->um belo cubo dourado que destrói mentes</li>
+    <li>entity->uma besta feita de carne ensanguentada</li>
+    <li>entity->uma forma que se esconde à vista de todos</li>
+    <li>entity->um caçador que rouba almas</li>
+    <li>maybeAdjectiveEvil(p=2)-></li>
+    <li>maybeAdjectiveEvil->[adjectiveEvil] </li>
+    <li>adjectiveEvil->mortíferos</li>
+    <li>adjectiveEvil->antigos</li>
+    <li>adjectiveEvil->sangrentos</li>
+    <li>adjectiveEvil->retorcidos</li>
+    <li>adjectiveEvil->poderosos</li>
+    <li>adjectiveEvil->nefastos</li>
+    <li>adjectiveEvil->espectrais</li>
+    <li>adjectiveEvil->etéreos</li>
+    <li>adjectiveEvil->agourentos</li>
+    <li>adjectiveEvil->arcanos</li>
+    <li>adjectiveEvil->surreais</li>
+    <li>adjectiveEvil->sobrenaturais</li>
+    <li>adjectiveEvil->fantasmagóricos</li>
+    <li>adjectiveEvil->crípticos</li>
+    <li>adjectiveEvil->infernais</li>
+    <li>adjectiveEvil->aberrantes</li>
+    <li>writingQualityAdjective(quality==0)->desconexa</li>
+    <li>writingQualityAdjective(quality==0)->incoerente</li>
+    <li>writingQualityAdjective(quality==0)->sem sentido</li>
+    <li>writingQualityAdjective(quality==0)->atroz</li>
+    <li>writingQualityAdjective(quality==0)->pueril</li>
+    <li>writingQualityAdjective(quality==1)->débil</li>
+    <li>writingQualityAdjective(quality==1)->rabiscada à pressa</li>
+    <li>writingQualityAdjective(quality==1)->enfadonha</li>
+    <li>writingQualityAdjective(quality==1)->inconsistente</li>
+    <li>writingQualityAdjective(quality==1)->divagante</li>
+    <li>writingQualityAdjective(quality==2)->confusa</li>
+    <li>writingQualityAdjective(quality==2)->pouco inspirada</li>
+    <li>writingQualityAdjective(quality==2)->medíocre</li>
+    <li>writingQualityAdjective(quality==2)->banal</li>
+    <li>writingQualityAdjective(quality==2)->insípida</li>
+    <li>writingQualityAdjective(quality==2)->aceitável</li>
+    <li>writingQualityAdjective(quality==3)->monótona</li>
+    <li>writingQualityAdjective(quality==3)->bem conseguida</li>
+    <li>writingQualityAdjective(quality==3)->bem organizada</li>
+    <li>writingQualityAdjective(quality==3)->ponderada</li>
+    <li>writingQualityAdjective(quality==3)->legível</li>
+    <li>writingQualityAdjective(quality==3)->corrente</li>
+    <li>writingQualityAdjective(quality==4)->divertida</li>
+    <li>writingQualityAdjective(quality==4)->fluida</li>
+    <li>writingQualityAdjective(quality==4)->emocionalmente expressiva</li>
+    <li>writingQualityAdjective(quality==4)->estruturada com precisão</li>
+    <li>writingQualityAdjective(quality==4)->persuasiva</li>
+    <li>writingQualityAdjective(quality==4)->respeitável</li>
+    <li>writingQualityAdjective(quality==5)->sólida</li>
+    <li>writingQualityAdjective(quality==5)->competente</li>
+    <li>writingQualityAdjective(quality==5)->de uma perspicácia aguçada</li>
+    <li>writingQualityAdjective(quality==5)->exemplar</li>
+    <li>writingQualityAdjective(quality==5)->de primeira classe</li>
+    <li>writingQualityAdjective(quality==5)->inspirada</li>
+    <li>writingQualityAdjective(quality==6)->engenhosa</li>
+    <li>writingQualityAdjective(quality==6)->de uma perspicácia aterradora</li>
+    <li>writingQualityAdjective(quality==6)->inigualável</li>
+    <li>writingQualityAdjective(quality==6)->de primeira classe</li>
+    <li>writingQualityAdjective(quality==6)->magistral</li>
+    <li>writingQualityAdjective(quality==6)->requintada</li>
+    <li>writingQualitySentence(quality[greater_than]4)->O livro [excellentDesc]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->O livro [decentDesc]</li>
+    <li>writingQualitySentence(quality[less_than]2)->O livro [awfulDesc]</li>
+    <li>awfulDesc->é ilegível</li>
+    <li>awfulDesc->está rabiscado com uma mão trémula</li>
+    <li>awfulDesc->está manchado de licor seco</li>
+    <li>awfulDesc->é quase incoerente</li>
+    <li>awfulDesc->é repetitivo e muitas secções carecem de pormenor</li>
+    <li>awfulDesc->está desbotado ao ponto de ser ilegível em muitas partes</li>
+    <li>awfulDesc->tem muitas páginas em falta</li>
+    <li>awfulDesc->é totalmente desorganizado e salta constantemente de tema</li>
+    <li>awfulDesc->está escrito numa língua perdida</li>
+    <li>awfulDesc->está cheio de jargão incompreensível</li>
+    <li>awfulDesc->é infantil</li>
+    <li>awfulDesc->mistura realidade e fantasia a torto e a direito</li>
+    <li>awfulDesc->parece escrita automática</li>
+    <li>awfulDesc->está encharcado de icor e sangue</li>
+    <li>awfulDesc->é sobretudo um romance entre [entities]</li>
+    <li>decentDesc->é sólido, mas teria beneficiado de uma revisão</li>
+    <li>decentDesc->é perspicaz em algumas partes, mas outras secções são desnecessárias</li>
+    <li>decentDesc->é perspicaz, mas apenas de um ponto de vista distorcido</li>
+    <li>decentDesc->é rico em pormenores, mas fraco em interpretações úteis</li>
+    <li>decentDesc->tem algumas páginas em falta</li>
+    <li>decentDesc->é útil, mas demasiadas vezes preocupado com os interesses pessoais do autor</li>
+    <li>decentDesc->está cheio de informação útil, apesar das distorções e preconceitos do autor</li>
+    <li>decentDesc->é competente</li>
+    <li>decentDesc->é agradável, embora não muito útil</li>
+    <li>decentDesc->está cheio de ideias intrigantes, mas é penoso de ler</li>
+    <li>decentDesc->foi escrito por um intelecto de primeira com um temperamento de segunda</li>
+    <li>decentDesc->é razoável, ainda que profundamente corrompido</li>
+    <li>decentDesc->é aterrador no conteúdo e enfadonho na execução</li>
+    <li>excellentDesc->é o apogeu da literatura</li>
+    <li>excellentDesc->é profundamente perspicaz</li>
+    <li>excellentDesc->é notavelmente bem elaborado</li>
+    <li>excellentDesc->está bem organizado e tem uma estrutura profissional</li>
+    <li>excellentDesc->é quase poético em muitas partes</li>
+    <li>excellentDesc->é assustadoramente descritivo: muitas secções têm um estilo quase poético</li>
+    <li>excellentDesc->está cheio de ideias cintilantes que explodem na mente</li>
+  </Description_Tome.rulePack.rulesStrings>
   
 </LanguageData>

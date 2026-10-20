@@ -61,12 +61,74 @@
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] leaving</li>
     <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} thanks you for allowing {FACTION_leaderObjective} to stay at [map_definite] for these [questDurationTicks_duration]. {FACTION_leaderPronoun} is now moving on with {FACTION_leaderPossessive} people.\n\n{FACTION_leaderNameDef} says {FACTION_leaderPronoun} won't forget what you've done.</li>
   -->
-  <Hospitality_Refugee.questContentRules.rulesStrings>&lt;li>lastOrNot(lodgerCount=1)->&lt;/li>\n&lt;li>lastOrNot(lodgerCount>=2)->last&lt;/li>\n&lt;li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]&lt;/li>\n&lt;li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]&lt;/li>\n&lt;li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] chegou&lt;/li>\n&lt;li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [have] chegou. [lodgersPronoun] vai ficar com você para [questDurationTicks_duration] assim [lodgersPronoun] pode descansar e reagrupar.&lt;/li>\n&lt;li>hasHave(lodgerCount=1)->has&lt;/li>\n&lt;li>hasHave(lodgerCount>=2)->have&lt;/li>\n&lt;li> apareceuMasNoaction-> O (PAWNSALIVECOUNT_multiple ? outros parecem : último [lodgersLabel] é} chocado com isso, mas {PAWNSALIVECOUNT_multiple ? são: não está tomando ação contra você.&lt;/li>\n&lt;li> outros WillNotAccept-> O (PAWNSALIVECOUNT_multiple ? outros são: último [lodgersLabel] não está disposto a aceitar este&lt;/li>\n&lt;li>turnedViolent->[othersWillNotAccept], e {PAWNSALIVECOUNT_multiple ? ter : tem } virou violentamente contra você.&lt;/li>\n&lt;li>decidedToLeave->[othersWillNotAccept], e {PAWNSALIVECOUNT_multiple ? ter : has } decidiu sair.&lt;/li>\n&lt;li>whoAskedToStay-> que pediu para ficar com você&lt;/li>\n&lt;li>oneOfThe->um dos desesperados [faction_pawnsPlural] que pediu para ficar com você&lt;/li>\n&lt;li>questOver-> A busca '[resolvedQuestName]' acabou.&lt;/li>\n&lt;li>letterIntroDeath->{SUBJECT_definite}, [oneOfThe] morreu.&lt;/li>\n&lt;li>lodgerDiedMemoryThoughtLetterLabel->[lodgersLabel] morreu: Anger&lt;/li>\n&lt;li>lodgerDiedMemoryThoughtLetterText->[letterIntroDeath]\n\n[aparecidoMasNoação]&lt;/li>\n&lt;li>lodgerDiedAttackPlayerLetterLabel->[lodgersLabel] morreu: Revenge&lt;/li>\n&lt;li>lodgerDiedAttackPlayerLetterText->[letterIntroDeath]\n\n[turnedViolent]&lt;/li>\n&lt;li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] morreu: Partida&lt;/li>\n&lt;li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidido para deixar]&lt;/li>\n&lt;li>lodgersAllDiedLetterLabel->Quest falhou&lt;/li>\n&lt;li>lodgersAllDiedLetterText->{SUBJECT_definite}, o [lastOrNot] desesperado [faction_pawnSingular] [whoAskedToStay], morreu.\n\n[questOver]&lt;/li>\n&lt;li>letterIntroArrested-> Você prendeu {SUBJECT_definite}, [oneOfThe].&lt;/li>\n&lt;li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] preso: Anger&lt;/li>\n&lt;li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[aparecidoMasNoação]&lt;/li>\n&lt;li>lodgerArrestedAttackPlayerLetterLabel->[lodgersLabel] preso: Vingança &lt;/li>\n&lt;li>lodgerArrestedAttackPlayerLetterText->[letterIntroArrested]\n\n[turnedViolent]&lt;/li>\n&lt;li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel] preso: Saída&lt;/li>\n&lt;li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidido para deixar]&lt;/li>\n&lt;li>lodgersAllArrestedLetterLabel->Quest falhou&lt;/li>\n&lt;li>lodgersAllArrestedLetterText-> Você prendeu {SUBJECT_definite}, o [último OrNot] desesperado [faction_pawnSingular] [que AskedToStay].\n\n[questOver]&lt;/li>\n&lt;li>letterIntroViolated->{SUBJECT_definite}, [oneOfThe], foi violado pela cirurgia.&lt;/li>\n&lt;li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] violado: Anger&lt;/li>\n&lt;li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[aparecidoMasNoação]&lt;/li>\n&lt;li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] violado: Vingança &lt;/li>\n&lt;li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]&lt;/li>\n&lt;li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] violado: Partida &lt;/li>\n&lt;li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidido para deixar]&lt;/li>\n&lt;li>letterIntroPsychicRitualTarget->{SUBJECT_definite}, [oneOfThe], foi o alvo de um ritual psíquico.&lt;/li>\n&lt;li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->[lodgersLabel] violado: Anger&lt;/li>\n&lt;li>lodgerPsychicRitualTargetMemoryThoughtLetterText->[letterIntroPsychicRitualTarget]\n\n[aparecidoMasNoação]&lt;/li>\n&lt;li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->[lodgersLabel] violado: Vingança &lt;/li>\n&lt;li>lodgerPsychicRitualTargetAttackPlayerLetterText->[letterIntroPsychicRitualTarget]\n\n[turnedViolent]&lt;/li>\n&lt;li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] violado: Partida &lt;/li>\n&lt;li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidido para deixar]&lt;/li>\n&lt;li>mutinyLetterLabel->Betrayal&lt;/li>\n&lt;li>mutinyLetterText->[lodgersSingularOrPluralDef] [que AskedToStay] [areIs] se voltando contra você!\n\nParece que [lodgersPronoun] tinha esta traição planejada ao longo.&lt;/li>\n&lt;li>areIs(lodgerCount=1)->is&lt;/li>\n&lt;li>areIs(lodgerCount>=2)->are&lt;/li>\n&lt;li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] deixando&lt;/li>\n&lt;li>lodgersLeavingLetterText->{FACTION_leaderNameDef} Obrigado por permitir {FACTION_leaderObjective} ficar em [map_definite] para estes [questDurationTicks_duration]. {FACTION_leaderPronoun} agora está se movendo com {FACTION_leaderPossessive} pessoas.\n\n{FACTION_leaderNameDef} diz {FACTION_leaderPronoun} não vai esquecer o que você fez.&lt;/li>\n</Hospitality_Refugee.questContentRules.rulesStrings>
+  <Hospitality_Refugee.questContentRules.rulesStrings>
+    <li>lastOrNot(lodgerCount==1)->único</li>
+    <li>lastOrNot(lodgerCount>=2)->último</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] [hasHave]</li>
+    <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [hasHave]. A estadia contigo durará [questDurationTicks_duration], para descansar e reorganizar-se.</li>
+    <li>hasHave(lodgerCount==1)->chegou</li>
+    <li>hasHave(lodgerCount>=2)->chegaram</li>
+    <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? Os restantes ficaram horrorizados com isto, mas não estão : O último [lodgersLabel] ficou horrorizado com isto, mas não está} a tomar medidas contra ti.</li>
+    <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? Os restantes não estão dispostos : O último [lodgersLabel] não está disposto} a aceitar isto</li>
+    <li>turnedViolent->[othersWillNotAccept] e {PAWNSALIVECOUNT_multiple ? voltaram-se : voltou-se} violentamente contra ti.</li>
+    <li>decidedToLeave->[othersWillNotAccept] e {PAWNSALIVECOUNT_multiple ? decidiram : decidiu} partir.</li>
+    <li>whoAskedToStay->à procura de abrigo contigo</li>
+    <li>oneOfThe->um dos [faction_pawnsPlural] desesperados à procura de abrigo contigo</li>
+    <li>questOver->A missão '[resolvedQuestName]' terminou.</li>
+    <li>letterIntroDeath->{SUBJECT_definite}, [oneOfThe], morreu.</li>
+    <li>lodgerDiedMemoryThoughtLetterLabel->[lodgersLabel] morreu: Raiva</li>
+    <li>lodgerDiedMemoryThoughtLetterText->[letterIntroDeath]\n\n[appalledButNoAction]</li>
+    <li>lodgerDiedAttackPlayerLetterLabel->[lodgersLabel] morreu: Vingança</li>
+    <li>lodgerDiedAttackPlayerLetterText->[letterIntroDeath]\n\n[turnedViolent]</li>
+    <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] morreu: Partida</li>
+    <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>
+    <li>lodgersAllDiedLetterLabel->Missão falhada</li>
+    <li>lodgersAllDiedLetterText->{SUBJECT_definite}, o [lastOrNot] [faction_pawnSingular] desesperado [whoAskedToStay], morreu.\n\n[questOver]</li>
+    <li>letterIntroArrested->Prendeste {SUBJECT_definite}, [oneOfThe].</li>
+    <li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] preso: Raiva</li>
+    <li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[appalledButNoAction]</li>
+    <li>lodgerArrestedAttackPlayerLetterLabel->[lodgersLabel] preso: Vingança</li>
+    <li>lodgerArrestedAttackPlayerLetterText->[letterIntroArrested]\n\n[turnedViolent]</li>
+    <li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel] preso: Partida</li>
+    <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
+    <li>lodgersAllArrestedLetterLabel->Missão falhada</li>
+    <li>lodgersAllArrestedLetterText->Prendeste {SUBJECT_definite}, o [lastOrNot] [faction_pawnSingular] desesperado [whoAskedToStay].\n\n[questOver]</li>
+    <li>letterIntroLeftBehind->{SUBJECT_definite}, [oneOfThe], ficou para trás.</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterLabel->[lodgersLabel] deixado para trás: Raiva</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterText->[letterIntroLeftBehind]\n\n[appalledButNoAction]</li>
+    <li>lodgerLeftBehindLeaveMapLetterLabel->[lodgersLabel] deixado para trás: Partida</li>
+    <li>lodgerLeftBehindLeaveMapLetterText->[letterIntroLeftBehind]\n\n[decidedToLeave]</li>
+    <li>letterIntroViolated->{SUBJECT_definite}, [oneOfThe], foi alvo de uma cirurgia abusiva.</li>
+    <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] violado: Raiva</li>
+    <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] violado: Vingança</li>
+    <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
+    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] violado: Partida</li>
+    <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>letterIntroPsychicRitualTarget->{SUBJECT_definite}, [oneOfThe], foi alvo de um ritual psíquico.</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->[lodgersLabel] violado: Raiva</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterText->[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->[lodgersLabel] violado: Vingança</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterText->[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] violado: Partida</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
+    <li>mutinyLetterLabel->Traição</li>
+    <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [areIs] contra ti!\n\nParece que esta traição estava planeada desde o início.</li>
+    <li>areIs(lodgerCount==1)->está a virar-se</li>
+    <li>areIs(lodgerCount>=2)->estão a virar-se</li>
+    <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] a partir</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} agradece-te por lhe teres permitido ficar em [map_definite] durante estes [questDurationTicks_duration]. Retoma agora o caminho com o seu povo.\n\n{FACTION_leaderNameDef} diz que não esquecerá o que fizeste.</li>
+  </Hospitality_Refugee.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
     <li>lodgersLabelPlural->refugees</li>
   -->
-  <Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>&lt;li>lodgersLabel->refugee&lt;/li>\n&lt;li>lodgersLabelPlural->refugees&lt;/li>\n</Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
+  <Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->refugiado</li>
+    <li>lodgersLabelPlural->refugiados</li>
+  </Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>offer(lodgerCount==1)->offers</li>
     <li>offer(lodgerCount>=2)->offer</li>
@@ -104,7 +166,43 @@
     <li>travelerInfo(lodgerCount==1)->This [faction_pawnSingular] is</li>
     <li>travelerInfo(lodgerCount>=2)->These [faction_pawnsPlural] are</li>
   -->
-  <Hospitality_Refugee.questDescriptionRules.rulesStrings>&lt;li>offer(lodgerCount=1)->offers&lt;/li>\n&lt;li>offer(lodgerCount>=2)->offer&lt;/li>\n&lt;li>lodgersPronoun (lodgerCount=1)->[asker_pronoun]&lt;/li>\n&lt;li>lodgersPronoun (lodgerCount>=2)->they&lt;/li>\n&lt;li>lodgersPreposition(lodgerCount=1)->[asker_objective]self&lt;/li>\n&lt;li>lodgersPreposition(lodgerCount>=2)->themselves&lt;/li>\n&lt;li>lodgersObjective (lodgerCount=1)->[asker_objective]&lt;/li>\n&lt;li>lodgersObjective (lodgerCount>=2)->them&lt;/li>\n&lt;li>lodgersPossessive (lodgerCount=1)->[asker_possessive]&lt;/li>\n&lt;li>lodgersPossessive(lodgerCount>=2)->their&lt;/li>\n&lt;li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]&lt;/li>\n&lt;li>lodgersSingularOrPluralDef(lodgerCount>=2)-> the [lodgersLabelPlural]&lt;/li>\n&lt;li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] implora-lhe permissão para ficar em [map_definite] para [questDurationTicks_duration] assim [lodgersPronoun] pode descansar e reagrupar.\n\nEm troca, [lodgersPronoun] [oferta] para trabalhar e lutar gratuitamente durante esse tempo.\n\n[joinInfo] [lodgersPronoun] também pode recompensar você mais tarde por ajudar [lodgersObjective] - mas não há nenhuma maneira de saber [lodgersPossessive] verdadeiras intenções.\n\n[viagem] Info] não faz parte de qualquer facção. Se desejar, você pode optar por matar, prender, vender ou colher [lodgersObjective], sem consequências diplomáticas.&lt;/li>\n&lt;li>approachInfo (lodgerCount=1)-> Um desesperado [faction_pawnSingular] chamado [asker_nameDef] está se aproximando.&lt;/li>\n&lt;li>approachInfo (lodgerCount=2)->[asker_nameDef] e outro desesperado [faction_pawnSingular] estão se aproximando.&lt;/li>\n&lt;li>approachInfo(lodgerCount=2,childCount=1,priority=1)->[asker_nameDef] está se aproximando com uma criança em reboque.&lt;/li>\n&lt;li>approachInfo (lodgerCount>=3)->[lodgerCount] desesperado [faction_pawnsPlural] estão se aproximando. Seu líder é chamado [asker_nameDef].&lt;/li>\n&lt;li>approachInfo(lodgerCount>=3,childCount=1,priority=1)->[lodgerCount] desesperado [faction_pawnsPlural] incluindo uma criança estão se aproximando. Seu líder é chamado [asker_nameDef].&lt;/li>\n&lt;li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount] desesperado [faction_pawnsPlural] incluindo algumas crianças estão se aproximando. Seu líder é chamado [asker_nameDef].&lt;/li>\n&lt;li>approachInfo(lodgerCount>=3,allButOneChildren=true,priority=2)-> Um grupo de [lodgerCount] desesperado [faction_pawnsPlural] está se aproximando consistindo de [asker_nameDef] e [lodgersCountMinusOne] crianças [asker_pronoun] tomaram sob [asker_possessive] asa.&lt;/li>\n&lt;li>claimInfo(lodgerCount=1)->[asker_nameDef] afirma ter perdido [asker_possessive] casa em um ataque recente.&lt;/li>\n&lt;li>claimInfo (lodgerCount=1)->[asker_nameDef] afirma acordar de cryptosleep sozinho e amigável.&lt;/li>\n&lt;li>claimInfo(lodgerCount=1)->[asker_nameDef] afirma ter sido perseguido de [asker_possessive] casa por um ex-lover vengeful.&lt;/li>\n&lt;li>claimInfo(lodgerCount=1)->[asker_nameDef] afirma ter sido banido após um argumento com um líder da aldeia.&lt;/li>\n&lt;li>claimInfo (lodgerCount>=2)-> Eles afirmam ter perdido sua casa em um ataque recente.&lt;/li>\n&lt;li>claimInfo (lodgerCount>=2)-> Eles afirmam ter escapado de uma operação de colheita de órgãos.&lt;/li>\n&lt;li>claimInfo(lodgerCount>=2)-> Eles dizem que escaparam de uma caravana de escravos.&lt;/li>\n&lt;li>claimInfo(lodgerCount>=2)-> Eles dizem que os blights de cultura os deixaram desfiladeiro de sua aldeia.&lt;/li>\n&lt;li>claimInfo (lodgerCount>=2)-> Eles dizem que um grande flashstorm queimou sua casa.&lt;/li>\n&lt;li>claimInfo(lodgerCount>=2)-> Eles dizem que sua caravana foi emboscada e tudo foi tomado.&lt;/li>\n&lt;li>claimInfo(lodgerCount>=2)-> Eles dizem que foram banidos de sua cidade devido a divergências morais.&lt;/li>\n&lt;li>joinInfo (lodgerCount=1)-> Se você fizer [asker_objective] feliz, [asker_pronoun] pode oferecer para se juntar a você.\n&lt;li>joinInfo(lodgerCount>=2)-> Se você os fizer feliz, alguns deles podem oferecer para se juntar a você.\n&lt;li>travelerInfo (lodgerCount=1)-> Este [faction_pawnSingular] é&lt;/li>\n&lt;li>travelerInfo (lodgerCount>=2)->Estes [faction_pawnsPlural] são&lt;/li>\n</Hospitality_Refugee.questDescriptionRules.rulesStrings>
+  <Hospitality_Refugee.questDescriptionRules.rulesStrings>
+    <li>offer(lodgerCount==1)->oferece-se</li>
+    <li>offer(lodgerCount>=2)->oferecem-se</li>
+    <li>lodgersPronoun(lodgerCount==1)->[asker_pronoun]</li>
+    <li>lodgersPronoun(lodgerCount>=2)->eles</li>
+    <li>lodgersPreposition(lodgerCount==1)->si mesmo</li>
+    <li>lodgersPreposition(lodgerCount>=2)->si mesmos</li>
+    <li>lodgersObjective(lodgerCount==1)->[asker_objective]</li>
+    <li>lodgersObjective(lodgerCount>=2)->os</li>
+    <li>lodgersPossessive(lodgerCount==1)->d[asker_pronoun]</li>
+    <li>lodgersPossessive(lodgerCount>=2)->deles</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount>=2)->os [lodgersLabelPlural]</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] pede-te autorização para ficar em [map_definite] durante [questDurationTicks_duration], para descansar e reorganizar-se.\n\nEm troca, [lodgersPronoun] [offer] para trabalhar e lutar de graça durante esse período.\n\n[joinInfo] Poderá também haver uma recompensa mais tarde por esta ajuda, mas não há forma de saber quais as verdadeiras intenções [lodgersPossessive].\n\n[travelerInfo]. Se quiseres, podes optar por matar, prender, vender ou colher órgãos a essas pessoas, sem consequências diplomáticas.</li>
+    <li>approachInfo(lodgerCount==1)->Um [faction_pawnSingular] desesperado chamado [asker_nameDef] aproxima-se.</li>
+    <li>approachInfo(lodgerCount==2)->[asker_nameDef] e outro [faction_pawnSingular] desesperado aproximam-se.</li>
+    <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] aproxima-se com uma criança a reboque.</li>
+    <li>approachInfo(lodgerCount>=3)->Aproximam-se [lodgerCount] [faction_pawnsPlural] desesperados. O líder chama-se [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->Aproximam-se [lodgerCount] [faction_pawnsPlural] desesperados, incluindo uma criança. O líder chama-se [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->Aproximam-se [lodgerCount] [faction_pawnsPlural] desesperados, incluindo algumas crianças. O líder chama-se [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->Aproxima-se um grupo de [lodgerCount] [faction_pawnsPlural] desesperados, composto por [asker_nameDef] e [lodgersCountMinusOne] crianças que tomou sob a sua proteção.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma ter perdido a casa num ataque recente.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma ter acordado do criossono sem ninguém e sem amigos.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma ter fugido de casa por causa de um ex-amante vingativo.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma ter sofrido banimento depois de uma discussão com o líder de uma aldeia.</li>
+    <li>claimInfo(lodgerCount>=2)->Afirmam ter perdido a casa num ataque recente.</li>
+    <li>claimInfo(lodgerCount>=2)->Afirmam ter escapado a uma operação de extração de órgãos.</li>
+    <li>claimInfo(lodgerCount>=2)->Dizem ter fugido de uma caravana de escravos.</li>
+    <li>claimInfo(lodgerCount>=2)->Dizem que as pragas das colheitas os fizeram passar fome e abandonar a aldeia.</li>
+    <li>claimInfo(lodgerCount>=2)->Dizem que uma grande tempestade de relâmpagos queimou a sua casa.</li>
+    <li>claimInfo(lodgerCount>=2)->Dizem que a sua caravana foi emboscada e que lhes levaram tudo.</li>
+    <li>claimInfo(lodgerCount>=2)->Dizem que foram expulsos da sua cidade por desacordos morais.</li>
+    <li>joinInfo(lodgerCount==1)->Se [asker_nameDef] ficar feliz, poderá oferecer-se para se juntar a ti.</li>
+    <li>joinInfo(lodgerCount>=2)->Se os deixares felizes, alguns deles poderão oferecer-se para se juntar a ti.</li>
+    <li>travelerInfo(lodgerCount==1)->Este [faction_pawnSingular] não pertence a nenhuma fação</li>
+    <li>travelerInfo(lodgerCount>=2)->Estes [faction_pawnsPlural] não pertencem a nenhuma fação</li>
+  </Hospitality_Refugee.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(lodgerCount==1)->[asker_nameDef] the [lodgerAdj]</li>
     <li>questName(lodgerCount==1)->[athe] [lodgerAdj] [lodgerSingle]</li>
@@ -137,13 +235,173 @@
     <li>lodgerPlural->nomads</li>
     <li>lodgerPlural->vagabonds</li>
   -->
-  <Hospitality_Refugee.questNameRules.rulesStrings>&lt;li>questName(lodgerCount=1)->[asker_nameDef] the [lodgerAdj]&lt;/li>\n&lt;li>questName(lodgerCount=1)->[athe] [lodgerAdj] [lodgerSingle]&lt;/li>\n&lt;li>questName(p=2,lodgerCount>=2)->[lodgerAdj] [lodgerPlural]&lt;/li>\n&lt;li>questName(lodgerCount>=2)->[asker_nameDef]'s [lodgerAdj] [lodgerPlural]&lt;/li>\n&lt;li>questName(lodgerCount>=2)->[asker_nameDef]'s [lodgerPlural]&lt;/li>\n&lt;li>athe->a&lt;/li>a\n&lt;li>athe->the&lt;/li>\n&lt;li>lodgerAdj->tired&lt;/li>\n&lt;li>lodgerAdj->lost&lt;/li>\n&lt;li>lodgerAdj->destitute&lt;/li>\n&lt;li>lodgerAdj->poor&lt;/li>\n&lt;li>lodgerAdj->desperate&lt;/li>\n&lt;li>lodgerAdj->sad&lt;/li>\n&lt;li>lodgerAdj->dusty&lt;/li>\n&lt;li>lodgerAdj->hopeless&lt;/li>\n&lt;li>lodgerAdj->unknown&lt;/li>\n&lt;li>lodgerAdj->forlorn&lt;/li>\n&lt;li>lodgerAdj->forsaken&lt;/li>\n&lt;li>lodgerSingle->traveler&lt;/li>\n&lt;li>lodgerSingle->refuge&lt;/li>\n&lt;li>lodgerSingle->drifter&lt;/li>\n&lt;li>lodgerSingle->survivor&lt;/li>\n&lt;li>lodgerSingle->nomad&lt;/li>\n&lt;li>lodgerSingle->vagabond&lt;/li>\n&lt;li>lodgerPlural->travelers&lt;/li>\n&lt;li>lodgerPlural->refuge&lt;/li>\n&lt;li>lodgerPlural->drifters&lt;/li>\n&lt;li>lodgerPlural->survivors&lt;/li>\n&lt;li>lodgerPlural->nomads&lt;/li>\n&lt;li>lodgerPlural->vagabonds&lt;/li>\n</Hospitality_Refugee.questNameRules.rulesStrings>
+  <Hospitality_Refugee.questNameRules.rulesStrings>
+    <li>questName(lodgerCount==1)->[asker_nameDef] [lodgerAdj]</li>
+    <li>questName(lodgerCount==1)->[athe] [lodgerSingle] [lodgerAdj]</li>
+    <li>questName(p=2,lodgerCount>=2)->[lodgerPlural] [lodgerAdj]</li>
+    <li>questName(lodgerCount>=2)->[lodgerPlural] [lodgerAdj] de [asker_nameDef]</li>
+    <li>questName(lodgerCount>=2)->[lodgerPlural] de [asker_nameDef]</li>
+    <li>athe->um</li>
+    <li>athe->o</li>
+    <li>lodgerAdj->à beira da exaustão</li>
+    <li>lodgerAdj->sem rumo</li>
+    <li>lodgerAdj->na miséria</li>
+    <li>lodgerAdj->sem posses</li>
+    <li>lodgerAdj->em desespero</li>
+    <li>lodgerAdj->em tristeza</li>
+    <li>lodgerAdj->no pó da estrada</li>
+    <li>lodgerAdj->sem esperança</li>
+    <li>lodgerAdj->sem nome</li>
+    <li>lodgerAdj->à deriva</li>
+    <li>lodgerAdj->sem ninguém</li>
+    <li>lodgerSingle->viajante</li>
+    <li>lodgerSingle->refugiado</li>
+    <li>lodgerSingle->errante</li>
+    <li>lodgerSingle->sobrevivente</li>
+    <li>lodgerSingle->nómada</li>
+    <li>lodgerSingle->vagabundo</li>
+    <li>lodgerPlural->viajantes</li>
+    <li>lodgerPlural->refugiados</li>
+    <li>lodgerPlural->errantes</li>
+    <li>lodgerPlural->sobreviventes</li>
+    <li>lodgerPlural->nómadas</li>
+    <li>lodgerPlural->vagabundos</li>
+  </Hospitality_Refugee.questNameRules.rulesStrings>
   
   <!-- UNUSED -->
-  <Hospitality_Refugee.questContentRules.rulesStrings>&lt;li>lastOrNot(lodgerCount=1)->&lt;/li>\n&lt;li>lastOrNot(lodgerCount>=2)->last&lt;/li>\n&lt;li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]&lt;/li>\n&lt;li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]&lt;/li>\n&lt;li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] chegou&lt;/li>\n&lt;li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [have] chegou. [lodgersPronoun] vai ficar com você para [questDurationTicks_duration] assim [lodgersPronoun] pode descansar e reagrupar.&lt;/li>\n&lt;li>hasHave(lodgerCount=1)->has&lt;/li>\n&lt;li>hasHave(lodgerCount>=2)->have&lt;/li>\n&lt;li> apareceuMasNoaction-> O (PAWNSALIVECOUNT_multiple ? outros parecem : último [lodgersLabel] é} chocado com isso, mas {PAWNSALIVECOUNT_multiple ? são: não está tomando ação contra você.&lt;/li>\n&lt;li> outros WillNotAccept-> O (PAWNSALIVECOUNT_multiple ? outros são: último [lodgersLabel] não está disposto a aceitar este&lt;/li>\n&lt;li>turnedViolent->[othersWillNotAccept], e {PAWNSALIVECOUNT_multiple ? ter : tem } virou violentamente contra você.&lt;/li>\n&lt;li>decidedToLeave->[othersWillNotAccept], e {PAWNSALIVECOUNT_multiple ? ter : has } decidiu sair.&lt;/li>\n&lt;li>whoAskedToStay-> que pediu para ficar com você&lt;/li>\n&lt;li>oneOfThe->um dos desesperados [faction_pawnsPlural] que pediu para ficar com você&lt;/li>\n&lt;li>questOver-> A busca '[resolvedQuestName]' acabou.&lt;/li>\n&lt;li>letterIntroDeath->{SUBJECT_definite}, [oneOfThe] morreu.&lt;/li>\n&lt;li>lodgerDiedMemoryThoughtLetterLabel->[lodgersLabel] morreu: Anger&lt;/li>\n&lt;li>lodgerDiedMemoryThoughtLetterText->[letterIntroDeath]\n\n[aparecidoMasNoação]&lt;/li>\n&lt;li>lodgerDiedAttackPlayerLetterLabel->[lodgersLabel] morreu: Revenge&lt;/li>\n&lt;li>lodgerDiedAttackPlayerLetterText->[letterIntroDeath]\n\n[turnedViolent]&lt;/li>\n&lt;li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] morreu: Partida&lt;/li>\n&lt;li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidido para deixar]&lt;/li>\n&lt;li>lodgersAllDiedLetterLabel->Quest falhou&lt;/li>\n&lt;li>lodgersAllDiedLetterText->{SUBJECT_definite}, o [lastOrNot] desesperado [faction_pawnSingular] [whoAskedToStay], morreu.\n\n[questOver]&lt;/li>\n&lt;li>letterIntroArrested-> Você prendeu {SUBJECT_definite}, [oneOfThe].&lt;/li>\n&lt;li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] preso: Anger&lt;/li>\n&lt;li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[aparecidoMasNoação]&lt;/li>\n&lt;li>lodgerArrestedAttackPlayerLetterLabel->[lodgersLabel] preso: Vingança &lt;/li>\n&lt;li>lodgerArrestedAttackPlayerLetterText->[letterIntroArrested]\n\n[turnedViolent]&lt;/li>\n&lt;li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel] preso: Saída&lt;/li>\n&lt;li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidido para deixar]&lt;/li>\n&lt;li>lodgersAllArrestedLetterLabel->Quest falhou&lt;/li>\n&lt;li>lodgersAllArrestedLetterText-> Você prendeu {SUBJECT_definite}, o [último OrNot] desesperado [faction_pawnSingular] [que AskedToStay].\n\n[questOver]&lt;/li>\n&lt;li>letterIntroViolated->{SUBJECT_definite}, [oneOfThe], foi violado pela cirurgia.&lt;/li>\n&lt;li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] violado: Anger&lt;/li>\n&lt;li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[aparecidoMasNoação]&lt;/li>\n&lt;li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] violado: Vingança &lt;/li>\n&lt;li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]&lt;/li>\n&lt;li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] violado: Partida &lt;/li>\n&lt;li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidido para deixar]&lt;/li>\n&lt;li>letterIntroPsychicRitualTarget->{SUBJECT_definite}, [oneOfThe], foi o alvo de um ritual psíquico.&lt;/li>\n&lt;li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->[lodgersLabel] violado: Anger&lt;/li>\n&lt;li>lodgerPsychicRitualTargetMemoryThoughtLetterText->[letterIntroPsychicRitualTarget]\n\n[aparecidoMasNoação]&lt;/li>\n&lt;li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->[lodgersLabel] violado: Vingança &lt;/li>\n&lt;li>lodgerPsychicRitualTargetAttackPlayerLetterText->[letterIntroPsychicRitualTarget]\n\n[turnedViolent]&lt;/li>\n&lt;li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] violado: Partida &lt;/li>\n&lt;li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidido para deixar]&lt;/li>\n&lt;li>mutinyLetterLabel->Betrayal&lt;/li>\n&lt;li>mutinyLetterText->[lodgersSingularOrPluralDef] [que AskedToStay] [areIs] se voltando contra você!\n\nParece que [lodgersPronoun] tinha esta traição planejada ao longo.&lt;/li>\n&lt;li>areIs(lodgerCount=1)->is&lt;/li>\n&lt;li>areIs(lodgerCount>=2)->are&lt;/li>\n&lt;li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] deixando&lt;/li>\n&lt;li>lodgersLeavingLetterText->{FACTION_leaderNameDef} Obrigado por permitir {FACTION_leaderObjective} ficar em [map_definite] para estes [questDurationTicks_duration]. {FACTION_leaderPronoun} agora está se movendo com {FACTION_leaderPossessive} pessoas.\n\n{FACTION_leaderNameDef} diz {FACTION_leaderPronoun} não vai esquecer o que você fez.&lt;/li>\n</Hospitality_Refugee.questContentRules.rulesStrings>
-  <Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>&lt;li>lodgersLabel->refugee&lt;/li>\n&lt;li>lodgersLabelPlural->refugees&lt;/li>\n</Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
-  <Hospitality_Refugee.questDescriptionRules.rulesStrings>&lt;li>offer(lodgerCount=1)->offers&lt;/li>\n&lt;li>offer(lodgerCount>=2)->offer&lt;/li>\n&lt;li>lodgersPronoun (lodgerCount=1)->[asker_pronoun]&lt;/li>\n&lt;li>lodgersPronoun (lodgerCount>=2)->they&lt;/li>\n&lt;li>lodgersPreposition(lodgerCount=1)->[asker_objective]self&lt;/li>\n&lt;li>lodgersPreposition(lodgerCount>=2)->themselves&lt;/li>\n&lt;li>lodgersObjective (lodgerCount=1)->[asker_objective]&lt;/li>\n&lt;li>lodgersObjective (lodgerCount>=2)->them&lt;/li>\n&lt;li>lodgersPossessive (lodgerCount=1)->[asker_possessive]&lt;/li>\n&lt;li>lodgersPossessive(lodgerCount>=2)->their&lt;/li>\n&lt;li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]&lt;/li>\n&lt;li>lodgersSingularOrPluralDef(lodgerCount>=2)-> the [lodgersLabelPlural]&lt;/li>\n&lt;li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] implora-lhe permissão para ficar em [map_definite] para [questDurationTicks_duration] assim [lodgersPronoun] pode descansar e reagrupar.\n\nEm troca, [lodgersPronoun] [oferta] para trabalhar e lutar gratuitamente durante esse tempo.\n\n[joinInfo] [lodgersPronoun] também pode recompensar você mais tarde por ajudar [lodgersObjective] - mas não há nenhuma maneira de saber [lodgersPossessive] verdadeiras intenções.\n\n[viagem] Info] não faz parte de qualquer facção. Se desejar, você pode optar por matar, prender, vender ou colher [lodgersObjective], sem consequências diplomáticas.&lt;/li>\n&lt;li>approachInfo (lodgerCount=1)-> Um desesperado [faction_pawnSingular] chamado [asker_nameDef] está se aproximando.&lt;/li>\n&lt;li>approachInfo (lodgerCount=2)->[asker_nameDef] e outro desesperado [faction_pawnSingular] estão se aproximando.&lt;/li>\n&lt;li>approachInfo(lodgerCount=2,childCount=1,priority=1)->[asker_nameDef] está se aproximando com uma criança em reboque.&lt;/li>\n&lt;li>approachInfo (lodgerCount>=3)->[lodgerCount] desesperado [faction_pawnsPlural] estão se aproximando. Seu líder é chamado [asker_nameDef].&lt;/li>\n&lt;li>approachInfo(lodgerCount>=3,childCount=1,priority=1)->[lodgerCount] desesperado [faction_pawnsPlural] incluindo uma criança estão se aproximando. Seu líder é chamado [asker_nameDef].&lt;/li>\n&lt;li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount] desesperado [faction_pawnsPlural] incluindo algumas crianças estão se aproximando. Seu líder é chamado [asker_nameDef].&lt;/li>\n&lt;li>approachInfo(lodgerCount>=3,allButOneChildren=true,priority=2)-> Um grupo de [lodgerCount] desesperado [faction_pawnsPlural] está se aproximando consistindo de [asker_nameDef] e [lodgersCountMinusOne] crianças [asker_pronoun] tomaram sob [asker_possessive] asa.&lt;/li>\n&lt;li>claimInfo(lodgerCount=1)->[asker_nameDef] afirma ter perdido [asker_possessive] casa em um ataque recente.&lt;/li>\n&lt;li>claimInfo (lodgerCount=1)->[asker_nameDef] afirma acordar de cryptosleep sozinho e amigável.&lt;/li>\n&lt;li>claimInfo(lodgerCount=1)->[asker_nameDef] afirma ter sido perseguido de [asker_possessive] casa por um ex-lover vengeful.&lt;/li>\n&lt;li>claimInfo(lodgerCount=1)->[asker_nameDef] afirma ter sido banido após um argumento com um líder da aldeia.&lt;/li>\n&lt;li>claimInfo (lodgerCount>=2)-> Eles afirmam ter perdido sua casa em um ataque recente.&lt;/li>\n&lt;li>claimInfo (lodgerCount>=2)-> Eles afirmam ter escapado de uma operação de colheita de órgãos.&lt;/li>\n&lt;li>claimInfo(lodgerCount>=2)-> Eles dizem que escaparam de uma caravana de escravos.&lt;/li>\n&lt;li>claimInfo(lodgerCount>=2)-> Eles dizem que os blights de cultura os deixaram desfiladeiro de sua aldeia.&lt;/li>\n&lt;li>claimInfo (lodgerCount>=2)-> Eles dizem que um grande flashstorm queimou sua casa.&lt;/li>\n&lt;li>claimInfo(lodgerCount>=2)-> Eles dizem que sua caravana foi emboscada e tudo foi tomado.&lt;/li>\n&lt;li>claimInfo(lodgerCount>=2)-> Eles dizem que foram banidos de sua cidade devido a divergências morais.&lt;/li>\n&lt;li>joinInfo (lodgerCount=1)-> Se você fizer [asker_objective] feliz, [asker_pronoun] pode oferecer para se juntar a você.\n&lt;li>joinInfo(lodgerCount>=2)-> Se você os fizer feliz, alguns deles podem oferecer para se juntar a você.\n&lt;li>travelerInfo (lodgerCount=1)-> Este [faction_pawnSingular] é&lt;/li>\n&lt;li>travelerInfo (lodgerCount>=2)->Estes [faction_pawnsPlural] são&lt;/li>\n</Hospitality_Refugee.questDescriptionRules.rulesStrings>
-  <Hospitality_Refugee.questNameRules.rulesStrings>&lt;li>questName(lodgerCount=1)->[asker_nameDef] the [lodgerAdj]&lt;/li>\n&lt;li>questName(lodgerCount=1)->[athe] [lodgerAdj] [lodgerSingle]&lt;/li>\n&lt;li>questName(p=2,lodgerCount>=2)->[lodgerAdj] [lodgerPlural]&lt;/li>\n&lt;li>questName(lodgerCount>=2)->[asker_nameDef]'s [lodgerAdj] [lodgerPlural]&lt;/li>\n&lt;li>questName(lodgerCount>=2)->[asker_nameDef]'s [lodgerPlural]&lt;/li>\n&lt;li>athe->a&lt;/li>a\n&lt;li>athe->the&lt;/li>\n&lt;li>lodgerAdj->tired&lt;/li>\n&lt;li>lodgerAdj->lost&lt;/li>\n&lt;li>lodgerAdj->destitute&lt;/li>\n&lt;li>lodgerAdj->poor&lt;/li>\n&lt;li>lodgerAdj->desperate&lt;/li>\n&lt;li>lodgerAdj->sad&lt;/li>\n&lt;li>lodgerAdj->dusty&lt;/li>\n&lt;li>lodgerAdj->hopeless&lt;/li>\n&lt;li>lodgerAdj->unknown&lt;/li>\n&lt;li>lodgerAdj->forlorn&lt;/li>\n&lt;li>lodgerAdj->forsaken&lt;/li>\n&lt;li>lodgerSingle->traveler&lt;/li>\n&lt;li>lodgerSingle->refuge&lt;/li>\n&lt;li>lodgerSingle->drifter&lt;/li>\n&lt;li>lodgerSingle->survivor&lt;/li>\n&lt;li>lodgerSingle->nomad&lt;/li>\n&lt;li>lodgerSingle->vagabond&lt;/li>\n&lt;li>lodgerPlural->travelers&lt;/li>\n&lt;li>lodgerPlural->refuge&lt;/li>\n&lt;li>lodgerPlural->drifters&lt;/li>\n&lt;li>lodgerPlural->survivors&lt;/li>\n&lt;li>lodgerPlural->nomads&lt;/li>\n&lt;li>lodgerPlural->vagabonds&lt;/li>\n</Hospitality_Refugee.questNameRules.rulesStrings>
+  <Hospitality_Refugee.questContentRules.rulesStrings>
+    <li>lastOrNot(lodgerCount==1)->único</li>
+    <li>lastOrNot(lodgerCount>=2)->último</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] [hasHave]</li>
+    <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [hasHave]. A estadia contigo durará [questDurationTicks_duration], para descansar e reorganizar-se.</li>
+    <li>hasHave(lodgerCount==1)->chegou</li>
+    <li>hasHave(lodgerCount>=2)->chegaram</li>
+    <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? Os restantes ficaram horrorizados com isto, mas não estão : O último [lodgersLabel] ficou horrorizado com isto, mas não está} a tomar medidas contra ti.</li>
+    <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? Os restantes não estão dispostos : O último [lodgersLabel] não está disposto} a aceitar isto</li>
+    <li>turnedViolent->[othersWillNotAccept] e {PAWNSALIVECOUNT_multiple ? voltaram-se : voltou-se} violentamente contra ti.</li>
+    <li>decidedToLeave->[othersWillNotAccept] e {PAWNSALIVECOUNT_multiple ? decidiram : decidiu} partir.</li>
+    <li>whoAskedToStay->à procura de abrigo contigo</li>
+    <li>oneOfThe->um dos [faction_pawnsPlural] desesperados à procura de abrigo contigo</li>
+    <li>questOver->A missão '[resolvedQuestName]' terminou.</li>
+    <li>letterIntroDeath->{SUBJECT_definite}, [oneOfThe], morreu.</li>
+    <li>lodgerDiedMemoryThoughtLetterLabel->[lodgersLabel] morreu: Raiva</li>
+    <li>lodgerDiedMemoryThoughtLetterText->[letterIntroDeath]\n\n[appalledButNoAction]</li>
+    <li>lodgerDiedAttackPlayerLetterLabel->[lodgersLabel] morreu: Vingança</li>
+    <li>lodgerDiedAttackPlayerLetterText->[letterIntroDeath]\n\n[turnedViolent]</li>
+    <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] morreu: Partida</li>
+    <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>
+    <li>lodgersAllDiedLetterLabel->Missão falhada</li>
+    <li>lodgersAllDiedLetterText->{SUBJECT_definite}, o [lastOrNot] [faction_pawnSingular] desesperado [whoAskedToStay], morreu.\n\n[questOver]</li>
+    <li>letterIntroArrested->Prendeste {SUBJECT_definite}, [oneOfThe].</li>
+    <li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] preso: Raiva</li>
+    <li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[appalledButNoAction]</li>
+    <li>lodgerArrestedAttackPlayerLetterLabel->[lodgersLabel] preso: Vingança</li>
+    <li>lodgerArrestedAttackPlayerLetterText->[letterIntroArrested]\n\n[turnedViolent]</li>
+    <li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel] preso: Partida</li>
+    <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
+    <li>lodgersAllArrestedLetterLabel->Missão falhada</li>
+    <li>lodgersAllArrestedLetterText->Prendeste {SUBJECT_definite}, o [lastOrNot] [faction_pawnSingular] desesperado [whoAskedToStay].\n\n[questOver]</li>
+    <li>letterIntroLeftBehind->{SUBJECT_definite}, [oneOfThe], ficou para trás.</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterLabel->[lodgersLabel] deixado para trás: Raiva</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterText->[letterIntroLeftBehind]\n\n[appalledButNoAction]</li>
+    <li>lodgerLeftBehindLeaveMapLetterLabel->[lodgersLabel] deixado para trás: Partida</li>
+    <li>lodgerLeftBehindLeaveMapLetterText->[letterIntroLeftBehind]\n\n[decidedToLeave]</li>
+    <li>letterIntroViolated->{SUBJECT_definite}, [oneOfThe], foi alvo de uma cirurgia abusiva.</li>
+    <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] violado: Raiva</li>
+    <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] violado: Vingança</li>
+    <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
+    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] violado: Partida</li>
+    <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>letterIntroPsychicRitualTarget->{SUBJECT_definite}, [oneOfThe], foi alvo de um ritual psíquico.</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->[lodgersLabel] violado: Raiva</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterText->[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->[lodgersLabel] violado: Vingança</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterText->[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] violado: Partida</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
+    <li>mutinyLetterLabel->Traição</li>
+    <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [areIs] contra ti!\n\nParece que esta traição estava planeada desde o início.</li>
+    <li>areIs(lodgerCount==1)->está a virar-se</li>
+    <li>areIs(lodgerCount>=2)->estão a virar-se</li>
+    <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] a partir</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} agradece-te por lhe teres permitido ficar em [map_definite] durante estes [questDurationTicks_duration]. Retoma agora o caminho com o seu povo.\n\n{FACTION_leaderNameDef} diz que não esquecerá o que fizeste.</li>
+  </Hospitality_Refugee.questContentRules.rulesStrings>
+  <Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->refugiado</li>
+    <li>lodgersLabelPlural->refugiados</li>
+  </Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
+  <Hospitality_Refugee.questDescriptionRules.rulesStrings>
+    <li>offer(lodgerCount==1)->oferece-se</li>
+    <li>offer(lodgerCount>=2)->oferecem-se</li>
+    <li>lodgersPronoun(lodgerCount==1)->[asker_pronoun]</li>
+    <li>lodgersPronoun(lodgerCount>=2)->eles</li>
+    <li>lodgersPreposition(lodgerCount==1)->si mesmo</li>
+    <li>lodgersPreposition(lodgerCount>=2)->si mesmos</li>
+    <li>lodgersObjective(lodgerCount==1)->[asker_objective]</li>
+    <li>lodgersObjective(lodgerCount>=2)->os</li>
+    <li>lodgersPossessive(lodgerCount==1)->d[asker_pronoun]</li>
+    <li>lodgersPossessive(lodgerCount>=2)->deles</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount>=2)->os [lodgersLabelPlural]</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] pede-te autorização para ficar em [map_definite] durante [questDurationTicks_duration], para descansar e reorganizar-se.\n\nEm troca, [lodgersPronoun] [offer] para trabalhar e lutar de graça durante esse período.\n\n[joinInfo] Poderá também haver uma recompensa mais tarde por esta ajuda, mas não há forma de saber quais as verdadeiras intenções [lodgersPossessive].\n\n[travelerInfo]. Se quiseres, podes optar por matar, prender, vender ou colher órgãos a essas pessoas, sem consequências diplomáticas.</li>
+    <li>approachInfo(lodgerCount==1)->Um [faction_pawnSingular] desesperado chamado [asker_nameDef] aproxima-se.</li>
+    <li>approachInfo(lodgerCount==2)->[asker_nameDef] e outro [faction_pawnSingular] desesperado aproximam-se.</li>
+    <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] aproxima-se com uma criança a reboque.</li>
+    <li>approachInfo(lodgerCount>=3)->Aproximam-se [lodgerCount] [faction_pawnsPlural] desesperados. O líder chama-se [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->Aproximam-se [lodgerCount] [faction_pawnsPlural] desesperados, incluindo uma criança. O líder chama-se [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->Aproximam-se [lodgerCount] [faction_pawnsPlural] desesperados, incluindo algumas crianças. O líder chama-se [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->Aproxima-se um grupo de [lodgerCount] [faction_pawnsPlural] desesperados, composto por [asker_nameDef] e [lodgersCountMinusOne] crianças que tomou sob a sua proteção.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma ter perdido a casa num ataque recente.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma ter acordado do criossono sem ninguém e sem amigos.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma ter fugido de casa por causa de um ex-amante vingativo.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] afirma ter sofrido banimento depois de uma discussão com o líder de uma aldeia.</li>
+    <li>claimInfo(lodgerCount>=2)->Afirmam ter perdido a casa num ataque recente.</li>
+    <li>claimInfo(lodgerCount>=2)->Afirmam ter escapado a uma operação de extração de órgãos.</li>
+    <li>claimInfo(lodgerCount>=2)->Dizem ter fugido de uma caravana de escravos.</li>
+    <li>claimInfo(lodgerCount>=2)->Dizem que as pragas das colheitas os fizeram passar fome e abandonar a aldeia.</li>
+    <li>claimInfo(lodgerCount>=2)->Dizem que uma grande tempestade de relâmpagos queimou a sua casa.</li>
+    <li>claimInfo(lodgerCount>=2)->Dizem que a sua caravana foi emboscada e que lhes levaram tudo.</li>
+    <li>claimInfo(lodgerCount>=2)->Dizem que foram expulsos da sua cidade por desacordos morais.</li>
+    <li>joinInfo(lodgerCount==1)->Se [asker_nameDef] ficar feliz, poderá oferecer-se para se juntar a ti.</li>
+    <li>joinInfo(lodgerCount>=2)->Se os deixares felizes, alguns deles poderão oferecer-se para se juntar a ti.</li>
+    <li>travelerInfo(lodgerCount==1)->Este [faction_pawnSingular] não pertence a nenhuma fação</li>
+    <li>travelerInfo(lodgerCount>=2)->Estes [faction_pawnsPlural] não pertencem a nenhuma fação</li>
+  </Hospitality_Refugee.questDescriptionRules.rulesStrings>
+  <Hospitality_Refugee.questNameRules.rulesStrings>
+    <li>questName(lodgerCount==1)->[asker_nameDef] [lodgerAdj]</li>
+    <li>questName(lodgerCount==1)->[athe] [lodgerSingle] [lodgerAdj]</li>
+    <li>questName(p=2,lodgerCount>=2)->[lodgerPlural] [lodgerAdj]</li>
+    <li>questName(lodgerCount>=2)->[lodgerPlural] [lodgerAdj] de [asker_nameDef]</li>
+    <li>questName(lodgerCount>=2)->[lodgerPlural] de [asker_nameDef]</li>
+    <li>athe->um</li>
+    <li>athe->o</li>
+    <li>lodgerAdj->à beira da exaustão</li>
+    <li>lodgerAdj->sem rumo</li>
+    <li>lodgerAdj->na miséria</li>
+    <li>lodgerAdj->sem posses</li>
+    <li>lodgerAdj->em desespero</li>
+    <li>lodgerAdj->em tristeza</li>
+    <li>lodgerAdj->no pó da estrada</li>
+    <li>lodgerAdj->sem esperança</li>
+    <li>lodgerAdj->sem nome</li>
+    <li>lodgerAdj->à deriva</li>
+    <li>lodgerAdj->sem ninguém</li>
+    <li>lodgerSingle->viajante</li>
+    <li>lodgerSingle->refugiado</li>
+    <li>lodgerSingle->errante</li>
+    <li>lodgerSingle->sobrevivente</li>
+    <li>lodgerSingle->nómada</li>
+    <li>lodgerSingle->vagabundo</li>
+    <li>lodgerPlural->viajantes</li>
+    <li>lodgerPlural->refugiados</li>
+    <li>lodgerPlural->errantes</li>
+    <li>lodgerPlural->sobreviventes</li>
+    <li>lodgerPlural->nómadas</li>
+    <li>lodgerPlural->vagabundos</li>
+  </Hospitality_Refugee.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
@@ -161,12 +419,30 @@
     <li>otherMembers(lodgerCount>=2)-> and all other members of the [faction_name]</li>
     <li>questOver->The quest '[resolvedQuestName]' is over.</li>
   -->
-  <RefugeeBetrayal.questContentRules.rulesStrings>&lt;li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]&lt;/li>\n&lt;li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]&lt;/li>\n&lt;li>betrayalOfferRewardLetterLabel-> Recompensa de traição: [factionOpponent_nameDef]&lt;/li>\n&lt;li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] prometeu-lhe uma recompensa se você matou [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] ouviu notícias que isso foi feito e está enviando-lhe o seguinte via drop pod (valor total [betrayalRewardMarketValue_money]):\n\n[Recompensas de Radiografia].\n\n[questOver]&lt;/li>\n&lt;li>betrayalOfferFailed PorqueRecruitedLetterLabel->Betrayal recompensa retracted&lt;/li>\n&lt;li>betrayalOfferFailed PorqueRecruitedLetterText->[factionOpponent_nameDef] aprendeu que todos os membros sobreviventes do [faction_name] se juntaram à sua facção! [factionOpponent_nameDef] queria que todos os membros do [faction_name] morressem e, portanto, retraíram [factionOpponent_possessive] oferecem.&lt;/li>\n&lt;li>betrayalOfferFailedLetterLabel->Recompensa tradicional retraída&lt;/li>\n&lt;li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] aprendeu que um dos membros do [faction_name] não está mais em [map_definite]. [factionOpponent_nameDef] queria que todos os membros do [faction_name] morressem e, portanto, retraíram [factionOpponent_possessive] oferecem.&lt;/li>\n&lt;li>otherLodgers(lodgerCount=1)->&lt;/li>\n&lt;li>otherLodgers(lodgerCount=2)-> e outro [lodgersLabel]&lt;/li>\n&lt;li>otherLodgers(lodgerCount>=3)-> e vários [lodgersLabelPlural]&lt;/li>\n&lt;li>otherMembers(lodgerCount=1)->&lt;/li>\n&lt;li>otherMembers(lodgerCount>=2)-> e todos os outros membros do [faction_name]&lt;/li>\n&lt;li>questOver-> A busca '[resolvedQuestName]' acabou.&lt;/li>\n</RefugeeBetrayal.questContentRules.rulesStrings>
+  <RefugeeBetrayal.questContentRules.rulesStrings>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>betrayalOfferRewardLetterLabel->Recompensa por traição: [factionOpponent_nameDef]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] prometeu-te uma recompensa se matasses [asker_nameDef] [otherMembers]. Soube que isso foi feito e está a enviar-te o seguinte por cápsula de aterragem (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterLabel->Recompensa por traição retirada</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] soube que todos os membros sobreviventes de [faction_name] se juntaram à tua fação! [factionOpponent_nameDef] queria que todos os membros de [faction_name] morressem e por isso retirou a oferta.</li>
+    <li>betrayalOfferFailedLetterLabel->Recompensa por traição retirada</li>
+    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] soube que um dos membros de [faction_name] já não está em [map_definite]. [factionOpponent_nameDef] queria que todos os membros de [faction_name] morressem e por isso retirou a oferta.</li>
+    <li>otherLodgers(lodgerCount==1)-></li>
+    <li>otherLodgers(lodgerCount==2)->e outro [lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount>=3)->e vários [lodgersLabelPlural]</li>
+    <li>otherMembers(lodgerCount==1)-></li>
+    <li>otherMembers(lodgerCount>=2)-> e todos os outros membros de [faction_name]</li>
+    <li>questOver->A missão '[resolvedQuestName]' terminou.</li>
+  </RefugeeBetrayal.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
     <li>lodgersLabelPlural->refugees</li>
   -->
-  <RefugeeBetrayal.questDescriptionAndNameRules.rulesStrings>&lt;li>lodgersLabel->refugee&lt;/li>\n&lt;li>lodgersLabelPlural->refugees&lt;/li>\n</RefugeeBetrayal.questDescriptionAndNameRules.rulesStrings>
+  <RefugeeBetrayal.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->refugiado</li>
+    <li>lodgersLabelPlural->refugiados</li>
+  </RefugeeBetrayal.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[factionOpponent_nameDef], a [factionOpponent_faction_pawnSingular] of [factionOpponent_faction_name], has learned that [asker_nameDef] [otherLodgers] [areIs] being hosted at [map_definite]. [factionOpponent_pronoun] is enemies with [asker_nameDef] and wants to see [asker_objective] dead.\n\n[factionOpponent_pronoun] will send you the following reward if you kill all members of [faction_name] (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
@@ -179,35 +455,93 @@
     <li>areIs(lodgerCount==1)->is</li>
     <li>areIs(lodgerCount>=2)->are</li>
   -->
-  <RefugeeBetrayal.questDescriptionRules.rulesStrings>&lt;li>questDescription->[factionOpponent_nameDef], a [factionOpponent_faction_pawnSingular] of [factionOpponent_faction_name], aprendeu que [asker_nameDef] [otherLodgers] [areIs] está sendo hospedado em [map_definite]. [factionOpponent_pronoun] é inimigos com [asker_nameDef] e quer ver [asker_objective] morto.\n\n[factionOpponent_pronoun] lhe enviará a seguinte recompensa se você matar todos os membros de [faction_name] (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]&lt;/li>\n&lt;li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]&lt;/li>\n&lt;li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]&lt;/li>\n&lt;li>otherLodgers(lodgerCount=1)->&lt;/li>\n&lt;li>otherLodgers(lodgerCount=2)-> e outro [lodgersLabel]&lt;/li>\n&lt;li>otherLodgers(lodgerCount>=3)-> e vários [lodgersLabelPlural]&lt;/li>\n&lt;li>otherMembers(lodgerCount=1)->&lt;/li>\n&lt;li>otherMembers(lodgerCount>=2)-> e todos os outros membros do [faction_name]&lt;/li>\n&lt;li>areIs(lodgerCount=1)->is&lt;/li>\n&lt;li>areIs(lodgerCount>=2)->are&lt;/li>\n</RefugeeBetrayal.questDescriptionRules.rulesStrings>
+  <RefugeeBetrayal.questDescriptionRules.rulesStrings>
+    <li>questDescription->[factionOpponent_nameDef], [factionOpponent_faction_pawnSingular] de [factionOpponent_faction_name], soube que [asker_nameDef] [otherLodgers] [areIs] em [map_definite]. [factionOpponent_nameDef] tem uma inimizade com [asker_nameDef] e quer a sua morte.\n\n[factionOpponent_nameDef] enviar-te-á a seguinte recompensa se matares todos os membros de [faction_name] (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>otherLodgers(lodgerCount==1)-></li>
+    <li>otherLodgers(lodgerCount==2)->e outro [lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount>=3)->e vários [lodgersLabelPlural]</li>
+    <li>otherMembers(lodgerCount==1)-></li>
+    <li>otherMembers(lodgerCount>=2)-> e todos os outros membros de [faction_name]</li>
+    <li>areIs(lodgerCount==1)->tem alojamento</li>
+    <li>areIs(lodgerCount>=2)->têm alojamento</li>
+  </RefugeeBetrayal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Betrayal offer: [factionOpponent_nameDef]</li>
   -->
-  <RefugeeBetrayal.questNameRules.rulesStrings>&lt;li>questName-> Oferta original: [factionOpponent_nameDef]&lt;/li>\n</RefugeeBetrayal.questNameRules.rulesStrings>
+  <RefugeeBetrayal.questNameRules.rulesStrings>
+    <li>questName->Oferta de traição: [factionOpponent_nameDef]</li>
+  </RefugeeBetrayal.questNameRules.rulesStrings>
   
   <!-- UNUSED -->
-  <RefugeeBetrayal.questContentRules.rulesStrings>&lt;li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]&lt;/li>\n&lt;li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]&lt;/li>\n&lt;li>betrayalOfferRewardLetterLabel-> Recompensa de traição: [factionOpponent_nameDef]&lt;/li>\n&lt;li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] prometeu-lhe uma recompensa se você matou [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] ouviu notícias que isso foi feito e está enviando-lhe o seguinte via drop pod (valor total [betrayalRewardMarketValue_money]):\n\n[Recompensas de Radiografia].\n\n[questOver]&lt;/li>\n&lt;li>betrayalOfferFailed PorqueRecruitedLetterLabel->Betrayal recompensa retracted&lt;/li>\n&lt;li>betrayalOfferFailed PorqueRecruitedLetterText->[factionOpponent_nameDef] aprendeu que todos os membros sobreviventes do [faction_name] se juntaram à sua facção! [factionOpponent_nameDef] queria que todos os membros do [faction_name] morressem e, portanto, retraíram [factionOpponent_possessive] oferecem.&lt;/li>\n&lt;li>betrayalOfferFailedLetterLabel->Recompensa tradicional retraída&lt;/li>\n&lt;li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] aprendeu que um dos membros do [faction_name] não está mais em [map_definite]. [factionOpponent_nameDef] queria que todos os membros do [faction_name] morressem e, portanto, retraíram [factionOpponent_possessive] oferecem.&lt;/li>\n&lt;li>otherLodgers(lodgerCount=1)->&lt;/li>\n&lt;li>otherLodgers(lodgerCount=2)-> e outro [lodgersLabel]&lt;/li>\n&lt;li>otherLodgers(lodgerCount>=3)-> e vários [lodgersLabelPlural]&lt;/li>\n&lt;li>otherMembers(lodgerCount=1)->&lt;/li>\n&lt;li>otherMembers(lodgerCount>=2)-> e todos os outros membros do [faction_name]&lt;/li>\n&lt;li>questOver-> A busca '[resolvedQuestName]' acabou.&lt;/li>\n</RefugeeBetrayal.questContentRules.rulesStrings>
-  <RefugeeBetrayal.questDescriptionAndNameRules.rulesStrings>&lt;li>lodgersLabel->refugee&lt;/li>\n&lt;li>lodgersLabelPlural->refugees&lt;/li>\n</RefugeeBetrayal.questDescriptionAndNameRules.rulesStrings>
-  <RefugeeBetrayal.questDescriptionRules.rulesStrings>&lt;li>questDescription->[factionOpponent_nameDef], a [factionOpponent_faction_pawnSingular] of [factionOpponent_faction_name], aprendeu que [asker_nameDef] [otherLodgers] [areIs] está sendo hospedado em [map_definite]. [factionOpponent_pronoun] é inimigos com [asker_nameDef] e quer ver [asker_objective] morto.\n\n[factionOpponent_pronoun] lhe enviará a seguinte recompensa se você matar todos os membros de [faction_name] (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]&lt;/li>\n&lt;li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]&lt;/li>\n&lt;li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]&lt;/li>\n&lt;li>otherLodgers(lodgerCount=1)->&lt;/li>\n&lt;li>otherLodgers(lodgerCount=2)-> e outro [lodgersLabel]&lt;/li>\n&lt;li>otherLodgers(lodgerCount>=3)-> e vários [lodgersLabelPlural]&lt;/li>\n&lt;li>otherMembers(lodgerCount=1)->&lt;/li>\n&lt;li>otherMembers(lodgerCount>=2)-> e todos os outros membros do [faction_name]&lt;/li>\n&lt;li>areIs(lodgerCount=1)->is&lt;/li>\n&lt;li>areIs(lodgerCount>=2)->are&lt;/li>\n</RefugeeBetrayal.questDescriptionRules.rulesStrings>
-  <RefugeeBetrayal.questNameRules.rulesStrings>&lt;li>questName-> Oferta original: [factionOpponent_nameDef]&lt;/li>\n</RefugeeBetrayal.questNameRules.rulesStrings>
+  <RefugeeBetrayal.questContentRules.rulesStrings>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>betrayalOfferRewardLetterLabel->Recompensa por traição: [factionOpponent_nameDef]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] prometeu-te uma recompensa se matasses [asker_nameDef] [otherMembers]. Soube que isso foi feito e está a enviar-te o seguinte por cápsula de aterragem (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterLabel->Recompensa por traição retirada</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] soube que todos os membros sobreviventes de [faction_name] se juntaram à tua fação! [factionOpponent_nameDef] queria que todos os membros de [faction_name] morressem e por isso retirou a oferta.</li>
+    <li>betrayalOfferFailedLetterLabel->Recompensa por traição retirada</li>
+    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] soube que um dos membros de [faction_name] já não está em [map_definite]. [factionOpponent_nameDef] queria que todos os membros de [faction_name] morressem e por isso retirou a oferta.</li>
+    <li>otherLodgers(lodgerCount==1)-></li>
+    <li>otherLodgers(lodgerCount==2)->e outro [lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount>=3)->e vários [lodgersLabelPlural]</li>
+    <li>otherMembers(lodgerCount==1)-></li>
+    <li>otherMembers(lodgerCount>=2)-> e todos os outros membros de [faction_name]</li>
+    <li>questOver->A missão '[resolvedQuestName]' terminou.</li>
+  </RefugeeBetrayal.questContentRules.rulesStrings>
+  <RefugeeBetrayal.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->refugiado</li>
+    <li>lodgersLabelPlural->refugiados</li>
+  </RefugeeBetrayal.questDescriptionAndNameRules.rulesStrings>
+  <RefugeeBetrayal.questDescriptionRules.rulesStrings>
+    <li>questDescription->[factionOpponent_nameDef], [factionOpponent_faction_pawnSingular] de [factionOpponent_faction_name], soube que [asker_nameDef] [otherLodgers] [areIs] em [map_definite]. [factionOpponent_nameDef] tem uma inimizade com [asker_nameDef] e quer a sua morte.\n\n[factionOpponent_nameDef] enviar-te-á a seguinte recompensa se matares todos os membros de [faction_name] (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>otherLodgers(lodgerCount==1)-></li>
+    <li>otherLodgers(lodgerCount==2)->e outro [lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount>=3)->e vários [lodgersLabelPlural]</li>
+    <li>otherMembers(lodgerCount==1)-></li>
+    <li>otherMembers(lodgerCount>=2)-> e todos os outros membros de [faction_name]</li>
+    <li>areIs(lodgerCount==1)->tem alojamento</li>
+    <li>areIs(lodgerCount>=2)->têm alojamento</li>
+  </RefugeeBetrayal.questDescriptionRules.rulesStrings>
+  <RefugeeBetrayal.questNameRules.rulesStrings>
+    <li>questName->Oferta de traição: [factionOpponent_nameDef]</li>
+  </RefugeeBetrayal.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>rewardLetterLabel->Hospitality reward</li>
     <li>rewardLetterText->[rewardGiver_nameDef] has contacted you. [rewardDelayTicks_duration] ago, you helped [rewardGiver_objective] in desperate circumstances.\n\nSince then, [rewardGiver_pronoun] has gotten back on [rewardGiver_possessive] feet, and now [rewardGiver_pronoun] wants to reward you properly for your help. [rewardGiver_pronoun] is sending you the following via drop pod:\n\n[listOfRewards]</li>
   -->
-  <RefugeeDelayedReward.questContentRules.rulesStrings>&lt;li>rewardLetterLabel->Hospitality recompensa&lt;/li>\n&lt;li>rewardLetterText->[rewardGiver_nameDef] contactou você. [rewardDelayTicks_duration] atrás, você ajudou [rewardGiver_objective] em circunstâncias desesperadas.\n\nDesde então, [rewardGiver_pronoun] voltou em [rewardGiver_possessive] pés, e agora [rewardGiver_pronoun] quer recompensar você corretamente para sua ajuda. [rewardGiver_pronoun] está enviando-lhe o seguinte via drop pod:\n\n[listOfRewards]&lt;/li>\n</RefugeeDelayedReward.questContentRules.rulesStrings>
+  <RefugeeDelayedReward.questContentRules.rulesStrings>
+    <li>rewardLetterLabel->Recompensa de hospitalidade</li>
+    <li>rewardLetterText->[rewardGiver_nameDef] entrou em contacto contigo. Há [rewardDelayTicks_duration], ajudaste esta pessoa em circunstâncias desesperadas.\n\nDesde então, recuperou a vida e agora quer recompensar-te devidamente pela ajuda. Está a enviar-te o seguinte por cápsula de aterragem:\n\n[listOfRewards]</li>
+  </RefugeeDelayedReward.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->a delayed reward for refugee quest</li>
   -->
-  <RefugeeDelayedReward.questDescriptionRules.rulesStrings>&lt;li>questDescription->a recompensa adiada por refugiado quest&lt;/li>\n</RefugeeDelayedReward.questDescriptionRules.rulesStrings>
+  <RefugeeDelayedReward.questDescriptionRules.rulesStrings>
+    <li>questDescription->uma recompensa tardia pela missão de refugiados</li>
+  </RefugeeDelayedReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Refugee delayed reward</li>
   -->
-  <RefugeeDelayedReward.questNameRules.rulesStrings>&lt;li>questName->Refugee delay recompensa&lt;/li>\n</RefugeeDelayedReward.questNameRules.rulesStrings>
+  <RefugeeDelayedReward.questNameRules.rulesStrings>
+    <li>questName->Recompensa tardia de refugiado</li>
+  </RefugeeDelayedReward.questNameRules.rulesStrings>
   
   <!-- UNUSED -->
-  <RefugeeDelayedReward.questContentRules.rulesStrings>&lt;li>rewardLetterLabel->Hospitality recompensa&lt;/li>\n&lt;li>rewardLetterText->[rewardGiver_nameDef] contactou você. [rewardDelayTicks_duration] atrás, você ajudou [rewardGiver_objective] em circunstâncias desesperadas.\n\nDesde então, [rewardGiver_pronoun] voltou em [rewardGiver_possessive] pés, e agora [rewardGiver_pronoun] quer recompensar você corretamente para sua ajuda. [rewardGiver_pronoun] está enviando-lhe o seguinte via drop pod:\n\n[listOfRewards]&lt;/li>\n</RefugeeDelayedReward.questContentRules.rulesStrings>
-  <RefugeeDelayedReward.questDescriptionRules.rulesStrings>&lt;li>questDescription->a recompensa adiada por refugiado quest&lt;/li>\n</RefugeeDelayedReward.questDescriptionRules.rulesStrings>
-  <RefugeeDelayedReward.questNameRules.rulesStrings>&lt;li>questName->Refugee delay recompensa&lt;/li>\n</RefugeeDelayedReward.questNameRules.rulesStrings>
+  <RefugeeDelayedReward.questContentRules.rulesStrings>
+    <li>rewardLetterLabel->Recompensa de hospitalidade</li>
+    <li>rewardLetterText->[rewardGiver_nameDef] entrou em contacto contigo. Há [rewardDelayTicks_duration], ajudaste esta pessoa em circunstâncias desesperadas.\n\nDesde então, recuperou a vida e agora quer recompensar-te devidamente pela ajuda. Está a enviar-te o seguinte por cápsula de aterragem:\n\n[listOfRewards]</li>
+  </RefugeeDelayedReward.questContentRules.rulesStrings>
+  <RefugeeDelayedReward.questDescriptionRules.rulesStrings>
+    <li>questDescription->uma recompensa tardia pela missão de refugiados</li>
+  </RefugeeDelayedReward.questDescriptionRules.rulesStrings>
+  <RefugeeDelayedReward.questNameRules.rulesStrings>
+    <li>questName->Recompensa tardia de refugiado</li>
+  </RefugeeDelayedReward.questNameRules.rulesStrings>
   
 </LanguageData>

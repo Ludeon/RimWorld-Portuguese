@@ -13,10 +13,32 @@
     <li>terrain_word->points</li>
     <li>terrain_word->chain</li>
   -->
-  <NamerArchipelago.rulePack.rulesStrings>&lt;li>r_name(p=0.2)->isle [narrative_name]&lt;/li>\n&lt;li>terrain_word(p=4)->islands&lt;/li>\n&lt;li>terrain_word(p=3)->isles&lt;/li>\n&lt;li>terrain_word(p=3)->arquipélago&lt;/li>\n&lt;li>terrain_word->reef&lt;/li>\n&lt;li>terrain_word->atoll&lt;/li>\n&lt;li>terrain_word->rocks&lt;/li>\n&lt;li>terrain_word->islets&lt;/li>\n&lt;li>terrain_word->points&lt;/li>\n&lt;li>terrain_word->chain&lt;/li>\n</NamerArchipelago.rulePack.rulesStrings>
+  <NamerArchipelago.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->ilha de [narrative_name]</li>
+    <li>terrain_word(p=4)->ilhas</li>
+    <li>terrain_word(p=3)->ilhas</li>
+    <li>terrain_word(p=3)->arquipélago</li>
+    <li>terrain_word->recife</li>
+    <li>terrain_word->atol</li>
+    <li>terrain_word->rochedos</li>
+    <li>terrain_word->ilhéus</li>
+    <li>terrain_word->pontas</li>
+    <li>terrain_word->cadeia de ilhas</li>
+  </NamerArchipelago.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerArchipelago.rulePack.rulesStrings>&lt;li>r_name(p=0.2)->isle [narrative_name]&lt;/li>\n&lt;li>terrain_word(p=4)->islands&lt;/li>\n&lt;li>terrain_word(p=3)->isles&lt;/li>\n&lt;li>terrain_word(p=3)->arquipélago&lt;/li>\n&lt;li>terrain_word->reef&lt;/li>\n&lt;li>terrain_word->atoll&lt;/li>\n&lt;li>terrain_word->rocks&lt;/li>\n&lt;li>terrain_word->islets&lt;/li>\n&lt;li>terrain_word->points&lt;/li>\n&lt;li>terrain_word->chain&lt;/li>\n</NamerArchipelago.rulePack.rulesStrings>
+  <NamerArchipelago.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->ilha de [narrative_name]</li>
+    <li>terrain_word(p=4)->ilhas</li>
+    <li>terrain_word(p=3)->ilhas</li>
+    <li>terrain_word(p=3)->arquipélago</li>
+    <li>terrain_word->recife</li>
+    <li>terrain_word->atol</li>
+    <li>terrain_word->rochedos</li>
+    <li>terrain_word->ilhéus</li>
+    <li>terrain_word->pontas</li>
+    <li>terrain_word->cadeia de ilhas</li>
+  </NamerArchipelago.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=4)->shrubland</li>
@@ -28,10 +50,28 @@
     <li>terrain_word->brush</li>
     <li>terrain_word->barrens</li>
   -->
-  <NamerAridShrubland.rulePack.rulesStrings>&lt;li>terrain_word(p=4)->shrubland&lt;/li>\n&lt;li>terrain_word(p=4)->scrubland&lt;/li>\n&lt;li>terrain_word(p=2)->plateau&lt;/li>\n&lt;li>terrain_word(p=2)->scrub&lt;/li>\n&lt;li>terrain_word->desert&lt;/li>\n&lt;li>terrain_word->bush&lt;/li>\n&lt;li>terrain_word->brush&lt;/li>\n&lt;li>terrain_word->barrens&lt;/li>\n</NamerAridShrubland.rulePack.rulesStrings>
+  <NamerAridShrubland.rulePack.rulesStrings>
+    <li>terrain_word(p=4)->matagal</li>
+    <li>terrain_word(p=4)->charneca</li>
+    <li>terrain_word(p=2)->planalto</li>
+    <li>terrain_word(p=2)->mato</li>
+    <li>terrain_word->deserto</li>
+    <li>terrain_word->arbustos</li>
+    <li>terrain_word->mato rasteiro</li>
+    <li>terrain_word->ermos</li>
+  </NamerAridShrubland.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerAridShrubland.rulePack.rulesStrings>&lt;li>terrain_word(p=4)->shrubland&lt;/li>\n&lt;li>terrain_word(p=4)->scrubland&lt;/li>\n&lt;li>terrain_word(p=2)->plateau&lt;/li>\n&lt;li>terrain_word(p=2)->scrub&lt;/li>\n&lt;li>terrain_word->desert&lt;/li>\n&lt;li>terrain_word->bush&lt;/li>\n&lt;li>terrain_word->brush&lt;/li>\n&lt;li>terrain_word->barrens&lt;/li>\n</NamerAridShrubland.rulePack.rulesStrings>
+  <NamerAridShrubland.rulePack.rulesStrings>
+    <li>terrain_word(p=4)->matagal</li>
+    <li>terrain_word(p=4)->charneca</li>
+    <li>terrain_word(p=2)->planalto</li>
+    <li>terrain_word(p=2)->mato</li>
+    <li>terrain_word->deserto</li>
+    <li>terrain_word->arbustos</li>
+    <li>terrain_word->mato rasteiro</li>
+    <li>terrain_word->ermos</li>
+  </NamerAridShrubland.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->gulf of [narrative_name]</li>
@@ -41,10 +81,24 @@
     <li>terrain_word->anchorage</li>
     <li>terrain_word->cove</li>
   -->
-  <NamerBay.rulePack.rulesStrings>&lt;li>r_name(p=0.2)->gulf of [narrative_name]&lt;/li>\n&lt;li>terrain_word(p=6)->bay&lt;/li>\n&lt;li>terrain_word->bight&lt;/li>\n&lt;li>terrain_word->gulf&lt;/li>\n&lt;li>terrain_word->anchorage&lt;/li>\n&lt;li>terrain_word->cove&lt;/li>\n</NamerBay.rulePack.rulesStrings>
+  <NamerBay.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->golfo de [narrative_name]</li>
+    <li>terrain_word(p=6)->baía</li>
+    <li>terrain_word->enseada</li>
+    <li>terrain_word->golfo</li>
+    <li>terrain_word->ancoradouro</li>
+    <li>terrain_word->angra</li>
+  </NamerBay.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerBay.rulePack.rulesStrings>&lt;li>r_name(p=0.2)->gulf of [narrative_name]&lt;/li>\n&lt;li>terrain_word(p=6)->bay&lt;/li>\n&lt;li>terrain_word->bight&lt;/li>\n&lt;li>terrain_word->gulf&lt;/li>\n&lt;li>terrain_word->anchorage&lt;/li>\n&lt;li>terrain_word->cove&lt;/li>\n</NamerBay.rulePack.rulesStrings>
+  <NamerBay.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->golfo de [narrative_name]</li>
+    <li>terrain_word(p=6)->baía</li>
+    <li>terrain_word->enseada</li>
+    <li>terrain_word->golfo</li>
+    <li>terrain_word->ancoradouro</li>
+    <li>terrain_word->angra</li>
+  </NamerBay.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=6)->forest</li>
@@ -55,10 +109,26 @@
     <li>terrain_word->tangle</li>
     <li>terrain_word->thicket</li>
   -->
-  <NamerBorealForest.rulePack.rulesStrings>&lt;li>terrain_word(p=6)->forest&lt;/li>\n&lt;li>terrain_word(p=3)->taiga&lt;/li>\n&lt;li>terrain_word->grove&lt;/li>\n&lt;li>terrain_word->woodland&lt;/li>\n&lt;li>terrain_word->woods&lt;/li>\n&lt;li>terrain_word->tangle&lt;/li>\n&lt;li>terrain_word->thicket&lt;/li>\n</NamerBorealForest.rulePack.rulesStrings>
+  <NamerBorealForest.rulePack.rulesStrings>
+    <li>terrain_word(p=6)->floresta</li>
+    <li>terrain_word(p=3)->taiga</li>
+    <li>terrain_word->bosquete</li>
+    <li>terrain_word->arvoredo</li>
+    <li>terrain_word->bosque</li>
+    <li>terrain_word->emaranhado</li>
+    <li>terrain_word->matagal</li>
+  </NamerBorealForest.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerBorealForest.rulePack.rulesStrings>&lt;li>terrain_word(p=6)->forest&lt;/li>\n&lt;li>terrain_word(p=3)->taiga&lt;/li>\n&lt;li>terrain_word->grove&lt;/li>\n&lt;li>terrain_word->woodland&lt;/li>\n&lt;li>terrain_word->woods&lt;/li>\n&lt;li>terrain_word->tangle&lt;/li>\n&lt;li>terrain_word->thicket&lt;/li>\n</NamerBorealForest.rulePack.rulesStrings>
+  <NamerBorealForest.rulePack.rulesStrings>
+    <li>terrain_word(p=6)->floresta</li>
+    <li>terrain_word(p=3)->taiga</li>
+    <li>terrain_word->bosquete</li>
+    <li>terrain_word->arvoredo</li>
+    <li>terrain_word->bosque</li>
+    <li>terrain_word->emaranhado</li>
+    <li>terrain_word->matagal</li>
+  </NamerBorealForest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.4)->[desert_adjective] [narrative_name]</li>
@@ -84,10 +154,56 @@
     <li>terrain_word->wasteland</li>
     <li>terrain_word->barrens</li>
   -->
-  <NamerDesert.rulePack.rulesStrings>&lt;li>r_name(p=0.4)->[desert_adjective] [narrative_name]&lt;/li>\n&lt;li>desert_adjetivo->flat&lt;/li>\n&lt;li>desert_adjective->white&lt;/li>\n&lt;li>desert_adjetivo->endless&lt;/li>\n&lt;li>desert_adjetivo->heartless&lt;/li>\n&lt;li>desert_adjective->parched&lt;/li>\n&lt;li>desert_adjetivo->dry&lt;/li>\n&lt;li>desert_adjetivo->long&lt;/li>\n&lt;li>desert_adjective->sunburned&lt;/li>\n&lt;li>desert_adjetivo->sunny&lt;/li>\n&lt;li>desert_adjetivo->dazzling&lt;/li>\n&lt;li>desert_adjetivo->hot&lt;/li>\n&lt;li>desert_adjetivo->sweaty&lt;/li>\n&lt;li>desert_adjective->sandy&lt;/li>\n&lt;li>desert_adjective->rocky&lt;/li>\n&lt;li>terrain_word(p=6)->desert&lt;/li>\n&lt;li>terrain_word->plateau&lt;/li>\n&lt;li>terrain_word->flats&lt;/li>\n&lt;li>terrain_word->basin&lt;/li>\n&lt;li>terrain_word->wastes&lt;/li>\n&lt;li>terrain_word->wasteland&lt;/li>\n&lt;li>terrain_word->barrens&lt;/li>\n</NamerDesert.rulePack.rulesStrings>
+  <NamerDesert.rulePack.rulesStrings>
+    <li>r_name(p=0.4)->deserto [desert_adjective] de [narrative_name]</li>
+    <li>desert_adjective->plano</li>
+    <li>desert_adjective->branco</li>
+    <li>desert_adjective->infinito</li>
+    <li>desert_adjective->desolado</li>
+    <li>desert_adjective->tórrido</li>
+    <li>desert_adjective->seco</li>
+    <li>desert_adjective->longo</li>
+    <li>desert_adjective->escaldante</li>
+    <li>desert_adjective->soalheiro</li>
+    <li>desert_adjective->ofuscante</li>
+    <li>desert_adjective->quente</li>
+    <li>desert_adjective->suarento</li>
+    <li>desert_adjective->arenoso</li>
+    <li>desert_adjective->rochoso</li>
+    <li>terrain_word(p=6)->deserto</li>
+    <li>terrain_word->planalto</li>
+    <li>terrain_word->planícies</li>
+    <li>terrain_word->bacia</li>
+    <li>terrain_word->ermos</li>
+    <li>terrain_word->descampado</li>
+    <li>terrain_word->terras estéreis</li>
+  </NamerDesert.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerDesert.rulePack.rulesStrings>&lt;li>r_name(p=0.4)->[desert_adjective] [narrative_name]&lt;/li>\n&lt;li>desert_adjetivo->flat&lt;/li>\n&lt;li>desert_adjective->white&lt;/li>\n&lt;li>desert_adjetivo->endless&lt;/li>\n&lt;li>desert_adjetivo->heartless&lt;/li>\n&lt;li>desert_adjective->parched&lt;/li>\n&lt;li>desert_adjetivo->dry&lt;/li>\n&lt;li>desert_adjetivo->long&lt;/li>\n&lt;li>desert_adjective->sunburned&lt;/li>\n&lt;li>desert_adjetivo->sunny&lt;/li>\n&lt;li>desert_adjetivo->dazzling&lt;/li>\n&lt;li>desert_adjetivo->hot&lt;/li>\n&lt;li>desert_adjetivo->sweaty&lt;/li>\n&lt;li>desert_adjective->sandy&lt;/li>\n&lt;li>desert_adjective->rocky&lt;/li>\n&lt;li>terrain_word(p=6)->desert&lt;/li>\n&lt;li>terrain_word->plateau&lt;/li>\n&lt;li>terrain_word->flats&lt;/li>\n&lt;li>terrain_word->basin&lt;/li>\n&lt;li>terrain_word->wastes&lt;/li>\n&lt;li>terrain_word->wasteland&lt;/li>\n&lt;li>terrain_word->barrens&lt;/li>\n</NamerDesert.rulePack.rulesStrings>
+  <NamerDesert.rulePack.rulesStrings>
+    <li>r_name(p=0.4)->deserto [desert_adjective] de [narrative_name]</li>
+    <li>desert_adjective->plano</li>
+    <li>desert_adjective->branco</li>
+    <li>desert_adjective->infinito</li>
+    <li>desert_adjective->desolado</li>
+    <li>desert_adjective->tórrido</li>
+    <li>desert_adjective->seco</li>
+    <li>desert_adjective->longo</li>
+    <li>desert_adjective->escaldante</li>
+    <li>desert_adjective->soalheiro</li>
+    <li>desert_adjective->ofuscante</li>
+    <li>desert_adjective->quente</li>
+    <li>desert_adjective->suarento</li>
+    <li>desert_adjective->arenoso</li>
+    <li>desert_adjective->rochoso</li>
+    <li>terrain_word(p=6)->deserto</li>
+    <li>terrain_word->planalto</li>
+    <li>terrain_word->planícies</li>
+    <li>terrain_word->bacia</li>
+    <li>terrain_word->ermos</li>
+    <li>terrain_word->descampado</li>
+    <li>terrain_word->terras estéreis</li>
+  </NamerDesert.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=6)->forest</li>
@@ -95,10 +211,20 @@
     <li>terrain_word->woodland</li>
     <li>terrain_word->thicket</li>
   -->
-  <NamerForest.rulePack.rulesStrings>&lt;li>terrain_word(p=6)->forest&lt;/li>\n&lt;li>terrain_word->grove&lt;/li>\n&lt;li>terrain_word->woodland&lt;/li>\n&lt;li>terrain_word->thicket&lt;/li>\n</NamerForest.rulePack.rulesStrings>
+  <NamerForest.rulePack.rulesStrings>
+    <li>terrain_word(p=6)->floresta</li>
+    <li>terrain_word->bosquete</li>
+    <li>terrain_word->arvoredo</li>
+    <li>terrain_word->mata</li>
+  </NamerForest.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerForest.rulePack.rulesStrings>&lt;li>terrain_word(p=6)->forest&lt;/li>\n&lt;li>terrain_word->grove&lt;/li>\n&lt;li>terrain_word->woodland&lt;/li>\n&lt;li>terrain_word->thicket&lt;/li>\n</NamerForest.rulePack.rulesStrings>
+  <NamerForest.rulePack.rulesStrings>
+    <li>terrain_word(p=6)->floresta</li>
+    <li>terrain_word->bosquete</li>
+    <li>terrain_word->arvoredo</li>
+    <li>terrain_word->mata</li>
+  </NamerForest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word->sheet</li>
@@ -110,10 +236,28 @@
     <li>terrain_word(p=0.3)->stretch</li>
     <li>terrain_word(p=0.3)->tract</li>
   -->
-  <NamerIceSheet.rulePack.rulesStrings>&lt;li>terrain_word->sheet&lt;/li>\n&lt;li>terrain_word->expanse&lt;/li>\n&lt;li>terrain_word(p=0.5)->reach&lt;/li>\n&lt;li>terrain_word(p=0.3)->field&lt;/li>\n&lt;li>terrain_word(p=0.3)->span&lt;/li>\n&lt;li>terrain_word(p=0.3)->field&lt;/li>\n&lt;li>terrain_word(p=0.3)->stretch&lt;/li>\n&lt;li>terrain_word(p=0.3)->tract&lt;/li>\n</NamerIceSheet.rulePack.rulesStrings>
+  <NamerIceSheet.rulePack.rulesStrings>
+    <li>terrain_word->manto glaciar</li>
+    <li>terrain_word->extensão glaciar</li>
+    <li>terrain_word(p=0.5)->vastidão glaciar</li>
+    <li>terrain_word(p=0.3)->campo glaciar</li>
+    <li>terrain_word(p=0.3)->calote glaciar</li>
+    <li>terrain_word(p=0.3)->campo glaciar</li>
+    <li>terrain_word(p=0.3)->planície glaciar</li>
+    <li>terrain_word(p=0.3)->região glaciar</li>
+  </NamerIceSheet.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerIceSheet.rulePack.rulesStrings>&lt;li>terrain_word->sheet&lt;/li>\n&lt;li>terrain_word->expanse&lt;/li>\n&lt;li>terrain_word(p=0.5)->reach&lt;/li>\n&lt;li>terrain_word(p=0.3)->field&lt;/li>\n&lt;li>terrain_word(p=0.3)->span&lt;/li>\n&lt;li>terrain_word(p=0.3)->field&lt;/li>\n&lt;li>terrain_word(p=0.3)->stretch&lt;/li>\n&lt;li>terrain_word(p=0.3)->tract&lt;/li>\n</NamerIceSheet.rulePack.rulesStrings>
+  <NamerIceSheet.rulePack.rulesStrings>
+    <li>terrain_word->manto glaciar</li>
+    <li>terrain_word->extensão glaciar</li>
+    <li>terrain_word(p=0.5)->vastidão glaciar</li>
+    <li>terrain_word(p=0.3)->campo glaciar</li>
+    <li>terrain_word(p=0.3)->calote glaciar</li>
+    <li>terrain_word(p=0.3)->campo glaciar</li>
+    <li>terrain_word(p=0.3)->planície glaciar</li>
+    <li>terrain_word(p=0.3)->região glaciar</li>
+  </NamerIceSheet.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->isle [narrative_name]</li>
@@ -125,10 +269,28 @@
     <li>terrain_word->islet</li>
     <li>terrain_word->point</li>
   -->
-  <NamerIsland.rulePack.rulesStrings>&lt;li>r_name(p=0.2)->isle [narrative_name]&lt;/li>\n&lt;li>terrain_word(p=4)->island&lt;/li>\n&lt;li>terrain_word(p=2)->isle&lt;/li>\n&lt;li>terrain_word->reef&lt;/li>\n&lt;li>terrain_word->atoll&lt;/li>\n&lt;li>terrain_word->rock&lt;/li>\n&lt;li>terrain_word->islet&lt;/li>\n&lt;li>terrain_word->point&lt;/li>\n</NamerIsland.rulePack.rulesStrings>
+  <NamerIsland.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->ilha de [narrative_name]</li>
+    <li>terrain_word(p=4)->ilha</li>
+    <li>terrain_word(p=2)->ilha</li>
+    <li>terrain_word->recife</li>
+    <li>terrain_word->atol</li>
+    <li>terrain_word->rochedo</li>
+    <li>terrain_word->ilhéu</li>
+    <li>terrain_word->ponta</li>
+  </NamerIsland.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerIsland.rulePack.rulesStrings>&lt;li>r_name(p=0.2)->isle [narrative_name]&lt;/li>\n&lt;li>terrain_word(p=4)->island&lt;/li>\n&lt;li>terrain_word(p=2)->isle&lt;/li>\n&lt;li>terrain_word->reef&lt;/li>\n&lt;li>terrain_word->atoll&lt;/li>\n&lt;li>terrain_word->rock&lt;/li>\n&lt;li>terrain_word->islet&lt;/li>\n&lt;li>terrain_word->point&lt;/li>\n</NamerIsland.rulePack.rulesStrings>
+  <NamerIsland.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->ilha de [narrative_name]</li>
+    <li>terrain_word(p=4)->ilha</li>
+    <li>terrain_word(p=2)->ilha</li>
+    <li>terrain_word->recife</li>
+    <li>terrain_word->atol</li>
+    <li>terrain_word->rochedo</li>
+    <li>terrain_word->ilhéu</li>
+    <li>terrain_word->ponta</li>
+  </NamerIsland.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->lake [narrative_name]</li>
@@ -139,10 +301,26 @@
     <li>terrain_word(p=0.3)->puddle</li>
     <li>terrain_word(p=0.3)->loch</li>
   -->
-  <NamerLake.rulePack.rulesStrings>&lt;li>r_name->lake [narrative_name]&lt;/li>lake [narrative_name]\n&lt;li>terrain_word(p=6)->lake&lt;/li>\n&lt;li>terrain_word->sea&lt;/li>\n&lt;li>terrain_word->pond&lt;/li>\n&lt;li>terrain_word->basin&lt;/li>\n&lt;li>terrain_word->reservoir&lt;/li>\n&lt;li>terrain_word(p=0.3)->puddle&lt;/li>\n&lt;li>terrain_word(p=0.3)->lagoon&lt;/li>\n&lt;li>terrain_word(p=0.3)->loch&lt;/li>\n</NamerLake.rulePack.rulesStrings>
+  <NamerLake.rulePack.rulesStrings>
+    <li>r_name->lago [narrative_name]</li>
+    <li>terrain_word(p=6)->lago</li>
+    <li>terrain_word->lagoa</li>
+    <li>terrain_word->bacia</li>
+    <li>terrain_word->reservatório</li>
+    <li>terrain_word(p=0.3)->poça</li>
+    <li>terrain_word(p=0.3)->loch</li>
+  </NamerLake.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerLake.rulePack.rulesStrings>&lt;li>r_name->lake [narrative_name]&lt;/li>lake [narrative_name]\n&lt;li>terrain_word(p=6)->lake&lt;/li>\n&lt;li>terrain_word->sea&lt;/li>\n&lt;li>terrain_word->pond&lt;/li>\n&lt;li>terrain_word->basin&lt;/li>\n&lt;li>terrain_word->reservoir&lt;/li>\n&lt;li>terrain_word(p=0.3)->puddle&lt;/li>\n&lt;li>terrain_word(p=0.3)->lagoon&lt;/li>\n&lt;li>terrain_word(p=0.3)->loch&lt;/li>\n</NamerLake.rulePack.rulesStrings>
+  <NamerLake.rulePack.rulesStrings>
+    <li>r_name->lago [narrative_name]</li>
+    <li>terrain_word(p=6)->lago</li>
+    <li>terrain_word->lagoa</li>
+    <li>terrain_word->bacia</li>
+    <li>terrain_word->reservatório</li>
+    <li>terrain_word(p=0.3)->poça</li>
+    <li>terrain_word(p=0.3)->loch</li>
+  </NamerLake.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->mount [narrative_name]</li>
@@ -152,10 +330,24 @@
     <li>terrain_word->hills</li>
     <li>terrain_word->cliffs</li>
   -->
-  <NamerMountainRange.rulePack.rulesStrings>&lt;li>r_name(p=0.2)->mount [narrative_name]&lt;/li>\n&lt;li>terrain_word(p=5)->mountains&lt;/li>\n&lt;li>terrain_word(p=2)->range&lt;/li>\n&lt;li>terrain_word->peaks&lt;/li>\n&lt;li>terrain_word->hills&lt;/li>\n&lt;li>terrain_word->cliffs&lt;/li>\n</NamerMountainRange.rulePack.rulesStrings>
+  <NamerMountainRange.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->monte [narrative_name]</li>
+    <li>terrain_word(p=5)->montanhas</li>
+    <li>terrain_word(p=2)->cordilheira</li>
+    <li>terrain_word->picos</li>
+    <li>terrain_word->colinas</li>
+    <li>terrain_word->falésias</li>
+  </NamerMountainRange.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerMountainRange.rulePack.rulesStrings>&lt;li>r_name(p=0.2)->mount [narrative_name]&lt;/li>\n&lt;li>terrain_word(p=5)->mountains&lt;/li>\n&lt;li>terrain_word(p=2)->range&lt;/li>\n&lt;li>terrain_word->peaks&lt;/li>\n&lt;li>terrain_word->hills&lt;/li>\n&lt;li>terrain_word->cliffs&lt;/li>\n</NamerMountainRange.rulePack.rulesStrings>
+  <NamerMountainRange.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->monte [narrative_name]</li>
+    <li>terrain_word(p=5)->montanhas</li>
+    <li>terrain_word(p=2)->cordilheira</li>
+    <li>terrain_word->picos</li>
+    <li>terrain_word->colinas</li>
+    <li>terrain_word->falésias</li>
+  </NamerMountainRange.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.4)->[ocean_adjective] [narrative_name]</li>
@@ -176,10 +368,46 @@
     <li>terrain_word(p=3)->sea</li>
     <li>terrain_word->expanse</li>
   -->
-  <NamerOcean.rulePack.rulesStrings>&lt;li>r_name(p=0.4)->[ocean_adjective] [narrative_name]&lt;/li>\n&lt;li>ocean_adjective->blue&lt;/li>\n&lt;li>ocean_adjective->white&lt;/li>\n&lt;li>ocean_adjective->gray&lt;/li>\n&lt;li>ocean_adjective->clear&lt;/li>\n&lt;li>ocean_adjective->windy&lt;/li>\n&lt;li>ocean_adjective->stormy&lt;/li>\n&lt;li>ocean_adjective->calm&lt;/li>\n&lt;li>ocean_adjetivo->broad&lt;/li>\n&lt;li>ocean_adjetivo->endless&lt;/li>\n&lt;li>ocean_adjective->flat&lt;/li>\n&lt;li>ocean_adjective->still&lt;/li>\n&lt;li>ocean_adjective->wavy&lt;/li>\n&lt;li>ocean_adjective->gentle&lt;/li>\n&lt;li>terrain_word(p=6)->ocean&lt;/li>\n&lt;li>terrain_word(p=3)->sea&lt;/li>\n&lt;li>terrain_word->expanse&lt;/li>\n</NamerOcean.rulePack.rulesStrings>
+  <NamerOcean.rulePack.rulesStrings>
+    <li>r_name(p=0.4)->oceano [ocean_adjective] de [narrative_name]</li>
+    <li>ocean_adjective->azul</li>
+    <li>ocean_adjective->branco</li>
+    <li>ocean_adjective->cinzento</li>
+    <li>ocean_adjective->límpido</li>
+    <li>ocean_adjective->ventoso</li>
+    <li>ocean_adjective->tempestuoso</li>
+    <li>ocean_adjective->calmo</li>
+    <li>ocean_adjective->vasto</li>
+    <li>ocean_adjective->infinito</li>
+    <li>ocean_adjective->plano</li>
+    <li>ocean_adjective->sereno</li>
+    <li>ocean_adjective->ondulado</li>
+    <li>ocean_adjective->suave</li>
+    <li>terrain_word(p=6)->oceano</li>
+    <li>terrain_word(p=3)->mar</li>
+    <li>terrain_word->vastidão</li>
+  </NamerOcean.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerOcean.rulePack.rulesStrings>&lt;li>r_name(p=0.4)->[ocean_adjective] [narrative_name]&lt;/li>\n&lt;li>ocean_adjective->blue&lt;/li>\n&lt;li>ocean_adjective->white&lt;/li>\n&lt;li>ocean_adjective->gray&lt;/li>\n&lt;li>ocean_adjective->clear&lt;/li>\n&lt;li>ocean_adjective->windy&lt;/li>\n&lt;li>ocean_adjective->stormy&lt;/li>\n&lt;li>ocean_adjective->calm&lt;/li>\n&lt;li>ocean_adjetivo->broad&lt;/li>\n&lt;li>ocean_adjetivo->endless&lt;/li>\n&lt;li>ocean_adjective->flat&lt;/li>\n&lt;li>ocean_adjective->still&lt;/li>\n&lt;li>ocean_adjective->wavy&lt;/li>\n&lt;li>ocean_adjective->gentle&lt;/li>\n&lt;li>terrain_word(p=6)->ocean&lt;/li>\n&lt;li>terrain_word(p=3)->sea&lt;/li>\n&lt;li>terrain_word->expanse&lt;/li>\n</NamerOcean.rulePack.rulesStrings>
+  <NamerOcean.rulePack.rulesStrings>
+    <li>r_name(p=0.4)->oceano [ocean_adjective] de [narrative_name]</li>
+    <li>ocean_adjective->azul</li>
+    <li>ocean_adjective->branco</li>
+    <li>ocean_adjective->cinzento</li>
+    <li>ocean_adjective->límpido</li>
+    <li>ocean_adjective->ventoso</li>
+    <li>ocean_adjective->tempestuoso</li>
+    <li>ocean_adjective->calmo</li>
+    <li>ocean_adjective->vasto</li>
+    <li>ocean_adjective->infinito</li>
+    <li>ocean_adjective->plano</li>
+    <li>ocean_adjective->sereno</li>
+    <li>ocean_adjective->ondulado</li>
+    <li>ocean_adjective->suave</li>
+    <li>terrain_word(p=6)->oceano</li>
+    <li>terrain_word(p=3)->mar</li>
+    <li>terrain_word->vastidão</li>
+  </NamerOcean.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->point [narrative_name]</li>
@@ -190,20 +418,44 @@
     <li>terrain_word->headland</li>
     <li>terrain_word->horn</li>
   -->
-  <NamerPeninsula.rulePack.rulesStrings>&lt;li>r_name(p=0.2)->point [narrative_name]&lt;/li>\n&lt;li>r_name(p=0.2)->cape [narrative_name]&lt;/li>\n&lt;li>terrain_word(p=5)->peninsula&lt;/li>\n&lt;li>terrain_word(p=2)->point&lt;/li>\n&lt;li>terrain_word->cape&lt;/li>\n&lt;li>terrain_word->headland&lt;/li>\n&lt;li>terrain_word->horn&lt;/li>\n</NamerPeninsula.rulePack.rulesStrings>
+  <NamerPeninsula.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->ponta [narrative_name]</li>
+    <li>r_name(p=0.2)->cabo [narrative_name]</li>
+    <li>terrain_word(p=5)->península</li>
+    <li>terrain_word(p=2)->ponta</li>
+    <li>terrain_word->cabo</li>
+    <li>terrain_word->promontório</li>
+    <li>terrain_word->corno</li>
+  </NamerPeninsula.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerPeninsula.rulePack.rulesStrings>&lt;li>r_name(p=0.2)->point [narrative_name]&lt;/li>\n&lt;li>r_name(p=0.2)->cape [narrative_name]&lt;/li>\n&lt;li>terrain_word(p=5)->peninsula&lt;/li>\n&lt;li>terrain_word(p=2)->point&lt;/li>\n&lt;li>terrain_word->cape&lt;/li>\n&lt;li>terrain_word->headland&lt;/li>\n&lt;li>terrain_word->horn&lt;/li>\n</NamerPeninsula.rulePack.rulesStrings>
+  <NamerPeninsula.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->ponta [narrative_name]</li>
+    <li>r_name(p=0.2)->cabo [narrative_name]</li>
+    <li>terrain_word(p=5)->península</li>
+    <li>terrain_word(p=2)->ponta</li>
+    <li>terrain_word->cabo</li>
+    <li>terrain_word->promontório</li>
+    <li>terrain_word->corno</li>
+  </NamerPeninsula.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=6)->sea</li>
     <li>terrain_word->lagoon</li>
     <li>terrain_word->ocean</li>
   -->
-  <NamerSea.rulePack.rulesStrings>&lt;li>r_name(p=0.1)->lake [narrative_name]&lt;/li>r_name(p=0.1)\n&lt;li>terrain_word(p=6)->sea&lt;/li>\n&lt;li>terrain_word->ocean&lt;/li>\n&lt;li>terrain_word->lake&lt;/li>\n</NamerSea.rulePack.rulesStrings>
+  <NamerSea.rulePack.rulesStrings>
+    <li>terrain_word(p=6)->mar</li>
+    <li>terrain_word->laguna</li>
+    <li>terrain_word->oceano</li>
+  </NamerSea.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerSea.rulePack.rulesStrings>&lt;li>r_name(p=0.1)->lake [narrative_name]&lt;/li>r_name(p=0.1)\n&lt;li>terrain_word(p=6)->sea&lt;/li>\n&lt;li>terrain_word->ocean&lt;/li>\n&lt;li>terrain_word->lake&lt;/li>\n</NamerSea.rulePack.rulesStrings>
+  <NamerSea.rulePack.rulesStrings>
+    <li>terrain_word(p=6)->mar</li>
+    <li>terrain_word->laguna</li>
+    <li>terrain_word->oceano</li>
+  </NamerSea.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.1)->fen [narrative_name]</li>
@@ -225,10 +477,48 @@
     <li>terrain_word->marsh</li>
     <li>terrain_word->fen</li>
   -->
-  <NamerSwamp.rulePack.rulesStrings>&lt;li>r_name(p=0.1)->fen [narrative_name]&lt;/li>\n&lt;li>r_name(p=0.3)->[swamp_adjective] [narrative_name]&lt;/li>\n&lt;li>swamp_adjective->wet&lt;/li>\n&lt;li>swamp_adjective->steamy&lt;/li>\n&lt;li>swamp_adjective->choking&lt;/li>\n&lt;li>swamp_adjective->rotten&lt;/li>\n&lt;li>swamp_adjective->rotting&lt;/li>\n&lt;li>swamp_adjective->overgrown&lt;/li>\n&lt;li>swamp_adjective->tangled&lt;/li>\n&lt;li>swamp_adjective->viny&lt;/li>\n&lt;li>swamp_adjective->thorny&lt;/li>\n&lt;li>terrain_word(p=6)->swamp&lt;/li>\n&lt;li>terrain_word->basin&lt;/li>\n&lt;li>terrain_word->wetlands&lt;/li>\n&lt;li>terrain_word->bayou&lt;/li>\n&lt;li>terrain_word->bog&lt;/li>\n&lt;li>terrain_word->marsh&lt;/li>\n&lt;li>terrain_word->fen&lt;/li>\n</NamerSwamp.rulePack.rulesStrings>
+  <NamerSwamp.rulePack.rulesStrings>
+    <li>r_name(p=0.1)->paul [narrative_name]</li>
+    <li>r_name(p=0.3)->pântano [swamp_adjective] de [narrative_name]</li>
+    <li>swamp_adjective->húmido</li>
+    <li>swamp_adjective->vaporoso</li>
+    <li>swamp_adjective->sufocante</li>
+    <li>swamp_adjective->podre</li>
+    <li>swamp_adjective->apodrecido</li>
+    <li>swamp_adjective->luxuriante</li>
+    <li>swamp_adjective->emaranhado</li>
+    <li>swamp_adjective->enredado</li>
+    <li>swamp_adjective->espinhoso</li>
+    <li>terrain_word(p=6)->pântano</li>
+    <li>terrain_word->bacia</li>
+    <li>terrain_word->terras húmidas</li>
+    <li>terrain_word->braço pantanoso</li>
+    <li>terrain_word->lamaçal</li>
+    <li>terrain_word->brejo</li>
+    <li>terrain_word->paul</li>
+  </NamerSwamp.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerSwamp.rulePack.rulesStrings>&lt;li>r_name(p=0.1)->fen [narrative_name]&lt;/li>\n&lt;li>r_name(p=0.3)->[swamp_adjective] [narrative_name]&lt;/li>\n&lt;li>swamp_adjective->wet&lt;/li>\n&lt;li>swamp_adjective->steamy&lt;/li>\n&lt;li>swamp_adjective->choking&lt;/li>\n&lt;li>swamp_adjective->rotten&lt;/li>\n&lt;li>swamp_adjective->rotting&lt;/li>\n&lt;li>swamp_adjective->overgrown&lt;/li>\n&lt;li>swamp_adjective->tangled&lt;/li>\n&lt;li>swamp_adjective->viny&lt;/li>\n&lt;li>swamp_adjective->thorny&lt;/li>\n&lt;li>terrain_word(p=6)->swamp&lt;/li>\n&lt;li>terrain_word->basin&lt;/li>\n&lt;li>terrain_word->wetlands&lt;/li>\n&lt;li>terrain_word->bayou&lt;/li>\n&lt;li>terrain_word->bog&lt;/li>\n&lt;li>terrain_word->marsh&lt;/li>\n&lt;li>terrain_word->fen&lt;/li>\n</NamerSwamp.rulePack.rulesStrings>
+  <NamerSwamp.rulePack.rulesStrings>
+    <li>r_name(p=0.1)->paul [narrative_name]</li>
+    <li>r_name(p=0.3)->pântano [swamp_adjective] de [narrative_name]</li>
+    <li>swamp_adjective->húmido</li>
+    <li>swamp_adjective->vaporoso</li>
+    <li>swamp_adjective->sufocante</li>
+    <li>swamp_adjective->podre</li>
+    <li>swamp_adjective->apodrecido</li>
+    <li>swamp_adjective->luxuriante</li>
+    <li>swamp_adjective->emaranhado</li>
+    <li>swamp_adjective->enredado</li>
+    <li>swamp_adjective->espinhoso</li>
+    <li>terrain_word(p=6)->pântano</li>
+    <li>terrain_word->bacia</li>
+    <li>terrain_word->terras húmidas</li>
+    <li>terrain_word->braço pantanoso</li>
+    <li>terrain_word->lamaçal</li>
+    <li>terrain_word->brejo</li>
+    <li>terrain_word->paul</li>
+  </NamerSwamp.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.3)->[rainforest_adjective] [narrative_name]</li>
@@ -246,10 +536,40 @@
     <li>terrain_word->woodland</li>
     <li>terrain_word->tangle</li>
   -->
-  <NamerTropicalRainforest.rulePack.rulesStrings>&lt;li>r_name(p=0.3)->[rainforest_adjective] [narrative_name]&lt;/li>\n&lt;li>rainforest_adjective->wet&lt;/li>\n&lt;li>rainforest_adjective->steamy&lt;/li>\n&lt;li>rainforest_adjective->choking&lt;/li>\n&lt;li>rainforest_adjective->overgrown&lt;/li>\n&lt;li>rainforest_adjective->tangled&lt;/li>\n&lt;li>rainforest_adjective->viny&lt;/li>\n&lt;li>rainforest_adjective->thorny&lt;/li>\n&lt;li>terrain_word(p=6)->rainforest&lt;/li>\n&lt;li>terrain_word(p=3)->jungle&lt;/li>\n&lt;li>terrain_word->forest&lt;/li>\n&lt;li>terrain_word->grove&lt;/li>\n&lt;li>terrain_word->woodland&lt;/li>\n&lt;li>terrain_word->tangle&lt;/li>\n</NamerTropicalRainforest.rulePack.rulesStrings>
+  <NamerTropicalRainforest.rulePack.rulesStrings>
+    <li>r_name(p=0.3)->floresta tropical [rainforest_adjective] de [narrative_name]</li>
+    <li>rainforest_adjective->húmida</li>
+    <li>rainforest_adjective->vaporosa</li>
+    <li>rainforest_adjective->sufocante</li>
+    <li>rainforest_adjective->luxuriante</li>
+    <li>rainforest_adjective->emaranhada</li>
+    <li>rainforest_adjective->enredada</li>
+    <li>rainforest_adjective->espinhosa</li>
+    <li>terrain_word(p=6)->floresta tropical</li>
+    <li>terrain_word(p=3)->selva</li>
+    <li>terrain_word->floresta</li>
+    <li>terrain_word->bosquete</li>
+    <li>terrain_word->arvoredo</li>
+    <li>terrain_word->emaranhado</li>
+  </NamerTropicalRainforest.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerTropicalRainforest.rulePack.rulesStrings>&lt;li>r_name(p=0.3)->[rainforest_adjective] [narrative_name]&lt;/li>\n&lt;li>rainforest_adjective->wet&lt;/li>\n&lt;li>rainforest_adjective->steamy&lt;/li>\n&lt;li>rainforest_adjective->choking&lt;/li>\n&lt;li>rainforest_adjective->overgrown&lt;/li>\n&lt;li>rainforest_adjective->tangled&lt;/li>\n&lt;li>rainforest_adjective->viny&lt;/li>\n&lt;li>rainforest_adjective->thorny&lt;/li>\n&lt;li>terrain_word(p=6)->rainforest&lt;/li>\n&lt;li>terrain_word(p=3)->jungle&lt;/li>\n&lt;li>terrain_word->forest&lt;/li>\n&lt;li>terrain_word->grove&lt;/li>\n&lt;li>terrain_word->woodland&lt;/li>\n&lt;li>terrain_word->tangle&lt;/li>\n</NamerTropicalRainforest.rulePack.rulesStrings>
+  <NamerTropicalRainforest.rulePack.rulesStrings>
+    <li>r_name(p=0.3)->floresta tropical [rainforest_adjective] de [narrative_name]</li>
+    <li>rainforest_adjective->húmida</li>
+    <li>rainforest_adjective->vaporosa</li>
+    <li>rainforest_adjective->sufocante</li>
+    <li>rainforest_adjective->luxuriante</li>
+    <li>rainforest_adjective->emaranhada</li>
+    <li>rainforest_adjective->enredada</li>
+    <li>rainforest_adjective->espinhosa</li>
+    <li>terrain_word(p=6)->floresta tropical</li>
+    <li>terrain_word(p=3)->selva</li>
+    <li>terrain_word->floresta</li>
+    <li>terrain_word->bosquete</li>
+    <li>terrain_word->arvoredo</li>
+    <li>terrain_word->emaranhado</li>
+  </NamerTropicalRainforest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=4)->plateau</li>
@@ -265,10 +585,36 @@
     <li>terrain_word->prairie</li>
     <li>terrain_word->flats</li>
   -->
-  <NamerTundra.rulePack.rulesStrings>&lt;li>terrain_word(p=4)->plateau&lt;/li>\n&lt;li>terrain_word(p=4)->barrens&lt;/li>\n&lt;li>terrain_word(p=2)->taiga&lt;/li>\n&lt;li>terrain_word->scrub&lt;/li>\n&lt;li>terrain_word->shrubland&lt;/li>\n&lt;li>terrain_word->scrubland&lt;/li>\n&lt;li>terrain_word->bush&lt;/li>\n&lt;li>terrain_word->brush&lt;/li>\n&lt;li>terrain_word->barrens&lt;/li>\n&lt;li>terrain_word->expanse&lt;/li>\n&lt;li>terrain_word->prairie&lt;/li>\n&lt;li>terrain_word->flats&lt;/li>\n</NamerTundra.rulePack.rulesStrings>
+  <NamerTundra.rulePack.rulesStrings>
+    <li>terrain_word(p=4)->planalto</li>
+    <li>terrain_word(p=4)->ermos</li>
+    <li>terrain_word(p=2)->taiga</li>
+    <li>terrain_word->mato</li>
+    <li>terrain_word->matagal</li>
+    <li>terrain_word->charneca</li>
+    <li>terrain_word->arbustos</li>
+    <li>terrain_word->mato rasteiro</li>
+    <li>terrain_word->terras estéreis</li>
+    <li>terrain_word->vastidão</li>
+    <li>terrain_word->pradaria</li>
+    <li>terrain_word->planícies</li>
+  </NamerTundra.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerTundra.rulePack.rulesStrings>&lt;li>terrain_word(p=4)->plateau&lt;/li>\n&lt;li>terrain_word(p=4)->barrens&lt;/li>\n&lt;li>terrain_word(p=2)->taiga&lt;/li>\n&lt;li>terrain_word->scrub&lt;/li>\n&lt;li>terrain_word->shrubland&lt;/li>\n&lt;li>terrain_word->scrubland&lt;/li>\n&lt;li>terrain_word->bush&lt;/li>\n&lt;li>terrain_word->brush&lt;/li>\n&lt;li>terrain_word->barrens&lt;/li>\n&lt;li>terrain_word->expanse&lt;/li>\n&lt;li>terrain_word->prairie&lt;/li>\n&lt;li>terrain_word->flats&lt;/li>\n</NamerTundra.rulePack.rulesStrings>
+  <NamerTundra.rulePack.rulesStrings>
+    <li>terrain_word(p=4)->planalto</li>
+    <li>terrain_word(p=4)->ermos</li>
+    <li>terrain_word(p=2)->taiga</li>
+    <li>terrain_word->mato</li>
+    <li>terrain_word->matagal</li>
+    <li>terrain_word->charneca</li>
+    <li>terrain_word->arbustos</li>
+    <li>terrain_word->mato rasteiro</li>
+    <li>terrain_word->terras estéreis</li>
+    <li>terrain_word->vastidão</li>
+    <li>terrain_word->pradaria</li>
+    <li>terrain_word->planícies</li>
+  </NamerTundra.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[narrative_name] [terrain_word]</li>
@@ -331,9 +677,129 @@
     <li>story_result->facade</li>
     <li>story_result->fraud</li>
   -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings>&lt;li>r_name->[narrative_name] [terrain_word]&lt;/li>\n&lt;li>r_name(p=0.05)->[storyname] [terrain_word]&lt;/li>\n&lt;li>narrative_name(p=12)->[WordTribal]&lt;/li>\n&lt;li>narrative_name(p=12)->[PlaceOutlander]&lt;/li>\n&lt;li>narrative_name->[Color][NaturalObject]&lt;/li>\n&lt;li>narrative_name->[ AdjectiveNatural][BodyPart]&lt;/li>\n&lt;li>narrative_name->[Animal]&lt;/li>\n&lt;li>narrative_name->[Color]&lt;/li>\n&lt;li>narrative_name->[Color][Animal]&lt;/li>\n&lt;li>narrative_name->[ AdjectiveNatural][Animal]&lt;/li>\n&lt;li>narrative_name->[Animal][BodyPart]&lt;/li>\n&lt;li>narrative_name->[Color] [Animal]&lt;/li>\n&lt;li>narrative_name->[ AdjectiveNatural] [Animal]&lt;/li>\n&lt;li>narrative_name-> [Animal] [BodyPart]&lt;/li>\n&lt;li>storyname(p=50)->[subject]'s [story_result]&lt;/li>\n&lt;li>storyname(p=2)->[subject]'s [BodyPart]&lt;/li>\n&lt;li>storyname->[subject]'s [Gore]&lt;/li>\n&lt;li>subject(p=5)->[NamePerson]&lt;/li>\n&lt;li>subject->[Animal]&lt;/li>\n&lt;li>subject->[WordTribal]&lt;/li>\n&lt;li>subject->[PlaceOutlander]&lt;/li>\n&lt;li>story_result->folly&lt;/li>\n&lt;li>story_result->vice&lt;/li>\n&lt;li>story_result->lunacy&lt;/li>\n&lt;li>story_result->mistake&lt;/li>\n&lt;li>story_result->fault&lt;/li>\n&lt;li>story_result->misstep&lt;/li>\n&lt;li>story_result->delusion&lt;/li>\n&lt;li>story_result->joy&lt;/li>\n&lt;li>story_result->delight&lt;/li>\n&lt;li>story_result->wonder&lt;/li>\n&lt;li>story_result->pride&lt;/li>\n&lt;li>story_result->jewel&lt;/li>\n&lt;li>story_result->prize&lt;/li>\n&lt;li>story_result->bounty&lt;/li>\n&lt;li>story_result->honor&lt;/li>\n&lt;li>story_result->jackpot&lt;/li>\n&lt;li>story_result->trophy&lt;/li>\n&lt;li>story_result->conceit&lt;/li>\n&lt;li>story_result->arrogância&lt;/li>\n&lt;li>story_result->stand&lt;/li>\n&lt;li>story_result->loss&lt;/li>\n&lt;li>story_result->debt&lt;/li>\n&lt;li>story_result->collapse&lt;/li>\n&lt;li>story_result->destruction&lt;/li>\n&lt;li>story_result->cataclysm&lt;/li>\n&lt;li>story_result->ruin&lt;/li>\n&lt;li>story_result->ruination&lt;/li>\n&lt;li>story_result->usando&lt;/li>\n&lt;li>story_result->downfall&lt;/li>\n&lt;li>story_result->end&lt;/li>\n&lt;li>story_result->retirement&lt;/li>\n&lt;li>story_result->achievement&lt;/li>\n&lt;li>story_result->finale&lt;/li>\n&lt;li>story_result->bluff&lt;/li>\n&lt;li>story_result->ruse&lt;/li>\n&lt;li>story_result->deception&lt;/li>\n&lt;li>story_result->facade&lt;/li>\n&lt;li>story_result->fraud&lt;/li>\n</WorldFeatureNamerCommon.rulePack.rulesStrings>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings>
+    <li>r_name->[terrain_word] de [narrative_name]</li>
+    <li>r_name(p=0.05)->[terrain_word] de [storyname]</li>
+    <li>narrative_name(p=12)->[WordTribal]</li>
+    <li>narrative_name(p=12)->[PlaceOutlander]</li>
+    <li>narrative_name->[NaturalObject] [Color]</li>
+    <li>narrative_name->[BodyPart] [AdjectiveNatural]</li>
+    <li>narrative_name->[Animal]</li>
+    <li>narrative_name->[Color]</li>
+    <li>narrative_name->[Animal] [Color]</li>
+    <li>narrative_name->[Animal] [AdjectiveNatural]</li>
+    <li>narrative_name->[BodyPart] de [Animal]</li>
+    <li>narrative_name->[Animal] [Color]</li>
+    <li>narrative_name->[Animal] [AdjectiveNatural]</li>
+    <li>narrative_name->[BodyPart] de [Animal]</li>
+    <li>storyname(p=50)->[story_result] de [subject]</li>
+    <li>storyname(p=2)->[BodyPart] de [subject]</li>
+    <li>storyname->[Gore] de [subject]</li>
+    <li>subject(p=5)->[NamePerson]</li>
+    <li>subject->[Animal]</li>
+    <li>subject->[WordTribal]</li>
+    <li>subject->[PlaceOutlander]</li>
+    <li>story_result->loucura</li>
+    <li>story_result->vício</li>
+    <li>story_result->demência</li>
+    <li>story_result->erro</li>
+    <li>story_result->culpa</li>
+    <li>story_result->deslize</li>
+    <li>story_result->ilusão</li>
+    <li>story_result->alegria</li>
+    <li>story_result->deleite</li>
+    <li>story_result->maravilha</li>
+    <li>story_result->orgulho</li>
+    <li>story_result->joia</li>
+    <li>story_result->prémio</li>
+    <li>story_result->recompensa</li>
+    <li>story_result->honra</li>
+    <li>story_result->sorte grande</li>
+    <li>story_result->troféu</li>
+    <li>story_result->presunção</li>
+    <li>story_result->arrogância</li>
+    <li>story_result->resistência</li>
+    <li>story_result->perda</li>
+    <li>story_result->dívida</li>
+    <li>story_result->colapso</li>
+    <li>story_result->destruição</li>
+    <li>story_result->cataclismo</li>
+    <li>story_result->ruína</li>
+    <li>story_result->perdição</li>
+    <li>story_result->desgraça</li>
+    <li>story_result->queda</li>
+    <li>story_result->fim</li>
+    <li>story_result->reforma</li>
+    <li>story_result->conquista</li>
+    <li>story_result->desfecho</li>
+    <li>story_result->blefe</li>
+    <li>story_result->ardil</li>
+    <li>story_result->engano</li>
+    <li>story_result->fachada</li>
+    <li>story_result->fraude</li>
+  </WorldFeatureNamerCommon.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings>&lt;li>r_name->[narrative_name] [terrain_word]&lt;/li>\n&lt;li>r_name(p=0.05)->[storyname] [terrain_word]&lt;/li>\n&lt;li>narrative_name(p=12)->[WordTribal]&lt;/li>\n&lt;li>narrative_name(p=12)->[PlaceOutlander]&lt;/li>\n&lt;li>narrative_name->[Color][NaturalObject]&lt;/li>\n&lt;li>narrative_name->[ AdjectiveNatural][BodyPart]&lt;/li>\n&lt;li>narrative_name->[Animal]&lt;/li>\n&lt;li>narrative_name->[Color]&lt;/li>\n&lt;li>narrative_name->[Color][Animal]&lt;/li>\n&lt;li>narrative_name->[ AdjectiveNatural][Animal]&lt;/li>\n&lt;li>narrative_name->[Animal][BodyPart]&lt;/li>\n&lt;li>narrative_name->[Color] [Animal]&lt;/li>\n&lt;li>narrative_name->[ AdjectiveNatural] [Animal]&lt;/li>\n&lt;li>narrative_name-> [Animal] [BodyPart]&lt;/li>\n&lt;li>storyname(p=50)->[subject]'s [story_result]&lt;/li>\n&lt;li>storyname(p=2)->[subject]'s [BodyPart]&lt;/li>\n&lt;li>storyname->[subject]'s [Gore]&lt;/li>\n&lt;li>subject(p=5)->[NamePerson]&lt;/li>\n&lt;li>subject->[Animal]&lt;/li>\n&lt;li>subject->[WordTribal]&lt;/li>\n&lt;li>subject->[PlaceOutlander]&lt;/li>\n&lt;li>story_result->folly&lt;/li>\n&lt;li>story_result->vice&lt;/li>\n&lt;li>story_result->lunacy&lt;/li>\n&lt;li>story_result->mistake&lt;/li>\n&lt;li>story_result->fault&lt;/li>\n&lt;li>story_result->misstep&lt;/li>\n&lt;li>story_result->delusion&lt;/li>\n&lt;li>story_result->joy&lt;/li>\n&lt;li>story_result->delight&lt;/li>\n&lt;li>story_result->wonder&lt;/li>\n&lt;li>story_result->pride&lt;/li>\n&lt;li>story_result->jewel&lt;/li>\n&lt;li>story_result->prize&lt;/li>\n&lt;li>story_result->bounty&lt;/li>\n&lt;li>story_result->honor&lt;/li>\n&lt;li>story_result->jackpot&lt;/li>\n&lt;li>story_result->trophy&lt;/li>\n&lt;li>story_result->conceit&lt;/li>\n&lt;li>story_result->arrogância&lt;/li>\n&lt;li>story_result->stand&lt;/li>\n&lt;li>story_result->loss&lt;/li>\n&lt;li>story_result->debt&lt;/li>\n&lt;li>story_result->collapse&lt;/li>\n&lt;li>story_result->destruction&lt;/li>\n&lt;li>story_result->cataclysm&lt;/li>\n&lt;li>story_result->ruin&lt;/li>\n&lt;li>story_result->ruination&lt;/li>\n&lt;li>story_result->usando&lt;/li>\n&lt;li>story_result->downfall&lt;/li>\n&lt;li>story_result->end&lt;/li>\n&lt;li>story_result->retirement&lt;/li>\n&lt;li>story_result->achievement&lt;/li>\n&lt;li>story_result->finale&lt;/li>\n&lt;li>story_result->bluff&lt;/li>\n&lt;li>story_result->ruse&lt;/li>\n&lt;li>story_result->deception&lt;/li>\n&lt;li>story_result->facade&lt;/li>\n&lt;li>story_result->fraud&lt;/li>\n</WorldFeatureNamerCommon.rulePack.rulesStrings>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings>
+    <li>r_name->[terrain_word] de [narrative_name]</li>
+    <li>r_name(p=0.05)->[terrain_word] de [storyname]</li>
+    <li>narrative_name(p=12)->[WordTribal]</li>
+    <li>narrative_name(p=12)->[PlaceOutlander]</li>
+    <li>narrative_name->[NaturalObject] [Color]</li>
+    <li>narrative_name->[BodyPart] [AdjectiveNatural]</li>
+    <li>narrative_name->[Animal]</li>
+    <li>narrative_name->[Color]</li>
+    <li>narrative_name->[Animal] [Color]</li>
+    <li>narrative_name->[Animal] [AdjectiveNatural]</li>
+    <li>narrative_name->[BodyPart] de [Animal]</li>
+    <li>narrative_name->[Animal] [Color]</li>
+    <li>narrative_name->[Animal] [AdjectiveNatural]</li>
+    <li>narrative_name->[BodyPart] de [Animal]</li>
+    <li>storyname(p=50)->[story_result] de [subject]</li>
+    <li>storyname(p=2)->[BodyPart] de [subject]</li>
+    <li>storyname->[Gore] de [subject]</li>
+    <li>subject(p=5)->[NamePerson]</li>
+    <li>subject->[Animal]</li>
+    <li>subject->[WordTribal]</li>
+    <li>subject->[PlaceOutlander]</li>
+    <li>story_result->loucura</li>
+    <li>story_result->vício</li>
+    <li>story_result->demência</li>
+    <li>story_result->erro</li>
+    <li>story_result->culpa</li>
+    <li>story_result->deslize</li>
+    <li>story_result->ilusão</li>
+    <li>story_result->alegria</li>
+    <li>story_result->deleite</li>
+    <li>story_result->maravilha</li>
+    <li>story_result->orgulho</li>
+    <li>story_result->joia</li>
+    <li>story_result->prémio</li>
+    <li>story_result->recompensa</li>
+    <li>story_result->honra</li>
+    <li>story_result->sorte grande</li>
+    <li>story_result->troféu</li>
+    <li>story_result->presunção</li>
+    <li>story_result->arrogância</li>
+    <li>story_result->resistência</li>
+    <li>story_result->perda</li>
+    <li>story_result->dívida</li>
+    <li>story_result->colapso</li>
+    <li>story_result->destruição</li>
+    <li>story_result->cataclismo</li>
+    <li>story_result->ruína</li>
+    <li>story_result->perdição</li>
+    <li>story_result->desgraça</li>
+    <li>story_result->queda</li>
+    <li>story_result->fim</li>
+    <li>story_result->reforma</li>
+    <li>story_result->conquista</li>
+    <li>story_result->desfecho</li>
+    <li>story_result->blefe</li>
+    <li>story_result->ardil</li>
+    <li>story_result->engano</li>
+    <li>story_result->fachada</li>
+    <li>story_result->fraude</li>
+  </WorldFeatureNamerCommon.rulePack.rulesStrings>
   
 </LanguageData>

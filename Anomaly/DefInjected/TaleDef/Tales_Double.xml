@@ -5,7 +5,7 @@
   <HealedMe.label>curou-me</HealedMe.label>
   
   <!-- EN: mutated my arm -->
-  <MutatedMyArm.label>mutado meu braço</MutatedMyArm.label>
+  <MutatedMyArm.label>mutou-me o braço</MutatedMyArm.label>
   
   <!-- EN: studied an entity -->
   <StudiedEntity.label>estudou uma entidade</StudiedEntity.label>
@@ -23,9 +23,35 @@
     <li>desc_sentence->[ENTITY_nameDef] is only just held in the place by the ceaseless work of electro-inhibitors.</li>
     <li>desc_sentence->[ENTITY_nameDef] does not appear to react to [STUDIER_nameDef]'s efforts.</li>
   -->
-  <StudiedEntity.rulePack.rulesStrings>&lt;li>tale_noun->[STUDIER_nameDef] estudando [ENTITY_nameIndef]&lt;/li>\n&lt;li>image->[STUDIER_nameFull] cuidadosamente examinando [ENTITY_nameDef] [circumstance_group]&lt;/li>\n&lt;li>image->[STUDIER_nameFull] conduzindo experimentos, buscando entender os segredos de [ENTITY_nameDef], [circumstance_group]&lt;/li>\n&lt;li>image->[STUDIER_nameFull] esforçando-se para compreender a natureza de [ENTITY_nameDef] [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> com mal escondido desgosto em [STUDIER_possessive] olhos&lt;/li>\n&lt;li>circumstance_phrase-> enquanto scribbling em um notebook&lt;/li>\n&lt;li>circumstance_phrase-> enquanto consulta um tome antigo&lt;/li>\n&lt;li>desc_sentence-> O trabalho constante das colheitadeiras de bioferrite pode ser visto no fundo.&lt;/li>\n&lt;li>desc_sentence-> O profundo fascínio do colonista com [ENTITY_nameDef] é evidente.&lt;/li>\n&lt;li>desc_sentence->[STUDIER_nameDef] é completamente absorvido em [STUDIER_possessive] estudo de [ENTITY_nameDef], esforçando-se para desbloquear seus segredos.&lt;/li>\n&lt;li>desc_sentence->[ENTITY_nameDef] é apenas realizada no lugar pelo trabalho incessante de electro-inibidores.&lt;/li>\n&lt;li>desc_sentence->[ENTITY_nameDef] não parece reagir aos esforços de [STUDIER_nameDef].&lt;/li>\n</StudiedEntity.rulePack.rulesStrings>
+  <StudiedEntity.rulePack.rulesStrings>
+    <li>tale_noun->[STUDIER_nameDef] a estudar [ENTITY_nameIndef]</li>
+    <li>image->[STUDIER_nameFull] a examinar cuidadosamente [ENTITY_nameDef] [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] a fazer experiências, procurando compreender os segredos de [ENTITY_nameDef], [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] a esforçar-se por compreender a natureza de [ENTITY_nameDef] [circumstance_group]</li>
+    <li>circumstance_phrase->com uma repulsa mal disfarçada no olhar</li>
+    <li>circumstance_phrase->enquanto rabisca num caderno</li>
+    <li>circumstance_phrase->enquanto consulta um tomo antigo</li>
+    <li>desc_sentence->Ao fundo, vê-se o trabalho constante dos coletores de bioferrite.</li>
+    <li>desc_sentence->É evidente o profundo fascínio do colono por [ENTITY_nameDef].</li>
+    <li>desc_sentence->[STUDIER_nameDef] está completamente absorto no estudo de [ENTITY_nameDef], esforçando-se por desvendar os seus segredos.</li>
+    <li>desc_sentence->[ENTITY_nameDef] mal se mantém no lugar graças ao trabalho incessante dos eletroinibidores.</li>
+    <li>desc_sentence->[ENTITY_nameDef] não parece reagir aos esforços de [STUDIER_nameDef].</li>
+  </StudiedEntity.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <StudiedEntity.rulePack.rulesStrings>&lt;li>tale_noun->[STUDIER_nameDef] estudando [ENTITY_nameIndef]&lt;/li>\n&lt;li>image->[STUDIER_nameFull] cuidadosamente examinando [ENTITY_nameDef] [circumstance_group]&lt;/li>\n&lt;li>image->[STUDIER_nameFull] conduzindo experimentos, buscando entender os segredos de [ENTITY_nameDef], [circumstance_group]&lt;/li>\n&lt;li>image->[STUDIER_nameFull] esforçando-se para compreender a natureza de [ENTITY_nameDef] [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> com mal escondido desgosto em [STUDIER_possessive] olhos&lt;/li>\n&lt;li>circumstance_phrase-> enquanto scribbling em um notebook&lt;/li>\n&lt;li>circumstance_phrase-> enquanto consulta um tome antigo&lt;/li>\n&lt;li>desc_sentence-> O trabalho constante das colheitadeiras de bioferrite pode ser visto no fundo.&lt;/li>\n&lt;li>desc_sentence-> O profundo fascínio do colonista com [ENTITY_nameDef] é evidente.&lt;/li>\n&lt;li>desc_sentence->[STUDIER_nameDef] é completamente absorvido em [STUDIER_possessive] estudo de [ENTITY_nameDef], esforçando-se para desbloquear seus segredos.&lt;/li>\n&lt;li>desc_sentence->[ENTITY_nameDef] é apenas realizada no lugar pelo trabalho incessante de electro-inibidores.&lt;/li>\n&lt;li>desc_sentence->[ENTITY_nameDef] não parece reagir aos esforços de [STUDIER_nameDef].&lt;/li>\n</StudiedEntity.rulePack.rulesStrings>
+  <StudiedEntity.rulePack.rulesStrings>
+    <li>tale_noun->[STUDIER_nameDef] a estudar [ENTITY_nameIndef]</li>
+    <li>image->[STUDIER_nameFull] a examinar cuidadosamente [ENTITY_nameDef] [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] a fazer experiências, procurando compreender os segredos de [ENTITY_nameDef], [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] a esforçar-se por compreender a natureza de [ENTITY_nameDef] [circumstance_group]</li>
+    <li>circumstance_phrase->com uma repulsa mal disfarçada no olhar</li>
+    <li>circumstance_phrase->enquanto rabisca num caderno</li>
+    <li>circumstance_phrase->enquanto consulta um tomo antigo</li>
+    <li>desc_sentence->Ao fundo, vê-se o trabalho constante dos coletores de bioferrite.</li>
+    <li>desc_sentence->É evidente o profundo fascínio do colono por [ENTITY_nameDef].</li>
+    <li>desc_sentence->[STUDIER_nameDef] está completamente absorto no estudo de [ENTITY_nameDef], esforçando-se por desvendar os seus segredos.</li>
+    <li>desc_sentence->[ENTITY_nameDef] mal se mantém no lugar graças ao trabalho incessante dos eletroinibidores.</li>
+    <li>desc_sentence->[ENTITY_nameDef] não parece reagir aos esforços de [STUDIER_nameDef].</li>
+  </StudiedEntity.rulePack.rulesStrings>
   
 </LanguageData>

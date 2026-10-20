@@ -4,18 +4,26 @@
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] used [ABILITY_label] on [SUBJECT_definite].</li>
   -->
-  <Event_AbilityUsed.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] usado [ABILITY_label] em [SUBJECT_definite].&lt;/li>\n</Event_AbilityUsed.rulePack.rulesStrings>
+  <Event_AbilityUsed.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] usou [ABILITY_label] sobre [SUBJECT_definite].</li>
+  </Event_AbilityUsed.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <Event_AbilityUsed.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] usado [ABILITY_label] em [SUBJECT_definite].&lt;/li>\n</Event_AbilityUsed.rulePack.rulesStrings>
+  <Event_AbilityUsed.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] usou [ABILITY_label] sobre [SUBJECT_definite].</li>
+  </Event_AbilityUsed.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] used [ITEM_indefinite] on [SUBJECT_definite].</li>
   -->
-  <Event_ItemUsed.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] usado [ITEM_indefinite] em [SUBJECT_definite].&lt;/li>\n</Event_ItemUsed.rulePack.rulesStrings>
+  <Event_ItemUsed.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] usou [ITEM_indefinite] sobre [SUBJECT_definite].</li>
+  </Event_ItemUsed.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <Event_ItemUsed.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] usado [ITEM_indefinite] em [SUBJECT_definite].&lt;/li>\n</Event_ItemUsed.rulePack.rulesStrings>
+  <Event_ItemUsed.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] usou [ITEM_indefinite] sobre [SUBJECT_definite].</li>
+  </Event_ItemUsed.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[SUBJECT_definite] was [stunned] by the attack.</li>
@@ -38,9 +46,49 @@
     <li>stumbled->wobbled</li>
     <li>stumbled->staggered</li>
   -->
-  <Event_Stun.rulePack.rulesStrings>&lt;li>r_logentry->[SUBJECT_definite] foi [atribuído] pelo ataque.&lt;/li>\n&lt;li>r_logentry->[SUBJECT_definite] foi [atribuído] pelo ataque [INITIATOR_definite].&lt;/li>\n&lt;li>stunned(p=3)->stunned&lt;/li>\n&lt;li>stunned->staggered&lt;/li>\n&lt;li>stunned->dazed&lt;/li>\n&lt;li>stunned->disoriented&lt;/li>\n&lt;li>r_logentry->[SUBJECT_definite] [apostado].&lt;/li>\n&lt;li>r_logentry->[SUBJECT_definite] [acionado] do ataque.&lt;/li>\n&lt;li>r_logentry->[SUBJECT_definite] [acionado] do ataque [INITIATOR_definite].&lt;/li>\n&lt;li> escalonado(p=3)-> escalonado&lt;/li>\n&lt;li> escalonado->faltered&lt;/li>\n&lt;li> escalonado->wobbled&lt;/li>\n&lt;li> escalonado->onda&lt;/li>\n&lt;li>r_logentry->[SUBJECT_definite] [desintegrado] em torno de blearily.&lt;/li>\n&lt;li>r_logentry->[SUBJECT_definite] [desintegrado] em torno de confusão.&lt;/li>\n&lt;li>stumbled(p=3)->stumbled&lt;/li>\n&lt;li>stumbled->wavered&lt;/li>\n&lt;li>stumbled->wobbled&lt;/li>\n&lt;li>stumbled->staggered&lt;/li>\n</Event_Stun.rulePack.rulesStrings>
+  <Event_Stun.rulePack.rulesStrings>
+    <li>r_logentry->[SUBJECT_definite] [stunned] com o ataque.</li>
+    <li>r_logentry->[INITIATOR_definite] atacou e [SUBJECT_definite] [stunned].</li>
+    <li>stunned(p=3)->ficou sem reação</li>
+    <li>stunned->cambaleou</li>
+    <li>stunned->perdeu a noção do espaço</li>
+    <li>stunned->perdeu o norte</li>
+    <li>r_logentry->[SUBJECT_definite] [staggered].</li>
+    <li>r_logentry->[SUBJECT_definite] [staggered] com o ataque.</li>
+    <li>r_logentry->[INITIATOR_definite] atacou e [SUBJECT_definite] [staggered].</li>
+    <li>staggered(p=3)->cambaleou</li>
+    <li>staggered->vacilou</li>
+    <li>staggered->oscilou</li>
+    <li>staggered->hesitou</li>
+    <li>r_logentry->[SUBJECT_definite] [stumbled] de olhos turvos.</li>
+    <li>r_logentry->[SUBJECT_definite] [stumbled] num estado de confusão.</li>
+    <li>stumbled(p=3)->tropeçou</li>
+    <li>stumbled->vacilou</li>
+    <li>stumbled->oscilou</li>
+    <li>stumbled->cambaleou</li>
+  </Event_Stun.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <Event_Stun.rulePack.rulesStrings>&lt;li>r_logentry->[SUBJECT_definite] foi [atribuído] pelo ataque.&lt;/li>\n&lt;li>r_logentry->[SUBJECT_definite] foi [atribuído] pelo ataque [INITIATOR_definite].&lt;/li>\n&lt;li>stunned(p=3)->stunned&lt;/li>\n&lt;li>stunned->staggered&lt;/li>\n&lt;li>stunned->dazed&lt;/li>\n&lt;li>stunned->disoriented&lt;/li>\n&lt;li>r_logentry->[SUBJECT_definite] [apostado].&lt;/li>\n&lt;li>r_logentry->[SUBJECT_definite] [acionado] do ataque.&lt;/li>\n&lt;li>r_logentry->[SUBJECT_definite] [acionado] do ataque [INITIATOR_definite].&lt;/li>\n&lt;li> escalonado(p=3)-> escalonado&lt;/li>\n&lt;li> escalonado->faltered&lt;/li>\n&lt;li> escalonado->wobbled&lt;/li>\n&lt;li> escalonado->onda&lt;/li>\n&lt;li>r_logentry->[SUBJECT_definite] [desintegrado] em torno de blearily.&lt;/li>\n&lt;li>r_logentry->[SUBJECT_definite] [desintegrado] em torno de confusão.&lt;/li>\n&lt;li>stumbled(p=3)->stumbled&lt;/li>\n&lt;li>stumbled->wavered&lt;/li>\n&lt;li>stumbled->wobbled&lt;/li>\n&lt;li>stumbled->staggered&lt;/li>\n</Event_Stun.rulePack.rulesStrings>
+  <Event_Stun.rulePack.rulesStrings>
+    <li>r_logentry->[SUBJECT_definite] [stunned] com o ataque.</li>
+    <li>r_logentry->[INITIATOR_definite] atacou e [SUBJECT_definite] [stunned].</li>
+    <li>stunned(p=3)->ficou sem reação</li>
+    <li>stunned->cambaleou</li>
+    <li>stunned->perdeu a noção do espaço</li>
+    <li>stunned->perdeu o norte</li>
+    <li>r_logentry->[SUBJECT_definite] [staggered].</li>
+    <li>r_logentry->[SUBJECT_definite] [staggered] com o ataque.</li>
+    <li>r_logentry->[INITIATOR_definite] atacou e [SUBJECT_definite] [staggered].</li>
+    <li>staggered(p=3)->cambaleou</li>
+    <li>staggered->vacilou</li>
+    <li>staggered->oscilou</li>
+    <li>staggered->hesitou</li>
+    <li>r_logentry->[SUBJECT_definite] [stumbled] de olhos turvos.</li>
+    <li>r_logentry->[SUBJECT_definite] [stumbled] num estado de confusão.</li>
+    <li>stumbled(p=3)->tropeçou</li>
+    <li>stumbled->vacilou</li>
+    <li>stumbled->oscilou</li>
+    <li>stumbled->cambaleou</li>
+  </Event_Stun.rulePack.rulesStrings>
   
 </LanguageData>

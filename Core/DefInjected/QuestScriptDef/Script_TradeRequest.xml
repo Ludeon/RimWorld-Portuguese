@@ -8,7 +8,13 @@
     <li>travelTime(canCaravan==True,priority=1)-> The estimated travel time is [estimatedTravelTime_duration].</li>
     <li>travelTime-></li>
   -->
-  <TradeRequest.questDescriptionRules.rulesStrings>&lt;li>questDescription-> Um acordo próximo, [settlement_label], tem um pedido de comércio especial. Eles gostariam de comprar:\n\n[pedido de ThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])]\n\nSe você quiser fazer o comércio, envie uma caravana com os itens solicitados. O tempo estimado de viagem é [estimadoTravelTime_duration].&lt;/li>\n&lt;li>qualityInfo(requestedThingHasQuality==True,priority=1)-> da qualidade normal+ &lt;/li>\n&lt;li>qualityInfo->&lt;/li>\n</TradeRequest.questDescriptionRules.rulesStrings>
+  <TradeRequest.questDescriptionRules.rulesStrings>
+    <li>questDescription->Uma povoação próxima, [settlement_label], tem um pedido comercial especial. Gostariam de comprar:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](no valor de [requestedThingMarketValue_money])\n\nSe quiseres fazer a troca, envia uma caravana com os objetos pedidos.[travelTime]</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->de qualidade normal ou superior </li>
+    <li>qualityInfo-></li>
+    <li>travelTime(canCaravan==True,priority=1)-> O tempo de viagem estimado é de [estimatedTravelTime_duration].</li>
+    <li>travelTime-></li>
+  </TradeRequest.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Caravan to [settlement_label]</li>
     <li>questName->Trade with [settlement_label]</li>
@@ -23,18 +29,50 @@
     <li>trade->Deal</li>
     <li>trade->Offer</li>
   -->
-  <TradeRequest.questNameRules.rulesStrings>&lt;li>questName->Caravan para [settlement_label]&lt;/li>\n&lt;li>questName->Comércio com [settlement_label]&lt;/li>\n&lt;li>questName-> Vender a [settlement_label]&lt;/li>\n&lt;li>questName->Supplica para [settlement_label]&lt;/li>\n&lt;li>questName->A [especial] [trade]&lt;/li>\n&lt;li>special->Special&lt;/li>\n&lt;li>special->Unique&lt;/li>\n&lt;li>special->Non-tradicional&lt;/li>\n&lt;li>trade->Trade&lt;/li>\n&lt;li>trade->Exchange&lt;/li>\n&lt;li>trade->Deal&lt;/li>\n&lt;li>trade->Offer&lt;/li>\n</TradeRequest.questNameRules.rulesStrings>
+  <TradeRequest.questNameRules.rulesStrings>
+    <li>questName->Caravana para [settlement_label]</li>
+    <li>questName->Comércio com [settlement_label]</li>
+    <li>questName->Venda a [settlement_label]</li>
+    <li>questName->Provisões para [settlement_label]</li>
+    <li>questName->[trade] [special]</li>
+    <li>special->Especial</li>
+    <li>special->Singular</li>
+    <li>special->Invulgar</li>
+    <li>trade->Comércio</li>
+    <li>trade->Troca</li>
+    <li>trade->Negócio</li>
+    <li>trade->Oferta</li>
+  </TradeRequest.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <TradeRequest.LetterLabelQuestFailed.slateRef>Quest falhou: [resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>
+  <TradeRequest.LetterLabelQuestFailed.slateRef>Missão falhada: [resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>
   <!-- EN: [faction_name] became hostile to you. -->
-  <TradeRequest.LetterTextQuestFailed.slateRef>[faction_name] tornou-se hostil a você.</TradeRequest.LetterTextQuestFailed.slateRef>
+  <TradeRequest.LetterTextQuestFailed.slateRef>[faction_name] tornou-se hostil para contigo.</TradeRequest.LetterTextQuestFailed.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
   <TradeRequest.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.LetterLabelFavorReceiver.slateRef>
   <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
-  <TradeRequest.LetterTextFavorReceiver.slateRef>Quem deve ser creditado com [asker_faction_royalFavorLabel] para cumprir o pedido de comércio?</TradeRequest.LetterTextFavorReceiver.slateRef>
+  <TradeRequest.LetterTextFavorReceiver.slateRef>Quem deve receber o crédito de [asker_faction_royalFavorLabel] por cumprir o pedido comercial?</TradeRequest.LetterTextFavorReceiver.slateRef>
   
   <!-- UNUSED -->
-  <TradeRequest.questDescriptionRules.rulesStrings>&lt;li>questDescription-> Um acordo próximo, [settlement_label], tem um pedido de comércio especial. Eles gostariam de comprar:\n\n[pedido de ThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])]\n\nSe você quiser fazer o comércio, envie uma caravana com os itens solicitados. O tempo estimado de viagem é [estimadoTravelTime_duration].&lt;/li>\n&lt;li>qualityInfo(requestedThingHasQuality==True,priority=1)-> da qualidade normal+ &lt;/li>\n&lt;li>qualityInfo->&lt;/li>\n</TradeRequest.questDescriptionRules.rulesStrings>
-  <TradeRequest.questNameRules.rulesStrings>&lt;li>questName->Caravan para [settlement_label]&lt;/li>\n&lt;li>questName->Comércio com [settlement_label]&lt;/li>\n&lt;li>questName-> Vender a [settlement_label]&lt;/li>\n&lt;li>questName->Supplica para [settlement_label]&lt;/li>\n&lt;li>questName->A [especial] [trade]&lt;/li>\n&lt;li>special->Special&lt;/li>\n&lt;li>special->Unique&lt;/li>\n&lt;li>special->Non-tradicional&lt;/li>\n&lt;li>trade->Trade&lt;/li>\n&lt;li>trade->Exchange&lt;/li>\n&lt;li>trade->Deal&lt;/li>\n&lt;li>trade->Offer&lt;/li>\n</TradeRequest.questNameRules.rulesStrings>
+  <TradeRequest.questDescriptionRules.rulesStrings>
+    <li>questDescription->Uma povoação próxima, [settlement_label], tem um pedido comercial especial. Gostariam de comprar:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](no valor de [requestedThingMarketValue_money])\n\nSe quiseres fazer a troca, envia uma caravana com os objetos pedidos.[travelTime]</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->de qualidade normal ou superior </li>
+    <li>qualityInfo-></li>
+    <li>travelTime(canCaravan==True,priority=1)-> O tempo de viagem estimado é de [estimatedTravelTime_duration].</li>
+    <li>travelTime-></li>
+  </TradeRequest.questDescriptionRules.rulesStrings>
+  <TradeRequest.questNameRules.rulesStrings>
+    <li>questName->Caravana para [settlement_label]</li>
+    <li>questName->Comércio com [settlement_label]</li>
+    <li>questName->Venda a [settlement_label]</li>
+    <li>questName->Provisões para [settlement_label]</li>
+    <li>questName->[trade] [special]</li>
+    <li>special->Especial</li>
+    <li>special->Singular</li>
+    <li>special->Invulgar</li>
+    <li>trade->Comércio</li>
+    <li>trade->Troca</li>
+    <li>trade->Negócio</li>
+    <li>trade->Oferta</li>
+  </TradeRequest.questNameRules.rulesStrings>
   
 </LanguageData>

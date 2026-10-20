@@ -4,7 +4,7 @@
   <!-- EN: animals -->
   <Animals.label>animais</Animals.label>
   <!-- EN: Taming, training, and controlling animals. -->
-  <Animals.description>Taming, treinamento e controle de animais.</Animals.description>
+  <Animals.description>Domesticar, treinar e controlar animais.</Animals.description>
   <!-- EN:
     <li>subject->animals</li>
     <li>subject->herding</li>
@@ -19,17 +19,43 @@
     <li>subject->wildlife</li>
     <li>subject->poultry</li>
   -->
-  <Animals.generalRules.rulesStrings>&lt;li>subject->animals&lt;/li>\n&lt;li>subject->herding&lt;/li>\n&lt;li>subject->taming&lt;/li>\n&lt;li>subject->livestock&lt;/li>\n&lt;li>subject->breeding&lt;/li>\n&lt;li>subject->zoologia&lt;/li>\n&lt;li>subject->husbandry&lt;/li>\n&lt;li>subject->herding&lt;/li>\n&lt;li>subject->domestication&lt;/li>\n&lt;li>subject->fauna&lt;/li>\n&lt;li>subject->wildlife&lt;/li>\n&lt;li>subject->poultry&lt;/li>subject\n</Animals.generalRules.rulesStrings>
+  <Animals.generalRules.rulesStrings>
+    <li>subject->animais</li>
+    <li>subject->pastoreio</li>
+    <li>subject->doma</li>
+    <li>subject->gado</li>
+    <li>subject->criação</li>
+    <li>subject->zoologia</li>
+    <li>subject->pecuária</li>
+    <li>subject->pastoreio</li>
+    <li>subject->domesticação</li>
+    <li>subject->fauna</li>
+    <li>subject->vida selvagem</li>
+    <li>subject->aves de capoeira</li>
+  </Animals.generalRules.rulesStrings>
   <!-- EN: animals -->
   <Animals.skillLabel>animais</Animals.skillLabel>
   
   <!-- UNUSED -->
-  <Animals.generalRules.rulesStrings>&lt;li>subject->animals&lt;/li>\n&lt;li>subject->herding&lt;/li>\n&lt;li>subject->taming&lt;/li>\n&lt;li>subject->livestock&lt;/li>\n&lt;li>subject->breeding&lt;/li>\n&lt;li>subject->zoologia&lt;/li>\n&lt;li>subject->husbandry&lt;/li>\n&lt;li>subject->herding&lt;/li>\n&lt;li>subject->domestication&lt;/li>\n&lt;li>subject->fauna&lt;/li>\n&lt;li>subject->wildlife&lt;/li>\n&lt;li>subject->poultry&lt;/li>subject\n</Animals.generalRules.rulesStrings>
+  <Animals.generalRules.rulesStrings>
+    <li>subject->animais</li>
+    <li>subject->pastoreio</li>
+    <li>subject->doma</li>
+    <li>subject->gado</li>
+    <li>subject->criação</li>
+    <li>subject->zoologia</li>
+    <li>subject->pecuária</li>
+    <li>subject->pastoreio</li>
+    <li>subject->domesticação</li>
+    <li>subject->fauna</li>
+    <li>subject->vida selvagem</li>
+    <li>subject->aves de capoeira</li>
+  </Animals.generalRules.rulesStrings>
   
   <!-- EN: artistic -->
-  <Artistic.label>artística</Artistic.label>
+  <Artistic.label>arte</Artistic.label>
   <!-- EN: Crafting art. -->
-  <Artistic.description>Arte artesanal.</Artistic.description>
+  <Artistic.description>Criar obras de arte.</Artistic.description>
   <!-- EN:
     <li>subject->art</li>
     <li>subject->pottery</li>
@@ -43,12 +69,36 @@
     <li>subject->impressionism</li>
     <li>subject->artistry</li>
   -->
-  <Artistic.generalRules.rulesStrings>&lt;li>subject->art&lt;/li>\n&lt;li>subject->pottery&lt;/li>\n&lt;li>subject->sculpting&lt;/li>\n&lt;li>subject->painting&lt;/li>\n&lt;li>subject->creativity&lt;/li>\n&lt;li>subject->expression&lt;/li>\n&lt;li>subject->aesthetics&lt;/li>\n&lt;li>subject->design&lt;/li>\n&lt;li>subject->sculpture&lt;/li>\n&lt;li>subject->impressionismo&lt;/li>\n&lt;li>subject->artistry&lt;/li>\n</Artistic.generalRules.rulesStrings>
+  <Artistic.generalRules.rulesStrings>
+    <li>subject->arte</li>
+    <li>subject->cerâmica</li>
+    <li>subject->escultura</li>
+    <li>subject->pintura</li>
+    <li>subject->criatividade</li>
+    <li>subject->expressão</li>
+    <li>subject->estética</li>
+    <li>subject->design</li>
+    <li>subject->estatuária</li>
+    <li>subject->impressionismo</li>
+    <li>subject->talento artístico</li>
+  </Artistic.generalRules.rulesStrings>
   <!-- EN: artistic -->
-  <Artistic.skillLabel>artística</Artistic.skillLabel>
+  <Artistic.skillLabel>arte</Artistic.skillLabel>
   
   <!-- UNUSED -->
-  <Artistic.generalRules.rulesStrings>&lt;li>subject->art&lt;/li>\n&lt;li>subject->pottery&lt;/li>\n&lt;li>subject->sculpting&lt;/li>\n&lt;li>subject->painting&lt;/li>\n&lt;li>subject->creativity&lt;/li>\n&lt;li>subject->expression&lt;/li>\n&lt;li>subject->aesthetics&lt;/li>\n&lt;li>subject->design&lt;/li>\n&lt;li>subject->sculpture&lt;/li>\n&lt;li>subject->impressionismo&lt;/li>\n&lt;li>subject->artistry&lt;/li>\n</Artistic.generalRules.rulesStrings>
+  <Artistic.generalRules.rulesStrings>
+    <li>subject->arte</li>
+    <li>subject->cerâmica</li>
+    <li>subject->escultura</li>
+    <li>subject->pintura</li>
+    <li>subject->criatividade</li>
+    <li>subject->expressão</li>
+    <li>subject->estética</li>
+    <li>subject->design</li>
+    <li>subject->estatuária</li>
+    <li>subject->impressionismo</li>
+    <li>subject->talento artístico</li>
+  </Artistic.generalRules.rulesStrings>
   
   <!-- EN: construction -->
   <Construction.label>construção</Construction.label>
@@ -66,17 +116,39 @@
     <li>subject->carpentry</li>
     <li>subject->infrastructure</li>
   -->
-  <Construction.generalRules.rulesStrings>&lt;li>subject->construction&lt;/li>\n&lt;li>subject->building&lt;/li>\n&lt;li>subject->arquitetura&lt;/li>\n&lt;li>subject->engineering&lt;/li>\n&lt;li>subject->design&lt;/li>\n&lt;li>subject->renovação&lt;/li>\n&lt;li>subject->structures&lt;/li>\n&lt;li>subject->foundation&lt;/li>\n&lt;li>subject->carpintura&lt;/li>\n&lt;li>subject->infrastructure&lt;/li>\n</Construction.generalRules.rulesStrings>
+  <Construction.generalRules.rulesStrings>
+    <li>subject->construção</li>
+    <li>subject->edificação</li>
+    <li>subject->arquitetura</li>
+    <li>subject->engenharia</li>
+    <li>subject->projeto</li>
+    <li>subject->remodelação</li>
+    <li>subject->estruturas</li>
+    <li>subject->fundações</li>
+    <li>subject->carpintaria</li>
+    <li>subject->infraestruturas</li>
+  </Construction.generalRules.rulesStrings>
   <!-- EN: construction -->
   <Construction.skillLabel>construção</Construction.skillLabel>
   
   <!-- UNUSED -->
-  <Construction.generalRules.rulesStrings>&lt;li>subject->construction&lt;/li>\n&lt;li>subject->building&lt;/li>\n&lt;li>subject->arquitetura&lt;/li>\n&lt;li>subject->engineering&lt;/li>\n&lt;li>subject->design&lt;/li>\n&lt;li>subject->renovação&lt;/li>\n&lt;li>subject->structures&lt;/li>\n&lt;li>subject->foundation&lt;/li>\n&lt;li>subject->carpintura&lt;/li>\n&lt;li>subject->infrastructure&lt;/li>\n</Construction.generalRules.rulesStrings>
+  <Construction.generalRules.rulesStrings>
+    <li>subject->construção</li>
+    <li>subject->edificação</li>
+    <li>subject->arquitetura</li>
+    <li>subject->engenharia</li>
+    <li>subject->projeto</li>
+    <li>subject->remodelação</li>
+    <li>subject->estruturas</li>
+    <li>subject->fundações</li>
+    <li>subject->carpintaria</li>
+    <li>subject->infraestruturas</li>
+  </Construction.generalRules.rulesStrings>
   
   <!-- EN: cooking -->
-  <Cooking.label>cozinhar</Cooking.label>
+  <Cooking.label>culinária</Cooking.label>
   <!-- EN: Creating meals from raw ingredients quickly and without accidental food poisoning. -->
-  <Cooking.description>Criando refeições de ingredientes crus rapidamente e sem envenenamento acidental de alimentos.</Cooking.description>
+  <Cooking.description>Preparar refeições a partir de ingredientes crus de forma rápida e sem intoxicações alimentares acidentais.</Cooking.description>
   <!-- EN:
     <li>subject->cooking</li>
     <li>subject->food</li>
@@ -92,17 +164,45 @@
     <li>subject->sauces</li>
     <li>subject->meals</li>
   -->
-  <Cooking.generalRules.rulesStrings>&lt;li>subject->cooking&lt;/li>\n&lt;li>subject->food&lt;/li>\n&lt;li>subject->baking&lt;/li>\n&lt;li>subject->cuisine&lt;/li>\n&lt;li>subject->recipes&lt;/li>\n&lt;li>subject->gastronomia&lt;/li>\n&lt;li>subject->flavors&lt;/li>\n&lt;li>subject->ingredients&lt;/li>\n&lt;li>subject->spices&lt;/li>\n&lt;li>subject->nutrição&lt;/li>\n&lt;li>subject->taste&lt;/li>\n&lt;li>subject->sauces&lt;/li>\n&lt;li>subject->meals&lt;/li>\n</Cooking.generalRules.rulesStrings>
+  <Cooking.generalRules.rulesStrings>
+    <li>subject->culinária</li>
+    <li>subject->comida</li>
+    <li>subject->panificação</li>
+    <li>subject->cozinha</li>
+    <li>subject->receitas</li>
+    <li>subject->gastronomia</li>
+    <li>subject->sabores</li>
+    <li>subject->ingredientes</li>
+    <li>subject->especiarias</li>
+    <li>subject->nutrição</li>
+    <li>subject->paladar</li>
+    <li>subject->molhos</li>
+    <li>subject->refeições</li>
+  </Cooking.generalRules.rulesStrings>
   <!-- EN: cooking -->
-  <Cooking.skillLabel>cozinhar</Cooking.skillLabel>
+  <Cooking.skillLabel>culinária</Cooking.skillLabel>
   
   <!-- UNUSED -->
-  <Cooking.generalRules.rulesStrings>&lt;li>subject->cooking&lt;/li>\n&lt;li>subject->food&lt;/li>\n&lt;li>subject->baking&lt;/li>\n&lt;li>subject->cuisine&lt;/li>\n&lt;li>subject->recipes&lt;/li>\n&lt;li>subject->gastronomia&lt;/li>\n&lt;li>subject->flavors&lt;/li>\n&lt;li>subject->ingredients&lt;/li>\n&lt;li>subject->spices&lt;/li>\n&lt;li>subject->nutrição&lt;/li>\n&lt;li>subject->taste&lt;/li>\n&lt;li>subject->sauces&lt;/li>\n&lt;li>subject->meals&lt;/li>\n</Cooking.generalRules.rulesStrings>
+  <Cooking.generalRules.rulesStrings>
+    <li>subject->culinária</li>
+    <li>subject->comida</li>
+    <li>subject->panificação</li>
+    <li>subject->cozinha</li>
+    <li>subject->receitas</li>
+    <li>subject->gastronomia</li>
+    <li>subject->sabores</li>
+    <li>subject->ingredientes</li>
+    <li>subject->especiarias</li>
+    <li>subject->nutrição</li>
+    <li>subject->paladar</li>
+    <li>subject->molhos</li>
+    <li>subject->refeições</li>
+  </Cooking.generalRules.rulesStrings>
   
   <!-- EN: crafting -->
-  <Crafting.label>artesanato</Crafting.label>
+  <Crafting.label>fabrico</Crafting.label>
   <!-- EN: Crafting general items including weapons, components, and refined resources. -->
-  <Crafting.description>Crafting itens gerais, incluindo armas, componentes e recursos refinados.</Crafting.description>
+  <Crafting.description>Fabricar artigos diversos, incluindo armas, componentes e recursos refinados.</Crafting.description>
   <!-- EN:
     <li>subject->crafting</li>
     <li>subject->assembly</li>
@@ -114,17 +214,37 @@
     <li>subject->machining</li>
     <li>subject->artisanry</li>
   -->
-  <Crafting.generalRules.rulesStrings>&lt;li>subject->crafting&lt;/li>\n&lt;li>subject->montagem&lt;/li>\n&lt;li>subject->fabricação&lt;/li>\n&lt;li>subject->handcrafting&lt;/li>\n&lt;li>subject->fabricação&lt;/li>\n&lt;li>subject->produção&lt;/li>\n&lt;li>subject->craftsmanship&lt;/li>\n&lt;li>subject->machining&lt;/li>\n&lt;li>subject->artisanry&lt;/li>\n</Crafting.generalRules.rulesStrings>
+  <Crafting.generalRules.rulesStrings>
+    <li>subject->fabrico</li>
+    <li>subject->montagem</li>
+    <li>subject->manufatura</li>
+    <li>subject->artesanato</li>
+    <li>subject->produção industrial</li>
+    <li>subject->produção</li>
+    <li>subject->mestria artesanal</li>
+    <li>subject->maquinagem</li>
+    <li>subject->ofício</li>
+  </Crafting.generalRules.rulesStrings>
   <!-- EN: crafting -->
-  <Crafting.skillLabel>artesanato</Crafting.skillLabel>
+  <Crafting.skillLabel>fabrico</Crafting.skillLabel>
   
   <!-- UNUSED -->
-  <Crafting.generalRules.rulesStrings>&lt;li>subject->crafting&lt;/li>\n&lt;li>subject->montagem&lt;/li>\n&lt;li>subject->fabricação&lt;/li>\n&lt;li>subject->handcrafting&lt;/li>\n&lt;li>subject->fabricação&lt;/li>\n&lt;li>subject->produção&lt;/li>\n&lt;li>subject->craftsmanship&lt;/li>\n&lt;li>subject->machining&lt;/li>\n&lt;li>subject->artisanry&lt;/li>\n</Crafting.generalRules.rulesStrings>
+  <Crafting.generalRules.rulesStrings>
+    <li>subject->fabrico</li>
+    <li>subject->montagem</li>
+    <li>subject->manufatura</li>
+    <li>subject->artesanato</li>
+    <li>subject->produção industrial</li>
+    <li>subject->produção</li>
+    <li>subject->mestria artesanal</li>
+    <li>subject->maquinagem</li>
+    <li>subject->ofício</li>
+  </Crafting.generalRules.rulesStrings>
   
   <!-- EN: intellectual -->
   <Intellectual.label>intelectual</Intellectual.label>
   <!-- EN: Researching and drug synthesis. -->
-  <Intellectual.description>Pesquisa e síntese de drogas.</Intellectual.description>
+  <Intellectual.description>Investigação e síntese de drogas.</Intellectual.description>
   <!-- EN:
     <li>subject->physics</li>
     <li>subject->chemistry</li>
@@ -150,17 +270,65 @@
     <li>subject->research methods</li>
     <li>subject->intellectual inquiry</li>
   -->
-  <Intellectual.generalRules.rulesStrings>&lt;li>subject->física&lt;/li>\n&lt;li>subject->chemistry&lt;/li>\n&lt;li>subject->orbital dynamics&lt;/li>\n&lt;li>subject->mathematics&lt;/li>\n&lt;li>subject->biology&lt;/li>\n&lt;li>subject->science&lt;/li>\n&lt;li>subject->pesquisa&lt;/li>\n&lt;li>subject->innovation&lt;/li>\n&lt;li>subject->discovery&lt;/li>\n&lt;li>subject->análise&lt;/li>\n&lt;li>subject->experimentation&lt;/li>\n&lt;li>subject->conhecimento&lt;/li>\n&lt;li>subject->exploração&lt;/li>\n&lt;li>subject->física&lt;/li>\n&lt;li>subject->chemistry&lt;/li>\n&lt;li>subject->data analysis&lt;/li>\n&lt;li>subject-> inquérito científico&lt;/li>\n&lt;li>subject-> crescimento intelectual&lt;/li>\n&lt;li>subject->academic perseguições&lt;/li>\n&lt;li>subject->quantitative analysis&lt;/li>\n&lt;li>subject->experiment design&lt;/li>\n&lt;li>subject-> métodos de pesquisa&lt;/li>\n&lt;li>subject->intellectual inquérito&lt;/li>\n</Intellectual.generalRules.rulesStrings>
+  <Intellectual.generalRules.rulesStrings>
+    <li>subject->física</li>
+    <li>subject->química</li>
+    <li>subject->dinâmica orbital</li>
+    <li>subject->matemática</li>
+    <li>subject->biologia</li>
+    <li>subject->ciência</li>
+    <li>subject->investigação</li>
+    <li>subject->inovação</li>
+    <li>subject->descoberta</li>
+    <li>subject->análise</li>
+    <li>subject->experimentação</li>
+    <li>subject->conhecimento</li>
+    <li>subject->exploração</li>
+    <li>subject->física</li>
+    <li>subject->química</li>
+    <li>subject->análise de dados</li>
+    <li>subject->investigação científica</li>
+    <li>subject->crescimento intelectual</li>
+    <li>subject->percursos académicos</li>
+    <li>subject->análise quantitativa</li>
+    <li>subject->conceção de experiências</li>
+    <li>subject->métodos de investigação</li>
+    <li>subject->indagação intelectual</li>
+  </Intellectual.generalRules.rulesStrings>
   <!-- EN: intellectual -->
   <Intellectual.skillLabel>intelectual</Intellectual.skillLabel>
   
   <!-- UNUSED -->
-  <Intellectual.generalRules.rulesStrings>&lt;li>subject->física&lt;/li>\n&lt;li>subject->chemistry&lt;/li>\n&lt;li>subject->orbital dynamics&lt;/li>\n&lt;li>subject->mathematics&lt;/li>\n&lt;li>subject->biology&lt;/li>\n&lt;li>subject->science&lt;/li>\n&lt;li>subject->pesquisa&lt;/li>\n&lt;li>subject->innovation&lt;/li>\n&lt;li>subject->discovery&lt;/li>\n&lt;li>subject->análise&lt;/li>\n&lt;li>subject->experimentation&lt;/li>\n&lt;li>subject->conhecimento&lt;/li>\n&lt;li>subject->exploração&lt;/li>\n&lt;li>subject->física&lt;/li>\n&lt;li>subject->chemistry&lt;/li>\n&lt;li>subject->data analysis&lt;/li>\n&lt;li>subject-> inquérito científico&lt;/li>\n&lt;li>subject-> crescimento intelectual&lt;/li>\n&lt;li>subject->academic perseguições&lt;/li>\n&lt;li>subject->quantitative analysis&lt;/li>\n&lt;li>subject->experiment design&lt;/li>\n&lt;li>subject-> métodos de pesquisa&lt;/li>\n&lt;li>subject->intellectual inquérito&lt;/li>\n</Intellectual.generalRules.rulesStrings>
+  <Intellectual.generalRules.rulesStrings>
+    <li>subject->física</li>
+    <li>subject->química</li>
+    <li>subject->dinâmica orbital</li>
+    <li>subject->matemática</li>
+    <li>subject->biologia</li>
+    <li>subject->ciência</li>
+    <li>subject->investigação</li>
+    <li>subject->inovação</li>
+    <li>subject->descoberta</li>
+    <li>subject->análise</li>
+    <li>subject->experimentação</li>
+    <li>subject->conhecimento</li>
+    <li>subject->exploração</li>
+    <li>subject->física</li>
+    <li>subject->química</li>
+    <li>subject->análise de dados</li>
+    <li>subject->investigação científica</li>
+    <li>subject->crescimento intelectual</li>
+    <li>subject->percursos académicos</li>
+    <li>subject->análise quantitativa</li>
+    <li>subject->conceção de experiências</li>
+    <li>subject->métodos de investigação</li>
+    <li>subject->indagação intelectual</li>
+  </Intellectual.generalRules.rulesStrings>
   
   <!-- EN: medical -->
-  <Medicine.label>médico</Medicine.label>
+  <Medicine.label>medicina</Medicine.label>
   <!-- EN: Tending wounds and diseases and performing surgery. -->
-  <Medicine.description>Enfiar feridas e doenças e realizar cirurgia.</Medicine.description>
+  <Medicine.description>Tratar feridas e doenças e realizar cirurgias.</Medicine.description>
   <!-- EN:
     <li>subject->medicine</li>
     <li>subject->surgery</li>
@@ -185,17 +353,63 @@
     <li>subject->virology</li>
     <li>subject->health sciences</li>
   -->
-  <Medicine.generalRules.rulesStrings>&lt;li>subject->medicine&lt;/li>\n&lt;li>subject->surgery&lt;/li>\n&lt;li>subject->bacteria&lt;/li>\n&lt;li>subject->skin reparo&lt;/li>\n&lt;li>subject->healthcare&lt;/li>\n&lt;li>subject-> ciência médica&lt;/li>\n&lt;li>subject->physiology&lt;/li>\n&lt;li>subject->pharmacologia&lt;/li>\n&lt;li>subject->tratamento&lt;/li>\n&lt;li>subject->diagnosis&lt;/li>\n&lt;li>subject->surgery&lt;/li>\n&lt;li>subject->anatomia&lt;/li>\n&lt;li>subject->bacteria&lt;/li>\n&lt;li>subject->patologia&lt;/li>\n&lt;li>subject->disease management&lt;/li>\n&lt;li>subjeto-> cuidado de paciente&lt;/li>\n&lt;li>subject->emergência medicina&lt;/li>\n&lt;li>subject->nursing&lt;/li>\n&lt;li>subject-> pesquisa médica&lt;/li>\n&lt;li>subject-> saúde pública&lt;/li>\n&lt;li>subject->virologia&lt;/li>\n&lt;li>subject->ciências de saúde&lt;/li>\n</Medicine.generalRules.rulesStrings>
+  <Medicine.generalRules.rulesStrings>
+    <li>subject->medicina</li>
+    <li>subject->cirurgia</li>
+    <li>subject->bactérias</li>
+    <li>subject->reparação da pele</li>
+    <li>subject->cuidados de saúde</li>
+    <li>subject->ciência médica</li>
+    <li>subject->fisiologia</li>
+    <li>subject->farmacologia</li>
+    <li>subject->tratamento</li>
+    <li>subject->diagnóstico</li>
+    <li>subject->cirurgia</li>
+    <li>subject->anatomia</li>
+    <li>subject->bactérias</li>
+    <li>subject->patologia</li>
+    <li>subject->gestão de doenças</li>
+    <li>subject->cuidados ao doente</li>
+    <li>subject->medicina de urgência</li>
+    <li>subject->enfermagem</li>
+    <li>subject->investigação médica</li>
+    <li>subject->saúde pública</li>
+    <li>subject->virologia</li>
+    <li>subject->ciências da saúde</li>
+  </Medicine.generalRules.rulesStrings>
   <!-- EN: medical -->
-  <Medicine.skillLabel>médico</Medicine.skillLabel>
+  <Medicine.skillLabel>medicina</Medicine.skillLabel>
   
   <!-- UNUSED -->
-  <Medicine.generalRules.rulesStrings>&lt;li>subject->medicine&lt;/li>\n&lt;li>subject->surgery&lt;/li>\n&lt;li>subject->bacteria&lt;/li>\n&lt;li>subject->skin reparo&lt;/li>\n&lt;li>subject->healthcare&lt;/li>\n&lt;li>subject-> ciência médica&lt;/li>\n&lt;li>subject->physiology&lt;/li>\n&lt;li>subject->pharmacologia&lt;/li>\n&lt;li>subject->tratamento&lt;/li>\n&lt;li>subject->diagnosis&lt;/li>\n&lt;li>subject->surgery&lt;/li>\n&lt;li>subject->anatomia&lt;/li>\n&lt;li>subject->bacteria&lt;/li>\n&lt;li>subject->patologia&lt;/li>\n&lt;li>subject->disease management&lt;/li>\n&lt;li>subjeto-> cuidado de paciente&lt;/li>\n&lt;li>subject->emergência medicina&lt;/li>\n&lt;li>subject->nursing&lt;/li>\n&lt;li>subject-> pesquisa médica&lt;/li>\n&lt;li>subject-> saúde pública&lt;/li>\n&lt;li>subject->virologia&lt;/li>\n&lt;li>subject->ciências de saúde&lt;/li>\n</Medicine.generalRules.rulesStrings>
+  <Medicine.generalRules.rulesStrings>
+    <li>subject->medicina</li>
+    <li>subject->cirurgia</li>
+    <li>subject->bactérias</li>
+    <li>subject->reparação da pele</li>
+    <li>subject->cuidados de saúde</li>
+    <li>subject->ciência médica</li>
+    <li>subject->fisiologia</li>
+    <li>subject->farmacologia</li>
+    <li>subject->tratamento</li>
+    <li>subject->diagnóstico</li>
+    <li>subject->cirurgia</li>
+    <li>subject->anatomia</li>
+    <li>subject->bactérias</li>
+    <li>subject->patologia</li>
+    <li>subject->gestão de doenças</li>
+    <li>subject->cuidados ao doente</li>
+    <li>subject->medicina de urgência</li>
+    <li>subject->enfermagem</li>
+    <li>subject->investigação médica</li>
+    <li>subject->saúde pública</li>
+    <li>subject->virologia</li>
+    <li>subject->ciências da saúde</li>
+  </Medicine.generalRules.rulesStrings>
   
   <!-- EN: melee -->
   <Melee.label>corpo a corpo</Melee.label>
   <!-- EN: Melee combat, both armed and unarmed. -->
-  <Melee.description>Combate corpo a corpo, armado e desarmado.</Melee.description>
+  <Melee.description>Combate corpo a corpo, armado ou desarmado.</Melee.description>
   <!-- EN:
     <li>subject->fighting</li>
     <li>subject->melee</li>
@@ -209,17 +423,41 @@
     <li>subject->knighthood</li>
     <li>subject->dueling</li>
   -->
-  <Melee.generalRules.rulesStrings>&lt;li>subject->fighting&lt;/li>\n&lt;li>subject->melee&lt;/li>\n&lt;li>subject->combat&lt;/li>\n&lt;li>subject->artes marciais&lt;/li>\n&lt;li>subject->swordplay&lt;/li>\n&lt;li>subject->weaponry&lt;/li>\n&lt;li>subject->brawling&lt;/li>\n&lt;li>subject->pugilismo&lt;/li>\n&lt;li>subject->fencing&lt;/li>\n&lt;li>subject->knighthood&lt;/li>\n&lt;li>subject->dueling&lt;/li>\n</Melee.generalRules.rulesStrings>
+  <Melee.generalRules.rulesStrings>
+    <li>subject->luta</li>
+    <li>subject->corpo a corpo</li>
+    <li>subject->combate</li>
+    <li>subject->artes marciais</li>
+    <li>subject->manejo de espada</li>
+    <li>subject->armamento</li>
+    <li>subject->pancadaria</li>
+    <li>subject->pugilismo</li>
+    <li>subject->esgrima</li>
+    <li>subject->cavalaria</li>
+    <li>subject->duelos</li>
+  </Melee.generalRules.rulesStrings>
   <!-- EN: melee -->
   <Melee.skillLabel>corpo a corpo</Melee.skillLabel>
   
   <!-- UNUSED -->
-  <Melee.generalRules.rulesStrings>&lt;li>subject->fighting&lt;/li>\n&lt;li>subject->melee&lt;/li>\n&lt;li>subject->combat&lt;/li>\n&lt;li>subject->artes marciais&lt;/li>\n&lt;li>subject->swordplay&lt;/li>\n&lt;li>subject->weaponry&lt;/li>\n&lt;li>subject->brawling&lt;/li>\n&lt;li>subject->pugilismo&lt;/li>\n&lt;li>subject->fencing&lt;/li>\n&lt;li>subject->knighthood&lt;/li>\n&lt;li>subject->dueling&lt;/li>\n</Melee.generalRules.rulesStrings>
+  <Melee.generalRules.rulesStrings>
+    <li>subject->luta</li>
+    <li>subject->corpo a corpo</li>
+    <li>subject->combate</li>
+    <li>subject->artes marciais</li>
+    <li>subject->manejo de espada</li>
+    <li>subject->armamento</li>
+    <li>subject->pancadaria</li>
+    <li>subject->pugilismo</li>
+    <li>subject->esgrima</li>
+    <li>subject->cavalaria</li>
+    <li>subject->duelos</li>
+  </Melee.generalRules.rulesStrings>
   
   <!-- EN: mining -->
   <Mining.label>mineração</Mining.label>
   <!-- EN: Digging tunnels and extracting buried resources. -->
-  <Mining.description>Túneis de escavação e extração de recursos enterrados.</Mining.description>
+  <Mining.description>Escavar túneis e extrair recursos enterrados.</Mining.description>
   <!-- EN:
     <li>subject->mining</li>
     <li>subject->digging</li>
@@ -235,17 +473,45 @@
     <li>subject->geology</li>
     <li>subject->earthmoving</li>
   -->
-  <Mining.generalRules.rulesStrings>&lt;li>subject->mining&lt;/li>\n&lt;li>subject->digging&lt;/li>\n&lt;li>subject->quarrying&lt;/li>\n&lt;li>subject->strip-mining&lt;/li>\n&lt;li>subject->excavação&lt;/li>\n&lt;li>subject->prospeção&lt;/li>\n&lt;li>subject->ore&lt;/li>\n&lt;li>subject->tunneling&lt;/li>\n&lt;li>subject->drilling&lt;/li>\n&lt;li>subject->minerals&lt;/li>\n&lt;li>subject->gemology&lt;/li>\n&lt;li>subject->geology&lt;/li>\n&lt;li>subject->earthmoving&lt;/li>\n</Mining.generalRules.rulesStrings>
+  <Mining.generalRules.rulesStrings>
+    <li>subject->mineração</li>
+    <li>subject->escavação</li>
+    <li>subject->pedreiras</li>
+    <li>subject->mineração a céu aberto</li>
+    <li>subject->escavações</li>
+    <li>subject->prospeção</li>
+    <li>subject->minério</li>
+    <li>subject->abertura de túneis</li>
+    <li>subject->perfuração</li>
+    <li>subject->minerais</li>
+    <li>subject->gemologia</li>
+    <li>subject->geologia</li>
+    <li>subject->movimentação de terras</li>
+  </Mining.generalRules.rulesStrings>
   <!-- EN: mining -->
   <Mining.skillLabel>mineração</Mining.skillLabel>
   
   <!-- UNUSED -->
-  <Mining.generalRules.rulesStrings>&lt;li>subject->mining&lt;/li>\n&lt;li>subject->digging&lt;/li>\n&lt;li>subject->quarrying&lt;/li>\n&lt;li>subject->strip-mining&lt;/li>\n&lt;li>subject->excavação&lt;/li>\n&lt;li>subject->prospeção&lt;/li>\n&lt;li>subject->ore&lt;/li>\n&lt;li>subject->tunneling&lt;/li>\n&lt;li>subject->drilling&lt;/li>\n&lt;li>subject->minerals&lt;/li>\n&lt;li>subject->gemology&lt;/li>\n&lt;li>subject->geology&lt;/li>\n&lt;li>subject->earthmoving&lt;/li>\n</Mining.generalRules.rulesStrings>
+  <Mining.generalRules.rulesStrings>
+    <li>subject->mineração</li>
+    <li>subject->escavação</li>
+    <li>subject->pedreiras</li>
+    <li>subject->mineração a céu aberto</li>
+    <li>subject->escavações</li>
+    <li>subject->prospeção</li>
+    <li>subject->minério</li>
+    <li>subject->abertura de túneis</li>
+    <li>subject->perfuração</li>
+    <li>subject->minerais</li>
+    <li>subject->gemologia</li>
+    <li>subject->geologia</li>
+    <li>subject->movimentação de terras</li>
+  </Mining.generalRules.rulesStrings>
   
   <!-- EN: plants -->
   <Plants.label>plantas</Plants.label>
   <!-- EN: Sowing, caring for and harvesting crops, and foraging for food while traveling. -->
-  <Plants.description>Semeadura, cuidado e colheita de culturas, e forragem para alimentos durante a viagem.</Plants.description>
+  <Plants.description>Semear, cuidar e colher culturas, e recolher alimentos durante as viagens.</Plants.description>
   <!-- EN:
     <li>subject->plants</li>
     <li>subject->herbs</li>
@@ -265,17 +531,53 @@
     <li>subject->food production</li>
     <li>subject->crop science</li>
   -->
-  <Plants.generalRules.rulesStrings>&lt;li>subject->plantas&lt;/li>\n&lt;li>subject->herbs&lt;/li>\n&lt;li>subject->vegetables&lt;/li>\n&lt;li>subject->flora&lt;/li>\n&lt;li>subject->cultivation&lt;/li>\n&lt;li>subject->horticulture&lt;/li>\n&lt;li>subject->agricultura&lt;/li>\n&lt;li>subject->gardening&lt;/li>\n&lt;li>subject->farming&lt;/li>\n&lt;li>subject-> desinvestimento&lt;/li>\n&lt;li>subject->permaculture&lt;/li>\n&lt;li>subject->botany&lt;/li>\n&lt;li>subject->crop management&lt;/li>\n&lt;li>subject->enriquecimento de solo&lt;/li>\n&lt;li>subject->cultura orgânica&lt;/li>\n&lt;li>subject-> produção de alimentos&lt;/li>\n&lt;li>subject->crop science&lt;/li>\n</Plants.generalRules.rulesStrings>
+  <Plants.generalRules.rulesStrings>
+    <li>subject->plantas</li>
+    <li>subject->ervas</li>
+    <li>subject->hortícolas</li>
+    <li>subject->flora</li>
+    <li>subject->cultivo</li>
+    <li>subject->horticultura</li>
+    <li>subject->agricultura</li>
+    <li>subject->jardinagem</li>
+    <li>subject->lavoura</li>
+    <li>subject->colheita</li>
+    <li>subject->permacultura</li>
+    <li>subject->botânica</li>
+    <li>subject->gestão de culturas</li>
+    <li>subject->enriquecimento do solo</li>
+    <li>subject->agricultura biológica</li>
+    <li>subject->produção de alimentos</li>
+    <li>subject->agronomia</li>
+  </Plants.generalRules.rulesStrings>
   <!-- EN: plants -->
   <Plants.skillLabel>plantas</Plants.skillLabel>
   
   <!-- UNUSED -->
-  <Plants.generalRules.rulesStrings>&lt;li>subject->plantas&lt;/li>\n&lt;li>subject->herbs&lt;/li>\n&lt;li>subject->vegetables&lt;/li>\n&lt;li>subject->flora&lt;/li>\n&lt;li>subject->cultivation&lt;/li>\n&lt;li>subject->horticulture&lt;/li>\n&lt;li>subject->agricultura&lt;/li>\n&lt;li>subject->gardening&lt;/li>\n&lt;li>subject->farming&lt;/li>\n&lt;li>subject-> desinvestimento&lt;/li>\n&lt;li>subject->permaculture&lt;/li>\n&lt;li>subject->botany&lt;/li>\n&lt;li>subject->crop management&lt;/li>\n&lt;li>subject->enriquecimento de solo&lt;/li>\n&lt;li>subject->cultura orgânica&lt;/li>\n&lt;li>subject-> produção de alimentos&lt;/li>\n&lt;li>subject->crop science&lt;/li>\n</Plants.generalRules.rulesStrings>
+  <Plants.generalRules.rulesStrings>
+    <li>subject->plantas</li>
+    <li>subject->ervas</li>
+    <li>subject->hortícolas</li>
+    <li>subject->flora</li>
+    <li>subject->cultivo</li>
+    <li>subject->horticultura</li>
+    <li>subject->agricultura</li>
+    <li>subject->jardinagem</li>
+    <li>subject->lavoura</li>
+    <li>subject->colheita</li>
+    <li>subject->permacultura</li>
+    <li>subject->botânica</li>
+    <li>subject->gestão de culturas</li>
+    <li>subject->enriquecimento do solo</li>
+    <li>subject->agricultura biológica</li>
+    <li>subject->produção de alimentos</li>
+    <li>subject->agronomia</li>
+  </Plants.generalRules.rulesStrings>
   
   <!-- EN: shooting -->
-  <Shooting.label>tiroteio</Shooting.label>
+  <Shooting.label>tiro</Shooting.label>
   <!-- EN: Ranged combat, with both high-tech and low-tech weapons. -->
-  <Shooting.description>Combate à escala, com armas de alta tecnologia e baixa tecnologia.</Shooting.description>
+  <Shooting.description>Combate à distância, com armas de alta e de baixa tecnologia.</Shooting.description>
   <!-- EN:
     <li>subject->guns</li>
     <li>subject->weapons</li>
@@ -296,12 +598,50 @@
     <li>subject->gun handling</li>
     <li>subject->distance shooting</li>
   -->
-  <Shooting.generalRules.rulesStrings>&lt;li>subject->guns&lt;/li>\n&lt;li>subject->weapons&lt;/li>\n&lt;li>subject->aiming&lt;/li>\n&lt;li>subject->shooting&lt;/li>\n&lt;li>subject->gunplay&lt;/li>\n&lt;li>subject->marksmanship&lt;/li>\n&lt;li>subject->firearms&lt;/li>\n&lt;li>subject->sniping&lt;/li>\n&lt;li>subject->ballistics&lt;/li>\n&lt;li>subject-> combate de longo alcance&lt;/li>\n&lt;li>subject->precision shooting&lt;/li>\n&lt;li>subject->rifle mastery&lt;/li>\n&lt;li>subject->target practice&lt;/li>\n&lt;li>subject->sharpshooting&lt;/li>\n&lt;li>subject->ranged tactics&lt;/li>\n&lt;li>subject->shot position&lt;/li>\n&lt;li>subject-> manuseio de armas&lt;/li>\n&lt;li>subject-> tiroteio de distância&lt;/li>\n</Shooting.generalRules.rulesStrings>
+  <Shooting.generalRules.rulesStrings>
+    <li>subject->pistolas</li>
+    <li>subject->armas</li>
+    <li>subject->mira</li>
+    <li>subject->tiro</li>
+    <li>subject->tiroteio</li>
+    <li>subject->perícia de tiro</li>
+    <li>subject->armas de fogo</li>
+    <li>subject->tiro furtivo</li>
+    <li>subject->balística</li>
+    <li>subject->combate de longo alcance</li>
+    <li>subject->tiro de precisão</li>
+    <li>subject->domínio da espingarda</li>
+    <li>subject->treino de tiro ao alvo</li>
+    <li>subject->tiro certeiro</li>
+    <li>subject->táticas à distância</li>
+    <li>subject->colocação do tiro</li>
+    <li>subject->manuseamento de armas</li>
+    <li>subject->tiro à distância</li>
+  </Shooting.generalRules.rulesStrings>
   <!-- EN: shooting -->
-  <Shooting.skillLabel>tiroteio</Shooting.skillLabel>
+  <Shooting.skillLabel>tiro</Shooting.skillLabel>
   
   <!-- UNUSED -->
-  <Shooting.generalRules.rulesStrings>&lt;li>subject->guns&lt;/li>\n&lt;li>subject->weapons&lt;/li>\n&lt;li>subject->aiming&lt;/li>\n&lt;li>subject->shooting&lt;/li>\n&lt;li>subject->gunplay&lt;/li>\n&lt;li>subject->marksmanship&lt;/li>\n&lt;li>subject->firearms&lt;/li>\n&lt;li>subject->sniping&lt;/li>\n&lt;li>subject->ballistics&lt;/li>\n&lt;li>subject-> combate de longo alcance&lt;/li>\n&lt;li>subject->precision shooting&lt;/li>\n&lt;li>subject->rifle mastery&lt;/li>\n&lt;li>subject->target practice&lt;/li>\n&lt;li>subject->sharpshooting&lt;/li>\n&lt;li>subject->ranged tactics&lt;/li>\n&lt;li>subject->shot position&lt;/li>\n&lt;li>subject-> manuseio de armas&lt;/li>\n&lt;li>subject-> tiroteio de distância&lt;/li>\n</Shooting.generalRules.rulesStrings>
+  <Shooting.generalRules.rulesStrings>
+    <li>subject->pistolas</li>
+    <li>subject->armas</li>
+    <li>subject->mira</li>
+    <li>subject->tiro</li>
+    <li>subject->tiroteio</li>
+    <li>subject->perícia de tiro</li>
+    <li>subject->armas de fogo</li>
+    <li>subject->tiro furtivo</li>
+    <li>subject->balística</li>
+    <li>subject->combate de longo alcance</li>
+    <li>subject->tiro de precisão</li>
+    <li>subject->domínio da espingarda</li>
+    <li>subject->treino de tiro ao alvo</li>
+    <li>subject->tiro certeiro</li>
+    <li>subject->táticas à distância</li>
+    <li>subject->colocação do tiro</li>
+    <li>subject->manuseamento de armas</li>
+    <li>subject->tiro à distância</li>
+  </Shooting.generalRules.rulesStrings>
   
   <!-- EN: social -->
   <Social.label>social</Social.label>
@@ -326,11 +666,47 @@
     <li>subject->emotional intelligence</li>
     <li>subject->communication skills</li>
   -->
-  <Social.generalRules.rulesStrings>&lt;li>subject->communication&lt;/li>\n&lt;li>subject->networking&lt;/li>\n&lt;li>subject->conflito resolução&lt;/li>\n&lt;li>subject->colaboração&lt;/li>\n&lt;li>subject->leadership&lt;/li>\n&lt;li>subject->empatia&lt;/li>\n&lt;li>subject->negociação&lt;/li>\n&lt;li>subject->trade&lt;/li>\n&lt;li>subject->listening&lt;/li>\n&lt;li>subject->diplomacy&lt;/li>\n&lt;li>subject->teamwork&lt;/li>\n&lt;li>subject->etiquette&lt;/li>\n&lt;li>subject->charisma&lt;/li>\n&lt;li>subject->social intelligence&lt;/li>\n&lt;li>subject->assertiveness&lt;/li>\n&lt;li>subject->emotional intelligence&lt;/li>\n&lt;li>subject-> competências de comunicação&lt;/li>\n</Social.generalRules.rulesStrings>
+  <Social.generalRules.rulesStrings>
+    <li>subject->comunicação</li>
+    <li>subject->criação de contactos</li>
+    <li>subject->resolução de conflitos</li>
+    <li>subject->colaboração</li>
+    <li>subject->liderança</li>
+    <li>subject->empatia</li>
+    <li>subject->negociação</li>
+    <li>subject->comércio</li>
+    <li>subject->saber ouvir</li>
+    <li>subject->diplomacia</li>
+    <li>subject->trabalho de equipa</li>
+    <li>subject->etiqueta</li>
+    <li>subject->carisma</li>
+    <li>subject->inteligência social</li>
+    <li>subject->assertividade</li>
+    <li>subject->inteligência emocional</li>
+    <li>subject->capacidade de comunicação</li>
+  </Social.generalRules.rulesStrings>
   <!-- EN: social -->
   <Social.skillLabel>social</Social.skillLabel>
   
   <!-- UNUSED -->
-  <Social.generalRules.rulesStrings>&lt;li>subject->communication&lt;/li>\n&lt;li>subject->networking&lt;/li>\n&lt;li>subject->conflito resolução&lt;/li>\n&lt;li>subject->colaboração&lt;/li>\n&lt;li>subject->leadership&lt;/li>\n&lt;li>subject->empatia&lt;/li>\n&lt;li>subject->negociação&lt;/li>\n&lt;li>subject->trade&lt;/li>\n&lt;li>subject->listening&lt;/li>\n&lt;li>subject->diplomacy&lt;/li>\n&lt;li>subject->teamwork&lt;/li>\n&lt;li>subject->etiquette&lt;/li>\n&lt;li>subject->charisma&lt;/li>\n&lt;li>subject->social intelligence&lt;/li>\n&lt;li>subject->assertiveness&lt;/li>\n&lt;li>subject->emotional intelligence&lt;/li>\n&lt;li>subject-> competências de comunicação&lt;/li>\n</Social.generalRules.rulesStrings>
+  <Social.generalRules.rulesStrings>
+    <li>subject->comunicação</li>
+    <li>subject->criação de contactos</li>
+    <li>subject->resolução de conflitos</li>
+    <li>subject->colaboração</li>
+    <li>subject->liderança</li>
+    <li>subject->empatia</li>
+    <li>subject->negociação</li>
+    <li>subject->comércio</li>
+    <li>subject->saber ouvir</li>
+    <li>subject->diplomacia</li>
+    <li>subject->trabalho de equipa</li>
+    <li>subject->etiqueta</li>
+    <li>subject->carisma</li>
+    <li>subject->inteligência social</li>
+    <li>subject->assertividade</li>
+    <li>subject->inteligência emocional</li>
+    <li>subject->capacidade de comunicação</li>
+  </Social.generalRules.rulesStrings>
   
 </LanguageData>

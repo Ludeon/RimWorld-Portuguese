@@ -4,7 +4,9 @@
   <!-- EN:
     <li>questDescription->[discoveryMethod] an ancient complex nearby that is said to contain treasure.\n\nYou can break in to collect the loot inside.\n\nBe warned - these kinds of structures can contain a variety of threats. In addition, your activity at the complex might draw unwanted attention.</li>
   -->
-  <OpportunitySite_AncientComplex_Giver.questDescriptionRules.rulesStrings>TODO</OpportunitySite_AncientComplex_Giver.questDescriptionRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Giver.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] um complexo antigo nas proximidades que se diz conter um tesouro.\n\nPodes arrombar a entrada para recolher o saque lá dentro.\n\nCuidado: este tipo de estruturas pode conter várias ameaças. Além disso, a tua atividade no complexo pode atrair atenção indesejada.</li>
+  </OpportunitySite_AncientComplex_Giver.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[complexAdj] [complex] [finalWord]</li>
     <li>questName->[complex] [finalWord]</li>
@@ -30,7 +32,31 @@
     <li>finalWord->caper</li>
     <li>finalWord->booty</li>
   -->
-  <OpportunitySite_AncientComplex_Giver.questNameRules.rulesStrings>TODO</OpportunitySite_AncientComplex_Giver.questNameRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Giver.questNameRules.rulesStrings>
+    <li>questName(p=3)->[finalWord] do [complex] [complexAdj]</li>
+    <li>questName->[finalWord] do [complex]</li>
+    <li>complexAdj->secreto</li>
+    <li>complexAdj->misterioso</li>
+    <li>complexAdj->antigo</li>
+    <li>complexAdj->velho</li>
+    <li>complexAdj->escondido</li>
+    <li>complexAdj->mortífero</li>
+    <li>complex->complexo</li>
+    <li>complex->edifício</li>
+    <li>complex->bunker</li>
+    <li>finalWord->tesouro</li>
+    <li>finalWord->riquezas</li>
+    <li>finalWord->filão</li>
+    <li>finalWord->esconderijo</li>
+    <li>finalWord->saque</li>
+    <li>finalWord->roubo</li>
+    <li>finalWord->pilhagem</li>
+    <li>finalWord->incursão</li>
+    <li>finalWord->furto</li>
+    <li>finalWord->golpe</li>
+    <li>finalWord->peripécia</li>
+    <li>finalWord->espólio</li>
+  </OpportunitySite_AncientComplex_Giver.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->complexes</li>
     <li>subject->complex</li>
@@ -40,6 +66,14 @@
     <li>questMapText->ancient treasures</li>
     <li>questMapText->missing scavengers</li>
   -->
-  <OpportunitySite_AncientComplex_Giver.questSubjectRules.rulesStrings>TODO</OpportunitySite_AncientComplex_Giver.questSubjectRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Giver.questSubjectRules.rulesStrings>
+    <li>subject->complexos</li>
+    <li>subject->complexo</li>
+    <li>subject->sinal de complexo</li>
+    <li>questMapFeature->pequeno complexo</li>
+    <li>questMapFeature->instalação</li>
+    <li>questMapText->tesouros antigos</li>
+    <li>questMapText->recuperadores desaparecidos</li>
+  </OpportunitySite_AncientComplex_Giver.questSubjectRules.rulesStrings>
   
 </LanguageData>

@@ -4,7 +4,7 @@
   <!-- EN: security door -->
   <SecurityDoor.label>porta de segurança</SecurityDoor.label>
   <!-- EN: Build a heavily reinforced door. It is slow to open and requires power, but is very strong. It's a good choice if you want to keep something dangerous out - or in. -->
-  <SecurityDoor.description>Construa uma porta fortemente reforçada. É lento abrir e requer poder, mas é muito forte. É uma boa escolha se quiser manter algo perigoso fora ou dentro.</SecurityDoor.description>
+  <SecurityDoor.description>Constrói uma porta fortemente reforçada. É lenta a abrir e precisa de energia, mas é muito resistente. É uma boa escolha se quiseres manter algo perigoso lá fora, ou lá dentro.</SecurityDoor.description>
   <!-- EN:
     <li>subject->security door</li>
     <li>subject_story->worked as a security drone in a sealed research facility</li>
@@ -13,15 +13,29 @@
     <li>subject_story->worked in a Glitterworld zoo</li>
     <li>subject_gerund->constructing security doors</li>
   -->
-  <SecurityDoor.generalRules.rulesStrings>&lt;li>subject->security door&lt;/li>\n&lt;li>subject_story-> trabalhou como um drone de segurança em uma instalação de pesquisa selada&lt;/li>\n&lt;li>subject_story-> dispositivos de segurança projetados para um comerciante estelar&lt;/li>\n&lt;li>subject_story->pesquisou a ciência dos materiais para uma empresa mercenária&lt;/li>\n&lt;li>subject_story->trabalhado em um zoológico Glitterworld&lt;/li>\n&lt;li>subject_gerund->construindo portas de segurança&lt;/li>\n</SecurityDoor.generalRules.rulesStrings>
+  <SecurityDoor.generalRules.rulesStrings>
+    <li>subject->portas de segurança</li>
+    <li>subject_story->trabalhou como drone de segurança numa instalação de investigação selada</li>
+    <li>subject_story->concebeu dispositivos de segurança para um comerciante estelar</li>
+    <li>subject_story->investigou ciência dos materiais para uma empresa de mercenários</li>
+    <li>subject_story->trabalhou num jardim zoológico de um mundo cintilante</li>
+    <li>subject_gerund->construir portas de segurança</li>
+  </SecurityDoor.generalRules.rulesStrings>
   
   <!-- UNUSED -->
-  <SecurityDoor.generalRules.rulesStrings>&lt;li>subject->security door&lt;/li>\n&lt;li>subject_story-> trabalhou como um drone de segurança em uma instalação de pesquisa selada&lt;/li>\n&lt;li>subject_story-> dispositivos de segurança projetados para um comerciante estelar&lt;/li>\n&lt;li>subject_story->pesquisou a ciência dos materiais para uma empresa mercenária&lt;/li>\n&lt;li>subject_story->trabalhado em um zoológico Glitterworld&lt;/li>\n&lt;li>subject_gerund->construindo portas de segurança&lt;/li>\n</SecurityDoor.generalRules.rulesStrings>
+  <SecurityDoor.generalRules.rulesStrings>
+    <li>subject->portas de segurança</li>
+    <li>subject_story->trabalhou como drone de segurança numa instalação de investigação selada</li>
+    <li>subject_story->concebeu dispositivos de segurança para um comerciante estelar</li>
+    <li>subject_story->investigou ciência dos materiais para uma empresa de mercenários</li>
+    <li>subject_story->trabalhou num jardim zoológico de um mundo cintilante</li>
+    <li>subject_gerund->construir portas de segurança</li>
+  </SecurityDoor.generalRules.rulesStrings>
   
   <!-- EN: turret pack -->
-  <TurretPack.label>pacote de torre</TurretPack.label>
+  <TurretPack.label>mochila-torreta</TurretPack.label>
   <!-- EN: Build a wearable pack that allows the user to deploy a battery-powered turret. -->
-  <TurretPack.description>Construa um pacote wearable que permite ao usuário implantar uma torre de bateria.</TurretPack.description>
+  <TurretPack.description>Constrói uma mochila que permite a quem a usa instalar uma torreta alimentada por bateria.</TurretPack.description>
   <!-- EN:
     <li>subject->deployable turrets</li>
     <li>subject_story->defended a feralworld castle from assault</li>
@@ -30,9 +44,23 @@
     <li>subject_story->fought in the trench battles of the [worldname] War</li>
     <li>subject_gerund->crafting deployable gun turrets</li>
   -->
-  <TurretPack.generalRules.rulesStrings>&lt;li>subject->deployable turrets&lt;/li>\n&lt;li>subject_story->defended a feralworld castle from attack&lt;/li>\n&lt;li>subject_story->manned a tailgun on an Imperial dropship&lt;/li>\n&lt;li>subject_story->pesquisou tecnologia militar implantável&lt;/li>\n&lt;li>subject_story->fought nas batalhas de trincheira do [nome do mundo] Guerra/li>\n&lt;li>subject_gerund->crafting implantable gun turrets&lt;/li>\n</TurretPack.generalRules.rulesStrings>
+  <TurretPack.generalRules.rulesStrings>
+    <li>subject->torretas instaláveis</li>
+    <li>subject_story->defendeu um castelo de um mundo selvagem de um ataque</li>
+    <li>subject_story->operou o canhão de cauda de uma nave de desembarque imperial</li>
+    <li>subject_story->investigou tecnologia militar instalável</li>
+    <li>subject_story->combateu nas batalhas de trincheiras da Guerra de [worldname]</li>
+    <li>subject_gerund->fabricar torretas instaláveis</li>
+  </TurretPack.generalRules.rulesStrings>
   
   <!-- UNUSED -->
-  <TurretPack.generalRules.rulesStrings>&lt;li>subject->deployable turrets&lt;/li>\n&lt;li>subject_story->defended a feralworld castle from attack&lt;/li>\n&lt;li>subject_story->manned a tailgun on an Imperial dropship&lt;/li>\n&lt;li>subject_story->pesquisou tecnologia militar implantável&lt;/li>\n&lt;li>subject_story->fought nas batalhas de trincheira do [nome do mundo] Guerra/li>\n&lt;li>subject_gerund->crafting implantable gun turrets&lt;/li>\n</TurretPack.generalRules.rulesStrings>
+  <TurretPack.generalRules.rulesStrings>
+    <li>subject->torretas instaláveis</li>
+    <li>subject_story->defendeu um castelo de um mundo selvagem de um ataque</li>
+    <li>subject_story->operou o canhão de cauda de uma nave de desembarque imperial</li>
+    <li>subject_story->investigou tecnologia militar instalável</li>
+    <li>subject_story->combateu nas batalhas de trincheiras da Guerra de [worldname]</li>
+    <li>subject_gerund->fabricar torretas instaláveis</li>
+  </TurretPack.generalRules.rulesStrings>
   
 </LanguageData>

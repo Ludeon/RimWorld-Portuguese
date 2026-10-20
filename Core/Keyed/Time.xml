@@ -10,7 +10,7 @@
   <!-- EN: s -->
   <LetterSecond>s</LetterSecond>
   <!-- EN: y -->
-  <LetterYear>y</LetterYear>
+  <LetterYear>a</LetterYear>
   
   <!-- EN: AM -->
   <AM>AM</AM>
@@ -56,11 +56,11 @@
   <QuadrumDecembary_Short>Dez</QuadrumDecembary_Short>
   
   <!-- EN: Born: {0} -->
-  <Born>Nascido: {0}</Born>
+  <Born>Nascimento: {0}</Born>
   <!-- EN: Chronological age: {0} years, {1} quadrums, {2} days -->
-  <AgeChronological>Idade cronológica: {0} anos, {1} estações, {2} dias</AgeChronological>
+  <AgeChronological>Idade cronológica: {0} anos, {1} quadrums, {2} dias</AgeChronological>
   <!-- EN: Biological age: {0} years, {1} quadrums, {2} days -->
-  <AgeBiological>Idade biológica: {0} anos, {1} estações, {2} dias</AgeBiological>
+  <AgeBiological>Idade biológica: {0} anos, {1} quadrums, {2} dias</AgeBiological>
 
   <!-- Date periods -->
   <!-- EN: 1 year -->
@@ -68,9 +68,9 @@
   <!-- EN: {0} years -->
   <PeriodYears>{0} anos</PeriodYears>
   <!-- EN: 1 quadrum -->
-  <Period1Quadrum>1 estação</Period1Quadrum>
+  <Period1Quadrum>1 quadrum</Period1Quadrum>
   <!-- EN: {0} quadrums -->
-  <PeriodQuadrums>{0} estações</PeriodQuadrums>
+  <PeriodQuadrums>{0} quadrums</PeriodQuadrums>
   <!-- EN: 1 day -->
   <Period1Day>1 dia</Period1Day>
   <!-- EN: {0} days -->
@@ -82,7 +82,7 @@
   <!-- EN: 1 second -->
   <Period1Second>1 segundo</Period1Second>
   <!-- EN: {0} seconds -->
-  <PeriodSeconds>segundos</PeriodSeconds>
+  <PeriodSeconds>{0} segundos</PeriodSeconds>
 
   <!-- Misc -->
   <!-- EN: Started -->
@@ -92,6 +92,6 @@
   <!-- EN: occurred {0} ago -->
   <OccurredTimeAgo>ocorreu há {0}</OccurredTimeAgo>
   <!-- EN: {0} ago -->
-  <TimeAgo>{0} atrás</TimeAgo>
+  <TimeAgo>há {0}</TimeAgo>
   
 </LanguageData>

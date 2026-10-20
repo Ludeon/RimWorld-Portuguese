@@ -4,13 +4,19 @@
   <!-- EN:
     <li>terminalHackedMessage->Terminal hacked. You've collected the information and can now leave.</li>
   -->
-  <Hack_WorshippedTerminal.questContentRules.rulesStrings>&lt;li>terminalHackedMessage-> Terminal hackeado. Você coletou as informações e agora pode deixar.&lt;/li>\n</Hack_WorshippedTerminal.questContentRules.rulesStrings>
+  <Hack_WorshippedTerminal.questContentRules.rulesStrings>
+    <li>terminalHackedMessage->Terminal pirateado. Recolheste as informações e já podes sair.</li>
+  </Hack_WorshippedTerminal.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You've learned of an ancient terminal that contains information about the [relic_name]. However, the terminal is surrounded by a tribal village, and the locals venerate it. They aren't part of any major faction.\n\n[visitInfo]</li>
     <li>visitInfo(allowViolentQuests==true)->They are willing to let you visit on the pretense of worshiping it, but they will attack when you touch it.\n\nYou can attack the village from the outside, or enter peacefully and try to quickly escape with the data from the terminal.\n\nBeware - If you spend over [timer_duration] in the village or build anything near it, the locals will attack, and call reinforcements.</li>
     <li>visitInfo(allowViolentQuests==false)->They are willing to let you visit.</li>
   -->
-  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>&lt;li>questDescription-> Você aprendeu sobre um terminal antigo que contém informações sobre o [relic_name]. No entanto, o terminal é cercado por uma aldeia tribal, e os moradores o veneram. Não fazem parte de nenhuma facção importante.\n\n[visitInfo]&lt;/li>\n&lt;li>visitInfo (allowViolentQuests=true)-> Eles estão dispostos a deixar você visitar a pretensão de adorar, mas eles vão atacar quando você tocar.\n\nVocê pode atacar a aldeia de fora, ou entrar pacificamente e tentar escapar rapidamente com os dados do terminal.\n\nCuidado - Se você passar por cima [timer_duration] na aldeia ou construir qualquer coisa perto dele, os moradores atacarão e chamarão reforços.&lt;/li>\n&lt;li>visitInfo (allowViolentQuests==false)-> Eles estão dispostos a deixar você visitar.&lt;/li>\n</Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
+  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
+    <li>questDescription->Soubeste da existência de um terminal antigo que contém informações sobre [relic_name]. No entanto, o terminal está rodeado por uma aldeia tribal e os habitantes veneram-no. Não pertencem a nenhuma das grandes fações.\n\n[visitInfo]</li>
+    <li>visitInfo(allowViolentQuests==true)->Estão dispostos a deixar-te visitá-lo a pretexto de o adorares, mas atacam-te se lhe tocares.\n\nPodes atacar a aldeia a partir do exterior, ou entrar pacificamente e tentar fugir depressa com os dados do terminal.\n\nCuidado - se passares mais de [timer_duration] na aldeia ou construíres alguma coisa perto dela, os habitantes vão atacar e chamar reforços.</li>
+    <li>visitInfo(allowViolentQuests==false)->Estão dispostos a deixar-te visitá-lo.</li>
+  </Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [adj] [terminalName]</li>
     <li>adj->worshipped</li>
@@ -29,11 +35,51 @@
     <li>terminalName->database</li>
     <li>terminalName->silicon</li>
   -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings>&lt;li>questName->The [adj] [terminalName]&lt;/li>\n&lt;li>adj->worshipped&lt;/li>\n&lt;li>adj->venerado&lt;/li>\n&lt;li>adj->ancient&lt;/li>\n&lt;li>adj->villager's&lt;/li>\n&lt;li>adj->village&lt;/li>\n&lt;li>adj->tribal&lt;/li>\n&lt;li>adj->secret&lt;/li>\n&lt;li>terminalNome (p=4)->terminal&lt;/li>\n&lt;li>terminalName->machine&lt;/li>\n&lt;li>terminalName->device&lt;/li>\n&lt;li>terminalName->screen&lt;/li>\n&lt;li>terminalNome->computador&lt;/li>\n&lt;li>terminalNome->databank&lt;/li>\n&lt;li>terminalName->database&lt;/li>\n&lt;li>terminalNome->silicon&lt;/li>\n</Hack_WorshippedTerminal.questNameRules.rulesStrings>
+  <Hack_WorshippedTerminal.questNameRules.rulesStrings>
+    <li>questName->O [terminalName] [adj]</li>
+    <li>adj->idolatrado</li>
+    <li>adj->venerado</li>
+    <li>adj->antigo</li>
+    <li>adj->dos aldeões</li>
+    <li>adj->da aldeia</li>
+    <li>adj->tribal</li>
+    <li>adj->secreto</li>
+    <li>terminalName(p=4)->terminal</li>
+    <li>terminalName->engenho</li>
+    <li>terminalName->dispositivo</li>
+    <li>terminalName->ecrã</li>
+    <li>terminalName->computador</li>
+    <li>terminalName->base de dados</li>
+    <li>terminalName->repositório de dados</li>
+    <li>terminalName->silício</li>
+  </Hack_WorshippedTerminal.questNameRules.rulesStrings>
   
   <!-- UNUSED -->
-  <Hack_WorshippedTerminal.questContentRules.rulesStrings>&lt;li>terminalHackedMessage-> Terminal hackeado. Você coletou as informações e agora pode deixar.&lt;/li>\n</Hack_WorshippedTerminal.questContentRules.rulesStrings>
-  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>&lt;li>questDescription-> Você aprendeu sobre um terminal antigo que contém informações sobre o [relic_name]. No entanto, o terminal é cercado por uma aldeia tribal, e os moradores o veneram. Não fazem parte de nenhuma facção importante.\n\n[visitInfo]&lt;/li>\n&lt;li>visitInfo (allowViolentQuests=true)-> Eles estão dispostos a deixar você visitar a pretensão de adorar, mas eles vão atacar quando você tocar.\n\nVocê pode atacar a aldeia de fora, ou entrar pacificamente e tentar escapar rapidamente com os dados do terminal.\n\nCuidado - Se você passar por cima [timer_duration] na aldeia ou construir qualquer coisa perto dele, os moradores atacarão e chamarão reforços.&lt;/li>\n&lt;li>visitInfo (allowViolentQuests==false)-> Eles estão dispostos a deixar você visitar.&lt;/li>\n</Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings>&lt;li>questName->The [adj] [terminalName]&lt;/li>\n&lt;li>adj->worshipped&lt;/li>\n&lt;li>adj->venerado&lt;/li>\n&lt;li>adj->ancient&lt;/li>\n&lt;li>adj->villager's&lt;/li>\n&lt;li>adj->village&lt;/li>\n&lt;li>adj->tribal&lt;/li>\n&lt;li>adj->secret&lt;/li>\n&lt;li>terminalNome (p=4)->terminal&lt;/li>\n&lt;li>terminalName->machine&lt;/li>\n&lt;li>terminalName->device&lt;/li>\n&lt;li>terminalName->screen&lt;/li>\n&lt;li>terminalNome->computador&lt;/li>\n&lt;li>terminalNome->databank&lt;/li>\n&lt;li>terminalName->database&lt;/li>\n&lt;li>terminalNome->silicon&lt;/li>\n</Hack_WorshippedTerminal.questNameRules.rulesStrings>
+  <Hack_WorshippedTerminal.questContentRules.rulesStrings>
+    <li>terminalHackedMessage->Terminal pirateado. Recolheste as informações e já podes sair.</li>
+  </Hack_WorshippedTerminal.questContentRules.rulesStrings>
+  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
+    <li>questDescription->Soubeste da existência de um terminal antigo que contém informações sobre [relic_name]. No entanto, o terminal está rodeado por uma aldeia tribal e os habitantes veneram-no. Não pertencem a nenhuma das grandes fações.\n\n[visitInfo]</li>
+    <li>visitInfo(allowViolentQuests==true)->Estão dispostos a deixar-te visitá-lo a pretexto de o adorares, mas atacam-te se lhe tocares.\n\nPodes atacar a aldeia a partir do exterior, ou entrar pacificamente e tentar fugir depressa com os dados do terminal.\n\nCuidado - se passares mais de [timer_duration] na aldeia ou construíres alguma coisa perto dela, os habitantes vão atacar e chamar reforços.</li>
+    <li>visitInfo(allowViolentQuests==false)->Estão dispostos a deixar-te visitá-lo.</li>
+  </Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
+  <Hack_WorshippedTerminal.questNameRules.rulesStrings>
+    <li>questName->O [terminalName] [adj]</li>
+    <li>adj->idolatrado</li>
+    <li>adj->venerado</li>
+    <li>adj->antigo</li>
+    <li>adj->dos aldeões</li>
+    <li>adj->da aldeia</li>
+    <li>adj->tribal</li>
+    <li>adj->secreto</li>
+    <li>terminalName(p=4)->terminal</li>
+    <li>terminalName->engenho</li>
+    <li>terminalName->dispositivo</li>
+    <li>terminalName->ecrã</li>
+    <li>terminalName->computador</li>
+    <li>terminalName->base de dados</li>
+    <li>terminalName->repositório de dados</li>
+    <li>terminalName->silício</li>
+  </Hack_WorshippedTerminal.questNameRules.rulesStrings>
   
 </LanguageData>

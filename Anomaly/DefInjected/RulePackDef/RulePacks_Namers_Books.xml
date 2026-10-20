@@ -189,9 +189,383 @@
     <li>suffixEvil->nix</li>
     <li>suffixEvil->vix</li>
   -->
-  <Namer_Tome.rulePack.rulesStrings>&lt;li>title->[maybeThe] [bookEvil] de [nounEvilUncountable]&lt;/li>\n&lt;li>title->[maybeThe] [bookEvil] de [nounEvilCountable]s&lt;/li>\n&lt;li>title->[maybeThe] [bookEvil] do [nounEvilCountable]&lt;/li>\n&lt;li>title->[maybeThe] [nounEvilCountable]s [inThe] [placeEvil]&lt;/li>\n&lt;li>title->[maybeThe] [bookEvil] de [ANYPAWN_nameIndef]&lt;/li>\n&lt;li>title->[maybeThe] [nounEvilAny] [em The] [placeEvil]&lt;/li>\n&lt;li>title->[maybeThe] [nounEvilAny] de [ANYPAWN_nameIndef]&lt;/li>\n&lt;li>title->[maybeThe] [adjectiveEvil] [nounEvilAny]&lt;/li>\n&lt;li>title->[ANYPAWN_nameIndef]'s [bookEvil]&lt;/li>\n&lt;li>title->[maybeThe] [bookCompound]&lt;/li>\n&lt;li>title->[ANYPAWN_nameIndef]'s [bookCompound]&lt;/li>\n&lt;li>title(p=0.5)->[firstHalfEvil][connector][noun EvilCountable]&lt;/li>\n&lt;li>title(p=0.5)->[firstHalfEvil][connector][nounEvilUncountable]&lt;/li>\n&lt;li>title(p=0.5)->[nounEvilCountable] [suffixEvil]&lt;/li>\n&lt;li>title(p=0.5)->[nounEvilUncountable] [suffixEvil]&lt;/li>\n&lt;li>bookCompound(p=2)->[firstHalfEvil][suffixEvil]&lt;/li>\n&lt;li>bookCompound->[firstHalfEvil][connector][suffixEvil]&lt;/li>\n&lt;li>connector->'&lt;/li>\n&lt;li>connector->-&lt;/li>\n&lt;li>maybeThe->&lt;/li>\n&lt;li> pode ser o-> O &lt;/li>\n&lt;li>bookEvil (p=2)->Book&lt;/li>\n&lt;li>bookEvil(p=2)->[firstHalfEvil][suffixEvil]&lt;/li>\n&lt;li>bookEvil->Tome&lt;/li>\n&lt;li>bookEvil->Codex&lt;/li>\n&lt;li>bookEvil->Writings&lt;/li>\n&lt;li>bookEvil->Record&lt;/li>\n&lt;li>bookEvil->Secrets&lt;/li>\n&lt;li>bookEvil->Chronicles&lt;/li>\n&lt;li>bookEvil->Cipher&lt;/li>\n&lt;li>bookEvil->Whispers&lt;/li>\n&lt;li>bookEvil->Testimony&lt;/li>\n&lt;li>bookEvil->Lamentações&lt;/li>\n&lt;li>bookEvil->Grimoire&lt;/li>\n&lt;li>bookEvil->Almanac&lt;/li>\n&lt;li>bookEvil->Manuscript&lt;/li>\n&lt;li>bookEvil->Annals&lt;/li>\n&lt;li>bookEvil->Incantações&lt;/li>\n&lt;li>bookEvil->Revelações&lt;/li>\n&lt;li>bookEvil->Manifesto&lt;/li>\n&lt;li>bookEvil->Testament&lt;/li>\n&lt;li>bookEvil->Fragments&lt;/li>\n&lt;li>bookEvil->Shards&lt;/li>\n&lt;li>inThe->in the&lt;/li>\n&lt;li>inThe->comin the&lt;/li>\n&lt;li>inThe->beneath the&lt;/li>\n&lt;li>inThe-> sob o &lt;/li>\n&lt;li>inThe->pelo &lt;/li>\n&lt;li>inThe->on the&lt;/li>\n&lt;li>inThe->across the&lt;/li>\n&lt;li>adjetivoEvil (p=3)->Void&lt;/li>\n&lt;li>adjetivoEvil->Golden&lt;/li>\n&lt;li>adjetivoEvil->Unnatural&lt;/li>\n&lt;li>adjetivoEvil->Dark&lt;/li>\n&lt;li>adjetivoEvil->Black&lt;/li>\n&lt;li>adjetivoEvil->Deep&lt;/li>\n&lt;li>adjetivoEvil->Ancient&lt;/li>\n&lt;li>adjetivo Mal->Corrupção &lt;/li>\n&lt;li>adjetivoEvil->Blood&lt;/li>\n&lt;li>adjetivoEvil->Chaos&lt;/li>\n&lt;li>adjetivoEvil->Abyssal&lt;/li>\n&lt;li>adjetivoEvil->Uncanny&lt;/li>\n&lt;li>adjetivoEvil->Phantom&lt;/li>\n&lt;li>adjetivoEvil->Cryptic&lt;/li>\n&lt;li>adjetivoEvil->Whispering&lt;/li>\n&lt;li>adjetivoEvil->Forgotten&lt;/li>\n&lt;li>adjetivoEvil->Veiled&lt;/li>\n&lt;li>adjetivo Mal-> Proibido &lt;/li>\n&lt;li>adjetivoEvil-> Subsuperfície&lt;/li>\n&lt;li>adjetivoEvil->Snake&lt;/li>\n&lt;li>nounEvilAny->[nounEvilCountable]&lt;/li>\n&lt;li>nounEvilAny->[nounEvilUncountable]&lt;/li>\n&lt;li>nounEvilUncountable->Fleshmass&lt;/li>\n&lt;li>nounEvilUncountable->Bioferrite&lt;/li>\n&lt;li>nounEvilUncountable->Deadlife&lt;/li>\n&lt;li>nounEvilUncountable->Archotech&lt;/li>\n&lt;li>nounEvilUncountable->Necrotech&lt;/li>\n&lt;li>nounEvilUncountable->Horax&lt;/li>\n&lt;li>nounEvilUncountable->Blood&lt;/li>\n&lt;li>nounEvilUncountable->Undeath&lt;/li>\n&lt;li>nounEvilUncountable->Power&lt;/li>\n&lt;li>nounEvilUncountable->Whispers&lt;/li>\n&lt;li>nounEvilUncountable->Knowledge&lt;/li>\n&lt;li>nounEvilUncountable->Horror&lt;/li>\n&lt;li>nounEvilUncountable->Fungi&lt;/li>\n&lt;li>nounEvilUncountable->Putrescence&lt;/li>\n&lt;li>nounEvilUncountable->Rituals&lt;/li>\n&lt;li>nounEvilUncountable->Murder&lt;/li>\n&lt;li>nounEvilUncountable->Darkness&lt;/li>\n&lt;li>nounEvilUncountable->Madness&lt;/li>\n&lt;li>nounEvilUncountable->Chaos&lt;/li>\n&lt;li>nounEvilUncountable->Despair&lt;/li>\n&lt;li>nounEvilUncountable->Suffering&lt;/li>\n&lt;li>nounEvilUncountable->Nightmares&lt;/li>\n&lt;li>nounEvilUncountable->Corrupção&lt;/li>\n&lt;li>nounEvilUncountable->Doom&lt;/li>\n&lt;li>nounEvilUncountable->Terror&lt;/li>\n&lt;li>nounEvilUncountable->Malevolence&lt;/li>\n&lt;li>nounEvilUncountable->Shadows&lt;/li>\n&lt;li>nounEvilUncountable->Void&lt;/li>\n&lt;li>nounEvilUncountable->Gold&lt;/li>\n&lt;li>nounEvilCountable->Ghoul&lt;/li>\n&lt;li>nounEvilCountable->Gorehulk&lt;/li>\n&lt;li>nounEvilCountable->Noctol&lt;/li>\n&lt;li>nounEvilCountable->Shambler&lt;/li>\n&lt;li>nounEvilCountable->Fleshbeast&lt;/li>\n&lt;li>nounEvilCountable->Nociosphere&lt;/li>\n&lt;li>nounEvilCountable->Corpse&lt;/li>\n&lt;li>nounEvilCountable->Cube&lt;/li>\n&lt;li>nounEvilCountable->Revenant&lt;/li>\n&lt;li>nounEvilCountable->Metalhorror&lt;/li>\n&lt;li>nounEvilCountable->Abductor&lt;/li>\n&lt;li>nounEvilCountable->Duplicator&lt;/li>\n&lt;li>nounEvilCountable->Mutator&lt;/li>\n&lt;li>nounEvilCountable->Harbinger&lt;/li>\n&lt;li>nounEvilCountable->Sightstealer&lt;/li>\n&lt;li>nounEvilCountable->Chimera&lt;/li>\n&lt;li>nounEvilCountable->Devourer&lt;/li>\n&lt;li>nounEvilCountable->Shard&lt;/li>\n&lt;li>nounEvilCountable->Sculpture&lt;/li>\n&lt;li>nounEvilCountable->Serum&lt;/li>\n&lt;li>nounEvilCountable->Cult&lt;/li>\n&lt;li>nounEvilCountable->Cultista&lt;/li>\n&lt;li>nounEvilCountable->Goat&lt;/li>\n&lt;li>nounEvilCountable->Shadow&lt;/li>\n&lt;li>nounEvilCountable->Lurker&lt;/li>\n&lt;li>nounEvilCountable->Rites&lt;/li>\n&lt;li>nounEvilCountable->Hex&lt;/li>\n&lt;li>nounEvilCountable->Snake&lt;/li>\n&lt;li>nounEvilCountable->Feaster&lt;/li>\n&lt;li>placeEvil->Ocean&lt;/li>\n&lt;li>placeEvil->Void&lt;/li>\n&lt;li>placeEvil->Abyss&lt;/li>\n&lt;li>placeEvil->Deep&lt;/li>\n&lt;li>placeEvil->Shadows&lt;/li>\n&lt;li>placeEvil->Tombs&lt;/li>\n&lt;li>placeEvil->Darkness&lt;/li>\n&lt;li>placeEvil->Mountain&lt;/li>\n&lt;li>placeEvil->Chamber&lt;/li>\n&lt;li>placeEvil->Catacombs&lt;/li>\n&lt;li>placeEvil->Sanctum&lt;/li>\n&lt;li>placeEvil->Grove&lt;/li>\n&lt;li>placeEvil->Earth&lt;/li>\n&lt;li>placeEvil->Stars&lt;/li>\n&lt;li>placeEvil->Ocean&lt;/li>\n&lt;li>placeEvil->Depths&lt;/li>\n&lt;li>placeEvil->Underverse&lt;/li>\n&lt;li>placeEvil->Caverns&lt;/li>\n&lt;li>firstHalfEvil->vibro&lt;/li>\n&lt;li>firstHalfEvil->kelno&lt;/li>\n&lt;li>firstHalfEvil->nekro&lt;/li>\n&lt;li>firstHalfEvil->chrono&lt;/li>\n&lt;li>firstHalfEvil->drago&lt;/li>\n&lt;li>firstHalfEvil->krimi&lt;/li>\n&lt;li>firstHalfEvil->vadi&lt;/li>\n&lt;li>firstHalfEvil->horror&lt;/li>\n&lt;li>firstHalfEvil->nocio&lt;/li>\n&lt;li>firstHalfEvil->xeno&lt;/li>\n&lt;li>firstHalfEvil->psycho&lt;/li>\n&lt;li>firstHalfEvil->voro&lt;/li>\n&lt;li>firstHalfEvil->tyrano&lt;/li>\n&lt;li>firstHalfEvil->inverno&lt;/li>\n&lt;li>firstHalfEvil->phobo&lt;/li>\n&lt;li>firstHalfEvil->leva&lt;/li>\n&lt;li>suffixEvil->nomicon&lt;/li>\n&lt;li>suffixEvil->doron&lt;/li>\n&lt;li>suffixEvil->nax&lt;/li>\n&lt;li>suffixEvil->novicon&lt;/li>\n&lt;li>suffixEvil->vokon&lt;/li>\n&lt;li>suffixEvil->mancy&lt;/li>\n&lt;li>suffixEvil->gorgon&lt;/li>\n&lt;li>suffixEvil->morth&lt;/li>\n&lt;li>suffixEvil->cypher&lt;/li>\n&lt;li>suffixEvil->vex&lt;/li>\n&lt;li>suffixEvil->vortex&lt;/li>\n&lt;li>suffixEvil->nox&lt;/li>\n&lt;li>suffixEvil->cybex&lt;/li>\n&lt;li>suffixEvil->voron&lt;/li>\n&lt;li>suffixEvil->karnix&lt;/li>\n&lt;li>suffixEvil->nemex&lt;/li>\n&lt;li>suffixEvil->vexor&lt;/li>\n&lt;li>suffixEvil->tronix&lt;/li>\n&lt;li>suffixEvil->cryptex&lt;/li>\n&lt;li>suffixEvil->chaonix&lt;/li>\n&lt;li>suffixEvil->nix&lt;/li>\n&lt;li>suffixEvil->vix&lt;/li>\n</Namer_Tome.rulePack.rulesStrings>
+  <Namer_Tome.rulePack.rulesStrings>
+    <li>title->[maybeThe][bookEvil] de [nounEvilUncountable]</li>
+    <li>title->[maybeThe][bookEvil] de [nounEvilCountable]</li>
+    <li>title->[maybeThe][bookEvil]: [nounEvilCountable]</li>
+    <li>title->[maybeThe][nounEvilCountable] [inThe] [placeEvil]</li>
+    <li>title->[maybeThe][bookEvil] de [ANYPAWN_nameIndef]</li>
+    <li>title->[maybeThe][nounEvilAny] [inThe] [placeEvil]</li>
+    <li>title->[maybeThe][nounEvilAny] de [ANYPAWN_nameIndef]</li>
+    <li>title->[maybeThe][nounEvilAny] [adjectiveEvil]</li>
+    <li>title->[bookEvil] de [ANYPAWN_nameIndef]</li>
+    <li>title->[maybeThe][bookCompound]</li>
+    <li>title->[bookCompound] de [ANYPAWN_nameIndef]</li>
+    <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilCountable]</li>
+    <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilUncountable]</li>
+    <li>title(p=0.5)->[nounEvilCountable] [suffixEvil]</li>
+    <li>title(p=0.5)->[nounEvilUncountable] [suffixEvil]</li>
+    <li>bookCompound(p=2)->[firstHalfEvil][suffixEvil]</li>
+    <li>bookCompound->[firstHalfEvil][connector][suffixEvil]</li>
+    <li>connector->'</li>
+    <li>connector->-</li>
+    <li>maybeThe-></li>
+    <li>maybeThe-></li>
+    <li>bookEvil(p=2)->Livro</li>
+    <li>bookEvil(p=2)->[firstHalfEvil][suffixEvil]</li>
+    <li>bookEvil->Tomo</li>
+    <li>bookEvil->Códice</li>
+    <li>bookEvil->Escritos</li>
+    <li>bookEvil->Registo</li>
+    <li>bookEvil->Segredos</li>
+    <li>bookEvil->Crónicas</li>
+    <li>bookEvil->Cifra</li>
+    <li>bookEvil->Sussurros</li>
+    <li>bookEvil->Testemunho</li>
+    <li>bookEvil->Lamentações</li>
+    <li>bookEvil->Grimório</li>
+    <li>bookEvil->Almanaque</li>
+    <li>bookEvil->Manuscrito</li>
+    <li>bookEvil->Anais</li>
+    <li>bookEvil->Encantamentos</li>
+    <li>bookEvil->Revelações</li>
+    <li>bookEvil->Manifesto</li>
+    <li>bookEvil->Testamento</li>
+    <li>bookEvil->Fragmentos</li>
+    <li>bookEvil->Estilhaços</li>
+    <li>inThe->no</li>
+    <li>inThe->dentro do</li>
+    <li>inThe->sob o</li>
+    <li>inThe->debaixo do</li>
+    <li>inThe->junto ao</li>
+    <li>inThe->sobre o</li>
+    <li>inThe->através do</li>
+    <li>adjectiveEvil(p=3)->do Vazio</li>
+    <li>adjectiveEvil->de Ouro</li>
+    <li>adjectiveEvil->Antinatural</li>
+    <li>adjectiveEvil->das Trevas</li>
+    <li>adjectiveEvil->de Breu</li>
+    <li>adjectiveEvil->das Profundezas</li>
+    <li>adjectiveEvil->Ancestral</li>
+    <li>adjectiveEvil->da Corrupção</li>
+    <li>adjectiveEvil->de Sangue</li>
+    <li>adjectiveEvil->do Caos</li>
+    <li>adjectiveEvil->Abissal</li>
+    <li>adjectiveEvil->do Além</li>
+    <li>adjectiveEvil->Fantasma</li>
+    <li>adjectiveEvil->dos Enigmas</li>
+    <li>adjectiveEvil->dos Sussurros</li>
+    <li>adjectiveEvil->do Esquecimento</li>
+    <li>adjectiveEvil->do Véu</li>
+    <li>adjectiveEvil->do Interdito</li>
+    <li>adjectiveEvil->do Subsolo</li>
+    <li>adjectiveEvil->da Serpente</li>
+    <li>nounEvilAny->[nounEvilCountable]</li>
+    <li>nounEvilAny->[nounEvilUncountable]</li>
+    <li>nounEvilUncountable->Massa de Carne</li>
+    <li>nounEvilUncountable->Bioferrite</li>
+    <li>nounEvilUncountable->Vida-Morta</li>
+    <li>nounEvilUncountable->Arcotec</li>
+    <li>nounEvilUncountable->Necrotec</li>
+    <li>nounEvilUncountable->Horax</li>
+    <li>nounEvilUncountable->Sangue</li>
+    <li>nounEvilUncountable->Morte-Viva</li>
+    <li>nounEvilUncountable->Poder</li>
+    <li>nounEvilUncountable->Sussurros</li>
+    <li>nounEvilUncountable->Conhecimento</li>
+    <li>nounEvilUncountable->Horror</li>
+    <li>nounEvilUncountable->Fungos</li>
+    <li>nounEvilUncountable->Putrescência</li>
+    <li>nounEvilUncountable->Rituais</li>
+    <li>nounEvilUncountable->Assassínio</li>
+    <li>nounEvilUncountable->Trevas</li>
+    <li>nounEvilUncountable->Loucura</li>
+    <li>nounEvilUncountable->Caos</li>
+    <li>nounEvilUncountable->Desespero</li>
+    <li>nounEvilUncountable->Sofrimento</li>
+    <li>nounEvilUncountable->Pesadelos</li>
+    <li>nounEvilUncountable->Corrupção</li>
+    <li>nounEvilUncountable->Perdição</li>
+    <li>nounEvilUncountable->Terror</li>
+    <li>nounEvilUncountable->Malevolência</li>
+    <li>nounEvilUncountable->Sombras</li>
+    <li>nounEvilUncountable->Vazio</li>
+    <li>nounEvilUncountable->Ouro</li>
+    <li>nounEvilCountable->Carniçal</li>
+    <li>nounEvilCountable->Gorehulk</li>
+    <li>nounEvilCountable->Noctol</li>
+    <li>nounEvilCountable->Cambaleante</li>
+    <li>nounEvilCountable->Besta de Carne</li>
+    <li>nounEvilCountable->Nociosfera</li>
+    <li>nounEvilCountable->Cadáver</li>
+    <li>nounEvilCountable->Cubo</li>
+    <li>nounEvilCountable->Revenante</li>
+    <li>nounEvilCountable->Horror Metálico</li>
+    <li>nounEvilCountable->Raptor</li>
+    <li>nounEvilCountable->Duplicador</li>
+    <li>nounEvilCountable->Mutador</li>
+    <li>nounEvilCountable->Arauto</li>
+    <li>nounEvilCountable->Rouba-Vistas</li>
+    <li>nounEvilCountable->Quimera</li>
+    <li>nounEvilCountable->Devorador</li>
+    <li>nounEvilCountable->Fragmento</li>
+    <li>nounEvilCountable->Escultura</li>
+    <li>nounEvilCountable->Soro</li>
+    <li>nounEvilCountable->Culto</li>
+    <li>nounEvilCountable->Cultista</li>
+    <li>nounEvilCountable->Bode</li>
+    <li>nounEvilCountable->Sombra</li>
+    <li>nounEvilCountable->Espreitador</li>
+    <li>nounEvilCountable->Ritos</li>
+    <li>nounEvilCountable->Maldição</li>
+    <li>nounEvilCountable->Serpente</li>
+    <li>nounEvilCountable->Banqueteador</li>
+    <li>placeEvil->Oceano</li>
+    <li>placeEvil->Vazio</li>
+    <li>placeEvil->Abismo</li>
+    <li>placeEvil->Profundo</li>
+    <li>placeEvil->Breu</li>
+    <li>placeEvil->Túmulo</li>
+    <li>placeEvil->Escuro</li>
+    <li>placeEvil->Monte</li>
+    <li>placeEvil->Aposento</li>
+    <li>placeEvil->Ossário</li>
+    <li>placeEvil->Santuário</li>
+    <li>placeEvil->Bosque</li>
+    <li>placeEvil->Chão</li>
+    <li>placeEvil->Firmamento</li>
+    <li>placeEvil->Oceano</li>
+    <li>placeEvil->Fundo</li>
+    <li>placeEvil->Inframundo</li>
+    <li>placeEvil->Subterrâneo</li>
+    <li>firstHalfEvil->vibro</li>
+    <li>firstHalfEvil->kelno</li>
+    <li>firstHalfEvil->nekro</li>
+    <li>firstHalfEvil->crono</li>
+    <li>firstHalfEvil->drago</li>
+    <li>firstHalfEvil->krimi</li>
+    <li>firstHalfEvil->vadi</li>
+    <li>firstHalfEvil->horror</li>
+    <li>firstHalfEvil->nocio</li>
+    <li>firstHalfEvil->xeno</li>
+    <li>firstHalfEvil->psico</li>
+    <li>firstHalfEvil->voro</li>
+    <li>firstHalfEvil->tyrano</li>
+    <li>firstHalfEvil->inverno</li>
+    <li>firstHalfEvil->fobo</li>
+    <li>firstHalfEvil->leva</li>
+    <li>suffixEvil->nomicon</li>
+    <li>suffixEvil->doron</li>
+    <li>suffixEvil->nax</li>
+    <li>suffixEvil->novicon</li>
+    <li>suffixEvil->vokon</li>
+    <li>suffixEvil->mancia</li>
+    <li>suffixEvil->gorgon</li>
+    <li>suffixEvil->morth</li>
+    <li>suffixEvil->cifer</li>
+    <li>suffixEvil->vex</li>
+    <li>suffixEvil->vortex</li>
+    <li>suffixEvil->nox</li>
+    <li>suffixEvil->cybex</li>
+    <li>suffixEvil->voron</li>
+    <li>suffixEvil->karnix</li>
+    <li>suffixEvil->nemex</li>
+    <li>suffixEvil->vexor</li>
+    <li>suffixEvil->tronix</li>
+    <li>suffixEvil->cryptex</li>
+    <li>suffixEvil->chaonix</li>
+    <li>suffixEvil->nix</li>
+    <li>suffixEvil->vix</li>
+  </Namer_Tome.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <Namer_Tome.rulePack.rulesStrings>&lt;li>title->[maybeThe] [bookEvil] de [nounEvilUncountable]&lt;/li>\n&lt;li>title->[maybeThe] [bookEvil] de [nounEvilCountable]s&lt;/li>\n&lt;li>title->[maybeThe] [bookEvil] do [nounEvilCountable]&lt;/li>\n&lt;li>title->[maybeThe] [nounEvilCountable]s [inThe] [placeEvil]&lt;/li>\n&lt;li>title->[maybeThe] [bookEvil] de [ANYPAWN_nameIndef]&lt;/li>\n&lt;li>title->[maybeThe] [nounEvilAny] [em The] [placeEvil]&lt;/li>\n&lt;li>title->[maybeThe] [nounEvilAny] de [ANYPAWN_nameIndef]&lt;/li>\n&lt;li>title->[maybeThe] [adjectiveEvil] [nounEvilAny]&lt;/li>\n&lt;li>title->[ANYPAWN_nameIndef]'s [bookEvil]&lt;/li>\n&lt;li>title->[maybeThe] [bookCompound]&lt;/li>\n&lt;li>title->[ANYPAWN_nameIndef]'s [bookCompound]&lt;/li>\n&lt;li>title(p=0.5)->[firstHalfEvil][connector][noun EvilCountable]&lt;/li>\n&lt;li>title(p=0.5)->[firstHalfEvil][connector][nounEvilUncountable]&lt;/li>\n&lt;li>title(p=0.5)->[nounEvilCountable] [suffixEvil]&lt;/li>\n&lt;li>title(p=0.5)->[nounEvilUncountable] [suffixEvil]&lt;/li>\n&lt;li>bookCompound(p=2)->[firstHalfEvil][suffixEvil]&lt;/li>\n&lt;li>bookCompound->[firstHalfEvil][connector][suffixEvil]&lt;/li>\n&lt;li>connector->'&lt;/li>\n&lt;li>connector->-&lt;/li>\n&lt;li>maybeThe->&lt;/li>\n&lt;li> pode ser o-> O &lt;/li>\n&lt;li>bookEvil (p=2)->Book&lt;/li>\n&lt;li>bookEvil(p=2)->[firstHalfEvil][suffixEvil]&lt;/li>\n&lt;li>bookEvil->Tome&lt;/li>\n&lt;li>bookEvil->Codex&lt;/li>\n&lt;li>bookEvil->Writings&lt;/li>\n&lt;li>bookEvil->Record&lt;/li>\n&lt;li>bookEvil->Secrets&lt;/li>\n&lt;li>bookEvil->Chronicles&lt;/li>\n&lt;li>bookEvil->Cipher&lt;/li>\n&lt;li>bookEvil->Whispers&lt;/li>\n&lt;li>bookEvil->Testimony&lt;/li>\n&lt;li>bookEvil->Lamentações&lt;/li>\n&lt;li>bookEvil->Grimoire&lt;/li>\n&lt;li>bookEvil->Almanac&lt;/li>\n&lt;li>bookEvil->Manuscript&lt;/li>\n&lt;li>bookEvil->Annals&lt;/li>\n&lt;li>bookEvil->Incantações&lt;/li>\n&lt;li>bookEvil->Revelações&lt;/li>\n&lt;li>bookEvil->Manifesto&lt;/li>\n&lt;li>bookEvil->Testament&lt;/li>\n&lt;li>bookEvil->Fragments&lt;/li>\n&lt;li>bookEvil->Shards&lt;/li>\n&lt;li>inThe->in the&lt;/li>\n&lt;li>inThe->comin the&lt;/li>\n&lt;li>inThe->beneath the&lt;/li>\n&lt;li>inThe-> sob o &lt;/li>\n&lt;li>inThe->pelo &lt;/li>\n&lt;li>inThe->on the&lt;/li>\n&lt;li>inThe->across the&lt;/li>\n&lt;li>adjetivoEvil (p=3)->Void&lt;/li>\n&lt;li>adjetivoEvil->Golden&lt;/li>\n&lt;li>adjetivoEvil->Unnatural&lt;/li>\n&lt;li>adjetivoEvil->Dark&lt;/li>\n&lt;li>adjetivoEvil->Black&lt;/li>\n&lt;li>adjetivoEvil->Deep&lt;/li>\n&lt;li>adjetivoEvil->Ancient&lt;/li>\n&lt;li>adjetivo Mal->Corrupção &lt;/li>\n&lt;li>adjetivoEvil->Blood&lt;/li>\n&lt;li>adjetivoEvil->Chaos&lt;/li>\n&lt;li>adjetivoEvil->Abyssal&lt;/li>\n&lt;li>adjetivoEvil->Uncanny&lt;/li>\n&lt;li>adjetivoEvil->Phantom&lt;/li>\n&lt;li>adjetivoEvil->Cryptic&lt;/li>\n&lt;li>adjetivoEvil->Whispering&lt;/li>\n&lt;li>adjetivoEvil->Forgotten&lt;/li>\n&lt;li>adjetivoEvil->Veiled&lt;/li>\n&lt;li>adjetivo Mal-> Proibido &lt;/li>\n&lt;li>adjetivoEvil-> Subsuperfície&lt;/li>\n&lt;li>adjetivoEvil->Snake&lt;/li>\n&lt;li>nounEvilAny->[nounEvilCountable]&lt;/li>\n&lt;li>nounEvilAny->[nounEvilUncountable]&lt;/li>\n&lt;li>nounEvilUncountable->Fleshmass&lt;/li>\n&lt;li>nounEvilUncountable->Bioferrite&lt;/li>\n&lt;li>nounEvilUncountable->Deadlife&lt;/li>\n&lt;li>nounEvilUncountable->Archotech&lt;/li>\n&lt;li>nounEvilUncountable->Necrotech&lt;/li>\n&lt;li>nounEvilUncountable->Horax&lt;/li>\n&lt;li>nounEvilUncountable->Blood&lt;/li>\n&lt;li>nounEvilUncountable->Undeath&lt;/li>\n&lt;li>nounEvilUncountable->Power&lt;/li>\n&lt;li>nounEvilUncountable->Whispers&lt;/li>\n&lt;li>nounEvilUncountable->Knowledge&lt;/li>\n&lt;li>nounEvilUncountable->Horror&lt;/li>\n&lt;li>nounEvilUncountable->Fungi&lt;/li>\n&lt;li>nounEvilUncountable->Putrescence&lt;/li>\n&lt;li>nounEvilUncountable->Rituals&lt;/li>\n&lt;li>nounEvilUncountable->Murder&lt;/li>\n&lt;li>nounEvilUncountable->Darkness&lt;/li>\n&lt;li>nounEvilUncountable->Madness&lt;/li>\n&lt;li>nounEvilUncountable->Chaos&lt;/li>\n&lt;li>nounEvilUncountable->Despair&lt;/li>\n&lt;li>nounEvilUncountable->Suffering&lt;/li>\n&lt;li>nounEvilUncountable->Nightmares&lt;/li>\n&lt;li>nounEvilUncountable->Corrupção&lt;/li>\n&lt;li>nounEvilUncountable->Doom&lt;/li>\n&lt;li>nounEvilUncountable->Terror&lt;/li>\n&lt;li>nounEvilUncountable->Malevolence&lt;/li>\n&lt;li>nounEvilUncountable->Shadows&lt;/li>\n&lt;li>nounEvilUncountable->Void&lt;/li>\n&lt;li>nounEvilUncountable->Gold&lt;/li>\n&lt;li>nounEvilCountable->Ghoul&lt;/li>\n&lt;li>nounEvilCountable->Gorehulk&lt;/li>\n&lt;li>nounEvilCountable->Noctol&lt;/li>\n&lt;li>nounEvilCountable->Shambler&lt;/li>\n&lt;li>nounEvilCountable->Fleshbeast&lt;/li>\n&lt;li>nounEvilCountable->Nociosphere&lt;/li>\n&lt;li>nounEvilCountable->Corpse&lt;/li>\n&lt;li>nounEvilCountable->Cube&lt;/li>\n&lt;li>nounEvilCountable->Revenant&lt;/li>\n&lt;li>nounEvilCountable->Metalhorror&lt;/li>\n&lt;li>nounEvilCountable->Abductor&lt;/li>\n&lt;li>nounEvilCountable->Duplicator&lt;/li>\n&lt;li>nounEvilCountable->Mutator&lt;/li>\n&lt;li>nounEvilCountable->Harbinger&lt;/li>\n&lt;li>nounEvilCountable->Sightstealer&lt;/li>\n&lt;li>nounEvilCountable->Chimera&lt;/li>\n&lt;li>nounEvilCountable->Devourer&lt;/li>\n&lt;li>nounEvilCountable->Shard&lt;/li>\n&lt;li>nounEvilCountable->Sculpture&lt;/li>\n&lt;li>nounEvilCountable->Serum&lt;/li>\n&lt;li>nounEvilCountable->Cult&lt;/li>\n&lt;li>nounEvilCountable->Cultista&lt;/li>\n&lt;li>nounEvilCountable->Goat&lt;/li>\n&lt;li>nounEvilCountable->Shadow&lt;/li>\n&lt;li>nounEvilCountable->Lurker&lt;/li>\n&lt;li>nounEvilCountable->Rites&lt;/li>\n&lt;li>nounEvilCountable->Hex&lt;/li>\n&lt;li>nounEvilCountable->Snake&lt;/li>\n&lt;li>nounEvilCountable->Feaster&lt;/li>\n&lt;li>placeEvil->Ocean&lt;/li>\n&lt;li>placeEvil->Void&lt;/li>\n&lt;li>placeEvil->Abyss&lt;/li>\n&lt;li>placeEvil->Deep&lt;/li>\n&lt;li>placeEvil->Shadows&lt;/li>\n&lt;li>placeEvil->Tombs&lt;/li>\n&lt;li>placeEvil->Darkness&lt;/li>\n&lt;li>placeEvil->Mountain&lt;/li>\n&lt;li>placeEvil->Chamber&lt;/li>\n&lt;li>placeEvil->Catacombs&lt;/li>\n&lt;li>placeEvil->Sanctum&lt;/li>\n&lt;li>placeEvil->Grove&lt;/li>\n&lt;li>placeEvil->Earth&lt;/li>\n&lt;li>placeEvil->Stars&lt;/li>\n&lt;li>placeEvil->Ocean&lt;/li>\n&lt;li>placeEvil->Depths&lt;/li>\n&lt;li>placeEvil->Underverse&lt;/li>\n&lt;li>placeEvil->Caverns&lt;/li>\n&lt;li>firstHalfEvil->vibro&lt;/li>\n&lt;li>firstHalfEvil->kelno&lt;/li>\n&lt;li>firstHalfEvil->nekro&lt;/li>\n&lt;li>firstHalfEvil->chrono&lt;/li>\n&lt;li>firstHalfEvil->drago&lt;/li>\n&lt;li>firstHalfEvil->krimi&lt;/li>\n&lt;li>firstHalfEvil->vadi&lt;/li>\n&lt;li>firstHalfEvil->horror&lt;/li>\n&lt;li>firstHalfEvil->nocio&lt;/li>\n&lt;li>firstHalfEvil->xeno&lt;/li>\n&lt;li>firstHalfEvil->psycho&lt;/li>\n&lt;li>firstHalfEvil->voro&lt;/li>\n&lt;li>firstHalfEvil->tyrano&lt;/li>\n&lt;li>firstHalfEvil->inverno&lt;/li>\n&lt;li>firstHalfEvil->phobo&lt;/li>\n&lt;li>firstHalfEvil->leva&lt;/li>\n&lt;li>suffixEvil->nomicon&lt;/li>\n&lt;li>suffixEvil->doron&lt;/li>\n&lt;li>suffixEvil->nax&lt;/li>\n&lt;li>suffixEvil->novicon&lt;/li>\n&lt;li>suffixEvil->vokon&lt;/li>\n&lt;li>suffixEvil->mancy&lt;/li>\n&lt;li>suffixEvil->gorgon&lt;/li>\n&lt;li>suffixEvil->morth&lt;/li>\n&lt;li>suffixEvil->cypher&lt;/li>\n&lt;li>suffixEvil->vex&lt;/li>\n&lt;li>suffixEvil->vortex&lt;/li>\n&lt;li>suffixEvil->nox&lt;/li>\n&lt;li>suffixEvil->cybex&lt;/li>\n&lt;li>suffixEvil->voron&lt;/li>\n&lt;li>suffixEvil->karnix&lt;/li>\n&lt;li>suffixEvil->nemex&lt;/li>\n&lt;li>suffixEvil->vexor&lt;/li>\n&lt;li>suffixEvil->tronix&lt;/li>\n&lt;li>suffixEvil->cryptex&lt;/li>\n&lt;li>suffixEvil->chaonix&lt;/li>\n&lt;li>suffixEvil->nix&lt;/li>\n&lt;li>suffixEvil->vix&lt;/li>\n</Namer_Tome.rulePack.rulesStrings>
+  <Namer_Tome.rulePack.rulesStrings>
+    <li>title->[maybeThe][bookEvil] de [nounEvilUncountable]</li>
+    <li>title->[maybeThe][bookEvil] de [nounEvilCountable]</li>
+    <li>title->[maybeThe][bookEvil]: [nounEvilCountable]</li>
+    <li>title->[maybeThe][nounEvilCountable] [inThe] [placeEvil]</li>
+    <li>title->[maybeThe][bookEvil] de [ANYPAWN_nameIndef]</li>
+    <li>title->[maybeThe][nounEvilAny] [inThe] [placeEvil]</li>
+    <li>title->[maybeThe][nounEvilAny] de [ANYPAWN_nameIndef]</li>
+    <li>title->[maybeThe][nounEvilAny] [adjectiveEvil]</li>
+    <li>title->[bookEvil] de [ANYPAWN_nameIndef]</li>
+    <li>title->[maybeThe][bookCompound]</li>
+    <li>title->[bookCompound] de [ANYPAWN_nameIndef]</li>
+    <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilCountable]</li>
+    <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilUncountable]</li>
+    <li>title(p=0.5)->[nounEvilCountable] [suffixEvil]</li>
+    <li>title(p=0.5)->[nounEvilUncountable] [suffixEvil]</li>
+    <li>bookCompound(p=2)->[firstHalfEvil][suffixEvil]</li>
+    <li>bookCompound->[firstHalfEvil][connector][suffixEvil]</li>
+    <li>connector->'</li>
+    <li>connector->-</li>
+    <li>maybeThe-></li>
+    <li>maybeThe-></li>
+    <li>bookEvil(p=2)->Livro</li>
+    <li>bookEvil(p=2)->[firstHalfEvil][suffixEvil]</li>
+    <li>bookEvil->Tomo</li>
+    <li>bookEvil->Códice</li>
+    <li>bookEvil->Escritos</li>
+    <li>bookEvil->Registo</li>
+    <li>bookEvil->Segredos</li>
+    <li>bookEvil->Crónicas</li>
+    <li>bookEvil->Cifra</li>
+    <li>bookEvil->Sussurros</li>
+    <li>bookEvil->Testemunho</li>
+    <li>bookEvil->Lamentações</li>
+    <li>bookEvil->Grimório</li>
+    <li>bookEvil->Almanaque</li>
+    <li>bookEvil->Manuscrito</li>
+    <li>bookEvil->Anais</li>
+    <li>bookEvil->Encantamentos</li>
+    <li>bookEvil->Revelações</li>
+    <li>bookEvil->Manifesto</li>
+    <li>bookEvil->Testamento</li>
+    <li>bookEvil->Fragmentos</li>
+    <li>bookEvil->Estilhaços</li>
+    <li>inThe->no</li>
+    <li>inThe->dentro do</li>
+    <li>inThe->sob o</li>
+    <li>inThe->debaixo do</li>
+    <li>inThe->junto ao</li>
+    <li>inThe->sobre o</li>
+    <li>inThe->através do</li>
+    <li>adjectiveEvil(p=3)->do Vazio</li>
+    <li>adjectiveEvil->de Ouro</li>
+    <li>adjectiveEvil->Antinatural</li>
+    <li>adjectiveEvil->das Trevas</li>
+    <li>adjectiveEvil->de Breu</li>
+    <li>adjectiveEvil->das Profundezas</li>
+    <li>adjectiveEvil->Ancestral</li>
+    <li>adjectiveEvil->da Corrupção</li>
+    <li>adjectiveEvil->de Sangue</li>
+    <li>adjectiveEvil->do Caos</li>
+    <li>adjectiveEvil->Abissal</li>
+    <li>adjectiveEvil->do Além</li>
+    <li>adjectiveEvil->Fantasma</li>
+    <li>adjectiveEvil->dos Enigmas</li>
+    <li>adjectiveEvil->dos Sussurros</li>
+    <li>adjectiveEvil->do Esquecimento</li>
+    <li>adjectiveEvil->do Véu</li>
+    <li>adjectiveEvil->do Interdito</li>
+    <li>adjectiveEvil->do Subsolo</li>
+    <li>adjectiveEvil->da Serpente</li>
+    <li>nounEvilAny->[nounEvilCountable]</li>
+    <li>nounEvilAny->[nounEvilUncountable]</li>
+    <li>nounEvilUncountable->Massa de Carne</li>
+    <li>nounEvilUncountable->Bioferrite</li>
+    <li>nounEvilUncountable->Vida-Morta</li>
+    <li>nounEvilUncountable->Arcotec</li>
+    <li>nounEvilUncountable->Necrotec</li>
+    <li>nounEvilUncountable->Horax</li>
+    <li>nounEvilUncountable->Sangue</li>
+    <li>nounEvilUncountable->Morte-Viva</li>
+    <li>nounEvilUncountable->Poder</li>
+    <li>nounEvilUncountable->Sussurros</li>
+    <li>nounEvilUncountable->Conhecimento</li>
+    <li>nounEvilUncountable->Horror</li>
+    <li>nounEvilUncountable->Fungos</li>
+    <li>nounEvilUncountable->Putrescência</li>
+    <li>nounEvilUncountable->Rituais</li>
+    <li>nounEvilUncountable->Assassínio</li>
+    <li>nounEvilUncountable->Trevas</li>
+    <li>nounEvilUncountable->Loucura</li>
+    <li>nounEvilUncountable->Caos</li>
+    <li>nounEvilUncountable->Desespero</li>
+    <li>nounEvilUncountable->Sofrimento</li>
+    <li>nounEvilUncountable->Pesadelos</li>
+    <li>nounEvilUncountable->Corrupção</li>
+    <li>nounEvilUncountable->Perdição</li>
+    <li>nounEvilUncountable->Terror</li>
+    <li>nounEvilUncountable->Malevolência</li>
+    <li>nounEvilUncountable->Sombras</li>
+    <li>nounEvilUncountable->Vazio</li>
+    <li>nounEvilUncountable->Ouro</li>
+    <li>nounEvilCountable->Carniçal</li>
+    <li>nounEvilCountable->Gorehulk</li>
+    <li>nounEvilCountable->Noctol</li>
+    <li>nounEvilCountable->Cambaleante</li>
+    <li>nounEvilCountable->Besta de Carne</li>
+    <li>nounEvilCountable->Nociosfera</li>
+    <li>nounEvilCountable->Cadáver</li>
+    <li>nounEvilCountable->Cubo</li>
+    <li>nounEvilCountable->Revenante</li>
+    <li>nounEvilCountable->Horror Metálico</li>
+    <li>nounEvilCountable->Raptor</li>
+    <li>nounEvilCountable->Duplicador</li>
+    <li>nounEvilCountable->Mutador</li>
+    <li>nounEvilCountable->Arauto</li>
+    <li>nounEvilCountable->Rouba-Vistas</li>
+    <li>nounEvilCountable->Quimera</li>
+    <li>nounEvilCountable->Devorador</li>
+    <li>nounEvilCountable->Fragmento</li>
+    <li>nounEvilCountable->Escultura</li>
+    <li>nounEvilCountable->Soro</li>
+    <li>nounEvilCountable->Culto</li>
+    <li>nounEvilCountable->Cultista</li>
+    <li>nounEvilCountable->Bode</li>
+    <li>nounEvilCountable->Sombra</li>
+    <li>nounEvilCountable->Espreitador</li>
+    <li>nounEvilCountable->Ritos</li>
+    <li>nounEvilCountable->Maldição</li>
+    <li>nounEvilCountable->Serpente</li>
+    <li>nounEvilCountable->Banqueteador</li>
+    <li>placeEvil->Oceano</li>
+    <li>placeEvil->Vazio</li>
+    <li>placeEvil->Abismo</li>
+    <li>placeEvil->Profundo</li>
+    <li>placeEvil->Breu</li>
+    <li>placeEvil->Túmulo</li>
+    <li>placeEvil->Escuro</li>
+    <li>placeEvil->Monte</li>
+    <li>placeEvil->Aposento</li>
+    <li>placeEvil->Ossário</li>
+    <li>placeEvil->Santuário</li>
+    <li>placeEvil->Bosque</li>
+    <li>placeEvil->Chão</li>
+    <li>placeEvil->Firmamento</li>
+    <li>placeEvil->Oceano</li>
+    <li>placeEvil->Fundo</li>
+    <li>placeEvil->Inframundo</li>
+    <li>placeEvil->Subterrâneo</li>
+    <li>firstHalfEvil->vibro</li>
+    <li>firstHalfEvil->kelno</li>
+    <li>firstHalfEvil->nekro</li>
+    <li>firstHalfEvil->crono</li>
+    <li>firstHalfEvil->drago</li>
+    <li>firstHalfEvil->krimi</li>
+    <li>firstHalfEvil->vadi</li>
+    <li>firstHalfEvil->horror</li>
+    <li>firstHalfEvil->nocio</li>
+    <li>firstHalfEvil->xeno</li>
+    <li>firstHalfEvil->psico</li>
+    <li>firstHalfEvil->voro</li>
+    <li>firstHalfEvil->tyrano</li>
+    <li>firstHalfEvil->inverno</li>
+    <li>firstHalfEvil->fobo</li>
+    <li>firstHalfEvil->leva</li>
+    <li>suffixEvil->nomicon</li>
+    <li>suffixEvil->doron</li>
+    <li>suffixEvil->nax</li>
+    <li>suffixEvil->novicon</li>
+    <li>suffixEvil->vokon</li>
+    <li>suffixEvil->mancia</li>
+    <li>suffixEvil->gorgon</li>
+    <li>suffixEvil->morth</li>
+    <li>suffixEvil->cifer</li>
+    <li>suffixEvil->vex</li>
+    <li>suffixEvil->vortex</li>
+    <li>suffixEvil->nox</li>
+    <li>suffixEvil->cybex</li>
+    <li>suffixEvil->voron</li>
+    <li>suffixEvil->karnix</li>
+    <li>suffixEvil->nemex</li>
+    <li>suffixEvil->vexor</li>
+    <li>suffixEvil->tronix</li>
+    <li>suffixEvil->cryptex</li>
+    <li>suffixEvil->chaonix</li>
+    <li>suffixEvil->nix</li>
+    <li>suffixEvil->vix</li>
+  </Namer_Tome.rulePack.rulesStrings>
   
 </LanguageData>

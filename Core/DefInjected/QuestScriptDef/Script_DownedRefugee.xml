@@ -7,21 +7,41 @@
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
   -->
-  <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>&lt;li>questDescription (askerIsNull=true)->[refugee_nameDef] contacta você e solicita ajuda. [refugee_pronoun] está ferido e incapaz de se mover.\n\n[refugee_nameDef] é um [refugee_age]-year-old [refugee_title]. [refugee_pronoun] promete juntar-se a você se você resgatar [refugee_objective].\n\n[refugee_nameDef] diz que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]&lt;/li>\n&lt;li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], diz que [asker_possessive] amigo foi ferido durante a viagem. A vítima é [refugee_nameIndef], um [refugee_age] de anos [refugee_title].\n\n[asker_nameDef] não tem ninguém para salvar [refugee_nameDef], mas diz que se você pode fazê-lo para [refugee_nameDef] posição e resgate [refugee_objective], [refugee_pronoun] vai se juntar a você.\n\n[asker_nameDef] diz que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]&lt;/li>\n&lt;li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]&lt;/li>\n&lt;li>pawnInvolvedInQuestInfo->&lt;/li>\n</OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
+  <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef] contacta-te e pede ajuda. Sofreu ferimentos e não consegue mover-se.\n\n[refugee_nameDef] é [refugee_title], com [refugee_age] anos. Promete juntar-se a ti caso resgates [refugee_nameDef].\n\n[refugee_nameDef] diz que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], diz que um amigo foi ferido durante uma viagem. A vítima é [refugee_nameIndef], [refugee_title] com [refugee_age] anos.\n\n[asker_nameDef] não tem ninguém disponível para resgatar [refugee_nameDef], mas diz que, se conseguires chegar à posição de [refugee_nameDef] e fizeres o resgate, [refugee_nameDef] juntar-se-á a ti.\n\n[asker_nameDef] diz que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo-></li>
+  </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [refugee_nameDef]</li>
     <li>questName->The Rescue of [refugee_nameDef]</li>
     <li>questName->[refugee_nameDef]'s Rescue</li>
     <li>questName->[refugee_nameDef]'s Salvation</li>
   -->
-  <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>&lt;li>questName->Saving [refugee_nameDef]&lt;/li>\n&lt;li>questName->O Resgate de [refugee_nameDef]&lt;/li>\n&lt;li>questName->[refugee_nameDef]'s Rescue&lt;/li>\n&lt;li>questName->[refugee_nameDef]'s Salvation&lt;/li>\n</OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
+  <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
+    <li>questName->Salvar [refugee_nameDef]</li>
+    <li>questName->O Resgate de [refugee_nameDef]</li>
+    <li>questName->Resgate de [refugee_nameDef]</li>
+    <li>questName->A Salvação de [refugee_nameDef]</li>
+  </OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>Quest expirou: [resolvedQuestName]</OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>Missão expirada: [resolvedQuestName]</OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>
   <!-- EN: [refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>[refugiado] O sinal de Def] foi perdido, e [refugee_pronoun] não pode mais ser resgatado. A busca [resolvedQuestName] expirou.</OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>O sinal de [refugee_nameDef] perdeu-se e o resgate já não é possível. A missão [resolvedQuestName] expirou.</OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
   
   <!-- UNUSED -->
-  <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>&lt;li>questDescription (askerIsNull=true)->[refugee_nameDef] contacta você e solicita ajuda. [refugee_pronoun] está ferido e incapaz de se mover.\n\n[refugee_nameDef] é um [refugee_age]-year-old [refugee_title]. [refugee_pronoun] promete juntar-se a você se você resgatar [refugee_objective].\n\n[refugee_nameDef] diz que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]&lt;/li>\n&lt;li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], diz que [asker_possessive] amigo foi ferido durante a viagem. A vítima é [refugee_nameIndef], um [refugee_age] de anos [refugee_title].\n\n[asker_nameDef] não tem ninguém para salvar [refugee_nameDef], mas diz que se você pode fazê-lo para [refugee_nameDef] posição e resgate [refugee_objective], [refugee_pronoun] vai se juntar a você.\n\n[asker_nameDef] diz que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]&lt;/li>\n&lt;li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]&lt;/li>\n&lt;li>pawnInvolvedInQuestInfo->&lt;/li>\n</OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
-  <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>&lt;li>questName->Saving [refugee_nameDef]&lt;/li>\n&lt;li>questName->O Resgate de [refugee_nameDef]&lt;/li>\n&lt;li>questName->[refugee_nameDef]'s Rescue&lt;/li>\n&lt;li>questName->[refugee_nameDef]'s Salvation&lt;/li>\n</OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
+  <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef] contacta-te e pede ajuda. Sofreu ferimentos e não consegue mover-se.\n\n[refugee_nameDef] é [refugee_title], com [refugee_age] anos. Promete juntar-se a ti caso resgates [refugee_nameDef].\n\n[refugee_nameDef] diz que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], diz que um amigo foi ferido durante uma viagem. A vítima é [refugee_nameIndef], [refugee_title] com [refugee_age] anos.\n\n[asker_nameDef] não tem ninguém disponível para resgatar [refugee_nameDef], mas diz que, se conseguires chegar à posição de [refugee_nameDef] e fizeres o resgate, [refugee_nameDef] juntar-se-á a ti.\n\n[asker_nameDef] diz que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo-></li>
+  </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
+  <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
+    <li>questName->Salvar [refugee_nameDef]</li>
+    <li>questName->O Resgate de [refugee_nameDef]</li>
+    <li>questName->Resgate de [refugee_nameDef]</li>
+    <li>questName->A Salvação de [refugee_nameDef]</li>
+  </OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
   
 </LanguageData>

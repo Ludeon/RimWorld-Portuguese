@@ -4,7 +4,9 @@
   <!-- EN:
     <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.[lumpThreatDescription]</li>
   -->
-  <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>&lt;li>questDescription-> Usando seu scanner mineral de longo alcance, [worker_definite] encontrou um pedaço de [targetMineable_label] nas proximidades.\n\nInfelizmente, nÃ£o durarÃ¡ - outros o minÃ£o primeiro em [timeoutTicks_duration] se nÃ£o o fizermos. [lumpThreatDescription]&lt;/li>\n</LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
+  <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
+    <li>questDescription->Com o teu scanner de minerais de longo alcance, [worker_definite] encontrou um bloco de [targetMineable_label] nas proximidades.\n\nInfelizmente, não vai durar: se não o extrairmos, outros vão extraí-lo primeiro dentro de [timeoutTicks_duration].[lumpThreatDescription]</li>
+  </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[lump] of [targetMineableThing_label]</li>
     <li>questName->[targetMineableThing_label] [lump]</li>
@@ -26,14 +28,56 @@
     <li>discovered->found</li>
     <li>discovered->scanned</li>
   -->
-  <LongRangeMineralScannerLump.questNameRules.rulesStrings>&lt;li>questName->[lump] de [targetMineableThing_label]&lt;/li>\n&lt;li>questName->[targetMineableThing_label] [lump]&lt;/li>\n&lt;li>questNome->The [targetMineableThing_label] [lump]&lt;/li>\n&lt;li>questName->[adj] [targetMineableThing_label]&lt;/li>\n&lt;li>questNome->[targetMineableThing_label] [descoberto]&lt;/li>\n&lt;li>lump->lump&lt;/li>\n&lt;li>lump->pile&lt;/li>\n&lt;li>lump->deposit&lt;/li>\n&lt;li>lump->seam&lt;/li>\n&lt;li>lump->chunk&lt;/li>\n&lt;li>lump->pile&lt;/li>\n&lt;li>adj->distant&lt;/li>\n&lt;li>adj->far&lt;/li>\n&lt;li>adj->unknown&lt;/li>\n&lt;li>adj->scanned&lt;/li>\n&lt;li>descoberto->descoberto&lt;/li>\n&lt;li>discovered->detected&lt;/li>\n&lt;li>discovered->found&lt;/li>\n&lt;li>discovered->scanned&lt;/li>\n</LongRangeMineralScannerLump.questNameRules.rulesStrings>
+  <LongRangeMineralScannerLump.questNameRules.rulesStrings>
+    <li>questName->[lump] de [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label]: [lump]</li>
+    <li>questName->O [lump] de [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label] [adj]</li>
+    <li>questName->[discovered] de [targetMineableThing_label]</li>
+    <li>lump->Bloco</li>
+    <li>lump->Monte</li>
+    <li>lump->Depósito</li>
+    <li>lump->Filão</li>
+    <li>lump->Pedaço</li>
+    <li>lump->Aglomerado</li>
+    <li>adj->distante</li>
+    <li>adj->ao longe</li>
+    <li>adj->desconhecido</li>
+    <li>adj->no radar</li>
+    <li>discovered->Descoberta</li>
+    <li>discovered->Deteção</li>
+    <li>discovered->Achado</li>
+    <li>discovered->Varrimento</li>
+  </LongRangeMineralScannerLump.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>Quest expirou: [resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>
+  <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>Missão expirada: [resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>
   <!-- EN: Others have mined the lump of [targetMineable_label]. The quest [resolvedQuestName] has expired. -->
-  <LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>Outros minaram o pedaço de [targetMineable_label]. A busca [resolvedQuestName] expirou.</LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>
+  <LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>Outros extraíram o bloco de [targetMineable_label]. A missão [resolvedQuestName] expirou.</LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>
   
   <!-- UNUSED -->
-  <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>&lt;li>questDescription-> Usando seu scanner mineral de longo alcance, [worker_definite] encontrou um pedaço de [targetMineable_label] nas proximidades.\n\nInfelizmente, nÃ£o durarÃ¡ - outros o minÃ£o primeiro em [timeoutTicks_duration] se nÃ£o o fizermos. [lumpThreatDescription]&lt;/li>\n</LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
-  <LongRangeMineralScannerLump.questNameRules.rulesStrings>&lt;li>questName->[lump] de [targetMineableThing_label]&lt;/li>\n&lt;li>questName->[targetMineableThing_label] [lump]&lt;/li>\n&lt;li>questNome->The [targetMineableThing_label] [lump]&lt;/li>\n&lt;li>questName->[adj] [targetMineableThing_label]&lt;/li>\n&lt;li>questNome->[targetMineableThing_label] [descoberto]&lt;/li>\n&lt;li>lump->lump&lt;/li>\n&lt;li>lump->pile&lt;/li>\n&lt;li>lump->deposit&lt;/li>\n&lt;li>lump->seam&lt;/li>\n&lt;li>lump->chunk&lt;/li>\n&lt;li>lump->pile&lt;/li>\n&lt;li>adj->distant&lt;/li>\n&lt;li>adj->far&lt;/li>\n&lt;li>adj->unknown&lt;/li>\n&lt;li>adj->scanned&lt;/li>\n&lt;li>descoberto->descoberto&lt;/li>\n&lt;li>discovered->detected&lt;/li>\n&lt;li>discovered->found&lt;/li>\n&lt;li>discovered->scanned&lt;/li>\n</LongRangeMineralScannerLump.questNameRules.rulesStrings>
+  <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
+    <li>questDescription->Com o teu scanner de minerais de longo alcance, [worker_definite] encontrou um bloco de [targetMineable_label] nas proximidades.\n\nInfelizmente, não vai durar: se não o extrairmos, outros vão extraí-lo primeiro dentro de [timeoutTicks_duration].[lumpThreatDescription]</li>
+  </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
+  <LongRangeMineralScannerLump.questNameRules.rulesStrings>
+    <li>questName->[lump] de [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label]: [lump]</li>
+    <li>questName->O [lump] de [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label] [adj]</li>
+    <li>questName->[discovered] de [targetMineableThing_label]</li>
+    <li>lump->Bloco</li>
+    <li>lump->Monte</li>
+    <li>lump->Depósito</li>
+    <li>lump->Filão</li>
+    <li>lump->Pedaço</li>
+    <li>lump->Aglomerado</li>
+    <li>adj->distante</li>
+    <li>adj->ao longe</li>
+    <li>adj->desconhecido</li>
+    <li>adj->no radar</li>
+    <li>discovered->Descoberta</li>
+    <li>discovered->Deteção</li>
+    <li>discovered->Achado</li>
+    <li>discovered->Varrimento</li>
+  </LongRangeMineralScannerLump.questNameRules.rulesStrings>
   
 </LanguageData>

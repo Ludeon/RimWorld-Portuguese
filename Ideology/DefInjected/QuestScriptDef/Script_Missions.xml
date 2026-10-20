@@ -8,7 +8,13 @@
     <li>passengersSingularOrPlural(colonistCount==1)->passenger</li>
     <li>passengersSingularOrPlural(colonistCount>=2)->passengers</li>
   -->
-  <AncientComplex_Mission.questContentRules.rulesStrings>&lt;li>terminalHackedMessage-> Terminal hackeado. {COUNT} / [terminalCount] completa.&lt;/li>\n&lt;li>passersIncapableOfHackingDialogLabel->[passersSingularOrPlural] incapaz de hacking.&lt;/li>\n&lt;li> Passageiros IncapableOfHackingDialogText-> O vaivém para a busca '[resolvedQuestName]' não tem nenhum passageiro capaz de hackear. Você deve enviar pelo menos uma pessoa capaz de hackear para investigar o complexo antigo.&lt;/li>\n&lt;li>passersSingularOrPlural(colonistCount=1)->passnger&lt;/li>\n&lt;li>passersSingularOrPlural(colonistCount>=2)->passers&lt;/li>\n</AncientComplex_Mission.questContentRules.rulesStrings>
+  <AncientComplex_Mission.questContentRules.rulesStrings>
+    <li>terminalHackedMessage->Terminal pirateado. {COUNT} / [terminalCount] concluídos.</li>
+    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] de piratear.</li>
+    <li>passengersIncapableOfHackingDialogText->O vaivém da missão '[resolvedQuestName]' não leva nenhum passageiro capaz de piratear. Tens de enviar pelo menos uma pessoa capaz de piratear para investigar o complexo antigo.</li>
+    <li>passengersSingularOrPlural(colonistCount==1)->Passageiro incapaz</li>
+    <li>passengersSingularOrPlural(colonistCount>=2)->Passageiros incapazes</li>
+  </AncientComplex_Mission.questContentRules.rulesStrings>
   <!-- EN:
     <li>complex->complex</li>
     <li>complex->compound</li>
@@ -21,25 +27,71 @@
     <li>investigation->excavation</li>
     <li>investigation->hacking</li>
   -->
-  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>&lt;li>complexo->complexo&lt;/li>\n&lt;li>complexo->compound&lt;/li>\n&lt;li>complexo->instalação&lt;/li>\n&lt;li>complex->structure&lt;/li>\n&lt;li>complexo->construção&lt;/li>\n&lt;li>investigação->investigação&lt;/li>\n&lt;li>investigação->exame&lt;/li>\n&lt;li>investigação->missão&lt;/li>\n&lt;li>investigação->excavação&lt;/li>\n&lt;li>investigação->hacking&lt;/li>\n</AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
+    <li>complex->complexo</li>
+    <li>complex->recinto</li>
+    <li>complex->bunker</li>
+    <li>complex->edifício</li>
+    <li>complex->posto</li>
+    <li>investigation->investigação</li>
+    <li>investigation->exame</li>
+    <li>investigation->missão</li>
+    <li>investigation->escavação</li>
+    <li>investigation->pirataria</li>
+  </AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has discovered an ancient complex a long distance away. [asker_pronoun] believes it contains information about the relic known as [relic_name].\n\n[asker_nameDef] can't spare people to look into it, but hopes you can help by supplying exactly [colonistCount] [colonistsSingularOrPlural] to carry out the investigation.\n\nThe complex contains unknown threats and is also being sought by [asker_nameDef]'s enemies, [enemyFaction_name].\n\n[asker_pronoun] will send a shuttle to pick up your colonists, bring them to the complex, and take them home afterward. They will be fed and tended to en-route.\n\nOnce you have landed, you must hack all terminals in the complex within [timeoutTicks_duration].</li>
     <li>colonistsSingularOrPlural(colonistCount==1)->colonist</li>
     <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
   -->
-  <AncientComplex_Mission.questDescriptionRules.rulesStrings>&lt;li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], descobriu um complexo antigo a uma longa distância. [asker_pronoun] acredita que contém informações sobre a relíquia conhecida como [relic_name].\n\n[asker_nameDef] não pode poupar as pessoas para olhar para ele, mas espera que você possa ajudar fornecendo exatamente [colonistCount] [colonistsSingularOrPlural] para realizar a investigação.\n\nO complexo contém ameaças desconhecidas e também está sendo procurado pelos inimigos [asker_nameDef], [enemyFaction_name].\n\n[asker_pronoun] vai enviar um vaivém para pegar seus colonos, trazê-los para o complexo, e levá-los para casa depois. Eles serão alimentados e tendem a en-route.\n\nUma vez que você aterrou, você deve hackear todos os terminais no complexo dentro [timeoutTicks_duration].&lt;/li>\n&lt;li>colonistasSingularOrPlural(colonistCount==1)->colonist&lt;/li>colonist&lt;/li>\n&lt;li>colonistasSingularOrPlural(colonistCount>=2)->colonistas&lt;/li>\n</AncientComplex_Mission.questDescriptionRules.rulesStrings>
+  <AncientComplex_Mission.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], descobriu um complexo antigo muito longe daqui. Acredita que contém informações sobre a relíquia conhecida como [relic_name].\n\n[asker_nameDef] não pode dispensar ninguém para o investigar, mas espera que possas ajudar, fornecendo exatamente [colonistCount] [colonistsSingularOrPlural] para levar a cabo a investigação.\n\nO complexo esconde ameaças desconhecidas e também é cobiçado pelos inimigos de [asker_nameDef], [enemyFaction_name].\n\n[asker_nameDef] vai enviar um vaivém para ir buscar os teus colonos, levá-los ao complexo e trazê-los de volta para casa no fim. Durante a viagem, serão alimentados e tratados.\n\nDepois de aterrares, tens de piratear todos os terminais do complexo no prazo de [timeoutTicks_duration].</li>
+    <li>colonistsSingularOrPlural(colonistCount==1)->colono</li>
+    <li>colonistsSingularOrPlural(colonistCount>=2)->colonos</li>
+  </AncientComplex_Mission.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[missionAdj] [complex] [investigation]</li>
     <li>missionAdj->hidden</li>
     <li>missionAdj->covert</li>
     <li>missionAdj->secret</li>
   -->
-  <AncientComplex_Mission.questNameRules.rulesStrings>&lt;li>questName->[missionAdj] [complexo] [investigação]&lt;/li>\n&lt;li>missionAdj->hidden&lt;/li>\n&lt;li>missionAdj->covert&lt;/li>\n&lt;li>missionAdj->secret&lt;/li>\n</AncientComplex_Mission.questNameRules.rulesStrings>
+  <AncientComplex_Mission.questNameRules.rulesStrings>
+    <li>questName->[investigation] do [complex] [missionAdj]</li>
+    <li>missionAdj->escondido</li>
+    <li>missionAdj->encoberto</li>
+    <li>missionAdj->secreto</li>
+  </AncientComplex_Mission.questNameRules.rulesStrings>
   
   <!-- UNUSED -->
-  <AncientComplex_Mission.questContentRules.rulesStrings>&lt;li>terminalHackedMessage-> Terminal hackeado. {COUNT} / [terminalCount] completa.&lt;/li>\n&lt;li>passersIncapableOfHackingDialogLabel->[passersSingularOrPlural] incapaz de hacking.&lt;/li>\n&lt;li> Passageiros IncapableOfHackingDialogText-> O vaivém para a busca '[resolvedQuestName]' não tem nenhum passageiro capaz de hackear. Você deve enviar pelo menos uma pessoa capaz de hackear para investigar o complexo antigo.&lt;/li>\n&lt;li>passersSingularOrPlural(colonistCount=1)->passnger&lt;/li>\n&lt;li>passersSingularOrPlural(colonistCount>=2)->passers&lt;/li>\n</AncientComplex_Mission.questContentRules.rulesStrings>
-  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>&lt;li>complexo->complexo&lt;/li>\n&lt;li>complexo->compound&lt;/li>\n&lt;li>complexo->instalação&lt;/li>\n&lt;li>complex->structure&lt;/li>\n&lt;li>complexo->construção&lt;/li>\n&lt;li>investigação->investigação&lt;/li>\n&lt;li>investigação->exame&lt;/li>\n&lt;li>investigação->missão&lt;/li>\n&lt;li>investigação->excavação&lt;/li>\n&lt;li>investigação->hacking&lt;/li>\n</AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
-  <AncientComplex_Mission.questDescriptionRules.rulesStrings>&lt;li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], descobriu um complexo antigo a uma longa distância. [asker_pronoun] acredita que contém informações sobre a relíquia conhecida como [relic_name].\n\n[asker_nameDef] não pode poupar as pessoas para olhar para ele, mas espera que você possa ajudar fornecendo exatamente [colonistCount] [colonistsSingularOrPlural] para realizar a investigação.\n\nO complexo contém ameaças desconhecidas e também está sendo procurado pelos inimigos [asker_nameDef], [enemyFaction_name].\n\n[asker_pronoun] vai enviar um vaivém para pegar seus colonos, trazê-los para o complexo, e levá-los para casa depois. Eles serão alimentados e tendem a en-route.\n\nUma vez que você aterrou, você deve hackear todos os terminais no complexo dentro [timeoutTicks_duration].&lt;/li>\n&lt;li>colonistasSingularOrPlural(colonistCount==1)->colonist&lt;/li>colonist&lt;/li>\n&lt;li>colonistasSingularOrPlural(colonistCount>=2)->colonistas&lt;/li>\n</AncientComplex_Mission.questDescriptionRules.rulesStrings>
-  <AncientComplex_Mission.questNameRules.rulesStrings>&lt;li>questName->[missionAdj] [complexo] [investigação]&lt;/li>\n&lt;li>missionAdj->hidden&lt;/li>\n&lt;li>missionAdj->covert&lt;/li>\n&lt;li>missionAdj->secret&lt;/li>\n</AncientComplex_Mission.questNameRules.rulesStrings>
+  <AncientComplex_Mission.questContentRules.rulesStrings>
+    <li>terminalHackedMessage->Terminal pirateado. {COUNT} / [terminalCount] concluídos.</li>
+    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] de piratear.</li>
+    <li>passengersIncapableOfHackingDialogText->O vaivém da missão '[resolvedQuestName]' não leva nenhum passageiro capaz de piratear. Tens de enviar pelo menos uma pessoa capaz de piratear para investigar o complexo antigo.</li>
+    <li>passengersSingularOrPlural(colonistCount==1)->Passageiro incapaz</li>
+    <li>passengersSingularOrPlural(colonistCount>=2)->Passageiros incapazes</li>
+  </AncientComplex_Mission.questContentRules.rulesStrings>
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
+    <li>complex->complexo</li>
+    <li>complex->recinto</li>
+    <li>complex->bunker</li>
+    <li>complex->edifício</li>
+    <li>complex->posto</li>
+    <li>investigation->investigação</li>
+    <li>investigation->exame</li>
+    <li>investigation->missão</li>
+    <li>investigation->escavação</li>
+    <li>investigation->pirataria</li>
+  </AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
+  <AncientComplex_Mission.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], descobriu um complexo antigo muito longe daqui. Acredita que contém informações sobre a relíquia conhecida como [relic_name].\n\n[asker_nameDef] não pode dispensar ninguém para o investigar, mas espera que possas ajudar, fornecendo exatamente [colonistCount] [colonistsSingularOrPlural] para levar a cabo a investigação.\n\nO complexo esconde ameaças desconhecidas e também é cobiçado pelos inimigos de [asker_nameDef], [enemyFaction_name].\n\n[asker_nameDef] vai enviar um vaivém para ir buscar os teus colonos, levá-los ao complexo e trazê-los de volta para casa no fim. Durante a viagem, serão alimentados e tratados.\n\nDepois de aterrares, tens de piratear todos os terminais do complexo no prazo de [timeoutTicks_duration].</li>
+    <li>colonistsSingularOrPlural(colonistCount==1)->colono</li>
+    <li>colonistsSingularOrPlural(colonistCount>=2)->colonos</li>
+  </AncientComplex_Mission.questDescriptionRules.rulesStrings>
+  <AncientComplex_Mission.questNameRules.rulesStrings>
+    <li>questName->[investigation] do [complex] [missionAdj]</li>
+    <li>missionAdj->escondido</li>
+    <li>missionAdj->encoberto</li>
+    <li>missionAdj->secreto</li>
+  </AncientComplex_Mission.questNameRules.rulesStrings>
   
 </LanguageData>

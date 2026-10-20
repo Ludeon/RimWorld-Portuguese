@@ -17,17 +17,51 @@
     <li>festival->jubilee</li>
     <li>festival->fiesta</li>
   -->
-  <NamerFestivalGlobal.rulePack.rulesStrings>&lt;li>festivalName (p=2)->[memeAdjetivo] [festival]&lt;/li>\n&lt;li>festivalName->[festival] de [chosenTheme]&lt;/li>\n&lt;li>festivalName->[chosenAdjective] [festival]&lt;/li>\n&lt;li>festivalName->[keyDeity]'s [festival]&lt;/li>\n&lt;li>festivalName->[festival] de [keyDeity]&lt;/li>\n&lt;li>festivalName->[festival] de [memeConcept]&lt;/li>\n&lt;li>festivalName->[festival] de [chosenIdeoName]&lt;/li>\n&lt;li>festival->festival&lt;/li>\n&lt;li>festival->celebração&lt;/li>\n&lt;li>festival->party&lt;/li>\n&lt;li>festival->advent&lt;/li>\n&lt;li>festival->fair&lt;/li>\n&lt;li>festival->jubilee&lt;/li>\n&lt;li>festival->fiesta&lt;/li>\n</NamerFestivalGlobal.rulePack.rulesStrings>
+  <NamerFestivalGlobal.rulePack.rulesStrings>
+    <li>festivalName(p=2)->[festival] [memeAdjective]</li>
+    <li>festivalName->[festival] de [chosenTheme]</li>
+    <li>festivalName->[festival] [chosenAdjective]</li>
+    <li>festivalName->[festival] em honra de [keyDeity]</li>
+    <li>festivalName->[festival] de [keyDeity]</li>
+    <li>festivalName->[festival] de [memeConcept]</li>
+    <li>festivalName->[festival] de [chosenIdeoName]</li>
+    <li>festival->festa</li>
+    <li>festival->celebração</li>
+    <li>festival->festividade</li>
+    <li>festival->romaria</li>
+    <li>festival->feira</li>
+    <li>festival->comemoração</li>
+    <li>festival->folia</li>
+  </NamerFestivalGlobal.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerFestivalGlobal.rulePack.rulesStrings>&lt;li>festivalName (p=2)->[memeAdjetivo] [festival]&lt;/li>\n&lt;li>festivalName->[festival] de [chosenTheme]&lt;/li>\n&lt;li>festivalName->[chosenAdjective] [festival]&lt;/li>\n&lt;li>festivalName->[keyDeity]'s [festival]&lt;/li>\n&lt;li>festivalName->[festival] de [keyDeity]&lt;/li>\n&lt;li>festivalName->[festival] de [memeConcept]&lt;/li>\n&lt;li>festivalName->[festival] de [chosenIdeoName]&lt;/li>\n&lt;li>festival->festival&lt;/li>\n&lt;li>festival->celebração&lt;/li>\n&lt;li>festival->party&lt;/li>\n&lt;li>festival->advent&lt;/li>\n&lt;li>festival->fair&lt;/li>\n&lt;li>festival->jubilee&lt;/li>\n&lt;li>festival->fiesta&lt;/li>\n</NamerFestivalGlobal.rulePack.rulesStrings>
+  <NamerFestivalGlobal.rulePack.rulesStrings>
+    <li>festivalName(p=2)->[festival] [memeAdjective]</li>
+    <li>festivalName->[festival] de [chosenTheme]</li>
+    <li>festivalName->[festival] [chosenAdjective]</li>
+    <li>festivalName->[festival] em honra de [keyDeity]</li>
+    <li>festivalName->[festival] de [keyDeity]</li>
+    <li>festivalName->[festival] de [memeConcept]</li>
+    <li>festivalName->[festival] de [chosenIdeoName]</li>
+    <li>festival->festa</li>
+    <li>festival->celebração</li>
+    <li>festival->festividade</li>
+    <li>festival->romaria</li>
+    <li>festival->feira</li>
+    <li>festival->comemoração</li>
+    <li>festival->folia</li>
+  </NamerFestivalGlobal.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_ritualName->[festivalName]</li>
   -->
-  <NamerRitualFestival.rulePack.rulesStrings>&lt;li>r_ritualName->[festivalName]&lt;/li>\n</NamerRitualFestival.rulePack.rulesStrings>
+  <NamerRitualFestival.rulePack.rulesStrings>
+    <li>r_ritualName->[festivalName]</li>
+  </NamerRitualFestival.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerRitualFestival.rulePack.rulesStrings>&lt;li>r_ritualName->[festivalName]&lt;/li>\n</NamerRitualFestival.rulePack.rulesStrings>
+  <NamerRitualFestival.rulePack.rulesStrings>
+    <li>r_ritualName->[festivalName]</li>
+  </NamerRitualFestival.rulePack.rulesStrings>
   
 </LanguageData>

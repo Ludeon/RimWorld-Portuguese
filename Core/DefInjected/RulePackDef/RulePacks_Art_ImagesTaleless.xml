@@ -37,9 +37,79 @@
     <li>desc_pawn->looking [AdjectiveAny]</li>
     <li>desc_pawn->covered in [Gore]</li>
   -->
-  <TalelessImages.rulePack.rulesStrings>&lt;li>image->a solitária [Character] [desc_pawn]&lt;/li>\n&lt;li>image->a solitária [Character] [desc_pawn] perto de um [TerrainFeature]&lt;/li>\n&lt;li>image->a solitária [Character] [desc_pawn] perto de uma [Comunidade]&lt;/li>a\n&lt;li>image->a [Character] [desc_pawn] cercado por [Character]s&lt;/li>\n&lt;li>image->[Character]s jogando [Game]&lt;/li>\n&lt;li>image->a [Character] [desc_pawn] jogando [Game] com [Quantity_adjphrase] [Character]s&lt;/li>\n&lt;li>image->a [Character] [desc_pawn] segurando um [Weapon]&lt;/li>\n&lt;li>image->a [Character] [desc_pawn] comendo um [Vegetable]&lt;/li>\n&lt;li>image->[Quantity_adjphrase] [PersonJob]s and [PersonJob]s eat [Vegetable]s together&lt;/li>\n&lt;li>image->a celebridade menor [NamePerson] [desc_pawn]&lt;/li>image]\n&lt;li>image->a [Character] usando um [Apparel] [desc_pawn]&lt;/li>\n&lt;li>image->a [Comunidade]&lt;/li>\n&lt;li>image->a [TerrainFeature]&lt;/li>\n&lt;li>image->a [Corpo] &lt;/li>\n&lt;li>image->a [TreeType] árvore&lt;/li>\n&lt;li>image->a [NaturalObject]&lt;/li>\n&lt;li>image->[Quantity_adjphrase] [Correio]\n&lt;li>image->[Quantity_adjphrase] [Vegetables&lt;/li>\n&lt;li>image->an vazio [Aparência]&lt;/li>\n&lt;li>image->a [Shape]&lt;/li>\n&lt;li>image->a [Shape] cercado por [Shape]s&lt;/li>\n&lt;li>image-> uma renderização abstrata de [ConceptAny]&lt;/li>\n&lt;li>image->a [AdjectiveAny] forma abstrata&lt;/li>\n&lt;li>desc_pawn(p=12)->&lt;/li>\n&lt;li>desc_pawn->flying através do ar&lt;/li>\n&lt;li>desc_pawn->suspendido no ar&lt;/li>\n&lt;li>desc_pawn->movendo para a esquerda&lt;/li>\n&lt;li>desc_pawn->movendo para a direita&lt;/li>\n&lt;li>desc_pawn->sitting em uma tabela&lt;/li>\n&lt;li>desc_pawn->seen através de um olhar vidro&lt;/li>\n&lt;li>desc_pawn->rendered in silhouette&lt;/li>\n&lt;li>desc_pawn->riding em um [Animal] usando um [Apparel]&lt;/li>\n&lt;li>desc_pawn-> [AdjectiveAny]&lt;/li>\n&lt;li>desc_pawn->coberto em [Gore]&lt;/li>\n</TalelessImages.rulePack.rulesStrings>
+  <TalelessImages.rulePack.rulesStrings>
+    <li>image->um [Character] solitário [desc_pawn]</li>
+    <li>image->um [Character] solitário [desc_pawn] perto de uma paisagem do tipo [TerrainFeature]</li>
+    <li>image->um [Character] solitário [desc_pawn] perto de um povoado do tipo [Community]</li>
+    <li>image->um [Character] [desc_pawn] rodeado de [Character]s</li>
+    <li>image->[Character]s a jogar [Game]</li>
+    <li>image->um [Character] [desc_pawn] a jogar [Game] com [Quantity_adjphrase] [Character]s</li>
+    <li>image->um [Character] [desc_pawn] a segurar uma arma do tipo [Weapon]</li>
+    <li>image->um [Character] [desc_pawn] a comer [Vegetable]</li>
+    <li>image->[Quantity_adjphrase] [PersonJob]s e [PersonJob]s a comer [Vegetable]s juntos</li>
+    <li>image->a celebridade menor [NamePerson] [desc_pawn]</li>
+    <li>image->um [Character] com [Apparel] [desc_pawn]</li>
+    <li>image->um povoado do tipo [Community]</li>
+    <li>image->uma paisagem do tipo [TerrainFeature]</li>
+    <li>image->uma arma do tipo [Weapon]</li>
+    <li>image->uma árvore de [TreeType]</li>
+    <li>image->um elemento natural do tipo [NaturalObject]</li>
+    <li>image->[Quantity_adjphrase] [Weapon]s</li>
+    <li>image->[Quantity_adjphrase] [Vegetable]s</li>
+    <li>image->uma peça de vestuário vazia do tipo [Apparel]</li>
+    <li>image->uma figura do tipo [Shape]</li>
+    <li>image->uma figura do tipo [Shape] rodeada de [Shape]s</li>
+    <li>image->uma representação abstrata de [ConceptAny]</li>
+    <li>image->uma forma abstrata [AdjectiveAny]</li>
+    <li>desc_pawn(p=12)-></li>
+    <li>desc_pawn->a voar pelo ar</li>
+    <li>desc_pawn->suspenso no ar</li>
+    <li>desc_pawn->a mover-se para a esquerda</li>
+    <li>desc_pawn->a mover-se para a direita</li>
+    <li>desc_pawn->sentado numa mesa</li>
+    <li>desc_pawn->visto através de uma lupa</li>
+    <li>desc_pawn->representado em silhueta</li>
+    <li>desc_pawn->montado em [Animal], com [Apparel]</li>
+    <li>desc_pawn->com ar [AdjectiveAny]</li>
+    <li>desc_pawn->coberto de [Gore]</li>
+  </TalelessImages.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <TalelessImages.rulePack.rulesStrings>&lt;li>image->a solitária [Character] [desc_pawn]&lt;/li>\n&lt;li>image->a solitária [Character] [desc_pawn] perto de um [TerrainFeature]&lt;/li>\n&lt;li>image->a solitária [Character] [desc_pawn] perto de uma [Comunidade]&lt;/li>a\n&lt;li>image->a [Character] [desc_pawn] cercado por [Character]s&lt;/li>\n&lt;li>image->[Character]s jogando [Game]&lt;/li>\n&lt;li>image->a [Character] [desc_pawn] jogando [Game] com [Quantity_adjphrase] [Character]s&lt;/li>\n&lt;li>image->a [Character] [desc_pawn] segurando um [Weapon]&lt;/li>\n&lt;li>image->a [Character] [desc_pawn] comendo um [Vegetable]&lt;/li>\n&lt;li>image->[Quantity_adjphrase] [PersonJob]s and [PersonJob]s eat [Vegetable]s together&lt;/li>\n&lt;li>image->a celebridade menor [NamePerson] [desc_pawn]&lt;/li>image]\n&lt;li>image->a [Character] usando um [Apparel] [desc_pawn]&lt;/li>\n&lt;li>image->a [Comunidade]&lt;/li>\n&lt;li>image->a [TerrainFeature]&lt;/li>\n&lt;li>image->a [Corpo] &lt;/li>\n&lt;li>image->a [TreeType] árvore&lt;/li>\n&lt;li>image->a [NaturalObject]&lt;/li>\n&lt;li>image->[Quantity_adjphrase] [Correio]\n&lt;li>image->[Quantity_adjphrase] [Vegetables&lt;/li>\n&lt;li>image->an vazio [Aparência]&lt;/li>\n&lt;li>image->a [Shape]&lt;/li>\n&lt;li>image->a [Shape] cercado por [Shape]s&lt;/li>\n&lt;li>image-> uma renderização abstrata de [ConceptAny]&lt;/li>\n&lt;li>image->a [AdjectiveAny] forma abstrata&lt;/li>\n&lt;li>desc_pawn(p=12)->&lt;/li>\n&lt;li>desc_pawn->flying através do ar&lt;/li>\n&lt;li>desc_pawn->suspendido no ar&lt;/li>\n&lt;li>desc_pawn->movendo para a esquerda&lt;/li>\n&lt;li>desc_pawn->movendo para a direita&lt;/li>\n&lt;li>desc_pawn->sitting em uma tabela&lt;/li>\n&lt;li>desc_pawn->seen através de um olhar vidro&lt;/li>\n&lt;li>desc_pawn->rendered in silhouette&lt;/li>\n&lt;li>desc_pawn->riding em um [Animal] usando um [Apparel]&lt;/li>\n&lt;li>desc_pawn-> [AdjectiveAny]&lt;/li>\n&lt;li>desc_pawn->coberto em [Gore]&lt;/li>\n</TalelessImages.rulePack.rulesStrings>
+  <TalelessImages.rulePack.rulesStrings>
+    <li>image->um [Character] solitário [desc_pawn]</li>
+    <li>image->um [Character] solitário [desc_pawn] perto de uma paisagem do tipo [TerrainFeature]</li>
+    <li>image->um [Character] solitário [desc_pawn] perto de um povoado do tipo [Community]</li>
+    <li>image->um [Character] [desc_pawn] rodeado de [Character]s</li>
+    <li>image->[Character]s a jogar [Game]</li>
+    <li>image->um [Character] [desc_pawn] a jogar [Game] com [Quantity_adjphrase] [Character]s</li>
+    <li>image->um [Character] [desc_pawn] a segurar uma arma do tipo [Weapon]</li>
+    <li>image->um [Character] [desc_pawn] a comer [Vegetable]</li>
+    <li>image->[Quantity_adjphrase] [PersonJob]s e [PersonJob]s a comer [Vegetable]s juntos</li>
+    <li>image->a celebridade menor [NamePerson] [desc_pawn]</li>
+    <li>image->um [Character] com [Apparel] [desc_pawn]</li>
+    <li>image->um povoado do tipo [Community]</li>
+    <li>image->uma paisagem do tipo [TerrainFeature]</li>
+    <li>image->uma arma do tipo [Weapon]</li>
+    <li>image->uma árvore de [TreeType]</li>
+    <li>image->um elemento natural do tipo [NaturalObject]</li>
+    <li>image->[Quantity_adjphrase] [Weapon]s</li>
+    <li>image->[Quantity_adjphrase] [Vegetable]s</li>
+    <li>image->uma peça de vestuário vazia do tipo [Apparel]</li>
+    <li>image->uma figura do tipo [Shape]</li>
+    <li>image->uma figura do tipo [Shape] rodeada de [Shape]s</li>
+    <li>image->uma representação abstrata de [ConceptAny]</li>
+    <li>image->uma forma abstrata [AdjectiveAny]</li>
+    <li>desc_pawn(p=12)-></li>
+    <li>desc_pawn->a voar pelo ar</li>
+    <li>desc_pawn->suspenso no ar</li>
+    <li>desc_pawn->a mover-se para a esquerda</li>
+    <li>desc_pawn->a mover-se para a direita</li>
+    <li>desc_pawn->sentado numa mesa</li>
+    <li>desc_pawn->visto através de uma lupa</li>
+    <li>desc_pawn->representado em silhueta</li>
+    <li>desc_pawn->montado em [Animal], com [Apparel]</li>
+    <li>desc_pawn->com ar [AdjectiveAny]</li>
+    <li>desc_pawn->coberto de [Gore]</li>
+  </TalelessImages.rulePack.rulesStrings>
   
 </LanguageData>

@@ -5,19 +5,31 @@
     <li>questDescription(siteFaction==Pirate)->Pirates have set up an outpost near [map_definite] to harass you. [allSitePartsDescriptions]\n\nThe outpost will remain until you send a team there to attack and destroy it.</li>
     <li>questDescription(siteFaction==Mechanoid)->A mechanoid cluster has landed not far from [map_definite]. [allSitePartsDescriptions]\n\nThe mech cluster will remain until you send a team there to attack and destroy it.</li>
   -->
-  <ProblemCauser.questDescriptionRules.rulesStrings>&lt;li>questDescription (siteFaction=Pirate)-> Os piratas criaram um posto avançado perto [map_definite] para assediar você. [allSitePartsDescriptions]\n\nO posto avançado permanecerá até que você envie uma equipe lá para atacar e destruí-la.&lt;/li>\n&lt;li>questDescription (siteFaction=Mechanoids)-> Um aglomerado mecanoide aterrou não muito longe de [map_definite]. [allSitePartsDescriptions]\n\nO cluster de mech permanecerá até que você envie uma equipe lá para atacar e destruí-la.&lt;/li>\n</ProblemCauser.questDescriptionRules.rulesStrings>
+  <ProblemCauser.questDescriptionRules.rulesStrings>
+    <li>questDescription(siteFaction==Pirate)->Piratas montaram um posto avançado perto de [map_definite] para te assediar. [allSitePartsDescriptions]\n\nO posto avançado permanecerá até enviares uma equipa para o atacar e destruir.</li>
+    <li>questDescription(siteFaction==Mechanoid)->Um aglomerado mecanoide aterrou não muito longe de [map_definite]. [allSitePartsDescriptions]\n\nO aglomerado de mecs permanecerá até enviares uma equipa para o atacar e destruir.</li>
+  </ProblemCauser.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(siteFaction==Pirate)->Pirates with a [problemCauserLabel]</li>
     <li>questName(siteFaction==Mechanoid)->Mech cluster with a [problemCauserLabel]</li>
   -->
-  <ProblemCauser.questNameRules.rulesStrings>&lt;li>questName (siteFaction=Pirate)->Pirates com um [problem CauserLabel]&lt;/li>\n&lt;li>questName (siteFaction=Mechanoids)->Mech cluster com um [problem CauserLabel]&lt;/li>\n</ProblemCauser.questNameRules.rulesStrings>
+  <ProblemCauser.questNameRules.rulesStrings>
+    <li>questName(siteFaction==Pirate)->Piratas com [problemCauserLabel]</li>
+    <li>questName(siteFaction==Mechanoid)->Aglomerado de mecs com [problemCauserLabel]</li>
+  </ProblemCauser.questNameRules.rulesStrings>
   <!-- EN: [problemCauserLabel] destroyed -->
-  <ProblemCauser.LetterLabelSuccess.slateRef>Destruído</ProblemCauser.LetterLabelSuccess.slateRef>
+  <ProblemCauser.LetterLabelSuccess.slateRef>[problemCauserLabel] destruído</ProblemCauser.LetterLabelSuccess.slateRef>
   <!-- EN: You have destroyed the [problemCauserLabel] that was affecting [map_definite]! -->
-  <ProblemCauser.LetterTextSuccess.slateRef>Você destruiu o [problem CauserLabel] que estava afetando [map_definite]!</ProblemCauser.LetterTextSuccess.slateRef>
+  <ProblemCauser.LetterTextSuccess.slateRef>Destruíste [problemCauserLabel] que estava a afetar [map_definite]!</ProblemCauser.LetterTextSuccess.slateRef>
   
   <!-- UNUSED -->
-  <ProblemCauser.questDescriptionRules.rulesStrings>&lt;li>questDescription (siteFaction=Pirate)-> Os piratas criaram um posto avançado perto [map_definite] para assediar você. [allSitePartsDescriptions]\n\nO posto avançado permanecerá até que você envie uma equipe lá para atacar e destruí-la.&lt;/li>\n&lt;li>questDescription (siteFaction=Mechanoids)-> Um aglomerado mecanoide aterrou não muito longe de [map_definite]. [allSitePartsDescriptions]\n\nO cluster de mech permanecerá até que você envie uma equipe lá para atacar e destruí-la.&lt;/li>\n</ProblemCauser.questDescriptionRules.rulesStrings>
-  <ProblemCauser.questNameRules.rulesStrings>&lt;li>questName (siteFaction=Pirate)->Pirates com um [problem CauserLabel]&lt;/li>\n&lt;li>questName (siteFaction=Mechanoids)->Mech cluster com um [problem CauserLabel]&lt;/li>\n</ProblemCauser.questNameRules.rulesStrings>
+  <ProblemCauser.questDescriptionRules.rulesStrings>
+    <li>questDescription(siteFaction==Pirate)->Piratas montaram um posto avançado perto de [map_definite] para te assediar. [allSitePartsDescriptions]\n\nO posto avançado permanecerá até enviares uma equipa para o atacar e destruir.</li>
+    <li>questDescription(siteFaction==Mechanoid)->Um aglomerado mecanoide aterrou não muito longe de [map_definite]. [allSitePartsDescriptions]\n\nO aglomerado de mecs permanecerá até enviares uma equipa para o atacar e destruir.</li>
+  </ProblemCauser.questDescriptionRules.rulesStrings>
+  <ProblemCauser.questNameRules.rulesStrings>
+    <li>questName(siteFaction==Pirate)->Piratas com [problemCauserLabel]</li>
+    <li>questName(siteFaction==Mechanoid)->Aglomerado de mecs com [problemCauserLabel]</li>
+  </ProblemCauser.questNameRules.rulesStrings>
   
 </LanguageData>

@@ -6,7 +6,11 @@
     <li>discoveryDesc(discovered==false)->learned</li>
     <li>discoveryDesc(discovered==true)->determined the location</li>
   -->
-  <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>&lt;li>questDescription-> Você [discoveryDesc] de um complexo antigo nas proximidades que contém os restos de um mecanitor de longa data.\n\nMecanidores podem criar, controlar e manipular mecanóides para o trabalho e combate. Se você pode invadir o complexo e recolher o corpo do mecanitor, você pode extrair seu mechlink e transformar um de seus próprios colonos em um mecanitor.\n\nSeja avisado - esses tipos de estruturas podem conter uma variedade de ameaças, e sua atividade no complexo pode chamar a atenção indesejada.&lt;/li>\n&lt;li>discoveryDesc (discovered=false)->learned&lt;/li>\n&lt;li>discoveryDesc (discovered=true)->determinado o local&lt;/li>\n</OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryDesc] de um complexo antigo nas proximidades que contém os restos de um mecanitor morto há muito tempo.\n\nOs mecanitores podem criar, controlar e manipular mecanoides para trabalho e combate. Se conseguires entrar no complexo e recolher o cadáver do mecanitor, poderás extrair a sua mecaligação e transformar um dos teus colonos num mecanitor.\n\nCuidado: estas estruturas podem conter várias ameaças, e a tua atividade no complexo pode atrair atenção indesejada.</li>
+    <li>discoveryDesc(discovered==false)->Tomaste conhecimento</li>
+    <li>discoveryDesc(discovered==true)->Determinaste a localização</li>
+  </OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[complexAdj] mechanitor [complex]</li>
     <li>questName->mechanitor [complex]</li>
@@ -25,10 +29,48 @@
     <li>complex->mechplex</li>
     <li>complex->mechsite</li>
   -->
-  <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>&lt;li>questName(p=3)->[complexAdj] mecanitor [complexo]&lt;/li>\n&lt;li>questName->mecanitor [complexo]&lt;/li>\n&lt;li>complexAdj->secret&lt;/li>\n&lt;li>complexAdj->ancient&lt;/li>\n&lt;li>complexAdj->old&lt;/li>\n&lt;li>complexAdj->hidden&lt;/li>\n&lt;li>complexAdj->dusty&lt;/li>\n&lt;li>complexAdj->dangerous&lt;/li>\n&lt;li>complexAdj->hidden&lt;/li>\n&lt;li>complexo->complexo&lt;/li>\n&lt;li>complexo->lair&lt;/li>\n&lt;li>complexo->base&lt;/li>\n&lt;li>complexo->compound&lt;/li>\n&lt;li>complexo->crypt&lt;/li>\n&lt;li>complexo->mechplex&lt;/li>\n&lt;li>complexo->mechsite&lt;/li>\n</OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
+    <li>questName(p=3)->[complex] de mecanitor [complexAdj]</li>
+    <li>questName->[complex] de mecanitor</li>
+    <li>complexAdj->secreto</li>
+    <li>complexAdj->antigo</li>
+    <li>complexAdj->velho</li>
+    <li>complexAdj->oculto</li>
+    <li>complexAdj->poeirento</li>
+    <li>complexAdj->perigoso</li>
+    <li>complexAdj->escondido</li>
+    <li>complex->complexo</li>
+    <li>complex->covil</li>
+    <li>complex->posto</li>
+    <li>complex->recinto</li>
+    <li>complex->sepulcro</li>
+    <li>complex->mecacomplexo</li>
+    <li>complex->mecalocal</li>
+  </OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
   
   <!-- UNUSED -->
-  <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>&lt;li>questDescription-> Você [discoveryDesc] de um complexo antigo nas proximidades que contém os restos de um mecanitor de longa data.\n\nMecanidores podem criar, controlar e manipular mecanóides para o trabalho e combate. Se você pode invadir o complexo e recolher o corpo do mecanitor, você pode extrair seu mechlink e transformar um de seus próprios colonos em um mecanitor.\n\nSeja avisado - esses tipos de estruturas podem conter uma variedade de ameaças, e sua atividade no complexo pode chamar a atenção indesejada.&lt;/li>\n&lt;li>discoveryDesc (discovered=false)->learned&lt;/li>\n&lt;li>discoveryDesc (discovered=true)->determinado o local&lt;/li>\n</OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
-  <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>&lt;li>questName(p=3)->[complexAdj] mecanitor [complexo]&lt;/li>\n&lt;li>questName->mecanitor [complexo]&lt;/li>\n&lt;li>complexAdj->secret&lt;/li>\n&lt;li>complexAdj->ancient&lt;/li>\n&lt;li>complexAdj->old&lt;/li>\n&lt;li>complexAdj->hidden&lt;/li>\n&lt;li>complexAdj->dusty&lt;/li>\n&lt;li>complexAdj->dangerous&lt;/li>\n&lt;li>complexAdj->hidden&lt;/li>\n&lt;li>complexo->complexo&lt;/li>\n&lt;li>complexo->lair&lt;/li>\n&lt;li>complexo->base&lt;/li>\n&lt;li>complexo->compound&lt;/li>\n&lt;li>complexo->crypt&lt;/li>\n&lt;li>complexo->mechplex&lt;/li>\n&lt;li>complexo->mechsite&lt;/li>\n</OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryDesc] de um complexo antigo nas proximidades que contém os restos de um mecanitor morto há muito tempo.\n\nOs mecanitores podem criar, controlar e manipular mecanoides para trabalho e combate. Se conseguires entrar no complexo e recolher o cadáver do mecanitor, poderás extrair a sua mecaligação e transformar um dos teus colonos num mecanitor.\n\nCuidado: estas estruturas podem conter várias ameaças, e a tua atividade no complexo pode atrair atenção indesejada.</li>
+    <li>discoveryDesc(discovered==false)->Tomaste conhecimento</li>
+    <li>discoveryDesc(discovered==true)->Determinaste a localização</li>
+  </OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
+    <li>questName(p=3)->[complex] de mecanitor [complexAdj]</li>
+    <li>questName->[complex] de mecanitor</li>
+    <li>complexAdj->secreto</li>
+    <li>complexAdj->antigo</li>
+    <li>complexAdj->velho</li>
+    <li>complexAdj->oculto</li>
+    <li>complexAdj->poeirento</li>
+    <li>complexAdj->perigoso</li>
+    <li>complexAdj->escondido</li>
+    <li>complex->complexo</li>
+    <li>complex->covil</li>
+    <li>complex->posto</li>
+    <li>complex->recinto</li>
+    <li>complex->sepulcro</li>
+    <li>complex->mecacomplexo</li>
+    <li>complex->mecalocal</li>
+  </OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
   
 </LanguageData>

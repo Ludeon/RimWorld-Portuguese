@@ -18,7 +18,23 @@
     <li>pawnListHaveConjugation(colonistsToLendCount==1)->has</li>
     <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
   -->
-  <PawnLend.questDescriptionRules.rulesStrings>&lt;li>questDescription (asker_factionLeader=True)->[asker_faction_leaderTitle] [asker_nameFull] de [asker_faction_name] precisa de mãos extras para ajudar [dutyDescription].\n\n[asker_pronoun] está pedindo para você emprestar [asker_objective] [colonistCountToLend] para [lendForDays] dias.\n\n[willSendShuttle]&lt;/li>\n&lt;li>disease->flu&lt;/li>\n&lt;li>disease->plague&lt;/li>\n&lt;li>disease->malaria&lt;/li>\n&lt;li>disease->infecção&lt;/li>\n&lt;li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name] precisa de pessoas para ajudar [dutyRoyalDescription].\n\n[asker_pronoun] está pedindo para você emprestar [colonistCountToLend] para servir [asker_objective] para [lendForDays] dias.\n\n[willSendShuttle]&lt;/li>\n&lt;li>colonistCountToLend(colonistasToLendCount=1)->1 colonist[minAgeOrOlder]&lt;/li>1>\n&lt;li>colonistaCountToLend(colonistasToLendCount>1)->[colonistasToLendCount] colonistas[minAgeOrOlder]&lt;/li>\n&lt;li>willSendShuttle->[asker_pronoun] vai enviar um vaivém para pegar os [colonistas].&lt;/li>\n&lt;li>colonistas (colonistasToLendCount=1)->colonista&lt;/li>colonistas\n&lt;li>colonistas(colonistasToLendCount>1)->colonistas&lt;/li>colonistas\n&lt;li>minAgeOrOlder(minAge=0)->&lt;/li>\n&lt;li>minAgeOrOlder(minAge>0)-> [minAge] anos de idade ou mais velho&lt;/li>\n&lt;li>pawnListHaveConjugation(colonistsToLendCount==1)->has&lt;/li>\n&lt;li>pawnListHaveConjugation (colonistsToLendCount>1)->have&lt;/li>\n</PawnLend.questDescriptionRules.rulesStrings>
+  <PawnLend.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] de [asker_faction_name] precisa de mãos extra para ajudar a [dutyDescription].\n\nPede-te que lhe emprestes [colonistCountToLend] durante [lendForDays] dias.\n\n[willSendShuttle]</li>
+    <li>disease->gripe</li>
+    <li>disease->peste</li>
+    <li>disease->malária</li>
+    <li>disease->infeção</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name] precisa de pessoas para ajudar a [dutyRoyalDescription].\n\nPede-te que emprestes [colonistCountToLend] para lhe prestarem serviço durante [lendForDays] dias.\n\n[willSendShuttle]</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->1 colono[minAgeOrOlder]</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonos[minAgeOrOlder]</li>
+    <li>willSendShuttle->[asker_pronoun] enviará um vaivém para recolher [colonists].</li>
+    <li>colonists(colonistsToLendCount==1)->o colono</li>
+    <li>colonists(colonistsToLendCount>1)->os colonos</li>
+    <li>minAgeOrOlder(minAge==0)-></li>
+    <li>minAgeOrOlder(minAge>0)-> com [minAge] anos ou mais</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount==1)->voltou</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount>1)->voltaram</li>
+  </PawnLend.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[worker] Outsourcing</li>
     <li>questName->Contract [worker]s</li>
@@ -32,34 +48,88 @@
     <li>worker->Laborer</li>
     <li>worker->Helper</li>
   -->
-  <PawnLend.questNameRules.rulesStrings>&lt;li>questName->[trabalhador] Outsourcing&lt;/li>\n&lt;li>questNome-> Contrato [trabalhador]&lt;/li>\n&lt;li>questName-> Trabalhadores temporários&lt;/li>\n&lt;li>questName->[trabalhador] Lending&lt;/li>\n&lt;li>questName->[trabalhador] para [asker_faction_name]&lt;/li>\n&lt;li>questNome->Provisional [trabalhador]s&lt;/li>\n&lt;li>questNome->Pedido [trabalhador]s&lt;/li>\n&lt;li>worker->Colonist&lt;/li>\n&lt;li>worker->Worker&lt;/li>\n&lt;li>trabalhador->Laborer&lt;/li>\n&lt;li>worker->Helper&lt;/li>\n</PawnLend.questNameRules.rulesStrings>
+  <PawnLend.questNameRules.rulesStrings>
+    <li>questName->Subcontratação de [worker]</li>
+    <li>questName->Contrato de [worker]</li>
+    <li>questName->Mão de obra temporária</li>
+    <li>questName->Empréstimo de [worker]</li>
+    <li>questName->[worker] para [asker_faction_name]</li>
+    <li>questName->[worker] provisório</li>
+    <li>questName->Pedido de [worker]</li>
+    <li>worker->colono</li>
+    <li>worker->trabalhador</li>
+    <li>worker->operário</li>
+    <li>worker->ajudante</li>
+  </PawnLend.questNameRules.rulesStrings>
   <!-- EN: <rulesStrings><li>dutyDescription->gather the harvest</li><li>dutyDescription->fortify a settlement</li><li>dutyDescription->set up a settlement</li><li>dutyDescription->watch for raiders</li><li>dutyDescription->set up a hospital</li><li>dutyDescription->contain an outbreak of [disease]</li></rulesStrings> -->
-  <PawnLend.DutyRulesAny.slateRef>&lt;rulesStrings>&lt;li>dutyDescription->gather a colheita&lt;/li>&lt;li>dutyDescription->fortify a liquidação&lt;/li>&lt;li>description->set up a liquidação&lt;/li>&lt;li>dutyDescription->description->Description->Deset up a hospital&lt;/li>description-></PawnLend.DutyRulesAny.slateRef>
+  <PawnLend.DutyRulesAny.slateRef>
+    <li>dutyDescription->colher a colheita</li>
+    <li>dutyDescription->fortificar um povoado</li>
+    <li>dutyDescription->montar um povoado</li>
+    <li>dutyDescription->vigiar atacantes</li>
+    <li>dutyDescription->montar um hospital</li>
+    <li>dutyDescription->conter um surto de [disease]</li>
+  </PawnLend.DutyRulesAny.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
-  <PawnLend.LetterTextReturnAfterHelping.slateRef>{PAWNS} [pawnListHaveConjugation] voltou após ajudar [asker_nameFull] de [asker_faction_name] para [dutyDescription].</PawnLend.LetterTextReturnAfterHelping.slateRef>
+  <PawnLend.LetterTextReturnAfterHelping.slateRef>{PAWNS} [pawnListHaveConjugation] após ajudar [asker_nameFull] de [asker_faction_name] a [dutyDescription].</PawnLend.LetterTextReturnAfterHelping.slateRef>
   <!-- EN: <rulesStrings><li>dutyRoyalDescription->prepare a ceremony</li><li>dutyRoyalDescription->negotiate with a tribe</li><li>dutyRoyalDescription->explore a swamp</li><li>dutyRoyalDescription->translate a book</li><li>dutyRoyalDescription->set up a training ground</li><li>dutyRoyalDescription->harvest crops</li></rulesStrings> -->
-  <PawnLend.DutyRulesRoyal.slateRef>&lt;rulesStrings>&lt;li>dutyRoyalDescription->prepare uma cerimônia&lt;/li>dutyRoyalDescription->negociate com uma tribo&lt;/li>&lt;li>dutyRoyalDescription->explore a swamp&lt;/li>translate a book&lt;/li></PawnLend.DutyRulesRoyal.slateRef>
+  <PawnLend.DutyRulesRoyal.slateRef>
+    <li>dutyRoyalDescription->preparar uma cerimónia</li>
+    <li>dutyRoyalDescription->negociar com uma tribo</li>
+    <li>dutyRoyalDescription->explorar um pântano</li>
+    <li>dutyRoyalDescription->traduzir um livro</li>
+    <li>dutyRoyalDescription->montar um campo de treino</li>
+    <li>dutyRoyalDescription->colher culturas</li>
+  </PawnLend.DutyRulesRoyal.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] to [dutyRoyalDescription]. -->
-  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS} [pawnListHaveConjugation] voltou após ajudar [asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name] a [dutyRoyalDescription].</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
+  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS} [pawnListHaveConjugation] após ajudar [asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name] a [dutyRoyalDescription].</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
   <!-- EN: Shuttle arrived -->
-  <PawnLend.LetterLabelShuttleArrived.slateRef>Chegaram</PawnLend.LetterLabelShuttleArrived.slateRef>
+  <PawnLend.LetterLabelShuttleArrived.slateRef>Vaivém chegou</PawnLend.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
-  <PawnLend.LetterTextShuttleArrived.slateRef>O vaivém chegou para recolher [colonistasToLendCount] dos seus colonos.</PawnLend.LetterTextShuttleArrived.slateRef>
+  <PawnLend.LetterTextShuttleArrived.slateRef>O vaivém chegou para recolher [colonistsToLendCount] dos teus colonos.</PawnLend.LetterTextShuttleArrived.slateRef>
   <!-- EN: Shuttle destroyed -->
-  <PawnLend.LetterLabelShuttleDestroyed.slateRef>Desaparecido</PawnLend.LetterLabelShuttleDestroyed.slateRef>
+  <PawnLend.LetterLabelShuttleDestroyed.slateRef>Vaivém destruído</PawnLend.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect colonists has been destroyed. -->
   <PawnLend.LetterTextShuttleDestroyed.slateRef>O vaivém enviado para recolher colonos foi destruído.</PawnLend.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Shuttle abandoned -->
-  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>TODO</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>
+  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>Vaivém abandonado</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect colonists has been left behind. -->
-  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>TODO</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>
+  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>O vaivém enviado para recolher colonos ficou para trás.</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>
   <!-- EN: Colonists returned -->
   <PawnLend.LetterLabelColonistsReturned.slateRef>Os colonos voltaram</PawnLend.LetterLabelColonistsReturned.slateRef>
   <!-- EN: $returnLetterText -->
-  <PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.text.slateRef>$returnLetterTexto</PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.text.slateRef>
+  <PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.text.slateRef>$returnLetterText</PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.text.slateRef>
   
   <!-- UNUSED -->
-  <PawnLend.questDescriptionRules.rulesStrings>&lt;li>questDescription (asker_factionLeader=True)->[asker_faction_leaderTitle] [asker_nameFull] de [asker_faction_name] precisa de mãos extras para ajudar [dutyDescription].\n\n[asker_pronoun] está pedindo para você emprestar [asker_objective] [colonistCountToLend] para [lendForDays] dias.\n\n[willSendShuttle]&lt;/li>\n&lt;li>disease->flu&lt;/li>\n&lt;li>disease->plague&lt;/li>\n&lt;li>disease->malaria&lt;/li>\n&lt;li>disease->infecção&lt;/li>\n&lt;li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name] precisa de pessoas para ajudar [dutyRoyalDescription].\n\n[asker_pronoun] está pedindo para você emprestar [colonistCountToLend] para servir [asker_objective] para [lendForDays] dias.\n\n[willSendShuttle]&lt;/li>\n&lt;li>colonistCountToLend(colonistasToLendCount=1)->1 colonist[minAgeOrOlder]&lt;/li>1>\n&lt;li>colonistaCountToLend(colonistasToLendCount>1)->[colonistasToLendCount] colonistas[minAgeOrOlder]&lt;/li>\n&lt;li>willSendShuttle->[asker_pronoun] vai enviar um vaivém para pegar os [colonistas].&lt;/li>\n&lt;li>colonistas (colonistasToLendCount=1)->colonista&lt;/li>colonistas\n&lt;li>colonistas(colonistasToLendCount>1)->colonistas&lt;/li>colonistas\n&lt;li>minAgeOrOlder(minAge=0)->&lt;/li>\n&lt;li>minAgeOrOlder(minAge>0)-> [minAge] anos de idade ou mais velho&lt;/li>\n&lt;li>pawnListHaveConjugation(colonistsToLendCount==1)->has&lt;/li>\n&lt;li>pawnListHaveConjugation (colonistsToLendCount>1)->have&lt;/li>\n</PawnLend.questDescriptionRules.rulesStrings>
-  <PawnLend.questNameRules.rulesStrings>&lt;li>questName->[trabalhador] Outsourcing&lt;/li>\n&lt;li>questNome-> Contrato [trabalhador]&lt;/li>\n&lt;li>questName-> Trabalhadores temporários&lt;/li>\n&lt;li>questName->[trabalhador] Lending&lt;/li>\n&lt;li>questName->[trabalhador] para [asker_faction_name]&lt;/li>\n&lt;li>questNome->Provisional [trabalhador]s&lt;/li>\n&lt;li>questNome->Pedido [trabalhador]s&lt;/li>\n&lt;li>worker->Colonist&lt;/li>\n&lt;li>worker->Worker&lt;/li>\n&lt;li>trabalhador->Laborer&lt;/li>\n&lt;li>worker->Helper&lt;/li>\n</PawnLend.questNameRules.rulesStrings>
+  <PawnLend.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] de [asker_faction_name] precisa de mãos extra para ajudar a [dutyDescription].\n\nPede-te que lhe emprestes [colonistCountToLend] durante [lendForDays] dias.\n\n[willSendShuttle]</li>
+    <li>disease->gripe</li>
+    <li>disease->peste</li>
+    <li>disease->malária</li>
+    <li>disease->infeção</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name] precisa de pessoas para ajudar a [dutyRoyalDescription].\n\nPede-te que emprestes [colonistCountToLend] para lhe prestarem serviço durante [lendForDays] dias.\n\n[willSendShuttle]</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->1 colono[minAgeOrOlder]</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonos[minAgeOrOlder]</li>
+    <li>willSendShuttle->[asker_pronoun] enviará um vaivém para recolher [colonists].</li>
+    <li>colonists(colonistsToLendCount==1)->o colono</li>
+    <li>colonists(colonistsToLendCount>1)->os colonos</li>
+    <li>minAgeOrOlder(minAge==0)-></li>
+    <li>minAgeOrOlder(minAge>0)-> com [minAge] anos ou mais</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount==1)->voltou</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount>1)->voltaram</li>
+  </PawnLend.questDescriptionRules.rulesStrings>
+  <PawnLend.questNameRules.rulesStrings>
+    <li>questName->Subcontratação de [worker]</li>
+    <li>questName->Contrato de [worker]</li>
+    <li>questName->Mão de obra temporária</li>
+    <li>questName->Empréstimo de [worker]</li>
+    <li>questName->[worker] para [asker_faction_name]</li>
+    <li>questName->[worker] provisório</li>
+    <li>questName->Pedido de [worker]</li>
+    <li>worker->colono</li>
+    <li>worker->trabalhador</li>
+    <li>worker->operário</li>
+    <li>worker->ajudante</li>
+  </PawnLend.questNameRules.rulesStrings>
   
 </LanguageData>

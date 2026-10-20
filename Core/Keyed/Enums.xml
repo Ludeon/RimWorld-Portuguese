@@ -7,11 +7,11 @@
   <!-- EN: Lit -->
   <Lit>Iluminado</Lit>
   <!-- EN: Brightly lit -->
-  <LitBrightly>Luzente</LitBrightly>
+  <LitBrightly>Muito iluminado</LitBrightly>
 
   <!-- Price types -->
   <!-- EN: very cheap -->
-  <PriceTypeVeryCheap>super barato</PriceTypeVeryCheap>
+  <PriceTypeVeryCheap>baratíssimo</PriceTypeVeryCheap>
   <!-- EN: cheap -->
   <PriceTypeCheap>barato</PriceTypeCheap>
   <!-- EN: normal -->
@@ -23,7 +23,7 @@
 
   <!-- Storage priority labels -->
   <!-- EN: unstored -->
-  <StoragePriorityUnstored>Sem importância</StoragePriorityUnstored>
+  <StoragePriorityUnstored>Sem armazenamento</StoragePriorityUnstored>
   <!-- EN: low -->
   <StoragePriorityLow>Baixa</StoragePriorityLow>
   <!-- EN: normal -->
@@ -81,7 +81,7 @@
   <!-- EN: norm -->
   <QualityCategoryShort_Normal>norm</QualityCategoryShort_Normal>
   <!-- EN: good -->
-  <QualityCategoryShort_Good>boa</QualityCategoryShort_Good>
+  <QualityCategoryShort_Good>bom</QualityCategoryShort_Good>
   <!-- EN: exc -->
   <QualityCategoryShort_Excellent>exc</QualityCategoryShort_Excellent>
   <!-- EN: mast -->
@@ -91,7 +91,7 @@
   
   <!-- Hunger -->
   <!-- EN: Starving -->
-  <HungerLevel_Starving>Passar fome</HungerLevel_Starving>
+  <HungerLevel_Starving>A morrer de fome</HungerLevel_Starving>
   <!-- EN: Urgently hungry -->
   <HungerLevel_UrgentlyHungry>Urgentemente com fome</HungerLevel_UrgentlyHungry>
   <!-- EN: Hungry -->
@@ -101,7 +101,7 @@
 
   <!-- -Fatigue -->
   <!-- EN: Exhausted -->
-  <HungerLevel_Exhausted>Esgotado</HungerLevel_Exhausted>
+  <HungerLevel_Exhausted>Exausto</HungerLevel_Exhausted>
   <!-- EN: Very tired -->
   <HungerLevel_VeryTired>Muito cansado</HungerLevel_VeryTired>
   <!-- EN: Tired -->
@@ -131,11 +131,11 @@
   <!-- EN: Preparing config data -->
   <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>A preparar dados de configuração</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
   <!-- EN: Preparing content files -->
-  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>A preparar arquivos de conteúdo</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>A preparar ficheiros de conteúdo</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
   <!-- EN: Uploading content -->
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>A enviar conteúdo</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
   <!-- EN: Uploading preview file -->
-  <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>A enviar arquivo de pré-visualização</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>A enviar ficheiro de pré-visualização</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
   <!-- EN: Committing changes -->
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>A confirmar alterações</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
@@ -143,7 +143,7 @@
   <!-- EN: Official content -->
   <ContentSource_OfficialModsFolder>Conteúdo oficial</ContentSource_OfficialModsFolder>
   <!-- EN: Local folder -->
-  <ContentSource_ModsFolder>Ficheiro local</ContentSource_ModsFolder>
+  <ContentSource_ModsFolder>Pasta local</ContentSource_ModsFolder>
   <!-- EN: Steam Workshop -->
   <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>
   
@@ -151,13 +151,13 @@
   <!-- EN: no medical care -->
   <MedicalCareCategory_NoCare>Sem cuidados médicos</MedicalCareCategory_NoCare>
   <!-- EN: doctor care, but no medicine -->
-  <MedicalCareCategory_NoMeds>Com cuidado médico, mas sem medicinas</MedicalCareCategory_NoMeds>
+  <MedicalCareCategory_NoMeds>Com cuidados médicos, mas sem medicamentos</MedicalCareCategory_NoMeds>
   <!-- EN: herbal medicine or worse -->
-  <MedicalCareCategory_HerbalOrWorse>Fitoterapia ou pior</MedicalCareCategory_HerbalOrWorse>
+  <MedicalCareCategory_HerbalOrWorse>Medicamento de ervas ou pior</MedicalCareCategory_HerbalOrWorse>
   <!-- EN: industrial-tech medicine or worse -->
-  <MedicalCareCategory_NormalOrWorse>Medicina de tecnologia industrial ou pior</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_NormalOrWorse>Medicamento industrial ou pior</MedicalCareCategory_NormalOrWorse>
   <!-- EN: best quality medicine -->
-  <MedicalCareCategory_Best>Melhor tratamento médico</MedicalCareCategory_Best>
+  <MedicalCareCategory_Best>Medicamento da melhor qualidade</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
   <!-- EN: Ignore -->
@@ -189,7 +189,7 @@
   <!-- EN: ultra -->
   <TechLevel_Ultra>ultra</TechLevel_Ultra>
   <!-- EN: archotech -->
-  <TechLevel_Archotech>archotech</TechLevel_Archotech>
+  <TechLevel_Archotech>arcotec</TechLevel_Archotech>
 
   <!-- Player pawns arrive method -->
   <!-- EN: Standing -->
@@ -199,7 +199,7 @@
 
   <!-- Pawn generation context -->
   <!-- EN: all characters -->
-  <PawnGenerationContext_All>todos os personagens</PawnGenerationContext_All>
+  <PawnGenerationContext_All>todas as personagens</PawnGenerationContext_All>
   <!-- EN: player starting characters -->
   <PawnGenerationContext_PlayerStarter>personagens iniciais do jogador</PawnGenerationContext_PlayerStarter>
   <!-- EN: non-player characters -->
@@ -213,13 +213,13 @@
   <!-- EN: Show animal names -->
   <ShowAnimalNames>Mostrar nomes de animais</ShowAnimalNames>
   <!-- EN: Tame (named only) -->
-  <AnimalNameDisplayMode_TameNamed>Domado(s) (nomeado apenas)</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameNamed>Domesticados (apenas com nome)</AnimalNameDisplayMode_TameNamed>
   <!-- EN: Tame (all) -->
-  <AnimalNameDisplayMode_TameAll>Domado(s) (todos)</AnimalNameDisplayMode_TameAll>
+  <AnimalNameDisplayMode_TameAll>Domesticados (todos)</AnimalNameDisplayMode_TameAll>
 
   <!-- Highlight display mode -->
   <!-- EN: Character highlighting -->
-  <DotHighlightDisplayMode>Destaque de personagem</DotHighlightDisplayMode>
+  <DotHighlightDisplayMode>Destaque de personagens</DotHighlightDisplayMode>
   <!-- EN: Highlight hostiles -->
   <DotHighlightDisplayMode_HighlightHostiles>Destacar hostis</DotHighlightDisplayMode_HighlightHostiles>
   <!-- EN: Highlight all -->
@@ -237,13 +237,13 @@
   <!-- EN: Visible mood -->
   <VisibleMood>Humor visível</VisibleMood>
   <!-- EN: When on, displays a visual indicator on a character's portrait when they are at risk of a mental break. -->
-  <VisibleMoodDesc>Quando ativado, exibe um indicador visual no retrato das personagens quando esta corre o risco de sofrer uma rutura mental.</VisibleMoodDesc>
+  <VisibleMoodDesc>Quando ativado, mostra um indicador visual no retrato de uma personagem quando esta corre o risco de sofrer um colapso mental.</VisibleMoodDesc>
   
   <!-- Mech name display mode -->
   <!-- EN: Show player mech names -->
-  <ShowMechNames>Mostrar nomes de mechs de jogadores</ShowMechNames>
+  <ShowMechNames>Mostrar nomes dos mecs do jogador</ShowMechNames>
   <!-- EN: While drafted -->
-  <MechNameDisplayMode_WhileDrafted>Quando alistado</MechNameDisplayMode_WhileDrafted>
+  <MechNameDisplayMode_WhileDrafted>Quando alistados</MechNameDisplayMode_WhileDrafted>
   <!-- EN: always -->
   <MechNameDisplayMode_Always>sempre</MechNameDisplayMode_Always>
 
@@ -255,7 +255,7 @@
   <!-- EN: always -->
   <ShowWeapons_Always>sempre</ShowWeapons_Always>
   <!-- EN: while drafted -->
-  <ShowWeapons_WhileDrafted>quando alistado</ShowWeapons_WhileDrafted>
+  <ShowWeapons_WhileDrafted>quando alistados</ShowWeapons_WhileDrafted>
 
   <!-- Temperature -->
   <!-- EN: Celsius -->
@@ -289,7 +289,7 @@
   <!-- EN: Herbivorous -->
   <DietCategory_Herbivorous>Herbívoro</DietCategory_Herbivorous>
   <!-- EN: Dendrovorous -->
-  <DietCategory_Dendrovorous>TODO</DietCategory_Dendrovorous>
+  <DietCategory_Dendrovorous>Dendrívoro</DietCategory_Dendrovorous>
   <!-- EN: Ovivorous -->
   <DietCategory_Ovivorous>Ovívoro</DietCategory_Ovivorous>
   <!-- EN: Omnivorous -->
@@ -345,7 +345,7 @@
 
   <!-- Pain category -->
   <!-- EN: itchy -->
-  <PainCategory_LowPain>comichoso</PainCategory_LowPain>
+  <PainCategory_LowPain>com comichão</PainCategory_LowPain>
   <!-- EN: aching -->
   <PainCategory_MediumPain>dolorido</PainCategory_MediumPain>
   <!-- EN: painful -->
@@ -355,13 +355,13 @@
   <!-- EN: home faction -->
   <ExtraFactionType_HomeFaction>fação natal</ExtraFactionType_HomeFaction>
   <!-- EN: remote host faction -->
-  <ExtraFactionType_HostFaction>fação remota</ExtraFactionType_HostFaction>
+  <ExtraFactionType_HostFaction>fação anfitriã</ExtraFactionType_HostFaction>
   <!-- EN: group -->
   <ExtraFactionType_MiniFaction>grupo</ExtraFactionType_MiniFaction>
 
   <!-- DrugCategory -->
   <!-- EN: drug category -->
-  <DrugCategory>categoria de drogas</DrugCategory>
+  <DrugCategory>categoria de droga</DrugCategory>
   <!-- EN: none -->
   <DrugCategory_None>nenhuma</DrugCategory_None>
   <!-- EN: medical -->

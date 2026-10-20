@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: bloodfeeding -->
-  <Bloodfeeding.label>sangrando</Bloodfeeding.label>
+  <Bloodfeeding.label>hematofagia</Bloodfeeding.label>
   <!-- EN: Drinking blood is sacred. Bloodfeeders should be worshipped. -->
-  <Bloodfeeding.description>Beber sangue é sagrado. Os sanguessugas devem ser adorados.</Bloodfeeding.description>
+  <Bloodfeeding.description>Beber sangue é sagrado. Os hematófagos devem ser venerados.</Bloodfeeding.description>
   <!-- EN:
     <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] drank the blood of the stars, turning them from red to white.</li>
     <li>episode(uses=1,tag=meme_Bloodfeeding)  ->The [deity0_type] [deity0_name] gave to [deity0_possessive] chosen followers the gift of red hunger, so that they might know true strength.</li>
@@ -28,7 +28,29 @@
     <li>bloodDrinkingAnimal->lamprey</li>
     <li>bloodDrinkingAnimal->blood cobra</li>
   -->
-  <Bloodfeeding.descriptionMaker.rules.rulesStrings>&lt;li>creation(tag=meme_Bloodfeeding) ->[deity0_name] bebeu o sangue das estrelas, transformando-as de vermelho para branco.&lt;/li>\n&lt;li>episode(uses=1,tag=meme_Bloodfeeding) ->O [deity0_type] [deity0_name] deu a [deity0_possessive] seguidores escolhidos o dom da fome vermelha, para que eles possam conhecer a verdadeira força.&lt;/li>\n&lt;li>intro(tag=meme_Bloodfeeding) ->No [place_summary] [place_name], havia um humano chamado [deity0_name]. Como punição para [deity0_possessive] pecados, [deity0_possessive] pai punido [deity0_name] fundindo [deity0_possessive] alma com a de um [bloodDrinkingAnimal].&lt;/li>\n&lt;li>intro (tag=meme_Bloodfeeding) ->No [place_summary] [place_name], durante o [ritualName], [deity0_name] desceu para o [altarRoomLabel] e tomou a forma de um gigante [bloodDrinkingAnimal]. [deity0_name] bebeu o sangue de [deity0_possessive] [memberNamePlural].&lt;/li>\n&lt;li>conflict (tag=meme_Bloodfeeding) ->A [foeLeader] declarou que todos os que beberam sangue eram abominações, e enviou [foeSoldiers] para perseguir o [memberNamePlural].&lt;/li>\n&lt;li>founderJoin(tag=me_Bloodfeeding) ->A [place_job] nomeado [founderName] foi atacado por um dos [foeLeader]'s [foeSoldiers]. [founderName] matou [foeLeader_objective] com um [place_personalWeapon] e bebeu [foeLeader_possessive] sangue, ganhando [deity0_name] força.&lt;/li>\n&lt;li>victory (tag=meme_Bloodfeeding) ->[founderName] liderou um grupo de [memberNamePlural] no [place_powerCenter], e bebeu o sangue de [foeLeader] e queimou [foeLeader_possessive] carne. [deity0_name] fez [funderName] no novo [foeLeader], pois [funderName] tinha provado sua força.&lt;/li>\n&lt;li>setup(tag=meme_Bloodfeeding) ->[founderName] procurou o controle de uma arquiteta hiperintelligent. Mas o poder da archotech era muito grande, e [founder_pronoun] foi transformado em vez disso.&lt;/li>\n&lt;li>story (uses=1,tag=meme_Bloodfeeding) ->[founderName] deu aos seguidores [founder_possessive] o dom da fome, para que eles possam crescer forte.&lt;/li>\n&lt;li>lessonIntro (tag=meme_Bloodfeeding) -> Quando bebi sangue, ficou claro. Eu vi que&lt;/li>\n&lt;li>lesson (tag=meme_Bloodfeeding) -> há apenas dois tipos de pessoas - o fraco e o forte&lt;/li>\n&lt;li>lessonReinforcement (tag=meme_Bloodfeeding) -> Beber sangue é ser forte, e saber isso claramente.&lt;/li>\n&lt;li>archistBasis(tag=mememe_Bloodfeeding) ->The archotech god-machines gifted man with the Hunger, so that man may know them better.&lt;/li>\n&lt;li>archistFact (tag=meme_Bloodfeeding) -> À medida que a consciência de uma archotech se expande, ela deve crescer seu substrato bebendo a essência de outras máquinas.&lt;/li>\n&lt;li>archistProphecy (tag=meme_Bloodfeeding) ->[emTheEnd], o homem deve crescer mais perto das archotechs bebendo do sangue, e conhecendo a verdadeira força.&lt;/li>\n&lt;li>animistBasis(tag=meme_Bloodfeeding) ->A [sangueDrinkingAnimal] sabe a força que vem da bebida do sangue. Não há maior força do que aquela que vem do sangue humano.&lt;/li>\n&lt;li>animistFact(tag=meme_Bloodfeeding) ->Podemos dominar a força do homem consumindo seu sangue.&lt;/li>\n&lt;li>bloodDrinkingAnimal->vampire bat&lt;/li>\n&lt;li> BloodDrinkingAnimal->leech&lt;/li>\n&lt;li>bloodDrinkingAnimal->lamprey&lt;/li>\n&lt;li>bloodDrinkingAnimal->blood cobra&lt;/li>\n</Bloodfeeding.descriptionMaker.rules.rulesStrings>
+  <Bloodfeeding.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] bebeu o sangue das estrelas e transformou-as de vermelhas em brancas.</li>
+    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->[deity0_type] [deity0_name] concedeu aos seus seguidores escolhidos o dom da fome vermelha, para que conhecessem a verdadeira força.</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->Em [place_name], [place_summary], vivia um humano chamado [deity0_name]. Como castigo pelos seus pecados, o pai de [deity0_name] puniu-o ao fundir a sua alma com a de [bloodDrinkingAnimal].</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->Em [place_name], [place_summary], durante a celebração de [ritualName], [deity0_name] desceu ao espaço chamado [altarRoomLabel] e assumiu a forma de [bloodDrinkingAnimal] gigante. [deity0_name] bebeu o sangue dos seus [memberNamePlural].</li>
+    <li>conflict(tag=meme_Bloodfeeding)        ->[foeLeader] declarou que todos os que bebiam sangue eram abominações e enviou [foeSoldiers] para perseguir os [memberNamePlural].</li>
+    <li>founderJoin(tag=meme_Bloodfeeding)     ->[founderName], [place_job] de profissão, sofreu um ataque de um dos [foeSoldiers] de [foeLeader]. [founderName] matou [foeLeader] com recurso a [place_personalWeapon] e bebeu-lhe o sangue e ganhou a força de [deity0_name].</li>
+    <li>victory(tag=meme_Bloodfeeding)         ->[founderName] conduziu um grupo de [memberNamePlural] até [place_powerCenter], bebeu o sangue de [foeLeader] e queimou-lhe a carne. [deity0_name] fez de [founderName] o novo [foeLeader], pois [founderName] tinha provado a sua força.</li>
+    <li>setup(tag=meme_Bloodfeeding)           ->[founderName] procurou controlar um arcotec hiperinteligente. Mas o poder do arcotec era demasiado grande, e foi a transformação que recaiu sobre [founderName].</li>
+    <li>story(uses=1,tag=meme_Bloodfeeding)    ->[founderName] deu aos seus seguidores o dom da fome, para que pudessem crescer em força.</li>
+    <li>lessonIntro(tag=meme_Bloodfeeding)     ->Quando bebi sangue pela primeira vez, tudo ficou claro. Vi que</li>
+    <li>lesson(tag=meme_Bloodfeeding)          ->só existem dois tipos de pessoas: os fracos e os fortes</li>
+    <li>lessonReinforcement(tag=meme_Bloodfeeding) ->Beber sangue é ser forte, e sabê-lo com clareza.</li>
+    <li>archistBasis(tag=meme_Bloodfeeding)    ->As máquinas-deus arcotec presentearam a humanidade com a Fome, para que esta as conheça melhor.</li>
+    <li>archistFact(tag=meme_Bloodfeeding)     ->À medida que a consciência de uma máquina arcotec se expande, tem de fazer crescer o seu substrato ao beber a essência de outras máquinas.</li>
+    <li>archistProphecy(tag=meme_Bloodfeeding) ->[inTheEnd], a humanidade aproximar-se-á dos arcotecs ao beber sangue e ao conhecer a verdadeira força.</li>
+    <li>animistBasis(tag=meme_Bloodfeeding)    ->[bloodDrinkingAnimal] conhece a força que advém de beber sangue. Não há força maior do que a que vem do sangue humano.</li>
+    <li>animistFact(tag=meme_Bloodfeeding)     ->Podemos dominar a força do homem ao consumir-lhe o sangue.</li>
+    <li>bloodDrinkingAnimal->um morcego-vampiro</li>
+    <li>bloodDrinkingAnimal->uma sanguessuga</li>
+    <li>bloodDrinkingAnimal->uma lampreia</li>
+    <li>bloodDrinkingAnimal->uma cobra-de-sangue</li>
+  </Bloodfeeding.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->blood</li>
     <li>memeAdjective->blood hungry</li>
@@ -45,10 +67,62 @@
     <li>memeMoralist->sanguinist</li>
     <li>memeMoralist->sanguinarian</li>
   -->
-  <Bloodfeeding.generalRules.rulesStrings>&lt;li>memeAdjetivo->sangue&lt;/li>\n&lt;li>memeAdjetivo-> sangue faminto&lt;/li>\n&lt;li>memeCreed->crypt&lt;/li>\n&lt;li>memeCreed->lair&lt;/li>\n&lt;li>memeCreed->coven&lt;/li>\n&lt;li>meHyphenPrefix->hemo&lt;/li>\n&lt;li>memeConcept->blood&lt;/li>\n&lt;li>mememeConcept->hunger&lt;/li>\n&lt;li>memeLeaderNoun->elder&lt;/li>\n&lt;li>memeLeaderNoun->master&lt;/li>\n&lt;li>memeLeaderNoun->blood-drinker&lt;/li>\n&lt;li>mememoralista->seneschal&lt;/li>\n&lt;li>mememoralista->sanguinista&lt;/li>\n&lt;li>mememoralista->sanguinarian&lt;/li>\n</Bloodfeeding.generalRules.rulesStrings>
+  <Bloodfeeding.generalRules.rulesStrings>
+    <li>memeAdjective->sanguíneo</li>
+    <li>memeAdjective->sedento de sangue</li>
+    <li>memeCreed->cripta</li>
+    <li>memeCreed->covil</li>
+    <li>memeCreed->clã</li>
+    <li>memeHyphenPrefix->hemo</li>
+    <li>memeConcept->sangue</li>
+    <li>memeConcept->fome</li>
+    <li>memeLeaderNoun->ancião</li>
+    <li>memeLeaderNoun->mestre</li>
+    <li>memeLeaderNoun->bebedor de sangue</li>
+    <li>memeMoralist->senescal</li>
+    <li>memeMoralist->sanguinista</li>
+    <li>memeMoralist->sanguinário</li>
+  </Bloodfeeding.generalRules.rulesStrings>
   
   <!-- UNUSED -->
-  <Bloodfeeding.descriptionMaker.rules.rulesStrings>&lt;li>creation(tag=meme_Bloodfeeding) ->[deity0_name] bebeu o sangue das estrelas, transformando-as de vermelho para branco.&lt;/li>\n&lt;li>episode(uses=1,tag=meme_Bloodfeeding) ->O [deity0_type] [deity0_name] deu a [deity0_possessive] seguidores escolhidos o dom da fome vermelha, para que eles possam conhecer a verdadeira força.&lt;/li>\n&lt;li>intro(tag=meme_Bloodfeeding) ->No [place_summary] [place_name], havia um humano chamado [deity0_name]. Como punição para [deity0_possessive] pecados, [deity0_possessive] pai punido [deity0_name] fundindo [deity0_possessive] alma com a de um [bloodDrinkingAnimal].&lt;/li>\n&lt;li>intro (tag=meme_Bloodfeeding) ->No [place_summary] [place_name], durante o [ritualName], [deity0_name] desceu para o [altarRoomLabel] e tomou a forma de um gigante [bloodDrinkingAnimal]. [deity0_name] bebeu o sangue de [deity0_possessive] [memberNamePlural].&lt;/li>\n&lt;li>conflict (tag=meme_Bloodfeeding) ->A [foeLeader] declarou que todos os que beberam sangue eram abominações, e enviou [foeSoldiers] para perseguir o [memberNamePlural].&lt;/li>\n&lt;li>founderJoin(tag=me_Bloodfeeding) ->A [place_job] nomeado [founderName] foi atacado por um dos [foeLeader]'s [foeSoldiers]. [founderName] matou [foeLeader_objective] com um [place_personalWeapon] e bebeu [foeLeader_possessive] sangue, ganhando [deity0_name] força.&lt;/li>\n&lt;li>victory (tag=meme_Bloodfeeding) ->[founderName] liderou um grupo de [memberNamePlural] no [place_powerCenter], e bebeu o sangue de [foeLeader] e queimou [foeLeader_possessive] carne. [deity0_name] fez [funderName] no novo [foeLeader], pois [funderName] tinha provado sua força.&lt;/li>\n&lt;li>setup(tag=meme_Bloodfeeding) ->[founderName] procurou o controle de uma arquiteta hiperintelligent. Mas o poder da archotech era muito grande, e [founder_pronoun] foi transformado em vez disso.&lt;/li>\n&lt;li>story (uses=1,tag=meme_Bloodfeeding) ->[founderName] deu aos seguidores [founder_possessive] o dom da fome, para que eles possam crescer forte.&lt;/li>\n&lt;li>lessonIntro (tag=meme_Bloodfeeding) -> Quando bebi sangue, ficou claro. Eu vi que&lt;/li>\n&lt;li>lesson (tag=meme_Bloodfeeding) -> há apenas dois tipos de pessoas - o fraco e o forte&lt;/li>\n&lt;li>lessonReinforcement (tag=meme_Bloodfeeding) -> Beber sangue é ser forte, e saber isso claramente.&lt;/li>\n&lt;li>archistBasis(tag=mememe_Bloodfeeding) ->The archotech god-machines gifted man with the Hunger, so that man may know them better.&lt;/li>\n&lt;li>archistFact (tag=meme_Bloodfeeding) -> À medida que a consciência de uma archotech se expande, ela deve crescer seu substrato bebendo a essência de outras máquinas.&lt;/li>\n&lt;li>archistProphecy (tag=meme_Bloodfeeding) ->[emTheEnd], o homem deve crescer mais perto das archotechs bebendo do sangue, e conhecendo a verdadeira força.&lt;/li>\n&lt;li>animistBasis(tag=meme_Bloodfeeding) ->A [sangueDrinkingAnimal] sabe a força que vem da bebida do sangue. Não há maior força do que aquela que vem do sangue humano.&lt;/li>\n&lt;li>animistFact(tag=meme_Bloodfeeding) ->Podemos dominar a força do homem consumindo seu sangue.&lt;/li>\n&lt;li>bloodDrinkingAnimal->vampire bat&lt;/li>\n&lt;li> BloodDrinkingAnimal->leech&lt;/li>\n&lt;li>bloodDrinkingAnimal->lamprey&lt;/li>\n&lt;li>bloodDrinkingAnimal->blood cobra&lt;/li>\n</Bloodfeeding.descriptionMaker.rules.rulesStrings>
-  <Bloodfeeding.generalRules.rulesStrings>&lt;li>memeAdjetivo->sangue&lt;/li>\n&lt;li>memeAdjetivo-> sangue faminto&lt;/li>\n&lt;li>memeCreed->crypt&lt;/li>\n&lt;li>memeCreed->lair&lt;/li>\n&lt;li>memeCreed->coven&lt;/li>\n&lt;li>meHyphenPrefix->hemo&lt;/li>\n&lt;li>memeConcept->blood&lt;/li>\n&lt;li>mememeConcept->hunger&lt;/li>\n&lt;li>memeLeaderNoun->elder&lt;/li>\n&lt;li>memeLeaderNoun->master&lt;/li>\n&lt;li>memeLeaderNoun->blood-drinker&lt;/li>\n&lt;li>mememoralista->seneschal&lt;/li>\n&lt;li>mememoralista->sanguinista&lt;/li>\n&lt;li>mememoralista->sanguinarian&lt;/li>\n</Bloodfeeding.generalRules.rulesStrings>
+  <Bloodfeeding.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] bebeu o sangue das estrelas e transformou-as de vermelhas em brancas.</li>
+    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->[deity0_type] [deity0_name] concedeu aos seus seguidores escolhidos o dom da fome vermelha, para que conhecessem a verdadeira força.</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->Em [place_name], [place_summary], vivia um humano chamado [deity0_name]. Como castigo pelos seus pecados, o pai de [deity0_name] puniu-o ao fundir a sua alma com a de [bloodDrinkingAnimal].</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->Em [place_name], [place_summary], durante a celebração de [ritualName], [deity0_name] desceu ao espaço chamado [altarRoomLabel] e assumiu a forma de [bloodDrinkingAnimal] gigante. [deity0_name] bebeu o sangue dos seus [memberNamePlural].</li>
+    <li>conflict(tag=meme_Bloodfeeding)        ->[foeLeader] declarou que todos os que bebiam sangue eram abominações e enviou [foeSoldiers] para perseguir os [memberNamePlural].</li>
+    <li>founderJoin(tag=meme_Bloodfeeding)     ->[founderName], [place_job] de profissão, sofreu um ataque de um dos [foeSoldiers] de [foeLeader]. [founderName] matou [foeLeader] com recurso a [place_personalWeapon] e bebeu-lhe o sangue e ganhou a força de [deity0_name].</li>
+    <li>victory(tag=meme_Bloodfeeding)         ->[founderName] conduziu um grupo de [memberNamePlural] até [place_powerCenter], bebeu o sangue de [foeLeader] e queimou-lhe a carne. [deity0_name] fez de [founderName] o novo [foeLeader], pois [founderName] tinha provado a sua força.</li>
+    <li>setup(tag=meme_Bloodfeeding)           ->[founderName] procurou controlar um arcotec hiperinteligente. Mas o poder do arcotec era demasiado grande, e foi a transformação que recaiu sobre [founderName].</li>
+    <li>story(uses=1,tag=meme_Bloodfeeding)    ->[founderName] deu aos seus seguidores o dom da fome, para que pudessem crescer em força.</li>
+    <li>lessonIntro(tag=meme_Bloodfeeding)     ->Quando bebi sangue pela primeira vez, tudo ficou claro. Vi que</li>
+    <li>lesson(tag=meme_Bloodfeeding)          ->só existem dois tipos de pessoas: os fracos e os fortes</li>
+    <li>lessonReinforcement(tag=meme_Bloodfeeding) ->Beber sangue é ser forte, e sabê-lo com clareza.</li>
+    <li>archistBasis(tag=meme_Bloodfeeding)    ->As máquinas-deus arcotec presentearam a humanidade com a Fome, para que esta as conheça melhor.</li>
+    <li>archistFact(tag=meme_Bloodfeeding)     ->À medida que a consciência de uma máquina arcotec se expande, tem de fazer crescer o seu substrato ao beber a essência de outras máquinas.</li>
+    <li>archistProphecy(tag=meme_Bloodfeeding) ->[inTheEnd], a humanidade aproximar-se-á dos arcotecs ao beber sangue e ao conhecer a verdadeira força.</li>
+    <li>animistBasis(tag=meme_Bloodfeeding)    ->[bloodDrinkingAnimal] conhece a força que advém de beber sangue. Não há força maior do que a que vem do sangue humano.</li>
+    <li>animistFact(tag=meme_Bloodfeeding)     ->Podemos dominar a força do homem ao consumir-lhe o sangue.</li>
+    <li>bloodDrinkingAnimal->um morcego-vampiro</li>
+    <li>bloodDrinkingAnimal->uma sanguessuga</li>
+    <li>bloodDrinkingAnimal->uma lampreia</li>
+    <li>bloodDrinkingAnimal->uma cobra-de-sangue</li>
+  </Bloodfeeding.descriptionMaker.rules.rulesStrings>
+  <Bloodfeeding.generalRules.rulesStrings>
+    <li>memeAdjective->sanguíneo</li>
+    <li>memeAdjective->sedento de sangue</li>
+    <li>memeCreed->cripta</li>
+    <li>memeCreed->covil</li>
+    <li>memeCreed->clã</li>
+    <li>memeHyphenPrefix->hemo</li>
+    <li>memeConcept->sangue</li>
+    <li>memeConcept->fome</li>
+    <li>memeLeaderNoun->ancião</li>
+    <li>memeLeaderNoun->mestre</li>
+    <li>memeLeaderNoun->bebedor de sangue</li>
+    <li>memeMoralist->senescal</li>
+    <li>memeMoralist->sanguinista</li>
+    <li>memeMoralist->sanguinário</li>
+  </Bloodfeeding.generalRules.rulesStrings>
   
 </LanguageData>

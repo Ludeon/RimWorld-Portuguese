@@ -5,7 +5,10 @@
     <li>businessname->Names/Business</li>
     <li>businesstype->Words/Nouns/BusinessTypes</li>
   -->
-  <SeedGenerator.rulePack.rulesFiles>&lt;li>nome de negócio->Nomes/Negócios&lt;/li>\n&lt;li>businesstype->Words/Nouns/BusinessTypes&lt;/li>\n</SeedGenerator.rulePack.rulesFiles>
+  <SeedGenerator.rulePack.rulesFiles>
+    <li>businessname->Names/Business</li>
+    <li>businesstype->Words/Nouns/BusinessTypes</li>
+  </SeedGenerator.rulePack.rulesFiles>
   <!-- EN:
     <li>r_seed(p=3)->[NamePerson]</li>
     <li>r_seed->[Animal]</li>
@@ -24,10 +27,47 @@
     <li>r_seed->[businesstype]</li>
     <li>r_seed->[Community]</li>
   -->
-  <SeedGenerator.rulePack.rulesStrings>&lt;li>r_seed(p=3)->[NamePerson]&lt;/li>\n&lt;li>r_seed->[Animal]&lt;/li>\n&lt;li>r_seed->[TerrainFeature]&lt;/li>\n&lt;li>r_seed->[PersonJob]&lt;/li>\n&lt;li>r_seed->[Enemy]&lt;/li>\n&lt;li>r_seed->[Gore]&lt;/li>\n&lt;li>r_seed->[Apparel]&lt;/li>\n&lt;li>r_seed->[AdjectiveAny]&lt;/li>\n&lt;li>r_seed->[ConceptAny]&lt;/li>\n&lt;li>r_seed->[Weapon]&lt;/li>\n&lt;li>r_seed->[Color]&lt;/li>\n&lt;li>r_seed->[Vegetable]&lt;/li>\n&lt;li>r_seed->[Game]&lt;/li>\n&lt;li>r_seed->[nome comercial]&lt;/li>\n&lt;li>r_seed->[businesstype]&lt;/li>\n&lt;li>r_seed->[Comunidade]&lt;/li>\n</SeedGenerator.rulePack.rulesStrings>
+  <SeedGenerator.rulePack.rulesStrings>
+    <li>r_seed(p=3)->[NamePerson]</li>
+    <li>r_seed->[Animal]</li>
+    <li>r_seed->[TerrainFeature]</li>
+    <li>r_seed->[PersonJob]</li>
+    <li>r_seed->[Enemy]</li>
+    <li>r_seed->[Gore]</li>
+    <li>r_seed->[Apparel]</li>
+    <li>r_seed->[AdjectiveAny]</li>
+    <li>r_seed->[ConceptAny]</li>
+    <li>r_seed->[Weapon]</li>
+    <li>r_seed->[Color]</li>
+    <li>r_seed->[Vegetable]</li>
+    <li>r_seed->[Game]</li>
+    <li>r_seed->[businessname]</li>
+    <li>r_seed->[businesstype]</li>
+    <li>r_seed->[Community]</li>
+  </SeedGenerator.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <SeedGenerator.rulePack.rulesFiles>&lt;li>nome de negócio->Nomes/Negócios&lt;/li>\n&lt;li>businesstype->Words/Nouns/BusinessTypes&lt;/li>\n</SeedGenerator.rulePack.rulesFiles>
-  <SeedGenerator.rulePack.rulesStrings>&lt;li>r_seed(p=3)->[NamePerson]&lt;/li>\n&lt;li>r_seed->[Animal]&lt;/li>\n&lt;li>r_seed->[TerrainFeature]&lt;/li>\n&lt;li>r_seed->[PersonJob]&lt;/li>\n&lt;li>r_seed->[Enemy]&lt;/li>\n&lt;li>r_seed->[Gore]&lt;/li>\n&lt;li>r_seed->[Apparel]&lt;/li>\n&lt;li>r_seed->[AdjectiveAny]&lt;/li>\n&lt;li>r_seed->[ConceptAny]&lt;/li>\n&lt;li>r_seed->[Weapon]&lt;/li>\n&lt;li>r_seed->[Color]&lt;/li>\n&lt;li>r_seed->[Vegetable]&lt;/li>\n&lt;li>r_seed->[Game]&lt;/li>\n&lt;li>r_seed->[nome comercial]&lt;/li>\n&lt;li>r_seed->[businesstype]&lt;/li>\n&lt;li>r_seed->[Comunidade]&lt;/li>\n</SeedGenerator.rulePack.rulesStrings>
+  <SeedGenerator.rulePack.rulesFiles>
+    <li>businessname->Names/Business</li>
+    <li>businesstype->Words/Nouns/BusinessTypes</li>
+  </SeedGenerator.rulePack.rulesFiles>
+  <SeedGenerator.rulePack.rulesStrings>
+    <li>r_seed(p=3)->[NamePerson]</li>
+    <li>r_seed->[Animal]</li>
+    <li>r_seed->[TerrainFeature]</li>
+    <li>r_seed->[PersonJob]</li>
+    <li>r_seed->[Enemy]</li>
+    <li>r_seed->[Gore]</li>
+    <li>r_seed->[Apparel]</li>
+    <li>r_seed->[AdjectiveAny]</li>
+    <li>r_seed->[ConceptAny]</li>
+    <li>r_seed->[Weapon]</li>
+    <li>r_seed->[Color]</li>
+    <li>r_seed->[Vegetable]</li>
+    <li>r_seed->[Game]</li>
+    <li>r_seed->[businessname]</li>
+    <li>r_seed->[businesstype]</li>
+    <li>r_seed->[Community]</li>
+  </SeedGenerator.rulePack.rulesStrings>
   
 </LanguageData>

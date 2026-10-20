@@ -15,9 +15,35 @@
     <li>firedat(p=0.3)->opened fire at</li>
     <li>verb_fired->fired</li>
   -->
-  <Combat_RangedFlamethrower.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] [firedat] [RECIPIENT_definite] com [INITIATOR_possessive] [WEAPON_label].&lt;/li>\n&lt;li>r_logentry-> [INITIATOR_definite] [fired] [INITIATOR_possessive] [WEAPON_label] em [RECIPIENT_definite].\n&lt;li>r_logentry->[INITIATOR_definite] [firedat] [RECIPIENT_definite].&lt;/li>\n&lt;li>r_logentry (RECIPIENT_missing==True)->[INITIATOR_definite] [fired] [INITIATOR_possessive] [WEAPON_label].&lt;/li>\n&lt;li>fired(p=2)->[verb_fired]&lt;/li>\n&lt;li>fired->[skillAdv] [verb_fired]&lt;/li>\n&lt;li>firedat-> disparou em&lt;/li>\n&lt;li>firedat->fired [skillAdv] em&lt;/li>fired [skillAdv]\n&lt;li>firedat(p=0.5)-> destinado e demitido em&lt;/li>\n&lt;li>firedat(p=0.5)->[skillAdv] destinado e demitido em&lt;/li>\n&lt;li>firedat(p=0.3)->open fire at&lt;/li>\n&lt;li>verb_fired->fired&lt;/li>\n</Combat_RangedFlamethrower.rulePack.rulesStrings>
+  <Combat_RangedFlamethrower.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] [firedat] [RECIPIENT_definite] com [WEAPON_label].</li>
+    <li>r_logentry->[INITIATOR_definite] [fired] com [WEAPON_label] contra [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [firedat] [RECIPIENT_definite].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [fired] com [WEAPON_label].</li>
+    <li>fired(p=2)->[verb_fired]</li>
+    <li>fired->[skillAdv] [verb_fired]</li>
+    <li>firedat->disparou contra</li>
+    <li>firedat->disparou [skillAdv] contra</li>
+    <li>firedat(p=0.5)->apontou e disparou contra</li>
+    <li>firedat(p=0.5)->[skillAdv] apontou e disparou contra</li>
+    <li>firedat(p=0.3)->abriu fogo contra</li>
+    <li>verb_fired->disparou</li>
+  </Combat_RangedFlamethrower.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <Combat_RangedFlamethrower.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] [firedat] [RECIPIENT_definite] com [INITIATOR_possessive] [WEAPON_label].&lt;/li>\n&lt;li>r_logentry-> [INITIATOR_definite] [fired] [INITIATOR_possessive] [WEAPON_label] em [RECIPIENT_definite].\n&lt;li>r_logentry->[INITIATOR_definite] [firedat] [RECIPIENT_definite].&lt;/li>\n&lt;li>r_logentry (RECIPIENT_missing==True)->[INITIATOR_definite] [fired] [INITIATOR_possessive] [WEAPON_label].&lt;/li>\n&lt;li>fired(p=2)->[verb_fired]&lt;/li>\n&lt;li>fired->[skillAdv] [verb_fired]&lt;/li>\n&lt;li>firedat-> disparou em&lt;/li>\n&lt;li>firedat->fired [skillAdv] em&lt;/li>fired [skillAdv]\n&lt;li>firedat(p=0.5)-> destinado e demitido em&lt;/li>\n&lt;li>firedat(p=0.5)->[skillAdv] destinado e demitido em&lt;/li>\n&lt;li>firedat(p=0.3)->open fire at&lt;/li>\n&lt;li>verb_fired->fired&lt;/li>\n</Combat_RangedFlamethrower.rulePack.rulesStrings>
+  <Combat_RangedFlamethrower.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] [firedat] [RECIPIENT_definite] com [WEAPON_label].</li>
+    <li>r_logentry->[INITIATOR_definite] [fired] com [WEAPON_label] contra [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [firedat] [RECIPIENT_definite].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [fired] com [WEAPON_label].</li>
+    <li>fired(p=2)->[verb_fired]</li>
+    <li>fired->[skillAdv] [verb_fired]</li>
+    <li>firedat->disparou contra</li>
+    <li>firedat->disparou [skillAdv] contra</li>
+    <li>firedat(p=0.5)->apontou e disparou contra</li>
+    <li>firedat(p=0.5)->[skillAdv] apontou e disparou contra</li>
+    <li>firedat(p=0.3)->abriu fogo contra</li>
+    <li>verb_fired->disparou</li>
+  </Combat_RangedFlamethrower.rulePack.rulesStrings>
   
 </LanguageData>

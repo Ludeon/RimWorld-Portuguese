@@ -4,7 +4,9 @@
   <!-- EN:
     <li>questDescription->You've learned of an ancient complex nearby that is said to contain ancient treasure.\n\nYou can break in to collect the loot inside.\n\nBe warned - these kinds of structures can contain a variety of threats. In addition, your activity at the complex might draw unwanted attention.</li>
   -->
-  <OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>&lt;li>questDescription-> Você aprendeu sobre um antigo complexo nas proximidades que é dito conter tesouro antigo.\n\nVocê pode entrar para recolher o saque dentro.\n\nSeja advertido - esses tipos de estruturas podem conter uma variedade de ameaças. Além disso, sua atividade no complexo pode chamar atenção indesejada.&lt;/li>\n</OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>
+  <OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>
+    <li>questDescription->Soubeste da existência de um complexo antigo aqui perto que, segundo se diz, contém um tesouro antigo.\n\nPodes entrar e recolher o saque que lá está.\n\nFica avisado - este tipo de estruturas pode conter ameaças variadas. Além disso, a tua atividade no complexo pode atrair atenções indesejadas.</li>
+  </OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[complexAdj] [complex] [finalWord]</li>
     <li>questName->[complex] [finalWord]</li>
@@ -30,10 +32,60 @@
     <li>finalWord->caper</li>
     <li>finalWord->booty</li>
   -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings>&lt;li>questName(p=3)->[complexAdj] [complexo] [finalWord]&lt;/li>\n&lt;li>questName->[complexo] [finalWord]&lt;/li>\n&lt;li>complexAdj->secret&lt;/li>\n&lt;li>complexAdj->mysterious&lt;/li>\n&lt;li>complexAdj->ancient&lt;/li>\n&lt;li>complexAdj->old&lt;/li>\n&lt;li>complexAdj->hidden&lt;/li>\n&lt;li>complexAdj->deathly&lt;/li>\n&lt;li>complexo->complexo&lt;/li>\n&lt;li>complexo->instalação&lt;/li>\n&lt;li>complex->structure&lt;/li>\n&lt;li>finalWord->treasure&lt;/li>\n&lt;li>finalWord->riches&lt;/li>\n&lt;li>finalWord->trove&lt;/li>\n&lt;li>finalWord->cache&lt;/li>\n&lt;li>finalWord->loot&lt;/li>\n&lt;li>finalWord->robbing&lt;/li>\n&lt;li>finalWord->looting&lt;/li>\n&lt;li>finalWord->raiding&lt;/li>\n&lt;li>finalWord->theft&lt;/li>\n&lt;li>finalWord->heist&lt;/li>\n&lt;li>finalWord->caper&lt;/li>\n&lt;li>finalWord->booty&lt;/li>\n</OpportunitySite_AncientComplex.questNameRules.rulesStrings>
+  <OpportunitySite_AncientComplex.questNameRules.rulesStrings>
+    <li>questName(p=3)->[finalWord] do [complex] [complexAdj]</li>
+    <li>questName->[finalWord] do [complex]</li>
+    <li>complexAdj->secreto</li>
+    <li>complexAdj->misterioso</li>
+    <li>complexAdj->antigo</li>
+    <li>complexAdj->velho</li>
+    <li>complexAdj->escondido</li>
+    <li>complexAdj->mortífero</li>
+    <li>complex->complexo</li>
+    <li>complex->recinto</li>
+    <li>complex->edifício</li>
+    <li>finalWord->tesouro</li>
+    <li>finalWord->riquezas</li>
+    <li>finalWord->espólio</li>
+    <li>finalWord->esconderijo</li>
+    <li>finalWord->saque</li>
+    <li>finalWord->roubo</li>
+    <li>finalWord->pilhagem</li>
+    <li>finalWord->assalto</li>
+    <li>finalWord->furto</li>
+    <li>finalWord->golpe</li>
+    <li>finalWord->proeza</li>
+    <li>finalWord->despojos</li>
+  </OpportunitySite_AncientComplex.questNameRules.rulesStrings>
   
   <!-- UNUSED -->
-  <OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>&lt;li>questDescription-> Você aprendeu sobre um antigo complexo nas proximidades que é dito conter tesouro antigo.\n\nVocê pode entrar para recolher o saque dentro.\n\nSeja advertido - esses tipos de estruturas podem conter uma variedade de ameaças. Além disso, sua atividade no complexo pode chamar atenção indesejada.&lt;/li>\n</OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings>&lt;li>questName(p=3)->[complexAdj] [complexo] [finalWord]&lt;/li>\n&lt;li>questName->[complexo] [finalWord]&lt;/li>\n&lt;li>complexAdj->secret&lt;/li>\n&lt;li>complexAdj->mysterious&lt;/li>\n&lt;li>complexAdj->ancient&lt;/li>\n&lt;li>complexAdj->old&lt;/li>\n&lt;li>complexAdj->hidden&lt;/li>\n&lt;li>complexAdj->deathly&lt;/li>\n&lt;li>complexo->complexo&lt;/li>\n&lt;li>complexo->instalação&lt;/li>\n&lt;li>complex->structure&lt;/li>\n&lt;li>finalWord->treasure&lt;/li>\n&lt;li>finalWord->riches&lt;/li>\n&lt;li>finalWord->trove&lt;/li>\n&lt;li>finalWord->cache&lt;/li>\n&lt;li>finalWord->loot&lt;/li>\n&lt;li>finalWord->robbing&lt;/li>\n&lt;li>finalWord->looting&lt;/li>\n&lt;li>finalWord->raiding&lt;/li>\n&lt;li>finalWord->theft&lt;/li>\n&lt;li>finalWord->heist&lt;/li>\n&lt;li>finalWord->caper&lt;/li>\n&lt;li>finalWord->booty&lt;/li>\n</OpportunitySite_AncientComplex.questNameRules.rulesStrings>
+  <OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>
+    <li>questDescription->Soubeste da existência de um complexo antigo aqui perto que, segundo se diz, contém um tesouro antigo.\n\nPodes entrar e recolher o saque que lá está.\n\nFica avisado - este tipo de estruturas pode conter ameaças variadas. Além disso, a tua atividade no complexo pode atrair atenções indesejadas.</li>
+  </OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>
+  <OpportunitySite_AncientComplex.questNameRules.rulesStrings>
+    <li>questName(p=3)->[finalWord] do [complex] [complexAdj]</li>
+    <li>questName->[finalWord] do [complex]</li>
+    <li>complexAdj->secreto</li>
+    <li>complexAdj->misterioso</li>
+    <li>complexAdj->antigo</li>
+    <li>complexAdj->velho</li>
+    <li>complexAdj->escondido</li>
+    <li>complexAdj->mortífero</li>
+    <li>complex->complexo</li>
+    <li>complex->recinto</li>
+    <li>complex->edifício</li>
+    <li>finalWord->tesouro</li>
+    <li>finalWord->riquezas</li>
+    <li>finalWord->espólio</li>
+    <li>finalWord->esconderijo</li>
+    <li>finalWord->saque</li>
+    <li>finalWord->roubo</li>
+    <li>finalWord->pilhagem</li>
+    <li>finalWord->assalto</li>
+    <li>finalWord->furto</li>
+    <li>finalWord->golpe</li>
+    <li>finalWord->proeza</li>
+    <li>finalWord->despojos</li>
+  </OpportunitySite_AncientComplex.questNameRules.rulesStrings>
   
 </LanguageData>

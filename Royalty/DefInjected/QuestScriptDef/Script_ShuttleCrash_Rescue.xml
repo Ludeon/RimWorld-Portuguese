@@ -31,12 +31,44 @@
     <li>mapRemovedLetterLabel->Quest failed: [resolvedQuestName]</li>
     <li>mapRemovedLetterText->The map was left behind before the crashed [asker_faction_pawnsPlural] could be collected. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
   -->
-  <ShuttleCrash_Rescue.questContentRules.rulesStrings>&lt;li>failLetterEndingCommon-> Você falhou a busca '[resolvedQuestName]'.&lt;/li>\n&lt;li>sucesso LetterEndingCommon-> Você concluiu sucessivamente a busca '[resolvedQuestName]'.&lt;/li>\n&lt;li>goodwillSomeCiviliansLost-> Nem todo o [asker_faction_pawnSingular] [pawnLabel] poderia ser resgatado. [boa vontade negativamente afetado]&lt;/li>\n&lt;li>goodwillAllCiviliansLost->None of the [asker_faction_pawnSingular] [pawnLabelPlural] poderia ser resgatado. [boa vontade negativamente afetado]&lt;/li>\n&lt;li> goodwillNegativelyAffected-> Sua boa vontade com [asker_faction_name] foi negativamente afetada por cada [pawnLabel] esquerda.&lt;/li>\n&lt;li>commanderLandingDesc->[asker_nameDef], o comandante que pediu para pousar [asker_possessive] vaivém [map_definite]&lt;/li>\n&lt;li>raidArrivedLetterLabel->Raid: [enemyFaction_name]&lt;/li>\n&lt;li>raidArrivedLetterText->[enemyFaction_pawnsPlural] do [enemyFaction_name] chegaram. Eles vão atacar o [asker_faction_pawnsPlural] que caiu em [map_definite].\n\nDefenda o [asker_faction_pawnsPlural] até que seu vaivém de resgate chegue [rescueShuttleAfterRaidDelay_duration].&lt;/li>\n&lt;li>rescueShuttleArrivedLetterLabel-> Transporte de resgate chegou &lt;/li>\n&lt;li>rescueShuttleArivedLetter Text-> O vaivém de resgate chegou para recolher o [pawnLabelSingleOrPlural] que caiu aterrou. Certifique-se de ter essas pessoas no vaivém antes de sair em [leaveDelay_duration]:\n\n[civilians]&lt;/li>\n&lt;li>questCompletedSuccessLetterLabel-> Quest concluída: [resolvedQuestName]&lt;/li>\n&lt;li>questCompletedSuccessLetterText->[commanderLandingDesc], escapou. [asker_pronoun] é grato pela ajuda [asker_pronoun] recebida em [map_definite].\n\n[sucesso LetterEndingCommon]&lt;/li>\n&lt;li>questCompletedCiviliansLostSuccessLetterLabel-> Quest concluída: [resolvedQuestName]&lt;/li>\n&lt;li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], escapou.\n\n[Bom trabalho]\n\n[sucesso LetterEndingCommon]&lt;/li>\n&lt;li>askerLostLetterLabel-> Quest falhou: [resolvedQuestName]&lt;/li>\n&lt;li>askerLostLetterText->[commanderLandingDesc] não estava a bordo quando o vaivém partiu.\n\n[Bom trabalho]\n\n[failLetterEndingCommon]&lt;/li>\n&lt;li> allLostLetterLabel-> Quest falhou: [resolvedQuestName]&lt;/li>\n&lt;li> allLostLetterText-> O vaivém de resgate para o acidente [asker_faction_pawnsPlural] partiu sem ninguém a bordo.\n\n[boa vontade todos os cidadãos]\n\n[failLetterEndingCommon]&lt;/li>\n&lt;li>askerDiferiu LetterLabel-> Quest falhou: [resolvedQuestName]&lt;/li>\n&lt;li>askerDiedLetterText->[commanderLandingDesc] morreu.\n\n[failLetterEndingCommon]&lt;/li>\n&lt;li>shuttleDestroyedLetterLabel-> Quest falhou: [resolvedQuestName]&lt;/li>\n&lt;li>shuttleDestroyedLetterText-> O vaivém enviado para recolher o acidente [asker_faction_pawnsPlural] foi destruído. O [asker_faction_pawnsPlural] partirá agora a pé.\n\n[failLetterEndingCommon]&lt;/li>\n</ShuttleCrash_Rescue.questContentRules.rulesStrings>
+  <ShuttleCrash_Rescue.questContentRules.rulesStrings>
+    <li>failLetterEndingCommon->Falhaste a missão '[resolvedQuestName]'.</li>
+    <li>successLetterEndingCommon->Concluíste com sucesso a missão '[resolvedQuestName]'.</li>
+    <li>goodwillSomeCiviliansLost->Nem todos os [pawnLabelPlural] puderam ser resgatados. [goodwillNegativelyAffected]</li>
+    <li>goodwillAllCiviliansLost->Nenhum dos [pawnLabelPlural] pôde ser resgatado. [goodwillNegativelyAffected]</li>
+    <li>goodwillNegativelyAffected->A tua boa vontade com [asker_faction_name] foi afetada negativamente por cada [pawnLabel] deixado para trás.</li>
+    <li>commanderLandingDesc->[asker_nameDef], comandante que pediu para aterrar o seu vaivém em [map_definite]</li>
+    <li>raidArrivedLetterLabel->Ataque: [enemyFaction_name]</li>
+    <li>raidArrivedLetterText->Chegaram [enemyFaction_pawnsPlural] de [enemyFaction_name]. Vão atacar os [asker_faction_pawnsPlural] que se despenharam em [map_definite].\n\nDefende os [asker_faction_pawnsPlural] até o vaivém de resgate chegar, dentro de [rescueShuttleAfterRaidDelay_duration].</li>
+    <li>rescueShuttleArrivedLetterLabel->Vaivém de resgate chegou</li>
+    <li>rescueShuttleArrivedLetterText->O vaivém de resgate chegou para recolher os sobreviventes ([pawnLabelSingleOrPlural]) da aterragem forçada. Certifica-te de que estas pessoas estão no vaivém antes de ele partir, dentro de [leaveDelay_duration]:\n\n[civilians]</li>
+    <li>questCompletedSuccessLetterLabel->Missão concluída: [resolvedQuestName]</li>
+    <li>questCompletedSuccessLetterText->[commanderLandingDesc], escapou. Agradece a ajuda recebida em [map_definite].\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedCiviliansLostSuccessLetterLabel->Missão concluída: [resolvedQuestName]</li>
+    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], escapou.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
+    <li>askerLostLetterLabel->Missão falhada: [resolvedQuestName]</li>
+    <li>askerLostLetterText->[commanderLandingDesc] não estava a bordo quando o vaivém partiu.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>allLostLetterLabel->Missão falhada: [resolvedQuestName]</li>
+    <li>allLostLetterText->O vaivém de resgate dos [asker_faction_pawnsPlural] acidentados partiu sem ninguém a bordo.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>askerDiedLetterLabel->Missão falhada: [resolvedQuestName]</li>
+    <li>askerDiedLetterText->[commanderLandingDesc] morreu.\n\n[failLetterEndingCommon]</li>
+    <li>civilianDiedLetterLabel->Missão falhada: [resolvedQuestName]</li>
+    <li>civilianDiedLetterText->Um civil morreu.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterLabel->Missão falhada: [resolvedQuestName]</li>
+    <li>shuttleDestroyedLetterText->O vaivém enviado para recolher os [asker_faction_pawnsPlural] acidentados foi destruído. Os [asker_faction_pawnsPlural] partirão agora a pé.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleLeftBehindLetterLabel->Missão falhada: [resolvedQuestName]</li>
+    <li>shuttleLeftBehindLetterText->O vaivém enviado para recolher os [asker_faction_pawnsPlural] acidentados ficou para trás. Os [asker_faction_pawnsPlural] partirão agora a pé.\n\n[failLetterEndingCommon]</li>
+    <li>mapRemovedLetterLabel->Missão falhada: [resolvedQuestName]</li>
+    <li>mapRemovedLetterText->O mapa foi abandonado antes de os [asker_faction_pawnsPlural] acidentados poderem ser recolhidos. Os [asker_faction_pawnsPlural] partirão agora a pé.\n\n[failLetterEndingCommon]</li>
+  </ShuttleCrash_Rescue.questContentRules.rulesStrings>
   <!-- EN:
     <li>pawnLabel->civilian</li>
     <li>pawnLabelPlural->civilians</li>
   -->
-  <ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>&lt;li>pawnLabel->civilian&lt;/li>\n&lt;li>pawnLabelPlural->civilians&lt;/li>\n</ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
+  <ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
+    <li>pawnLabel->civil</li>
+    <li>pawnLabelPlural->civis</li>
+  </ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
@@ -50,7 +82,19 @@
     <li>soldierCountKinds(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
     <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]</li>
   -->
-  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>&lt;li>pawnLabelSingleOrPlural(civilians_count=1)->[pawnLabel]&lt;/li>\n&lt;li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]&lt;/li>\n&lt;li>questDescription-> Um vaivém de [asker_faction_name] tomou danos e está procurando um lugar para pousar. Seu comandante [asker_nameDef] quer aterrar em [map_definite].\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] atacará o local de transporte em uma tentativa de matar seus ocupantes. Tem de defendê-los.\n\nO vaivém contém [asker_nameDef][eOtherCivilians] e [soldierCountKinds]. O comandante deve ser resgatado, mas o [soldiers0_kindPlural] pode ser sacrificado.\n\nDepois de [rescueDelay_duration], um vaivém de resgate virá buscar os sobreviventes. Você precisará colocá-los todos a bordo dentro [leaveDelay_duration].&lt;/li>\n&lt;li> andOtherCivilians(civilians_count=1)->&lt;/li>\n&lt;li> andOtherCivilians(civilians_count=2)->, outro [pawnLabel],&lt;/li>\n&lt;li> andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] other [pawnLabelSingleOrPlural],&lt;/li>\n&lt;li> andCivilians(civilians_count=1)->&lt;/li>\n&lt;li>andCivilians(civilians_count=2)->and [pawnLabel]&lt;/li>\n&lt;li> andCivilians(civilians_count>=3)->and [pawnLabelPlural]&lt;/li>\n&lt;li>soldierCountKinds(soldiers_count=1)->[soldiers_count] [soldiers0_kind]&lt;/li>\n&lt;li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]&lt;/li>\n</ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+    <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
+    <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
+    <li>questDescription->Um vaivém de [asker_faction_name] sofreu danos e procura um local para aterrar. O comandante, [asker_nameDef], quer aterrar em [map_definite].\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] atacarão o local do acidente na tentativa de matar os ocupantes. Tens de os defender.\n\nO vaivém transporta [asker_nameDef][andOtherCivilians] e [soldierCountKinds]. É preciso resgatar o comandante [andCivilians], mas os [soldiers0_kindPlural] podem ser sacrificados.\n\nDepois de [rescueDelay_duration], um vaivém de resgate virá buscar os sobreviventes. Terás de os pôr todos a bordo dentro de [leaveDelay_duration].</li>
+    <li>andOtherCivilians(civilians_count==1)-></li>
+    <li>andOtherCivilians(civilians_count==2)->, outro civil,</li>
+    <li>andOtherCivilians(civilians_count>=3)->, outros [civilianCountMinusOne] [pawnLabelSingleOrPlural],</li>
+    <li>andCivilians(civilians_count==1)-></li>
+    <li>andCivilians(civilians_count==2)->e o civil</li>
+    <li>andCivilians(civilians_count>=3)->e os civis</li>
+    <li>soldierCountKinds(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
+    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]</li>
+  </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
     <li>questName->[asker_faction_pawnSingular] [shuttle] [crash]</li>
@@ -72,12 +116,96 @@
     <li>landing->descent</li>
     <li>landing->approach</li>
   -->
-  <ShuttleCrash_Rescue.questNameRules.rulesStrings>&lt;li>questName->[shuttle] [crash]&lt;/li>\n&lt;li>questName->[asker_faction_pawnSingular] [shuttle] [crash]&lt;/li>\n&lt;li>questName->[danificado] [shuttle]&lt;/li>\n&lt;li>questName->[asker_nameDef] [danificado] [shuttle]&lt;/li>\n&lt;li>questName->[emergência] [landing]&lt;/li>\n&lt;li>questName->[asker_nameDef] [emergência] [terrando]&lt;/li>\n&lt;li>shuttle->shuttle&lt;/li>\n&lt;li>shuttle->transporter&lt;/li>\n&lt;li>shuttle->ship&lt;/li>\n&lt;li>crash->crash&lt;/li>\n&lt;li>crash->down&lt;/li>\n&lt;li>danificado ->danificado &lt;/li>\n&lt;li>damaged->busted&lt;/li>\n&lt;li>danificado->failing&lt;/li>\n&lt;li>emergency->emergency&lt;/li>emergency\n&lt;li>emergency->forced&lt;/li>\n&lt;li>landing->landing&lt;/li>landing\n&lt;li>landing->descent&lt;/li>\n&lt;li>landing->approach&lt;/li>\n</ShuttleCrash_Rescue.questNameRules.rulesStrings>
+  <ShuttleCrash_Rescue.questNameRules.rulesStrings>
+    <li>questName->[crash] de [shuttle]</li>
+    <li>questName->[crash] de [shuttle] [asker_faction_pawnSingular]</li>
+    <li>questName->[shuttle] [damaged]</li>
+    <li>questName->[shuttle] [damaged] de [asker_nameDef]</li>
+    <li>questName->[landing] [emergency]</li>
+    <li>questName->[landing] [emergency] de [asker_nameDef]</li>
+    <li>shuttle->vaivém</li>
+    <li>shuttle->transportador</li>
+    <li>shuttle->nave</li>
+    <li>crash->Acidente</li>
+    <li>crash->Queda</li>
+    <li>damaged->com danos</li>
+    <li>damaged->em ruínas</li>
+    <li>damaged->em falha</li>
+    <li>emergency->de emergência</li>
+    <li>emergency->forçada</li>
+    <li>landing->aterragem</li>
+    <li>landing->descida</li>
+    <li>landing->aproximação</li>
+  </ShuttleCrash_Rescue.questNameRules.rulesStrings>
   
   <!-- UNUSED -->
-  <ShuttleCrash_Rescue.questContentRules.rulesStrings>&lt;li>failLetterEndingCommon-> Você falhou a busca '[resolvedQuestName]'.&lt;/li>\n&lt;li>sucesso LetterEndingCommon-> Você concluiu sucessivamente a busca '[resolvedQuestName]'.&lt;/li>\n&lt;li>goodwillSomeCiviliansLost-> Nem todo o [asker_faction_pawnSingular] [pawnLabel] poderia ser resgatado. [boa vontade negativamente afetado]&lt;/li>\n&lt;li>goodwillAllCiviliansLost->None of the [asker_faction_pawnSingular] [pawnLabelPlural] poderia ser resgatado. [boa vontade negativamente afetado]&lt;/li>\n&lt;li> goodwillNegativelyAffected-> Sua boa vontade com [asker_faction_name] foi negativamente afetada por cada [pawnLabel] esquerda.&lt;/li>\n&lt;li>commanderLandingDesc->[asker_nameDef], o comandante que pediu para pousar [asker_possessive] vaivém [map_definite]&lt;/li>\n&lt;li>raidArrivedLetterLabel->Raid: [enemyFaction_name]&lt;/li>\n&lt;li>raidArrivedLetterText->[enemyFaction_pawnsPlural] do [enemyFaction_name] chegaram. Eles vão atacar o [asker_faction_pawnsPlural] que caiu em [map_definite].\n\nDefenda o [asker_faction_pawnsPlural] até que seu vaivém de resgate chegue [rescueShuttleAfterRaidDelay_duration].&lt;/li>\n&lt;li>rescueShuttleArrivedLetterLabel-> Transporte de resgate chegou &lt;/li>\n&lt;li>rescueShuttleArivedLetter Text-> O vaivém de resgate chegou para recolher o [pawnLabelSingleOrPlural] que caiu aterrou. Certifique-se de ter essas pessoas no vaivém antes de sair em [leaveDelay_duration]:\n\n[civilians]&lt;/li>\n&lt;li>questCompletedSuccessLetterLabel-> Quest concluída: [resolvedQuestName]&lt;/li>\n&lt;li>questCompletedSuccessLetterText->[commanderLandingDesc], escapou. [asker_pronoun] é grato pela ajuda [asker_pronoun] recebida em [map_definite].\n\n[sucesso LetterEndingCommon]&lt;/li>\n&lt;li>questCompletedCiviliansLostSuccessLetterLabel-> Quest concluída: [resolvedQuestName]&lt;/li>\n&lt;li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], escapou.\n\n[Bom trabalho]\n\n[sucesso LetterEndingCommon]&lt;/li>\n&lt;li>askerLostLetterLabel-> Quest falhou: [resolvedQuestName]&lt;/li>\n&lt;li>askerLostLetterText->[commanderLandingDesc] não estava a bordo quando o vaivém partiu.\n\n[Bom trabalho]\n\n[failLetterEndingCommon]&lt;/li>\n&lt;li> allLostLetterLabel-> Quest falhou: [resolvedQuestName]&lt;/li>\n&lt;li> allLostLetterText-> O vaivém de resgate para o acidente [asker_faction_pawnsPlural] partiu sem ninguém a bordo.\n\n[boa vontade todos os cidadãos]\n\n[failLetterEndingCommon]&lt;/li>\n&lt;li>askerDiferiu LetterLabel-> Quest falhou: [resolvedQuestName]&lt;/li>\n&lt;li>askerDiedLetterText->[commanderLandingDesc] morreu.\n\n[failLetterEndingCommon]&lt;/li>\n&lt;li>shuttleDestroyedLetterLabel-> Quest falhou: [resolvedQuestName]&lt;/li>\n&lt;li>shuttleDestroyedLetterText-> O vaivém enviado para recolher o acidente [asker_faction_pawnsPlural] foi destruído. O [asker_faction_pawnsPlural] partirá agora a pé.\n\n[failLetterEndingCommon]&lt;/li>\n</ShuttleCrash_Rescue.questContentRules.rulesStrings>
-  <ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>&lt;li>pawnLabel->civilian&lt;/li>\n&lt;li>pawnLabelPlural->civilians&lt;/li>\n</ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
-  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>&lt;li>pawnLabelSingleOrPlural(civilians_count=1)->[pawnLabel]&lt;/li>\n&lt;li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]&lt;/li>\n&lt;li>questDescription-> Um vaivém de [asker_faction_name] tomou danos e está procurando um lugar para pousar. Seu comandante [asker_nameDef] quer aterrar em [map_definite].\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] atacará o local de transporte em uma tentativa de matar seus ocupantes. Tem de defendê-los.\n\nO vaivém contém [asker_nameDef][eOtherCivilians] e [soldierCountKinds]. O comandante deve ser resgatado, mas o [soldiers0_kindPlural] pode ser sacrificado.\n\nDepois de [rescueDelay_duration], um vaivém de resgate virá buscar os sobreviventes. Você precisará colocá-los todos a bordo dentro [leaveDelay_duration].&lt;/li>\n&lt;li> andOtherCivilians(civilians_count=1)->&lt;/li>\n&lt;li> andOtherCivilians(civilians_count=2)->, outro [pawnLabel],&lt;/li>\n&lt;li> andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] other [pawnLabelSingleOrPlural],&lt;/li>\n&lt;li> andCivilians(civilians_count=1)->&lt;/li>\n&lt;li>andCivilians(civilians_count=2)->and [pawnLabel]&lt;/li>\n&lt;li> andCivilians(civilians_count>=3)->and [pawnLabelPlural]&lt;/li>\n&lt;li>soldierCountKinds(soldiers_count=1)->[soldiers_count] [soldiers0_kind]&lt;/li>\n&lt;li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]&lt;/li>\n</ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
-  <ShuttleCrash_Rescue.questNameRules.rulesStrings>&lt;li>questName->[shuttle] [crash]&lt;/li>\n&lt;li>questName->[asker_faction_pawnSingular] [shuttle] [crash]&lt;/li>\n&lt;li>questName->[danificado] [shuttle]&lt;/li>\n&lt;li>questName->[asker_nameDef] [danificado] [shuttle]&lt;/li>\n&lt;li>questName->[emergência] [landing]&lt;/li>\n&lt;li>questName->[asker_nameDef] [emergência] [terrando]&lt;/li>\n&lt;li>shuttle->shuttle&lt;/li>\n&lt;li>shuttle->transporter&lt;/li>\n&lt;li>shuttle->ship&lt;/li>\n&lt;li>crash->crash&lt;/li>\n&lt;li>crash->down&lt;/li>\n&lt;li>danificado ->danificado &lt;/li>\n&lt;li>damaged->busted&lt;/li>\n&lt;li>danificado->failing&lt;/li>\n&lt;li>emergency->emergency&lt;/li>emergency\n&lt;li>emergency->forced&lt;/li>\n&lt;li>landing->landing&lt;/li>landing\n&lt;li>landing->descent&lt;/li>\n&lt;li>landing->approach&lt;/li>\n</ShuttleCrash_Rescue.questNameRules.rulesStrings>
+  <ShuttleCrash_Rescue.questContentRules.rulesStrings>
+    <li>failLetterEndingCommon->Falhaste a missão '[resolvedQuestName]'.</li>
+    <li>successLetterEndingCommon->Concluíste com sucesso a missão '[resolvedQuestName]'.</li>
+    <li>goodwillSomeCiviliansLost->Nem todos os [pawnLabelPlural] puderam ser resgatados. [goodwillNegativelyAffected]</li>
+    <li>goodwillAllCiviliansLost->Nenhum dos [pawnLabelPlural] pôde ser resgatado. [goodwillNegativelyAffected]</li>
+    <li>goodwillNegativelyAffected->A tua boa vontade com [asker_faction_name] foi afetada negativamente por cada [pawnLabel] deixado para trás.</li>
+    <li>commanderLandingDesc->[asker_nameDef], comandante que pediu para aterrar o seu vaivém em [map_definite]</li>
+    <li>raidArrivedLetterLabel->Ataque: [enemyFaction_name]</li>
+    <li>raidArrivedLetterText->Chegaram [enemyFaction_pawnsPlural] de [enemyFaction_name]. Vão atacar os [asker_faction_pawnsPlural] que se despenharam em [map_definite].\n\nDefende os [asker_faction_pawnsPlural] até o vaivém de resgate chegar, dentro de [rescueShuttleAfterRaidDelay_duration].</li>
+    <li>rescueShuttleArrivedLetterLabel->Vaivém de resgate chegou</li>
+    <li>rescueShuttleArrivedLetterText->O vaivém de resgate chegou para recolher os sobreviventes ([pawnLabelSingleOrPlural]) da aterragem forçada. Certifica-te de que estas pessoas estão no vaivém antes de ele partir, dentro de [leaveDelay_duration]:\n\n[civilians]</li>
+    <li>questCompletedSuccessLetterLabel->Missão concluída: [resolvedQuestName]</li>
+    <li>questCompletedSuccessLetterText->[commanderLandingDesc], escapou. Agradece a ajuda recebida em [map_definite].\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedCiviliansLostSuccessLetterLabel->Missão concluída: [resolvedQuestName]</li>
+    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], escapou.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
+    <li>askerLostLetterLabel->Missão falhada: [resolvedQuestName]</li>
+    <li>askerLostLetterText->[commanderLandingDesc] não estava a bordo quando o vaivém partiu.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>allLostLetterLabel->Missão falhada: [resolvedQuestName]</li>
+    <li>allLostLetterText->O vaivém de resgate dos [asker_faction_pawnsPlural] acidentados partiu sem ninguém a bordo.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>askerDiedLetterLabel->Missão falhada: [resolvedQuestName]</li>
+    <li>askerDiedLetterText->[commanderLandingDesc] morreu.\n\n[failLetterEndingCommon]</li>
+    <li>civilianDiedLetterLabel->Missão falhada: [resolvedQuestName]</li>
+    <li>civilianDiedLetterText->Um civil morreu.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterLabel->Missão falhada: [resolvedQuestName]</li>
+    <li>shuttleDestroyedLetterText->O vaivém enviado para recolher os [asker_faction_pawnsPlural] acidentados foi destruído. Os [asker_faction_pawnsPlural] partirão agora a pé.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleLeftBehindLetterLabel->Missão falhada: [resolvedQuestName]</li>
+    <li>shuttleLeftBehindLetterText->O vaivém enviado para recolher os [asker_faction_pawnsPlural] acidentados ficou para trás. Os [asker_faction_pawnsPlural] partirão agora a pé.\n\n[failLetterEndingCommon]</li>
+    <li>mapRemovedLetterLabel->Missão falhada: [resolvedQuestName]</li>
+    <li>mapRemovedLetterText->O mapa foi abandonado antes de os [asker_faction_pawnsPlural] acidentados poderem ser recolhidos. Os [asker_faction_pawnsPlural] partirão agora a pé.\n\n[failLetterEndingCommon]</li>
+  </ShuttleCrash_Rescue.questContentRules.rulesStrings>
+  <ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
+    <li>pawnLabel->civil</li>
+    <li>pawnLabelPlural->civis</li>
+  </ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
+  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+    <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
+    <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
+    <li>questDescription->Um vaivém de [asker_faction_name] sofreu danos e procura um local para aterrar. O comandante, [asker_nameDef], quer aterrar em [map_definite].\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] atacarão o local do acidente na tentativa de matar os ocupantes. Tens de os defender.\n\nO vaivém transporta [asker_nameDef][andOtherCivilians] e [soldierCountKinds]. É preciso resgatar o comandante [andCivilians], mas os [soldiers0_kindPlural] podem ser sacrificados.\n\nDepois de [rescueDelay_duration], um vaivém de resgate virá buscar os sobreviventes. Terás de os pôr todos a bordo dentro de [leaveDelay_duration].</li>
+    <li>andOtherCivilians(civilians_count==1)-></li>
+    <li>andOtherCivilians(civilians_count==2)->, outro civil,</li>
+    <li>andOtherCivilians(civilians_count>=3)->, outros [civilianCountMinusOne] [pawnLabelSingleOrPlural],</li>
+    <li>andCivilians(civilians_count==1)-></li>
+    <li>andCivilians(civilians_count==2)->e o civil</li>
+    <li>andCivilians(civilians_count>=3)->e os civis</li>
+    <li>soldierCountKinds(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
+    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]</li>
+  </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+  <ShuttleCrash_Rescue.questNameRules.rulesStrings>
+    <li>questName->[crash] de [shuttle]</li>
+    <li>questName->[crash] de [shuttle] [asker_faction_pawnSingular]</li>
+    <li>questName->[shuttle] [damaged]</li>
+    <li>questName->[shuttle] [damaged] de [asker_nameDef]</li>
+    <li>questName->[landing] [emergency]</li>
+    <li>questName->[landing] [emergency] de [asker_nameDef]</li>
+    <li>shuttle->vaivém</li>
+    <li>shuttle->transportador</li>
+    <li>shuttle->nave</li>
+    <li>crash->Acidente</li>
+    <li>crash->Queda</li>
+    <li>damaged->com danos</li>
+    <li>damaged->em ruínas</li>
+    <li>damaged->em falha</li>
+    <li>emergency->de emergência</li>
+    <li>emergency->forçada</li>
+    <li>landing->aterragem</li>
+    <li>landing->descida</li>
+    <li>landing->aproximação</li>
+  </ShuttleCrash_Rescue.questNameRules.rulesStrings>
   
 </LanguageData>

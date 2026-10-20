@@ -9,18 +9,36 @@
     <li>globalHyphenPrefix->astro</li>
     <li>globalHyphenPrefix->stello</li>
   -->
-  <CultureSpacer.rulePack.rulesStrings>&lt;li>globalAdjetivo->Spacer&lt;/li>\n&lt;li>globalAdjetivo->Star&lt;/li>\n&lt;li>globalAdjetivo->Stellar&lt;/li>\n&lt;li>globalAdjetivo->Interstellar&lt;/li>\n&lt;li>globalHyphenPrefix->astro&lt;/li>\n&lt;li>globalHyphenPrefix->stello&lt;/li>\n</CultureSpacer.rulePack.rulesStrings>
+  <CultureSpacer.rulePack.rulesStrings>
+    <li>globalAdjective->Espacial</li>
+    <li>globalAdjective->Estelar</li>
+    <li>globalAdjective->Sideral</li>
+    <li>globalAdjective->Interestelar</li>
+    <li>globalHyphenPrefix->astro</li>
+    <li>globalHyphenPrefix->estelo</li>
+  </CultureSpacer.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <CultureSpacer.rulePack.rulesStrings>&lt;li>globalAdjetivo->Spacer&lt;/li>\n&lt;li>globalAdjetivo->Star&lt;/li>\n&lt;li>globalAdjetivo->Stellar&lt;/li>\n&lt;li>globalAdjetivo->Interstellar&lt;/li>\n&lt;li>globalHyphenPrefix->astro&lt;/li>\n&lt;li>globalHyphenPrefix->stello&lt;/li>\n</CultureSpacer.rulePack.rulesStrings>
+  <CultureSpacer.rulePack.rulesStrings>
+    <li>globalAdjective->Espacial</li>
+    <li>globalAdjective->Estelar</li>
+    <li>globalAdjective->Sideral</li>
+    <li>globalAdjective->Interestelar</li>
+    <li>globalHyphenPrefix->astro</li>
+    <li>globalHyphenPrefix->estelo</li>
+  </CultureSpacer.rulePack.rulesStrings>
   
   <!-- EN:
     <li>globalAdjective(p=15)->Tribal</li>
   -->
-  <NamerIdeoCorunan.rulePack.rulesStrings>&lt;li>globalAdjetivo(p=15)->Tribal&lt;/li>\n</NamerIdeoCorunan.rulePack.rulesStrings>
+  <NamerIdeoCorunan.rulePack.rulesStrings>
+    <li>globalAdjective(p=15)->Tribal</li>
+  </NamerIdeoCorunan.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerIdeoCorunan.rulePack.rulesStrings>&lt;li>globalAdjetivo(p=15)->Tribal&lt;/li>\n</NamerIdeoCorunan.rulePack.rulesStrings>
+  <NamerIdeoCorunan.rulePack.rulesStrings>
+    <li>globalAdjective(p=15)->Tribal</li>
+  </NamerIdeoCorunan.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_ideoName->[keyDeity]ism</li>
@@ -53,9 +71,69 @@
     <li>globalHyphenPrefix->archaeo</li>
     <li>globalHyphenPrefix->hyper</li>
   -->
-  <NamerIdeoGlobal.rulePack.rulesStrings>&lt;li>r_ideoName->[keyDeity]ism&lt;/li>\n&lt;li>r_ideoName->[hyphenPrefix]-[keyDeity]ism&lt;/li>\n&lt;li>r_ideoName->[keyDeity]'s [creed]&lt;/li>\n&lt;li>r_ideoName->[creed] de [keyDeity]&lt;/li>\n&lt;li>r_ideoAdjetivo->[keyDeity]ic&lt;/li>\n&lt;li>r_memberName->[keyDeity]ist&lt;/li>\n&lt;li>r_memberName->[keyDeity]ite&lt;/li>\n&lt;li>r_ideoName(p=6)->[packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=2,forcePrefix=False)->[hyphenPrefix]-[packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=2,forcePrefix=False)->[hyphenPrefix]-[packIdeoNameStructure]&lt;/li>\n&lt;li>r_ideoName(p=2)->[memeAdjective] [creed]&lt;/li>\n&lt;li>r_ideoName(p=1)->[creed] de [packTheme]&lt;/li>\n&lt;li>r_ideoName(p=1)->[place_adjetivo] [creed]&lt;/li>\n&lt;li>r_ideoName (p=0,25)-> O [memeCreed]&lt;/li>\n&lt;li>r_ideoAdjetivo(prioridade=1)->[packAdjetivo]&lt;/li>\n&lt;li>r_memberName->[packMember]&lt;/li>\n&lt;li>creed(priority=1)->[memeCreed]&lt;/li>\n&lt;li>creed->[genericCreed]&lt;/li>\n&lt;li>genericCreed->creed&lt;/li>\n&lt;li>genericCreed->doctrine&lt;/li>\n&lt;li>genericCreed->way&lt;/li>\n&lt;li>genericCreed->path&lt;/li>\n&lt;li>hyphenPrefix->[globalHyphenPrefix]&lt;/li>\n&lt;li>hyphenPrefix->[meHyphenPrefix]&lt;/li>\n&lt;li>globalHyphenPrefix (p=4)->neo&lt;/li>\n&lt;li>globalHyphenPrefix (p=2)->post&lt;/li>\n&lt;li>globalHyphenPrefix->nova&lt;/li>\n&lt;li>globalHyphenPrefix->archaeo&lt;/li>\n&lt;li>globalHyphenPrefix->hyper&lt;/li>\n</NamerIdeoGlobal.rulePack.rulesStrings>
+  <NamerIdeoGlobal.rulePack.rulesStrings>
+    <li>r_ideoName->[keyDeity]ismo</li>
+    <li>r_ideoName->[hyphenPrefix]-[keyDeity]ismo</li>
+    <li>r_ideoName->[creed] de [keyDeity]</li>
+    <li>r_ideoName->[creed] segundo [keyDeity]</li>
+    <li>r_ideoAdjective->[keyDeity]ico</li>
+    <li>r_memberName->[keyDeity]ista</li>
+    <li>r_memberName->[keyDeity]ita</li>
+    <li>r_ideoName(p=6)->[packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoNameStructure]</li>
+    <li>r_ideoName(p=2)->[creed] [memeAdjective]</li>
+    <li>r_ideoName(p=1)->[creed] de [packTheme]</li>
+    <li>r_ideoName(p=1)->[creed] [place_adjective]</li>
+    <li>r_ideoName(p=0.25)->[memeCreed]</li>
+    <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
+    <li>r_memberName->[packMember]</li>
+    <li>creed(priority=1)->[memeCreed]</li>
+    <li>creed->[genericCreed]</li>
+    <li>genericCreed->credo</li>
+    <li>genericCreed->dogma</li>
+    <li>genericCreed->caminho</li>
+    <li>genericCreed->trilho</li>
+    <li>hyphenPrefix->[globalHyphenPrefix]</li>
+    <li>hyphenPrefix->[memeHyphenPrefix]</li>
+    <li>globalHyphenPrefix(p=4)->neo</li>
+    <li>globalHyphenPrefix(p=2)->pós</li>
+    <li>globalHyphenPrefix->nova</li>
+    <li>globalHyphenPrefix->arqueo</li>
+    <li>globalHyphenPrefix->hiper</li>
+  </NamerIdeoGlobal.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerIdeoGlobal.rulePack.rulesStrings>&lt;li>r_ideoName->[keyDeity]ism&lt;/li>\n&lt;li>r_ideoName->[hyphenPrefix]-[keyDeity]ism&lt;/li>\n&lt;li>r_ideoName->[keyDeity]'s [creed]&lt;/li>\n&lt;li>r_ideoName->[creed] de [keyDeity]&lt;/li>\n&lt;li>r_ideoAdjetivo->[keyDeity]ic&lt;/li>\n&lt;li>r_memberName->[keyDeity]ist&lt;/li>\n&lt;li>r_memberName->[keyDeity]ite&lt;/li>\n&lt;li>r_ideoName(p=6)->[packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=2,forcePrefix=False)->[hyphenPrefix]-[packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=2,forcePrefix=False)->[hyphenPrefix]-[packIdeoNameStructure]&lt;/li>\n&lt;li>r_ideoName(p=2)->[memeAdjective] [creed]&lt;/li>\n&lt;li>r_ideoName(p=1)->[creed] de [packTheme]&lt;/li>\n&lt;li>r_ideoName(p=1)->[place_adjetivo] [creed]&lt;/li>\n&lt;li>r_ideoName (p=0,25)-> O [memeCreed]&lt;/li>\n&lt;li>r_ideoAdjetivo(prioridade=1)->[packAdjetivo]&lt;/li>\n&lt;li>r_memberName->[packMember]&lt;/li>\n&lt;li>creed(priority=1)->[memeCreed]&lt;/li>\n&lt;li>creed->[genericCreed]&lt;/li>\n&lt;li>genericCreed->creed&lt;/li>\n&lt;li>genericCreed->doctrine&lt;/li>\n&lt;li>genericCreed->way&lt;/li>\n&lt;li>genericCreed->path&lt;/li>\n&lt;li>hyphenPrefix->[globalHyphenPrefix]&lt;/li>\n&lt;li>hyphenPrefix->[meHyphenPrefix]&lt;/li>\n&lt;li>globalHyphenPrefix (p=4)->neo&lt;/li>\n&lt;li>globalHyphenPrefix (p=2)->post&lt;/li>\n&lt;li>globalHyphenPrefix->nova&lt;/li>\n&lt;li>globalHyphenPrefix->archaeo&lt;/li>\n&lt;li>globalHyphenPrefix->hyper&lt;/li>\n</NamerIdeoGlobal.rulePack.rulesStrings>
+  <NamerIdeoGlobal.rulePack.rulesStrings>
+    <li>r_ideoName->[keyDeity]ismo</li>
+    <li>r_ideoName->[hyphenPrefix]-[keyDeity]ismo</li>
+    <li>r_ideoName->[creed] de [keyDeity]</li>
+    <li>r_ideoName->[creed] segundo [keyDeity]</li>
+    <li>r_ideoAdjective->[keyDeity]ico</li>
+    <li>r_memberName->[keyDeity]ista</li>
+    <li>r_memberName->[keyDeity]ita</li>
+    <li>r_ideoName(p=6)->[packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoNameStructure]</li>
+    <li>r_ideoName(p=2)->[creed] [memeAdjective]</li>
+    <li>r_ideoName(p=1)->[creed] de [packTheme]</li>
+    <li>r_ideoName(p=1)->[creed] [place_adjective]</li>
+    <li>r_ideoName(p=0.25)->[memeCreed]</li>
+    <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
+    <li>r_memberName->[packMember]</li>
+    <li>creed(priority=1)->[memeCreed]</li>
+    <li>creed->[genericCreed]</li>
+    <li>genericCreed->credo</li>
+    <li>genericCreed->dogma</li>
+    <li>genericCreed->caminho</li>
+    <li>genericCreed->trilho</li>
+    <li>hyphenPrefix->[globalHyphenPrefix]</li>
+    <li>hyphenPrefix->[memeHyphenPrefix]</li>
+    <li>globalHyphenPrefix(p=4)->neo</li>
+    <li>globalHyphenPrefix(p=2)->pós</li>
+    <li>globalHyphenPrefix->nova</li>
+    <li>globalHyphenPrefix->arqueo</li>
+    <li>globalHyphenPrefix->hiper</li>
+  </NamerIdeoGlobal.rulePack.rulesStrings>
   
 </LanguageData>

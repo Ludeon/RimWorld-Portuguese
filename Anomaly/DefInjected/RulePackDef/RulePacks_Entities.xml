@@ -4,50 +4,74 @@
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] leaped onto [SUBJECT_definite] and began digesting [SUBJECT_objective].</li>
   -->
-  <Event_DevourerConsumeLeap.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] saltou para [SUBJECT_definite] e começou a digerir [SUBJECT_objective].&lt;/li>\n</Event_DevourerConsumeLeap.rulePack.rulesStrings>
+  <Event_DevourerConsumeLeap.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] saltou para cima de [SUBJECT_definite] e começou a digeri-lo.</li>
+  </Event_DevourerConsumeLeap.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <Event_DevourerConsumeLeap.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] saltou para [SUBJECT_definite] e começou a digerir [SUBJECT_objective].&lt;/li>\n</Event_DevourerConsumeLeap.rulePack.rulesStrings>
+  <Event_DevourerConsumeLeap.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] saltou para cima de [SUBJECT_definite] e começou a digeri-lo.</li>
+  </Event_DevourerConsumeLeap.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] vomited [SUBJECT_definite] up.</li>
   -->
-  <Event_DevourerDigestionAborted.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] vomitado [SUBJECT_definite] para cima.&lt;/li>\n</Event_DevourerDigestionAborted.rulePack.rulesStrings>
+  <Event_DevourerDigestionAborted.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] vomitou [SUBJECT_definite].</li>
+  </Event_DevourerDigestionAborted.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <Event_DevourerDigestionAborted.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] vomitado [SUBJECT_definite] para cima.&lt;/li>\n</Event_DevourerDigestionAborted.rulePack.rulesStrings>
+  <Event_DevourerDigestionAborted.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] vomitou [SUBJECT_definite].</li>
+  </Event_DevourerDigestionAborted.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] digested [SUBJECT_definite].</li>
   -->
-  <Event_DevourerDigestionCompleted.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] digerido [SUBJECT_definite].&lt;/li>\n</Event_DevourerDigestionCompleted.rulePack.rulesStrings>
+  <Event_DevourerDigestionCompleted.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] digeriu [SUBJECT_definite].</li>
+  </Event_DevourerDigestionCompleted.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <Event_DevourerDigestionCompleted.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] digerido [SUBJECT_definite].&lt;/li>\n</Event_DevourerDigestionCompleted.rulePack.rulesStrings>
+  <Event_DevourerDigestionCompleted.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] digeriu [SUBJECT_definite].</li>
+  </Event_DevourerDigestionCompleted.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] put [SUBJECT_definite] into a trance.</li>
   -->
-  <Event_Hypnotized.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] colocar [SUBJECT_definite] em uma transe.&lt;/li>\n</Event_Hypnotized.rulePack.rulesStrings>
+  <Event_Hypnotized.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] pôs [SUBJECT_definite] em transe.</li>
+  </Event_Hypnotized.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <Event_Hypnotized.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] colocar [SUBJECT_definite] em uma transe.&lt;/li>\n</Event_Hypnotized.rulePack.rulesStrings>
+  <Event_Hypnotized.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] pôs [SUBJECT_definite] em transe.</li>
+  </Event_Hypnotized.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] emerged from [SUBJECT_definite].</li>
   -->
-  <Event_MetalhorrorEmerged.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] surgiu de [SUBJECT_definite].&lt;/li>\n</Event_MetalhorrorEmerged.rulePack.rulesStrings>
+  <Event_MetalhorrorEmerged.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] emergiu de [SUBJECT_definite].</li>
+  </Event_MetalhorrorEmerged.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <Event_MetalhorrorEmerged.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] surgiu de [SUBJECT_definite].&lt;/li>\n</Event_MetalhorrorEmerged.rulePack.rulesStrings>
+  <Event_MetalhorrorEmerged.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] emergiu de [SUBJECT_definite].</li>
+  </Event_MetalhorrorEmerged.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] psychically incinerated [SUBJECT_definite]'s brain.</li>
   -->
-  <Event_UnnaturalCorpseAttack.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] psiquicamente incinerado [SUBJECT_definite] do cérebro.&lt;/li>\n</Event_UnnaturalCorpseAttack.rulePack.rulesStrings>
+  <Event_UnnaturalCorpseAttack.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] incinerou psiquicamente o cérebro de [SUBJECT_definite].</li>
+  </Event_UnnaturalCorpseAttack.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <Event_UnnaturalCorpseAttack.rulePack.rulesStrings>&lt;li>r_logentry->[INITIATOR_definite] psiquicamente incinerado [SUBJECT_definite] do cérebro.&lt;/li>\n</Event_UnnaturalCorpseAttack.rulePack.rulesStrings>
+  <Event_UnnaturalCorpseAttack.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] incinerou psiquicamente o cérebro de [SUBJECT_definite].</li>
+  </Event_UnnaturalCorpseAttack.rulePack.rulesStrings>
   
   <!-- EN:
     <li>verb->breathing</li>
@@ -67,9 +91,43 @@
     <li>verb->gnashing</li>
     <li>verb->coughing</li>
   -->
-  <RevenantNoises.rulePack.rulesStrings>&lt;li>verb->breathing&lt;/li>\n&lt;li>verb->shuddering&lt;/li>\n&lt;li>verb->shivering&lt;/li>\n&lt;li>verb->creaking&lt;/li>\n&lt;li>verb->rasping&lt;/li>\n&lt;li>verb->scraping&lt;/li>\n&lt;li>verb->hising&lt;/li>\n&lt;li>verb->groaning&lt;/li>\n&lt;li>verb->grumbling&lt;/li>\n&lt;li>verb->chattering&lt;/li>\n&lt;li>verb-> clicking&lt;/li>\n&lt;li>verb->wheezing&lt;/li>\n&lt;li>verb->rattling&lt;/li>\n&lt;li>verb->twitching&lt;/li>\n&lt;li>verb->gnando&lt;/li>\n&lt;li>verb-> tosse&lt;/li>\n</RevenantNoises.rulePack.rulesStrings>
+  <RevenantNoises.rulePack.rulesStrings>
+    <li>verb->a respirar</li>
+    <li>verb->a estremecer</li>
+    <li>verb->a tremer</li>
+    <li>verb->a ranger</li>
+    <li>verb->a arfar roucamente</li>
+    <li>verb->a raspar</li>
+    <li>verb->a sibilar</li>
+    <li>verb->a gemer</li>
+    <li>verb->a resmungar</li>
+    <li>verb->a bater os dentes</li>
+    <li>verb->a estalar</li>
+    <li>verb->a respirar com pieira</li>
+    <li>verb->a chocalhar</li>
+    <li>verb->a contorcer-se</li>
+    <li>verb->a ranger os dentes</li>
+    <li>verb->a tossir</li>
+  </RevenantNoises.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <RevenantNoises.rulePack.rulesStrings>&lt;li>verb->breathing&lt;/li>\n&lt;li>verb->shuddering&lt;/li>\n&lt;li>verb->shivering&lt;/li>\n&lt;li>verb->creaking&lt;/li>\n&lt;li>verb->rasping&lt;/li>\n&lt;li>verb->scraping&lt;/li>\n&lt;li>verb->hising&lt;/li>\n&lt;li>verb->groaning&lt;/li>\n&lt;li>verb->grumbling&lt;/li>\n&lt;li>verb->chattering&lt;/li>\n&lt;li>verb-> clicking&lt;/li>\n&lt;li>verb->wheezing&lt;/li>\n&lt;li>verb->rattling&lt;/li>\n&lt;li>verb->twitching&lt;/li>\n&lt;li>verb->gnando&lt;/li>\n&lt;li>verb-> tosse&lt;/li>\n</RevenantNoises.rulePack.rulesStrings>
+  <RevenantNoises.rulePack.rulesStrings>
+    <li>verb->a respirar</li>
+    <li>verb->a estremecer</li>
+    <li>verb->a tremer</li>
+    <li>verb->a ranger</li>
+    <li>verb->a arfar roucamente</li>
+    <li>verb->a raspar</li>
+    <li>verb->a sibilar</li>
+    <li>verb->a gemer</li>
+    <li>verb->a resmungar</li>
+    <li>verb->a bater os dentes</li>
+    <li>verb->a estalar</li>
+    <li>verb->a respirar com pieira</li>
+    <li>verb->a chocalhar</li>
+    <li>verb->a contorcer-se</li>
+    <li>verb->a ranger os dentes</li>
+    <li>verb->a tossir</li>
+  </RevenantNoises.rulePack.rulesStrings>
   
 </LanguageData>

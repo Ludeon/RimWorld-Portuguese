@@ -4,35 +4,55 @@
   <!-- EN:
     <li>threatDescription->[gameConditionDescriptionFuture].</li>
   -->
-  <Util_GameConditionNegativeRandom.questDescriptionRules.rulesStrings>&lt;li>threatDescription->[gameConditionDescriptionFuture].&lt;/li>\n</Util_GameConditionNegativeRandom.questDescriptionRules.rulesStrings>
+  <Util_GameConditionNegativeRandom.questDescriptionRules.rulesStrings>
+    <li>threatDescription->[gameConditionDescriptionFuture].</li>
+  </Util_GameConditionNegativeRandom.questDescriptionRules.rulesStrings>
   
   <!-- UNUSED -->
-  <Util_GameConditionNegativeRandom.questDescriptionRules.rulesStrings>&lt;li>threatDescription->[gameConditionDescriptionFuture].&lt;/li>\n</Util_GameConditionNegativeRandom.questDescriptionRules.rulesStrings>
+  <Util_GameConditionNegativeRandom.questDescriptionRules.rulesStrings>
+    <li>threatDescription->[gameConditionDescriptionFuture].</li>
+  </Util_GameConditionNegativeRandom.questDescriptionRules.rulesStrings>
   
   <!-- EN:
     <li>threatDescription->(*Threat)[hivesCount] insect hives(/Threat) will burrow up from underground.</li>
   -->
-  <Util_Infestation.questDescriptionRules.rulesStrings>&lt;li>threatDescription->(*Threat)[hivesCount] as colmeias de insetos (/Threat) vão escavar para cima do subterrâneo.&lt;/li>\n</Util_Infestation.questDescriptionRules.rulesStrings>
+  <Util_Infestation.questDescriptionRules.rulesStrings>
+    <li>threatDescription->(*Threat)[hivesCount] colmeias de insetos(/Threat) vão escavar a partir do subsolo.</li>
+  </Util_Infestation.questDescriptionRules.rulesStrings>
   
   <!-- UNUSED -->
-  <Util_Infestation.questDescriptionRules.rulesStrings>&lt;li>threatDescription->(*Threat)[hivesCount] as colmeias de insetos (/Threat) vão escavar para cima do subterrâneo.&lt;/li>\n</Util_Infestation.questDescriptionRules.rulesStrings>
+  <Util_Infestation.questDescriptionRules.rulesStrings>
+    <li>threatDescription->(*Threat)[hivesCount] colmeias de insetos(/Threat) vão escavar a partir do subsolo.</li>
+  </Util_Infestation.questDescriptionRules.rulesStrings>
   
   <!-- EN:
     <li>threatDescription->a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat) will arrive.</li>
   -->
-  <Util_ManhunterPack.questDescriptionRules.rulesStrings>&lt;li>threatDescription->um pacote de (*Threat)[animalCount] caça ao homem [animalKind_labelPlural](/Threat) chegará.&lt;/li>\n</Util_ManhunterPack.questDescriptionRules.rulesStrings>
+  <Util_ManhunterPack.questDescriptionRules.rulesStrings>
+    <li>threatDescription->chegará um bando de (*Threat)[animalCount] [animalKind_labelPlural] caçadores de homens(/Threat).</li>
+  </Util_ManhunterPack.questDescriptionRules.rulesStrings>
   
   <!-- UNUSED -->
-  <Util_ManhunterPack.questDescriptionRules.rulesStrings>&lt;li>threatDescription->um pacote de (*Threat)[animalCount] caça ao homem [animalKind_labelPlural](/Threat) chegará.&lt;/li>\n</Util_ManhunterPack.questDescriptionRules.rulesStrings>
+  <Util_ManhunterPack.questDescriptionRules.rulesStrings>
+    <li>threatDescription->chegará um bando de (*Threat)[animalCount] [animalKind_labelPlural] caçadores de homens(/Threat).</li>
+  </Util_ManhunterPack.questDescriptionRules.rulesStrings>
   
   <!-- EN:
     <li>threatDescription->a new site will appear nearby, where [allSitePartsDescriptions] This threat will remain until you go destroy it.</li>
     <li>defaultSiteAppearedLetterText->A new site has appeared nearby.\n\n[allSitePartsDescriptions]</li>
     <li>defaultSiteAppearedLetterLabel->Site appeared: [site_label]</li>
   -->
-  <Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>&lt;li>threatDescription->um novo site aparecerá nas proximidades, onde [allSitePartsDescriptions] Esta ameaça permanecerá até que você a destrua.&lt;/li>\n&lt;li>defaultSiteAparecido LetterText->Um novo site apareceu nas proximidades.\n\n[allSitePartsDescriptions]&lt;/li>\n&lt;li>defaultSiteAparecido LetterLabel-> Site apareceu: [site_label]&lt;/li>\n</Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
+  <Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
+    <li>threatDescription->aparecerá um novo local nas proximidades, onde [allSitePartsDescriptions] Esta ameaça permanecerá até que vás destruí-la.</li>
+    <li>defaultSiteAppearedLetterText->Apareceu um novo local nas proximidades.\n\n[allSitePartsDescriptions]</li>
+    <li>defaultSiteAppearedLetterLabel->Local apareceu: [site_label]</li>
+  </Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
   
   <!-- UNUSED -->
-  <Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>&lt;li>threatDescription->um novo site aparecerá nas proximidades, onde [allSitePartsDescriptions] Esta ameaça permanecerá até que você a destrua.&lt;/li>\n&lt;li>defaultSiteAparecido LetterText->Um novo site apareceu nas proximidades.\n\n[allSitePartsDescriptions]&lt;/li>\n&lt;li>defaultSiteAparecido LetterLabel-> Site apareceu: [site_label]&lt;/li>\n</Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
+  <Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
+    <li>threatDescription->aparecerá um novo local nas proximidades, onde [allSitePartsDescriptions] Esta ameaça permanecerá até que vás destruí-la.</li>
+    <li>defaultSiteAppearedLetterText->Apareceu um novo local nas proximidades.\n\n[allSitePartsDescriptions]</li>
+    <li>defaultSiteAppearedLetterLabel->Local apareceu: [site_label]</li>
+  </Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
   
 </LanguageData>

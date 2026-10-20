@@ -8,7 +8,13 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [commonMainPart]</li>
     <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, (*Threat)a mechanoid cluster(/Threat) will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.[helpersParagraph]</li>
   -->
-  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>&lt;li>dangersDescrição (prioridade=1)->\n\nAs cápsulas contêm estes perigos:\n\n[allThreats]\n&lt;li>dangersDescription->&lt;/li>\n&lt;li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], está fazendo um pedido. [commonMainPart]&lt;/li>\n&lt;li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], está fazendo um pedido. [commonMainPart]&lt;/li>\n&lt;li>commonMainPart-> Um enxame mecanóide tem atacado [asker_possessive] assentamentos. [asker_pronoun] quer que você sinalize os mechs para distraí-los enquanto [asker_pronoun] limpa a colmeia. Se você fizer, (*Três) um cluster mecanóide (/Três) pousará em [map_definite]. [descrição]\n\nO aglomerado mecanóide será inicialmente adormecido. Pode ter um ativador de contagem regressiva, ou pode ficar adormecido para sempre até perturbado. [helpersParagraph]&lt;/li>\n</ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+    <li>dangersDescription(priority=1)->\n\nAs cápsulas contêm estes perigos:\n\n[allThreats]</li>
+    <li>dangersDescription-></li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], está a fazer um pedido. [commonMainPart]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], [asker_royalTitleInCurrentFaction] de [asker_faction_name], está a fazer um pedido. [commonMainPart]</li>
+    <li>commonMainPart->Um enxame mecanoide tem atacado os assentamentos de [asker_nameDef]. [asker_pronoun] quer que sinalizes os mecs para os distrair enquanto [asker_pronoun] limpa a colmeia. Se o fizeres, (*Threat)um aglomerado mecanoide(/Threat) aterrará em [map_definite].[dangersDescription]\n\nO aglomerado mecanoide estará inicialmente adormecido. Pode ter um ativador de contagem decrescente ou permanecer adormecido para sempre, até ser perturbado.[helpersParagraph]</li>
+  </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>
     <li>questName->[menace] pods</li>
@@ -24,10 +30,44 @@
     <li>menace->terror</li>
     <li>menace->fear</li>
   -->
-  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>&lt;li>questName->[menace] cluster&lt;/li>\n&lt;li>questName->[menace] pods&lt;/li>\n&lt;li>questName->[nameBased]&lt;/li>\n&lt;li>nameBased->[asker_name Def]'s mechs&lt;/li>\n&lt;li>nameBased->[asker_name Mecanoides de Def]&lt;/li>\n&lt;li>nameBased->[asker_name Def]'s mech cluster&lt;/li>\n&lt;li>nameBased->[asker_name Mech [menace]&lt;/li>\n&lt;li>menace->threat&lt;/li>\n&lt;li>menace->menace&lt;/li>\n&lt;li>menace->scourge&lt;/li>\n&lt;li>menace->danger&lt;/li>\n&lt;li>menace->terror&lt;/li>\n&lt;li>menace->fear&lt;/li>\n</ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+    <li>questName->aglomerado de [menace]</li>
+    <li>questName->cápsulas de [menace]</li>
+    <li>questName->[nameBased]</li>
+    <li>nameBased->mecs de [asker_nameDef]</li>
+    <li>nameBased->mecanoides de [asker_nameDef]</li>
+    <li>nameBased->aglomerado mec de [asker_nameDef]</li>
+    <li>nameBased->[menace] mec de [asker_nameDef]</li>
+    <li>menace->ameaça</li>
+    <li>menace->intimidação</li>
+    <li>menace->flagelo</li>
+    <li>menace->perigo</li>
+    <li>menace->terror</li>
+    <li>menace->medo</li>
+  </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
   
   <!-- UNUSED -->
-  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>&lt;li>dangersDescrição (prioridade=1)->\n\nAs cápsulas contêm estes perigos:\n\n[allThreats]\n&lt;li>dangersDescription->&lt;/li>\n&lt;li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], está fazendo um pedido. [commonMainPart]&lt;/li>\n&lt;li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], está fazendo um pedido. [commonMainPart]&lt;/li>\n&lt;li>commonMainPart-> Um enxame mecanóide tem atacado [asker_possessive] assentamentos. [asker_pronoun] quer que você sinalize os mechs para distraí-los enquanto [asker_pronoun] limpa a colmeia. Se você fizer, (*Três) um cluster mecanóide (/Três) pousará em [map_definite]. [descrição]\n\nO aglomerado mecanóide será inicialmente adormecido. Pode ter um ativador de contagem regressiva, ou pode ficar adormecido para sempre até perturbado. [helpersParagraph]&lt;/li>\n</ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
-  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>&lt;li>questName->[menace] cluster&lt;/li>\n&lt;li>questName->[menace] pods&lt;/li>\n&lt;li>questName->[nameBased]&lt;/li>\n&lt;li>nameBased->[asker_name Def]'s mechs&lt;/li>\n&lt;li>nameBased->[asker_name Mecanoides de Def]&lt;/li>\n&lt;li>nameBased->[asker_name Def]'s mech cluster&lt;/li>\n&lt;li>nameBased->[asker_name Mech [menace]&lt;/li>\n&lt;li>menace->threat&lt;/li>\n&lt;li>menace->menace&lt;/li>\n&lt;li>menace->scourge&lt;/li>\n&lt;li>menace->danger&lt;/li>\n&lt;li>menace->terror&lt;/li>\n&lt;li>menace->fear&lt;/li>\n</ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+    <li>dangersDescription(priority=1)->\n\nAs cápsulas contêm estes perigos:\n\n[allThreats]</li>
+    <li>dangersDescription-></li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], está a fazer um pedido. [commonMainPart]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], [asker_royalTitleInCurrentFaction] de [asker_faction_name], está a fazer um pedido. [commonMainPart]</li>
+    <li>commonMainPart->Um enxame mecanoide tem atacado os assentamentos de [asker_nameDef]. [asker_pronoun] quer que sinalizes os mecs para os distrair enquanto [asker_pronoun] limpa a colmeia. Se o fizeres, (*Threat)um aglomerado mecanoide(/Threat) aterrará em [map_definite].[dangersDescription]\n\nO aglomerado mecanoide estará inicialmente adormecido. Pode ter um ativador de contagem decrescente ou permanecer adormecido para sempre, até ser perturbado.[helpersParagraph]</li>
+  </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+    <li>questName->aglomerado de [menace]</li>
+    <li>questName->cápsulas de [menace]</li>
+    <li>questName->[nameBased]</li>
+    <li>nameBased->mecs de [asker_nameDef]</li>
+    <li>nameBased->mecanoides de [asker_nameDef]</li>
+    <li>nameBased->aglomerado mec de [asker_nameDef]</li>
+    <li>nameBased->[menace] mec de [asker_nameDef]</li>
+    <li>menace->ameaça</li>
+    <li>menace->intimidação</li>
+    <li>menace->flagelo</li>
+    <li>menace->perigo</li>
+    <li>menace->terror</li>
+    <li>menace->medo</li>
+  </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>

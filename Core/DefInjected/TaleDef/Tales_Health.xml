@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: downed -->
-  <Downed.label>abaixo</Downed.label>
+  <Downed.label>derrubado</Downed.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
@@ -40,13 +40,85 @@
     <li>desc_sentence->[KILLER_nameDef] looks pleased with the situation.</li>
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
-  <Downed.rulePack.rulesStrings>&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]&lt;/li>\n&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um [WEAPON_label]&lt;/li>\n&lt;li>tale_noun->the [wound_name_present] of [VICTIM_nameDef] by [KILLER_nameDef]&lt;/li>\n&lt;li>tale_noun->the [wound_name_present] of [VICTIM_nameDef] with a [WEAPON_label]&lt;/li>\n&lt;li>tale_noun->the [wound_name_present] of [VICTIM_nameDef]&lt;/li>\n&lt;li>image->[VICTIM_nameFull] sendo [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] brutalmente [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[VICTIM_nameFull] sendo [wound_name_past] [with_weapon_optional]&lt;/li>\n&lt;li>wound_name_past->incapacitated&lt;/li>\n&lt;li>wound_name_past->crippled&lt;/li>\n&lt;li>wound_name_past->knocked inconsciente&lt;/li>\n&lt;li>wound_name_past->disabled&lt;/li>\n&lt;li>wound_name_present->incapacitating&lt;/li>\n&lt;li>wound_name_present->harming&lt;/li>\n&lt;li>wound_name_present->knocking inconsciente&lt;/li>\n&lt;li>wound_name_present->disabling&lt;/li>\n&lt;li>with_weapon_optional-> com um [WEAPON_label] [circumstance_group]&lt;/li>\n&lt;li>with_weapon_optional->[circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase->seemingly sem remorse&lt;/li>\n&lt;li>circumstance_phrase-> com eficiência fria&lt;/li>\n&lt;li>circumstance_phrase-> com raiva apaixonada&lt;/li>\n&lt;li>circumstance_phrase-> com movimentos rápidos e eficientes&lt;/li>\n&lt;li>circumstance_phrase-> sem emoção ou expressão&lt;/li>\n&lt;li>circumstance_phrase->out da necessidade fraca&lt;/li>\n&lt;li>circumstance_phrase-> em uma maneira covarde, meiohearted&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s look on.&lt;/li>\n&lt;li>desc_sentence->A [PersonJob] relógios silenciosamente [side_position].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] parece [AdjectiveAngsty].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] os olhos estão fechados.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] está barcando [KILLER_possessive] dentes.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece angustiado com o que [KILLER_pronoun] está fazendo.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito com a situação.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece triunfante.&lt;/li>\n</Downed.rulePack.rulesStrings>
+  <Downed.rulePack.rulesStrings>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com [WEAPON_label]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] por [KILLER_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] com [WEAPON_label]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past]</li>
+    <li>image->[VICTIM_nameFull] a ser [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] brutalmente [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] a ser [wound_name_past] [with_weapon_optional]</li>
+    <li>wound_name_past->incapacitado</li>
+    <li>wound_name_past->estropiado</li>
+    <li>wound_name_past->posto inconsciente</li>
+    <li>wound_name_past->neutralizado</li>
+    <li>wound_name_present->a incapacitar</li>
+    <li>wound_name_present->a ferir</li>
+    <li>wound_name_present->a deixar inconsciente</li>
+    <li>wound_name_present->a neutralizar</li>
+    <li>with_weapon_optional->com [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->[circumstance_group]</li>
+    <li>circumstance_phrase->aparentemente sem remorsos</li>
+    <li>circumstance_phrase->com fria eficiência</li>
+    <li>circumstance_phrase->com uma raiva apaixonada</li>
+    <li>circumstance_phrase->com movimentos rápidos e eficientes</li>
+    <li>circumstance_phrase->sem emoção nem expressão</li>
+    <li>circumstance_phrase->por pura e triste necessidade</li>
+    <li>circumstance_phrase->de forma cobarde e hesitante</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam.</li>
+    <li>desc_sentence->Um [PersonJob] observa em silêncio [side_position].</li>
+    <li>desc_sentence->[VICTIM_nameDef] parece [AdjectiveAngsty].</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem os olhos fechados.</li>
+    <li>desc_sentence->[KILLER_nameDef] arreganha os dentes.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar de satisfação.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece angustiar-se com o que está a fazer.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece agradar-se da situação.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar triunfante.</li>
+  </Downed.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <Downed.rulePack.rulesStrings>&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]&lt;/li>\n&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um [WEAPON_label]&lt;/li>\n&lt;li>tale_noun->the [wound_name_present] of [VICTIM_nameDef] by [KILLER_nameDef]&lt;/li>\n&lt;li>tale_noun->the [wound_name_present] of [VICTIM_nameDef] with a [WEAPON_label]&lt;/li>\n&lt;li>tale_noun->the [wound_name_present] of [VICTIM_nameDef]&lt;/li>\n&lt;li>image->[VICTIM_nameFull] sendo [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] brutalmente [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[VICTIM_nameFull] sendo [wound_name_past] [with_weapon_optional]&lt;/li>\n&lt;li>wound_name_past->incapacitated&lt;/li>\n&lt;li>wound_name_past->crippled&lt;/li>\n&lt;li>wound_name_past->knocked inconsciente&lt;/li>\n&lt;li>wound_name_past->disabled&lt;/li>\n&lt;li>wound_name_present->incapacitating&lt;/li>\n&lt;li>wound_name_present->harming&lt;/li>\n&lt;li>wound_name_present->knocking inconsciente&lt;/li>\n&lt;li>wound_name_present->disabling&lt;/li>\n&lt;li>with_weapon_optional-> com um [WEAPON_label] [circumstance_group]&lt;/li>\n&lt;li>with_weapon_optional->[circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase->seemingly sem remorse&lt;/li>\n&lt;li>circumstance_phrase-> com eficiência fria&lt;/li>\n&lt;li>circumstance_phrase-> com raiva apaixonada&lt;/li>\n&lt;li>circumstance_phrase-> com movimentos rápidos e eficientes&lt;/li>\n&lt;li>circumstance_phrase-> sem emoção ou expressão&lt;/li>\n&lt;li>circumstance_phrase->out da necessidade fraca&lt;/li>\n&lt;li>circumstance_phrase-> em uma maneira covarde, meiohearted&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s look on.&lt;/li>\n&lt;li>desc_sentence->A [PersonJob] relógios silenciosamente [side_position].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] parece [AdjectiveAngsty].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] os olhos estão fechados.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] está barcando [KILLER_possessive] dentes.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece angustiado com o que [KILLER_pronoun] está fazendo.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito com a situação.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece triunfante.&lt;/li>\n</Downed.rulePack.rulesStrings>
+  <Downed.rulePack.rulesStrings>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com [WEAPON_label]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] por [KILLER_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] com [WEAPON_label]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past]</li>
+    <li>image->[VICTIM_nameFull] a ser [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] brutalmente [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] a ser [wound_name_past] [with_weapon_optional]</li>
+    <li>wound_name_past->incapacitado</li>
+    <li>wound_name_past->estropiado</li>
+    <li>wound_name_past->posto inconsciente</li>
+    <li>wound_name_past->neutralizado</li>
+    <li>wound_name_present->a incapacitar</li>
+    <li>wound_name_present->a ferir</li>
+    <li>wound_name_present->a deixar inconsciente</li>
+    <li>wound_name_present->a neutralizar</li>
+    <li>with_weapon_optional->com [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->[circumstance_group]</li>
+    <li>circumstance_phrase->aparentemente sem remorsos</li>
+    <li>circumstance_phrase->com fria eficiência</li>
+    <li>circumstance_phrase->com uma raiva apaixonada</li>
+    <li>circumstance_phrase->com movimentos rápidos e eficientes</li>
+    <li>circumstance_phrase->sem emoção nem expressão</li>
+    <li>circumstance_phrase->por pura e triste necessidade</li>
+    <li>circumstance_phrase->de forma cobarde e hesitante</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam.</li>
+    <li>desc_sentence->Um [PersonJob] observa em silêncio [side_position].</li>
+    <li>desc_sentence->[VICTIM_nameDef] parece [AdjectiveAngsty].</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem os olhos fechados.</li>
+    <li>desc_sentence->[KILLER_nameDef] arreganha os dentes.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar de satisfação.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece angustiar-se com o que está a fazer.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece agradar-se da situação.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar triunfante.</li>
+  </Downed.rulePack.rulesStrings>
   
   <!-- EN: exhausted -->
-  <Exhausted.label>esgotado</Exhausted.label>
+  <Exhausted.label>exausto</Exhausted.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] collapsing from exhaustion</li>
     <li>image->[PAWN_nameFull] collapsing on the ground [circumstance_group]</li>
@@ -64,10 +136,42 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s lie nearby in a similar state.</li>
     <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
   -->
-  <Exhausted.rulePack.rulesStrings>&lt;li>tale_noun->[PAWN_nameDef] colapsando de exaustão&lt;/li>\n&lt;li>image->[PAWN_nameFull] colapsando no chão [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] deitado no chão [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] deitado na cama [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] colapsou em uma cadeira [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] pacificamente dormindo [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> com olhos fechados&lt;/li>\n&lt;li>circumstance_phrase-> com uma aparência visível de exaustão&lt;/li>\n&lt;li>circumstance_phrase-> enquanto coberto de suor&lt;/li>\n&lt;li>circumstance_phrase-> e incapaz de mover um músculo&lt;/li>\n&lt;li>desc_sentence-> [PAWN_name O último projeto da Def] fica próximo, completo.&lt;/li>\n&lt;li>desc_sentence-> Uma construção maravilhosa envolve [PAWN_nameDef].&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [PersonJob]s parecem gratos pelo esforço heroico de [PAWN_nameDef].&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [PersonJob]s estão nas proximidades em um estado semelhante.&lt;/li>\n&lt;li>desc_sentence-> A cena ocorre dentro de um recém-construído [Comunidade].&lt;/li>\n</Exhausted.rulePack.rulesStrings>
+  <Exhausted.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] a desfalecer de exaustão</li>
+    <li>image->[PAWN_nameFull] a desfalecer no chão [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] estendido no chão [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] deitado na cama [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] prostrado numa cadeira [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a dormir tranquilamente [circumstance_group]</li>
+    <li>circumstance_phrase->de olhos fechados</li>
+    <li>circumstance_phrase->com um ar visível de exaustão</li>
+    <li>circumstance_phrase->coberto de suor</li>
+    <li>circumstance_phrase->e sem conseguir mexer um músculo</li>
+    <li>desc_sentence->O último projeto de [PAWN_nameDef] está ali perto, concluído.</li>
+    <li>desc_sentence->Uma construção maravilhosa rodeia [PAWN_nameDef].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s parecem gratos pelo esforço heroico de [PAWN_nameDef].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s estão ali perto, num estado semelhante.</li>
+    <li>desc_sentence->A cena passa-se em [Community], de construção recente.</li>
+  </Exhausted.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <Exhausted.rulePack.rulesStrings>&lt;li>tale_noun->[PAWN_nameDef] colapsando de exaustão&lt;/li>\n&lt;li>image->[PAWN_nameFull] colapsando no chão [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] deitado no chão [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] deitado na cama [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] colapsou em uma cadeira [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] pacificamente dormindo [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> com olhos fechados&lt;/li>\n&lt;li>circumstance_phrase-> com uma aparência visível de exaustão&lt;/li>\n&lt;li>circumstance_phrase-> enquanto coberto de suor&lt;/li>\n&lt;li>circumstance_phrase-> e incapaz de mover um músculo&lt;/li>\n&lt;li>desc_sentence-> [PAWN_name O último projeto da Def] fica próximo, completo.&lt;/li>\n&lt;li>desc_sentence-> Uma construção maravilhosa envolve [PAWN_nameDef].&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [PersonJob]s parecem gratos pelo esforço heroico de [PAWN_nameDef].&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [PersonJob]s estão nas proximidades em um estado semelhante.&lt;/li>\n&lt;li>desc_sentence-> A cena ocorre dentro de um recém-construído [Comunidade].&lt;/li>\n</Exhausted.rulePack.rulesStrings>
+  <Exhausted.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] a desfalecer de exaustão</li>
+    <li>image->[PAWN_nameFull] a desfalecer no chão [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] estendido no chão [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] deitado na cama [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] prostrado numa cadeira [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a dormir tranquilamente [circumstance_group]</li>
+    <li>circumstance_phrase->de olhos fechados</li>
+    <li>circumstance_phrase->com um ar visível de exaustão</li>
+    <li>circumstance_phrase->coberto de suor</li>
+    <li>circumstance_phrase->e sem conseguir mexer um músculo</li>
+    <li>desc_sentence->O último projeto de [PAWN_nameDef] está ali perto, concluído.</li>
+    <li>desc_sentence->Uma construção maravilhosa rodeia [PAWN_nameDef].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s parecem gratos pelo esforço heroico de [PAWN_nameDef].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s estão ali perto, num estado semelhante.</li>
+    <li>desc_sentence->A cena passa-se em [Community], de construção recente.</li>
+  </Exhausted.rulePack.rulesStrings>
   
   <!-- EN: gave birth -->
   <GaveBirth.label>deu à luz</GaveBirth.label>
@@ -89,13 +193,47 @@
     <li>desc_sentence->A [PersonJob]s watches from a distance.</li>
     <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
   -->
-  <GaveBirth.rulePack.rulesStrings>&lt;li>tale_noun->[MOTHER_nameDef] dando à luz [CHILD_nameDef]&lt;/li>\n&lt;li>image->[MOTHER_nameFull] dando à luz [circumstance_group]&lt;/li>\n&lt;li>image->[MOTHER_nameFull] holding [MOTHER_possessive] [baby], [circumstance_group]&lt;/li>\n&lt;li>image->[MOTHER_nameFull] deitado na cama ao lado de [MOTHER_possessive] [baby], [circumstance_group]&lt;/li>\n&lt;li>image->[MOTHER_nameFull] colapsou em uma cadeira com [MOTHER_possessive] [baby] [circumstance_group]&lt;/li>\n&lt;li>baby->infant&lt;/li>\n&lt;li>baby->newborn&lt;/li>\n&lt;li>baby->baby&lt;/li>\n&lt;li>circumstance_phrase->[CHILD_nameFull], que é sangrenta e chorando&lt;/li>\n&lt;li>circumstance_phrase->[CHILD_nameFull], que está brilhando suavemente [Color]&lt;/li>\n&lt;li>circumstance_phrase->[CHILD_nameFull], que já está tentando puxar [CHILD_objective]self around&lt;/li>\n&lt;li>circumstance_phrase->[CHILD_nameFull], que está olhando ao redor com uma expressão de serenidade&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s dorme pacificamente perto.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [PersonJob]s olham para a cena.&lt;/li>\n&lt;li>desc_sentence->A [PersonJob]s relógios de uma distância.&lt;/li>\n&lt;li>desc_sentence-> A cena ocorre dentro de um recém-construído [Comunidade].&lt;/li>\n</GaveBirth.rulePack.rulesStrings>
+  <GaveBirth.rulePack.rulesStrings>
+    <li>tale_noun->[MOTHER_nameDef] a dar à luz [CHILD_nameDef]</li>
+    <li>image->[MOTHER_nameFull] a dar à luz [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] a segurar no seu [baby], [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] deitada na cama ao lado do seu [baby], [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] prostrada numa cadeira com o seu [baby] [circumstance_group]</li>
+    <li>baby->recém-nascido</li>
+    <li>baby->rebento</li>
+    <li>baby->bebé</li>
+    <li>circumstance_phrase->[CHILD_nameFull], que chora coberto de sangue</li>
+    <li>circumstance_phrase->[CHILD_nameFull], que brilha suavemente em [Color]</li>
+    <li>circumstance_phrase->[CHILD_nameFull], que já tenta arrastar-se por ali</li>
+    <li>circumstance_phrase->[CHILD_nameFull], que olha em redor com uma expressão serena</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s dormem tranquilamente ali perto.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s contemplam a cena.</li>
+    <li>desc_sentence->Um [PersonJob] observa à distância.</li>
+    <li>desc_sentence->A cena passa-se em [Community], de construção recente.</li>
+  </GaveBirth.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <GaveBirth.rulePack.rulesStrings>&lt;li>tale_noun->[MOTHER_nameDef] dando à luz [CHILD_nameDef]&lt;/li>\n&lt;li>image->[MOTHER_nameFull] dando à luz [circumstance_group]&lt;/li>\n&lt;li>image->[MOTHER_nameFull] holding [MOTHER_possessive] [baby], [circumstance_group]&lt;/li>\n&lt;li>image->[MOTHER_nameFull] deitado na cama ao lado de [MOTHER_possessive] [baby], [circumstance_group]&lt;/li>\n&lt;li>image->[MOTHER_nameFull] colapsou em uma cadeira com [MOTHER_possessive] [baby] [circumstance_group]&lt;/li>\n&lt;li>baby->infant&lt;/li>\n&lt;li>baby->newborn&lt;/li>\n&lt;li>baby->baby&lt;/li>\n&lt;li>circumstance_phrase->[CHILD_nameFull], que é sangrenta e chorando&lt;/li>\n&lt;li>circumstance_phrase->[CHILD_nameFull], que está brilhando suavemente [Color]&lt;/li>\n&lt;li>circumstance_phrase->[CHILD_nameFull], que já está tentando puxar [CHILD_objective]self around&lt;/li>\n&lt;li>circumstance_phrase->[CHILD_nameFull], que está olhando ao redor com uma expressão de serenidade&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s dorme pacificamente perto.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [PersonJob]s olham para a cena.&lt;/li>\n&lt;li>desc_sentence->A [PersonJob]s relógios de uma distância.&lt;/li>\n&lt;li>desc_sentence-> A cena ocorre dentro de um recém-construído [Comunidade].&lt;/li>\n</GaveBirth.rulePack.rulesStrings>
+  <GaveBirth.rulePack.rulesStrings>
+    <li>tale_noun->[MOTHER_nameDef] a dar à luz [CHILD_nameDef]</li>
+    <li>image->[MOTHER_nameFull] a dar à luz [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] a segurar no seu [baby], [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] deitada na cama ao lado do seu [baby], [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] prostrada numa cadeira com o seu [baby] [circumstance_group]</li>
+    <li>baby->recém-nascido</li>
+    <li>baby->rebento</li>
+    <li>baby->bebé</li>
+    <li>circumstance_phrase->[CHILD_nameFull], que chora coberto de sangue</li>
+    <li>circumstance_phrase->[CHILD_nameFull], que brilha suavemente em [Color]</li>
+    <li>circumstance_phrase->[CHILD_nameFull], que já tenta arrastar-se por ali</li>
+    <li>circumstance_phrase->[CHILD_nameFull], que olha em redor com uma expressão serena</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s dormem tranquilamente ali perto.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s contemplam a cena.</li>
+    <li>desc_sentence->Um [PersonJob] observa à distância.</li>
+    <li>desc_sentence->A cena passa-se em [Community], de construção recente.</li>
+  </GaveBirth.rulePack.rulesStrings>
   
   <!-- EN: heatstroke revealed -->
-  <HeatstrokeRevealed.label>dissipador de calor revelado</HeatstrokeRevealed.label>
+  <HeatstrokeRevealed.label>insolação revelada</HeatstrokeRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] getting heatstroke</li>
     <li>tale_noun->[PAWN_nameDef] overheating</li>
@@ -116,10 +254,48 @@
     <li>desc_sentence->[Quantity_adjphrase] unmoving [Animal]s surround the scene.</li>
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
-  <HeatstrokeRevealed.rulePack.rulesStrings>&lt;li>tale_noun->[PAWN_nameDef] ficando heatstroke&lt;/li>\n&lt;li>tale_noun->[PAWN_nameDef] overheating&lt;/li>\n&lt;li>image->[PAWN_nameFull] trudging through sand [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] abraçado na sombra de um [TerrainFeature] [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] à procura de água [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] procurando sombra [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] rastejando através de sujidade afundada [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> com pele seca vermelha&lt;/li>\n&lt;li>circumstance_phrase-> e coberto de suor&lt;/li>\n&lt;li>circumstance_phrase-> com lábios secos rachados&lt;/li>\n&lt;li>circumstance_phrase-> enquanto vômitos&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] cadáveres desidratados [Animal] cercam a área.&lt;/li>\n&lt;li>desc_sentence-> [PAWN_name As roupas de Def] são manchadas e rasgadas.&lt;/li>\n&lt;li>desc_sentence-> Um sol brilhante teares no fundo.&lt;/li>\n&lt;li>desc_sentence-> A cena acontece dentro de um deserto brilhante.&lt;/li>\n&lt;li>desc_sentence-> A cena parece ter lugar dentro, ao lado de um aquecedor.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] desmotivando [Animal]s cercam a cena.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] morrendo [Animal]s no chão.&lt;/li>\n</HeatstrokeRevealed.rulePack.rulesStrings>
+  <HeatstrokeRevealed.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] a sofrer uma insolação</li>
+    <li>tale_noun->[PAWN_nameDef] a sobreaquecer</li>
+    <li>image->[PAWN_nameFull] a arrastar-se pela areia [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] encolhido à sombra, junto a [TerrainFeature], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] à procura de água [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] à procura de sombra [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a rastejar por terra calcinada pelo sol [circumstance_group]</li>
+    <li>circumstance_phrase->com a pele vermelha e seca</li>
+    <li>circumstance_phrase->e coberto de suor</li>
+    <li>circumstance_phrase->com os lábios secos e gretados</li>
+    <li>circumstance_phrase->enquanto vomita</li>
+    <li>desc_sentence->[Quantity_adjphrase] cadáveres ressequidos de [Animal] rodeiam a área.</li>
+    <li>desc_sentence->As roupas de [PAWN_nameDef] estão esfarrapadas e rasgadas.</li>
+    <li>desc_sentence->Um sol escaldante domina o fundo.</li>
+    <li>desc_sentence->A cena passa-se num deserto escaldante.</li>
+    <li>desc_sentence->A cena parece passar-se num interior, junto a um aquecedor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s imóveis rodeiam a cena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s moribundos jazem no chão.</li>
+  </HeatstrokeRevealed.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <HeatstrokeRevealed.rulePack.rulesStrings>&lt;li>tale_noun->[PAWN_nameDef] ficando heatstroke&lt;/li>\n&lt;li>tale_noun->[PAWN_nameDef] overheating&lt;/li>\n&lt;li>image->[PAWN_nameFull] trudging through sand [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] abraçado na sombra de um [TerrainFeature] [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] à procura de água [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] procurando sombra [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] rastejando através de sujidade afundada [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> com pele seca vermelha&lt;/li>\n&lt;li>circumstance_phrase-> e coberto de suor&lt;/li>\n&lt;li>circumstance_phrase-> com lábios secos rachados&lt;/li>\n&lt;li>circumstance_phrase-> enquanto vômitos&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] cadáveres desidratados [Animal] cercam a área.&lt;/li>\n&lt;li>desc_sentence-> [PAWN_name As roupas de Def] são manchadas e rasgadas.&lt;/li>\n&lt;li>desc_sentence-> Um sol brilhante teares no fundo.&lt;/li>\n&lt;li>desc_sentence-> A cena acontece dentro de um deserto brilhante.&lt;/li>\n&lt;li>desc_sentence-> A cena parece ter lugar dentro, ao lado de um aquecedor.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] desmotivando [Animal]s cercam a cena.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] morrendo [Animal]s no chão.&lt;/li>\n</HeatstrokeRevealed.rulePack.rulesStrings>
+  <HeatstrokeRevealed.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] a sofrer uma insolação</li>
+    <li>tale_noun->[PAWN_nameDef] a sobreaquecer</li>
+    <li>image->[PAWN_nameFull] a arrastar-se pela areia [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] encolhido à sombra, junto a [TerrainFeature], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] à procura de água [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] à procura de sombra [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a rastejar por terra calcinada pelo sol [circumstance_group]</li>
+    <li>circumstance_phrase->com a pele vermelha e seca</li>
+    <li>circumstance_phrase->e coberto de suor</li>
+    <li>circumstance_phrase->com os lábios secos e gretados</li>
+    <li>circumstance_phrase->enquanto vomita</li>
+    <li>desc_sentence->[Quantity_adjphrase] cadáveres ressequidos de [Animal] rodeiam a área.</li>
+    <li>desc_sentence->As roupas de [PAWN_nameDef] estão esfarrapadas e rasgadas.</li>
+    <li>desc_sentence->Um sol escaldante domina o fundo.</li>
+    <li>desc_sentence->A cena passa-se num deserto escaldante.</li>
+    <li>desc_sentence->A cena parece passar-se num interior, junto a um aquecedor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s imóveis rodeiam a cena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s moribundos jazem no chão.</li>
+  </HeatstrokeRevealed.rulePack.rulesStrings>
   
   <!-- EN: hypothermia revealed -->
   <HypothermiaRevealed.label>hipotermia revelada</HypothermiaRevealed.label>
@@ -142,10 +318,46 @@
     <li>desc_sentence->[Quantity_adjphrase] shivering [Animal]s surround the scene.</li>
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
-  <HypothermiaRevealed.rulePack.rulesStrings>&lt;li>tale_noun->[PAWN_nameDef] obtendo hipotermia&lt;/li>\n&lt;li>image->[PAWN_nameFull] trudging through snow [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] abraçado ao lado de um [TerrainFeature] [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] à procura de um quente [Apparel] [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] crouching ao lado de um fogo [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] tentando acender um fogo [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> enquanto [PAWN_possessive] rosto lentamente se torna azul&lt;/li>\n&lt;li>circumstance_phrase-> e shivering uncontrollably&lt;/li>\n&lt;li>circumstance_phrase-> enquanto coberto de frost&lt;/li>\n&lt;li>circumstance_phrase-> enquanto exalando nuvens de nevoeiro&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] cadáveres congelados [Animal] cercam a área.&lt;/li>\n&lt;li>desc_sentence-> [PAWN_name As roupas de Def] são manchadas e usadas.&lt;/li>\n&lt;li>desc_sentence-> A lua azul fria teares no fundo.&lt;/li>\n&lt;li>desc_sentence-> A cena ocorre dentro de uma floresta coberta de neve [TreeType].&lt;/li>\n&lt;li>desc_sentence-> A cena parece ter lugar dentro de um freezer.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] shivering [Animal]s cercam a cena.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] morrendo [Animal]s no chão.&lt;/li>\n</HypothermiaRevealed.rulePack.rulesStrings>
+  <HypothermiaRevealed.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] a sofrer de hipotermia</li>
+    <li>image->[PAWN_nameFull] a arrastar-se pela neve [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] encolhido junto a [TerrainFeature], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] à procura de [Apparel] para se aquecer [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] agachado junto a uma fogueira [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a tentar acender uma fogueira [circumstance_group]</li>
+    <li>circumstance_phrase->enquanto o rosto lhe fica lentamente azul</li>
+    <li>circumstance_phrase->e a tremer descontroladamente</li>
+    <li>circumstance_phrase->coberto de geada</li>
+    <li>circumstance_phrase->enquanto expira nuvens de vapor</li>
+    <li>desc_sentence->[Quantity_adjphrase] cadáveres congelados de [Animal] rodeiam a área.</li>
+    <li>desc_sentence->As roupas de [PAWN_nameDef] estão esfarrapadas e gastas.</li>
+    <li>desc_sentence->Uma lua fria e azul domina o fundo.</li>
+    <li>desc_sentence->A cena passa-se numa floresta de [TreeType] coberta de neve.</li>
+    <li>desc_sentence->A cena parece passar-se dentro de uma câmara frigorífica.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s a tremer rodeiam a cena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s moribundos jazem no chão.</li>
+  </HypothermiaRevealed.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <HypothermiaRevealed.rulePack.rulesStrings>&lt;li>tale_noun->[PAWN_nameDef] obtendo hipotermia&lt;/li>\n&lt;li>image->[PAWN_nameFull] trudging through snow [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] abraçado ao lado de um [TerrainFeature] [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] à procura de um quente [Apparel] [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] crouching ao lado de um fogo [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] tentando acender um fogo [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> enquanto [PAWN_possessive] rosto lentamente se torna azul&lt;/li>\n&lt;li>circumstance_phrase-> e shivering uncontrollably&lt;/li>\n&lt;li>circumstance_phrase-> enquanto coberto de frost&lt;/li>\n&lt;li>circumstance_phrase-> enquanto exalando nuvens de nevoeiro&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] cadáveres congelados [Animal] cercam a área.&lt;/li>\n&lt;li>desc_sentence-> [PAWN_name As roupas de Def] são manchadas e usadas.&lt;/li>\n&lt;li>desc_sentence-> A lua azul fria teares no fundo.&lt;/li>\n&lt;li>desc_sentence-> A cena ocorre dentro de uma floresta coberta de neve [TreeType].&lt;/li>\n&lt;li>desc_sentence-> A cena parece ter lugar dentro de um freezer.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] shivering [Animal]s cercam a cena.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] morrendo [Animal]s no chão.&lt;/li>\n</HypothermiaRevealed.rulePack.rulesStrings>
+  <HypothermiaRevealed.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] a sofrer de hipotermia</li>
+    <li>image->[PAWN_nameFull] a arrastar-se pela neve [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] encolhido junto a [TerrainFeature], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] à procura de [Apparel] para se aquecer [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] agachado junto a uma fogueira [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a tentar acender uma fogueira [circumstance_group]</li>
+    <li>circumstance_phrase->enquanto o rosto lhe fica lentamente azul</li>
+    <li>circumstance_phrase->e a tremer descontroladamente</li>
+    <li>circumstance_phrase->coberto de geada</li>
+    <li>circumstance_phrase->enquanto expira nuvens de vapor</li>
+    <li>desc_sentence->[Quantity_adjphrase] cadáveres congelados de [Animal] rodeiam a área.</li>
+    <li>desc_sentence->As roupas de [PAWN_nameDef] estão esfarrapadas e gastas.</li>
+    <li>desc_sentence->Uma lua fria e azul domina o fundo.</li>
+    <li>desc_sentence->A cena passa-se numa floresta de [TreeType] coberta de neve.</li>
+    <li>desc_sentence->A cena parece passar-se dentro de uma câmara frigorífica.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s a tremer rodeiam a cena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s moribundos jazem no chão.</li>
+  </HypothermiaRevealed.rulePack.rulesStrings>
   
   <!-- EN: illness revealed -->
   <IllnessRevealed.label>doença revelada</IllnessRevealed.label>
@@ -170,10 +382,50 @@
     <li>desc_sentence->The scene takes place inside a [TreeType] forest.</li>
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
-  <IllnessRevealed.rulePack.rulesStrings>&lt;li>tale_noun->[PAWN_nameDef] sendo cortado com [ILLNESS_label]&lt;/li>\n&lt;li>image->[PAWN_nameFull] escalonando através de um campo [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] deitado no chão [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] deitado na cama [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] deitado em uma cama hospitalar [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] colapsou em uma cadeira [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] crouching ao lado de um fogo [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> e suar incontrolavelmente&lt;/li>\n&lt;li>circumstance_phrase-> e shivering uncontrollably&lt;/li>\n&lt;li>circumstance_phrase-> enquanto tanto suando e tremendo&lt;/li>\n&lt;li>circumstance_phrase-> com lábios secos rachados&lt;/li>\n&lt;li>circumstance_phrase-> enquanto vômitos&lt;/li>\n&lt;li>circumstance_phrase-> com uma erupção visível&lt;/li>\n&lt;li>circumstance_phrase-> enquanto sendo tendido por um médico&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] cadáveres de mosca-ridden [Animal] cercam a área.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] torcido [Color] [TerrainFeature]s cercam a cena.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [PersonJob]s são cortados com a mesma aflição.&lt;/li>\n&lt;li>desc_sentence-> A cena ocorre dentro de uma floresta [TreeType].&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] morrendo [Animal]s no chão.&lt;/li>\n</IllnessRevealed.rulePack.rulesStrings>
+  <IllnessRevealed.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] a ser atingido por [ILLNESS_label]</li>
+    <li>image->[PAWN_nameFull] a cambalear por um campo [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] estendido no chão [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] deitado na cama [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] deitado numa cama de hospital [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] prostrado numa cadeira [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] agachado junto a uma fogueira [circumstance_group]</li>
+    <li>circumstance_phrase->e a suar descontroladamente</li>
+    <li>circumstance_phrase->e a tremer descontroladamente</li>
+    <li>circumstance_phrase->enquanto sua e treme ao mesmo tempo</li>
+    <li>circumstance_phrase->com os lábios secos e gretados</li>
+    <li>circumstance_phrase->enquanto vomita</li>
+    <li>circumstance_phrase->com uma erupção cutânea visível</li>
+    <li>circumstance_phrase->enquanto é tratado por um médico</li>
+    <li>desc_sentence->[Quantity_adjphrase] cadáveres de [Animal] cobertos de moscas rodeiam a área.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature]s retorcidos de cor [Color] rodeiam a cena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s sofrem da mesma maleita.</li>
+    <li>desc_sentence->A cena passa-se numa floresta de [TreeType].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s moribundos jazem no chão.</li>
+  </IllnessRevealed.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <IllnessRevealed.rulePack.rulesStrings>&lt;li>tale_noun->[PAWN_nameDef] sendo cortado com [ILLNESS_label]&lt;/li>\n&lt;li>image->[PAWN_nameFull] escalonando através de um campo [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] deitado no chão [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] deitado na cama [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] deitado em uma cama hospitalar [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] colapsou em uma cadeira [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] crouching ao lado de um fogo [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> e suar incontrolavelmente&lt;/li>\n&lt;li>circumstance_phrase-> e shivering uncontrollably&lt;/li>\n&lt;li>circumstance_phrase-> enquanto tanto suando e tremendo&lt;/li>\n&lt;li>circumstance_phrase-> com lábios secos rachados&lt;/li>\n&lt;li>circumstance_phrase-> enquanto vômitos&lt;/li>\n&lt;li>circumstance_phrase-> com uma erupção visível&lt;/li>\n&lt;li>circumstance_phrase-> enquanto sendo tendido por um médico&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] cadáveres de mosca-ridden [Animal] cercam a área.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] torcido [Color] [TerrainFeature]s cercam a cena.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [PersonJob]s são cortados com a mesma aflição.&lt;/li>\n&lt;li>desc_sentence-> A cena ocorre dentro de uma floresta [TreeType].&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] morrendo [Animal]s no chão.&lt;/li>\n</IllnessRevealed.rulePack.rulesStrings>
+  <IllnessRevealed.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] a ser atingido por [ILLNESS_label]</li>
+    <li>image->[PAWN_nameFull] a cambalear por um campo [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] estendido no chão [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] deitado na cama [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] deitado numa cama de hospital [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] prostrado numa cadeira [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] agachado junto a uma fogueira [circumstance_group]</li>
+    <li>circumstance_phrase->e a suar descontroladamente</li>
+    <li>circumstance_phrase->e a tremer descontroladamente</li>
+    <li>circumstance_phrase->enquanto sua e treme ao mesmo tempo</li>
+    <li>circumstance_phrase->com os lábios secos e gretados</li>
+    <li>circumstance_phrase->enquanto vomita</li>
+    <li>circumstance_phrase->com uma erupção cutânea visível</li>
+    <li>circumstance_phrase->enquanto é tratado por um médico</li>
+    <li>desc_sentence->[Quantity_adjphrase] cadáveres de [Animal] cobertos de moscas rodeiam a área.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature]s retorcidos de cor [Color] rodeiam a cena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s sofrem da mesma maleita.</li>
+    <li>desc_sentence->A cena passa-se numa floresta de [TreeType].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s moribundos jazem no chão.</li>
+  </IllnessRevealed.rulePack.rulesStrings>
   
   <!-- EN: killed -->
   <KilledCapacity.label>morto</KilledCapacity.label>
@@ -208,10 +460,70 @@
     <li>desc_sentence->[KILLER_nameDef] looks pleased with the situation.</li>
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
-  <KilledCapacity.rulePack.rulesStrings>&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]&lt;/li>\n&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um [WEAPON_label]&lt;/li>\n&lt;li>image->[KILLER_nameFull] [cap_removal] [VICTIM_nameFull] capacidade para [CAPACITY_label] [com_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] por [cap_removal] [VICTIM_possessive] [CAPACITY_label] [with_weapon_optional]&lt;/li>\n&lt;li>cap_removal->destroying&lt;/li>\n&lt;li>cap_removal->eliminating&lt;/li>\n&lt;li>cap_removal->ending&lt;/li>\n&lt;li>wound_name_past->slayed&lt;/li>\n&lt;li>wound_name_past->executado&lt;/li>\n&lt;li>wound_name_past->assinado&lt;/li>\n&lt;li>wound_name_past->eliminated&lt;/li>\n&lt;li>wound_name_present->slaying&lt;/li>\n&lt;li>wound_name_present->executing&lt;/li>\n&lt;li>wound_name_present->assinating&lt;/li>\n&lt;li>wound_name_present->eliminating&lt;/li>\n&lt;li>with_weapon_optional-> com um [WEAPON_label] [circumstance_group]&lt;/li>\n&lt;li>with_weapon_optional->[circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase->seemingly sem remorse&lt;/li>\n&lt;li>circumstance_phrase-> com eficiência fria&lt;/li>\n&lt;li>circumstance_phrase-> com movimentos rápidos e eficientes&lt;/li>\n&lt;li>circumstance_phrase-> sem emoção ou expressão&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s look on.&lt;/li>\n&lt;li>desc_sentence->A [PersonJob] relógios silenciosamente [side_position].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] parece [AdjectiveAngsty].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] os olhos estão fechados.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece angustiado com o que [KILLER_pronoun] está fazendo.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito com a situação.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece triunfante.&lt;/li>\n</KilledCapacity.rulePack.rulesStrings>
+  <KilledCapacity.rulePack.rulesStrings>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com [WEAPON_label]</li>
+    <li>image->[KILLER_nameFull] [cap_removal] a capacidade de [CAPACITY_label] de [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull], [cap_removal] a sua capacidade de [CAPACITY_label] [with_weapon_optional]</li>
+    <li>cap_removal->a destruir</li>
+    <li>cap_removal->a eliminar</li>
+    <li>cap_removal->a pôr fim a</li>
+    <li>wound_name_past->abatido</li>
+    <li>wound_name_past->executado</li>
+    <li>wound_name_past->assassinado</li>
+    <li>wound_name_past->eliminado</li>
+    <li>wound_name_present->a abater</li>
+    <li>wound_name_present->a executar</li>
+    <li>wound_name_present->a assassinar</li>
+    <li>wound_name_present->a eliminar</li>
+    <li>with_weapon_optional->com [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->[circumstance_group]</li>
+    <li>circumstance_phrase->aparentemente sem remorsos</li>
+    <li>circumstance_phrase->com fria eficiência</li>
+    <li>circumstance_phrase->com movimentos rápidos e eficientes</li>
+    <li>circumstance_phrase->sem emoção nem expressão</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam.</li>
+    <li>desc_sentence->Um [PersonJob] observa em silêncio [side_position].</li>
+    <li>desc_sentence->[VICTIM_nameDef] parece [AdjectiveAngsty].</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem os olhos fechados.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar de satisfação.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece angustiar-se com o que está a fazer.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece agradar-se da situação.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar triunfante.</li>
+  </KilledCapacity.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <KilledCapacity.rulePack.rulesStrings>&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]&lt;/li>\n&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um [WEAPON_label]&lt;/li>\n&lt;li>image->[KILLER_nameFull] [cap_removal] [VICTIM_nameFull] capacidade para [CAPACITY_label] [com_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] por [cap_removal] [VICTIM_possessive] [CAPACITY_label] [with_weapon_optional]&lt;/li>\n&lt;li>cap_removal->destroying&lt;/li>\n&lt;li>cap_removal->eliminating&lt;/li>\n&lt;li>cap_removal->ending&lt;/li>\n&lt;li>wound_name_past->slayed&lt;/li>\n&lt;li>wound_name_past->executado&lt;/li>\n&lt;li>wound_name_past->assinado&lt;/li>\n&lt;li>wound_name_past->eliminated&lt;/li>\n&lt;li>wound_name_present->slaying&lt;/li>\n&lt;li>wound_name_present->executing&lt;/li>\n&lt;li>wound_name_present->assinating&lt;/li>\n&lt;li>wound_name_present->eliminating&lt;/li>\n&lt;li>with_weapon_optional-> com um [WEAPON_label] [circumstance_group]&lt;/li>\n&lt;li>with_weapon_optional->[circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase->seemingly sem remorse&lt;/li>\n&lt;li>circumstance_phrase-> com eficiência fria&lt;/li>\n&lt;li>circumstance_phrase-> com movimentos rápidos e eficientes&lt;/li>\n&lt;li>circumstance_phrase-> sem emoção ou expressão&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s look on.&lt;/li>\n&lt;li>desc_sentence->A [PersonJob] relógios silenciosamente [side_position].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] parece [AdjectiveAngsty].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] os olhos estão fechados.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece angustiado com o que [KILLER_pronoun] está fazendo.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito com a situação.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece triunfante.&lt;/li>\n</KilledCapacity.rulePack.rulesStrings>
+  <KilledCapacity.rulePack.rulesStrings>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com [WEAPON_label]</li>
+    <li>image->[KILLER_nameFull] [cap_removal] a capacidade de [CAPACITY_label] de [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull], [cap_removal] a sua capacidade de [CAPACITY_label] [with_weapon_optional]</li>
+    <li>cap_removal->a destruir</li>
+    <li>cap_removal->a eliminar</li>
+    <li>cap_removal->a pôr fim a</li>
+    <li>wound_name_past->abatido</li>
+    <li>wound_name_past->executado</li>
+    <li>wound_name_past->assassinado</li>
+    <li>wound_name_past->eliminado</li>
+    <li>wound_name_present->a abater</li>
+    <li>wound_name_present->a executar</li>
+    <li>wound_name_present->a assassinar</li>
+    <li>wound_name_present->a eliminar</li>
+    <li>with_weapon_optional->com [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->[circumstance_group]</li>
+    <li>circumstance_phrase->aparentemente sem remorsos</li>
+    <li>circumstance_phrase->com fria eficiência</li>
+    <li>circumstance_phrase->com movimentos rápidos e eficientes</li>
+    <li>circumstance_phrase->sem emoção nem expressão</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam.</li>
+    <li>desc_sentence->Um [PersonJob] observa em silêncio [side_position].</li>
+    <li>desc_sentence->[VICTIM_nameDef] parece [AdjectiveAngsty].</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem os olhos fechados.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar de satisfação.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece angustiar-se com o que está a fazer.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece agradar-se da situação.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar triunfante.</li>
+  </KilledCapacity.rulePack.rulesStrings>
   
   <!-- EN: killed at distance -->
   <KilledLongRange.label>morto à distância</KilledLongRange.label>
@@ -250,10 +562,78 @@
     <li>desc_sentence->[KILLER_nameDef] looks pleased with the situation.</li>
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
-  <KilledLongRange.rulePack.rulesStrings>&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] a extreme distance&lt;/li>\n&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] a extrema distância com um [WEAPON_label]&lt;/li>\n&lt;li>tale_noun-> a longa distância [wound_name_present] de [VICTIM_nameDef] por [KILLER_nameDef]&lt;/li>\n&lt;li>tale_noun-> a longa distância [wound_name_present] de [VICTIM_nameDef] por [KILLER_nameDef] com um [WEAPON_label]&lt;/li>\n&lt;li>image->[KILLER_nameFull] apontando para [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] friamente [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>wound_name_past->murdered&lt;/li>\n&lt;li>wound_name_past->slain&lt;/li>\n&lt;li>wound_name_past->slaughtered&lt;/li>\n&lt;li>wound_name_past->eliminated&lt;/li>\n&lt;li>wound_name_present->murdering&lt;/li>\n&lt;li>wound_name_present->slaying&lt;/li>\n&lt;li>wound_name_present->slaughtering&lt;/li>\n&lt;li>wound_name_present->eliminating&lt;/li>\n&lt;li>with_weapon_optional-> com um [WEAPON_label] [circumstance_group]&lt;/li>\n&lt;li>with_weapon_optional->[circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase->seemingly sem remorse&lt;/li>\n&lt;li>circumstance_phrase-> com eficiência fria&lt;/li>\n&lt;li>circumstance_phrase-> de uma longa distância&lt;/li>\n&lt;li>circumstance_phrase-> de uma grande altura&lt;/li>\n&lt;li>circumstance_phrase-> sem emoção ou expressão&lt;/li>\n&lt;li>circumstance_phrase-> em uma maneira covarde, meiohearted&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s look on.&lt;/li>\n&lt;li>desc_sentence->A [PersonJob] relógios silenciosamente [side_position].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] parece [AdjectiveAngsty].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] os olhos estão fechados.&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está coberto em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] está barcando [KILLER_possessive] dentes.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece angustiado com o que [KILLER_pronoun] está fazendo.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito com a situação.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece triunfante.&lt;/li>\n</KilledLongRange.rulePack.rulesStrings>
+  <KilledLongRange.rulePack.rulesStrings>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] a uma distância extrema</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] a uma distância extrema com [WEAPON_label]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] à distância por [KILLER_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] à distância por [KILLER_nameDef] com [WEAPON_label]</li>
+    <li>image->[KILLER_nameFull] a apontar a [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] friamente [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>wound_name_past->assassinado</li>
+    <li>wound_name_past->abatido</li>
+    <li>wound_name_past->chacinado</li>
+    <li>wound_name_past->eliminado</li>
+    <li>wound_name_present->a assassinar</li>
+    <li>wound_name_present->a abater</li>
+    <li>wound_name_present->a chacinar</li>
+    <li>wound_name_present->a eliminar</li>
+    <li>with_weapon_optional->com [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->[circumstance_group]</li>
+    <li>circumstance_phrase->aparentemente sem remorsos</li>
+    <li>circumstance_phrase->com fria eficiência</li>
+    <li>circumstance_phrase->a uma grande distância</li>
+    <li>circumstance_phrase->de uma grande altura</li>
+    <li>circumstance_phrase->sem emoção nem expressão</li>
+    <li>circumstance_phrase->de forma cobarde e hesitante</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam.</li>
+    <li>desc_sentence->Um [PersonJob] observa em silêncio [side_position].</li>
+    <li>desc_sentence->[VICTIM_nameDef] parece [AdjectiveAngsty].</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem os olhos fechados.</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem o corpo coberto de [Gore].</li>
+    <li>desc_sentence->[KILLER_nameDef] arreganha os dentes.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar de satisfação.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece angustiar-se com o que está a fazer.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece agradar-se da situação.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar triunfante.</li>
+  </KilledLongRange.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <KilledLongRange.rulePack.rulesStrings>&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] a extreme distance&lt;/li>\n&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] a extrema distância com um [WEAPON_label]&lt;/li>\n&lt;li>tale_noun-> a longa distância [wound_name_present] de [VICTIM_nameDef] por [KILLER_nameDef]&lt;/li>\n&lt;li>tale_noun-> a longa distância [wound_name_present] de [VICTIM_nameDef] por [KILLER_nameDef] com um [WEAPON_label]&lt;/li>\n&lt;li>image->[KILLER_nameFull] apontando para [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] friamente [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>wound_name_past->murdered&lt;/li>\n&lt;li>wound_name_past->slain&lt;/li>\n&lt;li>wound_name_past->slaughtered&lt;/li>\n&lt;li>wound_name_past->eliminated&lt;/li>\n&lt;li>wound_name_present->murdering&lt;/li>\n&lt;li>wound_name_present->slaying&lt;/li>\n&lt;li>wound_name_present->slaughtering&lt;/li>\n&lt;li>wound_name_present->eliminating&lt;/li>\n&lt;li>with_weapon_optional-> com um [WEAPON_label] [circumstance_group]&lt;/li>\n&lt;li>with_weapon_optional->[circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase->seemingly sem remorse&lt;/li>\n&lt;li>circumstance_phrase-> com eficiência fria&lt;/li>\n&lt;li>circumstance_phrase-> de uma longa distância&lt;/li>\n&lt;li>circumstance_phrase-> de uma grande altura&lt;/li>\n&lt;li>circumstance_phrase-> sem emoção ou expressão&lt;/li>\n&lt;li>circumstance_phrase-> em uma maneira covarde, meiohearted&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s look on.&lt;/li>\n&lt;li>desc_sentence->A [PersonJob] relógios silenciosamente [side_position].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] parece [AdjectiveAngsty].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] os olhos estão fechados.&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está coberto em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] está barcando [KILLER_possessive] dentes.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece angustiado com o que [KILLER_pronoun] está fazendo.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito com a situação.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece triunfante.&lt;/li>\n</KilledLongRange.rulePack.rulesStrings>
+  <KilledLongRange.rulePack.rulesStrings>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] a uma distância extrema</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] a uma distância extrema com [WEAPON_label]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] à distância por [KILLER_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] à distância por [KILLER_nameDef] com [WEAPON_label]</li>
+    <li>image->[KILLER_nameFull] a apontar a [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] friamente [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>wound_name_past->assassinado</li>
+    <li>wound_name_past->abatido</li>
+    <li>wound_name_past->chacinado</li>
+    <li>wound_name_past->eliminado</li>
+    <li>wound_name_present->a assassinar</li>
+    <li>wound_name_present->a abater</li>
+    <li>wound_name_present->a chacinar</li>
+    <li>wound_name_present->a eliminar</li>
+    <li>with_weapon_optional->com [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->[circumstance_group]</li>
+    <li>circumstance_phrase->aparentemente sem remorsos</li>
+    <li>circumstance_phrase->com fria eficiência</li>
+    <li>circumstance_phrase->a uma grande distância</li>
+    <li>circumstance_phrase->de uma grande altura</li>
+    <li>circumstance_phrase->sem emoção nem expressão</li>
+    <li>circumstance_phrase->de forma cobarde e hesitante</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam.</li>
+    <li>desc_sentence->Um [PersonJob] observa em silêncio [side_position].</li>
+    <li>desc_sentence->[VICTIM_nameDef] parece [AdjectiveAngsty].</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem os olhos fechados.</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem o corpo coberto de [Gore].</li>
+    <li>desc_sentence->[KILLER_nameDef] arreganha os dentes.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar de satisfação.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece angustiar-se com o que está a fazer.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece agradar-se da situação.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar triunfante.</li>
+  </KilledLongRange.rulePack.rulesStrings>
   
   <!-- EN: killed major threat -->
   <KilledMajorThreat.label>matou uma grande ameaça</KilledMajorThreat.label>
@@ -295,10 +675,84 @@
     <li>desc_sentence->[KILLER_nameDef] looks [AdjectiveBadass].</li>
     <li>desc_sentence->[KILLER_nameDef] is glowing with a heroic aura.</li>
   -->
-  <KilledMajorThreat.rulePack.rulesStrings>&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]&lt;/li>\n&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um [WEAPON_label]&lt;/li>\n&lt;li>tale_noun->the [wound_name_present] of [VICTIM_nameDef] by [KILLER_nameDef]&lt;/li>\n&lt;li>tale_noun->the [wound_name_present] of [VICTIM_nameDef] by [KILLER_nameDef] with a [WEAPON_label]&lt;/li>\n&lt;li>image->[VICTIM_nameFull] sendo [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] brutalmente [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[VICTIM_nameFull] sendo [wound_name_past] [with_weapon_optional]&lt;/li>\n&lt;li>wound_name_past->slain&lt;/li>\n&lt;li>wound_name_past->defeated&lt;/li>\n&lt;li>wound_name_past->overcome&lt;/li>\n&lt;li>wound_name_present->slaying&lt;/li>\n&lt;li>wound_name_present->defeating&lt;/li>\n&lt;li>wound_name_present->overcoming&lt;/li>\n&lt;li>with_weapon_optional-> com um [WEAPON_label] [circumstance_group]&lt;/li>\n&lt;li>with_weapon_optional->[circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> com eficiência fria&lt;/li>\n&lt;li>circumstance_phrase-> com movimentos rápidos e eficientes&lt;/li>\n&lt;li>circumstance_phrase-> sem emoção ou expressão&lt;/li>\n&lt;li>circumstance_phrase-> com grande heroísmo&lt;/li>\n&lt;li>circumstance_phrase-> com força incrível&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s look on.&lt;/li>\n&lt;li>desc_sentence->A [PersonJob] relógios silenciosamente [side_position].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] parece [AdjectiveAngsty].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] os olhos estão fechados.&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está coberto em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] e [KILLER_nameDef] estão ambos cobertos em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef]'s cadáver towers over [KILLER_nameDef].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef]'s massivo cadáver cobre um [TerrainFeature].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] os olhos brilham [Color].&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] está coberto em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] está barcando [KILLER_possessive] dentes.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece triunfante.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece [AdjectiveBadass].&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] está brilhando com uma aura heróica.&lt;/li>\n</KilledMajorThreat.rulePack.rulesStrings>
+  <KilledMajorThreat.rulePack.rulesStrings>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com [WEAPON_label]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] por [KILLER_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] por [KILLER_nameDef] com [WEAPON_label]</li>
+    <li>image->[VICTIM_nameFull] a ser [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] brutalmente [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] a ser [wound_name_past] [with_weapon_optional]</li>
+    <li>wound_name_past->abatido</li>
+    <li>wound_name_past->derrotado</li>
+    <li>wound_name_past->vencido</li>
+    <li>wound_name_present->a abater</li>
+    <li>wound_name_present->a derrotar</li>
+    <li>wound_name_present->a vencer</li>
+    <li>with_weapon_optional->com [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->[circumstance_group]</li>
+    <li>circumstance_phrase->com fria eficiência</li>
+    <li>circumstance_phrase->com movimentos rápidos e eficientes</li>
+    <li>circumstance_phrase->sem emoção nem expressão</li>
+    <li>circumstance_phrase->com grande heroísmo</li>
+    <li>circumstance_phrase->com uma força incrível</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam.</li>
+    <li>desc_sentence->Um [PersonJob] observa em silêncio [side_position].</li>
+    <li>desc_sentence->[VICTIM_nameDef] parece [AdjectiveAngsty].</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem os olhos fechados.</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem o corpo coberto de [Gore].</li>
+    <li>desc_sentence->[VICTIM_nameDef] e [KILLER_nameDef] têm ambos o corpo coberto de [Gore].</li>
+    <li>desc_sentence->O cadáver de [VICTIM_nameDef] ergue-se bem acima de [KILLER_nameDef].</li>
+    <li>desc_sentence->O enorme cadáver de [VICTIM_nameDef] cobre a paisagem de [TerrainFeature].</li>
+    <li>desc_sentence->Os olhos de [VICTIM_nameDef] brilham em [Color].</li>
+    <li>desc_sentence->[KILLER_nameDef] tem o corpo coberto de [Gore].</li>
+    <li>desc_sentence->[KILLER_nameDef] arreganha os dentes.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar de satisfação.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar triunfante.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece [AdjectiveBadass].</li>
+    <li>desc_sentence->[KILLER_nameDef] irradia uma aura heroica.</li>
+  </KilledMajorThreat.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <KilledMajorThreat.rulePack.rulesStrings>&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]&lt;/li>\n&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um [WEAPON_label]&lt;/li>\n&lt;li>tale_noun->the [wound_name_present] of [VICTIM_nameDef] by [KILLER_nameDef]&lt;/li>\n&lt;li>tale_noun->the [wound_name_present] of [VICTIM_nameDef] by [KILLER_nameDef] with a [WEAPON_label]&lt;/li>\n&lt;li>image->[VICTIM_nameFull] sendo [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] brutalmente [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[VICTIM_nameFull] sendo [wound_name_past] [with_weapon_optional]&lt;/li>\n&lt;li>wound_name_past->slain&lt;/li>\n&lt;li>wound_name_past->defeated&lt;/li>\n&lt;li>wound_name_past->overcome&lt;/li>\n&lt;li>wound_name_present->slaying&lt;/li>\n&lt;li>wound_name_present->defeating&lt;/li>\n&lt;li>wound_name_present->overcoming&lt;/li>\n&lt;li>with_weapon_optional-> com um [WEAPON_label] [circumstance_group]&lt;/li>\n&lt;li>with_weapon_optional->[circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> com eficiência fria&lt;/li>\n&lt;li>circumstance_phrase-> com movimentos rápidos e eficientes&lt;/li>\n&lt;li>circumstance_phrase-> sem emoção ou expressão&lt;/li>\n&lt;li>circumstance_phrase-> com grande heroísmo&lt;/li>\n&lt;li>circumstance_phrase-> com força incrível&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s look on.&lt;/li>\n&lt;li>desc_sentence->A [PersonJob] relógios silenciosamente [side_position].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] parece [AdjectiveAngsty].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] os olhos estão fechados.&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está coberto em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] e [KILLER_nameDef] estão ambos cobertos em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef]'s cadáver towers over [KILLER_nameDef].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef]'s massivo cadáver cobre um [TerrainFeature].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] os olhos brilham [Color].&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] está coberto em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] está barcando [KILLER_possessive] dentes.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece triunfante.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece [AdjectiveBadass].&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] está brilhando com uma aura heróica.&lt;/li>\n</KilledMajorThreat.rulePack.rulesStrings>
+  <KilledMajorThreat.rulePack.rulesStrings>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com [WEAPON_label]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] por [KILLER_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] por [KILLER_nameDef] com [WEAPON_label]</li>
+    <li>image->[VICTIM_nameFull] a ser [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] brutalmente [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] a ser [wound_name_past] [with_weapon_optional]</li>
+    <li>wound_name_past->abatido</li>
+    <li>wound_name_past->derrotado</li>
+    <li>wound_name_past->vencido</li>
+    <li>wound_name_present->a abater</li>
+    <li>wound_name_present->a derrotar</li>
+    <li>wound_name_present->a vencer</li>
+    <li>with_weapon_optional->com [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->[circumstance_group]</li>
+    <li>circumstance_phrase->com fria eficiência</li>
+    <li>circumstance_phrase->com movimentos rápidos e eficientes</li>
+    <li>circumstance_phrase->sem emoção nem expressão</li>
+    <li>circumstance_phrase->com grande heroísmo</li>
+    <li>circumstance_phrase->com uma força incrível</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam.</li>
+    <li>desc_sentence->Um [PersonJob] observa em silêncio [side_position].</li>
+    <li>desc_sentence->[VICTIM_nameDef] parece [AdjectiveAngsty].</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem os olhos fechados.</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem o corpo coberto de [Gore].</li>
+    <li>desc_sentence->[VICTIM_nameDef] e [KILLER_nameDef] têm ambos o corpo coberto de [Gore].</li>
+    <li>desc_sentence->O cadáver de [VICTIM_nameDef] ergue-se bem acima de [KILLER_nameDef].</li>
+    <li>desc_sentence->O enorme cadáver de [VICTIM_nameDef] cobre a paisagem de [TerrainFeature].</li>
+    <li>desc_sentence->Os olhos de [VICTIM_nameDef] brilham em [Color].</li>
+    <li>desc_sentence->[KILLER_nameDef] tem o corpo coberto de [Gore].</li>
+    <li>desc_sentence->[KILLER_nameDef] arreganha os dentes.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar de satisfação.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar triunfante.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece [AdjectiveBadass].</li>
+    <li>desc_sentence->[KILLER_nameDef] irradia uma aura heroica.</li>
+  </KilledMajorThreat.rulePack.rulesStrings>
   
   <!-- EN: killed in melee -->
   <KilledMelee.label>morto em corpo a corpo</KilledMelee.label>
@@ -340,10 +794,84 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
     <li>desc_sentence->[KILLER_nameDef] wears a feral expression.</li>
   -->
-  <KilledMelee.rulePack.rulesStrings>&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] em combate próximo&lt;/li>\n&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] in melee with a [WEAPON_label]&lt;/li>\n&lt;li>tale_noun-> the melee [wound_name_present] of [VICTIM_nameDef] by [KILLER_nameDef]&lt;/li>\n&lt;li>tale_noun-> o combate próximo [wound_name_present] de [VICTIM_nameDef] por [KILLER_nameDef] com um [WEAPON_label]&lt;/li>\n&lt;li>image->[VICTIM_nameFull] sendo [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] brutalmente [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[VICTIM_nameFull] sendo [wound_name_past] [with_weapon_optional]&lt;/li>\n&lt;li>wound_name_past->murdered&lt;/li>\n&lt;li>wound_name_past->slain&lt;/li>\n&lt;li>wound_name_past->slaughtered&lt;/li>\n&lt;li>wound_name_past->mutilated&lt;/li>\n&lt;li>wound_name_present->murdering&lt;/li>\n&lt;li>wound_name_present->slaying&lt;/li>\n&lt;li>wound_name_present->slaughtering&lt;/li>\n&lt;li>wound_name_present->mutilating&lt;/li>\n&lt;li>with_weapon_optional-> com um [WEAPON_label] [circumstance_group]&lt;/li>\n&lt;li>with_weapon_optional->[circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase->seemingly sem remorse&lt;/li>\n&lt;li>circumstance_phrase-> com eficiência fria&lt;/li>\n&lt;li>circumstance_phrase-> com movimentos rápidos e eficientes&lt;/li>\n&lt;li>circumstance_phrase-> sem emoção ou expressão&lt;/li>\n&lt;li>circumstance_phrase-> em uma maneira covarde, meiohearted&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s look on.&lt;/li>\n&lt;li>desc_sentence->A [PersonJob] relógios silenciosamente [side_position].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] parece [AdjectiveAngsty].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] os olhos estão fechados.&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está coberto em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] e [KILLER_nameDef] estão ambos cobertos em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] está coberto em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] está barcando [KILLER_possessive] dentes.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece angustiado com o que [KILLER_pronoun] está fazendo.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito com a situação.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece triunfante.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] usa uma expressão feral.&lt;/li>\n</KilledMelee.rulePack.rulesStrings>
+  <KilledMelee.rulePack.rulesStrings>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] em combate próximo</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] em corpo a corpo com [WEAPON_label]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] em corpo a corpo por [KILLER_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] em combate próximo por [KILLER_nameDef] com [WEAPON_label]</li>
+    <li>image->[VICTIM_nameFull] a ser [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] brutalmente [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] a ser [wound_name_past] [with_weapon_optional]</li>
+    <li>wound_name_past->assassinado</li>
+    <li>wound_name_past->abatido</li>
+    <li>wound_name_past->chacinado</li>
+    <li>wound_name_past->mutilado</li>
+    <li>wound_name_present->a assassinar</li>
+    <li>wound_name_present->a abater</li>
+    <li>wound_name_present->a chacinar</li>
+    <li>wound_name_present->a mutilar</li>
+    <li>with_weapon_optional->com [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->[circumstance_group]</li>
+    <li>circumstance_phrase->aparentemente sem remorsos</li>
+    <li>circumstance_phrase->com fria eficiência</li>
+    <li>circumstance_phrase->com movimentos rápidos e eficientes</li>
+    <li>circumstance_phrase->sem emoção nem expressão</li>
+    <li>circumstance_phrase->de forma cobarde e hesitante</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam.</li>
+    <li>desc_sentence->Um [PersonJob] observa em silêncio [side_position].</li>
+    <li>desc_sentence->[VICTIM_nameDef] parece [AdjectiveAngsty].</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem os olhos fechados.</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem o corpo coberto de [Gore].</li>
+    <li>desc_sentence->[VICTIM_nameDef] e [KILLER_nameDef] têm ambos o corpo coberto de [Gore].</li>
+    <li>desc_sentence->[KILLER_nameDef] tem o corpo coberto de [Gore].</li>
+    <li>desc_sentence->[KILLER_nameDef] arreganha os dentes.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar de satisfação.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece angustiar-se com o que está a fazer.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece agradar-se da situação.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar triunfante.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem uma expressão selvagem.</li>
+  </KilledMelee.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <KilledMelee.rulePack.rulesStrings>&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] em combate próximo&lt;/li>\n&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] in melee with a [WEAPON_label]&lt;/li>\n&lt;li>tale_noun-> the melee [wound_name_present] of [VICTIM_nameDef] by [KILLER_nameDef]&lt;/li>\n&lt;li>tale_noun-> o combate próximo [wound_name_present] de [VICTIM_nameDef] por [KILLER_nameDef] com um [WEAPON_label]&lt;/li>\n&lt;li>image->[VICTIM_nameFull] sendo [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] brutalmente [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[VICTIM_nameFull] sendo [wound_name_past] [with_weapon_optional]&lt;/li>\n&lt;li>wound_name_past->murdered&lt;/li>\n&lt;li>wound_name_past->slain&lt;/li>\n&lt;li>wound_name_past->slaughtered&lt;/li>\n&lt;li>wound_name_past->mutilated&lt;/li>\n&lt;li>wound_name_present->murdering&lt;/li>\n&lt;li>wound_name_present->slaying&lt;/li>\n&lt;li>wound_name_present->slaughtering&lt;/li>\n&lt;li>wound_name_present->mutilating&lt;/li>\n&lt;li>with_weapon_optional-> com um [WEAPON_label] [circumstance_group]&lt;/li>\n&lt;li>with_weapon_optional->[circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase->seemingly sem remorse&lt;/li>\n&lt;li>circumstance_phrase-> com eficiência fria&lt;/li>\n&lt;li>circumstance_phrase-> com movimentos rápidos e eficientes&lt;/li>\n&lt;li>circumstance_phrase-> sem emoção ou expressão&lt;/li>\n&lt;li>circumstance_phrase-> em uma maneira covarde, meiohearted&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s look on.&lt;/li>\n&lt;li>desc_sentence->A [PersonJob] relógios silenciosamente [side_position].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] parece [AdjectiveAngsty].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] os olhos estão fechados.&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está coberto em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] e [KILLER_nameDef] estão ambos cobertos em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] está coberto em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] está barcando [KILLER_possessive] dentes.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece angustiado com o que [KILLER_pronoun] está fazendo.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito com a situação.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece triunfante.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] usa uma expressão feral.&lt;/li>\n</KilledMelee.rulePack.rulesStrings>
+  <KilledMelee.rulePack.rulesStrings>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] em combate próximo</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] em corpo a corpo com [WEAPON_label]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] em corpo a corpo por [KILLER_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] em combate próximo por [KILLER_nameDef] com [WEAPON_label]</li>
+    <li>image->[VICTIM_nameFull] a ser [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] brutalmente [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] a ser [wound_name_past] [with_weapon_optional]</li>
+    <li>wound_name_past->assassinado</li>
+    <li>wound_name_past->abatido</li>
+    <li>wound_name_past->chacinado</li>
+    <li>wound_name_past->mutilado</li>
+    <li>wound_name_present->a assassinar</li>
+    <li>wound_name_present->a abater</li>
+    <li>wound_name_present->a chacinar</li>
+    <li>wound_name_present->a mutilar</li>
+    <li>with_weapon_optional->com [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->[circumstance_group]</li>
+    <li>circumstance_phrase->aparentemente sem remorsos</li>
+    <li>circumstance_phrase->com fria eficiência</li>
+    <li>circumstance_phrase->com movimentos rápidos e eficientes</li>
+    <li>circumstance_phrase->sem emoção nem expressão</li>
+    <li>circumstance_phrase->de forma cobarde e hesitante</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam.</li>
+    <li>desc_sentence->Um [PersonJob] observa em silêncio [side_position].</li>
+    <li>desc_sentence->[VICTIM_nameDef] parece [AdjectiveAngsty].</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem os olhos fechados.</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem o corpo coberto de [Gore].</li>
+    <li>desc_sentence->[VICTIM_nameDef] e [KILLER_nameDef] têm ambos o corpo coberto de [Gore].</li>
+    <li>desc_sentence->[KILLER_nameDef] tem o corpo coberto de [Gore].</li>
+    <li>desc_sentence->[KILLER_nameDef] arreganha os dentes.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar de satisfação.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece angustiar-se com o que está a fazer.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece agradar-se da situação.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar triunfante.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem uma expressão selvagem.</li>
+  </KilledMelee.rulePack.rulesStrings>
   
   <!-- EN: killed with mortar -->
   <KilledMortar.label>morto com morteiro</KilledMortar.label>
@@ -369,10 +897,52 @@
     <li>desc_sentence->[KILLER_nameDef] looks pleased with the situation.</li>
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
-  <KilledMortar.rulePack.rulesStrings>&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um morter&lt;/li>\n&lt;li>tale_noun->[VICTIM_nameDef] sendo morto por [KILLER_nameDef] artilharia&lt;/li>\n&lt;li>image->[KILLER_nameFull] ajustando cuidadosamente um tubo de disparo [circumstance_group]&lt;/li>\n&lt;li>image->[KILLER_nameFull] olhando para a distância [circumstance_group]&lt;/li>\n&lt;li>image->[KILLER_nameFull] fazendo cálculos em papel [circumstance_group]&lt;/li>\n&lt;li>image->[KILLER_nameFull] testando direção do vento [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> enquanto [VICTIM_nameFull] é consumido em uma explosão maciça&lt;/li>\n&lt;li>circumstance_phrase-> como um shell arco para baixo para [VICTIM_nameFull]&lt;/li>\n&lt;li>circumstance_phrase-> enquanto [VICTIM_nameFull] anda ao redor obliviously&lt;/li>\n&lt;li>circumstance_phrase->as [VICTIM_nameFull] sprints&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s look on.&lt;/li>\n&lt;li>desc_sentence->A [PersonJob] relógios silenciosamente [side_position].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] parece [AdjectiveAngsty].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está coberto em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está rodeado por explosões.&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está rodeado por crateras.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece angustiado com o que [KILLER_pronoun] está fazendo.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito com a situação.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece triunfante.&lt;/li>\n</KilledMortar.rulePack.rulesStrings>
+  <KilledMortar.rulePack.rulesStrings>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um morteiro</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser morto pela artilharia de [KILLER_nameDef]</li>
+    <li>image->[KILLER_nameFull] a ajustar cuidadosamente um tubo de disparo [circumstance_group]</li>
+    <li>image->[KILLER_nameFull] a olhar para longe [circumstance_group]</li>
+    <li>image->[KILLER_nameFull] a fazer cálculos em papel [circumstance_group]</li>
+    <li>image->[KILLER_nameFull] a verificar a direção do vento [circumstance_group]</li>
+    <li>circumstance_phrase->enquanto [VICTIM_nameFull] é engolido por uma enorme explosão</li>
+    <li>circumstance_phrase->enquanto um projétil desce em arco na direção de [VICTIM_nameFull]</li>
+    <li>circumstance_phrase->enquanto [VICTIM_nameFull] caminha sem se aperceber de nada</li>
+    <li>circumstance_phrase->enquanto [VICTIM_nameFull] corre a toda a velocidade</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam.</li>
+    <li>desc_sentence->Um [PersonJob] observa em silêncio [side_position].</li>
+    <li>desc_sentence->[VICTIM_nameDef] parece [AdjectiveAngsty].</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem o corpo coberto de [Gore].</li>
+    <li>desc_sentence->[VICTIM_nameDef] está rodeado de explosões.</li>
+    <li>desc_sentence->[VICTIM_nameDef] está rodeado de crateras.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar de satisfação.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece angustiar-se com o que está a fazer.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece agradar-se da situação.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar triunfante.</li>
+  </KilledMortar.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <KilledMortar.rulePack.rulesStrings>&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um morter&lt;/li>\n&lt;li>tale_noun->[VICTIM_nameDef] sendo morto por [KILLER_nameDef] artilharia&lt;/li>\n&lt;li>image->[KILLER_nameFull] ajustando cuidadosamente um tubo de disparo [circumstance_group]&lt;/li>\n&lt;li>image->[KILLER_nameFull] olhando para a distância [circumstance_group]&lt;/li>\n&lt;li>image->[KILLER_nameFull] fazendo cálculos em papel [circumstance_group]&lt;/li>\n&lt;li>image->[KILLER_nameFull] testando direção do vento [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> enquanto [VICTIM_nameFull] é consumido em uma explosão maciça&lt;/li>\n&lt;li>circumstance_phrase-> como um shell arco para baixo para [VICTIM_nameFull]&lt;/li>\n&lt;li>circumstance_phrase-> enquanto [VICTIM_nameFull] anda ao redor obliviously&lt;/li>\n&lt;li>circumstance_phrase->as [VICTIM_nameFull] sprints&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s look on.&lt;/li>\n&lt;li>desc_sentence->A [PersonJob] relógios silenciosamente [side_position].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] parece [AdjectiveAngsty].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está coberto em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está rodeado por explosões.&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está rodeado por crateras.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece angustiado com o que [KILLER_pronoun] está fazendo.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito com a situação.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece triunfante.&lt;/li>\n</KilledMortar.rulePack.rulesStrings>
+  <KilledMortar.rulePack.rulesStrings>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um morteiro</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser morto pela artilharia de [KILLER_nameDef]</li>
+    <li>image->[KILLER_nameFull] a ajustar cuidadosamente um tubo de disparo [circumstance_group]</li>
+    <li>image->[KILLER_nameFull] a olhar para longe [circumstance_group]</li>
+    <li>image->[KILLER_nameFull] a fazer cálculos em papel [circumstance_group]</li>
+    <li>image->[KILLER_nameFull] a verificar a direção do vento [circumstance_group]</li>
+    <li>circumstance_phrase->enquanto [VICTIM_nameFull] é engolido por uma enorme explosão</li>
+    <li>circumstance_phrase->enquanto um projétil desce em arco na direção de [VICTIM_nameFull]</li>
+    <li>circumstance_phrase->enquanto [VICTIM_nameFull] caminha sem se aperceber de nada</li>
+    <li>circumstance_phrase->enquanto [VICTIM_nameFull] corre a toda a velocidade</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam.</li>
+    <li>desc_sentence->Um [PersonJob] observa em silêncio [side_position].</li>
+    <li>desc_sentence->[VICTIM_nameDef] parece [AdjectiveAngsty].</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem o corpo coberto de [Gore].</li>
+    <li>desc_sentence->[VICTIM_nameDef] está rodeado de explosões.</li>
+    <li>desc_sentence->[VICTIM_nameDef] está rodeado de crateras.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar de satisfação.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece angustiar-se com o que está a fazer.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece agradar-se da situação.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar triunfante.</li>
+  </KilledMortar.rulePack.rulesStrings>
   
   <!-- EN: toxicity revealed -->
   <ToxicityRevealed.label>toxicidade revelada</ToxicityRevealed.label>
@@ -398,10 +968,52 @@
     <li>desc_sentence->The scene takes place inside a twisted [TreeType] forest.</li>
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
-  <ToxicityRevealed.rulePack.rulesStrings>&lt;li>tale_noun->[PAWN_name O corpo de Def] se tornando tóxico&lt;/li>\n&lt;li>tale_noun->[PAWN_nameDef] sendo envenenado por toxinas&lt;/li>\n&lt;li>image->[PAWN_nameFull] escalonando através de um campo [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] deitado no chão [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] deitado na cama [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] crouching ao lado de um fogo [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] tentando acender um fogo [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] mindlessly removendo [PAWN_possessive] roupas [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> e suar incontrolavelmente&lt;/li>\n&lt;li>circumstance_phrase-> e shivering uncontrollably&lt;/li>\n&lt;li>circumstance_phrase-> enquanto tanto suando e tremendo&lt;/li>\n&lt;li>circumstance_phrase-> com lábios secos rachados&lt;/li>\n&lt;li>circumstance_phrase-> enquanto vômitos&lt;/li>\n&lt;li>circumstance_phrase-> com uma erupção visível&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] corpos torcidos [Animal] cercam a área.&lt;/li>\n&lt;li>desc_sentence-> [PAWN_name A roupa de Def] está caindo.&lt;/li>\n&lt;li>desc_sentence-> O céu é um murky [Color].&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] torcido [Color] [TerrainFeature]s cercam a cena.&lt;/li>\n&lt;li>desc_sentence-> A cena ocorre dentro de uma floresta torcida [TreeType].&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] morrendo [Animal]s no chão.&lt;/li>\n</ToxicityRevealed.rulePack.rulesStrings>
+  <ToxicityRevealed.rulePack.rulesStrings>
+    <li>tale_noun->o corpo de [PAWN_nameDef] a tornar-se tóxico</li>
+    <li>tale_noun->[PAWN_nameDef] a ser envenenado por toxinas</li>
+    <li>image->[PAWN_nameFull] a cambalear por um campo [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] estendido no chão [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] deitado na cama [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] agachado junto a uma fogueira [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a tentar acender uma fogueira [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a despir a roupa sem pensar [circumstance_group]</li>
+    <li>circumstance_phrase->e a suar descontroladamente</li>
+    <li>circumstance_phrase->e a tremer descontroladamente</li>
+    <li>circumstance_phrase->enquanto sua e treme ao mesmo tempo</li>
+    <li>circumstance_phrase->com os lábios secos e gretados</li>
+    <li>circumstance_phrase->enquanto vomita</li>
+    <li>circumstance_phrase->com uma erupção cutânea visível</li>
+    <li>desc_sentence->[Quantity_adjphrase] cadáveres retorcidos de [Animal] rodeiam a área.</li>
+    <li>desc_sentence->As roupas de [PAWN_nameDef] estão a desfazer-se.</li>
+    <li>desc_sentence->O céu tem uma cor [Color] turva.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature]s retorcidos de cor [Color] rodeiam a cena.</li>
+    <li>desc_sentence->A cena passa-se numa floresta retorcida de [TreeType].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s moribundos jazem no chão.</li>
+  </ToxicityRevealed.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <ToxicityRevealed.rulePack.rulesStrings>&lt;li>tale_noun->[PAWN_name O corpo de Def] se tornando tóxico&lt;/li>\n&lt;li>tale_noun->[PAWN_nameDef] sendo envenenado por toxinas&lt;/li>\n&lt;li>image->[PAWN_nameFull] escalonando através de um campo [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] deitado no chão [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] deitado na cama [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] crouching ao lado de um fogo [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] tentando acender um fogo [circumstance_group]&lt;/li>\n&lt;li>image->[PAWN_nameFull] mindlessly removendo [PAWN_possessive] roupas [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> e suar incontrolavelmente&lt;/li>\n&lt;li>circumstance_phrase-> e shivering uncontrollably&lt;/li>\n&lt;li>circumstance_phrase-> enquanto tanto suando e tremendo&lt;/li>\n&lt;li>circumstance_phrase-> com lábios secos rachados&lt;/li>\n&lt;li>circumstance_phrase-> enquanto vômitos&lt;/li>\n&lt;li>circumstance_phrase-> com uma erupção visível&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] corpos torcidos [Animal] cercam a área.&lt;/li>\n&lt;li>desc_sentence-> [PAWN_name A roupa de Def] está caindo.&lt;/li>\n&lt;li>desc_sentence-> O céu é um murky [Color].&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] torcido [Color] [TerrainFeature]s cercam a cena.&lt;/li>\n&lt;li>desc_sentence-> A cena ocorre dentro de uma floresta torcida [TreeType].&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] morrendo [Animal]s no chão.&lt;/li>\n</ToxicityRevealed.rulePack.rulesStrings>
+  <ToxicityRevealed.rulePack.rulesStrings>
+    <li>tale_noun->o corpo de [PAWN_nameDef] a tornar-se tóxico</li>
+    <li>tale_noun->[PAWN_nameDef] a ser envenenado por toxinas</li>
+    <li>image->[PAWN_nameFull] a cambalear por um campo [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] estendido no chão [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] deitado na cama [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] agachado junto a uma fogueira [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a tentar acender uma fogueira [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a despir a roupa sem pensar [circumstance_group]</li>
+    <li>circumstance_phrase->e a suar descontroladamente</li>
+    <li>circumstance_phrase->e a tremer descontroladamente</li>
+    <li>circumstance_phrase->enquanto sua e treme ao mesmo tempo</li>
+    <li>circumstance_phrase->com os lábios secos e gretados</li>
+    <li>circumstance_phrase->enquanto vomita</li>
+    <li>circumstance_phrase->com uma erupção cutânea visível</li>
+    <li>desc_sentence->[Quantity_adjphrase] cadáveres retorcidos de [Animal] rodeiam a área.</li>
+    <li>desc_sentence->As roupas de [PAWN_nameDef] estão a desfazer-se.</li>
+    <li>desc_sentence->O céu tem uma cor [Color] turva.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature]s retorcidos de cor [Color] rodeiam a cena.</li>
+    <li>desc_sentence->A cena passa-se numa floresta retorcida de [TreeType].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s moribundos jazem no chão.</li>
+  </ToxicityRevealed.rulePack.rulesStrings>
   
   <!-- EN: wounded -->
   <Wounded.label>ferido</Wounded.label>
@@ -447,9 +1059,91 @@
     <li>desc_sentence->[KILLER_nameDef] looks pleased with the situation.</li>
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
-  <Wounded.rulePack.rulesStrings>&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]&lt;/li>\n&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um [WEAPON_label]&lt;/li>\n&lt;li>tale_noun->the [wound_name_present] of [VICTIM_nameDef] by [KILLER_nameDef]&lt;/li>\n&lt;li>tale_noun->the [wound_name_present] of [VICTIM_nameDef] with a [WEAPON_label]&lt;/li>\n&lt;li>tale_noun->the [wound_name_present] of [VICTIM_nameDef]&lt;/li>\n&lt;li>image->[VICTIM_nameFull] sendo [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] brutalmente [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[VICTIM_nameFull] sendo [wound_name_past] [with_weapon_optional]&lt;/li>\n&lt;li>wound_name_past->wounded&lt;/li>\n&lt;li>wound_name_past->harmed&lt;/li>\n&lt;li>wound_name_past->hurt&lt;/li>\n&lt;li>wound_name_past->assaulted&lt;/li>\n&lt;li>wound_name_past->attacked&lt;/li>\n&lt;li>wound_name_present->wounding&lt;/li>\n&lt;li>wound_name_present->harming&lt;/li>\n&lt;li>wound_name_present->hurting&lt;/li>\n&lt;li>wound_name_present->assaulting&lt;/li>\n&lt;li>wound_name_present->attacking&lt;/li>\n&lt;li>with_weapon_optional-> com um [WEAPON_label] [circumstance_group]&lt;/li>\n&lt;li>with_weapon_optional->[circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase->seemingly sem remorse&lt;/li>\n&lt;li>circumstance_phrase-> com eficiência fria&lt;/li>\n&lt;li>circumstance_phrase-> com raiva apaixonada&lt;/li>\n&lt;li>circumstance_phrase-> com movimentos rápidos e eficientes&lt;/li>\n&lt;li>circumstance_phrase-> sem emoção ou expressão&lt;/li>\n&lt;li>circumstance_phrase->out da necessidade fraca&lt;/li>\n&lt;li>circumstance_phrase-> em uma maneira covarde, meiohearted&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s look on.&lt;/li>\n&lt;li>desc_sentence->A [PersonJob] relógios silenciosamente [side_position].&lt;/li>\n&lt;li>desc_sentence-> O sangue está em torno do corpo [VICTIM_nameDef].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está coberto em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] parece [AdjectiveAngsty].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está ganhando em dor.&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está ganhando em agonia.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] está barcando [KILLER_possessive] dentes.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece angustiado com o que [KILLER_pronoun] está fazendo.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito com a situação.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece triunfante.&lt;/li>\n</Wounded.rulePack.rulesStrings>
+  <Wounded.rulePack.rulesStrings>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com [WEAPON_label]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] por [KILLER_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] com [WEAPON_label]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past]</li>
+    <li>image->[VICTIM_nameFull] a ser [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] brutalmente [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] a ser [wound_name_past] [with_weapon_optional]</li>
+    <li>wound_name_past->ferido</li>
+    <li>wound_name_past->magoado</li>
+    <li>wound_name_past->agredido</li>
+    <li>wound_name_past->assaltado</li>
+    <li>wound_name_past->atacado</li>
+    <li>wound_name_present->a ferir</li>
+    <li>wound_name_present->a magoar</li>
+    <li>wound_name_present->a agredir</li>
+    <li>wound_name_present->a assaltar</li>
+    <li>wound_name_present->a atacar</li>
+    <li>with_weapon_optional->com [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->[circumstance_group]</li>
+    <li>circumstance_phrase->aparentemente sem remorsos</li>
+    <li>circumstance_phrase->com fria eficiência</li>
+    <li>circumstance_phrase->com uma raiva apaixonada</li>
+    <li>circumstance_phrase->com movimentos rápidos e eficientes</li>
+    <li>circumstance_phrase->sem emoção nem expressão</li>
+    <li>circumstance_phrase->por pura e triste necessidade</li>
+    <li>circumstance_phrase->de forma cobarde e hesitante</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam.</li>
+    <li>desc_sentence->Um [PersonJob] observa em silêncio [side_position].</li>
+    <li>desc_sentence->Forma-se uma poça de sangue à volta do corpo de [VICTIM_nameDef].</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem o corpo coberto de [Gore].</li>
+    <li>desc_sentence->[VICTIM_nameDef] parece [AdjectiveAngsty].</li>
+    <li>desc_sentence->[VICTIM_nameDef] contorce o rosto de dor.</li>
+    <li>desc_sentence->[VICTIM_nameDef] contorce o rosto em agonia.</li>
+    <li>desc_sentence->[KILLER_nameDef] arreganha os dentes.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar de satisfação.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece angustiar-se com o que está a fazer.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece agradar-se da situação.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar triunfante.</li>
+  </Wounded.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <Wounded.rulePack.rulesStrings>&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]&lt;/li>\n&lt;li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um [WEAPON_label]&lt;/li>\n&lt;li>tale_noun->the [wound_name_present] of [VICTIM_nameDef] by [KILLER_nameDef]&lt;/li>\n&lt;li>tale_noun->the [wound_name_present] of [VICTIM_nameDef] with a [WEAPON_label]&lt;/li>\n&lt;li>tale_noun->the [wound_name_present] of [VICTIM_nameDef]&lt;/li>\n&lt;li>image->[VICTIM_nameFull] sendo [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[KILLER_nameFull] brutalmente [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]&lt;/li>\n&lt;li>image->[VICTIM_nameFull] sendo [wound_name_past] [with_weapon_optional]&lt;/li>\n&lt;li>wound_name_past->wounded&lt;/li>\n&lt;li>wound_name_past->harmed&lt;/li>\n&lt;li>wound_name_past->hurt&lt;/li>\n&lt;li>wound_name_past->assaulted&lt;/li>\n&lt;li>wound_name_past->attacked&lt;/li>\n&lt;li>wound_name_present->wounding&lt;/li>\n&lt;li>wound_name_present->harming&lt;/li>\n&lt;li>wound_name_present->hurting&lt;/li>\n&lt;li>wound_name_present->assaulting&lt;/li>\n&lt;li>wound_name_present->attacking&lt;/li>\n&lt;li>with_weapon_optional-> com um [WEAPON_label] [circumstance_group]&lt;/li>\n&lt;li>with_weapon_optional->[circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase->seemingly sem remorse&lt;/li>\n&lt;li>circumstance_phrase-> com eficiência fria&lt;/li>\n&lt;li>circumstance_phrase-> com raiva apaixonada&lt;/li>\n&lt;li>circumstance_phrase-> com movimentos rápidos e eficientes&lt;/li>\n&lt;li>circumstance_phrase-> sem emoção ou expressão&lt;/li>\n&lt;li>circumstance_phrase->out da necessidade fraca&lt;/li>\n&lt;li>circumstance_phrase-> em uma maneira covarde, meiohearted&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s look on.&lt;/li>\n&lt;li>desc_sentence->A [PersonJob] relógios silenciosamente [side_position].&lt;/li>\n&lt;li>desc_sentence-> O sangue está em torno do corpo [VICTIM_nameDef].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está coberto em [Gore].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] parece [AdjectiveAngsty].&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está ganhando em dor.&lt;/li>\n&lt;li>desc_sentence-> [VICTIM_nameDef] está ganhando em agonia.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] está barcando [KILLER_possessive] dentes.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece angustiado com o que [KILLER_pronoun] está fazendo.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece satisfeito com a situação.&lt;/li>\n&lt;li>desc_sentence-> [KILLER_nameDef] parece triunfante.&lt;/li>\n</Wounded.rulePack.rulesStrings>
+  <Wounded.rulePack.rulesStrings>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com [WEAPON_label]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] por [KILLER_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past] com [WEAPON_label]</li>
+    <li>tale_noun->[VICTIM_nameDef] a ser [wound_name_past]</li>
+    <li>image->[VICTIM_nameFull] a ser [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] brutalmente [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] a ser [wound_name_past] [with_weapon_optional]</li>
+    <li>wound_name_past->ferido</li>
+    <li>wound_name_past->magoado</li>
+    <li>wound_name_past->agredido</li>
+    <li>wound_name_past->assaltado</li>
+    <li>wound_name_past->atacado</li>
+    <li>wound_name_present->a ferir</li>
+    <li>wound_name_present->a magoar</li>
+    <li>wound_name_present->a agredir</li>
+    <li>wound_name_present->a assaltar</li>
+    <li>wound_name_present->a atacar</li>
+    <li>with_weapon_optional->com [WEAPON_label] [circumstance_group]</li>
+    <li>with_weapon_optional->[circumstance_group]</li>
+    <li>circumstance_phrase->aparentemente sem remorsos</li>
+    <li>circumstance_phrase->com fria eficiência</li>
+    <li>circumstance_phrase->com uma raiva apaixonada</li>
+    <li>circumstance_phrase->com movimentos rápidos e eficientes</li>
+    <li>circumstance_phrase->sem emoção nem expressão</li>
+    <li>circumstance_phrase->por pura e triste necessidade</li>
+    <li>circumstance_phrase->de forma cobarde e hesitante</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam.</li>
+    <li>desc_sentence->Um [PersonJob] observa em silêncio [side_position].</li>
+    <li>desc_sentence->Forma-se uma poça de sangue à volta do corpo de [VICTIM_nameDef].</li>
+    <li>desc_sentence->[VICTIM_nameDef] tem o corpo coberto de [Gore].</li>
+    <li>desc_sentence->[VICTIM_nameDef] parece [AdjectiveAngsty].</li>
+    <li>desc_sentence->[VICTIM_nameDef] contorce o rosto de dor.</li>
+    <li>desc_sentence->[VICTIM_nameDef] contorce o rosto em agonia.</li>
+    <li>desc_sentence->[KILLER_nameDef] arreganha os dentes.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar de satisfação.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece angustiar-se com o que está a fazer.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece agradar-se da situação.</li>
+    <li>desc_sentence->[KILLER_nameDef] tem um ar triunfante.</li>
+  </Wounded.rulePack.rulesStrings>
   
 </LanguageData>

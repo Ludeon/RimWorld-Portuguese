@@ -17,9 +17,39 @@
     <li>funeral->interment</li>
     <li>funeral->requiem</li>
   -->
-  <NamerRitualFuneral.rulePack.rulesStrings>&lt;li>r_ritualName(p=2)->[memeAdjetivo] [funeral]&lt;/li>\n&lt;li>r_ritualName->[funeral] de [chosenTheme]&lt;/li>\n&lt;li>r_ritualName->[chosenAdjective] [funeral]&lt;/li>\n&lt;li>r_ritualName->[keyDeity] [funeral]&lt;/li>\n&lt;li>r_ritualName->[funeral] de [keyDeity]&lt;/li>\n&lt;li>r_ritualName->[funeral] de [memeConcept]&lt;/li>\n&lt;li>r_ritualName->[funeral] de [chosenIdeoName]&lt;/li>\n&lt;li>r_ritualName(p=0,01)->funeral&lt;/li>\n&lt;li>funeral->funeral&lt;/li>\n&lt;li>funeral->mourning&lt;/li>\n&lt;li>funeral->eulogy&lt;/li>\n&lt;li>funeral->burial&lt;/li>\n&lt;li>funeral->interment&lt;/li>\n&lt;li>funeral->requiem&lt;/li>\n</NamerRitualFuneral.rulePack.rulesStrings>
+  <NamerRitualFuneral.rulePack.rulesStrings>
+    <li>r_ritualName(p=2)->[funeral] [memeAdjective]</li>
+    <li>r_ritualName->[funeral] de [chosenTheme]</li>
+    <li>r_ritualName->[funeral] [chosenAdjective]</li>
+    <li>r_ritualName->[funeral] em honra de [keyDeity]</li>
+    <li>r_ritualName->[funeral] de [keyDeity]</li>
+    <li>r_ritualName->[funeral] de [memeConcept]</li>
+    <li>r_ritualName->[funeral] de [chosenIdeoName]</li>
+    <li>r_ritualName(p=0.01)->funeral</li>
+    <li>funeral->cerimónia fúnebre</li>
+    <li>funeral->vigília</li>
+    <li>funeral->elegia</li>
+    <li>funeral->inumação</li>
+    <li>funeral->tumulação</li>
+    <li>funeral->homenagem fúnebre</li>
+  </NamerRitualFuneral.rulePack.rulesStrings>
   
   <!-- UNUSED -->
-  <NamerRitualFuneral.rulePack.rulesStrings>&lt;li>r_ritualName(p=2)->[memeAdjetivo] [funeral]&lt;/li>\n&lt;li>r_ritualName->[funeral] de [chosenTheme]&lt;/li>\n&lt;li>r_ritualName->[chosenAdjective] [funeral]&lt;/li>\n&lt;li>r_ritualName->[keyDeity] [funeral]&lt;/li>\n&lt;li>r_ritualName->[funeral] de [keyDeity]&lt;/li>\n&lt;li>r_ritualName->[funeral] de [memeConcept]&lt;/li>\n&lt;li>r_ritualName->[funeral] de [chosenIdeoName]&lt;/li>\n&lt;li>r_ritualName(p=0,01)->funeral&lt;/li>\n&lt;li>funeral->funeral&lt;/li>\n&lt;li>funeral->mourning&lt;/li>\n&lt;li>funeral->eulogy&lt;/li>\n&lt;li>funeral->burial&lt;/li>\n&lt;li>funeral->interment&lt;/li>\n&lt;li>funeral->requiem&lt;/li>\n</NamerRitualFuneral.rulePack.rulesStrings>
+  <NamerRitualFuneral.rulePack.rulesStrings>
+    <li>r_ritualName(p=2)->[funeral] [memeAdjective]</li>
+    <li>r_ritualName->[funeral] de [chosenTheme]</li>
+    <li>r_ritualName->[funeral] [chosenAdjective]</li>
+    <li>r_ritualName->[funeral] em honra de [keyDeity]</li>
+    <li>r_ritualName->[funeral] de [keyDeity]</li>
+    <li>r_ritualName->[funeral] de [memeConcept]</li>
+    <li>r_ritualName->[funeral] de [chosenIdeoName]</li>
+    <li>r_ritualName(p=0.01)->funeral</li>
+    <li>funeral->cerimónia fúnebre</li>
+    <li>funeral->vigília</li>
+    <li>funeral->elegia</li>
+    <li>funeral->inumação</li>
+    <li>funeral->tumulação</li>
+    <li>funeral->homenagem fúnebre</li>
+  </NamerRitualFuneral.rulePack.rulesStrings>
   
 </LanguageData>

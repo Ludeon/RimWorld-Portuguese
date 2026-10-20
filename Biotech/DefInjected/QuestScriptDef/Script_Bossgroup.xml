@@ -9,19 +9,41 @@
     <li>manufacture->\n\nThe chip can also be used to create more advanced mechanoids.</li>
     <li>study->\n\nYou can study the [reward_label] by selecting a mechanitor and right-clicking the chip. Studying a [reward_label] helps unlock higher tiers of mechtech research.</li>
   -->
-  <Bossgroup.questContentRules.rulesStrings>&lt;li>bossDefeatedLetterLabel->[escortees0_label] derrotado: [reward_label]&lt;/li>\n&lt;li>bossDefeatedStudyChipLetterText->[defeated][study][manufacture]&lt;/li>\n&lt;li>bossDefeatedLetterText->[defeated][manufactura]&lt;/li>\n&lt;li>defeated-> O hostil [escortees0_label] foi derrotado e caiu um [reward_label]!&lt;/li>\n&lt;li> fabricação->\n\nO chip também pode ser usado para criar mecanóides mais avançados.&lt;/li>\n&lt;li>study->\n\nVocê pode estudar o [reward_label] selecionando um mecanitor e clicando com o botão direito do mouse no chip. Estudar um [reward_label] ajuda a desbloquear níveis mais elevados de pesquisa mechtech.&lt;/li>\n</Bossgroup.questContentRules.rulesStrings>
+  <Bossgroup.questContentRules.rulesStrings>
+    <li>bossDefeatedLetterLabel->[escortees0_label] derrotado: [reward_label]</li>
+    <li>bossDefeatedStudyChipLetterText->[defeated][study][manufacture]</li>
+    <li>bossDefeatedLetterText->[defeated][manufacture]</li>
+    <li>defeated->O [escortees0_label] hostil foi derrotado e deixou cair o seguinte item: [reward_label]!</li>
+    <li>manufacture->\n\nO chip também pode ser usado para criar mecanoides mais avançados.</li>
+    <li>study->\n\nPodes estudar o item [reward_label]: seleciona um mecanitor e clica com o botão direito no chip. Estudar este item ajuda a desbloquear níveis superiores de investigação mecatec.</li>
+  </Bossgroup.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->bossgroup</li>
   -->
-  <Bossgroup.questDescriptionRules.rulesStrings>&lt;li>questDescription->bossgroup&lt;/li>\n</Bossgroup.questDescriptionRules.rulesStrings>
+  <Bossgroup.questDescriptionRules.rulesStrings>
+    <li>questDescription->bossgroup</li>
+  </Bossgroup.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->bossgroup</li>
   -->
-  <Bossgroup.questNameRules.rulesStrings>&lt;li>questNome->bossgroup&lt;/li>\n</Bossgroup.questNameRules.rulesStrings>
+  <Bossgroup.questNameRules.rulesStrings>
+    <li>questName->bossgroup</li>
+  </Bossgroup.questNameRules.rulesStrings>
   
   <!-- UNUSED -->
-  <Bossgroup.questContentRules.rulesStrings>&lt;li>bossDefeatedLetterLabel->[escortees0_label] derrotado: [reward_label]&lt;/li>\n&lt;li>bossDefeatedStudyChipLetterText->[defeated][study][manufacture]&lt;/li>\n&lt;li>bossDefeatedLetterText->[defeated][manufactura]&lt;/li>\n&lt;li>defeated-> O hostil [escortees0_label] foi derrotado e caiu um [reward_label]!&lt;/li>\n&lt;li> fabricação->\n\nO chip também pode ser usado para criar mecanóides mais avançados.&lt;/li>\n&lt;li>study->\n\nVocê pode estudar o [reward_label] selecionando um mecanitor e clicando com o botão direito do mouse no chip. Estudar um [reward_label] ajuda a desbloquear níveis mais elevados de pesquisa mechtech.&lt;/li>\n</Bossgroup.questContentRules.rulesStrings>
-  <Bossgroup.questDescriptionRules.rulesStrings>&lt;li>questDescription->bossgroup&lt;/li>\n</Bossgroup.questDescriptionRules.rulesStrings>
-  <Bossgroup.questNameRules.rulesStrings>&lt;li>questNome->bossgroup&lt;/li>\n</Bossgroup.questNameRules.rulesStrings>
+  <Bossgroup.questContentRules.rulesStrings>
+    <li>bossDefeatedLetterLabel->[escortees0_label] derrotado: [reward_label]</li>
+    <li>bossDefeatedStudyChipLetterText->[defeated][study][manufacture]</li>
+    <li>bossDefeatedLetterText->[defeated][manufacture]</li>
+    <li>defeated->O [escortees0_label] hostil foi derrotado e deixou cair o seguinte item: [reward_label]!</li>
+    <li>manufacture->\n\nO chip também pode ser usado para criar mecanoides mais avançados.</li>
+    <li>study->\n\nPodes estudar o item [reward_label]: seleciona um mecanitor e clica com o botão direito no chip. Estudar este item ajuda a desbloquear níveis superiores de investigação mecatec.</li>
+  </Bossgroup.questContentRules.rulesStrings>
+  <Bossgroup.questDescriptionRules.rulesStrings>
+    <li>questDescription->bossgroup</li>
+  </Bossgroup.questDescriptionRules.rulesStrings>
+  <Bossgroup.questNameRules.rulesStrings>
+    <li>questName->bossgroup</li>
+  </Bossgroup.questNameRules.rulesStrings>
   
 </LanguageData>

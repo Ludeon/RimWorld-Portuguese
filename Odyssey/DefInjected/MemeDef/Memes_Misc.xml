@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: shipborn -->
-  <Shipborn.label>TODO</Shipborn.label>
+  <Shipborn.label>nascido a bordo</Shipborn.label>
   <!-- EN: Humans were destined to live among the stars. -->
-  <Shipborn.description>TODO</Shipborn.description>
+  <Shipborn.description>Os humanos estavam destinados a viver entre as estrelas.</Shipborn.description>
   <!-- EN:
     <li>creation(tag=meme_Shipborn)        ->[deity0_name] shaped humanity from the dust of [celestialComponents], breathing life into mankind with [deity0_possessive] stellar winds.</li>
     <li>episode(uses=1,tag=meme_Shipborn)  ->[deity0_name] dispersed the great people of [place_name], sending them into the void so that they may witness the convergence of star and soul.</li>
@@ -30,7 +30,31 @@
     <li>veneratedRole->navigator</li>
     <li>veneratedRole->captain</li>
   -->
-  <Shipborn.descriptionMaker.rules.rulesStrings>TODO</Shipborn.descriptionMaker.rules.rulesStrings>
+  <Shipborn.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Shipborn)->[deity0_name] moldou a humanidade do pó e deu-lhe vida com os seus ventos estelares, sob [celestialComponents].</li>
+    <li>episode(uses=1,tag=meme_Shipborn)->[deity0_name] dispersou o grande povo de [place_name], enviando-o para o vazio para que testemunhasse a convergência entre estrela e alma.</li>
+    <li>intro(tag=meme_Shipborn)->Nos dias de escuridão, [deity0_name] viu que a humanidade precisava de orientação e ordenou aos seus [memberNamePlural] que construíssem grandes naves.</li>
+    <li>conflict(tag=meme_Shipborn)->Quando os [memberNamePlural] começaram a cumprir a visão de [deity0_name], um [foeLeader] traidor tentou impedi-los. Os seus [foeSoldiers] usaram [place_personalWeapon]s cruéis contra quem tentava embarcar nas naves sagradas.</li>
+    <li>founderJoin(tag=meme_Shipborn)->[founderName], [place_job] de ofício, reuniu os verdadeiros crentes e conduziu-os ao [altarRoomLabel] escondido. Aí, [founderName] tornou-se o seu [veneratedRole].</li>
+    <li>victory(tag=meme_Shipborn)->Então [founderName] falou com a voz de [deity0_name]. Numa convergência brilhante de luz e energia, [founderName] subjugou os inimigos e conduziu o seu povo até às naves sagradas.</li>
+    <li>setup(tag=meme_Shipborn)->Na sua nave divina, [founderName] viajou durante mil anos pelos mares estelares, comungando com espíritos celestiais e desvendando os segredos do cosmos.</li>
+    <li>story(uses=1,tag=meme_Shipborn)->[founderName] viu que o destino da humanidade só podia cumprir-se entre as estrelas.</li>
+    <li>lessonIntro(tag=meme_Shipborn)->Ao observar [celestialComponents], descobri uma verdade acima de todas as outras:</li>
+    <li>lesson(tag=meme_Shipborn)->as estrelas são o nosso verdadeiro [veneratedRole], e é nosso dever procurar a sua sabedoria e viajar entre elas</li>
+    <li>lesson(tag=meme_Shipborn)->a humanidade nunca foi feita para ser prisioneira de uma rocha. Temos de viver entre os céus</li>
+    <li>lesson(tag=meme_Shipborn)->as nossas naves são as nossas mães santas e os nossos pais sagrados. Temos de cuidar delas como elas cuidaram de nós</li>
+    <li>lessonReinforcement(tag=meme_Shipborn)->Que os teus pés nunca toquem o chão.</li>
+    <li>archistBasis(tag=meme_Shipborn)->Desde o seu surgimento, os arcotecs estenderam a sua consciência pelas estrelas.</li>
+    <li>archistFact(tag=meme_Shipborn)->Os arcotecs transcendem as limitações da vida presa a um planeta.</li>
+    <li>archistProphecy(tag=meme_Shipborn)->[inTheEnd], os arcotecs ensinar-nos-ão a mover-nos sem esforço entre as estrelas, se observarmos a sua sabedoria cósmica.</li>
+    <li>animistBasis(tag=meme_Shipborn)->Os nossos ancestrais percorreram [celestialComponents] e ensinam-nos a considerar a humanidade e as entidades celestes como pares.</li>
+    <li>animistFact(tag=meme_Shipborn)->Os mesmos espíritos que habitam os corpos celestes guiam o destino da humanidade.</li>
+    <li>celestialComponents->as estrelas, as luas e os cometas</li>
+    <li>celestialComponents->o cosmos</li>
+    <li>celestialComponents->mil sóis</li>
+    <li>veneratedRole->navegador</li>
+    <li>veneratedRole->capitão</li>
+  </Shipborn.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->crew</li>
     <li>memeCreed->ship</li>
@@ -53,6 +77,27 @@
     <li>memeMoralist->navigator</li>
     <li>memeMoralist->councillor</li>
   -->
-  <Shipborn.generalRules.rulesStrings>TODO</Shipborn.generalRules.rulesStrings>
+  <Shipborn.generalRules.rulesStrings>
+    <li>memeCreed->tripulação</li>
+    <li>memeCreed->nave</li>
+    <li>memeCreed->nave estelar</li>
+    <li>memeAdjective->estelar</li>
+    <li>memeAdjective->vazio</li>
+    <li>memeAdjective->cósmico</li>
+    <li>memeAdjective->celeste</li>
+    <li>memeAdjective->astral</li>
+    <li>memeHyphenPrefix->astro</li>
+    <li>memeHyphenPrefix->escuro</li>
+    <li>memeConcept->espaço</li>
+    <li>memeConcept->estrelas</li>
+    <li>memeConcept->naves estelares</li>
+    <li>memeLeaderNoun->capitão</li>
+    <li>memeLeaderNoun->filho das estrelas</li>
+    <li>memeLeaderNoun->piloto</li>
+    <li>memeLeaderAdjective->resplandecente</li>
+    <li>memeMoralist->desbravador</li>
+    <li>memeMoralist->navegador</li>
+    <li>memeMoralist->conselheiro</li>
+  </Shipborn.generalRules.rulesStrings>
   
 </LanguageData>

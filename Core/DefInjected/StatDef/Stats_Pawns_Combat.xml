@@ -2,92 +2,92 @@
 <LanguageData>
   
   <!-- EN: aiming time -->
-  <AimingDelayFactor.label>apontando tempo</AimingDelayFactor.label>
+  <AimingDelayFactor.label>tempo de pontaria</AimingDelayFactor.label>
   <!-- EN: How long it takes to shoot after choosing a target. -->
-  <AimingDelayFactor.description>Quanto tempo leva para disparar depois de escolher um alvo.</AimingDelayFactor.description>
+  <AimingDelayFactor.description>Quanto tempo demora a disparar depois de escolher um alvo.</AimingDelayFactor.description>
   
   <!-- EN: incoming damage multiplier -->
-  <IncomingDamageFactor.label>multiplicador de danos recebido</IncomingDamageFactor.label>
+  <IncomingDamageFactor.label>multiplicador do dano recebido</IncomingDamageFactor.label>
   <!-- EN: A multiplier on all incoming damage. -->
-  <IncomingDamageFactor.description>Um multiplicador em todos os danos recebidos.</IncomingDamageFactor.description>
+  <IncomingDamageFactor.description>Um multiplicador de todo o dano recebido.</IncomingDamageFactor.description>
   
   <!-- EN: melee armor penetration -->
-  <MeleeArmorPenetration.label>penetração melee armadura</MeleeArmorPenetration.label>
+  <MeleeArmorPenetration.label>penetração de armadura corpo a corpo</MeleeArmorPenetration.label>
   <!-- EN: Average armor penetration of all attacks in melee combat.\n\nThis stat includes currently used weapon. -->
-  <MeleeArmorPenetration.description>Penetração média de armadura de todos os ataques em combate corpo a corpo.\n\nEsta estatística inclui a arma usada atualmente.</MeleeArmorPenetration.description>
+  <MeleeArmorPenetration.description>Penetração de armadura média de todos os ataques em combate corpo a corpo.\n\nEste atributo inclui a arma usada atualmente.</MeleeArmorPenetration.description>
   
   <!-- EN: melee cooldown -->
-  <MeleeCooldownFactor.label>melee cooldown</MeleeCooldownFactor.label>
+  <MeleeCooldownFactor.label>tempo de recarga corpo a corpo</MeleeCooldownFactor.label>
   <!-- EN: A multiplier on the time this creature takes to recover after making a melee attack. -->
-  <MeleeCooldownFactor.description>Um multiplicador no tempo que esta criatura leva para recuperar depois de fazer um ataque de corpo.</MeleeCooldownFactor.description>
+  <MeleeCooldownFactor.description>Um multiplicador do tempo que esta criatura demora a recuperar depois de fazer um ataque corpo a corpo.</MeleeCooldownFactor.description>
   
   <!-- EN: melee damage factor -->
-  <MeleeDamageFactor.label>fator de dano da melee</MeleeDamageFactor.label>
+  <MeleeDamageFactor.label>fator de dano corpo a corpo</MeleeDamageFactor.label>
   <!-- EN: A multiplier on the amount of melee damage inflicted by this person. -->
-  <MeleeDamageFactor.description>Um multiplicador na quantidade de danos causados por esta pessoa.</MeleeDamageFactor.description>
+  <MeleeDamageFactor.description>Um multiplicador da quantidade de dano corpo a corpo infligido por esta pessoa.</MeleeDamageFactor.description>
   
   <!-- EN: melee dodge chance -->
-  <MeleeDodgeChance.label>melee chance de esquivar</MeleeDodgeChance.label>
+  <MeleeDodgeChance.label>probabilidade de esquiva corpo a corpo</MeleeDodgeChance.label>
   <!-- EN: Chance to dodge a melee attack that would've otherwise hit.\n\nCharacters will not dodge while aiming or firing a ranged weapon. -->
-  <MeleeDodgeChance.description>É provável esquivar-se de um ataque de corpo que teria atingido de outra forma.\n\nOs personagens não se esquivam enquanto apontam ou disparam uma arma variada.</MeleeDodgeChance.description>
+  <MeleeDodgeChance.description>Probabilidade de esquivar um ataque corpo a corpo que, de outra forma, teria acertado.\n\nAs pessoas não se esquivam enquanto apontam ou disparam uma arma à distância.</MeleeDodgeChance.description>
   
   <!-- EN: melee DPS -->
-  <MeleeDPS.label>mElee DPS</MeleeDPS.label>
+  <MeleeDPS.label>DPS corpo a corpo</MeleeDPS.label>
   <!-- EN: Average damage per second in melee combat.\n\nThis stat ignores target defenses like dodging and armor. -->
-  <MeleeDPS.description>Dano médio por segundo no combate corpo a corpo.\n\nEsta estatística ignora defesas-alvo como esquivar e armadura.</MeleeDPS.description>
+  <MeleeDPS.description>Dano médio por segundo em combate corpo a corpo.\n\nEste atributo ignora as defesas do alvo, como esquivas e armadura.</MeleeDPS.description>
   
   <!-- EN: melee hit chance -->
-  <MeleeHitChance.label>chance de melee</MeleeHitChance.label>
+  <MeleeHitChance.label>probabilidade de acerto corpo a corpo</MeleeHitChance.label>
   <!-- EN: Chance to hit a target in melee.\n\nThe target can still dodge even if we would've hit. -->
-  <MeleeHitChance.description>Chance de atingir um alvo na vida.\n\nO alvo ainda pode esquivar-se mesmo que atingissemos.</MeleeHitChance.description>
+  <MeleeHitChance.description>Probabilidade de acertar num alvo em corpo a corpo.\n\nO alvo ainda pode esquivar-se, mesmo que tivéssemos acertado.</MeleeHitChance.description>
   
   <!-- EN: Mortar miss radius multiplier -->
-  <MortarMissRadiusFactor.label>Multiplicador de raio de falta de argamassa</MortarMissRadiusFactor.label>
+  <MortarMissRadiusFactor.label>multiplicador do raio de falha do morteiro</MortarMissRadiusFactor.label>
   <!-- EN: A multiplier on the miss radius of a mortar used by this person. Smaller numbers means more accurate mortar shells. -->
-  <MortarMissRadiusFactor.description>Um multiplicador no raio de um morteiro usado por esta pessoa. Números menores significa conchas de argamassa mais precisas.</MortarMissRadiusFactor.description>
+  <MortarMissRadiusFactor.description>Um multiplicador do raio de falha de um morteiro usado por esta pessoa. Números mais baixos significam granadas de morteiro mais precisas.</MortarMissRadiusFactor.description>
   <!-- EN: Mortar miss radius multiplier -->
-  <MortarMissRadiusFactor.labelForFullStatList>Multiplicador de raio de falta de argamassa</MortarMissRadiusFactor.labelForFullStatList>
+  <MortarMissRadiusFactor.labelForFullStatList>multiplicador do raio de falha do morteiro</MortarMissRadiusFactor.labelForFullStatList>
   
   <!-- EN: trap spring chance -->
-  <PawnTrapSpringChance.label>armadilha primavera chance</PawnTrapSpringChance.label>
+  <PawnTrapSpringChance.label>probabilidade de acionar armadilhas</PawnTrapSpringChance.label>
   <!-- EN: Chance to spring a trap the character is unaware of. -->
-  <PawnTrapSpringChance.description>Chance de criar uma armadilha que o personagem não tem conhecimento.</PawnTrapSpringChance.description>
+  <PawnTrapSpringChance.description>Probabilidade de acionar uma armadilha que a pessoa desconhece.</PawnTrapSpringChance.description>
   
   <!-- EN: ranged cooldown multiplier -->
-  <RangedCooldownFactor.label>multiplicador de arrefecimento variado</RangedCooldownFactor.label>
+  <RangedCooldownFactor.label>multiplicador do tempo de recarga à distância</RangedCooldownFactor.label>
   <!-- EN: A multiplier on the cooldown between bursts when using a ranged weapon. -->
-  <RangedCooldownFactor.description>Um multiplicador no cooldown entre rajadas ao usar uma arma de alcance.</RangedCooldownFactor.description>
+  <RangedCooldownFactor.description>Um multiplicador do tempo de recarga entre rajadas ao usar uma arma à distância.</RangedCooldownFactor.description>
   
   <!-- EN: accuracy factor (long) -->
-  <ShootingAccuracyFactor_Long.label>fator de precisão (longo)</ShootingAccuracyFactor_Long.label>
+  <ShootingAccuracyFactor_Long.label>fator de precisão (longa)</ShootingAccuracyFactor_Long.label>
   <!-- EN: A multiplier on accuracy at a distance of 40 cells or more. -->
-  <ShootingAccuracyFactor_Long.description>Um multiplicador na precisão a uma distância de 40 células ou mais.</ShootingAccuracyFactor_Long.description>
+  <ShootingAccuracyFactor_Long.description>Um multiplicador da precisão a uma distância de 40 células ou mais.</ShootingAccuracyFactor_Long.description>
   
   <!-- EN: accuracy factor (medium) -->
-  <ShootingAccuracyFactor_Medium.label>fator de precisão (médio)</ShootingAccuracyFactor_Medium.label>
+  <ShootingAccuracyFactor_Medium.label>fator de precisão (média)</ShootingAccuracyFactor_Medium.label>
   <!-- EN: A multiplier on accuracy at a distance of 25 cells. -->
-  <ShootingAccuracyFactor_Medium.description>Um multiplicador na precisão a uma distância de 25 células.</ShootingAccuracyFactor_Medium.description>
+  <ShootingAccuracyFactor_Medium.description>Um multiplicador da precisão a uma distância de 25 células.</ShootingAccuracyFactor_Medium.description>
   
   <!-- EN: accuracy factor (short) -->
-  <ShootingAccuracyFactor_Short.label>fator de precisão (curto)</ShootingAccuracyFactor_Short.label>
+  <ShootingAccuracyFactor_Short.label>fator de precisão (curta)</ShootingAccuracyFactor_Short.label>
   <!-- EN: A multiplier on accuracy at a distance of 12 cells. -->
-  <ShootingAccuracyFactor_Short.description>Um multiplicador na precisão a uma distância de 12 células.</ShootingAccuracyFactor_Short.description>
+  <ShootingAccuracyFactor_Short.description>Um multiplicador da precisão a uma distância de 12 células.</ShootingAccuracyFactor_Short.description>
   
   <!-- EN: accuracy factor (close) -->
-  <ShootingAccuracyFactor_Touch.label>fator de precisão (fecha)</ShootingAccuracyFactor_Touch.label>
+  <ShootingAccuracyFactor_Touch.label>fator de precisão (muito curta)</ShootingAccuracyFactor_Touch.label>
   <!-- EN: A multiplier on accuracy at a distance of 3 cells or less. -->
-  <ShootingAccuracyFactor_Touch.description>Um multiplicador na precisão a uma distância de 3 células ou menos.</ShootingAccuracyFactor_Touch.description>
+  <ShootingAccuracyFactor_Touch.description>Um multiplicador da precisão a uma distância de 3 células ou menos.</ShootingAccuracyFactor_Touch.description>
   
   <!-- EN: shooting accuracy -->
-  <ShootingAccuracyPawn.label>precisão de disparo</ShootingAccuracyPawn.label>
+  <ShootingAccuracyPawn.label>precisão de tiro</ShootingAccuracyPawn.label>
   <!-- EN: Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors.\n\nA hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
-  <ShootingAccuracyPawn.description>Chance base para não perder por célula de distância de tiro.\n\nA chance de acertar também é afetada por muitos outros fatores.\n\nUma explicação de chance de sucesso para qualquer tiro pode ser visto selecionando um atirador e esfregando sobre um alvo.</ShootingAccuracyPawn.description>
+  <ShootingAccuracyPawn.description>Probabilidade base de não falhar por cada célula de distância do tiro.\n\nA probabilidade de acertar também é afetada por muitos outros fatores.\n\nPodes ver uma explicação da probabilidade de acerto de qualquer tiro ao selecionar um atirador e passar o rato por cima de um alvo.</ShootingAccuracyPawn.description>
   <!-- EN: shooting accuracy (people) -->
   <ShootingAccuracyPawn.labelForFullStatList>precisão de tiro (pessoas)</ShootingAccuracyPawn.labelForFullStatList>
   
   <!-- EN: stagger time multiplier -->
-  <StaggerDurationFactor.label>multiplicador de tempo</StaggerDurationFactor.label>
+  <StaggerDurationFactor.label>multiplicador do tempo de cambaleio</StaggerDurationFactor.label>
   <!-- EN: A multiplier on the duration of the stagger-slowdown that occurs when damage is taken. -->
-  <StaggerDurationFactor.description>Um multiplicador na duração da redução do escalão que ocorre quando o dano é tomado.</StaggerDurationFactor.description>
+  <StaggerDurationFactor.description>Um multiplicador da duração da lentidão por cambaleio que ocorre quando se sofre dano.</StaggerDurationFactor.description>
   
 </LanguageData>
