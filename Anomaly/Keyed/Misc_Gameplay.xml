@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- Shamblers -->
   <!-- EN: Regenerating to rise again. -->
   <ShamblerRegenerating>Regenerar-se para erguer-se de novo.</ShamblerRegenerating>
   <!-- EN: Rising. -->
@@ -16,14 +18,17 @@
   <LetterText_ShamblerChimera>Tenha cuidado, o grupo contém uma quimera shambler.</LetterText_ShamblerChimera>
   <!-- EN: Be careful, the group contains several shambler chimeras. -->
   <LetterText_ShamblerChimeraPlural>Tenha cuidado, o grupo contém várias quimeras shambler.</LetterText_ShamblerChimeraPlural>
+
   <!-- EN: Non-humans cannot participate in rituals. -->
   <MessageRitualCannotBeMutant>Não-humanos não podem participar em rituais.</MessageRitualCannotBeMutant>
+
+  <!-- Revenant -->
   <!-- EN: Revenant attack -->
   <LetterLabelRevenantRevealed>Ataque de revenant</LetterLabelRevenantRevealed>
   <!-- EN: A revenant has revealed itself! -->
   <LetterRevenantRevealed>Um revenant revelou-se!</LetterRevenantRevealed>
   <!-- EN: A revenant has revealed itself and is hunting one of your colonists! -->
-  <LetterRevenantRevealedFirst>Um revenant revelou-se e está a caçar um dos seus colonos!</LetterRevenantRevealedFirst>
+  <LetterRevenantRevealedFirst>Um revenant revelou-se e está a caçar um dos seus colonos!</LetterRevenantRevealedFirst> 
   <!-- EN: Revenant smear discovered -->
   <LetterLabelRevenantSmearDiscovered>Marca de revenant descoberta</LetterLabelRevenantSmearDiscovered>
   <!-- EN: {0} has noticed a black slick on the ground. It looks unnatural and gives off a foul, acrid smell. It is still fresh and wet. An eldritch entity passed by recently. -->
@@ -50,6 +55,8 @@
   <LetterLabelRevenantEmergence>Emergência de revenant</LetterLabelRevenantEmergence>
   <!-- EN: The revenant has reemerged from the safety of its spine! Destroy it before it escapes.\n\nIn the process, the revenant has mutated and adopted a new biosignature. -->
   <LetterRevenantEmergence>O revenant reemergiu da segurança da sua espinha dorsal! Destrua-o antes que escape.\n\nNo processo, o revenant sofreu mutações e adotou uma nova bioassinatura.</LetterRevenantEmergence>
+
+  <!-- Sightstealers -->
   <!-- EN: Sightstealer revealed -->
   <LetterLabelSightstealerRevealed>Sightstealer revelado</LetterLabelSightstealerRevealed>
   <!-- EN: A twisted creature has appeared out of thin air! -->
@@ -64,10 +71,14 @@
   <LetterLabelSightstealerHowlBig>Uivo de sightstealer</LetterLabelSightstealerHowlBig>
   <!-- EN: Your colonists hear a huge number of distant sightstealers screaming in their twisted rage. They are coming.\n\nThey might arrive immediately, or days from now. -->
   <LetterSightstealerHowlBig>Seus colonos ouvem um grande número de sightstealers distantes gritando com uma raiva retorcida. Eles vêm aí.\n\nPodem chegar imediatamente ou daqui a alguns dias.</LetterSightstealerHowlBig>
+
+  <!-- Death Pall -->
   <!-- EN: Death pall clearing -->
-  <LetterLabelDeathPallEnded>Limpeza de death pall</LetterLabelDeathPallEnded>
+  <LetterLabelDeathPallEnded>Limpeza de death pall</LetterLabelDeathPallEnded> 
   <!-- EN: The pall of death is lifting. The corpses reanimated by it will soon return to their natural state. -->
   <LetterDeathPallEnded>O death pall está a levantar-se. Os corpos reanimados por ele logo voltarão ao seu estado natural.</LetterDeathPallEnded>
+  
+  <!-- Pit Gate -->
   <!-- EN: Pit gate closing -->
   <LetterLabelGateClosing>Buraco a fechar-se</LetterLabelGateClosing>
   <!-- EN: The pit gate is closing! Its entrance is about to crumble.\n\nThe pit gate entrance was unstable from the start and is finally sealing itself. -->
@@ -77,41 +88,25 @@
   <!-- EN: Pit gate closed -->
   <PitGateClosedHumanityNote>Buraco fechado</PitGateClosedHumanityNote>
   <!-- EN: Pit gate collapsing -->
-  <PitGateCollapsing>Buraco a colapsar</PitGateCollapsing>
+  <PitGateCollapsing>Buraco a colapsar</PitGateCollapsing> 
   <!-- EN: Pit gate settling -->
   <PitGateSettling>Buraco a estabilizar</PitGateSettling>
-  <!-- EN: View undercave -->
-  <ViewUndercave>Ver caverna</ViewUndercave>
-  <!-- EN: View the connected undercave map. -->
-  <ViewUndercaveDesc>Veja o mapa conectado da caverna.</ViewUndercaveDesc>
-  <!-- EN: View surface -->
-  <ViewSurface>Ver superfície</ViewSurface>
-  <!-- EN: View the connected surface map. -->
-  <ViewSurfaceDesc>Veja o mapa conectado da superfície.</ViewSurfaceDesc>
   <!-- EN: Pit rumbles -->
   <EmergenceWarningLabel>Buraco estremece</EmergenceWarningLabel>
   <!-- EN: The ground shakes under your feet and the inhuman screams echoing from the pit seem to get closer. Something will emerge soon. -->
   <EmergenceWarningText>O chão treme sob os seus pés e os gritos desumanos ecoando do buraco parecem aproximar-se. Algo emergirá em breve.</EmergenceWarningText>
-  <!-- EN: Fill in -->
-  <DesignatorFillIn>Preenchimento</DesignatorFillIn>
-  <!-- EN: Fill in this pit burrow. -->
-  <DesignatorFillInDesc>Preencha este buraco.</DesignatorFillInDesc>
-  <!-- EN: Enter pit gate -->
-  <EnterPitGate>Entre no buraco</EnterPitGate>
-  <!-- EN: Climb to surface -->
-  <ExitPitGate>Suba à superfície</ExitPitGate>
-  <!-- EN: Fleshbeast lair -->
-  <LetterLabelGateEntered>Covil do fleshbeast</LetterLabelGateEntered>
-  <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
-  <LetterGateEntered>Nas profundezas do buraco, você descobriu um sistema de cavernas maciço infestado com fleshbeasts.\n\nO sistema de cavernas está entupido de bocados de carne viva que bloqueiam o seu progresso. Ataque a fleshmass para destruí-la.\n\nTodo o sistema da caverna parece instável. Se você encontrar o que está por detrás da fleshmass, você pode ser capaz de colapsar os túneis e fechar o buraco.</LetterGateEntered>
+
+    <!-- Undercave -->
   <!-- EN: Squirming sounds -->
   <LetterLabelDreadmeldWarning>Sons de contorção</LetterLabelDreadmeldWarning>
   <!-- EN: As {PAWN_nameDef} draws near the fleshmass here, {PAWN_pronoun} senses a heavy writhing and throbbing from under its warm surface. Some huge living entity is hidden behind the wall of flesh. -->
-  <LetterDreadmeldWarning>Como {PAWN_nameDef} se aproxima da fleshmass aqui, {PAWN_pronoun} detecta contorções forte e latejantes debaixo da superfície quente. Alguma entidade viva gigante está escondida atrás da parede da carne.</LetterDreadmeldWarning>
+  <LetterDreadmeldWarning>Como {PAWN_nameDef} se aproxima da fleshmass aqui, {PAWN_pronoun} detecta contorções forte e latejantes debaixo da superfície quente. Alguma entidade viva gigante está escondida atrás da parede da carne.</LetterDreadmeldWarning> 
   <!-- EN: Undercave unstable -->
-  <LetterLabelUndercaveCollapsing>Caverna instável</LetterLabelUndercaveCollapsing>
+  <LetterLabelUndercaveCollapsing>Caverna instável</LetterLabelUndercaveCollapsing> 
   <!-- EN: The dreadmeld's death has shocked the fleshmass and caused the cave system to destabilize. The fleshmass that supported the cavern is already beginning to deteriorate. Within half a day, the entire cavern will collapse.\n\nGet out of the undercave before it's too late! -->
   <LetterUndercaveCollapsing>A morte do dreadmeld chocou a fleshmass e fez com que o sistema de cavernas se desestabilizasse. A fleshmass que suportou a caverna já está a começar a deteriorar-se. Dentro de meio dia, toda a caverna entrará em colapso.\n\nSai-a da cabine antes que seja tarde demais!</LetterUndercaveCollapsing>
+
+  <!-- Holding platform -->
   <!-- EN: Holding -->
   <HoldingThing>Segurando</HoldingThing>
   <!-- EN: Remove {0_labelShort} -->
@@ -125,93 +120,118 @@
   <!-- EN: Select holding platform -->
   <SelectHoldingPlatform>Selecione a plataforma de retenção</SelectHoldingPlatform>
   <!-- EN: Entity escape -->
-  <LetterLabelEscapingFromHoldingPlatform>Fuga da entidade</LetterLabelEscapingFromHoldingPlatform>
+  <LetterLabelEscapingFromHoldingPlatform>Fuga da entidade</LetterLabelEscapingFromHoldingPlatform> 
   <!-- EN: The following entities have escaped their restraints:\n\n{0}\n\nBuild stronger containment rooms to stop entities escaping. Entities are less likely to escape from holding platforms with high containment strength, which comes from strong walls and doors, good lighting, and special containment devices. -->
-  <LetterEscapingFromHoldingPlatform>As seguintes entidades escaparam das suas rentenções:\n\n{0}\n\nConstrua salas de contenção mais fortes para impedir que as entidades escapem. As entidades são menos propensas a escapar de plataformas de retenção com alta resistência de contenção, que vem de paredes e portas fortes, boa iluminação e dispositivos de contenção especiais.</LetterEscapingFromHoldingPlatform>
+  <LetterEscapingFromHoldingPlatform>As seguintes entidades escaparam das suas rentenções:\n\n{0}\n\nConstrua salas de contenção mais fortes para impedir que as entidades escapem. As entidades são menos propensas a escapar de plataformas de retenção com alta resistência de contenção, que vem de paredes e portas fortes, boa iluminação e dispositivos de contenção especiais.</LetterEscapingFromHoldingPlatform> 
   <!-- EN: requires {0} -->
   <HoldingPlatformRequiresStrength>Requer {0}</HoldingPlatformRequiresStrength>
   <!-- EN: No holding platforms available. -->
   <NoHoldingPlatformsAvailable>Não há plataformas disponíveis.</NoHoldingPlatformsAvailable>
+  
+  
+  <!-- Obelisks -->
   <!-- EN: Obelisk activation -->
   <MutatorObeliskLetterLabel>Ativação de Obelisco</MutatorObeliskLetterLabel>
   <!-- EN: The obelisk is activating! It swells with grisly energy as the air crackles around it. It is about to self-destruct in a great explosion, but before it does, it will use its hideous transformative power on any creature it can detect. -->
   <MutatorObeliskLetter>O obelisco está a ativar-se! Incha-se com uma energia sinistra à medida que o ar estala ao seu redor. Está prestes a autodestruir-se numa grande explosão, mas antes que isso aconteça, usará o seu poder transformador hediondo em qualquer criatura que possa detetar.</MutatorObeliskLetter>
+
   <!-- EN: Obelisk mutation -->
   <ObeliskTentacleLetterLabel>Mutação de Obelisco</ObeliskTentacleLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling. Moments later, {PAWN_possessive} skin split open as a fleshy growth erupted from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a squirming tentacle!\n\n{PAWN_nameDef} lost some blood, but seems otherwise unharmed. -->
   <ObeliskTentacleLetter>Enquanto estava a interagir com o obelisco, {PAWN_nameDef} sentiu um formigueiro no braço. Momentos mais tarde, a sua pele dividiu-se enquanto um crescimento carnudo irrompeu de seu corpo. O seu braço foi substituído por um tentáculo contorcendo-se!\n\n{PAWN_nameDef} perdeu algum sangue, mas parece ter saído ileso.</ObeliskTentacleLetter>
+
   <!-- EN: Obelisk mutation -->
   <ObeliskFleshWhipLetterLabel>Mutação de Obelisco</ObeliskFleshWhipLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling. Moments later, {PAWN_possessive} skin split open violently as a growth burst from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a tentacle tipped with a bony blade!\n\n{PAWN_nameDef} lost some blood, but seems otherwise unharmed by this disturbing event. The tentacle is hideous, but it will make an excellent melee weapon. -->
   <ObeliskFleshWhipLetter>Enquanto estava a interagir com o obelisco, {PAWN_nameDef} sentiu um formigueiro no braço. Momentos mais tarde, a sua pele divideu-se violentamente enquanto um crescimento explode do seu corpo. O braço foi substituído por um tentáculo com uma lâmina óssea na ponta!\n\n{PAWN_nameDef} perdeu algum sangue, mas parece ter saído ileso deste evento perturbador. O tentáculo é horrível, mas vai dar uma excelente arma de corpo-a-corpo.</ObeliskFleshWhipLetter>
+
   <!-- EN: Obelisk interaction -->
   <MutatorObeliskFailedArmLetterLabel>Interação obelisco</MutatorObeliskFailedArmLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
   <MutatorObeliskFailedArmLetter>Enquanto interagindo com o obelisco, {PAWN_nameDef} sentiu um formigueiro no braço por alguns momentos. A sensação passou.\n\nO obelisco tentou mutar {PAWN_nameDef} mas falhou.</MutatorObeliskFailedArmLetter>
+
   <!-- EN: Obelisk mutation -->
   <ObeliskFleshmassStomachLetterLabel>Mutação de Obelisco</ObeliskFleshmassStomachLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt a sudden sharp pain in {PAWN_possessive} stomach, as {PAWN_possessive} tissue began to roil and mutate. {PAWN_possessive} stomach has mutated into a mass of semi-sentient flesh. The harsh acids it produces are painful but prevent food poisoning. -->
   <ObeliskFleshmassStomachLetter>Enquanto estava a interagir com o obelisco, {PAWN_nameDef} sentiu uma dor súbita e aguda no estômago, como o seu tecido começou a causar irritação e entrou em mutação. O estômago transformou-se numa massa de carne semi sensível. Os ácidos desagradáveis que produz são dolorosos, mas impedem a intoxicação alimentar.</ObeliskFleshmassStomachLetter>
+
   <!-- EN: Obelisk interaction -->
   <MutatorObeliskFailedStomachLetterLabel>Interação com o obelisco</MutatorObeliskFailedStomachLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} stomach aching for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
   <MutatorObeliskFailedStomachLetter>Enquanto estava a integragir com o obelisco, {PAWN_nameDef} sentiu uma dor no estômago por alguns momentos. O sentimento passou.\n\nO obelisco tentou mutar {PAWN_nameDef} mas falhou.</MutatorObeliskFailedStomachLetter>
+
   <!-- EN: Obelisk mutation -->
   <ObeliskFleshmassLungLetterLabel>Mutação do Obelisco</ObeliskFleshmassLungLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt a sudden sharp pain in {PAWN_possessive} chest, as {PAWN_possessive} lung began to twist and swell. {PAWN_possessive} lung has mutated into a painful mass of semi-sentient flesh. The tissue is constantly regrowing and replacing itself, making it immune to effects like lung rot and asthma. -->
   <ObeliskFleshmassLungLetter>Enquanto estava a integragir com o obelisco, {PAWN_nameDef} sentiu uma dor súbita e aguda no peito, enquanto o seu pulmão começou a retorcer e a inchar. O pulmão transformou-se numa massa de carne dolorosa semi-sensível. O tecido está constantemente a crescer e a substituir-se, tornando-o imune a efeitos como podridão pulmonar e asma.</ObeliskFleshmassLungLetter>
+
   <!-- EN: Obelisk interaction -->
   <MutatorObeliskFailedLungLetterLabel>Interação com o obelisco</MutatorObeliskFailedLungLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} chest ache for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
   <MutatorObeliskFailedLungLetter>Ao interagir com o obelisco, {PAWN_nameDef} sentiu dor no peito por alguns momentos. O sentimento passou.\n\nO obelisco tentou mutar {PAWN_nameDef} mas falhou.</MutatorObeliskFailedLungLetter>
+
   <!-- EN: Obelisk mutation -->
   <ObeliskAnimalMutationLetterLabel>Mutação do Obelisco</ObeliskAnimalMutationLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} observed a sudden spike in energy. The obelisk has violently warped the flesh of {ANIMAL}, turning it into a hideous fleshbeast. -->
   <ObeliskAnimalMutationLetter>Enquanto estava a integragir com o obelisco, {PAWN_nameDef} observou um aumento repentino na energia. O obelisco deformou violentamente a carne de {ANIMAL}, transformando-a num fleshbeast horrível.</ObeliskAnimalMutationLetter>
+
   <!-- EN: Obelisk mutation -->
   <ObeliskTreeMutationLetterLabel>Mutação do Obelisco</ObeliskTreeMutationLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} observed a sudden pulse of energy. The obelisk has twisted a nearby tree into a harbinger tree. These monstrous trees are capable of feeding on nearby corpses and raw meat. -->
   <ObeliskTreeMutationLetter>Ao interagir com o obelisco, {PAWN_nameDef} observou um pulso súbito de energia. O obelisco transformou uma árvore próxima numa árvore harbinger. Estas árvores monstruosas são capazes de se alimentar de cadáveres próximos e carne crua.</ObeliskTreeMutationLetter>
+
   <!-- EN: Obelisk duplicate -->
   <ObeliskDuplicationLetterLabel>Obelisco duplicado</ObeliskDuplicationLetterLabel>
   <!-- EN: While {PAWN_nameDef} interacted with the obelisk, it pulsed with energy and generated a flash of light. {PAWN_nameDef} found {PAWN_objective}self face to face with a copy of {PAWN_objective}self! The duplicate claims to be the real {PAWN_nameDef} and has joined your colony. -->
   <ObeliskDuplicationLetter>Enquanto {PAWN_nameDef} interagia com o obelisco, ele pulsava com energia e gerou um raio de luz. {PAWN_nameDef} deparou-se cara a cara com a sua cópia! A cópia afirma ser a real {PAWN_nameDef} e juntou-se à sua colónia.</ObeliskDuplicationLetter>
+
   <!-- EN: Obelisk failure -->
   <ObeliskDuplicationFailedLetterLabel>Falha do obelisco</ObeliskDuplicationFailedLetterLabel>
   <!-- EN: {PAWN_nameDef} attempted to trigger the obelisk but nothing occurred. Something about {PAWN_nameDef} is preventing the obelisk from duplicating {PAWN_objective}. -->
   <ObeliskDuplicationFailedLetter>{PAWN_name Def} tentou acionar o obelisco mas nada aconteceu. Algo sobre {PAWN_nameDef} está impedindo o obelisco de duplicá-lo.</ObeliskDuplicationFailedLetter>
+  
   <!-- EN: {PAWN_nameDef} has successfully triggered obelisk duplication. -->
   <ObeliskDuplicationSuccessMessage>{PAWN_nameDef} acionar com sucesso a duplicação do obelisco.</ObeliskDuplicationSuccessMessage>
+
   <!-- EN: Hostile obelisk duplicate -->
   <ObeliskHostileDuplicateLetterLabel>Duplicação de obelisco hostil</ObeliskHostileDuplicateLetterLabel>
   <!-- EN: While {PAWN_nameDef} interacted with the obelisk, it pulsed with energy and generated a flash of light. {PAWN_nameDef} found {PAWN_objective}self face to face with a copy of {PAWN_objective}self. The duplicate is approaching {PAWN_nameDef} with murderous intent! -->
   <ObeliskHostileDuplicateLetter>Enquanto {PAWN_nameDef} interagia com o obelisco, ele pulsava com energia e gerou um raio de luz. {PAWN_nameDef} deparou-se cara a cara com a sua cópia. A cópia está a aproximar-se de {PAWN_nameDef} com intenção de matar!</ObeliskHostileDuplicateLetter>
+
   <!-- EN: Obelisk activation -->
   <DuplicatorObeliskLetterLabel>Ativação de Obelisco</DuplicatorObeliskLetterLabel>
   <!-- EN: The obelisk is activating! The air around it crackles with energy. Duplicates of your colonists will soon appear with murderous intent.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
   <DuplicatorObeliskLetter>O obelisco está a ativar-se! O ar ao seu redor estala com energia. Cópias dos seus colonos aparecerão em breve com intenção de matar.\n\nTenha cuidado - energia instável está a fluir através do obelisco e pode explodir a qualquer momento.</DuplicatorObeliskLetter>
+
   <!-- EN: Colonists disappearing -->
   <ObeliskAbductorLetterLabel>Colonistas a desaparecer</ObeliskAbductorLetterLabel>
   <!-- EN: The warped obelisk crackles with energy as it warps space around itself. All manner of creatures are beginning to disappear and will soon vanish entirely.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
   <ObeliskAbductorLetter>O obelisco deformado estala com energia à medida que distorce o espaço ao seu redor. Todas os tipos de criaturas estão a começar a desaparecer e desaparecerão completamente.\n\nTenha cuidado - energia instável está a fluir através do obelisco e pode explodir a qualquer momento.</ObeliskAbductorLetter>
+  
   <!-- EN: {PAWN_nameDef} is disappearing -->
   <ObeliskAbductedDisappearingLetterLabel>{PAWN_name Def} está a desaparecer</ObeliskAbductedDisappearingLetterLabel>
   <!-- EN: {PAWN_nameDef} noticed activity in the warped obelisk. Some mysterious internal mechanism has come to life, causing {PAWN_nameDef} to begin to disappear. {PAWN_pronoun} will soon vanish entirely. -->
   <ObeliskAbductedDisappearingLetter>{PAWN_name Def} notou atividade no obelisco deformado. Algum mecanismo interno misterioso despoletou, fazendo com que {PAWN_nameDef} comece a desaparecer. Em breve desaparecerá completamente.</ObeliskAbductedDisappearingLetter>
+  
   <!-- EN: {PAWN_nameDef} reappeared -->
   <ObeliskAbductedLetterLabel>(PAWN_nameDef) reapareceu</ObeliskAbductedLetterLabel>
   <!-- EN: {PAWN_nameDef} has been teleported to a strange room. The walls are an unidentifiable gray material and the air is dead still. {PAWN_pronoun} doesn't know where {PAWN_pronoun} is - or how to get home.\n\nA nearby door is jammed but looks like it can be forced open with some effort. Right-click jammed doors to open them.\n\nBy studying the obelisk, other colonists may be able to understand what happened to {PAWN_nameDef} and find a way to help {PAWN_objective}. Alternatively, attacking the obelisk may provoke it to abduct more colonists. -->
   <ObeliskAbductedLetter>{PAWN_nameDef} Foi teletransportado para uma sala estranha. As paredes são um material cinza não identificável e o ar está estranhamente calmo. {PAWN_pronoun} não sabe onde está - ou como chegar a casa.\n\nUma porta próxima está bloqueada, mas parece que pode ser forçada com algum esforço. Clique com o botão direito do rato em portas bloqueadas para abri-las.\n\nAo estudar o obelisco, outros colonos podem ser capazes de entender o que aconteceu com {PAWN_nameDef} e encontrar uma maneira de ajudá-lo. Em alternativa, atacar o obelisco pode provocá-lo a raptar mais colonos.</ObeliskAbductedLetter>
+
   <!-- EN: {PAWN_nameIndef} has mutated into a fleshbeast. -->
   <MutatorObeliskMutated>{PAWN_nameIndef} transformou-se num fleshbeast.</MutatorObeliskMutated>
   <!-- EN: A fleshbeast has emerged from the ground. -->
   <MutatorObeliskSpawned>Um fleshbeast emergiu do chão.</MutatorObeliskSpawned>
+
   <!-- EN: Fully activate the warped obelisk. -->
   <ObeliskActivateDesc>Ative completamente o obelisco deformado.</ObeliskActivateDesc>
   <!-- EN: Warning: The warped obelisk is unstable. Fully activating it will provoke a dangerous response and will cause the obelisk to self-destruct. -->
   <ObeliskActivateDescWarning>Aviso: O obelisco deformado é instável. Ativando-o totalmente provocará uma resposta perigosa e fará com que o obelisco se autodestrua.</ObeliskActivateDescWarning>
+
   <!-- EN: Requires {0} shards to disable -->
   <ObeliskDeactivateMissingShards>Requer {0} fragmentos para desativar</ObeliskDeactivateMissingShards>
+  
+  <!-- Activity / Supression -->
   <!-- EN: Activity level -->
   <ActivityLevel>Nível de atividade</ActivityLevel>
   <!-- EN: Psychic suppression -->
@@ -232,14 +252,14 @@
   <Resisted>resistência</Resisted>
   <!-- EN: Damaged -->
   <HealthFactor>Dano</HealthFactor>
-  <!-- EN: Deactivated. -->
-  <Deactivated>Desativado.</Deactivated>
+
   <!-- EN: {PAWN_labelShort} was sent. -->
   <CommandSent>{PAWN_labelShort} foi enviado.</CommandSent>
   <!-- EN: Cannot activate entity -->
   <CannotActivateEntity>Não é possível ativar a entidade</CannotActivateEntity>
   <!-- EN: Entity must be on platform -->
   <CannotActivateEntityPlatform>Entidade deve estar na plataforma</CannotActivateEntityPlatform>
+  
   <!-- EN: Activity -->
   <ActivityGizmo>Actividade</ActivityGizmo>
   <!-- EN: Automatic suppression -->
@@ -250,10 +270,14 @@
   <ActivitySuppressionTooltipDesc>O nível de atividade de {0} aumenta ao longo do tempo. A atividade aumenta mais rápido se o {0} estiver danificado ou for provocado.\n\nSe o nível de atividade atingir 100%, o {0} irá ativar-se.\n\nOs guardas podem suprimir o {0} para manter sua atividade num nível seguro. Eles vão suprimi-lo sempre que a sua atividade esteja acima do nível atribuído: {LEVEL}\n\nEntidades que tenham níveis de atividade mais elevados fornecerão mais conhecimento quando estudadas.</ActivitySuppressionTooltipDesc>
   <!-- EN: This determines whether the {0} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
   <ActivitySuppressionToggleTooltipDesc>Isso determina se o {0} será automaticamente suprimido quando a sua atividade estiver acima de {LEVEL}.\n\nA supressão automática está atualmente {ONOFF}.</ActivitySuppressionToggleTooltipDesc>
+
+  <!-- Activity Descs -->
   <!-- EN: activity level -->
   <ActivityLevelDesc>nível de atividade</ActivityLevelDesc>
   <!-- EN: psychic suppression -->
   <PsychicallySuppressedDesc>supressão psíquica</PsychicallySuppressedDesc>
+
+  <!-- Entity study -->
   <!-- EN: Capture -->
   <CaptureEntity>Captura</CaptureEntity>
   <!-- EN: Capture {0_definite}. It must be restrained on a holding platform. Once restrained, it can be studied. -->
@@ -280,10 +304,13 @@
   <CancelTransfer>Cancelar a transferência</CancelTransfer>
   <!-- EN: Cancel transferring this entity to another holding platform. -->
   <CancelTransferDesc>Cancelar a transferência desta entidade para outra plataforma de retenção.</CancelTransferDesc>
+  
+  <!-- Metalhorrors -->
   <!-- EN: Emerged from -->
   <EmergedFrom>Emergido de</EmergedFrom>
   <!-- EN: Metalhorror emerging -->
   <Emerging>Metalhorror está a emergir</Emerging>
+  
   <!-- EN: Implanted before arrival at your colony -->
   <ImplantSourceUnknown>Implantado antes de chegarem à sua colónia</ImplantSourceUnknown>
   <!-- EN: Implanter insectoid -->
@@ -298,6 +325,7 @@
   <UnnaturalHealingImplant>Implantado durante a cura antinatural por {SOURCE_nameDef}</UnnaturalHealingImplant>
   <!-- EN: Implanted when fed a meal by {SOURCE_nameDef} -->
   <FeedingImplant>Implantado quando foi alimentado com uma refeição por {SOURCE_nameDef}</FeedingImplant>
+
   <!-- EN: Metalhorror emerging -->
   <MetalhorrorEmergingLabel>Metalhorror está a emergir</MetalhorrorEmergingLabel>
   <!-- EN: A metalhorror is emerging! Slicing through flesh and skin, this nightmarish bladed creature is cutting its way out of its host. The metalhorror is emerging from: -->
@@ -306,8 +334,10 @@
   <MetalhorrorEmergingPluralDesc>Metalhorrors estão a emegir! Atravessando carne e pele, estas criaturas assustadoras com lâminas estão a cortar o seu caminho para fora dos seus hospedeiros. Metalhorrors estão a emergir de:</MetalhorrorEmergingPluralDesc>
   <!-- EN: These horrifying metallic parasites live inside the victim, taking control of higher reasoning via a network of hair-thin metallic filaments that they spread throughout the body and brain. They control the victim's mind and compel them to infect others with new metalhorrors. -->
   <MetalhorrorEmergingDescAppended>Estes parasitas metálicos horríveis vivem dentro da vítima, tomando o controlo do seu raciocínio superior através de uma rede de filamentos metálicos finos que se espalham pelo corpo e cérebro. Eles controlam a mente da vítima e obrigam-nos a infetar outros com novos metalhorrors.</MetalhorrorEmergingDescAppended>
+  
   <!-- EN: These doctors were infested and controlled by metalhorrors, so they lied about the results of a surgical inspection -->
   <MetalhorrorSurgicalInspectionDetails>Estes médicos foram infestados e controlados por metalhorrors, por isso eles mentiram sobre os resultados de uma inspeção cirúrgica</MetalhorrorSurgicalInspectionDetails>
+  
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during a social interaction. -->
   <MetalhorrorReasonInteraction>O metalhorror {INFECTED_nameDef} emergiu porque foi descoberto por {PAWN_nameDef} durante uma interação social.</MetalhorrorReasonInteraction>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during an interrogation. -->
@@ -320,46 +350,60 @@
   <MetalhorrorReasonRandom>O metalhorror {INFECTED_nameDef} emergiu por razões desconhecidas.</MetalhorrorReasonRandom>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged upon sensing it was being taken away from the colony. -->
   <MetalhorrorReasonTriedToLeaveMap>O metalhorror {INFECTED_nameDef} emergiu ao sentir que estava a ser afastado da colónia.</MetalhorrorReasonTriedToLeaveMap>
+  
   <!-- EN: Metalhorror detected -->
   <MetalhorrorDetected>Metalhorror detetado</MetalhorrorDetected>
   <!-- EN: {PAWN_nameDef} noticed something wrong with {INFECTED_nameDef} while chatting. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
   <InteractionDetectedDesc>{PAWN_name Def} notou algo errado com {INFECTED_nameDef} enquanto conversavam. {INFECTED_nameDef} exibiu uma combinação de comportamentos antinaturais, sons vocais estranhos ou vermes metálicos quase invisíveis nos olhos. {PAWN_nameDef} suspeita que {INFECTED_nameDef} está infetado com um metalhorror.</InteractionDetectedDesc>
   <!-- EN: {PAWN_nameDef} has found something unusual while interrogating {INFECTED_nameDef}. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
   <InterrogationDetectedDesc>{PAWN_name Def} encontrou algo invulgar durante o interrogatório a {INFECTED_nameDef}. {INFECTED_nameDef} exibiu uma combinação de comportamentos antinaturais, sons vocais estranhos, ou minhocas metálicas quase invisíveis nos olhos. {PAWN_nameDef} suspeita que {INFECTED_nameDef} está infetado com um metalhorror.</InterrogationDetectedDesc>
+  
   <!-- EN: Metalhorrors are parasites that control the host and use them to infect others.\n\nMetalhorrors grow stronger inside the host as time passes. A metalhorror will cut its way out of the host's body if it knows it's been detected. The process is horrifying, but the host generally survives.\n\nThe only way to confirm a person is infected with a metalhorror is to study the metalhorror's fleshy leavings to identify its biosignature, then use the surgical inspection operation with a trusted doctor.\n\nOnce discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
   <MetalhorrorNoticedDetailsAppended>Metalhorrors são parasitas que controlam o hospedeiro e usam-nos para infectar outros.\n\nOs Metalhorrors ficam mais fortes dentro do hospedeiro à medida que o tempo passa. Um metalhorror vai saindo do corpo do hospedeiro se souber que foi detetado. O processo é horrível, mas o hospedeiro geralmente sobrevive.\n\nA única maneira de confirmar que uma pessoa está infetada com um metalhorror é estudar os restos de carne do metalhorror para identificar a sua bioasinatura, em seguida, use a operação de inspeção cirúrgica com um médico confiável.\n\nUma vez descoberto, você pode usar a operação de inspeção cirúrgica para fazer com que o metalhorror emerja do seu hospedeiro. Prepare-se para uma luta.</MetalhorrorNoticedDetailsAppended>
+  
   <!-- EN: Gray flesh -->
   <LetterGrayFleshDiscoveredLabel>Carne cinzenta</LetterGrayFleshDiscoveredLabel>
   <!-- EN: {PAWN_nameDef} has discovered a strip of fleshy tissue. It resembles human skin stained gray by tiny metallic particles. It must have sloughed off someone during flesh liquification.\n\nSomeone here may not be what they seem.\n\nThere are several ways to detect imposters:\n\n{METHODS}\n\nWarning: Some parasites can control the mind and even be transmitted to others. -->
   <LetterGrayFleshDiscovered>{PAWN_nameDef} descobriu uma tira de tecido carnudo. Esta assemelha-se a pele humana manchada de cinzento por pequenas partículas metálicas. Deve ter sido descartada por alguém durante a liquidificação da carne.\n\nAlguém aqui pode não ser o que parece.\n\nExistem várias maneiras de detetar impostores:\n\{METHODS}\n\nAviso: Alguns parasitas podem controlar a mente e até serem transmitidos a outros.</LetterGrayFleshDiscovered>
+  
   <!-- EN: The “interrogate” prisoner interaction mode is now unlocked. -->
   <LetterInterrogationUnlocked>O modo de interação “interrogar” o prisioneiro está agora desbloqueado.</LetterInterrogationUnlocked>
+  
   <!-- EN: Imprison someone and send a warden to interrogate them about their true identity. This can take many days. -->
   <LetterGrayFleshMethodOne>Prenda alguém e envie um guarda para interrogá-los sobre a sua verdadeira identidade. Isto pode demorar muitos dias.</LetterGrayFleshMethodOne>
   <!-- EN: Collect more gray flesh and analyze it to determine the biosignature of the threat. Then, use the surgical inspection operation to search for that biosignature. It could take a long time to collect enough samples, and the surgery is invasive. -->
   <LetterGrayFleshMethodTwo>Colete mais carne cinzenta e analise-a para determinar a bioassinatura da ameaça. Em seguida, use a operação de inspeção cirúrgica para procurar essa bioassinatura. Pode levar muito tempo para recolher amostras suficientes, e a cirurgia é invasiva.</LetterGrayFleshMethodTwo>
   <!-- EN: Execute or banish whoever you suspect. -->
   <LetterGrayFleshMethodThree>Execute ou bana de quem você suspeite.</LetterGrayFleshMethodThree>
+  
   <!-- EN: Metalhorrors awakening -->
   <LetterMetalhorrorReawakeningLabel>Metalhorrors a despertar</LetterMetalhorrorReawakeningLabel>
   <!-- EN: The metalhorrors have been disturbed and are awakening again! -->
   <LetterMetalhorrorReawakening>Os metalhorrors foram perturbados e estão a despertar novamente!</LetterMetalhorrorReawakening>
+
   <!-- EN: The metalhorrors are beginning to hibernate. They will awaken again if disturbed. -->
   <MessageMetalHorrorDormant>Os metalhorrors estão a começar a hibernar. Eles vão acordar novamente se forem perturbados.</MessageMetalHorrorDormant>
+  
   <!-- EN: Hibernating. Will awaken if disturbed. -->
   <MetalhorrorDormant>Em hibernação. Vão despertar se forem perturbados.</MetalhorrorDormant>
+  
+  <!-- Surgical inspection -->
   <!-- EN: Surgical inspection results -->
   <LetterSurgicallyInspectedLabel>Resultados da inspeção cirúrgica</LetterSurgicallyInspectedLabel>
   <!-- EN: {DOCTOR_nameDef} performed an extensive surgical inspection of {PATIENT_nameDef}. -->
   <LetterSurgicallyInspectedHeader>{DOCTOR_nameDef} realizou uma extensa inspeção cirúrgica a {PATIENT_nameDef}.</LetterSurgicallyInspectedHeader>
   <!-- EN: {DOCTOR_pronoun} says that {DOCTOR_pronoun} found no anomalies. However, a doctor may lie if it is in their own self-interest. -->
   <LetterSurgicallyInspectedNothing>{DOCTOR_pronoun} diz que não encontrou anomalias. No entanto, um médico pode mentir se for do seu próprio interesse.</LetterSurgicallyInspectedNothing>
+  
+  <!-- Death refusal -->
   <!-- EN: use -->
   <DeathRefusalUseSingular>utiliza</DeathRefusalUseSingular>
   <!-- EN: uses -->
   <DeathRefusalUsePlural>utilizam</DeathRefusalUsePlural>
   <!-- EN: Self-resurrecting -->
   <SelfResurrecting>Auto-ressuscitar</SelfResurrecting>
+
+  <!-- Harbinger Tree -->
   <!-- EN: near harbinger tree -->
   <HarbingerTreeConsumption>perto da árvore de harbinger</HarbingerTreeConsumption>
   <!-- EN: A new harbinger tree has sprouted. -->
@@ -376,36 +420,48 @@
   <CreateCorpseStockpile>Criar estoque de cadáveres</CreateCorpseStockpile>
   <!-- EN: Create a dumping stockpile zone around the harbinger tree for corpses.\n\nHarbinger trees will consume nearby corpses and raw meat. If well fed, the trees will grow faster and create new harbinger trees. -->
   <CreateCorpseStockpileDesc>Criar uma zona de armazenamento de restos em torno da árvore harbinger para cadáveres.\n\nAs árvores de harbinger irão consumir cadáveres próximos e carne crua. Se bem alimentadas, as árvores vão crescer mais rápido e criar novas árvores harbinger.</CreateCorpseStockpileDesc>
+
   <!-- EN: Void node has been disabled. -->
   <VoidNodeDisabled>O nó do Void foi desativado.</VoidNodeDisabled>
+
+  <!-- Creepjoiners -->
   <!-- EN: {PAWN_pronoun} wants to talk. You can send a colonist to hear what {PAWN_pronoun} has to say. -->
   <LetterCreeperAppearedAppended>{PAWN_pronoun} quer falar. Você pode enviar um colonista para ouvir o que {PAWN_pronoun} tem a dizer.</LetterCreeperAppearedAppended>
   <!-- EN: {PAWN_nameDef} wants to join -->
   <LetterCreeperInviteJoins>{PAWN_nameDef} quer juntar-se</LetterCreeperInviteJoins>
   <!-- EN: {PAWN_pronoun} may be very useful, but you also sense there is something {PAWN_nameDef} is not telling you. -->
   <LetterCreeperInviteAppend>{PAWN_pronoun} pode ser muito útil, mas você também sente que há algo que {PAWN_nameDef} não lhe está a dizer.</LetterCreeperInviteAppend>
+  
   <!-- EN: Allow {PAWN_nameDef} to join -->
   <AcceptCreeper>Permitir que {PAWN_nameDef} se junte</AcceptCreeper>
   <!-- EN: Send {SPEAKER_nameDef} to capture {PAWN_nameDef} -->
   <CaptureCreeper>Enviar {SPEAKER_nameDef} para capturar {PAWN_nameDef}</CaptureCreeper>
   <!-- EN: Send {PAWN_nameDef} away -->
   <RejectCreeper>Expulsar {PAWN_nameDef}</RejectCreeper>
+  
+  <!-- Unnatural healing ability -->
   <!-- EN: Unnatural healing -->
   <LetterUnnaturalHealingLabel>Cura antinatural</LetterUnnaturalHealingLabel>
   <!-- EN: {CASTER_nameDef} has finished {CASTER_possessive} psychic healing on {PAWN_nameDef}. -->
   <LetterUnnaturalHealing>{CASTER_nameDef} terminou a sua cura psíquica em {PAWN_nameDef}.</LetterUnnaturalHealing>
   <!-- EN: However, something went terribly wrong.\n\n{PAWN_nameDef}'s arm split open as a violent growth emerged from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a fleshy tentacle! -->
   <LetterUnnaturalHealingTentacle>No entanto, algo correu terrivelmente mal.\n\nO braço de {PAWN_nameDef} separou-se enquanto algo surgiu violentamente no seu corpo. O seu braço foi substituído por um tentáculo carnudo!</LetterUnnaturalHealingTentacle>
+  
+  <!-- Transmutation ability -->
   <!-- EN: {PAWN_nameDef} has transmuted {ORIGINAL} into {TRANSMUTED}. -->
   <MessageTransmutedItem>{PAWN_nameDef} transmutou {ORIGINAL} em {TRANSMUTED}.</MessageTransmutedItem>
   <!-- EN: {PAWN_nameDef} has transmuted {1} into {TRANSMUTED_labelShortIndef}. -->
   <MessageTransmutedStuff>{PAWN_nameDef} transmutou {1} em {TRANSMUTED_labelShortIndef}.</MessageTransmutedStuff>
   <!-- EN: {PAWN_nameDef} has transmuted {1} into {TRANSMUTED_labelPluralIndef}. -->
   <MessageTransmutedStuffPlural>{PAWN_nameDef} transmutou {1} em {TRANSMUTED_labelPluralIndef}.</MessageTransmutedStuffPlural>
+  
+  <!-- Electroharvester -->
   <!-- EN: No restrained entity. -->
   <ElectroharvesterNoEntity>Nenhuma entidade confinada.</ElectroharvesterNoEntity>
   <!-- EN: Not connected to a holding platform. -->
   <ElectroharvesterNoPlatform>Não está ligado a uma plataforma de retenção.</ElectroharvesterNoPlatform>
+  
+  <!-- Fleshmass Heart -->
   <!-- EN: Invulnerable. Analyze fleshmass neural lumps to destroy this. -->
   <FleshmassHeartInvulnerable>Invulnerável. Analise os nódulos neurais da fleshmass para destruir isto.</FleshmassHeartInvulnerable>
   <!-- EN: Growing fleshmass. -->
@@ -430,8 +486,11 @@
   <SpitterGatheringSpit>A recolher ácido. Pronto em</SpitterGatheringSpit>
   <!-- EN: Ready to spit acid. -->
   <SpitterReadyToSpit>Pronto para cuspir ácido.</SpitterReadyToSpit>
+
   <!-- EN: Active fleshmass. May birth fleshbeasts if destroyed. -->
   <ActiveFleshmassInspect>fleshmass activo. Podem nascer fleshbeasts se destruído.</ActiveFleshmassInspect>
+
+  <!-- Misc -->
   <!-- EN: Flesh tentacle attack -->
   <LetterLabelFleshTentacleAttack>Ataque de tentáculos de Flesh</LetterLabelFleshTentacleAttack>
   <!-- EN: {PAWN_nameDef}'s operation was successful. However, the twisting mass of flesh that was {PAWN_possessive} tentacle has begun to attack! -->
@@ -446,24 +505,31 @@
   <Analyzed>analisados</Analyzed>
   <!-- EN: Highest skill -->
   <HighestSkill>Maior habilidade</HighestSkill>
+  
   <!-- EN: {0} dropped a shard of dark archotechnology. You can collect and make use of it. -->
   <MessageShardDropped>Deixou cair um fragmento de arquetecnologia escura. Você pode coletá-la e utilizá-la.</MessageShardDropped>
+  
+  <!-- Blood rain -->
   <!-- EN: The blood rain has driven {0_nameIndef} into a berserk rage! -->
   <Berserk_BloodRain>A chuva de sangue levou {0_nameIndef} a uma raiva incontrolável!</Berserk_BloodRain>
   <!-- EN: The blood rain has driven {0_nameIndef} into a manhunting rage! -->
   <Manhunter_BloodRain>A chuva de sangue levou {0_nameIndef} a uma raiva de caça ao homem!</Manhunter_BloodRain>
   <!-- EN: This happened because of blood rage buildup. -->
   <MentalBreakReason_BloodRage>Isto aconteceu devido ao acumular de raiva de sangue.</MentalBreakReason_BloodRage>
+  
+  <!-- Unnatural corpses -->
   <!-- EN: Corpse disappearance -->
   <LetterLabelCorpseDisappeared>Desaparecimento do corpo</LetterLabelCorpseDisappeared>
   <!-- EN: The unnatural corpse has vanished. -->
   <LetterCorpseDisappeared>O cadáver antinatural desapareceu.</LetterCorpseDisappeared>
   <!-- EN: {PAWN_nameDef} is starting to feel calmer. -->
   <LetterCorpseDisappearedPawnAliveAppend>{PAWN_nameDef} está a começar a sentir-se mais calmo.</LetterCorpseDisappearedPawnAliveAppend>
+
   <!-- EN: Corpse appearance -->
   <LetterLabelCorpseReappeared>Aparência do cadáver</LetterLabelCorpseReappeared>
   <!-- EN: The corpse resembling {PAWN_nameDef} has appeared again, as if out of thin air. -->
   <LetterCorpseReappeared>O corpo que se assemelha a {PAWN_nameDef} apareceu novamente vindo do nada.</LetterCorpseReappeared>
+  
   <!-- EN: The corpse resembling {PAWN_nameDef} has somehow gotten out of its {CONTAINER_labelShort}. -->
   <MessageCorpseEscaped>O corpo que se assemelha a {PAWN_nameDef} saiu de alguma forma do seu {CONTAINER_labelShort}.</MessageCorpseEscaped>
   <!-- EN: Failed to resurrect {PAWN_nameDef}. It simply does not respond. -->
@@ -480,22 +546,27 @@
   <MessageAwokenKilledVictim>O cadáver acordado destruiu o cérebro de {PAWN_nameDef}.</MessageAwokenKilledVictim>
   <!-- EN: The awoken corpse has disappeared. -->
   <MessageAwokenDisappeared>O cadáver acordado desapareceu.</MessageAwokenDisappeared>
+
   <!-- EN: This happened because of the presence of an unnatural corpse. -->
   <MentalBreakReason_MysteriousCorpse>Isso aconteceu por causa da presença de um cadáver antinatural.</MentalBreakReason_MysteriousCorpse>
+
   <!-- EN: Unnatural corpse study progress -->
   <UnnaturalCorpseStudyLetter>Progresso de estudo de cadáveres antinaturais</UnnaturalCorpseStudyLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed more about the body. An archotech shard at its core psychically links it with {VICTIM_nameDef}. It will rebuild itself if destroyed, and teleport any distance to be near {VICTIM_nameDef}. \n\n{RESEARCHER_nameDef} thinks that there may be a way to permanently destroy the corpse but will need to study it further.\n\nStudy the corpse more to learn how to destroy it. -->
   <UnnaturalCorpseStudyLetterDesc>A sua investigação sobre o cadáver antinatural revelou mais sobre o corpo. Um fragmento de archotech no núcleo liga-o psiquicamente com {VICTIM_nameDef}. Ele vai se reconstruir se for destruído, e teletransportar a qualquer distância para estar perto de {VICTIM_nameDef}.\n\n{RESEARCHER_nameDef} pensa que pode haver uma maneira de destruir permanentemente o corpo, mas terá de estudá-lo ainda mais.\n\nEstude mais o cadáver para aprender a destruí-lo.</UnnaturalCorpseStudyLetterDesc>
+
   <!-- EN: Unnatural corpse study complete -->
   <UnnaturalCorpseStudyCompletedLetter>Estudo de cadáver antinatural completo</UnnaturalCorpseStudyCompletedLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed how to safely remove the archotech shard. Doing so will stop it from psychically tormenting {VICTIM_nameDef}. However, it will also prevent further study of the corpse. -->
   <UnnaturalCorpseStudyCompletedLetterDesc>A sua investigação sobre o cadáver antinatural revelou como remover com segurança o fragmento de archotech. Fazer isso vai impedi-lo de atordoar psíquicamente {VICTIM_nameDef}. No entanto, também impedirá o estudo adicional do cadáver.</UnnaturalCorpseStudyCompletedLetterDesc>
+
   <!-- EN: Corpse shard -->
   <UnnaturalCorpseDeactivatedLetter>Fragmento do cadáver</UnnaturalCorpseDeactivatedLetter>
   <!-- EN: {PAWN_nameDef} extracted an archotech shard from the unnatural corpse, the corpse then began to violently bloat and exploded into gore. -->
   <UnnaturalCorpseDeactivatedLetterDesc>{PAWN_name Def} extraiu um fragmento de archotech do cadáver antinatural, o cadáver então começou a inchar violentamente e explodiu num banho de sangue.</UnnaturalCorpseDeactivatedLetterDesc>
   <!-- EN: {PAWN_nameDef} is feeling better already. -->
   <UnnaturalCorpseDeactivatedLetterDescAppended>{PAWN_nameDef} já está a sentir-se melhor.</UnnaturalCorpseDeactivatedLetterDescAppended>
+  
   <!-- EN: Destroy unnatural corpse -->
   <UnnaturalCorpseDeactivate>Destruir cadáver antinatural</UnnaturalCorpseDeactivate>
   <!-- EN: Permanently destroy the unnatural corpse. -->
@@ -508,6 +579,7 @@
   <UnnaturalCorpseActivatingEnroute>A destruir {0}</UnnaturalCorpseActivatingEnroute>
   <!-- EN: destroying {0}: {1}s -->
   <UnnaturalCorpseActivating>A destruir {0}: {1}s</UnnaturalCorpseActivating>
+  
   <!-- EN: Unnatural corpse -->
   <UnnaturalCorpseAwakeningLetter>Cadáver antinatural</UnnaturalCorpseAwakeningLetter>
   <!-- EN: {PAWN_nameDef} feels the unnatural corpse growing rapidly stronger. Some horrible consciousness is flickering within it.\n\nSomething awful will happen in the next few days. -->
@@ -516,14 +588,18 @@
   <UnnaturalCorpseAwakeningLetterExtra_StudyComplete>Destrua o cadáver antes que seja tarde demais.</UnnaturalCorpseAwakeningLetterExtra_StudyComplete>
   <!-- EN: Study the corpse to learn how to destroy it. -->
   <UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>Estude o cadáver para aprender a destruí-lo.</UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>
+
   <!-- EN: Corpse awakened -->
   <UnnaturalCorpseAwokenLetter>Cadáver despertado</UnnaturalCorpseAwokenLetter>
   <!-- EN: The unnatural corpse is rising! It intends to attack {PAWN_nameDef}!\n\nThe corpse will follow {PAWN_nameDef} forever no matter how far {PAWN_pronoun} goes.\n\nYou must destroy it now. -->
   <UnnaturalCorpseAwokenLetterDesc>O cadáver antinatural está a subir! Pretende atacar {PAWN_nameDef}!\n\nO cadáver seguirá {PAWN_nameDef} para sempre, não importa o quão longe {PAWN_pronoun} vá.\n\nTem de o destruir agora.</UnnaturalCorpseAwokenLetterDesc>
+
   <!-- EN: Unnatural corpse destroyed! -->
   <UnnaturalCorpseAwokenDefeatedLetter>Cadáver antinatural destruído!</UnnaturalCorpseAwokenDefeatedLetter>
   <!-- EN: The unnatural corpse charging towards {PAWN_nameDef} has been defeated!\n\nThe corpse will no longer torment {PAWN_nameDef}. -->
   <UnnaturalCorpseAwokenDefeatedLetterDesc>O cadáver antinatural que avança para {PAWN_nameDef} foi derrotado!\n\nO cadáver não vai atormentar mais {PAWN_nameDef}.</UnnaturalCorpseAwokenDefeatedLetterDesc>
+
+  <!-- Golden Cube -->
   <!-- EN: {PAWN_labelShort}'s obsession with the golden cube has intensified. -->
   <MessageGoldenCubeSeverityIncreased>A obsessão de {PAWN_labelShort} com o cubo dourado intensificou-se.</MessageGoldenCubeSeverityIncreased>
   <!-- EN: {PAWN_labelShort} is experiencing cube withdrawal. -->
@@ -534,12 +610,15 @@
   <MessageGoldenCubeInterest>{PAWN_labelShort} ficou intrigado pelo cubo dourado.</MessageGoldenCubeInterest>
   <!-- EN: {PAWN_labelShort} is enraged that {PAWN_possessive} cube sculpture was removed. {PAWN_pronoun} might become violent. -->
   <MessageGoldenCubeSculptureDestroyed>{PAWN_labelShort} está enfurecido(a) que pela sua escultura do cubo ter sido removida. Pode tornar-se violento.</MessageGoldenCubeSculptureDestroyed>
+
   <!-- EN: {PAWN_labelShort} refuses to deactivate the golden cube. -->
   <CannotDisableCube>{PAWN_labelShort} recusa-se a desativar o cubo dourado.</CannotDisableCube>
+  
   <!-- EN: Cube coma: {PAWN_labelShort} -->
   <LetterLabelGoldenCubeComa>Cube coma: {PAWN_labelShort}</LetterLabelGoldenCubeComa>
   <!-- EN: {PAWN_labelShort}'s cube withdrawal has sent {PAWN_objective} into a coma. {PAWN_pronoun} will remain in a coma until the golden cube's psychic link has completely dissipated. -->
   <LetterGoldenCubeComa>A ausência do cubo de {PAWN_labelShort} enviou {PAWN_objective} para um coma. {PAWN_pronoun} permanecerá em coma até que a ligação psíquica do cubo dourado se tenha dissipado completamente.</LetterGoldenCubeComa>
+
   <!-- EN: Deactivating the golden cube will cause any cube-interested people to enter a violent berserk rage. Any cube-interested people in caravans will be permanently lost. -->
   <CubeDeactivationConfirmation>Desativar o cubo dourado fará com que qualquer pessoa interessada no cubo entre numa raiva incontrolável. Qualquer pessoa interessada no cubo que esteja em caravana será perdida permanentemente.</CubeDeactivationConfirmation>
   <!-- EN: The following people will enter a berserk rage -->
@@ -556,8 +635,10 @@
   <CubeDeactivationBerserkPawns>Estas pessoas entraram temporariamente numa raiva incontrolável</CubeDeactivationBerserkPawns>
   <!-- EN: These people in caravans have run away in a rage -->
   <CubeDeactivationLostPawns>Estas pessoas em caravanas fugiram com raiva</CubeDeactivationLostPawns>
+
   <!-- EN: This happened because of {PAWN_possessive} obsession with the cube. -->
   <MentalBreakReason_CubeSculpting>Isto aconteceu por causa da sua obsessão com o cubo.</MentalBreakReason_CubeSculpting>
+  
   <!-- EN: dirt -->
   <CubeMaterialDirt>terra</CubeMaterialDirt>
   <!-- EN: stone -->
@@ -566,40 +647,53 @@
   <CubeMaterialSand>areia</CubeMaterialSand>
   <!-- EN: scrap -->
   <CubeMaterialScrap>sucata</CubeMaterialScrap>
+  
   <!-- EN: building a sculpture. -->
   <ReportBuildingCubeEnroute>esculpir uma escultura.</ReportBuildingCubeEnroute>
+  
+  <!-- Slaughter ability -->
   <!-- EN: Cannot slaughter: {PAWN_labelShort} does not have flesh. -->
   <MessageSlaughterNoFlesh>Não é possível abater: {PAWN_labelShort} não tem carne.</MessageSlaughterNoFlesh>
   <!-- EN: Cannot slaughter: {PAWN_labelShort} is too large. -->
   <MessageSlaughterTooBig>Não é possível abater: {PAWN_labelShort} é demasiado grande.</MessageSlaughterTooBig>
+  
+  <!-- Labyrinth -->
   <!-- EN: Entering the labyrinth -->
   <GeneratingLabyrinth>A entrar no labirinto</GeneratingLabyrinth>
   <!-- EN: {PAWN_nameDef} has vanished. -->
   <MessagePawnVanished>{PAWN_name Def} desapareceu.</MessagePawnVanished>
   <!-- EN: {PAWN_nameDef} has reappeared. -->
   <MessagePawnReappeared>{PAWN_name Def} reapareceu.</MessagePawnReappeared>
+  
   <!-- EN: Exit direction -->
   <FloorEtchingsInspectorExit>Direção de saída</FloorEtchingsInspectorExit>
+  
   <!-- EN: Warped obelisk -->
   <LetterLabelObeliskDiscovered>Obelisco deformado</LetterLabelObeliskDiscovered>
   <!-- EN: {PAWN_nameDef} has discovered a large obelisk. It looks nearly identical to the one that originally brought {PAWN_objective} here. Perhaps it can be activated to return {PAWN_objective} home.\n\nSelect {PAWN_nameDef} and right-click the obelisk to activate it. -->
   <LetterObeliskDiscovered>{PAWN_nameDef} descobriu um grande obelisco. Parece quase idêntico ao que originalmente trouxe {PAWN_objective} aqui. Talvez possa ser ativado para fazer {PAWN_objective} regressar a casa.\n\nSelecione {PAWN_nameDef} e clique com o botão direito do rato no obelisco para ativá-lo.</LetterObeliskDiscovered>
+  
   <!-- EN: Floor etchings -->
   <LetterLabelFloorEtchings>Gravuras no chão</LetterLabelFloorEtchings>
   <!-- EN: {PAWN_nameDef} has managed to decipher the floor etchings.\n\n{RAMBLINGS}\n\nThey seem to indicate that an exit is somewhere {DIRECTION} of here. -->
   <LetterFloorEtchings>{PAWN_name Def} conseguiu decifrar as gravuras do chão.\n\n{RAMBLINGS}\n\nParecem indicar que uma saída {DIRECTION} está algures por aqui.</LetterFloorEtchings>
+
   <!-- EN: Floor etchings -->
   <LetterLabelFloorEtchingRamblings>Gravuras no chão</LetterLabelFloorEtchingRamblings>
   <!-- EN: {PAWN_nameDef} has managed to decipher the floor etchings. -->
   <LetterFloorEtchingsRamblings>{PAWN_name Def} conseguiu decifrar as gravuras no chão.</LetterFloorEtchingsRamblings>
+
   <!-- EN: Colonists returned -->
   <LetterLabelLabyrinthExit>Os colonos voltaram</LetterLabelLabyrinthExit>
   <!-- EN: The whirring obelisk has returned your abducted colonists. Shortly after doing so, it vanished into thin air.\n\nBe careful, the obelisk may have returned other creatures as well. -->
   <LetterLabyrinthExit>O obelisco que zumbe devolveu os seus colonos raptados. Pouco depois de fazer isso, desapareceu do nada.\n\nTenha cuidado, o obelisco pode ter devolvido outras criaturas também.</LetterLabyrinthExit>
+
   <!-- EN: Jammed shut. Must be forced open. -->
   <GrayDoorJammed>Fechado. Deve ser forçado a abrir.</GrayDoorJammed>
   <!-- EN: Activated by proximity. -->
   <ActivatedByProximity>Ativado por proximidade.</ActivatedByProximity>
+
+  <!-- Void monolith -->
   <!-- EN: No available pawns. -->
   <MonolithActivateDisabledPawns>Não há peões disponíveis.</MonolithActivateDisabledPawns>
   <!-- EN: The monolith's dark metallic surface is warm to the touch, and {PAWN_nameDef} thinks {PAWN_pronoun} can hear a faint hum emanating from inside. The lines on its dusty surface seem to squirm in unsettling patterns.\n\n{PAWN_nameDef} focuses on the shapes, trying to uncover their meaning.\n\nThe hum strengthens. The shapes begin to flow in {PAWN_nameDef}'s vision, but the surface isn't changing. Power begins to uncoil in the empty space all around. A black shape is forming in {PAWN_possessive} mind.\n\nThe Anomaly is stirring... -->
@@ -614,7 +708,7 @@
   <VoidMonolithViewResearch>Ver pesquisa da Anomalia</VoidMonolithViewResearch>
   <!-- EN: Current monolith level -->
   <CurrentMonolithLevel>Nível atual do monolito</CurrentMonolithLevel>
-  <!-- EN: Investigate to learn more. -->
+  <!-- EN: Send a colonist to investigate this. -->
   <VoidMonolithUndiscovered>Investigar para aprender mais.</VoidMonolithUndiscovered>
   <!-- EN: In order to advance the monolith to the next step, you need to discover {0} {1} tier entities. -->
   <VoidMonolithRequiredEntityCategory>Para avançar o monólito para o próximo passo, você precisa descobrir entidades de nível {0} {1}.</VoidMonolithRequiredEntityCategory>
@@ -650,6 +744,7 @@
   <MonolithArrivalTextExt>É muito semelhante, se não idêntico, ao monólito que você encontrou anteriormente.</MonolithArrivalTextExt>
   <!-- EN: Can't {0} monolith -->
   <CantActivateMonolith>Não pode {0} monólito</CantActivateMonolith>
+
   <!-- EN: Monolith twisting -->
   <MonolithTwistingAlert>Monólito a retorcer-se</MonolithTwistingAlert>
   <!-- EN: Your presence has caused the monolith to twist and morph. Soon the process will be complete. Be prepared for whatever comes next. -->
@@ -660,12 +755,15 @@
   <MonolithAutoActivatingText>Uma onda de medo passa sobre os seus colonos. O monólito caído começou a mexer. Devagar, começa a contorcer-se e a reorganizar-se, transformando-se em algo novo.\n\nDentro de dias, o processo estará concluído. Esteja preparado para o que vier a seguir.</MonolithAutoActivatingText>
   <!-- EN: Void monolith -->
   <MonolithAutoActivatedLabel>Monólito do Void</MonolithAutoActivatedLabel>
-  <!-- EN: The monolith’s transformation is almost complete... -->
+  <!-- EN: The monolith's transformation is almost complete... -->
   <MonolithAutoActivatedText>A transformação do monólito está quase completa...</MonolithAutoActivatedText>
+
   <!-- EN: Gray pall -->
   <LetterLabelGrayPallDescending>Manto cinzento</LetterLabelGrayPallDescending>
   <!-- EN: A blanket of gritty fog has descended on this area. The fog smells ancient, somehow, and it stings the skin. The unnatural grayness of it invokes a sense of dread. -->
   <LetterGrayPallDescending>Um manto de nevoeiro arenoso desceu sobre esta área. O nevoeiro cheira a antigo, de alguma forma, dá picadas na pele. O cinzento antinatural dele invoca uma sensação de medo.</LetterGrayPallDescending>
+
+  <!-- Void Awakening -->
   <!-- EN: Awakening the void monolith will engulf your colony in darkness for days and attract powerful entities. Make sure you are well prepared:\n\n- Stockpile food, building material, and weapons.\n- Make sure your colony is well lit, and has ample power. Avoid relying on solar generators.\n- Ensure your colony is well defended, and your colonists are ready to fight.\n\nOnce you awaken the void monolith, there is no going back.\n\nAre you sure you want to continue? -->
   <VoidAwakeningConfirmationText>Despertar o monólito void irá engolir a sua colónia na escuridão por dias e atrair entidades poderosas. Certifique-se de que está bem preparado:\n\n- Acumule comida, material de construção e armas.\n- Certifique-se de que sua colónia está bem iluminada, e que tem bastante energia elétrica. Evite depender de geradores solares.\n- Certifique-se de que sua colónia está bem defendida, e os seus colonos estão prontos para lutar.\n\nQuando você acorda o monólito void não há volta atrás.\n\nTem a certeza que quer continuar?</VoidAwakeningConfirmationText>
   <!-- EN: A sphere of writhing psychic energy rises before {PAWN_nameDef}.\n\n{PAWN_nameDef} feels a presence inside {PAWN_possessive} mind, deeper than any normal human sense. {PAWN_pronoun} stands on the shoreline of an infinite black ocean of power. It beckons {PAWN_objective} in...\n\nNearby archotech devices support the sphere along fragile connections. {PAWN_nameDef} could disrupt them, closing this link between worlds.\n\nOr, {PAWN_pronoun} could step into the sphere and merge with the void. It's unknown what dark power could be gained from such an inhuman act. -->
@@ -688,16 +786,25 @@
   <StructuresActivatedAlertDescription>Ative estruturas void para finalizar o despertar do monólito.</StructuresActivatedAlertDescription>
   <!-- EN: {PAWN_nameDef}'s connection to the void monolith has been broken. It must be activated again. -->
   <GleamingMonolithInterrupted>A ligação de {PAWN_nameDef} ao monólito void foi interrompida. Precisa de ser ativada novamente.</GleamingMonolithInterrupted>
+
+  <!-- HediffComp_GiveLovinMTBFactor -->
   <!-- EN: Increases the chance of lovin` -->
   <IncreasesChanceOfLovin>Aumenta a probabilidade de romance;</IncreasesChanceOfLovin>
+
   <!-- EN: Unnatural {0_label} corpse -->
   <UnnaturalCorpse>Corpo antinatural {0_label}</UnnaturalCorpse>
+
+  <!-- Studiable -->
   <!-- EN: Knowledge from study reduced -->
   <KnowledgeFactorOutdoors>Conhecimento de estudo reduzido</KnowledgeFactorOutdoors>
+
+  <!-- Unnatural darkness -->
   <!-- EN: Emergence in {0} -->
   <EmergenceIn>Emergência em {0}</EmergenceIn>
   <!-- EN: Something will emerge from the ground in {0}. -->
   <EmergenceInDesc>Algo surgirá do chão em {0}.</EmergenceInDesc>
+  
+  <!-- Bioferrite harvester -->
   <!-- EN: Bioferrite contained -->
   <BioferriteHarvesterContained>Bioferrite contida</BioferriteHarvesterContained>
   <!-- EN: per day -->
@@ -710,26 +817,39 @@
   <BioferriteHarvesterToggleUnloading>Alternar o descarregamento de bioferrite</BioferriteHarvesterToggleUnloading>
   <!-- EN: When active, colonists will automatically unload bioferrite from the harvester as it is filling up. -->
   <BioferriteHarvesterToggleUnloadingDesc>Quando ativo, os colonos descarregarão automaticamente a bioferrite da ceifeira è medida que for enchendo.</BioferriteHarvesterToggleUnloadingDesc>
+  
+  <!-- Proximity detector -->
   <!-- EN: Invisible creature detected. -->
   <ProximityDetectorCreatureDetected>Criatura invisível detetada.</ProximityDetectorCreatureDetected>
+  
+  <!-- Frenzy inducer -->
   <!-- EN: Generating frenzy field. -->
   <FrenzyInducerEffectDescription>Gerar campo de frenético.</FrenzyInducerEffectDescription>
   <!-- EN: This happened due to the influence of a frenzy inducer. -->
   <MentalBreakReason_FrenzyInducer>Isto aconteceu devido à influência de um indutor de frenesim.</MentalBreakReason_FrenzyInducer>
+  
+  <!-- Sleep suppressor -->
   <!-- EN: sleepless psychic pulsation. -->
   <SleepSuppressorEffectDescription>pulsação psíquica de insónia.</SleepSuppressorEffectDescription>
+  
+  <!-- Devourer -->
   <!-- EN: Being digested by {0_labelShort}. -->
   <DigestedBy>A ser digerido por {0_labelShort}.</DigestedBy>
+
+  <!-- Chimeras -->
   <!-- EN: The chimera is {0} -->
   <MessageChimeraModeChangeSingular>A quimera é {0}</MessageChimeraModeChangeSingular>
   <!-- EN: The chimeras are {0} -->
   <MessageChimeraModeChangePlural>As quimeras são {0}</MessageChimeraModeChangePlural>
   <!-- EN: temporarily withdrawing. -->
   <MessageChimeraWithdrawing>retirada temporária.</MessageChimeraWithdrawing>
+
   <!-- EN: Chimeras attacking -->
   <LetterChimerasAttackingLabel>Quimeras estão a atacar</LetterChimerasAttackingLabel>
   <!-- EN: The chimeras have begun their attack! -->
   <LetterChimerasAttacking>As quimeras começaram o ataque!</LetterChimerasAttacking>
+  
+  <!-- Anomaly event frequency -->
   <!-- EN: No major threats -->
   <AnomalyFrequency_None>Sem grandes ameaças</AnomalyFrequency_None>
   <!-- EN: Very rare -->
@@ -742,6 +862,18 @@
   <AnomalyFrequency_Intense>Intenso</AnomalyFrequency_Intense>
   <!-- EN: Overwhelming -->
   <AnomalyFrequency_Overwhelming>Sobrecarga</AnomalyFrequency_Overwhelming>
+  
   <!-- EN: Security doors only -->
   <SecurityDoorsOnly>Apenas portas de segurança</SecurityDoorsOnly>
+  
+  <!-- UNUSED -->
+  <ViewUndercave>Ver caverna</ViewUndercave>
+  <ViewUndercaveDesc>Veja o mapa conectado da caverna.</ViewUndercaveDesc>
+  <ViewSurface>Ver superfície</ViewSurface>
+  <ViewSurfaceDesc>Veja o mapa conectado da superfície.</ViewSurfaceDesc>
+  <EnterPitGate>Entre no buraco</EnterPitGate>
+  <ExitPitGate>Suba à superfície</ExitPitGate>
+  <LetterLabelGateEntered>Covil do fleshbeast</LetterLabelGateEntered>
+  <LetterGateEntered>Nas profundezas do buraco, você descobriu um sistema de cavernas maciço infestado com fleshbeasts.\n\nO sistema de cavernas está entupido de bocados de carne viva que bloqueiam o seu progresso. Ataque a fleshmass para destruí-la.\n\nTodo o sistema da caverna parece instável. Se você encontrar o que está por detrás da fleshmass, você pode ser capaz de colapsar os túneis e fechar o buraco.</LetterGateEntered>
+
 </LanguageData>

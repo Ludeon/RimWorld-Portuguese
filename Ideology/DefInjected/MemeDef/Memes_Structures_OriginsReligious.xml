@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: Buddhist origin -->
   <Structure_OriginBuddhist.label>Origem budista</Structure_OriginBuddhist.label>
   <!-- EN: This ideoligion is a descendant of ancient Buddhism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
@@ -21,7 +22,7 @@
     <li>memeMoralist->priest</li>
     <li>memeMoralist->monk</li>
   -->
-  <Structure_OriginBuddhist.generalRules.rulesStrings>&lt;li&gt;r_ideoName(p=99)-&gt;[globalAdjective] [packIdeoName]&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=99)-&gt;[memeAdjective] [packIdeoName]&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=99)-&gt;[packAdjective] [packIdeoName]&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=99)-&gt;[packIdeoName]&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;bodhisattva&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;sattva&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;lama&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;enlightened&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;wise&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;espiritual&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;bodhi&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;dalai&lt;/li&gt;\n&lt;li&gt;memeMoralist(p=2)-&gt;bhikkhu&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;priest&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;monk&lt;/li&gt;\n</Structure_OriginBuddhist.generalRules.rulesStrings>
+  <Structure_OriginBuddhist.generalRules.rulesStrings>&lt;li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[packAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[packIdeoName]&lt;/li>\n&lt;li>memeLeaderNoun->bodhisattva&lt;/li>\n&lt;li>memeLeaderNoun->sattva&lt;/li>\n&lt;li>memeLeaderNoun->lama&lt;/li>\n&lt;li>memeLeaderAdjetivo->enlightened&lt;/li>\n&lt;li>memeLeaderAdjetivo->wise&lt;/li>\n&lt;li>memeLeaderAdjetivo->espiritual&lt;/li>\n&lt;li>memeLeaderAdjetivo->bodhi&lt;/li>\n&lt;li>memeLeaderAdjetivo->dalai&lt;/li>\n&lt;li>memeMoralist(p=2)->bhikkhu&lt;/li>\n&lt;li>mememoralista->priest&lt;/li>\n&lt;li>mememoralista->monk&lt;/li>\n</Structure_OriginBuddhist.generalRules.rulesStrings>
   <!-- EN: Buddhist -->
   <Structure_OriginBuddhist.symbolPacks.0.adjective>Budista</Structure_OriginBuddhist.symbolPacks.0.adjective>
   <!-- EN: Buddhism -->
@@ -86,6 +87,10 @@
   <Structure_OriginBuddhist.symbolPacks.9.member>Gelugista</Structure_OriginBuddhist.symbolPacks.9.member>
   <!-- EN: pagoda -->
   <Structure_OriginBuddhist.worshipRoomLabel>paida</Structure_OriginBuddhist.worshipRoomLabel>
+  
+  <!-- UNUSED -->
+  <Structure_OriginBuddhist.generalRules.rulesStrings>&lt;li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[packAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[packIdeoName]&lt;/li>\n&lt;li>memeLeaderNoun->bodhisattva&lt;/li>\n&lt;li>memeLeaderNoun->sattva&lt;/li>\n&lt;li>memeLeaderNoun->lama&lt;/li>\n&lt;li>memeLeaderAdjetivo->enlightened&lt;/li>\n&lt;li>memeLeaderAdjetivo->wise&lt;/li>\n&lt;li>memeLeaderAdjetivo->espiritual&lt;/li>\n&lt;li>memeLeaderAdjetivo->bodhi&lt;/li>\n&lt;li>memeLeaderAdjetivo->dalai&lt;/li>\n&lt;li>memeMoralist(p=2)->bhikkhu&lt;/li>\n&lt;li>mememoralista->priest&lt;/li>\n&lt;li>mememoralista->monk&lt;/li>\n</Structure_OriginBuddhist.generalRules.rulesStrings>
+  
   <!-- EN: Christian origin -->
   <Structure_OriginChristian.label>Origem cristã</Structure_OriginChristian.label>
   <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Christianity. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
@@ -114,7 +119,7 @@
     <li>memeMoralist->rector</li>
     <li>memeMoralist->abbot</li>
   -->
-  <Structure_OriginChristian.generalRules.rulesStrings>&lt;li&gt;r_ideoName(p=99)-&gt;[globalAdjective] [packIdeoName]&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=99)-&gt;[memeAdjective] [packIdeoName]&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=99)-&gt;[packAdjective] [packIdeoName]&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=99)-&gt;[packIdeoName]&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;bishop&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;cardinal&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;pope&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;pontiff&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;legate&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;nuncio&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;divus&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;ecclesiast&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;holy&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;divina&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;Christ's&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt; Deus's&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;priest&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;pastor&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;cleric&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;preacher&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;rector&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;abbot&lt;/li&gt;\n</Structure_OriginChristian.generalRules.rulesStrings>
+  <Structure_OriginChristian.generalRules.rulesStrings>&lt;li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[packAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[packIdeoName]&lt;/li>\n&lt;li>memeLeaderNoun->bishop&lt;/li>\n&lt;li>memeLeaderNoun->cardinal&lt;/li>\n&lt;li>memeLeaderNoun->pope&lt;/li>\n&lt;li>memeLeaderNoun->pontiff&lt;/li>\n&lt;li>memeLeaderNoun->legate&lt;/li>\n&lt;li>memeLeaderNoun->nuncio&lt;/li>\n&lt;li>memeLeaderNoun->divus&lt;/li>\n&lt;li>memeLeaderNoun->ecclesiast&lt;/li>\n&lt;li>memeLeaderAdjetivo->holy&lt;/li>\n&lt;li>memeLeaderAdjetivo->divina&lt;/li>\n&lt;li>memeLeaderAdjetivo->Christ's&lt;/li>\n&lt;li>memeLeaderAdjetivo-> Deus's&lt;/li>\n&lt;li>mememoralista->priest&lt;/li>\n&lt;li>mememoralista->pastor&lt;/li>\n&lt;li>mememoralista->cleric&lt;/li>\n&lt;li>mememoralista->preacher&lt;/li>\n&lt;li>mememoralista->rector&lt;/li>\n&lt;li>mememoralista->abbot&lt;/li>\n</Structure_OriginChristian.generalRules.rulesStrings>
   <!-- EN: Christian -->
   <Structure_OriginChristian.symbolPacks.0.adjective>Cristão</Structure_OriginChristian.symbolPacks.0.adjective>
   <!-- EN: Christianity -->
@@ -201,6 +206,10 @@
   <Structure_OriginChristian.symbolPacks.13.member>Theonomist</Structure_OriginChristian.symbolPacks.13.member>
   <!-- EN: church -->
   <Structure_OriginChristian.worshipRoomLabel>igreja</Structure_OriginChristian.worshipRoomLabel>
+  
+  <!-- UNUSED -->
+  <Structure_OriginChristian.generalRules.rulesStrings>&lt;li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[packAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[packIdeoName]&lt;/li>\n&lt;li>memeLeaderNoun->bishop&lt;/li>\n&lt;li>memeLeaderNoun->cardinal&lt;/li>\n&lt;li>memeLeaderNoun->pope&lt;/li>\n&lt;li>memeLeaderNoun->pontiff&lt;/li>\n&lt;li>memeLeaderNoun->legate&lt;/li>\n&lt;li>memeLeaderNoun->nuncio&lt;/li>\n&lt;li>memeLeaderNoun->divus&lt;/li>\n&lt;li>memeLeaderNoun->ecclesiast&lt;/li>\n&lt;li>memeLeaderAdjetivo->holy&lt;/li>\n&lt;li>memeLeaderAdjetivo->divina&lt;/li>\n&lt;li>memeLeaderAdjetivo->Christ's&lt;/li>\n&lt;li>memeLeaderAdjetivo-> Deus's&lt;/li>\n&lt;li>mememoralista->priest&lt;/li>\n&lt;li>mememoralista->pastor&lt;/li>\n&lt;li>mememoralista->cleric&lt;/li>\n&lt;li>mememoralista->preacher&lt;/li>\n&lt;li>mememoralista->rector&lt;/li>\n&lt;li>mememoralista->abbot&lt;/li>\n</Structure_OriginChristian.generalRules.rulesStrings>
+  
   <!-- EN: Hindu origin -->
   <Structure_OriginHindu.label>Origem hindu</Structure_OriginHindu.label>
   <!-- EN: This is a variant of the embodied theist structure. This ideoligion is a descendant of ancient Hinduism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
@@ -289,7 +298,7 @@
     <li>memeMoralist->archaka</li>
     <li>memeMoralist->brahmin</li>
   -->
-  <Structure_OriginHindu.generalRules.rulesStrings>&lt;li&gt;r_ideoName(p=99)-&gt;[globalAdjective] [packIdeoName]&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=99)-&gt;[memeAdjective] [packIdeoName]&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=99)-&gt;[packAdjective] [packIdeoName]&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=99)-&gt;[packIdeoName]&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;mahatma&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;ishvara&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;yogi&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;pandit&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;avatar&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;sacred&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;hindic&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;indic&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;iógico&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;tirth&lt;/li&gt;\n&lt;li&gt;memeMoralist(p=3)-&gt;pujari&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;purohit&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;archaka&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;brahmin&lt;/li&gt;\n</Structure_OriginHindu.generalRules.rulesStrings>
+  <Structure_OriginHindu.generalRules.rulesStrings>&lt;li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[packAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[packIdeoName]&lt;/li>\n&lt;li>memeLeaderNoun->mahatma&lt;/li>\n&lt;li>memeLeaderNoun->ishvara&lt;/li>\n&lt;li>memeLeaderNoun->yogi&lt;/li>\n&lt;li>memeLeaderNoun->pandit&lt;/li>\n&lt;li>memeLeaderNoun->avatar&lt;/li>\n&lt;li>memeLeaderAdjetivo->sacred&lt;/li>\n&lt;li>memeLeaderAdjetivo->hindic&lt;/li>\n&lt;li>memeLeaderAdjetivo->indic&lt;/li>\n&lt;li>memeLeaderAdjetivo->iógico&lt;/li>\n&lt;li>memeLeaderAdjetivo->tirth&lt;/li>\n&lt;li>memeMoralist(p=3)->pujari&lt;/li>\n&lt;li>mememoralista->purohit&lt;/li>\n&lt;li>mememoralista->archaka&lt;/li>\n&lt;li>mememoralista->brahmin&lt;/li>\n</Structure_OriginHindu.generalRules.rulesStrings>
   <!-- EN: Hindu -->
   <Structure_OriginHindu.symbolPacks.0.adjective>Hindu</Structure_OriginHindu.symbolPacks.0.adjective>
   <!-- EN: Hinduism -->
@@ -376,6 +385,10 @@
   <Structure_OriginHindu.symbolPacks.13.member>Vedantan</Structure_OriginHindu.symbolPacks.13.member>
   <!-- EN: shrine -->
   <Structure_OriginHindu.worshipRoomLabel>santuário</Structure_OriginHindu.worshipRoomLabel>
+  
+  <!-- UNUSED -->
+  <Structure_OriginHindu.generalRules.rulesStrings>&lt;li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[packAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[packIdeoName]&lt;/li>\n&lt;li>memeLeaderNoun->mahatma&lt;/li>\n&lt;li>memeLeaderNoun->ishvara&lt;/li>\n&lt;li>memeLeaderNoun->yogi&lt;/li>\n&lt;li>memeLeaderNoun->pandit&lt;/li>\n&lt;li>memeLeaderNoun->avatar&lt;/li>\n&lt;li>memeLeaderAdjetivo->sacred&lt;/li>\n&lt;li>memeLeaderAdjetivo->hindic&lt;/li>\n&lt;li>memeLeaderAdjetivo->indic&lt;/li>\n&lt;li>memeLeaderAdjetivo->iógico&lt;/li>\n&lt;li>memeLeaderAdjetivo->tirth&lt;/li>\n&lt;li>memeMoralist(p=3)->pujari&lt;/li>\n&lt;li>mememoralista->purohit&lt;/li>\n&lt;li>mememoralista->archaka&lt;/li>\n&lt;li>mememoralista->brahmin&lt;/li>\n</Structure_OriginHindu.generalRules.rulesStrings>
+  
   <!-- EN: Islamic origin -->
   <Structure_OriginIslamic.label>Origem islâmica</Structure_OriginIslamic.label>
   <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Islam. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
@@ -401,7 +414,7 @@
     <li>memeMoralist->mujtahid</li>
     <li>memeMoralist->cleric</li>
   -->
-  <Structure_OriginIslamic.generalRules.rulesStrings>&lt;li&gt;r_ideoName(p=99)-&gt;[globalAdjective] [packIdeoName]&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=99)-&gt;[memeAdjective] [packIdeoName]&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=99)-&gt;[packAdjective] [packIdeoName]&lt;/li&gt;\n&lt;li&gt;r_ideoName(p=99)-&gt;[packIdeoName]&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;mullah&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;imam&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;caliph&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;mufti&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;almami&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;kyai&lt;/li&gt;\n&lt;li&gt;memeLeaderNoun-&gt;ayatollah&lt;/li&gt;\n&lt;li&gt;memeLeaderAdjetivo-&gt;grand&lt;/li&gt;\n&lt;li&gt;memMoralist(p=4)-&gt;imam&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;qadi&lt;/li&gt;\n&lt;li&gt;memMoralist-&gt;alim&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;allamah&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;muezzin&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;mujtahid&lt;/li&gt;\n&lt;li&gt;mememoralista-&gt;cleric&lt;/li&gt;\n</Structure_OriginIslamic.generalRules.rulesStrings>
+  <Structure_OriginIslamic.generalRules.rulesStrings>&lt;li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[packAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[packIdeoName]&lt;/li>\n&lt;li>memeLeaderNoun->mullah&lt;/li>\n&lt;li>memeLeaderNoun->imam&lt;/li>\n&lt;li>memeLeaderNoun->caliph&lt;/li>\n&lt;li>memeLeaderNoun->mufti&lt;/li>\n&lt;li>memeLeaderNoun->almami&lt;/li>\n&lt;li>memeLeaderNoun->kyai&lt;/li>\n&lt;li>memeLeaderNoun->ayatollah&lt;/li>\n&lt;li>memeLeaderAdjetivo->grand&lt;/li>\n&lt;li>memMoralist(p=4)->imam&lt;/li>\n&lt;li>mememoralista->qadi&lt;/li>\n&lt;li>memMoralist->alim&lt;/li>\n&lt;li>mememoralista->allamah&lt;/li>\n&lt;li>mememoralista->muezzin&lt;/li>\n&lt;li>mememoralista->mujtahid&lt;/li>\n&lt;li>mememoralista->cleric&lt;/li>\n</Structure_OriginIslamic.generalRules.rulesStrings>
   <!-- EN: Islamic -->
   <Structure_OriginIslamic.symbolPacks.0.adjective>Islâmico</Structure_OriginIslamic.symbolPacks.0.adjective>
   <!-- EN: Islam -->
@@ -494,4 +507,8 @@
   <Structure_OriginIslamic.symbolPacks.14.member>Califado</Structure_OriginIslamic.symbolPacks.14.member>
   <!-- EN: mosque -->
   <Structure_OriginIslamic.worshipRoomLabel>mesquita</Structure_OriginIslamic.worshipRoomLabel>
+  
+  <!-- UNUSED -->
+  <Structure_OriginIslamic.generalRules.rulesStrings>&lt;li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[packAdjective] [packIdeoName]&lt;/li>\n&lt;li>r_ideoName(p=99)->[packIdeoName]&lt;/li>\n&lt;li>memeLeaderNoun->mullah&lt;/li>\n&lt;li>memeLeaderNoun->imam&lt;/li>\n&lt;li>memeLeaderNoun->caliph&lt;/li>\n&lt;li>memeLeaderNoun->mufti&lt;/li>\n&lt;li>memeLeaderNoun->almami&lt;/li>\n&lt;li>memeLeaderNoun->kyai&lt;/li>\n&lt;li>memeLeaderNoun->ayatollah&lt;/li>\n&lt;li>memeLeaderAdjetivo->grand&lt;/li>\n&lt;li>memMoralist(p=4)->imam&lt;/li>\n&lt;li>mememoralista->qadi&lt;/li>\n&lt;li>memMoralist->alim&lt;/li>\n&lt;li>mememoralista->allamah&lt;/li>\n&lt;li>mememoralista->muezzin&lt;/li>\n&lt;li>mememoralista->mujtahid&lt;/li>\n&lt;li>mememoralista->cleric&lt;/li>\n</Structure_OriginIslamic.generalRules.rulesStrings>
+  
 </LanguageData>

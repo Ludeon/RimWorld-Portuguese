@@ -1,23 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: Animal calm -->
   <AnimalCalm.label>Acalma-te</AnimalCalm.label>
   <!-- EN: Use unique methods of connecting with animals to calm a maddened beast. -->
   <AnimalCalm.description>Use métodos únicos de se conectar com animais para acalmar uma besta louca.</AnimalCalm.description>
   <!-- EN: {INITIATOR_labelShort} successfully calmed {RECIPIENT_labelShort}. -->
   <AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>{INITIATOR_labelShort} com sucesso acalmado {RECIPIENT_labelShort}.</AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>
+  
   <!-- EN: berserk trance -->
   <BerserkTrance.label>travessia de berserk</BerserkTrance.label>
   <!-- EN: The caster fills themself with anger over ideological grievances. This strengthens the body past normal limits, but also means losing control and attacking every enemy nearby in an unstoppable rage. The berserk state will last for 3 hours. -->
   <BerserkTrance.description>O rodízio enche-se de raiva sobre queixas ideológicas. Isso fortalece o corpo passado limites normais, mas também significa perder o controle e atacar cada inimigo próximo em uma raiva imparável. O estado de Berserk durará 3 horas.</BerserkTrance.description>
+  
   <!-- EN: combat command -->
   <CombatCommand.label>comando de combate</CombatCommand.label>
   <!-- EN: Create an aura that boosts the combat skills of everyone nearby. The effect lasts 24 hours and remains attached to the leader for the duration. -->
   <CombatCommand.description>Criar uma aura que aumenta as habilidades de combate de todos os próximos. O efeito dura 24 horas e permanece ligado ao líder durante a duração.</CombatCommand.description>
+  
   <!-- EN: conversion ritual -->
   <ConversionRitual.label>ritual de conversão</ConversionRitual.label>
   <!-- EN: Try to persuade someone to adopt your beliefs. If it goes well, they will lose some certainty in their ideoligion and may convert. If it backfires, they will gain certainty in their old beliefs.\n\nTo start this ritual at a specific place, select a ritual spot or matching altar/ideogram. -->
   <ConversionRitual.description>Tente convencer alguém a adotar suas crenças. Se correr bem, eles perderão alguma certeza em seu ideoligion e podem converter. Se ele recuar, eles ganharão certeza em suas velhas crenças.\n\nPara iniciar este ritual em um lugar específico, selecione um ponto ritual ou correspondente altar/ideograma.</ConversionRitual.description>
+  
   <!-- EN: convert -->
   <Convert.label>converter</Convert.label>
   <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
@@ -26,6 +31,7 @@
   <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} não conseguiu converter {RECIPIENT_labelShort}. {RECIPIENT_labelShort} foi perturbado pela tentativa, mas {RECIPIENT_possessive} certeza caiu de {CERTAINTYBEFORE} para {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
   <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
   <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort} converteu {RECIPIENT_labelShort} para {IDEO}.</Convert.comps.CompAbilityEffect_Convert.successMessage>
+  
   <!-- EN: counsel -->
   <Counsel.label>conselho</Counsel.label>
   <!-- EN: Offer counsel to a person to cancel the effect of a sad memory. The chance of success depends on the speaker's social skills and their relationship with the listener. -->
@@ -36,50 +42,62 @@
   <Counsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort} com sucesso aconselhado {RECIPIENT_labelShort}, cancelando o impacto do humor de {2}.</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} mood by {MOODBONUS}. -->
   <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort} com sucesso aconselhado {RECIPIENT_labelShort}, aumentando {RECIPIENT_possessive} o humor por {MOODBONUS}.</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
+  
   <!-- EN: farming command -->
   <FarmingCommand.label>comando da agricultura</FarmingCommand.label>
   <!-- EN: Offer guidance on farming techniques, boosting the farming abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
   <FarmingCommand.description>Oferecer orientação sobre técnicas agrícolas, aumentando as habilidades agrícolas para todos os próximos. O efeito permanece ligado ao rodízio por 24 horas.</FarmingCommand.description>
+  
   <!-- EN: Immunity drive -->
   <ImmunityDrive.label>Unidade comunitária</ImmunityDrive.label>
   <!-- EN: Offer moral support that energizes the body, boosting someone's immunity gain for one day. -->
   <ImmunityDrive.description>Oferecer apoio moral que energiza o corpo, aumentando o ganho de imunidade de alguém por um dia.</ImmunityDrive.description>
+  
   <!-- EN: leader speech -->
   <LeaderSpeech.label>discurso do líder</LeaderSpeech.label>
   <!-- EN: Initiate a leader speech. If it goes well, listeners will gain improved mood, respect for the speaker, and possibly new inspirations. If it goes poorly, social damage will occur. -->
   <LeaderSpeech.description>Iniciar um discurso de liderança. Se correr bem, os ouvintes ganharão melhor humor, respeito pelo alto-falante, e possivelmente novas inspirações. Se correr mal, ocorrerão danos sociais.</LeaderSpeech.description>
+  
   <!-- EN: marksman command -->
   <MarksmanCommand.label>comando do atirador</MarksmanCommand.label>
   <!-- EN: Call out shots and boost the shooting skills of everyone nearby. The effect remains attached to the caster for 24 hours. -->
   <MarksmanCommand.description>Chamar tiros e aumentar as habilidades de tiro de todos nas proximidades. O efeito permanece ligado ao rodízio por 24 horas.</MarksmanCommand.description>
+  
   <!-- EN: mining command -->
   <MiningCommand.label>comando de mineração</MiningCommand.label>
   <!-- EN: Offer guidance on mining techniques, boosting the mining speed for everyone nearby. The effect remains attached to the caster for 24 hours. -->
   <MiningCommand.description>Oferecer orientação sobre técnicas de mineração, aumentando a velocidade de mineração para todos os próximos. O efeito permanece ligado ao rodízio por 24 horas.</MiningCommand.description>
+  
   <!-- EN: preach health -->
   <PreachHealth.label>pregar saúde</PreachHealth.label>
   <!-- EN: Preach moral strength to a sick or wounded person through the concepts of your ideology. This will improve their rate of wound healing and immunity gain. -->
   <PreachHealth.description>Pregar força moral a uma pessoa doente ou ferida através dos conceitos de sua ideologia. Isso melhorará sua taxa de cura de feridas e ganho de imunidade.</PreachHealth.description>
+  
   <!-- EN: production command -->
   <ProductionCommand.label>comando de produção</ProductionCommand.label>
   <!-- EN: Offer guidance on construction techniques, boosting construction and crafting abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
   <ProductionCommand.description>Ofereça orientação sobre técnicas de construção, aumentando a construção e habilidades de criação para todos os próximos. O efeito permanece ligado ao rodízio por 24 horas.</ProductionCommand.description>
+  
   <!-- EN: reassure -->
   <Reassure.label>garantia</Reassure.label>
   <!-- EN: Increase someone's certainty in their own beliefs. The regained certainty is based on the speaker's negotiation ability. -->
   <Reassure.description>Aumentar a certeza de alguém em suas próprias crenças. A certeza recuperada é baseada na capacidade de negociação do alto-falante.</Reassure.description>
   <!-- EN: {INITIATOR_labelShort} has reassured {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} certainty in {IDEO} from {BEFORECERTAINTY} to {AFTERCERTAINTY}. -->
   <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort} tranquilizou {RECIPIENT_labelShort}, aumentando {RECIPIENT_possessive} a certeza em {IDEO} de {BEFORECERTAINTY} a {AFTERCERTAINTY}.</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
+  
   <!-- EN: research command -->
   <ResearchCommand.label>comando de pesquisa</ResearchCommand.label>
   <!-- EN: Provide suggestions and mental support, boosting the research speed of everyone nearby. The effect remains attached to the caster for 24 hours. -->
   <ResearchCommand.description>Fornecer sugestões e suporte mental, aumentando a velocidade de pesquisa de todos os próximos. O efeito permanece ligado ao rodízio por 24 horas.</ResearchCommand.description>
+  
   <!-- EN: trial -->
   <Trial.label>julgamento</Trial.label>
   <!-- EN: Charge someone with a terrible wrongdoing and initiate a trial where they will be either convicted or exonerated. If the target is convicted, they can be freely imprisoned, executed or banished without penalty. The chance of conviction depends on the social abilities of the accuser and accused. -->
   <Trial.description>Carregue alguém com um terrível erro e inicie um julgamento onde eles serão condenados ou exonerados. Se o alvo for condenado, eles podem ser livremente presos, executados ou banidos sem penalidade. A chance de convicção depende das habilidades sociais do acusador e acusado.</Trial.description>
+  
   <!-- EN: work drive -->
   <WorkDrive.label>unidade de trabalho</WorkDrive.label>
   <!-- EN: Call on a person to work harder for some time. -->
   <WorkDrive.description>Chame uma pessoa para trabalhar mais por algum tempo.</WorkDrive.description>
+  
 </LanguageData>

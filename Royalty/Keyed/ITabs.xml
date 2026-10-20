@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
+  <!-- Character tab -->
   <!-- EN: {PAWN_labelShort} currently has the title {TITLE}, awarded by {FACTION_name}. -->
   <RoyalTitleTooltipHasTitle>(PAWN_label Short} atualmente tem o título {TITLE}, atribuído por {FACTION_name}.</RoyalTitleTooltipHasTitle>
   <!-- EN: {PAWN_labelShort} will demand that this title's privileges be fully respected. -->
@@ -28,8 +30,11 @@
   <RoyalTitleTooltipRoyalFavorAmount>Não</RoyalTitleTooltipRoyalFavorAmount>
   <!-- EN: {0} total -->
   <RoyalTitleTooltipRoyalFavorTotal>total</RoyalTitleTooltipRoyalFavorTotal>
+
   <!-- EN: {0} title -->
   <RecruitmentResistanceRoyalTitleOffset>título</RecruitmentResistanceRoyalTitleOffset>
+  
+  <!-- Permits tab -->
   <!-- EN: Permits -->
   <TabPermits>Autorizações</TabPermits>
   <!-- EN: Permits from {FACTION_name} -->
@@ -60,4 +65,5 @@
   <Cooldown>Refrigeração</Cooldown>
   <!-- EN: {HONOR} cost if used during cooldown -->
   <CooldownUseFavorCost>{HONOR} custo se usado durante o cooldown</CooldownUseFavorCost>
+  
 </LanguageData>

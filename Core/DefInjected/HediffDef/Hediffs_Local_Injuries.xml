@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: acid burn -->
   <AcidBurn.label>queima de ácido</AcidBurn.label>
   <!-- EN: An acid burn. -->
@@ -12,6 +13,30 @@
   <AcidBurn.labelNoun>uma queimadura de ácido</AcidBurn.labelNoun>
   <!-- EN: {0} in the {1} -->
   <AcidBurn.labelNounPretty>não, não</AcidBurn.labelNounPretty>
+  
+  <!-- EN: beam burn -->
+  <BeamWound.label>queima de feixe</BeamWound.label>
+  <!-- EN: A beam burn. -->
+  <BeamWound.description>Uma queimadura de feixe.</BeamWound.description>
+  <!-- EN: set -->
+  <BeamWound.comps.HediffComp_TendDuration.labelSolidTendedWell>conjunto</BeamWound.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <BeamWound.comps.HediffComp_TendDuration.labelTendedWell>bandagem</BeamWound.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <BeamWound.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</BeamWound.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: permanent beam injury -->
+  <BeamWound.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>lesão de feixe permanente</BeamWound.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
+  <!-- EN: old beam wound -->
+  <BeamWound.comps.HediffComp_GetsPermanent.permanentLabel>ferida de feixe velha</BeamWound.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <BeamWound.injuryProps.destroyedLabel>Queimado</BeamWound.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <BeamWound.injuryProps.destroyedOutLabel>Queimado</BeamWound.injuryProps.destroyedOutLabel>
+  <!-- EN: a beam burn -->
+  <BeamWound.labelNoun>uma queimadura de feixe</BeamWound.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <BeamWound.labelNounPretty>não, não</BeamWound.labelNounPretty>
+  
   <!-- EN: bite -->
   <Bite.label>mordida</Bite.label>
   <!-- EN: A bite wound. -->
@@ -32,6 +57,7 @@
   <Bite.labelNoun>uma ferida de mordida</Bite.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Bite.labelNounPretty>não, não</Bite.labelNounPretty>
+  
   <!-- EN: bruise -->
   <Bruise.label>hematomas</Bruise.label>
   <!-- EN: A bruise. -->
@@ -49,6 +75,7 @@
   <Bruise.labelNoun>uma contusão</Bruise.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Bruise.labelNounPretty>não, não</Bruise.labelNounPretty>
+  
   <!-- EN: burn -->
   <Burn.label>queimadura</Burn.label>
   <!-- EN: A burn. -->
@@ -69,6 +96,7 @@
   <Burn.labelNoun>uma queimadura</Burn.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Burn.labelNounPretty>não, não</Burn.labelNounPretty>
+  
   <!-- EN: chemical burn -->
   <ChemicalBurn.label>queimadura química</ChemicalBurn.label>
   <!-- EN: A chemical burn. -->
@@ -83,6 +111,7 @@
   <ChemicalBurn.labelNoun>uma queima química</ChemicalBurn.labelNoun>
   <!-- EN: {0} in the {1} -->
   <ChemicalBurn.labelNounPretty>não, não</ChemicalBurn.labelNounPretty>
+  
   <!-- EN: crack -->
   <Crack.label>crack</Crack.label>
   <!-- EN: A crack. -->
@@ -101,6 +130,7 @@
   <Crack.labelNoun>uma ferida de crack</Crack.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Crack.labelNounPretty>não, não</Crack.labelNounPretty>
+  
   <!-- EN: crush -->
   <Crush.label>esmagamento</Crush.label>
   <!-- EN: A crushing wound. -->
@@ -119,6 +149,7 @@
   <Crush.labelNoun>uma ferida de esmagamento</Crush.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Crush.labelNounPretty>não, não</Crush.labelNounPretty>
+  
   <!-- EN: cut -->
   <Cut.label>corte</Cut.label>
   <!-- EN: A cut. -->
@@ -139,6 +170,7 @@
   <Cut.labelNoun>um corte</Cut.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Cut.labelNounPretty>não, não</Cut.labelNounPretty>
+  
   <!-- EN: decayed organ -->
   <Decayed.label>órgão decaído</Decayed.label>
   <!-- EN: This organ has completely decayed. -->
@@ -147,9 +179,10 @@
   <Decayed.labelNoun>um órgão decadente</Decayed.labelNoun>
   <!-- EN: decayed {1} -->
   <Decayed.labelNounPretty>decaído {1}</Decayed.labelNounPretty>
+  
   <!-- EN: electrical burn -->
   <ElectricalBurn.label>queimadura elétrica</ElectricalBurn.label>
-  <!-- EN: An electical burn. -->
+  <!-- EN: An electrical burn. -->
   <ElectricalBurn.description>Uma queimadura eletrónica.</ElectricalBurn.description>
   <!-- EN: electrical burn scar -->
   <ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de queimadura elétrica</ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
@@ -161,6 +194,7 @@
   <ElectricalBurn.labelNoun>uma queimadura elétrica</ElectricalBurn.labelNoun>
   <!-- EN: {0} in the {1} -->
   <ElectricalBurn.labelNounPretty>não, não</ElectricalBurn.labelNounPretty>
+  
   <!-- EN: cut -->
   <ExecutionCut.label>corte</ExecutionCut.label>
   <!-- EN: A cut made during execution. -->
@@ -173,6 +207,7 @@
   <ExecutionCut.labelNoun>um corte</ExecutionCut.labelNoun>
   <!-- EN: {0} in the {1} -->
   <ExecutionCut.labelNounPretty>não, não</ExecutionCut.labelNounPretty>
+  
   <!-- EN: frostbite -->
   <Frostbite.label>congelamento</Frostbite.label>
   <!-- EN: Frozen tissue caused by exposure to cold without adequate protection. Frostbite is very painful, and frostbitten body parts are often lost. -->
@@ -190,6 +225,7 @@
   <Frostbite.labelNoun>Perdeu o congelamento</Frostbite.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Frostbite.labelNounPretty>não, não</Frostbite.labelNounPretty>
+  
   <!-- EN: gunshot -->
   <Gunshot.label>tiroteio</Gunshot.label>
   <!-- EN: A gunshot wound. -->
@@ -212,6 +248,7 @@
   <Gunshot.labelNoun>um ferimento de bala</Gunshot.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Gunshot.labelNounPretty>não, não</Gunshot.labelNounPretty>
+  
   <!-- EN: wound -->
   <Misc.label>ferida</Misc.label>
   <!-- EN: Miscellaneous injuries. -->
@@ -230,6 +267,7 @@
   <Misc.labelNoun>uma lesão</Misc.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Misc.labelNounPretty>não, não</Misc.labelNounPretty>
+  
   <!-- EN: missing body part -->
   <MissingBodyPart.label>parte do corpo ausente</MissingBodyPart.label>
   <!-- EN: A body part is entirely missing. -->
@@ -238,6 +276,7 @@
   <MissingBodyPart.labelNoun>uma parte do corpo desaparecido</MissingBodyPart.labelNoun>
   <!-- EN: missing a {1} -->
   <MissingBodyPart.labelNounPretty>faltando um</MissingBodyPart.labelNounPretty>
+  
   <!-- EN: scratch -->
   <Scratch.label>zero</Scratch.label>
   <!-- EN: A scratch or tear. -->
@@ -258,6 +297,7 @@
   <Scratch.labelNoun>um zero</Scratch.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Scratch.labelNounPretty>não, não</Scratch.labelNounPretty>
+  
   <!-- EN: shredded -->
   <Shredded.label>triturado</Shredded.label>
   <!-- EN: A part of the body has been shredded and torn. -->
@@ -278,6 +318,7 @@
   <Shredded.labelNoun>uma ferida triturada</Shredded.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Shredded.labelNounPretty>não, não</Shredded.labelNounPretty>
+  
   <!-- EN: stab -->
   <Stab.label>esfaqueamento</Stab.label>
   <!-- EN: A stab wound. -->
@@ -298,6 +339,7 @@
   <Stab.labelNoun>uma ferida de faca</Stab.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Stab.labelNounPretty>não, não</Stab.labelNounPretty>
+  
   <!-- EN: surgical cut -->
   <SurgicalCut.label>corte cirúrgico</SurgicalCut.label>
   <!-- EN: A cut made during surgery. -->
@@ -316,4 +358,5 @@
   <SurgicalCut.labelNoun>um corte cirúrgico</SurgicalCut.labelNoun>
   <!-- EN: {0} in the {1} -->
   <SurgicalCut.labelNounPretty>não, não</SurgicalCut.labelNounPretty>
+  
 </LanguageData>

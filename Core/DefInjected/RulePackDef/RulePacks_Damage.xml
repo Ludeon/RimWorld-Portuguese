@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN:
     <li>damaged_past(p=2)->blasted</li>
     <li>damaged_past(p=2)->exploded</li>
@@ -13,14 +14,22 @@
     <li>destroyed_past->annihilated</li>
     <li>destroyed_past->detonated</li>
   -->
-  <Damage_Bomb.rulePack.rulesStrings>&lt;li&gt;damaged_past(p=2)-&gt;blasted&lt;/li&gt;\n&lt;li&gt;damaged_past(p=2)-&gt;explorado&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;injured&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;damaged&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;wounded&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;hurt&lt;/li&gt;\n&lt;li&gt;destroyed_past-&gt;shattered&lt;/li&gt;\n&lt;li&gt;destroyed_past-&gt;crushed&lt;/li&gt;\n&lt;li&gt;destroyed_past-&gt;obliterated&lt;/li&gt;\n&lt;li&gt;destroyed_past-&gt;annihilated&lt;/li&gt;\n&lt;li&gt;destroyed_past-&gt;detonado&lt;/li&gt;\n</Damage_Bomb.rulePack.rulesStrings>
+  <Damage_Bomb.rulePack.rulesStrings>&lt;li>damaged_past(p=2)->blasted&lt;/li>\n&lt;li>damaged_past(p=2)->explorado&lt;/li>\n&lt;li>damaged_past->injured&lt;/li>\n&lt;li>damaged_past->damaged&lt;/li>\n&lt;li>damaged_past->wounded&lt;/li>\n&lt;li>damaged_past->hurt&lt;/li>\n&lt;li>destroyed_past->shattered&lt;/li>\n&lt;li>destroyed_past->crushed&lt;/li>\n&lt;li>destroyed_past->obliterated&lt;/li>\n&lt;li>destroyed_past->annihilated&lt;/li>\n&lt;li>destroyed_past->detonado&lt;/li>\n</Damage_Bomb.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Damage_Bomb.rulePack.rulesStrings>&lt;li>damaged_past(p=2)->blasted&lt;/li>\n&lt;li>damaged_past(p=2)->explorado&lt;/li>\n&lt;li>damaged_past->injured&lt;/li>\n&lt;li>damaged_past->damaged&lt;/li>\n&lt;li>damaged_past->wounded&lt;/li>\n&lt;li>damaged_past->hurt&lt;/li>\n&lt;li>destroyed_past->shattered&lt;/li>\n&lt;li>destroyed_past->crushed&lt;/li>\n&lt;li>destroyed_past->obliterated&lt;/li>\n&lt;li>destroyed_past->annihilated&lt;/li>\n&lt;li>destroyed_past->detonado&lt;/li>\n</Damage_Bomb.rulePack.rulesStrings>
+  
   <!-- EN:
     <li>damaged_past->electrified</li>
     <li>damaged_past->shocked</li>
     <li>damaged_past->zapped</li>
     <li>destroyed_past->damaged_past</li>
   -->
-  <Damage_EMP.rulePack.rulesStrings>&lt;li&gt;damaged_past-&gt;electrified&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;shocked&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;zapped&lt;/li&gt;\n&lt;li&gt;destroyed_past-&gt;damaged_past&lt;/li&gt;\n</Damage_EMP.rulePack.rulesStrings>
+  <Damage_EMP.rulePack.rulesStrings>&lt;li>damaged_past->electrified&lt;/li>\n&lt;li>damaged_past->shocked&lt;/li>\n&lt;li>damaged_past->zapped&lt;/li>\n&lt;li>destroyed_past->damaged_past&lt;/li>\n</Damage_EMP.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Damage_EMP.rulePack.rulesStrings>&lt;li>damaged_past->electrified&lt;/li>\n&lt;li>damaged_past->shocked&lt;/li>\n&lt;li>damaged_past->zapped&lt;/li>\n&lt;li>destroyed_past->damaged_past&lt;/li>\n</Damage_EMP.rulePack.rulesStrings>
+  
   <!-- EN:
     <li>damaged_past->extinguished</li>
     <li>damaged_past->swamped</li>
@@ -28,7 +37,11 @@
     <li>damaged_past->quenched</li>
     <li>destroyed_past->damaged_past</li>
   -->
-  <Damage_Extinguish.rulePack.rulesStrings>&lt;li&gt;damaged_past-&gt;extinguished&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;swamped&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;foamed&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;quenched&lt;/li&gt;\n&lt;li&gt;destroyed_past-&gt;damaged_past&lt;/li&gt;\n</Damage_Extinguish.rulePack.rulesStrings>
+  <Damage_Extinguish.rulePack.rulesStrings>&lt;li>damaged_past->extinguished&lt;/li>\n&lt;li>damaged_past->swamped&lt;/li>\n&lt;li>damaged_past->foamed&lt;/li>\n&lt;li>damaged_past->quenched&lt;/li>\n&lt;li>destroyed_past->damaged_past&lt;/li>\n</Damage_Extinguish.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Damage_Extinguish.rulePack.rulesStrings>&lt;li>damaged_past->extinguished&lt;/li>\n&lt;li>damaged_past->swamped&lt;/li>\n&lt;li>damaged_past->foamed&lt;/li>\n&lt;li>damaged_past->quenched&lt;/li>\n&lt;li>destroyed_past->damaged_past&lt;/li>\n</Damage_Extinguish.rulePack.rulesStrings>
+  
   <!-- EN:
     <li>damaged_past(p=2)->blasted</li>
     <li>damaged_past(p=2)->scorched</li>
@@ -63,14 +76,22 @@
     <li>destroyed_present->annihilating</li>
     <li>destroyed_present->detonating</li>
   -->
-  <Damage_Flame.rulePack.rulesStrings>&lt;li&gt;damaged_past(p=2)-&gt;blasted&lt;/li&gt;\n&lt;li&gt;damaged_past(p=2)-&gt;scorched&lt;/li&gt;\n&lt;li&gt;damaged_past(p=2)-&gt;burned&lt;/li&gt;\n&lt;li&gt;damaged_past(p=2)-&gt;blistered&lt;/li&gt;\n&lt;li&gt;damaged_past(p=2)-&gt;ignited&lt;/li&gt;\n&lt;li&gt;damaged_past(p=2)-&gt;seared&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;injured&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;damaged&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;wounded&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;hurt&lt;/li&gt;\n&lt;li&gt;damaged_present(p=2)-&gt;blasting&lt;/li&gt;\n&lt;li&gt;damaged_present(p=2)-&gt;scorching&lt;/li&gt;\n&lt;li&gt;damaged_present(p=2)-&gt;burning&lt;/li&gt;\n&lt;li&gt;damaged_present(p=2)-&gt;blistering&lt;/li&gt;\n&lt;li&gt;damaged_present(p=2)-&gt;igniting&lt;/li&gt;\n&lt;li&gt;damaged_present(p=2)-&gt;searing&lt;/li&gt;\n&lt;li&gt;damaged_present-&gt;injurando&lt;/li&gt;\n&lt;li&gt;damaged_present-&gt;damaging&lt;/li&gt;\n&lt;li&gt;damaged_present-&gt;wounding&lt;/li&gt;\n&lt;li&gt;damaged_present-&gt;hurting&lt;/li&gt;\n&lt;li&gt;destroyed_past-&gt;cremated&lt;/li&gt;\n&lt;li&gt;destroyed_past-&gt;incinerated&lt;/li&gt;\n&lt;li&gt;destroyed_past-&gt;charred&lt;/li&gt;\n&lt;li&gt;destroyed_past-&gt;obliterated&lt;/li&gt;\n&lt;li&gt;destroyed_past-&gt;annihilated&lt;/li&gt;\n&lt;li&gt;destroyed_past-&gt;detonado&lt;/li&gt;\n&lt;li&gt;destroyed_present-&gt;cremating&lt;/li&gt;\n&lt;li&gt;destroyed_present-&gt;incinerating&lt;/li&gt;\n&lt;li&gt;destroyed_present-&gt;charring&lt;/li&gt;\n&lt;li&gt;destroyed_present-&gt;obliterating&lt;/li&gt;\n&lt;li&gt;destroyed_present-&gt;annihilating&lt;/li&gt;\n&lt;li&gt;destroyed_present-&gt;detonating&lt;/li&gt;\n</Damage_Flame.rulePack.rulesStrings>
+  <Damage_Flame.rulePack.rulesStrings>&lt;li>damaged_past(p=2)->blasted&lt;/li>\n&lt;li>damaged_past(p=2)->scorched&lt;/li>\n&lt;li>damaged_past(p=2)->burned&lt;/li>\n&lt;li>damaged_past(p=2)->blistered&lt;/li>\n&lt;li>damaged_past(p=2)->ignited&lt;/li>\n&lt;li>damaged_past(p=2)->seared&lt;/li>\n&lt;li>damaged_past->injured&lt;/li>\n&lt;li>damaged_past->damaged&lt;/li>\n&lt;li>damaged_past->wounded&lt;/li>\n&lt;li>damaged_past->hurt&lt;/li>\n&lt;li>damaged_present(p=2)->blasting&lt;/li>\n&lt;li>damaged_present(p=2)->scorching&lt;/li>\n&lt;li>damaged_present(p=2)->burning&lt;/li>\n&lt;li>damaged_present(p=2)->blistering&lt;/li>\n&lt;li>damaged_present(p=2)->igniting&lt;/li>\n&lt;li>damaged_present(p=2)->searing&lt;/li>\n&lt;li>damaged_present->injurando&lt;/li>\n&lt;li>damaged_present->damaging&lt;/li>\n&lt;li>damaged_present->wounding&lt;/li>\n&lt;li>damaged_present->hurting&lt;/li>\n&lt;li>destroyed_past->cremated&lt;/li>\n&lt;li>destroyed_past->incinerated&lt;/li>\n&lt;li>destroyed_past->charred&lt;/li>\n&lt;li>destroyed_past->obliterated&lt;/li>\n&lt;li>destroyed_past->annihilated&lt;/li>\n&lt;li>destroyed_past->detonado&lt;/li>\n&lt;li>destroyed_present->cremating&lt;/li>\n&lt;li>destroyed_present->incinerating&lt;/li>\n&lt;li>destroyed_present->charring&lt;/li>\n&lt;li>destroyed_present->obliterating&lt;/li>\n&lt;li>destroyed_present->annihilating&lt;/li>\n&lt;li>destroyed_present->detonating&lt;/li>\n</Damage_Flame.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Damage_Flame.rulePack.rulesStrings>&lt;li>damaged_past(p=2)->blasted&lt;/li>\n&lt;li>damaged_past(p=2)->scorched&lt;/li>\n&lt;li>damaged_past(p=2)->burned&lt;/li>\n&lt;li>damaged_past(p=2)->blistered&lt;/li>\n&lt;li>damaged_past(p=2)->ignited&lt;/li>\n&lt;li>damaged_past(p=2)->seared&lt;/li>\n&lt;li>damaged_past->injured&lt;/li>\n&lt;li>damaged_past->damaged&lt;/li>\n&lt;li>damaged_past->wounded&lt;/li>\n&lt;li>damaged_past->hurt&lt;/li>\n&lt;li>damaged_present(p=2)->blasting&lt;/li>\n&lt;li>damaged_present(p=2)->scorching&lt;/li>\n&lt;li>damaged_present(p=2)->burning&lt;/li>\n&lt;li>damaged_present(p=2)->blistering&lt;/li>\n&lt;li>damaged_present(p=2)->igniting&lt;/li>\n&lt;li>damaged_present(p=2)->searing&lt;/li>\n&lt;li>damaged_present->injurando&lt;/li>\n&lt;li>damaged_present->damaging&lt;/li>\n&lt;li>damaged_present->wounding&lt;/li>\n&lt;li>damaged_present->hurting&lt;/li>\n&lt;li>destroyed_past->cremated&lt;/li>\n&lt;li>destroyed_past->incinerated&lt;/li>\n&lt;li>destroyed_past->charred&lt;/li>\n&lt;li>destroyed_past->obliterated&lt;/li>\n&lt;li>destroyed_past->annihilated&lt;/li>\n&lt;li>destroyed_past->detonado&lt;/li>\n&lt;li>destroyed_present->cremating&lt;/li>\n&lt;li>destroyed_present->incinerating&lt;/li>\n&lt;li>destroyed_present->charring&lt;/li>\n&lt;li>destroyed_present->obliterating&lt;/li>\n&lt;li>destroyed_present->annihilating&lt;/li>\n&lt;li>destroyed_present->detonating&lt;/li>\n</Damage_Flame.rulePack.rulesStrings>
+  
   <!-- EN:
     <li>damaged_past->smoked</li>
     <li>damaged_past->fogged</li>
     <li>damaged_past->clouded</li>
     <li>destroyed_past->damaged_past</li>
   -->
-  <Damage_Smoke.rulePack.rulesStrings>&lt;li&gt;damaged_past-&gt;smoked&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;fogged&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;clouded&lt;/li&gt;\n&lt;li&gt;destroyed_past-&gt;damaged_past&lt;/li&gt;\n</Damage_Smoke.rulePack.rulesStrings>
+  <Damage_Smoke.rulePack.rulesStrings>&lt;li>damaged_past->smoked&lt;/li>\n&lt;li>damaged_past->fogged&lt;/li>\n&lt;li>damaged_past->clouded&lt;/li>\n&lt;li>destroyed_past->damaged_past&lt;/li>\n</Damage_Smoke.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Damage_Smoke.rulePack.rulesStrings>&lt;li>damaged_past->smoked&lt;/li>\n&lt;li>damaged_past->fogged&lt;/li>\n&lt;li>damaged_past->clouded&lt;/li>\n&lt;li>destroyed_past->damaged_past&lt;/li>\n</Damage_Smoke.rulePack.rulesStrings>
+  
   <!-- EN:
     <li>damaged_past->stunned</li>
     <li>damaged_past->confused</li>
@@ -78,5 +99,9 @@
     <li>damaged_past->dizzied</li>
     <li>destroyed_past->damaged_past</li>
   -->
-  <Damage_Stun.rulePack.rulesStrings>&lt;li&gt;damaged_past-&gt;stunned&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;confundido&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;stopped&lt;/li&gt;\n&lt;li&gt;damaged_past-&gt;dizzied&lt;/li&gt;\n&lt;li&gt;destroyed_past-&gt;damaged_past&lt;/li&gt;\n</Damage_Stun.rulePack.rulesStrings>
+  <Damage_Stun.rulePack.rulesStrings>&lt;li>damaged_past->stunned&lt;/li>\n&lt;li>damaged_past->confundido&lt;/li>\n&lt;li>damaged_past->stopped&lt;/li>\n&lt;li>damaged_past->dizzied&lt;/li>\n&lt;li>destroyed_past->damaged_past&lt;/li>\n</Damage_Stun.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Damage_Stun.rulePack.rulesStrings>&lt;li>damaged_past->stunned&lt;/li>\n&lt;li>damaged_past->confundido&lt;/li>\n&lt;li>damaged_past->stopped&lt;/li>\n&lt;li>damaged_past->dizzied&lt;/li>\n&lt;li>destroyed_past->damaged_past&lt;/li>\n</Damage_Stun.rulePack.rulesStrings>
+  
 </LanguageData>

@@ -70,11 +70,6 @@
   <!-- EN: A colonist is left unburied.\n\nThis may negatively affect your colonists' mood. -->
   <AlertColonistLeftUnburiedDesc>Um colono foi deixado insepulto.\n\nIsto pode afetar negativamente o humor dos teus colonos.</AlertColonistLeftUnburiedDesc>
 
-  <!-- EN: Hunter lacks suitable weapon -->
-  <HunterLacksWeapon>Caçador não tem arma</HunterLacksWeapon>
-  <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon appropriate for hunting.\n\nThey will not hunt until they are carrying an appropriate weapon.\n\nThe following colonists are assigned as hunters and need suitable ranged weapons -->
-  <HunterLacksWeaponDesc>Um colono está designado como caçador mas não tem arma. Não irá caçar até que esteja em posse de uma arma.\n\nPara evitar lesões, recomenda-se que lhe dês uma arma.</HunterLacksWeaponDesc>
-
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>Roupas esfarrapadas</AlertTatteredApparel>
   <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n{0}\n\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
@@ -152,6 +147,8 @@
   <!-- EN: You have the equipment to do research but have not selected a project.\n\n(Click to open the research menu.) -->
   <NeedResearchProjectDesc>Tens o equipamento para fazer pesquisas, mas não tens nenhum projecto seleccionado.\n\nAbre o menu de pesquisa e selecciona um protejo a ser pesquisado.</NeedResearchProjectDesc>
 
+  <!-- EN: 1 colonist idle -->
+  <ColonistIdle>TODO</ColonistIdle>
   <!-- EN: {0} colonists idle -->
   <ColonistsIdle>{0} colonos desocupados</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n{0}\n\nYou should probably find them something productive to do. -->
@@ -333,5 +330,9 @@
   <NeedResearchBench>Precisa de mesa de pesquisa</NeedResearchBench>
   <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
   <NeedResearchBenchDesc>Tens um projeto de pesquisa ativo '{0}'. Este projeto requer que construas {1}.</NeedResearchBenchDesc>
+  
+  <!-- UNUSED -->
+  <HunterLacksWeapon>Caçador não tem arma</HunterLacksWeapon>
+  <HunterLacksWeaponDesc>Um colono está designado como caçador mas não tem arma. Não irá caçar até que esteja em posse de uma arma.\n\nPara evitar lesões, recomenda-se que lhe dês uma arma.</HunterLacksWeaponDesc>
 
 </LanguageData>

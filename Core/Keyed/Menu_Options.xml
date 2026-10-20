@@ -28,6 +28,14 @@
   <Antialiasing>Anti-aliasing</Antialiasing>
 
   <!-- Gameplay -->
+  <!-- EN: Remember draw styles -->
+  <RememberDrawStyle>TODO</RememberDrawStyle>
+  <!-- EN: When enabled, draw styles won't reset to the default draw style when placing new buildings or zones. -->
+  <RememberDrawStyle_Tooltip>TODO</RememberDrawStyle_Tooltip>
+  <!-- EN: Zoom switches world map layers -->
+  <ZoomSwitchLayer>TODO</ZoomSwitchLayer>
+  <!-- EN: When enabled, zooming out on the world map will switch to an orbital view. Zooming in will show the planet again. -->
+  <ZoomSwitchLayer_Tooltip>TODO</ZoomSwitchLayer_Tooltip>
   <!-- EN: Screen-edge mouse scroll -->
   <EdgeScreenScroll>Mover câmara se rato estiver na margem do ecrã</EdgeScreenScroll>
   <!-- EN: Zoom to mouse -->
@@ -44,6 +52,10 @@
   <HatsShownOnlyOnMap>Esconder chapéus na IU</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
   <UIScale>Escala da IU</UIScale>
+  <!-- EN: Respect system display scaling -->
+  <RespectSystemScaling>TODO</RespectSystemScaling>
+  <!-- EN: When enabled, the UI scale is multiplied by the operating system's display scaling. Disable to apply the UI scale as-is. -->
+  <RespectSystemScaling_Tooltip>TODO</RespectSystemScaling_Tooltip>
   <!-- EN: Keyboard configuration -->
   <KeyboardConfig>Configuração do teclado</KeyboardConfig>
   <!-- EN: Controller configuration -->
@@ -130,10 +142,16 @@
   <TextureCompression>Compressão de textura</TextureCompression>
   <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
   <TextureCompression_Tooltip>Desativar a compressão de textira irá usar mais memória de vídeo, mas permite que as texturas pareçam melhores em áreas detalhadas. Desativa apenas esta opção se sabes que tens bastante memória de vídeo.\n\nNota que ao usar certos mods, irá consumir mais memória de vídeo, portanto poderá ser necessário ativar esta opção com certos mods.</TextureCompression_Tooltip>
+  <!-- EN: Texture compression in the Waylith engine is higher quality and always enabled. -->
+  <TextureCompressionAlwaysOn_Tooltip>TODO</TextureCompressionAlwaysOn_Tooltip>
   <!-- EN: Smooth camera jumps -->
   <SmoothCameraJumps>Saltos de câmera suaves</SmoothCameraJumps>
   <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
   <SmoothCameraJumpsDesc>Quando ativado, a câmera fará uma panorâmica rápida ao focar num novo local. Quando desativado, a câmera dará um salto instantâneo.</SmoothCameraJumpsDesc>
+  <!-- EN: Gravship cutscenes -->
+  <GravshipCutscenes>TODO</GravshipCutscenes>
+  <!-- EN: When disabled, gravships will take off and land instantly. -->
+  <GravshipCutscenesDesc>TODO</GravshipCutscenesDesc>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
@@ -142,6 +160,24 @@
   <Fullscreen>Ecrã inteiro</Fullscreen>
   <!-- EN: Borderless fullscreen -->
   <BorderlessFullscreen>Ecrã inteiro sem bordas</BorderlessFullscreen>
+  <!-- EN: Display mode -->
+  <DisplayMode>TODO</DisplayMode>
+  <!-- EN: Windowed -->
+  <DisplayMode_Windowed>TODO</DisplayMode_Windowed>
+  <!-- EN: Exclusive fullscreen -->
+  <DisplayMode_ExclusiveFullscreen>TODO</DisplayMode_ExclusiveFullscreen>
+  <!-- EN: Monitor -->
+  <Monitor>TODO</Monitor>
+  <!-- EN: Automatic -->
+  <Monitor_Automatic>TODO</Monitor_Automatic>
+  <!-- EN: Graphics card -->
+  <Gpu>TODO</Gpu>
+  <!-- EN: Automatic -->
+  <Gpu_Automatic>TODO</Gpu_Automatic>
+  <!-- EN: {0} (in use) -->
+  <Gpu_InUse>TODO</Gpu_InUse>
+  <!-- EN: Changing the graphics card requires a restart. Unsaved progress will be lost.\n\nRestart now? -->
+  <GpuChangedRestart>TODO</GpuChangedRestart>
   <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
   <BorderlessFullscreenInstructions>Para jogar RimWorld em ecrã inteiro sem bordas:\n\n1)Abre a Steam\n2)Vai à aba "Biblioteca" no topo\n3) Encontra o RimWorld na lista e seleciona-o com o lado direito do rato\n4) Seleciona "Propriedades..."\n5) Adiciona "-popupwindow" sem aspas, nas opções de arranque na seção "Geral"\n6) Reinicia o jogo\n7) Se for feito corretamente, não verás esta janela\n\nDica: Usa a tecla do Windows + Shift + Seta Esquerda/Direita para mover a janela entre monitores.</BorderlessFullscreenInstructions>
 

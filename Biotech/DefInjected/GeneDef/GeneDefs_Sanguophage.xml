@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: ageless -->
   <Ageless.label>sem idade</Ageless.label>
   <!-- EN: Carriers of this gene have archites in the bloodstream which continuously reverse the process of aging. Starting at the age of 13, carriers begin to biologically age slower. By 18, the aging process stops completely. -->
@@ -20,12 +21,14 @@
   <Ageless.symbolPack.wholeNameSymbols.0.symbol>imortal</Ageless.symbolPack.wholeNameSymbols.0.symbol>
   <!-- EN: methuselah -->
   <Ageless.symbolPack.wholeNameSymbols.1.symbol>methuselah</Ageless.symbolPack.wholeNameSymbols.1.symbol>
+  
   <!-- EN: archite metabolism -->
   <ArchiteMetabolism.label>metabolismo do arco</ArchiteMetabolism.label>
   <!-- EN: Carriers of this gene have special archites in their cells that facilitate and optimize metabolism. This improves overall genetic and metabolic quality. -->
   <ArchiteMetabolism.description>Os portadores deste gene têm arcos especiais em suas células que facilitam e otimizam o metabolismo. Isso melhora a qualidade genética e metabólica geral.</ArchiteMetabolism.description>
   <!-- EN: archite-metabolic -->
   <ArchiteMetabolism.labelShortAdj>arquete-metabólico</ArchiteMetabolism.labelShortAdj>
+  
   <!-- EN: deathless -->
   <Deathless.label>sem morte</Deathless.label>
   <!-- EN: Carriers of this gene have archites in the blood which will sustain their life processes no matter what. As long as the brain remains intact, a carrier of this gene will never die. -->
@@ -44,6 +47,7 @@
   <Deathless.symbolPack.suffixSymbols.1.symbol>deus</Deathless.symbolPack.suffixSymbols.1.symbol>
   <!-- EN: immortal -->
   <Deathless.symbolPack.wholeNameSymbols.0.symbol>imortal</Deathless.symbolPack.wholeNameSymbols.0.symbol>
+  
   <!-- EN: deathrest -->
   <Deathrest.label>prisão de morte</Deathrest.label>
   <!-- EN: Carriers of this gene must periodically regenerate themselves in a special coma called deathrest. Deathrest takes days, but can confer substantial bonuses. Deathrest can be accelerated and its effects enhanced by the use of a variety of special buildings and technologies.\n\nThose who put off deathresting will suffer from deathrest exhaustion. -->
@@ -56,10 +60,12 @@
   <Deathrest.symbolPack.prefixSymbols.2.symbol>ainda</Deathrest.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: rester -->
   <Deathrest.symbolPack.suffixSymbols.0.symbol>resterir</Deathrest.symbolPack.suffixSymbols.0.symbol>
+  
   <!-- EN: non-senescent -->
   <DiseaseFree.label>não sensível</DiseaseFree.label>
   <!-- EN: Carriers of this gene do not go through senescence in the normal way. They never get chronic age-related diseases like cancer, bad back, cataracts, or dementia. -->
   <DiseaseFree.description>Os portadores deste gene não passam pela senescência da maneira normal. Eles nunca recebem doenças crônicas relacionadas à idade como câncer, costas ruins, cataratas ou demência.</DiseaseFree.description>
+  
   <!-- EN: pyrophobia -->
   <FireTerror.label>pirofo</FireTerror.label>
   <!-- EN: Carriers of this gene have an intense fear of fire. When fires are close, there is a chance they will have a mental breakdown at any moment. -->
@@ -68,6 +74,7 @@
   <FireTerror.customEffectDescriptions.0>Pode ter um colapso mental quando perto de incêndios.</FireTerror.customEffectDescriptions.0>
   <!-- EN: pyrophobic -->
   <FireTerror.labelShortAdj>pyrophobic</FireTerror.labelShortAdj>
+  
   <!-- EN: tinderskin -->
   <FireWeakness.label>pele de tinders</FireWeakness.label>
   <!-- EN: Carriers have dry, thin skin which burns easily from fire, and their immune systems react very poorly to this kind of threat. Damage from fire is multiplied by 4. -->
@@ -80,6 +87,7 @@
   <FireWeakness.symbolPack.prefixSymbols.1.symbol>tinder</FireWeakness.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: kindle -->
   <FireWeakness.symbolPack.prefixSymbols.2.symbol>amável</FireWeakness.symbolPack.prefixSymbols.2.symbol>
+  
   <!-- EN: hemogen drain -->
   <HemogenDrain.label>drenagem de hemogênio</HemogenDrain.label>
   <!-- EN: Carriers lose an additional 8 hemogen per day from biological entropy. -->
@@ -88,6 +96,7 @@
   <HemogenDrain.labelShortAdj>drenagem</HemogenDrain.labelShortAdj>
   <!-- EN: hemogen -->
   <HemogenDrain.resourceLabel>hemograma</HemogenDrain.resourceLabel>
+  
   <!-- EN: hemogenic -->
   <Hemogenic.label>hemogênica</Hemogenic.label>
   <!-- EN: Carriers of this gene have a reserve of biological strength powered by a resource called hemogen. The resource can be gained and spent in various ways, all of which are unlocked by other genes.\n\nCarriers lose 2 hemogen per day from biological entropy. -->
@@ -95,17 +104,19 @@
   <!-- EN: Gives hemogen supply. -->
   <Hemogenic.customEffectDescriptions.0>Dá abastecimento de hemogene.</Hemogenic.customEffectDescriptions.0>
   <!-- EN: A reserve of biological strength which can be gained and spent in a variety of ways.\n\nHemogen can be increased by bloodfeeding from a human or consuming hemogen packs. You can obtain hemogen packs using the 'extract hemogen pack' medical operation on a non-hemogenic human.\n\nIf hemogen reaches zero, {PAWN_nameDef} will become very unhappy. -->
-  <Hemogenic.resourceDescription>Uma reserva de força biológica que pode ser adquirida e gasta em uma variedade de maneiras.\n\nO hemogene pode ser aumentado pela alimentação sanguínea de um humano ou consumindo pacotes hemogênicos. Você pode obter pacotes de hemogênicos usando a operação médica &quot;extract hemogen pack&quot; em um humano não hemogênico.\n\nSe o hemogen atingir zero, {PAWN_nameDef} ficará muito infeliz.</Hemogenic.resourceDescription>
+  <Hemogenic.resourceDescription>Uma reserva de força biológica que pode ser adquirida e gasta em uma variedade de maneiras.\n\nO hemogene pode ser aumentado pela alimentação sanguínea de um humano ou consumindo pacotes hemogênicos. Você pode obter pacotes de hemogênicos usando a operação médica "extract hemogen pack" em um humano não hemogênico.\n\nSe o hemogen atingir zero, {PAWN_nameDef} ficará muito infeliz.</Hemogenic.resourceDescription>
   <!-- EN: hemogen -->
   <Hemogenic.resourceLabel>hemograma</Hemogenic.resourceLabel>
   <!-- EN: hemo -->
   <Hemogenic.symbolPack.prefixSymbols.0.symbol>hemograma</Hemogenic.symbolPack.prefixSymbols.0.symbol>
+  
   <!-- EN: perfect immunity -->
   <PerfectImmunity.label>imunidade perfeita</PerfectImmunity.label>
   <!-- EN: Carriers of this gene have archite-enhanced immune systems which intelligently destroy invaders. They are totally immune to most normal illnesses. -->
   <PerfectImmunity.description>Os portadores deste gene têm sistemas imunitários aprimorados por arco que destroem inteligentemente invasores. Eles são totalmente imunes à maioria das doenças normais.</PerfectImmunity.description>
   <!-- EN: perfect-immune -->
   <PerfectImmunity.labelShortAdj>perfeita imune</PerfectImmunity.labelShortAdj>
+  
   <!-- EN: scarless -->
   <TotalHealing.label>sem medo</TotalHealing.label>
   <!-- EN: Carriers of this gene have a special type of regenerator cell which can heal old wounds and chronic illnesses like bad back. -->
@@ -114,4 +125,5 @@
   <TotalHealing.customEffectDescriptions.0>Cada (*DateTime)15-30 dias(/DateTime), uma velha ferida ou doença crônica é curada.</TotalHealing.customEffectDescriptions.0>
   <!-- EN: scarless -->
   <TotalHealing.labelShortAdj>sem medo</TotalHealing.labelShortAdj>
+  
 </LanguageData>

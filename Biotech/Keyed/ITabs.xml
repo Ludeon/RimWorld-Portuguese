@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
   <!-- EN: The recipe {0} requires a mechanitor to work on it. None of your colonists are mechanitors, so nobody will do this bill. -->
   <RecipeRequiresMechanitor>A receita {0} requer um mecanitor para trabalhar nele. Nenhum dos seus colonos é mecanitores, por isso ninguém vai fazer esta conta.</RecipeRequiresMechanitor>
+
   <!-- EN: genepacks -->
   <GenepackPlural>pacotes de gene</GenepackPlural>
   <!-- EN: Traits develop later during childhood -->
@@ -10,10 +12,13 @@
   <SkillsDevelopLaterBaby>Habilidades se desenvolvem mais tarde durante a infância</SkillsDevelopLaterBaby>
   <!-- EN: Genes -->
   <TabGenes>Genes</TabGenes>
+
   <!-- EN: View genes -->
   <ViewGenes>Ver genes</ViewGenes>
   <!-- EN: Click to view {PAWN_nameDef}'s genes. -->
   <ViewGenesDesc>Clique para ver {PAWN_name Os genes da Def.</ViewGenesDesc>
+
+  <!-- Feeding tab (human babies) -->
   <!-- EN: Feeding -->
   <TabFeeding>Alimentação</TabFeeding>
   <!-- EN: Auto feed settings -->
@@ -34,6 +39,8 @@
   <AutofeedModeTooltipUrgent>(FEEDER) Def} alimentará {BABY_name Def} dia ou noite, mesmo que {FEEDER_nameDef} não seja atribuído a cuidados infantis ou seja incapaz de cuidar de crianças.</AutofeedModeTooltipUrgent>
   <!-- EN: Consumable foods -->
   <BabyFoodConsumables>Alimentos consumíveis</BabyFoodConsumables>
+
+  <!-- Social tab (human babies) -->
   <!-- EN: ideoligion exposure -->
   <IdeoExposureSectionHeader>exposição de orientação</IdeoExposureSectionHeader>
   <!-- EN: {BABY_labelShort} has not been exposed to any ideoligions yet. -->
@@ -50,6 +57,8 @@
   <IdeoExposurePointsTooltipIdeoExposure>{IDEO_name} pontos de exposição</IdeoExposurePointsTooltipIdeoExposure>
   <!-- EN: Total exposure points -->
   <IdeoExposurePointsTooltipTotalExposure>Total dos pontos de exposição</IdeoExposurePointsTooltipTotalExposure>
+
+  <!-- Social tab (romance) -->
   <!-- EN: Romance -->
   <TryRomanceButtonLabel>Romance</TryRomanceButtonLabel>
   <!-- EN: Nobody for {0_labelShort} to romance. -->
@@ -116,8 +125,11 @@
   <RomanceWarningMonogamous>{0_name Já está numa relação.</RomanceWarningMonogamous>
   <!-- EN: {0_nameDef} already has {1} partners. -->
   <RomanceWarningPolygamous>{0_name Já tem parceiros.</RomanceWarningPolygamous>
+
+  <!-- Guest tab (prisoners) -->
   <!-- EN: Genes -->
   <FactorForGenes>Genes</FactorForGenes>
   <!-- EN: Prison breaking is disabled by {GENE_label} gene. -->
   <PrisonBreakingDisabledDueToGene>A quebra da prisão é desativada pelo gene {GENE_label} .</PrisonBreakingDisabledDueToGene>
+
 </LanguageData>

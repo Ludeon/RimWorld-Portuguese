@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
+  <!-- Royalty and throne -->
   <!-- EN: Satisfies title -->
   <ThroneMaxSatisfiedTitle>Título de satisfação</ThroneMaxSatisfiedTitle>
   <!-- EN: ({0} impressiveness) -->
@@ -12,6 +14,8 @@
   <RequiresTradePermission>Negociar aqui requer título: Não</RequiresTradePermission>
   <!-- EN: Personal bedroom (partner allowed) -->
   <RequirementPersonalBedroom>Quarto pessoal (parceiro permitido)</RequirementPersonalBedroom>
+  
+  <!-- Generated neurotrainers -->
   <!-- EN: psytrainer ({0}) -->
   <PsycastNeurotrainerLabel>psytrainer ({0})</PsycastNeurotrainerLabel>
   <!-- EN: Use psytrainer to learn {0} psycast -->
@@ -24,16 +28,21 @@
   <PsycastNeurotrainerNoPsylink>requer psylink</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
   <PsycastNeurotrainerAbilityAlreadyLearned>[USER_label Curto já sabe.</PsycastNeurotrainerAbilityAlreadyLearned>
+
   <!-- EN: whoever accepted the quest will receive {1} {0_royalFavorLabel} from {0_name} -->
   <Reward_RoyalFavor>quem aceitou a busca receberá {1} Favor Label} de {0_name}</Reward_RoyalFavor>
   <!-- EN: you may choose one of the participating {2} to receive {1} {0_royalFavorLabel} from {0_name} -->
   <Reward_RoyalFavor_ChoosePawn>você pode escolher um dos participantes {2} para receber {1} Favor Label} de {0_name}</Reward_RoyalFavor_ChoosePawn>
+  
+  <!-- Ship landing beacons -->
   <!-- EN: Not usable -->
   <NotUsable>Não utilizável</NotUsable>
   <!-- EN: unpowered -->
   <Unpowered>sem força</Unpowered>
   <!-- EN: Too close to other beacon -->
   <TooCloseToOtherBeacon>Muito perto de outro farol</TooCloseToOtherBeacon>
+  
+  <!-- Meditation -->
   <!-- EN: Psyfocus -->
   <Psyfocus>Foco de pelúcia</Psyfocus>
   <!-- EN: Psyfocus -->
@@ -76,6 +85,7 @@
   <DesiredPsyfocus>Desired psyfocus</DesiredPsyfocus>
   <!-- EN: Click to set desired psyfocus. -->
   <DesiredPsyfocusDesc>Clique para definir psyfocus desejado.</DesiredPsyfocusDesc>
+
   <!-- EN: no throne assigned. -->
   <AbilitySpeechDisabledNoThroneAssigned>nenhum trono atribuído.</AbilitySpeechDisabledNoThroneAssigned>
   <!-- EN: throne is not accessible. -->
@@ -90,10 +100,14 @@
   <AbilitySpeechStatInfo>{ORGANIZER_labelShort}'s {1} stat</AbilitySpeechStatInfo>
   <!-- EN: Dignified throne -->
   <AbilitySpeechTargetDescThrone>Trono dignidade</AbilitySpeechTargetDescThrone>
+  
   <!-- EN: no accessible altar. -->
   <RitualDisabledNoAltar>sem altar acessível.</RitualDisabledNoAltar>
   <!-- EN: Bestowing Ceremony -->
   <RitualBestowingCeremony>Cerimônia de Bestowing</RitualBestowingCeremony>
+  <!-- EN: No suitable location near bestower -->
+  <BestowingSpotUnavailable>TODO</BestowingSpotUnavailable>
+
   <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
   <TotalMeditationToday>Meditação total hoje: {0} (multiplicador de progresso {1})</TotalMeditationToday>
   <!-- EN: progress {0} -->
@@ -114,10 +128,12 @@
   <LetterTextLinkingRitualCompleted>{PAWN_labelShort} completou o ritual de ligação com {LINKABLE_labelShort}.\n\n{PAWN_pronoun} agora tem um psylink atualizado, permitindo o uso de novos poderes psíquicos.</LetterTextLinkingRitualCompleted>
   <!-- EN: Additionally, {0} anima grass has been restored. -->
   <LetterTextLinkingRitualCompletedAnimaGrass>Além disso, {0} a grama de animação foi restaurada.</LetterTextLinkingRitualCompletedAnimaGrass>
+
   <!-- EN: Land shuttle here -->
   <LandHere>Transporte terrestre aqui</LandHere>
   <!-- EN: Destination is out of range. -->
   <MessageShuttleDestinationIsTooFar>O destino está fora de alcance.</MessageShuttleDestinationIsTooFar>
+
   <!-- EN: Start bestowing ceremony for {0_labelShort} -->
   <BeginCeremony>Comece a conceder cerimônia para {0_label Curto</BeginCeremony>
   <!-- EN: {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. -->
@@ -128,6 +144,7 @@
   <BestowingCeremonyLabel>cerimônia de concessão</BestowingCeremonyLabel>
   <!-- EN: Bestowing ceremony total quality was {0}, determined by these factors -->
   <BestowingOutcomeQualitySpecific>A melhor qualidade total da cerimônia foi {0}, determinada por estes fatores</BestowingOutcomeQualitySpecific>
+  
   <!-- EN: No colonists that can link with anima tree right now. -->
   <RitualTargetAnimaTreeNoPawnsToLink>Não há colonos que possam ligar com a árvore de animação agora.</RitualTargetAnimaTreeNoPawnsToLink>
   <!-- EN: No colonists with the natural meditation focus type. -->
@@ -140,14 +157,18 @@
   <RitualTargetAnimaTreeMustBeCapableOfNature>Deve ser um colonista com o tipo de foco de meditação natural que está abaixo do nível psylink máximo.</RitualTargetAnimaTreeMustBeCapableOfNature>
   <!-- EN: Must not be psychically deaf. -->
   <RitualTargetAnimaTreeMustBePsychicallySensitive>Não deve ser psiquicamente surdo.</RitualTargetAnimaTreeMustBePsychicallySensitive>
+
   <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
   <AnimaLinkingExplanationBase>A cerimônia de ligação de animação é mais poderosa com mais participantes. Quanto mais pessoas participam, menos tempo a cerimônia leva, e mais grama de animação crescerá.\n\nCom {0} participantes adicionais, {1} a grama de animação será restaurada no final da cerimônia.</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>Nem todas as cargas necessárias ainda estão carregadas!</ShuttleRequiredItemsNotSatisfied>
   <!-- EN: Cannot load {0_labelShort} -->
   <CannotLoadIntoShuttle>Não é possível carregar {0_label Curto</CannotLoadIntoShuttle>
+
   <!-- EN: no heat to dump. -->
   <AbilityNoEntropyToDump>sem calor para despejar.</AbilityNoEntropyToDump>
+
   <!-- EN: level {0} -->
-  <LevelNum>nível não</LevelNum>
+  <LevelNum>nível não</LevelNum> <!-- Psylink level as reported in health tab-->
+
 </LanguageData>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: artificial metabolism -->
   <ArtificialMetabolism.label>metabolismo artificial</ArtificialMetabolism.label>
   <!-- EN: Craft bionics that process food more safely or efficiently than a biological stomach. -->
@@ -12,7 +13,11 @@
     <li>subject_gerund->crafting digestion-related bionics</li>
     <li>subject_gerund->crafting artificial guts</li>
   -->
-  <ArtificialMetabolism.generalRules.rulesStrings>&lt;li&gt;subject-&gt; metabolismo artificial&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; desenvolveu uma fome tão consumindo que a instalação de um estômago artificial foi a única solução &lt;/li&gt;\n&lt;li&gt;subject_story-&gt; não disse à rainha sobre a instalação do estômago esterilizante, mas continuou como seu testador de alimentos todos os mesmos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; desenvolveu uma pilhagem para alimentos. Um estômago nuclear reduziu fortemente o consumo de alimentos, embora a radioatividade fosse um nuisance&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting digestion-related bionics&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting artificial guts&lt;/li&gt;\n</ArtificialMetabolism.generalRules.rulesStrings>
+  <ArtificialMetabolism.generalRules.rulesStrings>&lt;li>subject-> metabolismo artificial&lt;/li>\n&lt;li>subject_story-> desenvolveu uma fome tão consumindo que a instalação de um estômago artificial foi a única solução &lt;/li>\n&lt;li>subject_story-> não disse à rainha sobre a instalação do estômago esterilizante, mas continuou como seu testador de alimentos todos os mesmos&lt;/li>\n&lt;li>subject_story-> desenvolveu uma pilhagem para alimentos. Um estômago nuclear reduziu fortemente o consumo de alimentos, embora a radioatividade fosse um nuisance&lt;/li>\n&lt;li>subject_gerund->crafting digestion-related bionics&lt;/li>\n&lt;li>subject_gerund->crafting artificial guts&lt;/li>\n</ArtificialMetabolism.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <ArtificialMetabolism.generalRules.rulesStrings>&lt;li>subject-> metabolismo artificial&lt;/li>\n&lt;li>subject_story-> desenvolveu uma fome tão consumindo que a instalação de um estômago artificial foi a única solução &lt;/li>\n&lt;li>subject_story-> não disse à rainha sobre a instalação do estômago esterilizante, mas continuou como seu testador de alimentos todos os mesmos&lt;/li>\n&lt;li>subject_story-> desenvolveu uma pilhagem para alimentos. Um estômago nuclear reduziu fortemente o consumo de alimentos, embora a radioatividade fosse um nuisance&lt;/li>\n&lt;li>subject_gerund->crafting digestion-related bionics&lt;/li>\n&lt;li>subject_gerund->crafting artificial guts&lt;/li>\n</ArtificialMetabolism.generalRules.rulesStrings>
+  
   <!-- EN: brain wiring -->
   <BrainWiring.label>fiação do cérebro</BrainWiring.label>
   <!-- EN: Craft brain implants that induce or prevent blunt sensations like joy or pain. -->
@@ -24,7 +29,11 @@
     <li>subject_story->had a joywire installed and, though happy after that, stumbled simply through life</li>
     <li>subject_gerund->crafting brain implants</li>
   -->
-  <BrainWiring.generalRules.rulesStrings>&lt;li&gt;subject-&gt; implantes de cérebro&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;wrote um artigo sobre o uso de cultos masoquistas de mindscrews para melhorar sua morale&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;implanted painstoppers em um esquadrão de assalto. Eles eliminaram uma força muito maior, mas foram todos feridos mortalmente ou mortos &lt;/li&gt;\n&lt;li&gt;subject_story-&gt; tinha um joywire instalado e, embora feliz depois disso, tropeçou simplesmente através da vida&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting cérebro implantes&lt;/li&gt;\n</BrainWiring.generalRules.rulesStrings>
+  <BrainWiring.generalRules.rulesStrings>&lt;li>subject-> implantes de cérebro&lt;/li>\n&lt;li>subject_story->wrote um artigo sobre o uso de cultos masoquistas de mindscrews para melhorar sua morale&lt;/li>\n&lt;li>subject_story->implanted painstoppers em um esquadrão de assalto. Eles eliminaram uma força muito maior, mas foram todos feridos mortalmente ou mortos &lt;/li>\n&lt;li>subject_story-> tinha um joywire instalado e, embora feliz depois disso, tropeçou simplesmente através da vida&lt;/li>\n&lt;li>subject_gerund->crafting cérebro implantes&lt;/li>\n</BrainWiring.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <BrainWiring.generalRules.rulesStrings>&lt;li>subject-> implantes de cérebro&lt;/li>\n&lt;li>subject_story->wrote um artigo sobre o uso de cultos masoquistas de mindscrews para melhorar sua morale&lt;/li>\n&lt;li>subject_story->implanted painstoppers em um esquadrão de assalto. Eles eliminaram uma força muito maior, mas foram todos feridos mortalmente ou mortos &lt;/li>\n&lt;li>subject_story-> tinha um joywire instalado e, embora feliz depois disso, tropeçou simplesmente através da vida&lt;/li>\n&lt;li>subject_gerund->crafting cérebro implantes&lt;/li>\n</BrainWiring.generalRules.rulesStrings>
+  
   <!-- EN: circadian influence -->
   <CircadianInfluence.label>influência circadiana</CircadianInfluence.label>
   <!-- EN: Craft brain implants that chemically manipulate the circadian rhythm, reducing or altering the need to sleep. -->
@@ -36,7 +45,11 @@
     <li>subject_story->studied bullfrogs and giraffes to ascertain what  xenogerms would be necessary for a circadian assistance gland</li>
     <li>subject_gerund->crafting sleep reduction implants</li>
   -->
-  <CircadianInfluence.generalRules.rulesStrings>&lt;li&gt;subject-&gt;sleep redução implante&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;studied padrões de sono unihemispheric em cetáceos e propôs uma nova forma de meia-ciclor circadiano&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; forçou todos os candidatos para a guarda da cidade a receber um meio-ciclor, para que eles pudessem ficar no post indefinidamente, se necessário&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;studied bullfrogs e girafas para verificar o que xenogerms seria necessário para uma glândula de assistência circadiana&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting implantes de redução de sono&lt;/li&gt;\n</CircadianInfluence.generalRules.rulesStrings>
+  <CircadianInfluence.generalRules.rulesStrings>&lt;li>subject->sleep redução implante&lt;/li>\n&lt;li>subject_story->studied padrões de sono unihemispheric em cetáceos e propôs uma nova forma de meia-ciclor circadiano&lt;/li>\n&lt;li>subject_story-> forçou todos os candidatos para a guarda da cidade a receber um meio-ciclor, para que eles pudessem ficar no post indefinidamente, se necessário&lt;/li>\n&lt;li>subject_story->studied bullfrogs e girafas para verificar o que xenogerms seria necessário para uma glândula de assistência circadiana&lt;/li>\n&lt;li>subject_gerund->crafting implantes de redução de sono&lt;/li>\n</CircadianInfluence.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <CircadianInfluence.generalRules.rulesStrings>&lt;li>subject->sleep redução implante&lt;/li>\n&lt;li>subject_story->studied padrões de sono unihemispheric em cetáceos e propôs uma nova forma de meia-ciclor circadiano&lt;/li>\n&lt;li>subject_story-> forçou todos os candidatos para a guarda da cidade a receber um meio-ciclor, para que eles pudessem ficar no post indefinidamente, se necessário&lt;/li>\n&lt;li>subject_story->studied bullfrogs e girafas para verificar o que xenogerms seria necessário para uma glândula de assistência circadiana&lt;/li>\n&lt;li>subject_gerund->crafting implantes de redução de sono&lt;/li>\n</CircadianInfluence.generalRules.rulesStrings>
+  
   <!-- EN: compact weaponry -->
   <CompactWeaponry.label>armamento compacto</CompactWeaponry.label>
   <!-- EN: Craft compact, concealable bionic weapons which can be embedded in various body parts. -->
@@ -48,7 +61,11 @@
     <li>subject_story->was working in security, scanning visitors to the hall, when the cyborg attempted to enter</li>
     <li>subject_gerund->crafting compact bionic weapons</li>
   -->
-  <CompactWeaponry.generalRules.rulesStrings>&lt;li&gt;subject-&gt;armamento compacto&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi empregado como um detetive e foi salvo mais de uma vez pelo pico de joelho oculto&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;spent um verão recuperando de ser cortado por um talon de mão de escravo escapado&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; estava trabalhando em segurança, digitalizando visitantes para o salão, quando o cyborg tentou entrar&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting compacta bionic tools&lt;/li&gt;\n</CompactWeaponry.generalRules.rulesStrings>
+  <CompactWeaponry.generalRules.rulesStrings>&lt;li>subject->armamento compacto&lt;/li>\n&lt;li>subject_story-> foi empregado como um detetive e foi salvo mais de uma vez pelo pico de joelho oculto&lt;/li>\n&lt;li>subject_story->spent um verão recuperando de ser cortado por um talon de mão de escravo escapado&lt;/li>\n&lt;li>subject_story-> estava trabalhando em segurança, digitalizando visitantes para o salão, quando o cyborg tentou entrar&lt;/li>\n&lt;li>subject_gerund->crafting compacta bionic tools&lt;/li>\n</CompactWeaponry.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <CompactWeaponry.generalRules.rulesStrings>&lt;li>subject->armamento compacto&lt;/li>\n&lt;li>subject_story-> foi empregado como um detetive e foi salvo mais de uma vez pelo pico de joelho oculto&lt;/li>\n&lt;li>subject_story->spent um verão recuperando de ser cortado por um talon de mão de escravo escapado&lt;/li>\n&lt;li>subject_story-> estava trabalhando em segurança, digitalizando visitantes para o salão, quando o cyborg tentou entrar&lt;/li>\n&lt;li>subject_gerund->crafting compacta bionic tools&lt;/li>\n</CompactWeaponry.generalRules.rulesStrings>
+  
   <!-- EN: flesh shaping -->
   <FleshShaping.label>formação de carne</FleshShaping.label>
   <!-- EN: Craft bionics which induce the reshaping of natural flesh, usually for the purposes of aesthetic enhancement or personal pleasure. -->
@@ -60,7 +77,11 @@
     <li>subject_story->gathered the glitterworld children around the campfire and told horror stories about getting their non-aesthetic noses back</li>
     <li>subject_gerund->crafting aesthetic bionics</li>
   -->
-  <FleshShaping.generalRules.rulesStrings>&lt;li&gt;subject-&gt; cirurgia estética&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;altou o declínio populacional no urbworld, distribuindo potenciadores de amor livre e drogas &lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi contratado como chefe de carne-shaper para uma clínica estética, gastos [ANYPAWN_possessive] dias fazendo membros formais&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; reuniu as crianças do mundo do brilho em torno da fogueira e contou histórias de terror sobre como obter seus narizes não-estéticos de volta&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting bionics estéticos&lt;/li&gt;\n</FleshShaping.generalRules.rulesStrings>
+  <FleshShaping.generalRules.rulesStrings>&lt;li>subject-> cirurgia estética&lt;/li>\n&lt;li>subject_story->altou o declínio populacional no urbworld, distribuindo potenciadores de amor livre e drogas &lt;/li>\n&lt;li>subject_story-> foi contratado como chefe de carne-shaper para uma clínica estética, gastos [ANYPAWN_possessive] dias fazendo membros formais&lt;/li>\n&lt;li>subject_story-> reuniu as crianças do mundo do brilho em torno da fogueira e contou histórias de terror sobre como obter seus narizes não-estéticos de volta&lt;/li>\n&lt;li>subject_gerund->crafting bionics estéticos&lt;/li>\n</FleshShaping.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <FleshShaping.generalRules.rulesStrings>&lt;li>subject-> cirurgia estética&lt;/li>\n&lt;li>subject_story->altou o declínio populacional no urbworld, distribuindo potenciadores de amor livre e drogas &lt;/li>\n&lt;li>subject_story-> foi contratado como chefe de carne-shaper para uma clínica estética, gastos [ANYPAWN_possessive] dias fazendo membros formais&lt;/li>\n&lt;li>subject_story-> reuniu as crianças do mundo do brilho em torno da fogueira e contou histórias de terror sobre como obter seus narizes não-estéticos de volta&lt;/li>\n&lt;li>subject_gerund->crafting bionics estéticos&lt;/li>\n</FleshShaping.generalRules.rulesStrings>
+  
   <!-- EN: healing factors -->
   <HealingFactors.label>fatores de cura</HealingFactors.label>
   <!-- EN: Craft bionics that enhance natural healing processes. -->
@@ -72,7 +93,11 @@
     <li>subject_story->studied the ancient corpses found in a cryptosleep shrine and harvested rapid healing devices from them</li>
     <li>subject_gerund->crafting regeneration bionics</li>
   -->
-  <HealingFactors.generalRules.rulesStrings>&lt;li&gt;subject-&gt;healing bionics&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;estudiu a realeza Imperial, para ver se eles tinham sangue azul. Eles não o fizeram, mas coagularam implausivelmente rapidamente&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;segurou que todos os lutadores de poços tinham aprimoradores de cura e xenogerms apropriados, de modo que eles poderiam lutar mais frequentemente&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; estudou os corpos antigos encontrados em um santuário criptosleep e colhiu dispositivos de cura rápida deles&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting bionics de regeneração&lt;/li&gt;\n</HealingFactors.generalRules.rulesStrings>
+  <HealingFactors.generalRules.rulesStrings>&lt;li>subject->healing bionics&lt;/li>\n&lt;li>subject_story->estudiu a realeza Imperial, para ver se eles tinham sangue azul. Eles não o fizeram, mas coagularam implausivelmente rapidamente&lt;/li>\n&lt;li>subject_story->segurou que todos os lutadores de poços tinham aprimoradores de cura e xenogerms apropriados, de modo que eles poderiam lutar mais frequentemente&lt;/li>\n&lt;li>subject_story-> estudou os corpos antigos encontrados em um santuário criptosleep e colhiu dispositivos de cura rápida deles&lt;/li>\n&lt;li>subject_gerund->crafting bionics de regeneração&lt;/li>\n</HealingFactors.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <HealingFactors.generalRules.rulesStrings>&lt;li>subject->healing bionics&lt;/li>\n&lt;li>subject_story->estudiu a realeza Imperial, para ver se eles tinham sangue azul. Eles não o fizeram, mas coagularam implausivelmente rapidamente&lt;/li>\n&lt;li>subject_story->segurou que todos os lutadores de poços tinham aprimoradores de cura e xenogerms apropriados, de modo que eles poderiam lutar mais frequentemente&lt;/li>\n&lt;li>subject_story-> estudou os corpos antigos encontrados em um santuário criptosleep e colhiu dispositivos de cura rápida deles&lt;/li>\n&lt;li>subject_gerund->crafting bionics de regeneração&lt;/li>\n</HealingFactors.generalRules.rulesStrings>
+  
   <!-- EN: molecular analysis -->
   <MolecularAnalysis.label>análise molecular</MolecularAnalysis.label>
   <!-- EN: Craft bionics with molecular analyzers for assisting the immune system or analyzing food. -->
@@ -84,7 +109,11 @@
     <li>subject_story->lectured on the potential hardware conflicts between bionic parts and molecular analysis implants</li>
     <li>subject_gerund->crafting molecular analysis bionics</li>
   -->
-  <MolecularAnalysis.generalRules.rulesStrings>&lt;li&gt;subject-&gt; análise molecular bionics&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; explicado aos chefs da escola de culinária que eles nunca devem obter narizes estéticos, para que seus gastro-analisadores falhem/li&gt;\n&lt;li&gt;subject_story-&gt; tinha um imunoenhancer instalado e assim foi capaz de andar livremente na colônia de isolamento&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;lecturado sobre os potenciais conflitos de hardware entre partes biônicas e implantes de análise molecular&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting molecular analysis bionics&lt;/li&gt;\n</MolecularAnalysis.generalRules.rulesStrings>
+  <MolecularAnalysis.generalRules.rulesStrings>&lt;li>subject-> análise molecular bionics&lt;/li>\n&lt;li>subject_story-> explicado aos chefs da escola de culinária que eles nunca devem obter narizes estéticos, para que seus gastro-analisadores falhem/li>\n&lt;li>subject_story-> tinha um imunoenhancer instalado e assim foi capaz de andar livremente na colônia de isolamento&lt;/li>\n&lt;li>subject_story->lecturado sobre os potenciais conflitos de hardware entre partes biônicas e implantes de análise molecular&lt;/li>\n&lt;li>subject_gerund->crafting molecular analysis bionics&lt;/li>\n</MolecularAnalysis.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <MolecularAnalysis.generalRules.rulesStrings>&lt;li>subject-> análise molecular bionics&lt;/li>\n&lt;li>subject_story-> explicado aos chefs da escola de culinária que eles nunca devem obter narizes estéticos, para que seus gastro-analisadores falhem/li>\n&lt;li>subject_story-> tinha um imunoenhancer instalado e assim foi capaz de andar livremente na colônia de isolamento&lt;/li>\n&lt;li>subject_story->lecturado sobre os potenciais conflitos de hardware entre partes biônicas e implantes de análise molecular&lt;/li>\n&lt;li>subject_gerund->crafting molecular analysis bionics&lt;/li>\n</MolecularAnalysis.generalRules.rulesStrings>
+  
   <!-- EN: neural computation -->
   <NeuralComputation.label>computação neural</NeuralComputation.label>
   <!-- EN: Craft brain implants that assist thought and learning by use of a direct, shallow brain-computer interface. -->
@@ -97,7 +126,11 @@
     <li>subject_story->had a learning assistant installed. It proved to be a problem later, when captured by pirates, who halted any escape attempts with EMP attacks</li>
     <li>subject_gerund->crafting brain implants</li>
   -->
-  <NeuralComputation.generalRules.rulesStrings>&lt;li&gt;subject-&gt; implantes de cérebro&lt;/li&gt;\n&lt;li&gt;subject-&gt;computação neural&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;knew exatamente como tirar o carcereiro, com um ataque EMP que chocaria o cérebro seu assistente de aprendizagem, comprando tempo para libertar os prisioneiros&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;mandated a instalação de assistentes de aprendizagem ou neurocalculadores através de todo o corpo docente&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; tinha um assistente de aprendizagem instalado. Ele provou ser um problema mais tarde, quando capturado por piratas, que interrompeu qualquer tentativa de fuga com ataques EMP&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting cérebro implantes&lt;/li&gt;\n</NeuralComputation.generalRules.rulesStrings>
+  <NeuralComputation.generalRules.rulesStrings>&lt;li>subject-> implantes de cérebro&lt;/li>\n&lt;li>subject->computação neural&lt;/li>\n&lt;li>subject_story->knew exatamente como tirar o carcereiro, com um ataque EMP que chocaria o cérebro seu assistente de aprendizagem, comprando tempo para libertar os prisioneiros&lt;/li>\n&lt;li>subject_story->mandated a instalação de assistentes de aprendizagem ou neurocalculadores através de todo o corpo docente&lt;/li>\n&lt;li>subject_story-> tinha um assistente de aprendizagem instalado. Ele provou ser um problema mais tarde, quando capturado por piratas, que interrompeu qualquer tentativa de fuga com ataques EMP&lt;/li>\n&lt;li>subject_gerund->crafting cérebro implantes&lt;/li>\n</NeuralComputation.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <NeuralComputation.generalRules.rulesStrings>&lt;li>subject-> implantes de cérebro&lt;/li>\n&lt;li>subject->computação neural&lt;/li>\n&lt;li>subject_story->knew exatamente como tirar o carcereiro, com um ataque EMP que chocaria o cérebro seu assistente de aprendizagem, comprando tempo para libertar os prisioneiros&lt;/li>\n&lt;li>subject_story->mandated a instalação de assistentes de aprendizagem ou neurocalculadores através de todo o corpo docente&lt;/li>\n&lt;li>subject_story-> tinha um assistente de aprendizagem instalado. Ele provou ser um problema mais tarde, quando capturado por piratas, que interrompeu qualquer tentativa de fuga com ataques EMP&lt;/li>\n&lt;li>subject_gerund->crafting cérebro implantes&lt;/li>\n</NeuralComputation.generalRules.rulesStrings>
+  
   <!-- EN: skin hardening -->
   <SkinHardening.label>endurecimento da pele</SkinHardening.label>
   <!-- EN: Craft bionic implants which induce the toughening of natural skin, producing an armor-like effect. -->
@@ -109,7 +142,11 @@
     <li>subject_story->worked with nanonmachine glands to thicken the human epidermis, at the expense of meeting traditional standards of beauty</li>
     <li>subject_gerund->crafting subdermal armor implants</li>
   -->
-  <SkinHardening.generalRules.rulesStrings>&lt;li&gt;subject-&gt; implantes subdérmicos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou as glândulas das cascas secas e raciocinadas que poderiam ser adaptadas à humanidade&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; viajou entre os tamers de pele de pedras do dinoworld, estudando as placas de queratina grossas que os cobriram&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;trabalhado com glândulas nanonmachine para engrossar a epiderme humana, à custa de atender padrões tradicionais de beleza&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting subdermal armor implantes&lt;/li&gt;\n</SkinHardening.generalRules.rulesStrings>
+  <SkinHardening.generalRules.rulesStrings>&lt;li>subject-> implantes subdérmicos&lt;/li>\n&lt;li>subject_story->pesquisou as glândulas das cascas secas e raciocinadas que poderiam ser adaptadas à humanidade&lt;/li>\n&lt;li>subject_story-> viajou entre os tamers de pele de pedras do dinoworld, estudando as placas de queratina grossas que os cobriram&lt;/li>\n&lt;li>subject_story->trabalhado com glândulas nanonmachine para engrossar a epiderme humana, à custa de atender padrões tradicionais de beleza&lt;/li>\n&lt;li>subject_gerund->crafting subdermal armor implantes&lt;/li>\n</SkinHardening.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <SkinHardening.generalRules.rulesStrings>&lt;li>subject-> implantes subdérmicos&lt;/li>\n&lt;li>subject_story->pesquisou as glândulas das cascas secas e raciocinadas que poderiam ser adaptadas à humanidade&lt;/li>\n&lt;li>subject_story-> viajou entre os tamers de pele de pedras do dinoworld, estudando as placas de queratina grossas que os cobriram&lt;/li>\n&lt;li>subject_story->trabalhado com glândulas nanonmachine para engrossar a epiderme humana, à custa de atender padrões tradicionais de beleza&lt;/li>\n&lt;li>subject_gerund->crafting subdermal armor implantes&lt;/li>\n</SkinHardening.generalRules.rulesStrings>
+  
   <!-- EN: specialized limbs -->
   <SpecializedLimbs.label>membros especializados</SpecializedLimbs.label>
   <!-- EN: Craft specialized bionic limbs built for specific purposes - both combat and labor. -->
@@ -121,7 +158,11 @@
     <li>subject_story->worked as a surgeon on the rim, replacing missing arms with everything from a woodhand to a power claw</li>
     <li>subject_gerund->crafting specialized bionic arms</li>
   -->
-  <SpecializedLimbs.generalRules.rulesStrings>&lt;li&gt;subject-&gt;protética especializada&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;entrevistou os agricultores inegáveis de um mundo feudal, antes e depois de suas instalações manuais de campo&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; assistiu a um lutador de poço equipado com uma garra de poder face fora contra um mineiro com dois braços de perfuração&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; trabalhou como cirurgião na borda, substituindo os braços ausentes por tudo de uma woodhand a uma garra de poder&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting especializada bionic arms&lt;/li&gt;\n</SpecializedLimbs.generalRules.rulesStrings>
+  <SpecializedLimbs.generalRules.rulesStrings>&lt;li>subject->protética especializada&lt;/li>\n&lt;li>subject_story->entrevistou os agricultores inegáveis de um mundo feudal, antes e depois de suas instalações manuais de campo&lt;/li>\n&lt;li>subject_story-> assistiu a um lutador de poço equipado com uma garra de poder face fora contra um mineiro com dois braços de perfuração&lt;/li>\n&lt;li>subject_story-> trabalhou como cirurgião na borda, substituindo os braços ausentes por tudo de uma woodhand a uma garra de poder&lt;/li>\n&lt;li>subject_gerund->crafting especializada bionic arms&lt;/li>\n</SpecializedLimbs.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <SpecializedLimbs.generalRules.rulesStrings>&lt;li>subject->protética especializada&lt;/li>\n&lt;li>subject_story->entrevistou os agricultores inegáveis de um mundo feudal, antes e depois de suas instalações manuais de campo&lt;/li>\n&lt;li>subject_story-> assistiu a um lutador de poço equipado com uma garra de poder face fora contra um mineiro com dois braços de perfuração&lt;/li>\n&lt;li>subject_story-> trabalhou como cirurgião na borda, substituindo os braços ausentes por tudo de uma woodhand a uma garra de poder&lt;/li>\n&lt;li>subject_gerund->crafting especializada bionic arms&lt;/li>\n</SpecializedLimbs.generalRules.rulesStrings>
+  
   <!-- EN: poison synthesis -->
   <VenomSynthesis.label>síntese de veneno</VenomSynthesis.label>
   <!-- EN: Craft bionics that synthesize venom from internal chemical reactors for use in toxifying attacks. -->
@@ -133,5 +174,9 @@
     <li>subject_story->learned to love sharp little cutting edges, which could kill with a mere nick</li>
     <li>subject_gerund->crafting poisonous bionic weapons</li>
   -->
-  <VenomSynthesis.generalRules.rulesStrings>&lt;li&gt;subject-&gt;venomous bionics&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;trabalhado em reatores químicos em pequenas escalas, que poderia ser shrunk e armazenado internamente&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; estudou os ratos de lixo de um mundo de lixo e escreveu um artigo sobre as toxinas únicas em sua mordida&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;learned para amar bordas de corte afiadas, que poderiam matar com um mero nick&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting venenosas armas biológicas&lt;/li&gt;\n</VenomSynthesis.generalRules.rulesStrings>
+  <VenomSynthesis.generalRules.rulesStrings>&lt;li>subject->venomous bionics&lt;/li>\n&lt;li>subject_story->trabalhado em reatores químicos em pequenas escalas, que poderia ser shrunk e armazenado internamente&lt;/li>\n&lt;li>subject_story-> estudou os ratos de lixo de um mundo de lixo e escreveu um artigo sobre as toxinas únicas em sua mordida&lt;/li>\n&lt;li>subject_story->learned para amar bordas de corte afiadas, que poderiam matar com um mero nick&lt;/li>\n&lt;li>subject_gerund->crafting venenosas armas biológicas&lt;/li>\n</VenomSynthesis.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <VenomSynthesis.generalRules.rulesStrings>&lt;li>subject->venomous bionics&lt;/li>\n&lt;li>subject_story->trabalhado em reatores químicos em pequenas escalas, que poderia ser shrunk e armazenado internamente&lt;/li>\n&lt;li>subject_story-> estudou os ratos de lixo de um mundo de lixo e escreveu um artigo sobre as toxinas únicas em sua mordida&lt;/li>\n&lt;li>subject_story->learned para amar bordas de corte afiadas, que poderiam matar com um mero nick&lt;/li>\n&lt;li>subject_gerund->crafting venenosas armas biológicas&lt;/li>\n</VenomSynthesis.generalRules.rulesStrings>
+  
 </LanguageData>

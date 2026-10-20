@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN:
     <li>r_deityType->[god] of [memeConcept]</li>
     <li>god(p=7, gender!=Female)->God</li>
@@ -9,5 +10,9 @@
     <li>god->Creator</li>
     <li>god->Master</li>
   -->
-  <DeityTypeMakerGlobal.rulePack.rulesStrings>&lt;li&gt;r_deityType-&gt;[god] de [memeConcept]&lt;/li&gt;\n&lt;li&gt;god(p=7, gender!=Female)-&gt;God&lt;/li&gt;\n&lt;li&gt;god(p=7, gender=Female)-&gt;Goddess&lt;/li&gt;\n&lt;li&gt;god(p=4)-&gt;[mem Deus]&lt;/li&gt;\n&lt;li&gt;god(p=3)-&gt;Spirit&lt;/li&gt;\n&lt;li&gt;god-&gt;Creator&lt;/li&gt;\n&lt;li&gt;god-&gt;Master&lt;/li&gt;\n</DeityTypeMakerGlobal.rulePack.rulesStrings>
+  <DeityTypeMakerGlobal.rulePack.rulesStrings>&lt;li>r_deityType->[god] de [memeConcept]&lt;/li>\n&lt;li>god(p=7, gender!=Female)->God&lt;/li>\n&lt;li>god(p=7, gender=Female)->Goddess&lt;/li>\n&lt;li>god(p=4)->[mem Deus]&lt;/li>\n&lt;li>god(p=3)->Spirit&lt;/li>\n&lt;li>god->Creator&lt;/li>\n&lt;li>god->Master&lt;/li>\n</DeityTypeMakerGlobal.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <DeityTypeMakerGlobal.rulePack.rulesStrings>&lt;li>r_deityType->[god] de [memeConcept]&lt;/li>\n&lt;li>god(p=7, gender!=Female)->God&lt;/li>\n&lt;li>god(p=7, gender=Female)->Goddess&lt;/li>\n&lt;li>god(p=4)->[mem Deus]&lt;/li>\n&lt;li>god(p=3)->Spirit&lt;/li>\n&lt;li>god->Creator&lt;/li>\n&lt;li>god->Master&lt;/li>\n</DeityTypeMakerGlobal.rulePack.rulesStrings>
+  
 </LanguageData>

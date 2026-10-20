@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
+  <!-- ITab_Entity -->
   <!-- EN: Escape interval -->
   <HoldingPlatformEscapeMTBDays>Intervalo de fuga</HoldingPlatformEscapeMTBDays>
-  <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity’s movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
+  <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity's movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
   <HoldingPlatformEscapeMTBDaysDesc>O tempo médio entre fugas. Isso é afetado pela força de contenção, pelo tipo de entidade, pela capacidade de movimento da entidade e pela duração da detenção da entidade. Algumas entidades também são suprimidas pelo frio.</HoldingPlatformEscapeMTBDaysDesc>
   <!-- EN: Entity -->
   <TabEntity>Entidade</TabEntity>
@@ -28,7 +30,7 @@
   <EntityStudyMode_ExecuteDesc>Um guarda irá executar a entidade confinada.</EntityStudyMode_ExecuteDesc>
   <!-- EN: Extract bioferrite -->
   <EntityStudyMode_Extract>Extrato de bioferrite</EntityStudyMode_Extract>
-  <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can’t be done if the entity is attached to a bioferrite harvester. -->
+  <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can't be done if the entity is attached to a bioferrite harvester. -->
   <EntityStudyMode_ExtractDesc>Os médicos irão extrair bioferrite da entidade capturada sempre que possível. Este método de extração é simples, mas ineficiente. Não pode ser feito se a entidade estiver ligada a uma ceifeira de bioferrite.</EntityStudyMode_ExtractDesc>
   <!-- EN: Requires bioferrite extraction. -->
   <RequiresBioferriteExtraction>Requer extração de bioferrite.</RequiresBioferriteExtraction>
@@ -42,6 +44,7 @@
   <StudyKnowledgeGainDesc>Quantidade de conhecimento adquirido por intervalo de estudo. Melhor contenção ajuda o pesquisador a concentrar-se no estudo em vez de na segurança, produzindo mais conhecimento.</StudyKnowledgeGainDesc>
   <!-- EN: What type of medicine can be given to this entity. -->
   <MedicineQualityDescriptionEntity>Que tipo de medicamento pode ser dado a esta entidade.</MedicineQualityDescriptionEntity>
+
   <!-- EN: Electroharvester -->
   <FactorForElectroharvester>Ceifeira elétrica</FactorForElectroharvester>
   <!-- EN: Long captivity -->
@@ -58,4 +61,5 @@
   <FactorElectroharvester>Ceifeira elétrica</FactorElectroharvester>
   <!-- EN: Activity -->
   <FactorActivity>Atividade</FactorActivity>
+
 </LanguageData>

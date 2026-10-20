@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: security door -->
   <SecurityDoor.label>porta de segurança</SecurityDoor.label>
   <!-- EN: Build a heavily reinforced door. It is slow to open and requires power, but is very strong. It's a good choice if you want to keep something dangerous out - or in. -->
@@ -12,7 +13,11 @@
     <li>subject_story->worked in a Glitterworld zoo</li>
     <li>subject_gerund->constructing security doors</li>
   -->
-  <SecurityDoor.generalRules.rulesStrings>&lt;li&gt;subject-&gt;security door&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; trabalhou como um drone de segurança em uma instalação de pesquisa selada&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; dispositivos de segurança projetados para um comerciante estelar&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou a ciência dos materiais para uma empresa mercenária&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;trabalhado em um zoológico Glitterworld&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;construindo portas de segurança&lt;/li&gt;\n</SecurityDoor.generalRules.rulesStrings>
+  <SecurityDoor.generalRules.rulesStrings>&lt;li>subject->security door&lt;/li>\n&lt;li>subject_story-> trabalhou como um drone de segurança em uma instalação de pesquisa selada&lt;/li>\n&lt;li>subject_story-> dispositivos de segurança projetados para um comerciante estelar&lt;/li>\n&lt;li>subject_story->pesquisou a ciência dos materiais para uma empresa mercenária&lt;/li>\n&lt;li>subject_story->trabalhado em um zoológico Glitterworld&lt;/li>\n&lt;li>subject_gerund->construindo portas de segurança&lt;/li>\n</SecurityDoor.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <SecurityDoor.generalRules.rulesStrings>&lt;li>subject->security door&lt;/li>\n&lt;li>subject_story-> trabalhou como um drone de segurança em uma instalação de pesquisa selada&lt;/li>\n&lt;li>subject_story-> dispositivos de segurança projetados para um comerciante estelar&lt;/li>\n&lt;li>subject_story->pesquisou a ciência dos materiais para uma empresa mercenária&lt;/li>\n&lt;li>subject_story->trabalhado em um zoológico Glitterworld&lt;/li>\n&lt;li>subject_gerund->construindo portas de segurança&lt;/li>\n</SecurityDoor.generalRules.rulesStrings>
+  
   <!-- EN: turret pack -->
   <TurretPack.label>pacote de torre</TurretPack.label>
   <!-- EN: Build a wearable pack that allows the user to deploy a battery-powered turret. -->
@@ -25,5 +30,9 @@
     <li>subject_story->fought in the trench battles of the [worldname] War</li>
     <li>subject_gerund->crafting deployable gun turrets</li>
   -->
-  <TurretPack.generalRules.rulesStrings>&lt;li&gt;subject-&gt;deployable turrets&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;defended a feralworld castle from attack&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;manned a tailgun on an Imperial dropship&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou tecnologia militar implantável&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;fought nas batalhas de trincheira do [nome do mundo] Guerra/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting implantable gun turrets&lt;/li&gt;\n</TurretPack.generalRules.rulesStrings>
+  <TurretPack.generalRules.rulesStrings>&lt;li>subject->deployable turrets&lt;/li>\n&lt;li>subject_story->defended a feralworld castle from attack&lt;/li>\n&lt;li>subject_story->manned a tailgun on an Imperial dropship&lt;/li>\n&lt;li>subject_story->pesquisou tecnologia militar implantável&lt;/li>\n&lt;li>subject_story->fought nas batalhas de trincheira do [nome do mundo] Guerra/li>\n&lt;li>subject_gerund->crafting implantable gun turrets&lt;/li>\n</TurretPack.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <TurretPack.generalRules.rulesStrings>&lt;li>subject->deployable turrets&lt;/li>\n&lt;li>subject_story->defended a feralworld castle from attack&lt;/li>\n&lt;li>subject_story->manned a tailgun on an Imperial dropship&lt;/li>\n&lt;li>subject_story->pesquisou tecnologia militar implantável&lt;/li>\n&lt;li>subject_story->fought nas batalhas de trincheira do [nome do mundo] Guerra/li>\n&lt;li>subject_gerund->crafting implantable gun turrets&lt;/li>\n</TurretPack.generalRules.rulesStrings>
+  
 </LanguageData>

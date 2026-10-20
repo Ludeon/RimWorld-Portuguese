@@ -1,27 +1,39 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
+  <!-- Reading management -->
   <!-- EN: {0} max mental break chance -->
   <MaxMentalBreakChance>máxima oportunidade de ruptura mental</MaxMentalBreakChance>
   <!-- EN: Tomes -->
   <TomePolicy>Obras Literárias</TomePolicy>
+
+  <!-- Caravan -->
   <!-- EN: Entities -->
   <EntitiesSection>Entidades</EntitiesSection>
+  
+  <!-- Hidden items filter -->
   <!-- EN: Undiscovered -->
   <UndiscoveredItemLabel>Não descoberto</UndiscoveredItemLabel>
   <!-- EN: This item has not been discovered yet. -->
   <UndiscoveredItemDesc>Este item ainda não foi descoberto.</UndiscoveredItemDesc>
+
+  <!-- Medical settings -->
   <!-- EN: Entities -->
   <MedGroupEntities>Entidades</MedGroupEntities>
   <!-- EN: Anomalous entities and their variations. -->
   <MedGroupEntitiesDesc>Entidades anômalas e suas variações.</MedGroupEntitiesDesc>
+
   <!-- EN: Ghouls -->
   <MedGroupGhouls>Ghouls</MedGroupGhouls>
   <!-- EN: Ghouls belonging to your colony. -->
   <MedGroupGhoulsDesc>Ghouls pertencentes à sua colónia.</MedGroupGhoulsDesc>
+
   <!-- EN: Turning {PAWN_nameDef} into a ghoul is irreversible. {PAWN_pronoun} will be left in a half-conscious stupor and be incapable of work.\n\nAre you sure you want to turn {PAWN_nameDef} into a ghoul? -->
   <GhoulConfirmation>Transformar un {PAWN_nameDef} em um ghoul é irreversível. {PAWN_pronoun} será deixado num estado meio-consciente e será incapaz de trabalhar.\n\nTem a certeza de que quer transformar {PAWN_nameDef} em um ghoul?</GhoulConfirmation>
+
   <!-- EN: no anomaly buildings allowed -->
   <RoomRequirementNoAnomalyBuildings>não existem edifícios de anomalias permitidos</RoomRequirementNoAnomalyBuildings>
+
   <!-- EN: Entity codex -->
   <EntityCodex>Manuscrito de Entidade</EntityCodex>
   <!-- EN: View all discovered entities. Discover new entities to advance the monolith and reveal new research projects. -->
@@ -36,4 +48,5 @@
   <UndiscoveredEntityDesc>Você não descobriu esta entidade.</UndiscoveredEntityDesc>
   <!-- EN: View entity codex -->
   <ViewEntityCodex>Ver o manuscrito da entidade</ViewEntityCodex>
+
 </LanguageData>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: fleshmass neural lump -->
   <FleshmassNeuralLump.label>carnudo neural</FleshmassNeuralLump.label>
   <!-- EN: A clump of fleshmass nervous tissue and fibres. You can analyze it to find a way to kill the fleshmass heart itself. -->
@@ -26,6 +27,7 @@
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef} terminou de analisar o tecido neural da massa de carne. Este tecido pertence à biosinalação previamente estudada {BIOSIGNATURE}, então você não ganhou nenhum conhecimento novo.\n\nVocê pode destruir o coração de massa de carne (BIOSIGNATURE), interagindo com ele diretamente e induzindo uma sobrecarga taquicardiaca.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>Análise completa</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
+  
   <!-- EN: golden cube -->
   <GoldenCube.label>cubo dourado</GoldenCube.label>
   <!-- EN: A cube that fits snugly in the hand. Golden in color, it is always invitingly warm to the touch, like a trusted pet or a hug from a good friend. Those that look closely are rewarded for their attention by the delightful way light plays across its welcoming surface.\n\nThe cube seems impervious to most damage. -->
@@ -36,9 +38,9 @@
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>{PAWN_name A investigação do cubo dourado revelou mais. É capaz de influenciar psiquicamente qualquer pessoa que interage com ele. Aqueles sob a influência do cubo experimentarão retirada extrema se estiverem separados dele.\n\n{PAWN_name Def} pensa que pode haver uma maneira de desativar o cubo, mas {PAWN_pronoun} precisará estudá-lo ainda mais.</GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>
   <!-- EN: Golden cube study complete -->
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>Estudo de cubo dourado completo</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>
-  <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed that it can be deactivated using an archotech shard. Doing so will destroy the cube, breaking its psychic hold over your colonists.\n\nHowever, the psychic whiplash from the cube’s destruction will send any cube-interested people into a berserk rage. Those in caravans will abandon your colony entirely.\n\nSelect the golden cube to deactivate it. -->
+  <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed that it can be deactivated using an archotech shard. Doing so will destroy the cube, breaking its psychic hold over your colonists.\n\nHowever, the psychic whiplash from the cube's destruction will send any cube-interested people into a berserk rage. Those in caravans will abandon your colony entirely.\n\nSelect the golden cube to deactivate it. -->
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>{PAWN_name A investigação do cubo dourado revelou que pode ser desativada usando um fragmento arquitetônico. Fazer isso destruirá o cubo, quebrando seu domínio psíquico sobre seus colonos.\n\nNo entanto, o chicote psíquico da destruição do cubo vai enviar qualquer pessoa de interesse cubo em uma raiva berserk. Aqueles em caravanas abandonarão sua colônia inteiramente.\n\nSelecione o cubo dourado para desativá-lo.</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>
-  <!-- EN: Destroy the golden cube, breaking its psychic hold. This will cause any cube-interested people to enter a temporary berserk rage. If they’re in a caravan, they will be permanently lost.\n\nRequires 1 shard. -->
+  <!-- EN: Destroy the golden cube, breaking its psychic hold. This will cause any cube-interested people to enter a temporary berserk rage. If they're in a caravan, they will be permanently lost.\n\nRequires 1 shard. -->
   <GoldenCube.comps.CompGoldenCube.activateDescString>Destrua o cubo dourado, quebrando seu porão psíquico. Isso fará com que todas as pessoas interessadas em cubo entrem em uma raiva temporária. Se eles estão em uma caravana, eles serão permanentemente perdidos.\n\nRequer 1 fragmento.</GoldenCube.comps.CompGoldenCube.activateDescString>
   <!-- EN: Deactivate golden cube -->
   <GoldenCube.comps.CompGoldenCube.activateLabelString>Desativar o cubo dourado</GoldenCube.comps.CompGoldenCube.activateLabelString>
@@ -50,6 +52,7 @@
   <GoldenCube.comps.CompGoldenCube.guiLabelString>Escolha quem deve desativar isso.</GoldenCube.comps.CompGoldenCube.guiLabelString>
   <!-- EN: deactivate -->
   <GoldenCube.comps.CompGoldenCube.jobString>desactivar</GoldenCube.comps.CompGoldenCube.jobString>
+  
   <!-- EN: gray flesh sample -->
   <GrayFleshSample.label>amostra de carne cinza</GrayFleshSample.label>
   <!-- EN: This strip of human flesh is stained with a dark and gritty ferrous material. Tiny threads of metallic filament run throughout, interspersed with tiny silvery beads. Its form suggests that it sloughed off someone's body during some unnatural liquification process. -->
@@ -76,14 +79,17 @@
   <GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef} completou a análise {PAWN_possessive} da amostra de carne cinza. Ele carrega a biosignatura previamente descoberta {BIOSIGNATURE}.\n\nSeus colonos agora entendem esta biosinalação bem o suficiente para detectá-la com a operação de inspeção cirúrgica.</GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>Análise completa</GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
+  
   <!-- EN: twisted meat -->
   <Meat_Twisted.label>carne torcida</Meat_Twisted.label>
   <!-- EN: Pieces of twisted muscle and gristle, bloated with tumorous growths. These bizarre shreds of flesh must have come from a horrific creature. -->
   <Meat_Twisted.description>Pedaços de músculo torcido e gristle, inchaço com crescimentos tumorais. Estes pedaços bizarros de carne devem ter vindo de uma criatura horrível.</Meat_Twisted.description>
+  
   <!-- EN: monolith fragment -->
   <MonolithFragment.label>fragmento de monólito</MonolithFragment.label>
   <!-- EN: A broken-off fragment of the void monolith. It can be studied to learn more about void phenomena. -->
   <MonolithFragment.description>Um fragmento partido do monólito vazio. Pode ser estudado para aprender mais sobre fenômenos vazios.</MonolithFragment.description>
+  
   <!-- EN: revenant flesh chunk -->
   <RevenantFleshChunk.label>pedaços de carne de revendedor</RevenantFleshChunk.label>
   <!-- EN: A strip of leathery, desiccated flesh that sloughed off a revenant when it was harmed. The tissue oozes a dark, oily liquid. -->
@@ -112,6 +118,7 @@
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef} terminou de analisar o pedaço de carne revenant com a biosignatura previamente estudada {BIOSIGNATURE}.\n\nSeus colonos agora podem ver este revenant quando está próximo. Talvez consigas encontrá-lo e matá-lo enquanto está a dormir.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>Análise completa</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
+  
   <!-- EN: revenant spine -->
   <RevenantSpine.label>espinha de revendedor</RevenantSpine.label>
   <!-- EN: An articulated spine-like object from a dead revenant. It is a chaotic mesh of sharpened metal spokes, twisted into a warped cage. The material appears to be rough-cast black iron smeared in a dark, slippery fluid. Anyone who peers too closely inside its jagged form is left with a skull-splitting headache.\n\nYou can destroy the spine to permanently kill the revenant.\n\nAlternatively, you can secure it on a holding platform and wait for the revenant to re-emerge, so you can study the captured entity. -->
@@ -132,8 +139,10 @@
   <RevenantSpine.comps.CompRevenantSpine.activatingStringPending>esmagando espinha de revenant</RevenantSpine.comps.CompRevenantSpine.activatingStringPending>
   <!-- EN: Choose who should do this -->
   <RevenantSpine.comps.CompRevenantSpine.guiLabelString>Escolha quem deve fazer isso</RevenantSpine.comps.CompRevenantSpine.guiLabelString>
+  
   <!-- EN: shard -->
   <Shard.label>fragmento</Shard.label>
   <!-- EN: A scavenged fragment of dark archotechnology. Originally created by a hyperintelligent archotech mind, this shard is packed with technology beyond human comprehension. It is capable of manipulating psychic flows, inducing archotech influences and more esoteric outcomes. While it is useless by itself, it can be built into devices that harness its power to produce exotic effects. -->
   <Shard.description>Um fragmento de arqueologia escura. Originalmente criado por uma mente arquitetônica hiperinteligente, este fragmento é embalado com tecnologia além da compreensão humana. É capaz de manipular fluxos psíquicos, induzir influências arquitetônicas e resultados mais esotéricos. Embora seja inútil por si só, ele pode ser construído em dispositivos que aproveitam seu poder para produzir efeitos exóticos.</Shard.description>
+  
 </LanguageData>

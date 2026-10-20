@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: warped obelisk -->
   <WarpedObelisk_Abductor.label>obelisco de guerra</WarpedObelisk_Abductor.label>
   <!-- EN: A large metallic pillar that emanates a putrid psychic energy. The pillar hums ominously and appears to be increasing in activity. It's not clear what will happen when it reaches its full capacity.\n\nYou can send colonists to suppress the obelisk to prevent it from activating. You can also mark the obelisk for study to try to learn its purpose and perhaps make use of it.\n\nYou can attack the obelisk to destroy it, but doing so may unleash unnatural and dangerous phenomena. -->
@@ -30,6 +31,7 @@
   <WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.messageCooldownEnded>O obelisco deformado está pronto para usar novamente.</WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.messageCooldownEnded>
   <!-- EN: Teleportation cooldown -->
   <WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.onCooldownString>Refrigeração de teletransporte</WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.onCooldownString>
+  
   <!-- EN: corrupted obelisk -->
   <WarpedObelisk_Duplicator.label>obelisco corrompido</WarpedObelisk_Duplicator.label>
   <!-- EN: A large metallic pillar that emanates a putrid psychic energy. The pillar hums ominously and appears to be increasing in activity. It's not clear what will happen when it reaches its full capacity.\n\nYou can send colonists to suppress the obelisk to prevent it from activating. You can also mark the obelisk for study to try to learn its purpose and perhaps make use of it.\n\nYou can attack the obelisk to destroy it, but doing so may unleash unnatural and dangerous phenomena. -->
@@ -76,6 +78,7 @@
   <WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.jobString>Desativar obelisco</WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.jobString>
   <!-- EN: {PAWN_nameDef} has successfully deactivated the obelisk. -->
   <WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.messageCompletedString>{PAWN_nameDef} desativa com sucesso o obelisco.</WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.messageCompletedString>
+  
   <!-- EN: warped obelisk -->
   <WarpedObelisk_Labyrinth.label>obelisco de guerra</WarpedObelisk_Labyrinth.label>
   <!-- EN: A large metallic pillar that emanates a psychic energy. It can be activated to return home. -->
@@ -94,6 +97,7 @@
   <WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.jobString>Ativar obelisco</WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.jobString>
   <!-- EN: The obelisk has begun to activate. -->
   <WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.messageActivating>O obelisco começou a ativar.</WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.messageActivating>
+  
   <!-- EN: twisted obelisk -->
   <WarpedObelisk_Mutator.label>obelisco torcido</WarpedObelisk_Mutator.label>
   <!-- EN: A large metallic pillar that emanates a putrid psychic energy. The pillar hums ominously and appears to be increasing in activity. It's not clear what will happen when it reaches its full capacity.\n\nYou can send colonists to suppress the obelisk to prevent it from activating. You can also mark the obelisk for study to try to learn its purpose and perhaps make use of it.\n\nYou can attack the obelisk to destroy it, but doing so may unleash unnatural and dangerous phenomena. -->
@@ -142,4 +146,5 @@
   <WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.jobString>Desativar obelisco</WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.jobString>
   <!-- EN: {PAWN_nameDef} has successfully deactivated the obelisk. -->
   <WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.messageCompletedString>{PAWN_nameDef} desativa com sucesso o obelisco.</WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.messageCompletedString>
+  
 </LanguageData>

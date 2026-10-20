@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN:
     <li>r_deityType->Creator of [all]</li>
     <li>r_deityType->[adj] god</li>
@@ -10,7 +11,11 @@
     <li>adj->omnipotent</li>
     <li>adj->universal</li>
   -->
-  <DietyTypeMakerAbrahamic.rulePack.rulesStrings>&lt;li&gt;r_deityType-&gt;Creator de [all]&lt;/li&gt;\n&lt;li&gt;r_deityType-&gt;[adj] deus&lt;/li&gt;\n&lt;li&gt; all-&gt;everything&lt;/li&gt;\n&lt;li&gt;all-&gt;all&lt;/li&gt;\n&lt;li&gt;all-&gt; o universo&lt;/li&gt;\n&lt;li&gt;adj-&gt;all-powerful&lt;/li&gt;\n&lt;li&gt;adj-&gt;omnipotent&lt;/li&gt;\n&lt;li&gt;adj-&gt;universal&lt;/li&gt;\n</DietyTypeMakerAbrahamic.rulePack.rulesStrings>
+  <DietyTypeMakerAbrahamic.rulePack.rulesStrings>&lt;li>r_deityType->Creator de [all]&lt;/li>\n&lt;li>r_deityType->[adj] deus&lt;/li>\n&lt;li> all->everything&lt;/li>\n&lt;li>all->all&lt;/li>\n&lt;li>all-> o universo&lt;/li>\n&lt;li>adj->all-powerful&lt;/li>\n&lt;li>adj->omnipotent&lt;/li>\n&lt;li>adj->universal&lt;/li>\n</DietyTypeMakerAbrahamic.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <DietyTypeMakerAbrahamic.rulePack.rulesStrings>&lt;li>r_deityType->Creator de [all]&lt;/li>\n&lt;li>r_deityType->[adj] deus&lt;/li>\n&lt;li> all->everything&lt;/li>\n&lt;li>all->all&lt;/li>\n&lt;li>all-> o universo&lt;/li>\n&lt;li>adj->all-powerful&lt;/li>\n&lt;li>adj->omnipotent&lt;/li>\n&lt;li>adj->universal&lt;/li>\n</DietyTypeMakerAbrahamic.rulePack.rulesStrings>
+  
   <!-- EN:
     <li>r_deityName(p=3)->God</li>
     <li>r_deityName->Christ-Lord</li>
@@ -18,7 +23,11 @@
     <li>r_deityName->[color] Jesus</li>
     <li>r_deityName->[color] Christ</li>
   -->
-  <NamerDeityChristian.rulePack.rulesStrings>&lt;li&gt;r_deityName(p=3)-&gt;God&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;Christ-Lord&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;Christ&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;[color] Jesus&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;[color] Christ&lt;/li&gt;\n</NamerDeityChristian.rulePack.rulesStrings>
+  <NamerDeityChristian.rulePack.rulesStrings>&lt;li>r_deityName(p=3)->God&lt;/li>\n&lt;li>r_deityName->Christ-Lord&lt;/li>\n&lt;li>r_deityName->Christ&lt;/li>\n&lt;li>r_deityName->[color] Jesus&lt;/li>\n&lt;li>r_deityName->[color] Christ&lt;/li>\n</NamerDeityChristian.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <NamerDeityChristian.rulePack.rulesStrings>&lt;li>r_deityName(p=3)->God&lt;/li>\n&lt;li>r_deityName->Christ-Lord&lt;/li>\n&lt;li>r_deityName->Christ&lt;/li>\n&lt;li>r_deityName->[color] Jesus&lt;/li>\n&lt;li>r_deityName->[color] Christ&lt;/li>\n</NamerDeityChristian.rulePack.rulesStrings>
+  
   <!-- EN:
     <li>r_deityName(p=8)->Allah</li>
     <li>r_deityName->Al-Ilah</li>
@@ -37,5 +46,9 @@
     <li>r_deityName->Al-Alim</li>
     <li>r_deityName->Al-Hakam</li>
   -->
-  <NamerDeityIslamic.rulePack.rulesStrings>&lt;li&gt;r_deityName(p=8)-&gt;Allah&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;Al-Ilah&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;Ar-Rahman&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;Al-Malik&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;Al-Qudus&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;As-Salam&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;Al-Mumin&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;Al-Aziz&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;Al-Jabbar&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;Al-Khaliq&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;Al-Ghaffar&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;Al-Qahar&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;Al-Wahhab&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;Al-Fattah&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;Al-Alim&lt;/li&gt;\n&lt;li&gt;r_deityName-&gt;Al-Hakam&lt;/li&gt;\n</NamerDeityIslamic.rulePack.rulesStrings>
+  <NamerDeityIslamic.rulePack.rulesStrings>&lt;li>r_deityName(p=8)->Allah&lt;/li>\n&lt;li>r_deityName->Al-Ilah&lt;/li>\n&lt;li>r_deityName->Ar-Rahman&lt;/li>\n&lt;li>r_deityName->Al-Malik&lt;/li>\n&lt;li>r_deityName->Al-Qudus&lt;/li>\n&lt;li>r_deityName->As-Salam&lt;/li>\n&lt;li>r_deityName->Al-Mumin&lt;/li>\n&lt;li>r_deityName->Al-Aziz&lt;/li>\n&lt;li>r_deityName->Al-Jabbar&lt;/li>\n&lt;li>r_deityName->Al-Khaliq&lt;/li>\n&lt;li>r_deityName->Al-Ghaffar&lt;/li>\n&lt;li>r_deityName->Al-Qahar&lt;/li>\n&lt;li>r_deityName->Al-Wahhab&lt;/li>\n&lt;li>r_deityName->Al-Fattah&lt;/li>\n&lt;li>r_deityName->Al-Alim&lt;/li>\n&lt;li>r_deityName->Al-Hakam&lt;/li>\n</NamerDeityIslamic.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <NamerDeityIslamic.rulePack.rulesStrings>&lt;li>r_deityName(p=8)->Allah&lt;/li>\n&lt;li>r_deityName->Al-Ilah&lt;/li>\n&lt;li>r_deityName->Ar-Rahman&lt;/li>\n&lt;li>r_deityName->Al-Malik&lt;/li>\n&lt;li>r_deityName->Al-Qudus&lt;/li>\n&lt;li>r_deityName->As-Salam&lt;/li>\n&lt;li>r_deityName->Al-Mumin&lt;/li>\n&lt;li>r_deityName->Al-Aziz&lt;/li>\n&lt;li>r_deityName->Al-Jabbar&lt;/li>\n&lt;li>r_deityName->Al-Khaliq&lt;/li>\n&lt;li>r_deityName->Al-Ghaffar&lt;/li>\n&lt;li>r_deityName->Al-Qahar&lt;/li>\n&lt;li>r_deityName->Al-Wahhab&lt;/li>\n&lt;li>r_deityName->Al-Fattah&lt;/li>\n&lt;li>r_deityName->Al-Alim&lt;/li>\n&lt;li>r_deityName->Al-Hakam&lt;/li>\n</NamerDeityIslamic.rulePack.rulesStrings>
+  
 </LanguageData>

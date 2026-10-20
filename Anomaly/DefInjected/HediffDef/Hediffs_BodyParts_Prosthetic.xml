@@ -1,13 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: adrenal heart -->
   <AdrenalHeart.label>coração adrenal</AdrenalHeart.label>
   <!-- EN: A modified human heart that can release stress hormones and liquid energy into the bloodstream, allowing a ghoul to move and attack at incredible speeds. -->
   <AdrenalHeart.description>Um coração humano modificado que pode liberar hormônios de estresse e energia líquida na corrente sanguínea, permitindo que um ghoul se mova e ataque a velocidades incríveis.</AdrenalHeart.description>
+  
   <!-- EN: corrosive heart -->
   <CorrosiveHeart.label>coração corrosivo</CorrosiveHeart.label>
   <!-- EN: A modified human heart that allows a ghoul to spray corrosive fluid. -->
   <CorrosiveHeart.description>Um coração humano modificado que permite que um ghoul pulverizar fluido corrosivo.</CorrosiveHeart.description>
+  
   <!-- EN: fleshmass lung -->
   <FleshmassLung.label>pulmão de massa de carne</FleshmassLung.label>
   <!-- EN: A cancerous mass of semi-sentient flesh. The tissue constantly regrows and replaces itself, making it immune to effects like lung rot and asthma.\n\nThe organ has its own neural structures and may become dangerous if removed. -->
@@ -18,6 +21,7 @@
   <FleshmassLung.comps.HediffComp_FleshbeastEmerge.letterText>Tentando remover {PAWN_name O pulmão de massa de carne causou a torção da massa de carne para atacar. A massa de carne separou de {PAWN_nameDef} e transformou-se em uma besta!</FleshmassLung.comps.HediffComp_FleshbeastEmerge.letterText>
   <!-- EN: a fleshmass lung -->
   <FleshmassLung.labelNoun>um pulmão de massa</FleshmassLung.labelNoun>
+  
   <!-- EN: fleshmass stomach -->
   <FleshmassStomach.label>estômago de massa de carne</FleshmassStomach.label>
   <!-- EN: A cancerous mass of semi-sentient flesh. The harsh acid it produces is painful, but strong enough to prevent most food poisoning.\n\nThe organ has its own neural structures and may become dangerous if removed. -->
@@ -28,6 +32,7 @@
   <FleshmassStomach.comps.HediffComp_FleshbeastEmerge.letterText>Tentando remover {PAWN_name O estômago da massa de carne causou a torção da massa de carne para atacar. A massa de carne separou de {PAWN_nameDef} e transformou-se em uma besta!</FleshmassStomach.comps.HediffComp_FleshbeastEmerge.letterText>
   <!-- EN: a fleshmass stomach -->
   <FleshmassStomach.labelNoun>um estômago de massa</FleshmassStomach.labelNoun>
+  
   <!-- EN: flesh whip -->
   <FleshWhip.label>chicote de carne</FleshWhip.label>
   <!-- EN: A fleshy, muscled tentacle with a blade at the end. The flesh whip makes an excellent melee weapon.\n\nIt has its own neural structures and may become dangerous if removed. -->
@@ -40,6 +45,7 @@
   <FleshWhip.comps.HediffComp_FleshbeastEmerge.letterText>Tentando remover {PAWN_name O chicote de carne de Def fez com que a massa de carne torcida atacasse. A massa de carne separou de {PAWN_nameDef} e transformou-se em uma besta!</FleshWhip.comps.HediffComp_FleshbeastEmerge.letterText>
   <!-- EN: a flesh whip -->
   <FleshWhip.labelNoun>um chicote de carne</FleshWhip.labelNoun>
+  
   <!-- EN: ghoul barbs -->
   <GhoulBarbs.label>ghoul barbs</GhoulBarbs.label>
   <!-- EN: A number of barbed bioferrite spikes have been surgically attached to this ghoul. -->
@@ -48,20 +54,24 @@
   <GhoulBarbs.renderNodeProperties.0.debugLabel>Ghoul picos</GhoulBarbs.renderNodeProperties.0.debugLabel>
   <!-- EN: Ghoul spikes -->
   <GhoulBarbs.renderNodeProperties.1.debugLabel>Ghoul picos</GhoulBarbs.renderNodeProperties.1.debugLabel>
+  
   <!-- EN: ghoul plating -->
   <GhoulPlating.label>revestimento de ghoul</GhoulPlating.label>
   <!-- EN: A number of large bioferrite plates have been surgically attached to this ghoul. -->
   <GhoulPlating.description>Uma série de grandes placas de bioferrite foram cirurgicamente anexadas a este ghoul.</GhoulPlating.description>
   <!-- EN: Ghoul plates -->
   <GhoulPlating.renderNodeProperties.0.debugLabel>Placas de Ghoul</GhoulPlating.renderNodeProperties.0.debugLabel>
+  
   <!-- EN: metalblood heart -->
   <MetalbloodHeart.label>coração de metal</MetalbloodHeart.label>
   <!-- EN: A modified human heart that can pump metalblood into the bloodstream, making the ghoul more resistant to damage for a short period of time. Metalblood also makes the ghoul more vulnerable to fire. -->
   <MetalbloodHeart.description>Um coração humano modificado que pode bombear sangue metálico para a corrente sanguínea, tornando o brilho mais resistente a danos por um curto período de tempo. Metalblood também torna o ghoul mais vulnerável ao fogo.</MetalbloodHeart.description>
+  
   <!-- EN: revenant vertebrae -->
   <RevenantVertebrae.label>vértebras reventivas</RevenantVertebrae.label>
   <!-- EN: An installed prosthetic that allows the user to temporarily become invisible. The prosthetic is crafted from a modified revenant spine, using archotech shards to restrain the dormant revenant. The user can manipulate the visual centers of those nearby, effectively turning themself invisible for a short time. -->
   <RevenantVertebrae.description>Uma prótese instalada que permite que o usuário se torne temporariamente invisível. A prótese é trabalhada a partir de uma coluna de revenant modificada, usando fragmentos arquitetônicos para conter o revenant adormecido. O usuário pode manipular os centros visuais daqueles próximos, efetivamente tornando-os invisíveis por um curto período de tempo.</RevenantVertebrae.description>
+  
   <!-- EN: flesh tentacle -->
   <Tentacle.label>tentáculos de carne</Tentacle.label>
   <!-- EN: A fleshy, muscled tentacle resembling a partial transformation into a fleshbeast. The tentacle is excellent at manipulation.\n\nThe flesh tentacle has its own neural structures and may become dangerous if removed. -->
@@ -72,4 +82,5 @@
   <Tentacle.comps.HediffComp_FleshbeastEmerge.letterText>Tentando remover {PAWN_name O tentáculo de Def fez com que a massa de carne torcida atacasse. A massa de carne separou de {PAWN_nameDef} e transformou-se em uma besta!</Tentacle.comps.HediffComp_FleshbeastEmerge.letterText>
   <!-- EN: a flesh tentacle -->
   <Tentacle.labelNoun>um tentáculo de carne</Tentacle.labelNoun>
+  
 </LanguageData>

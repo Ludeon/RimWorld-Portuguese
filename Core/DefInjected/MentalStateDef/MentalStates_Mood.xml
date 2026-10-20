@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: tantrum -->
   <BedroomTantrum.label>tantrum</BedroomTantrum.label>
   <!-- EN: Mental state: Tantrum -->
@@ -8,6 +9,7 @@
   <BedroomTantrum.beginLetter>Está a ter um tantrum.\n\n[PAWN_pronoun] vai esmagar as coisas na sala [PAWN_possessive].</BedroomTantrum.beginLetter>
   <!-- EN: {0} is no longer having a tantrum. -->
   <BedroomTantrum.recoveryMessage>já não está a ter um tantrum.</BedroomTantrum.recoveryMessage>
+  
   <!-- EN: berserk -->
   <Berserk.label>a sério</Berserk.label>
   <!-- EN: Mental state: Berserk -->
@@ -16,14 +18,26 @@
   <Berserk.beginLetter>Foi um berserk.\n\n[PAWN_pronoun] vai atacar qualquer um [PAWN_pronoun] vê.</Berserk.beginLetter>
   <!-- EN: {0}'s berserk rage has come to an end. -->
   <Berserk.recoveryMessage>a raiva berserk chegou ao fim.</Berserk.recoveryMessage>
+  
+  <!-- EN: berserk -->
+  <BerserkPermanent.label>TODO</BerserkPermanent.label>
+  <!-- EN: Mental state: Berserk -->
+  <BerserkPermanent.baseInspectLine>TODO</BerserkPermanent.baseInspectLine>
+  <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
+  <BerserkPermanent.beginLetter>TODO</BerserkPermanent.beginLetter>
+  <!-- EN: {0}'s berserk rage has come to an end. -->
+  <BerserkPermanent.recoveryMessage>TODO</BerserkPermanent.recoveryMessage>
+  
   <!-- EN: binging on drug -->
   <Binging_DrugExtreme.label>binginging na droga</Binging_DrugExtreme.label>
   <!-- EN: Mental state: Binging on {0} -->
   <Binging_DrugExtreme.baseInspectLine>Estado mental: Binging on {0}</Binging_DrugExtreme.baseInspectLine>
+  
   <!-- EN: binging on drug -->
   <Binging_DrugMajor.label>binginging na droga</Binging_DrugMajor.label>
   <!-- EN: Mental state: Binging on {0} -->
   <Binging_DrugMajor.baseInspectLine>Estado mental: Binging on {0}</Binging_DrugMajor.baseInspectLine>
+  
   <!-- EN: binging on food -->
   <Binging_Food.label>binging na comida</Binging_Food.label>
   <!-- EN: Mental state: Pigging out -->
@@ -34,6 +48,7 @@
   <Binging_Food.beginLetterLabel>binge de comida</Binging_Food.beginLetterLabel>
   <!-- EN: {0} is no longer pigging out on food. -->
   <Binging_Food.recoveryMessage>não está mais a picar na comida.</Binging_Food.recoveryMessage>
+  
   <!-- EN: corpse obsession -->
   <CorpseObsession.label>obsessão do cadáver</CorpseObsession.label>
   <!-- EN: Mental state: Corpse obsession -->
@@ -42,6 +57,7 @@
   <CorpseObsession.beginLetter>{0} quebrou dentro e tornou-se obcecado com cadáveres.\n\n[PAWN_pronoun] vai encontrar um cadáver e apresentá-lo para todos verem.</CorpseObsession.beginLetter>
   <!-- EN: {0} is no longer having a corpse obsession. -->
   <CorpseObsession.recoveryMessage>não tem mais obsessão de cadáveres.</CorpseObsession.recoveryMessage>
+  
   <!-- EN: fire starting spree -->
   <FireStartingSpree.label>fogo de partida spree</FireStartingSpree.label>
   <!-- EN: Mental state: Fire starting spree -->
@@ -50,6 +66,7 @@
   <FireStartingSpree.beginLetter>Está numa onda de partida de fogo.\n\n[PAWN_pronoun] vagueará por um tempo, disparando aleatoriamente fogos.</FireStartingSpree.beginLetter>
   <!-- EN: {0} is no longer on a fire starting spree. -->
   <FireStartingSpree.recoveryMessage>{0} já não está em uma lança de partida de fogo.</FireStartingSpree.recoveryMessage>
+  
   <!-- EN: giving up and leaving -->
   <GiveUpExit.label>desistir e sair</GiveUpExit.label>
   <!-- EN: Mental state: Given up and leaving -->
@@ -60,6 +77,7 @@
   <GiveUpExit.beginLetterLabel>desistiu</GiveUpExit.beginLetterLabel>
   <!-- EN: {0} has had a change of heart and is coming back to the colony. -->
   <GiveUpExit.recoveryMessage>{0} teve uma mudança de coração e está voltando para a colônia.</GiveUpExit.recoveryMessage>
+  
   <!-- EN: insulting spree -->
   <InsultingSpree.label>esporão insultante</InsultingSpree.label>
   <!-- EN: Mental state: Insulting spree -->
@@ -68,6 +86,7 @@
   <InsultingSpree.beginLetter>Está numa onda insultuosa.\n\n[PAWN_pronoun] vagueará por aí, insultando aleatoriamente os outros.</InsultingSpree.beginLetter>
   <!-- EN: {0} is no longer on an insulting spree. -->
   <InsultingSpree.recoveryMessage>{0} já não está numa onda insultuosa.</InsultingSpree.recoveryMessage>
+  
   <!-- EN: inducing prisoner to escape -->
   <Jailbreaker.label>induzir prisioneiro a escapar</Jailbreaker.label>
   <!-- EN: Mental state: Jailbreaker -->
@@ -78,6 +97,7 @@
   <Jailbreaker.beginLetterLabel>quebra-cabeças</Jailbreaker.beginLetterLabel>
   <!-- EN: {0} is no longer inducing prisoners to escape. -->
   <Jailbreaker.recoveryMessage>não faz mais prisioneiros para escapar.</Jailbreaker.recoveryMessage>
+  
   <!-- EN: murderous rage -->
   <MurderousRage.label>raiva assassina</MurderousRage.label>
   <!-- EN: Mental state: Murderous rage -->
@@ -86,6 +106,7 @@
   <MurderousRage.beginLetter>Caiu numa raiva assassina.\n\n[PAWN_pronoun] decidiu matar {1}.</MurderousRage.beginLetter>
   <!-- EN: {0} is no longer in a murderous rage. -->
   <MurderousRage.recoveryMessage>já não está numa raiva assassina.</MurderousRage.recoveryMessage>
+  
   <!-- EN: sadistic rage -->
   <SadisticRage.label>raiva sádica</SadisticRage.label>
   <!-- EN: Mental state: Sadistic rage -->
@@ -94,6 +115,7 @@
   <SadisticRage.beginLetter>Caiu numa raiva sádica.\n\n[PAWN_pronoun] vai ventilar a raiva dos prisioneiros.</SadisticRage.beginLetter>
   <!-- EN: {0} is no longer in a sadistic rage. -->
   <SadisticRage.recoveryMessage>não está mais numa raiva sádica.</SadisticRage.recoveryMessage>
+  
   <!-- EN: slaughterer -->
   <Slaughterer.label>matadouro</Slaughterer.label>
   <!-- EN: Mental state: Slaughterer -->
@@ -102,6 +124,7 @@
   <Slaughterer.beginLetter>{0} teve um colapso mental e vai ventilar [PAWN_possessive] raiva em seus animais.</Slaughterer.beginLetter>
   <!-- EN: {0} is no longer slaughtering random animals. -->
   <Slaughterer.recoveryMessage>{0} já não está matando animais aleatórios.</Slaughterer.recoveryMessage>
+  
   <!-- EN: tantrum -->
   <Tantrum.label>tantrum</Tantrum.label>
   <!-- EN: Mental state: Tantrum -->
@@ -110,12 +133,14 @@
   <Tantrum.beginLetter>Está a ter um tantrum.\n\n[PAWN_pronoun] vai esmagar móveis aleatórios, itens e estruturas.</Tantrum.beginLetter>
   <!-- EN: {0} is no longer having a tantrum. -->
   <Tantrum.recoveryMessage>já não está a ter um tantrum.</Tantrum.recoveryMessage>
+  
   <!-- EN: insulting spree -->
   <TargetedInsultingSpree.label>esporão insultante</TargetedInsultingSpree.label>
   <!-- EN: Mental state: Insulting spree against {0} -->
   <TargetedInsultingSpree.baseInspectLine>Estado mental: Insulting spree contra {0}</TargetedInsultingSpree.baseInspectLine>
   <!-- EN: {0} has fixated [PAWN_possessive] rage on {1}.\n\n[PAWN_pronoun] will follow {1} around, hurling insults. -->
   <TargetedInsultingSpree.beginLetter>{0} fixou [PAWN_possessive] raiva em {1}.\n\n[PAWN_pronoun] seguirá por aí, insultando.</TargetedInsultingSpree.beginLetter>
+  
   <!-- EN: tantrum -->
   <TargetedTantrum.label>tantrum</TargetedTantrum.label>
   <!-- EN: Mental state: Tantrum -->
@@ -124,6 +149,7 @@
   <TargetedTantrum.beginLetter>Está a ter um tantrum.\n\n[PAWN_pronoun] vai destruir {1}.</TargetedTantrum.beginLetter>
   <!-- EN: {0} is no longer having a tantrum. -->
   <TargetedTantrum.recoveryMessage>já não está a ter um tantrum.</TargetedTantrum.recoveryMessage>
+  
   <!-- EN: sitting alone -->
   <Wander_OwnRoom.label>sentado sozinho</Wander_OwnRoom.label>
   <!-- EN: Mental state: Hiding in room -->
@@ -134,6 +160,7 @@
   <Wander_OwnRoom.beginLetterLabel>esconder no quarto</Wander_OwnRoom.beginLetterLabel>
   <!-- EN: {0} is no longer hiding in [PAWN_possessive] room. -->
   <Wander_OwnRoom.recoveryMessage>{0} já não está escondido em [PAWN_possessive] quarto.</Wander_OwnRoom.recoveryMessage>
+  
   <!-- EN: wandering in psychosis -->
   <Wander_Psychotic.label>vagando em psicose</Wander_Psychotic.label>
   <!-- EN: Mental state: Psychotic wandering -->
@@ -144,6 +171,7 @@
   <Wander_Psychotic.beginLetterLabel>daze</Wander_Psychotic.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in a psychotic state. -->
   <Wander_Psychotic.recoveryMessage>não está mais a vaguear num estado psicótico.</Wander_Psychotic.recoveryMessage>
+  
   <!-- EN: wandering in psychosis -->
   <Wander_Psychotic_Short.label>vagando em psicose</Wander_Psychotic_Short.label>
   <!-- EN: Mental state: Psychotic wandering -->
@@ -154,6 +182,7 @@
   <Wander_Psychotic_Short.beginLetterLabel>daze</Wander_Psychotic_Short.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in a psychotic state. -->
   <Wander_Psychotic_Short.recoveryMessage>não está mais a vaguear num estado psicótico.</Wander_Psychotic_Short.recoveryMessage>
+  
   <!-- EN: sad wandering -->
   <Wander_Sad.label>triste vagando</Wander_Sad.label>
   <!-- EN: Mental state: Sad wandering -->
@@ -164,4 +193,5 @@
   <Wander_Sad.beginLetterLabel>triste vagar</Wander_Sad.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in sadness. -->
   <Wander_Sad.recoveryMessage>não está mais a vaguear pela tristeza.</Wander_Sad.recoveryMessage>
+  
 </LanguageData>

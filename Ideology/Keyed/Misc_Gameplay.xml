@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
   <!-- EN: Customize ideoligion -->
   <CustomizeIdeoligion>Personalizar a orientação</CustomizeIdeoligion>
   <!-- EN: Choose your ideoligion -->
@@ -43,7 +44,7 @@
   <!-- EN: Select an ideoligion for your faction on the left, or -->
   <SelectAnIdeo>Selecione um ideoligion para sua facção à esquerda, ou</SelectAnIdeo>
   <!-- EN: ideoligion -->
-  <Ideo>ideologia</Ideo>
+  <Ideo>ideologia</Ideo> 
   <!-- EN: Randomize all -->
   <RandomizeAll>Randomize todos</RandomizeAll>
   <!-- EN: Appearance -->
@@ -90,7 +91,7 @@
   <Styles>Estilos</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>Chance de ter preceito</ChanceToHavePrecept>
-  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
+  <!-- EN: {PAWN_labelShort}'s favorite color: {COLOR}\nHaving more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
   <FavoriteColorTooltip>(PAWN_label Curto é a cor favorita. Ter mais do que {PERCENTAGE} de {PAWN_possessive} vestuário nesta cor {ORIDEO} fará {PAWN_objective} ligeiramente mais feliz.\n\nVocê pode alterar as cores do vestuário na estação de estilo usando tintura de tintura.</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
   <OrIdeoColor>, ou a cor de {PAWN_possessive} ideoligion,</OrIdeoColor>
@@ -98,9 +99,9 @@
   <SetIdeoColor>Definir cor ideo</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>Definir a cor favorita</SetFavoriteColor>
-  <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
   <FavoriteColorPickerTip>{PAWN_name A cor favorita de Def}. Tendo mais de 60% do vestuário {PAWN_possessive} nesta cor, ou a cor de {PAWN_possessive} ideoligion, fará {PAWN_objective} ligeiramente mais feliz.</FavoriteColorPickerTip>
-  <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
   <IdeoColorPickerTip>{PAWN_name Def} da cor do ideoligion. Ter mais de 60% do vestuário {PAWN_possessive} nesta cor, ou {PAWN_possessive} cor favorita, fará {PAWN_objective} ligeiramente mais feliz.</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>Configurar a orientação da sua facção</ConfigureIdeoligion>
@@ -150,6 +151,7 @@
   <MealKindAny>Comida aceitável para todos</MealKindAny>
   <!-- EN: this outfit -->
   <WearingDesiredApparelMulti>esta roupa</WearingDesiredApparelMulti>
+
   <!-- EN: Could not load ideoligion -->
   <UnableToLoadIdeoTitle>Não poderia carregar ideoligion</UnableToLoadIdeoTitle>
   <!-- EN: Could not load the selected ideoligion due to the requirements of the factions that will be following this ideoligion. The violated requirements are: -->
@@ -160,6 +162,7 @@
   <UnableToLoadIdeoMemeRequired>Meme {ME} é necessário para facções {FACTIONTYPE}</UnableToLoadIdeoMemeRequired>
   <!-- EN: Precept {PRECEPT} is not allowed for non-player factions -->
   <UnableToLoadIdeoPreceptNotAllowed>Precept {PRECEPT} não é permitido para facções não-jogador</UnableToLoadIdeoPreceptNotAllowed>
+
   <!-- EN: Grave containing {PAWN_labelShort}'s corpse -->
   <RitualTargetGraveInfo>Grave contendo o corpo de {PAWN_labelShort}</RitualTargetGraveInfo>
   <!-- EN: Empty grave to mourn {PAWN_labelShort}'s passing -->
@@ -220,6 +223,7 @@
   <RitualScarificationTriggerExtraDesc>A escassez é esperada para {IDEOMEMBERPLURAL} desde que haja menos do que {0} scarified {IDEOMEMBERPLURAL}.</RitualScarificationTriggerExtraDesc>
   <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
   <RitualBlindingTriggerExtraDesc>A blindagem é esperada para cada colono atual e juntando-se ao colono.</RitualBlindingTriggerExtraDesc>
+  
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>Todos os participantes no ritual ganharam um buff de foco de trabalho de um dia ({PERCENTAGE} velocidade de trabalho global)!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
   <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
@@ -232,12 +236,14 @@
   <RitualOutcomeExtraDesc_SkylanternWanderers>Suas claralanternas atraíram alguns viajantes amigáveis. Eles vão visitar e deixar um presente.</RitualOutcomeExtraDesc_SkylanternWanderers>
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
   <RitualOutcomeExtraDesc_Execution>Todos os escravos participantes foram abalados à vista da morte. Sua supressão foi elevada ao seu nível máximo.</RitualOutcomeExtraDesc_Execution>
+  
   <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
   <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>Devido à qualidade do ritual, seus pontos de desenvolvimento aumentaram {2} (de {0} a {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
   <!-- EN: Can't award development points beyond {0}. -->
   <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>Não pode premir pontos de desenvolvimento além {0}.</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
   <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
   <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Devido à má qualidade do ritual, nenhum ponto de desenvolvimento foi ganho.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
+
   <!-- EN: Additional reward -->
   <RitualAttachedReward>Recompensa adicional</RitualAttachedReward>
   <!-- EN: Choose -->
@@ -272,6 +278,7 @@
   <RitualAttachedOutcomeCantApply_AncientComplexIsPresent>Já existe um complexo antigo conhecido para explorar.</RitualAttachedOutcomeCantApply_AncientComplexIsPresent>
   <!-- EN: Not available right now. -->
   <RitualAttachedOutcomeCantApply_NotAvailableRightNow>Não disponível agora.</RitualAttachedOutcomeCantApply_NotAvailableRightNow>
+  
   <!-- EN: This building is a variation of -->
   <IdeoBuildingVariationOf>Este edifício é uma variação de</IdeoBuildingVariationOf>
   <!-- EN: Minimum expectations -->
@@ -292,18 +299,24 @@
   <RitualDevelopmentPointsTip>Completar este ritual dá pontos de desenvolvimento {0}-{1} dependendo da qualidade.</RitualDevelopmentPointsTip>
   <!-- EN: {0} needs to be powered. -->
   <RitualOutcomeBlockedNoPower>tem de ser alimentado.</RitualOutcomeBlockedNoPower>
+
   <!-- EN: For slave use -->
   <ForSlaveUse>Para uso escravo</ForSlaveUse>
   <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
   <SellingAsSlave>Se você vender alguém a qualquer facção além deles, eles se tornam escravos.</SellingAsSlave>
   <!-- EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
   <SellingAsRansom>Se você vender alguém para sua própria facção, eles são resgatados e não escravizados.</SellingAsRansom>
+
   <!-- EN: We are {0} -->
   <MemeGoodwillImpact_Player>Nós somos</MemeGoodwillImpact_Player>
   <!-- EN: They are {0} -->
   <MemeGoodwillImpact_Other>Eles são..</MemeGoodwillImpact_Other>
+
+  <!-- TextMotes -->
   <!-- EN: Slave suppression: {0} -->
   <TextMote_SuppressionIncreased>Supressão de escravos: Não</TextMote_SuppressionIncreased>
+
+  <!-- Role requirements -->
   <!-- EN: Requirements -->
   <RoleRequirementsLabel>Requisitos</RoleRequirementsLabel>
   <!-- EN: Passive effects -->
@@ -314,6 +327,7 @@
   <RoleRequirementLabelSupremeGender>Deve ser..</RoleRequirementLabelSupremeGender>
   <!-- EN: Cannot be child -->
   <RoleRequirementCannotBe>Não pode ser criança</RoleRequirementCannotBe>
+
   <!-- EN: Abilities -->
   <RoleGrantedAbilitiesLabel>Habilidades</RoleGrantedAbilitiesLabel>
   <!-- EN: Required apparel -->
@@ -338,10 +352,13 @@
   <AbilityDisabledNoAltarIdeogramOrRitualsSpot>Nenhum altar alcançável, ideograma ou ponto ritual.</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
   <!-- EN: No reachable ritual spot. -->
   <AbilityDisabledNoRitualSpot>Nenhum local ritual acessível.</AbilityDisabledNoRitualSpot>
+
   <!-- EN: Will\n{0} to {1} -->
   <TextMote_WillReduced>Will.\n{0} para {1}</TextMote_WillReduced>
+
   <!-- EN: Accepting this join offer is an act of charity. If you refuse, the following people will be unhappy due to their pro-charity beliefs:\n{0}\n\nAre you sure you want to reject this join offer? -->
   <ConfirmationCharityJoiner>Aceitar esta oferta é um acto de caridade. Se você recusar, as seguintes pessoas serão infelizes devido às suas crenças pró-caridade:\nNão.\n\nTem a certeza de que quer rejeitar esta oferta?</ConfirmationCharityJoiner>
+
   <!-- EN: Believers in {0} ({1}) -->
   <BelieversIn>Crentes em {0} ({1})</BelieversIn>
   <!-- EN: add {0} -->
@@ -352,56 +369,63 @@
   <IdeoBuilding>edifício</IdeoBuilding>
   <!-- EN: relic -->
   <IdeoRelic>relíquia</IdeoRelic>
+  
+  <!-- Beggars -->
   <!-- EN: Give {0} to {1_nameDef} -->
   <GiveItemsTo>Dar {0} a {1_nameDef}</GiveItemsTo>
   <!-- EN: Cannot give {0} to {1_nameDef} -->
   <CannotGiveItemsTo>Não posso dar {0} a {1_nameDef}</CannotGiveItemsTo>
   <!-- EN: No item found -->
   <NoItemFound>Nenhum item encontrado</NoItemFound>
+
+  <!-- Outfits -->
   <!-- EN: Slave -->
   <OutfitSlave>Escravo</OutfitSlave>
-  <!-- EN: Hack progress -->
-  <HackProgress>Progresso de corte</HackProgress>
-  <!-- EN: hacking speed -->
-  <HackingSpeed>velocidade de corte</HackingSpeed>
-  <!-- EN: {0}'s -->
-  <HackingLastUser>não</HackingLastUser>
-  <!-- EN: hacked -->
-  <Hacked>hackeado</Hacked>
-  <!-- EN: Terminals hacked -->
-  <TerminalsHacked>Terminais hackeados</TerminalsHacked>
+
   <!-- EN: Relic info found -->
   <RelicInfoFound>Relic info encontrado</RelicInfoFound>
   <!-- EN: inactive, requires at least {0} {1}s (have {2}) -->
   <InactiveRoleRequiresMoreBelievers>inativo, requer pelo menos {0} {1}s (have {2})</InactiveRoleRequiresMoreBelievers>
+  
   <!-- EN: certainty -->
   <Certainty>certeza</Certainty>
+
+  <!-- Slave interaction -->
   <!-- EN: The slave will leave the map on foot and return to their home faction, {0}. -->
   <EmancipateNonCololonistWithFactionTooltip>O escravo vai deixar o mapa a pé e voltar para sua facção de casa, {0}.</EmancipateNonCololonistWithFactionTooltip>
   <!-- EN: The slave will leave on foot and exit the map. -->
   <EmancipateNonCololonistWithoutFactionTooltip>O escravo partirá a pé e sairá do mapa.</EmancipateNonCololonistWithoutFactionTooltip>
   <!-- EN: The slave will return to being a colonist. -->
   <EmancipateCololonistTooltip>O escravo voltará a ser colonizador.</EmancipateCololonistTooltip>
+
   <!-- EN: You've stayed in the village too long. The people of {FACTION_name} are attacking! -->
   <WorshippedTerminalFactionBecameHostileTimed>Ficaste muito tempo na aldeia. As pessoas de {FACTION_name} estão atacando!</WorshippedTerminalFactionBecameHostileTimed>
   <!-- EN: Villagers are returning from nearby to protect the venerated terminal! -->
   <WorshippedTerminalRaidIncoming>Os moradores estão retornando de perto para proteger o terminal venerado!</WorshippedTerminalRaidIncoming>
+
+  <!-- Relic hunt -->
   <!-- EN: The relic is housed in an ancient structure protected by a multi-unit security system.\n\nYou can defeat the security forces one unit at a time, or grab the relic and try to flee before they get you. -->
   <RelicHuntFoundRelicSite>A relíquia está alojada em uma estrutura antiga protegida por um sistema de segurança multi-unidade.\n\nVocê pode derrotar as forças de segurança uma unidade de cada vez, ou pegar a relíquia e tentar fugir antes que eles te apanhem.</RelicHuntFoundRelicSite>
   <!-- EN: The relic rests in an ancient structure nearby. -->
   <RelicHuntFoundRelicSitePeaceful>A relíquia repousa em uma estrutura antiga nas proximidades.</RelicHuntFoundRelicSitePeaceful>
+
   <!-- EN: relic -->
   <Relic>relíquia</Relic>
   <!-- EN: Ritual seat -->
   <RitualSeat>Banco ritual</RitualSeat>
+
+  <!-- Ritual requirements -->
   <!-- EN: Active loudspeakers -->
   <RitualPredictedOutcomeDescNumActiveLoudspeakers>Alto-falantes ativos</RitualPredictedOutcomeDescNumActiveLoudspeakers>
   <!-- EN: Drums -->
   <RitualPredictedOutcomeDescNumDrums>Bateria</RitualPredictedOutcomeDescNumDrums>
+
   <!-- EN: Using ritual spot causes {0} mood bonus reduction for all participants. -->
   <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>Usar causas de ponto ritual {0} redução de bônus de humor para todos os participantes.</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
+
   <!-- EN: Any of these -->
   <RitualOutcomeLabelAnyOfThese>Qualquer um destes</RitualOutcomeLabelAnyOfThese>
+
   <!-- EN: Replace with -->
   <PreceptReplaceWith>Substituir com</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
@@ -410,8 +434,11 @@
   <StartingQuality>Qualidade de início</StartingQuality>
   <!-- EN: Conviction chance -->
   <ExpectedConvictionChance>Chance de convencer</ExpectedConvictionChance>
+ 
   <!-- EN: Must be placed indoors. -->
   <MustBePlacedIndoors>Deve ser colocado dentro de casa.</MustBePlacedIndoors>
+
+  <!-- Gauranlen trees/Dryads -->
   <!-- EN: Connected to -->
   <ConnectedPawn>Conectado a</ConnectedPawn>
   <!-- EN: Nobody -->
@@ -484,6 +511,8 @@
   <NotEnoughConnectionStrengthForSingleDryad>{0} força de conexão necessária para suportar um dryad.</NotEnoughConnectionStrengthForSingleDryad>
   <!-- EN: Cannot assign allowed area -->
   <CannotAssignAllowedAreaToDryad>Não pode atribuir área permitida</CannotAssignAllowedAreaToDryad>
+
+  <!-- Shooting report -->
   <!-- EN: Target outdoors and night-time -->
   <TargetNightOutdoors>Alvo ao ar livre e à noite</TargetNightOutdoors>
   <!-- EN: Target indoors and dark -->
@@ -491,11 +520,12 @@
   <!-- EN: Target outdoors and daytime -->
   <TargetDayOutdoors>Alvo ao ar livre e dia</TargetDayOutdoors>
   <!-- EN: Target indoors and lit -->
-  <TargetLitIndoors>Alvo interno e iluminado</TargetLitIndoors>
+  <TargetLitIndoors>Alvo interno e iluminado</TargetLitIndoors>  
   <!-- EN: Charging -->
   <RechargeableCharging>Carregamento</RechargeableCharging>
   <!-- EN: Ready -->
   <RechargeableReady>Pronto</RechargeableReady>
+  
   <!-- EN: Skill -->
   <RoleRequirementSkill>Habilidade</RoleRequirementSkill>
   <!-- EN: Any of skills -->
@@ -510,12 +540,15 @@
   <RoleEffectHuntingRevengeChance>Caça chance de vingança Não</RoleEffectHuntingRevengeChance>
   <!-- EN: Give thought -->
   <RoleEffectGiveThoughtOnTended>Pensamento</RoleEffectGiveThoughtOnTended>
+
   <!-- EN: Assign colonists to your ideoligion -->
   <AssignColonists>Atribuir colonos ao seu ideoligion</AssignColonists>
   <!-- EN: Remove new ideoligion -->
   <RemoveNewIdeoligion>Remover nova orientação</RemoveNewIdeoligion>
   <!-- EN: Make this your primary ideoligion -->
   <MakeIdeoligionPrimary>Faça este seu ideoligionário primário</MakeIdeoligionPrimary>
+
+  <!-- Archonexus -->
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
   <GameOverArchotechInvokedIntro>Invocaste o núcleo do arquinexo. O mundo enche-se de luz cegante e o tempo parece lento...\n\n.</GameOverArchotechInvokedIntro>
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
@@ -526,22 +559,28 @@
   <Reward_ArchonexusMapPart>Uma parte do mapa de Archonexus</Reward_ArchonexusMapPart>
   <!-- EN: Archonexus map part {0}/{1} -->
   <Reward_ArchonexusMapPartLabel>Parte do mapa de Archonexus Não</Reward_ArchonexusMapPartLabel>
+
   <!-- EN: relics -->
   <RelicsLower>relíquias</RelicsLower>
   <!-- EN: relic -->
   <RelicLower>relíquia</RelicLower>
+
   <!-- EN: Linked to -->
   <LinkedTo>Ligado a</LinkedTo>
   <!-- EN: Supply satellite -->
   <SupplySatellite>Fornecimento de satélite</SupplySatellite>
+
   <!-- EN: Colonist is not willing to extract skull from corpse (missing pro-skullspike precept) -->
   <CannotExtractSkull>O colonista não está disposto a extrair o crânio do cadáver (perdendo preceito pró-skullspike)</CannotExtractSkull>
   <!-- EN: Preview the ritual ambience sound -->
   <TipPreviewRitualAmbienceSound>Visualizar o som de ambiente ritual</TipPreviewRitualAmbienceSound>
+
   <!-- EN: Choose -->
   <ChooseStuffForRelic>Escolha</ChooseStuffForRelic>
   <!-- EN: Made from stuff -->
   <RelicStuff>Feito de coisas</RelicStuff>
+
+  <!-- Bioscuplter pod -->
   <!-- EN: Cycle -->
   <BiosculpterPodCycleLabel>Ciclo</BiosculpterPodCycleLabel>
   <!-- EN: loading ingredients -->
@@ -608,10 +647,14 @@
   <OnCompletionOfCycle>Após a conclusão do ciclo {CYCLE}, o seguinte ocorrerá</OnCompletionOfCycle>
   <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
   <BiosculpterNoCoditionsToHeal>{PAWN_name Def} não tem condições que podem ser curadas por um ciclo {CYCLE}.\n\nQueres continuar?</BiosculpterNoCoditionsToHeal>
+
   <!-- EN: basic -->
   <Basic>básico</Basic>
   <!-- EN: Change the style this will be built in. This is purely visual and has no gameplay impact. -->
   <ChangeStyleDesc>Mude o estilo em que será construído. Isso é puramente visual e não tem impacto na jogabilidade.</ChangeStyleDesc>
   <!-- EN: No available styles. -->
   <ChangeStyleDisabledNoCategories>Sem estilos disponíveis.</ChangeStyleDisabledNoCategories>
+  <!-- EN: Spacedrone self-destructs in {0} -->
+  <SpacedroneSelfDestructsIn>Autodestruição do espaçamento em {0}</SpacedroneSelfDestructsIn>
+
 </LanguageData>

@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
+  <!-- Royal Titles -->
   <!-- EN: The amount of {FACTION_royalFavorLabel} that your negotiator will personally receive as a result of this deal. -->
   <RoyalFavorDescription>A quantidade de {FACTION_royalFavorLabel} que seu negociador receberá pessoalmente como resultado deste acordo.</RoyalFavorDescription>
   <!-- EN: Required apparel -->
@@ -26,28 +28,38 @@
   <RoyalTitleRequiredMeals>Alimentos permitidos</RoyalTitleRequiredMeals>
   <!-- EN: A holder of this title will only eat these foods, unless they are starving or on a caravan. -->
   <RoyalTitleRequiredMealsDesc>Um titular deste título só comerá estes alimentos, a menos que estejam famintos ou numa caravana.</RoyalTitleRequiredMealsDesc>
+
+  <!-- Royal implants -->
   <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences. -->
   <RoyalImplantIllegalUseWarning>De acordo com as leis de {FACTION_name}, deve-se ter o título de {TITLE} para usar legalmente um {IMPLANT}.\n\n{VIOLATIONTRIGGER}, há uma chance {FACTION_name} irá detectar sua assinatura psíquica. Isso levará a consequências diplomáticas.</RoyalImplantIllegalUseWarning>
   <!-- EN: Install this implant anyway? -->
   <RoyalImplantInstallConfirmation>Instalar este implante?</RoyalImplantInstallConfirmation>
   <!-- EN: Upgrade this implant anyway? -->
   <RoyalImplantUpgradeConfirmation>Melhorar este implante?</RoyalImplantUpgradeConfirmation>
+
+  <!-- Royal weapons -->
   <!-- EN: Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
   <BladelinkEquipWarning>Uma vez ligado a um wielder, a persona da arma se recusa a ser manipulada por qualquer outra pessoa.</BladelinkEquipWarning>
   <!-- EN: The weapon has the following traits -->
   <BladelinkEquipWarningTraits>A arma tem os seguintes traços</BladelinkEquipWarningTraits>
   <!-- EN: Are you sure you want to equip this item? -->
   <RoyalWeaponEquipConfirmation>Tem certeza de que deseja equipar este item?</RoyalWeaponEquipConfirmation>
+  
+  <!-- Psycasts -->
   <!-- EN: Target is psychically deaf. -->
   <AbilityTargetPsychicallyDeaf>O alvo é psiquicamente surdo.</AbilityTargetPsychicallyDeaf>
   <!-- EN: This is illegal for {PAWN_labelShort}. Requires {TITLE} title. -->
   <PsycastIsIllegal>Isto é ilegal para {PAWN_labelShort}. Requer título.</PsycastIsIllegal>
+
+  <!-- Skip -->
   <!-- EN: Cannot skip {PAWN_labelShort} -->
   <CannotSkipTarget>Não pode pular {PAWN_labelShort}</CannotSkipTarget>
   <!-- EN: Too large -->
   <CannotSkipTargetTooLarge>Muito grande</CannotSkipTargetTooLarge>
   <!-- EN: Psychic resistance -->
   <CannotSkipTargetPsychicResistant>Resistência psíquica</CannotSkipTargetPsychicResistant>
+
+  <!-- Warning -->
   <!-- EN: This quest will reward {FACTION_royalFavorLabel} and thus royal titles for {PAWN_labelShort}. -->
   <QuestGivesRoyalFavor>Esta busca recompensará {FACTION_royalFavorLabel} e, portanto, títulos reais para {PAWN_labelShort}.</QuestGivesRoyalFavor>
   <!-- EN: {PAWN_labelShort} is incapable of social tasks. Those with royal titles have great need of social skills, so if {PAWN_labelShort} gains a title, {PAWN_pronoun} may have a difficult time. Another colonist might be more socially-adept. -->
@@ -62,4 +74,5 @@
   <SendShuttleWithNoContents>Este vaivém está vazio. Se o mandares embora, não poderás usá-lo novamente.\n\nEnvia-o mesmo assim?</SendShuttleWithNoContents>
   <!-- EN: These resources would weigh the caravan down and make it unable to move.\n\nCall for them anyways? -->
   <DropResourcesOverweightConfirm>Esses recursos pesariam a caravana para baixo e a tornaria incapaz de se mover.\n\nChamar por eles?</DropResourcesOverweightConfirm>
+
 </LanguageData>

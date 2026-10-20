@@ -46,21 +46,29 @@
   <FictionPrimer>Fiction Primer</FictionPrimer>
   <!-- EN: Ludeon blog -->
   <LudeonBlog>Blogue da Ludeon</LudeonBlog>
-  <!-- EN: Forums -->
-  <Forums>Fóruns</Forums>
+  <!-- EN: Subreddit -->
+  <Subreddit>TODO</Subreddit>
   <!-- EN: Official wiki -->
   <OfficialWiki>Wiki Oficial</OfficialWiki>
-  <!-- EN: Tynan's twitter -->
-  <TynansTwitter>Twitter do Tynan</TynansTwitter>
+  <!-- EN: Tynan's X -->
+  <TynansX>TODO</TynansX>
   <!-- EN: Tynan's design book -->
   <TynansDesignBook>Livro de Design do Tynan</TynansDesignBook>
   <!-- EN: Help translate RimWorld -->
   <HelpTranslate>Ajuda a traduzir RimWorld</HelpTranslate>
-  <!-- EN: Buy soundtrack -->
-  <BuySoundtrack>Compra a banda sonora</BuySoundtrack>
   <!-- EN: Create world -->
   <CreateWorld>Criar Mundo</CreateWorld>
-
+  <!-- EN: Buy soundtrack -->
+  <BuySoundtrack>Compra a banda sonora</BuySoundtrack>
+  <!-- EN: RimWorld Soundtrack -->
+  <BuySoundtrack_Classic>TODO</BuySoundtrack_Classic>
+  <!-- EN: RimWorld - Royalty Soundtrack -->
+  <BuySoundtrack_Royalty>TODO</BuySoundtrack_Royalty>
+  <!-- EN: RimWorld - Anomaly Soundtrack -->
+  <BuySoundtrack_Anomaly>TODO</BuySoundtrack_Anomaly>
+  <!-- EN: RimWorld - Odyssey Soundtrack -->
+  <BuySoundtrack_Odyssey>TODO</BuySoundtrack_Odyssey>
+  
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
   <TranslationThanks>Todas as traduções do RimWorld são feitas por fãs. Esta tradução feita por fãs foi criada pelos seguintes excelentes voluntários:\n\n{0}</TranslationThanks>
@@ -116,6 +124,8 @@
   <PlanetCoverageTip>O planeta tem sempre o mesmo diâmetro, mas visto que é mais largo do que o necessário para jogar, não vamos gerar toda a superfície porque pode demorar mais tempo. Isto é a percentagem da superfície que queres que seja gerada.</PlanetCoverageTip>
   <!-- EN: Factions -->
   <WorldFactionsTab>Fações</WorldFactionsTab>
+  <!-- EN: Advanced settings -->
+  <AdvancedSettings>TODO</AdvancedSettings>
 
   <!-- Select world -->
   <!-- EN: Select world -->
@@ -326,6 +336,20 @@
   <Incompatible>Incompatível</Incompatible>
   <!-- EN: Tag as translation -->
   <TagAsTranslation>Marcar como tradução</TagAsTranslation>
+  <!-- EN: Build asset pack -->
+  <UploadBuildAssetPack>TODO</UploadBuildAssetPack>
+  <!-- EN: Packs textures and sounds into an asset pack in each load folder before uploading, to improve download and load times. Untick this to upload the mod folder as it is. -->
+  <UploadBuildAssetPackTip>TODO</UploadBuildAssetPackTip>
+  <!-- EN: Don't upload source textures -->
+  <UploadSkipSourceTextures>TODO</UploadSkipSourceTextures>
+  <!-- EN: Skips uploading the original image and sound files that were included in asset packs. Leave this unticked if you need compatibility with RimWorld 1.6 or earlier. -->
+  <UploadSkipSourceTexturesTip>TODO</UploadSkipSourceTexturesTip>
+  <!-- EN: Baking asset packs -->
+  <BakingModAssetPacks>TODO</BakingModAssetPacks>
+  <!-- EN: Baking asset packs for {0} -->
+  <BakingModAssetPacksFor>TODO</BakingModAssetPacksFor>
+  <!-- EN: Baking the asset packs for {0} failed, the mod was not uploaded: -->
+  <ModAssetPackBakeFailed>TODO</ModAssetPackBakeFailed>
   <!-- EN: Too many (max {0}):  -->
   <TooMany>Muitos (máx. {0}):</TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
@@ -481,6 +505,10 @@
   <Difficulty_UnwaveringPrisoners_Label>Adicionar prisioneiros inabaláveis</Difficulty_UnwaveringPrisoners_Label>
   <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
   <Difficulty_UnwaveringPrisoners_Info>Esta opção adiciona prisioneiros capturáveis adicionais ao jogo que não podem ser recrutados devido à lealdade inabalável.\n\nPrisioneiros inabaláveis são adicionados aos prisioneiros normais, portanto, desativar esta opção não dará mais prisioneiros recrutáveis - simplesmente remove os inabaláveis.\n\nOs prisioneiros inabaláveis ainda podem ser libertados para ganhos diplomáticos, vendidos, escravizados, extraídos para obter órgãos ou de outra forma utilizados. Em geral, oferecem mais opções e funcionalidades, e tornam o jogo um pouco mais rico e fácil.</Difficulty_UnwaveringPrisoners_Info>
+  <!-- EN: Nomadic mineable resources -->
+  <Difficulty_NomadicMineableResourcesFactor_Label>TODO</Difficulty_NomadicMineableResourcesFactor_Label>
+  <!-- EN: Adjust how many mineable resources are generated on maps after your first.\n\nNote: Your first colony map will always generate with the standard amount of resources. -->
+  <Difficulty_NomadicMineableResourcesFactor_Info>TODO</Difficulty_NomadicMineableResourcesFactor_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>Ferramentas de jogador</DifficultyPlayerToolsSection>
@@ -560,6 +588,8 @@
   <River>Rio</River>
   <!-- EN: Elevation -->
   <Elevation>Elevação</Elevation>
+  <!-- EN: Features -->
+  <TileMutators>TODO</TileMutators>
   <!-- EN: Fertility -->
   <Fertility>Fertilidade</Fertility>
   <!-- EN: fertility -->
@@ -721,6 +751,12 @@
   <ClickForMoreInfo>Clica para mais informação.</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>Nenhuma informação disponível.</NoMoreInfoAvailable>
+  <!-- EN: Best skill -->
+  <BestSkillLabel>TODO</BestSkillLabel>
+  <!-- EN: {PAWN_nameDef}'s best stat -->
+  <BestSkillLetterLabel>TODO</BestSkillLetterLabel>
+  <!-- EN: skill level {0} -->
+  <BestSkillInfoLevel>TODO</BestSkillInfoLevel>
 
   <!-- Factions -->
   <!-- EN: Factions -->
@@ -739,5 +775,11 @@
   <MechanoidsDisabledContentWarning>Desativar {0} signifca que terás uma menor variedade de missões e ameaças.</MechanoidsDisabledContentWarning>
   <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
   <FactionsDisabledWarning>Sem outras fações, ataques, negociações e missões não ocorrerão habitualmente.</FactionsDisabledWarning>
+  <!-- EN: Cannot be removed for this scenario. -->
+  <FactionRemovalDisabled>TODO</FactionRemovalDisabled>
+
+  <!-- UNUSED -->
+  <Forums>Fóruns</Forums>
+  <TynansTwitter>Twitter do Tynan</TynansTwitter>
 
 </LanguageData>

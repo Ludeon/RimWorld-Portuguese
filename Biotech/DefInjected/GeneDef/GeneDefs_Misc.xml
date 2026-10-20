@@ -1,5 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: indoor dweller -->
+  <CaveDweller.label>TODO</CaveDweller.label>
+  <!-- EN: Carriers of this gene have no need for the outdoors and will never feel cooped up no matter how long they stay inside. -->
+  <CaveDweller.description>TODO</CaveDweller.description>
+  
   <!-- EN: dark vision -->
   <DarkVision.label>visão escura</DarkVision.label>
   <!-- EN: Carriers of this gene see well in low light and are unaffected by mood penalties related to darkness. They have a reflective layer behind the retina that amplifies their ability to see in the dark. -->
@@ -20,6 +26,7 @@
   <DarkVision.symbolPack.prefixSymbols.6.symbol>umbra</DarkVision.symbolPack.prefixSymbols.6.symbol>
   <!-- EN: shadow -->
   <DarkVision.symbolPack.suffixSymbols.0.symbol>sombra</DarkVision.symbolPack.suffixSymbols.0.symbol>
+  
   <!-- EN: fire resistant -->
   <FireResistant.label>resistente ao fogo</FireResistant.label>
   <!-- EN: Carriers of this gene have special fast-acting sweat glands and heat-resistant skin. They only take 25% of the normal damage from fire. The chance of them catching on fire is also drastically reduced. -->
@@ -32,18 +39,22 @@
   <FireResistant.symbolPack.prefixSymbols.1.symbol>molhado</FireResistant.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: foam -->
   <FireResistant.symbolPack.suffixSymbols.0.symbol>espuma de espuma</FireResistant.symbolPack.suffixSymbols.0.symbol>
+  
   <!-- EN: inbred -->
   <Inbred.label>inspiração</Inbred.label>
   <!-- EN: This genetic condition affects a person's fertility, immunity, and mental capacity. -->
   <Inbred.description>Esta condição genética afeta a fertilidade, imunidade e capacidade mental de uma pessoa.</Inbred.description>
+  
   <!-- EN: major cell instability -->
   <Instability_Major.label>grande instabilidade celular</Instability_Major.label>
   <!-- EN: Carriers of this gene need much less metabolic energy to stay alive, at the cost of greatly-reduced stability in their cell-replication machinery. -->
   <Instability_Major.description>Os portadores deste gene precisam de muito menos energia metabólica para permanecer vivo, ao custo de estabilidade muito reduzida em suas máquinas de redução de células.</Instability_Major.description>
+  
   <!-- EN: mild cell instability -->
   <Instability_Mild.label>instabilidade celular leve</Instability_Mild.label>
   <!-- EN: Carriers of this gene need less metabolic energy to stay alive, at the cost of reduced stability in their cell-replication machinery. -->
   <Instability_Mild.description>Os portadores deste gene precisam de menos energia metabólica para permanecer vivo, ao custo de estabilidade reduzida em suas máquinas de redução de células.</Instability_Mild.description>
+  
   <!-- EN: kill thirst -->
   <KillThirst.label>matar a sede</KillThirst.label>
   <!-- EN: Carriers of this gene lust for the feeling of ending another's life. They will become irritated if they go for too long without killing someone in close combat. -->
@@ -70,6 +81,7 @@
   <KillThirst.symbolPack.suffixSymbols.1.symbol>assassino</KillThirst.symbolPack.suffixSymbols.1.symbol>
   <!-- EN: slayer -->
   <KillThirst.symbolPack.suffixSymbols.2.symbol>caçadora</KillThirst.symbolPack.suffixSymbols.2.symbol>
+  
   <!-- EN: kind instinct -->
   <KindInstinct.label>instinto gentil</KindInstinct.label>
   <!-- EN: Carriers of this gene are high in trait agreeableness and are very conscientious. They rarely insult others and will sometimes offer kind words to brighten the moods of those around them. They also never judge people by their appearance. -->
@@ -94,10 +106,12 @@
   <KindInstinct.symbolPack.prefixSymbols.7.symbol>sou eu</KindInstinct.symbolPack.prefixSymbols.7.symbol>
   <!-- EN: pleas -->
   <KindInstinct.symbolPack.prefixSymbols.8.symbol>fundamentos</KindInstinct.symbolPack.prefixSymbols.8.symbol>
+  
   <!-- EN: naked speed -->
   <NakedSpeed.label>velocidade nua</NakedSpeed.label>
   <!-- EN: Carriers of this gene move slower while clothed, and faster while naked. -->
   <NakedSpeed.description>Transportadores deste gene movem-se mais devagar enquanto vestido, e mais rápido enquanto nu.</NakedSpeed.description>
+  
   <!-- EN: nearsighted -->
   <Nearsighted.label>perto de visão</Nearsighted.label>
   <!-- EN: Carriers of this gene have difficulty seeing at a distance. Their shooting accuracy at long ranges is reduced. -->
@@ -116,12 +130,14 @@
   <Nearsighted.symbolPack.suffixSymbols.0.symbol>avistador</Nearsighted.symbolPack.suffixSymbols.0.symbol>
   <!-- EN: peeker -->
   <Nearsighted.symbolPack.suffixSymbols.1.symbol>peeker</Nearsighted.symbolPack.suffixSymbols.1.symbol>
+  
   <!-- EN: pollution stimulus -->
   <PollutionRush.label>estímulo à poluição</PollutionRush.label>
   <!-- EN: Carriers of this gene get a chemical rush from being exposed to pollution. This makes them move faster and helps them think clearer. A similar gene is found in combat-engineered mega-insects. -->
   <PollutionRush.description>Os portadores deste gene têm uma pressa química de ser exposto à poluição. Isso faz com que eles se movam mais rápido e os ajuda a pensar mais claro. Um gene semelhante é encontrado em mega-insetos com motor de combate.</PollutionRush.description>
   <!-- EN: Gain stat bonuses when exposed to pollution. -->
   <PollutionRush.customEffectDescriptions.0>Ganhe bônus de estatísticas quando exposto à poluição.</PollutionRush.customEffectDescriptions.0>
+  
   <!-- EN: psychic bonding -->
   <PsychicBonding.label>ligação psíquica</PsychicBonding.label>
   <!-- EN: Carriers of this gene have a special neural organ that makes them psychically bond with a lover for life. As long as the lovers are together, they will be happy. If they are physically separated, they will be disturbed by the distance. If one dies, the other's mind will be badly disrupted. -->
@@ -130,6 +146,7 @@
   <PsychicBonding.customEffectDescriptions.0>O romance tenta sempre ter sucesso.</PsychicBonding.customEffectDescriptions.0>
   <!-- EN: Gains psychic bond with first romantic partner. -->
   <PsychicBonding.customEffectDescriptions.1>Ganha ligação psíquica com primeiro parceiro romântico.</PsychicBonding.customEffectDescriptions.1>
+  
   <!-- EN: robust digestion -->
   <RobustDigestion.label>digestão robusta</RobustDigestion.label>
   <!-- EN: Carriers of this gene grow a multi-fold stomach, allowing them to digest raw foods more efficiently than baseline humans. In general, they get the same nutrition from raw food as from if it is cooked. They also don't mind the taste of raw food at all. -->
@@ -162,6 +179,7 @@
   <RobustDigestion.symbolPack.wholeNameSymbols.1.symbol>muncher</RobustDigestion.symbolPack.wholeNameSymbols.1.symbol>
   <!-- EN: grubber -->
   <RobustDigestion.symbolPack.wholeNameSymbols.2.symbol>grubber</RobustDigestion.symbolPack.wholeNameSymbols.2.symbol>
+  
   <!-- EN: strong stomach -->
   <StrongStomach.label>estômago forte</StrongStomach.label>
   <!-- EN: Carriers of this gene have an extra toxin-filtering organ in their stomach and will never suffer from food poisoning even after eating rotten food. -->
@@ -176,10 +194,12 @@
   <StrongStomach.symbolPack.prefixSymbols.3.symbol>câmbio</StrongStomach.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: vore -->
   <StrongStomach.symbolPack.suffixSymbols.0.symbol>vore</StrongStomach.symbolPack.suffixSymbols.0.symbol>
+  
   <!-- EN: unstoppable -->
   <Unstoppable.label>imparável</Unstoppable.label>
   <!-- EN: Carriers of this gene are not slowed down when taking damage. -->
   <Unstoppable.description>Os portadores deste gene não são retardados ao tomar danos.</Unstoppable.description>
+  
   <!-- EN: violence disabled -->
   <ViolenceDisabled.label>violência deficientes</ViolenceDisabled.label>
   <!-- EN: Carriers of this gene are emotionally and mentally incapable of engaging in violence. They are overwhelmingly resistant to and horrified by the idea of hurting another. -->
@@ -196,4 +216,10 @@
   <ViolenceDisabled.symbolPack.prefixSymbols.3.symbol>doce</ViolenceDisabled.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: dove -->
   <ViolenceDisabled.symbolPack.suffixSymbols.0.symbol>doce</ViolenceDisabled.symbolPack.suffixSymbols.0.symbol>
+  
+  <!-- EN: webbed phalanges -->
+  <WebbedPhalanges.label>TODO</WebbedPhalanges.label>
+  <!-- EN: Carriers of this gene have webbed fingers and toes, allowing them to move faster in water. Webbed fingers slightly reduce fine motor control. -->
+  <WebbedPhalanges.description>TODO</WebbedPhalanges.description>
+  
 </LanguageData>

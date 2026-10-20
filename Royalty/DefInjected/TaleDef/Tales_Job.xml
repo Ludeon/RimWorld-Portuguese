@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: attended concert -->
   <AttendedConcert.label>concerto frequentado</AttendedConcert.label>
   <!-- EN:
@@ -13,7 +14,11 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s dance along.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s listen attentively.</li>
   -->
-  <AttendedConcert.rulePack.rulesStrings>&lt;li&gt;tale_noun-&gt;[ATTENDER_nameDef] participando [ORGANIZER_nameDef] do concerto&lt;/li&gt;\n&lt;li&gt;tale_noun-&gt;[ATTENDER_nameDef] ouvindo [ORGANIZER_nameDef] o desempenho&lt;/li&gt;\n&lt;li&gt;image-&gt;[ATTENDER_nameFull] escuta silenciosamente, [circumstance_group]&lt;/li&gt;\n&lt;li&gt;image-&gt;[ATTENDER_nameFull] aproveitando o desempenho [ORGANIZER_nameFull] [circumstance_group]&lt;/li&gt;\n&lt;li&gt;image-&gt;[ATTENDER_nameFull] balançando para a música [circumstance_group]&lt;/li&gt;\n&lt;li&gt;image-&gt;[ATTENDER_nameFull] absorvido no som [circumstance_group]&lt;/li&gt;\n&lt;li&gt;circumstance_phrase-&gt; enquanto clapping&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; [Quantity_adjphrase] [PersonJob]s dance along.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; [Quantity_adjphrase] [Animal]s ouvir atentamente.&lt;/li&gt;\n</AttendedConcert.rulePack.rulesStrings>
+  <AttendedConcert.rulePack.rulesStrings>&lt;li>tale_noun->[ATTENDER_nameDef] participando [ORGANIZER_nameDef] do concerto&lt;/li>\n&lt;li>tale_noun->[ATTENDER_nameDef] ouvindo [ORGANIZER_nameDef] o desempenho&lt;/li>\n&lt;li>image->[ATTENDER_nameFull] escuta silenciosamente, [circumstance_group]&lt;/li>\n&lt;li>image->[ATTENDER_nameFull] aproveitando o desempenho [ORGANIZER_nameFull] [circumstance_group]&lt;/li>\n&lt;li>image->[ATTENDER_nameFull] balançando para a música [circumstance_group]&lt;/li>\n&lt;li>image->[ATTENDER_nameFull] absorvido no som [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> enquanto clapping&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [PersonJob]s dance along.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s ouvir atentamente.&lt;/li>\n</AttendedConcert.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <AttendedConcert.rulePack.rulesStrings>&lt;li>tale_noun->[ATTENDER_nameDef] participando [ORGANIZER_nameDef] do concerto&lt;/li>\n&lt;li>tale_noun->[ATTENDER_nameDef] ouvindo [ORGANIZER_nameDef] o desempenho&lt;/li>\n&lt;li>image->[ATTENDER_nameFull] escuta silenciosamente, [circumstance_group]&lt;/li>\n&lt;li>image->[ATTENDER_nameFull] aproveitando o desempenho [ORGANIZER_nameFull] [circumstance_group]&lt;/li>\n&lt;li>image->[ATTENDER_nameFull] balançando para a música [circumstance_group]&lt;/li>\n&lt;li>image->[ATTENDER_nameFull] absorvido no som [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> enquanto clapping&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [PersonJob]s dance along.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s ouvir atentamente.&lt;/li>\n</AttendedConcert.rulePack.rulesStrings>
+  
   <!-- EN: held concert -->
   <HeldConcert.label>concerto</HeldConcert.label>
   <!-- EN:
@@ -26,5 +31,9 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s listen nearby.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s listen nearby.</li>
   -->
-  <HeldConcert.rulePack.rulesStrings>&lt;li&gt;tale_noun-&gt;[ORGANIZER_nameDef] realizando um concerto&lt;/li&gt;\n&lt;li&gt;image-&gt;[ORGANIZER_nameFull] tocando sua canção de assinatura [circumstance_group]&lt;/li&gt;\n&lt;li&gt;image-&gt;[ORGANIZER_nameFull] convidando a multidão a cantar ao longo de&lt;/li&gt;\n&lt;li&gt;image-&gt;[ORGANIZER_nameFull] tocando uma música inspiradora&lt;/li&gt;\n&lt;li&gt;image-&gt;[ORGANIZER_nameFull] executando uma peça difícil [circumstance_group]&lt;/li&gt;\n&lt;li&gt;circumstance_phrase-&gt; com uma expressão intensa&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; [Quantity_adjphrase] [PersonJob]s ouvir nas proximidades.&lt;/li&gt;\n&lt;li&gt;desc_sentence-&gt; [Quantity_adjphrase] [Animal]s ouvir nas proximidades.&lt;/li&gt;\n</HeldConcert.rulePack.rulesStrings>
+  <HeldConcert.rulePack.rulesStrings>&lt;li>tale_noun->[ORGANIZER_nameDef] realizando um concerto&lt;/li>\n&lt;li>image->[ORGANIZER_nameFull] tocando sua canção de assinatura [circumstance_group]&lt;/li>\n&lt;li>image->[ORGANIZER_nameFull] convidando a multidão a cantar ao longo de&lt;/li>\n&lt;li>image->[ORGANIZER_nameFull] tocando uma música inspiradora&lt;/li>\n&lt;li>image->[ORGANIZER_nameFull] executando uma peça difícil [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> com uma expressão intensa&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [PersonJob]s ouvir nas proximidades.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s ouvir nas proximidades.&lt;/li>\n</HeldConcert.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <HeldConcert.rulePack.rulesStrings>&lt;li>tale_noun->[ORGANIZER_nameDef] realizando um concerto&lt;/li>\n&lt;li>image->[ORGANIZER_nameFull] tocando sua canção de assinatura [circumstance_group]&lt;/li>\n&lt;li>image->[ORGANIZER_nameFull] convidando a multidão a cantar ao longo de&lt;/li>\n&lt;li>image->[ORGANIZER_nameFull] tocando uma música inspiradora&lt;/li>\n&lt;li>image->[ORGANIZER_nameFull] executando uma peça difícil [circumstance_group]&lt;/li>\n&lt;li>circumstance_phrase-> com uma expressão intensa&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [PersonJob]s ouvir nas proximidades.&lt;/li>\n&lt;li>desc_sentence-> [Quantity_adjphrase] [Animal]s ouvir nas proximidades.&lt;/li>\n</HeldConcert.rulePack.rulesStrings>
+  
 </LanguageData>

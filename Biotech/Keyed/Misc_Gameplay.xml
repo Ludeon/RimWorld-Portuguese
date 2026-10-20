@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
   <!-- EN: Dormant self-charging -->
   <SelfShutdown>Dormant auto-carregamento</SelfShutdown>
   <!-- EN: Carry to recharger -->
@@ -26,10 +27,20 @@
   <CaravanMechsCount>mechs</CaravanMechsCount>
   <!-- EN: {BOSS} with {APPAREL} -->
   <BossWithApparel>Com licença</BossWithApparel>
+  <!-- EN: Resulting from gene -->
+  <ComesFromGene>TODO</ComesFromGene>
+
+  <!-- Job reports -->
   <!-- EN: removing {0}. -->
   <ReportRemovingMechlink>removendo {0}.</ReportRemovingMechlink>
+  <!-- EN: from {TEACHER_labelShort} -->
+  <ReportTakingLessonFrom>TODO</ReportTakingLessonFrom>
+
+  <!-- Areas -->
   <!-- EN: Pollution clear -->
   <PollutionClear>Poluição</PollutionClear>
+
+  <!-- Mechanitor -->
   <!-- EN: Overseer -->
   <Overseer>Overseer</Overseer>
   <!-- EN: None (not under control) -->
@@ -92,6 +103,8 @@
   <ReadyToSummonThreat>{0} ameaça pronta para convocar</ReadyToSummonThreat>
   <!-- EN: Summon {0} threat -->
   <Summon>Soma [0] ameaça</Summon>
+  <!-- EN: Mechanoids disabled -->
+  <MechsDisabled>TODO</MechsDisabled>
   <!-- EN: No reachable {0} -->
   <NoReachableBossgroupCaller>Não acessível {0}</NoReachableBossgroupCaller>
   <!-- EN: No reservable {0} -->
@@ -112,6 +125,8 @@
   <Uncontrolled>Descontrolado</Uncontrolled>
   <!-- EN: incoming {0} -->
   <BossgroupIncoming>entrando não</BossgroupIncoming>
+
+  <!-- Sanguophage -->
   <!-- EN: hemogen -->
   <Hemogen>hemograma</Hemogen>
   <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
@@ -172,6 +187,8 @@
   <WillCauseSeriousBloodloss>Vai causar grande perda de sangue</WillCauseSeriousBloodloss>
   <!-- EN: too small -->
   <TooSmall>demasiado pequeno</TooSmall>
+
+  <!-- Deathrest buildings -->
   <!-- EN: Bound to -->
   <BoundTo>Bound to</BoundTo>
   <!-- EN: Will bind permanently on first use. -->
@@ -186,6 +203,8 @@
   <CannotAssignAlreadyBound>Já ligado a {0_nameDef}</CannotAssignAlreadyBound>
   <!-- EN: Cannot bind to more {BUILDING_labelPlural} -->
   <CannotAssignBedCannotBindToMoreBuildings>Não se pode ligar a mais (BUILDING_labelPlural}</CannotAssignBedCannotBindToMoreBuildings>
+
+  <!-- Aptitudes -->
   <!-- EN: aptitude -->
   <Aptitude>aptitude</Aptitude>
   <!-- EN: aptitudes -->
@@ -196,6 +215,8 @@
   <AptitudesDesc>A aptidão faz um indivíduo executar em um nível superior ou inferior do que sua habilidade aprendida.\n\nPor exemplo, uma aptidão de +1 para uma habilidade significa que uma pessoa com nível 5 nessa habilidade irá executar como se estivesse no nível 6.\n\nO valor total não pode exceder o nível 20 ou descer abaixo do nível 1.</AptitudesDesc>
   <!-- EN: total -->
   <Total>total</Total>
+  
+  <!-- Human pregnancy -->
   <!-- EN: Father -->
   <FatherTip>Pai</FatherTip>
   <!-- EN: Genetic mother -->
@@ -232,10 +253,8 @@
   <BirthRitualHealthyBabyChance>A chance de um nascimento saudável neste nível de qualidade foi {0_percentage}.</BirthRitualHealthyBabyChance>
   <!-- EN: Giving birth. -->
   <GivingBirth>Dar à luz.</GivingBirth>
-  <!-- EN: Shield energy -->
-  <ShieldEnergy>Energia do escudo</ShieldEnergy>
-  <!-- EN: Time to recovery -->
-  <ShieldTimeToRecovery>Tempo de recuperação</ShieldTimeToRecovery>
+
+  <!-- Genes -->
   <!-- EN: genes -->
   <Genes>genes</Genes>
   <!-- EN: The genes associated with this xenotype. -->
@@ -303,31 +322,31 @@
   <!-- EN: Stop all work on the current xenogerm. -->
   <CancelXenogermDesc>Pare todo o trabalho no xenogerm atual.</CancelXenogermDesc>
   <!-- EN: Allow all genepacks -->
-  <AllowAllGenepacks>Permitir todos os pacotes gene</AllowAllGenepacks>
+  <AllowAllGenepacks>Permitir todos os pacotes gene</AllowAllGenepacks> 
   <!-- EN: Whether or not colonists are allowed to automatically store any genepack into this container. Turn this off if you want to specify which specific genepacks should be stored here. -->
-  <AllowAllGenepacksDesc>Se os colonos são autorizados a armazenar automaticamente qualquer pacote genético neste recipiente. Desligue isso se quiser especificar quais pacotes específicos devem ser armazenados aqui.</AllowAllGenepacksDesc>
+  <AllowAllGenepacksDesc>Se os colonos são autorizados a armazenar automaticamente qualquer pacote genético neste recipiente. Desligue isso se quiser especificar quais pacotes específicos devem ser armazenados aqui.</AllowAllGenepacksDesc> 
   <!-- EN: The genepacks currently inside this container. -->
-  <ContainedGenepacksDesc>Os genepacks atualmente dentro deste recipiente.</ContainedGenepacksDesc>
+  <ContainedGenepacksDesc>Os genepacks atualmente dentro deste recipiente.</ContainedGenepacksDesc> 
   <!-- EN: The genepacks designated to be loaded into this container. -->
-  <GenepacksToLoadDesc>Os pacotes de genes designados para serem carregados neste recipiente.</GenepacksToLoadDesc>
+  <GenepacksToLoadDesc>Os pacotes de genes designados para serem carregados neste recipiente.</GenepacksToLoadDesc> 
   <!-- EN: Unstored genepacks that are not designated to be loaded into this container. -->
-  <GenepacksIgnoredDesc>Pacotes de gene não armazenados que não são designados para ser carregado neste recipiente.</GenepacksIgnoredDesc>
+  <GenepacksIgnoredDesc>Pacotes de gene não armazenados que não são designados para ser carregado neste recipiente.</GenepacksIgnoredDesc> 
   <!-- EN: Genepacks to load -->
-  <GenepacksToLoad>Genepacks para carregar</GenepacksToLoad>
+  <GenepacksToLoad>Genepacks para carregar</GenepacksToLoad> 
   <!-- EN: Genepacks to ignore -->
-  <GenepacksToIgnore>Genepacks para ignorar</GenepacksToIgnore>
+  <GenepacksToIgnore>Genepacks para ignorar</GenepacksToIgnore> 
   <!-- EN: Eject this genepack from the container. -->
-  <EjectGenepackDesc>Ejetar este pacote gene do recipiente.</EjectGenepackDesc>
+  <EjectGenepackDesc>Ejetar este pacote gene do recipiente.</EjectGenepackDesc> 
   <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
-  <ConfirmRemoveGenepack>Queres mesmo ejetar? Ele será imediatamente ejetado no chão nas proximidades.</ConfirmRemoveGenepack>
+  <ConfirmRemoveGenepack>Queres mesmo ejetar? Ele será imediatamente ejetado no chão nas proximidades.</ConfirmRemoveGenepack> 
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>Falta de pesquisa necessária</MissingRequiredResearch>
   <!-- EN: No genepacks available in nearby gene banks. -->
-  <NoGenepacksAvailable>Nenhum genepacks disponível em bancos gene próximos.</NoGenepacksAvailable>
+  <NoGenepacksAvailable>Nenhum genepacks disponível em bancos gene próximos.</NoGenepacksAvailable> 
   <!-- EN: Allow this genepack to be loaded into this container. -->
-  <AddToLoadingListDesc>Permita que este genepack seja carregado neste recipiente.</AddToLoadingListDesc>
+  <AddToLoadingListDesc>Permita que este genepack seja carregado neste recipiente.</AddToLoadingListDesc> 
   <!-- EN: Remove this genepack from the loading list. -->
-  <RemoveFromLoadingListDesc>Remova este genepack da lista de carregamento.</RemoveFromLoadingListDesc>
+  <RemoveFromLoadingListDesc>Remova este genepack da lista de carregamento.</RemoveFromLoadingListDesc> 
   <!-- EN: Recombine -->
   <Recombine>Recombinação</Recombine>
   <!-- EN: Create a new implantable xenogerm using data from genepacks in your gene library. -->
@@ -416,14 +435,18 @@
   <MissingGeneRomanceChance>Não há hipótese de romance</MissingGeneRomanceChance>
   <!-- EN: Not in gene bank -->
   <NotInGeneBank>Não no banco gene</NotInGeneBank>
+
+  <!-- Child birth -->
   <!-- EN: Gather to help a mother give birth. A doctor can help deliver the baby. -->
   <ChildBirthAlwaysHealthy_Desc>Reúna para ajudar uma mãe a dar à luz. Um médico pode ajudar a entregar o bebé.</ChildBirthAlwaysHealthy_Desc>
   <!-- EN: until the baby is born -->
   <UntilBabyIsBorn>até o bebê nascer</UntilBabyIsBorn>
+
   <!-- EN: Children want to learn from different activities at different times. -->
   <LearningDesireTooltip>As crianças querem aprender com diferentes atividades em diferentes momentos.</LearningDesireTooltip>
   <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
   <DevelopmentHealthGizmoTooltip>A saúde do desenvolvimento é a média da necessidade de aprendizagem de uma criança desde o seu último aniversário.\n\nCrianças com maior saúde de desenvolvimento terão mais opções durante os momentos de crescimento e ganharão mais paixões por habilidades.</DevelopmentHealthGizmoTooltip>
+
   <!-- EN: Must not be placed close to another {0_label} -->
   <MustNotBePlacedCloseToAnother>Não deve ser colocado perto de outro {0_label}</MustNotBePlacedCloseToAnother>
   <!-- EN: Next terrain pollution in -->
@@ -438,12 +461,16 @@
   <CannotAssignMechToControlGroup>Não é possível atribuir ao grupo de controle {0}</CannotAssignMechToControlGroup>
   <!-- EN: Already assigned -->
   <AssignMechAlreadyAssigned>Já atribuído</AssignMechAlreadyAssigned>
+
+  <!-- Lactation -->
   <!-- EN: Consuming an extra {0} nutrition per day to produce milk (milk production speed is {1_percentage} because of the current food level). -->
   <LactatingAddedNutritionPerDay>Consumir uma nutrição extra por dia para produzir leite (a velocidade de produção de leite é {1_percentage} por causa do nível alimentar atual).</LactatingAddedNutritionPerDay>
   <!-- EN: Lactation is paused because milk fullness is 100% -->
   <LactatingStoppedBecauseFull>Lactação é pausada porque a plenitude do leite é 100%</LactatingStoppedBecauseFull>
   <!-- EN: Lactation is paused due to starvation. -->
   <LactatingStoppedBecauseHungry>Lactação é pausada devido à fome.</LactatingStoppedBecauseHungry>
+
+  <!-- Mech gestating -->
   <!-- EN: Current gestation cycle -->
   <CurrentGestationCycle>Ciclo de gestação atual</CurrentGestationCycle>
   <!-- EN: Gestation cycles remaining -->
@@ -464,6 +491,8 @@
   <ResurrectingMech>Ressurreição {0}</ResurrectingMech>
   <!-- EN: Resurrected {0} -->
   <ResurrectedMech>Ressuscitado {0}</ResurrectedMech>
+
+  <!-- Carrier -->
   <!-- EN: Release {0} -->
   <MechCarrierRelease>Comunicado (0}</MechCarrierRelease>
   <!-- EN: Release a swarm of up to {0} {1}. Each {2} costs {3} {4} to build. If the parent is destroyed then all the linked {1} will die. {1} cannot be recharged and will die once their power source runs out. -->
@@ -476,14 +505,21 @@
   <MechCarrierClickToSetAutofillAmount>Clique para definir a quantidade de preenchimento automático desejada.</MechCarrierClickToSetAutofillAmount>
   <!-- EN: This autofill amount determines the maximum amount of resources your colonists will automatically place in this {0}. Resources can be used to create {1}. -->
   <MechCarrierAutofillDesc>Esta quantidade de preenchimento automático determina a quantidade máxima de recursos que seus colonos colocarão automaticamente neste {0}. Os recursos podem ser usados para criar {1}.</MechCarrierAutofillDesc>
+
+  <!-- Mech power cell -->
   <!-- EN: Power cell -->
   <MechPowerCell>Célula de poder</MechPowerCell>
   <!-- EN: War urchins have a one-time power source. When the power cell runs out, the mechanoid dies. -->
   <MechPowerCellTip>Os ouriços de guerra têm uma fonte de energia única. Quando a célula de energia acabar, o mecanóide morre.</MechPowerCellTip>
+  
+
+  <!-- Bossgroup -->
   <!-- EN: available in {0}. -->
   <BossgroupAvailableIn>disponível em {0}.</BossgroupAvailableIn>
   <!-- EN: requires mechanitor -->
   <RequiresMechanitor>requer mecanismo</RequiresMechanitor>
+
+  <!-- Abilities -->
   <!-- EN: {0_labelShort} is not hemogenic. -->
   <AbilityDisabledNoHemogenGene>Não. Não é hemogênico.</AbilityDisabledNoHemogenGene>
   <!-- EN: {0_labelShort} does not have enough hemogen. -->
@@ -504,8 +540,11 @@
   <AbilityMechFirefoampopCharged>Firefoam pop carregado</AbilityMechFirefoampopCharged>
   <!-- EN: Firefoam pop recharged in {0} -->
   <AbilityMechFirefoampopRecharging>Firefoam pop recarregada em {0}</AbilityMechFirefoampopRecharging>
+
   <!-- EN: Polluted {0} -->
   <PollutedTerrain>Poluída</PollutedTerrain>
+
+  <!-- Growth vat -->
   <!-- EN: Biostarvation -->
   <Biostarvation>Biostarvation</Biostarvation>
   <!-- EN: One or more growth vats are experiencing biostarvation from lack of nutrition or power.\n\nIf biostarvation reaches 100%, the contained people will die. -->
@@ -534,8 +573,12 @@
   <NoPawnsCanEnterGrowthVat>Não há pessoas não-biostarving de idade aceitável. Para entrar no vat de crescimento, a pessoa deve estar abaixo {0} anos de idade e não atualmente biostarving.</NoPawnsCanEnterGrowthVat>
   <!-- EN: Aging speed -->
   <AgingSpeed>Velocidade de envelhecimento</AgingSpeed>
+
+  <!-- Mech charger -->
   <!-- EN: Waste -->
   <WasteLevel>Resíduos</WasteLevel>
+
+  <!-- Dissolution -->
   <!-- EN: indoors -->
   <DissolutionRateIndoors>interior</DissolutionRateIndoors>
   <!-- EN: raining -->
@@ -544,10 +587,14 @@
   <DissolvesEvery>Um pacote de resíduos dissolve cada {0}</DissolvesEvery>
   <!-- EN: Frozen (won't dissolve). -->
   <DissolutionFrozen>Congelado (não dissolver).</DissolutionFrozen>
+
   <!-- EN: {0} cells / day -->
   <CellsPerDay>{0} células / dia</CellsPerDay>
+
   <!-- EN: {0} cannot wear clothing for {1} -->
-  <WrongDevelopmentalStageForClothing>{0} não pode usar roupas para {1}</WrongDevelopmentalStageForClothing>
+  <WrongDevelopmentalStageForClothing>{0} não pode usar roupas para {1}</WrongDevelopmentalStageForClothing> 
+
+  <!-- Subcore scanner -->
   <!-- EN: Start scanner -->
   <SubcoreScannerStart>Iniciar scanner</SubcoreScannerStart>
   <!-- EN: Produces -->
@@ -568,8 +615,11 @@
   <SubcoreScannerBabyNotAllowed>Os bebês não são permitidos</SubcoreScannerBabyNotAllowed>
   <!-- EN: Insert a person into the {0}. -->
   <InsertPersonSubcoreScannerDesc>Insira uma pessoa no {0}.</InsertPersonSubcoreScannerDesc>
+
   <!-- EN: Duration (hours) -->
   <DurationHours>Duração (horas)</DurationHours>
+
+  <!-- Age -->
   <!-- EN: adult -->
   <Adult>adulto</Adult>
   <!-- EN: adults -->
@@ -586,16 +636,23 @@
   <FeralChild>criança feral</FeralChild>
   <!-- EN: Wearable by -->
   <WearableBy>Wearable por</WearableBy>
+
   <!-- EN: Xenogerm implantation -->
   <Reward_ReimplantXenogerm_Label>Implantação de Xenogerm</Reward_ReimplantXenogerm_Label>
   <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
   <Reward_ReimplantXenogerm_Desc>Um membro do grupo irá reimplantar seu xenogerm em um colono de sua escolha, transformando assim seu colonista em um deles. O seu colonista continuará a fazer parte da sua facção e sob o seu controlo.</Reward_ReimplantXenogerm_Desc>
+
+  <!-- Mech resurrection -->
   <!-- EN: Mech resurrection charges -->
   <MechResurrectionCharges>Taxas de ressurreição de Mech</MechResurrectionCharges>
+
+  <!-- Mechs -->
   <!-- EN: Mech stun pulse on death -->
   <MechStunPulseWarning>Mech stun pulso na morte</MechStunPulseWarning>
   <!-- EN: {PAWN_nameDef} is in self-shutdown from low energy. -->
   <IsLowEnergySelfShutdown>{PAWN_name Def} está em auto-escolamento de baixa energia.</IsLowEnergySelfShutdown>
+  
+  <!-- Pollution -->
   <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->
   <ShowPollutionOverlayToggleButton>Alternar a poluição sobreposição. Isto mostra quais áreas de terreno são poluídas.\n\nA exposição ao terreno poluído causa acúmulo tóxico que pode levar à morte. A maioria das plantas não pode viver em terreno poluído.</ShowPollutionOverlayToggleButton>
   <!-- EN: None -->
@@ -628,12 +685,18 @@
   <AbsorbingPollutionNext>Absorvendo a poluição: Próximo em {0}</AbsorbingPollutionNext>
   <!-- EN: How polluted the terrain is on this tile.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most crops cannot live on polluted terrain. -->
   <TerrainPollutionTip>Como poluído o terreno está nesta telha.\n\nA exposição ao terreno poluído causa acúmulo tóxico que pode levar à morte. A maioria das culturas não pode viver em terreno poluído.</TerrainPollutionTip>
+
+  <!-- Research -->
   <!-- EN: Requires study of -->
   <StudyRequirementTip>Requer estudo de</StudyRequirementTip>
+
+  <!-- Insect -->
   <!-- EN: Trigger radius -->
   <TriggerRadius>Raio de gatilho</TriggerRadius>
   <!-- EN: Opening -->
   <DormantCompOpening>Abertura</DormantCompOpening>
+  
+  <!-- Fertility -->
   <!-- EN: ova extracted recently -->
   <SurgeryDisableReasonOvumExtracted>ova extraído recentemente</SurgeryDisableReasonOvumExtracted>
   <!-- EN: Fertilize -->
@@ -658,12 +721,14 @@
   <DisabledOption>Não</DisabledOption>
   <!-- EN: No men can fertilize this ovum. -->
   <FertilizeDisabledNoMales>Nenhum homem pode fertilizar este óvulo.</FertilizeDisabledNoMales>
+  
   <!-- EN: Implant embryo -->
   <ImplantLabel>Embrião do implante</ImplantLabel>
   <!-- EN: Implant this embryo in a surrogate mother to begin a pregnancy. -->
   <ImplantDescription>Implante este embrião em uma mãe substituta para começar uma gravidez.</ImplantDescription>
   <!-- EN: Insert in growth vat -->
   <InsertGrowthVatLabel>Inserir no vat de crescimento</InsertGrowthVatLabel>
+
   <!-- EN: Cannot implant -->
   <ImplantCannotFloatOption>Implante não pode</ImplantCannotFloatOption>
   <!-- EN: No woman can be a surrogate mother. -->
@@ -684,20 +749,25 @@
   <EmbryoEjectedFromGrowthVat>O {0} foi expulso de uma cuba de crescimento e destruído.</EmbryoEjectedFromGrowthVat>
   <!-- EN: The {0} was destroyed in a growth vat due to biostarvation. -->
   <EmbryoEjectedFromGrowthVatBiostarvation>O {0} foi destruído em uma cuba de crescimento devido à biostarvação.</EmbryoEjectedFromGrowthVatBiostarvation>
+
   <!-- EN: {0} has successfully become pregnant from embryo implantation! -->
   <IvfPregnancyLetterText>{0} engravidou com sucesso da implantação de embriões!</IvfPregnancyLetterText>
   <!-- EN: The baby will have the genetic makeup of {0} and {1}. -->
   <IvfPregnancyLetterParents>O bebê terá a composição genética de {0} e {1}.</IvfPregnancyLetterParents>
-  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
-  <ProjectileInterceptorTip>Um escudo projetado de baixo ângulo que tentará parar os projéteis recebidos ou estilhaços. Desliga imediatamente se for atingido por um EMP.</ProjectileInterceptorTip>
+
+  <!-- Remote mech shield -->
   <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
   <RemoteMechShieldTip>Um escudo remoto projetado por um mecanitor. Ele vai tentar parar de entrar projéteis ou estilhaços, mas não faz nada contra ataques corporais ou calor. Impede que o usuário dispare, e desliga imediatamente se atingido por EMP</RemoteMechShieldTip>
+
+  <!-- Thoughtdef fallbacks -->
   <!-- EN: my child is happy -->
   <MyChildIsHappy>meu filho está feliz</MyChildIsHappy>
   <!-- EN: my child is sad -->
-  <MyChildIsSad>meu filho está triste</MyChildIsSad>
+  <MyChildIsSad>meu filho está triste</MyChildIsSad> 
+  
   <!-- EN: Genetic {CHEMICAL_label} dependency -->
   <GeneticChemicalDependency_Label>Dependência genética (CHEMICAL_label}</GeneticChemicalDependency_Label>
   <!-- EN: I need {CHEMICAL_label} because of my genetic deficiency. It's been so long since I've had any. -->
   <GeneticChemicalDependency_Desc>Preciso {CHEMICAL_label} por causa da minha deficiência genética. Há tanto tempo que não tenho nenhum.</GeneticChemicalDependency_Desc>
+
 </LanguageData>

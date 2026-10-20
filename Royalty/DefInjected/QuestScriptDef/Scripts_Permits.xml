@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN:
     <li>questName->Laborers</li>
     <li>questDescription-></li>
   -->
-  <Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>&lt;li&gt;questNome-&gt;Laborers&lt;/li&gt;\n&lt;li&gt;questDescription-&gt;&lt;/li&gt;\n</Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>
+  <Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>&lt;li>questNome->Laborers&lt;/li>\n&lt;li>questDescription->&lt;/li>\n</Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>
   <!-- EN: Laborers arrived -->
   <Permit_CallLaborers.LetterLabelLaborersArrived.slateRef>Trabalhadores chegaram</Permit_CallLaborers.LetterLabelLaborersArrived.slateRef>
   <!-- EN: The laborers from [permitFaction_name] have arrived. A shuttle will come to collect them in [laborersDurationDays] days. -->
@@ -19,4 +20,12 @@
   <Permit_CallLaborers.LetterLabelLaborerDied.slateRef>O trabalhador morreu:</Permit_CallLaborers.LetterLabelLaborerDied.slateRef>
   <!-- EN: A laborer sent to you by [permitFaction_name] has died. Your goodwill with [permitFaction_name] has fallen by [goodwillPenaltyPawn]. -->
   <Permit_CallLaborers.LetterTextLaborerDied.slateRef>Um trabalhador enviado a você por [permitFaction_name] morreu. Sua boa vontade com [permitFaction_name] caiu por [goodwillPenaltyPawn].</Permit_CallLaborers.LetterTextLaborerDied.slateRef>
+  <!-- EN: Laborer abandoned: {SUBJECT_definite} -->
+  <Permit_CallLaborers.LetterLabelLaborerLeftBehind.slateRef>TODO</Permit_CallLaborers.LetterLabelLaborerLeftBehind.slateRef>
+  <!-- EN: A laborer sent to you by [permitFaction_name] has been left behind. Any remaining laborers will now leave. -->
+  <Permit_CallLaborers.LetterTextLaborerLeftBehind.slateRef>TODO</Permit_CallLaborers.LetterTextLaborerLeftBehind.slateRef>
+  
+  <!-- UNUSED -->
+  <Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>&lt;li>questNome->Laborers&lt;/li>\n&lt;li>questDescription->&lt;/li>\n</Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>
+  
 </LanguageData>

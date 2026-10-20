@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: archogenetics -->
   <Archogenetics.label>arqueogenética</Archogenetics.label>
   <!-- EN: Allows a gene assembler to use archite capsules to create seemingly impossible genes. Archite genes and archite capsules can be obtained from traders. -->
@@ -12,7 +13,11 @@
     <li>subject_gerund->assembling archite genes</li>
     <li>subject_gerund->creating seemingly impossible genes</li>
   -->
-  <Archogenetics.generalRules.rulesStrings>&lt;li&gt;subject-&gt;archogenetics&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;excavated genes archite da lua transcendente de Ix&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; fez uma boa vida como um comerciante gene archite&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; levou uma expedição de pesquisa a um monólito antigo e retornou alterado&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;assembling archite genes&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;criando genes aparentemente impossíveis&lt;/li&gt;\n</Archogenetics.generalRules.rulesStrings>
+  <Archogenetics.generalRules.rulesStrings>&lt;li>subject->archogenetics&lt;/li>\n&lt;li>subject_story->excavated genes archite da lua transcendente de Ix&lt;/li>\n&lt;li>subject_story-> fez uma boa vida como um comerciante gene archite&lt;/li>\n&lt;li>subject_story-> levou uma expedição de pesquisa a um monólito antigo e retornou alterado&lt;/li>\n&lt;li>subject_gerund->assembling archite genes&lt;/li>\n&lt;li>subject_gerund->criando genes aparentemente impossíveis&lt;/li>\n</Archogenetics.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Archogenetics.generalRules.rulesStrings>&lt;li>subject->archogenetics&lt;/li>\n&lt;li>subject_story->excavated genes archite da lua transcendente de Ix&lt;/li>\n&lt;li>subject_story-> fez uma boa vida como um comerciante gene archite&lt;/li>\n&lt;li>subject_story-> levou uma expedição de pesquisa a um monólito antigo e retornou alterado&lt;/li>\n&lt;li>subject_gerund->assembling archite genes&lt;/li>\n&lt;li>subject_gerund->criando genes aparentemente impossíveis&lt;/li>\n</Archogenetics.generalRules.rulesStrings>
+  
   <!-- EN: deathrest -->
   <Deathrest.label>prisão de morte</Deathrest.label>
   <!-- EN: Those with the deathrest gene must periodically undergo a special deathrest coma that lasts several days. This research project allows you to construct buildings which accelerate the deathrest coma and confer specific bonuses on the deathrester. Over time, you can build a grand deathrest temple. -->
@@ -25,7 +30,11 @@
     <li>subject_gerund->constructing deathrest facilities</li>
     <li>subject_gerund->improving deathrest</li>
   -->
-  <Deathrest.generalRules.rulesStrings>&lt;li&gt;subject-&gt;deathrest&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;dissected cadáveres de um templo de morte, finalmente entendendo como funcionava&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;entrevistou uma celebridade que nunca parecia envelhecer, eventualmente aprendendo seus segredos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;tentou replicar a tecnologia e caiu em coma, apenas para acordar semanas mais tarde&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;constructing deathrest facilities&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;melhorando o número de mortes&lt;/li&gt;\n</Deathrest.generalRules.rulesStrings>
+  <Deathrest.generalRules.rulesStrings>&lt;li>subject->deathrest&lt;/li>\n&lt;li>subject_story->dissected cadáveres de um templo de morte, finalmente entendendo como funcionava&lt;/li>\n&lt;li>subject_story->entrevistou uma celebridade que nunca parecia envelhecer, eventualmente aprendendo seus segredos&lt;/li>\n&lt;li>subject_story->tentou replicar a tecnologia e caiu em coma, apenas para acordar semanas mais tarde&lt;/li>\n&lt;li>subject_gerund->constructing deathrest facilities&lt;/li>\n&lt;li>subject_gerund->melhorando o número de mortes&lt;/li>\n</Deathrest.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Deathrest.generalRules.rulesStrings>&lt;li>subject->deathrest&lt;/li>\n&lt;li>subject_story->dissected cadáveres de um templo de morte, finalmente entendendo como funcionava&lt;/li>\n&lt;li>subject_story->entrevistou uma celebridade que nunca parecia envelhecer, eventualmente aprendendo seus segredos&lt;/li>\n&lt;li>subject_story->tentou replicar a tecnologia e caiu em coma, apenas para acordar semanas mais tarde&lt;/li>\n&lt;li>subject_gerund->constructing deathrest facilities&lt;/li>\n&lt;li>subject_gerund->melhorando o número de mortes&lt;/li>\n</Deathrest.generalRules.rulesStrings>
+  
   <!-- EN: fertility procedures -->
   <FertilityProcedures.label>procedimentos de fertilidade</FertilityProcedures.label>
   <!-- EN: Perform the surgeries necessary to create a test tube embryo from a fertile man and woman, then implant the embryo in a surrogate mother or growth vat. Also, perform sterilization surgeries on men and women. -->
@@ -38,7 +47,11 @@
     <li>subject_gerund->altering human fertility</li>
     <li>subject_gerund->improving or blocking human fertility</li>
   -->
-  <FertilityProcedures.generalRules.rulesStrings>&lt;li&gt;subject-&gt; procedimentos defertilidade&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; famílias ajudadas nos mundos centrais alcançar seu sonho de paternidade com embriões do tubo de teste&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;saved the rare Callopian boomrat da extinção com técnicas de fertilização manual perigosas&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; resolveu a crise populacional em um urbworld com intervenções de fertilidade e vats de crescimento&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;alterando a fertilidade humana&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;melhorando ou bloqueando a fertilidade humana&lt;/li&gt;\n</FertilityProcedures.generalRules.rulesStrings>
+  <FertilityProcedures.generalRules.rulesStrings>&lt;li>subject-> procedimentos defertilidade&lt;/li>\n&lt;li>subject_story-> famílias ajudadas nos mundos centrais alcançar seu sonho de paternidade com embriões do tubo de teste&lt;/li>\n&lt;li>subject_story->saved the rare Callopian boomrat da extinção com técnicas de fertilização manual perigosas&lt;/li>\n&lt;li>subject_story-> resolveu a crise populacional em um urbworld com intervenções de fertilidade e vats de crescimento&lt;/li>\n&lt;li>subject_gerund->alterando a fertilidade humana&lt;/li>\n&lt;li>subject_gerund->melhorando ou bloqueando a fertilidade humana&lt;/li>\n</FertilityProcedures.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <FertilityProcedures.generalRules.rulesStrings>&lt;li>subject-> procedimentos defertilidade&lt;/li>\n&lt;li>subject_story-> famílias ajudadas nos mundos centrais alcançar seu sonho de paternidade com embriões do tubo de teste&lt;/li>\n&lt;li>subject_story->saved the rare Callopian boomrat da extinção com técnicas de fertilização manual perigosas&lt;/li>\n&lt;li>subject_story-> resolveu a crise populacional em um urbworld com intervenções de fertilidade e vats de crescimento&lt;/li>\n&lt;li>subject_gerund->alterando a fertilidade humana&lt;/li>\n&lt;li>subject_gerund->melhorando ou bloqueando a fertilidade humana&lt;/li>\n</FertilityProcedures.generalRules.rulesStrings>
+  
   <!-- EN: gene processor -->
   <GeneProcessor.label>processador de gene</GeneProcessor.label>
   <!-- EN: Build gene processors, which allow a gene assembler to create xenogerms of higher genetic complexity. -->
@@ -51,7 +64,11 @@
     <li>subject_gerund->constructing gene processors</li>
     <li>subject_gerund->processing genes</li>
   -->
-  <GeneProcessor.generalRules.rulesStrings>&lt;li&gt;subject-&gt;gene processadores&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;extraído Glitterworld genes de um derrelict derivação&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;processou uma aldeia inteira para criar um conjunto de genes mais elevados&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; começou o processo lento de elevação implantando xenogerms em uma tribo primitiva&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;construindo processadores gene&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;processando genes&lt;/li&gt;\n</GeneProcessor.generalRules.rulesStrings>
+  <GeneProcessor.generalRules.rulesStrings>&lt;li>subject->gene processadores&lt;/li>\n&lt;li>subject_story->extraído Glitterworld genes de um derrelict derivação&lt;/li>\n&lt;li>subject_story->processou uma aldeia inteira para criar um conjunto de genes mais elevados&lt;/li>\n&lt;li>subject_story-> começou o processo lento de elevação implantando xenogerms em uma tribo primitiva&lt;/li>\n&lt;li>subject_gerund->construindo processadores gene&lt;/li>\n&lt;li>subject_gerund->processando genes&lt;/li>\n</GeneProcessor.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <GeneProcessor.generalRules.rulesStrings>&lt;li>subject->gene processadores&lt;/li>\n&lt;li>subject_story->extraído Glitterworld genes de um derrelict derivação&lt;/li>\n&lt;li>subject_story->processou uma aldeia inteira para criar um conjunto de genes mais elevados&lt;/li>\n&lt;li>subject_story-> começou o processo lento de elevação implantando xenogerms em uma tribo primitiva&lt;/li>\n&lt;li>subject_gerund->construindo processadores gene&lt;/li>\n&lt;li>subject_gerund->processando genes&lt;/li>\n</GeneProcessor.generalRules.rulesStrings>
+  
   <!-- EN: growth vats -->
   <GrowthVats.label>vats de crescimento</GrowthVats.label>
   <!-- EN: Construct growth vats which can gestate an embryo or accelerate a child's growth. -->
@@ -66,7 +83,11 @@
     <li>subject_gerund->accelerating human growth</li>
     <li>subject_gerund->constructing growth vats</li>
   -->
-  <GrowthVats.generalRules.rulesStrings>&lt;li&gt;subject-&gt;gestão avançada&lt;/li&gt;\n&lt;li&gt;subject-&gt; úteros artificiais&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;ran uma instalação de clonagem para fornecer servidores para os mundos centrais&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;criou um novo exército para uma junta warworld&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; famílias ajudadas de todas as origens têm crianças&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;gestating embriões em úteros artificiais&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;acelerando o crescimento humano&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;constructing growth vats&lt;/li&gt;\n</GrowthVats.generalRules.rulesStrings>
+  <GrowthVats.generalRules.rulesStrings>&lt;li>subject->gestão avançada&lt;/li>\n&lt;li>subject-> úteros artificiais&lt;/li>\n&lt;li>subject_story->ran uma instalação de clonagem para fornecer servidores para os mundos centrais&lt;/li>\n&lt;li>subject_story->criou um novo exército para uma junta warworld&lt;/li>\n&lt;li>subject_story-> famílias ajudadas de todas as origens têm crianças&lt;/li>\n&lt;li>subject_gerund->gestating embriões em úteros artificiais&lt;/li>\n&lt;li>subject_gerund->acelerando o crescimento humano&lt;/li>\n&lt;li>subject_gerund->constructing growth vats&lt;/li>\n</GrowthVats.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <GrowthVats.generalRules.rulesStrings>&lt;li>subject->gestão avançada&lt;/li>\n&lt;li>subject-> úteros artificiais&lt;/li>\n&lt;li>subject_story->ran uma instalação de clonagem para fornecer servidores para os mundos centrais&lt;/li>\n&lt;li>subject_story->criou um novo exército para uma junta warworld&lt;/li>\n&lt;li>subject_story-> famílias ajudadas de todas as origens têm crianças&lt;/li>\n&lt;li>subject_gerund->gestating embriões em úteros artificiais&lt;/li>\n&lt;li>subject_gerund->acelerando o crescimento humano&lt;/li>\n&lt;li>subject_gerund->constructing growth vats&lt;/li>\n</GrowthVats.generalRules.rulesStrings>
+  
   <!-- EN: toxin filtration -->
   <ToxFiltration.label>filtração de toxina</ToxFiltration.label>
   <!-- EN: Craft and install bionic organs that can filter out toxins from the environment and from enemy attacks. -->
@@ -80,7 +101,11 @@
     <li>subject_gerund->metabolising toxins</li>
     <li>subject_gerund->crafting antitoxin organs</li>
   -->
-  <ToxFiltration.generalRules.rulesStrings>&lt;li&gt;subject-&gt; filtração de toxina&lt;/li&gt;\n&lt;li&gt;subject-&gt;toxin metabolisation&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; ajudou sobreviventes de combate milworld respirar novamente&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;skipped química práticas para classes de ética extra&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;junined a mine-corp as a filtration specialist&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;metabolising toxins&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting antitoxina órgãos&lt;/li&gt;\n</ToxFiltration.generalRules.rulesStrings>
+  <ToxFiltration.generalRules.rulesStrings>&lt;li>subject-> filtração de toxina&lt;/li>\n&lt;li>subject->toxin metabolisation&lt;/li>\n&lt;li>subject_story-> ajudou sobreviventes de combate milworld respirar novamente&lt;/li>\n&lt;li>subject_story->skipped química práticas para classes de ética extra&lt;/li>\n&lt;li>subject_story->junined a mine-corp as a filtration specialist&lt;/li>\n&lt;li>subject_gerund->metabolising toxins&lt;/li>\n&lt;li>subject_gerund->crafting antitoxina órgãos&lt;/li>\n</ToxFiltration.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <ToxFiltration.generalRules.rulesStrings>&lt;li>subject-> filtração de toxina&lt;/li>\n&lt;li>subject->toxin metabolisation&lt;/li>\n&lt;li>subject_story-> ajudou sobreviventes de combate milworld respirar novamente&lt;/li>\n&lt;li>subject_story->skipped química práticas para classes de ética extra&lt;/li>\n&lt;li>subject_story->junined a mine-corp as a filtration specialist&lt;/li>\n&lt;li>subject_gerund->metabolising toxins&lt;/li>\n&lt;li>subject_gerund->crafting antitoxina órgãos&lt;/li>\n</ToxFiltration.generalRules.rulesStrings>
+  
   <!-- EN: tox gas -->
   <ToxGas.label>gás de tox</ToxGas.label>
   <!-- EN: Produce weapons that utilize caustic tox gas. -->
@@ -93,7 +118,11 @@
     <li>subject_story->researched cloud control tech for the tyrannocracy of a deathworld</li>
     <li>subject_gerund->crafting toxic gas weapons</li>
   -->
-  <ToxGas.generalRules.rulesStrings>&lt;li&gt;subject-&gt;gas armamento&lt;/li&gt;\n&lt;li&gt;subject-&gt; guerra química&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;dreamed de uma arma para terminar todas as guerras&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; classes de ética qualificada para prática de química extra&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; researched cloud control tech for the tyrannocracy of a deathworld&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting tóxica gás armas&lt;/li&gt;\n</ToxGas.generalRules.rulesStrings>
+  <ToxGas.generalRules.rulesStrings>&lt;li>subject->gas armamento&lt;/li>\n&lt;li>subject-> guerra química&lt;/li>\n&lt;li>subject_story->dreamed de uma arma para terminar todas as guerras&lt;/li>\n&lt;li>subject_story-> classes de ética qualificada para prática de química extra&lt;/li>\n&lt;li>subject_story-> researched cloud control tech for the tyrannocracy of a deathworld&lt;/li>\n&lt;li>subject_gerund->crafting tóxica gás armas&lt;/li>\n</ToxGas.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <ToxGas.generalRules.rulesStrings>&lt;li>subject->gas armamento&lt;/li>\n&lt;li>subject-> guerra química&lt;/li>\n&lt;li>subject_story->dreamed de uma arma para terminar todas as guerras&lt;/li>\n&lt;li>subject_story-> classes de ética qualificada para prática de química extra&lt;/li>\n&lt;li>subject_story-> researched cloud control tech for the tyrannocracy of a deathworld&lt;/li>\n&lt;li>subject_gerund->crafting tóxica gás armas&lt;/li>\n</ToxGas.generalRules.rulesStrings>
+  
   <!-- EN: toxifier generator -->
   <ToxifierGenerator.label>gerador de toxifier</ToxifierGenerator.label>
   <!-- EN: Create toxifier generators which generate electricity, but also spread pollution around themselves. -->
@@ -105,7 +134,11 @@
     <li>subject_story->researched cheap and dirty power sources for an urbcorp</li>
     <li>subject_gerund->constructing toxifier generators</li>
   -->
-  <ToxifierGenerator.generalRules.rulesStrings>&lt;li&gt;subject-&gt;toxifier gerador&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; levou uma equipe de limpeza a um planetóide tóxico&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;learned about toxifiers in the deep sump of a skyripper&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; pesquisado fontes de energia baratas e sujas para um urbcorp&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;construindo geradores de toxifier&lt;/li&gt;\n</ToxifierGenerator.generalRules.rulesStrings>
+  <ToxifierGenerator.generalRules.rulesStrings>&lt;li>subject->toxifier gerador&lt;/li>\n&lt;li>subject_story-> levou uma equipe de limpeza a um planetóide tóxico&lt;/li>\n&lt;li>subject_story->learned about toxifiers in the deep sump of a skyripper&lt;/li>\n&lt;li>subject_story-> pesquisado fontes de energia baratas e sujas para um urbcorp&lt;/li>\n&lt;li>subject_gerund->construindo geradores de toxifier&lt;/li>\n</ToxifierGenerator.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <ToxifierGenerator.generalRules.rulesStrings>&lt;li>subject->toxifier gerador&lt;/li>\n&lt;li>subject_story-> levou uma equipe de limpeza a um planetóide tóxico&lt;/li>\n&lt;li>subject_story->learned about toxifiers in the deep sump of a skyripper&lt;/li>\n&lt;li>subject_story-> pesquisado fontes de energia baratas e sujas para um urbcorp&lt;/li>\n&lt;li>subject_gerund->construindo geradores de toxifier&lt;/li>\n</ToxifierGenerator.generalRules.rulesStrings>
+  
   <!-- EN: xenogenetics -->
   <Xenogermination.label>xenogenética</Xenogermination.label>
   <!-- EN: Create xenogerms which can be implanted in a person to genetically modify them. Extract genepacks from living people using a gene extractor so you can reimplant their genes into someone else. -->
@@ -118,5 +151,9 @@
     <li>subject_story->ran a genetic transfer clinic for the glitterworld elite</li>
     <li>subject_gerund->crafting xenogerms</li>
   -->
-  <Xenogermination.generalRules.rulesStrings>&lt;li&gt;subject-&gt;xenogermination&lt;/li&gt;\n&lt;li&gt;subject-&gt; implantação genética&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi levantado por uma caridade de mundo brilhante que se concentrou no geneticamente desfavorecido&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;had [ANYPAWN_possessive] genes roubados por um biólogo desonesto&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;ran uma clínica de transferência genética para a elite glitterworld&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting xenogerms&lt;/li&gt;\n</Xenogermination.generalRules.rulesStrings>
+  <Xenogermination.generalRules.rulesStrings>&lt;li>subject->xenogermination&lt;/li>\n&lt;li>subject-> implantação genética&lt;/li>\n&lt;li>subject_story-> foi levantado por uma caridade de mundo brilhante que se concentrou no geneticamente desfavorecido&lt;/li>\n&lt;li>subject_story->had [ANYPAWN_possessive] genes roubados por um biólogo desonesto&lt;/li>\n&lt;li>subject_story->ran uma clínica de transferência genética para a elite glitterworld&lt;/li>\n&lt;li>subject_gerund->crafting xenogerms&lt;/li>\n</Xenogermination.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Xenogermination.generalRules.rulesStrings>&lt;li>subject->xenogermination&lt;/li>\n&lt;li>subject-> implantação genética&lt;/li>\n&lt;li>subject_story-> foi levantado por uma caridade de mundo brilhante que se concentrou no geneticamente desfavorecido&lt;/li>\n&lt;li>subject_story->had [ANYPAWN_possessive] genes roubados por um biólogo desonesto&lt;/li>\n&lt;li>subject_story->ran uma clínica de transferência genética para a elite glitterworld&lt;/li>\n&lt;li>subject_gerund->crafting xenogerms&lt;/li>\n</Xenogermination.generalRules.rulesStrings>
+  
 </LanguageData>

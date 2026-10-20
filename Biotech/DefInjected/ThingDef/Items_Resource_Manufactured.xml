@@ -1,13 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: tox shell -->
   <Bullet_Shell_Tox.label>shell do tox</Bullet_Shell_Tox.label>
+  
   <!-- EN: deathrest capacity serum -->
   <DeathrestCapacitySerum.label>soro de capacidade</DeathrestCapacitySerum.label>
   <!-- EN: A serum that permanently increases the number of deathrest buildings a person can connect to during deathrest.\n\nThe serum can only be ingested by individuals with the deathrest gene. -->
   <DeathrestCapacitySerum.description>Um soro que aumenta permanentemente o número de edifícios de morte uma pessoa pode se conectar durante a morterest.\n\nO soro só pode ser ingerido por indivíduos com o gene de morte.</DeathrestCapacitySerum.description>
   <!-- EN: Ingest {0_label} -->
   <DeathrestCapacitySerum.comps.CompUsable.useLabel>Ingestão {0_label}</DeathrestCapacitySerum.comps.CompUsable.useLabel>
+  
   <!-- EN: nano structuring chip -->
   <NanostructuringChip.label>chip de estruturação nano</NanostructuringChip.label>
   <!-- EN: A molecular-restructing mechanoid micro-organ. It is necessary to produce certain advanced mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
@@ -26,6 +29,7 @@
   <NanostructuringChip.comps.CompAnalyzableUnlockResearch.inspectString>Pode ser analisado por um colonista.</NanostructuringChip.comps.CompAnalyzableUnlockResearch.inspectString>
   <!-- EN: Analyze nano structuring chip -->
   <NanostructuringChip.comps.CompAnalyzableUnlockResearch.jobString>Analise nano chip de estruturação</NanostructuringChip.comps.CompAnalyzableUnlockResearch.jobString>
+  
   <!-- EN: powerfocus chip -->
   <PowerfocusChip.label>chip de foco de energia</PowerfocusChip.label>
   <!-- EN: An energy-focusing mechanoid micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
@@ -44,14 +48,18 @@
   <PowerfocusChip.comps.CompAnalyzableUnlockResearch.inspectString>Pode ser analisado por um colonista.</PowerfocusChip.comps.CompAnalyzableUnlockResearch.inspectString>
   <!-- EN: Analyze powerfocus chip -->
   <PowerfocusChip.comps.CompAnalyzableUnlockResearch.jobString>Analisar chip de foco de energia</PowerfocusChip.comps.CompAnalyzableUnlockResearch.jobString>
+  
   <!-- EN: tox shell -->
   <Shell_Toxic.label>shell do tox</Shell_Toxic.label>
   <!-- EN: An artillery shell containing reagents that, when combined, generate deadly tox gas. When fired, it will stick into the ground and release tox gas for some time before expiring.\n\nTox gas burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup that can be lethal. -->
   <Shell_Toxic.description>Uma concha de artilharia contendo reagentes que, quando combinada, geram gás tox mortal. Quando disparado, ele vai ficar no chão e liberar gás tox por algum tempo antes de expirar.\n\nO gás tóxico queima os pulmões e os olhos, causando uma falta temporária de ar e redução na visão. A exposição contínua ao gás tox resulta em acúmulo tóxico que pode ser letal.</Shell_Toxic.description>
+  
   <!-- EN: tox shell -->
   <Shell_Toxic_Releasing.label>shell do tox</Shell_Toxic_Releasing.label>
+  
   <!-- EN: tox shell -->
   <Shell_Toxic_Releasing_Water.label>shell do tox</Shell_Toxic_Releasing_Water.label>
+  
   <!-- EN: signal chip -->
   <SignalChip.label>chip de sinal</SignalChip.label>
   <!-- EN: A mechanoid-band synchronization micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
@@ -70,20 +78,25 @@
   <SignalChip.comps.CompAnalyzableUnlockResearch.inspectString>Pode ser analisado por um colonista.</SignalChip.comps.CompAnalyzableUnlockResearch.inspectString>
   <!-- EN: Analyze signal chip -->
   <SignalChip.comps.CompAnalyzableUnlockResearch.jobString>Analise o chip de sinal</SignalChip.comps.CompAnalyzableUnlockResearch.jobString>
+  
   <!-- EN: basic subcore -->
   <SubcoreBasic.label>subcore básico</SubcoreBasic.label>
   <!-- EN: The simplest possible mechanoid brain, this is a tiny psychodynamic substrate unit housing a dull subpersona. Since this is only a basic-tier subcore, it can only drive the simplest of mechanoids.\n\nLike all mechanoid subcores, it contains a subpersona with a psychic presence, albeit a very faint one. -->
   <SubcoreBasic.description>O cérebro mecanóide mais simples possível, esta é uma pequena unidade de substrato psicodinâmico que abriga uma subpersona maçante. Como este é apenas um subcore de nível básico, ele só pode conduzir o mais simples dos mecanóides.\n\nComo todos os subcores mecanóides, contém uma subpersona com uma presença psíquica, embora muito fraca.</SubcoreBasic.description>
+  
   <!-- EN: high subcore -->
   <SubcoreHigh.label>sub-núcleo alto</SubcoreHigh.label>
   <!-- EN: A high-tier mechanoid brain, this is a psychodynamic substrate unit which supports a sophisticated subpersona. This particular subcore is of the strongest tier, and can power complex ultra-heavy mechanoids.\n\nThe subpersona inside this core approaches a live human in its complexity, though it is of a very different nature. Like any such mind, it has a noticeable psychic presence.\n\nThis subcore could only have been produced by rich pattern transfer from another sophisticated mind. The only way to do this without huge facilities is to ripscan a living person's brain, killing them in the process. -->
   <SubcoreHigh.description>Um cérebro mecanóide de alto nível, esta é uma unidade de substrato psicodinâmico que suporta uma subpersona sofisticada. Este subcore particular é do mais forte nível, e pode power complexo mecanóides ultra-pesados.\n\nA subpersona dentro deste núcleo aborda um humano vivo em sua complexidade, embora seja de uma natureza muito diferente. Como qualquer tal mente, tem uma presença psíquica perceptível.\n\nEste subcore só poderia ter sido produzido por transferência de padrão rica de outra mente sofisticada. A única maneira de fazer isso sem grandes instalações é rasgar o cérebro de uma pessoa viva, matando-os no processo.</SubcoreHigh.description>
+  
   <!-- EN: standard subcore -->
   <SubcoreRegular.label>subcore padrão</SubcoreRegular.label>
   <!-- EN: A standard-tier mechanoid brain, this is a psychodynamic substrate unit supporting a thinking subpersona. This particular subcore is strong enough to drive standard-tier mechanoids.\n\nMechanoids are more than robots, and this is more than a silicon computer. Its thinking, psychically-present subpersona makes it more adaptable than silicon systems. However, this also means it can only be produced by analog pattern transfer from another thinking mind. -->
   <SubcoreRegular.description>Um cérebro mecanóide de nível padrão, esta é uma unidade de substrato psicodinâmico que suporta uma subpersona de pensamento. Este subcore particular é forte o suficiente para conduzir mecanóides de nível padrão.\n\nMecanóides são mais do que robôs, e isso é mais do que um computador de silício. Seu pensamento, psiquicamente-presente subpersona torna mais adaptável do que sistemas de silício. No entanto, isso também significa que só pode ser produzido por transferência de padrão analógico de outra mente de pensamento.</SubcoreRegular.description>
+  
   <!-- EN: toxic wastepack -->
   <Wastepack.label>pacote de resíduos tóxicos</Wastepack.label>
   <!-- EN: A compacted package of toxic waste that will slowly dissolve if not frozen. The surface is heat-sealed for safe transport. Wastepacks will pollute the surrounding terrain if they dissolve, deteriorate, or are otherwise destroyed.\n\nToxic wastepacks are flammable. If burned or damaged, they will release tox gas. -->
   <Wastepack.description>Um pacote compactado de resíduos tóxicos que dissolverá lentamente se não for congelado. A superfície é selada em calor para transporte seguro. Os sacos de lixo vão poluir o terreno circundante se dissolverem, deteriorarem-se ou forem destruídos de outra forma.\n\nOs sacos de resíduos tóxicos são inflamáveis. Se forem queimados ou danificados, libertarão gás toxicológico.</Wastepack.description>
+  
 </LanguageData>

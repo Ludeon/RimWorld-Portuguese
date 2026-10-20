@@ -1,9 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: aggression judgement scramble -->
   <BerserkMechanoid.label>julgamento de agressão</BerserkMechanoid.label>
   <!-- EN: Aggression judgment scrambled -->
   <BerserkMechanoid.baseInspectLine>Julgamento de agressão</BerserkMechanoid.baseInspectLine>
+  
+  <!-- EN: cocoon disturbed -->
+  <CocoonDisturbed.label>casulo perturbado</CocoonDisturbed.label>
+  <!-- EN: Enraged: Cocoon disturbed -->
+  <CocoonDisturbed.baseInspectLine>Enfurecido: Cocoon perturbado</CocoonDisturbed.baseInspectLine>
+  
   <!-- EN: manhunter -->
   <Manhunter.label>caçador de homens</Manhunter.label>
   <!-- EN: Maddened: Manhunter -->
@@ -12,6 +19,7 @@
   <Manhunter.beginLetter>tornou-se um caçador de homens!</Manhunter.beginLetter>
   <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
   <Manhunter.recoveryMessage>a caça ao sangue acabou.</Manhunter.recoveryMessage>
+  
   <!-- EN: manhunter -->
   <ManhunterPermanent.label>caçador de homens</ManhunterPermanent.label>
   <!-- EN: Maddened: Manhunter -->
@@ -20,6 +28,7 @@
   <ManhunterPermanent.beginLetter>tornou-se um caçador de homens!</ManhunterPermanent.beginLetter>
   <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
   <ManhunterPermanent.recoveryMessage>a caça ao sangue acabou.</ManhunterPermanent.recoveryMessage>
+  
   <!-- EN: panic fleeing -->
   <PanicFlee.label>pânico fugindo</PanicFlee.label>
   <!-- EN: Mental state: Fleeing in panic -->
@@ -30,14 +39,17 @@
   <PanicFlee.beginLetterLabel>fugir</PanicFlee.beginLetterLabel>
   <!-- EN: {0} is no longer fleeing in panic. -->
   <PanicFlee.recoveryMessage>não está mais a fugir em pânico.</PanicFlee.recoveryMessage>
+  
   <!-- EN: roaming -->
   <Roaming.label>roaming</Roaming.label>
   <!-- EN: Mental state: Roaming -->
   <Roaming.baseInspectLine>Estado mental: Roaming</Roaming.baseInspectLine>
+  
   <!-- EN: social fighting -->
   <SocialFighting.label>luta social</SocialFighting.label>
   <!-- EN: Mental state: Social fighting -->
   <SocialFighting.baseInspectLine>Estado mental: Luta social</SocialFighting.baseInspectLine>
+  
   <!-- EN: confused wandering -->
   <WanderConfused.label>confuso vagando</WanderConfused.label>
   <!-- EN: Mental state: Confused and wandering -->
@@ -48,4 +60,5 @@
   <WanderConfused.beginLetterLabel>confusão</WanderConfused.beginLetterLabel>
   <!-- EN: {0} is no longer confused. -->
   <WanderConfused.recoveryMessage>não está mais confuso.</WanderConfused.recoveryMessage>
+  
 </LanguageData>

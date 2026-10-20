@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN:
     <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
     <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
@@ -9,7 +10,11 @@
     <li>cultureLeaderAdjective->grand</li>
     <li>cultureLeaderNoun->chief</li>
   -->
-  <LeaderTitleMaker_Corunan.rulePack.rulesStrings>&lt;li&gt;memeLeaderNoun (prioridade=1)-&gt;[culturaLeaderNoun]&lt;/li&gt;\n&lt;li&gt;cultureLeaderTitle-&gt;[cultureLeaderAdjective] [cultureLeaderNoun]&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;great&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;high&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;first&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;grand&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;chief&lt;/li&gt;\n</LeaderTitleMaker_Corunan.rulePack.rulesStrings>
+  <LeaderTitleMaker_Corunan.rulePack.rulesStrings>&lt;li>memeLeaderNoun (prioridade=1)->[culturaLeaderNoun]&lt;/li>\n&lt;li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]&lt;/li>\n&lt;li>cultureLeaderAdjetivo->great&lt;/li>\n&lt;li>cultureLeaderAdjetivo->high&lt;/li>\n&lt;li>cultureLeaderAdjetivo->first&lt;/li>\n&lt;li>cultureLeaderAdjetivo->grand&lt;/li>\n&lt;li>cultureLeaderNoun->chief&lt;/li>\n</LeaderTitleMaker_Corunan.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <LeaderTitleMaker_Corunan.rulePack.rulesStrings>&lt;li>memeLeaderNoun (prioridade=1)->[culturaLeaderNoun]&lt;/li>\n&lt;li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]&lt;/li>\n&lt;li>cultureLeaderAdjetivo->great&lt;/li>\n&lt;li>cultureLeaderAdjetivo->high&lt;/li>\n&lt;li>cultureLeaderAdjetivo->first&lt;/li>\n&lt;li>cultureLeaderAdjetivo->grand&lt;/li>\n&lt;li>cultureLeaderNoun->chief&lt;/li>\n</LeaderTitleMaker_Corunan.rulePack.rulesStrings>
+  
   <!-- EN:
     <li>cultureLeaderAdjective->high</li>
     <li>cultureLeaderAdjective->great</li>
@@ -20,14 +25,22 @@
     <li>cultureLeaderNoun->governor</li>
     <li>cultureLeaderNoun->leader</li>
   -->
-  <LeaderTitleMaker_GenericContent.rulePack.rulesStrings>&lt;li&gt;cultureLeaderAdjetivo-&gt;high&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;great&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;first&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;prime&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;president&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;director&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;governor&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;leader&lt;/li&gt;\n</LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
+  <LeaderTitleMaker_GenericContent.rulePack.rulesStrings>&lt;li>cultureLeaderAdjetivo->high&lt;/li>\n&lt;li>cultureLeaderAdjetivo->great&lt;/li>\n&lt;li>cultureLeaderAdjetivo->first&lt;/li>\n&lt;li>cultureLeaderAdjetivo->prime&lt;/li>\n&lt;li>cultureLeaderNoun->president&lt;/li>\n&lt;li>cultureLeaderNoun->director&lt;/li>\n&lt;li>cultureLeaderNoun->governor&lt;/li>\n&lt;li>cultureLeaderNoun->leader&lt;/li>\n</LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <LeaderTitleMaker_GenericContent.rulePack.rulesStrings>&lt;li>cultureLeaderAdjetivo->high&lt;/li>\n&lt;li>cultureLeaderAdjetivo->great&lt;/li>\n&lt;li>cultureLeaderAdjetivo->first&lt;/li>\n&lt;li>cultureLeaderAdjetivo->prime&lt;/li>\n&lt;li>cultureLeaderNoun->president&lt;/li>\n&lt;li>cultureLeaderNoun->director&lt;/li>\n&lt;li>cultureLeaderNoun->governor&lt;/li>\n&lt;li>cultureLeaderNoun->leader&lt;/li>\n</LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
+  
   <!-- EN:
     <li>r_leaderTitle(p=6)->[memeLeaderAdjective] [memeLeaderNoun]</li>
     <li>r_leaderTitle(p=3)->[cultureLeaderAdjective] [memeLeaderNoun]</li>
     <li>r_leaderTitle(p=1)->[memeLeaderAdjective] [cultureLeaderNoun]</li>
     <li>r_leaderTitle(p=1)->[cultureLeaderTitle]</li>
   -->
-  <LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>&lt;li&gt;r_leaderTitle(p=6)-&gt;[memeLeaderAdjective] [memeLeaderNoun]&lt;/li&gt;\n&lt;li&gt;r_leaderTitle(p=3)-&gt;[cultureLeaderAdjective] [memeLeaderNoun]&lt;/li&gt;\n&lt;li&gt;r_leaderTitle(p=1)-&gt;[memeLeaderAdjective] [cultureLeaderNoun]&lt;/li&gt;\n&lt;li&gt;r_leaderTitle(p=1)-&gt;[cultureLeaderTitle]&lt;/li&gt;\n</LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
+  <LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>&lt;li>r_leaderTitle(p=6)->[memeLeaderAdjective] [memeLeaderNoun]&lt;/li>\n&lt;li>r_leaderTitle(p=3)->[cultureLeaderAdjective] [memeLeaderNoun]&lt;/li>\n&lt;li>r_leaderTitle(p=1)->[memeLeaderAdjective] [cultureLeaderNoun]&lt;/li>\n&lt;li>r_leaderTitle(p=1)->[cultureLeaderTitle]&lt;/li>\n</LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>&lt;li>r_leaderTitle(p=6)->[memeLeaderAdjective] [memeLeaderNoun]&lt;/li>\n&lt;li>r_leaderTitle(p=3)->[cultureLeaderAdjective] [memeLeaderNoun]&lt;/li>\n&lt;li>r_leaderTitle(p=1)->[memeLeaderAdjective] [cultureLeaderNoun]&lt;/li>\n&lt;li>r_leaderTitle(p=1)->[cultureLeaderTitle]&lt;/li>\n</LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
+  
   <!-- EN:
     <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
     <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
@@ -40,7 +53,11 @@
     <li>cultureLeaderNoun->gun</li>
     <li>cultureLeaderNoun->dog</li>
   -->
-  <LeaderTitleMaker_Kriminul.rulePack.rulesStrings>&lt;li&gt;memeLeaderNoun (prioridade=1)-&gt;[culturaLeaderNoun]&lt;/li&gt;\n&lt;li&gt;cultureLeaderTitle-&gt;[cultureLeaderAdjective] [cultureLeaderNoun]&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;big&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;top&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;full&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;boss&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;thug&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;cheese&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;gun&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;dog&lt;/li&gt;\n</LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
+  <LeaderTitleMaker_Kriminul.rulePack.rulesStrings>&lt;li>memeLeaderNoun (prioridade=1)->[culturaLeaderNoun]&lt;/li>\n&lt;li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]&lt;/li>\n&lt;li>cultureLeaderAdjetivo->big&lt;/li>\n&lt;li>cultureLeaderAdjetivo->top&lt;/li>\n&lt;li>cultureLeaderAdjetivo->full&lt;/li>\n&lt;li>cultureLeaderNoun->boss&lt;/li>\n&lt;li>cultureLeaderNoun->thug&lt;/li>\n&lt;li>cultureLeaderNoun->cheese&lt;/li>\n&lt;li>cultureLeaderNoun->gun&lt;/li>\n&lt;li>cultureLeaderNoun->dog&lt;/li>\n</LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <LeaderTitleMaker_Kriminul.rulePack.rulesStrings>&lt;li>memeLeaderNoun (prioridade=1)->[culturaLeaderNoun]&lt;/li>\n&lt;li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]&lt;/li>\n&lt;li>cultureLeaderAdjetivo->big&lt;/li>\n&lt;li>cultureLeaderAdjetivo->top&lt;/li>\n&lt;li>cultureLeaderAdjetivo->full&lt;/li>\n&lt;li>cultureLeaderNoun->boss&lt;/li>\n&lt;li>cultureLeaderNoun->thug&lt;/li>\n&lt;li>cultureLeaderNoun->cheese&lt;/li>\n&lt;li>cultureLeaderNoun->gun&lt;/li>\n&lt;li>cultureLeaderNoun->dog&lt;/li>\n</LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
+  
   <!-- EN:
     <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
     <li>cultureLeaderAdjective->prime</li>
@@ -51,9 +68,17 @@
     <li>cultureLeaderNoun->guide</li>
     <li>cultureLeaderNoun->steersman</li>
   -->
-  <LeaderTitleMaker_Rustican.rulePack.rulesStrings>&lt;li&gt;cultureLeaderTitle-&gt;[cultureLeaderAdjective] [cultureLeaderNoun]&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;prime&lt;/li&gt;\n&lt;li&gt;cultureLeaderAdjetivo-&gt;first&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;councilor&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;leader&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;minister&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;guia&lt;/li&gt;\n&lt;li&gt;cultureLeaderNoun-&gt;steersman&lt;/li&gt;\n</LeaderTitleMaker_Rustican.rulePack.rulesStrings>
+  <LeaderTitleMaker_Rustican.rulePack.rulesStrings>&lt;li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]&lt;/li>\n&lt;li>cultureLeaderAdjetivo->prime&lt;/li>\n&lt;li>cultureLeaderAdjetivo->first&lt;/li>\n&lt;li>cultureLeaderNoun->councilor&lt;/li>\n&lt;li>cultureLeaderNoun->leader&lt;/li>\n&lt;li>cultureLeaderNoun->minister&lt;/li>\n&lt;li>cultureLeaderNoun->guia&lt;/li>\n&lt;li>cultureLeaderNoun->steersman&lt;/li>\n</LeaderTitleMaker_Rustican.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <LeaderTitleMaker_Rustican.rulePack.rulesStrings>&lt;li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]&lt;/li>\n&lt;li>cultureLeaderAdjetivo->prime&lt;/li>\n&lt;li>cultureLeaderAdjetivo->first&lt;/li>\n&lt;li>cultureLeaderNoun->councilor&lt;/li>\n&lt;li>cultureLeaderNoun->leader&lt;/li>\n&lt;li>cultureLeaderNoun->minister&lt;/li>\n&lt;li>cultureLeaderNoun->guia&lt;/li>\n&lt;li>cultureLeaderNoun->steersman&lt;/li>\n</LeaderTitleMaker_Rustican.rulePack.rulesStrings>
+  
   <!-- EN:
     <li>r_leaderTitle->high stellarch</li>
   -->
-  <LeaderTitleMaker_Sophian.rulePack.rulesStrings>&lt;li&gt;r_leaderTitle-&gt;high stellarch&lt;/li&gt;\n</LeaderTitleMaker_Sophian.rulePack.rulesStrings>
+  <LeaderTitleMaker_Sophian.rulePack.rulesStrings>&lt;li>r_leaderTitle->high stellarch&lt;/li>\n</LeaderTitleMaker_Sophian.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <LeaderTitleMaker_Sophian.rulePack.rulesStrings>&lt;li>r_leaderTitle->high stellarch&lt;/li>\n</LeaderTitleMaker_Sophian.rulePack.rulesStrings>
+  
 </LanguageData>

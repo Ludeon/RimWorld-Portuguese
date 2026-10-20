@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: beer brewing -->
   <Brewing.label>cerveja</Brewing.label>
   <!-- EN: Build a brewery and fermenting vats to transform hops into tasty, tasty beer. -->
@@ -12,7 +13,11 @@
     <li>subject_gerund->constructing breweries</li>
     <li>subject_gerund->brewing beer</li>
   -->
-  <Brewing.generalRules.rulesStrings>&lt;li&gt;subject-&gt;brewing&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; criou um stout único que se tornou famoso em todo o sistema&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;retirado para executar uma casa pública em um mundo animal&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; especializada em técnicas de fermentação controladas pelo clima&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;construindo cervejarias&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;brewing cerveja&lt;/li&gt;\n</Brewing.generalRules.rulesStrings>
+  <Brewing.generalRules.rulesStrings>&lt;li>subject->brewing&lt;/li>\n&lt;li>subject_story-> criou um stout único que se tornou famoso em todo o sistema&lt;/li>\n&lt;li>subject_story->retirado para executar uma casa pública em um mundo animal&lt;/li>\n&lt;li>subject_story-> especializada em técnicas de fermentação controladas pelo clima&lt;/li>\n&lt;li>subject_gerund->construindo cervejarias&lt;/li>\n&lt;li>subject_gerund->brewing cerveja&lt;/li>\n</Brewing.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Brewing.generalRules.rulesStrings>&lt;li>subject->brewing&lt;/li>\n&lt;li>subject_story-> criou um stout único que se tornou famoso em todo o sistema&lt;/li>\n&lt;li>subject_story->retirado para executar uma casa pública em um mundo animal&lt;/li>\n&lt;li>subject_story-> especializada em técnicas de fermentação controladas pelo clima&lt;/li>\n&lt;li>subject_gerund->construindo cervejarias&lt;/li>\n&lt;li>subject_gerund->brewing cerveja&lt;/li>\n</Brewing.generalRules.rulesStrings>
+  
   <!-- EN: carpet-making -->
   <CarpetMaking.label>fabricação de tapetes</CarpetMaking.label>
   <!-- EN: Weave beautiful carpets from cloth. -->
@@ -24,7 +29,11 @@
     <li>subject_story->settled on a medieval moon, where the carpetweaving craft was truly appreciated</li>
     <li>subject_gerund->weaving carpets</li>
   -->
-  <CarpetMaking.generalRules.rulesStrings>&lt;li&gt;subject-&gt;carpet-making&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;learned para tecer tapetes do cabelo, para um distante Imperador&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;left atrás de uma coleção incomparável de tapetes e tapeçarias&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;settled em uma lua medieval, onde o ofício de tecelagem do tapete foi realmente apreciado&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;weaving carpets&lt;/li&gt;\n</CarpetMaking.generalRules.rulesStrings>
+  <CarpetMaking.generalRules.rulesStrings>&lt;li>subject->carpet-making&lt;/li>\n&lt;li>subject_story->learned para tecer tapetes do cabelo, para um distante Imperador&lt;/li>\n&lt;li>subject_story->left atrás de uma coleção incomparável de tapetes e tapeçarias&lt;/li>\n&lt;li>subject_story->settled em uma lua medieval, onde o ofício de tecelagem do tapete foi realmente apreciado&lt;/li>\n&lt;li>subject_gerund->weaving carpets&lt;/li>\n</CarpetMaking.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <CarpetMaking.generalRules.rulesStrings>&lt;li>subject->carpet-making&lt;/li>\n&lt;li>subject_story->learned para tecer tapetes do cabelo, para um distante Imperador&lt;/li>\n&lt;li>subject_story->left atrás de uma coleção incomparável de tapetes e tapeçarias&lt;/li>\n&lt;li>subject_story->settled em uma lua medieval, onde o ofício de tecelagem do tapete foi realmente apreciado&lt;/li>\n&lt;li>subject_gerund->weaving carpets&lt;/li>\n</CarpetMaking.generalRules.rulesStrings>
+  
   <!-- EN: cocoa -->
   <Cocoa.label>cacau</Cocoa.label>
   <!-- EN: Sow cocoa trees to create your own delicious chocolate. Eating chocolate fulfills the need for recreation and it's a valuable trade good too. -->
@@ -38,7 +47,11 @@
     <li>subject_gerund->producing chocolate</li>
     <li>subject_gerund->cultivating cocoa</li>
   -->
-  <Cocoa.generalRules.rulesStrings>&lt;li&gt;subject-&gt;cocoa&lt;/li&gt;\n&lt;li&gt;subject-&gt;chocolate&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;became obcecado com chocolate e teve que ser contido&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;estudiu o processo de fermentação de cacau para uma tese&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; configurar a melhor loja de chocolate no setor&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;produzindo chocolate&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;cultivando cacau&lt;/li&gt;\n</Cocoa.generalRules.rulesStrings>
+  <Cocoa.generalRules.rulesStrings>&lt;li>subject->cocoa&lt;/li>\n&lt;li>subject->chocolate&lt;/li>\n&lt;li>subject_story->became obcecado com chocolate e teve que ser contido&lt;/li>\n&lt;li>subject_story->estudiu o processo de fermentação de cacau para uma tese&lt;/li>\n&lt;li>subject_story-> configurar a melhor loja de chocolate no setor&lt;/li>\n&lt;li>subject_gerund->produzindo chocolate&lt;/li>\n&lt;li>subject_gerund->cultivando cacau&lt;/li>\n</Cocoa.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Cocoa.generalRules.rulesStrings>&lt;li>subject->cocoa&lt;/li>\n&lt;li>subject->chocolate&lt;/li>\n&lt;li>subject_story->became obcecado com chocolate e teve que ser contido&lt;/li>\n&lt;li>subject_story->estudiu o processo de fermentação de cacau para uma tese&lt;/li>\n&lt;li>subject_story-> configurar a melhor loja de chocolate no setor&lt;/li>\n&lt;li>subject_gerund->produzindo chocolate&lt;/li>\n&lt;li>subject_gerund->cultivando cacau&lt;/li>\n</Cocoa.generalRules.rulesStrings>
+  
   <!-- EN: complex clothing -->
   <ComplexClothing.label>roupas complexas</ComplexClothing.label>
   <!-- EN: Tailor complicated garments like pants, dusters, and cowboy hats. -->
@@ -50,7 +63,11 @@
     <li>subject_story->learned to craft clothing to be worn at [ANYPAWN_possessive] troupe's grand performances</li>
     <li>subject_gerund->tailoring complex clothes</li>
   -->
-  <ComplexClothing.generalRules.rulesStrings>&lt;li&gt;subject-&gt; alfaiate complexa&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;tailored roupas resistentes para urbworld cityfolk&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; iria relaxar costurando e contando histórias para as crianças da aldeia&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;learned to craft vestuário to be used at [ANYPAWN_possessive] troupe's grand performances&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;tailoring roupas complexas&lt;/li&gt;\n</ComplexClothing.generalRules.rulesStrings>
+  <ComplexClothing.generalRules.rulesStrings>&lt;li>subject-> alfaiate complexa&lt;/li>\n&lt;li>subject_story->tailored roupas resistentes para urbworld cityfolk&lt;/li>\n&lt;li>subject_story-> iria relaxar costurando e contando histórias para as crianças da aldeia&lt;/li>\n&lt;li>subject_story->learned to craft vestuário to be used at [ANYPAWN_possessive] troupe's grand performances&lt;/li>\n&lt;li>subject_gerund->tailoring roupas complexas&lt;/li>\n</ComplexClothing.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <ComplexClothing.generalRules.rulesStrings>&lt;li>subject-> alfaiate complexa&lt;/li>\n&lt;li>subject_story->tailored roupas resistentes para urbworld cityfolk&lt;/li>\n&lt;li>subject_story-> iria relaxar costurando e contando histórias para as crianças da aldeia&lt;/li>\n&lt;li>subject_story->learned to craft vestuário to be used at [ANYPAWN_possessive] troupe's grand performances&lt;/li>\n&lt;li>subject_gerund->tailoring roupas complexas&lt;/li>\n</ComplexClothing.generalRules.rulesStrings>
+  
   <!-- EN: complex furniture -->
   <ComplexFurniture.label>móveis complexos</ComplexFurniture.label>
   <!-- EN: Build complex furniture like beds, end tables, dining chairs, armchairs, dressers, tool cabinets, billiards tables, and poker tables, vents, sarcophagi, and more. -->
@@ -62,7 +79,11 @@
     <li>subject_story->established a factory, selling high-quality furniture to passing traders</li>
     <li>subject_gerund->building complex furniture</li>
   -->
-  <ComplexFurniture.generalRules.rulesStrings>&lt;li&gt;subject-&gt;carpintura&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;studied woodcarving sob um mestre carpinteiro&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;construiu uma cidade de log-cabins sozinho&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; estabeleceu uma fábrica, vendendo móveis de alta qualidade para passar comerciantes&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt; building complex furniture&lt;/li&gt;\n</ComplexFurniture.generalRules.rulesStrings>
+  <ComplexFurniture.generalRules.rulesStrings>&lt;li>subject->carpintura&lt;/li>\n&lt;li>subject_story->studied woodcarving sob um mestre carpinteiro&lt;/li>\n&lt;li>subject_story->construiu uma cidade de log-cabins sozinho&lt;/li>\n&lt;li>subject_story-> estabeleceu uma fábrica, vendendo móveis de alta qualidade para passar comerciantes&lt;/li>\n&lt;li>subject_gerund-> building complex furniture&lt;/li>\n</ComplexFurniture.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <ComplexFurniture.generalRules.rulesStrings>&lt;li>subject->carpintura&lt;/li>\n&lt;li>subject_story->studied woodcarving sob um mestre carpinteiro&lt;/li>\n&lt;li>subject_story->construiu uma cidade de log-cabins sozinho&lt;/li>\n&lt;li>subject_story-> estabeleceu uma fábrica, vendendo móveis de alta qualidade para passar comerciantes&lt;/li>\n&lt;li>subject_gerund-> building complex furniture&lt;/li>\n</ComplexFurniture.generalRules.rulesStrings>
+  
   <!-- EN: devilstrand -->
   <Devilstrand.label>demónio</Devilstrand.label>
   <!-- EN: Plant devilstrand, a slow-growing mushroom that yields an exceptionally tough, heat-resistant plant fiber. -->
@@ -74,7 +95,11 @@
     <li>subject_story->became obsessed with mushrooms and became the self-declared Princess of [ANYPAWN_possessive] kingdom</li>
     <li>subject_gerund->cultivating devilstrand</li>
   -->
-  <Devilstrand.generalRules.rulesStrings>&lt;li&gt;subject-&gt;devilstrand cultivo&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;usou o diabostrand como um firebreak natural&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;estabelecia as técnicas para cultivar o diabostrand facilmente&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;became obcecado com cogumelos e tornou-se a princesa autodeclarada de [ANYPAWN_possessive] reino&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;cultivar o diabostrand&lt;/li&gt;\n</Devilstrand.generalRules.rulesStrings>
+  <Devilstrand.generalRules.rulesStrings>&lt;li>subject->devilstrand cultivo&lt;/li>\n&lt;li>subject_story->usou o diabostrand como um firebreak natural&lt;/li>\n&lt;li>subject_story->estabelecia as técnicas para cultivar o diabostrand facilmente&lt;/li>\n&lt;li>subject_story->became obcecado com cogumelos e tornou-se a princesa autodeclarada de [ANYPAWN_possessive] reino&lt;/li>\n&lt;li>subject_gerund->cultivar o diabostrand&lt;/li>\n</Devilstrand.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Devilstrand.generalRules.rulesStrings>&lt;li>subject->devilstrand cultivo&lt;/li>\n&lt;li>subject_story->usou o diabostrand como um firebreak natural&lt;/li>\n&lt;li>subject_story->estabelecia as técnicas para cultivar o diabostrand facilmente&lt;/li>\n&lt;li>subject_story->became obcecado com cogumelos e tornou-se a princesa autodeclarada de [ANYPAWN_possessive] reino&lt;/li>\n&lt;li>subject_gerund->cultivar o diabostrand&lt;/li>\n</Devilstrand.generalRules.rulesStrings>
+  
   <!-- EN: drug production -->
   <DrugProduction.label>produção de drogas</DrugProduction.label>
   <!-- EN: Build a drug lab for basic drug synthesis. Further research is required to make specific drugs. -->
@@ -88,7 +113,11 @@
     <li>subject_gerund->building drug labs</li>
     <li>subject_gerund->producing drugs</li>
   -->
-  <DrugProduction.generalRules.rulesStrings>&lt;li&gt;subject-&gt; produção de drogas&lt;/li&gt;\n&lt;li&gt;subject-&gt; síntese de drogas&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; trabalhou em um laboratório asteróide na borda do espaço povoado&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;learned como criar drogas de produtos químicos reciclados, levando a muitos anos passados na prisão&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;trabalhou como um químico, mas entrou em peddling drogas ilegais no lado&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;building drug labs&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;produzindo drogas&lt;/li&gt;\n</DrugProduction.generalRules.rulesStrings>
+  <DrugProduction.generalRules.rulesStrings>&lt;li>subject-> produção de drogas&lt;/li>\n&lt;li>subject-> síntese de drogas&lt;/li>\n&lt;li>subject_story-> trabalhou em um laboratório asteróide na borda do espaço povoado&lt;/li>\n&lt;li>subject_story->learned como criar drogas de produtos químicos reciclados, levando a muitos anos passados na prisão&lt;/li>\n&lt;li>subject_story->trabalhou como um químico, mas entrou em peddling drogas ilegais no lado&lt;/li>\n&lt;li>subject_gerund->building drug labs&lt;/li>\n&lt;li>subject_gerund->produzindo drogas&lt;/li>\n</DrugProduction.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <DrugProduction.generalRules.rulesStrings>&lt;li>subject-> produção de drogas&lt;/li>\n&lt;li>subject-> síntese de drogas&lt;/li>\n&lt;li>subject_story-> trabalhou em um laboratório asteróide na borda do espaço povoado&lt;/li>\n&lt;li>subject_story->learned como criar drogas de produtos químicos reciclados, levando a muitos anos passados na prisão&lt;/li>\n&lt;li>subject_story->trabalhou como um químico, mas entrou em peddling drogas ilegais no lado&lt;/li>\n&lt;li>subject_gerund->building drug labs&lt;/li>\n&lt;li>subject_gerund->produzindo drogas&lt;/li>\n</DrugProduction.generalRules.rulesStrings>
+  
   <!-- EN: go-juice production -->
   <GoJuiceProduction.label>produção de suco</GoJuiceProduction.label>
   <!-- EN: Produce go-juice, a synthetic combat-performance-enhancing drug which improves shooting, melee, and movement ability, and dulls pain. -->
@@ -100,7 +129,11 @@
     <li>subject_story->never went on a mission without go-juice or juggernaut in a pocket</li>
     <li>subject_gerund->synthesizing go-juice</li>
   -->
-  <GoJuiceProduction.generalRules.rulesStrings>&lt;li&gt;subject-&gt;go-juice production&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi expulso para tomar go-juice durante jogos de esportes de equipe&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;found go-juice aumentou maciçamente a produtividade em minas e ferrovias&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; nunca foi em uma missão sem go-juice ou juggernaut em um bolso&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;synthesizing go-juice&lt;/li&gt;\n</GoJuiceProduction.generalRules.rulesStrings>
+  <GoJuiceProduction.generalRules.rulesStrings>&lt;li>subject->go-juice production&lt;/li>\n&lt;li>subject_story-> foi expulso para tomar go-juice durante jogos de esportes de equipe&lt;/li>\n&lt;li>subject_story->found go-juice aumentou maciçamente a produtividade em minas e ferrovias&lt;/li>\n&lt;li>subject_story-> nunca foi em uma missão sem go-juice ou juggernaut em um bolso&lt;/li>\n&lt;li>subject_gerund->synthesizing go-juice&lt;/li>\n</GoJuiceProduction.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <GoJuiceProduction.generalRules.rulesStrings>&lt;li>subject->go-juice production&lt;/li>\n&lt;li>subject_story-> foi expulso para tomar go-juice durante jogos de esportes de equipe&lt;/li>\n&lt;li>subject_story->found go-juice aumentou maciçamente a produtividade em minas e ferrovias&lt;/li>\n&lt;li>subject_story-> nunca foi em uma missão sem go-juice ou juggernaut em um bolso&lt;/li>\n&lt;li>subject_gerund->synthesizing go-juice&lt;/li>\n</GoJuiceProduction.generalRules.rulesStrings>
+  
   <!-- EN: greatbow -->
   <Greatbow.label>boa</Greatbow.label>
   <!-- EN: Craft greatbows for killing enemies at great range. -->
@@ -112,7 +145,11 @@
     <li>subject_story->lived alone in the greenwood, a hail of arrows greeting anyone who approached within a mile of its edge</li>
     <li>subject_gerund->crafting greatbows</li>
   -->
-  <Greatbow.generalRules.rulesStrings>&lt;li&gt;subject-&gt;greatbows&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; disparou uma flecha através do capacete de ferro de um rei feudal&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;hunted muffalos para sua pele em um mundo feral&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; viveu sozinho no greenwood, uma grana de flechas saudando qualquer um que se aproximou dentro de uma milha de sua borda&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting greatbows&lt;/li&gt;\n</Greatbow.generalRules.rulesStrings>
+  <Greatbow.generalRules.rulesStrings>&lt;li>subject->greatbows&lt;/li>\n&lt;li>subject_story-> disparou uma flecha através do capacete de ferro de um rei feudal&lt;/li>\n&lt;li>subject_story->hunted muffalos para sua pele em um mundo feral&lt;/li>\n&lt;li>subject_story-> viveu sozinho no greenwood, uma grana de flechas saudando qualquer um que se aproximou dentro de uma milha de sua borda&lt;/li>\n&lt;li>subject_gerund->crafting greatbows&lt;/li>\n</Greatbow.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Greatbow.generalRules.rulesStrings>&lt;li>subject->greatbows&lt;/li>\n&lt;li>subject_story-> disparou uma flecha através do capacete de ferro de um rei feudal&lt;/li>\n&lt;li>subject_story->hunted muffalos para sua pele em um mundo feral&lt;/li>\n&lt;li>subject_story-> viveu sozinho no greenwood, uma grana de flechas saudando qualquer um que se aproximou dentro de uma milha de sua borda&lt;/li>\n&lt;li>subject_gerund->crafting greatbows&lt;/li>\n</Greatbow.generalRules.rulesStrings>
+  
   <!-- EN: long blades -->
   <LongBlades.label>lâminas compridas</LongBlades.label>
   <!-- EN: Craft longswords and spears. -->
@@ -124,7 +161,11 @@
     <li>subject_story->trained the hoplites on a warworld to use their weapons' reach</li>
     <li>subject_gerund->smithing medieval weapons</li>
   -->
-  <LongBlades.generalRules.rulesStrings>&lt;li&gt;subject-&gt;medieval armamento&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;rode com a Quinta Cavalaria de Luz do Betaduke como eles conquistaram o setor&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi escravizado como um serralheiro sob a arena em um planeta de idade de ferro&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; treinou as lúpulas em um mundo de guerra para usar o alcance de suas armas&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;smithing armas medievais&lt;/li&gt;\n</LongBlades.generalRules.rulesStrings>
+  <LongBlades.generalRules.rulesStrings>&lt;li>subject->medieval armamento&lt;/li>\n&lt;li>subject_story->rode com a Quinta Cavalaria de Luz do Betaduke como eles conquistaram o setor&lt;/li>\n&lt;li>subject_story-> foi escravizado como um serralheiro sob a arena em um planeta de idade de ferro&lt;/li>\n&lt;li>subject_story-> treinou as lúpulas em um mundo de guerra para usar o alcance de suas armas&lt;/li>\n&lt;li>subject_gerund->smithing armas medievais&lt;/li>\n</LongBlades.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <LongBlades.generalRules.rulesStrings>&lt;li>subject->medieval armamento&lt;/li>\n&lt;li>subject_story->rode com a Quinta Cavalaria de Luz do Betaduke como eles conquistaram o setor&lt;/li>\n&lt;li>subject_story-> foi escravizado como um serralheiro sob a arena em um planeta de idade de ferro&lt;/li>\n&lt;li>subject_story-> treinou as lúpulas em um mundo de guerra para usar o alcance de suas armas&lt;/li>\n&lt;li>subject_gerund->smithing armas medievais&lt;/li>\n</LongBlades.generalRules.rulesStrings>
+  
   <!-- EN: passive cooler -->
   <PassiveCooler.label>refrigerador passivo</PassiveCooler.label>
   <!-- EN: Make passive coolers, to cool indoor spaces without using electricity. -->
@@ -137,7 +178,11 @@
     <li>subject_story->noticed, on the shores of an oceanic planet, that it was cooler where the sea spray settled</li>
     <li>subject_gerund->building passive coolers</li>
   -->
-  <PassiveCooler.generalRules.rulesStrings>&lt;li&gt;subject-&gt;evaporation&lt;/li&gt;\n&lt;li&gt;subject-&gt; coolers passivos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;moved para um mundo tropical sweltering e desenvolveu técnicas únicas para ficar cool&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;pesquisou técnicas primitivas para áreas de resfriamento no conforto das bibliotecas de um coreworld&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;noticed, nas margens de um planeta oceânico, que era mais frio onde o spray do mar se estabeleceu&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;building passivo coolers&lt;/li&gt;\n</PassiveCooler.generalRules.rulesStrings>
+  <PassiveCooler.generalRules.rulesStrings>&lt;li>subject->evaporation&lt;/li>\n&lt;li>subject-> coolers passivos&lt;/li>\n&lt;li>subject_story->moved para um mundo tropical sweltering e desenvolveu técnicas únicas para ficar cool&lt;/li>\n&lt;li>subject_story->pesquisou técnicas primitivas para áreas de resfriamento no conforto das bibliotecas de um coreworld&lt;/li>\n&lt;li>subject_story->noticed, nas margens de um planeta oceânico, que era mais frio onde o spray do mar se estabeleceu&lt;/li>\n&lt;li>subject_gerund->building passivo coolers&lt;/li>\n</PassiveCooler.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <PassiveCooler.generalRules.rulesStrings>&lt;li>subject->evaporation&lt;/li>\n&lt;li>subject-> coolers passivos&lt;/li>\n&lt;li>subject_story->moved para um mundo tropical sweltering e desenvolveu técnicas únicas para ficar cool&lt;/li>\n&lt;li>subject_story->pesquisou técnicas primitivas para áreas de resfriamento no conforto das bibliotecas de um coreworld&lt;/li>\n&lt;li>subject_story->noticed, nas margens de um planeta oceânico, que era mais frio onde o spray do mar se estabeleceu&lt;/li>\n&lt;li>subject_gerund->building passivo coolers&lt;/li>\n</PassiveCooler.generalRules.rulesStrings>
+  
   <!-- EN: pemmican -->
   <Pemmican.label>pemmican</Pemmican.label>
   <!-- EN: Make pemmican, a preserved mixture of meat and plant matter that doesn't go bad for a long time. Great for traveling. -->
@@ -149,7 +194,11 @@
     <li>subject_story->taught pemmican production to feral tribes</li>
     <li>subject_gerund->making pemmican</li>
   -->
-  <Pemmican.generalRules.rulesStrings>&lt;li&gt;subject-&gt;pemmican production&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;mastered produção pemmican durante uma longa peregrinação ao planeta Spire&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; sobreviveu apenas em pemmican quando um forro de passageiros caiu em um mundo de vidro&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;taught produção pemmican para tribos ferais&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;making pemmican&lt;/li&gt;\n</Pemmican.generalRules.rulesStrings>
+  <Pemmican.generalRules.rulesStrings>&lt;li>subject->pemmican production&lt;/li>\n&lt;li>subject_story->mastered produção pemmican durante uma longa peregrinação ao planeta Spire&lt;/li>\n&lt;li>subject_story-> sobreviveu apenas em pemmican quando um forro de passageiros caiu em um mundo de vidro&lt;/li>\n&lt;li>subject_story->taught produção pemmican para tribos ferais&lt;/li>\n&lt;li>subject_gerund->making pemmican&lt;/li>\n</Pemmican.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Pemmican.generalRules.rulesStrings>&lt;li>subject->pemmican production&lt;/li>\n&lt;li>subject_story->mastered produção pemmican durante uma longa peregrinação ao planeta Spire&lt;/li>\n&lt;li>subject_story-> sobreviveu apenas em pemmican quando um forro de passageiros caiu em um mundo de vidro&lt;/li>\n&lt;li>subject_story->taught produção pemmican para tribos ferais&lt;/li>\n&lt;li>subject_gerund->making pemmican&lt;/li>\n</Pemmican.generalRules.rulesStrings>
+  
   <!-- EN: penoxycyline production -->
   <PenoxycylineProduction.label>produção de penoxiciclina</PenoxycylineProduction.label>
   <!-- EN: Produce penoxycyline, a disease prevention drug which blocks plague, malaria, and more before they start. -->
@@ -161,7 +210,11 @@
     <li>subject_story->prevented an outbreak of malaria from spreading through careful penoxycyline dosage</li>
     <li>subject_gerund->synthesizing penoxycyline</li>
   -->
-  <PenoxycylineProduction.generalRules.rulesStrings>&lt;li&gt;subject-&gt;penoxycyline produção&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;lectured to the United Planets about preventative medicine&lt;/li&gt;subject_story\n&lt;li&gt;subject_story-&gt; foi expulso de Dawn Falls como um quack, para vender um medicamento que &quot;não faz nada&quot;&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; impediu um surto de malária de se espalhar através de dosagem cuidadosa penoxiciclina&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;synthesizing penoxycyline&lt;/li&gt;\n</PenoxycylineProduction.generalRules.rulesStrings>
+  <PenoxycylineProduction.generalRules.rulesStrings>&lt;li>subject->penoxycyline produção&lt;/li>\n&lt;li>subject_story->lectured to the United Planets about preventative medicine&lt;/li>subject_story\n&lt;li>subject_story-> foi expulso de Dawn Falls como um quack, para vender um medicamento que "não faz nada"&lt;/li>\n&lt;li>subject_story-> impediu um surto de malária de se espalhar através de dosagem cuidadosa penoxiciclina&lt;/li>\n&lt;li>subject_gerund->synthesizing penoxycyline&lt;/li>\n</PenoxycylineProduction.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <PenoxycylineProduction.generalRules.rulesStrings>&lt;li>subject->penoxycyline produção&lt;/li>\n&lt;li>subject_story->lectured to the United Planets about preventative medicine&lt;/li>subject_story\n&lt;li>subject_story-> foi expulso de Dawn Falls como um quack, para vender um medicamento que "não faz nada"&lt;/li>\n&lt;li>subject_story-> impediu um surto de malária de se espalhar através de dosagem cuidadosa penoxiciclina&lt;/li>\n&lt;li>subject_gerund->synthesizing penoxycyline&lt;/li>\n</PenoxycylineProduction.generalRules.rulesStrings>
+  
   <!-- EN: plate armor -->
   <PlateArmor.label>armadura de placa</PlateArmor.label>
   <!-- EN: Smith suits of plate armor from metal or wood. This heavy armor noticeably slows movement, but protects very effectively. -->
@@ -173,7 +226,11 @@
     <li>subject_story->started the first armorworker's collective on an urbworld</li>
     <li>subject_gerund->smithing plate armor</li>
   -->
-  <PlateArmor.generalRules.rulesStrings>&lt;li&gt;subject-&gt;plate armor&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;crafted armadura de sucata, quando as autoridades cercaram [ANYPAWN_possessive] família shack&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;became conhecido como o Green Smith, quando o musgo cresceu na armadura de madeira&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;iniciou o primeiro coletivo de armadura em um urbworld&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;smithing plate armor&lt;/li&gt;\n</PlateArmor.generalRules.rulesStrings>
+  <PlateArmor.generalRules.rulesStrings>&lt;li>subject->plate armor&lt;/li>\n&lt;li>subject_story->crafted armadura de sucata, quando as autoridades cercaram [ANYPAWN_possessive] família shack&lt;/li>\n&lt;li>subject_story->became conhecido como o Green Smith, quando o musgo cresceu na armadura de madeira&lt;/li>\n&lt;li>subject_story->iniciou o primeiro coletivo de armadura em um urbworld&lt;/li>\n&lt;li>subject_gerund->smithing plate armor&lt;/li>\n</PlateArmor.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <PlateArmor.generalRules.rulesStrings>&lt;li>subject->plate armor&lt;/li>\n&lt;li>subject_story->crafted armadura de sucata, quando as autoridades cercaram [ANYPAWN_possessive] família shack&lt;/li>\n&lt;li>subject_story->became conhecido como o Green Smith, quando o musgo cresceu na armadura de madeira&lt;/li>\n&lt;li>subject_story->iniciou o primeiro coletivo de armadura em um urbworld&lt;/li>\n&lt;li>subject_gerund->smithing plate armor&lt;/li>\n</PlateArmor.generalRules.rulesStrings>
+  
   <!-- EN: psychite refining -->
   <PsychiteRefining.label>refinação psiquiátrica</PsychiteRefining.label>
   <!-- EN: Refine psychoid leaves into flake and yayo, different forms of the euphoric psychite drug. -->
@@ -185,7 +242,11 @@
     <li>subject_story->campaigned for the legalisation of yayo on a nearby urbworld</li>
     <li>subject_gerund->refining psychite</li>
   -->
-  <PsychiteRefining.generalRules.rulesStrings>&lt;li&gt;subject-&gt;psychite production&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;usado [ANYPAWN_possessive] trabalho universitário como cobertura para [ANYPAWN_possessive] droga-dealing&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;iniciou uma comuna onde o floco de baixa dose foi misturado no alimento&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;campaigned para a legalização de yayo em um urbworld próximo&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;refinindo psique&lt;/li&gt;\n</PsychiteRefining.generalRules.rulesStrings>
+  <PsychiteRefining.generalRules.rulesStrings>&lt;li>subject->psychite production&lt;/li>\n&lt;li>subject_story->usado [ANYPAWN_possessive] trabalho universitário como cobertura para [ANYPAWN_possessive] droga-dealing&lt;/li>\n&lt;li>subject_story->iniciou uma comuna onde o floco de baixa dose foi misturado no alimento&lt;/li>\n&lt;li>subject_story->campaigned para a legalização de yayo em um urbworld próximo&lt;/li>\n&lt;li>subject_gerund->refinindo psique&lt;/li>\n</PsychiteRefining.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <PsychiteRefining.generalRules.rulesStrings>&lt;li>subject->psychite production&lt;/li>\n&lt;li>subject_story->usado [ANYPAWN_possessive] trabalho universitário como cobertura para [ANYPAWN_possessive] droga-dealing&lt;/li>\n&lt;li>subject_story->iniciou uma comuna onde o floco de baixa dose foi misturado no alimento&lt;/li>\n&lt;li>subject_story->campaigned para a legalização de yayo em um urbworld próximo&lt;/li>\n&lt;li>subject_gerund->refinindo psique&lt;/li>\n</PsychiteRefining.generalRules.rulesStrings>
+  
   <!-- EN: psychoid brewing -->
   <PsychoidBrewing.label>cervejeira psicoide</PsychoidBrewing.label>
   <!-- EN: Prepare psychoid leaves into a mildly euphoria-inducing and addictive tea at the campfire or cooking stove. -->
@@ -197,7 +258,11 @@
     <li>subject_story->legalized psychoid for mass production across several coreworlds, when [ANYPAWN_pronoun] had the power to do so</li>
     <li>subject_gerund->brewing psychoid</li>
   -->
-  <PsychoidBrewing.generalRules.rulesStrings>&lt;li&gt;subject-&gt;psychoid&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;juntou uma comuna psicoide de curta duração em um mundo culto&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;experiente com psicoide para ajudar soldados traumatizados&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;legalized psicoid for mass production across various coreworlds, when [ANYPAWN_pronoun] had the power to do so&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;brewing psicoid&lt;/li&gt;\n</PsychoidBrewing.generalRules.rulesStrings>
+  <PsychoidBrewing.generalRules.rulesStrings>&lt;li>subject->psychoid&lt;/li>\n&lt;li>subject_story->juntou uma comuna psicoide de curta duração em um mundo culto&lt;/li>\n&lt;li>subject_story->experiente com psicoide para ajudar soldados traumatizados&lt;/li>\n&lt;li>subject_story->legalized psicoid for mass production across various coreworlds, when [ANYPAWN_pronoun] had the power to do so&lt;/li>\n&lt;li>subject_gerund->brewing psicoid&lt;/li>\n</PsychoidBrewing.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <PsychoidBrewing.generalRules.rulesStrings>&lt;li>subject->psychoid&lt;/li>\n&lt;li>subject_story->juntou uma comuna psicoide de curta duração em um mundo culto&lt;/li>\n&lt;li>subject_story->experiente com psicoide para ajudar soldados traumatizados&lt;/li>\n&lt;li>subject_story->legalized psicoid for mass production across various coreworlds, when [ANYPAWN_pronoun] had the power to do so&lt;/li>\n&lt;li>subject_gerund->brewing psicoid&lt;/li>\n</PsychoidBrewing.generalRules.rulesStrings>
+  
   <!-- EN: recurve bow -->
   <RecurveBow.label>arco recorrente</RecurveBow.label>
   <!-- EN: Build the recurve bow, an effective and inexpensive ranged weapon. -->
@@ -210,7 +275,11 @@
     <li>subject_story->raised the colony children as hunter-gatherers, with every one a master archer</li>
     <li>subject_gerund->crafting bows</li>
   -->
-  <RecurveBow.generalRules.rulesStrings>&lt;li&gt;subject-&gt;bowyery&lt;/li&gt;\n&lt;li&gt;subject-&gt;bow-making&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;tracked um boomalope raivoso por quatro dias antes de matá-lo com uma única flecha&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;settled perto de uma floresta do yew para proteger os materiais perfeitos para arcos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;raised as crianças da colônia como caçador-coletores, com cada um um arqueiro mestre&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting bows&lt;/li&gt;\n</RecurveBow.generalRules.rulesStrings>
+  <RecurveBow.generalRules.rulesStrings>&lt;li>subject->bowyery&lt;/li>\n&lt;li>subject->bow-making&lt;/li>\n&lt;li>subject_story->tracked um boomalope raivoso por quatro dias antes de matá-lo com uma única flecha&lt;/li>\n&lt;li>subject_story->settled perto de uma floresta do yew para proteger os materiais perfeitos para arcos&lt;/li>\n&lt;li>subject_story->raised as crianças da colônia como caçador-coletores, com cada um um arqueiro mestre&lt;/li>\n&lt;li>subject_gerund->crafting bows&lt;/li>\n</RecurveBow.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <RecurveBow.generalRules.rulesStrings>&lt;li>subject->bowyery&lt;/li>\n&lt;li>subject->bow-making&lt;/li>\n&lt;li>subject_story->tracked um boomalope raivoso por quatro dias antes de matá-lo com uma única flecha&lt;/li>\n&lt;li>subject_story->settled perto de uma floresta do yew para proteger os materiais perfeitos para arcos&lt;/li>\n&lt;li>subject_story->raised as crianças da colônia como caçador-coletores, com cada um um arqueiro mestre&lt;/li>\n&lt;li>subject_gerund->crafting bows&lt;/li>\n</RecurveBow.generalRules.rulesStrings>
+  
   <!-- EN: smithing -->
   <Smithing.label>ferragem</Smithing.label>
   <!-- EN: Build smithies for crafting metal weapons like knives, gladii, and maces. Work metal into clean, beautiful floor tiles. -->
@@ -221,7 +290,11 @@
     <li>subject_story->built glitterworld smithies for the Renaissance reenactment guilds</li>
     <li>subject_gerund->smithing</li>
   -->
-  <Smithing.generalRules.rulesStrings>&lt;li&gt;subject-&gt;blacksmithing&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;settled em uma aldeia medieval e masterizado simples metal crafting&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;built glitterworld smithies for the Renaissance reenactment guilds&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;smithing&lt;/li&gt;\n</Smithing.generalRules.rulesStrings>
+  <Smithing.generalRules.rulesStrings>&lt;li>subject->blacksmithing&lt;/li>\n&lt;li>subject_story->settled em uma aldeia medieval e masterizado simples metal crafting&lt;/li>\n&lt;li>subject_story->built glitterworld smithies for the Renaissance reenactment guilds&lt;/li>\n&lt;li>subject_gerund->smithing&lt;/li>\n</Smithing.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Smithing.generalRules.rulesStrings>&lt;li>subject->blacksmithing&lt;/li>\n&lt;li>subject_story->settled em uma aldeia medieval e masterizado simples metal crafting&lt;/li>\n&lt;li>subject_story->built glitterworld smithies for the Renaissance reenactment guilds&lt;/li>\n&lt;li>subject_gerund->smithing&lt;/li>\n</Smithing.generalRules.rulesStrings>
+  
   <!-- EN: stonecutting -->
   <Stonecutting.label>corte de pedra</Stonecutting.label>
   <!-- EN: Cut rock chunks into stone blocks for use in construction. Build beautiful stone tile floors or ugly concrete walkways. -->
@@ -234,7 +307,11 @@
     <li>subject_gerund->stonecutting</li>
     <li>subject_gerund->cutting stones</li>
   -->
-  <Stonecutting.generalRules.rulesStrings>&lt;li&gt;subject-&gt;masonry&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi o primeiro em uma linha de designers de templos, todos compartilhando o mesmo nome&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; desenvolveu técnicas únicas para cortar a rocha mais dura com ferramentas básicas&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;tilou a totalidade do palácio do vice-rei em um mundo medieval&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;stonecutting&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;cutando pedras&lt;/li&gt;\n</Stonecutting.generalRules.rulesStrings>
+  <Stonecutting.generalRules.rulesStrings>&lt;li>subject->masonry&lt;/li>\n&lt;li>subject_story-> foi o primeiro em uma linha de designers de templos, todos compartilhando o mesmo nome&lt;/li>\n&lt;li>subject_story-> desenvolveu técnicas únicas para cortar a rocha mais dura com ferramentas básicas&lt;/li>\n&lt;li>subject_story->tilou a totalidade do palácio do vice-rei em um mundo medieval&lt;/li>\n&lt;li>subject_gerund->stonecutting&lt;/li>\n&lt;li>subject_gerund->cutando pedras&lt;/li>\n</Stonecutting.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Stonecutting.generalRules.rulesStrings>&lt;li>subject->masonry&lt;/li>\n&lt;li>subject_story-> foi o primeiro em uma linha de designers de templos, todos compartilhando o mesmo nome&lt;/li>\n&lt;li>subject_story-> desenvolveu técnicas únicas para cortar a rocha mais dura com ferramentas básicas&lt;/li>\n&lt;li>subject_story->tilou a totalidade do palácio do vice-rei em um mundo medieval&lt;/li>\n&lt;li>subject_gerund->stonecutting&lt;/li>\n&lt;li>subject_gerund->cutando pedras&lt;/li>\n</Stonecutting.generalRules.rulesStrings>
+  
   <!-- EN: tree sowing -->
   <TreeSowing.label>semente de árvore</TreeSowing.label>
   <!-- EN: Sow the local biome's natural trees in your fields. -->
@@ -246,7 +323,11 @@
     <li>subject_story->worked in a tree nursery on an animal world</li>
     <li>subject_gerund->sowing trees</li>
   -->
-  <TreeSowing.generalRules.rulesStrings>&lt;li&gt;subject-&gt;tree sewing&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;propagated trees across a long-dead planetoid, trying to bring life back&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; publicou um artigo sobre a manutenção de ecossistemas naturais&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; trabalhou em um viveiro de árvores em um mundo animal&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;semeando árvores&lt;/li&gt;\n</TreeSowing.generalRules.rulesStrings>
+  <TreeSowing.generalRules.rulesStrings>&lt;li>subject->tree sewing&lt;/li>\n&lt;li>subject_story->propagated trees across a long-dead planetoid, trying to bring life back&lt;/li>\n&lt;li>subject_story-> publicou um artigo sobre a manutenção de ecossistemas naturais&lt;/li>\n&lt;li>subject_story-> trabalhou em um viveiro de árvores em um mundo animal&lt;/li>\n&lt;li>subject_gerund->semeando árvores&lt;/li>\n</TreeSowing.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <TreeSowing.generalRules.rulesStrings>&lt;li>subject->tree sewing&lt;/li>\n&lt;li>subject_story->propagated trees across a long-dead planetoid, trying to bring life back&lt;/li>\n&lt;li>subject_story-> publicou um artigo sobre a manutenção de ecossistemas naturais&lt;/li>\n&lt;li>subject_story-> trabalhou em um viveiro de árvores em um mundo animal&lt;/li>\n&lt;li>subject_gerund->semeando árvores&lt;/li>\n</TreeSowing.generalRules.rulesStrings>
+  
   <!-- EN: wake-up production -->
   <WakeUpProduction.label>produção de despertar</WakeUpProduction.label>
   <!-- EN: Synthesize wake-up, a work performance-enhancing drug which replaces the need for sleep. -->
@@ -258,5 +339,9 @@
     <li>subject_story->moved everyone to the dark side of an asteroid and used wake-up to maintain their biorhythms</li>
     <li>subject_gerund->synthesizing wake-up</li>
   -->
-  <WakeUpProduction.generalRules.rulesStrings>&lt;li&gt;subject-&gt;wake-up produção&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;tried para superar a dependência de cafeína, tomando wake-up&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;treated narcoleptics e sonâmbulos com doses de despertar cuidadosamente cronometradas&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; levou todos para o lado escuro de um asteróide e usou despertar para manter seus biorhythms&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;synthesizing wake-up&lt;/li&gt;\n</WakeUpProduction.generalRules.rulesStrings>
+  <WakeUpProduction.generalRules.rulesStrings>&lt;li>subject->wake-up produção&lt;/li>\n&lt;li>subject_story->tried para superar a dependência de cafeína, tomando wake-up&lt;/li>\n&lt;li>subject_story->treated narcoleptics e sonâmbulos com doses de despertar cuidadosamente cronometradas&lt;/li>\n&lt;li>subject_story-> levou todos para o lado escuro de um asteróide e usou despertar para manter seus biorhythms&lt;/li>\n&lt;li>subject_gerund->synthesizing wake-up&lt;/li>\n</WakeUpProduction.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <WakeUpProduction.generalRules.rulesStrings>&lt;li>subject->wake-up produção&lt;/li>\n&lt;li>subject_story->tried para superar a dependência de cafeína, tomando wake-up&lt;/li>\n&lt;li>subject_story->treated narcoleptics e sonâmbulos com doses de despertar cuidadosamente cronometradas&lt;/li>\n&lt;li>subject_story-> levou todos para o lado escuro de um asteróide e usou despertar para manter seus biorhythms&lt;/li>\n&lt;li>subject_gerund->synthesizing wake-up&lt;/li>\n</WakeUpProduction.generalRules.rulesStrings>
+  
 </LanguageData>

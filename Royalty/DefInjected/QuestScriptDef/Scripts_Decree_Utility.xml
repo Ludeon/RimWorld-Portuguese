@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN:
     <li>decreeIntro->[asker_nameDef], your [asker_bestRoyalTitle], has issued a royal decree.</li>
     <li>decreeThreatInfo->If you fail to fulfill this decree within [decreeDays] days, [asker_nameDef] will start to become unhappy. [asker_possessive] anger will increase over time until the decree is satisfied.</li>
   -->
-  <DecreeSetup.questDescriptionRules.rulesStrings>&lt;li&gt;decreeIntro-&gt;[asker_nameDef], seu [asker_bestRoyalTitle], emitiu um decreto real.&lt;/li&gt;\n&lt;li&gt;decreeThreatInfo-&gt; Se você não cumprir este decreto dentro [decreeDays] dias, [asker_nameDef] começará a se tornar infeliz. [asker_possessive] a raiva aumentará ao longo do tempo até que o decreto esteja satisfeito.&lt;/li&gt;\n</DecreeSetup.questDescriptionRules.rulesStrings>
+  <DecreeSetup.questDescriptionRules.rulesStrings>&lt;li>decreeIntro->[asker_nameDef], seu [asker_bestRoyalTitle], emitiu um decreto real.&lt;/li>\n&lt;li>decreeThreatInfo-> Se você não cumprir este decreto dentro [decreeDays] dias, [asker_nameDef] começará a se tornar infeliz. [asker_possessive] a raiva aumentará ao longo do tempo até que o decreto esteja satisfeito.&lt;/li>\n</DecreeSetup.questDescriptionRules.rulesStrings>
   <!-- EN: [asker_nameDef]'s decree forgotten -->
   <DecreeSetup.LetterLabelDecreeForgotten.slateRef>[asker] Def] decreto esquecido</DecreeSetup.LetterLabelDecreeForgotten.slateRef>
   <!-- EN: [asker_nameDef] has forgotten about [asker_possessive] decree. -->
@@ -12,5 +13,9 @@
   <!-- EN: Decree cancelled -->
   <DecreeSetup.LetterLabelDecreeCancelled.slateRef>Decreto cancelado</DecreeSetup.LetterLabelDecreeCancelled.slateRef>
   <!-- EN: [asker_nameDef] has grudgingly cancelled the decree '[resolvedQuestName]' since it cannot be completed. -->
-  <DecreeSetup.LetterTextDecreeCancelled.slateRef>[asker_nameDef] cancelou o decreto &quot;[resolvedQuestName]&quot;, uma vez que não pode ser concluído.</DecreeSetup.LetterTextDecreeCancelled.slateRef>
+  <DecreeSetup.LetterTextDecreeCancelled.slateRef>[asker_nameDef] cancelou o decreto "[resolvedQuestName]", uma vez que não pode ser concluído.</DecreeSetup.LetterTextDecreeCancelled.slateRef>
+  
+  <!-- UNUSED -->
+  <DecreeSetup.questDescriptionRules.rulesStrings>&lt;li>decreeIntro->[asker_nameDef], seu [asker_bestRoyalTitle], emitiu um decreto real.&lt;/li>\n&lt;li>decreeThreatInfo-> Se você não cumprir este decreto dentro [decreeDays] dias, [asker_nameDef] começará a se tornar infeliz. [asker_possessive] a raiva aumentará ao longo do tempo até que o decreto esteja satisfeito.&lt;/li>\n</DecreeSetup.questDescriptionRules.rulesStrings>
+  
 </LanguageData>

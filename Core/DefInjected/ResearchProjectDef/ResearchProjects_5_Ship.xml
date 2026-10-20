@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: starflight basics -->
   <ShipBasics.label>base de luz estrela</ShipBasics.label>
   <!-- EN: Construct the structural and supportive elements of a starship. This is the first step in building a ship to leave this star system. -->
@@ -15,7 +16,11 @@
     <li>subject_story->harvested shipwrecks in the debris belt of a deadworld</li>
     <li>subject_gerund->constructing starship structures</li>
   -->
-  <ShipBasics.generalRules.rulesStrings>&lt;li&gt;subject-&gt;starship engenharia estrutural&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;recruited starship engenheiros para uma frota plantterworld&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi um designer estrutural em um distrito de arranha-céu de urbworld&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;wrecks arrendados no cinto de detritos de um mundo morto&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;construindo estruturas de nave estelar&lt;/li&gt;\n</ShipBasics.generalRules.rulesStrings>
+  <ShipBasics.generalRules.rulesStrings>&lt;li>subject->starship engenharia estrutural&lt;/li>\n&lt;li>subject_story->recruited starship engenheiros para uma frota plantterworld&lt;/li>\n&lt;li>subject_story-> foi um designer estrutural em um distrito de arranha-céu de urbworld&lt;/li>\n&lt;li>subject_story->wrecks arrendados no cinto de detritos de um mundo morto&lt;/li>\n&lt;li>subject_gerund->construindo estruturas de nave estelar&lt;/li>\n</ShipBasics.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <ShipBasics.generalRules.rulesStrings>&lt;li>subject->starship engenharia estrutural&lt;/li>\n&lt;li>subject_story->recruited starship engenheiros para uma frota plantterworld&lt;/li>\n&lt;li>subject_story-> foi um designer estrutural em um distrito de arranha-céu de urbworld&lt;/li>\n&lt;li>subject_story->wrecks arrendados no cinto de detritos de um mundo morto&lt;/li>\n&lt;li>subject_gerund->construindo estruturas de nave estelar&lt;/li>\n</ShipBasics.generalRules.rulesStrings>
+  
   <!-- EN: machine persuasion -->
   <ShipComputerCore.label>persuasão de máquina</ShipComputerCore.label>
   <!-- EN: Build a reward-signal system to persuade an existing persona core into serving as a ship's machine captain. Since people sleep during interstellar travel, a persona core is necessary to handle the complex decisions of a years-long starflight. -->
@@ -30,7 +35,11 @@
     <li>subject_gerund->maintaining starship AI sanity</li>
     <li>subject_gerund->constructing reward-signal systems</li>
   -->
-  <ShipComputerCore.generalRules.rulesStrings>&lt;li&gt;subject-&gt;persona incentivização do núcleo &lt;/li&gt;\n&lt;li&gt;subject-&gt;starship Manutenção da sanidade da AI&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; controla o núcleo de um navio aberrante com recondicionamento cuidadoso&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; configurar simulações de gerenciamento de colônias para ocupar o núcleo do navio durante os muitos anos de viagens interestelares&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;manteve a empresa central de um navio durante uma viagem interestelar 'curta', aprendendo muito sobre núcleos no processo&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;incentivizing persona core&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;mantendo a estrela AI sanity&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;construindo sistemas de assinatura de recompensas&lt;/li&gt;\n</ShipComputerCore.generalRules.rulesStrings>
+  <ShipComputerCore.generalRules.rulesStrings>&lt;li>subject->persona incentivização do núcleo &lt;/li>\n&lt;li>subject->starship Manutenção da sanidade da AI&lt;/li>\n&lt;li>subject_story-> controla o núcleo de um navio aberrante com recondicionamento cuidadoso&lt;/li>\n&lt;li>subject_story-> configurar simulações de gerenciamento de colônias para ocupar o núcleo do navio durante os muitos anos de viagens interestelares&lt;/li>\n&lt;li>subject_story->manteve a empresa central de um navio durante uma viagem interestelar 'curta', aprendendo muito sobre núcleos no processo&lt;/li>\n&lt;li>subject_gerund->incentivizing persona core&lt;/li>\n&lt;li>subject_gerund->mantendo a estrela AI sanity&lt;/li>\n&lt;li>subject_gerund->construindo sistemas de assinatura de recompensas&lt;/li>\n</ShipComputerCore.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <ShipComputerCore.generalRules.rulesStrings>&lt;li>subject->persona incentivização do núcleo &lt;/li>\n&lt;li>subject->starship Manutenção da sanidade da AI&lt;/li>\n&lt;li>subject_story-> controla o núcleo de um navio aberrante com recondicionamento cuidadoso&lt;/li>\n&lt;li>subject_story-> configurar simulações de gerenciamento de colônias para ocupar o núcleo do navio durante os muitos anos de viagens interestelares&lt;/li>\n&lt;li>subject_story->manteve a empresa central de um navio durante uma viagem interestelar 'curta', aprendendo muito sobre núcleos no processo&lt;/li>\n&lt;li>subject_gerund->incentivizing persona core&lt;/li>\n&lt;li>subject_gerund->mantendo a estrela AI sanity&lt;/li>\n&lt;li>subject_gerund->construindo sistemas de assinatura de recompensas&lt;/li>\n</ShipComputerCore.generalRules.rulesStrings>
+  
   <!-- EN: vacuum cryptosleep casket -->
   <ShipCryptosleep.label>caixa de criptografo de vácuo</ShipCryptosleep.label>
   <!-- EN: Construct hardened cryptosleep caskets tough enough to be exposed to vacuum, for transporting people on the years-long journey between stars. -->
@@ -42,7 +51,11 @@
     <li>subject_story->lectured on the differences between planetary- and starship-grade equipment</li>
     <li>subject_gerund->constructing hardened cryptosleep caskets</li>
   -->
-  <ShipCryptosleep.generalRules.rulesStrings>&lt;li&gt;subject-&gt;starship-grau criptosleep caskets&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; substituiu os invólucros de criptosleep falhados no CMC Celeste, de modo que o navio de geração velha poderia ser usado novamente&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi acidentalmente ejetado no espaço profundo, sobrevivendo em um caixão autoprojetado por dois meses&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;lectured on the differents between planetry- and starship-grade equipment&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;constructing hardened cryptosleep caskets&lt;/li&gt;\n</ShipCryptosleep.generalRules.rulesStrings>
+  <ShipCryptosleep.generalRules.rulesStrings>&lt;li>subject->starship-grau criptosleep caskets&lt;/li>\n&lt;li>subject_story-> substituiu os invólucros de criptosleep falhados no CMC Celeste, de modo que o navio de geração velha poderia ser usado novamente&lt;/li>\n&lt;li>subject_story-> foi acidentalmente ejetado no espaço profundo, sobrevivendo em um caixão autoprojetado por dois meses&lt;/li>\n&lt;li>subject_story->lectured on the differents between planetry- and starship-grade equipment&lt;/li>\n&lt;li>subject_gerund->constructing hardened cryptosleep caskets&lt;/li>\n</ShipCryptosleep.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <ShipCryptosleep.generalRules.rulesStrings>&lt;li>subject->starship-grau criptosleep caskets&lt;/li>\n&lt;li>subject_story-> substituiu os invólucros de criptosleep falhados no CMC Celeste, de modo que o navio de geração velha poderia ser usado novamente&lt;/li>\n&lt;li>subject_story-> foi acidentalmente ejetado no espaço profundo, sobrevivendo em um caixão autoprojetado por dois meses&lt;/li>\n&lt;li>subject_story->lectured on the differents between planetry- and starship-grade equipment&lt;/li>\n&lt;li>subject_gerund->constructing hardened cryptosleep caskets&lt;/li>\n</ShipCryptosleep.generalRules.rulesStrings>
+  
   <!-- EN: Johnson-Tanaka drive -->
   <ShipEngine.label>Johnson-Tanaka drive</ShipEngine.label>
   <!-- EN: Construct a Johnson-Tanaka drive for a ship. The JT drive can push you to other stars by leveraging quantum scale effects to beam momentum to distant stars. Of course, as with all starships, it still takes many years to get anywhere. -->
@@ -55,7 +68,11 @@
     <li>subject_story->maintained a Johnson-Tanaka drive for two decades, as the ship traveled between the stars</li>
     <li>subject_gerund->constructing starship drives</li>
   -->
-  <ShipEngine.generalRules.rulesStrings>&lt;li&gt;subject-&gt;Johnson-Tanaka theory&lt;/li&gt;\n&lt;li&gt;subject-&gt; transferência de impulso exótico &lt;/li&gt;\n&lt;li&gt;subject_story-&gt;lectured na universidade em Johnson, Tanaka e efeitos de escala quântica&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;constructed a Johnson-Tanaka drive from first Principles for a thesis&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; manteve uma unidade Johnson-Tanaka por duas décadas, como o navio viajou entre as estrelas&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;constructing starship drives&lt;/li&gt;\n</ShipEngine.generalRules.rulesStrings>
+  <ShipEngine.generalRules.rulesStrings>&lt;li>subject->Johnson-Tanaka theory&lt;/li>\n&lt;li>subject-> transferência de impulso exótico &lt;/li>\n&lt;li>subject_story->lectured na universidade em Johnson, Tanaka e efeitos de escala quântica&lt;/li>\n&lt;li>subject_story->constructed a Johnson-Tanaka drive from first Principles for a thesis&lt;/li>\n&lt;li>subject_story-> manteve uma unidade Johnson-Tanaka por duas décadas, como o navio viajou entre as estrelas&lt;/li>\n&lt;li>subject_gerund->constructing starship drives&lt;/li>\n</ShipEngine.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <ShipEngine.generalRules.rulesStrings>&lt;li>subject->Johnson-Tanaka theory&lt;/li>\n&lt;li>subject-> transferência de impulso exótico &lt;/li>\n&lt;li>subject_story->lectured na universidade em Johnson, Tanaka e efeitos de escala quântica&lt;/li>\n&lt;li>subject_story->constructed a Johnson-Tanaka drive from first Principles for a thesis&lt;/li>\n&lt;li>subject_story-> manteve uma unidade Johnson-Tanaka por duas décadas, como o navio viajou entre as estrelas&lt;/li>\n&lt;li>subject_gerund->constructing starship drives&lt;/li>\n</ShipEngine.generalRules.rulesStrings>
+  
   <!-- EN: starship reactor -->
   <ShipReactor.label>reator de nave estelar</ShipReactor.label>
   <!-- EN: Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders. -->
@@ -67,7 +84,11 @@
     <li>subject_story->used a starship reactor as the back-up power for a genebank buried beneath the planet's ice-cap</li>
     <li>subject_gerund->constructing starship reactors</li>
   -->
-  <ShipReactor.generalRules.rulesStrings>&lt;li&gt;subject-&gt;reator nuclear de estrela &lt;/li&gt;\n&lt;li&gt;subject_story-&gt;construiu um novo reator para um navio de colônia, mas nunca viveu para vê-lo levantar &lt;/li&gt;\n&lt;li&gt;subject_story-&gt;defended the ship while the reactor span up, contra os invasores desesperados para obter offworld&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; usou um reator de nave estelar como o poder de backup de um genebank enterrado sob o gelo-cap&lt;/li&gt; do planeta\n&lt;li&gt;subject_gerund-&gt;construindo reatores de nave estelar&lt;/li&gt;\n</ShipReactor.generalRules.rulesStrings>
+  <ShipReactor.generalRules.rulesStrings>&lt;li>subject->reator nuclear de estrela &lt;/li>\n&lt;li>subject_story->construiu um novo reator para um navio de colônia, mas nunca viveu para vê-lo levantar &lt;/li>\n&lt;li>subject_story->defended the ship while the reactor span up, contra os invasores desesperados para obter offworld&lt;/li>\n&lt;li>subject_story-> usou um reator de nave estelar como o poder de backup de um genebank enterrado sob o gelo-cap&lt;/li> do planeta\n&lt;li>subject_gerund->construindo reatores de nave estelar&lt;/li>\n</ShipReactor.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <ShipReactor.generalRules.rulesStrings>&lt;li>subject->reator nuclear de estrela &lt;/li>\n&lt;li>subject_story->construiu um novo reator para um navio de colônia, mas nunca viveu para vê-lo levantar &lt;/li>\n&lt;li>subject_story->defended the ship while the reactor span up, contra os invasores desesperados para obter offworld&lt;/li>\n&lt;li>subject_story-> usou um reator de nave estelar como o poder de backup de um genebank enterrado sob o gelo-cap&lt;/li> do planeta\n&lt;li>subject_gerund->construindo reatores de nave estelar&lt;/li>\n</ShipReactor.generalRules.rulesStrings>
+  
   <!-- EN: starflight sensors -->
   <ShipSensorCluster.label>sensores de luz solar</ShipSensorCluster.label>
   <!-- EN: Construct long-range sensors for a starship. These sensors are essential for navigation, communication, and threat avoidance. -->
@@ -80,5 +101,9 @@
     <li>subject_gerund->navigating interstellar space</li>
     <li>subject_gerund->constructing starship sensors</li>
   -->
-  <ShipSensorCluster.generalRules.rulesStrings>&lt;li&gt;subject-&gt;interstellar navegação&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; usou sensores de nave estelar protótipo para detectar um asteróide de nível de extinção e evacuar o planeta&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi empregado como navegador e cozinhar em um Glitterworld star-yacht&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;refinou o design de sensores de longo alcance, melhorando seu utilitário&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;navegando espaço interestelar&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;construindo sensores de nave estelar&lt;/li&gt;\n</ShipSensorCluster.generalRules.rulesStrings>
+  <ShipSensorCluster.generalRules.rulesStrings>&lt;li>subject->interstellar navegação&lt;/li>\n&lt;li>subject_story-> usou sensores de nave estelar protótipo para detectar um asteróide de nível de extinção e evacuar o planeta&lt;/li>\n&lt;li>subject_story-> foi empregado como navegador e cozinhar em um Glitterworld star-yacht&lt;/li>\n&lt;li>subject_story->refinou o design de sensores de longo alcance, melhorando seu utilitário&lt;/li>\n&lt;li>subject_gerund->navegando espaço interestelar&lt;/li>\n&lt;li>subject_gerund->construindo sensores de nave estelar&lt;/li>\n</ShipSensorCluster.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <ShipSensorCluster.generalRules.rulesStrings>&lt;li>subject->interstellar navegação&lt;/li>\n&lt;li>subject_story-> usou sensores de nave estelar protótipo para detectar um asteróide de nível de extinção e evacuar o planeta&lt;/li>\n&lt;li>subject_story-> foi empregado como navegador e cozinhar em um Glitterworld star-yacht&lt;/li>\n&lt;li>subject_story->refinou o design de sensores de longo alcance, melhorando seu utilitário&lt;/li>\n&lt;li>subject_gerund->navegando espaço interestelar&lt;/li>\n&lt;li>subject_gerund->construindo sensores de nave estelar&lt;/li>\n</ShipSensorCluster.generalRules.rulesStrings>
+  
 </LanguageData>

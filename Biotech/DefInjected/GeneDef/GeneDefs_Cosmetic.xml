@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: unisex beards -->
   <Beard_Always.label>barbas unisex</Beard_Always.label>
   <!-- EN: Carriers of this gene always have thick facial hair, even women. -->
   <Beard_Always.description>Os portadores deste gene sempre têm cabelo facial grosso, até mesmo as mulheres.</Beard_Always.description>
   <!-- EN: bearded -->
   <Beard_Always.labelShortAdj>barbudo</Beard_Always.labelShortAdj>
+  
   <!-- EN: only bushy beards -->
   <Beard_BushyOnly.label>apenas barbas de arbusto</Beard_BushyOnly.label>
   <!-- EN: Male carriers of this gene experience rapid beard growth and are uncomfortable cutting their beards. -->
@@ -24,6 +26,7 @@
   <Beard_BushyOnly.symbolPack.suffixSymbols.0.symbol>barba</Beard_BushyOnly.symbolPack.suffixSymbols.0.symbol>
   <!-- EN: bush -->
   <Beard_BushyOnly.symbolPack.suffixSymbols.1.symbol>arbusto</Beard_BushyOnly.symbolPack.suffixSymbols.1.symbol>
+  
   <!-- EN: beardless -->
   <Beard_NoBeardOnly.label>sem barba</Beard_NoBeardOnly.label>
   <!-- EN: Carriers of this gene grow no facial hair. -->
@@ -40,32 +43,38 @@
   <Beard_NoBeardOnly.symbolPack.suffixSymbols.0.symbol>queixo</Beard_NoBeardOnly.symbolPack.suffixSymbols.0.symbol>
   <!-- EN: smoothchin -->
   <Beard_NoBeardOnly.symbolPack.wholeNameSymbols.0.symbol>máquina de corte</Beard_NoBeardOnly.symbolPack.wholeNameSymbols.0.symbol>
+  
   <!-- EN: heavy brow -->
   <Brow_Heavy.label>brow pesado</Brow_Heavy.label>
   <!-- EN: Carriers of this gene have a prominent brow. -->
   <Brow_Heavy.description>Os portadores deste gene têm uma sobrancelha proeminente.</Brow_Heavy.description>
+  
   <!-- EN: gray eyes -->
   <Eyes_Gray.label>olhos cinzentos</Eyes_Gray.label>
   <!-- EN: Carriers of this gene have pale white-gray eyes. -->
   <Eyes_Gray.description>Os portadores deste gene têm olhos brancos pálidos.</Eyes_Gray.description>
   <!-- EN: gray-eyed -->
   <Eyes_Gray.labelShortAdj>olhos cinzentos</Eyes_Gray.labelShortAdj>
+  
   <!-- EN: red eyes -->
   <Eyes_Red.label>olhos vermelhos</Eyes_Red.label>
   <!-- EN: Carriers of this gene have deeply red-pigmented eyes. -->
   <Eyes_Red.description>Os portadores deste gene têm olhos profundamente vermelhos.</Eyes_Red.description>
   <!-- EN: red-eyed -->
   <Eyes_Red.labelShortAdj>vermelho-olho</Eyes_Red.labelShortAdj>
+  
   <!-- EN: facial ridges -->
   <FacialRidges.label>cumes faciais</FacialRidges.label>
   <!-- EN: Carriers of this gene grow raised ridges of skin on their face. -->
   <FacialRidges.description>Os portadores deste gene crescem cumes levantados da pele em seu rosto.</FacialRidges.description>
+  
   <!-- EN: furskin -->
   <Furskin.label>pele de pele</Furskin.label>
   <!-- EN: Carriers of this gene grow thick fur all over their body, which protects them from cold temperatures. -->
   <Furskin.description>Os portadores deste gene crescem peles grossas em todo o seu corpo, o que os protege das temperaturas frias.</Furskin.description>
   <!-- EN: furskinned -->
   <Furskin.labelShortAdj>pele de pele</Furskin.labelShortAdj>
+  
   <!-- EN: no hair -->
   <Hair_BaldOnly.label>sem cabelo</Hair_BaldOnly.label>
   <!-- EN: Carriers of this gene grow no hair on the head. -->
@@ -88,16 +97,19 @@
   <Hair_BaldOnly.symbolPack.suffixSymbols.1.symbol>suave</Hair_BaldOnly.symbolPack.suffixSymbols.1.symbol>
   <!-- EN: bare -->
   <Hair_BaldOnly.symbolPack.suffixSymbols.2.symbol>escusado</Hair_BaldOnly.symbolPack.suffixSymbols.2.symbol>
+  
   <!-- EN: grayless hair -->
   <Hair_Grayless.label>cabelo cinza</Hair_Grayless.label>
   <!-- EN: Carriers of this gene keep their natural hair color as they age. -->
   <Hair_Grayless.description>Os portadores deste gene mantêm a sua cor de cabelo natural à medida que envelhecem.</Hair_Grayless.description>
   <!-- EN: No age-related gray hair. -->
   <Hair_Grayless.customEffectDescriptions.0>Não há cabelo cinza relacionado à idade.</Hair_Grayless.customEffectDescriptions.0>
+  
   <!-- EN: long-haired -->
   <Hair_LongOnly.label>cabelos longos</Hair_LongOnly.label>
   <!-- EN: Carriers of this gene grow hair on the head very quickly. -->
   <Hair_LongOnly.description>Transportadores deste gene crescem cabelo na cabeça muito rapidamente.</Hair_LongOnly.description>
+  
   <!-- EN: short-haired -->
   <Hair_ShortOnly.label>cabelo curto</Hair_ShortOnly.label>
   <!-- EN: Carriers of this gene can only grow short hair. -->
@@ -120,6 +132,7 @@
   <Hair_ShortOnly.symbolPack.suffixSymbols.2.symbol>stub</Hair_ShortOnly.symbolPack.suffixSymbols.2.symbol>
   <!-- EN: patch -->
   <Hair_ShortOnly.symbolPack.suffixSymbols.3.symbol>patch</Hair_ShortOnly.symbolPack.suffixSymbols.3.symbol>
+  
   <!-- EN: blue skin -->
   <Skin_Blue.label>pele azul</Skin_Blue.label>
   <!-- EN: Carriers of this gene produce a pigment that turns their skin a blue color. -->
@@ -132,6 +145,7 @@
   <Skin_Blue.symbolPack.prefixSymbols.1.symbol>gelo</Skin_Blue.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: sky -->
   <Skin_Blue.symbolPack.prefixSymbols.2.symbol>céu</Skin_Blue.symbolPack.prefixSymbols.2.symbol>
+  
   <!-- EN: deep red skin -->
   <Skin_DeepRed.label>pele vermelha profunda</Skin_DeepRed.label>
   <!-- EN: Carriers of this gene produce a deep-red pigment that gives their skin an almost bloody appearance. -->
@@ -148,6 +162,7 @@
   <Skin_DeepRed.symbolPack.prefixSymbols.3.symbol>rosa</Skin_DeepRed.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: wine -->
   <Skin_DeepRed.symbolPack.prefixSymbols.4.symbol>vinho</Skin_DeepRed.symbolPack.prefixSymbols.4.symbol>
+  
   <!-- EN: deep yellow skin -->
   <Skin_DeepYellow.label>pele amarela profunda</Skin_DeepYellow.label>
   <!-- EN: Carriers of this gene produce a pigment that gives their skin a deep yellow color. -->
@@ -160,6 +175,7 @@
   <Skin_DeepYellow.symbolPack.prefixSymbols.1.symbol>limão</Skin_DeepYellow.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: gold -->
   <Skin_DeepYellow.symbolPack.prefixSymbols.2.symbol>ouro</Skin_DeepYellow.symbolPack.prefixSymbols.2.symbol>
+  
   <!-- EN: green skin -->
   <Skin_Green.label>pele verde</Skin_Green.label>
   <!-- EN: Carriers of this gene produce a pigment that gives their skin a green color. -->
@@ -176,6 +192,7 @@
   <Skin_Green.symbolPack.prefixSymbols.3.symbol>folha</Skin_Green.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: greenskin -->
   <Skin_Green.symbolPack.wholeNameSymbols.0.symbol>pele verde</Skin_Green.symbolPack.wholeNameSymbols.0.symbol>
+  
   <!-- EN: ink black skin -->
   <Skin_InkBlack.label>tinta pele preta</Skin_InkBlack.label>
   <!-- EN: Carriers of this gene produce a pigment that turns their skin a pale black color almost as dark as ink. -->
@@ -202,6 +219,7 @@
   <Skin_InkBlack.symbolPack.suffixSymbols.1.symbol>rajada</Skin_InkBlack.symbolPack.suffixSymbols.1.symbol>
   <!-- EN: jet -->
   <Skin_InkBlack.symbolPack.suffixSymbols.2.symbol>jacto</Skin_InkBlack.symbolPack.suffixSymbols.2.symbol>
+  
   <!-- EN: light gray skin -->
   <Skin_LightGray.label>pele cinza clara</Skin_LightGray.label>
   <!-- EN: Carriers of this produce a light-gray pigment in their skin. -->
@@ -212,6 +230,7 @@
   <Skin_LightGray.symbolPack.prefixSymbols.0.symbol>cinza</Skin_LightGray.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: pale -->
   <Skin_LightGray.symbolPack.prefixSymbols.1.symbol>pálido</Skin_LightGray.symbolPack.prefixSymbols.1.symbol>
+  
   <!-- EN: orange skin -->
   <Skin_Orange.label>pele de laranja</Skin_Orange.label>
   <!-- EN: Carriers of this gene produce a pigment that gives their skin an orange color. -->
@@ -220,6 +239,7 @@
   <Skin_Orange.labelShortAdj>laranja</Skin_Orange.labelShortAdj>
   <!-- EN: orange -->
   <Skin_Orange.symbolPack.prefixSymbols.0.symbol>laranja</Skin_Orange.symbolPack.prefixSymbols.0.symbol>
+  
   <!-- EN: pale red skin -->
   <Skin_PaleRed.label>pele vermelha pálido</Skin_PaleRed.label>
   <!-- EN: Carriers of this gene produce a pigment that turns their skin a moderate red color. -->
@@ -232,6 +252,7 @@
   <Skin_PaleRed.symbolPack.prefixSymbols.1.symbol>vermelho</Skin_PaleRed.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: rose -->
   <Skin_PaleRed.symbolPack.prefixSymbols.2.symbol>rosa</Skin_PaleRed.symbolPack.prefixSymbols.2.symbol>
+  
   <!-- EN: pale yellow skin -->
   <Skin_PaleYellow.label>pele amarela pálido</Skin_PaleYellow.label>
   <!-- EN: Carriers of this gene produce a pigment that turns their skin a grayish yellow color. -->
@@ -246,6 +267,7 @@
   <Skin_PaleYellow.symbolPack.prefixSymbols.2.symbol>creme de leite</Skin_PaleYellow.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: banana -->
   <Skin_PaleYellow.symbolPack.suffixSymbols.0.symbol>banana</Skin_PaleYellow.symbolPack.suffixSymbols.0.symbol>
+  
   <!-- EN: purple skin -->
   <Skin_Purple.label>pele roxa</Skin_Purple.label>
   <!-- EN: Carriers of this gene produce a pigment that gives their skin a purple color. -->
@@ -256,6 +278,7 @@
   <Skin_Purple.symbolPack.prefixSymbols.0.symbol>purp</Skin_Purple.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: grape -->
   <Skin_Purple.symbolPack.prefixSymbols.1.symbol>u uva</Skin_Purple.symbolPack.prefixSymbols.1.symbol>
+  
   <!-- EN: sheer white skin -->
   <Skin_SheerWhite.label>pele branca pura</Skin_SheerWhite.label>
   <!-- EN: Carriers of this gene have sheer white skin, unlike natural skin tones, due to a special engineered reflective cell covering. -->
@@ -290,6 +313,7 @@
   <Skin_SheerWhite.symbolPack.prefixSymbols.12.symbol>sal</Skin_SheerWhite.symbolPack.prefixSymbols.12.symbol>
   <!-- EN: ghost -->
   <Skin_SheerWhite.symbolPack.suffixSymbols.0.symbol>fantasma</Skin_SheerWhite.symbolPack.suffixSymbols.0.symbol>
+  
   <!-- EN: slate gray skin -->
   <Skin_SlateGray.label>pele cinza ardósia</Skin_SlateGray.label>
   <!-- EN: Carriers of this gene produce a pigment that turns their skin slate gray. -->
@@ -318,12 +342,15 @@
   <Skin_SlateGray.symbolPack.suffixSymbols.1.symbol>fantasma</Skin_SlateGray.symbolPack.suffixSymbols.1.symbol>
   <!-- EN: murk -->
   <Skin_SlateGray.symbolPack.suffixSymbols.2.symbol>murk</Skin_SlateGray.symbolPack.suffixSymbols.2.symbol>
+  
   <!-- EN: furry tail -->
   <Tail_Furry.label>cauda de pele</Tail_Furry.label>
   <!-- EN: Carriers of this gene grow a fluffy tail which partially protects them from cold temperatures. -->
   <Tail_Furry.description>Os portadores deste gene crescem uma cauda macia que os protege parcialmente das temperaturas frias.</Tail_Furry.description>
+  
   <!-- EN: smooth tail -->
   <Tail_Smooth.label>cauda lisa</Tail_Smooth.label>
   <!-- EN: Carriers of this gene grow a slender tail that can act as a dexterous fifth limb. -->
   <Tail_Smooth.description>Transportadores deste gene crescem uma cauda esbelta que pode atuar como um quinto membro destroso.</Tail_Smooth.description>
+  
 </LanguageData>

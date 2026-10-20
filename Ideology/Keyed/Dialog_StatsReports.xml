@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <!-- EN: Multiplier for enslaved (low motivation) -->
   <StatsReport_Slave>Multiplicador para escravizado (baixa motivação)</StatsReport_Slave>
@@ -8,10 +8,12 @@
   <StatsReport_LeaderOffset>Bônus de líder de facção</StatsReport_LeaderOffset>
   <!-- EN: Contains corpse -->
   <StatsReport_OccupiedCorpseCasket>Contém cadáver</StatsReport_OccupiedCorpseCasket>
+
   <!-- EN: Conversion power bonus on map -->
   <StatsReport_InstalledRelicConvertPowerFactor>Bônus de potência de conversão no mapa</StatsReport_InstalledRelicConvertPowerFactor>
   <!-- EN: Mood bonus for rituals in room -->
   <StatsReport_RelicAtRitualMoodBonus>Bônus de humor para rituais no quarto</StatsReport_RelicAtRitualMoodBonus>
+
   <!-- EN: Relic of -->
   <Stat_Thing_RelicOf_Name>Relíquia de</Stat_Thing_RelicOf_Name>
   <!-- EN: The ideology this relic belongs to. -->
@@ -20,16 +22,20 @@
   <Stat_Thing_RelicStatus>Estado de relíquia</Stat_Thing_RelicStatus>
   <!-- EN: A widely sought-after item of religious or ideological significance. -->
   <Stat_Thing_RelicStatus_Desc>Um item amplamente procurado de significado religioso ou ideológico.</Stat_Thing_RelicStatus_Desc>
+
   <!-- EN: Related to -->
   <Stat_Thing_RelatedToIdeos_Name>Relacionado a</Stat_Thing_RelatedToIdeos_Name>
   <!-- EN: The ideoligions this thing belongs to. -->
   <Stat_Thing_RelatedToIdeos_Desc>As ideologias a que esta coisa pertence.</Stat_Thing_RelatedToIdeos_Desc>
+
   <!-- EN: Holding relic -->
   <StatsReports_HasRelic>Mantendo relíquia</StatsReports_HasRelic>
+
   <!-- EN: Blind bonus -->
   <StatsReport_BlindPsychicSensitivityOffset>Bônus cego</StatsReport_BlindPsychicSensitivityOffset>
   <!-- EN: Sight bonus -->
   <StatsReport_SightPsychicSensitivityOffset>Bônus de reserva</StatsReport_SightPsychicSensitivityOffset>
+
   <!-- EN: Dominating style -->
   <Stat_Thing_StyleDominanceCategory>Estilo de Dominação</Stat_Thing_StyleDominanceCategory>
   <!-- EN: The style presented by this object. This style may be associated with some ideoligions. Different people respond differently to certain styles, according to their ideoligious beliefs. -->
@@ -38,6 +44,7 @@
   <Stat_Thing_IdeosSatisfied>Satisfaz ideoligions</Stat_Thing_IdeosSatisfied>
   <!-- EN: Style -->
   <Style>Estilo</Style>
+
   <!-- EN: Darkness shooting accuracy -->
   <Stat_Pawn_DarknessCombatShooting_Name>Precisão de disparo de escuridão</Stat_Pawn_DarknessCombatShooting_Name>
   <!-- EN: An offset applied to the chance to hit a target based on the target's light level. -->
@@ -52,8 +59,8 @@
   <Stat_Pawn_DarknessMeleeHitChance_Desc>Um deslocamento aplicado à chance de acerto de corpo com base no nível de luz do alvo.</Stat_Pawn_DarknessMeleeHitChance_Desc>
   <!-- EN: The following offsets can be applied -->
   <Stat_PawnDarkness_FollowingOffset>Os seguintes deslocamentos podem ser aplicados</Stat_PawnDarkness_FollowingOffset>
+
   <!-- EN: Biosculpting speed -->
   <StatsReport_BiosculptingSpeedFactor>Velocidade de biosculpação</StatsReport_BiosculptingSpeedFactor>
-  <!-- EN: The amount of progress that has been made towards hacking this object. -->
-  <Stat_Thing_HackingProgress>A quantidade de progresso que foi feita para hackear este objeto.</Stat_Thing_HackingProgress>
-</LanguageData>
+
+  </LanguageData>

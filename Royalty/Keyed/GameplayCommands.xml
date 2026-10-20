@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- Heritage -->
   <!-- EN: Choose a new heir for {HOLDER_nameIndef}: -->
   <ChooseHeir>Escolha um novo herdeiro para {HOLDER_nameIndef}:</ChooseHeir>
   <!-- EN: You're about to change the heir of the title {HOLDER_nameIndef} received from {0_name}. This requires building a monument in a limited time, to consecrate the new inheritance. -->
   <MakeHeirConfirm>Você está prestes a mudar o herdeiro do título {HOLDER_nameIndef} recebido de {0_name}. Isso requer a construção de um monumento em um tempo limitado, para consagrar a nova herança.</MakeHeirConfirm>
   <!-- EN: This will upset {HOLDER_possessive} current heir {HEIR_nameFull}. -->
   <MakeHeirPreviousHeirWarning>Isso irá perturbar o herdeiro atual (HOLDER_possessive) {HEIR_nameFull}.</MakeHeirPreviousHeirWarning>
+
+  <!-- Call aid -->
   <!-- EN: Call aid... -->
   <CommandCallRoyalAid>Chama ajuda...</CommandCallRoyalAid>
   <!-- EN: Call for aid using a special permit.\n\nEach type of aid may be used for free once, after which you must wait to use it for free again. You can use the aid more frequently, but it costs honor to do so. -->
@@ -28,6 +32,8 @@
   <CommandCallRoyalAidMapUnreachable>{FACTION_name} não pode chegar a esta área.</CommandCallRoyalAidMapUnreachable>
   <!-- EN: Cannot call aid here. -->
   <CommandCallRoyalAidInvalidMap>Não posso chamar ajuda aqui.</CommandCallRoyalAidInvalidMap>
+  
+  <!-- Call laborers -->
   <!-- EN: Call laborers -->
   <CommandCallLaborers>Chamar trabalhadores</CommandCallLaborers>
   <!-- EN: Use a special permit to call for a group of laborers from your ally. These workers can only do labor tasks, but you can control them like they were your own colonists. You are required to keep them safe. -->
@@ -36,6 +42,8 @@
   <CommandOnCooldown>No cooldown. Faltam dias.</CommandOnCooldown>
   <!-- EN: {0} laborers -->
   <CommandCallLaborersNumLaborers>trabalhadores</CommandCallLaborersNumLaborers>
+
+  <!-- Abilities -->
   <!-- EN: Neural heat would overflow. Disable the neural heat limiter to cast. -->
   <CommandPsycastWouldExceedEntropy>O calor neural transbordaria. Desativar o limitador de calor neural para lançar.</CommandPsycastWouldExceedEntropy>
   <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
@@ -58,18 +66,25 @@
   <PsyfocusLetter>P</PsyfocusLetter>
   <!-- EN: Psychic insanity immune -->
   <IneffectivePsychicImmune>Insanidade psíquica imune</IneffectivePsychicImmune>
+
+  <!-- Select monument marker -->
   <!-- EN: Select monument -->
   <CommandSelectMonumentMarker>Selecione o monumento</CommandSelectMonumentMarker>
   <!-- EN: Select the monument marker this belongs to. -->
   <CommandSelectMonumentMarkerDesc>Selecione o marcador de monumento a que pertence.</CommandSelectMonumentMarkerDesc>
+
+  <!-- Warn in building radius -->
   <!-- EN: Build radius warning -->
   <CommandWarnInBuildingRadius>Criar aviso de raio</CommandWarnInBuildingRadius>
   <!-- EN: If enabled, this object will draw a red line to buildings you are placing using the architect menu, if they would interfere with meditation due to being too close.\n\nYou can turn this off if you don't intend to use this for meditation. -->
   <CommandWarnInBuildingRadiusDesc>Se ativado, este objeto irá desenhar uma linha vermelha para edifícios que você está colocando usando o menu do arquiteto, se eles interferem com a meditação devido a estar muito perto.\n\nVocê pode desligar isso se você não pretende usar isso para meditação.</CommandWarnInBuildingRadiusDesc>
+  
+  <!-- Permits -->
   <!-- EN: Choose permit -->
   <ChooseRoyalPermit>Escolha a licença</ChooseRoyalPermit>
   <!-- EN: Open the permit selection screen and choose a new permit. -->
   <ChooseRoyalPermit_Desc>Abra a tela de seleção de licenças e escolha uma nova permissão.</ChooseRoyalPermit_Desc>
+
   <!-- EN: Leave bestowing ceremony -->
   <CommandLeaveBestowingCeremony>Deixe a cerimônia de concessão</CommandLeaveBestowingCeremony>
   <!-- EN: Stop participating in the bestowing ceremony. -->

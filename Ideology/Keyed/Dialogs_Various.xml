@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
+  <!-- Misc -->
   <!-- EN: Trading animal products bonus -->
   <TradingAnimalProduceBonus>Negociação de bónus de produtos animais</TradingAnimalProduceBonus>
   <!-- EN: Slaves -->
@@ -14,6 +16,7 @@
   <UseGlobalStyle>Use o estilo global</UseGlobalStyle>
   <!-- EN: No style variations available -->
   <NoStylesAvailable>Sem variações de estilo disponíveis</NoStylesAvailable>
+
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
   <ChooseStructureMemesInfo>Escolha a estrutura simbólica do seu ideoligion. Isso afeta apenas símbolos - não afeta a jogabilidade.</ChooseStructureMemesInfo>
   <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. -->
@@ -36,10 +39,12 @@
   <ReformIdeoResetChanges>Repor alterações</ReformIdeoResetChanges>
   <!-- EN: Choose {0} meme. -->
   <NotEnoughMemesFluidIdeo>Escolher meme.</NotEnoughMemesFluidIdeo>
+
   <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
   <ChangesRandomizePrecepts>{0} irá re-alear qualquer preceito que você tenha editado.\n\nDeseja continuar?</ChangesRandomizePrecepts>
   <!-- EN: The following precepts are incompatible with this new meme selection and will be removed:\n\n{0}\n\nDo you wish to continue? -->
   <ChangesRemovePrecepts>Os seguintes preceitos são incompatíveis com esta nova seleção de meme e serão removidos:\n\nNão.\n\nDeseja continuar?</ChangesRemovePrecepts>
+  
   <!-- EN: Room requirements -->
   <RoomRequirements>Requisitos de quarto</RoomRequirements>
   <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). -->
@@ -48,6 +53,7 @@
   <ConfirmIncompatibleMemes>Os seguintes memes são incompatíveis</ConfirmIncompatibleMemes>
   <!-- EN: Would you like to continue? -->
   <ConfirmChangeMemesForFluidIdeoContinue>Quer continuar?</ConfirmChangeMemesForFluidIdeoContinue>
+
   <!-- EN: role -->
   <Role>papel</Role>
   <!-- EN: Assign role -->
@@ -96,6 +102,7 @@
   <CannotNotAddRoleApparelDueToMeme>O meme {ME} impede a adição de requisitos de vestuário para funções.</CannotNotAddRoleApparelDueToMeme>
   <!-- EN: cannot be worn with {0_label} -->
   <CannotBeWornWith>não pode ser usado com {0_label}</CannotBeWornWith>
+
   <!-- EN: Certainty reduction -->
   <AbilityIdeoConvertBreakdownLabel>Redução de Certeza</AbilityIdeoConvertBreakdownLabel>
   <!-- EN: Using {ABILITY} ability -->
@@ -120,8 +127,10 @@
   <AbilityIdeoConvertBreakdownPawnIdeo>{PAWN_name Def ideoligion</AbilityIdeoConvertBreakdownPawnIdeo>
   <!-- EN: {MEME} vs {TRAIT} trait -->
   <AbilityIdeoConvertBreakdownMemeVsTrait>{MEME} vs {TRAIT} traço</AbilityIdeoConvertBreakdownMemeVsTrait>
+
   <!-- EN: {PAWN_labelShort} was already counselled recently. -->
   <AbilityCantApplyAlreadyCounselled>{PAWN_labelShort} já foi aconselhado recentemente.</AbilityCantApplyAlreadyCounselled>
+
   <!-- EN: Reform... -->
   <ReformIdeo>Reforma...</ReformIdeo>
   <!-- EN: Reform ideoligion -->
@@ -146,6 +155,8 @@
   <ReformIdeoCancelRituals>O ritual {0} está em andamento e será cancelado.</ReformIdeoCancelRituals>
   <!-- EN: Do you wish to continue? -->
   <ReformIdeoContinue>Deseja continuar?</ReformIdeoContinue>
+
+  <!-- Slavery -->
   <!-- EN: Slave -->
   <CannotAssignBedToSlave>Escravo</CannotAssignBedToSlave>
   <!-- EN: Colonist -->
@@ -156,16 +167,21 @@
   <NegotiatorWillNotTradeSlaves>{0_nameDef} se recusa a vender pessoas em escravidão de acordo com as crenças {0_possessivas}.</NegotiatorWillNotTradeSlaves>
   <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to {0_possessive} own faction, but isn't willing to sell someone to a different faction. -->
   <NegotiatorWillNotTradeSlavesTip>O negociador, {0_nameDef}, não vai as pessoas na escravidão devido à crença {0_possessiva} em {1}.\n\nNote que {0_nameDef} está disposto a resgatar alguém de volta à facção própria {0_possessive}, mas não está disposto a vender alguém a uma facção diferente.</NegotiatorWillNotTradeSlavesTip>
+
   <!-- EN: Last human meat -->
   <LastHumanMeat>Última carne humana</LastHumanMeat>
   <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
   <LastHumanMeatDesc>Por causa de {PAWN_possessive} crença em {IDEO_name}, {PAWN_nameDef} vai ficar infeliz se {PAWN_pronoun} vai mais do que {DURATION} dias sem comer carne humana.</LastHumanMeatDesc>
+
   <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
   <ExectueNeutralFactionSlave>Executando {PAWN_label Short} afetará negativamente as relações com {FACTION_name}.</ExectueNeutralFactionSlave>
+
   <!-- EN: You must assign at least one non-slave colonist who can walk. -->
   <CaravanMustHaveAtLeastOneNonSlaveColonist>Você deve atribuir pelo menos um colono não-escravo que pode andar.</CaravanMustHaveAtLeastOneNonSlaveColonist>
   <!-- EN: You must leave at least non-slave colonist who can walk. -->
   <SourceCaravanMustHaveAtLeastOneNonSlaveColonist>Deves deixar pelo menos um colonizador não morto que possa andar.</SourceCaravanMustHaveAtLeastOneNonSlaveColonist>
+
+  <!-- Style -->
   <!-- EN: Style -->
   <StylePawn>Estilo</StylePawn>
   <!-- EN: hair -->
@@ -201,7 +217,7 @@
   <!-- EN: New buildables -->
   <IdeoMakesBuildingBuildable>Novos construtores</IdeoMakesBuildingBuildable>
   <!-- EN: none usable for {PAWN_nameDef} -->
-  <NoneUsableForPawn>nenhum utilizável para {PAWN_nameDef}</NoneUsableForPawn>
+  <NoneUsableForPawn>nenhum utilizável para {PAWN_nameDef}</NoneUsableForPawn> 
   <!-- EN: Hair and beards -->
   <HairAndBeards>Cabelo e barbas</HairAndBeards>
   <!-- EN: These settings determine how frequently each style appears on members of this ideoligion. -->
@@ -228,14 +244,20 @@
   <NumAvailable>{0} em uso</NumAvailable>
   <!-- EN: Resets all style items to their default values. -->
   <ResetButtonDesc>Resta todos os itens de estilo aos seus valores padrão.</ResetButtonDesc>
+
+  <!-- Ancient complex mission -->
   <!-- EN: Send shuttle anyway -->
   <SendShuttleAnyway>Enviar ônibus de qualquer maneira</SendShuttleAnyway>
   <!-- EN: Re-load shuttle -->
   <ReLoadShuttle>Transporte de recarga</ReLoadShuttle>
+
+  <!-- Medical settings -->
   <!-- EN: Slaves -->
   <MedGroupSlaves>Escravos</MedGroupSlaves>
   <!-- EN: Enslaved members of your colony. -->
   <MedGroupSlavesDesc>Membros escravizados da sua colônia.</MedGroupSlavesDesc>
+
+  <!-- Dryad upgrades -->
   <!-- EN: Choose dryad caste -->
   <ChangeMode>Escolha casta seca</ChangeMode>
   <!-- EN: Required memes -->
@@ -250,6 +272,8 @@
   <AlreadySelected>Já selecionado</AlreadySelected>
   <!-- EN: Here you can choose which caste of dryads this {TREE_label} will create.\n\nDryads will emerge from pods that grow at the tree's base. The maximum number of dryads is based on the connection strength between {TREE_definite} and the connected person. -->
   <ChooseProductionModeInitialDesc>Aqui você pode escolher qual casta de dryads este {TREE_label} irá criar.\n\nDryads emergirá de vagens que crescem na base da árvore. O número máximo de dryads é baseado na força de conexão entre {TREE_definite} e a pessoa conectada.</ChooseProductionModeInitialDesc>
+
+  <!-- Archonexus -->
   <!-- EN: Choose who to convert to your ideoligion -->
   <ChooseColonistsForIdeoTitle>Escolha quem converter para o seu ideoligion</ChooseColonistsForIdeoTitle>
   <!-- EN: You may convert people to your primary ideoligion when setting up a new colony. -->
@@ -288,10 +312,14 @@
   <ItemQuantityTooltip>Quantidade que pode ser trazida para a nova colônia.\n\nA quantidade máxima permitida é: {1}</ItemQuantityTooltip>
   <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
   <SoldColonyDescription>A tua colónia foi vendida. Seus compradores estão prontos para você escolher onde pousar em seguida.</SoldColonyDescription>
+
   <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do you really want to hack {0}? -->
-  <ConfirmHackEnenyTerminal>Hacking this {0} irá alertar os inimigos e fazer com que eles ataquem. Queres mesmo hackear?</ConfirmHackEnenyTerminal>
+  <ConfirmHackEnemyTerminal>TODO</ConfirmHackEnemyTerminal>
+
   <!-- EN: Relics -->
   <RelicsSection>Relics</RelicsSection>
+
+  <!-- Food restrictions -->
   <!-- EN: Vegetarian -->
   <FoodRestrictionVegetarian>Vegetariana</FoodRestrictionVegetarian>
   <!-- EN: Carnivore -->
@@ -300,8 +328,12 @@
   <FoodRestrictionCannibal>Canibal</FoodRestrictionCannibal>
   <!-- EN: Insect meat -->
   <FoodRestrictionInsectMeat>Carne de inseto</FoodRestrictionInsectMeat>
+
   <!-- EN: Styles in use -->
   <StylesInUse>Estilos em uso</StylesInUse>
   <!-- EN: Add a style. -->
   <StyleCategoryAddDesc>Adicione um estilo.</StyleCategoryAddDesc>
+  <!-- UNUSED -->
+  <ConfirmHackEnenyTerminal>Hacking this {0} irá alertar os inimigos e fazer com que eles ataquem. Queres mesmo hackear?</ConfirmHackEnenyTerminal>
+
 </LanguageData>

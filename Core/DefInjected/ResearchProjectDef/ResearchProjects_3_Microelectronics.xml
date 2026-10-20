@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: deep drilling -->
   <DeepDrilling.label>perfuração profunda</DeepDrilling.label>
   <!-- EN: Build deep drills for extracting resources from underground. You'll need a ground-penetrating scanner to find the resources. -->
@@ -11,7 +12,11 @@
     <li>subject_story->became wealthy from the resources dug out of the world's core</li>
     <li>subject_gerund->mining deeply</li>
   -->
-  <DeepDrilling.generalRules.rulesStrings>&lt;li&gt;subject-&gt;deep mining&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;moved in with a dirtmole-led corp, estudando suas escavações mais profundas&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; perfurado até a raiz da tampa de gelo para descobrir o bioma pré-humano extinto do mundo&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;became rico dos recursos escavados do núcleo do mundo&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;mining profundamente&lt;/li&gt;\n</DeepDrilling.generalRules.rulesStrings>
+  <DeepDrilling.generalRules.rulesStrings>&lt;li>subject->deep mining&lt;/li>\n&lt;li>subject_story->moved in with a dirtmole-led corp, estudando suas escavações mais profundas&lt;/li>\n&lt;li>subject_story-> perfurado até a raiz da tampa de gelo para descobrir o bioma pré-humano extinto do mundo&lt;/li>\n&lt;li>subject_story->became rico dos recursos escavados do núcleo do mundo&lt;/li>\n&lt;li>subject_gerund->mining profundamente&lt;/li>\n</DeepDrilling.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <DeepDrilling.generalRules.rulesStrings>&lt;li>subject->deep mining&lt;/li>\n&lt;li>subject_story->moved in with a dirtmole-led corp, estudando suas escavações mais profundas&lt;/li>\n&lt;li>subject_story-> perfurado até a raiz da tampa de gelo para descobrir o bioma pré-humano extinto do mundo&lt;/li>\n&lt;li>subject_story->became rico dos recursos escavados do núcleo do mundo&lt;/li>\n&lt;li>subject_gerund->mining profundamente&lt;/li>\n</DeepDrilling.generalRules.rulesStrings>
+  
   <!-- EN: flatscreen television -->
   <FlatscreenTelevision.label>televisão de ecrã plano</FlatscreenTelevision.label>
   <!-- EN: Produce high-resolution flatscreen televisions for greater enjoyment. -->
@@ -28,7 +33,11 @@
     <li>subject_story->became a television executive, in charge of [tv_content]</li>
     <li>subject_gerund->producing flatscreen televisions</li>
   -->
-  <FlatscreenTelevision.generalRules.rulesStrings>&lt;li&gt;subject-&gt;flatscreen televisões&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;experiente com a remoção de tubos de televisões&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;agitada para transmissões de alta resolução em todo o galáxia de [tv_content]&lt;/li&gt;\n&lt;li&gt;tv_content-&gt;soap operas&lt;/li&gt;\n&lt;li&gt;tv_content-&gt;news programas&lt;/li&gt;\n&lt;li&gt;tv_content-&gt;propaganda revolucionária&lt;/li&gt;\n&lt;li&gt;tv_content-&gt;glitterworld fashion&lt;/li&gt;\n&lt;li&gt;tv_content-&gt;docartoons&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; tornou-se um executivo de televisão, responsável por [tv_content]&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;produzindo televisões de tela plana&lt;/li&gt;\n</FlatscreenTelevision.generalRules.rulesStrings>
+  <FlatscreenTelevision.generalRules.rulesStrings>&lt;li>subject->flatscreen televisões&lt;/li>\n&lt;li>subject_story->experiente com a remoção de tubos de televisões&lt;/li>\n&lt;li>subject_story->agitada para transmissões de alta resolução em todo o galáxia de [tv_content]&lt;/li>\n&lt;li>tv_content->soap operas&lt;/li>\n&lt;li>tv_content->news programas&lt;/li>\n&lt;li>tv_content->propaganda revolucionária&lt;/li>\n&lt;li>tv_content->glitterworld fashion&lt;/li>\n&lt;li>tv_content->docartoons&lt;/li>\n&lt;li>subject_story-> tornou-se um executivo de televisão, responsável por [tv_content]&lt;/li>\n&lt;li>subject_gerund->produzindo televisões de tela plana&lt;/li>\n</FlatscreenTelevision.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <FlatscreenTelevision.generalRules.rulesStrings>&lt;li>subject->flatscreen televisões&lt;/li>\n&lt;li>subject_story->experiente com a remoção de tubos de televisões&lt;/li>\n&lt;li>subject_story->agitada para transmissões de alta resolução em todo o galáxia de [tv_content]&lt;/li>\n&lt;li>tv_content->soap operas&lt;/li>\n&lt;li>tv_content->news programas&lt;/li>\n&lt;li>tv_content->propaganda revolucionária&lt;/li>\n&lt;li>tv_content->glitterworld fashion&lt;/li>\n&lt;li>tv_content->docartoons&lt;/li>\n&lt;li>subject_story-> tornou-se um executivo de televisão, responsável por [tv_content]&lt;/li>\n&lt;li>subject_gerund->produzindo televisões de tela plana&lt;/li>\n</FlatscreenTelevision.generalRules.rulesStrings>
+  
   <!-- EN: ground-penetrating scanner -->
   <GroundPenetratingScanner.label>scanner de penetração no solo</GroundPenetratingScanner.label>
   <!-- EN: Build ground-penetrating scanners that can detect drillable resources under the surface. Requires an advanced component to construct. -->
@@ -41,7 +50,11 @@
     <li>subject_story->scanned the ground for ancient minefields, to protect the people</li>
     <li>subject_gerund->constructing geophysical scanners</li>
   -->
-  <GroundPenetratingScanner.generalRules.rulesStrings>&lt;li&gt;subject-&gt;geophysics&lt;/li&gt;\n&lt;li&gt;subject-&gt;ground-penetrating scanners&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;descobriu os ossos dos gigantes antigos, muito abaixo da superfície do planeta&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; tropeçou em uma costura de ouro rica enquanto digitalizava para a lata e se tornou fabulosamente rico&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;scanned the ground for ancient minefields, para proteger as pessoas&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;construindo scanners geofísicos&lt;/li&gt;\n</GroundPenetratingScanner.generalRules.rulesStrings>
+  <GroundPenetratingScanner.generalRules.rulesStrings>&lt;li>subject->geophysics&lt;/li>\n&lt;li>subject->ground-penetrating scanners&lt;/li>\n&lt;li>subject_story->descobriu os ossos dos gigantes antigos, muito abaixo da superfície do planeta&lt;/li>\n&lt;li>subject_story-> tropeçou em uma costura de ouro rica enquanto digitalizava para a lata e se tornou fabulosamente rico&lt;/li>\n&lt;li>subject_story->scanned the ground for ancient minefields, para proteger as pessoas&lt;/li>\n&lt;li>subject_gerund->construindo scanners geofísicos&lt;/li>\n</GroundPenetratingScanner.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <GroundPenetratingScanner.generalRules.rulesStrings>&lt;li>subject->geophysics&lt;/li>\n&lt;li>subject->ground-penetrating scanners&lt;/li>\n&lt;li>subject_story->descobriu os ossos dos gigantes antigos, muito abaixo da superfície do planeta&lt;/li>\n&lt;li>subject_story-> tropeçou em uma costura de ouro rica enquanto digitalizava para a lata e se tornou fabulosamente rico&lt;/li>\n&lt;li>subject_story->scanned the ground for ancient minefields, para proteger as pessoas&lt;/li>\n&lt;li>subject_gerund->construindo scanners geofísicos&lt;/li>\n</GroundPenetratingScanner.generalRules.rulesStrings>
+  
   <!-- EN: autocannon turret -->
   <HeavyTurrets.label>turret autocano</HeavyTurrets.label>
   <!-- EN: Produce the heavy autocannon turret. -->
@@ -53,7 +66,11 @@
     <li>subject_story->built turret after turret, never asking who was buying them</li>
     <li>subject_gerund->crafting heavy autocannon turrets</li>
   -->
-  <HeavyTurrets.generalRules.rulesStrings>&lt;li&gt;subject-&gt;autocannon turrets&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; continha um assalto cultista sozinho, escondendo-se atrás de uma parede de torres&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi contratado para estabelecer um perímetro defensivo de sacos de areia e torres para os locais&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;built turret após turret, nunca perguntando quem estava comprando-los&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting pesado autocannon turrets&lt;/li&gt;\n</HeavyTurrets.generalRules.rulesStrings>
+  <HeavyTurrets.generalRules.rulesStrings>&lt;li>subject->autocannon turrets&lt;/li>\n&lt;li>subject_story-> continha um assalto cultista sozinho, escondendo-se atrás de uma parede de torres&lt;/li>\n&lt;li>subject_story-> foi contratado para estabelecer um perímetro defensivo de sacos de areia e torres para os locais&lt;/li>\n&lt;li>subject_story->built turret após turret, nunca perguntando quem estava comprando-los&lt;/li>\n&lt;li>subject_gerund->crafting pesado autocannon turrets&lt;/li>\n</HeavyTurrets.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <HeavyTurrets.generalRules.rulesStrings>&lt;li>subject->autocannon turrets&lt;/li>\n&lt;li>subject_story-> continha um assalto cultista sozinho, escondendo-se atrás de uma parede de torres&lt;/li>\n&lt;li>subject_story-> foi contratado para estabelecer um perímetro defensivo de sacos de areia e torres para os locais&lt;/li>\n&lt;li>subject_story->built turret após turret, nunca perguntando quem estava comprando-los&lt;/li>\n&lt;li>subject_gerund->crafting pesado autocannon turrets&lt;/li>\n</HeavyTurrets.generalRules.rulesStrings>
+  
   <!-- EN: hospital bed -->
   <HospitalBed.label>cama de hospital</HospitalBed.label>
   <!-- EN: Construct hospital beds which improve medical outcomes. -->
@@ -65,7 +82,11 @@
     <li>subject_story->focused on profit, selling [ANYPAWN_pronoun] superior medical suites to the wealthy</li>
     <li>subject_gerund->constructing hospital beds</li>
   -->
-  <HospitalBed.generalRules.rulesStrings>&lt;li&gt;subject-&gt;hospitalization&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; supervisionou uma revolução nos padrões de cuidados médicos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;construiu o primeiro dos hospitais públicos do sistema&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; focada no lucro, vendendo [ANYPAWN_pronoun] suítes médicas superiores para os ricos&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;construindo camas hospitalares&lt;/li&gt;\n</HospitalBed.generalRules.rulesStrings>
+  <HospitalBed.generalRules.rulesStrings>&lt;li>subject->hospitalization&lt;/li>\n&lt;li>subject_story-> supervisionou uma revolução nos padrões de cuidados médicos&lt;/li>\n&lt;li>subject_story->construiu o primeiro dos hospitais públicos do sistema&lt;/li>\n&lt;li>subject_story-> focada no lucro, vendendo [ANYPAWN_pronoun] suítes médicas superiores para os ricos&lt;/li>\n&lt;li>subject_gerund->construindo camas hospitalares&lt;/li>\n</HospitalBed.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <HospitalBed.generalRules.rulesStrings>&lt;li>subject->hospitalization&lt;/li>\n&lt;li>subject_story-> supervisionou uma revolução nos padrões de cuidados médicos&lt;/li>\n&lt;li>subject_story->construiu o primeiro dos hospitais públicos do sistema&lt;/li>\n&lt;li>subject_story-> focada no lucro, vendendo [ANYPAWN_pronoun] suítes médicas superiores para os ricos&lt;/li>\n&lt;li>subject_gerund->construindo camas hospitalares&lt;/li>\n</HospitalBed.generalRules.rulesStrings>
+  
   <!-- EN: long-range mineral scanner -->
   <LongRangeMineralScanner.label>scanner mineral de longo alcance</LongRangeMineralScanner.label>
   <!-- EN: Construct long-range mineral scanners your researchers can use to detect precious minerals across the planet. Can be tuned to find a specific mineral. Requires advanced components to construct. -->
@@ -77,7 +98,11 @@
     <li>subject_story->mined out the entirety of the planet's jade for religious effigies</li>
     <li>subject_gerund->constructing long-range mineral scanners</li>
   -->
-  <LongRangeMineralScanner.generalRules.rulesStrings>&lt;li&gt;subject-&gt; detecção mineral de longo alcance&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; construiu tantos scanners que toda a geologia do planeta foi revelada&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;descobriu com um scanner o que os outros assentamentos eram de mineração e fez enormes lucros através da negociação&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; minou a totalidade do jade do planeta para effigies religiosos&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;construindo scanners minerais de longo alcance&lt;/li&gt;\n</LongRangeMineralScanner.generalRules.rulesStrings>
+  <LongRangeMineralScanner.generalRules.rulesStrings>&lt;li>subject-> detecção mineral de longo alcance&lt;/li>\n&lt;li>subject_story-> construiu tantos scanners que toda a geologia do planeta foi revelada&lt;/li>\n&lt;li>subject_story->descobriu com um scanner o que os outros assentamentos eram de mineração e fez enormes lucros através da negociação&lt;/li>\n&lt;li>subject_story-> minou a totalidade do jade do planeta para effigies religiosos&lt;/li>\n&lt;li>subject_gerund->construindo scanners minerais de longo alcance&lt;/li>\n</LongRangeMineralScanner.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <LongRangeMineralScanner.generalRules.rulesStrings>&lt;li>subject-> detecção mineral de longo alcance&lt;/li>\n&lt;li>subject_story-> construiu tantos scanners que toda a geologia do planeta foi revelada&lt;/li>\n&lt;li>subject_story->descobriu com um scanner o que os outros assentamentos eram de mineração e fez enormes lucros através da negociação&lt;/li>\n&lt;li>subject_story-> minou a totalidade do jade do planeta para effigies religiosos&lt;/li>\n&lt;li>subject_gerund->construindo scanners minerais de longo alcance&lt;/li>\n</LongRangeMineralScanner.generalRules.rulesStrings>
+  
   <!-- EN: medicine production -->
   <MedicineProduction.label>produção de medicamentos</MedicineProduction.label>
   <!-- EN: Produce standard industrial-tech medicine by combining herbal medicine, neutroamine, and cloth. -->
@@ -90,7 +115,11 @@
     <li>subject_story->seized the resources of a drug-dealer and produced useful medicines instead</li>
     <li>subject_gerund->producing industrial-tech medicine</li>
   -->
-  <MedicineProduction.generalRules.rulesStrings>&lt;li&gt;subject-&gt; síntese médica&lt;/li&gt;\n&lt;li&gt;subject-&gt; produção de medicamentos&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; pesquisado medicina urbworld, com o objetivo de distribuir o conhecimento mais amplamente&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi confundido com as origens da neutroamina e determinado a descobrir mais&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; apreendeu os recursos de um traficante de drogas e produziu medicamentos úteis em vez de&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;produzindo medicina industrial-técnica&lt;/li&gt;\n</MedicineProduction.generalRules.rulesStrings>
+  <MedicineProduction.generalRules.rulesStrings>&lt;li>subject-> síntese médica&lt;/li>\n&lt;li>subject-> produção de medicamentos&lt;/li>\n&lt;li>subject_story-> pesquisado medicina urbworld, com o objetivo de distribuir o conhecimento mais amplamente&lt;/li>\n&lt;li>subject_story-> foi confundido com as origens da neutroamina e determinado a descobrir mais&lt;/li>\n&lt;li>subject_story-> apreendeu os recursos de um traficante de drogas e produziu medicamentos úteis em vez de&lt;/li>\n&lt;li>subject_gerund->produzindo medicina industrial-técnica&lt;/li>\n</MedicineProduction.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <MedicineProduction.generalRules.rulesStrings>&lt;li>subject-> síntese médica&lt;/li>\n&lt;li>subject-> produção de medicamentos&lt;/li>\n&lt;li>subject_story-> pesquisado medicina urbworld, com o objetivo de distribuir o conhecimento mais amplamente&lt;/li>\n&lt;li>subject_story-> foi confundido com as origens da neutroamina e determinado a descobrir mais&lt;/li>\n&lt;li>subject_story-> apreendeu os recursos de um traficante de drogas e produziu medicamentos úteis em vez de&lt;/li>\n&lt;li>subject_gerund->produzindo medicina industrial-técnica&lt;/li>\n</MedicineProduction.generalRules.rulesStrings>
+  
   <!-- EN: microelectronics -->
   <MicroelectronicsBasics.label>microeletrônica</MicroelectronicsBasics.label>
   <!-- EN: Work with complex microelectronics. This unlocks the hi-tech research bench and comms console. -->
@@ -102,7 +131,11 @@
     <li>subject_story->moved from town to town, praising the virtues of pure research</li>
     <li>subject_gerund->crafting microelectronics</li>
   -->
-  <MicroelectronicsBasics.generalRules.rulesStrings>&lt;li&gt;subject-&gt;microelectronics&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;moved no desenvolvimento de microelectronics&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;constructed the first of many research bench variantes&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;moved da cidade à cidade, elogiando as virtudes da pesquisa pura&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting microelectronics&lt;/li&gt;\n</MicroelectronicsBasics.generalRules.rulesStrings>
+  <MicroelectronicsBasics.generalRules.rulesStrings>&lt;li>subject->microelectronics&lt;/li>\n&lt;li>subject_story->moved no desenvolvimento de microelectronics&lt;/li>\n&lt;li>subject_story->constructed the first of many research bench variantes&lt;/li>\n&lt;li>subject_story->moved da cidade à cidade, elogiando as virtudes da pesquisa pura&lt;/li>\n&lt;li>subject_gerund->crafting microelectronics&lt;/li>\n</MicroelectronicsBasics.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <MicroelectronicsBasics.generalRules.rulesStrings>&lt;li>subject->microelectronics&lt;/li>\n&lt;li>subject_story->moved no desenvolvimento de microelectronics&lt;/li>\n&lt;li>subject_story->constructed the first of many research bench variantes&lt;/li>\n&lt;li>subject_story->moved da cidade à cidade, elogiando as virtudes da pesquisa pura&lt;/li>\n&lt;li>subject_gerund->crafting microelectronics&lt;/li>\n</MicroelectronicsBasics.generalRules.rulesStrings>
+  
   <!-- EN: moisture pump -->
   <MoisturePump.label>bomba de umidade</MoisturePump.label>
   <!-- EN: Construct moisture pumps, which very slowly normalize the moisture in the ground around them. They can turn wet ground dry and convert soft sand into normal sand. -->
@@ -114,7 +147,11 @@
     <li>subject_story->tried to drain the seas, foolishly</li>
     <li>subject_gerund->constructing moisture pumps</li>
   -->
-  <MoisturePump.generalRules.rulesStrings>&lt;li&gt;subject-&gt; bombas de umidade&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;estudiu as antigas bombas de umidade do moinho de vento da Terra&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; desenhou os grandes pântanos que criaram doença&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;tried para drenar os mares, tolamente&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;construindo bombas de umidade&lt;/li&gt;\n</MoisturePump.generalRules.rulesStrings>
+  <MoisturePump.generalRules.rulesStrings>&lt;li>subject-> bombas de umidade&lt;/li>\n&lt;li>subject_story->estudiu as antigas bombas de umidade do moinho de vento da Terra&lt;/li>\n&lt;li>subject_story-> desenhou os grandes pântanos que criaram doença&lt;/li>\n&lt;li>subject_story->tried para drenar os mares, tolamente&lt;/li>\n&lt;li>subject_gerund->construindo bombas de umidade&lt;/li>\n</MoisturePump.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <MoisturePump.generalRules.rulesStrings>&lt;li>subject-> bombas de umidade&lt;/li>\n&lt;li>subject_story->estudiu as antigas bombas de umidade do moinho de vento da Terra&lt;/li>\n&lt;li>subject_story-> desenhou os grandes pântanos que criaram doença&lt;/li>\n&lt;li>subject_story->tried para drenar os mares, tolamente&lt;/li>\n&lt;li>subject_gerund->construindo bombas de umidade&lt;/li>\n</MoisturePump.generalRules.rulesStrings>
+  
   <!-- EN: multibarrel weapons -->
   <MultibarrelWeapons.label>armas multibarril</MultibarrelWeapons.label>
   <!-- EN: Assemble miniguns. -->
@@ -126,7 +163,11 @@
     <li>subject_story->built guns explicitly to kill every last person in a room</li>
     <li>subject_gerund->crafting multibarrel weapons</li>
   -->
-  <MultibarrelWeapons.generalRules.rulesStrings>&lt;li&gt;subject-&gt;miniguns&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;construiu uma minigun portátil única, que foi a única coisa encontrada após o desaparecimento do esquadrão&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;designed massivo hoppers para garantir que o minigun ammo não correu para fora&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;construído armas explicitamente para matar cada última pessoa em uma sala&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting multibarril armas&lt;/li&gt;\n</MultibarrelWeapons.generalRules.rulesStrings>
+  <MultibarrelWeapons.generalRules.rulesStrings>&lt;li>subject->miniguns&lt;/li>\n&lt;li>subject_story->construiu uma minigun portátil única, que foi a única coisa encontrada após o desaparecimento do esquadrão&lt;/li>\n&lt;li>subject_story->designed massivo hoppers para garantir que o minigun ammo não correu para fora&lt;/li>\n&lt;li>subject_story->construído armas explicitamente para matar cada última pessoa em uma sala&lt;/li>\n&lt;li>subject_gerund->crafting multibarril armas&lt;/li>\n</MultibarrelWeapons.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <MultibarrelWeapons.generalRules.rulesStrings>&lt;li>subject->miniguns&lt;/li>\n&lt;li>subject_story->construiu uma minigun portátil única, que foi a única coisa encontrada após o desaparecimento do esquadrão&lt;/li>\n&lt;li>subject_story->designed massivo hoppers para garantir que o minigun ammo não correu para fora&lt;/li>\n&lt;li>subject_story->construído armas explicitamente para matar cada última pessoa em uma sala&lt;/li>\n&lt;li>subject_gerund->crafting multibarril armas&lt;/li>\n</MultibarrelWeapons.generalRules.rulesStrings>
+  
   <!-- EN: precision rifling -->
   <PrecisionRifling.label>rebitagem de precisão</PrecisionRifling.label>
   <!-- EN: Craft precisely-machined guns like assault rifles and sniper rifles. -->
@@ -138,7 +179,11 @@
     <li>subject_story->became briefly famous for shooting an ambrosia fruit out of the overlord's hand</li>
     <li>subject_gerund->crafting rifles</li>
   -->
-  <PrecisionRifling.generalRules.rulesStrings>&lt;li&gt;subject-&gt;rifles&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; melhorou as tolerâncias dos processos de uma fundição, permitindo a produção de rifling de qualidade&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; foi caçado por neandertais, mas construiu um fuzil de atirador para matar com segurança seu líder&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; tornou-se brevemente famoso por atirar uma fruta ambrosia fora da mão do senhorio&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting rifles&lt;/li&gt;\n</PrecisionRifling.generalRules.rulesStrings>
+  <PrecisionRifling.generalRules.rulesStrings>&lt;li>subject->rifles&lt;/li>\n&lt;li>subject_story-> melhorou as tolerâncias dos processos de uma fundição, permitindo a produção de rifling de qualidade&lt;/li>\n&lt;li>subject_story-> foi caçado por neandertais, mas construiu um fuzil de atirador para matar com segurança seu líder&lt;/li>\n&lt;li>subject_story-> tornou-se brevemente famoso por atirar uma fruta ambrosia fora da mão do senhorio&lt;/li>\n&lt;li>subject_gerund->crafting rifles&lt;/li>\n</PrecisionRifling.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <PrecisionRifling.generalRules.rulesStrings>&lt;li>subject->rifles&lt;/li>\n&lt;li>subject_story-> melhorou as tolerâncias dos processos de uma fundição, permitindo a produção de rifling de qualidade&lt;/li>\n&lt;li>subject_story-> foi caçado por neandertais, mas construiu um fuzil de atirador para matar com segurança seu líder&lt;/li>\n&lt;li>subject_story-> tornou-se brevemente famoso por atirar uma fruta ambrosia fora da mão do senhorio&lt;/li>\n&lt;li>subject_gerund->crafting rifles&lt;/li>\n</PrecisionRifling.generalRules.rulesStrings>
+  
   <!-- EN: shields -->
   <ShieldBelt.label>escudos</ShieldBelt.label>
   <!-- EN: Build wearable shield gear. Shields use momentum-repulsion technology to prevent projectiles from traversing the field boundary. -->
@@ -150,7 +195,11 @@
     <li>subject_story->killed an enemy by advancing a blade slowly enough to bypass their shield</li>
     <li>subject_gerund->crafting personal shields</li>
   -->
-  <ShieldBelt.generalRules.rulesStrings>&lt;li&gt;subject-&gt; blindagem pessoal&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; sobreviveu a uma tentativa de assassinato, graças a um protótipo blind&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;austled em billiards, usando um repelente de momentum oculto&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; matou um inimigo avançando uma lâmina lentamente o suficiente para contornar seu escudo&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;crafting escudos pessoais&lt;/li&gt;\n</ShieldBelt.generalRules.rulesStrings>
+  <ShieldBelt.generalRules.rulesStrings>&lt;li>subject-> blindagem pessoal&lt;/li>\n&lt;li>subject_story-> sobreviveu a uma tentativa de assassinato, graças a um protótipo blind&lt;/li>\n&lt;li>subject_story->austled em billiards, usando um repelente de momentum oculto&lt;/li>\n&lt;li>subject_story-> matou um inimigo avançando uma lâmina lentamente o suficiente para contornar seu escudo&lt;/li>\n&lt;li>subject_gerund->crafting escudos pessoais&lt;/li>\n</ShieldBelt.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <ShieldBelt.generalRules.rulesStrings>&lt;li>subject-> blindagem pessoal&lt;/li>\n&lt;li>subject_story-> sobreviveu a uma tentativa de assassinato, graças a um protótipo blind&lt;/li>\n&lt;li>subject_story->austled em billiards, usando um repelente de momentum oculto&lt;/li>\n&lt;li>subject_story-> matou um inimigo avançando uma lâmina lentamente o suficiente para contornar seu escudo&lt;/li>\n&lt;li>subject_gerund->crafting escudos pessoais&lt;/li>\n</ShieldBelt.generalRules.rulesStrings>
+  
   <!-- EN: transport pod -->
   <TransportPod.label>pod de transporte</TransportPod.label>
   <!-- EN: Construct launchable transport pods that you can use to send people and supplies long distances across the planet's surface. Can be used for raiding, travel, sending gifts, and more. -->
@@ -162,5 +211,9 @@
     <li>subject_story->staved off famine through judicious pod deployment</li>
     <li>subject_gerund->constructing transport pods</li>
   -->
-  <TransportPod.generalRules.rulesStrings>&lt;li&gt;subject-&gt;transporte pods&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;landed um pod no meio de uma tribo feral e mal escapou vivo&lt;/li&gt;\n&lt;li&gt;subject_story-&gt;spent uma fortuna enviando uma vagem de transporte para o objeto de afeto [ANYPAWN_possessive], carregando um único anel de casamento&lt;/li&gt;\n&lt;li&gt;subject_story-&gt; desistiu da fome através da implantação judiciosa do pod&lt;/li&gt;\n&lt;li&gt;subject_gerund-&gt;constructing transport pods&lt;/li&gt;\n</TransportPod.generalRules.rulesStrings>
+  <TransportPod.generalRules.rulesStrings>&lt;li>subject->transporte pods&lt;/li>\n&lt;li>subject_story->landed um pod no meio de uma tribo feral e mal escapou vivo&lt;/li>\n&lt;li>subject_story->spent uma fortuna enviando uma vagem de transporte para o objeto de afeto [ANYPAWN_possessive], carregando um único anel de casamento&lt;/li>\n&lt;li>subject_story-> desistiu da fome através da implantação judiciosa do pod&lt;/li>\n&lt;li>subject_gerund->constructing transport pods&lt;/li>\n</TransportPod.generalRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <TransportPod.generalRules.rulesStrings>&lt;li>subject->transporte pods&lt;/li>\n&lt;li>subject_story->landed um pod no meio de uma tribo feral e mal escapou vivo&lt;/li>\n&lt;li>subject_story->spent uma fortuna enviando uma vagem de transporte para o objeto de afeto [ANYPAWN_possessive], carregando um único anel de casamento&lt;/li>\n&lt;li>subject_story-> desistiu da fome através da implantação judiciosa do pod&lt;/li>\n&lt;li>subject_gerund->constructing transport pods&lt;/li>\n</TransportPod.generalRules.rulesStrings>
+  
 </LanguageData>
