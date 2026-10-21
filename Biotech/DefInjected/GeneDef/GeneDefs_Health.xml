@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: fertile -->
+  <Fertile.label>fértil</Fertile.label>
+  <!-- EN: Carriers of this gene have a higher chance of becoming pregnant or impregnating others. -->
+  <Fertile.description>Os portadores deste gene têm maior probabilidade de engravidar ou de engravidar outras pessoas.</Fertile.description>
+  
+  <!-- EN: strong immunity -->
+  <Immunity_Strong.label>imunidade forte</Immunity_Strong.label>
+  <!-- EN: Carriers of this gene gain immunity to diseases faster than normal. -->
+  <Immunity_Strong.description>Os portadores deste gene ganham imunidade a doenças mais rapidamente do que o normal.</Immunity_Strong.description>
+  <!-- EN: immune -->
+  <Immunity_Strong.labelShortAdj>imune</Immunity_Strong.labelShortAdj>
+  <!-- EN: stout -->
+  <Immunity_Strong.symbolPack.prefixSymbols.0.symbol>robusto</Immunity_Strong.symbolPack.prefixSymbols.0.symbol>
+  
+  <!-- EN: super immunity -->
+  <Immunity_SuperStrong.label>superimunidade</Immunity_SuperStrong.label>
+  <!-- EN: Carriers of this gene gain immunity to diseases considerably faster than normal. -->
+  <Immunity_SuperStrong.description>Os portadores deste gene ganham imunidade a doenças consideravelmente mais rápido do que o normal.</Immunity_SuperStrong.description>
+  <!-- EN: super-immune -->
+  <Immunity_SuperStrong.labelShortAdj>super-imune</Immunity_SuperStrong.labelShortAdj>
+  <!-- EN: stout -->
+  <Immunity_SuperStrong.symbolPack.prefixSymbols.0.symbol>robusto</Immunity_SuperStrong.symbolPack.prefixSymbols.0.symbol>
+  
+  <!-- EN: weak immunity -->
+  <Immunity_Weak.label>imunidade fraca</Immunity_Weak.label>
+  <!-- EN: Carriers of this gene gain immunity to diseases more slowly than normal. They may die from infections that others would survive. -->
+  <Immunity_Weak.description>Os portadores deste gene ganham imunidade a doenças mais lentamente do que o normal. Podem morrer de infeções a que outros sobreviveriam.</Immunity_Weak.description>
+  <!-- EN: susceptible -->
+  <Immunity_Weak.labelShortAdj>suscetível</Immunity_Weak.labelShortAdj>
+  <!-- EN: sick -->
+  <Immunity_Weak.symbolPack.prefixSymbols.0.symbol>doente</Immunity_Weak.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: frail -->
+  <Immunity_Weak.symbolPack.prefixSymbols.1.symbol>frágil</Immunity_Weak.symbolPack.prefixSymbols.1.symbol>
+  
+  <!-- EN: sterile -->
+  <Sterile.label>estéril</Sterile.label>
+  <!-- EN: Carriers of this gene cannot reproduce by natural means. -->
+  <Sterile.description>Os portadores deste gene não se conseguem reproduzir por meios naturais.</Sterile.description>
+  
+  <!-- EN: superclotting -->
+  <Superclotting.label>supercoagulação</Superclotting.label>
+  <!-- EN: Carriers of this gene have extra-power coagulating factors in their blood, and will stop bleeding very quickly when wounded. -->
+  <Superclotting.description>Os portadores deste gene têm fatores de coagulação reforçados no sangue e param de sangrar muito depressa quando feridos.</Superclotting.description>
+  <!-- EN: Bleeding wounds close very quickly. -->
+  <Superclotting.customEffectDescriptions.0>As feridas com hemorragia fecham muito depressa.</Superclotting.customEffectDescriptions.0>
+  <!-- EN: clot -->
+  <Superclotting.symbolPack.prefixSymbols.0.symbol>coágulo</Superclotting.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: scab -->
+  <Superclotting.symbolPack.prefixSymbols.1.symbol>crosta</Superclotting.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: clot -->
+  <Superclotting.symbolPack.suffixSymbols.0.symbol>coágulo</Superclotting.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: scab -->
+  <Superclotting.symbolPack.suffixSymbols.1.symbol>crosta</Superclotting.symbolPack.suffixSymbols.1.symbol>
+  
+  <!-- EN: partial antitoxic lungs -->
+  <ToxicEnvironmentResistance_Partial.label>pulmões antitóxicos parciais</ToxicEnvironmentResistance_Partial.label>
+  <!-- EN: Carriers of this gene are resistant to environmental toxins. They get less toxic buildup from tox gas, polluted terrain, and toxic fallout, but are still vulnerable to direct attacks with venom or injected poison. Additionally, they build up rot stink exposure slower. -->
+  <ToxicEnvironmentResistance_Partial.description>Os portadores deste gene são resistentes às toxinas ambientais. Acumulam menos toxicidade com gás tóxico, terreno poluído e chuva tóxica, mas continuam vulneráveis a ataques diretos com veneno ou toxinas injetadas. Além disso, acumulam mais lentamente a exposição ao cheiro a podre.</ToxicEnvironmentResistance_Partial.description>
+  <!-- EN: tox-resistant -->
+  <ToxicEnvironmentResistance_Partial.labelShortAdj>resistente a toxinas</ToxicEnvironmentResistance_Partial.labelShortAdj>
+  <!-- EN: tox -->
+  <ToxicEnvironmentResistance_Partial.symbolPack.prefixSymbols.0.symbol>toxi</ToxicEnvironmentResistance_Partial.symbolPack.prefixSymbols.0.symbol>
+  
+  <!-- EN: total antitoxic lungs -->
+  <ToxicEnvironmentResistance_Total.label>pulmões antitóxicos totais</ToxicEnvironmentResistance_Total.label>
+  <!-- EN: Carriers of this gene are immune to environmental toxins, but not from direct toxic attacks. They get no toxic buildup from tox gas, polluted terrain, or toxic fallout, and they are not bothered by acidic smog. They are still vulnerable to direct attacks like venom and injected poison. Additionally, they are immune to rot stink exposure. -->
+  <ToxicEnvironmentResistance_Total.description>Os portadores deste gene são imunes às toxinas ambientais, mas não a ataques tóxicos diretos. Não acumulam toxicidade com gás tóxico, terreno poluído ou chuva tóxica, e o smog ácido não os incomoda. Continuam vulneráveis a ataques diretos, como veneno e toxinas injetadas. Além disso, são imunes à exposição ao cheiro a podre.</ToxicEnvironmentResistance_Total.description>
+  <!-- EN: Tox gas immunity -->
+  <ToxicEnvironmentResistance_Total.customEffectDescriptions.0>Imunidade a gás tóxico</ToxicEnvironmentResistance_Total.customEffectDescriptions.0>
+  <!-- EN: tox-immune -->
+  <ToxicEnvironmentResistance_Total.labelShortAdj>imune a toxinas</ToxicEnvironmentResistance_Total.labelShortAdj>
+  <!-- EN: tox -->
+  <ToxicEnvironmentResistance_Total.symbolPack.prefixSymbols.0.symbol>toxi</ToxicEnvironmentResistance_Total.symbolPack.prefixSymbols.0.symbol>
+  
+  <!-- EN: fast wound healing -->
+  <WoundHealing_Fast.label>cura rápida de feridas</WoundHealing_Fast.label>
+  <!-- EN: Carriers of this gene heal from wounds twice as fast as normal. -->
+  <WoundHealing_Fast.description>Os portadores deste gene curam as feridas duas vezes mais depressa do que o normal.</WoundHealing_Fast.description>
+  <!-- EN: fast-heal -->
+  <WoundHealing_Fast.labelShortAdj>cura rápida</WoundHealing_Fast.labelShortAdj>
+  <!-- EN: stout -->
+  <WoundHealing_Fast.symbolPack.prefixSymbols.0.symbol>robusto</WoundHealing_Fast.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: hard -->
+  <WoundHealing_Fast.symbolPack.prefixSymbols.1.symbol>duro</WoundHealing_Fast.symbolPack.prefixSymbols.1.symbol>
+  
+  <!-- EN: slow wound healing -->
+  <WoundHealing_Slow.label>cura lenta de feridas</WoundHealing_Slow.label>
+  <!-- EN: Carriers of this gene heal from wounds half as fast as normal. -->
+  <WoundHealing_Slow.description>Os portadores deste gene curam as feridas com metade da rapidez normal.</WoundHealing_Slow.description>
+  <!-- EN: slow-heal -->
+  <WoundHealing_Slow.labelShortAdj>cura lenta</WoundHealing_Slow.labelShortAdj>
+  <!-- EN: soft -->
+  <WoundHealing_Slow.symbolPack.prefixSymbols.0.symbol>macio</WoundHealing_Slow.symbolPack.prefixSymbols.0.symbol>
+  
+  <!-- EN: superfast wound healing -->
+  <WoundHealing_SuperFast.label>supercura rápida de feridas</WoundHealing_SuperFast.label>
+  <!-- EN: Carriers of this gene heal from wounds four times as fast as normal. -->
+  <WoundHealing_SuperFast.description>Os portadores deste gene curam as feridas quatro vezes mais depressa do que o normal.</WoundHealing_SuperFast.description>
+  <!-- EN: super-heal -->
+  <WoundHealing_SuperFast.labelShortAdj>supercura</WoundHealing_SuperFast.labelShortAdj>
+  <!-- EN: stout -->
+  <WoundHealing_SuperFast.symbolPack.prefixSymbols.0.symbol>robusto</WoundHealing_SuperFast.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: hard -->
+  <WoundHealing_SuperFast.symbolPack.prefixSymbols.1.symbol>duro</WoundHealing_SuperFast.symbolPack.prefixSymbols.1.symbol>
+  
+</LanguageData>

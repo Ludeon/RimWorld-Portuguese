@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Grav engine/substructrues -->
+  <!-- EN: Must be placed on gravship substructure. -->
+  <MessageMustBePlacedOnSubstructure>Tem de ser colocado na subestrutura da gravinave.</MessageMustBePlacedOnSubstructure>
+  <!-- EN: Must be placed within the radius of a grav engine or grav field extender. -->
+  <MessageMustBePlacedInRangeOfGravEngineOrExtender>Tem de ser colocado dentro do raio de um motor gravítico ou de um extensor de campo gravítico.</MessageMustBePlacedInRangeOfGravEngineOrExtender>
+  <!-- EN: Cannot be placed under rock or mountain roofs. -->
+  <MessageCannotPlaceUnderRockRoof>Não pode ser colocado sob tetos de rocha ou de montanha.</MessageCannotPlaceUnderRockRoof>
+  <!-- EN: {ACTIVATOR_labelShort} has finished hacking {SUBJECT_definite}. -->
+  <MessageStabilizerDeactivated>{ACTIVATOR_labelShort} acabou de piratear {SUBJECT_definite}.</MessageStabilizerDeactivated>
+  <!-- EN: Can't be placed on gravship substructure. -->
+  <MessageCannotPlaceOverSubstructure>Não pode ser colocado na subestrutura da gravinave.</MessageCannotPlaceOverSubstructure>
+  <!-- EN: Gravship substructure is blocked. -->
+  <MessageSubstructureBlocked>A subestrutura da gravinave está bloqueada.</MessageSubstructureBlocked>
+  <!-- EN: Must be placed within range of a grav engine. -->
+  <MessageMustBePlacedInRangeOfGravEngine>Tem de ser colocado ao alcance de um motor gravítico.</MessageMustBePlacedInRangeOfGravEngine>
+
+  <!-- Alerts -->
+  <!-- EN: {0} has died from vacuum exposure. -->
+  <MessagePlantDiedOfRot_ExposedToVacuum>{0} morreu por exposição ao vácuo.</MessagePlantDiedOfRot_ExposedToVacuum>
+
+  <!-- Ancient Vents -->
+  <!-- EN: The ancient smoke vents have become active, darkening the sky. -->
+  <AncientSmokeVentStartUp>Os antigos respiradouros de fumo ficaram ativos e escureceram o céu.</AncientSmokeVentStartUp>
+  <!-- EN: The ancient smoke vents are stopping. -->
+  <AncientSmokeVentShutdown>Os antigos respiradouros de fumo estão a parar.</AncientSmokeVentShutdown>
+  <!-- EN: The ancient toxic vents have become active, causing toxic fallout. -->
+  <AncientToxVentStartUp>Os antigos respiradouros tóxicos ficaram ativos e provocam chuva tóxica.</AncientToxVentStartUp>
+  <!-- EN: The ancient toxic vents are stopping. -->
+  <AncientToxVentShutdown>Os antigos respiradouros tóxicos estão a parar.</AncientToxVentShutdown>
+  <!-- EN: The ancient heat vents have become active, raising temperatures. -->
+  <AncientHeatVentStartUp>Os antigos respiradouros de calor ficaram ativos e fazem subir as temperaturas.</AncientHeatVentStartUp>
+  <!-- EN: The ancient heat vents are stopping. -->
+  <AncientHeatVentShutdown>Os antigos respiradouros de calor estão a parar.</AncientHeatVentShutdown>
+  
+  <!-- EN: Must be placed over shallow water containing fish. -->
+  <CannotPlaceFishingZone>Tem de ser colocada sobre água pouco profunda com peixes.</CannotPlaceFishingZone>
+  
+  <!-- EN: {TRAP_indefinite} was triggered. -->
+  <MessageTrapSprung>Disparou {TRAP_indefinite}.</MessageTrapSprung>
+
+  <!-- EN: {0} is ready to launch again. -->
+  <GravshipReadyToLaunch>{0} está pronta para descolar de novo.</GravshipReadyToLaunch>
+
+  <!-- EN: An orbital scanner has found a signal and is locating its origin -->
+  <MessageOrbitalSignalDetected>Um escâner orbital encontrou um sinal e está a localizar a sua origem</MessageOrbitalSignalDetected>
+  <!-- EN: completes in {0} -->
+  <OrbitalScannerCompletesIn>conclui em {0}</OrbitalScannerCompletesIn>
+
+  <!-- EN: While talking with {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of a new quest: {0} -->
+  <MessageTraderGaveQuest>Ao conversar com {TRADER_nameDef}, {NEGOTIATOR_nameDef} soube de uma nova missão: {0}</MessageTraderGaveQuest>
+  <!-- EN: While reading {BOOK_labelNoParenthesis}, {READER_nameDef} discovered a quest: {0} -->
+  <MessageBookGaveQuest>Ao ler {BOOK_labelNoParenthesis}, {READER_nameDef} descobriu uma missão: {0}</MessageBookGaveQuest>
+
+  <!-- EN: Confirm gravship landing zone to continue. -->
+  <MessageConfirmLandingAreaFirst>Confirma a zona de aterragem da gravinave para continuar.</MessageConfirmLandingAreaFirst>
+  <!-- EN: Choose a landing site first. -->
+  <MessageNoLandingSiteSelected>Escolhe primeiro um local de aterragem.</MessageNoLandingSiteSelected>
+  
+  <!-- EN: Cannot store {THING_labelShort} on {TARGET_indefinite} -->
+  <CannotStoreThingOnTarget>Não é possível guardar {THING_labelShort} em {TARGET_indefinite}</CannotStoreThingOnTarget>
+
+</LanguageData>

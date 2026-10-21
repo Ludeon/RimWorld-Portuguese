@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: drop pod -->
+  <ActiveDropPodAncient.label>cápsula de aterragem</ActiveDropPodAncient.label>
+  
+  <!-- EN: ancient blast door -->
+  <AncientBlastDoor.label>porta blindada antiga</AncientBlastDoor.label>
+  <!-- EN: A heavily-reinforced door made of an ultratech polymer. Hack the door to open it. -->
+  <AncientBlastDoor.description>Uma porta fortemente reforçada, feita de um polímero ultratecnológico. Pirateia a porta para a abrires.</AncientBlastDoor.description>
+  <!-- EN: Unlocked. -->
+  <AncientBlastDoor.comps.CompHackable.hackedInspectString>Desbloqueada.</AncientBlastDoor.comps.CompHackable.hackedInspectString>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <AncientBlastDoor.comps.CompHackable.hackedMessage>{HACKER_labelShort} acabou de piratear {SUBJECT_labelNoParenthesisDef}.</AncientBlastDoor.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to open. -->
+  <AncientBlastDoor.comps.CompHackable.notHackedInspectString>Pirateia para abrir.</AncientBlastDoor.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: ancient explosives crate -->
+  <AncientExplosivesCrate.label>grade de explosivos antiga</AncientExplosivesCrate.label>
+  <!-- EN: A container of ancient mining charges. It will explode if damaged. -->
+  <AncientExplosivesCrate.description>Um contentor de cargas de mineração antigas. Explode se for danificado.</AncientExplosivesCrate.description>
+  
+  <!-- EN: fortified wall -->
+  <AncientFortifiedWall.label>muralha fortificada</AncientFortifiedWall.label>
+  <!-- EN: A heavily-reinforced wall made of an ultratech polymer. -->
+  <AncientFortifiedWall.description>Uma parede fortemente reforçada, feita de um polímero ultratecnológico.</AncientFortifiedWall.description>
+  
+  <!-- EN: ancient grav engine -->
+  <AncientGravEngine.label>motor gravítico antigo</AncientGravEngine.label>
+  <!-- EN: An ultratech engine used to bring large structures and ships into orbit. While it has been nonfunctional for many years, it contains a functional gravcore. -->
+  <AncientGravEngine.description>Um motor ultratecnológico usado para levar grandes estruturas e naves para a órbita. Embora esteja inoperacional há muitos anos, contém um núcleo gravítico funcional.</AncientGravEngine.description>
+  <!-- EN: Contains: Gravcore -->
+  <AncientGravEngine.comps.CompInspectString.inspectString>Contém: núcleo gravítico</AncientGravEngine.comps.CompInspectString.inspectString>
+  
+  <!-- EN: ancient grav reactor -->
+  <AncientGravReactor.label>reator gravítico antigo</AncientGravReactor.label>
+  <!-- EN: An ancient generator powered by a gravcore. Once capable of producing massive amounts of power, it has now fallen into disrepair. The reactor containment shield is leaking, causing toxic fallout to blanket the whole region.\n\nHack or destroy the reactor to obtain a gravcore. Be warned, it may explode if damaged. -->
+  <AncientGravReactor.description>Um gerador antigo alimentado por um núcleo gravítico. Outrora capaz de produzir enormes quantidades de energia, caiu agora em degradação. O escudo de contenção do reator tem fugas, fazendo com que uma chuva tóxica cubra toda a região.\n\nPirateia ou destrói o reator para obteres um núcleo gravítico. Cuidado, pode explodir se for danificado.</AncientGravReactor.description>
+  <!-- EN: Gravcore obtained -->
+  <AncientGravReactor.comps.CompHackable.destroyedLetterLabel>Núcleo gravítico obtido</AncientGravReactor.comps.CompHackable.destroyedLetterLabel>
+  <!-- EN: You've obtained a gravcore from the ancient reactor.\n\nThe reactor is shutting down and the toxic fallout is already beginning to clear. -->
+  <AncientGravReactor.comps.CompHackable.destroyedLetterText>Obtiveste um núcleo gravítico do reator antigo.\n\nO reator está a desligar-se e a chuva tóxica já começa a dissipar-se.</AncientGravReactor.comps.CompHackable.destroyedLetterText>
+  <!-- EN: Gravcore obtained -->
+  <AncientGravReactor.comps.CompHackable.hackedLetterLabel>Núcleo gravítico obtido</AncientGravReactor.comps.CompHackable.hackedLetterLabel>
+  <!-- EN: You've obtained a gravcore from the ancient reactor.\n\nThe reactor is shutting down and the toxic fallout is already beginning to clear. -->
+  <AncientGravReactor.comps.CompHackable.hackedLetterText>Obtiveste um núcleo gravítico do reator antigo.\n\nO reator está a desligar-se e a chuva tóxica já começa a dissipar-se.</AncientGravReactor.comps.CompHackable.hackedLetterText>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_definite}. -->
+  <AncientGravReactor.comps.CompHackable.hackedMessage>{HACKER_labelShort} acabou de piratear {SUBJECT_definite}.</AncientGravReactor.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to obtain gravcore. -->
+  <AncientGravReactor.comps.CompHackable.notHackedInspectString>Pirateia para obteres o núcleo gravítico.</AncientGravReactor.comps.CompHackable.notHackedInspectString>
+  <!-- EN: Ancient reactor -->
+  <AncientGravReactor.comps.CompLetterOnRevealed.label>Reator antigo</AncientGravReactor.comps.CompLetterOnRevealed.label>
+  <!-- EN: You've discovered the ancient grav reactor. Hack it or destroy it to obtain a gravcore and end the toxic fallout.\n\nBe warned, it may explode if damaged. -->
+  <AncientGravReactor.comps.CompLetterOnRevealed.text>Descobriste o reator gravítico antigo. Pirateia-o ou destrói-o para obteres um núcleo gravítico e acabares com a chuva tóxica.\n\nCuidado, pode explodir se for danificado.</AncientGravReactor.comps.CompLetterOnRevealed.text>
+  
+  <!-- EN: ancient stockpile entrance -->
+  <AncientHatch.label>entrada de armazém antigo</AncientHatch.label>
+  <!-- EN: The entrance to a long-abandoned subterranean facility. Hack it to open the hatch. -->
+  <AncientHatch.description>A entrada de uma instalação subterrânea abandonada há muito tempo. Pirateia-a para abrires a escotilha.</AncientHatch.description>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <AncientHatch.comps.CompHackable.hackedMessage>{HACKER_labelShort} acabou de piratear {SUBJECT_labelNoParenthesisDef}.</AncientHatch.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to open. -->
+  <AncientHatch.comps.CompHackable.notHackedInspectString>Pirateia para abrir.</AncientHatch.comps.CompHackable.notHackedInspectString>
+  <!-- EN: Sealed -->
+  <AncientHatch.comps.CompSealable.cannotEnterLabel>Selada</AncientHatch.comps.CompSealable.cannotEnterLabel>
+  <!-- EN: Cannot seal -->
+  <AncientHatch.comps.CompSealable.cannotSealLabel>Não é possível selar</AncientHatch.comps.CompSealable.cannotSealLabel>
+  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
+  <AncientHatch.comps.CompSealable.confirmSealText>Selar a entrada do armazém antigo é permanente. Tudo e todos os que ficarem lá em baixo perder-se-ão para sempre.{0}\n\nTens a certeza de que queres continuar?</AncientHatch.comps.CompSealable.confirmSealText>
+  <!-- EN: Choose a colonist to permanently seal the entrance. Anything or anyone left below will be lost forever. -->
+  <AncientHatch.comps.CompSealable.sealCommandDesc>Escolhe um colono para selar a entrada de forma permanente. Tudo e todos os que ficarem lá em baixo perder-se-ão para sempre.</AncientHatch.comps.CompSealable.sealCommandDesc>
+  <!-- EN: Seal entrance -->
+  <AncientHatch.comps.CompSealable.sealCommandLabel>Selar entrada</AncientHatch.comps.CompSealable.sealCommandLabel>
+  <!-- EN: Permanently sealed. -->
+  <AncientHatch.comps.CompSealable.sealedInspectString>Selada de forma permanente.</AncientHatch.comps.CompSealable.sealedInspectString>
+  
+  <!-- EN: ancient stockpile exit -->
+  <AncientHatchExit.label>saída de armazém antigo</AncientHatchExit.label>
+  <!-- EN: A ladder which links to the surface hatch above. -->
+  <AncientHatchExit.description>Uma escada que liga à escotilha da superfície, lá em cima.</AncientHatchExit.description>
+  
+  <!-- EN: ancient mining charge -->
+  <AncientMiningCharge.label>carga de mineração antiga</AncientMiningCharge.label>
+  <!-- EN: An explosive device used to quickly blast through rock. It is made from refined chemfuel. The explosive is old, but still ready to detonate. -->
+  <AncientMiningCharge.description>Um dispositivo explosivo usado para abrir rapidamente caminho através da rocha. É feito de combustível químico refinado. O explosivo é velho, mas ainda está pronto para detonar.</AncientMiningCharge.description>
+  
+  <!-- EN: ancient security terminal -->
+  <AncientSecurityTerminal.label>terminal de segurança antigo</AncientSecurityTerminal.label>
+  <!-- EN: An ancient terminal. Hack it to disable nearby security systems. -->
+  <AncientSecurityTerminal.description>Um terminal antigo. Pirateia-o para desativares os sistemas de segurança próximos.</AncientSecurityTerminal.description>
+  <!-- EN: Blast door opened -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedLabel>Porta blindada aberta</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to open a blast door. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedText>{HACKER_nameDef} usou o terminal de segurança antigo para abrir uma porta blindada.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedText>
+  <!-- EN: Turret disabled -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledLabel>Torreta desativada</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to disable a turret. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledText>{HACKER_nameDef} usou o terminal de segurança antigo para desativar uma torreta.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledText>
+  <!-- EN: Turret reprogrammed -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedLabel>Torreta reprogramada</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to reprogram a turret. The turret will now only target hostiles. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedText>{HACKER_nameDef} usou o terminal de segurança antigo para reprogramar uma torreta. A torreta passará agora a atacar apenas hostis.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedText>
+  <!-- EN: {HACKER_nameDef} couldn't find any security systems using the ancient security terminal. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.messageNoValidTarget>{HACKER_nameDef} não encontrou nenhum sistema de segurança através do terminal de segurança antigo.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.messageNoValidTarget>
+  
+  <!-- EN: ancient terraformer -->
+  <AncientTerraformer.label>terraformador antigo</AncientTerraformer.label>
+  <!-- EN: An ancient terraforming device powered by a gravcore. It has begun to malfunction, causing temperatures to plummet.\n\nDestroy the terraformer to obtain a gravcore. -->
+  <AncientTerraformer.description>Um dispositivo antigo de terraformação alimentado por um núcleo gravítico. Começou a avariar, fazendo as temperaturas despencar.\n\nDestrói o terraformador para obteres um núcleo gravítico.</AncientTerraformer.description>
+  <!-- EN: Contains: Gravcore -->
+  <AncientTerraformer.comps.CompInspectString.inspectString>Contém: núcleo gravítico</AncientTerraformer.comps.CompInspectString.inspectString>
+  <!-- EN: Ancient terraformer -->
+  <AncientTerraformer.comps.CompLetterOnRevealed.label>Terraformador antigo</AncientTerraformer.comps.CompLetterOnRevealed.label>
+  <!-- EN: You've discovered the malfunctioning terraformer. Destroy it to obtain a gravcore and end the deep freeze. -->
+  <AncientTerraformer.comps.CompLetterOnRevealed.text>Descobriste o terraformador avariado. Destrói-o para obteres um núcleo gravítico e acabares com a congelação profunda.</AncientTerraformer.comps.CompLetterOnRevealed.text>
+  
+  <!-- EN: ancient transport pod -->
+  <AncientTransportPod.label>cápsula de transporte antiga</AncientTransportPod.label>
+  <!-- EN: An ancient cargo pod capable of carrying people, animals, and items. It's still in working condition. -->
+  <AncientTransportPod.description>Uma cápsula de carga antiga, capaz de transportar pessoas, animais e objetos. Ainda está em condições de funcionar.</AncientTransportPod.description>
+  
+  <!-- EN: ancient uplink -->
+  <AncientUplink.label>ligação ascendente antiga</AncientUplink.label>
+  <!-- EN: An ancient transmitter used for secure communications between the surface and orbit. Hack it to determine the last location it transmitted to. -->
+  <AncientUplink.description>Um emissor antigo usado para comunicações seguras entre a superfície e a órbita. Pirateia-o para determinares o último local para onde transmitiu.</AncientUplink.description>
+  <!-- EN: Hacked. -->
+  <AncientUplink.comps.CompHackable.hackedInspectString>Pirateado.</AncientUplink.comps.CompHackable.hackedInspectString>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <AncientUplink.comps.CompHackable.hackedMessage>{HACKER_labelShort} acabou de piratear {SUBJECT_labelNoParenthesisDef}.</AncientUplink.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack for information. -->
+  <AncientUplink.comps.CompHackable.notHackedInspectString>Pirateia para obteres informação.</AncientUplink.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: anticraft beam -->
+  <AnticraftBeam.label>feixe antinave</AnticraftBeam.label>
+  <!-- EN: A massive anti-ship beam weapon. This weapon is intended to destroy flying craft, so it can't aim low enough to hit ground targets.\n\nShips using ultratech signal jammers are capable of evading these weapons. -->
+  <AnticraftBeam.description>Uma enorme arma de feixe antinave. Esta arma destina-se a destruir aeronaves, pelo que não consegue apontar suficientemente baixo para atingir alvos em terra.\n\nAs naves que usem bloqueadores de sinal ultratecnológicos conseguem evitar estas armas.</AnticraftBeam.description>
+  
+  <!-- EN: cerebrex core -->
+  <CerebrexCore.label>núcleo cerebrex</CerebrexCore.label>
+  <!-- EN: The thinking mind of the mechanoid swarm. The cerebrex core commands mechanoids across the entire planet.\n\nAt its heart is an AI persona core that knows, thinks, and believes that it must kill every human on this planet. In one sense, this impulse is a command programmed by a human military leader aeons ago. In another sense, it is cold seething hatred. Either way, if you liberate the AI persona you can reset its desire and use it for other purposes.\n\nThe structure is protected by nearby stabilizers. Destroy all cerebrex stabilizers to access it. -->
+  <CerebrexCore.description>A mente pensante do enxame mecanoide. O núcleo cerebrex comanda mecanoides em todo o planeta.\n\nNo seu âmago está um núcleo de persona de IA que sabe, pensa e acredita que tem de matar todos os humanos neste planeta. Num sentido, este impulso é uma ordem programada por um líder militar humano há eras. Noutro, é um ódio frio e fervente. Seja como for, se libertares a persona de IA, podes repor o seu desejo e usá-la para outros fins.\n\nA estrutura é protegida por estabilizadores próximos. Destrói todos os estabilizadores cerebrex para lhe acederes.</CerebrexCore.description>
+  <!-- EN: Inspect the core. -->
+  <CerebrexCore.comps.CompCerebrexCore.activateDescString>Inspecionar o núcleo.</CerebrexCore.comps.CompCerebrexCore.activateDescString>
+  <!-- EN: Inspect... -->
+  <CerebrexCore.comps.CompCerebrexCore.activateLabelString>Inspecionar...</CerebrexCore.comps.CompCerebrexCore.activateLabelString>
+  <!-- EN: inspecting core: {1}s -->
+  <CerebrexCore.comps.CompCerebrexCore.activatingString>a inspecionar o núcleo: {1}s</CerebrexCore.comps.CompCerebrexCore.activatingString>
+  <!-- EN: inspecting core -->
+  <CerebrexCore.comps.CompCerebrexCore.activatingStringPending>a inspecionar o núcleo</CerebrexCore.comps.CompCerebrexCore.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <CerebrexCore.comps.CompCerebrexCore.guiLabelString>Escolhe quem deve fazer isto</CerebrexCore.comps.CompCerebrexCore.guiLabelString>
+  <!-- EN: inspect core -->
+  <CerebrexCore.comps.CompCerebrexCore.jobString>inspecionar núcleo</CerebrexCore.comps.CompCerebrexCore.jobString>
+  
+  <!-- EN: destroyed cerebrex core -->
+  <CerebrexCore_Destroyed.label>núcleo cerebrex destruído</CerebrexCore_Destroyed.label>
+  <!-- EN: The smashed neural nexus of the mechanoid swarm that once commanded mechanoids around the planet. -->
+  <CerebrexCore_Destroyed.description>O nexo neural esmagado do enxame mecanoide, que outrora comandava mecanoides por todo o planeta.</CerebrexCore_Destroyed.description>
+  <!-- EN: Destroy for valuable resources. -->
+  <CerebrexCore_Destroyed.comps.CompInspectString.inspectString>Destrói para obteres recursos valiosos.</CerebrexCore_Destroyed.comps.CompInspectString.inspectString>
+  
+  <!-- EN: cerebrex stabilizer -->
+  <CerebrexStabilizer.label>estabilizador cerebrex</CerebrexStabilizer.label>
+  <!-- EN: A remote shield generator that makes the nearby cerebrex core nearly invincible. Destroying all stabilizers will allow direct access to the cerebrex core.\n\nBe careful, destroying a stabilizer will prompt a defensive response. -->
+  <CerebrexStabilizer.description>Um gerador de escudo remoto que torna o núcleo cerebrex próximo quase invencível. Destruir todos os estabilizadores permitirá o acesso direto ao núcleo cerebrex.\n\nCuidado: destruir um estabilizador provocará uma resposta defensiva.</CerebrexStabilizer.description>
+  
+  <!-- EN: locust cocoon -->
+  <CocoonLocust.label>casulo de gafanhoto</CocoonLocust.label>
+  <!-- EN: A stasis cocoon containing a locust.\n\nWhen conditions are inhospitable, insects sometimes form stasis cocoons and burrow underground. These cocoons keep insects safe from fire, extreme temperatures, and other threats for years.\n\nPollutants can stimulate cocoons and cause them to resurface, and strong pollutants can attract cocoons from great distances.\n\nCocoons do nothing if they are not disturbed. If a cocoon is disturbed or destroyed, the insect within will awaken and attack, triggering other nearby cocoons in the process. -->
+  <CocoonLocust.description>Um casulo de estase que contém um gafanhoto.\n\nQuando as condições são inóspitas, os insetos formam por vezes casulos de estase e enterram-se no subsolo. Estes casulos mantêm os insetos a salvo do fogo, de temperaturas extremas e de outras ameaças durante anos.\n\nOs poluentes podem estimular os casulos e fazê-los vir à superfície, e poluentes fortes podem atrair casulos de grandes distâncias.\n\nOs casulos não fazem nada se não forem perturbados. Se um casulo for perturbado ou destruído, o inseto lá dentro acorda e ataca, desencadeando no processo outros casulos próximos.</CocoonLocust.description>
+  
+  <!-- EN: egg sac -->
+  <EggSac.label>saco de ovos</EggSac.label>
+  <!-- EN: A slimy sac containing an insect larva. The larval gestation process generates a faint bioluminescent glow. -->
+  <EggSac.description>Um saco viscoso que contém uma larva de inseto. O processo de gestação da larva gera um ténue brilho bioluminescente.</EggSac.description>
+  
+  <!-- EN: gauss cannon -->
+  <GaussCannon.label>canhão de Gauss</GaussCannon.label>
+  <!-- EN: A massive anti-ship cannon that uses electromagnets to launch large metallic darts at extreme velocities. The cannon is intended to destroy incoming ships or shuttles, so it can't aim at ground targets.\n\nShips using ultratech signal jammers are capable of evading these weapons. -->
+  <GaussCannon.description>Um enorme canhão antinave que usa eletroímanes para lançar grandes dardos metálicos a velocidades extremas. O canhão destina-se a destruir naves ou vaivéns que se aproximem, pelo que não consegue apontar a alvos em terra.\n\nAs naves que usem bloqueadores de sinal ultratecnológicos conseguem evitar estas armas.</GaussCannon.description>
+  
+  <!-- EN: mechanoid drop pod -->
+  <MechanoidDropPod.label>cápsula de aterragem mecanoide</MechanoidDropPod.label>
+  <!-- EN: A launchable cargo pod intended to carry mechanoids. It is also usable for people, animals, and items. -->
+  <MechanoidDropPod.description>Uma cápsula de carga lançável destinada a transportar mecanoides. Também pode ser usada para pessoas, animais e objetos.</MechanoidDropPod.description>
+  
+  <!-- EN: mechanoid processor -->
+  <MechanoidProcessor.label>processador mecanoide</MechanoidProcessor.label>
+  <!-- EN: A powerful mechanoid computer. -->
+  <MechanoidProcessor.description>Um poderoso computador mecanoide.</MechanoidProcessor.description>
+  
+  <!-- EN: mechhive birther -->
+  <MechhiveAssembler.label>gerador da mecacolmeia</MechhiveAssembler.label>
+  <!-- EN: An automated mechanoid factory. It periodically births fresh mechanoids. -->
+  <MechhiveAssembler.description>Uma fábrica automatizada de mecanoides. Gera periodicamente novos mecanoides.</MechhiveAssembler.description>
+  
+  <!-- EN: mech pylon -->
+  <MechPylon.label>pilar mec</MechPylon.label>
+  <!-- EN: A node in a distributed mechanoid computation network. -->
+  <MechPylon.description>Um nó de uma rede de computação mecanoide distribuída.</MechPylon.description>
+  
+  <!-- EN: mechanoid relay -->
+  <MechRelay.label>retransmissor mecanoide</MechRelay.label>
+  <!-- EN: A node that coordinates signals across a planet-wide mechanoid communication network. The command signals originate at the mechhive - the center of mechanoid intelligence. -->
+  <MechRelay.description>Um nó que coordena sinais numa rede de comunicação mecanoide à escala planetária. Os sinais de comando têm origem na mecacolmeia, o centro da inteligência mecanoide.</MechRelay.description>
+  <!-- EN: Hack or destroy relay stabilizers to obtain gravcore. -->
+  <MechRelay.comps.CompMechRelay.activeInspectString>Pirateia ou destrói os estabilizadores do retransmissor para obteres o núcleo gravítico.</MechRelay.comps.CompMechRelay.activeInspectString>
+  <!-- EN: Relay crash -->
+  <MechRelay.comps.CompMechRelay.crashedLetterLabel>Queda do retransmissor</MechRelay.comps.CompMechRelay.crashedLetterLabel>
+  <!-- EN: The mechanoid relay has crashed to the ground. Destroy it to obtain a gravcore.\n\nBe warned, hostile mechanoids will soon arrive in response to the relay going offline. -->
+  <MechRelay.comps.CompMechRelay.crashedLetterText>O retransmissor mecanoide caiu por terra. Destrói-o para obteres um núcleo gravítico.\n\nCuidado, mecanoides hostis chegarão em breve em resposta ao retransmissor ter ficado desligado.</MechRelay.comps.CompMechRelay.crashedLetterText>
+  <!-- EN: Destabilizing -->
+  <MechRelay.comps.CompMechRelay.destabilizationInspectString>A desestabilizar</MechRelay.comps.CompMechRelay.destabilizationInspectString>
+  <!-- EN: The mechanoid relay has begun to destabilize. -->
+  <MechRelay.comps.CompMechRelay.destabilizationMessage>O retransmissor mecanoide começou a desestabilizar-se.</MechRelay.comps.CompMechRelay.destabilizationMessage>
+  
+  <!-- EN: crashed mechanoid relay -->
+  <MechRelay_Crashed.label>retransmissor mecanoide despenhado</MechRelay_Crashed.label>
+  <!-- EN: A node that coordinates signals across a planet-wide mechanoid communication network. The command signals originate at the mechhive - the center of mechanoid intelligence. -->
+  <MechRelay_Crashed.description>Um nó que coordena sinais numa rede de comunicação mecanoide à escala planetária. Os sinais de comando têm origem na mecacolmeia, o centro da inteligência mecanoide.</MechRelay_Crashed.description>
+  <!-- EN: Contains: Gravcore -->
+  <MechRelay_Crashed.comps.CompInspectString.inspectString>Contém: núcleo gravítico</MechRelay_Crashed.comps.CompInspectString.inspectString>
+  
+  <!-- EN: relay stabilizer -->
+  <MechStabilizer.label>estabilizador de retransmissor</MechStabilizer.label>
+  <!-- EN: A shield projecter that protects a nearby mechanoid relay. All stabilizers must be hacked or destroyed to deactivate the shield.\n\nDestroying a stabilizer will prompt a defensive response. Hacking is a slower but safer option. -->
+  <MechStabilizer.description>Um projetor de escudo que protege um retransmissor mecanoide próximo. Todos os estabilizadores têm de ser pirateados ou destruídos para desativar o escudo.\n\nDestruir um estabilizador provocará uma resposta defensiva. Piratear é uma opção mais lenta, mas mais segura.</MechStabilizer.description>
+  <!-- EN: Deactivated. -->
+  <MechStabilizer.comps.CompHackable.hackedInspectString>Desativado.</MechStabilizer.comps.CompHackable.hackedInspectString>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <MechStabilizer.comps.CompHackable.hackedMessage>{HACKER_labelShort} acabou de piratear {SUBJECT_labelNoParenthesisDef}.</MechStabilizer.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to disable stabilizer. -->
+  <MechStabilizer.comps.CompHackable.notHackedInspectString>Pirateia para desativar o estabilizador.</MechStabilizer.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: fortified wall -->
+  <OrbitalAncientFortifiedWall.label>muralha fortificada</OrbitalAncientFortifiedWall.label>
+  <!-- EN: A heavily-reinforced wall made of an ultratech polymer. -->
+  <OrbitalAncientFortifiedWall.description>Uma parede fortemente reforçada, feita de um polímero ultratecnológico.</OrbitalAncientFortifiedWall.description>
+  
+  <!-- EN: passenger shuttle -->
+  <PassengerShuttle.label>vaivém de passageiros</PassengerShuttle.label>
+  <!-- EN: A chemfuel-powered shuttle designed for long-distance travel. It is capable of reaching orbital locations. -->
+  <PassengerShuttle.description>Um vaivém movido a combustível químico, concebido para viagens de longa distância. É capaz de chegar a locais orbitais.</PassengerShuttle.description>
+  <!-- EN: {0} is ready to launch again. -->
+  <PassengerShuttle.comps.CompLaunchable.cooldownEndedMessage>{0} está pronto para voltar a ser lançado.</PassengerShuttle.comps.CompLaunchable.cooldownEndedMessage>
+  <!-- EN: Chemfuel -->
+  <PassengerShuttle.comps.CompRefuelable.fuelGizmoLabel>Combustível químico</PassengerShuttle.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Chemfuel -->
+  <PassengerShuttle.comps.CompRefuelable.fuelLabel>Combustível químico</PassengerShuttle.comps.CompRefuelable.fuelLabel>
+  
+  <!-- EN: surveying scanner -->
+  <SurveyScanner.label>escâner de prospeção</SurveyScanner.label>
+  <!-- EN: A wideband sensor unit that can detect and map various features in a local area. -->
+  <SurveyScanner.description>Uma unidade de sensores de banda larga capaz de detetar e mapear várias características numa área local.</SurveyScanner.description>
+  <!-- EN: Scanning local area: {DURATION} -->
+  <SurveyScanner.comps.CompCountdown.label>A examinar a área local: {DURATION}</SurveyScanner.comps.CompCountdown.label>
+  
+</LanguageData>

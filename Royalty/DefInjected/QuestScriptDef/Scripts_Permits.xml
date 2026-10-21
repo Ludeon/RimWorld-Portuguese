@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questName->Laborers</li>
+    <li>questDescription-></li>
+  -->
+  <Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>
+    <li>questName->Trabalhadores</li>
+    <li>questDescription-></li>
+  </Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN: Laborers arrived -->
+  <Permit_CallLaborers.LetterLabelLaborersArrived.slateRef>Trabalhadores chegaram</Permit_CallLaborers.LetterLabelLaborersArrived.slateRef>
+  <!-- EN: The laborers from [permitFaction_name] have arrived. A shuttle will come to collect them in [laborersDurationDays] days. -->
+  <Permit_CallLaborers.LetterTextLaborersArrived.slateRef>Os trabalhadores de [permitFaction_name] chegaram. Um vaivém virá buscá-los dentro de [laborersDurationDays] dias.</Permit_CallLaborers.LetterTextLaborersArrived.slateRef>
+  <!-- EN: Should depart on shuttle -->
+  <Permit_CallLaborers.InspectStringDepartShuttle.slateRef>Deve partir no vaivém</Permit_CallLaborers.InspectStringDepartShuttle.slateRef>
+  <!-- EN: Shuttle arrived -->
+  <Permit_CallLaborers.LetterLabelShuttleArrived.slateRef>Vaivém chegou</Permit_CallLaborers.LetterLabelShuttleArrived.slateRef>
+  <!-- EN: A shuttle has arrived to collect the laborers from [permitFaction_name]. -->
+  <Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>Um vaivém chegou para recolher os trabalhadores de [permitFaction_name].</Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>
+  <!-- EN: Laborer died: {SUBJECT_definite} -->
+  <Permit_CallLaborers.LetterLabelLaborerDied.slateRef>Trabalhador morreu: {SUBJECT_definite}</Permit_CallLaborers.LetterLabelLaborerDied.slateRef>
+  <!-- EN: A laborer sent to you by [permitFaction_name] has died. Your goodwill with [permitFaction_name] has fallen by [goodwillPenaltyPawn]. -->
+  <Permit_CallLaborers.LetterTextLaborerDied.slateRef>Um trabalhador enviado por [permitFaction_name] morreu. A tua boa vontade com [permitFaction_name] desceu [goodwillPenaltyPawn].</Permit_CallLaborers.LetterTextLaborerDied.slateRef>
+  <!-- EN: Laborer abandoned: {SUBJECT_definite} -->
+  <Permit_CallLaborers.LetterLabelLaborerLeftBehind.slateRef>Trabalhador abandonado: {SUBJECT_definite}</Permit_CallLaborers.LetterLabelLaborerLeftBehind.slateRef>
+  <!-- EN: A laborer sent to you by [permitFaction_name] has been left behind. Any remaining laborers will now leave. -->
+  <Permit_CallLaborers.LetterTextLaborerLeftBehind.slateRef>Um trabalhador enviado por [permitFaction_name] foi deixado para trás. Os restantes trabalhadores vão agora partir.</Permit_CallLaborers.LetterTextLaborerLeftBehind.slateRef>
+
+</LanguageData>

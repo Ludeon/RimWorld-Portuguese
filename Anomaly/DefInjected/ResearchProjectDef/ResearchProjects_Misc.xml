@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: security door -->
+  <SecurityDoor.label>porta de segurança</SecurityDoor.label>
+  <!-- EN: Build a heavily reinforced door. It is slow to open and requires power, but is very strong. It's a good choice if you want to keep something dangerous out - or in. -->
+  <SecurityDoor.description>Constrói uma porta fortemente reforçada. É lenta a abrir e precisa de energia, mas é muito resistente. É uma boa escolha se quiseres manter algo perigoso lá fora, ou lá dentro.</SecurityDoor.description>
+  <!-- EN:
+    <li>subject->security door</li>
+    <li>subject_story->worked as a security drone in a sealed research facility</li>
+    <li>subject_story->engineered security devices for a stellar trader</li>
+    <li>subject_story->researched materials science for a mercenary firm</li>
+    <li>subject_story->worked in a Glitterworld zoo</li>
+    <li>subject_gerund->constructing security doors</li>
+  -->
+  <SecurityDoor.generalRules.rulesStrings>
+    <li>subject->portas de segurança</li>
+    <li>subject_story->trabalhou como drone de segurança numa instalação de investigação selada</li>
+    <li>subject_story->concebeu dispositivos de segurança para um comerciante estelar</li>
+    <li>subject_story->investigou ciência dos materiais para uma empresa de mercenários</li>
+    <li>subject_story->trabalhou num jardim zoológico de um mundo cintilante</li>
+    <li>subject_gerund->construir portas de segurança</li>
+  </SecurityDoor.generalRules.rulesStrings>
+
+  <!-- EN: turret pack -->
+  <TurretPack.label>mochila-torreta</TurretPack.label>
+  <!-- EN: Build a wearable pack that allows the user to deploy a battery-powered turret. -->
+  <TurretPack.description>Constrói uma mochila que permite a quem a usa instalar uma torreta alimentada por bateria.</TurretPack.description>
+  <!-- EN:
+    <li>subject->deployable turrets</li>
+    <li>subject_story->defended a feralworld castle from assault</li>
+    <li>subject_story->manned a tailgun on an Imperial dropship</li>
+    <li>subject_story->researched deployable military technology</li>
+    <li>subject_story->fought in the trench battles of the [worldname] War</li>
+    <li>subject_gerund->crafting deployable gun turrets</li>
+  -->
+  <TurretPack.generalRules.rulesStrings>
+    <li>subject->torretas instaláveis</li>
+    <li>subject_story->defendeu um castelo de um mundo selvagem de um ataque</li>
+    <li>subject_story->operou o canhão de cauda de uma nave de desembarque imperial</li>
+    <li>subject_story->investigou tecnologia militar instalável</li>
+    <li>subject_story->combateu nas batalhas de trincheiras da Guerra de [worldname]</li>
+    <li>subject_gerund->fabricar torretas instaláveis</li>
+  </TurretPack.generalRules.rulesStrings>
+
+</LanguageData>

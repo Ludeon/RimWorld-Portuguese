@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: {0} hurls some epithets into the microphone and disconnects. -->
+  <FactionGreetingHostile>{0} lança alguns impropérios para o microfone e desliga.</FactionGreetingHostile>
+  <!-- EN: {0} demands that you make a gesture of goodwill, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nMuttering an insult, {0_pronoun} disconnects. -->
+  <FactionGreetingHostileAppreciative>{0} exige que faças um gesto de boa vontade, como levar presentes a uma das povoações {0_possessive} ou libertar ilesos os prisioneiros da fação {0_possessive}. Até lá, {0_pronoun} recusa-se a falar.\n\nA resmungar um insulto, {0_pronoun} desliga.</FactionGreetingHostileAppreciative>
+  <!-- EN: {0} greets {NEGOTIATOR_labelShort} and asks what business you want to handle. -->
+  <FactionGreetingWary>{0} cumprimenta {NEGOTIATOR_labelShort} e pergunta que assunto queres tratar.</FactionGreetingWary>
+  <!-- EN: {0} greets {NEGOTIATOR_labelShort} warmly and asks what {LEADER_pronoun} can do to help you. -->
+  <FactionGreetingWarm>{0} cumprimenta {NEGOTIATOR_labelShort} calorosamente e pergunta o que {LEADER_pronoun} pode fazer para te ajudar.</FactionGreetingWarm>
+
+  <!-- EN: won't do {0} -->
+  <WorkTypeDisablesOption>não fará {0}</WorkTypeDisablesOption>
+  <!-- EN: Disconnect -->
+  <Disconnect>Desligar</Disconnect>
+
+  <!-- Gift offer -->
+  <!-- EN: Offer gift -->
+  <OfferGift>Oferecer presente</OfferGift>
+  <!-- EN: must be ally -->
+  <MustBeAlly>tem de ser aliado</MustBeAlly>
+  <!-- EN: need {0} goodwill -->
+  <NeedGoodwill>necessita de {0} de boa vontade</NeedGoodwill>
+  <!-- EN: need {0} silver near trade beacons -->
+  <NeedSilverLaunchable>são necessários {0} de prata perto das balizas de comércio</NeedSilverLaunchable>
+  <!-- EN: not enough silver -->
+  <NotEnoughSilver>Sem prata suficiente.</NotEnoughSilver>
+  <!-- EN: {0} silver for {1} goodwill -->
+  <SilverForGoodwill>{0} de prata por {1} de boa vontade</SilverForGoodwill>
+  <!-- EN: {0} thanks you.\n\n(Goodwill improved by {1}) -->
+  <SilverGiftSent>{0} agradece-te.\n\n(Boa vontade melhorada em {1})</SilverGiftSent>
+
+  <!-- Trade caravan request -->
+  <!-- EN: Request a trade caravan (cost: {0} goodwill) -->
+  <RequestTrader>Pedir uma caravana de comércio (custo: {0} de boa vontade)</RequestTrader>
+  <!-- EN: {0} asks what kind of trade caravan you want. -->
+  <ChooseTraderKind>{0} pergunta que tipo de caravana de comércio queres.</ChooseTraderKind>
+  <!-- EN: {0} agrees to send you a trade caravan. It will arrive within a few days. -->
+  <TraderSent>{0} concorda em enviar-te uma caravana de comércio. Chegará dentro de alguns dias.</TraderSent>
+  <!-- EN: wait {0} -->
+  <WaitTime>espera {0}</WaitTime>
+
+  <!-- Orbital trade request -->
+  <!-- EN: Request orbital trader (cost: {0} goodwill) -->
+  <RequestOrbitalTrader>Pedir um comerciante orbital (custo: {0} de boa vontade)</RequestOrbitalTrader>
+  <!-- EN: {0} asks what kind of orbital trader you want. -->
+  <ChooseOrbitalTraderKind>{0} pergunta que tipo de comerciante orbital queres.</ChooseOrbitalTraderKind>
+  <!-- EN: {0} will ask an orbital trader to visit you. It will arrive within a few hours. -->
+  <OrbitalTraderSent>{0} vai pedir a um comerciante orbital que te visite. Chegará dentro de algumas horas.</OrbitalTraderSent>
+  
+  <!-- AI core request -->
+  <!-- EN: Request the location of a {0} (cost: {1} silver) -->
+  <RequestAICoreInformation>Pedir a localização de um {0} (custo: {1} de prata)</RequestAICoreInformation>
+  <!-- EN: {0} sends the requested information and wishes you good luck. -->
+  <RequestAICoreInformationResult>{0} envia as informações pedidas e deseja-te boa sorte.</RequestAICoreInformationResult>
+  <!-- EN: no more locations known -->
+  <NoKnownAICore>não há mais locais conhecidos</NoKnownAICore>  
+  
+  <!-- Military aid request -->
+  <!-- EN: Request immediate military aid (cost: {0} goodwill) -->
+  <RequestMilitaryAid>Pedir ajuda militar imediata (custo: {0} de boa vontade)</RequestMilitaryAid>
+  <!-- EN: {0} will not help you fight other factions who are not their enemies. This includes some who are currently threatening you, {1}. Do you still want to call for aid? -->
+  <MilitaryAidConfirmMutualEnemy>{0} não te ajudará a combater outras fações que não sejam suas inimigas. Isto inclui algumas que te estão atualmente a ameaçar: {1}. Ainda assim queres pedir ajuda?</MilitaryAidConfirmMutualEnemy>
+  <!-- EN: Yes, call them anyway. -->
+  <CallConfirm>Sim, chama-os de qualquer maneira.</CallConfirm>
+  <!-- EN: No, never mind. -->
+  <CallCancel>Não, deixa estar.</CallCancel>
+  <!-- EN: {0} agrees to send fighters to help you. -->
+  <MilitaryAidSent>{0} concorda em enviar combatentes para te ajudar.</MilitaryAidSent>
+  <!-- EN: {0} apologizes and says they won't be able to arrive in time.\n\n(This faction's technology level is too low for transport pods) -->
+  <CantSendMilitaryAidInTime>{0} pede desculpa e diz que não vai conseguir chegar a tempo.\n\n(O nível de tecnologia desta fação é demasiado baixo para cápsulas de transporte)</CantSendMilitaryAidInTime>
+  <!-- EN: hostile visitors present -->
+  <HostileVisitorsPresent>visitantes hostis presentes</HostileVisitorsPresent>
+
+</LanguageData>

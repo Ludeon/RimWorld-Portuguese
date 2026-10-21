@@ -1,0 +1,893 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>desc->a map [physicalDescription] showing a location of interest. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->[physicalDescription], this [mapType] [has] [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->this [mapType] is [physicalDescription] and [has] [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->a [mapType] containing [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->a collection of maps with [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->a map from [place] with [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>physicalDescription->printed on a thin and heat-resistant polymer</li>
+    <li>physicalDescription->laser-printed on hyperweave</li>
+    <li>physicalDescription->drawn in what appears to be dried blood</li>
+    <li>physicalDescription->held together with string</li>
+    <li>physicalDescription->bound in worn leather</li>
+    <li>physicalDescription->drawn on thin leather</li>
+    <li>physicalDescription->bound in vinyl</li>
+    <li>physicalDescription->etched into thin sheets of parchment</li>
+    <li>physicalDescription->etched in charcoal</li>
+    <li>physicalDescription->etched on a waterlogged canvas</li>
+    <li>physicalDescription->etched on fetid animal hide</li>
+    <li>physicalDescription->scrawled in black ink</li>
+    <li>physicalDescription->stitched into elk hide</li>
+    <li>physicalDescription->written on dried [Animal] skin</li>
+    <li>physicalDescription->crafted from blackened parchment</li>
+    <li>physicalDescription->delicately folded in sixteen sections</li>
+    <li>physicalDescription->printed by an industrial press</li>
+    <li>physicalDescription->printed on hyperweave</li>
+    <li>physicalDescription->delicately crafted on fine hyperweave</li>
+    <li>physicalDescription->adorned with holographic decals</li>
+    <li>physicalDescription->written in spidery handwriting</li>
+    <li>physicalDescription->inked upon yellowing paper</li>
+    <li>physicalDescription->inked with vivid colors</li>
+    <li>physicalDescription->clearly damaged from a fire</li>
+    <li>physicalDescription->drawn on a sturdy canvas</li>
+    <li>physicalDescription->folded many times over and smeared with dirt and charcoal</li>
+    <li>physicalDescription->drawn on crumbling parchment with faint spidery writing</li>
+    <li>physicalDescription->etched on yellowed parchment with tattered and crumbling edges</li>
+    <li>mapContents->hundreds of small drawings of [mapSubjectAdj] [mapSubject]</li>
+    <li>mapContents->quick sketches of [mapSubjectAdj] [mapSubject]</li>
+    <li>mapContents->lists of notable [mapSubject]. The longest list is titled '[AdjectiveBadass]!' It is circled in red ink</li>
+    <li>mapContents->burnt edges and smudged lines. The central map shows [mapSubjectAdj] [mapSubject] but the lines are obscured by [stain] stains</li>
+    <li>mapContents->new diagrams on every page. Some diagrams go into great detail about [mapSubject], the largest of which is undeniably [mapSubjectAdj]</li>
+    <li>mapContents->a mix of fantastical [mapSubject] and historical [mapSubject]</li>
+    <li>mapContents->dozens of ancient diagrams of [mapSubjectAdj] [mapSubject]</li>
+    <li>mapContents->themed drawings. A large central [depiction] resembles a [Animal], drawn in a [artstyle_adj] style</li>
+    <li>mapContents->thousands of strange symbols, many of which resemble [mapSubject]. The most common symbol looks like a [emotionalState] [Animal] drawn in a [artstyle_adj] style</li>
+    <li>mapContents->clear signs of age. One diagram, drawn with a different hand, shows the ancient [mapSubject] of [place]</li>
+    <li>mapContents->detailed diagrams of [place] [mapSubject] and their relation to [mapSubjectAdj] [mapSubject]</li>
+    <li>mapContents->four large sketches of [place] [mapSubject]</li>
+    <li>mapContents->many small diagrams. One diagram is labeled '[place] [RomanNumeral]' and contains a detailed survey of [place] [mapSubject]</li>
+    <li>mapContents->many small drawings of [mapSubjectAdj] [mapSubject] and [mapSubjectAdj] [mapSubject]</li>
+    <li>mapContents->detailed drawings of the planet. Several nearby locations are labeled '[Enemy]s' in red ink</li>
+    <li>mapContents->the coordinates for a number of [mapSubjectAdj] [mapSubject]</li>
+    <li>mapContents->coordinates highlighted in yellow marker</li>
+    <li>mapContents->drawings of nearby territories. Crude symbols mark safe havens and hidden caches</li>
+    <li>mapContents->the locations of [Quantity_adjphrase] [Animal] sanctuaries. Red 'X's also denote several graves</li>
+    <li>mapContents->nothing of importance. Or so it seems</li>
+    <li>mapContents->faded gridlines. Each quadrant contains [mapSubjectAdj] [mapSubject]</li>
+    <li>mapContents->[Quantity_adjphrase] [mapSubject] rendered in a [artstyle_adj] style. Underneath each is a [AdjectiveAny] [Animal]</li>
+    <li>maybe_specialFact-></li>
+    <li>maybe_specialFact->[specialFact]</li>
+    <li>specialFact->The markings are invisible in normal light. Yet, in complete darkness, ghostly symbols and spectral lines emerge, glowing a pale silver.</li>
+    <li>specialFact->Markings appear and vanish depending on the angle of the light.</li>
+    <li>specialFact->The pages glow faintly with crimson sigils that shift and twist when held to a flame.</li>
+    <li>specialFact->The annotations are in a regional dialect, suggesting the author is from [place].</li>
+    <li>specialFact->Each fold contains a letter and several numbers but their meaning is unclear.</li>
+    <li>specialFact->Something about the markings is unnerving.</li>
+    <li>specialFact->It contains annotations from a long forgotten language.</li>
+    <li>specialFact->The crude and uneven markings slowly change over time, revealing hidden meaning.</li>
+    <li>specialFact->It claims to reveal the very lifeblood of the land itself, guiding the reader to a place of great natural power.</li>
+    <li>specialFact->Hidden among the many folds is a slip of paper with a drawing of a [emotionalState] [Animal].</li>
+    <li>specialFact->Touching the map for too long leaves faint red stains on the reader's fingertips.</li>
+    <li>specialFact->Grains of sand can be found amongst the map's folds.</li>
+    <li>specialFact->Annotations on the map suggest that it holds the key to some greater secret.</li>
+    <li>specialFact->A crude rendition of several [mapSubject] from [place] is sketched in the margins.</li>
+    <li>specialFact->The ink is faded, and faint stains obscure some of the details, making deciphering the details a challenge.</li>
+    <li>specialFact->Subtle stitching suggests it was repurposed from several larger maps.</li>
+    <li>specialFact->This map may be as much a warning as a guide.</li>
+    <li>specialFact->The markings are careless in places, suggesting the map was created in a hurry.</li>
+    <li>specialFact->Its detail suggests it was commissioned by someone with means, and its secrecy implies it contains something worth hiding.</li>
+    <li>specialFact->[Quantity_adjphrase] [Character]s are drawn [noteLocation]. They look [emotionalState].</li>
+    <li>specialFact->Elegant calligraphy labels a few [mapSubject], but one isolated drawing bears only a cryptic mark - a symbol of a [mapSymbol].</li>
+    <li>specialFact->The map contains a short biography of its author - a notable [PersonJob] from [place].</li>
+    <li>specialFact->The map was authored by an infamous [PersonBadass].</li>
+    <li>specialFact->The map was authored by a [emotionalState] [PersonBadass].</li>
+    <li>specialFact->The map's simplicity suggests it was hastily made by a [PersonBadass] needing to stay one step ahead of the authorities.</li>
+    <li>specialFact->Key areas are circled, with annotations like 'avoid [Enemy]s' and 'strong like a [Animal].'</li>
+    <li>specialFact->On the map, a [mapSymbol] is circled and labeled with '[smell] and [stain]'.</li>
+    <li>specialFact->Written in the margins is a thousand-year-old poem titled 'Diabolus'.</li>
+    <li>specialFact->The map's legend identifies [Color] [mapSymbol]s as [Enemy] lairs and [Color] [mapSymbol]s as [Animal] hunting grounds.</li>
+    <li>specialFact->The scale of the map is clearly wrong.</li>
+    <li>specialFact->The map has a faded wax seal [noteLocation]. It resembles a [emotionalState] [Animal].</li>
+    <li>maybe_questInfo-></li>
+    <li>maybe_questInfo(p=3)->[questInfo]</li>
+    <li>questInfo->An area of the map is circled and labeled: '[mapText]!'</li>
+    <li>questInfo->An attached note is labeled '[mapText]?'</li>
+    <li>questInfo->'[mapText]' is scrawled in faded ink [noteLocation].</li>
+    <li>questInfo->A note [noteLocation] reads: '[mapText].'</li>
+    <li>questInfo->A hastily written note [noteLocation] reads: '[mapText]!'</li>
+    <li>questInfo->A cryptic riddle has been scrawled [noteLocation]. It ends with '...[mapText].'</li>
+    <li>questInfo->Next to a [Color] [mapSymbol] are the words '[mapText].'</li>
+    <li>questInfo->Burned into the map are the words '[mapText].'</li>
+    <li>questInfo->A large [mapSymbol] is drawn near a [mapFeature]. It is labeled '[mapText].'</li>
+    <li>questInfo->A [Color] compass rose is etched into the map. Strangely, north and south are mislabeled. In the center of the compass are the words: '[mapText].'</li>
+    <li>questInfo->The map's previous owner has clearly been looking for something. An area is circled next to the words: '[mapText].'</li>
+    <li>questInfo->Holding the map up to the light, you can see the words '[mapText].'</li>
+    <li>questInfo->[noteLocation], a [Color] [mapSymbol] is labeled '[mapText]!'</li>
+    <li>questInfo->[noteLocation], a [mapSymbol] is labeled '[mapText]?'</li>
+    <li>questInfo->[noteLocation], some notes have been smudged. The only thing legible is: 'confirmed - [mapText].'</li>
+    <li>questInfo->[noteLocation] is a crude drawing of a [emotionalState] [PersonBadass]. Underneath are the words: '[mapText].'</li>
+    <li>questInfo->A [Animal] is drawn in pencil [noteLocation]. Beneath it are the words: '[mapText].'</li>
+    <li>questInfo->The map's legend labels [Color] [mapSymbol]s as '[mapText].'</li>
+    <li>questInfo->A thick red X is scratched over a location. Next to it, '[mapText]' is written in tiny script.</li>
+    <li>questInfo->Upon closer inspection, it appears someone has tried to erase the words '[mapText]' from the map.</li>
+    <li>questInfo->Near a [Color] skull icon, someone has written in bold letters: '[mapText].'</li>
+    <li>questInfo->An unusual symbol is drawn [noteLocation]. Below it are the words '[mapText].'</li>
+    <li>questInfo->A [Color] dagger is etched into the map, pointing towards the words '[mapText].'</li>
+    <li>questInfo->[noteLocation] is a checklist. Each item on the list has been crossed out. Only one remains: '[mapText].'</li>
+    <li>maybe_condition-></li>
+    <li>maybe_condition->[conditionSmell]</li>
+    <li>maybe_condition->[conditionStains]</li>
+    <li>maybe_condition->[conditionTouch]</li>
+    <li>conditionSmell->It stinks of [smell].</li>
+    <li>conditionSmell->It smells faintly of [smell].</li>
+    <li>conditionSmell->The map smells faintly of [smell], a hint of its previous owner's trade.</li>
+    <li>smell->brine and seaweed</li>
+    <li>smell->roses</li>
+    <li>smell->sulphur</li>
+    <li>smell->chemfuel</li>
+    <li>smell->hay and manure</li>
+    <li>smell->burnt flesh</li>
+    <li>smell->insect jelly</li>
+    <li>smell->perfume</li>
+    <li>smell->oil and gunpowder</li>
+    <li>smell->rotten toxipotatoes</li>
+    <li>smell->almonds</li>
+    <li>smell->bleach</li>
+    <li>smell->[Animal] feces</li>
+    <li>conditionStains->Scratches and [stain] stains obscure some details, making it hard to read.</li>
+    <li>conditionStains->[stain] stains and burn marks hint at regular use in tough conditions.</li>
+    <li>conditionStains->The diagrams are obscured by what appears to be [stain].</li>
+    <li>conditionStains->The map is incomplete and stained with [stain].</li>
+    <li>conditionTouch->[stain] stains and frayed edges give it a well-worn, utilitarian feel.</li>
+    <li>stain->blood</li>
+    <li>stain->oil</li>
+    <li>stain->grease</li>
+    <li>stain->red ink</li>
+    <li>stain->salt water</li>
+    <li>stain->wax</li>
+    <li>stain->coffee</li>
+    <li>stain->rust</li>
+    <li>stain->chemfuel</li>
+    <li>conditionTouch->The pages are rough to the touch.</li>
+    <li>conditionTouch->The map is brittle to the touch.</li>
+    <li>conditionTouch->Burn marks on the edges suggest it's been salvaged from a failed mission.</li>
+    <li>conditionTouch->The map feels fragile but carries years of hard-earned knowledge.</li>
+    <li>conditionTouch->The edges are scratched and faded. One corner has been patched with adhesive.</li>
+    <li>maybe_authorInfo-></li>
+    <li>maybe_authorInfo->\n\n[authorInfo]</li>
+    <li>authorInfo->It is unclear who created the map.</li>
+    <li>authorInfo->The map was created by [ANYPAWN_nameFull], a notable [ANYPAWN_kind] from [ANYPAWN_factionName].</li>
+    <li>authorInfo->[noteLocation], the map is signed by [ANYPAWN_nameIndef] the [PersonJob].</li>
+    <li>authorInfo->Included with the map is a small biography of its author, [ANYPAWN_nameIndef] the [ANYPAWN_kind].</li>
+    <li>authorInfo->The map's previous owner appears to have been someone named [ANYPAWN_nameIndef].</li>
+    <li>authorInfo->The map was once owned by an anonymous [ANYPAWN_kind]. The markings suggest [ANYPAWN_pronoun] was a member of [ANYPAWN_factionName].</li>
+    <li>has->has</li>
+    <li>has->contains</li>
+    <li>has->features</li>
+    <li>emotionalState->happy</li>
+    <li>emotionalState->depressed</li>
+    <li>emotionalState->angry</li>
+    <li>emotionalState->sensual</li>
+    <li>mapType(p=4)->map</li>
+    <li>mapType->chart</li>
+    <li>mapType->atlas</li>
+    <li>mapType->survey</li>
+    <li>mapSymbol->key</li>
+    <li>mapSymbol->'X'</li>
+    <li>mapSymbol->star</li>
+    <li>mapSymbol->moon</li>
+    <li>mapSymbol->tower</li>
+    <li>mapSymbol->skull</li>
+    <li>mapSymbol->[Animal]</li>
+    <li>mapText(p=10)->[questMapText]</li>
+    <li>mapText(p=2)->[subject]</li>
+    <li>mapText->extreme danger</li>
+    <li>mapText->beware of [Enemy]</li>
+    <li>mapText->hunger lies ahead</li>
+    <li>mapText->leave no trace</li>
+    <li>mapText->mad [Animal]</li>
+    <li>mapText->raider attack</li>
+    <li>mapText->our last caravan</li>
+    <li>mapText->no survivors</li>
+    <li>mapText->it's here</li>
+    <li>mapText->here lies [ANYPAWN_nameIndef]</li>
+    <li>mapText->[ANYPAWN_nameIndef]'s grave</li>
+    <li>mapText->property of [ANYPAWN_factionName]</li>
+    <li>mapFeature(p=8)->[questMapFeature]</li>
+    <li>mapFeature->river</li>
+    <li>mapFeature->confluence of two rivers</li>
+    <li>mapFeature->crossroads</li>
+    <li>mapFeature->mountain range</li>
+    <li>mapFeature->coastline</li>
+    <li>mapFeature->lake</li>
+    <li>mapFeature->coastal inlet</li>
+    <li>mapFeature->coastal island</li>
+    <li>noteLocation->in the corner</li>
+    <li>noteLocation->in the corner of the map</li>
+    <li>noteLocation->in one corner</li>
+    <li>noteLocation->on the left-hand side</li>
+    <li>noteLocation->on the back</li>
+    <li>noteLocation->at the bottom</li>
+    <li>noteLocation->near a [mapFeature]</li>
+    <li>noteLocation->next to a [mapFeature]</li>
+    <li>noteLocation->below a large [mapFeature]</li>
+    <li>noteLocation->along the edge of the map</li>
+  -->
+  <Description_Map.rulePack.rulesStrings>
+    <li>desc->um mapa [physicalDescription] que mostra um local de interesse. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->[physicalDescription], este [mapType] [has] [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->este [mapType] está [physicalDescription] e [has] [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->um [mapType] com [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->uma coleção de mapas com [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->um mapa de [place] com [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>physicalDescription->impresso num polímero fino e resistente ao calor</li>
+    <li>physicalDescription->impresso a laser em hipertecido</li>
+    <li>physicalDescription->desenhado com o que parece ser sangue seco</li>
+    <li>physicalDescription->atado com cordel</li>
+    <li>physicalDescription->encadernado em couro gasto</li>
+    <li>physicalDescription->desenhado em couro fino</li>
+    <li>physicalDescription->encadernado em vinil</li>
+    <li>physicalDescription->gravado em finas folhas de pergaminho</li>
+    <li>physicalDescription->gravado a carvão</li>
+    <li>physicalDescription->gravado numa tela encharcada</li>
+    <li>physicalDescription->gravado em pele de animal fétida</li>
+    <li>physicalDescription->rabiscado a tinta preta</li>
+    <li>physicalDescription->cosido em pele de alce</li>
+    <li>physicalDescription->escrito em pele seca de [Animal]</li>
+    <li>physicalDescription->feito de pergaminho enegrecido</li>
+    <li>physicalDescription->delicadamente dobrado em dezasseis secções</li>
+    <li>physicalDescription->impresso numa prensa industrial</li>
+    <li>physicalDescription->impresso em hipertecido</li>
+    <li>physicalDescription->delicadamente confecionado em hipertecido fino</li>
+    <li>physicalDescription->adornado com decalques holográficos</li>
+    <li>physicalDescription->escrito em letra fina e angulosa</li>
+    <li>physicalDescription->a tinta sobre papel amarelecido</li>
+    <li>physicalDescription->a tinta em cores vivas</li>
+    <li>physicalDescription->claramente danificado por um incêndio</li>
+    <li>physicalDescription->desenhado numa tela resistente</li>
+    <li>physicalDescription->dobrado muitas vezes e sujo de terra e carvão</li>
+    <li>physicalDescription->desenhado em pergaminho que se desfaz, com escrita ténue e fina</li>
+    <li>physicalDescription->gravado em pergaminho amarelecido, de bordas rasgadas e esfareladas</li>
+    <li>mapContents->centenas de pequenos desenhos de [mapSubject] [mapSubjectAdj]</li>
+    <li>mapContents->esboços rápidos de [mapSubject] [mapSubjectAdj]</li>
+    <li>mapContents->listas de [mapSubject] notáveis. A lista mais longa intitula-se '[AdjectiveBadass]!' e está rodeada a tinta vermelha</li>
+    <li>mapContents->margens queimadas e linhas esborratadas. O mapa central mostra [mapSubject] [mapSubjectAdj], mas as linhas estão encobertas por manchas de [stain]</li>
+    <li>mapContents->novos diagramas em cada página. Alguns detalham minuciosamente [mapSubject], e o maior é, sem dúvida, um dos [mapSubjectAdj]</li>
+    <li>mapContents->uma mistura de [mapSubject] fantásticos e [mapSubject] históricos</li>
+    <li>mapContents->dezenas de diagramas antigos de [mapSubject] [mapSubjectAdj]</li>
+    <li>mapContents->desenhos temáticos. Uma grande [depiction] central assemelha-se a um [Animal], desenhada num estilo [artstyle_adj]</li>
+    <li>mapContents->milhares de símbolos estranhos, muitos dos quais lembram [mapSubject]. O símbolo mais comum parece um [Animal] [emotionalState] desenhado num estilo [artstyle_adj]</li>
+    <li>mapContents->sinais claros de idade. Um diagrama, desenhado por outra mão, mostra os antigos [mapSubject] de [place]</li>
+    <li>mapContents->diagramas detalhados de [mapSubject] de [place] e da sua relação com [mapSubject] [mapSubjectAdj]</li>
+    <li>mapContents->quatro grandes esboços de [mapSubject] de [place]</li>
+    <li>mapContents->muitos diagramas pequenos. Um deles está rotulado '[place] [RomanNumeral]' e contém um levantamento detalhado de [mapSubject] de [place]</li>
+    <li>mapContents->muitos pequenos desenhos de [mapSubject] [mapSubjectAdj] e de [mapSubject] [mapSubjectAdj]</li>
+    <li>mapContents->desenhos detalhados do planeta. Vários locais próximos estão rotulados '[Enemy]s' a tinta vermelha</li>
+    <li>mapContents->as coordenadas de vários [mapSubject] [mapSubjectAdj]</li>
+    <li>mapContents->coordenadas realçadas com marcador amarelo</li>
+    <li>mapContents->desenhos de territórios próximos. Símbolos toscos assinalam refúgios seguros e esconderijos secretos</li>
+    <li>mapContents->a localização de [Quantity_adjphrase] santuários de [Animal]. Vários 'X' vermelhos assinalam também sepulturas</li>
+    <li>mapContents->nada de importante. Ou assim parece</li>
+    <li>mapContents->linhas de grelha desbotadas. Cada quadrante contém [mapSubject] [mapSubjectAdj]</li>
+    <li>mapContents->[Quantity_adjphrase] [mapSubject] representados num estilo [artstyle_adj]. Por baixo de cada um há um [Animal] [AdjectiveAny]</li>
+    <li>maybe_specialFact-></li>
+    <li>maybe_specialFact->[specialFact]</li>
+    <li>specialFact->As marcações são invisíveis à luz normal. Contudo, na escuridão total, surgem símbolos fantasmagóricos e linhas espectrais que brilham num prateado pálido.</li>
+    <li>specialFact->As marcações aparecem e desaparecem consoante o ângulo da luz.</li>
+    <li>specialFact->As páginas brilham tenuemente com sigilos carmesim que se movem e se contorcem quando aproximadas de uma chama.</li>
+    <li>specialFact->As anotações estão num dialeto regional, o que sugere que o autor é de [place].</li>
+    <li>specialFact->Cada dobra contém uma letra e vários números, mas o seu significado não é claro.</li>
+    <li>specialFact->Há algo de inquietante nas marcações.</li>
+    <li>specialFact->Contém anotações numa língua há muito esquecida.</li>
+    <li>specialFact->As marcações toscas e irregulares mudam lentamente com o tempo, revelando um significado oculto.</li>
+    <li>specialFact->Afirma revelar a própria seiva da terra, guiando o leitor até um lugar de grande poder natural.</li>
+    <li>specialFact->Escondido entre as muitas dobras está um papelinho com o desenho de um [Animal] [emotionalState].</li>
+    <li>specialFact->Tocar no mapa durante demasiado tempo deixa leves manchas vermelhas na ponta dos dedos do leitor.</li>
+    <li>specialFact->Entre as dobras do mapa encontram-se grãos de areia.</li>
+    <li>specialFact->As anotações no mapa sugerem que ele guarda a chave de algum segredo maior.</li>
+    <li>specialFact->Uma representação tosca de vários [mapSubject] de [place] está esboçada nas margens.</li>
+    <li>specialFact->A tinta está desbotada e ténues manchas encobrem alguns pormenores, o que dificulta a decifração.</li>
+    <li>specialFact->Pontos discretos sugerem que foi reaproveitado a partir de vários mapas maiores.</li>
+    <li>specialFact->Este mapa pode ser tanto um aviso como um guia.</li>
+    <li>specialFact->As marcações são descuidadas em certos pontos, o que sugere que o mapa foi feito à pressa.</li>
+    <li>specialFact->O pormenor sugere que foi encomendado por alguém abastado e o secretismo indica que contém algo que vale a pena esconder.</li>
+    <li>specialFact->[Quantity_adjphrase] [Character]s estão desenhados [noteLocation]. Têm um ar [emotionalState].</li>
+    <li>specialFact->Uma caligrafia elegante rotula alguns [mapSubject], mas um desenho isolado tem apenas uma marca enigmática: um símbolo em forma de [mapSymbol].</li>
+    <li>specialFact->O mapa contém uma breve biografia do seu autor, um [PersonJob] notável de [place].</li>
+    <li>specialFact->O mapa foi redigido por um [PersonBadass] famigerado.</li>
+    <li>specialFact->O mapa foi redigido por um [PersonBadass] [emotionalState].</li>
+    <li>specialFact->A simplicidade do mapa sugere que foi feito à pressa por um [PersonBadass] que precisava de se manter um passo à frente das autoridades.</li>
+    <li>specialFact->As áreas-chave estão rodeadas, com anotações como 'evitar [Enemy]s' e 'forte como um [Animal]'.</li>
+    <li>specialFact->No mapa, um símbolo em forma de [mapSymbol] está rodeado e rotulado com '[smell] e [stain]'.</li>
+    <li>specialFact->Escrito nas margens está um poema com mil anos intitulado 'Diabolus'.</li>
+    <li>specialFact->A legenda do mapa identifica os símbolos [Color] em forma de [mapSymbol] como covis de [Enemy] e os símbolos [Color] em forma de [mapSymbol] como zonas de caça de [Animal].</li>
+    <li>specialFact->A escala do mapa está claramente errada.</li>
+    <li>specialFact->O mapa tem um selo de cera desbotado [noteLocation]. Assemelha-se a um [Animal] [emotionalState].</li>
+    <li>maybe_questInfo-></li>
+    <li>maybe_questInfo(p=3)->[questInfo]</li>
+    <li>questInfo->Uma zona do mapa está rodeada e rotulada: '[mapText]!'</li>
+    <li>questInfo->Uma nota anexada está rotulada '[mapText]?'</li>
+    <li>questInfo->'[mapText]' está rabiscado a tinta desbotada [noteLocation].</li>
+    <li>questInfo->Uma nota [noteLocation] diz: '[mapText].'</li>
+    <li>questInfo->Uma nota escrita à pressa [noteLocation] diz: '[mapText]!'</li>
+    <li>questInfo->Um enigma críptico foi rabiscado [noteLocation]. Termina com '...[mapText].'</li>
+    <li>questInfo->Junto a um símbolo [Color] em forma de [mapSymbol] estão as palavras '[mapText].'</li>
+    <li>questInfo->Gravadas a fogo no mapa estão as palavras '[mapText].'</li>
+    <li>questInfo->Um grande símbolo em forma de [mapSymbol] está desenhado perto de «[mapFeature]». Está rotulado '[mapText].'</li>
+    <li>questInfo->Uma rosa-dos-ventos [Color] está gravada no mapa. Estranhamente, o norte e o sul estão trocados. No centro da rosa-dos-ventos estão as palavras: '[mapText].'</li>
+    <li>questInfo->O anterior dono do mapa estava claramente à procura de algo. Uma zona está rodeada junto às palavras: '[mapText].'</li>
+    <li>questInfo->Se segurares o mapa contra a luz, consegues ler as palavras '[mapText].'</li>
+    <li>questInfo->[noteLocation], um símbolo [Color] em forma de [mapSymbol] está rotulado '[mapText]!'</li>
+    <li>questInfo->[noteLocation], um símbolo em forma de [mapSymbol] está rotulado '[mapText]?'</li>
+    <li>questInfo->[noteLocation], algumas notas estão esborratadas. A única coisa legível é: 'confirmado - [mapText].'</li>
+    <li>questInfo->[noteLocation] está um desenho tosco de um [PersonBadass] [emotionalState]. Por baixo estão as palavras: '[mapText].'</li>
+    <li>questInfo->Um [Animal] está desenhado a lápis [noteLocation]. Por baixo estão as palavras: '[mapText].'</li>
+    <li>questInfo->A legenda do mapa rotula os símbolos [Color] em forma de [mapSymbol] como '[mapText].'</li>
+    <li>questInfo->Um grande X vermelho está riscado sobre um local. Ao lado, '[mapText]' está escrito em letra miudinha.</li>
+    <li>questInfo->Ao olhar de perto, parece que alguém tentou apagar do mapa as palavras '[mapText]'.</li>
+    <li>questInfo->Junto ao ícone de caveira [Color], alguém escreveu em letras grandes: '[mapText].'</li>
+    <li>questInfo->Está desenhado [noteLocation] um símbolo invulgar. Por baixo estão as palavras '[mapText].'</li>
+    <li>questInfo->Um punhal [Color] está gravado no mapa, a apontar para as palavras '[mapText].'</li>
+    <li>questInfo->[noteLocation] há uma lista de verificação. Todos os itens da lista estão riscados. Resta apenas um: '[mapText].'</li>
+    <li>maybe_condition-></li>
+    <li>maybe_condition->[conditionSmell]</li>
+    <li>maybe_condition->[conditionStains]</li>
+    <li>maybe_condition->[conditionTouch]</li>
+    <li>conditionSmell->Cheira mal a [smell].</li>
+    <li>conditionSmell->Cheira vagamente a [smell].</li>
+    <li>conditionSmell->O mapa cheira vagamente a [smell], pista do ofício do seu anterior dono.</li>
+    <li>smell->salmoura e algas</li>
+    <li>smell->rosas</li>
+    <li>smell->enxofre</li>
+    <li>smell->combustível químico</li>
+    <li>smell->feno e estrume</li>
+    <li>smell->carne queimada</li>
+    <li>smell->geleia de insetos</li>
+    <li>smell->perfume</li>
+    <li>smell->óleo e pólvora</li>
+    <li>smell->batatas tóxicas podres</li>
+    <li>smell->amêndoas</li>
+    <li>smell->lixívia</li>
+    <li>smell->fezes de [Animal]</li>
+    <li>conditionStains->Riscos e manchas de [stain] encobrem alguns pormenores, dificultando a leitura.</li>
+    <li>conditionStains->Manchas de [stain] e marcas de queimaduras indicam uso frequente em condições duras.</li>
+    <li>conditionStains->Os diagramas estão encobertos por algo que parece ser [stain].</li>
+    <li>conditionStains->O mapa está incompleto e manchado de [stain].</li>
+    <li>conditionTouch->Manchas de [stain] e margens desfiadas dão-lhe um aspeto gasto e utilitário.</li>
+    <li>stain->sangue</li>
+    <li>stain->óleo</li>
+    <li>stain->gordura</li>
+    <li>stain->tinta vermelha</li>
+    <li>stain->água salgada</li>
+    <li>stain->cera</li>
+    <li>stain->café</li>
+    <li>stain->ferrugem</li>
+    <li>stain->combustível químico</li>
+    <li>conditionTouch->As páginas são ásperas ao toque.</li>
+    <li>conditionTouch->O mapa é quebradiço ao toque.</li>
+    <li>conditionTouch->As marcas de queimadura nas margens sugerem que foi recuperado de uma missão falhada.</li>
+    <li>conditionTouch->O mapa parece frágil, mas encerra anos de conhecimento arduamente conquistado.</li>
+    <li>conditionTouch->As margens estão riscadas e desbotadas. Um canto foi remendado com adesivo.</li>
+    <li>maybe_authorInfo-></li>
+    <li>maybe_authorInfo->\n\n[authorInfo]</li>
+    <li>authorInfo->Não é claro quem criou o mapa.</li>
+    <li>authorInfo->O mapa foi criado por [ANYPAWN_nameFull], [ANYPAWN_kind] notável de [ANYPAWN_factionName].</li>
+    <li>authorInfo->[noteLocation], o mapa está assinado por [ANYPAWN_nameIndef], o [PersonJob].</li>
+    <li>authorInfo->Junto com o mapa vem uma pequena biografia do seu autor, [ANYPAWN_nameIndef], [ANYPAWN_kind].</li>
+    <li>authorInfo->O anterior dono do mapa parece ter sido alguém chamado [ANYPAWN_nameIndef].</li>
+    <li>authorInfo->O mapa pertenceu outrora a um [ANYPAWN_kind] anónimo. As marcações sugerem que fazia parte de [ANYPAWN_factionName].</li>
+    <li>has->tem</li>
+    <li>has->contém</li>
+    <li>has->apresenta</li>
+    <li>emotionalState->feliz</li>
+    <li>emotionalState->deprimido</li>
+    <li>emotionalState->zangado</li>
+    <li>emotionalState->sensual</li>
+    <li>mapType(p=4)->mapa</li>
+    <li>mapType->roteiro</li>
+    <li>mapType->atlas</li>
+    <li>mapType->levantamento</li>
+    <li>mapSymbol->chave</li>
+    <li>mapSymbol->'X'</li>
+    <li>mapSymbol->estrela</li>
+    <li>mapSymbol->lua</li>
+    <li>mapSymbol->torre</li>
+    <li>mapSymbol->caveira</li>
+    <li>mapSymbol->[Animal]</li>
+    <li>mapText(p=10)->[questMapText]</li>
+    <li>mapText(p=2)->[subject]</li>
+    <li>mapText->perigo extremo</li>
+    <li>mapText->cuidado com [Enemy]</li>
+    <li>mapText->a fome espera-nos mais à frente</li>
+    <li>mapText->não deixes rasto</li>
+    <li>mapText->[Animal] enlouquecido</li>
+    <li>mapText->ataque de atacantes</li>
+    <li>mapText->a nossa última caravana</li>
+    <li>mapText->sem sobreviventes</li>
+    <li>mapText->é aqui</li>
+    <li>mapText->aqui jaz [ANYPAWN_nameIndef]</li>
+    <li>mapText->sepultura de [ANYPAWN_nameIndef]</li>
+    <li>mapText->propriedade de [ANYPAWN_factionName]</li>
+    <li>mapFeature(p=8)->[questMapFeature]</li>
+    <li>mapFeature->rio</li>
+    <li>mapFeature->confluência de dois rios</li>
+    <li>mapFeature->cruzamento</li>
+    <li>mapFeature->cordilheira</li>
+    <li>mapFeature->litoral</li>
+    <li>mapFeature->lago</li>
+    <li>mapFeature->enseada costeira</li>
+    <li>mapFeature->ilha costeira</li>
+    <li>noteLocation->no canto</li>
+    <li>noteLocation->no canto do mapa</li>
+    <li>noteLocation->num dos cantos</li>
+    <li>noteLocation->do lado esquerdo</li>
+    <li>noteLocation->no verso</li>
+    <li>noteLocation->em baixo</li>
+    <li>noteLocation->perto de «[mapFeature]»</li>
+    <li>noteLocation->junto a «[mapFeature]»</li>
+    <li>noteLocation->por baixo de «[mapFeature]»</li>
+    <li>noteLocation->ao longo da margem do mapa</li>
+  </Description_Map.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>place->[PlaceOutlander]</li>
+    <li>place->[direction] [PlaceOutlander]</li>
+    <li>PlaceOutlander->[CapSylE][place_end]</li>
+    <li>PlaceOutlander->[CapSylE][place_end]</li>
+    <li>PlaceOutlander->[CapSylE][place_end]</li>
+    <li>PlaceOutlander->[CapSylE][SylE][place_end]</li>
+    <li>PlaceOutlander->[CapSylE][SylE][place_end]</li>
+    <li>PlaceOutlander->[CapSylE][SylE][SylE][place_end]</li>
+    <li>mapSubjectAdj(p=6)->[direction]</li>
+    <li>mapSubjectAdj->ancient</li>
+    <li>mapSubjectAdj->historical</li>
+    <li>mapSubjectAdj->old</li>
+    <li>mapSubjectAdj->forgotten</li>
+    <li>mapSubjectAdj->secret</li>
+    <li>mapSubjectAdj->private</li>
+    <li>mapSubjectAdj->hidden</li>
+    <li>mapSubjectAdj->occult</li>
+    <li>mapSubjectAdj->unknown</li>
+    <li>mapSubjectAdj->peculiar</li>
+    <li>mapSubjectAdj->odd</li>
+    <li>mapSubjectAdj->strange</li>
+    <li>mapSubjectAdj->wonderful</li>
+    <li>mapSubjectAdj->worthwhile</li>
+    <li>mapSubjectAdj->precious</li>
+    <li>mapSubjectAdj->enchanting</li>
+    <li>mapSubjectAdj->glamorous</li>
+    <li>mapSubjectAdj->outrageous</li>
+    <li>mapSubjectAdj->wild</li>
+    <li>mapSubjectAdj->great</li>
+    <li>mapSubjectAdj->grand</li>
+    <li>mapSubjectAdj->lesser</li>
+    <li>mapSubjectAdj->small</li>
+    <li>mapSubjectAdj->bad</li>
+    <li>mapSubjectAdj->horrible</li>
+    <li>mapSubjectAdj->mystical</li>
+    <li>mapSubjectAdj->holy</li>
+    <li>mapSubjectAdj->local</li>
+    <li>mapSubjectAdj->regional</li>
+    <li>mapSubjectAdj->native</li>
+    <li>mapSubjectAdj->nearby</li>
+    <li>mapSubjectAdj->planetary</li>
+    <li>mapSubjectAdj->dangerous</li>
+    <li>mapSubjectAdj->deadly</li>
+    <li>mapSubjectAdj->toxic</li>
+    <li>mapSubjectAdj->select</li>
+    <li>mapSubjectAdj->unique</li>
+    <li>mapSubjectAdj->important</li>
+    <li>direction->northern</li>
+    <li>direction->eastern</li>
+    <li>direction->southern</li>
+    <li>direction->western</li>
+    <li>direction(p=0.2)->subterranean</li>
+    <li>direction(p=0.2)->underground</li>
+    <li>mapSubject->roads</li>
+    <li>mapSubject->trails</li>
+    <li>mapSubject->paths</li>
+    <li>mapSubject->caves</li>
+    <li>mapSubject->hills</li>
+    <li>mapSubject->mountains</li>
+    <li>mapSubject->rivers</li>
+    <li>mapSubject->forests</li>
+    <li>mapSubject->swamps</li>
+    <li>mapSubject->badlands</li>
+    <li>mapSubject->landmarks</li>
+    <li>mapSubject->watersheds</li>
+    <li>mapSubject->lakes</li>
+    <li>mapSubject->valleys</li>
+    <li>mapSubject->places</li>
+    <li>mapSubject->sites</li>
+    <li>mapSubject->legends</li>
+    <li>mapSubject->secrets</li>
+    <li>mapSubject->borders</li>
+    <li>mapSubject->frontiers</li>
+    <li>mapSubject->locations</li>
+    <li>mapSubject->resources</li>
+    <li>mapSubject->artifacts</li>
+    <li>mapSubject->relics</li>
+    <li>mapSubject->towns</li>
+    <li>mapSubject->settlements</li>
+    <li>mapSubject->strongholds</li>
+    <li>mapSubject->ruins</li>
+    <li>mapSubject->clans</li>
+    <li>mapSubject->peoples</li>
+    <li>mapSubject->histories</li>
+    <li>mapSubject->territories</li>
+    <li>mapSubject->landmasses</li>
+    <li>CapSylE->Al</li>
+    <li>CapSylE->All</li>
+    <li>CapSylE->An</li>
+    <li>CapSylE->And</li>
+    <li>CapSylE->Ar</li>
+    <li>CapSylE->Are</li>
+    <li>CapSylE->As</li>
+    <li>CapSylE->At</li>
+    <li>CapSylE->Ban</li>
+    <li>CapSylE->Bin</li>
+    <li>CapSylE->Bon</li>
+    <li>CapSylE->But</li>
+    <li>CapSylE->Ca</li>
+    <li>CapSylE->Co</li>
+    <li>CapSylE->Da</li>
+    <li>CapSylE->Del</li>
+    <li>CapSylE->Din</li>
+    <li>CapSylE->Do</li>
+    <li>CapSylE->Ea</li>
+    <li>CapSylE->Ed</li>
+    <li>CapSylE->En</li>
+    <li>CapSylE->Ent</li>
+    <li>CapSylE->Er</li>
+    <li>CapSylE->Era</li>
+    <li>CapSylE->Ere</li>
+    <li>CapSylE->Es</li>
+    <li>CapSylE->Eve</li>
+    <li>CapSylE->Far</li>
+    <li>CapSylE->Fen</li>
+    <li>CapSylE->Fin</li>
+    <li>CapSylE->For</li>
+    <li>CapSylE->Fun</li>
+    <li>CapSylE->Ga</li>
+    <li>CapSylE->Go</li>
+    <li>CapSylE->Ha</li>
+    <li>CapSylE->Had</li>
+    <li>CapSylE->Hat</li>
+    <li>CapSylE->He</li>
+    <li>CapSylE->Hen</li>
+    <li>CapSylE->Her</li>
+    <li>CapSylE->Hi</li>
+    <li>CapSylE->Hi</li>
+    <li>CapSylE->Hin</li>
+    <li>CapSylE->His</li>
+    <li>CapSylE->In</li>
+    <li>CapSylE->Is</li>
+    <li>CapSylE->It</li>
+    <li>CapSylE->Ith</li>
+    <li>CapSylE->Ja</li>
+    <li>CapSylE->Ka</li>
+    <li>CapSylE->Ko</li>
+    <li>CapSylE->La</li>
+    <li>CapSylE->Lan</li>
+    <li>CapSylE->Le</li>
+    <li>CapSylE->Len</li>
+    <li>CapSylE->Lon</li>
+    <li>CapSylE->Ma</li>
+    <li>CapSylE->Me</li>
+    <li>CapSylE->Men</li>
+    <li>CapSylE->Min</li>
+    <li>CapSylE->Mon</li>
+    <li>CapSylE->Na</li>
+    <li>CapSylE->Ne</li>
+    <li>CapSylE->Not</li>
+    <li>CapSylE->Ome</li>
+    <li>CapSylE->On</li>
+    <li>CapSylE->Or</li>
+    <li>CapSylE->Ou</li>
+    <li>CapSylE->Oul</li>
+    <li>CapSylE->Our</li>
+    <li>CapSylE->Pa</li>
+    <li>CapSylE->Qua</li>
+    <li>CapSylE->Ra</li>
+    <li>CapSylE->Re</li>
+    <li>CapSylE->Ro</li>
+    <li>CapSylE->Se</li>
+    <li>CapSylE->Sho</li>
+    <li>CapSylE->St</li>
+    <li>CapSylE->Te</li>
+    <li>CapSylE->Ted</li>
+    <li>CapSylE->Ter</li>
+    <li>CapSylE->Tha</li>
+    <li>CapSylE->The</li>
+    <li>CapSylE->Thi</li>
+    <li>CapSylE->Thi</li>
+    <li>CapSylE->Ti</li>
+    <li>CapSylE->To</li>
+    <li>CapSylE->Un</li>
+    <li>CapSylE->Ve</li>
+    <li>CapSylE->Ver</li>
+    <li>CapSylE->Wa</li>
+    <li>CapSylE->Was</li>
+    <li>CapSylE->Wit</li>
+    <li>CapSylE->You</li>
+  -->
+  <MapUtility.rulePack.rulesStrings>
+    <li>place->[PlaceOutlander]</li>
+    <li>place->[PlaceOutlander] [direction]</li>
+    <li>PlaceOutlander->[CapSylE][place_end]</li>
+    <li>PlaceOutlander->[CapSylE][place_end]</li>
+    <li>PlaceOutlander->[CapSylE][place_end]</li>
+    <li>PlaceOutlander->[CapSylE][SylE][place_end]</li>
+    <li>PlaceOutlander->[CapSylE][SylE][place_end]</li>
+    <li>PlaceOutlander->[CapSylE][SylE][SylE][place_end]</li>
+    <li>mapSubjectAdj(p=6)->[direction]</li>
+    <li>mapSubjectAdj->antigos</li>
+    <li>mapSubjectAdj->históricos</li>
+    <li>mapSubjectAdj->velhos</li>
+    <li>mapSubjectAdj->esquecidos</li>
+    <li>mapSubjectAdj->secretos</li>
+    <li>mapSubjectAdj->privados</li>
+    <li>mapSubjectAdj->escondidos</li>
+    <li>mapSubjectAdj->esotéricos</li>
+    <li>mapSubjectAdj->desconhecidos</li>
+    <li>mapSubjectAdj->peculiares</li>
+    <li>mapSubjectAdj->singulares</li>
+    <li>mapSubjectAdj->estranhos</li>
+    <li>mapSubjectAdj->maravilhosos</li>
+    <li>mapSubjectAdj->dignos de nota</li>
+    <li>mapSubjectAdj->preciosos</li>
+    <li>mapSubjectAdj->encantadores</li>
+    <li>mapSubjectAdj->deslumbrantes</li>
+    <li>mapSubjectAdj->escandalosos</li>
+    <li>mapSubjectAdj->selvagens</li>
+    <li>mapSubjectAdj->grandes</li>
+    <li>mapSubjectAdj->grandiosos</li>
+    <li>mapSubjectAdj->menores</li>
+    <li>mapSubjectAdj->pequenos</li>
+    <li>mapSubjectAdj->maus</li>
+    <li>mapSubjectAdj->horríveis</li>
+    <li>mapSubjectAdj->místicos</li>
+    <li>mapSubjectAdj->sagrados</li>
+    <li>mapSubjectAdj->locais</li>
+    <li>mapSubjectAdj->regionais</li>
+    <li>mapSubjectAdj->nativos</li>
+    <li>mapSubjectAdj->próximos</li>
+    <li>mapSubjectAdj->planetários</li>
+    <li>mapSubjectAdj->perigosos</li>
+    <li>mapSubjectAdj->mortais</li>
+    <li>mapSubjectAdj->tóxicos</li>
+    <li>mapSubjectAdj->selecionados</li>
+    <li>mapSubjectAdj->únicos</li>
+    <li>mapSubjectAdj->importantes</li>
+    <li>direction->do norte</li>
+    <li>direction->do leste</li>
+    <li>direction->do sul</li>
+    <li>direction->do oeste</li>
+    <li>direction(p=0.2)->subterrâneos</li>
+    <li>direction(p=0.2)->enterrados</li>
+    <li>mapSubject->caminhos</li>
+    <li>mapSubject->trilhos</li>
+    <li>mapSubject->percursos</li>
+    <li>mapSubject->antros</li>
+    <li>mapSubject->outeiros</li>
+    <li>mapSubject->montes</li>
+    <li>mapSubject->rios</li>
+    <li>mapSubject->bosques</li>
+    <li>mapSubject->pântanos</li>
+    <li>mapSubject->ermos</li>
+    <li>mapSubject->marcos</li>
+    <li>mapSubject->divisores de águas</li>
+    <li>mapSubject->lagos</li>
+    <li>mapSubject->vales</li>
+    <li>mapSubject->lugares</li>
+    <li>mapSubject->sítios</li>
+    <li>mapSubject->mitos</li>
+    <li>mapSubject->segredos</li>
+    <li>mapSubject->limites</li>
+    <li>mapSubject->confins</li>
+    <li>mapSubject->locais</li>
+    <li>mapSubject->recursos</li>
+    <li>mapSubject->artefactos</li>
+    <li>mapSubject->vestígios</li>
+    <li>mapSubject->burgos</li>
+    <li>mapSubject->povoados</li>
+    <li>mapSubject->redutos</li>
+    <li>mapSubject->escombros</li>
+    <li>mapSubject->clãs</li>
+    <li>mapSubject->povos</li>
+    <li>mapSubject->relatos</li>
+    <li>mapSubject->territórios</li>
+    <li>mapSubject->continentes</li>
+    <li>CapSylE->Al</li>
+    <li>CapSylE->All</li>
+    <li>CapSylE->An</li>
+    <li>CapSylE->And</li>
+    <li>CapSylE->Ar</li>
+    <li>CapSylE->Are</li>
+    <li>CapSylE->As</li>
+    <li>CapSylE->At</li>
+    <li>CapSylE->Ban</li>
+    <li>CapSylE->Bin</li>
+    <li>CapSylE->Bon</li>
+    <li>CapSylE->But</li>
+    <li>CapSylE->Ca</li>
+    <li>CapSylE->Co</li>
+    <li>CapSylE->Da</li>
+    <li>CapSylE->Del</li>
+    <li>CapSylE->Din</li>
+    <li>CapSylE->Do</li>
+    <li>CapSylE->Ea</li>
+    <li>CapSylE->Ed</li>
+    <li>CapSylE->En</li>
+    <li>CapSylE->Ent</li>
+    <li>CapSylE->Er</li>
+    <li>CapSylE->Era</li>
+    <li>CapSylE->Ere</li>
+    <li>CapSylE->Es</li>
+    <li>CapSylE->Eve</li>
+    <li>CapSylE->Far</li>
+    <li>CapSylE->Fen</li>
+    <li>CapSylE->Fin</li>
+    <li>CapSylE->For</li>
+    <li>CapSylE->Fun</li>
+    <li>CapSylE->Ga</li>
+    <li>CapSylE->Go</li>
+    <li>CapSylE->Ha</li>
+    <li>CapSylE->Had</li>
+    <li>CapSylE->Hat</li>
+    <li>CapSylE->He</li>
+    <li>CapSylE->Hen</li>
+    <li>CapSylE->Her</li>
+    <li>CapSylE->Hi</li>
+    <li>CapSylE->Hi</li>
+    <li>CapSylE->Hin</li>
+    <li>CapSylE->His</li>
+    <li>CapSylE->In</li>
+    <li>CapSylE->Is</li>
+    <li>CapSylE->It</li>
+    <li>CapSylE->Ith</li>
+    <li>CapSylE->Ja</li>
+    <li>CapSylE->Ka</li>
+    <li>CapSylE->Ko</li>
+    <li>CapSylE->La</li>
+    <li>CapSylE->Lan</li>
+    <li>CapSylE->Le</li>
+    <li>CapSylE->Len</li>
+    <li>CapSylE->Lon</li>
+    <li>CapSylE->Ma</li>
+    <li>CapSylE->Me</li>
+    <li>CapSylE->Men</li>
+    <li>CapSylE->Min</li>
+    <li>CapSylE->Mon</li>
+    <li>CapSylE->Na</li>
+    <li>CapSylE->Ne</li>
+    <li>CapSylE->Not</li>
+    <li>CapSylE->Ome</li>
+    <li>CapSylE->On</li>
+    <li>CapSylE->Or</li>
+    <li>CapSylE->Ou</li>
+    <li>CapSylE->Oul</li>
+    <li>CapSylE->Our</li>
+    <li>CapSylE->Pa</li>
+    <li>CapSylE->Qua</li>
+    <li>CapSylE->Ra</li>
+    <li>CapSylE->Re</li>
+    <li>CapSylE->Ro</li>
+    <li>CapSylE->Se</li>
+    <li>CapSylE->Sho</li>
+    <li>CapSylE->St</li>
+    <li>CapSylE->Te</li>
+    <li>CapSylE->Ted</li>
+    <li>CapSylE->Ter</li>
+    <li>CapSylE->Tha</li>
+    <li>CapSylE->The</li>
+    <li>CapSylE->Thi</li>
+    <li>CapSylE->Thi</li>
+    <li>CapSylE->Ti</li>
+    <li>CapSylE->To</li>
+    <li>CapSylE->Un</li>
+    <li>CapSylE->Ve</li>
+    <li>CapSylE->Ver</li>
+    <li>CapSylE->Wa</li>
+    <li>CapSylE->Was</li>
+    <li>CapSylE->Wit</li>
+    <li>CapSylE->You</li>
+  </MapUtility.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>title(p=2)->[mapType] [mapNoun] of [subject]</li>
+    <li>title(p=2)->[maybeThe] [mapType] [map]</li>
+    <li>title(p=2)->[maybeAdjective] [ANYPAWN_nameIndef]'s [maybeAdjective] [map]</li>
+    <li>title->[mapType] [mapNoun]: [subject]</li>
+    <li>title->[mapNoun] of [mapSubjectAdj] [mapSubject]</li>
+    <li>title->[maybeThe] [AdjectiveAny] [map]</li>
+    <li>title(p=0.5)->maps for [mapSubjectAdj] [mapSubject]</li>
+    <li>title(p=0.5)->[place] [mapNoun]</li>
+    <li>maybeAdjective-></li>
+    <li>maybeAdjective->[adjective]</li>
+    <li>adjective->[AdjectiveAny]</li>
+    <li>adjective->[Color]</li>
+    <li>adjective->[AdjectiveLarge]</li>
+    <li>maybeThe-></li>
+    <li>maybeThe->the</li>
+    <li>map->[mapNoun]</li>
+    <li>map(p=2)->[mapNoun] of [place]</li>
+    <li>map->[mapNoun] of [mapSubject]</li>
+    <li>map->[mapNoun] of [mapSubjectAdj] [mapSubject]</li>
+    <li>mapNoun(p=5)->map</li>
+    <li>mapNoun(p=2)->atlas</li>
+    <li>mapNoun->almanac</li>
+    <li>mapNoun->chart</li>
+    <li>mapNoun->survey</li>
+    <li>mapNoun->study</li>
+    <li>mapNoun->pamphlet</li>
+    <li>mapType(p=2)->[Animal]</li>
+    <li>mapType(p=2)->[TreeType]</li>
+    <li>mapType->contour</li>
+    <li>mapType->topographic</li>
+    <li>mapType->relief</li>
+    <li>mapType->population</li>
+    <li>mapType->treasure</li>
+    <li>mapType->annotated</li>
+    <li>mapType->illustrated</li>
+    <li>mapType->confederation</li>
+    <li>mapType->coalition</li>
+    <li>mapType->federation</li>
+    <li>mapType->historical</li>
+    <li>mapType->paper</li>
+    <li>mapType->leather</li>
+    <li>mapType->pigskin</li>
+    <li>mapType->laminated</li>
+    <li>mapType->holographic</li>
+  -->
+  <Namer_Map.rulePack.rulesStrings>
+    <li>title(p=2)->[mapNoun] [mapType] de [subject]</li>
+    <li>title(p=2)->[maybeThe] [mapNoun] [mapType]</li>
+    <li>title(p=2)->[map] [maybeAdjective] de [ANYPAWN_nameIndef]</li>
+    <li>title->[mapNoun] [mapType]: [subject]</li>
+    <li>title->[mapNoun] de [mapSubject] [mapSubjectAdj]</li>
+    <li>title->[maybeThe] [map] [AdjectiveAny]</li>
+    <li>title(p=0.5)->mapas de [mapSubject] [mapSubjectAdj]</li>
+    <li>title(p=0.5)->[mapNoun] de [place]</li>
+    <li>maybeAdjective-></li>
+    <li>maybeAdjective->[adjective]</li>
+    <li>adjective->[AdjectiveAny]</li>
+    <li>adjective->[Color]</li>
+    <li>adjective->[AdjectiveLarge]</li>
+    <li>maybeThe-></li>
+    <li>maybeThe->o</li>
+    <li>map->[mapNoun]</li>
+    <li>map(p=2)->[mapNoun] de [place]</li>
+    <li>map->[mapNoun] de [mapSubject]</li>
+    <li>map->[mapNoun] de [mapSubject] [mapSubjectAdj]</li>
+    <li>mapNoun(p=5)->mapa</li>
+    <li>mapNoun(p=2)->atlas</li>
+    <li>mapNoun->almanaque</li>
+    <li>mapNoun->roteiro</li>
+    <li>mapNoun->levantamento</li>
+    <li>mapNoun->estudo</li>
+    <li>mapNoun->panfleto</li>
+    <li>mapType(p=2)->de [Animal]</li>
+    <li>mapType(p=2)->de [TreeType]</li>
+    <li>mapType->de contornos</li>
+    <li>mapType->topográfico</li>
+    <li>mapType->em relevo</li>
+    <li>mapType->populacional</li>
+    <li>mapType->do tesouro</li>
+    <li>mapType->anotado</li>
+    <li>mapType->ilustrado</li>
+    <li>mapType->da confederação</li>
+    <li>mapType->da coligação</li>
+    <li>mapType->da federação</li>
+    <li>mapType->histórico</li>
+    <li>mapType->em papel</li>
+    <li>mapType->em couro</li>
+    <li>mapType->em pele de porco</li>
+    <li>mapType->plastificado</li>
+    <li>mapType->holográfico</li>
+  </Namer_Map.rulePack.rulesStrings>
+  
+</LanguageData>

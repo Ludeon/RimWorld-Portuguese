@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: atmospheric heater -->
+  <AtmosphericHeater.label>aquecedor atmosférico</AtmosphericHeater.label>
+  <!-- EN: A thermal projection device powered by scavenged shards of dark archotechnology. The device burns bioferrite to agitate gas molecules in the atmosphere, raising the local outdoor temperature. The building itself also produces huge amounts of waste heat. -->
+  <AtmosphericHeater.description>Um dispositivo de projeção térmica alimentado por fragmentos recuperados de arcotecnologia sombria. O dispositivo queima bioferrite para agitar as moléculas de gás da atmosfera, aumentando a temperatura exterior local. O próprio edifício também produz enormes quantidades de calor residual.</AtmosphericHeater.description>
+  <!-- EN: Target outdoor temperature -->
+  <AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>Temperatura exterior pretendida</AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>
+  
+  <!-- EN: tactical turret bullet -->
+  <Bullet_TacticalTurret.label>bala de torreta tática</Bullet_TacticalTurret.label>
+  
+  <!-- EN: delayed metalhorror emerge -->
+  <DelayedMetalhorrorEmerger.label>emergência retardada de horror metálico</DelayedMetalhorrorEmerger.label>
+  
+  <!-- EN: dirt cube sculpture -->
+  <DirtCubeSculpture.label>escultura de cubo de terra</DirtCubeSculpture.label>
+  <!-- EN: A hastily constructed sculpture resembling a cube. -->
+  <DirtCubeSculpture.description>Uma escultura construída à pressa que se assemelha a um cubo.</DirtCubeSculpture.description>
+  
+  <!-- EN: electric inhibitor -->
+  <ElectricInhibitor.label>inibidor elétrico</ElectricInhibitor.label>
+  <!-- EN: A device that emits a specially tuned electromagnetic field which numbs the neural activity of captured entities. As long as it is powered, it improves the containment strength of any holding platform that it is pointed at. The electric field does not affect humans or normal animals. -->
+  <ElectricInhibitor.description>Um dispositivo que emite um campo eletromagnético especialmente afinado que entorpece a atividade neural das entidades capturadas. Enquanto tiver energia, melhora a força de contenção de qualquer plataforma de retenção para onde esteja apontado. O campo elétrico não afeta humanos nem animais normais.</ElectricInhibitor.description>
+  
+  <!-- EN: endless pit -->
+  <EndlessPit2x2c.label>fosso sem fundo</EndlessPit2x2c.label>
+  <!-- EN: A smooth-sided hole that extends endlessly downwards. -->
+  <EndlessPit2x2c.description>Um buraco de paredes lisas que se estende infinitamente para baixo.</EndlessPit2x2c.description>
+  
+  <!-- EN: endless pit -->
+  <EndlessPit3x2c.label>fosso sem fundo</EndlessPit3x2c.label>
+  <!-- EN: A smooth-sided hole that extends endlessly downwards. -->
+  <EndlessPit3x2c.description>Um buraco de paredes lisas que se estende infinitamente para baixo.</EndlessPit3x2c.description>
+  
+  <!-- EN: endless pit -->
+  <EndlessPit3x3c.label>fosso sem fundo</EndlessPit3x3c.label>
+  <!-- EN: A smooth-sided hole that extends endlessly downwards. -->
+  <EndlessPit3x3c.description>Um buraco de paredes lisas que se estende infinitamente para baixo.</EndlessPit3x3c.description>
+  
+  <!-- EN: floor etching -->
+  <FloorEtching.label>gravação no chão</FloorEtching.label>
+  <!-- EN: A crude sketch drawn onto the ground.\n\nWith sufficient time, you may be able to decipher it. Select a colonist and right-click the etching to inspect it. -->
+  <FloorEtching.description>Um esboço tosco desenhado no chão.\n\nCom tempo suficiente, talvez o consigas decifrar. Seleciona um colono e clica com o botão direito na gravação para a examinar.</FloorEtching.description>
+  <!-- EN: Choose someone to decipher this floor etching. -->
+  <FloorEtching.comps.CompFloorEtching.activateDescString>Escolhe alguém para decifrar esta gravação no chão.</FloorEtching.comps.CompFloorEtching.activateDescString>
+  <!-- EN: Decipher... -->
+  <FloorEtching.comps.CompFloorEtching.activateLabelString>Decifrar...</FloorEtching.comps.CompFloorEtching.activateLabelString>
+  <!-- EN: Deciphering floor etching: {1}s -->
+  <FloorEtching.comps.CompFloorEtching.activatingString>A decifrar a gravação no chão: {1}s</FloorEtching.comps.CompFloorEtching.activatingString>
+  <!-- EN: Deciphering floor etching -->
+  <FloorEtching.comps.CompFloorEtching.activatingStringPending>A decifrar a gravação no chão</FloorEtching.comps.CompFloorEtching.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <FloorEtching.comps.CompFloorEtching.guiLabelString>Escolhe quem deve fazer isto</FloorEtching.comps.CompFloorEtching.guiLabelString>
+  <!-- EN: Send a colonist to decipher this. -->
+  <FloorEtching.comps.CompFloorEtching.inspectString>Envia um colono para decifrar isto.</FloorEtching.comps.CompFloorEtching.inspectString>
+  <!-- EN: Decipher floor etching -->
+  <FloorEtching.comps.CompFloorEtching.jobString>Decifrar a gravação no chão</FloorEtching.comps.CompFloorEtching.jobString>
+  <!-- EN: {PAWN_nameDef} has successfully deciphered the floor etching. -->
+  <FloorEtching.comps.CompFloorEtching.messageCompletedString>{PAWN_nameDef} decifrou a gravação no chão.</FloorEtching.comps.CompFloorEtching.messageCompletedString>
+  
+  <!-- EN: floor etching -->
+  <FloorEtchingRambling.label>gravação no chão</FloorEtchingRambling.label>
+  <!-- EN: A crude sketch drawn onto the ground.\n\nWith sufficient time, you may be able to decipher it. Select a colonist and right-click the etching to inspect it. -->
+  <FloorEtchingRambling.description>Um esboço tosco desenhado no chão.\n\nCom tempo suficiente, talvez o consigas decifrar. Seleciona um colono e clica com o botão direito na gravação para a examinar.</FloorEtchingRambling.description>
+  <!-- EN: Choose someone to decipher this floor etching. -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activateDescString>Escolhe alguém para decifrar esta gravação no chão.</FloorEtchingRambling.comps.CompFloorEtchingRambling.activateDescString>
+  <!-- EN: Decipher... -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activateLabelString>Decifrar...</FloorEtchingRambling.comps.CompFloorEtchingRambling.activateLabelString>
+  <!-- EN: Deciphering floor etching: {1}s -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingString>A decifrar a gravação no chão: {1}s</FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingString>
+  <!-- EN: Deciphering floor etching -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingStringPending>A decifrar a gravação no chão</FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.guiLabelString>Escolhe quem deve fazer isto</FloorEtchingRambling.comps.CompFloorEtchingRambling.guiLabelString>
+  <!-- EN: Send a colonist to decipher this. -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.inspectString>Envia um colono para decifrar isto.</FloorEtchingRambling.comps.CompFloorEtchingRambling.inspectString>
+  <!-- EN: Decipher floor etching -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.jobString>Decifrar a gravação no chão</FloorEtchingRambling.comps.CompFloorEtchingRambling.jobString>
+  <!-- EN: {PAWN_nameDef} has successfully deciphered the floor etching. -->
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.messageCompletedString>{PAWN_nameDef} decifrou a gravação no chão.</FloorEtchingRambling.comps.CompFloorEtchingRambling.messageCompletedString>
+  
+  <!-- EN: frenzy inducer -->
+  <FrenzyInducer.label>indutor de frenesim</FrenzyInducer.label>
+  <!-- EN: A scavenged archotech shard mounted in an electrical stimulation frame. The device creates a frenzied psychic vibration in the local area which stimulates everyone nearby to move and work faster. However, any mental breaks they have are guaranteed to be violent. -->
+  <FrenzyInducer.description>Um fragmento arcotec recuperado, montado numa estrutura de estimulação elétrica. O dispositivo cria uma vibração psíquica frenética na área circundante que estimula quem estiver por perto a mover-se e a trabalhar mais depressa. No entanto, quaisquer colapsos mentais que essas pessoas tenham serão garantidamente violentos.</FrenzyInducer.description>
+  
+  <!-- EN: gray box -->
+  <GrayBox.label>caixa cinzenta</GrayBox.label>
+  <!-- EN: A strange gray container. It is featureless and the surfaces are smooth. The material is not metal, concrete, or any other identifiable material. -->
+  <GrayBox.description>Um estranho contentor cinzento. Não tem quaisquer características e as superfícies são lisas. O material não é metal, betão nem qualquer outro material identificável.</GrayBox.description>
+  
+  <!-- EN: door -->
+  <GrayDoor.label>porta</GrayDoor.label>
+  <!-- EN: A strange gray door. -->
+  <GrayDoor.description>Uma estranha porta cinzenta.</GrayDoor.description>
+  <!-- EN: Choose someone to force this door open. -->
+  <GrayDoor.comps.CompLabyrinthDoor.activateDescString>Escolhe alguém para forçar esta porta.</GrayDoor.comps.CompLabyrinthDoor.activateDescString>
+  <!-- EN: Force open... -->
+  <GrayDoor.comps.CompLabyrinthDoor.activateLabelString>Forçar...</GrayDoor.comps.CompLabyrinthDoor.activateLabelString>
+  <!-- EN: forcing door open: {1}s -->
+  <GrayDoor.comps.CompLabyrinthDoor.activatingString>a forçar a porta: {1}s</GrayDoor.comps.CompLabyrinthDoor.activatingString>
+  <!-- EN: forcing door open -->
+  <GrayDoor.comps.CompLabyrinthDoor.activatingStringPending>a forçar a porta</GrayDoor.comps.CompLabyrinthDoor.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <GrayDoor.comps.CompLabyrinthDoor.guiLabelString>Escolhe quem deve fazer isto</GrayDoor.comps.CompLabyrinthDoor.guiLabelString>
+  <!-- EN: Force this door open -->
+  <GrayDoor.comps.CompLabyrinthDoor.jobString>Forçar esta porta</GrayDoor.comps.CompLabyrinthDoor.jobString>
+  <!-- EN: {PAWN_nameDef} has successfully forced the door open. -->
+  <GrayDoor.comps.CompLabyrinthDoor.messageCompletedString>{PAWN_nameDef} conseguiu forçar a porta.</GrayDoor.comps.CompLabyrinthDoor.messageCompletedString>
+  
+  <!-- EN: gray statue -->
+  <GrayStatueDeadlifeDust.label>estátua cinzenta</GrayStatueDeadlifeDust.label>
+  <!-- EN: A strange, twisted sculpture shaped into a disturbing form. It hums gently with some strange internal energy. -->
+  <GrayStatueDeadlifeDust.description>Uma escultura estranha e retorcida, com uma forma perturbadora. Zumbe suavemente com uma estranha energia interior.</GrayStatueDeadlifeDust.description>
+  <!-- EN: Gray statue activated -->
+  <GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterLabel>Estátua cinzenta ativada</GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterLabel>
+  <!-- EN: Reacting to {PAWN_nameDef}'s presence, the strange statue has begun to release a cloud of deadlife dust!\n\nThis dust-like substance will settle on nearby corpses and raise them as dangerous shamblers. -->
+  <GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterText>Reagindo à presença de {PAWN_nameDef}, a estranha estátua começou a libertar uma nuvem de pó de vida-morta!\n\nEsta substância semelhante a pó vai assentar nos cadáveres próximos e erguê-los como cambaleantes perigosos.</GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterText>
+  
+  <!-- EN: gray statue -->
+  <GrayStatueTeleporter.label>estátua cinzenta</GrayStatueTeleporter.label>
+  <!-- EN: A strange, twisted sculpture shaped into a disturbing form. It hums gently with some strange internal energy. -->
+  <GrayStatueTeleporter.description>Uma escultura estranha e retorcida, com uma forma perturbadora. Zumbe suavemente com uma estranha energia interior.</GrayStatueTeleporter.description>
+  <!-- EN: {PAWN_nameDef} teleported -->
+  <GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterLabel>{PAWN_nameDef} teletransportado</GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterLabel>
+  <!-- EN: After approaching the strange statue, {PAWN_nameDef} blinked and found {PAWN_objective}self transported to a new location. -->
+  <GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterText>Depois de se aproximar da estranha estátua, {PAWN_nameDef} pestanejou e deu por si transportado para outro local.</GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterText>
+  
+  <!-- EN: wall -->
+  <GrayWall.label>parede</GrayWall.label>
+  <!-- EN: An impassable gray wall. -->
+  <GrayWall.description>Uma parede cinzenta intransponível.</GrayWall.description>
+  
+  <!-- EN: tactical turret gun -->
+  <Gun_TacticalTurret.label>arma de torreta tática</Gun_TacticalTurret.label>
+  <!-- EN: A simple automatic gun made to be mounted on a turret. -->
+  <Gun_TacticalTurret.description>Uma arma automática simples, feita para ser montada numa torreta.</Gun_TacticalTurret.description>
+  <!-- EN: tactical turret gun -->
+  <Gun_TacticalTurret.verbs.Verb_Shoot.label>arma de torreta tática</Gun_TacticalTurret.verbs.Verb_Shoot.label>
+  
+  <!-- EN: holding platform -->
+  <HoldingPlatform.label>plataforma de retenção</HoldingPlatform.label>
+  <!-- EN: A platform for holding dangerous entities. The corners have eyelets where strong chains can be attached.\n\nDowned entities can be captured and secured on a holding platform, where they can be studied for Anomaly knowledge. Increase containment strength by building strong walls and doors, and other special containment devices. -->
+  <HoldingPlatform.description>Uma plataforma para reter entidades perigosas. Os cantos têm ilhós onde se podem prender correntes resistentes.\n\nAs entidades abatidas podem ser capturadas e presas numa plataforma de retenção, onde podem ser estudadas para obter conhecimento de anomalias. Aumenta a força de contenção construindo paredes e portas resistentes e outros dispositivos de contenção especiais.</HoldingPlatform.description>
+  
+  <!-- EN: holding spot -->
+  <HoldingSpot.label>local de retenção</HoldingSpot.label>
+  <!-- EN: A spot for holding dangerous entities. Not as good as a steel holding platform, but a lot better than nothing.\n\nDowned entities can be secured at a holding spot where they can be studied. Increase containment strength by building strong walls and doors, and other special containment devices. -->
+  <HoldingSpot.description>Um local para reter entidades perigosas. Não é tão bom como uma plataforma de retenção de aço, mas é muito melhor do que nada.\n\nAs entidades abatidas podem ser presas num local de retenção, onde podem ser estudadas. Aumenta a força de contenção construindo paredes e portas resistentes e outros dispositivos de contenção especiais.</HoldingSpot.description>
+  
+  <!-- EN: noctolith -->
+  <Noctolith.label>noctólito</Noctolith.label>
+  <!-- EN: A twisted pillar of jagged blade-like structures made of dark, oily metal. It pulses with energy, powered by dark archotechnology at its core.\n\nIf you destroy the pillar, you can recover a shard of dark archotech. -->
+  <Noctolith.description>Um pilar retorcido de estruturas irregulares em forma de lâmina, feitas de um metal escuro e oleoso. Pulsa de energia, alimentado pela arcotecnologia sombria no seu núcleo.\n\nSe destruíres o pilar, podes recuperar um fragmento de arcotec sombrio.</Noctolith.description>
+  <!-- EN: Contains: Unknown\nDestroy noctoliths to end the unnatural darkness. -->
+  <Noctolith.comps.CompInspectString.inspectString>Contém: desconhecido\nDestrói os noctólitos para acabar com a escuridão antinatural.</Noctolith.comps.CompInspectString.inspectString>
+  
+  <!-- EN: pit burrow -->
+  <PitBurrow.label>toca do fosso</PitBurrow.label>
+  <!-- EN: A small hole connecting to some unseen cave network deep under the surface. The walls are too steep to climb. It is inherently unstable and will collapse after some time. -->
+  <PitBurrow.description>Um pequeno buraco ligado a uma rede invisível de cavernas nas profundezas sob a superfície. As paredes são demasiado íngremes para trepar. É intrinsecamente instável e vai desabar ao fim de algum tempo.</PitBurrow.description>
+  
+  <!-- EN: underground emergence -->
+  <PitBurrowSpawner.label>emergência subterrânea</PitBurrowSpawner.label>
+  <!-- EN: Something is emerging from the ground here. -->
+  <PitBurrowSpawner.description>Algo está a emergir do chão aqui.</PitBurrowSpawner.description>
+  
+  <!-- EN: pit gate -->
+  <PitGate.label>portão do fosso</PitGate.label>
+  <!-- EN: A massive, foreboding hole that connects the surface with a dark network of underground caves. It is possible to climb down into the caverns below. -->
+  <PitGate.description>Um buraco enorme e agourento que liga a superfície a uma rede sombria de cavernas subterrâneas. É possível descer até às cavernas lá em baixo.</PitGate.description>
+  <!-- EN: Fleshbeast lair -->
+  <PitGate.portal.enteredLetterLabel>Covil das bestas de carne</PitGate.portal.enteredLetterLabel>
+  <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
+  <PitGate.portal.enteredLetterText>Nas profundezas do portão do fosso, descobriste um enorme sistema de cavernas infestado de bestas de carne.\n\nO sistema de cavernas está obstruído por massas de carne viva que bloqueiam o teu avanço. Ataca a massa de carne para a destruir.\n\nTodo o sistema de cavernas parece instável. Se encontrares o que está por trás da massa de carne, talvez consigas fazer desabar os túneis e fechar o portão do fosso.</PitGate.portal.enteredLetterText>
+  
+  <!-- EN: pit gate exit -->
+  <PitGateExit.label>saída do portão do fosso</PitGateExit.label>
+  <!-- EN: A rope line which links to the surface above. -->
+  <PitGateExit.description>Uma corda que leva à superfície lá em cima.</PitGateExit.description>
+  
+  <!-- EN: underground emergence -->
+  <PitGateSpawner.label>emergência subterrânea</PitGateSpawner.label>
+  <!-- EN: Something is emerging from the ground here. -->
+  <PitGateSpawner.description>Algo está a emergir do chão aqui.</PitGateSpawner.description>
+  <!-- EN: Pit gate opened -->
+  <PitGateSpawner.building.groundSpawnerLetterLabel>Portão do fosso aberto</PitGateSpawner.building.groundSpawnerLetterLabel>
+  <!-- EN: The shifting terrain has fallen into the depths below, forming a massive hole.\n\nThis pit gate will remain open until you collapse its entrance. Explore the pit gate to find a way to collapse it from underneath and to find useful items in the undercaves. -->
+  <PitGateSpawner.building.groundSpawnerLetterText>O terreno instável desabou para as profundezas, formando um buraco enorme.\n\nEste portão do fosso vai permanecer aberto até fazeres desabar a sua entrada. Explora o portão do fosso para encontrares uma forma de o fazer desabar a partir de baixo e para encontrares objetos úteis nas cavernas subterrâneas.</PitGateSpawner.building.groundSpawnerLetterText>
+  
+  <!-- EN: proximity detector -->
+  <ProximityDetector.label>detetor de proximidade</ProximityDetector.label>
+  <!-- EN: A scanner capable of detecting invisible creatures. The device raises an alarm when it detects the presence of psychically invisible biosignatures within its radius. -->
+  <ProximityDetector.description>Um scanner capaz de detetar criaturas invisíveis. O dispositivo dá o alarme quando deteta a presença de biossinais psiquicamente invisíveis dentro do seu raio.</ProximityDetector.description>
+  
+  <!-- EN: sand cube sculpture -->
+  <SandCubeSculpture.label>escultura de cubo de areia</SandCubeSculpture.label>
+  <!-- EN: A hastily constructed sculpture resembling a cube. -->
+  <SandCubeSculpture.description>Uma escultura construída à pressa que se assemelha a um cubo.</SandCubeSculpture.description>
+  
+  <!-- EN: scrap cube sculpture -->
+  <ScrapCubeSculpture.label>escultura de cubo de sucata</ScrapCubeSculpture.label>
+  <!-- EN: A hastily constructed sculpture resembling a cube. -->
+  <ScrapCubeSculpture.description>Uma escultura construída à pressa que se assemelha a um cubo.</ScrapCubeSculpture.description>
+  
+  <!-- EN: security door -->
+  <SecurityDoor.label>porta de segurança</SecurityDoor.label>
+  <!-- EN: A heavily reinforced door. It is slow to open and requires electricity, but is very strong. It's a good choice if you want to keep something dangerous out - or in. The door requires walls on either side to function. -->
+  <SecurityDoor.description>Uma porta fortemente reforçada. É lenta a abrir e precisa de eletricidade, mas é muito resistente. É uma boa escolha se quiseres manter algo perigoso lá fora, ou lá dentro. A porta precisa de paredes de ambos os lados para funcionar.</SecurityDoor.description>
+  
+  <!-- EN: shard inhibitor -->
+  <ShardInhibitor.label>inibidor de fragmento</ShardInhibitor.label>
+  <!-- EN: A shard of dark archotechnology that resonates with psychic energy, increasing the containment strength of any holding platform or spot within its radius.\n\nThe effect does not stack. -->
+  <ShardInhibitor.description>Um fragmento de arcotecnologia sombria que ressoa com energia psíquica, aumentando a força de contenção de qualquer plataforma ou local de retenção dentro do seu raio.\n\nO efeito não é cumulativo.</ShardInhibitor.description>
+  
+  <!-- EN: sleep suppressor -->
+  <SleepSuppressor.label>supressor de sono</SleepSuppressor.label>
+  <!-- EN: A scavenged archotech shard mounted in an electrical control frame. The device creates a psychic pulsation in the local area which alters the brain chemistry of those nearby, halting the buildup of fatigue toxins and removing the need for sleep. However, it also irritates anyone nearby. -->
+  <SleepSuppressor.description>Um fragmento arcotec recuperado, montado numa estrutura de controlo elétrico. O dispositivo cria uma pulsação psíquica na área circundante que altera a química cerebral de quem estiver por perto, travando a acumulação de toxinas da fadiga e eliminando a necessidade de dormir. No entanto, também irrita quem estiver por perto.</SleepSuppressor.description>
+  
+  <!-- EN: stone cube sculpture -->
+  <StoneCubeSculpture.label>escultura de cubo de pedra</StoneCubeSculpture.label>
+  <!-- EN: A hastily constructed sculpture resembling a cube. -->
+  <StoneCubeSculpture.description>Uma escultura construída à pressa que se assemelha a um cubo.</StoneCubeSculpture.description>
+  
+  <!-- EN: IED deadlife trap -->
+  <TrapIED_Deadlife.label>armadilha IED de vida-morta</TrapIED_Deadlife.label>
+  <!-- EN: A pair of deadlife shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.\n\nThe trap needs corpses nearby to be raised by the deadlife dust. -->
+  <TrapIED_Deadlife.description>Um par de projéteis de vida-morta ligados a um gatilho que detona ao toque ou com o impacto de uma bala. Como fica escondida no terreno circundante, não pode ser colocada ao lado de outras armadilhas. Os animais conseguem detetá-la quando estão calmos.\n\nA armadilha precisa de cadáveres por perto para serem erguidos pelo pó de vida-morta.</TrapIED_Deadlife.description>
+  
+  <!-- EN: tactical turret -->
+  <Turret_TacticalTurret.label>torreta tática</Turret_TacticalTurret.label>
+  <!-- EN: A short-range turret. It will stop functioning once its battery runs out. If damaged sufficiently, it may explode. -->
+  <Turret_TacticalTurret.description>Uma torreta de curto alcance. Deixa de funcionar quando a bateria se esgota. Se sofrer danos suficientes, pode explodir.</Turret_TacticalTurret.description>
+  <!-- EN: Battery power -->
+  <Turret_TacticalTurret.comps.CompMechPowerCell.labelOverride>Carga da bateria</Turret_TacticalTurret.comps.CompMechPowerCell.labelOverride>
+  <!-- EN: This turret has a limited battery life. Once it runs out, it will stop working entirely. -->
+  <Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>Esta torreta tem uma bateria de duração limitada. Quando se esgotar, deixa de funcionar por completo.</Turret_TacticalTurret.comps.CompMechPowerCell.tooltipOverride>
+  
+</LanguageData>

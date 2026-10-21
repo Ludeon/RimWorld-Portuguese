@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Room requirements -->
+  <!-- EN: Need throneroom -->
+  <NeedThroneAssigned>Falta um trono</NeedThroneAssigned>
+  <!-- EN: One of your people has a royal title that requires a throneroom, but no throneroom is assigned.\n\nEnsure the title holder is assigned a throne inside a throneroom.\n\nThe throneroom should be appropriately sized and decorated to satisfy the title's specific requirements.\n\nMultiple thrones may be placed in one throneroom. -->
+  <NeedThroneAssignedDesc>Uma das tuas pessoas tem um título real que exige uma sala do trono, mas não tem nenhuma atribuída.\n\nGarante que o titular do título tem um trono atribuído dentro de uma sala do trono.\n\nA sala do trono deve ter o tamanho e a decoração adequados para satisfazer os requisitos específicos do título.\n\nPodem ser colocados vários tronos na mesma sala do trono.</NeedThroneAssignedDesc>
+
+  <!-- EN: Undignified bedroom -->
+  <UndignifiedBedroom>Quarto indigno</UndignifiedBedroom>
+  <!-- EN: One of your people has a royal title that requires a bedroom with specific features. Either no bedroom is assigned, or the assigned bedroom doesn't satisfy the requirements. -->
+  <UndignifiedBedroomDesc>Uma das tuas pessoas tem um título real que exige um quarto com características específicas. Ou não tem nenhum quarto atribuído, ou o quarto atribuído não satisfaz os requisitos.</UndignifiedBedroomDesc>
+
+  <!-- EN: Title requires bedroom -->
+  <NeedBedroomAssigned>Título exige quarto</NeedBedroomAssigned>
+  <!-- EN: One of your people has a royal title that requires a personal bedroom, but no bedroom is assigned.\n\nAssign them a personal bedroom. The bedroom should be appropriately sized and decorated to satisfy the title's specific requirements. -->
+  <NeedBedroomAssignedDesc>Uma das tuas pessoas tem um título real que exige um quarto pessoal, mas não tem nenhum atribuído.\n\nAtribui-lhe um quarto pessoal. O quarto deve ter o tamanho e a decoração adequados para satisfazer os requisitos específicos do título.</NeedBedroomAssignedDesc>
+
+  <!-- EN: Undignified throneroom -->
+  <UndignifiedThroneroom>Sala do trono indigna</UndignifiedThroneroom>
+  <!-- EN: One of your people has a royal title and a throne, but the throne room does not satisfy the title's requirements. -->
+  <UndignifiedThroneroomDesc>Uma das tuas pessoas tem um título real e um trono, mas a sala do trono não satisfaz os requisitos do título.</UndignifiedThroneroomDesc>
+  
+  <!-- EN: No acceptable food -->
+  <RoyalNoAcceptableFood>Sem alimento aceitável</RoyalNoAcceptableFood>
+  <!-- EN: One of your people has a royal title with specific food requirements. But there's no food available that satisfies these requirements. -->
+  <RoyalNoAcceptableFoodDesc>Uma das tuas pessoas tem um título real com requisitos alimentares específicos, mas não há alimentos disponíveis que os satisfaçam.</RoyalNoAcceptableFoodDesc>
+
+  <!-- EN: {0} days until requirement begins -->
+  <RoomRequirementGracePeriodDesc>{0} dias até o requisito entrar em vigor</RoomRequirementGracePeriodDesc>
+
+  <!-- EN: Throne not usable -->
+  <ThroneroomInvalidConfiguration>Trono inutilizável</ThroneroomInvalidConfiguration>
+  <!-- EN: A throne is not usable because of how it is set up: -->
+  <ThroneroomInvalidConfigurationDesc>Um trono não pode ser utilizado devido à forma como está instalado:</ThroneroomInvalidConfigurationDesc>
+  
+  <!-- EN: Monument missing blueprints -->
+  <MonumentMarkerMissingBlueprints>Monumento sem projetos</MonumentMarkerMissingBlueprints>
+  <!-- EN: The monument won't be completed because blueprints have not been placed for all its parts.\n\nSelect the monument marker and click "Place blueprints", or place the blueprints manually. -->
+  <MonumentMarkerMissingBlueprintsDesc>O monumento não será concluído porque não foram colocados projetos para todas as suas partes.\n\nSeleciona o marcador do monumento e clica em «Place blueprints», ou coloca os projetos manualmente.</MonumentMarkerMissingBlueprintsDesc>
+
+  <!-- EN: Beacon unusable -->
+  <ShipLandingBeaconUnusable>Baliza inutilizável</ShipLandingBeaconUnusable>
+  <!-- EN: A ship landing beacon is powered but can't be used. To be usable, four of these must be placed on the corners of a square at least 9 tiles wide, and the entire square area must be clear of obstructions including buildings, people, and animals. -->
+  <ShipLandingBeaconUnusableDesc>Uma baliza de aterragem de naves está alimentada, mas não pode ser usada. Para ser utilizável, é preciso colocar quatro nos cantos de um quadrado com pelo menos 9 células de lado, e toda a área do quadrado tem de estar livre de obstruções, incluindo edifícios, pessoas e animais.</ShipLandingBeaconUnusableDesc>
+
+  <!-- EN: Need meditation spot -->
+  <NeedMeditationSpotAlert>Falta um local de meditação</NeedMeditationSpotAlert>
+  <!-- EN: These colonists have a psyfocus need or are scheduled to meditate, but don't have any meditation spots available for them.\n{0}\n\nPlace a meditation spot and ensure it is reachable and usable. Colonists will prefer the meditation spot near the best focus object they can use. Colonists won't meditate in another colonist's bedroom. -->
+  <NeedMeditationSpotAlertDesc>Estes colonos têm uma necessidade de psifoco ou estão programados para meditar, mas não têm nenhum local de meditação disponível.\n{0}\n\nColoca um local de meditação e garante que é acessível e utilizável. Os colonos preferem o local de meditação perto do melhor objeto de foco que podem usar. Os colonos não meditam no quarto de outro colono.</NeedMeditationSpotAlertDesc>
+
+  <!-- EN: Unusable meditation focus -->
+  <UnusableMeditationFocusAlert>Foco de meditação inutilizável</UnusableMeditationFocusAlert>
+  <!-- EN: These colonists are meditating near a focus object they can't use.\n{0}\n\nEach person can meditate to different objects, depending on their meditation focus types. A person's focus types depend on their backstories, traits, and titles. To see a person's meditation focus types, look at their details window by selecting them and clicking the 'i' button. -->
+  <UnusableMeditationFocusAlertDesc>Estes colonos estão a meditar perto de um objeto de foco que não podem usar.\n{0}\n\nCada pessoa pode meditar com objetos diferentes, consoante os seus tipos de foco de meditação. Os tipos de foco de uma pessoa dependem dos seus antecedentes, traços e títulos. Para ver os tipos de foco de meditação de uma pessoa, seleciona-a e clica no botão «i» para abrir a janela de detalhes.</UnusableMeditationFocusAlertDesc>
+
+  <!-- EN: Permit choice ready -->
+  <PermitChoiceReadyAlert>Escolha de licença disponível</PermitChoiceReadyAlert>
+  <!-- EN: {PAWN_nameDef} can choose a new permit. -->
+  <PermitChoiceReadyAlertDesc>{PAWN_nameDef} pode escolher uma nova licença.</PermitChoiceReadyAlertDesc>
+  
+  <!-- EN: Bestower waiting -->
+  <BestowerWaitingAlert>Outorgante à espera</BestowerWaitingAlert>
+  <!-- EN: A bestower is waiting to begin the bestowing ceremony. -->
+  <BestowerWaitingAlertDesc>Um outorgante está à espera para iniciar a cerimónia de outorga.</BestowerWaitingAlertDesc>
+  
+  <!-- EN: Anima linking ceremony ready -->
+  <AnimaLinkingReadyLabel>Cerimónia de ligação de ânima pronta</AnimaLinkingReadyLabel>
+  <!-- EN: An anima tree has enough anima grass to carry out the linking ceremony and level up psylink for these colonists -->
+  <AnimaLinkingReadyDesc>Uma árvore de ânima tem erva de ânima suficiente para realizar a cerimónia de ligação e subir o nível de psilink a estes colonos</AnimaLinkingReadyDesc>
+  <!-- EN: In order to start the ceremony, select a colonist, click the 'begin anima tree linking' button and select the anima tree you want to use. -->
+  <AnimaLinkingReadyDescExtra>Para iniciar a cerimónia, seleciona um colono, clica no botão «iniciar ligação à árvore de ânima» e seleciona a árvore de ânima que queres usar.</AnimaLinkingReadyDescExtra>
+  
+</LanguageData>

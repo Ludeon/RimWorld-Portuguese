@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[enemiesLabel] have set up a camp and are harassing caravans of [asker_faction_name]. [asker_nameDef] is planning an aerial assault on the camp, which is guarded by [enemiesCount] [enemiesLabel]. [asker_pronoun] wants you to provide [soldiers] to carry out the attack.\n\n[asker_pronoun] will send a shuttle to pick up your fighters, bring them to the attack site, and take them home afterward. They will be fed and medically tended en-route.\n\nOnce the attack begins, you must defeat all enemies and turrets within [timeoutTicks_duration].</li>
+    <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldiers</li>
+    <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
+  -->
+  <Mission_BanditCamp.questDescriptionRules.rulesStrings>
+    <li>questDescription->[enemiesLabel] montaram um acampamento e estão a assediar caravanas de [asker_faction_name]. [asker_nameDef] está a planear um ataque aéreo ao acampamento, que é guardado por [enemiesCount] [enemiesLabel]. [asker_pronoun] quer que forneças [soldiers] para realizar o ataque.\n\n[asker_pronoun] enviará um vaivém para recolher os teus combatentes, levá-los até ao local do ataque e trazê-los para casa depois. Serão alimentados e receberão tratamento médico durante o trajeto.\n\nQuando o ataque começar, tens de derrotar todos os inimigos e torretas em [timeoutTicks_duration].</li>
+    <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldados</li>
+    <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldado</li>
+  </Mission_BanditCamp.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[questNameInner]</li>
+    <li>questName->[asker_nameDef]'s [questNameInner]</li>
+    <li>questNameInner->[aerial] [attack]</li>
+    <li>questNameInner->[target] [attack]</li>
+    <li>questNameInner->[attack] [work]</li>
+    <li>target->camp</li>
+    <li>target->base</li>
+    <li>target->fort</li>
+    <li>aerial->aerial</li>
+    <li>aerial->air</li>
+    <li>aerial->shuttle-borne</li>
+    <li>attack->attack</li>
+    <li>attack->assault</li>
+    <li>work->work</li>
+    <li>work->job</li>
+  -->
+  <Mission_BanditCamp.questNameRules.rulesStrings>
+    <li>questName->[questNameInner]</li>
+    <li>questName->[questNameInner] de [asker_nameDef]</li>
+    <li>questNameInner->[attack] [aerial]</li>
+    <li>questNameInner->[attack] [target]</li>
+    <li>questNameInner->[attack] [work]</li>
+    <li>target->ao acampamento</li>
+    <li>target->à base</li>
+    <li>target->ao forte</li>
+    <li>aerial->aéreo</li>
+    <li>aerial->pelo ar</li>
+    <li>aerial->por vaivém</li>
+    <li>attack->Ataque</li>
+    <li>attack->Assalto</li>
+    <li>work->de trabalho</li>
+    <li>work->de serviço</li>
+  </Mission_BanditCamp.questNameRules.rulesStrings>
+
+</LanguageData>

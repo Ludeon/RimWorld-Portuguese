@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: flu -->
+  <Animal_Flu.label>gripe</Animal_Flu.label>
+  <!-- EN: An infectious disease caused by the influenza virus. This strain is adapted for infecting non-human species. -->
+  <Animal_Flu.description>Uma doença infecciosa causada pelo vírus da gripe. Esta estirpe está adaptada para infetar espécies não humanas.</Animal_Flu.description>
+  <Animal_Flu.labelNoun>uma gripe</Animal_Flu.labelNoun>
+  <!-- EN: minor -->
+  <Animal_Flu.stages.minor.label>ligeira</Animal_Flu.stages.minor.label>
+  <!-- EN: major -->
+  <Animal_Flu.stages.major.label>grave</Animal_Flu.stages.major.label>
+  <!-- EN: extreme -->
+  <Animal_Flu.stages.extreme.label>extrema</Animal_Flu.stages.extreme.label>
+  
+  <!-- EN: plague -->
+  <Animal_Plague.label>peste</Animal_Plague.label>
+  <!-- EN: An infectious disease caused by bacteria. This strain is adapted to infecting non-human species. -->
+  <Animal_Plague.description>Uma doença infecciosa causada por bactérias. Esta estirpe está adaptada para infetar espécies não humanas.</Animal_Plague.description>
+  <Animal_Plague.labelNoun>uma peste</Animal_Plague.labelNoun>
+  <!-- EN: minor -->
+  <Animal_Plague.stages.minor.label>ligeira</Animal_Plague.stages.minor.label>
+  <!-- EN: major -->
+  <Animal_Plague.stages.major.label>grave</Animal_Plague.stages.major.label>
+  <!-- EN: extreme -->
+  <Animal_Plague.stages.extreme-0.label>extrema</Animal_Plague.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <Animal_Plague.stages.extreme-1.label>extrema</Animal_Plague.stages.extreme-1.label>
+  
+  <!-- EN: fibrous mechanites -->
+  <FibrousMechanites.label>mecanitas fibrosas</FibrousMechanites.label>
+  <!-- EN: Semi-coherent mechanites which develop fibrous links in muscle tissue. They enhance the victim's strength, but also cause intense pain. These are probably a mutated strain of strength-enhancing mechanites. -->
+  <FibrousMechanites.description>Mecanitas semicoerentes que desenvolvem ligações fibrosas no tecido muscular. Aumentam a força da vítima, mas causam também dor intensa. Provavelmente são uma estirpe mutada de mecanitas potenciadoras da força.</FibrousMechanites.description>
+  <!-- EN: mild pain -->
+  <FibrousMechanites.stages.mild_pain.label>dor ligeira</FibrousMechanites.stages.mild_pain.label>
+  <!-- EN: intense pain -->
+  <FibrousMechanites.stages.intense_pain.label>dor intensa</FibrousMechanites.stages.intense_pain.label>
+  
+  <!-- EN: flu -->
+  <Flu.label>gripe</Flu.label>
+  <!-- EN: An infectious disease caused by the influenza virus. -->
+  <Flu.description>Uma doença infecciosa causada pelo vírus da gripe.</Flu.description>
+  <Flu.labelNoun>uma gripe</Flu.labelNoun>
+  <!-- EN: minor -->
+  <Flu.stages.minor.label>ligeira</Flu.stages.minor.label>
+  <!-- EN: major -->
+  <Flu.stages.major.label>grave</Flu.stages.major.label>
+  <!-- EN: extreme -->
+  <Flu.stages.extreme.label>extrema</Flu.stages.extreme.label>
+  
+  <!-- EN: gut worms -->
+  <GutWorms.label>vermes intestinais</GutWorms.label>
+  <!-- EN: Parasitic worms in the gut. They cause vomiting. They also consume the victim's food, which increases hunger. -->
+  <GutWorms.description>Vermes parasitas no intestino. Provocam vómitos e consomem a comida da vítima, o que aumenta a fome.</GutWorms.description>
+  <GutWorms.labelNoun>vermes intestinais</GutWorms.labelNoun>
+  
+  <!-- EN: lung rot -->
+  <LungRot.label>podridão pulmonar</LungRot.label>
+  <!-- EN: A bacterial disease that targets an individual's lungs. Minor cases are little more than an irritation, but if left unchecked the bacterial growth results in an increasing amount of fluid buildup in the victim's lungs, eventually resulting in death.\n\nIf treated properly, the body's immune system will eventually clear lung rot. -->
+  <LungRot.description>Uma doença bacteriana que ataca os pulmões. Os casos ligeiros pouco passam de uma irritação, mas, se não forem controlados, o crescimento bacteriano provoca uma acumulação crescente de líquido nos pulmões da vítima e a doença termina em morte.\n\nSe for tratada corretamente, o sistema imunitário do corpo acabará por eliminar a podridão pulmonar.</LungRot.description>
+  <!-- EN: A painful bacterial disease caused by exposure to rot stink gas. Upon reaching full saturation, it will kill the affected individual. -->
+  <LungRot.descriptionShort>Uma doença bacteriana dolorosa causada pela exposição ao gás de fedor pútrido. Ao atingir a saturação total, mata o indivíduo afetado.</LungRot.descriptionShort>
+  <!-- EN: minor -->
+  <LungRot.stages.minor.label>ligeira</LungRot.stages.minor.label>
+  <!-- EN: major -->
+  <LungRot.stages.major.label>grave</LungRot.stages.major.label>
+  <!-- EN: extreme -->
+  <LungRot.stages.extreme.label>extrema</LungRot.stages.extreme.label>
+  
+  <!-- EN: rot stink exposure -->
+  <LungRotExposure.label>exposição ao fedor pútrido</LungRotExposure.label>
+  <!-- EN: Long-term exposure to rot stink gas. Rot stink exposure has no direct health effects. However, serious rot stink exposure has a chance to result in a painful bacterial infection known as lung rot. When not exposed to rot stink gas, rot stink exposure will slowly decrease. -->
+  <LungRotExposure.description>Exposição prolongada ao gás de fedor pútrido. A exposição ao fedor pútrido não tem efeitos diretos na saúde, mas uma exposição grave pode resultar numa infeção bacteriana dolorosa conhecida como podridão pulmonar. Quando deixa de haver exposição ao gás de fedor pútrido, a exposição diminui lentamente.</LungRotExposure.description>
+  <!-- EN: {PAWN_nameDef} is beginning to suffer from exposure to rot stink gas. Keep {PAWN_objective} away from rotting corpses and other sources of rot stink. -->
+  <LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} está a começar a sofrer com a exposição ao gás de fedor pútrido. Mantém a pessoa longe de cadáveres em decomposição e de outras fontes de fedor pútrido.</LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <!-- EN: minor -->
+  <LungRotExposure.stages.minor.label>ligeira</LungRotExposure.stages.minor.label>
+  <!-- EN: major -->
+  <LungRotExposure.stages.major.label>grave</LungRotExposure.stages.major.label>
+  <!-- EN: serious -->
+  <LungRotExposure.stages.serious.label>grave</LungRotExposure.stages.serious.label>
+  
+  <!-- EN: malaria -->
+  <Malaria.label>malária</Malaria.label>
+  <!-- EN: An infectious disease caused by a mosquito-borne parasite. -->
+  <Malaria.description>Uma doença infecciosa causada por um parasita transmitido por mosquitos.</Malaria.description>
+  <!-- EN: minor -->
+  <Malaria.stages.minor.label>ligeira</Malaria.stages.minor.label>
+  <!-- EN: major -->
+  <Malaria.stages.major.label>grave</Malaria.stages.major.label>
+  <!-- EN: extreme -->
+  <Malaria.stages.extreme.label>extrema</Malaria.stages.extreme.label>
+  
+  <!-- EN: muscle parasites -->
+  <MuscleParasites.label>parasitas musculares</MuscleParasites.label>
+  <!-- EN: Parasitic creatures in the muscles. These cause weakness and a lack of coordination. -->
+  <MuscleParasites.description>Criaturas parasitas nos músculos. Provocam fraqueza e falta de coordenação.</MuscleParasites.description>
+  
+  <!-- EN: plague -->
+  <Plague.label>peste</Plague.label>
+  <!-- EN: An infectious disease caused by bacteria. -->
+  <Plague.description>Uma doença infecciosa causada por bactérias.</Plague.description>
+  <Plague.labelNoun>uma peste</Plague.labelNoun>
+  <!-- EN: minor -->
+  <Plague.stages.minor.label>ligeira</Plague.stages.minor.label>
+  <!-- EN: major -->
+  <Plague.stages.major.label>grave</Plague.stages.major.label>
+  <!-- EN: extreme -->
+  <Plague.stages.extreme-0.label>extrema</Plague.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <Plague.stages.extreme-1.label>extrema</Plague.stages.extreme-1.label>
+  
+  <!-- EN: scaria infection -->
+  <ScariaInfection.label>infeção por scaria</ScariaInfection.label>
+  <!-- EN: An infection caused by scaria bacterium. If not treated, the infection will eventually drive the host into a berserk rage. -->
+  <ScariaInfection.description>Uma infeção causada pela bactéria scaria. Se não for tratada, acabará por levar o hospedeiro a um acesso de fúria.</ScariaInfection.description>
+  <!-- EN: Scaria: {PAWN_nameDef} -->
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>Scaria: {PAWN_nameDef}</ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>
+  <!-- EN: {PAWN_nameDef} has developed scaria from {PAWN_possessive} infection, driving {PAWN_objective} into a berserk rage. Scaria can be cured with a special medical operation, but {PAWN_nameDef} must first be downed. -->
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterText>{PAWN_nameDef} desenvolveu scaria devido à infeção, o que o levou a um acesso de fúria. A scaria pode ser curada com uma operação médica especial, mas {PAWN_nameDef} tem primeiro de ficar incapacitado.</ScariaInfection.comps.HediffComp_GiveHediff.letterText>
+  <!-- EN: a scaria infection -->
+  <ScariaInfection.labelNoun>uma infeção por scaria</ScariaInfection.labelNoun>
+  <!-- EN: minor -->
+  <ScariaInfection.stages.minor.label>ligeira</ScariaInfection.stages.minor.label>
+  <!-- EN: major -->
+  <ScariaInfection.stages.major.label>grave</ScariaInfection.stages.major.label>
+  <!-- EN: extreme -->
+  <ScariaInfection.stages.extreme.label>extrema</ScariaInfection.stages.extreme.label>
+  
+  <!-- EN: sensory mechanites -->
+  <SensoryMechanites.label>mecanitas sensoriais</SensoryMechanites.label>
+  <!-- EN: Semi-coherent mechanites which reside in the nervous system. They enhance the victim's senses, but also cause intense pain. These are probably a mutated strain of sense-enhancing mechanites. -->
+  <SensoryMechanites.description>Mecanitas semicoerentes que residem no sistema nervoso. Aumentam os sentidos da vítima, mas causam também dor intensa. Provavelmente são uma estirpe mutada de mecanitas potenciadoras dos sentidos.</SensoryMechanites.description>
+  <!-- EN: mild pain -->
+  <SensoryMechanites.stages.mild_pain.label>dor ligeira</SensoryMechanites.stages.mild_pain.label>
+  <!-- EN: intense pain -->
+  <SensoryMechanites.stages.intense_pain.label>dor intensa</SensoryMechanites.stages.intense_pain.label>
+  
+  <!-- EN: sleeping sickness -->
+  <SleepingSickness.label>doença do sono</SleepingSickness.label>
+  <!-- EN: An infectious disease caused by an insect-borne parasite. Sleeping sickness is not as deadly as some other diseases, but progresses slowly. The body takes a long time to clear the infection. -->
+  <SleepingSickness.description>Uma doença infecciosa causada por um parasita transmitido por insetos. A doença do sono não é tão mortal como outras doenças, mas progride lentamente. O corpo demora muito tempo a eliminar a infeção.</SleepingSickness.description>
+  <!-- EN: minor -->
+  <SleepingSickness.stages.minor-0.label>ligeira</SleepingSickness.stages.minor-0.label>
+  <!-- EN: minor -->
+  <SleepingSickness.stages.minor-1.label>ligeira</SleepingSickness.stages.minor-1.label>
+  <!-- EN: major -->
+  <SleepingSickness.stages.major.label>grave</SleepingSickness.stages.major.label>
+  <!-- EN: extreme -->
+  <SleepingSickness.stages.extreme-0.label>extrema</SleepingSickness.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <SleepingSickness.stages.extreme-1.label>extrema</SleepingSickness.stages.extreme-1.label>
+  
+  <!-- EN: infection -->
+  <WoundInfection.label>infeção</WoundInfection.label>
+  <!-- EN: Bacterial infection in a wound. Without treatment, the bacteria will multiply, killing local tissue, and eventually causing blood poisoning and death.\n\nThrough aeons of human warfare, infections have often taken more lives than the wounds themselves. -->
+  <WoundInfection.description>Infeção bacteriana numa ferida. Sem tratamento, as bactérias multiplicam-se, matam o tecido local e acabam por causar septicemia e morte.\n\nAo longo de eras de guerra humana, as infeções mataram muitas vezes mais pessoas do que as próprias feridas.</WoundInfection.description>
+  <!-- EN: an infection -->
+  <WoundInfection.labelNoun>uma infeção</WoundInfection.labelNoun>
+  <!-- EN: minor -->
+  <WoundInfection.stages.minor.label>ligeira</WoundInfection.stages.minor.label>
+  <!-- EN: major -->
+  <WoundInfection.stages.major.label>grave</WoundInfection.stages.major.label>
+  <!-- EN: extreme -->
+  <WoundInfection.stages.extreme-0.label>extrema</WoundInfection.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <WoundInfection.stages.extreme-1.label>extrema</WoundInfection.stages.extreme-1.label>
+  
+</LanguageData>

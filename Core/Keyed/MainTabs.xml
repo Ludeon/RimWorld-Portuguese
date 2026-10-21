@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Work tab -->
+  <!-- EN: Manual priorities -->
+  <ManualPriorities>Prioridades manuais</ManualPriorities>
+  <!-- EN: higher priority -->
+  <HigherPriority>Prioridade mais alta</HigherPriority>
+  <!-- EN: lower priority -->
+  <LowerPriority>Prioridade mais baixa</LowerPriority>
+  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} -->
+  <RelevantSkills>Perícias relevantes: {0}\nMédia das perícias relevantes: {1}</RelevantSkills>
+  <!-- EN: Click to jump to: -->
+  <ClickToJumpTo>Clica para saltar para:</ClickToJumpTo>
+  <!-- EN: {1_labelShort} cannot do this kind of work. -->
+  <CannotDoThisWork>{1_labelShort} não pode fazer este tipo de trabalho.</CannotDoThisWork>
+  <!-- EN: (none) -->
+  <NoneBrackets>(nenhum)</NoneBrackets>
+  <!-- EN: This colonist is not able to do any work of this type because of their health condition. -->
+  <IncapableOfWorkTypeBecauseOfCapacities>Este colono não consegue fazer nenhum trabalho deste tipo devido ao seu estado de saúde.</IncapableOfWorkTypeBecauseOfCapacities>
+  <!-- EN: E -->
+  <EmergencyWorkMarker>E</EmergencyWorkMarker>
+  <!-- EN: Warning: The average of relevant skills is very low. -->
+  <SelectedWorkTypeWithVeryBadSkill>Atenção: a média das perícias relevantes é muito baixa.</SelectedWorkTypeWithVeryBadSkill>
+  <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
+  <PriorityOneDoneFirst>A prioridade 1 é feita primeiro. A prioridade 4 é feita por último.</PriorityOneDoneFirst>
+  <!-- EN: Will not do -->
+  <Priority0>Não fará</Priority0>
+  <!-- EN: Top priority -->
+  <Priority1>Prioridade máxima</Priority1>
+  <!-- EN: High priority -->
+  <Priority2>Prioridade alta</Priority2>
+  <!-- EN: Normal priority -->
+  <Priority3>Prioridade normal</Priority3>
+  <!-- EN: Low priority -->
+  <Priority4>Prioridade baixa</Priority4>
+  <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
+  <PawnFactionInfo>{0}\n\nA fação a que {1_nameDef} pertence atualmente.\n\nClica para ver a fação.</PawnFactionInfo>
+  <!-- EN: Disabled by {0} backstory -->
+  <WorkDisabledByBackstory>Desativado pelo passado {0}</WorkDisabledByBackstory>
+  <!-- EN: Disabled by {0} trait -->
+  <WorkDisabledByTrait>Desativado pelo traço de personalidade {0}</WorkDisabledByTrait>
+  <!-- EN: Disabled by quest '{0}' -->
+  <WorkDisabledByQuest>Desativado pela missão '{0}'</WorkDisabledByQuest>
+  
+  <!-- Assign tab -->
+  <!-- EN: Unchangeable -->
+  <Unchangeable>Inalterável</Unchangeable>
+  <!-- EN: Clr. forced -->
+  <ClearForcedApparel>Limpar vestuário forçado</ClearForcedApparel>
+  <!-- EN: forced -->
+  <ApparelForcedLower>vestuário forçado</ApparelForcedLower>
+  <!-- EN: locked -->
+  <ApparelLockedLower>bloqueado</ApparelLockedLower>
+  <!-- EN: Forced apparel -->
+  <ForcedApparel>Vestuário forçado</ForcedApparel>
+  <!-- EN: Edit -->
+  <AssignTabEdit>Editar</AssignTabEdit>
+  <!-- EN: Manage apparel policies -->
+  <ManageApparelPolicies>Gerir políticas de vestuário</ManageApparelPolicies>
+  <!-- EN: Manage drug policies -->
+  <ManageDrugPolicies>Gerir políticas de drogas</ManageDrugPolicies>
+  <!-- EN: Manage food policies -->
+  <ManageFoodPolicies>Gerir políticas alimentares</ManageFoodPolicies>
+  <!-- EN: Manage reading policies -->
+  <ManageReadingPolicies>Gerir políticas de leitura</ManageReadingPolicies>
+  
+  <!-- Restrictions tab -->
+  <!-- EN: Copy -->
+  <Copy>Copiar</Copy>
+  <!-- EN: Paste -->
+  <Paste>Colar</Paste>
+  <!-- EN: Allowed area -->
+  <AllowedArea>Área permitida</AllowedArea>
+  
+  <!-- Animals tab -->
+  <!-- EN: Master -->
+  <Master>Mestre</Master>
+  <!-- EN: Pregnant ({0} / {1}) -->
+  <PregnantIconDesc>Grávida ({0} / {1})</PregnantIconDesc>
+  <!-- EN: Bonded to -->
+  <BondedTo>Ligado a</BondedTo>
+  <!-- EN: Sterilize animal. -->
+  <SterilizeAnimal>Esterilizar animal.</SterilizeAnimal>
+  <!-- EN: Animal sterile. -->
+  <AnimalAlreadySterile>Animal estéril.</AnimalAlreadySterile>
+  
+  <!-- Wildlife tab -->
+  <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
+  <IsPredator>Esta criatura é um predador. Quando tem fome, caça criaturas mais pequenas, possivelmente incluindo pessoas.</IsPredator>
+  <!-- EN: This creature is currently in mental state: {0} -->
+  <IsInMentalState>Esta criatura está atualmente em estado mental: {0}</IsInMentalState>
+  
+  <!-- Factions tab -->
+  <!-- EN: Hostile -->
+  <Hostile>Hostil</Hostile>
+  <!-- EN: Ally -->
+  <Ally>Aliado</Ally>
+  <!-- EN: hostile -->
+  <HostileLower>hostil</HostileLower>
+  <!-- EN: ally -->
+  <AllyLower>aliado</AllyLower>
+  <!-- EN: defeated -->
+  <DefeatedLower>derrotado</DefeatedLower>
+  <!-- EN: Enemy of {0} -->
+  <HostileTo>Inimigo de {0}</HostileTo>
+  <!-- EN: Enemy of:  -->
+  <EnemyOf>Inimigo de:</EnemyOf>
+  <!-- EN: Recent events -->
+  <RecentEvents>Eventos recentes</RecentEvents>
+  <!-- EN: Ongoing events -->
+  <OngoingEvents>Eventos em curso</OngoingEvents>
+  <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
+  <CurrentGoodwillTip_PermanentEnemy>Esta fação é permanentemente hostil. Vai atacar as tuas povoações e caravanas. As relações com ela nunca irão melhorar, seja qual for o motivo.</CurrentGoodwillTip_PermanentEnemy>
+  <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
+  <CurrentGoodwillTip_Ally>Esta fação é aliada. Enviará combatentes para te ajudar quando puder. Se as relações descerem abaixo de {0}, tornar-se-á neutra.</CurrentGoodwillTip_Ally>
+  <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
+  <CurrentGoodwillTip_Neutral>Esta fação é neutra. Vai negociar e conversar livremente contigo. Se as relações descerem abaixo de {0}, tornar-se-á hostil. Se as relações subirem acima de {1}, tornar-se-á aliada e começará a trabalhar ativamente para te ajudar.</CurrentGoodwillTip_Neutral>
+  <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
+  <CurrentGoodwillTip_Hostile>Esta fação é hostil. Vai atacar as tuas povoações e caravanas. Se as relações subirem acima de {0}, tornar-se-á neutra.</CurrentGoodwillTip_Hostile>
+
+  <!-- Social tab -->
+  <!-- EN: Friend -->
+  <Friend>Amigo(a)</Friend>
+  <!-- EN: Rival -->
+  <Rival>Rival</Rival>
+  <!-- EN: Acquaintance -->
+  <Acquaintance>Conhecido(a)</Acquaintance>
+  
+  <!-- History tab - subtabs -->
+  <!-- EN: Graph -->
+  <Graph>Gráfico</Graph>
+  <!-- EN: Messages -->
+  <Messages>Mensagens</Messages>
+  <!-- EN: Statistics -->
+  <Statistics>Estatísticas</Statistics>
+  
+  <!-- History tab - Graphs -->
+  <!-- EN: Select graph -->
+  <SelectGraph>Selecionar gráfico</SelectGraph>
+  <!-- EN: Last 30 days -->
+  <Last30Days>Últimos 30 dias</Last30Days>
+  <!-- EN: Last 100 days -->
+  <Last100Days>Últimos 100 dias</Last100Days>
+  <!-- EN: Last 300 days -->
+  <Last300Days>Últimos 300 dias</Last300Days>
+  <!-- EN: All -->
+  <AllDays>Todos</AllDays>
+  <!-- EN: Value -->
+  <Value>Valor</Value>
+  <!-- EN: External -->
+  <External>Externo</External>
+
+  <!-- History tab - Messages -->
+  <!-- EN: Show letters -->
+  <ShowLetters>Mostrar cartas</ShowLetters>
+  <!-- EN: Show messages -->
+  <ShowMessages>Mostrar mensagens</ShowMessages>
+  <!-- EN: Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages. -->
+  <PinArchivableTip>Afixa ou desafixa esta mensagem.\n\nAs mensagens mais antigas não afixadas serão automaticamente removidas da lista após atingir o limite de {0} mensagens.</PinArchivableTip>
+  <!-- EN: no messages -->
+  <NoMessages>sem mensagens</NoMessages>
+
+  <!-- History tab - Statistics -->
+  <!-- EN: Play time -->
+  <Playtime>Tempo de jogo</Playtime>
+  <!-- EN: Storyteller -->
+  <Storyteller>Narrador</Storyteller>
+  <!-- EN: Colony wealth (this map) -->
+  <ThisMapColonyWealthTotal>Riqueza da colónia (neste mapa)</ThisMapColonyWealthTotal>
+  <!-- EN: Colony wealth (items) (this map) -->
+  <ThisMapColonyWealthItems>Riqueza da colónia (itens) (neste mapa)</ThisMapColonyWealthItems>
+  <!-- EN: Colony wealth (buildings) (this map) -->
+  <ThisMapColonyWealthBuildings>Riqueza da colónia (edifícios) (neste mapa)</ThisMapColonyWealthBuildings>
+  <!-- EN: Colony wealth (people and animals) (this map) -->
+  <ThisMapColonyWealthColonistsAndTameAnimals>Riqueza da colónia (pessoas e animais) (neste mapa)</ThisMapColonyWealthColonistsAndTameAnimals>
+  <!-- EN: Major threats -->
+  <NumThreatBigs>Grandes ameaças</NumThreatBigs>
+  <!-- EN: Enemy raids -->
+  <NumEnemyRaids>Ataques inimigos</NumEnemyRaids>
+  <!-- EN: Damage taken (this map) -->
+  <ThisMapDamageTaken>Dano sofrido (neste mapa)</ThisMapDamageTaken>
+  <!-- EN: Colonists killed -->
+  <ColonistsKilled>Colonos mortos</ColonistsKilled>
+  <!-- EN: Colonists launched into space -->
+  <ColonistsLaunched>Colonos lançados para o espaço</ColonistsLaunched>
+
+  <!-- Research tab -->
+  <!-- EN: Research -->
+  <Research>Investigação</Research>
+  <!-- EN: Study -->
+  <Study>Estudar</Study>
+  <!-- EN: Study {0} -->
+  <StudyThing>Estudar {0}</StudyThing>
+  <!-- EN: Unresearched -->
+  <Unresearched>Por investigar</Unresearched>
+  <!-- EN: Finished -->
+  <Finished>Concluído</Finished>
+  <!-- EN: In Progress -->
+  <InProgress>Em progresso</InProgress>
+  <!-- EN: Locked -->
+  <Locked>Bloqueado</Locked>
+  <!-- EN: Prerequisites -->
+  <Prerequisites>Pré-requisitos</Prerequisites>
+  <!-- EN: Techprints required {0} / {1} -->
+  <ResearchTechprintRequirement>Tecnoplanos necessários {0} / {1}</ResearchTechprintRequirement>
+  <!-- EN: Insufficient techprints applied ({0} / {1}) -->
+  <InsufficientTechprintsApplied>Tecnoplanos aplicados insuficientes ({0} / {1})</InsufficientTechprintsApplied>
+  <!-- EN: Prerequisite(s) not completed -->
+  <PrerequisitesNotCompleted>Pré-requisito(s) por concluir</PrerequisitesNotCompleted>
+  <!-- EN: No project active. -->
+  <NoProjectSelected>Nenhum projeto ativo.</NoProjectSelected>
+  <!-- EN: Active projects -->
+  <ActiveProjectPlural>Projetos ativos</ActiveProjectPlural>
+  <!-- EN: Active project -->
+  <ActiveProject>Projeto ativo</ActiveProject>
+  <!-- EN: Stop research -->
+  <StopResearch>Parar investigação</StopResearch>
+  <!-- EN: Missing required research facilities -->
+  <MissingRequiredResearchFacilities>Faltam as instalações de investigação necessárias</MissingRequiredResearchFacilities>
+  <!-- EN: Required research bench -->
+  <RequiredResearchBench>Bancada de investigação necessária</RequiredResearchBench>
+  <!-- EN: Required research bench facilities -->
+  <RequiredResearchBenchFacilities>Instalações da bancada de investigação necessárias</RequiredResearchBenchFacilities>
+  <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
+  <ResearchCostComparison>O custo base do projeto, {0}, passa a ser {1} para ti devido ao teu nível tecnológico.</ResearchCostComparison>
+  <!-- EN: Techprints are available from these factions via trade and quests: -->
+  <ResearchTechprintsFromFactions>Os tecnoplanos estão disponíveis nestas fações, através de comércio e missões:</ResearchTechprintsFromFactions>
+  <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
+  <TechLevelTooLow>O nível tecnológico da tua fação é {0}, mas o nível tecnológico deste projeto é {1}. A velocidade de investigação será multiplicada por {2}.</TechLevelTooLow>
+  <!-- EN: Unlocked with -->
+  <UnlockedWith>Desbloqueado com</UnlockedWith>
+  <!-- EN: Research one or more of this project's prerequisites to discover it. -->
+  <UnknownResearchDescription>Investiga um ou mais pré-requisitos deste projeto para o descobrir.</UnknownResearchDescription>
+  <!-- EN: unknown -->
+  <UnknownResearch>desconhecido</UnknownResearch>
+
+  <!-- Factions tab -->
+  <!-- EN: Factions -->
+  <FactionsTab>Fações</FactionsTab>
+  <!-- EN: No known factions -->
+  <NoFactions>Sem fações conhecidas</NoFactions>
+
+  <!-- Quests tab -->
+  <!-- EN: Available -->
+  <AvailableQuests>Disponível</AvailableQuests>
+  <!-- EN: Active -->
+  <ActiveQuests>Ativo</ActiveQuests>
+  <!-- EN: Historical -->
+  <HistoricalQuests>Histórico</HistoricalQuests>
+  <!-- EN: no quest selected -->
+  <NoQuestSelected>sem missão selecionada</NoQuestSelected>
+  <!-- EN: Appeared {0} days ago -->
+  <AppearedDaysAgo>Apareceu há {0} dias</AppearedDaysAgo>
+  <!-- EN: Appeared on {0} -->
+  <AppearedOn>Apareceu em {0}</AppearedOn>
+  <!-- EN: Accepted {0} ago -->
+  <AcceptedAgo>Aceite há {0}</AcceptedAgo>
+  <!-- EN: Accepted on {0} -->
+  <AcceptedOn>Aceite em {0}</AcceptedOn>
+  <!-- EN: Accepted {0} ago by {1} -->
+  <AcceptedAgoBy>Aceite há {0} por {1}</AcceptedAgoBy>
+  <!-- EN: Accepted on {0} by {1} -->
+  <AcceptedOnBy>Aceite em {0} por {1}</AcceptedOnBy>
+  <!-- EN: Expires in {0} -->
+  <QuestExpiresIn>Expira em {0}</QuestExpiresIn>
+  <!-- EN: Expires on {0} -->
+  <QuestExpiresOn>Expira em {0}</QuestExpiresOn>
+  <!-- EN: Average guest mood (previous {0}): {1} -->
+  <QuestAveragePawnMood>Humor médio dos convidados (últimos {0}): {1}</QuestAveragePawnMood>
+  <!-- EN: The average mood of {0} over the previous {1} -->
+  <QuestAveragePawnMoodTargets>O humor médio de {0} durante os últimos {1}</QuestAveragePawnMoodTargets>
+  <!-- EN: Shuttle arrives in {0} -->
+  <ShuttleArrivesIn>O vaivém chega em {0}</ShuttleArrivesIn>
+  <!-- EN: Shuttle arrives on {0} -->
+  <ShuttleArrivesOn>O vaivém chega em {0}</ShuttleArrivesOn>
+  <!-- EN: Shuttle departs in {0} -->
+  <ShuttleDepartsIn>O vaivém parte em {0}</ShuttleDepartsIn>
+  <!-- EN: Shuttle departs on {0} -->
+  <ShuttleDepartsOn>O vaivém parte em {0}</ShuttleDepartsOn>
+  <!-- EN: Guests depart in {0} -->
+  <GuestsDepartsIn>Os convidados partem em {0}</GuestsDepartsIn>
+  <!-- EN: Guests depart on {0} -->
+  <GuestsDepartsOn>Os convidados partem em {0}</GuestsDepartsOn>
+  <!-- EN: Finished {0} ago -->
+  <QuestFinishedAgo>Terminou há {0}</QuestFinishedAgo>
+  <!-- EN: Accept quest -->
+  <AcceptQuest>Aceitar missão</AcceptQuest>
+  <!-- EN: Accept with {0_labelShort} -->
+  <AcceptWith>Aceitar com {0_labelShort}</AcceptWith>
+  <!-- EN: Accept for -->
+  <AcceptQuestFor>Aceitar para</AcceptQuestFor>
+  <!-- EN: Click to accept this quest for this reward. -->
+  <AcceptQuestForTip>Clica para aceitar esta missão por esta recompensa.</AcceptQuestForTip>
+  <!-- EN: The offer expired. -->
+  <QuestOutcomeInfo_OfferExpired>A oferta expirou.</QuestOutcomeInfo_OfferExpired>
+  <!-- EN: You completed this quest. -->
+  <QuestOutcomeInfo_UnknownOrSuccess>Tu completaste esta missão.</QuestOutcomeInfo_UnknownOrSuccess>
+  <!-- EN: You failed this quest. -->
+  <QuestOutcomeInfo_Failed>Tu falhaste esta missão.</QuestOutcomeInfo_Failed>
+  <!-- EN: This quest became invalid before it was accepted. -->
+  <QuestOutcomeInfo_Invalid>Esta missão tornou-se inválida antes de ser aceite.</QuestOutcomeInfo_Invalid>
+  <!-- EN: Jump to {0} -->
+  <JumpToTargetCustom>Saltar para {0}</JumpToTargetCustom>
+  <!-- EN: Select hives -->
+  <SelectHiveTargets>Selecionar colmeias</SelectHiveTargets>
+  <!-- EN: Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate -->
+  <QuestChallengeRatingTip>Classificação de desafio. É uma classificação geral da dificuldade da missão em relação à tua força atual. As missões mais desafiantes dão recompensas maiores.\n\n1: Normal\n2: Difícil\n3: Extremo\n4: Derradeiro</QuestChallengeRatingTip>
+  <!-- EN: To accept this quest, you need -->
+  <QuestAcceptanceRequirementsDescription>Para aceitar esta missão, precisas de</QuestAcceptanceRequirementsDescription>
+  <!-- EN: free bedrooms that satisfy the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfied>quartos livres que cumpram os requisitos do título de</QuestBedroomRequirementsUnsatisfied>
+  <!-- EN: a free bedroom that satisfies the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfiedSingle>um quarto livre que cumpra os requisitos do título de</QuestBedroomRequirementsUnsatisfiedSingle>
+  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <QuestThroneRoomRequirementsUnsatisfied>uma sala do trono que cumpra os requisitos do título {TITLE} de {PAWN_definite}</QuestThroneRoomRequirementsUnsatisfied>
+  <!-- EN: assign a throne for {PAWN_definite} -->
+  <QuestNoThroneRoom>atribui um trono a {PAWN_definite}</QuestNoThroneRoom>
+  <!-- EN: a colonist with the title of {0} -->
+  <QuestNoColonistWithTitle>um colono com o título de {0}</QuestNoColonistWithTitle>
+  <!-- EN: {PAWN_definite} to be in your home colony -->
+  <QuestPawnNotOnColonyMap>{PAWN_definite} estar na tua colónia principal</QuestPawnNotOnColonyMap>
+  <!-- EN: the map clear of enemies of the bestower's faction -->
+  <QuestRequiresNoDangerOnMap>o mapa livre de inimigos da fação do outorgante</QuestRequiresNoDangerOnMap>
+  <!-- EN: that {PROJECT_label} has been researched. -->
+  <QuestRequiresResearch>que {PROJECT_label} tenha sido investigado.</QuestRequiresResearch>
+  <!-- EN: to finish the ongoing bestowing ceremony quest -->
+  <QuestCanNotStartUntilBestowingCeremonyFinished>terminar a missão da cerimónia de outorga em curso</QuestCanNotStartUntilBestowingCeremonyFinished>
+  <!-- EN: Reward preferences -->
+  <ChooseRewards>Preferências de recompensa</ChooseRewards>
+  <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
+  <ChooseRewardsDesc>Diz às outras fações que tipos de recompensas pretendes em missões futuras. Isto não afeta as missões que já foram oferecidas.</ChooseRewardsDesc>
+  <!-- EN: Accept {FACTION_royalFavorLabel} -->
+  <AcceptRoyalFavor>Aceitar {FACTION_royalFavorLabel}</AcceptRoyalFavor>
+  <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
+  <AcceptRoyalFavorDesc>Se desejas ser recompensado com {FACTION_royalFavorLabel} de {FACTION_name}.\n\nSe esta opção estiver desativada, {FACTION_name} oferecerá outros tipos de recompensa.\n\nEsta definição só afeta as missões que cheguem de novo.</AcceptRoyalFavorDesc>
+  <!-- EN: Accept goodwill -->
+  <AcceptGoodwill>Aceitar boa vontade</AcceptGoodwill>
+  <!-- EN: Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests. -->
+  <AcceptGoodwillDesc>Se desejas ser recompensado através de melhores relações com {FACTION_name}.\n\nSe esta opção estiver desativada, {FACTION_name} oferecerá outros tipos de recompensa.\n\nEsta definição só afeta as missões geradas de novo.</AcceptGoodwillDesc>
+  <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
+  <RoyalFavorOn>Atualmente, optaste por receber {FACTION_royalFavorLabel}.</RoyalFavorOn>
+  <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
+  <RoyalFavorOff>Atualmente, optaste por não receber {FACTION_royalFavorLabel}.</RoyalFavorOff>
+  <!-- EN: Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely. -->
+  <GoodwillTip>A tua boa vontade com {0_name} vai aumentar em {1}.\n\nBoa vontade atual: {4} ({5}).\n\nA boa vontade mede a relação geral entre fações. Se descer abaixo de {2}, a fação torna-se hostil e ataca as tuas povoações e caravanas. Se subir acima de {3}, a fação torna-se tua aliada e envia combatentes para te ajudar quando puder. Caso contrário, a fação permanece neutra e negoceia e conversa livremente contigo.</GoodwillTip>
+  <!-- EN: {0_labelShort} joins -->
+  <PawnQuestReward>{0_labelShort} junta-se</PawnQuestReward>
+  <!-- EN: Betrayal offer: {0} targets remain -->
+  <QuestBetrayalOffer>Oferta de traição: {0} alvos restantes</QuestBetrayalOffer>
+  <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
+  <QuestBetrayalOfferTip>{0} dar-te-á uma recompensa por matares todos os membros de {1}.</QuestBetrayalOfferTip>
+  <!-- EN: a colony wealth of at least {0} -->
+  <QuestRequiredPlayerWealth>uma riqueza de colónia de pelo menos {0}</QuestRequiredPlayerWealth>
+  <!-- EN: alliance with {0} -->
+  <QuestAlliedTo>aliança com {0}</QuestAlliedTo>
+  <!-- EN: hostile to {0} -->
+  <QuestHostileTo>hostil a {0}</QuestHostileTo>
+  <!-- EN: neutral to {0} -->
+  <QuestNeutralTo>neutro com {0}</QuestNeutralTo>
+  <!-- EN: studied {0_labelShort} -->
+  <QuestRequiredThingStudied>{0_labelShort} estudado</QuestRequiredThingStudied>
+  <!-- EN: cannot accept {GERUND} {LAYER} -->
+  <QuestRequiredLayer>não é possível aceitar {GERUND} {LAYER}</QuestRequiredLayer>
+  <!-- EN: cannot accept in space -->
+  <QuestNotSpace>não é possível aceitar no espaço</QuestNotSpace>
+
+  <!-- Health tab -->
+  <!-- EN: Creates need -->
+  <CreatesNeed>Cria necessidade</CreatesNeed>
+  <!-- EN: Change defaults... -->
+  <ChangeDefaults>Alterar predefinições...</ChangeDefaults>
+
+  <!-- Misc -->
+  <!-- EN: Click to edit -->
+  <ClickToEdit>Clica para editar</ClickToEdit>
+  <!-- EN: Assign -->
+  <AssignButton>Atribuir</AssignButton>
+  <!-- EN: Unassign -->
+  <UnassignButton>Cancelar atribuição</UnassignButton>
+  
+  <!-- Books -->
+  <!-- EN: Mental break chance -->
+  <BookMentalBreakChance>Probabilidade de colapso mental</BookMentalBreakChance>
+  
+  <!-- EN: Recreation gain multiplier -->
+  <BookJoyFactor>Multiplicador de ganho de recreação</BookJoyFactor>
+  
+</LanguageData>

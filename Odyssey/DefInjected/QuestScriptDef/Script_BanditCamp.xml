@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of a camp controlled by [siteFaction_name]. The camp contains hostile [siteFaction_pawnsPlural], but you don't know what defenses they have.</li>
+  -->
+  <OpportunitySite_BanditCamp_Giver.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] a localização de um acampamento controlado por [siteFaction_name]. O acampamento contém [siteFaction_pawnsPlural] hostis, mas não sabes que defesas têm.</li>
+  </OpportunitySite_BanditCamp_Giver.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [bandit] [camp]</li>
+    <li>questName->[bandit] [camp]</li>
+    <li>questName->[asker_nameDef] and the [camp]</li>
+    <li>camp->Camp</li>
+    <li>camp->Outpost</li>
+    <li>camp->Lair</li>
+    <li>camp->Encampment</li>
+    <li>bandit->Bandit</li>
+    <li>bandit->Raider</li>
+    <li>bandit->Outlaw</li>
+    <li>bandit->Desperado</li>
+    <li>bandit->Fugitive</li>
+    <li>bandit->Marauder</li>
+    <li>bandit->Robber</li>
+    <li>bandit->Brigand</li>
+  -->
+  <OpportunitySite_BanditCamp_Giver.questNameRules.rulesStrings>
+    <li>questName->O [camp] dos [bandit]</li>
+    <li>questName->[camp] de [bandit]</li>
+    <li>questName->[asker_nameDef] e o [camp]</li>
+    <li>camp->Acampamento</li>
+    <li>camp->Posto Avançado</li>
+    <li>camp->Covil</li>
+    <li>camp->Reduto</li>
+    <li>bandit->Bandidos</li>
+    <li>bandit->Salteadores</li>
+    <li>bandit->Fora-da-Lei</li>
+    <li>bandit->Desesperados</li>
+    <li>bandit->Fugitivos</li>
+    <li>bandit->Saqueadores</li>
+    <li>bandit->Ladrões</li>
+    <li>bandit->Facínoras</li>
+  </OpportunitySite_BanditCamp_Giver.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->bandit camps</li>
+    <li>subject->outlaws</li>
+    <li>subject->raider sightings</li>
+    <li>questMapFeature->small camp</li>
+    <li>questMapFeature->bandit outpost</li>
+    <li>questMapFeature->raider encampment</li>
+    <li>questMapText->dangerous folk</li>
+    <li>questMapText->camp loot</li>
+    <li>questMapText->trespassers get skinned</li>
+    <li>questMapText->traders beware - outlaws</li>
+  -->
+  <OpportunitySite_BanditCamp_Giver.questSubjectRules.rulesStrings>
+    <li>subject->acampamentos de bandidos</li>
+    <li>subject->fora-da-lei</li>
+    <li>subject->avistamentos de atacantes</li>
+    <li>questMapFeature->pequeno acampamento</li>
+    <li>questMapFeature->posto avançado de bandidos</li>
+    <li>questMapFeature->acampamento de atacantes</li>
+    <li>questMapText->gente perigosa</li>
+    <li>questMapText->saque do acampamento</li>
+    <li>questMapText->intrusos são esfolados</li>
+    <li>questMapText->comerciantes, cuidado: fora-da-lei</li>
+  </OpportunitySite_BanditCamp_Giver.questSubjectRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>Missão expirada: [resolvedQuestName]</OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>
+  <!-- EN: The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>O acampamento de bandidos levantou arraial e foi-se embora. A missão [resolvedQuestName] expirou.</OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <OpportunitySite_BanditCamp_Giver.LetterLabelQuestFailed.slateRef>Missão falhada: [resolvedQuestName]</OpportunitySite_BanditCamp_Giver.LetterLabelQuestFailed.slateRef>
+  <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
+  <OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>Depois de ter sido descoberto, o acampamento de bandidos dispersou-se. A missão [resolvedQuestName] terminou.</OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>
+  
+</LanguageData>

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: failed conversion -->
+  <Convert_Failure.label>conversão falhada</Convert_Failure.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef], but failed.</li>
+  -->
+  <Convert_Failure.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] tentou converter [RECIPIENT_nameDef], mas falhou.</li>
+  </Convert_Failure.logRulesInitiator.rulesStrings>
+  
+  
+  <!-- EN: successful conversion -->
+  <Convert_Success.label>conversão bem-sucedida</Convert_Success.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] and succeeded.</li>
+  -->
+  <Convert_Success.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] tentou converter [RECIPIENT_nameDef] e conseguiu.</li>
+  </Convert_Success.logRulesInitiator.rulesStrings>
+  
+  
+  <!-- EN: convert ideoligion attempt -->
+  <ConvertIdeoAttempt.label>tentativa de conversão de ideoligião</ConvertIdeoAttempt.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] to [INITIATOR_possessive] own ideoligion.</li>
+  -->
+  <ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] tentou converter [RECIPIENT_nameDef] à sua própria ideoligião.</li>
+  </ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
+  
+  
+  <!-- EN: failed counsel -->
+  <Counsel_Failure.label>conselho falhado</Counsel_Failure.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to counsel [RECIPIENT_nameDef], but botched the attempt and made things worse.</li>
+  -->
+  <Counsel_Failure.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] tentou aconselhar [RECIPIENT_nameDef], mas estragou tudo e piorou a situação.</li>
+  </Counsel_Failure.logRulesInitiator.rulesStrings>
+  
+  
+  <!-- EN: successful counsel -->
+  <Counsel_Success.label>conselho bem-sucedido</Counsel_Success.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] counseled [RECIPIENT_nameDef] on [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] helped [RECIPIENT_nameDef] think through [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] gave [RECIPIENT_nameDef] advice on overcoming negativity.</li>
+    <li>problems->[RECIPIENT_possessive] problems</li>
+    <li>problems->[RECIPIENT_possessive] troubles</li>
+    <li>problems->[RECIPIENT_possessive] painful feelings</li>
+    <li>problems->recent difficulties</li>
+  -->
+  <Counsel_Success.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] aconselhou [RECIPIENT_nameDef] sobre [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ajudou [RECIPIENT_nameDef] a refletir sobre [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] deu a [RECIPIENT_nameDef] conselhos para superar a negatividade.</li>
+    <li>problems->os problemas de [RECIPIENT_nameDef]</li>
+    <li>problems->as preocupações de [RECIPIENT_nameDef]</li>
+    <li>problems->os sentimentos dolorosos de [RECIPIENT_nameDef]</li>
+    <li>problems->as dificuldades recentes</li>
+  </Counsel_Success.logRulesInitiator.rulesStrings>
+  
+  
+  <!-- EN: preached health -->
+  <PreachHealth.label>pregação de saúde</PreachHealth.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] strengthened [RECIPIENT_nameDef]'s health by preaching about [preaching_topic].</li>
+    <li>preaching_topic->reasons to live</li>
+    <li>preaching_topic->higher ideoligious goals</li>
+    <li>preaching_topic->[RECIPIENT_possessive] purpose of existence</li>
+  -->
+  <PreachHealth.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] fortaleceu a saúde de [RECIPIENT_nameDef] ao pregar sobre [preaching_topic].</li>
+    <li>preaching_topic->razões para viver</li>
+    <li>preaching_topic->objetivos ideoligiosos mais elevados</li>
+    <li>preaching_topic->o propósito da existência de [RECIPIENT_nameDef]</li>
+  </PreachHealth.logRulesInitiator.rulesStrings>
+  
+  
+  <!-- EN: reassurance -->
+  <Reassure.label>tranquilização</Reassure.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] reinforced [RECIPIENT_nameDef]'s beliefs.</li>
+  -->
+  <Reassure.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] reforçou as crenças de [RECIPIENT_nameDef].</li>
+  </Reassure.logRulesInitiator.rulesStrings>
+  
+  
+  <!-- EN: accuse -->
+  <Trial_Accuse.label>acusar</Trial_Accuse.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] presented some evidence.</li>
+    <li>r_logentry->[INITIATOR_nameDef] appealed to the emotions of the spectators.</li>
+    <li>r_logentry->[INITIATOR_nameDef] accused [RECIPIENT_nameDef] of [wrongdoing].</li>
+    <li>wrongdoing->sabotaging the colony</li>
+    <li>wrongdoing->being lazy</li>
+    <li>wrongdoing->eating too much</li>
+    <li>wrongdoing->stealing</li>
+    <li>wrongdoing->being a horrible person</li>
+    <li>wrongdoing->disrespecting sacred ideas</li>
+    <li>wrongdoing->disrespecting respected figures</li>
+    <li>wrongdoing->heresy</li>
+    <li>wrongdoing->murder</li>
+    <li>wrongdoing->blasphemy</li>
+    <li>wrongdoing->treason</li>
+    <li>wrongdoing->hateful thinking</li>
+    <li>wrongdoing->disloyalty</li>
+  -->
+  <Trial_Accuse.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] apresentou algumas provas.</li>
+    <li>r_logentry->[INITIATOR_nameDef] apelou às emoções dos espectadores.</li>
+    <li>r_logentry->[INITIATOR_nameDef] acusou [RECIPIENT_nameDef] de [wrongdoing].</li>
+    <li>wrongdoing->sabotar a colónia</li>
+    <li>wrongdoing->ser preguiçoso</li>
+    <li>wrongdoing->comer demasiado</li>
+    <li>wrongdoing->roubar</li>
+    <li>wrongdoing->ser uma pessoa horrível</li>
+    <li>wrongdoing->desrespeitar ideias sagradas</li>
+    <li>wrongdoing->desrespeitar figuras respeitadas</li>
+    <li>wrongdoing->heresia</li>
+    <li>wrongdoing->homicídio</li>
+    <li>wrongdoing->blasfémia</li>
+    <li>wrongdoing->traição</li>
+    <li>wrongdoing->pensamento de ódio</li>
+    <li>wrongdoing->deslealdade</li>
+  </Trial_Accuse.logRulesInitiator.rulesStrings>
+  
+  
+  <!-- EN: defend -->
+  <Trial_Defend.label>defender</Trial_Defend.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] deflected the accusation.</li>
+    <li>r_logentry->[INITIATOR_nameDef] presented another interpretation.</li>
+    <li>r_logentry->[INITIATOR_nameDef] pleaded to jury.</li>
+    <li>r_logentry->[INITIATOR_nameDef] called for mercy.</li>
+    <li>r_logentry->[INITIATOR_nameDef] stalled the proceedings.</li>
+    <li>r_logentry->[INITIATOR_nameDef] dismissed the allegations.</li>
+    <li>r_logentry->[INITIATOR_nameDef] called the trial a sham.</li>
+  -->
+  <Trial_Defend.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] desviou a acusação.</li>
+    <li>r_logentry->[INITIATOR_nameDef] apresentou outra interpretação.</li>
+    <li>r_logentry->[INITIATOR_nameDef] apelou ao júri.</li>
+    <li>r_logentry->[INITIATOR_nameDef] pediu clemência.</li>
+    <li>r_logentry->[INITIATOR_nameDef] adiou o processo.</li>
+    <li>r_logentry->[INITIATOR_nameDef] rejeitou as alegações.</li>
+    <li>r_logentry->[INITIATOR_nameDef] chamou ao julgamento uma farsa.</li>
+  </Trial_Defend.logRulesInitiator.rulesStrings>
+  
+  
+  <!-- EN: work drive -->
+  <WorkDrive.label>impulso de trabalho</WorkDrive.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] called upon [RECIPIENT_nameDef] to work extra hard for the good of the colony.</li>
+  -->
+  <WorkDrive.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] apelou a [RECIPIENT_nameDef] para que trabalhasse com redobrado esforço pelo bem da colónia.</li>
+  </WorkDrive.logRulesInitiator.rulesStrings>
+  
+  
+</LanguageData>

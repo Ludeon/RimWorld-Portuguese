@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: biosculpter occupant speed -->
+  <BiosculpterOccupantSpeed.label>velocidade do ocupante da cápsula de bioescultura</BiosculpterOccupantSpeed.label>
+  <!-- EN: A multiplier on how quickly this person will complete a biosculpter pod cycle. -->
+  <BiosculpterOccupantSpeed.description>Um multiplicador da rapidez com que esta pessoa conclui um ciclo da cápsula de bioescultura.</BiosculpterOccupantSpeed.description>
+  
+  <!-- EN: global certainty loss factor -->
+  <CertaintyLossFactor.label>fator global de perda de certeza</CertaintyLossFactor.label>
+  <!-- EN: A multiplier on how much certainty this person loses when someone else tries to convert them away from their ideoligion. -->
+  <CertaintyLossFactor.description>Um multiplicador da certeza que esta pessoa perde quando alguém a tenta afastar da sua ideoligião.</CertaintyLossFactor.description>
+  
+  <!-- EN: conversion power -->
+  <ConversionPower.label>poder de conversão</ConversionPower.label>
+  <!-- EN: How effective this person is at converting others to their own ideoligion. When this person attempts to convert someone else, this value multiplies the amount of certainty the other person loses. -->
+  <ConversionPower.description>A eficácia desta pessoa a converter outros à sua ideoligião. Quando esta pessoa tenta converter alguém, este valor multiplica a quantidade de certeza que a outra pessoa perde.</ConversionPower.description>
+  
+  <!-- EN: melee dodge chance indoors dark -->
+  <MeleeDodgeChanceIndoorsDarkOffset.label>probabilidade de esquiva corpo a corpo no interior às escuras</MeleeDodgeChanceIndoorsDarkOffset.label>
+  <!-- EN: An offset on melee dodge chance if the target is indoors in the dark. -->
+  <MeleeDodgeChanceIndoorsDarkOffset.description>Um modificador da probabilidade de esquiva corpo a corpo se o alvo estiver no interior, às escuras.</MeleeDodgeChanceIndoorsDarkOffset.description>
+  
+  <!-- EN: melee dodge chance indoors lit -->
+  <MeleeDodgeChanceIndoorsLitOffset.label>probabilidade de esquiva corpo a corpo no interior iluminado</MeleeDodgeChanceIndoorsLitOffset.label>
+  <!-- EN: An offset on melee dodge chance if the target is indoors and lit. -->
+  <MeleeDodgeChanceIndoorsLitOffset.description>Um modificador da probabilidade de esquiva corpo a corpo se o alvo estiver no interior e iluminado.</MeleeDodgeChanceIndoorsLitOffset.description>
+  
+  <!-- EN: melee dodge chance outdoors night -->
+  <MeleeDodgeChanceOutdoorsDarkOffset.label>probabilidade de esquiva corpo a corpo no exterior de noite</MeleeDodgeChanceOutdoorsDarkOffset.label>
+  <!-- EN: An offset on melee dodge chance if the target is outdoors at night. -->
+  <MeleeDodgeChanceOutdoorsDarkOffset.description>Um modificador da probabilidade de esquiva corpo a corpo se o alvo estiver no exterior, de noite.</MeleeDodgeChanceOutdoorsDarkOffset.description>
+  
+  <!-- EN: melee dodge chance outdoors day -->
+  <MeleeDodgeChanceOutdoorsLitOffset.label>probabilidade de esquiva corpo a corpo no exterior de dia</MeleeDodgeChanceOutdoorsLitOffset.label>
+  <!-- EN: An offset on melee dodge chance if the target is outdoors during the day. -->
+  <MeleeDodgeChanceOutdoorsLitOffset.description>Um modificador da probabilidade de esquiva corpo a corpo se o alvo estiver no exterior, de dia.</MeleeDodgeChanceOutdoorsLitOffset.description>
+  
+  <!-- EN: melee hit chance indoors dark -->
+  <MeleeHitChanceIndoorsDarkOffset.label>probabilidade de acerto corpo a corpo no interior às escuras</MeleeHitChanceIndoorsDarkOffset.label>
+  <!-- EN: An offset on melee hit chance if the target is indoors in the dark. -->
+  <MeleeHitChanceIndoorsDarkOffset.description>Um modificador da probabilidade de acerto corpo a corpo se o alvo estiver no interior, às escuras.</MeleeHitChanceIndoorsDarkOffset.description>
+  
+  <!-- EN: melee hit chance indoors lit -->
+  <MeleeHitChanceIndoorsLitOffset.label>probabilidade de acerto corpo a corpo no interior iluminado</MeleeHitChanceIndoorsLitOffset.label>
+  <!-- EN: An offset on melee hit chance if the target is indoors and lit. -->
+  <MeleeHitChanceIndoorsLitOffset.description>Um modificador da probabilidade de acerto corpo a corpo se o alvo estiver no interior e iluminado.</MeleeHitChanceIndoorsLitOffset.description>
+  
+  <!-- EN: melee hit chance outdoors dark -->
+  <MeleeHitChanceOutdoorsDarkOffset.label>probabilidade de acerto corpo a corpo no exterior às escuras</MeleeHitChanceOutdoorsDarkOffset.label>
+  <!-- EN: An offset on melee hit chance if the target is outdoors at night. -->
+  <MeleeHitChanceOutdoorsDarkOffset.description>Um modificador da probabilidade de acerto corpo a corpo se o alvo estiver no exterior, de noite.</MeleeHitChanceOutdoorsDarkOffset.description>
+  
+  <!-- EN: melee hit chance outdoors lit -->
+  <MeleeHitChanceOutdoorsLitOffset.label>probabilidade de acerto corpo a corpo no exterior iluminado</MeleeHitChanceOutdoorsLitOffset.label>
+  <!-- EN: An offset on melee hit chance if the target is outdoors during the day. -->
+  <MeleeHitChanceOutdoorsLitOffset.description>Um modificador da probabilidade de acerto corpo a corpo se o alvo estiver no exterior, de dia.</MeleeHitChanceOutdoorsLitOffset.description>
+  
+  <!-- EN: shooting accuracy indoors dark -->
+  <ShootingAccuracyIndoorsDarkOffset.label>precisão de tiro no interior às escuras</ShootingAccuracyIndoorsDarkOffset.label>
+  <!-- EN: An offset on shooting accuracy if the target is indoors in the dark. -->
+  <ShootingAccuracyIndoorsDarkOffset.description>Um modificador da precisão de tiro se o alvo estiver no interior, às escuras.</ShootingAccuracyIndoorsDarkOffset.description>
+  
+  <!-- EN: shooting accuracy indoors lit -->
+  <ShootingAccuracyIndoorsLitOffset.label>precisão de tiro no interior iluminado</ShootingAccuracyIndoorsLitOffset.label>
+  <!-- EN: An offset on shooting accuracy if the target is indoors and lit. -->
+  <ShootingAccuracyIndoorsLitOffset.description>Um modificador da precisão de tiro se o alvo estiver no interior e iluminado.</ShootingAccuracyIndoorsLitOffset.description>
+  
+  <!-- EN: shooting accuracy outdoors dark -->
+  <ShootingAccuracyOutdoorsDarkOffset.label>precisão de tiro no exterior às escuras</ShootingAccuracyOutdoorsDarkOffset.label>
+  <!-- EN: An offset on shooting accuracy if the target is outdoors at night. -->
+  <ShootingAccuracyOutdoorsDarkOffset.description>Um modificador da precisão de tiro se o alvo estiver no exterior, de noite.</ShootingAccuracyOutdoorsDarkOffset.description>
+  
+  <!-- EN: shooting accuracy outdoors lit -->
+  <ShootingAccuracyOutdoorsLitOffset.label>precisão de tiro no exterior iluminado</ShootingAccuracyOutdoorsLitOffset.label>
+  <!-- EN: An offset on shooting accuracy if the target is outdoors during the day. -->
+  <ShootingAccuracyOutdoorsLitOffset.description>Um modificador da precisão de tiro se o alvo estiver no exterior, de dia.</ShootingAccuracyOutdoorsLitOffset.description>
+  
+  <!-- EN: ideoligion spread chance -->
+  <SocialIdeoSpreadFrequencyFactor.label>probabilidade de difusão da ideoligião</SocialIdeoSpreadFrequencyFactor.label>
+  <!-- EN: A multiplier on the chance that this person will try to convert other people to their own ideoligion. -->
+  <SocialIdeoSpreadFrequencyFactor.description>Um multiplicador da probabilidade de esta pessoa tentar converter outras pessoas à sua ideoligião.</SocialIdeoSpreadFrequencyFactor.description>
+  
+</LanguageData>

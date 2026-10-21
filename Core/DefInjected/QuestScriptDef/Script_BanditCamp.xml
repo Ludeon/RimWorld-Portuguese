@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].</li>
+  -->
+  <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], enviou-nos uma mensagem. Aparentemente, [siteFaction_pawnsPlural] sediados num acampamento próximo têm assaltado as suas caravanas. O acampamento é controlado por [siteFaction_name].\n\n[asker_nameDef] pede-nos que destruamos o acampamento, o que implica eliminar todos os inimigos e torretas. [asker_label] diz que [sitePart0_description].</li>
+  </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [bandit] [camp]</li>
+    <li>questName->[bandit] [camp]</li>
+    <li>questName->[asker_nameDef] and the [camp]</li>
+    <li>camp->Camp</li>
+    <li>camp->Outpost</li>
+    <li>camp->Lair</li>
+    <li>camp->Encampment</li>
+    <li>bandit->Bandit</li>
+    <li>bandit->Raider</li>
+    <li>bandit->Outlaw</li>
+    <li>bandit->Desperado</li>
+    <li>bandit->Fugitive</li>
+    <li>bandit->Marauder</li>
+    <li>bandit->Robber</li>
+    <li>bandit->Brigand</li>
+  -->
+  <OpportunitySite_BanditCamp.questNameRules.rulesStrings>
+    <li>questName->O [camp] de [bandit]</li>
+    <li>questName->[camp] de [bandit]</li>
+    <li>questName->[asker_nameDef] e o [camp]</li>
+    <li>camp->Acampamento</li>
+    <li>camp->Posto avançado</li>
+    <li>camp->Covil</li>
+    <li>camp->Bivaque</li>
+    <li>bandit->Bandidos</li>
+    <li>bandit->Atacantes</li>
+    <li>bandit->Fora-da-lei</li>
+    <li>bandit->Desesperados</li>
+    <li>bandit->Fugitivos</li>
+    <li>bandit->Saqueadores</li>
+    <li>bandit->Ladrões</li>
+    <li>bandit->Salteadores</li>
+  </OpportunitySite_BanditCamp.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>Missão expirada: [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>
+  <!-- EN: The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>O acampamento de bandidos levantou arraiais e seguiu caminho. A missão [resolvedQuestName] expirou.</OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>Missão falhada: [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>
+  <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
+  <OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>Depois de descoberto, o acampamento de bandidos dispersou-se. A missão [resolvedQuestName] terminou.</OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>
+  <!-- EN: Payment arrived -->
+  <OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>Pagamento recebido</OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>
+  <!-- EN: You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived. -->
+  <OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>Derrotaste o acampamento de bandidos!\n\nO pagamento de [asker_faction_name] chegou.</OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>
+  <!-- EN: [asker_faction_royalFavorLabel] -->
+  <OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>
+  <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service. -->
+  <OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>Estes colonos participaram na vitória da missão [resolvedQuestName]. [asker_definite] quer saber quem deve receber [royalFavorReward_amount] de [asker_faction_royalFavorLabel] por este serviço.</OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>
+
+</LanguageData>

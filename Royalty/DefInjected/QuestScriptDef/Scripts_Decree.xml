@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must keep the monument safe for [keepMonumentTicks_duration] after completion, otherwise [asker_nameDef] will be unhappy.</li>
+  -->
+  <Decree_BuildMonument.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nTens de construir um monumento. Tem tamanho [monumentSize] e exigirá estes recursos (valor total [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nTens de manter o monumento em segurança durante [keepMonumentTicks_duration] após a conclusão; caso contrário, [asker_nameDef] ficará descontente.</li>
+  </Decree_BuildMonument.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->monument decree</li>
+  -->
+  <Decree_BuildMonument.questNameRules.rulesStrings>
+    <li>questName->decreto do monumento</li>
+  </Decree_BuildMonument.questNameRules.rulesStrings>
+  <!-- EN: New monument marker arrived -->
+  <Decree_BuildMonument.LetterLabelNewMonumentMarkerArrived.slateRef>Novo marcador de monumento chegou</Decree_BuildMonument.LetterLabelNewMonumentMarkerArrived.slateRef>
+  <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
+  <Decree_BuildMonument.LetterTextNewMonumentMarkerArrived.slateRef>Como o marcador do monumento foi destruído, foi enviado um novo.</Decree_BuildMonument.LetterTextNewMonumentMarkerArrived.slateRef>
+  <!-- EN: Monument completed -->
+  <Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>Monumento concluído</Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>
+  <!-- EN: You have completed construction of the monument.\n\nYou must keep it safe for [keepMonumentTicks_duration], otherwise [asker_nameDef] will be displeased. -->
+  <Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>Concluíste a construção do monumento.\n\nTens de o manter em segurança durante [keepMonumentTicks_duration]; caso contrário, [asker_nameDef] ficará desagradado.</Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>
+  <!-- EN: Monument destroyed -->
+  <Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>Monumento destruído</Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>
+  <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\n[asker_pronoun] will be unhappy about this. -->
+  <Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>[asker_nameDef] ofendeu-se por teres deixado o monumento ser arruinado tão pouco tempo depois de concluído.\n\n[asker_pronoun] ficará descontente com isto.</Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>Não destruas o monumento durante {0}</Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>Não destruas o monumento durante {0}</Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>
+  <!-- EN: Keep monument {0} -->
+  <Decree_BuildMonument.KeepMonument.slateRef>Manter monumento {0}</Decree_BuildMonument.KeepMonument.slateRef>
+
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must harvest [plantToHarvest_label] x[harvestItemCount].\n\nYou may need to plant and grow the [plantToHarvest_label] first.\n\n[decreeThreatInfo]</li>
+  -->
+  <Decree_HarvestCrop.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nTens de colher [plantToHarvest_label] x[harvestItemCount].\n\nPoderá ser necessário plantar e cultivar primeiro [plantToHarvest_label].\n\n[decreeThreatInfo]</li>
+  </Decree_HarvestCrop.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[plantToHarvest_label] harvest decree</li>
+  -->
+  <Decree_HarvestCrop.questNameRules.rulesStrings>
+    <li>questName->decreto de colheita: [plantToHarvest_label]</li>
+  </Decree_HarvestCrop.questNameRules.rulesStrings>
+
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must hunt or slaughter [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
+    <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
+    <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
+  -->
+  <Decree_HuntAnimal.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nTens de caçar ou abater [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
+    <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
+    <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
+  </Decree_HuntAnimal.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[animalToHunt_label] hunting decree</li>
+  -->
+  <Decree_HuntAnimal.questNameRules.rulesStrings>
+    <li>questName->decreto de caça: [animalToHunt_label]</li>
+  </Decree_HuntAnimal.questNameRules.rulesStrings>
+
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must produce:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
+  -->
+  <Decree_ProduceItem.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nTens de produzir:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
+  </Decree_ProduceItem.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[defToProduce_label] production decree</li>
+  -->
+  <Decree_ProduceItem.questNameRules.rulesStrings>
+    <li>questName->decreto de produção: [defToProduce_label]</li>
+  </Decree_ProduceItem.questNameRules.rulesStrings>
+
+</LanguageData>

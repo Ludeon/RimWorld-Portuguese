@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Mad {ANIMAL_labelShort} -->
+  <LetterLabelAnimalInsanitySingle>{ANIMAL_labelShort} enlouquecido</LetterLabelAnimalInsanitySingle>
+  <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
+  <AnimalInsanitySingle>Um {ANIMAL_label} local enlouqueceu. Vai atacar tudo o que vir.</AnimalInsanitySingle>
+  <!-- EN: Mad {0} -->
+  <LetterLabelAnimalInsanityMultiple>{0} enlouquecidos</LetterLabelAnimalInsanityMultiple>
+  <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
+  <AnimalInsanityMultiple>Uma espécie de onda psíquica varreu a paisagem. Os teus colonos estão bem, mas...\n\nParece que muitos dos {0} da zona enlouqueceram.</AnimalInsanityMultiple>
+
+  <!-- EN: Blight: {PLANTDEF_labelPlural} -->
+  <LetterLabelCropBlight>Praga: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
+  <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!
+\nYou should cut or burn the affected plants before the blight spreads. -->
+  <LetterCropBlight>Foi descoberta uma praga nas plantações de {PLANTDEF_labelPlural}!\n\nDevias cortar ou queimar as plantas afetadas antes que a praga se espalhe.</LetterCropBlight>
+
+  <!-- EN: Miracle -->
+  <LetterLabelMiracleHeal>Milagre</LetterLabelMiracleHeal>
+  <!-- EN: {0} has experienced a miraculous recovery! -->
+  <MiracleHeal>{0} teve uma recuperação milagrosa!</MiracleHeal>
+
+  <!-- Enemy raids -->
+  <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
+  <EnemyRaidLeaderPresent>Um dos {LEADER_factionPawnsPlural}, {LEADER_labelShort}, é o líder da fação.</EnemyRaidLeaderPresent>
+
+  <!-- Friendly raids -->
+  <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
+  <FriendlyRaidLeaderPresent>Um dos {LEADER_factionPawnsPlural}, {LEADER_labelShort}, é o líder da fação.</FriendlyRaidLeaderPresent>
+
+  <!-- EN: Transport pod crash -->
+  <LetterLabelRefugeePodCrash>Queda de cápsula de transporte</LetterLabelRefugeePodCrash>
+  <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
+  <RefugeePodCrash>{PAWN_titleIndef} chamado {PAWN_nameDef} está a cair numa cápsula de transporte nas proximidades. Se {PAWN_pronoun} sobreviver ao impacto, ficará gravemente ferido.</RefugeePodCrash>
+  <!-- EN: {PAWN_nameDef} is a child of {AGE}. -->
+  <RefugeePodCrash_Child>{PAWN_nameDef} é uma criança de {AGE} anos.</RefugeePodCrash_Child>
+  <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
+  <RefugeePodCrash_Factionless>{PAWN_nameDef} não pertence a nenhuma fação. Podes resgatar {PAWN_nameDef} e esperar que se junte à colónia por vontade própria, ou capturar {PAWN_nameDef} para recrutamento ou escravatura.</RefugeePodCrash_Factionless>
+  <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
+  <RefugeePodCrash_Hostile>{PAWN_nameDef} pertence a {PAWN_factionName}, a tua inimiga. Podes capturar {PAWN_nameDef} para recrutamento ou escravatura.</RefugeePodCrash_Hostile>
+  <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If {PAWN_pronoun} returns home safely, {PAWN_pronoun} will spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
+  <RefugeePodCrash_NonHostile>{PAWN_nameDef} pertence a {PAWN_factionName}. Se regressar a casa são e salvo, {PAWN_pronoun} promoverá a boa vontade entre as vossas fações.\n\nTambém podes capturar {PAWN_nameDef} para recrutamento ou escravatura, mas isso irritará a fação de origem.</RefugeePodCrash_NonHostile>
+
+  <!-- EN: Wanderer joins: {PAWN_nameDef} -->
+  <LetterLabelWandererJoins>Andarilho junta-se: {PAWN_nameDef}</LetterLabelWandererJoins>
+  <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
+  <LetterWandererJoins>Chegou um(a) {PAWN_title} chamado(a) {PAWN_nameDef} que quer juntar-se à colónia.\n\n[PAWN_pronoun] está disposto a contribuir, mas não sairá por vontade própria, alegando não ter para onde ir. Podes recusar e mandá-lo(a) embora, mas os teus colonos ficarão perturbados por mandarem embora alguém em necessidade.</LetterWandererJoins>
+
+  <!-- EN: Cargo pods -->
+  <LetterLabelCargoPodCrash>Cápsulas de carga</LetterLabelCargoPodCrash>
+  <!-- EN: You have detected a cluster of cargo pods crashing nearby.\n\nPerhaps you'll find something useful in the wreckage. -->
+  <CargoPodCrash>Detectaste um conjunto de cápsulas de carga cair nas proximidades.\n\nTalvez encontres algo de útil nos destroços.</CargoPodCrash>
+
+  <!-- EN: an electrical conduit -->
+  <AnElectricalConduit>um condutor elétrico</AnElectricalConduit>
+  <!-- EN: A fault in {0} has caused a short circuit. -->
+  <ShortCircuit>Uma falha em {0} causou um curto-circuito.</ShortCircuit>
+  <!-- EN: A fault in {0} has caused a short circuit which started a fire. -->
+  <ShortCircuitStartedFire>Uma falha em {0} causou um curto-circuito que deu origem a um incêndio.</ShortCircuitStartedFire>
+  <!-- EN: All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion. -->
+  <ShortCircuitDischargedEnergy>Todos os {0} Wd de energia das baterias ligadas foram descarregados numa explosão elétrica.</ShortCircuitDischargedEnergy>
+  <!-- EN: This large amount of power has created an explosion of considerable size. -->
+  <ShortCircuitWasLarge>Esta grande quantidade de energia criou uma explosão de tamanho considerável.</ShortCircuitWasLarge>
+  <!-- EN: That really is a huge explosion. Wow. -->
+  <ShortCircuitWasHuge>Foi mesmo uma explosão enorme. Uau.</ShortCircuitWasHuge>
+
+  <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.\n\n{2} -->
+  <TraderArrival>Uma nave comercial está a passar nas proximidades.\n\nSão conhecidos como {0}. São {1}.\n\n{2}</TraderArrival>
+  <!-- EN: They're affiliated with {FACTION_name}. -->
+  <TraderArrivalFromFaction>Estão associados a {FACTION_name}.</TraderArrivalFromFaction>
+  <!-- EN: They are not affiliated with any faction. -->
+  <TraderArrivalNoFaction>Não estão associados a nenhuma fação.</TraderArrivalNoFaction>
+
+  <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
+  <SingleTravelerPassing>{PAWN_title} de {1} está a passar por aqui. {PAWN_pronoun} chama-se {PAWN_nameFull}.</SingleTravelerPassing>
+  <!-- EN: A group of travelers from {0} are passing by. -->
+  <GroupTravelersPassing>Um grupo de viajantes de {0} está a passar por aqui.</GroupTravelersPassing>
+
+  <!-- EN: Visitor -->
+  <LetterLabelSingleVisitorArrives>Visitante</LetterLabelSingleVisitorArrives>
+  <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
+  <SingleVisitorArrives>{PAWN_titleIndef} de {1} está a visitar a colónia.\n\n{PAWN_pronoun} chama-se {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
+  <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
+  <SingleVisitorArrivesTraderInfo>\n\n{PAWN_pronoun} parece ter alguns artigos para trocar.</SingleVisitorArrivesTraderInfo>
+  <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
+  <SingleVisitorArrivesLeaderInfo>\n\n{PAWN_pronoun} é o líder da fação.</SingleVisitorArrivesLeaderInfo>
+  <!-- EN: Visitors -->
+  <LetterLabelGroupVisitorsArrive>Visitantes</LetterLabelGroupVisitorsArrive>
+  <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
+  <GroupVisitorsArrive>Um grupo de {0} está a visitar a colónia.{1}{2}</GroupVisitorsArrive>
+  <!-- EN: They seem to have a few items to trade. -->
+  <GroupVisitorsArriveTraderInfo>\n\nParecem ter alguns artigos para trocar.</GroupVisitorsArriveTraderInfo>
+  <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
+  <GroupVisitorsArriveLeaderInfo>\n\nUm dos visitantes, {1_labelShort}, é o líder da fação.</GroupVisitorsArriveLeaderInfo>
+  <!-- EN: Visitors from {0} are leaving. -->
+  <VisitorsLeaving>Os visitantes de {0} estão a partir.</VisitorsLeaving>
+
+  <!-- EN: Manhunter pack -->
+  <LetterLabelManhunterPackArrived>Bando de caçadores de homens</LetterLabelManhunterPackArrived>
+  <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
+  <ManhunterPackArrived>Um bando de {0} caçadores de homens entrou na zona! Enlouquecidos pela doença conhecida como scaria, vão vaguear pela região à procura de carne humana.\n\nNão atacam portas, a menos que vejam alguém passar por elas. Esconde-te no interior e ficarás a salvo. Também não atacam torretas desligadas, por isso desliga as tuas torretas para as poupar.\n\nOs {0} deixarão a zona dentro de um ou dois dias. Podes esconder-te e esperar que se vão embora, ou combatê-los.</ManhunterPackArrived>
+  
+  <!-- Crashed ship part-->
+  <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
+  <MessageAnimalInsanityPulse>{SOURCE_label} emitiu um pulso psíquico que enlouqueceu os animais das proximidades.</MessageAnimalInsanityPulse>
+  <!-- EN: The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane. -->
+  <LetterShipPartDroveColonistInsane>A peça de nave despenhada emitiu um pulso psíquico focado que enlouqueceu o colono {0}.</LetterShipPartDroveColonistInsane>
+  <!-- EN: Awoke {0} days ago -->
+  <AwokeDaysAgo>Acordou há {0} dias</AwokeDaysAgo>
+  <!-- EN: Activated {0} days ago -->
+  <ActivatedDaysAgo>Ativado há {0} dias</ActivatedDaysAgo>
+  <!-- EN: Opened {0} days ago -->
+  <OpenedDaysAgo>Aberto há {0} dias</OpenedDaysAgo>
+  <!-- EN: Psychic drone level: {0} -->
+  <PsychicDroneLevel>Nível de zumbido psíquico: {0}</PsychicDroneLevel>
+  <!-- EN: Drone intensifies -->
+  <LetterLabelPsychicDroneLevelIncreased>Zumbido intensifica-se</LetterLabelPsychicDroneLevelIncreased>
+  <!-- EN: The crashed ship part is now emanating a more powerful kind of psychic drone. Every {0} humanlike in the area now feels more disturbed, terrified, and paranoid. -->
+  <LetterPsychicDroneLevelIncreased>A peça de nave despenhada emana agora um tipo de zumbido psíquico mais potente. Todos os {0} da zona sentem-se agora mais perturbados, aterrorizados e paranoicos.</LetterPsychicDroneLevelIncreased>
+  
+  <!-- Agent revealed -->
+  <!-- EN: Agent -->
+  <LetterLabelAgentRevealed>Agente</LetterLabelAgentRevealed>
+  <!-- EN: {0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now. -->
+  <LetterAgentRevealed>{0} foi revelado como agente do teu inimigo {1}.\n\nEstá a tentar fugir.</LetterAgentRevealed>
+
+  <!-- Beavers -->
+  <!-- EN: Beavers! -->
+  <LetterLabelBeaversArrived>Castores!</LetterLabelBeaversArrived>
+  <!-- EN: A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region. -->
+  <BeaversArrived>Um grupo de alfacastores esfomeados acabou de chegar.\n\nTenta eliminá-los antes que dizimem todas as fontes de madeira da região.</BeaversArrived>
+  
+  <!-- Self-tame -->
+  <!-- EN: {1_kind} self-tamed -->
+  <LetterLabelAnimalSelfTame>{1_kind} autodomesticou-se</LetterLabelAnimalSelfTame>
+  <!-- EN: {0} has become tame. -->
+  <LetterAnimalSelfTame>{0} ficou domesticado.</LetterAnimalSelfTame>
+  <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->
+  <LetterAnimalSelfTameAndNameNumerical>{0} ficou domesticado. Passa agora a ser designado {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
+  <!-- EN: {0} has become tame. Colonists have decided to name it {ANIMAL_nameFull}. -->
+  <LetterAnimalSelfTameAndName>{0} ficou domesticado. Os colonos decidiram chamar-lhe {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
+
+  <!-- Farm animals wander in -->
+  <!-- EN: {0} join -->
+  <LetterLabelFarmAnimalsWanderIn>{0} juntam-se</LetterLabelFarmAnimalsWanderIn>
+  <!-- EN: A group of {0}, abandoned or lost, have wandered into the area.\n\nThey seem accustomed to human contact and are joining the colony. -->
+  <LetterFarmAnimalsWanderIn>Um grupo de {0}, abandonados ou perdidos, apareceu na zona.\n\nParecem habituados ao contacto humano e estão a juntar-se à colónia.</LetterFarmAnimalsWanderIn>
+  
+  <!-- Thrumbo passes -->
+  <!-- EN: Rare thrumbos -->
+  <LetterLabelThrumboPasses>Thrumbos raros</LetterLabelThrumboPasses>
+  <!-- EN: A small herd of thrumbos have wandered into the area.\n\nPeaceful by nature, these rare creatures are extremely dangerous when confronted. Some traders are willing to pay a lot of money for their precious leather and horn.\n\nThrumbos will leave the area in a few days. -->
+  <LetterThrumboPasses>Uma pequena manada de thrumbos entrou na zona.\n\nPacíficas por natureza, estas criaturas raras são extremamente perigosas quando confrontadas. Alguns comerciantes estão dispostos a pagar muito dinheiro pelo seu precioso couro e corno.\n\nOs thrumbos deixarão a zona dentro de alguns dias.</LetterThrumboPasses>
+  
+  <!-- Trader caravan -->
+  <!-- EN: {1} from {0} -->
+  <LetterLabelTraderCaravanArrival>{1} de {0}</LetterLabelTraderCaravanArrival>
+  <!-- EN: A caravan from {0} is approaching. They are a {1}. -->
+  <LetterTraderCaravanArrival>Uma caravana de {0} está a aproximar-se. São {1}.</LetterTraderCaravanArrival>
+  <!-- EN: They will hang around the colony for some time before leaving. You can attack them - but this will anger their faction! -->
+  <LetterCaravanArrivalCommonWarning>Vão ficar por perto da colónia durante algum tempo antes de partirem. Podes atacá-los, mas isso irritará a fação deles!</LetterCaravanArrivalCommonWarning>
+    
+  <!-- Ransom demand -->
+  <!-- EN: Ransom demand at {0} -->
+  <RansomDemandTitle>Pedido de resgate em {0}</RansomDemandTitle>
+  <!-- EN: {1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver. -->
+  <RansomDemand>{1} contacta-te por rádio. Têm o antigo colono {PAWN_labelShort} em cativeiro e exigem resgate.\n\nEstão dispostos a devolver {PAWN_labelShort} em troca de {2} de prata.</RansomDemand>
+  <!-- EN: Accept -->
+  <RansomDemand_Accept>Aceitar</RansomDemand_Accept>
+  <!-- EN: Reject -->
+  <RansomDemand_Reject>Recusar</RansomDemand_Reject>
+  
+  <!-- Journey-related -->
+  <!-- EN: Ship found -->
+  <EscapeShipFoundLabel>Nave encontrada</EscapeShipFoundLabel>
+  <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <EscapeShipFound>Chegaste às coordenadas enviadas por (*Name)Charlon Whitestone(/Name) e descobriste a nave estelar escondida.\n\nO reator da nave ainda está em modo de hibernação profunda, por isso ainda não pode voar. Podes ligá-lo interagindo com o núcleo do computador.\n\n(*Name)Charlon Whitestone(/Name) avisa que o processo de arranque demorará cerca de 15 dias e que a assinatura de energia será detetável a grande distância. Este tipo de assinatura indica capacidade de voo interestelar e atrairá bandos de atacantes desesperados e enxames de mecanoides mortíferos.\n\nSerás assaltado com uma intensidade que nunca viste. Certifica-te primeiro de que as tuas defesas estão preparadas.</EscapeShipFound>
+  <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days. -->
+  <EscapeShipFoundPeaceful>Chegaste às coordenadas enviadas por (*Name)Charlon Whitestone(/Name) e descobriste a nave estelar escondida.\n\nO reator da nave ainda está em modo de hibernação profunda, por isso ainda não pode voar. Podes ligá-lo interagindo com o núcleo do computador.\n\n(*Name)Charlon Whitestone(/Name) avisa que o processo de arranque demorará cerca de 15 dias.</EscapeShipFoundPeaceful>
+
+  <!-- Caravan meeting -->
+  <!-- EN: Caravan meeting by {0} -->
+  <CaravanMeetingTitle>Encontro de caravanas de {0}</CaravanMeetingTitle>
+  <!-- EN: {0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2} -->
+  <CaravanMeeting>{0} encontrou-se pacificamente com uma caravana de {1}. A outra caravana é composta por:\n\n{2}</CaravanMeeting>
+  <!-- EN: Trade -->
+  <CaravanMeeting_Trade>Comerciar</CaravanMeeting_Trade>
+  <!-- EN: Attack -->
+  <CaravanMeeting_Attack>Atacar</CaravanMeeting_Attack>
+  <!-- EN: Move on -->
+  <CaravanMeeting_MoveOn>Seguir caminho</CaravanMeeting_MoveOn>
+  <!-- EN: no caravan members capable of trading -->
+  <CaravanMeeting_TradeIncapable>nenhum membro da caravana consegue comerciar</CaravanMeeting_TradeIncapable>
+  <!-- EN: need a trader with the title of {0} from {1_name} -->
+  <CaravanMeeting_NoPermit>é preciso um comerciante com o título de {0} de {1_name}</CaravanMeeting_NoPermit>
+  
+  <!-- Caravan request -->
+  <!-- EN: Caravan request -->
+  <LetterLabelCaravanRequest>Pedido de caravana</LetterLabelCaravanRequest>
+  <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
+  <LetterCaravanRequest>Uma povoação próxima, {0}, contacta-te com um pedido especial de comércio. Gostariam de comprar:\n\n  {1} (valor: {2})\n\nEm troca, oferecem:\n\n  {3} (valor: {4})\n\nEste pedido expira em: {5}\n\nSe quiseres fazer o negócio, envia uma caravana com os artigos pedidos. O tempo de viagem estimado é {6}. Podes rever esta oferta selecionando {0} no mapa do mundo.</LetterCaravanRequest>
+  <!-- EN: Requesting: {0} ({2}) ({1} left) -->
+  <CaravanRequestInfo>A pedir: {0} ({2}) (faltam {1})</CaravanRequestInfo>
+  <!-- EN: normal quality or better -->
+  <NormalQualityOrBetter>qualidade normal ou superior</NormalQualityOrBetter>
+  <!-- EN: not tainted -->
+  <NotTainted>não contaminado</NotTainted>
+
+  <!-- Caravan demand -->
+  <!-- EN: Caravan demand by {0} -->
+  <CaravanDemandTitle>Exigência à caravana de {0}</CaravanDemandTitle>
+  <!-- EN: {0} has been ambushed by a group of {2} {4} from {1}. They will attack unless you give them:\n\n{3} -->
+  <CaravanDemand>{0} foi emboscada por um grupo de {2} {4} de {1}. Vão atacar, a menos que lhes dês:\n\n{3}</CaravanDemand>
+  <!-- EN: Give and pass -->
+  <CaravanDemand_Give>Entregar e seguir</CaravanDemand_Give>
+  <!-- EN: Refuse and fight -->
+  <CaravanDemand_Fight>Recusar e lutar</CaravanDemand_Fight>
+
+  <!-- Site no longer hostile -->
+  <!-- EN: Quest no longer available -->
+  <LetterLabelSiteNoLongerHostile>Missão deixou de estar disponível</LetterLabelSiteNoLongerHostile>
+  <!-- EN: Quests no longer available -->
+  <LetterLabelSiteNoLongerHostileMulti>Missões deixaram de estar disponíveis</LetterLabelSiteNoLongerHostileMulti>
+  <!-- EN: Because you are no longer hostile with {0}, the {1} site is no longer available. -->
+  <LetterSiteNoLongerHostile>Como já não és hostil a {0}, o local {1} deixou de estar disponível.</LetterSiteNoLongerHostile>
+  <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
+  <LetterSiteNoLongerHostileMulti>Como já não és hostil a {0}, os seguintes locais deixaram de estar disponíveis</LetterSiteNoLongerHostileMulti>
+
+  <!-- Quest asker faction hostile -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerFactionHostile>Missão falhada</LetterLabelQuestAskerFactionHostile>
+  <!-- EN: The quest is now incompletable because {FACTION_name} is hostile. -->
+  <LetterQuestAskerFactionHostile>A missão já não pode ser concluída porque {FACTION_name} é hostil.</LetterQuestAskerFactionHostile>
+
+  <!-- Quest asker captured -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerCaptured>Missão falhada</LetterLabelQuestAskerCaptured>
+  <!-- EN: The quest is now incompletable because {SUBJECT_definite} has been captured. -->
+  <LetterQuestAskerCaptured>A missão já não pode ser concluída porque {SUBJECT_definite} foi capturado.</LetterQuestAskerCaptured>
+
+  <!-- Quest asker died -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerDied>Missão falhada</LetterLabelQuestAskerDied>
+  <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
+  <LetterQuestAskerDied>A missão já não pode ser concluída porque {SUBJECT_definite} morreu.</LetterQuestAskerDied>
+
+</LanguageData>

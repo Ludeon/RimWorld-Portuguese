@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: acid burn -->
+  <AcidBurn.label>queimadura de ácido</AcidBurn.label>
+  <!-- EN: An acid burn. -->
+  <AcidBurn.description>Uma queimadura de ácido.</AcidBurn.description>
+  <!-- EN: acid burn scar -->
+  <AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de queimadura de ácido</AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Dissolved off -->
+  <AcidBurn.injuryProps.destroyedLabel>Dissolvido</AcidBurn.injuryProps.destroyedLabel>
+  <!-- EN: an acid burn -->
+  <AcidBurn.labelNoun>uma queimadura de ácido</AcidBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <AcidBurn.labelNounPretty>{0} em {1}</AcidBurn.labelNounPretty>
+  
+  <!-- EN: beam burn -->
+  <BeamWound.label>queimadura de feixe</BeamWound.label>
+  <!-- EN: A beam burn. -->
+  <BeamWound.description>Uma queimadura de feixe.</BeamWound.description>
+  <!-- EN: set -->
+  <BeamWound.comps.HediffComp_TendDuration.labelSolidTendedWell>imobilizado</BeamWound.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <BeamWound.comps.HediffComp_TendDuration.labelTendedWell>com ligadura</BeamWound.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <BeamWound.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</BeamWound.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: permanent beam injury -->
+  <BeamWound.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>lesão de feixe permanente</BeamWound.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
+  <!-- EN: old beam wound -->
+  <BeamWound.comps.HediffComp_GetsPermanent.permanentLabel>ferida de feixe antiga</BeamWound.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <BeamWound.injuryProps.destroyedLabel>Queimado</BeamWound.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <BeamWound.injuryProps.destroyedOutLabel>Queimado</BeamWound.injuryProps.destroyedOutLabel>
+  <!-- EN: a beam burn -->
+  <BeamWound.labelNoun>uma queimadura de feixe</BeamWound.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <BeamWound.labelNounPretty>{0} em {1}</BeamWound.labelNounPretty>
+  
+  <!-- EN: bite -->
+  <Bite.label>mordedura</Bite.label>
+  <!-- EN: A bite wound. -->
+  <Bite.description>Uma ferida de mordedura.</Bite.description>
+  <!-- EN: set -->
+  <Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>imobilizado</Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Bite.comps.HediffComp_TendDuration.labelTendedWell>com ligadura</Bite.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Bite.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</Bite.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: bite scar -->
+  <Bite.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de mordedura</Bite.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Bitten off -->
+  <Bite.injuryProps.destroyedLabel>Arrancado à dentada</Bite.injuryProps.destroyedLabel>
+  <!-- EN: Bitten out -->
+  <Bite.injuryProps.destroyedOutLabel>Arrancado à dentada</Bite.injuryProps.destroyedOutLabel>
+  <!-- EN: a bite wound -->
+  <Bite.labelNoun>uma mordedura</Bite.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Bite.labelNounPretty>{0} em {1}</Bite.labelNounPretty>
+  
+  <!-- EN: bruise -->
+  <Bruise.label>hematoma</Bruise.label>
+  <!-- EN: A bruise. -->
+  <Bruise.description>Um hematoma.</Bruise.description>
+  <!-- EN: set -->
+  <Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>imobilizado</Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Bruise.comps.HediffComp_TendDuration.labelTendedWell>com ligadura</Bruise.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>tratado</Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: Destroyed -->
+  <Bruise.injuryProps.destroyedLabel>Destruído</Bruise.injuryProps.destroyedLabel>
+  <Bruise.injuryProps.destroyedOutLabel>Destruído</Bruise.injuryProps.destroyedOutLabel>
+  <!-- EN: a bruise -->
+  <Bruise.labelNoun>um hematoma</Bruise.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Bruise.labelNounPretty>{0} em {1}</Bruise.labelNounPretty>
+  
+  <!-- EN: burn -->
+  <Burn.label>queimadura</Burn.label>
+  <!-- EN: A burn. -->
+  <Burn.description>Uma queimadura.</Burn.description>
+  <!-- EN: tended -->
+  <Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>tratado</Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Burn.comps.HediffComp_TendDuration.labelTendedWell>com ligadura</Burn.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <Burn.comps.HediffComp_TendDuration.labelTendedWellInner>tratado</Burn.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: burn scar -->
+  <Burn.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de queimadura</Burn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <Burn.injuryProps.destroyedLabel>Queimado</Burn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <Burn.injuryProps.destroyedOutLabel>Queimado</Burn.injuryProps.destroyedOutLabel>
+  <!-- EN: a burn -->
+  <Burn.labelNoun>uma queimadura</Burn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Burn.labelNounPretty>{0} em {1}</Burn.labelNounPretty>
+  
+  <!-- EN: chemical burn -->
+  <ChemicalBurn.label>queimadura química</ChemicalBurn.label>
+  <!-- EN: A chemical burn. -->
+  <ChemicalBurn.description>Uma queimadura química.</ChemicalBurn.description>
+  <!-- EN: chemical burn scar -->
+  <ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de queimadura química</ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off (chemical) -->
+  <ChemicalBurn.injuryProps.destroyedLabel>Queimado (químico)</ChemicalBurn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out (chemical) -->
+  <ChemicalBurn.injuryProps.destroyedOutLabel>Queimado (químico)</ChemicalBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: a chemical burn -->
+  <ChemicalBurn.labelNoun>uma queimadura química</ChemicalBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ChemicalBurn.labelNounPretty>{0} em {1}</ChemicalBurn.labelNounPretty>
+  
+  <!-- EN: crack -->
+  <Crack.label>fissura</Crack.label>
+  <!-- EN: A crack. -->
+  <Crack.description>Uma fissura.</Crack.description>
+  <!-- EN: set -->
+  <Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>imobilizado</Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: set -->
+  <Crack.comps.HediffComp_TendDuration.labelTendedWell>imobilizado</Crack.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: set -->
+  <Crack.comps.HediffComp_TendDuration.labelTendedWellInner>imobilizado</Crack.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: permanent crack -->
+  <Crack.comps.HediffComp_GetsPermanent.permanentLabel>fissura permanente</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Shattered -->
+  <Crack.injuryProps.destroyedLabel>Estilhaçado</Crack.injuryProps.destroyedLabel>
+  <!-- EN: a crack wound -->
+  <Crack.labelNoun>uma fissura</Crack.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Crack.labelNounPretty>{0} em {1}</Crack.labelNounPretty>
+  
+  <!-- EN: crush -->
+  <Crush.label>esmagamento</Crush.label>
+  <!-- EN: A crushing wound. -->
+  <Crush.description>Uma ferida por esmagamento.</Crush.description>
+  <!-- EN: set -->
+  <Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>imobilizado</Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Crush.comps.HediffComp_TendDuration.labelTendedWell>com ligadura</Crush.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Crush.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</Crush.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: mangled scar -->
+  <Crush.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de mutilação</Crush.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Crushed -->
+  <Crush.injuryProps.destroyedLabel>Esmagado</Crush.injuryProps.destroyedLabel>
+  <!-- EN: a crush wound -->
+  <Crush.labelNoun>uma ferida por esmagamento</Crush.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Crush.labelNounPretty>{0} em {1}</Crush.labelNounPretty>
+  
+  <!-- EN: cut -->
+  <Cut.label>corte</Cut.label>
+  <!-- EN: A cut. -->
+  <Cut.description>Um corte.</Cut.description>
+  <!-- EN: set -->
+  <Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>imobilizado</Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Cut.comps.HediffComp_TendDuration.labelTendedWell>com ligadura</Cut.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Cut.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</Cut.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: cut scar -->
+  <Cut.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de corte</Cut.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Cut off -->
+  <Cut.injuryProps.destroyedLabel>Cortado</Cut.injuryProps.destroyedLabel>
+  <!-- EN: Cut out -->
+  <Cut.injuryProps.destroyedOutLabel>Cortado</Cut.injuryProps.destroyedOutLabel>
+  <!-- EN: a cut -->
+  <Cut.labelNoun>um corte</Cut.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Cut.labelNounPretty>{0} em {1}</Cut.labelNounPretty>
+  
+  <!-- EN: decayed organ -->
+  <Decayed.label>órgão em decomposição</Decayed.label>
+  <!-- EN: This organ has completely decayed. -->
+  <Decayed.description>Este órgão decompôs-se por completo.</Decayed.description>
+  <!-- EN: a decayed organ -->
+  <Decayed.labelNoun>um órgão em decomposição</Decayed.labelNoun>
+  <!-- EN: decayed {1} -->
+  <Decayed.labelNounPretty>{1} em decomposição</Decayed.labelNounPretty>
+  
+  <!-- EN: electrical burn -->
+  <ElectricalBurn.label>queimadura elétrica</ElectricalBurn.label>
+  <!-- EN: An electrical burn. -->
+  <ElectricalBurn.description>Uma queimadura elétrica.</ElectricalBurn.description>
+  <!-- EN: electrical burn scar -->
+  <ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de queimadura elétrica</ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <ElectricalBurn.injuryProps.destroyedLabel>Queimado</ElectricalBurn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <ElectricalBurn.injuryProps.destroyedOutLabel>Queimado</ElectricalBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: an electrical burn -->
+  <ElectricalBurn.labelNoun>uma queimadura elétrica</ElectricalBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ElectricalBurn.labelNounPretty>{0} em {1}</ElectricalBurn.labelNounPretty>
+  
+  <!-- EN: cut -->
+  <ExecutionCut.label>corte</ExecutionCut.label>
+  <!-- EN: A cut made during execution. -->
+  <ExecutionCut.description>Um corte feito durante a execução.</ExecutionCut.description>
+  <!-- EN: Cut off -->
+  <ExecutionCut.injuryProps.destroyedLabel>Cortado</ExecutionCut.injuryProps.destroyedLabel>
+  <!-- EN: Cut out -->
+  <ExecutionCut.injuryProps.destroyedOutLabel>Cortado</ExecutionCut.injuryProps.destroyedOutLabel>
+  <!-- EN: a cut -->
+  <ExecutionCut.labelNoun>um corte</ExecutionCut.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ExecutionCut.labelNounPretty>{0} em {1}</ExecutionCut.labelNounPretty>
+  
+  <!-- EN: frostbite -->
+  <Frostbite.label>geladura</Frostbite.label>
+  <!-- EN: Frozen tissue caused by exposure to cold without adequate protection. Frostbite is very painful, and frostbitten body parts are often lost. -->
+  <Frostbite.description>Tecido congelado causado pela exposição ao frio sem proteção adequada. A geladura é muito dolorosa e as partes do corpo afetadas perdem-se com frequência.</Frostbite.description>
+  <!-- EN: tended -->
+  <Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>tratado</Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Frostbite.comps.HediffComp_TendDuration.labelTendedWell>com ligadura</Frostbite.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>tratado</Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: frostbite scar -->
+  <Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de geladura</Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Lost to frostbite -->
+  <Frostbite.injuryProps.destroyedLabel>Perdido por geladura</Frostbite.injuryProps.destroyedLabel>
+  <Frostbite.labelNoun>uma geladura</Frostbite.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Frostbite.labelNounPretty>{0} em {1}</Frostbite.labelNounPretty>
+  
+  <!-- EN: gunshot -->
+  <Gunshot.label>tiro</Gunshot.label>
+  <!-- EN: A gunshot wound. -->
+  <Gunshot.description>Uma ferida de tiro.</Gunshot.description>
+  <!-- EN: set -->
+  <Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>imobilizado</Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Gunshot.comps.HediffComp_TendDuration.labelTendedWell>com ligadura</Gunshot.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Gunshot.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</Gunshot.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: permanent gunshot injury -->
+  <Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>lesão de tiro permanente</Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
+  <!-- EN: old gunshot -->
+  <Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>tiro antigo</Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Shot off -->
+  <Gunshot.injuryProps.destroyedLabel>Destruído a tiro</Gunshot.injuryProps.destroyedLabel>
+  <!-- EN: Shot out -->
+  <Gunshot.injuryProps.destroyedOutLabel>Destruído a tiro</Gunshot.injuryProps.destroyedOutLabel>
+  <!-- EN: a gunshot wound -->
+  <Gunshot.labelNoun>um ferimento de bala</Gunshot.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Gunshot.labelNounPretty>{0} em {1}</Gunshot.labelNounPretty>
+  
+  <!-- EN: wound -->
+  <Misc.label>ferida</Misc.label>
+  <!-- EN: Miscellaneous injuries. -->
+  <Misc.description>Lesões diversas.</Misc.description>
+  <!-- EN: set -->
+  <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>imobilizado</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Misc.comps.HediffComp_TendDuration.labelTendedWell>com ligadura</Misc.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Misc.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</Misc.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: scar -->
+  <Misc.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz</Misc.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Destroyed -->
+  <Misc.injuryProps.destroyedLabel>Destruído</Misc.injuryProps.destroyedLabel>
+  <!-- EN: an injury -->
+  <Misc.labelNoun>uma lesão</Misc.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Misc.labelNounPretty>{0} em {1}</Misc.labelNounPretty>
+  
+  <!-- EN: missing body part -->
+  <MissingBodyPart.label>parte do corpo em falta</MissingBodyPart.label>
+  <!-- EN: A body part is entirely missing. -->
+  <MissingBodyPart.description>Falta por completo uma parte do corpo.</MissingBodyPart.description>
+  <!-- EN: a missing body part -->
+  <MissingBodyPart.labelNoun>uma parte do corpo em falta</MissingBodyPart.labelNoun>
+  <!-- EN: missing a {1} -->
+  <MissingBodyPart.labelNounPretty>{1} em falta</MissingBodyPart.labelNounPretty>
+  
+  <!-- EN: scratch -->
+  <Scratch.label>arranhão</Scratch.label>
+  <!-- EN: A scratch or tear. -->
+  <Scratch.description>Um arranhão ou rasgão.</Scratch.description>
+  <!-- EN: set -->
+  <Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>imobilizado</Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Scratch.comps.HediffComp_TendDuration.labelTendedWell>com ligadura</Scratch.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: scratch scar -->
+  <Scratch.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de arranhão</Scratch.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Torn off -->
+  <Scratch.injuryProps.destroyedLabel>Arrancado</Scratch.injuryProps.destroyedLabel>
+  <!-- EN: Torn out -->
+  <Scratch.injuryProps.destroyedOutLabel>Arrancado</Scratch.injuryProps.destroyedOutLabel>
+  <!-- EN: a scratch -->
+  <Scratch.labelNoun>um arranhão</Scratch.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Scratch.labelNounPretty>{0} em {1}</Scratch.labelNounPretty>
+  
+  <!-- EN: shredded -->
+  <Shredded.label>dilacerado</Shredded.label>
+  <!-- EN: A part of the body has been shredded and torn. -->
+  <Shredded.description>Uma parte do corpo foi dilacerada e rasgada.</Shredded.description>
+  <!-- EN: set -->
+  <Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>imobilizado</Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Shredded.comps.HediffComp_TendDuration.labelTendedWell>com ligadura</Shredded.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Shredded.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</Shredded.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: shredded scar -->
+  <Shredded.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de dilaceração</Shredded.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Torn off -->
+  <Shredded.injuryProps.destroyedLabel>Arrancado</Shredded.injuryProps.destroyedLabel>
+  <!-- EN: Torn out -->
+  <Shredded.injuryProps.destroyedOutLabel>Arrancado</Shredded.injuryProps.destroyedOutLabel>
+  <!-- EN: a shredded wound -->
+  <Shredded.labelNoun>uma ferida por dilaceração</Shredded.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Shredded.labelNounPretty>{0} em {1}</Shredded.labelNounPretty>
+  
+  <!-- EN: stab -->
+  <Stab.label>facada</Stab.label>
+  <!-- EN: A stab wound. -->
+  <Stab.description>Uma ferida de facada.</Stab.description>
+  <!-- EN: set -->
+  <Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>imobilizado</Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Stab.comps.HediffComp_TendDuration.labelTendedWell>com ligadura</Stab.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Stab.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</Stab.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: stab scar -->
+  <Stab.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de facada</Stab.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Cut off -->
+  <Stab.injuryProps.destroyedLabel>Cortado</Stab.injuryProps.destroyedLabel>
+  <!-- EN: Cut out -->
+  <Stab.injuryProps.destroyedOutLabel>Cortado</Stab.injuryProps.destroyedOutLabel>
+  <!-- EN: a stab wound -->
+  <Stab.labelNoun>uma facada</Stab.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Stab.labelNounPretty>{0} em {1}</Stab.labelNounPretty>
+  
+  <!-- EN: surgical cut -->
+  <SurgicalCut.label>corte cirúrgico</SurgicalCut.label>
+  <!-- EN: A cut made during surgery. -->
+  <SurgicalCut.description>Um corte feito durante uma cirurgia.</SurgicalCut.description>
+  <!-- EN: set -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>imobilizado</SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelTendedWell>com ligadura</SurgicalCut.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: surgical scar -->
+  <SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz cirúrgica</SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>
+  <SurgicalCut.injuryProps.destroyedLabel>Removido cirurgicamente</SurgicalCut.injuryProps.destroyedLabel>
+  <SurgicalCut.injuryProps.destroyedOutLabel>Removido cirurgicamente</SurgicalCut.injuryProps.destroyedOutLabel>
+  <!-- EN: a surgical cut -->
+  <SurgicalCut.labelNoun>um corte cirúrgico</SurgicalCut.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <SurgicalCut.labelNounPretty>{0} em {1}</SurgicalCut.labelNounPretty>
+  
+</LanguageData>

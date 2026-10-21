@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: chitchat -->
+  <Chitchat.label>conversa de circunstância</Chitchat.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [subject] to [RECIPIENT_nameDef].</li>
+    <li>subject(INITIATOR_cubeInterest==false)->[TalkTopicLight]</li>
+    <li>subject(INITIATOR_cubeInterest==true)->[TalkTopicCube]</li>
+    <li>talkedabout(p=4)->chatted about</li>
+    <li>talkedabout->shared a word about</li>
+    <li>talkedabout->spoke about</li>
+    <li>talkedabout->gabbed about</li>
+    <li>talkedabout->talked about</li>
+    <li>talkedabout->joked about</li>
+    <li>talkedabout->quipped about</li>
+    <li>commentedabout->said something about</li>
+    <li>commentedabout->said a word about</li>
+    <li>commentedabout->made a comment about</li>
+    <li>commentedabout->commented about</li>
+    <li>commentedabout->told a joke about</li>
+  -->
+  <Chitchat.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] e [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef], com [RECIPIENT_nameDef], [talkedabout] [subject].</li>
+    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [subject] a [RECIPIENT_nameDef].</li>
+    <li>subject(INITIATOR_cubeInterest==false)->[TalkTopicLight]</li>
+    <li>subject(INITIATOR_cubeInterest==true)->[TalkTopicCube]</li>
+    <li>talkedabout(p=4)->conversaram sobre</li>
+    <li>talkedabout->trocaram duas palavras sobre</li>
+    <li>talkedabout->falaram sobre</li>
+    <li>talkedabout->tagarelaram sobre</li>
+    <li>talkedabout->conversaram acerca de</li>
+    <li>talkedabout->gracejaram sobre</li>
+    <li>talkedabout->fizeram um comentário espirituoso sobre</li>
+    <li>commentedabout->disse algo sobre</li>
+    <li>commentedabout->disse duas palavras sobre</li>
+    <li>commentedabout->fez um comentário sobre</li>
+    <li>commentedabout->fez uma observação sobre</li>
+    <li>commentedabout->contou uma piada sobre</li>
+  </Chitchat.logRulesInitiator.rulesStrings>
+
+  <!-- EN: deep talk -->
+  <DeepTalk.label>conversa profunda</DeepTalk.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
+    <li>talkedabout->communicated thoughts about</li>
+    <li>talkedabout->exchanged thoughts about</li>
+    <li>talkedabout->exchanged ideas about</li>
+    <li>talkedabout->shared views on</li>
+    <li>talkedabout->shared beliefs on</li>
+    <li>talkedabout->discussed the topic of</li>
+    <li>talkedabout->had a heartfelt conversation about</li>
+    <li>talkedabout->talked quietly about</li>
+    <li>talkedabout->talked deeply about</li>
+    <li>talkedabout->connected on the topic of</li>
+    <li>subject(INITIATOR_cubeInterest==false)->[TalkTopicHeavy]</li>
+    <li>subject(INITIATOR_cubeInterest==true)->[TalkTopicCube]</li>
+  -->
+  <DeepTalk.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] e [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef], com [RECIPIENT_nameDef], [talkedabout] [subject].</li>
+    <li>talkedabout->comunicaram pensamentos sobre</li>
+    <li>talkedabout->trocaram pensamentos sobre</li>
+    <li>talkedabout->trocaram ideias sobre</li>
+    <li>talkedabout->partilharam pontos de vista sobre</li>
+    <li>talkedabout->partilharam crenças sobre</li>
+    <li>talkedabout->discutiram o tema de</li>
+    <li>talkedabout->tiveram uma conversa sentida sobre</li>
+    <li>talkedabout->conversaram baixinho sobre</li>
+    <li>talkedabout->conversaram profundamente sobre</li>
+    <li>talkedabout->criaram uma ligação em torno de</li>
+    <li>subject(INITIATOR_cubeInterest==false)->[TalkTopicHeavy]</li>
+    <li>subject(INITIATOR_cubeInterest==true)->[TalkTopicCube]</li>
+  </DeepTalk.logRulesInitiator.rulesStrings>
+
+  <!-- EN: insult -->
+  <Insult.label>insulto</Insult.label>
+  <!-- EN:
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [characteristic].</li>
+    <li>r_logentry->[INITIATOR_nameDef] compared [target] to [insultcomparison].</li>
+    <li>r_logentry->[INITIATOR_nameDef] called [target] [insultcomparison].</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] called [target] a false idol worshipper.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] implied that [target] had been driven insane by the golden cube.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] [insulted] the golden cube.</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
+    <li>target(p=4)->[RECIPIENT_nameDef]</li>
+    <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
+    <li>insulted(p=3)->insulted</li>
+    <li>insulted->openly insulted</li>
+    <li>insulted->loudly insulted</li>
+    <li>insulted->flagrantly insulted</li>
+    <li>insulted->directly insulted</li>
+    <li>insulted->viciously insulted</li>
+    <li>insulted->flagrantly disrespected</li>
+    <li>insulted->slandered</li>
+    <li>insulted->hurled invective about</li>
+    <li>insulted->derided</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)->a [Animal]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false)->a [Enemy]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->a sphere</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->something totally pointless</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->a non-cubic platonic object</li>
+  -->
+  <Insult.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [characteristic] de [target].</li>
+    <li>r_logentry->[INITIATOR_nameDef] comparou [target] a [insultcomparison].</li>
+    <li>r_logentry->[INITIATOR_nameDef] chamou [insultcomparison] a [target].</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] chamou idólatra a [target].</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] insinuou que [target] enlouqueceu por causa do cubo dourado.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] [insulted] o cubo dourado.</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
+    <li>target(p=4)->[RECIPIENT_nameDef]</li>
+    <li>target->[PersonFamily] de [RECIPIENT_nameDef]</li>
+    <li>insulted(p=3)->insultou</li>
+    <li>insulted->insultou abertamente</li>
+    <li>insulted->insultou em voz alta</li>
+    <li>insulted->insultou de forma flagrante</li>
+    <li>insulted->insultou diretamente</li>
+    <li>insulted->insultou violentamente</li>
+    <li>insulted->desrespeitou flagrantemente</li>
+    <li>insulted->difamou</li>
+    <li>insulted->lançou invetivas sobre</li>
+    <li>insulted->ridicularizou</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)->[Animal]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false)->[Enemy]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->uma esfera</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->algo totalmente inútil</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->um objeto platónico não cúbico</li>
+  </Insult.logRulesInitiator.rulesStrings>
+
+  <!-- EN: kind words -->
+  <KindWords.label>palavras amáveis</KindWords.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]'s [characteristic].</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
+    <li>complimented(p=3)->complimented</li>
+    <li>complimented->praised</li>
+    <li>complimented->commended</li>
+    <li>complimented->lauded</li>
+    <li>complimented->applauded</li>
+    <li>complimented->celebrated</li>
+    <li>complimented->saluted</li>
+    <li>complimented->spoke kindly of</li>
+    <li>complimented->expressed good things about</li>
+    <li>complimented->offered kinds words about</li>
+    <li>complimented->verbally appreciated</li>
+    <li>complimented->expressed appreciation for</li>
+    <li>complimented->said good things about</li>
+  -->
+  <KindWords.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [complimented] [characteristic] de [RECIPIENT_nameDef].</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
+    <li>complimented(p=3)->elogiou</li>
+    <li>complimented->louvou</li>
+    <li>complimented->enalteceu</li>
+    <li>complimented->exaltou</li>
+    <li>complimented->aplaudiu</li>
+    <li>complimented->celebrou</li>
+    <li>complimented->saudou</li>
+    <li>complimented->falou com simpatia de</li>
+    <li>complimented->disse coisas boas sobre</li>
+    <li>complimented->teceu palavras amáveis sobre</li>
+    <li>complimented->apreciou verbalmente</li>
+    <li>complimented->expressou apreço por</li>
+    <li>complimented->falou bem de</li>
+  </KindWords.logRulesInitiator.rulesStrings>
+
+  <!-- EN: slight -->
+  <Slight.label>desfeita</Slight.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [madefunof] [target]'s [characteristic].</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
+    <li>target(p=4)->[RECIPIENT_nameDef]</li>
+    <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
+    <li>madefunof->made fun of</li>
+    <li>madefunof->disrespected</li>
+    <li>madefunof->subtly scorned</li>
+    <li>madefunof->subtly shamed</li>
+    <li>madefunof->spoke badly of</li>
+    <li>madefunof->spoke negatively of</li>
+    <li>madefunof->laughed at</li>
+    <li>madefunof->sniggered at</li>
+    <li>madefunof->implied negative things about</li>
+    <li>madefunof->belittled</li>
+    <li>madefunof->made a contemptuous remark about</li>
+    <li>madefunof->offered a backhanded compliment about</li>
+  -->
+  <Slight.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [madefunof] [characteristic] de [target].</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
+    <li>target(p=4)->[RECIPIENT_nameDef]</li>
+    <li>target->[PersonFamily] de [RECIPIENT_nameDef]</li>
+    <li>madefunof->gozou com</li>
+    <li>madefunof->desrespeitou</li>
+    <li>madefunof->desprezou subtilmente</li>
+    <li>madefunof->envergonhou subtilmente</li>
+    <li>madefunof->falou mal de</li>
+    <li>madefunof->falou de forma negativa sobre</li>
+    <li>madefunof->riu-se de</li>
+    <li>madefunof->riu-se à socapa de</li>
+    <li>madefunof->insinuou coisas negativas sobre</li>
+    <li>madefunof->menosprezou</li>
+    <li>madefunof->fez uma observação depreciativa sobre</li>
+    <li>madefunof->fez um elogio dúbio sobre</li>
+  </Slight.logRulesInitiator.rulesStrings>
+
+</LanguageData>

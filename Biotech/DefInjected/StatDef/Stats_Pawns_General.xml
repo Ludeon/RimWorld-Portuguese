@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bandwidth cost -->
+  <BandwidthCost.label>custo de largura de banda</BandwidthCost.label>
+  <!-- EN: How much bandwidth this mech consumes when under mechanitor control. -->
+  <BandwidthCost.description>Quanta largura de banda este mec consome quando está sob controlo de um mecanitor.</BandwidthCost.description>
+  
+  <!-- EN: cancer rate factor -->
+  <CancerRate.label>fator de taxa de cancro</CancerRate.label>
+  <!-- EN: A multiplier on how likely this person is to develop cancer in any given time frame. -->
+  <CancerRate.description>Um multiplicador da probabilidade de esta pessoa desenvolver cancro num dado período de tempo.</CancerRate.description>
+  
+  <!-- EN: control taking time -->
+  <ControlTakingTime.label>tempo de tomada de controlo</ControlTakingTime.label>
+  <!-- EN: How many seconds it will take for a mechanitor to take control of this mech. -->
+  <ControlTakingTime.description>Quantos segundos demora um mecanitor a tomar o controlo deste mec.</ControlTakingTime.description>
+  <!-- EN: {0}s -->
+  <ControlTakingTime.formatString>{0}s</ControlTakingTime.formatString>
+  
+  <!-- EN: fertility -->
+  <Fertility.label>fertilidade</Fertility.label>
+  <!-- EN: Fertility affects the chance of a pregnancy occurring. Pregnancy chance is dependent on the fertility of both partners. This also affects the chance of successfully implanting an embryo in a surrogate. -->
+  <Fertility.description>A fertilidade afeta a probabilidade de ocorrer uma gravidez. A probabilidade de gravidez depende da fertilidade de ambos os parceiros. Também afeta a probabilidade de implantar com sucesso um embrião numa barriga de aluguer.</Fertility.description>
+  
+  <!-- EN: growth vat occupant speed -->
+  <GrowthVatOccupantSpeed.label>velocidade de crescimento do ocupante da cuba</GrowthVatOccupantSpeed.label>
+  <!-- EN: A multiplier on how quickly this person will grow when in a growth vat. -->
+  <GrowthVatOccupantSpeed.description>Um multiplicador da rapidez com que esta pessoa cresce quando está numa cuba de crescimento.</GrowthVatOccupantSpeed.description>
+  
+  <!-- EN: hemogen gain multiplier -->
+  <HemogenGainFactor.label>multiplicador de ganho de hemogénio</HemogenGainFactor.label>
+  <!-- EN: A multiplier on the amount of hemogen gained. -->
+  <HemogenGainFactor.description>Um multiplicador da quantidade de hemogénio obtida.</HemogenGainFactor.description>
+  
+  <!-- EN: learning rate factor -->
+  <LearningRateFactor.label>fator de taxa de aprendizagem</LearningRateFactor.label>
+  <!-- EN: A multiplier on how quickly a child's learning need is fulfilled by learning activities. -->
+  <LearningRateFactor.description>Um multiplicador da rapidez com que a necessidade de aprendizagem de uma criança é satisfeita por atividades de aprendizagem.</LearningRateFactor.description>
+  
+  <!-- EN: mech bandwidth -->
+  <MechBandwidth.label>largura de banda de mecs</MechBandwidth.label>
+  <!-- EN: How much bandwidth a mechanitor has. More bandwidth allows a mechanitor to produce and control more mechs at the same time.\n\nLosing bandwidth means losing control of mechs, leaving them without an overseer. Such mechs can eventually become feral if not re-dominated. -->
+  <MechBandwidth.description>Quanta largura de banda um mecanitor tem. Mais largura de banda permite a um mecanitor produzir e controlar mais mecs ao mesmo tempo.\n\nPerder largura de banda significa perder o controlo de mecs, deixando-os sem supervisor. Esses mecs podem acabar por se tornar selvagens se não forem dominados de novo.</MechBandwidth.description>
+  
+  <!-- EN: mech control groups -->
+  <MechControlGroups.label>grupos de controlo de mecs</MechControlGroups.label>
+  <!-- EN: How many control groups this mechanitor can direct independently. Each control group can be given its own separate orders. -->
+  <MechControlGroups.description>Quantos grupos de controlo este mecanitor consegue dirigir de forma independente. Cada grupo de controlo pode receber ordens próprias.</MechControlGroups.description>
+  
+  <!-- EN: repair energy cost -->
+  <MechEnergyLossPerHP.label>custo de energia de reparação</MechEnergyLossPerHP.label>
+  <!-- EN: The amount of energy that this mechanoid loses for every 100 damage repaired. -->
+  <MechEnergyLossPerHP.description>A quantidade de energia que este mecanoide perde por cada 100 de dano reparado.</MechEnergyLossPerHP.description>
+  
+  <!-- EN: energy usage multiplier -->
+  <MechEnergyUsageFactor.label>multiplicador de uso de energia</MechEnergyUsageFactor.label>
+  <!-- EN: A multiplier on how fast a mechanoid consumes its energy reserves while operating. -->
+  <MechEnergyUsageFactor.description>Um multiplicador da rapidez com que um mecanoide consome as suas reservas de energia enquanto funciona.</MechEnergyUsageFactor.description>
+  
+  <!-- EN: mech gestation speed -->
+  <MechFormingSpeed.label>velocidade de gestação de mecs</MechFormingSpeed.label>
+  <!-- EN: A multiplier on the speed at which this mechanitor can form new mechanoids at a gestator. -->
+  <MechFormingSpeed.description>Um multiplicador da velocidade a que este mecanitor consegue formar novos mecanoides num gestador.</MechFormingSpeed.description>
+  
+  <!-- EN: mech remote repair distance -->
+  <MechRemoteRepairDistance.label>distância de reparação remota de mecs</MechRemoteRepairDistance.label>
+  <!-- EN: How far away a mech can be during remote repair. -->
+  <MechRemoteRepairDistance.description>A que distância pode estar um mec durante a reparação remota.</MechRemoteRepairDistance.description>
+  
+  <!-- EN: mech remote shield distance -->
+  <MechRemoteShieldDistance.label>distância de escudo remoto de mecs</MechRemoteShieldDistance.label>
+  <!-- EN: The maximum range at which a mechanitor can place a shield on a mechanoid. -->
+  <MechRemoteShieldDistance.description>O alcance máximo a que um mecanitor pode colocar um escudo num mecanoide.</MechRemoteShieldDistance.description>
+  
+  <!-- EN: mech remote shield energy -->
+  <MechRemoteShieldEnergy.label>energia de escudo remoto de mecs</MechRemoteShieldEnergy.label>
+  <!-- EN: The energy a remote shield will have when created by a mechanitor. -->
+  <MechRemoteShieldEnergy.description>A energia que um escudo remoto terá quando criado por um mecanitor.</MechRemoteShieldEnergy.description>
+  
+  <!-- EN: mech repair speed -->
+  <MechRepairSpeed.label>velocidade de reparação de mecs</MechRepairSpeed.label>
+  <!-- EN: A multiplier on how fast a mechanitor can repair mechanoids. -->
+  <MechRepairSpeed.description>Um multiplicador da rapidez com que um mecanitor consegue reparar mecanoides.</MechRepairSpeed.description>
+  
+  <!-- EN: raw nutrition multiplier -->
+  <RawNutritionFactor.label>multiplicador de nutrição crua</RawNutritionFactor.label>
+  <!-- EN: A multiplier on how nutritious raw food is for this person. Note that since meals usually have more nutrition than their raw ingredients, a boost to this stat may only mean the person gets the same nutrition from raw food as if it were cooked. -->
+  <RawNutritionFactor.description>Um multiplicador do valor nutritivo dos alimentos crus para esta pessoa. Nota que, como as refeições costumam ter mais nutrição do que os ingredientes crus, um aumento desta estatística pode apenas significar que a pessoa obtém dos alimentos crus a mesma nutrição que obteria se estivessem cozinhados.</RawNutritionFactor.description>
+  
+  <!-- EN: subcore encoding speed -->
+  <SubcoreEncodingSpeed.label>velocidade de codificação de subnúcleos</SubcoreEncodingSpeed.label>
+  <!-- EN: A multiplier on how fast a mechanitor can create subcores. -->
+  <SubcoreEncodingSpeed.description>Um multiplicador da rapidez com que um mecanitor consegue criar subnúcleos.</SubcoreEncodingSpeed.description>
+  
+  <!-- EN: wastepacks per recharge -->
+  <WastepacksPerRecharge.label>pacotes de resíduos por recarga</WastepacksPerRecharge.label>
+  <!-- EN: How many toxic wastepacks this mechanoid will generate at a mech recharger when going from 0 to 100% energy. Larger mechanoids will generally create more toxic wastepacks. -->
+  <WastepacksPerRecharge.description>Quantos pacotes de resíduos tóxicos este mecanoide gera num recarregador de mecs ao passar de 0 a 100% de energia. Os mecanoides maiores costumam gerar mais pacotes de resíduos tóxicos.</WastepacksPerRecharge.description>
+  
+</LanguageData>

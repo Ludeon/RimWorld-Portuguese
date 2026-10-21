@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: organ decay -->
+  <OrganDecayCreepjoiner.label>degeneração de órgão</OrganDecayCreepjoiner.label>
+  <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
+  <OrganDecayCreepjoiner.description>Uma doença degenerativa incurável que afeta um único órgão. A causa pode ser bacteriana ou viral. A doença parece surgir ao acaso, a partir de um reservatório natural desconhecido; não é diretamente contagiosa entre pessoas.\n\nEste órgão perderá lentamente a função antes de morrer por completo. Substitui-o por um órgão biónico ou natural.</OrganDecayCreepjoiner.description>
+  <!-- EN: {PAWN_labelShort}'s {1} was destroyed by organ decay. -->
+  <OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>{1} de {PAWN_labelShort} foi destruído pela degeneração de órgão.</OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>
+  <!-- EN: minor -->
+  <OrganDecayCreepjoiner.stages.minor.label>ligeira</OrganDecayCreepjoiner.stages.minor.label>
+  <!-- EN: moderate -->
+  <OrganDecayCreepjoiner.stages.moderate.label>moderada</OrganDecayCreepjoiner.stages.moderate.label>
+  <!-- EN: severe -->
+  <OrganDecayCreepjoiner.stages.severe.label>grave</OrganDecayCreepjoiner.stages.severe.label>
+  <!-- EN: extreme -->
+  <OrganDecayCreepjoiner.stages.extreme.label>extrema</OrganDecayCreepjoiner.stages.extreme.label>
+  
+  <!-- EN: organ decay -->
+  <OrganDecayUndiagnosedCreepjoiner.label>degeneração de órgão</OrganDecayUndiagnosedCreepjoiner.label>
+  <!-- EN: This person is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. They will begin to display symptoms within a matter of days. -->
+  <OrganDecayUndiagnosedCreepjoiner.description>Esta pessoa apresenta sinais precoces de uma condição grave que fará os órgãos deteriorarem-se rapidamente. Os sintomas começarão a manifestar-se dentro de poucos dias.</OrganDecayUndiagnosedCreepjoiner.description>
+  <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} apresenta sinais precoces de uma condição grave que fará os órgãos deteriorarem-se rapidamente. {SURGEON_nameDef} ainda não consegue dizer exatamente o que a causa, mas {PAWN_nameDef} ficará muito doente nos próximos dias.</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <!-- EN: {PAWN_nameDef} can no longer hide {PAWN_possessive} crippling condition. {PAWN_possessive} body is riddled with rotting organs - {PAWN_pronoun} is little more than a walking corpse. {PAWN_nameDef} has organ decay affecting the following body parts:\n\n{ORGANS}\n\nReplace the organs soon to keep {PAWN_nameDef} healthy. You can use bionic organs or natural ones taken from donors. -->
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef} já não consegue esconder a condição debilitante de que sofre. O corpo está cheio de órgãos podres, e mal passa de um cadáver ambulante. {PAWN_nameDef} sofre de degeneração de órgão nas seguintes partes do corpo:\n\n{ORGANS}\n\nSubstitui os órgãos depressa para manteres {PAWN_nameDef} saudável. Podes usar órgãos biónicos ou naturais retirados de dadores.</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>
+  <!-- EN: Organ decay: {PAWN_nameDef} -->
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>Degeneração de órgão: {PAWN_nameDef}</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>
+  <!-- EN: diagnosed -->
+  <OrganDecayUndiagnosedCreepjoiner.stages.diagnosed.label>diagnosticada</OrganDecayUndiagnosedCreepjoiner.stages.diagnosed.label>
+  
+  <!-- EN: organ decay -->
+  <OrganDecayUndiagnosedDuplicaton.label>degeneração de órgão</OrganDecayUndiagnosedDuplicaton.label>
+  <!-- EN: This person is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. They will begin to display symptoms within a matter of days. -->
+  <OrganDecayUndiagnosedDuplicaton.description>Esta pessoa apresenta sinais precoces de uma condição grave que fará os órgãos deteriorarem-se rapidamente. Os sintomas começarão a manifestar-se dentro de poucos dias.</OrganDecayUndiagnosedDuplicaton.description>
+  <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} apresenta sinais precoces de uma condição grave que fará os órgãos deteriorarem-se rapidamente. {SURGEON_nameDef} ainda não consegue dizer exatamente o que a causa, mas {PAWN_nameDef} ficará muito doente nos próximos dias.</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <!-- EN: {PAWN_nameDef} can no longer hide {PAWN_possessive} crippling condition. The duplication process has left {PAWN_possessive} body riddled with rotting organs. {PAWN_nameDef} has organ decay affecting the following body parts:\n\n{ORGANS}\n\nReplace the organs soon to keep {PAWN_nameDef} healthy. You can use bionic organs or natural ones taken from donors. -->
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef} já não consegue esconder a condição debilitante de que sofre. O processo de duplicação deixou o corpo cheio de órgãos podres. {PAWN_nameDef} sofre de degeneração de órgão nas seguintes partes do corpo:\n\n{ORGANS}\n\nSubstitui os órgãos depressa para manteres {PAWN_nameDef} saudável. Podes usar órgãos biónicos ou naturais retirados de dadores.</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>
+  <!-- EN: Organ decay: {PAWN_nameDef} -->
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>Degeneração de órgão: {PAWN_nameDef}</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>
+  <!-- EN: diagnosed -->
+  <OrganDecayUndiagnosedDuplicaton.stages.diagnosed.label>diagnosticada</OrganDecayUndiagnosedDuplicaton.stages.diagnosed.label>
+  
+</LanguageData>

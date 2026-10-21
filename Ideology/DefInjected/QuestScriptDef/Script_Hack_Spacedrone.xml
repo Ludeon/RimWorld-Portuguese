@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->You've detected an orbiting spacedrone that may contain information about [relic_name]. You have the code that will force it to land at [map_definite].\n\nTo get the information, hack into the drone's computer. Hacking takes time, but those strong in intellectual skill can speed up the process.[raidsDescription]\n\nAfter landing, the spacedrone will self-destruct in [destroyDelayTicks_duration].</li>
+    <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] will [droneDetectionMethod]. As long as it's present, they'll send attackers approximately every [raidIntervalAvg_duration] to destroy it and steal the wealth they think it contains. You will have some time to prepare defenses around it before they arrive.</li>
+    <li>raidsDescription(allowViolence==false)-></li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==true)->spot the drone during its decent</li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==false)->detect the drone's energy signature</li>
+  -->
+  <Hack_Spacedrone.questDescriptionRules.rulesStrings>
+    <li>questDescription->Detetaste um drone espacial em órbita que pode conter informações sobre [relic_name]. Tens o código que o obriga a aterrar em [map_definite].\n\nPara obteres as informações, pirateia o computador do drone. A pirataria leva tempo, mas quem tiver uma grande capacidade intelectual pode acelerar o processo.[raidsDescription]\n\nDepois de aterrar, o drone espacial autodestrói-se dentro de [destroyDelayTicks_duration].</li>
+    <li>raidsDescription(allowViolence==true)->\n\nOs [enemyFaction_pawnsPlural] de [enemyFaction_name] vão [droneDetectionMethod]. Enquanto o drone lá estiver, vão enviar atacantes aproximadamente a cada [raidIntervalAvg_duration] para o destruir e roubar a riqueza que julgam que contém. Terás algum tempo para preparar defesas à sua volta antes de chegarem.</li>
+    <li>raidsDescription(allowViolence==false)-></li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==true)->avistar o drone durante a descida</li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==false)->detetar a assinatura energética do drone</li>
+  </Hack_Spacedrone.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[droneAdj] [drone] hack</li>
+    <li>questName->[drone] [data] hack</li>
+    <li>droneAdj->orbital</li>
+    <li>droneAdj->data</li>
+    <li>droneAdj->ancient</li>
+    <li>drone->drone</li>
+    <li>drone->spacecraft</li>
+    <li>drone->spacedrone</li>
+    <li>drone->cryptodrone</li>
+    <li>data->data</li>
+    <li>data->intel</li>
+    <li>data->info</li>
+  -->
+  <Hack_Spacedrone.questNameRules.rulesStrings>
+    <li>questName->Pirataria do [drone] [droneAdj]</li>
+    <li>questName->Pirataria de [data] do [drone]</li>
+    <li>droneAdj->orbital</li>
+    <li>droneAdj->de dados</li>
+    <li>droneAdj->antigo</li>
+    <li>drone->drone</li>
+    <li>drone->veículo espacial</li>
+    <li>drone->drone espacial</li>
+    <li>drone->criptodrone</li>
+    <li>data->dados</li>
+    <li>data->informações</li>
+    <li>data->segredos</li>
+  </Hack_Spacedrone.questNameRules.rulesStrings>
+
+</LanguageData>

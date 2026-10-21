@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Autosaving -->
+  <Autosaving>A guardar automaticamente</Autosaving>
+  <!-- EN: The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart.\n\nSome time later, you land on this unknown rimworld.\n\nAs pieces of the shredded starship fall around you, you start making plans to survive. -->
+  <GameStartDialog>Os três acordam nos sarcófagos de criossono ao som de sirenes e de metal a rasgar. Mal chegam às cápsulas de fuga antes de a nave ser desfeita em pedaços.\n\nAlgum tempo depois, aterram neste mundo da Orla desconhecido.\n\nEnquanto os destroços da nave estelar caem à vossa volta, começam a fazer planos para sobreviver.</GameStartDialog>
+  <!-- EN: Colony -->
+  <Colony>Colónia</Colony>
+  <!-- EN: You can only change language from the options screen on the main menu. -->
+  <ChangeLanguageFromMainMenu>Só podes alterar a língua no ecrã de opções no menu principal.</ChangeLanguageFromMainMenu>
+  <!-- EN: and -->
+  <AndLower>e</AndLower>
+  <!-- EN: disabled -->
+  <DisabledLower>desativado</DisabledLower>
+
+  <!-- EN: Version {0} -->
+  <VersionIndicator>Versão {0}</VersionIndicator>
+  <!-- EN: Game version -->
+  <GameVersionIndicator>Versão do jogo</GameVersionIndicator>
+  <!-- EN: development build -->
+  <DevelopmentBuildLower>versão de desenvolvimento</DevelopmentBuildLower>
+  <!-- EN: Compiled {0} -->
+  <CompiledOn>Compilado: {0}</CompiledOn>
+  <!-- EN: Logged into Steam as {0} -->
+  <LoggedIntoSteamAs>Sessão iniciada na Steam como {0}</LoggedIntoSteamAs>
+  
+  <!-- ToCommaList() -->
+  <!-- EN: {0} and {1} -->
+  <ToCommaListAnd>{0} e {1}</ToCommaListAnd>
+  <!-- EN: {0} or {1} -->
+  <ToCommaListOr>{0} ou {1}</ToCommaListOr>
+  
+  <!-- General-use words -->
+  <!-- EN: Yes -->
+  <Yes>Sim</Yes>
+  <!-- EN: No -->
+  <No>Não</No>
+  <!-- EN: No {0} -->
+  <NoSubject>Sem {0}</NoSubject>
+  <!-- EN: new -->
+  <New>novo</New>
+  <!-- EN: Gender -->
+  <Gender>Género</Gender>
+  <!-- EN: Sex -->
+  <Sex>Sexo</Sex>
+  <!-- EN: min -->
+  <min>mín</min>
+  <!-- EN: max -->
+  <max>máx</max>
+  <!-- EN: chance -->
+  <chance>probabilidade</chance>
+  <!-- EN: context -->
+  <context>contexto</context>
+  <!-- EN: multiplier -->
+  <multiplier>multiplicador</multiplier>
+  <!-- EN: damage -->
+  <damage>dano</damage>
+  <!-- EN: radius -->
+  <radius>raio</radius>
+  <!-- EN: expired -->
+  <expired>expirado</expired>
+  <!-- EN: duration (days) -->
+  <durationDays>duração (dias)</durationDays>
+  <!-- EN: interval (days) -->
+  <intervalDays>intervalo (dias)</intervalDays>
+  <!-- EN: delay (days) -->
+  <delayDays>atraso (dias)</delayDays>
+  <!-- EN: repeat -->
+  <repeat>repetir</repeat>
+  <!-- EN: default -->
+  <default>predefinido</default>
+  <!-- EN: distance -->
+  <distance>distância</distance>
+  <!-- EN: YES -->
+  <YesUppercase>SIM</YesUppercase>
+  <!-- EN: NO -->
+  <NoUppercase>NÃO</NoUppercase>
+  <!-- EN: kg -->
+  <kg>kg</kg>
+  <!-- EN: Day -->
+  <Day>Dia</Day>
+  <!-- EN: day -->
+  <day>dia</day>
+  <!-- EN: Default -->
+  <Default>Predefinido</Default>
+  <!-- EN: Average -->
+  <Average>Média</Average>
+  <!-- EN: Cause -->
+  <Cause>Causa</Cause>
+  <!-- EN: etc -->
+  <Etc>etc</Etc>
+  <!-- EN: ${0} -->
+  <MoneyFormat>${0}</MoneyFormat>
+  <!-- EN: Factors -->
+  <Factors>Fatores</Factors>
+  <!-- EN: Uses -->
+  <Uses>Utilizações</Uses>
+  <!-- EN: Translation -->
+  <Translation>Tradução</Translation>
+  <!-- EN: min(days) -->
+  <minDays>mín(dias)</minDays>
+  <!-- EN: max(days) -->
+  <maxDays>máx(dias)</maxDays>
+  <!-- EN: Processing -->
+  <Processing>A processar</Processing>
+  <!-- EN: Inspect -->
+  <Inspect>Inspecionar</Inspect>
+  <!-- EN: Edit -->
+  <Edit>Editar</Edit>
+
+  <!-- Content generation-->
+  
+  <!-- EN: {0} meat -->
+  <MeatLabel>carne de {0}</MeatLabel>
+  <!-- EN: Raw butchered flesh. Can be cooked into meals, or eaten raw. -->
+  <MeatDesc>Carne crua resultante do desmanche. Pode ser cozinhada em refeições ou comida crua.</MeatDesc>
+  <!-- EN: Raw butchered flesh. If necessary, can be cooked into meals, or even eaten raw. Extremely unappetizing. -->
+  <MeatInsectDesc>Carne crua resultante do desmanche. Se necessário, pode ser cozinhada em refeições, ou até comida crua. Extremamente pouco apetitosa.</MeatInsectDesc>
+  <!-- EN: Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea. -->
+  <MeatHumanDesc>Carne crua resultante do desmanche. Pode ser cozinhada em refeições ou comida crua, embora a maioria dos humanos deteste a ideia.</MeatHumanDesc>
+
+  <!-- EN: techprint ({PROJECT_label}) -->
+  <TechprintLabel>tecnoplano ({PROJECT_label})</TechprintLabel>
+  <!-- EN: This is a techprint for the research project '{PROJECT_label}'.
+\nThe physical form of techprints can range from scraps of paper with diagrams, all the way to advanced self-contained teaching machines. Regardless of form, they play the same role. They give your researchers the confidence that an idea is possible, and a rough idea of the designs used in more established societies.
+\nYour researchers need the foundational knowledge offered by techprints to know where to start on a given technology. Only after enough techprints have been applied can your researchers work out the fine details of how to make use of the technology in your particular situation.
+\nApplying techprints to a satisfied project fulfills half the remaining research progress. In addition, researchers always gain a boost to their intellectual skills when applying techprints, even on already-completed technologies. -->
+  <TechprintDesc>Este é um tecnoplano para o projeto de investigação '{PROJECT_label}'.
+\nA forma física dos tecnoplanos pode ir de pedaços de papel com diagramas a máquinas de ensino avançadas e autónomas. Seja qual for a forma, desempenham a mesma função: dão aos teus investigadores a confiança de que uma ideia é possível e uma noção geral dos projetos usados em sociedades mais estabelecidas.
+\nOs teus investigadores precisam do conhecimento fundamental que os tecnoplanos oferecem para saberem por onde começar numa determinada tecnologia. Só depois de aplicados tecnoplanos suficientes é que os teus investigadores conseguem definir os pormenores de como tirar partido da tecnologia na tua situação específica.
+\nAplicar tecnoplanos a um projeto satisfeito cumpre metade do progresso de investigação restante. Além disso, os investigadores ganham sempre um impulso nas perícias intelectuais ao aplicar tecnoplanos, mesmo em tecnologias já concluídas.</TechprintDesc>
+  <!-- EN: Unlocks -->
+  <Unlocks>Desbloqueia</Unlocks>
+
+  <!-- EN: {0} corpse -->
+  <CorpseLabel>cadáver de {0}</CorpseLabel>
+  <!-- EN: Dead body of a {0}. -->
+  <CorpseDesc>Corpo sem vida de {0}.</CorpseDesc>
+  <!-- EN: {1_label} (dead) -->
+  <DeadLabel>{1_label} (morto)</DeadLabel>
+
+  <!-- EN: rough {0} -->
+  <RoughStoneTerrainLabel>{0} bruto</RoughStoneTerrainLabel>
+  <!-- EN: Rough, natural {0} ground. -->
+  <RoughStoneTerrainDesc>Chão natural de {0} em bruto.</RoughStoneTerrainDesc>
+  <!-- EN: rough-hewn {0} -->
+  <RoughHewnStoneTerrainLabel>{0} talhado em bruto</RoughHewnStoneTerrainLabel>
+  <!-- EN: Roughly cut natural {0} floor. -->
+  <RoughHewnStoneTerrainDesc>Piso natural de {0} talhado em bruto.</RoughHewnStoneTerrainDesc>
+  <!-- EN: smooth {0} -->
+  <SmoothStoneTerrainLabel>{0} polido</SmoothStoneTerrainLabel>
+  <!-- EN: Smoothed natural {0} floor. -->
+  <SmoothStoneTerrainDesc>Piso natural de {0} polido.</SmoothStoneTerrainDesc>
+
+  <!-- EN:  (blueprint) -->
+  <BlueprintLabelExtra> (projeto)</BlueprintLabelExtra>
+  <!-- EN:  (building) -->
+  <FrameLabelExtra> (em construção)</FrameLabelExtra>
+
+  <!-- EN: Unaffiliated -->
+  <FactionUnaffiliated>Sem afiliação</FactionUnaffiliated>
+
+  <!-- EN: Continue anyway? -->
+  <StillWishContinue>Continuar mesmo assim?</StillWishContinue>
+  
+  <!-- EN: ba,bah,boo,buh,ga,gah,goo,nyah,na,nah,noo,woo,wah,wuh,ma,mah -->
+  <BabyTalk>ba,bá,bu,ga,gá,gu,nha,na,nã,nu,ma,mã,pa,pá</BabyTalk>
+
+  <!-- For things made of stuff, e.g. "Stone bed" -->
+  <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
+  <!-- EN: {0} {1} -->
+  <ThingMadeOfStuffLabel>{1} de {0}</ThingMadeOfStuffLabel>
+
+  <!-- EN: {PAWN_labelShort}'s {1} -->
+  <SomeonesRoom>{1} de {PAWN_labelShort}</SomeonesRoom>
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort}'s {2} -->
+  <CouplesRoom>{2} de {PAWN1_labelShort} e {PAWN2_labelShort}</CouplesRoom>
+  
+  <!-- EN: Important for this type of room. -->
+  <StatRelatesToCurrentRoom>Importante para este tipo de divisão.</StatRelatesToCurrentRoom>
+  
+  <!-- EN: {COUNT} {RESOURCE_label} underground here. -->
+  <DeepResourceRemaining>{COUNT} {RESOURCE_label} no subsolo aqui.</DeepResourceRemaining>
+  
+  <!-- EN: (various) -->
+  <VariousLabel>(vários)</VariousLabel>
+
+  <!-- History events -->
+  <!-- EN: Colonist died -->
+  <ColonistDied>Colono morreu</ColonistDied>
+  
+  <!-- Rotation -->
+  <!-- EN: North -->
+  <North>Norte</North>
+  <!-- EN: South -->
+  <South>Sul</South>
+  <!-- EN: West -->
+  <West>Oeste</West>
+  <!-- EN: East -->
+  <East>Este</East>
+
+  <!-- EN: applying techprint ({0}) -->
+  <ApplyingTechprint>a aplicar tecnoplano ({0})</ApplyingTechprint>
+
+  <!-- Apparel Looks -->
+  <!-- EN: variant of -->
+  <VariantOf>variante de</VariantOf>
+  
+  <!-- Familial relationships -->
+  <!-- EN: born to {0} -->
+  <BornOfParents>nascido de {0}</BornOfParents>
+  <!-- EN: unknown parents -->
+  <ParentsUnknown>pais desconhecidos</ParentsUnknown>
+  
+  <!-- Legal status -->
+  <!-- EN: colonist -->
+  <Colonist>colono</Colonist>
+
+</LanguageData>

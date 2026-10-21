@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_roleName->creaturizer</li>
+    <li>r_roleName->animalor</li>
+    <li>firstPart->fur</li>
+    <li>firstPart->paw</li>
+    <li>firstPart->hoof</li>
+    <li>firstPart->tail</li>
+    <li>firstPart->whisker</li>
+    <li>firstPart->fang</li>
+    <li>firstPart->feral</li>
+    <li>firstPart->snout</li>
+    <li>secondPart(p=4)->kin</li>
+    <li>secondPart(p=4)->touch</li>
+  -->
+  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings>
+    <li>r_roleName->criaturador</li>
+    <li>r_roleName->animalista</li>
+    <li>firstPart->pelo</li>
+    <li>firstPart->pata</li>
+    <li>firstPart->casco</li>
+    <li>firstPart->cauda</li>
+    <li>firstPart->bigode</li>
+    <li>firstPart->presa</li>
+    <li>firstPart->fera</li>
+    <li>firstPart->focinho</li>
+    <li>secondPart(p=4)->parente de</li>
+    <li>secondPart(p=4)->toque de</li>
+  </NamerRoleAnimalsSpecialist.rulePack.rulesStrings>
+
+  <!-- EN:
+    <li>r_roleName->berserker</li>
+    <li>firstPart->slash</li>
+    <li>firstPart->fist</li>
+    <li>firstPart->bruise</li>
+    <li>firstPart->blade</li>
+    <li>firstPart->brawl</li>
+    <li>firstPart->knuckle</li>
+    <li>firstPart->spear</li>
+    <li>firstPart->sword</li>
+    <li>firstPart->club</li>
+    <li>firstPart->edge</li>
+    <li>firstPart->cut</li>
+    <li>firstPart->smash</li>
+    <li>firstPart->crush</li>
+  -->
+  <NamerRoleBrawler.rulePack.rulesStrings>
+    <li>r_roleName->berserker</li>
+    <li>firstPart->golpe</li>
+    <li>firstPart->punho</li>
+    <li>firstPart->pisadura</li>
+    <li>firstPart->lâmina</li>
+    <li>firstPart->rixa</li>
+    <li>firstPart->murro</li>
+    <li>firstPart->lança</li>
+    <li>firstPart->espada</li>
+    <li>firstPart->moca</li>
+    <li>firstPart->gume</li>
+    <li>firstPart->corte</li>
+    <li>firstPart->pancada</li>
+    <li>firstPart->esmago</li>
+  </NamerRoleBrawler.rulePack.rulesStrings>
+
+  <!-- EN:
+    <li>firstPart->health</li>
+    <li>firstPart->heal</li>
+    <li>firstPart->heart</li>
+    <li>firstPart->medi</li>
+    <li>firstPart->scalpel</li>
+    <li>firstPart->sanito</li>
+    <li>firstPart->surgo</li>
+    <li>firstPart->clinic</li>
+  -->
+  <NamerRoleMedicalSpecialist.rulePack.rulesStrings>
+    <li>firstPart->saúde</li>
+    <li>firstPart->cura</li>
+    <li>firstPart->coração</li>
+    <li>firstPart->medicina</li>
+    <li>firstPart->bisturi</li>
+    <li>firstPart->higiene</li>
+    <li>firstPart->cirurgia</li>
+    <li>firstPart->clínica</li>
+  </NamerRoleMedicalSpecialist.rulePack.rulesStrings>
+
+  <!-- EN:
+    <li>r_roleName->spelunker</li>
+    <li>firstPart->mine</li>
+    <li>firstPart->deep</li>
+    <li>firstPart->depth</li>
+    <li>firstPart->rock</li>
+    <li>firstPart->cave</li>
+    <li>firstPart->pick</li>
+    <li>firstPart->drill</li>
+    <li>firstPart->under</li>
+    <li>firstPart->stone</li>
+    <li>firstPart->hill</li>
+    <li>firstPart->hole</li>
+    <li>firstPart->tunnel</li>
+    <li>firstPart->crack</li>
+  -->
+  <NamerRoleMiner.rulePack.rulesStrings>
+    <li>r_roleName->espeleólogo</li>
+    <li>firstPart->mina</li>
+    <li>firstPart->profundeza</li>
+    <li>firstPart->abismo</li>
+    <li>firstPart->rocha</li>
+    <li>firstPart->caverna</li>
+    <li>firstPart->picareta</li>
+    <li>firstPart->broca</li>
+    <li>firstPart->subsolo</li>
+    <li>firstPart->pedra</li>
+    <li>firstPart->colina</li>
+    <li>firstPart->buraco</li>
+    <li>firstPart->túnel</li>
+    <li>firstPart->fenda</li>
+  </NamerRoleMiner.rulePack.rulesStrings>
+
+  <!-- EN:
+    <li>r_roleName(p=4)->[memeMoralist]</li>
+    <li>r_roleName(p=2)->[memeAdjective] [memeMoralist]</li>
+    <li>r_roleName->[memeMoralist] of [chosenTheme]</li>
+    <li>r_roleName->[memeMoralist] of [keyDeity]</li>
+    <li>r_roleName->[memeMoralist] of [memeConcept]</li>
+    <li>r_roleName->[memeMoralist] of [chosenIdeoName]</li>
+    <li>r_roleName->[chosenAdjective] [memeMoralist]</li>
+    <li>r_roleName->[keyDeity]'s [memeMoralist]</li>
+  -->
+  <NamerRoleMoralist.rulePack.rulesStrings>
+    <li>r_roleName(p=4)->[memeMoralist]</li>
+    <li>r_roleName(p=2)->[memeMoralist] [memeAdjective]</li>
+    <li>r_roleName->[memeMoralist] de [chosenTheme]</li>
+    <li>r_roleName->[memeMoralist] de [keyDeity]</li>
+    <li>r_roleName->[memeMoralist] de [memeConcept]</li>
+    <li>r_roleName->[memeMoralist] de [chosenIdeoName]</li>
+    <li>r_roleName->[memeMoralist] [chosenAdjective]</li>
+    <li>r_roleName->[memeMoralist] ao serviço de [keyDeity]</li>
+  </NamerRoleMoralist.rulePack.rulesStrings>
+
+  <!-- EN:
+    <li>r_roleName->manufactor</li>
+    <li>r_roleName->handyman</li>
+    <li>r_roleName->maker</li>
+    <li>firstPart->make</li>
+    <li>firstPart->craft</li>
+    <li>firstPart->build</li>
+    <li>firstPart->manu</li>
+    <li>firstPart->make</li>
+  -->
+  <NamerRoleProductionSpecialist.rulePack.rulesStrings>
+    <li>r_roleName->manufator</li>
+    <li>r_roleName->faz-tudo</li>
+    <li>r_roleName->criador</li>
+    <li>firstPart->fabrico</li>
+    <li>firstPart->ofício</li>
+    <li>firstPart->construção</li>
+    <li>firstPart->manufatura</li>
+    <li>firstPart->obra</li>
+  </NamerRoleProductionSpecialist.rulePack.rulesStrings>
+
+  <!-- EN:
+    <li>r_roleName->highmind</li>
+    <li>r_roleName->cogitor</li>
+    <li>r_roleName->thinker</li>
+    <li>r_roleName->learner</li>
+    <li>firstPart->mind</li>
+    <li>firstPart->thought</li>
+    <li>firstPart->focus</li>
+    <li>firstPart->neuro</li>
+    <li>firstPart->cogito</li>
+    <li>firstPart->idea</li>
+  -->
+  <NamerRoleResearcher.rulePack.rulesStrings>
+    <li>r_roleName->mente superior</li>
+    <li>r_roleName->cogitador</li>
+    <li>r_roleName->pensador</li>
+    <li>r_roleName->aprendiz</li>
+    <li>firstPart->mente</li>
+    <li>firstPart->pensamento</li>
+    <li>firstPart->foco</li>
+    <li>firstPart->neurónio</li>
+    <li>firstPart->cogito</li>
+    <li>firstPart->ideia</li>
+  </NamerRoleResearcher.rulePack.rulesStrings>
+
+  <!-- EN:
+    <li>firstPart->gun</li>
+    <li>firstPart->shot</li>
+    <li>firstPart->trigger</li>
+    <li>firstPart->bullet</li>
+    <li>firstPart->shell</li>
+    <li>firstPart->aim</li>
+    <li>firstPart->snipe</li>
+    <li>firstPart->point</li>
+    <li>firstPart->shoot</li>
+    <li>secondPart(p=4)->slinger</li>
+  -->
+  <NamerRoleShooter.rulePack.rulesStrings>
+    <li>firstPart->arma</li>
+    <li>firstPart->tiro</li>
+    <li>firstPart->gatilho</li>
+    <li>firstPart->bala</li>
+    <li>firstPart->cartucho</li>
+    <li>firstPart->mira</li>
+    <li>firstPart->tiro certeiro</li>
+    <li>firstPart->pontaria</li>
+    <li>firstPart->disparo</li>
+    <li>secondPart(p=4)->atirador de</li>
+  </NamerRoleShooter.rulePack.rulesStrings>
+
+  <!-- EN:
+    <li>r_roleName->fertilizer</li>
+    <li>firstPart->leaf</li>
+    <li>firstPart->plant</li>
+    <li>firstPart->green</li>
+    <li>firstPart->sprout</li>
+    <li>firstPart->garden</li>
+    <li>firstPart->flora</li>
+    <li>firstPart->herb</li>
+    <li>firstPart->crop</li>
+    <li>firstPart->farm</li>
+    <li>firstPart->land</li>
+    <li>firstPart->dirt</li>
+    <li>firstPart->seed</li>
+    <li>firstPart->soil</li>
+    <li>firstPart->root</li>
+  -->
+  <NamerRoleSower.rulePack.rulesStrings>
+    <li>r_roleName->fertilizador</li>
+    <li>firstPart->folha</li>
+    <li>firstPart->planta</li>
+    <li>firstPart->verdura</li>
+    <li>firstPart->rebento</li>
+    <li>firstPart->jardim</li>
+    <li>firstPart->flora</li>
+    <li>firstPart->erva</li>
+    <li>firstPart->colheita</li>
+    <li>firstPart->quinta</li>
+    <li>firstPart->terra</li>
+    <li>firstPart->lama</li>
+    <li>firstPart->semente</li>
+    <li>firstPart->solo</li>
+    <li>firstPart->raiz</li>
+  </NamerRoleSower.rulePack.rulesStrings>
+
+  <!-- EN:
+    <li>r_roleName(p=7)->[firstPart][secondPart]</li>
+    <li>secondPart->master</li>
+    <li>secondPart->crat</li>
+    <li>secondPart->flame</li>
+    <li>secondPart->mind</li>
+    <li>secondPart->head</li>
+    <li>secondPart->eye</li>
+    <li>secondPart->hand</li>
+    <li>secondPart->func</li>
+    <li>secondPart->brain</li>
+    <li>secondPart->holder</li>
+    <li>secondPart->bringer</li>
+    <li>secondPart->talker</li>
+    <li>secondPart->speaker</li>
+    <li>secondPart->knower</li>
+    <li>secondPart->lover</li>
+    <li>secondPart->user</li>
+    <li>secondPart->one</li>
+    <li>secondPart->pert</li>
+    <li>secondPart->itor</li>
+    <li>secondPart->inor</li>
+    <li>secondPart->alor</li>
+    <li>secondPart->or</li>
+    <li>secondPart->izer</li>
+    <li>secondPart->iner</li>
+  -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings>
+    <li>r_roleName(p=7)->[secondPart] [firstPart]</li>
+    <li>secondPart->mestre de</li>
+    <li>secondPart->burocrata de</li>
+    <li>secondPart->chama de</li>
+    <li>secondPart->mente de</li>
+    <li>secondPart->cabeça de</li>
+    <li>secondPart->olho de</li>
+    <li>secondPart->mão de</li>
+    <li>secondPart->cérebro de</li>
+    <li>secondPart->portador de</li>
+    <li>secondPart->arauto de</li>
+    <li>secondPart->voz de</li>
+    <li>secondPart->orador de</li>
+    <li>secondPart->conhecedor de</li>
+    <li>secondPart->amante de</li>
+    <li>secondPart->utilizador de</li>
+    <li>secondPart->eleito de</li>
+    <li>secondPart->perito em</li>
+    <li>secondPart->guardião de</li>
+    <li>secondPart->senhor de</li>
+    <li>secondPart->zelador de</li>
+    <li>secondPart->pastor de</li>
+    <li>secondPart->domador de</li>
+    <li>secondPart->guia de</li>
+  </NamerRoleSpecialistUtility.rulePack.rulesStrings>
+
+</LanguageData>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Armor - Blunt -->
+  <ArmorRating_Blunt.label>Armadura - Contundente</ArmorRating_Blunt.label>
+  <!-- EN: The protection given against blunt damage like fists, club impacts and rock falls.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
+  <ArmorRating_Blunt.description>A proteção contra dano contundente, como punhos, pancadas de clava e queda de rochas.\n\nAo sofrer dano, esta classificação de armadura é primeiro reduzida pelo valor de penetração de armadura do ataque.\n\nA classificação de armadura restante é depois comparada com um número aleatório entre 0 e 100.\n\n    - Se o número aleatório for inferior a metade da classificação de armadura, o dano é desviado sem efeito.\n    - Se o número aleatório for superior a metade da classificação de armadura, mas não superior à própria classificação, o dano é reduzido para metade e convertido em contundente.\n    - Se o número aleatório for superior à classificação de armadura, a armadura não tem qualquer efeito.\n\nPor exemplo, com 90% de classificação de armadura contra um ataque com 10% de penetração de armadura, há 40% de probabilidade de desviar o ataque sem efeito e 40% de probabilidade de atenuar o dano.\n\nCada camada de armadura é aplicada em separado, de fora para dentro.</ArmorRating_Blunt.description>
+  <!-- EN: Armor - Blunt (armor stat) -->
+  <ArmorRating_Blunt.labelForFullStatList>Armadura - Contundente (atributo de armadura)</ArmorRating_Blunt.labelForFullStatList>
+  
+  <!-- EN: Armor - Heat -->
+  <ArmorRating_Heat.label>Armadura - Calor</ArmorRating_Heat.label>
+  <!-- EN: The protection given against temperature-related damage like burns.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
+  <ArmorRating_Heat.description>A proteção contra dano relacionado com temperatura, como queimaduras.\n\nAo sofrer dano, esta classificação de armadura é primeiro reduzida pelo valor de penetração de armadura do ataque.\n\nA classificação de armadura restante é depois comparada com um número aleatório entre 0 e 100.\n\n    - Se o número aleatório for inferior a metade da classificação de armadura, o dano é desviado sem efeito.\n    - Se o número aleatório for superior a metade da classificação de armadura, mas não superior à própria classificação, o dano é reduzido para metade e convertido em contundente.\n    - Se o número aleatório for superior à classificação de armadura, a armadura não tem qualquer efeito.\n\nPor exemplo, com 90% de classificação de armadura contra um ataque com 10% de penetração de armadura, há 40% de probabilidade de desviar o ataque sem efeito e 40% de probabilidade de atenuar o dano.\n\nCada camada de armadura é aplicada em separado, de fora para dentro.</ArmorRating_Heat.description>
+  <!-- EN: Armor - Heat (armor stat) -->
+  <ArmorRating_Heat.labelForFullStatList>Armadura - Calor (atributo de armadura)</ArmorRating_Heat.labelForFullStatList>
+  
+  <!-- EN: Armor - Sharp -->
+  <ArmorRating_Sharp.label>Armadura - Cortante</ArmorRating_Sharp.label>
+  <!-- EN: The protection given against sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
+  <ArmorRating_Sharp.description>A proteção contra dano cortante, como balas, facadas, explosões e mordidelas de animais.\n\nAo sofrer dano, esta classificação de armadura é primeiro reduzida pelo valor de penetração de armadura do ataque.\n\nA classificação de armadura restante é depois comparada com um número aleatório entre 0 e 100.\n\n    - Se o número aleatório for inferior a metade da classificação de armadura, o dano é desviado sem efeito.\n    - Se o número aleatório for superior a metade da classificação de armadura, mas não superior à própria classificação, o dano é reduzido para metade e convertido em contundente.\n    - Se o número aleatório for superior à classificação de armadura, a armadura não tem qualquer efeito.\n\nPor exemplo, com 90% de classificação de armadura contra um ataque com 10% de penetração de armadura, há 40% de probabilidade de desviar o ataque sem efeito e 40% de probabilidade de atenuar o dano.\n\nCada camada de armadura é aplicada em separado, de fora para dentro.</ArmorRating_Sharp.description>
+  <!-- EN: Armor - Sharp (armor stat) -->
+  <ArmorRating_Sharp.labelForFullStatList>Armadura - Cortante (atributo de armadura)</ArmorRating_Sharp.labelForFullStatList>
+  
+  <!-- EN: Shield max energy -->
+  <EnergyShieldEnergyMax.label>Energia máxima do escudo</EnergyShieldEnergyMax.label>
+  <!-- EN: The maximum energy a shield can have at one time.\n\nMore energy absorbs more damage. -->
+  <EnergyShieldEnergyMax.description>A energia máxima que um escudo pode ter de cada vez.\n\nMais energia absorve mais dano.</EnergyShieldEnergyMax.description>
+  
+  <!-- EN: Shield recharge rate -->
+  <EnergyShieldRechargeRate.label>Taxa de recarga do escudo</EnergyShieldRechargeRate.label>
+  <!-- EN: The rate at which a shield gains energy as long as it is not broken. -->
+  <EnergyShieldRechargeRate.description>A taxa a que um escudo ganha energia enquanto não estiver partido.</EnergyShieldRechargeRate.description>
+  <!-- EN: {0}/s -->
+  <EnergyShieldRechargeRate.formatString>{0}/s</EnergyShieldRechargeRate.formatString>
+  
+  <!-- EN: equip delay -->
+  <EquipDelay.label>tempo de equipar</EquipDelay.label>
+  <!-- EN: The time it takes to equip and unequip this item. -->
+  <EquipDelay.description>O tempo necessário para equipar e desequipar este item.</EquipDelay.description>
+  <!-- EN: {0} s -->
+  <EquipDelay.formatString>{0} s</EquipDelay.formatString>
+  
+  <!-- EN: Insulation - Cold -->
+  <Insulation_Cold.label>Isolamento - Frio</Insulation_Cold.label>
+  <!-- EN: How much this apparel improves a wearer's minimum comfortable temperature.\n\nGreater values allow surviving in colder temperatures. -->
+  <Insulation_Cold.description>Quanto este vestuário melhora a temperatura mínima confortável de quem o veste.\n\nValores mais altos permitem sobreviver a temperaturas mais frias.</Insulation_Cold.description>
+  <!-- EN: Insulation - Cold (armor stat) -->
+  <Insulation_Cold.labelForFullStatList>Isolamento - Frio (atributo de armadura)</Insulation_Cold.labelForFullStatList>
+  
+  <!-- EN: Insulation - Heat -->
+  <Insulation_Heat.label>Isolamento - Calor</Insulation_Heat.label>
+  <!-- EN: How much this apparel improves a wearer's maximum comfortable temperature.\n\nGreater values allow surviving in warmer temperatures. -->
+  <Insulation_Heat.description>Quanto este vestuário melhora a temperatura máxima confortável de quem o veste.\n\nValores mais altos permitem sobreviver a temperaturas mais quentes.</Insulation_Heat.description>
+  <!-- EN: Insulation - Heat (armor stat) -->
+  <Insulation_Heat.labelForFullStatList>Isolamento - Calor (atributo de armadura)</Insulation_Heat.labelForFullStatList>
+  
+  <!-- EN: Effect radius -->
+  <PackRadius.label>Raio de efeito</PackRadius.label>
+  <!-- EN: The area affected when this pack detonates. -->
+  <PackRadius.description>A área afetada quando esta mochila detona.</PackRadius.description>
+  <!-- EN: {0} c -->
+  <PackRadius.formatString>{0} c</PackRadius.formatString>
+  
+  <!-- EN: Armor - Material effect multiplier -->
+  <StuffEffectMultiplierArmor.label>Armadura - multiplicador do efeito do material</StuffEffectMultiplierArmor.label>
+  
+  <!-- EN: Insulation - Cold - Material effect multiplier -->
+  <StuffEffectMultiplierInsulation_Cold.label>Isolamento - Frio - multiplicador do efeito do material</StuffEffectMultiplierInsulation_Cold.label>
+  
+  <!-- EN: Insulation - Heat - Material effect multiplier -->
+  <StuffEffectMultiplierInsulation_Heat.label>Isolamento - Calor - multiplicador do efeito do material</StuffEffectMultiplierInsulation_Heat.label>
+  
+</LanguageData>

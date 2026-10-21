@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: rest effectiveness -->
+  <BedRestEffectiveness.label>eficácia do descanso</BedRestEffectiveness.label>
+  <!-- EN: How fast people sleeping on this gain rest. -->
+  <BedRestEffectiveness.description>A rapidez com que as pessoas que dormem aqui ganham descanso.</BedRestEffectiveness.description>
+  
+  <!-- EN: door opening speed -->
+  <DoorOpenSpeed.label>velocidade de abertura da porta</DoorOpenSpeed.label>
+  <!-- EN: The speed at which the door opens when unpowered.\n\nSlow doors will slow down everyone who uses them. -->
+  <DoorOpenSpeed.description>A velocidade a que a porta abre quando não tem energia.\n\nAs portas lentas atrasam todos os que as usam.</DoorOpenSpeed.description>
+  
+  <!-- EN: immunity gain speed factor -->
+  <ImmunityGainSpeedFactor.label>fator de velocidade de ganho de imunidade</ImmunityGainSpeedFactor.label>
+  <!-- EN: Immunity gain speed is multiplied by this value. -->
+  <ImmunityGainSpeedFactor.description>A velocidade de ganho de imunidade é multiplicada por este valor.</ImmunityGainSpeedFactor.description>
+  
+  <!-- EN: recreation power -->
+  <JoyGainFactor.label>poder de recreação</JoyGainFactor.label>
+  <!-- EN: How effectively this item entertains people and fulfills the need for recreation. -->
+  <JoyGainFactor.description>Quão eficazmente este item entretém as pessoas e satisfaz a necessidade de recreação.</JoyGainFactor.description>
+  
+  <!-- EN: medical tend quality offset -->
+  <MedicalTendQualityOffset.label>ajuste da qualidade de tratamento médico</MedicalTendQualityOffset.label>
+  <!-- EN: Medical tend quality is offset by this value. -->
+  <MedicalTendQualityOffset.description>A qualidade de tratamento médico é ajustada por este valor.</MedicalTendQualityOffset.description>
+  
+  <!-- EN: max power output -->
+  <PowerPlantMaxPowerOuput.label>saída de potência máxima</PowerPlantMaxPowerOuput.label>
+  <!-- EN: The maximum power that this generator can output in ideal conditions. -->
+  <PowerPlantMaxPowerOuput.description>A potência máxima que este gerador pode produzir em condições ideais.</PowerPlantMaxPowerOuput.description>
+  <!-- EN: {0} W -->
+  <PowerPlantMaxPowerOuput.formatString>{0} W</PowerPlantMaxPowerOuput.formatString>
+  
+  <!-- EN: research speed factor -->
+  <ResearchSpeedFactor.label>fator de velocidade de investigação</ResearchSpeedFactor.label>
+  <!-- EN: The speed at which people do research is multiplied by this value. -->
+  <ResearchSpeedFactor.description>A velocidade a que as pessoas fazem investigação é multiplicada por este valor.</ResearchSpeedFactor.description>
+  <!-- EN: Room cleanliness -->
+  <ResearchSpeedFactor.parts.Room_cleanliness.customLabel>Limpeza da divisão</ResearchSpeedFactor.parts.Room_cleanliness.customLabel>
+  <!-- EN: Reading bonus -->
+  <ResearchSpeedFactor.parts.Reading_bonus.customLabel>Bónus de leitura</ResearchSpeedFactor.parts.Reading_bonus.customLabel>
+  
+  <!-- EN: reading bonus -->
+  <RoomReadingBonus.label>bónus de leitura</RoomReadingBonus.label>
+  <!-- EN: Provides a bonus to research speed, XP gained from reading, and recreation gained from reading in the same room as the bookcase. This is increased by placing more and higher quality books in the bookcase. -->
+  <RoomReadingBonus.description>Dá um bónus à velocidade de investigação, à experiência obtida com a leitura e à recreação obtida com a leitura, na mesma divisão que a estante. Aumenta ao colocar mais livros, e de maior qualidade, na estante.</RoomReadingBonus.description>
+  <!-- EN: Reading bonus -->
+  <RoomReadingBonus.parts.Reading_bonus.customLabel>Bónus de leitura</RoomReadingBonus.parts.Reading_bonus.customLabel>
+  
+  <!-- EN: surgery success chance factor -->
+  <SurgerySuccessChanceFactor.label>fator de probabilidade de sucesso cirúrgico</SurgerySuccessChanceFactor.label>
+  <!-- EN: A multiplier to the chance that a surgery will succeed when performed here.\n\nSurgery success chances are also affected by many other factors, including the surgeon's ability and medicine used. -->
+  <SurgerySuccessChanceFactor.description>Um multiplicador da probabilidade de uma cirurgia ter sucesso quando realizada aqui.\n\nAs probabilidades de sucesso cirúrgico também são afetadas por muitos outros fatores, incluindo a perícia do cirurgião e o medicamento usado.</SurgerySuccessChanceFactor.description>
+  <!-- EN: Room cleanliness -->
+  <SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>Limpeza da divisão</SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>
+  
+  <!-- EN: trap melee damage -->
+  <TrapMeleeDamage.label>dano corpo a corpo da armadilha</TrapMeleeDamage.label>
+  <!-- EN: How much damage this trap does on average per hit. Each trap hits multiple times.\n\nThe actual damage in any instance will vary randomly. -->
+  <TrapMeleeDamage.description>Quanto dano esta armadilha causa, em média, por golpe. Cada armadilha golpeia várias vezes.\n\nO dano real em cada caso varia aleatoriamente.</TrapMeleeDamage.description>
+  
+  <!-- EN: trap spring chance -->
+  <TrapSpringChance.label>probabilidade de disparo da armadilha</TrapSpringChance.label>
+  <!-- EN: The likelihood that the trap will spring when an unaware creature passes over it. -->
+  <TrapSpringChance.description>A probabilidade de a armadilha disparar quando uma criatura desprevenida passa por cima dela.</TrapSpringChance.description>
+  
+  <!-- EN: work efficiency factor -->
+  <WorkTableEfficiencyFactor.label>fator de eficiência do trabalho</WorkTableEfficiencyFactor.label>
+  <!-- EN: Work efficiency is multiplied by this value. -->
+  <WorkTableEfficiencyFactor.description>A eficiência do trabalho é multiplicada por este valor.</WorkTableEfficiencyFactor.description>
+  
+  <!-- EN: work speed factor -->
+  <WorkTableWorkSpeedFactor.label>fator de velocidade do trabalho</WorkTableWorkSpeedFactor.label>
+  <!-- EN: Work speed is multiplied by this value. -->
+  <WorkTableWorkSpeedFactor.description>A velocidade de trabalho é multiplicada por este valor.</WorkTableWorkSpeedFactor.description>
+  
+  <!-- EN: work to build -->
+  <WorkToBuild.label>trabalho para construir</WorkToBuild.label>
+  <!-- EN: The base amount of work it takes to build a structure, once all materials are gathered.\n\nThe work required to deconstruct the structure is also based on this. -->
+  <WorkToBuild.description>A quantidade base de trabalho necessária para construir uma estrutura, depois de reunidos todos os materiais.\n\nO trabalho necessário para desconstruir a estrutura também se baseia neste valor.</WorkToBuild.description>
+  
+</LanguageData>
