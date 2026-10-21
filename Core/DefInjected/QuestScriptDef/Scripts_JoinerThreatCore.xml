@@ -45,27 +45,5 @@
   <ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL} a perseguir [../joiner_nameDef]</ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>
   <!-- EN: {BASETEXT}\n              \nThe [enemyFaction_pawnsPlural] have come to get [../joiner_nameDef]. -->
   <ThreatReward_Raid_Joiner.LetterTextChasing.value.slateRef>{BASETEXT}\n\nOs [enemyFaction_pawnsPlural] vieram buscar [../joiner_nameDef].</ThreatReward_Raid_Joiner.LetterTextChasing.value.slateRef>
-  
-  <!-- UNUSED -->
-  <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_nameDef], [introduction], está a pedir ajuda aqui perto. [enemyFaction_pawnsPlural] de [enemyFaction_name] estão-lhe no encalço!\n\nImplora por segurança e oferece-se para se juntar a ti em [map_definite].[joiner_relationInfo]\n\nSe aceitares, terás de repelir [enemyFaction_pawnsPluralDef] que o perseguem. O grupo de [enemyFaction_pawnsPlural] é composto por: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] está demasiado desesperado para dar mais informações.</li>
-    <li>introduction(childCount==1,priority=1)->criança de [joiner_age] anos</li>
-    <li>introduction->[joiner_title] de [joiner_age] anos</li>
-  </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
-  <ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
-    <li>questName->Salvar [runnerIndef]</li>
-    <li>questName->A Salvação de [runnerIndef]</li>
-    <li>questName->Ajudar [runnerIndef]</li>
-    <li>questName->Acolher [runnerIndef]</li>
-    <li>questName->[enemyFaction_pawnsPlural] a caçar [runnerIndef]</li>
-    <li>questName->[runnerIndef] em Fuga</li>
-    <li>questName->[runnerIndef] procura um Lar</li>
-    <li>questName->[runnerIndef] e a perseguição de [enemyFaction_pawnsPlural]</li>
-    <li>questName->[runnerIndef] e [enemyFaction_pawnsPlural]</li>
-    <li>runnerIndef->[joiner_titleIndef]</li>
-    <li>runnerIndef->[joiner_nameIndef]</li>
-    <li>runnerIndef->um refugiado</li>
-    <li>runnerIndef(childCount==1,priority=1)->uma criança</li>
-  </ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
-  
+
 </LanguageData>

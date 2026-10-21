@@ -25,20 +25,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s dançam ao ritmo da música.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s ouvem com atenção.</li>
   </AttendedConcert.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <AttendedConcert.rulePack.rulesStrings>
-    <li>tale_noun->[ATTENDER_nameDef] a assistir ao concerto de [ORGANIZER_nameDef]</li>
-    <li>tale_noun->[ATTENDER_nameDef] a ouvir a atuação de [ORGANIZER_nameDef]</li>
-    <li>image->[ATTENDER_nameFull] a ouvir em silêncio, [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull] a apreciar a atuação de [ORGANIZER_nameFull] [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull] a embalar ao som da música [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull] absorto no som [circumstance_group]</li>
-    <li>circumstance_phrase->enquanto bate palmas</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s dançam ao ritmo da música.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s ouvem com atenção.</li>
-  </AttendedConcert.rulePack.rulesStrings>
-  
+
   <!-- EN: held concert -->
   <HeldConcert.label>concerto realizado</HeldConcert.label>
   <!-- EN:
@@ -61,17 +48,5 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s ouvem por perto.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s ouvem por perto.</li>
   </HeldConcert.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <HeldConcert.rulePack.rulesStrings>
-    <li>tale_noun->[ORGANIZER_nameDef] a dar um concerto</li>
-    <li>image->[ORGANIZER_nameFull] a tocar a sua canção de eleição [circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull] a convidar a multidão a cantar em coro</li>
-    <li>image->[ORGANIZER_nameFull] a tocar uma canção inspiradora</li>
-    <li>image->[ORGANIZER_nameFull] a executar uma peça difícil [circumstance_group]</li>
-    <li>circumstance_phrase->com uma expressão intensa</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s ouvem por perto.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s ouvem por perto.</li>
-  </HeldConcert.rulePack.rulesStrings>
-  
+
 </LanguageData>

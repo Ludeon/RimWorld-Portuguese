@@ -91,24 +91,5 @@
   <EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>Missão falhada: [resolvedQuestName]</EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>O vaivém enviado para recolher o [asker_faction_leaderTitle] partiu sem o levar. [asker_pronoun] vai agora partir a pé. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
-  
-  <!-- UNUSED -->
-  <EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
-    <li>questDescription->[intro]O [asker_faction_leaderTitle] de [asker_faction_name] fará uma visita habitual a qualquer arconte do seu domínio, a pedido. Convida-o, satisfaz as suas necessidades reais durante [shuttleDelayTicks_duration] e todos poderão viajar no vaivém até à frota imperial. Poderás então juntar-te à corte imperial ou fugir para uma nova vida entre as estrelas.\n\nObter o título de arconte significa cumprir missões para ganhar [asker_faction_royalFavorLabel] com [asker_faction_name]. Pode demorar anos até alcançares finalmente o título de arconte.\n\nDurante a visita, tens de manter o humor dele acima de [lodgersMoodThreshold_percent]. Isto implica fornecer regalias reais, como um quarto luxuoso.[threatsInfo]\n\nO [asker_faction_leaderTitle] trará quatro dos seus guardas pessoais e colocá-los-á sob o teu comando. Tens de alojar esses guardas, mas o [asker_faction_leaderTitle] não se queixará se eles morrerem ou ficarem descontentes.\n\nTens de manter os visitantes em [map_definite] e não os enviar para mais lado nenhum. Se falhares esta missão ou migrares, terás outra oportunidade mais tarde.</li>
-    <li>intro(sameQuestsCount==0)->Descobriste uma forma de fugir deste planeta!\n\n</li>
-    <li>intro(sameQuestsCount>=1)->Recebeste outra oportunidade de ascensão real.\n\n</li>
-    <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nOutros aproveitarão a ocasião para tentar matar o [asker_faction_leaderTitle] e atacarão com grande intensidade. Prepara-te para defender.</li>
-    <li>threatsInfo-></li>
-  </EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
-  <EndGame_RoyalAscent.questNameRules.rulesStrings>
-    <li>questName(sameQuestsCount==0)->Ascensão real</li>
-    <li>questName(sameQuestsCount>=1)->[titleEnd] real</li>
-    <li>titleEnd->Ascensão</li>
-    <li>titleEnd->Ascendência</li>
-    <li>titleEnd->Visitante</li>
-    <li>titleEnd->Convidado</li>
-    <li>titleEnd->Anfitrião</li>
-    <li>titleEnd->Vitória</li>
-  </EndGame_RoyalAscent.questNameRules.rulesStrings>
-  
+
 </LanguageData>

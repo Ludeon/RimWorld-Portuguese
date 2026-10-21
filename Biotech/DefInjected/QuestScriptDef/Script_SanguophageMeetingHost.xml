@@ -71,42 +71,5 @@
     <li>meetNoun->congresso</li>
     <li>meetNoun->parlamento</li>
   </SanguophageMeetingHost.questNameRules.rulesStrings>
-  
-  <!-- UNUSED -->
-  <SanguophageMeetingHost.questContentRules.rulesStrings>
-    <li>sanguophagesArriveLetterLabel->Sanguófagos chegaram</li>
-    <li>sanguophagesArriveLetterText->Os [sanguophageCount] sanguófagos estão a chegar a [map_definite] vindos de direções diferentes. Reunir-se-ão e farão a sua discussão na colónia.</li>
-    <li>successLetterLabel->Reunião concluída</li>
-    <li>successLetterText->Os sanguófagos concluíram a reunião e vão agora dar-te a tua recompensa.</li>
-    <li>raidArrivedLetterLabel->Caçadores de sanguófagos</li>
-    <li>raidArrivedLetterText->Um grupo de caçadores de sanguófagos de [enemyFaction_name] está a aproximar-se!\n\nVão atacar os sanguófagos reunidos, bem como os que os acolheram.</li>
-  </SanguophageMeetingHost.questContentRules.rulesStrings>
-  <SanguophageMeetingHost.questDescriptionRules.rulesStrings>
-    <li>questDescription->Um sanguófago chamado [asker_nameDef] procura um local seguro para se reunir com mais [sanguophageCountMinusOne] [sanguophageSingOrPlural], onde não possam ser rastreados. O seu líder, [asker_nameDef], pede-te que acolhas a reunião em [map_definite].\n\nSe aceitares, [sanguophageCount] sanguófagos chegarão a [map_definite] vindos de direções diferentes. Passarão várias horas a discutir os seus próprios assuntos secretos antes de partirem. Prometem dar-te a tua recompensa antes de saírem.\n\nPodes trair os sanguófagos e atacá-los. Os sanguófagos abatidos podem ser forçados a transformar um dos teus colonos num sanguófago.\n\n[sanguophageInfo]</li>
-    <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->sanguófago</li>
-    <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->sanguófagos</li>
-    <li>sanguophageInfo->(*Gray)Sobre os sanguófagos: os sanguófagos são super-humanos sem idade e imortais, alimentados por arquites criadas por arcotec na corrente sanguínea. São belos e extremamente inteligentes. Conseguem curar qualquer ferimento e nunca sofrem de doenças nem de veneno. Em combate, podem lançar espinhos mortais e curar aliados feridos. O preço é que os sanguófagos têm de consumir hemogénio derivado de sangue humano para sobreviver e têm de fazer sono mortal periodicamente durante longos períodos. São facilmente destruídos pelo fogo e ficam mais lentos com a luz UV.(/Gray)</li>
-  </SanguophageMeetingHost.questDescriptionRules.rulesStrings>
-  <SanguophageMeetingHost.questNameRules.rulesStrings>
-    <li>questName->[meetNoun] [meetAdjective]</li>
-    <li>meetAdjective->de sanguófagos</li>
-    <li>meetAdjective->sedento de sangue</li>
-    <li>meetAdjective->de sangue</li>
-    <li>meetAdjective->da sombra</li>
-    <li>meetAdjective->escuro</li>
-    <li>meetAdjective->carmesim</li>
-    <li>meetAdjective->vermelho</li>
-    <li>meetAdjective->de crosta</li>
-    <li>meetAdjective->hémico</li>
-    <li>meetAdjective->sanguíneo</li>
-    <li>meetNoun->encontro</li>
-    <li>meetNoun->círculo</li>
-    <li>meetNoun->ajuntamento</li>
-    <li>meetNoun->reencontro</li>
-    <li>meetNoun->concílio</li>
-    <li>meetNoun->conclave</li>
-    <li>meetNoun->congresso</li>
-    <li>meetNoun->parlamento</li>
-  </SanguophageMeetingHost.questNameRules.rulesStrings>
-  
+
 </LanguageData>

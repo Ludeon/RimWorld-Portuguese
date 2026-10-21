@@ -16,7 +16,7 @@
   <ChildTribal.titleShort>criança</ChildTribal.titleShort>
   
   <!-- EN: [PAWN_nameDef] became an adult in our colony. [PAWN_possessive] story is still being written. -->
-  <Colonist97.description>[PAWN_nameDef] tornou-se adulto na nossa colónia. A sua história ainda está a ser escrita.</Colonist97.description>
+  <Colonist97.description>[PAWN_nameDef] tornou-se adult{PAWN_gender ? o : a} na nossa colónia. A sua história ainda está a ser escrita.</Colonist97.description>
   <!-- EN: colonist -->
   <Colonist97.title>colono</Colonist97.title>
   <Colonist97.titleFemale>colona</Colonist97.titleFemale>
@@ -46,7 +46,7 @@
   <TribeChild19.titleShort>tribal</TribeChild19.titleShort>
   
   <!-- EN: [PAWN_nameDef] became an adult in our tribe. [PAWN_possessive] story is still being written. -->
-  <TribeMember57.description>[PAWN_nameDef] tornou-se adulto na nossa tribo. A sua história ainda está a ser escrita.</TribeMember57.description>
+  <TribeMember57.description>[PAWN_nameDef] tornou-se adult{PAWN_gender ? o : a} na nossa tribo. A sua história ainda está a ser escrita.</TribeMember57.description>
   <!-- EN: tribe member -->
   <TribeMember57.title>membro da tribo</TribeMember57.title>
   <TribeMember57.titleFemale>membro da tribo</TribeMember57.titleFemale>

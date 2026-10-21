@@ -51,28 +51,5 @@
   <TradeRequest.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.LetterLabelFavorReceiver.slateRef>
   <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
   <TradeRequest.LetterTextFavorReceiver.slateRef>Quem deve receber o crédito de [asker_faction_royalFavorLabel] por cumprir o pedido comercial?</TradeRequest.LetterTextFavorReceiver.slateRef>
-  
-  <!-- UNUSED -->
-  <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->Uma povoação próxima, [settlement_label], tem um pedido comercial especial. Gostariam de comprar:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](no valor de [requestedThingMarketValue_money])\n\nSe quiseres fazer a troca, envia uma caravana com os objetos pedidos.[travelTime]</li>
-    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->de qualidade normal ou superior </li>
-    <li>qualityInfo-></li>
-    <li>travelTime(canCaravan==True,priority=1)-> O tempo de viagem estimado é de [estimatedTravelTime_duration].</li>
-    <li>travelTime-></li>
-  </TradeRequest.questDescriptionRules.rulesStrings>
-  <TradeRequest.questNameRules.rulesStrings>
-    <li>questName->Caravana para [settlement_label]</li>
-    <li>questName->Comércio com [settlement_label]</li>
-    <li>questName->Venda a [settlement_label]</li>
-    <li>questName->Provisões para [settlement_label]</li>
-    <li>questName->[trade] [special]</li>
-    <li>special->Especial</li>
-    <li>special->Singular</li>
-    <li>special->Invulgar</li>
-    <li>trade->Comércio</li>
-    <li>trade->Troca</li>
-    <li>trade->Negócio</li>
-    <li>trade->Oferta</li>
-  </TradeRequest.questNameRules.rulesStrings>
-  
+
 </LanguageData>

@@ -75,45 +75,7 @@
     <li>subject(p=2)->[PersonalCharacteristic] de [INITIATOR_nameDef]</li>
     <li>subject(p=8)->[TalkTopicLight]</li>
   </BuildRapport.logRulesInitiator.rulesStrings>
-  
-  <!-- UNUSED -->
-  <BuildRapport.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] [subject] a [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] falou a [RECIPIENT_nameDef] sobre [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] discorreu sobre [subject] com [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] incentivou [RECIPIENT_nameDef] a [talkabout] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] deu a [RECIPIENT_nameDef] a oportunidade de [talkabout] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] demonstrou interesse em [PersonalCharacteristic] de [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] perguntou a [RECIPIENT_nameDef] sobre [PersonalCharacteristic].</li>
-    <li>toldastoryabout(p=2)->contou uma história sobre</li>
-    <li>toldastoryabout->contou uma história engraçada sobre</li>
-    <li>toldastoryabout->contou uma história comovente sobre</li>
-    <li>toldastoryabout->contou uma história antiga sobre</li>
-    <li>toldastoryabout->contou uma história de família sobre</li>
-    <li>toldastoryabout->contou uma história de infância sobre</li>
-    <li>toldastoryabout->mencionou uma anedota sobre</li>
-    <li>talkabout->falar sobre</li>
-    <li>talkabout->discutir sobre</li>
-    <li>talkabout->conversar sobre</li>
-    <li>talkabout->perguntar sobre</li>
-    <li>talkabout->pensar sobre</li>
-    <li>talkabout->encontrar pontos em comum sobre</li>
-    <li>subject->a colónia</li>
-    <li>subject->a comunidade</li>
-    <li>subject->juntar-se à colónia</li>
-    <li>subject->mudar de equipa</li>
-    <li>subject->fazer amigos</li>
-    <li>subject->conhecer pessoas novas</li>
-    <li>subject->reconsiderar as ideias de [RECIPIENT_nameDef]</li>
-    <li>subject->repensar as lealdades de [RECIPIENT_nameDef]</li>
-    <li>subject->a saúde</li>
-    <li>subject->o futuro</li>
-    <li>subject->deixar o passado para trás</li>
-    <li>subject(p=4)->[ConceptPositive]</li>
-    <li>subject(p=2)->[PersonalCharacteristic] de [INITIATOR_nameDef]</li>
-    <li>subject(p=8)->[TalkTopicLight]</li>
-  </BuildRapport.logRulesInitiator.rulesStrings>
-  
+
   <!-- EN: recruit attempt -->
   <RecruitAttempt.label>tentativa de recrutamento</RecruitAttempt.label>
   <!-- EN:
@@ -128,15 +90,7 @@
     <li>goodthing(p=15)->[ConceptPositive]</li>
     <li>goodthing->[Vegetable]s frescos e gratuitos</li>
   </RecruitAttempt.logRulesInitiator.rulesStrings>
-  
-  <!-- UNUSED -->
-  <RecruitAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] pediu a [RECIPIENT_nameDef] que se juntasse à colónia.</li>
-    <li>r_logentry->[INITIATOR_nameDef] prometeu [goodthing] a [RECIPIENT_nameDef] e pediu-lhe que se juntasse à colónia.</li>
-    <li>goodthing(p=15)->[ConceptPositive]</li>
-    <li>goodthing->[Vegetable]s frescos e gratuitos</li>
-  </RecruitAttempt.logRulesInitiator.rulesStrings>
-  
+
   <!-- EN: spark jailbreak -->
   <SparkJailbreak.label>incitar à fuga</SparkJailbreak.label>
   <!-- EN:
@@ -159,17 +113,5 @@
     <li>freedom->um lar</li>
     <li>freedom->autodeterminação</li>
   </SparkJailbreak.logRulesInitiator.rulesStrings>
-  
-  <!-- UNUSED -->
-  <SparkJailbreak.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] falou da alegria de ter [freedom] e ofereceu uma forma de fuga.</li>
-    <li>r_logentry->[INITIATOR_nameDef] falou da beleza de [TerrainFeature] e ofereceu liberdade.</li>
-    <li>r_logentry->[INITIATOR_nameDef] mostrou a [RECIPIENT_nameDef] uma forma de fuga e prometeu [freedom].</li>
-    <li>r_logentry->[INITIATOR_nameDef] disse a [RECIPIENT_nameDef] que a segurança é fraca e incentivou a fuga.</li>
-    <li>freedom->liberdade</li>
-    <li>freedom->oportunidade</li>
-    <li>freedom->um lar</li>
-    <li>freedom->autodeterminação</li>
-  </SparkJailbreak.logRulesInitiator.rulesStrings>
-  
+
 </LanguageData>

@@ -11,7 +11,7 @@
   <Archer25.titleShortFemale>arqueira</Archer25.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef]'s tribe banished [PAWN_objective] following a bloody dispute. [PAWN_pronoun] survived in the wilds alone for a long time. -->
-  <Banished68.description>A tribo de [PAWN_nameDef] baniu-o após uma disputa sangrenta. Sobreviveu sozinho nos ermos durante muito tempo.</Banished68.description>
+  <Banished68.description>A tribo de [PAWN_nameDef] baniu-{PAWN_gender ? o : a} após uma disputa sangrenta. Sobreviveu {PAWN_gender ? sozinho : sozinha} nos ermos durante muito tempo.</Banished68.description>
   <!-- EN: banished -->
   <Banished68.title>banido</Banished68.title>
   <Banished68.titleFemale>banida</Banished68.titleFemale>
@@ -191,7 +191,7 @@
   <PlankCutter72.titleShortFemale>cortadora de tábuas</PlankCutter72.titleShortFemale>
   
   <!-- EN: Since [PAWN_possessive] tribe made contact with local outlanders, [PAWN_nameDef] contracted [PAWN_possessive] services out as a guide. Frequent contact with ancient technology made [PAWN_objective] comfortable with the lost machines. -->
-  <Scout59.description>Desde que a sua tribo estabeleceu contacto com os forasteiros locais, [PAWN_nameDef] passou a oferecer os seus serviços como guia. O contacto frequente com tecnologia antiga deixou-o à vontade com as máquinas perdidas.</Scout59.description>
+  <Scout59.description>Desde que a sua tribo estabeleceu contacto com os forasteiros locais, [PAWN_nameDef] passou a oferecer os seus serviços como guia. O contacto frequente com tecnologia antiga deixou-{PAWN_gender ? o : a} à vontade com as máquinas perdidas.</Scout59.description>
   <!-- EN: scout -->
   <Scout59.title>batedor</Scout59.title>
   <Scout59.titleFemale>batedora</Scout59.titleFemale>

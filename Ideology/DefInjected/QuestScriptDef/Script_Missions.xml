@@ -61,37 +61,5 @@
     <li>missionAdj->encoberto</li>
     <li>missionAdj->secreto</li>
   </AncientComplex_Mission.questNameRules.rulesStrings>
-  
-  <!-- UNUSED -->
-  <AncientComplex_Mission.questContentRules.rulesStrings>
-    <li>terminalHackedMessage->Terminal pirateado. {COUNT} / [terminalCount] concluídos.</li>
-    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] de piratear.</li>
-    <li>passengersIncapableOfHackingDialogText->O vaivém da missão '[resolvedQuestName]' não leva nenhum passageiro capaz de piratear. Tens de enviar pelo menos uma pessoa capaz de piratear para investigar o complexo antigo.</li>
-    <li>passengersSingularOrPlural(colonistCount==1)->Passageiro incapaz</li>
-    <li>passengersSingularOrPlural(colonistCount>=2)->Passageiros incapazes</li>
-  </AncientComplex_Mission.questContentRules.rulesStrings>
-  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
-    <li>complex->complexo</li>
-    <li>complex->recinto</li>
-    <li>complex->bunker</li>
-    <li>complex->edifício</li>
-    <li>complex->posto</li>
-    <li>investigation->investigação</li>
-    <li>investigation->exame</li>
-    <li>investigation->missão</li>
-    <li>investigation->escavação</li>
-    <li>investigation->pirataria</li>
-  </AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
-  <AncientComplex_Mission.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], descobriu um complexo antigo muito longe daqui. Acredita que contém informações sobre a relíquia conhecida como [relic_name].\n\n[asker_nameDef] não pode dispensar ninguém para o investigar, mas espera que possas ajudar, fornecendo exatamente [colonistCount] [colonistsSingularOrPlural] para levar a cabo a investigação.\n\nO complexo esconde ameaças desconhecidas e também é cobiçado pelos inimigos de [asker_nameDef], [enemyFaction_name].\n\n[asker_nameDef] vai enviar um vaivém para ir buscar os teus colonos, levá-los ao complexo e trazê-los de volta para casa no fim. Durante a viagem, serão alimentados e tratados.\n\nDepois de aterrares, tens de piratear todos os terminais do complexo no prazo de [timeoutTicks_duration].</li>
-    <li>colonistsSingularOrPlural(colonistCount==1)->colono</li>
-    <li>colonistsSingularOrPlural(colonistCount>=2)->colonos</li>
-  </AncientComplex_Mission.questDescriptionRules.rulesStrings>
-  <AncientComplex_Mission.questNameRules.rulesStrings>
-    <li>questName->[investigation] do [complex] [missionAdj]</li>
-    <li>missionAdj->escondido</li>
-    <li>missionAdj->encoberto</li>
-    <li>missionAdj->secreto</li>
-  </AncientComplex_Mission.questNameRules.rulesStrings>
-  
+
 </LanguageData>

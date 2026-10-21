@@ -255,7 +255,7 @@
   <Inventor6.titleShortFemale>inventora</Inventor6.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] spent most of [PAWN_possessive] life in prisons, where [PAWN_pronoun] was put to work in the kitchens. [PAWN_pronoun] had a habit of getting into fights, and developed an aggressive way of speaking. -->
-  <Jailbird40.description>[PAWN_nameDef] passou a maior parte da vida em prisões, onde foi posto a trabalhar nas cozinhas. Tinha o hábito de se meter em brigas e desenvolveu um modo de falar agressivo.</Jailbird40.description>
+  <Jailbird40.description>[PAWN_nameDef] passou a maior parte da vida em prisões, onde foi {PAWN_gender ? posto : posta} a trabalhar nas cozinhas. Tinha o hábito de se meter em brigas e desenvolveu um modo de falar agressivo.</Jailbird40.description>
   <!-- EN: jailbird -->
   <Jailbird40.title>presidiário</Jailbird40.title>
   <Jailbird40.titleFemale>presidiária</Jailbird40.titleFemale>

@@ -49,33 +49,7 @@
     <li>msyl->yoth</li>
     <li>msyl->lite</li>
   </NamerFactionMechanoid.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <NamerFactionMechanoid.rulePack.rulesStrings>
-    <li>r_name->[mechhive] [msyl][msyl]</li>
-    <li>mechhive->mecacolmeia</li>
-    <li>msyl->nyar</li>
-    <li>msyl->alg</li>
-    <li>msyl->xan</li>
-    <li>msyl->zel</li>
-    <li>msyl->kil</li>
-    <li>msyl->len</li>
-    <li>msyl->lax</li>
-    <li>msyl->alph</li>
-    <li>msyl->ome</li>
-    <li>msyl->iri</li>
-    <li>msyl->slin</li>
-    <li>msyl->toth</li>
-    <li>msyl->arth</li>
-    <li>msyl->unth</li>
-    <li>msyl->ox</li>
-    <li>msyl->arm</li>
-    <li>msyl->murd</li>
-    <li>msyl->zen</li>
-    <li>msyl->yoth</li>
-    <li>msyl->lite</li>
-  </NamerFactionMechanoid.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>political_union_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
     <li>political_adjective->Words/Adjectives/PoliticalUnions</li>
@@ -102,22 +76,7 @@
     <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
     <li>nearnameinitial->[Direction] [PlaceOutlander]</li>
   </NamerFactionOutlander.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <NamerFactionOutlander.rulePack.rulesFiles>
-    <li>political_union_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
-    <li>political_adjective->Words/Adjectives/PoliticalUnions</li>
-  </NamerFactionOutlander.rulePack.rulesFiles>
-  <NamerFactionOutlander.rulePack.rulesStrings>
-    <li>r_name(p=3)->[nearnameinitial]</li>
-    <li>r_name->[nearnameinitial] [political_union_outlander]</li>
-    <li>r_name->[nearnameinitial] [political_adjective] [political_union_outlander]</li>
-    <li>r_name->[political_union_outlander] de [nearnameinitial]</li>
-    <li>r_name->[political_adjective] [political_union_outlander] de [nearnameinitial]</li>
-    <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
-    <li>nearnameinitial->[Direction] [PlaceOutlander]</li>
-  </NamerFactionOutlander.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>groupname->Words/Nouns/GroupNames</li>
   -->
@@ -182,41 +141,7 @@
     <li>r_name->[groupname] de [Weapon]</li>
     <li>r_name->[groupname] de [ConceptBadass]</li>
   </NamerFactionPirate.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <NamerFactionPirate.rulePack.rulesFiles>
-    <li>groupname->Words/Nouns/GroupNames</li>
-  </NamerFactionPirate.rulePack.rulesFiles>
-  <NamerFactionPirate.rulePack.rulesStrings>
-    <li>r_name->Os [AnimalBadass]s</li>
-    <li>r_name->Os Homens-[AnimalBadass]</li>
-    <li>r_name->Os [AnimalBadass]s de [ConceptBadass]</li>
-    <li>r_name->Os [PersonBadass]s de [ConceptBadass]</li>
-    <li>r_name->Os [PersonBadass]s</li>
-    <li>r_name->Os [Enemy]s</li>
-    <li>r_name->Os Homens-[Weapon]</li>
-    <li>r_name->Os [Weapon]s</li>
-    <li>r_name->Os [AnimalBadass]s de [Weapon]</li>
-    <li>r_name->Os [Enemy]s de [Weapon]</li>
-    <li>r_name->Os [Weapon]s de [ColorBadass]</li>
-    <li>r_name->Os [AnimalBadass]s de [ColorBadass]</li>
-    <li>r_name->Os [PersonBadass]s de [ColorBadass]</li>
-    <li>r_name->Os [Enemy]s de [ColorBadass]</li>
-    <li>r_name->[groupname] dos [PersonBadass]s</li>
-    <li>r_name->Os [Enemy]s de [Enemy]</li>
-    <li>r_name->[groupname] [AdjectiveBadass]</li>
-    <li>r_name->Os [AnimalBadass]s [AdjectiveBadass]</li>
-    <li>r_name->Os [Enemy]s [AdjectiveBadass]</li>
-    <li>r_name->Os [PersonBadass]s [AdjectiveBadass]</li>
-    <li>r_name->Os [PersonAlly]s de [ConceptBadass]</li>
-    <li>r_name(p=0.4)->Os Devoradores de [Gore]</li>
-    <li>r_name->Os [Enemy]s de [NamePerson]</li>
-    <li>r_name->Os [AnimalBadass]s de [NamePerson]</li>
-    <li>r_name->Os [Weapon]s de [NamePerson]</li>
-    <li>r_name->[groupname] de [Weapon]</li>
-    <li>r_name->[groupname] de [ConceptBadass]</li>
-  </NamerFactionPirate.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>political_union_tribal->Words/Nouns/PoliticalUnions_Tribal</li>
   -->
@@ -239,44 +164,21 @@
     <li>r_name->[Animal] [Color] [WordTribal]</li>
     <li>r_name->[political_union_tribal] de [TerrainFeature]</li>
   </NamerFactionTribal.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <NamerFactionTribal.rulePack.rulesFiles>
-    <li>political_union_tribal->Words/Nouns/PoliticalUnions_Tribal</li>
-  </NamerFactionTribal.rulePack.rulesFiles>
-  <NamerFactionTribal.rulePack.rulesStrings>
-    <li>r_name->[WordTribal] [political_union_tribal]</li>
-    <li>r_name->[political_union_tribal] [WordTribal]</li>
-    <li>r_name->[political_union_tribal] [TerrainFeature] [Color]</li>
-    <li>r_name->[political_union_tribal] de [WordTribal]</li>
-    <li>r_name->[Animal] [Color] [WordTribal]</li>
-    <li>r_name->[political_union_tribal] de [TerrainFeature]</li>
-  </NamerFactionTribal.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>r_name->Colony</li>
   -->
   <NamerInitialSettlementColony.rulePack.rulesStrings>
     <li>r_name->Colónia</li>
   </NamerInitialSettlementColony.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <NamerInitialSettlementColony.rulePack.rulesStrings>
-    <li>r_name->Colónia</li>
-  </NamerInitialSettlementColony.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>r_name->Village</li>
   -->
   <NamerInitialSettlementTribe.rulePack.rulesStrings>
     <li>r_name->Aldeia</li>
   </NamerInitialSettlementTribe.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <NamerInitialSettlementTribe.rulePack.rulesStrings>
-    <li>r_name->Aldeia</li>
-  </NamerInitialSettlementTribe.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>townname_fixed->Names/OutlanderTown</li>
     <li>concept_positive->Words/Nouns/Concepts_Positive</li>
@@ -389,65 +291,7 @@
     <li>townend->ron</li>
     <li>townend->well</li>
   </NamerSettlementOutlander.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <NamerSettlementOutlander.rulePack.rulesFiles>
-    <li>townname_fixed->Names/OutlanderTown</li>
-    <li>concept_positive->Words/Nouns/Concepts_Positive</li>
-  </NamerSettlementOutlander.rulePack.rulesFiles>
-  <NamerSettlementOutlander.rulePack.rulesStrings>
-    <li>r_name(p=12)->[townname_wordgen]</li>
-    <li>r_name(p=6)->[townname_fixed]</li>
-    <li>r_name(p=4)->[townname_combo]</li>
-    <li>r_name->[townname_near]</li>
-    <li>topicalnoun->[Vegetable]</li>
-    <li>topicalnoun->[Game]</li>
-    <li>topicalnoun->[BodyPart]</li>
-    <li>townname_combo->[TerrainFeature] [topicalnoun]</li>
-    <li>townname_combo->[Community] [topicalnoun]</li>
-    <li>townname_combo->[TerrainFeature] de [topicalnoun]</li>
-    <li>townname_combo->[Community] de [topicalnoun]</li>
-    <li>townname_combo(p=2)->[TerrainFeature] de [concept_positive]</li>
-    <li>townname_combo(p=2)->[TerrainFeature] [concept_positive]</li>
-    <li>townname_combo(p=2)->[Community] [concept_positive]</li>
-    <li>townname_combo(p=3)->[TerrainFeature] de [Character]</li>
-    <li>townname_combo(p=3)->[Community] de [Character]</li>
-    <li>townname_near->[nearnameinitial]-junto-a-[TerrainFeature]</li>
-    <li>townname_near->[nearnameinitial]-perto-de-[TerrainFeature]</li>
-    <li>townname_near->[nearnameinitial]-em-[TerrainFeature]</li>
-    <li>nearnameinitial->[townname_wordgen]</li>
-    <li>nearnameinitial->[Community]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
-    <li>townname_wordgen(p=2)->[SylE][townend]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE][townend]</li>
-    <li>townname_wordgen->[TerrainFeature][townend]</li>
-    <li>townname_wordgen->[topicalnoun][townend]</li>
-    <li>townend->ville</li>
-    <li>townend->town</li>
-    <li>townend->hurst</li>
-    <li>townend->bourne</li>
-    <li>townend->brad</li>
-    <li>townend->dale</li>
-    <li>townend->hope</li>
-    <li>townend->ing</li>
-    <li>townend->ness</li>
-    <li>townend->mere</li>
-    <li>townend->shaw</li>
-    <li>townend->wick</li>
-    <li>townend->ton</li>
-    <li>townend->ston</li>
-    <li>townend->os</li>
-    <li>townend->den</li>
-    <li>townend->tas</li>
-    <li>townend->wood</li>
-    <li>townend->land</li>
-    <li>townend->worth</li>
-    <li>townend->roon</li>
-    <li>townend->ron</li>
-    <li>townend->well</li>
-  </NamerSettlementOutlander.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>r_name(p=4)->[townname_combo]</li>
     <li>r_name->[townname_wordgen]</li>
@@ -532,51 +376,7 @@
     <li>townendevil->thard</li>
     <li>townendevil->thad</li>
   </NamerSettlementPirate.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <NamerSettlementPirate.rulePack.rulesStrings>
-    <li>r_name(p=4)->[townname_combo]</li>
-    <li>r_name->[townname_wordgen]</li>
-    <li>townname_combo->[geography] [AnimalBadass]</li>
-    <li>townname_combo->[geography] de [AnimalBadass]</li>
-    <li>townname_combo->[geography] [ConceptBadass]</li>
-    <li>townname_combo->[geography] de [ConceptBadass]</li>
-    <li>townname_combo->[geography] [PersonBadass]</li>
-    <li>townname_combo->[geography] de [PersonBadass]</li>
-    <li>townname_combo->[geography] de [Enemy]</li>
-    <li>townname_combo->[geography] [Enemy]</li>
-    <li>townname_combo->[geography] de [Weapon]</li>
-    <li>townname_combo->[geography] [Weapon]</li>
-    <li>townname_combo->[geography] [ColorBadass]</li>
-    <li>geography(p=2)->[TerrainFeature]</li>
-    <li>geography->[Community]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
-    <li>townname_wordgen(p=2)->[SylE][townendevil]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE][townendevil]</li>
-    <li>townendevil->vast</li>
-    <li>townendevil->varg</li>
-    <li>townendevil->vix</li>
-    <li>townendevil->tor</li>
-    <li>townendevil->tear</li>
-    <li>townendevil->cut</li>
-    <li>townendevil->lop</li>
-    <li>townendevil->oze</li>
-    <li>townendevil->ozzle</li>
-    <li>townendevil->latch</li>
-    <li>townendevil->lock</li>
-    <li>townendevil->burn</li>
-    <li>townendevil->sear</li>
-    <li>townendevil->shank</li>
-    <li>townendevil->hurt</li>
-    <li>townendevil->vash</li>
-    <li>townendevil->warg</li>
-    <li>townendevil->wug</li>
-    <li>townendevil->thot</li>
-    <li>townendevil->thard</li>
-    <li>townendevil->thad</li>
-  </NamerSettlementPirate.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>r_name(p=2)->[WordTribal]</li>
     <li>r_name->[Color] [WordTribal]</li>
@@ -589,13 +389,5 @@
     <li>r_name->[Color] [TerrainFeature]</li>
     <li>r_name->[WordTribal] [TerrainFeature]</li>
   </NamerSettlementTribal.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <NamerSettlementTribal.rulePack.rulesStrings>
-    <li>r_name(p=2)->[WordTribal]</li>
-    <li>r_name->[Color] [WordTribal]</li>
-    <li>r_name->[Color] [TerrainFeature]</li>
-    <li>r_name->[WordTribal] [TerrainFeature]</li>
-  </NamerSettlementTribal.rulePack.rulesStrings>
-  
+
 </LanguageData>

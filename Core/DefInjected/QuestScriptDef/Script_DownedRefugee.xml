@@ -29,19 +29,5 @@
   <OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>Missão expirada: [resolvedQuestName]</OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>
   <!-- EN: [refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired. -->
   <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>O sinal de [refugee_nameDef] perdeu-se e o resgate já não é possível. A missão [resolvedQuestName] expirou.</OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
-  
-  <!-- UNUSED -->
-  <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->[refugee_nameDef] contacta-te e pede ajuda. Sofreu ferimentos e não consegue mover-se.\n\n[refugee_nameDef] é [refugee_title], com [refugee_age] anos. Promete juntar-se a ti caso resgates [refugee_nameDef].\n\n[refugee_nameDef] diz que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], diz que um amigo foi ferido durante uma viagem. A vítima é [refugee_nameIndef], [refugee_title] com [refugee_age] anos.\n\n[asker_nameDef] não tem ninguém disponível para resgatar [refugee_nameDef], mas diz que, se conseguires chegar à posição de [refugee_nameDef] e fizeres o resgate, [refugee_nameDef] juntar-se-á a ti.\n\n[asker_nameDef] diz que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
-    <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
-    <li>pawnInvolvedInQuestInfo-></li>
-  </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
-  <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
-    <li>questName->Salvar [refugee_nameDef]</li>
-    <li>questName->O Resgate de [refugee_nameDef]</li>
-    <li>questName->Resgate de [refugee_nameDef]</li>
-    <li>questName->A Salvação de [refugee_nameDef]</li>
-  </OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
-  
+
 </LanguageData>

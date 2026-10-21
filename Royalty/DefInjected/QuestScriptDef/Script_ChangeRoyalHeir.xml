@@ -41,13 +41,5 @@
   <ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>Não destruas o monumento durante {0}</ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>
   <!-- EN: Keep monument {0} -->
   <ChangeRoyalHeir.KeepMonument.slateRef>Manter monumento {0}</ChangeRoyalHeir.KeepMonument.slateRef>
-  
-  <!-- UNUSED -->
-  <ChangeRoyalHeir.questDescriptionRules.rulesStrings>
-    <li>questDescription->\nPara consagrar a nomeação de [titleHeir_nameFull] como herdeiro do título de [titleHolder_nameFull], tens de construir um monumento.\n\nO monumento terá tamanho [monumentSize] e exigirá estes recursos (valor total [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nNão terminar o monumento em 20 dias é considerado uma profanação do ritual. As tuas relações com [asker_factionName] descerão 25 e o herdeiro não será alterado.\n\nSe o monumento for destruído nos [keepMonumentTicks_duration] dias seguintes à conclusão, as tuas relações com [asker_factionName] descerão [goodwillChangeIfMonumentDestroyed].</li>
-  </ChangeRoyalHeir.questDescriptionRules.rulesStrings>
-  <ChangeRoyalHeir.questNameRules.rulesStrings>
-    <li>questName->Herança de [titleHeir_nameDef]</li>
-  </ChangeRoyalHeir.questNameRules.rulesStrings>
-  
+
 </LanguageData>

@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: [PAWN_nameDef] spent most of [PAWN_possessive] childhood behind bars. Following an unsuccessful escape attempt, [PAWN_pronoun] was pressed into the military. -->
-  <Delinquent13.description>[PAWN_nameDef] passou a maior parte da infância atrás das grades. Depois de uma tentativa de fuga falhada, foi levado à força para as forças armadas.</Delinquent13.description>
+  <Delinquent13.description>[PAWN_nameDef] passou a maior parte da infância atrás das grades. Depois de uma tentativa de fuga falhada, foi {PAWN_gender ? levado : levada} à força para as forças armadas.</Delinquent13.description>
   <!-- EN: delinquent -->
   <Delinquent13.title>delinquente</Delinquent13.title>
   <Delinquent13.titleFemale>delinquente</Delinquent13.titleFemale>
@@ -20,7 +20,7 @@
   <Machinist56.titleShortFemale>maquinista</Machinist56.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was levied from [PAWN_possessive] family at a young age to become a soldier. [PAWN_pronoun] lived in barracks with other military kids, learning about duty, weapons, pain, and victory.\n\nThe trainers sometimes let the kids escape the base to enjoy the wider world. They wanted soldiers who can think independently. -->
-  <MilitaryCadet46.description>[PAWN_nameDef] foi retirado à família ainda muito novo para se tornar soldado. Vivia em caserna com outras crianças militares, aprendendo sobre dever, armas, dor e vitória.\n\nOs instrutores deixavam por vezes as crianças fugir da base para desfrutar do mundo lá fora. Queriam soldados capazes de pensar por si.</MilitaryCadet46.description>
+  <MilitaryCadet46.description>[PAWN_nameDef] foi {PAWN_gender ? retirado : retirada} à família ainda muito {PAWN_gender ? novo : nova} para se tornar soldado. Vivia em caserna com outras crianças militares, aprendendo sobre dever, armas, dor e vitória.\n\nOs instrutores deixavam por vezes as crianças fugir da base para desfrutar do mundo lá fora. Queriam soldados capazes de pensar por si.</MilitaryCadet46.description>
   <!-- EN: military cadet -->
   <MilitaryCadet46.title>cadete militar</MilitaryCadet46.title>
   <MilitaryCadet46.titleFemale>cadete militar</MilitaryCadet46.titleFemale>

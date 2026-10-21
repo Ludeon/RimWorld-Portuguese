@@ -31,15 +31,7 @@
   <Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>Não destruas o monumento durante {0}</Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>
   <!-- EN: Keep monument {0} -->
   <Decree_BuildMonument.KeepMonument.slateRef>Manter monumento {0}</Decree_BuildMonument.KeepMonument.slateRef>
-  
-  <!-- UNUSED -->
-  <Decree_BuildMonument.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\nTens de construir um monumento. Tem tamanho [monumentSize] e exigirá estes recursos (valor total [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nTens de manter o monumento em segurança durante [keepMonumentTicks_duration] após a conclusão; caso contrário, [asker_nameDef] ficará descontente.</li>
-  </Decree_BuildMonument.questDescriptionRules.rulesStrings>
-  <Decree_BuildMonument.questNameRules.rulesStrings>
-    <li>questName->decreto do monumento</li>
-  </Decree_BuildMonument.questNameRules.rulesStrings>
-  
+
   <!-- EN:
     <li>questDescription->[decreeIntro]\n\nYou must harvest [plantToHarvest_label] x[harvestItemCount].\n\nYou may need to plant and grow the [plantToHarvest_label] first.\n\n[decreeThreatInfo]</li>
   -->
@@ -52,15 +44,7 @@
   <Decree_HarvestCrop.questNameRules.rulesStrings>
     <li>questName->decreto de colheita: [plantToHarvest_label]</li>
   </Decree_HarvestCrop.questNameRules.rulesStrings>
-  
-  <!-- UNUSED -->
-  <Decree_HarvestCrop.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\nTens de colher [plantToHarvest_label] x[harvestItemCount].\n\nPoderá ser necessário plantar e cultivar primeiro [plantToHarvest_label].\n\n[decreeThreatInfo]</li>
-  </Decree_HarvestCrop.questDescriptionRules.rulesStrings>
-  <Decree_HarvestCrop.questNameRules.rulesStrings>
-    <li>questName->decreto de colheita: [plantToHarvest_label]</li>
-  </Decree_HarvestCrop.questNameRules.rulesStrings>
-  
+
   <!-- EN:
     <li>questDescription->[decreeIntro]\n\nYou must hunt or slaughter [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
     <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
@@ -77,17 +61,7 @@
   <Decree_HuntAnimal.questNameRules.rulesStrings>
     <li>questName->decreto de caça: [animalToHunt_label]</li>
   </Decree_HuntAnimal.questNameRules.rulesStrings>
-  
-  <!-- UNUSED -->
-  <Decree_HuntAnimal.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\nTens de caçar ou abater [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
-    <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
-    <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
-  </Decree_HuntAnimal.questDescriptionRules.rulesStrings>
-  <Decree_HuntAnimal.questNameRules.rulesStrings>
-    <li>questName->decreto de caça: [animalToHunt_label]</li>
-  </Decree_HuntAnimal.questNameRules.rulesStrings>
-  
+
   <!-- EN:
     <li>questDescription->[decreeIntro]\n\nYou must produce:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
   -->
@@ -100,13 +74,5 @@
   <Decree_ProduceItem.questNameRules.rulesStrings>
     <li>questName->decreto de produção: [defToProduce_label]</li>
   </Decree_ProduceItem.questNameRules.rulesStrings>
-  
-  <!-- UNUSED -->
-  <Decree_ProduceItem.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\nTens de produzir:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
-  </Decree_ProduceItem.questDescriptionRules.rulesStrings>
-  <Decree_ProduceItem.questNameRules.rulesStrings>
-    <li>questName->decreto de produção: [defToProduce_label]</li>
-  </Decree_ProduceItem.questNameRules.rulesStrings>
-  
+
 </LanguageData>

@@ -45,29 +45,5 @@
     <li>work->de trabalho</li>
     <li>work->de serviço</li>
   </Mission_BanditCamp.questNameRules.rulesStrings>
-  
-  <!-- UNUSED -->
-  <Mission_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[enemiesLabel] montaram um acampamento e estão a assediar caravanas de [asker_faction_name]. [asker_nameDef] está a planear um ataque aéreo ao acampamento, que é guardado por [enemiesCount] [enemiesLabel]. [asker_pronoun] quer que forneças [soldiers] para realizar o ataque.\n\n[asker_pronoun] enviará um vaivém para recolher os teus combatentes, levá-los até ao local do ataque e trazê-los para casa depois. Serão alimentados e receberão tratamento médico durante o trajeto.\n\nQuando o ataque começar, tens de derrotar todos os inimigos e torretas em [timeoutTicks_duration].</li>
-    <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldados</li>
-    <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldado</li>
-  </Mission_BanditCamp.questDescriptionRules.rulesStrings>
-  <Mission_BanditCamp.questNameRules.rulesStrings>
-    <li>questName->[questNameInner]</li>
-    <li>questName->[questNameInner] de [asker_nameDef]</li>
-    <li>questNameInner->[attack] [aerial]</li>
-    <li>questNameInner->[attack] [target]</li>
-    <li>questNameInner->[attack] [work]</li>
-    <li>target->ao acampamento</li>
-    <li>target->à base</li>
-    <li>target->ao forte</li>
-    <li>aerial->aéreo</li>
-    <li>aerial->pelo ar</li>
-    <li>aerial->por vaivém</li>
-    <li>attack->Ataque</li>
-    <li>attack->Assalto</li>
-    <li>work->de trabalho</li>
-    <li>work->de serviço</li>
-  </Mission_BanditCamp.questNameRules.rulesStrings>
-  
+
 </LanguageData>

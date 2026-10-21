@@ -39,24 +39,5 @@
   <OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>Missão expirada: [resolvedQuestName]</OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
   <OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>As comunicações intercetadas indicam que o esconderijo foi reclamado por outros. A missão [resolvedQuestName] expirou.</OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>
-  
-  <!-- UNUSED -->
-  <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Intercetámos mensagens sobre uma coleção de objetos valiosos, no valor de [itemStashContentsValue], não muito longe de [map_definite]. A coleção é composta por:\n\n[itemStashContents]\n\nParece que [allSitePartsDescriptionsExceptFirst]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], informou-nos de uma coleção de objetos valiosos, no valor de [itemStashContentsValue], não muito longe de nós. A coleção é composta por:\n\n[itemStashContents]\n\n[asker_label] diz que [allSitePartsDescriptionsExceptFirst]</li>
-  </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
-  <OpportunitySite_ItemStash.questNameRules.rulesStrings>
-    <li>questName(priority=1)->[stash] de [treasure] de [asker_nameDef]</li>
-    <li>questName->[stash] de [treasure]</li>
-    <li>stash->Esconderijo</li>
-    <li>stash->Reserva</li>
-    <li>stash->Coleção</li>
-    <li>stash->Barraca</li>
-    <li>treasure->Tesouro</li>
-    <li>treasure->Valores</li>
-    <li>treasure->Fortuna</li>
-    <li>treasure->Mimos</li>
-    <li>treasure->Provisões</li>
-  </OpportunitySite_ItemStash.questNameRules.rulesStrings>
-  
+
 </LanguageData>

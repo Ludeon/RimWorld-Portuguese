@@ -19,18 +19,7 @@
     <li>cultureLeaderAdjective->grão</li>
     <li>cultureLeaderNoun->chefe</li>
   </LeaderTitleMaker_Corunan.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <LeaderTitleMaker_Corunan.rulePack.rulesStrings>
-    <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
-    <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
-    <li>cultureLeaderAdjective->grande</li>
-    <li>cultureLeaderAdjective->alto</li>
-    <li>cultureLeaderAdjective->primeiro</li>
-    <li>cultureLeaderAdjective->grão</li>
-    <li>cultureLeaderNoun->chefe</li>
-  </LeaderTitleMaker_Corunan.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>cultureLeaderAdjective->high</li>
     <li>cultureLeaderAdjective->great</li>
@@ -51,19 +40,7 @@
     <li>cultureLeaderNoun->governador</li>
     <li>cultureLeaderNoun->líder</li>
   </LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
-    <li>cultureLeaderAdjective->alto</li>
-    <li>cultureLeaderAdjective->grande</li>
-    <li>cultureLeaderAdjective->primeiro</li>
-    <li>cultureLeaderAdjective->supremo</li>
-    <li>cultureLeaderNoun->presidente</li>
-    <li>cultureLeaderNoun->diretor</li>
-    <li>cultureLeaderNoun->governador</li>
-    <li>cultureLeaderNoun->líder</li>
-  </LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>r_leaderTitle(p=6)->[memeLeaderAdjective] [memeLeaderNoun]</li>
     <li>r_leaderTitle(p=3)->[cultureLeaderAdjective] [memeLeaderNoun]</li>
@@ -76,15 +53,7 @@
     <li>r_leaderTitle(p=1)->[memeLeaderAdjective] [cultureLeaderNoun]</li>
     <li>r_leaderTitle(p=1)->[cultureLeaderTitle]</li>
   </LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
-    <li>r_leaderTitle(p=6)->[memeLeaderAdjective] [memeLeaderNoun]</li>
-    <li>r_leaderTitle(p=3)->[cultureLeaderAdjective] [memeLeaderNoun]</li>
-    <li>r_leaderTitle(p=1)->[memeLeaderAdjective] [cultureLeaderNoun]</li>
-    <li>r_leaderTitle(p=1)->[cultureLeaderTitle]</li>
-  </LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
     <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
@@ -109,21 +78,7 @@
     <li>cultureLeaderNoun->pistoleiro</li>
     <li>cultureLeaderNoun->cão</li>
   </LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
-    <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
-    <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
-    <li>cultureLeaderAdjective->grande</li>
-    <li>cultureLeaderAdjective->mega</li>
-    <li>cultureLeaderAdjective->verdadeiro</li>
-    <li>cultureLeaderNoun->patrão</li>
-    <li>cultureLeaderNoun->rufia</li>
-    <li>cultureLeaderNoun->manda-chuva</li>
-    <li>cultureLeaderNoun->pistoleiro</li>
-    <li>cultureLeaderNoun->cão</li>
-  </LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
     <li>cultureLeaderAdjective->prime</li>
@@ -144,29 +99,12 @@
     <li>cultureLeaderNoun->guia</li>
     <li>cultureLeaderNoun->timoneiro</li>
   </LeaderTitleMaker_Rustican.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <LeaderTitleMaker_Rustican.rulePack.rulesStrings>
-    <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
-    <li>cultureLeaderAdjective->supremo</li>
-    <li>cultureLeaderAdjective->primeiro</li>
-    <li>cultureLeaderNoun->conselheiro</li>
-    <li>cultureLeaderNoun->líder</li>
-    <li>cultureLeaderNoun->ministro</li>
-    <li>cultureLeaderNoun->guia</li>
-    <li>cultureLeaderNoun->timoneiro</li>
-  </LeaderTitleMaker_Rustican.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>r_leaderTitle->high stellarch</li>
   -->
   <LeaderTitleMaker_Sophian.rulePack.rulesStrings>
     <li>r_leaderTitle->alto estelarca</li>
   </LeaderTitleMaker_Sophian.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <LeaderTitleMaker_Sophian.rulePack.rulesStrings>
-    <li>r_leaderTitle->alto estelarca</li>
-  </LeaderTitleMaker_Sophian.rulePack.rulesStrings>
-  
+
 </LanguageData>

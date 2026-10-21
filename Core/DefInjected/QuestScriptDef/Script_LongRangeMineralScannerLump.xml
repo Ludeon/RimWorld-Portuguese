@@ -53,31 +53,5 @@
   <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>Missão expirada: [resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>
   <!-- EN: Others have mined the lump of [targetMineable_label]. The quest [resolvedQuestName] has expired. -->
   <LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>Outros extraíram o bloco de [targetMineable_label]. A missão [resolvedQuestName] expirou.</LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>
-  
-  <!-- UNUSED -->
-  <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
-    <li>questDescription->Com o teu scanner de minerais de longo alcance, [worker_definite] encontrou um bloco de [targetMineable_label] nas proximidades.\n\nInfelizmente, não vai durar: se não o extrairmos, outros vão extraí-lo primeiro dentro de [timeoutTicks_duration].[lumpThreatDescription]</li>
-  </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
-  <LongRangeMineralScannerLump.questNameRules.rulesStrings>
-    <li>questName->[lump] de [targetMineableThing_label]</li>
-    <li>questName->[targetMineableThing_label]: [lump]</li>
-    <li>questName->O [lump] de [targetMineableThing_label]</li>
-    <li>questName->[targetMineableThing_label] [adj]</li>
-    <li>questName->[discovered] de [targetMineableThing_label]</li>
-    <li>lump->Bloco</li>
-    <li>lump->Monte</li>
-    <li>lump->Depósito</li>
-    <li>lump->Filão</li>
-    <li>lump->Pedaço</li>
-    <li>lump->Aglomerado</li>
-    <li>adj->distante</li>
-    <li>adj->ao longe</li>
-    <li>adj->desconhecido</li>
-    <li>adj->no radar</li>
-    <li>discovered->Descoberta</li>
-    <li>discovered->Deteção</li>
-    <li>discovered->Achado</li>
-    <li>discovered->Varrimento</li>
-  </LongRangeMineralScannerLump.questNameRules.rulesStrings>
-  
+
 </LanguageData>

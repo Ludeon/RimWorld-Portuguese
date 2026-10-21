@@ -45,29 +45,5 @@
     <li>menace->terror</li>
     <li>menace->medo</li>
   </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
-  
-  <!-- UNUSED -->
-  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
-    <li>dangersDescription(priority=1)->\n\nAs cápsulas contêm estes perigos:\n\n[allThreats]</li>
-    <li>dangersDescription-></li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], está a fazer um pedido. [commonMainPart]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], [asker_royalTitleInCurrentFaction] de [asker_faction_name], está a fazer um pedido. [commonMainPart]</li>
-    <li>commonMainPart->Um enxame mecanoide tem atacado os assentamentos de [asker_nameDef]. [asker_pronoun] quer que sinalizes os mecs para os distrair enquanto [asker_pronoun] limpa a colmeia. Se o fizeres, (*Threat)um aglomerado mecanoide(/Threat) aterrará em [map_definite].[dangersDescription]\n\nO aglomerado mecanoide estará inicialmente adormecido. Pode ter um ativador de contagem decrescente ou permanecer adormecido para sempre, até ser perturbado.[helpersParagraph]</li>
-  </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
-  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
-    <li>questName->aglomerado de [menace]</li>
-    <li>questName->cápsulas de [menace]</li>
-    <li>questName->[nameBased]</li>
-    <li>nameBased->mecs de [asker_nameDef]</li>
-    <li>nameBased->mecanoides de [asker_nameDef]</li>
-    <li>nameBased->aglomerado mec de [asker_nameDef]</li>
-    <li>nameBased->[menace] mec de [asker_nameDef]</li>
-    <li>menace->ameaça</li>
-    <li>menace->intimidação</li>
-    <li>menace->flagelo</li>
-    <li>menace->perigo</li>
-    <li>menace->terror</li>
-    <li>menace->medo</li>
-  </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
-  
+
 </LanguageData>

@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: [PAWN_nameDef] was born sickly. Thinking that [PAWN_pronoun] would only burden the tribe, [PAWN_possessive] parents exposed [PAWN_objective] to the elements. Somehow, [PAWN_pronoun] survived. -->
-  <AbandonedChild23.description>[PAWN_nameDef] nasceu doentio. Pensando que só seria um fardo para a tribo, os pais deixaram-no exposto aos elementos. De alguma forma, sobreviveu.</AbandonedChild23.description>
+  <AbandonedChild23.description>[PAWN_nameDef] nasceu doent{PAWN_gender ? io : ia}. Pensando que só seria um fardo para a tribo, os pais deixaram-{PAWN_gender ? no : na} expost{PAWN_gender ? o : a} aos elementos. De alguma forma, sobreviveu.</AbandonedChild23.description>
   <!-- EN: abandoned child -->
   <AbandonedChild23.title>criança abandonada</AbandonedChild23.title>
   <!-- EN: abandoned -->
@@ -26,7 +26,7 @@
   <BuddingArtist44.titleShortFemale>artista</BuddingArtist44.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] tormented other children for fun. To keep [PAWN_objective] busy, an elder assigned [PAWN_objective] to a hunting party at an early age. -->
-  <Bully70.description>[PAWN_nameDef] atormentava as outras crianças por diversão. Para o manter ocupado, um ancião destacou-o para um grupo de caça desde muito novo.</Bully70.description>
+  <Bully70.description>[PAWN_nameDef] atormentava as outras crianças por diversão. Para o manter {PAWN_gender ? ocupado : ocupada}, um ancião destacou-{PAWN_gender ? o : a} para um grupo de caça desde muito {PAWN_gender ? novo : nova}.</Bully70.description>
   <!-- EN: bully -->
   <Bully70.title>rufia</Bully70.title>
   <!-- EN: bully -->
@@ -40,7 +40,7 @@
   <CaveChild30.titleShort>criança das cavernas</CaveChild30.titleShort>
   
   <!-- EN: As a baby, [PAWN_nameDef] was the only survivor of a deadly spacecraft crash. A passing tribe discovered [PAWN_objective] in the wreckage and adopted [PAWN_objective]. -->
-  <CrashBaby32.description>Quando era bebé, [PAWN_nameDef] foi o único sobrevivente da queda mortal de uma nave espacial. Uma tribo que passava descobriu-o nos destroços e adotou-o.</CrashBaby32.description>
+  <CrashBaby32.description>Quando era bebé, [PAWN_nameDef] foi {PAWN_gender ? o único sobrevivente : a única sobrevivente} da queda mortal de uma nave espacial. Uma tribo que passava descobriu-{PAWN_gender ? o : a} nos destroços e adotou-{PAWN_gender ? o : a}.</CrashBaby32.description>
   <!-- EN: crash baby -->
   <CrashBaby32.title>bebé do acidente</CrashBaby32.title>
   <!-- EN: crashbaby -->
@@ -65,7 +65,7 @@
   <Herder19.titleShortFemale>pastora</Herder19.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef]'s overprotective parents encouraged [PAWN_objective] to stay at home nearly every day. Though [PAWN_pronoun] had a lot of time to read and pursue crafting hobbies, [PAWN_pronoun] never developed normal social skills. -->
-  <Hideaway7.description>Os pais superprotetores de [PAWN_nameDef] incentivavam-no a ficar em casa quase todos os dias. Apesar de ter muito tempo para ler e para se dedicar a passatempos de fabrico, nunca desenvolveu competências sociais normais.</Hideaway7.description>
+  <Hideaway7.description>Os pais superprotetores de [PAWN_nameDef] incentivavam-{PAWN_gender ? no : na} a ficar em casa quase todos os dias. Apesar de ter muito tempo para ler e para se dedicar a passatempos de fabrico, nunca desenvolveu competências sociais normais.</Hideaway7.description>
   <!-- EN: hideaway -->
   <Hideaway7.title>recluso</Hideaway7.title>
   <!-- EN: hideaway -->
@@ -81,7 +81,7 @@
   <ReclusiveChild81.titleShortFemale>reclusa</ReclusiveChild81.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] spent [PAWN_possessive] childhood escaping grunt work to go digging through wrecks and ruins for treasures. [PAWN_possessive] natural curiosity got [PAWN_objective] into a lot of trouble, but it also yielded many interesting finds. -->
-  <Scavenger22.description>[PAWN_nameDef] passou a infância a fugir aos trabalhos pesados para ir remexer em destroços e ruínas à procura de tesouros. A sua curiosidade natural metia-o em muitos sarilhos, mas também rendeu muitos achados interessantes.</Scavenger22.description>
+  <Scavenger22.description>[PAWN_nameDef] passou a infância a fugir aos trabalhos pesados para ir remexer em destroços e ruínas à procura de tesouros. A sua curiosidade natural metia-{PAWN_gender ? o : a} em muitos sarilhos, mas também rendeu muitos achados interessantes.</Scavenger22.description>
   <!-- EN: scavenger -->
   <Scavenger22.title>sucateiro</Scavenger22.title>
   <Scavenger22.titleFemale>sucateira</Scavenger22.titleFemale>
@@ -90,7 +90,7 @@
   <Scavenger22.titleShortFemale>sucateira</Scavenger22.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef]'s entire tribe was wiped out in a raid. Though [PAWN_pronoun] was adopted by another group, [PAWN_pronoun] was emotionally scarred, and preferred to stay near home, cooking and tending crops. -->
-  <SoleSurvivor21.description>Toda a tribo de [PAWN_nameDef] foi dizimada num ataque. Embora tenha sido adotado por outro grupo, ficou emocionalmente marcado e preferia ficar perto de casa, a cozinhar e a cuidar das culturas.</SoleSurvivor21.description>
+  <SoleSurvivor21.description>Toda a tribo de [PAWN_nameDef] foi dizimada num ataque. Embora tenha sido adotad{PAWN_gender ? o : a} por outro grupo, ficou emocionalmente marcad{PAWN_gender ? o : a} e preferia ficar perto de casa, a cozinhar e a cuidar das culturas.</SoleSurvivor21.description>
   <!-- EN: sole survivor -->
   <SoleSurvivor21.title>único sobrevivente</SoleSurvivor21.title>
   <SoleSurvivor21.titleFemale>única sobrevivente</SoleSurvivor21.titleFemale>

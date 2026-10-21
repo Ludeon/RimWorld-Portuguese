@@ -51,33 +51,7 @@
     <li>tamed->sentou-se pacientemente junto de</li>
     <li>tamed->sussurrou uma história sobre [TalkTopicAny] a</li>
   </AnimalChat.logRulesInitiator.rulesStrings>
-  
-  <!-- UNUSED -->
-  <AnimalChat.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=5)->[INITIATOR_nameDef] [tamed] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] sentou-se junto de [RECIPIENT_nameDef] e falou para consigo sobre [TalkTopicAny].</li>
-    <li>r_logentry->[INITIATOR_nameDef] aproximou-se de [RECIPIENT_nameDef] a murmurar para consigo sobre [TalkTopicAny].</li>
-    <li>r_logentry->[INITIATOR_nameDef] chegou-se a [RECIPIENT_nameDef] a falar para consigo sobre [TalkTopicAny].</li>
-    <li>tamed->fez sons calmantes para</li>
-    <li>tamed->fez gestos lentos e amistosos para</li>
-    <li>tamed->fez sons a pedir silêncio a</li>
-    <li>tamed->fez estalidos alegres para</li>
-    <li>tamed->gesticulou com suavidade e aproximou-se de</li>
-    <li>tamed->aproximou-se devagar de</li>
-    <li>tamed->tocou com delicadeza em</li>
-    <li>tamed->acalmou e encorajou</li>
-    <li>tamed->acompanhou a respiração de</li>
-    <li>tamed->baixou-se ao aproximar-se de</li>
-    <li>tamed->não demonstrou medo nem raiva perante</li>
-    <li>tamed->fingiu não prestar atenção a</li>
-    <li>tamed->trauteou suavemente uma canção a</li>
-    <li>tamed->cantou uma velha cantiga de embalar a</li>
-    <li>tamed->tocou com firmeza, mas suavemente, em</li>
-    <li>tamed->mostrou uma atitude descontraída perante</li>
-    <li>tamed->sentou-se pacientemente junto de</li>
-    <li>tamed->sussurrou uma história sobre [TalkTopicAny] a</li>
-  </AnimalChat.logRulesInitiator.rulesStrings>
-  
+
   <!-- EN: nuzzle -->
   <Nuzzle.label>esfregar o focinho</Nuzzle.label>
   <!-- EN:
@@ -132,35 +106,7 @@
     <li>rubbedpart->no flanco</li>
     <li>rubbedpart->no braço</li>
   </Nuzzle.logRulesInitiator.rulesStrings>
-  
-  <!-- UNUSED -->
-  <Nuzzle.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] esfregou o focinho [rubbedpart] de [RECIPIENT_nameDef].</li>
-    <li>nuzzled(p=2)->esfregou o focinho em</li>
-    <li>nuzzled->encostou a cabeça a</li>
-    <li>nuzzleadverb(p=4)-></li>
-    <li>nuzzleadverb->delicadamente</li>
-    <li>nuzzleadverb->animadamente</li>
-    <li>nuzzleadverb->alegremente</li>
-    <li>nuzzleadverb->suavemente</li>
-    <li>nuzzleadverb->solidariamente</li>
-    <li>nuzzleadverb->levemente</li>
-    <li>nuzzleadverb->calorosamente</li>
-    <li>nuzzleadverb->tristemente</li>
-    <li>nuzzleadverb->amorosamente</li>
-    <li>nuzzleadverb->afetuosamente</li>
-    <li>rubbedpart->na perna</li>
-    <li>rubbedpart->no joelho</li>
-    <li>rubbedpart->no pé</li>
-    <li>rubbedpart->no cotovelo</li>
-    <li>rubbedpart->na anca</li>
-    <li>rubbedpart->no ombro</li>
-    <li>rubbedpart->na mão</li>
-    <li>rubbedpart->no flanco</li>
-    <li>rubbedpart->no braço</li>
-  </Nuzzle.logRulesInitiator.rulesStrings>
-  
+
   <!-- EN: release to the wild -->
   <ReleaseToWild.label>libertar na natureza</ReleaseToWild.label>
   <!-- EN:
@@ -189,22 +135,7 @@
     <li>released->e depois virou costas e deixou o animal abandonar a colónia.</li>
     <li>released->antes de deixar o animal ir viver em liberdade.</li>
   </ReleaseToWild.logRulesInitiator.rulesStrings>
-  
-  <!-- UNUSED -->
-  <ReleaseToWild.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[farewell] [released]</li>
-    <li>farewell->[INITIATOR_nameDef] acariciou [RECIPIENT_nameDef] com delicadeza uma última vez</li>
-    <li>farewell->[INITIATOR_nameDef] disse umas palavras carinhosas a [RECIPIENT_nameDef]</li>
-    <li>farewell->[INITIATOR_nameDef] tirou a coleira a [RECIPIENT_nameDef]</li>
-    <li>farewell->[INITIATOR_nameDef] recordou os bons momentos passados com [RECIPIENT_nameDef]</li>
-    <li>released->e libertou o animal na natureza.</li>
-    <li>released->e deixou o animal em liberdade.</li>
-    <li>released->e mandou o animal seguir o seu caminho.</li>
-    <li>released->e deixou o animal partir.</li>
-    <li>released->e depois virou costas e deixou o animal abandonar a colónia.</li>
-    <li>released->antes de deixar o animal ir viver em liberdade.</li>
-  </ReleaseToWild.logRulesInitiator.rulesStrings>
-  
+
   <!-- EN: tame attempt -->
   <TameAttempt.label>tentativa de domesticação</TameAttempt.label>
   <!-- EN:
@@ -241,26 +172,7 @@
     <li>r_logentry->[INITIATOR_nameDef] apontou para o chão, exigindo que [RECIPIENT_nameDef] viesse.</li>
     <li>r_logentry->[INITIATOR_nameDef] deu a [RECIPIENT_nameDef] uma primeira ordem.</li>
   </TameAttempt.logRulesInitiator.rulesStrings>
-  
-  <!-- UNUSED -->
-  <TameAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] tentou domesticar [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] tentou controlar [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] tentou pôr uma coleira a [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] exigiu obediência a [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] chamou [RECIPIENT_nameDef] para junto de si.</li>
-    <li>r_logentry->[INITIATOR_nameDef] tentou manter [RECIPIENT_nameDef] sem se mexer.</li>
-    <li>r_logentry->[INITIATOR_nameDef] agarrou [RECIPIENT_nameDef] bruscamente e ladrou uma ordem.</li>
-    <li>r_logentry->[INITIATOR_nameDef] tentou segurar [RECIPIENT_nameDef] com firmeza.</li>
-    <li>r_logentry->[INITIATOR_nameDef] gritou uma ordem a [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] deu uma palmada a [RECIPIENT_nameDef] numa demonstração de domínio.</li>
-    <li>r_logentry->[INITIATOR_nameDef] reconduziu [RECIPIENT_nameDef] de volta à comunidade.</li>
-    <li>r_logentry->[INITIATOR_nameDef] chamou [RECIPIENT_nameDef] para que voltasse à comunidade.</li>
-    <li>r_logentry->[INITIATOR_nameDef] tocou numa parte vulnerável do corpo de [RECIPIENT_nameDef], exigindo obediência.</li>
-    <li>r_logentry->[INITIATOR_nameDef] apontou para o chão, exigindo que [RECIPIENT_nameDef] viesse.</li>
-    <li>r_logentry->[INITIATOR_nameDef] deu a [RECIPIENT_nameDef] uma primeira ordem.</li>
-  </TameAttempt.logRulesInitiator.rulesStrings>
-  
+
   <!-- EN: train attempt -->
   <TrainAttempt.label>tentativa de treino</TrainAttempt.label>
   <!-- EN:
@@ -287,19 +199,5 @@
     <li>tried->tentou</li>
     <li>tried->procurou</li>
   </TrainAttempt.logRulesInitiator.rulesStrings>
-  
-  <!-- UNUSED -->
-  <TrainAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [trained] [RECIPIENT_nameDef].</li>
-    <li>trained(p=2)->[tried] treinar</li>
-    <li>trained->[tried] mostrar um novo truque a</li>
-    <li>trained->[tried] disciplinar</li>
-    <li>trained->[tried] instruir</li>
-    <li>trained->[tried] incentivar uma nova perícia em</li>
-    <li>trained->demonstrou uma perícia a</li>
-    <li>trained->incentivou uma nova resposta por parte de</li>
-    <li>tried->tentou</li>
-    <li>tried->procurou</li>
-  </TrainAttempt.logRulesInitiator.rulesStrings>
-  
+
 </LanguageData>

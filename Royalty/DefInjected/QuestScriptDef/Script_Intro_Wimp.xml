@@ -75,17 +75,5 @@
   <Intro_Wimp.LetterLabelQuestFailed.slateRef>Missão falhada: [resolvedQuestName]</Intro_Wimp.LetterLabelQuestFailed.slateRef>
   <!-- EN: The shuttle sent to collect [asker_nameDef] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
   <Intro_Wimp.LetterTextQuestFailed.slateRef>O vaivém enviado para recolher [asker_nameDef] partiu sem o levar. [asker_pronoun] vai agora partir a pé. [failLetterEndingCommon]</Intro_Wimp.LetterTextQuestFailed.slateRef>
-  
-  <!-- UNUSED -->
-  <Intro_Wimp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], está a chamar de perto. Os seus guardas foram mortos numa emboscada. Escapou, mas (*Threat)um animal caçador de homens, [animalKindDef_label](/Threat), anda agora no seu encalço.\n\n[asker_nameDef] quer que garantas a sua segurança em [map_definite] durante algumas horas, até o seu vaivém chegar.\n\n[asker_pronoun] concederá uma recompensa de [royalFavorReward] [asker_faction_royalFavorLabel] a quem aceitar esta missão. É honra suficiente para receber o título real de Novato e todos os benefícios associados, incluindo o primeiro nível de poderes psíquicos.</li>
-  </Intro_Wimp.questDescriptionRules.rulesStrings>
-  <Intro_Wimp.questNameRules.rulesStrings>
-    <li>questName->[asker_royalTitleInCurrentFaction] [adjAny]</li>
-    <li>adjAny->na mira</li>
-    <li>adjAny->em fuga</li>
-    <li>adjAny->sem companhia</li>
-    <li>adjAny->numa emboscada</li>
-  </Intro_Wimp.questNameRules.rulesStrings>
-  
+
 </LanguageData>

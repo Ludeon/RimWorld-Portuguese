@@ -43,26 +43,5 @@
   <OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>Missão expirada: [resolvedQuestName]</OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>
   <!-- EN: The offer of peace talks with [faction_name] has expired. You have failed the quest [resolvedQuestName]. -->
   <OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>A oferta de conversações de paz com [faction_name] expirou. Falhaste a missão [resolvedQuestName].</OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>
-  
-  <!-- UNUSED -->
-  <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
-    <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] de [faction_name], enviou-nos uma mensagem. Quer falar connosco num local próximo.\n\nPode ser uma ótima oportunidade para melhorar as relações com a sua fação e receber presentes, mas cuidado: um mau negociador pode causar mais mal do que bem e até os irritar.[extraLeaderPart][favorRewardDetails]</li>
-    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nConversações de paz bem-sucedidas podem render ao teu negociador uma pequena quantidade de [faction_royalFavorLabel] pessoal junto de [faction_name].</li>
-    <li>favorRewardDetails-></li>
-    <li>extraLeaderPart(priority=1)->\n\n[leaderRoleEffect].[leaderPawnInfo]</li>
-    <li>extraLeaderPart-></li>
-    <li>leaderRoleEffect->As outras fações respeitar-te-ão mais se enviares o teu líder para tratar das negociações</li>
-    <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)-> [playerFaction_leaderTitle] [playerFaction_leader_nameFull] terá uma bonificação na probabilidade de um resultado favorável.</li>
-    <li>leaderPawnInfo-></li>
-  </OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
-  <OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
-    <li>questName->[peaceTalks] de [faction_leader_nameDef]</li>
-    <li>questName->[peaceTalks] com [faction_leader_nameDef]</li>
-    <li>questName->A [peaceTalks]</li>
-    <li>questName->[peaceTalks]</li>
-    <li>peaceTalks->Negociação de Paz</li>
-    <li>peaceTalks->Diplomacia</li>
-    <li>peaceTalks->Reunião</li>
-  </OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
-  
+
 </LanguageData>

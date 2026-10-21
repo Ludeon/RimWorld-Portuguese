@@ -65,41 +65,7 @@
     <li>fromof->de</li>
     <li>fromof->de</li>
   </Combat_ExplosionImpact.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <Combat_ExplosionImpact.rulePack.rulesStrings>
-    <li>prefix->A [blast] [fromof] [projectile] de [INITIATOR_nameDef]</li>
-    <li>prefix->A [blast] [fromof] [WEAPON_label] de [INITIATOR_nameDef]</li>
-    <li>prefix->A [blast] [fromof] [projectile] de [INITIATOR_nameDef]</li>
-    <li>prefix->A [blast] [fromof] [WEAPON_label] de [INITIATOR_nameDef]</li>
-    <li>prefix->A [blast] de [INITIATOR_nameDef]</li>
-    <li>prefix->A [blast] de [projectile] de [INITIATOR_nameDef]</li>
-    <li>prefix->A [blast] de [WEAPON_label] de [INITIATOR_nameDef]</li>
-    <li>prefix->A [blast] de [INITIATOR_nameDef]</li>
-    <li>prefix->A [blast] de [INITIATOR_nameDef]</li>
-    <li>r_logentry->[prefix] [damaged_past] [RECIPIENT_definite].</li>
-    <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] de [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] de [RECIPIENT_nameDef] [strikeAdv].</li>
-    <li>r_logentry->[prefix] [destroyed_past] [strikeAdv] [destroyed_targets] de [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] de [RECIPIENT_nameDef] e [damaged_past] [damaged_targets].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [damaged_targets] de [RECIPIENT_nameDef].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [damaged_targets] de [RECIPIENT_nameDef] [strikeAdv].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [strikeAdv] [damaged_targets] de [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite].</li>
-    <li>r_logentry->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] [strikeAdv].</li>
-    <li>r_logentry->[RECIPIENT_definite] sofreu os efeitos de uma [blast].</li>
-    <li>r_logentry(p=0.001)->[RECIPIENT_definite] esteve no meio de uma explosão.</li>
-    <li>r_logentry(p=0.001)->[RECIPIENT_definite] sofreu o impacto de uma explosão.</li>
-    <li>blast->explosão</li>
-    <li>blast->deflagração</li>
-    <li>blast->onda de choque</li>
-    <li>blast->detonação</li>
-    <li>blast->descarga</li>
-    <li>blast->onda de impacto</li>
-    <li>fromof->de</li>
-    <li>fromof->de</li>
-  </Combat_ExplosionImpact.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>projectile(WEAPON_missing==True, p=3)->[PROJECTILE_label]</li>
     <li>projectile->[WEAPON_projectile_label]</li>
@@ -108,13 +74,7 @@
     <li>projectile(WEAPON_missing==True, p=3)->[PROJECTILE_label]</li>
     <li>projectile->[WEAPON_projectile_label]</li>
   </Combat_RangedBase.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <Combat_RangedBase.rulePack.rulesStrings>
-    <li>projectile(WEAPON_missing==True, p=3)->[PROJECTILE_label]</li>
-    <li>projectile->[WEAPON_projectile_label]</li>
-  </Combat_RangedBase.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite]'s [projectile] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].</li>
     <li>r_logentry->[INITIATOR_definite]'s [projectile] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] [to] [destroyed_suffix].</li>
@@ -229,66 +189,7 @@
     <li>missed->errou</li>
     <li>missed->errou por pouco</li>
   </Combat_RangedDamage.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <Combat_RangedDamage.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [destroyed_past] [destroyed_targets] de [RECIPIENT_nameDef] com [projectile].</li>
-    <li>r_logentry->[INITIATOR_definite] [destroyed_past] [destroyed_targets] de [RECIPIENT_nameDef] com [projectile] [to] [destroyed_suffix].</li>
-    <li>r_logentry(p=2)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] e [destroyed_past] [destroyed_targets] de [RECIPIENT_nameDef] com [projectile].</li>
-    <li>r_logentry(p=2)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targets] de [RECIPIENT_nameDef].</li>
-    <li>r_logentry->Com [projectile], [INITIATOR_definite] [destroyed_past] [destroyed_targets] de [RECIPIENT_nameDef].</li>
-    <li>r_logentry->Com [projectile], [INITIATOR_definite] [destroyed_past] [destroyed_targets] de [RECIPIENT_nameDef] [to] [destroyed_suffix].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite] [damaged_past] [damaged_targets] de [RECIPIENT_nameDef] com [projectile].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] e [damaged_past] [damaged_targets] de [RECIPIENT_nameDef] com [projectile].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [damaged_present] [damaged_targets] de [RECIPIENT_nameDef].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->Com [projectile], [INITIATOR_definite] [damaged_past] [damaged_targets] de [RECIPIENT_nameDef].</li>
-    <li>r_logentry(p=3)->[INITIATOR_definite] [destroyed_past] [destroyed_targets] de [RECIPIENT_nameDef] com [projectile] e [damaged_past] [damaged_targets].</li>
-    <li>r_logentry(p=6)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targets] de [RECIPIENT_nameDef] e [damaged_present] [damaged_targets].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] atingiu [RECIPIENT_definite] com [projectile].</li>
-    <li>r_logentry(p=0.2)->Com [projectile], [INITIATOR_definite] atingiu [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] e atingiu [RECIPIENT_definite] com [projectile].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite], mas atingiu [RECIPIENT_definite] com [projectile].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] atingiu [RECIPIENT_definite] com [projectile] que tinha como alvo [ORIGINALTARGET_definite].</li>
-    <li>projectile(p=0.05)->tiro</li>
-    <li>destroyed_past->estilhaçou</li>
-    <li>destroyed_past->esmagou</li>
-    <li>destroyed_past->pulverizou</li>
-    <li>destroyed_past->aniquilou</li>
-    <li>destroyed_past->trespassou</li>
-    <li>destroyed_past->perfurou</li>
-    <li>destroyed_past->furou</li>
-    <li>destroyed_present->a estilhaçar</li>
-    <li>destroyed_present->a esmagar</li>
-    <li>destroyed_present->a pulverizar</li>
-    <li>destroyed_present->a aniquilar</li>
-    <li>destroyed_present->a trespassar</li>
-    <li>destroyed_present->a perfurar</li>
-    <li>destroyed_present->a furar</li>
-    <li>destroyed_suffix->pedaços</li>
-    <li>destroyed_suffix->bocados</li>
-    <li>destroyed_suffix->névoa fina</li>
-    <li>destroyed_suffix->fragmentos</li>
-    <li>destroyed_suffix(p=0.5)->massa esburacada</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,p=0.2)->carne picada</li>
-    <li>damaged_past->feriu</li>
-    <li>damaged_past->lesionou</li>
-    <li>damaged_past->trespassou</li>
-    <li>damaged_past->danificou</li>
-    <li>damaged_past->baleou</li>
-    <li>damaged_present->a ferir</li>
-    <li>damaged_present->a lesionar</li>
-    <li>damaged_present->a trespassar</li>
-    <li>damaged_present->a danificar</li>
-    <li>damaged_present->a alvejar</li>
-    <li>damaged_suffix->de forma brutal</li>
-    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->com sangue visível</li>
-    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->com a carne à vista</li>
-    <li>to->em</li>
-    <li>to->em</li>
-    <li>missed->errou</li>
-    <li>missed->errou por pouco</li>
-  </Combat_RangedDamage.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite]'s [projectile] [damaged_past] [RECIPIENT_definite][damaged_target] [deflected_result].</li>
     <li>r_logentry(p=2)->[INITIATOR_definite]'s [projectile] [missed] [ORIGINALTARGET_definite] and [damaged_past] [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
@@ -339,34 +240,7 @@
     <li>missed->errou</li>
     <li>missed->errou por pouco</li>
   </Combat_RangedDeflect.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <Combat_RangedDeflect.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite][damaged_target] com [projectile] [deflected_result].</li>
-    <li>r_logentry(p=2)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] e [damaged_past] [RECIPIENT_definite][damaged_target_possessive_opt] com [projectile] [deflected_result].</li>
-    <li>r_logentry->Com [projectile], [INITIATOR_definite] [damaged_past] [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] atingiu [RECIPIENT_definite][damaged_target_possessive_opt] com [projectile] [deflected_result].</li>
-    <li>r_logentry(p=0.2)->Com [projectile], [INITIATOR_definite] atingiu [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] e atingiu [RECIPIENT_definite][damaged_target_possessive_opt] com [projectile] [deflected_result].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite], mas atingiu [RECIPIENT_definite][damaged_target_possessive_opt] com [projectile] [deflected_result].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] atingiu [RECIPIENT_definite][damaged_target_possessive_opt] com [projectile] que tinha como alvo [ORIGINALTARGET_definite] [deflected_result].</li>
-    <li>projectile(p=0.05)->tiro</li>
-    <li>damaged_target_possessive_opt-></li>
-    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)-> em [recipient_part_damaged0_label]</li>
-    <li>deflected_result->, [adverb_deflected]</li>
-    <li>deflected_result->, [deflected_consequence]</li>
-    <li>adverb_deflected_opt(p=4)-></li>
-    <li>adverb_deflected_opt->[adverb_deflected]</li>
-    <li>adverb_deflected->sem efeito</li>
-    <li>adverb_deflected->inutilmente</li>
-    <li>deflected_consequence->mas [scraped_past] [adverb_deflected_opt]</li>
-    <li>deflected_consequence->[scraped_present] na armadura [adverb_deflected_opt]</li>
-    <li>scraped_past->ricocheteou</li>
-    <li>scraped_present->a ricochetear</li>
-    <li>missed->errou</li>
-    <li>missed->errou por pouco</li>
-  </Combat_RangedDeflect.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] with [INITIATOR_possessive] [WEAPON_label].</li>
     <li>r_logentry->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label] at [RECIPIENT_definite].</li>
@@ -425,38 +299,7 @@
     <li>verb_shot->atirou</li>
     <li>verb_shot(p=0.2)->descarregou</li>
   </Combat_RangedFire.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <Combat_RangedFire.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] com [WEAPON_label].</li>
-    <li>r_logentry->[INITIATOR_definite] [shot] [WEAPON_label] contra [RECIPIENT_definite].</li>
-    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite].</li>
-    <li>r_logentry->[INITIATOR_definite] [shot_a] [projectile] [burst] contra [RECIPIENT_definite].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [projectile].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] [WEAPON_label].</li>
-    <li>shot_a(p=2)->[verb_shot]</li>
-    <li>shot_a->[verb_shot] [skillAdv]</li>
-    <li>shot(p=2)->[verb_shot]</li>
-    <li>shot->[verb_shot] [skillAdv]</li>
-    <li>shotat->disparou [aburst] contra</li>
-    <li>shotat->disparou [aburst] [skillAdv] contra</li>
-    <li>shotat(p=0.5)->tentou disparar [aburst] contra</li>
-    <li>shotat(p=0.3)->disparou um tiro contra</li>
-    <li>shotat(p=0.2)->disparou um tiro [skillAdv] contra</li>
-    <li>shotat->fez fogo [aburst] contra</li>
-    <li>shotat->fez fogo [aburst] [skillAdv] contra</li>
-    <li>shotat(p=0.5)->apontou e disparou [aburst] contra</li>
-    <li>shotat(p=0.5)->apontou e disparou [aburst] [skillAdv] contra</li>
-    <li>shotat(p=0.3)->abriu fogo contra</li>
-    <li>aburst-></li>
-    <li>aburst(BURST==True,p=3)->uma rajada</li>
-    <li>burst-></li>
-    <li>burst(BURST==True,p=3)->em rajada</li>
-    <li>verb_shot->disparou</li>
-    <li>verb_shot->atirou</li>
-    <li>verb_shot(p=0.2)->descarregou</li>
-  </Combat_RangedFire.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] [threw] [INITIATOR_possessive] [projectile] at [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [threw_a] [projectile] at [RECIPIENT_definite].</li>
@@ -507,34 +350,7 @@
     <li>adjective_threw->preciso</li>
     <li>adjective_threw(INITIATOR_flesh!=Mechanoid)->desconfiado</li>
   </Combat_RangedFire_Thrown.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <Combat_RangedFire_Thrown.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [threw] [projectile] contra [RECIPIENT_definite].</li>
-    <li>r_logentry->[INITIATOR_definite] [threw_a] [projectile] contra [RECIPIENT_definite].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [projectile].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw_a] [projectile].</li>
-    <li>threw_a->[verb_threw] [adverb_threw]</li>
-    <li>threw_a(p=2)->[verb_threw]</li>
-    <li>threw(p=2)->[verb_threw]</li>
-    <li>threw->[verb_threw] [adverb_threw]</li>
-    <li>verb_threw->atirou</li>
-    <li>verb_threw->arremessou</li>
-    <li>verb_threw->lançou</li>
-    <li>adverb_threw->cuidadosamente</li>
-    <li>adverb_threw->rapidamente</li>
-    <li>adverb_threw->com precisão</li>
-    <li>adverb_threw->deliberadamente</li>
-    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->com cautela</li>
-    <li>adverb_threw->com precisão</li>
-    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->com desconfiança</li>
-    <li>adjective_threw->cuidadoso</li>
-    <li>adjective_threw->rápido</li>
-    <li>adjective_threw->deliberado</li>
-    <li>adjective_threw->preciso</li>
-    <li>adjective_threw(INITIATOR_flesh!=Mechanoid)->desconfiado</li>
-  </Combat_RangedFire_Thrown.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite]'s [projectile] [missed].</li>
     <li>r_logentry->[INITIATOR_definite] missed [ORIGINALTARGET_definite].</li>
@@ -623,51 +439,5 @@
     <li>ducked->inclinou-se</li>
     <li>ducked->escondeu-se</li>
   </Combat_RangedMiss.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <Combat_RangedMiss.rulePack.rulesStrings>
-    <li>r_logentry->O disparo de [INITIATOR_nameDef] [missed].</li>
-    <li>r_logentry->[INITIATOR_definite] errou [ORIGINALTARGET_definite].</li>
-    <li>r_logentry->[ORIGINALTARGET_definite] [avoidance], com o disparo de [INITIATOR_nameDef] [missing].</li>
-    <li>missed(p=4)->falhou</li>
-    <li>missed(p=2)->falhou por pouco</li>
-    <li>missed(p=2)->falhou por larga margem</li>
-    <li>missed->passou ao lado</li>
-    <li>missed->voou pelos ares</li>
-    <li>missed->voou bem alto</li>
-    <li>missed->enterrou-se no chão</li>
-    <li>missed->ricocheteou no chão e perdeu-se</li>
-    <li>missed->abriu uma cova no chão</li>
-    <li>missed(p=0.2)->passou a milímetros do alvo</li>
-    <li>missed->passou a centímetros do alvo</li>
-    <li>missed->passou a um metro do alvo</li>
-    <li>missed->foi desviado pelo vento</li>
-    <li>missing->a falhar</li>
-    <li>missing->a falhar por pouco</li>
-    <li>missing->a falhar por larga margem</li>
-    <li>missing->a passar ao lado</li>
-    <li>missing->a voar pelos ares</li>
-    <li>missing->a voar bem alto</li>
-    <li>missing->a enterrar-se no chão</li>
-    <li>missing->a ricochetear no chão e a perder-se</li>
-    <li>missing->a abrir uma cova no chão</li>
-    <li>missing(p=0.2)->a passar a milímetros do alvo</li>
-    <li>missing->a passar a centímetros do alvo</li>
-    <li>missing->a passar a um metro do alvo</li>
-    <li>missing->a desviar-se por causa do vento</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True,p=2)->[moved] para o lado no último [moment]</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[ducked], usando [COVER_definite] como abrigo</li>
-    <li>moved->moveu-se</li>
-    <li>moved->esquivou-se</li>
-    <li>moved->desviou-se</li>
-    <li>moved->saltou</li>
-    <li>moment->momento</li>
-    <li>moment->segundo</li>
-    <li>moment->instante</li>
-    <li>ducked->baixou-se</li>
-    <li>ducked->agachou-se</li>
-    <li>ducked->inclinou-se</li>
-    <li>ducked->escondeu-se</li>
-  </Combat_RangedMiss.rulePack.rulesStrings>
-  
+
 </LanguageData>

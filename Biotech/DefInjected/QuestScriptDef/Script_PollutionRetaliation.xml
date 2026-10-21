@@ -29,21 +29,5 @@
   <PollutionRetaliation.questNameRules.rulesStrings>
     <li>questDescription->pollutionretaliation</li>
   </PollutionRetaliation.questNameRules.rulesStrings>
-  
-  <!-- UNUSED -->
-  <PollutionRetaliation.questContentRules.rulesStrings>
-    <li>retaliationLetterLabel->retaliação por pacotes de resíduos</li>
-    <li>retaliationLetterLabel(senderIsNull==False)->retaliação de [sender_faction_pawnSingular] por pacotes de resíduos</li>
-    <li>retaliationLetterLabel(senderIsNull==False,sender_royalInCurrentFaction==False)->retaliação de [sender_nameDef] por pacotes de resíduos</li>
-    <li>retaliationLetterText(senderIsNull==True)->O teu despejo de resíduos tóxicos fora do mapa não passou despercebido. Vizinhos irados estão a retaliar e a bombardear a tua colónia com cápsulas de transporte cheias de pacotes de resíduos tóxicos.\n\nSe não forem mantidos congelados, os pacotes de resíduos tóxicos dissolvem-se com o tempo, poluindo o terreno próximo.</li>
-    <li>retaliationLetterText(sender_factionLeader==True)->[sender_faction_leaderTitle] [sender_nameFull] de [sender_faction_name] afirma que o teu despejo imprudente de resíduos tóxicos fora do mapa prejudicou a sua fação. Em retaliação, está a usar cápsulas de transporte para te bombardear com pacotes de resíduos tóxicos.\n\nSe não forem mantidos congelados, os pacotes de resíduos tóxicos dissolvem-se com o tempo, poluindo o terreno próximo.</li>
-    <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_faction_leaderTitle] [sender_nameFull] de [sender_faction_name] afirma que o teu despejo imprudente de resíduos tóxicos fora do mapa prejudicou a sua fação, e que a honra exige retaliação. Está a usar cápsulas de transporte para te bombardear com pacotes de resíduos tóxicos.\n\nSe não forem mantidos congelados, os pacotes de resíduos tóxicos dissolvem-se com o tempo, poluindo o terreno próximo.</li>
-  </PollutionRetaliation.questContentRules.rulesStrings>
-  <PollutionRetaliation.questDescriptionRules.rulesStrings>
-    <li>questDescription->pollutionretaliation</li>
-  </PollutionRetaliation.questDescriptionRules.rulesStrings>
-  <PollutionRetaliation.questNameRules.rulesStrings>
-    <li>questDescription->pollutionretaliation</li>
-  </PollutionRetaliation.questNameRules.rulesStrings>
-  
+
 </LanguageData>

@@ -61,37 +61,5 @@
     <li>violence->Hostilidade</li>
     <li>violence->Beligerância</li>
   </ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
-  
-  <!-- UNUSED -->
-  <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], quer que o ajudes a salvar uma das suas caravanas. A caravana está a ser caçada perto de [map_definite] por (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) de [enemyFaction_name]. [asker_nameDef] quer que sinalizes a esses [enemyFaction_pawnsPlural] para os afastar da caravana e os atrair para ti.[endingCommon]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], está a fazer-te um pedido.\n\n(*Threat)[groupsOf](/Threat) de [enemyFaction_name] têm andado a assediar as suas caravanas na zona. [asker_nameDef] pede que lhes envies uma mensagem de desafio, atraindo-os para o ataque e eliminando tu próprio a ameaça.[endingCommon]</li>
-    <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
-    <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
-    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nSe aceitares, chegarão [enemyFaction_pawnsPlural] dentro de [firstRaidDelayTicks_duration].</li>
-    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]Se aceitares, chegarão [enemyFaction_pawnsPlural] dentro de [firstRaidDelayTicks_duration].</li>
-  </ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
-  <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
-    <li>questName->[enemyFaction_pawnsPlural] de fortuna</li>
-    <li>questName->[violence] de fortuna</li>
-    <li>questName->[violence] a soldo</li>
-    <li>questName->[violence] por lucro</li>
-    <li>questName->[violence] recompensada</li>
-    <li>questName->[violence] paga</li>
-    <li>questName->[violence] compensada</li>
-    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] por honra</li>
-    <li>questName(reward==royalFavor)->[violence] por honra</li>
-    <li>violence->Violência</li>
-    <li>violence->Batalha</li>
-    <li>violence->Combate</li>
-    <li>violence->Guerra</li>
-    <li>violence->Luta</li>
-    <li>violence->Derramamento de sangue</li>
-    <li>violence->Ataque</li>
-    <li>violence->Defesa</li>
-    <li>violence->Conflito</li>
-    <li>violence->Hostilidade</li>
-    <li>violence->Beligerância</li>
-  </ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
-  
+
 </LanguageData>
