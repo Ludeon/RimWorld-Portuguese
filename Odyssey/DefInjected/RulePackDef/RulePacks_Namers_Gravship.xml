@@ -97,6 +97,101 @@
     <li>ship_word->trireme</li>
     <li>ship_word->zephyr</li>
   -->
-  <NamerGravship.rulePack.rulesStrings>TODO</NamerGravship.rulePack.rulesStrings>
+  <NamerGravship.rulePack.rulesStrings>
+    <li>r_name(p=2)->[narrative_name]</li>
+    <li>r_name(p=1)->[ship_word] [narrative_name]</li>
+    <li>r_name(p=0.5)->[ship_word] [Color]</li>
+    <li>r_name(p=0.5)->[ship_word] [AdjectiveBadass]</li>
+    <li>r_name(p=0.5)->[bird] [AdjectiveBadass]</li>
+    <li>r_name(p=0.5)->[ship_word] [AdjectiveFriendly]</li>
+    <li>r_name(p=0.5)->[AnimalBadass] [flying_adjective]</li>
+    <li>r_name(p=0.5)->[storyname]</li>
+    <li>r_name(p=0.2)->[greekmyth_noun] [Color]</li>
+    <li>r_name(p=0.2)->[ship_prefix][greekmyth_noun]</li>
+    <li>ship_prefix(p=2)-></li>
+    <li>ship_prefix(p=2)-></li>
+    <li>narrative_name->[thing_badass] [AdjectiveNatural]</li>
+    <li>narrative_name->[thing_badass] [AdjectiveLarge]</li>
+    <li>narrative_name->[thing_badass] do [Direction]</li>
+    <li>narrative_name->[thing_badass]</li>
+    <li>thing_badass->[AnimalBadass]</li>
+    <li>thing_badass->Caçador de [AnimalBadass]</li>
+    <li>thing_badass->Triunfo</li>
+    <li>thing_badass->Vitória</li>
+    <li>thing_badass->Vingança</li>
+    <li>thing_badass->Agonia</li>
+    <li>thing_badass->Tormento</li>
+    <li>thing_badass->Retaliação</li>
+    <li>thing_badass->Angústia</li>
+    <li>thing_badass->Miséria</li>
+    <li>thing_badass->Tirania</li>
+    <li>thing_badass->Terror</li>
+    <li>thing_badass->Caos</li>
+    <li>thing_badass->Anarquia</li>
+    <li>storyname(p=50)->[story_result] de [subject]</li>
+    <li>storyname(p=2)->[BodyPart] de [subject]</li>
+    <li>storyname->[Gore] de [subject]</li>
+    <li>subject(p=5)->[NamePerson]</li>
+    <li>subject->[Animal]</li>
+    <li>subject->[WordTribal]</li>
+    <li>subject->[PlaceOutlander]</li>
+    <li>story_result->Alegria</li>
+    <li>story_result->Deleite</li>
+    <li>story_result->Maravilha</li>
+    <li>story_result->Orgulho</li>
+    <li>story_result->Joia</li>
+    <li>story_result->Prémio</li>
+    <li>story_result->Recompensa</li>
+    <li>story_result->Honra</li>
+    <li>story_result->Sorte Grande</li>
+    <li>story_result->Troféu</li>
+    <li>story_result->Destruição</li>
+    <li>story_result->Cataclismo</li>
+    <li>story_result->Ruína</li>
+    <li>story_result->Engano</li>
+    <li>story_result->Fachada</li>
+    <li>story_result->Fraude</li>
+    <li>greekmyth_noun->Odisseia</li>
+    <li>greekmyth_noun->Ulisses</li>
+    <li>greekmyth_noun->Penélope</li>
+    <li>greekmyth_noun->Telémaco</li>
+    <li>greekmyth_noun->Atena</li>
+    <li>greekmyth_noun->Poseidon</li>
+    <li>greekmyth_noun->Cila</li>
+    <li>greekmyth_noun->Hermes</li>
+    <li>greekmyth_noun->Argonauta</li>
+    <li>greekmyth_noun->Hermes</li>
+    <li>greekmyth_noun->Hélio</li>
+    <li>greekmyth_noun->Aquiles</li>
+    <li>greekmyth_noun->Sereia</li>
+    <li>greekmyth_noun->Ciclope</li>
+    <li>greekmyth_noun->Medusa</li>
+    <li>greekmyth_noun->Górgona</li>
+    <li>bird->Falcão</li>
+    <li>bird->Águia</li>
+    <li>bird->Gavião</li>
+    <li>bird->Peneireiro</li>
+    <li>bird->Abutre</li>
+    <li>flying_adjective(p=2)->em Voo</li>
+    <li>flying_adjective->nos Ares</li>
+    <li>flying_adjective->a Pairar</li>
+    <li>flying_adjective->de Asas Abertas</li>
+    <li>ship_word(p=5)->nave</li>
+    <li>ship_word(p=5)->gravinave</li>
+    <li>ship_word(p=2)->nave [AdjectiveNatural]</li>
+    <li>ship_word->navio de guerra</li>
+    <li>ship_word->fragata</li>
+    <li>ship_word->embarcação</li>
+    <li>ship_word->vaivém</li>
+    <li>ship_word->cruzador</li>
+    <li>ship_word->transporte</li>
+    <li>ship_word->galé</li>
+    <li>ship_word->galeão</li>
+    <li>ship_word->drácar</li>
+    <li>ship_word->cargueiro</li>
+    <li>ship_word->carcaça</li>
+    <li>ship_word->trirreme</li>
+    <li>ship_word->zéfiro</li>
+  </NamerGravship.rulePack.rulesStrings>
   
 </LanguageData>

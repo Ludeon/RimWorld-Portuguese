@@ -3,21 +3,21 @@
 
   <!-- ITab titles -->
   <!-- EN: Bills -->
-  <TabBills>Tarefas</TabBills>
+  <TabBills>Encomendas</TabBills>
   <!-- EN: Growing -->
   <TabGrowing>Cultivo</TabGrowing>
   <!-- EN: Bio -->
   <TabCharacter>Perfil</TabCharacter>
   <!-- EN: Training -->
-  <TabTraining>Formação</TabTraining>
+  <TabTraining>Treino</TabTraining>
   <!-- EN: Prisoner -->
   <TabPrisoner>Prisioneiro</TabPrisoner>
   <!-- EN: Guest -->
-  <TabGuest>Visitante</TabGuest>
+  <TabGuest>Convidado</TabGuest>
   <!-- EN: Gear -->
-  <TabGear>Itens</TabGear>
+  <TabGear>Equipamento</TabGear>
   <!-- EN: Needs -->
-  <TabNeeds>Situação</TabNeeds>
+  <TabNeeds>Necessidades</TabNeeds>
   <!-- EN: Storage -->
   <TabStorage>Armazenamento</TabStorage>
   <!-- EN: Shells -->
@@ -29,7 +29,7 @@
   <!-- EN: Basics -->
   <TabBasics>Básico</TabBasics>
   <!-- EN: Stats -->
-  <TabStats>Estatísticas</TabStats>
+  <TabStats>Atributos</TabStats>
   <!-- EN: Records -->
   <TabRecords>Registos</TabRecords>
   <!-- EN: Art -->
@@ -37,43 +37,43 @@
   <!-- EN: Social -->
   <TabSocial>Social</TabSocial>
   <!-- EN: Log -->
-  <TabLog>Registos</TabLog>
+  <TabLog>Registo</TabLog>
   <!-- EN: Animals -->
   <TabPenAnimals>Animais</TabPenAnimals>
   <!-- EN: Food -->
   <TabPenFood>Comida</TabPenFood>
   <!-- EN: Auto-cut -->
-  <TabPenAutoCut>Auto-cortar</TabPenAutoCut>
+  <TabPenAutoCut>Corte automático</TabPenAutoCut>
   <!-- EN: Caravan -->
   <TabFormingCaravan>Caravana</TabFormingCaravan>
   <!-- EN: Contents -->
-  <TabTransporterContents>Conteúdos</TabTransporterContents>
+  <TabTransporterContents>Conteúdo</TabTransporterContents>
   <!-- EN: Travel -->
-  <TabMapPortalContents>Viajar</TabMapPortalContents>
+  <TabMapPortalContents>Viagem</TabMapPortalContents>
   <!-- EN: Contents -->
-  <TabCasketContents>Conteúdos</TabCasketContents>
+  <TabCasketContents>Conteúdo</TabCasketContents>
   <!-- EN: Details -->
   <TabBookContents>Detalhes</TabBookContents>
   <!-- EN: Study -->
   <TabStudyNotesContents>Estudar</TabStudyNotesContents>
   <!-- EN: Auto-cut -->
-  <TabWindTurbineAutoCut>Auto-cortar</TabWindTurbineAutoCut>
+  <TabWindTurbineAutoCut>Corte automático</TabWindTurbineAutoCut>
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
-  <AddBill>Adicionar tarefa</AddBill>
+  <AddBill>Adicionar encomenda</AddBill>
   <!-- EN: The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill. -->
-  <RecipeRequiresSkills>A receita {0} requer as habilidades em baixo. Nenhum dos teus colonos tem essas habilidades, logo ninguém irá fazer esta tarefa.</RecipeRequiresSkills>
+  <RecipeRequiresSkills>A receita {0} requer as perícias abaixo. Nenhum dos teus colonos as tem, por isso ninguém fará esta encomenda.</RecipeRequiresSkills>
   <!-- EN: Min skill -->
-  <MinimumSkill>Habilidade min</MinimumSkill>
+  <MinimumSkill>Perícia mín.</MinimumSkill>
   <!-- EN: SUSPENDED -->
   <SuspendedCaps>SUSPENSO</SuspendedCaps>
   <!-- EN: Worker: {1_labelShort} -->
-  <BoundWorkerIs>Trabalhador: {0}</BoundWorkerIs>
+  <BoundWorkerIs>Trabalhador: {1_labelShort}</BoundWorkerIs>
   <!-- EN: Plant -->
   <PlantVerb>Plantar</PlantVerb>
   <!-- EN: Copied bill cannot be pasted here -->
-  <ClipboardBillNotAvailableHere>Tarefa copiada não pode ser colada aqui</ClipboardBillNotAvailableHere>
+  <ClipboardBillNotAvailableHere>A encomenda copiada não pode ser colada aqui</ClipboardBillNotAvailableHere>
   <!-- EN: Move up -->
   <ReorderBillUpTip>Mover para cima</ReorderBillUpTip>
   <!-- EN: Move down -->
@@ -95,23 +95,23 @@
   <!-- EN: Resistance -->
   <RecruitmentResistance>Resistência</RecruitmentResistance>
   <!-- EN: How much doubt this prisoner has about joining your faction. When this reaches zero, they can be recruited. -->
-  <RecruitmentResistanceDesc>Quantas dúvidas tem este prisioneiro sobre juntar-se à fação. Quando chegar a zero, pode ser recrutado.</RecruitmentResistanceDesc>
+  <RecruitmentResistanceDesc>O grau de dúvida que este prisioneiro tem em juntar-se à tua fação. Quando chegar a zero, pode ser recrutado.</RecruitmentResistanceDesc>
   <!-- EN: {0} base resistance -->
-  <RecruitmentResistanceFromPawnKind>Resistência base do(a) {0}</RecruitmentResistanceFromPawnKind>
+  <RecruitmentResistanceFromPawnKind>Resistência base de {0}</RecruitmentResistanceFromPawnKind>
   <!-- EN: Relations gain on release -->
-  <PrisonerReleasePotentialRelationGains>Ganho de relações ao soltar</PrisonerReleasePotentialRelationGains>
+  <PrisonerReleasePotentialRelationGains>Ganho de relações ao libertar</PrisonerReleasePotentialRelationGains>
   <!-- EN: The faction goodwill you will get from the prisoner's faction if you release them. This is affected by the prisoner's identity, health, and mental condition. -->
-  <PrisonerReleaseRelationGainsDesc>A boa vontade da fação que ganharás da fação do prisioneiro ao soltá-lo. Isto é afetado pela identidade do prisioneiro, saúde e condição mental.</PrisonerReleaseRelationGainsDesc>
+  <PrisonerReleaseRelationGainsDesc>A boa vontade que obterás da fação do prisioneiro se o libertares. É afetada pela identidade, saúde e estado mental do prisioneiro.</PrisonerReleaseRelationGainsDesc>
   <!-- EN: Prison break interval -->
-  <PrisonBreakMTBDays>Intervalo de fuga da prisão</PrisonBreakMTBDays>
+  <PrisonBreakMTBDays>Intervalo entre fugas</PrisonBreakMTBDays>
   <!-- EN: The average days awake between prison breaks. This is affected by mood, mobility, the number of prison doors, and time since the last prison break.\n\nNote that this does not include time spent asleep. -->
-  <PrisonBreakMTBDaysDescription>A média de dias acordado entre fugas de prisão. Isto é afetado pelo humor, mobilidade, número de portas da prisão e o tempo desde a última fuga de prisão.\n\nNota que isto não inclui o tempo passado a dormir.</PrisonBreakMTBDaysDescription>
+  <PrisonBreakMTBDaysDescription>A média de dias acordado entre fugas da prisão. É afetada pelo humor, mobilidade, número de portas da prisão e tempo desde a última fuga.\n\nTem em conta que isto não inclui o tempo passado a dormir.</PrisonBreakMTBDaysDescription>
   <!-- EN: Never -->
   <Never>Nunca</Never>
   <!-- EN: Not while asleep -->
-  <NotWhileAsleep>Não enquanto estiver a dormir</NotWhileAsleep>
+  <NotWhileAsleep>Não enquanto dorme</NotWhileAsleep>
   <!-- EN: Breaking out now -->
-  <CurrentlyPrisonBreaking>A fugir agora</CurrentlyPrisonBreaking>
+  <CurrentlyPrisonBreaking>A fugir neste momento</CurrentlyPrisonBreaking>
   <!-- EN: Door count -->
   <FactorForDoorCount>Número de portas</FactorForDoorCount>
   <!-- EN: Movement -->
@@ -119,13 +119,13 @@
   <!-- EN: Slave price -->
   <SlavePrice>Preço do escravo</SlavePrice>
   <!-- EN: The base market value of this slave if sold. -->
-  <SlavePriceDescription>O valor base do mercado, caso este escravo seja vendido.</SlavePriceDescription>
+  <SlavePriceDescription>O valor base de mercado deste escravo, se for vendido.</SlavePriceDescription>
   <!-- EN: Gets food -->
-  <GetsFood>Obtém alimento</GetsFood>
+  <GetsFood>Recebe comida</GetsFood>
   <!-- EN: Doctors care -->
-  <DoctorsCare>Tratamento médico</DoctorsCare>
+  <DoctorsCare>Cuidados médicos</DoctorsCare>
   <!-- EN: Gets medicine -->
-  <GetsMedicine>Obtém medicina</GetsMedicine>
+  <GetsMedicine>Recebe medicamentos</GetsMedicine>
   <!-- EN: Try to recruit -->
   <ShouldTryToRecruit>Tentar recrutar</ShouldTryToRecruit>
   <!-- EN: Considered guilty (expires in {0}) -->
@@ -135,17 +135,17 @@
   <!-- EN: Last resistance reduction -->
   <LastRecruitment>Última redução de resistência</LastRecruitment>
   <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
-  <LastRecruitmentDescription>Quantidade da resistência de {0_nameDef} foi reduzida por {1} quando {0_pronoun} foi recrutado(a) pela última vez.</LastRecruitmentDescription>
+  <LastRecruitmentDescription>Quanto a resistência de {0_nameDef} foi reduzida por {1} quando {0_pronoun} foi recrutado pela última vez.</LastRecruitmentDescription>
   <!-- EN: Opinion of recruiter -->
   <OpinionOfRecruiter>Opinião do recrutador</OpinionOfRecruiter>
   <!-- EN: Recruiter negotiation ability -->
-  <RecruiterNegotiationAbility>Habilidade de negociação do recrutador</RecruiterNegotiationAbility>
+  <RecruiterNegotiationAbility>Capacidade de negociação do recrutador</RecruiterNegotiationAbility>
   <!-- EN: Unwavering loyalty -->
   <NonRecruitable>Lealdade inabalável</NonRecruitable>
   <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
-  <NonRecruitableTip>Este prisioneiro é tão leal à sua fação que se recusa totalmente a ser recrutado.</NonRecruitableTip>
+  <NonRecruitableTip>Este prisioneiro é tão inabalavelmente leal ao seu lar que se recusa por completo a ser recrutado.</NonRecruitableTip>
   <!-- EN: What type of medicine can be given to this prisoner. -->
-  <MedicineQualityDescriptionPrisoner>O tipo de medicina que pode ser dado a este prisioneiro.</MedicineQualityDescriptionPrisoner>
+  <MedicineQualityDescriptionPrisoner>O tipo de medicamento que pode ser dado a este prisioneiro.</MedicineQualityDescriptionPrisoner>
 
 
 
@@ -160,7 +160,7 @@
   <!-- EN: Body part efficiency -->
   <BodyPartEfficiency>Eficiência da parte do corpo</BodyPartEfficiency>
   <!-- EN: Gone -->
-  <MissingBodyPart>Não tem</MissingBodyPart>
+  <MissingBodyPart>Em falta</MissingBodyPart>
   <!-- EN: Destroyed -->
   <DestroyedBodyPart>Destruído</DestroyedBodyPart>
   <!-- EN: Shattered -->
@@ -170,7 +170,7 @@
   <!-- EN: Healthy -->
   <Healthy>Saudável</Healthy>
   <!-- EN: In pain -->
-  <InPain>Em sofrimento</InPain>
+  <InPain>Com dor</InPain>
   <!-- EN: Pain -->
   <PainLevel>Dor</PainLevel>
   <!-- EN: Injured -->
@@ -188,7 +188,7 @@
   <!-- EN: Affects -->
   <Affects>Afeta</Affects>
   <!-- EN: Bleeding -->
-  <BleedingRate>Sangramento</BleedingRate>
+  <BleedingRate>Hemorragia</BleedingRate>
   <!-- EN: death in {0} -->
   <TimeToDeath>morte em {0}</TimeToDeath>
   <!-- EN: no immediate danger -->
@@ -196,15 +196,15 @@
   <!-- EN: Overview -->
   <HealthOverview>Visão geral</HealthOverview>
   <!-- EN: Operations -->
-  <MedicalOperationsShort>Cirurgias</MedicalOperationsShort>
+  <MedicalOperationsShort>Operações</MedicalOperationsShort>
   <!-- EN: Modifications -->
   <MedicalOperationsMechanoidsShort>Modificações</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
-  <MedicalOperations>Cirurgias médicas</MedicalOperations>
+  <MedicalOperations>Operações médicas</MedicalOperations>
   <!-- EN: amputate -->
   <Amputate>amputar</Amputate>
   <!-- EN: harvest -->
-  <HarvestOrgan>colher</HarvestOrgan>
+  <HarvestOrgan>extrair</HarvestOrgan>
   <!-- EN: remove -->
   <RemoveOrgan>remover</RemoveOrgan>
   <!-- EN: memory -->
@@ -212,7 +212,7 @@
   <!-- EN: social interactions -->
   <SocialInteractionsLower>interações sociais</SocialInteractionsLower>
   <!-- EN: Hunger rate -->
-  <HungerRate>Taxa de fome</HungerRate>
+  <HungerRate>Ritmo de fome</HungerRate>
   <!-- EN: Food consumption -->
   <FoodConsumption>Consumo alimentar</FoodConsumption>
   <!-- EN: Tiredness -->
@@ -220,23 +220,23 @@
   <!-- EN: Pain -->
   <PainFactor>Dor</PainFactor>
   <!-- EN: Prevents infection -->
-  <PreventsInfection>Previne infecção</PreventsInfection>
+  <PreventsInfection>Previne infeção</PreventsInfection>
   <!-- EN: Allow self-tend -->
-  <AllowSelfTend>Ativar auto-atendimento</AllowSelfTend>
+  <AllowSelfTend>Permitir autotratamento</AllowSelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <AllowSelfTendTip>{0} com o auto-atendimento ativo poderão automáticamente cuidar de si mesmos no local a {1} da eficiência normal.</AllowSelfTendTip>
+  <AllowSelfTendTip>{0} com o autotratamento ativado vão tratar-se a si próprios no local, com {1} da eficiência normal.</AllowSelfTendTip>
   <!-- EN: death in {0} -->
   <DeathIn>morte em {0}</DeathIn>
   <!-- EN: Allow medicine -->
-  <AllowMedicine>Permitir medicina</AllowMedicine>
+  <AllowMedicine>Permitir medicamentos</AllowMedicine>
   <!-- EN: What type of medicine can be given to this person. -->
-  <MedicineQualityDescription>O tipo de medicina que pode ser dada a esta pessoa.</MedicineQualityDescription>
+  <MedicineQualityDescription>O tipo de medicamento que pode ser dado a esta pessoa.</MedicineQualityDescription>
   <!-- EN: What type of food can be given to this person. -->
-  <FoodRestrictionDescription>O tipo de comida que pode ser dada a esta pessoa.</FoodRestrictionDescription>
+  <FoodRestrictionDescription>O tipo de comida que pode ser dado a esta pessoa.</FoodRestrictionDescription>
 
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
-  <None>Nada</None>
+  <None>Nenhum</None>
   <!-- EN: Very poor -->
   <VeryPoor>Muito fraco</VeryPoor>
   <!-- EN: Poor -->
@@ -244,7 +244,7 @@
   <!-- EN: Weakened -->
   <Weakened>Enfraquecido</Weakened>
   <!-- EN: OK -->
-  <GoodCondition>OK</GoodCondition>
+  <GoodCondition>Bom</GoodCondition>
   <!-- EN: Enhanced -->
   <Enhanced>Melhorado</Enhanced>
   <!-- EN: Seriously impaired -->
@@ -252,7 +252,7 @@
   <!-- EN: Impaired -->
   <Impaired>Debilitado</Impaired>
   <!-- EN: Slightly impaired -->
-  <SlightlyImpaired>Levemente debilitado</SlightlyImpaired>
+  <SlightlyImpaired>Ligeiramente debilitado</SlightlyImpaired>
   <!-- EN: None -->
   <NoPain>Nenhuma</NoPain>
   <!-- EN: Little -->
@@ -266,11 +266,11 @@
 
   <!-- Training tab -->
   <!-- EN: Trainability -->
-  <Trainability>Treinabilidade</Trainability>
+  <Trainability>Capacidade de treino</Trainability>
   <!-- EN: Requires {0} trainability. -->
-  <CannotTrainNotSmartEnough>Requer treinabilidade a: {0}.</CannotTrainNotSmartEnough>
+  <CannotTrainNotSmartEnough>Requer capacidade de treino: {0}.</CannotTrainNotSmartEnough>
   <!-- EN: {0} is too small to train this. -->
-  <CannotTrainTooSmall>{1_labelShort} é pequeno demais para treinar isto.</CannotTrainTooSmall>
+  <CannotTrainTooSmall>{0} é demasiado pequeno para treinar isto.</CannotTrainTooSmall>
 
   <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>Pré-requisito necessário: {0}</TrainingNeedsPrerequisite>
@@ -285,7 +285,7 @@
   <!-- EN: slave -->
   <Slave>Escravo</Slave>
   <!-- EN: Faction leader -->
-  <FactionLeader>Líder da facção</FactionLeader>
+  <FactionLeader>Líder da fação</FactionLeader>
   <!-- EN: Opinion of {0} -->
   <OpinionOf>Opinião de {0}</OpinionOf>
   <!-- EN: {0}'s opinion of me -->
@@ -301,25 +301,25 @@
   <!-- EN: Mass carried: {0} / {1} kg -->
   <MassCarried>Peso carregado: {0} / {1} kg</MassCarried>
   <!-- EN: Comfortable temperature range -->
-  <ComfyTemperatureRange>Alcance de temperatura confortável</ComfyTemperatureRange>
+  <ComfyTemperatureRange>Intervalo de temperatura confortável</ComfyTemperatureRange>
   <!-- EN: Blunt -->
-  <ArmorBlunt>Pancada</ArmorBlunt>
+  <ArmorBlunt>Contundente</ArmorBlunt>
   <!-- EN: Sharp -->
-  <ArmorSharp>Corte</ArmorSharp>
+  <ArmorSharp>Cortante</ArmorSharp>
   <!-- EN: Heat -->
   <ArmorHeat>Calor</ArmorHeat>
   
   <!-- Log tab -->
   <!-- EN: Show all -->
-  <ShowAll>Exibir tudo</ShowAll>
+  <ShowAll>Mostrar tudo</ShowAll>
   <!-- EN: Show combat -->
-  <ShowCombat>Exibir combate</ShowCombat>
+  <ShowCombat>Mostrar combate</ShowCombat>
   <!-- EN: Show social -->
-  <ShowSocial>Exibir social</ShowSocial>
+  <ShowSocial>Mostrar social</ShowSocial>
   <!-- EN: no recent entries -->
-  <NoRecentEntries>não há entradas recentes</NoRecentEntries>
+  <NoRecentEntries>sem entradas recentes</NoRecentEntries>
   <!-- EN: Copy log to the clipboard. -->
-  <CopyLogTip>Copiar log para a área de transferência.</CopyLogTip>
+  <CopyLogTip>Copiar o registo para a área de transferência.</CopyLogTip>
 
   <!-- Forming caravan tab -->
   <!-- EN: Gathering animals -->
@@ -327,17 +327,17 @@
   <!-- EN: Gathering animals (waiting) -->
   <FormingCaravanStatus_GatheringAnimals_Pause>A reunir animais (à espera)</FormingCaravanStatus_GatheringAnimals_Pause>
   <!-- EN: Gathering items -->
-  <FormingCaravanStatus_GatheringItems>A reunir todos os itens</FormingCaravanStatus_GatheringItems>
+  <FormingCaravanStatus_GatheringItems>A reunir artigos</FormingCaravanStatus_GatheringItems>
   <!-- EN: Gathering items (waiting) -->
-  <FormingCaravanStatus_GatheringItems_Pause>A reunir todos os itens (à espera)</FormingCaravanStatus_GatheringItems_Pause>
+  <FormingCaravanStatus_GatheringItems_Pause>A reunir artigos (à espera)</FormingCaravanStatus_GatheringItems_Pause>
   <!-- EN: Gathering downed people -->
-  <FormingCaravanStatus_GatheringDownedPawns>A reunir pessoa abatidas</FormingCaravanStatus_GatheringDownedPawns>
+  <FormingCaravanStatus_GatheringDownedPawns>A reunir pessoas abatidas</FormingCaravanStatus_GatheringDownedPawns>
   <!-- EN: Gathering downed people (waiting) -->
-  <FormingCaravanStatus_GatheringDownedPawns_Pause>A reunir pessoa abatidas (à espera)</FormingCaravanStatus_GatheringDownedPawns_Pause>
+  <FormingCaravanStatus_GatheringDownedPawns_Pause>A reunir pessoas abatidas (à espera)</FormingCaravanStatus_GatheringDownedPawns_Pause>
   <!-- EN: Leaving -->
-  <FormingCaravanStatus_Leaving>A ir embora</FormingCaravanStatus_Leaving>
+  <FormingCaravanStatus_Leaving>A partir</FormingCaravanStatus_Leaving>
   <!-- EN: Leaving (waiting) -->
-  <FormingCaravanStatus_Leaving_Pause>A ir embora (à espera)</FormingCaravanStatus_Leaving_Pause>
+  <FormingCaravanStatus_Leaving_Pause>A partir (à espera)</FormingCaravanStatus_Leaving_Pause>
   <!-- EN: Waiting -->
   <FormingCaravanStatus_Waiting>A esperar</FormingCaravanStatus_Waiting>
   <!-- EN: Members -->
@@ -345,49 +345,49 @@
   <!-- EN: Animals -->
   <CaravanAnimals>Animais</CaravanAnimals>
   <!-- EN: To load -->
-  <ItemsToLoad>Itens para carregar</ItemsToLoad>
+  <ItemsToLoad>Por carregar</ItemsToLoad>
   <!-- EN: Loaded -->
-  <LoadedItems>Itens carregados</LoadedItems>
+  <LoadedItems>Carregado</LoadedItems>
   <!-- EN: pack animals -->
-  <PackAnimalsCountLower>Animais de carga</PackAnimalsCountLower>
+  <PackAnimalsCountLower>animais de carga</PackAnimalsCountLower>
   <!-- EN: mentally broken -->
-  <InMentalStateCountLower>Destruído mentalmente</InMentalStateCountLower>
+  <InMentalStateCountLower>em colapso mental</InMentalStateCountLower>
 
   <!-- Transporter contents -->
   <!-- EN: Remove {{0}}x {0} -->
   <RemoveSliderText>Remover {{0}}x {0}</RemoveSliderText>
   <!-- EN: Contained items -->
-  <ContainedItems>Itens contidos</ContainedItems>
+  <ContainedItems>Artigos contidos</ContainedItems>
   <!-- EN: Do you really want to remove {0}? -->
   <ConfirmRemoveItemDialog>Queres mesmo remover {0}?</ConfirmRemoveItemDialog>
   
   <!-- Quests tab -->
   <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't receive notifications about dismissed quests. -->
-  <DismissQuest>Dispensa esta missão e move-a para a aba histórica.\n\nEsta missão pode ser recuperada a qualquer momento. Os seus efeitos e o prazo de validade continuará como usual. Não vais receber notificações sobre missões dispensadas.</DismissQuest>
+  <DismissQuest>Dispensa esta missão e move-a para o separador de histórico.\n\nA missão pode ser reposta a qualquer momento. Os seus efeitos e prazos continuam a decorrer normalmente. Não receberás notificações sobre missões dispensadas.</DismissQuest>
   <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
-  <UnDismissQuest>Recupera esta missão.\n\nA missão voltará para as abas disponível ou ativa e as notificações serão re-ativadas.</UnDismissQuest>
+  <UnDismissQuest>Repõe esta missão.\n\nA missão volta ao separador de disponíveis ou ativas e as notificações são reativadas.</UnDismissQuest>
   <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
-  <QuestDismissed>Esta missão está aqui porque foi dispensada.\n\nPodes sempre retirá-la até a mesma expirar.</QuestDismissed>
+  <QuestDismissed>Esta missão está aqui porque foi dispensada.\n\nPodes repô-la até expirar.</QuestDismissed>
   <!-- EN: Delete this quest and remove it from the quest list forever. -->
   <DeleteQuest>Apaga esta missão e remove-a da lista de missões para sempre.</DeleteQuest>
 
   <!-- Animal pen food tab -->
   <!-- EN: enclose the pen marker to calculate food information -->
-  <PenFoodTab_NotEnclosed>cerca o mercador do curral para calcular as informações alimentares</PenFoodTab_NotEnclosed>
+  <PenFoodTab_NotEnclosed>veda a estaca do cercado para calcular a informação alimentar</PenFoodTab_NotEnclosed>
 
   <!-- EN: Nutrition stockpiled -->
   <PenFoodTab_StockpileTotal>Nutrição armazenada</PenFoodTab_StockpileTotal>
   <!-- EN: The total nutrition of stockpiled food in the pen. -->
-  <PenFoodTab_StockpileTotalDescription>O total de nutrição armazenada para a comida armazenada neste curral.</PenFoodTab_StockpileTotalDescription>
+  <PenFoodTab_StockpileTotalDescription>A nutrição total da comida armazenada no cercado.</PenFoodTab_StockpileTotalDescription>
   <!-- EN: Days to stockpile exhaustion -->
-  <PenFoodTab_StockpileEmptyDays>Dias para exaustão do stock</PenFoodTab_StockpileEmptyDays>
+  <PenFoodTab_StockpileEmptyDays>Dias até ao esgotamento das reservas</PenFoodTab_StockpileEmptyDays>
   <!-- EN: Nutrition consumption exceeds nutrition growth rate in this pen. The animals will eventually eat all the stockpiled food and starve. -->
-  <PenFoodTab_StockpileEmptyDaysDescription>O consumo de nutrição excede a taxa de crescimento de nutrição neste curral. Os animais eventualmente comerão toda a comida armazenada e morrerão à fome.</PenFoodTab_StockpileEmptyDaysDescription>
+  <PenFoodTab_StockpileEmptyDaysDescription>O consumo de nutrição excede o ritmo de crescimento de nutrição neste cercado. Os animais acabarão por comer toda a comida armazenada e morrer de fome.</PenFoodTab_StockpileEmptyDaysDescription>
 
   <!-- EN: Animal type -->
   <PenFoodTab_AnimalType>Tipo de animal</PenFoodTab_AnimalType>
   <!-- EN: Count -->
-  <PenFoodTab_Count>Contagem</PenFoodTab_Count>
+  <PenFoodTab_Count>Quantidade</PenFoodTab_Count>
   <!-- EN: Today -->
   <PenFoodTab_CurrentDay>Hoje</PenFoodTab_CurrentDay>
   <!-- EN: nutrition -->
@@ -395,47 +395,47 @@
   <!-- EN: per day -->
   <PenFoodTab_NutritionPerDay_Unit>por dia</PenFoodTab_NutritionPerDay_Unit>
   <!-- EN: Force display animal... -->
-  <PenFoodTab_AddAnimal>Forçar exibição do animal...</PenFoodTab_AddAnimal>
+  <PenFoodTab_AddAnimal>Forçar apresentação do animal...</PenFoodTab_AddAnimal>
 
   <!-- EN: Nutrition growth -->
-  <PenFoodTab_NaturalNutritionGrowthRate>Crescimento nutricional</PenFoodTab_NaturalNutritionGrowthRate>
+  <PenFoodTab_NaturalNutritionGrowthRate>Crescimento de nutrição</PenFoodTab_NaturalNutritionGrowthRate>
   <!-- EN: Growth per season -->
   <PenFoodTab_GrowthPerSeason>Crescimento por estação</PenFoodTab_GrowthPerSeason>
   <!-- EN: Nutrition consumption -->
   <PenFoodTab_TotalNutritionConsumptionRate>Consumo de nutrição</PenFoodTab_TotalNutritionConsumptionRate>
   <!-- EN: The average nutrition provided by edible plants in this pen. -->
-  <PenFoodTab_NaturalNutritionGrowthRateDescription>A média de nutrição fornecida pelas plantas comestíveis neste curral.</PenFoodTab_NaturalNutritionGrowthRateDescription>
+  <PenFoodTab_NaturalNutritionGrowthRateDescription>A média de nutrição fornecida pelas plantas comestíveis neste cercado.</PenFoodTab_NaturalNutritionGrowthRateDescription>
   <!-- EN: The nutrition needed by animals currently in this pen.\n\nTo get more food, expand the pen to cover more wild plant growth, or deliver stockpiled food like haygrass to the pen. -->
-  <PenFoodTab_NutritionConsumptionDescription>A nutrição necessária para os animais neste curral.\n\nPara obter mais alimento, expande o curral para cobrir um maior crescimento de plantas selvagens, ou abastece o corral com alimentos, como por exemplo, feno.</PenFoodTab_NutritionConsumptionDescription>
+  <PenFoodTab_NutritionConsumptionDescription>A nutrição necessária aos animais que estão neste cercado.\n\nPara obter mais comida, expande o cercado para abranger mais plantas selvagens, ou leva ao cercado comida armazenada, como erva-de-feno.</PenFoodTab_NutritionConsumptionDescription>
   <!-- EN: Note: Plant growth rate varies due to seasons, weather, theft by wild animals, and other factors. These calculations are approximations. -->
-  <PenFoodTab_NaturalNutritionGrowthRateSeasonal>Nota: O crescimento de plantas varia devido às estações, clima, roubo por animais selvagens e outros fatores. Estes cálculos são aproximações.</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
+  <PenFoodTab_NaturalNutritionGrowthRateSeasonal>Nota: o ritmo de crescimento das plantas varia com as estações, o clima, o roubo por animais selvagens e outros fatores. Estes cálculos são aproximações.</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
 
   <!-- EN: Total consumption -->
   <PenFoodTab_NutritionConsumedPerDay_ColumLabel>Consumo total</PenFoodTab_NutritionConsumedPerDay_ColumLabel>
   <!-- EN: The total nutrition that will be consumed each day by each type of animal in this pen. -->
-  <PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>A nutrição total que será consumida diáriamente, por cada tipo de animal neste curral.</PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>
+  <PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>A nutrição total que será consumida por dia por cada tipo de animal neste cercado.</PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>
   <!-- EN: Daily consumption per {ANIMALDEF_label} -->
   <PenFoodTab_NutritionConsumedPerDay>Consumo diário por {ANIMALDEF_label}</PenFoodTab_NutritionConsumedPerDay>
   <!-- EN: each {CONSUMEDAMOUNT} -->
   <PenFoodTab_NutritionConsumedEachAnimalLabel>cada {CONSUMEDAMOUNT}</PenFoodTab_NutritionConsumedEachAnimalLabel>
   <!-- EN: Count that could be supported with no other animals in the pen -->
-  <PenFoodTab_AnimalTypeAnimalCapacity>Contagem que poderia ser suportada sem outros animais no curral</PenFoodTab_AnimalTypeAnimalCapacity>
+  <PenFoodTab_AnimalTypeAnimalCapacity>Quantidade que poderia ser sustentada sem outros animais no cercado</PenFoodTab_AnimalTypeAnimalCapacity>
 
   <!-- EN: Edible now -->
   <PenFoodTab_EdibleNow>Comestível agora</PenFoodTab_EdibleNow>
 
   <!-- EN: Auto-cut plants in pen -->
-  <PenAutoCut_EnabledCheckbox>Auto-cortar plantas no curral</PenAutoCut_EnabledCheckbox>
+  <PenAutoCut_EnabledCheckbox>Cortar automaticamente plantas no cercado</PenAutoCut_EnabledCheckbox>
   <!-- EN: Automatically mark certain inedible plants to be cut. This makes room for edible plants to grow, which your animals can then eat.\n\nThis auto-designation happens periodically and only applies to certain plants.\n\nThis only works when the pen is enclosed. -->
-  <PenAutoCut_EnabledCheckboxTip>Automaticamente marca plantas não consumíveis para serem cortadas. Isto fará mais espaço para as plantas comestíveis poderem crescer, para os teus animais poderem comê-las.\n\nIsto é designação automática decorre periódicamente e apenas se aplica a certas plantas.\n\nIsto apenas funciona num curral cercado.</PenAutoCut_EnabledCheckboxTip>
+  <PenAutoCut_EnabledCheckboxTip>Marca automaticamente certas plantas não comestíveis para serem cortadas. Isto abre espaço para o crescimento de plantas comestíveis, que os teus animais podem depois comer.\n\nEsta marcação automática acontece periodicamente e só se aplica a certas plantas.\n\nSó funciona quando o cercado está vedado.</PenAutoCut_EnabledCheckboxTip>
 
   <!-- EN: Pen is not enclosed -->
-  <AutocutUnenclosedPen>O curral não está cercado</AutocutUnenclosedPen>
+  <AutocutUnenclosedPen>O cercado não está vedado</AutocutUnenclosedPen>
   <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
-  <AutocutUnenclosedPenTip>O curral não está cercado, auto-cortar não ocorrerá.</AutocutUnenclosedPenTip>
+  <AutocutUnenclosedPenTip>O cercado não está vedado neste momento, por isso o corte automático não acontece.</AutocutUnenclosedPenTip>
 
   <!-- EN: Auto-cut blocking plants -->
-  <WindTurbineAutoCut_EnabledCheckbox>Auto-cortar plantas que estejam a bloquear</WindTurbineAutoCut_EnabledCheckbox>
+  <WindTurbineAutoCut_EnabledCheckbox>Cortar automaticamente plantas que bloqueiam</WindTurbineAutoCut_EnabledCheckbox>
   
   <!-- Study tab  -->
   <!-- EN: Study progress -->
@@ -443,10 +443,10 @@
   <!-- EN: Ongoing -->
   <StudyNotesTab_StudyProgressOngoing>A decorrer</StudyNotesTab_StudyProgressOngoing>
   <!-- EN: Completed -->
-  <StudyNotesTab_StudyProgressCompleted>Completo</StudyNotesTab_StudyProgressCompleted>
+  <StudyNotesTab_StudyProgressCompleted>Concluído</StudyNotesTab_StudyProgressCompleted>
   <!-- EN: Toggle study -->
-  <StudyNotesTab_ToggleStudy>Ativar estudo</StudyNotesTab_ToggleStudy>
+  <StudyNotesTab_ToggleStudy>Alternar estudo</StudyNotesTab_ToggleStudy>
   <!-- EN: No discoveries yet -->
-  <StudyNotesTab_NoDiscoveries>Nenhuma descoberta de momento</StudyNotesTab_NoDiscoveries>
+  <StudyNotesTab_NoDiscoveries>Ainda sem descobertas</StudyNotesTab_NoDiscoveries>
 
 </LanguageData>

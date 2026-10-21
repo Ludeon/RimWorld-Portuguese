@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: vacuum exposure revealed -->
-  <VacuumExposureRevealed.label>TODO</VacuumExposureRevealed.label>
+  <VacuumExposureRevealed.label>exposição ao vácuo revelada</VacuumExposureRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] being exposed to hard vacuum</li>
     <li>tale_noun->[PAWN_nameDef] suffering from vacuum exposure</li>
@@ -26,6 +26,28 @@
     <li>desc_sentence->A [Color] asteroid looms large behind the image.</li>
     <li>desc_sentence->Behind the image is a large [Color] planet.</li>
   -->
-  <VacuumExposureRevealed.rulePack.rulesStrings>TODO</VacuumExposureRevealed.rulePack.rulesStrings>
+  <VacuumExposureRevealed.rulePack.rulesStrings>
+    <li>tale_noun->a exposição de [PAWN_nameDef] ao vácuo absoluto</li>
+    <li>tale_noun->o sofrimento de [PAWN_nameDef] com a exposição ao vácuo</li>
+    <li>image->[PAWN_nameFull] a flutuar para longe de uma nave [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] à deriva no espaço [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] à deriva entre as estrelas [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a cambalear para fora de uma câmara de ar [circumstance_group]</li>
+    <li>circumstance_phrase->enquanto o rosto fica lentamente azul</li>
+    <li>circumstance_phrase->enquanto a saliva começa a ferver</li>
+    <li>circumstance_phrase->enquanto o corpo começa a inchar</li>
+    <li>circumstance_phrase->enquanto a pele começa a congelar</li>
+    <li>circumstance_phrase->enquanto grita em silêncio</li>
+    <li>circumstance_phrase->e começa a perder a consciência</li>
+    <li>circumstance_phrase->e a ofegar por ar</li>
+    <li>desc_sentence->Os olhos de [PAWN_nameDef] vão ficando vidrados.</li>
+    <li>desc_sentence->Uma escuridão infinita rodeia o retratado.</li>
+    <li>desc_sentence->A cena parece passar-se no espaço.</li>
+    <li>desc_sentence->Sob um capacete estilhaçado há olhos sem vida.</li>
+    <li>desc_sentence->[Quantity_adjphrase] estrelas retorcidas rodeiam a imagem.</li>
+    <li>desc_sentence->[PAWN_nameDef] veste um fato de vácuo rasgado.</li>
+    <li>desc_sentence->Um asteroide [Color] surge enorme atrás da imagem.</li>
+    <li>desc_sentence->Atrás da imagem há um grande planeta [Color].</li>
+  </VacuumExposureRevealed.rulePack.rulesStrings>
   
 </LanguageData>

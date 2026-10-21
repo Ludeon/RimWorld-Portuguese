@@ -4,7 +4,7 @@
   <!-- EN: Autosaving -->
   <Autosaving>A guardar automaticamente</Autosaving>
   <!-- EN: The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart.\n\nSome time later, you land on this unknown rimworld.\n\nAs pieces of the shredded starship fall around you, you start making plans to survive. -->
-  <GameStartDialog>Os três acordam nos sarcófagos de criossono ao som de sirenes e de metal a rasgar. Mal chegam às cápsulas de fuga antes de a nave ser desfeita em pedaços.\n\nAlgum tempo depois, aterram neste mundo periférico desconhecido.\n\nEnquanto os destroços da nave estelar caem à vossa volta, começam a fazer planos para sobreviver.</GameStartDialog>
+  <GameStartDialog>Os três acordam nos sarcófagos de criossono ao som de sirenes e de metal a rasgar. Mal chegam às cápsulas de fuga antes de a nave ser desfeita em pedaços.\n\nAlgum tempo depois, aterram neste mundo da Orla desconhecido.\n\nEnquanto os destroços da nave estelar caem à vossa volta, começam a fazer planos para sobreviver.</GameStartDialog>
   <!-- EN: Colony -->
   <Colony>Colónia</Colony>
   <!-- EN: You can only change language from the options screen on the main menu. -->
@@ -91,7 +91,7 @@
   <!-- EN: etc -->
   <Etc>etc</Etc>
   <!-- EN: ${0} -->
-  <MoneyFormat>{0}€</MoneyFormat>
+  <MoneyFormat>${0}</MoneyFormat>
   <!-- EN: Factors -->
   <Factors>Fatores</Factors>
   <!-- EN: Uses -->
@@ -154,7 +154,7 @@
   <SmoothStoneTerrainDesc>Piso natural de {0} polido.</SmoothStoneTerrainDesc>
 
   <!-- EN:  (blueprint) -->
-  <BlueprintLabelExtra> (planta)</BlueprintLabelExtra>
+  <BlueprintLabelExtra> (projeto)</BlueprintLabelExtra>
   <!-- EN:  (building) -->
   <FrameLabelExtra> (em construção)</FrameLabelExtra>
 
@@ -173,9 +173,9 @@
   <ThingMadeOfStuffLabel>{1} de {0}</ThingMadeOfStuffLabel>
 
   <!-- EN: {PAWN_labelShort}'s {1} -->
-  <SomeonesRoom>{1} de {0}</SomeonesRoom>
+  <SomeonesRoom>{1} de {PAWN_labelShort}</SomeonesRoom>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort}'s {2} -->
-  <CouplesRoom>{2} de {0} e {1}</CouplesRoom>
+  <CouplesRoom>{2} de {PAWN1_labelShort} e {PAWN2_labelShort}</CouplesRoom>
   
   <!-- EN: Important for this type of room. -->
   <StatRelatesToCurrentRoom>Importante para este tipo de divisão.</StatRelatesToCurrentRoom>

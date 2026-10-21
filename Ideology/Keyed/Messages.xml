@@ -2,54 +2,54 @@
 <LanguageData>
 
   <!-- EN: Create or select an ideoligion for your faction. -->
-  <MessageMustChooseIdeo>Criar ou selecionar um ideoligion para sua facção.</MessageMustChooseIdeo>
+  <MessageMustChooseIdeo>Cria ou seleciona uma ideoligião para a tua fação.</MessageMustChooseIdeo>
   <!-- EN: The ideoligion name can't be empty. -->
-  <MessageIdeoNameCantBeEmpty>O nome do ideoligion não pode estar vazio.</MessageIdeoNameCantBeEmpty>
+  <MessageIdeoNameCantBeEmpty>O nome da ideoligião não pode estar vazio.</MessageIdeoNameCantBeEmpty>
   <!-- EN: {PRECEPT1} and {PRECEPT2} are incompatible. -->
   <MessageIdeoIncompatiblePrecepts>{PRECEPT1} e {PRECEPT2} são incompatíveis.</MessageIdeoIncompatiblePrecepts>
   <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
-  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL} desejo de vestuário sobrepõe-se com {ROLE} exigência de vestuário.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>O desejo de vestuário {DESIREDAPPAREL} sobrepõe-se ao requisito de vestuário de {ROLE}.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
-  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL} se sobrepõe com {ROLE} requisito de vestuário ({ROLEAPPAREL}). Isso tornará impossível para {ROLE}s usar o vestuário necessário e desejado juntos.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL} sobrepõe-se ao requisito de vestuário de {ROLE} ({ROLEAPPAREL}). Isto tornará impossível a {ROLE}s usarem em conjunto o vestuário obrigatório e o desejado.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {PRECEPT} needs one of these buildings -->
-  <MessageRitualMissingTarget>{PRECEPT} precisa de um desses edifícios</MessageRitualMissingTarget>
+  <MessageRitualMissingTarget>{PRECEPT} precisa de um destes edifícios</MessageRitualMissingTarget>
   <!-- EN: {PRECEPT} needs an associated ritual. -->
-  <MessageBuildingMissingRitual>Precisa de um ritual associado.</MessageBuildingMissingRitual>
+  <MessageBuildingMissingRitual>{PRECEPT} precisa de um ritual associado.</MessageBuildingMissingRitual>
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
-  <MessagePawnUnwillingToDoDueToIdeo>Não. Short} recusa-se a fazer isso por causa de {0_possessive} ideoligion.</MessagePawnUnwillingToDoDueToIdeo>
+  <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} recusa-se a fazer isto por causa da sua ideoligião.</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
-  <MessageFailedConvertIdeoAttempt>Nome Def} tentou converter {RECIPIENT_nameDef} para {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef} a certeza caiu de {CERTAINTYBEFORE} para {CERTAINTYAFTER}. {RECIPIENT_pronoun} ressente a tentativa de conversão.</MessageFailedConvertIdeoAttempt>
+  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} tentou converter {RECIPIENT_nameDef} à sua ideoligião. A certeza de {RECIPIENT_nameDef} desceu de {CERTAINTYBEFORE} para {CERTAINTYAFTER}. {RECIPIENT_nameDef} ressente-se da tentativa de conversão.</MessageFailedConvertIdeoAttempt>
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
-  <MessageFailedConvertIdeoAttemptSocialFight>(PAWN1_name Def} tentou converter {PAWN2_nameDef} para {PAWN1_possessive} ideoligion. Isso levou a uma luta social!</MessageFailedConvertIdeoAttemptSocialFight>
+  <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} tentou converter {PAWN2_nameDef} à sua ideoligião. Isto levou a uma luta social!</MessageFailedConvertIdeoAttemptSocialFight>
   <!-- EN: You must choose at least {0} memes. -->
-  <MessageNotEnoughMemes>Você deve escolher pelo menos {0} memes.</MessageNotEnoughMemes>
+  <MessageNotEnoughMemes>Tens de escolher pelo menos {0} memes.</MessageNotEnoughMemes>
   <!-- EN: You can't choose more than {0} memes. -->
-  <MessageTooManyMemes>Não podes escolher mais do que memes.</MessageTooManyMemes>
+  <MessageTooManyMemes>Não podes escolher mais de {0} memes.</MessageTooManyMemes>
   <!-- EN: You must choose a structure meme. -->
-  <MessageNotEnoughStructureMemes>Você deve escolher um meme de estrutura.</MessageNotEnoughStructureMemes>
+  <MessageNotEnoughStructureMemes>Tens de escolher um meme de estrutura.</MessageNotEnoughStructureMemes>
   <!-- EN: {0_label} and {1_label} are incompatible with each other. -->
-  <MessageIncompatibleMemes>{0_label} e {1_label} são incompatíveis uns com os outros.</MessageIncompatibleMemes>
+  <MessageIncompatibleMemes>{0_label} e {1_label} são incompatíveis entre si.</MessageIncompatibleMemes>
   <!-- EN: You need {0} to start the {1}. -->
-  <MessageNoRequiredRolePawnToBeginRitual>Você precisa {0} para iniciar o {1}.</MessageNoRequiredRolePawnToBeginRitual>
+  <MessageNoRequiredRolePawnToBeginRitual>Precisas de {0} para iniciar {1}.</MessageNoRequiredRolePawnToBeginRitual>
   <!-- EN: At least {0} spectator(s) are required to start the {1}. -->
-  <MessageNotEnoughSpectators>Pelo menos {0} espectador(s) são obrigados a iniciar o {1}.</MessageNotEnoughSpectators>
+  <MessageNotEnoughSpectators>São necessários pelo menos {0} espectador(es) para iniciar {1}.</MessageNotEnoughSpectators>
   <!-- EN: You must choose a role. -->
-  <MessageRoleChangeChooseDifferentRole>Você deve escolher um papel.</MessageRoleChangeChooseDifferentRole>
+  <MessageRoleChangeChooseDifferentRole>Tens de escolher um papel.</MessageRoleChangeChooseDifferentRole>
   <!-- EN: Before starting the {1}, you must assign someone to the role of {0}. -->
-  <MessageNeedAssignedRoleToBeginRitual>Antes de iniciar o {1}, você deve atribuir alguém ao papel de {0}.</MessageNeedAssignedRoleToBeginRitual>
+  <MessageNeedAssignedRoleToBeginRitual>Antes de iniciar {1}, tens de atribuir alguém ao papel de {0}.</MessageNeedAssignedRoleToBeginRitual>
   <!-- EN: Need at least one {0} participating. -->
-  <MessageNeedAtLeastOneParticipantOfIdeo>Precisa de pelo menos uma participação.</MessageNeedAtLeastOneParticipantOfIdeo>
-  
+  <MessageNeedAtLeastOneParticipantOfIdeo>É preciso pelo menos um {0} a participar.</MessageNeedAtLeastOneParticipantOfIdeo>
+
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
-  <MessageRoleAssigned>Não. Short} agora tem o papel de {1}.</MessageRoleAssigned>
+  <MessageRoleAssigned>{0_labelShort} tem agora o papel de {1}.</MessageRoleAssigned>
   <!-- EN: Since {0_labelShort} became a prisoner, {0_pronoun} no longer can hold the role of {1}. -->
-  <MessageRoleUnassignedPrisoner>Uma vez que {0_labelShort} se tornou um prisioneiro, {0_pronoun} já não pode ter o papel de {1}.</MessageRoleUnassignedPrisoner>
+  <MessageRoleUnassignedPrisoner>Como {0_labelShort} se tornou prisioneiro, já não pode ter o papel de {1}.</MessageRoleUnassignedPrisoner>
   <!-- EN: Warning: {0} will be upset if a tree is cut. -->
-  <MessageWarningPlayerDesignatedTreeChopped>Aviso: {0} ficará chateado se uma árvore for cortada.</MessageWarningPlayerDesignatedTreeChopped>
+  <MessageWarningPlayerDesignatedTreeChopped>Aviso: {0} ficará aborrecido se uma árvore for cortada.</MessageWarningPlayerDesignatedTreeChopped>
   <!-- EN: Warning: {0} will be upset if mining occurs. -->
-  <MessageWarningPlayerDesignatedMining>Aviso: {0} será chateado se a mineração ocorrer.</MessageWarningPlayerDesignatedMining>
+  <MessageWarningPlayerDesignatedMining>Aviso: {0} ficará aborrecido se houver mineração.</MessageWarningPlayerDesignatedMining>
   <!-- EN: The {TREE_label} has had its connection with {PAWN_nameDef} torn. It must recover for {DURATION} before it can reconnect again. -->
-  <MessageConnectedPawnDied>O {TREE_label} teve sua conexão com {PAWN_nameDef} rasgado. Deve recuperar para {DURATION} antes que possa reconectar novamente.</MessageConnectedPawnDied>
+  <MessageConnectedPawnDied>A ligação de {TREE_label} com {PAWN_nameDef} foi cortada. Tem de recuperar durante {DURATION} antes de se poder voltar a ligar.</MessageConnectedPawnDied>
 
   <!-- Slave interactions -->
   <!-- EN: {0_nameDef} has been emancipated by {1_nameDef}. -->
@@ -57,19 +57,19 @@
   <!-- EN: {0_nameDef} has been enslaved by {1_nameDef}. -->
   <MessagePrisonerEnslaved>{0_nameDef} foi escravizado por {1_nameDef}.</MessagePrisonerEnslaved>
   <!-- EN: Prisoner {1_nameDef}'s will has been broken by {0_nameDef}. -->
-  <MessagePrisonerWillBroken>Prisioneiro {1_nameDef}'s will has been broken by {0_nameDef}.</MessagePrisonerWillBroken>
+  <MessagePrisonerWillBroken>{0_nameDef} quebrou a vontade do prisioneiro {1_nameDef}.</MessagePrisonerWillBroken>
   <!-- EN: Enslavement will follow. -->
-  <MessagePrisonerWillBroken_RecruitAttempsWillBegin>A escravidão seguirá.</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
+  <MessagePrisonerWillBroken_RecruitAttempsWillBegin>Seguir-se-á a escravização.</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
 
   <!-- Prisoner interactions -->
   <!-- EN: No warden is capable of this enslavement. -->
-  <MessageNoWardenCapableOfEnslavement>Nenhum diretor é capaz desta escravidão.</MessageNoWardenCapableOfEnslavement>
+  <MessageNoWardenCapableOfEnslavement>Nenhum carcereiro é capaz desta escravização.</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
-  <MessageNoWardenOfIdeo>Você não tem nenhum comando {MEMBERNAME} para converter {PRISONER_nameDef}. {PRISONER_possessive} modo de interação reverteu para "Nenhuma interação".</MessageNoWardenOfIdeo>
+  <MessageNoWardenOfIdeo>Não tens nenhum carcereiro {MEMBERNAME} para converter {PRISONER_nameDef}. O modo de interação voltou a "Sem interação".</MessageNoWardenOfIdeo>
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
-  <MessageCampDetected>Você detectou um {CAMP_label} nas proximidades controlado por {FACTION_name}.</MessageCampDetected>
+  <MessageCampDetected>Detetaste {CAMP_label} nas proximidades, controlado por {FACTION_name}.</MessageCampDetected>
 
   <!-- Charity -->
   <!-- EN: Charity refused -->
@@ -77,74 +77,74 @@
   <!-- EN: Charity fulfilled -->
   <MessageCharityEventFulfilled>Caridade cumprida</MessageCharityEventFulfilled>
   <!-- EN: {0} are leaving empty-handed. -->
-  <MessageBeggarsLeavingWithNoItems>estão a deixar mãos vazias.</MessageBeggarsLeavingWithNoItems>
+  <MessageBeggarsLeavingWithNoItems>{0} vão-se embora de mãos a abanar.</MessageBeggarsLeavingWithNoItems>
   <!-- EN: The {0} has accepted the requested items and is leaving. -->
-  <MessageBeggarsLeavingWithItemsSingular>O {0} aceitou os itens solicitados e está saindo.</MessageBeggarsLeavingWithItemsSingular>
+  <MessageBeggarsLeavingWithItemsSingular>{0} aceitou os itens pedidos e está de partida.</MessageBeggarsLeavingWithItemsSingular>
   <!-- EN: {0} have accepted the requested items and are leaving. -->
-  <MessageBeggarsLeavingWithItemsPlural>{0} aceitaram os itens solicitados e estão saindo.</MessageBeggarsLeavingWithItemsPlural>
+  <MessageBeggarsLeavingWithItemsPlural>{0} aceitaram os itens pedidos e estão de partida.</MessageBeggarsLeavingWithItemsPlural>
   <!-- EN: {0_nameDef} died without any treatment. -->
-  <MessageWandererLeftToDie>{0_name Morreu sem tratamento.</MessageWandererLeftToDie>
+  <MessageWandererLeftToDie>{0_nameDef} morreu sem qualquer tratamento.</MessageWandererLeftToDie>
   <!-- EN: {0_nameDef} was left to die. -->
-  <MessageWandererLeftBehind>TODO</MessageWandererLeftBehind>
+  <MessageWandererLeftBehind>{0_nameDef} foi deixado para morrer.</MessageWandererLeftBehind>
   <!-- EN: {0_nameDef} was recruited. -->
-  <MessageWandererRecruited>{0_name Foi recrutado.</MessageWandererRecruited>
+  <MessageWandererRecruited>{0_nameDef} foi recrutado.</MessageWandererRecruited>
   <!-- EN: {0_nameDef} left healthy. -->
-  <MessageWandererLeftHealthy>{0_name Deixou saudável.</MessageWandererLeftHealthy>
+  <MessageWandererLeftHealthy>{0_nameDef} partiu saudável.</MessageWandererLeftHealthy>
   <!-- EN: {0} has been failed. -->
-  <MessageCharityQuestEndedFailed>foi falhado.</MessageCharityQuestEndedFailed>
+  <MessageCharityQuestEndedFailed>{0} falhou.</MessageCharityQuestEndedFailed>
   <!-- EN: {0} has been successfully completed. -->
   <MessageCharityQuestEndedSuccess>{0} foi concluída com sucesso.</MessageCharityQuestEndedSuccess>
 
   <!-- Ideo UI -->
   <!-- EN: Cannot remove -->
-  <CannotRemove>Não consigo remover</CannotRemove>
+  <CannotRemove>Não é possível remover</CannotRemove>
   <!-- EN: Cannot remove {MEME} -->
-  <CannotRemoveMemeRequired>Não pode remover {ME}</CannotRemoveMemeRequired>
+  <CannotRemoveMemeRequired>Não é possível remover {MEME}</CannotRemoveMemeRequired>
   <!-- EN: Cannot remove {MEME}: Required by player faction. -->
-  <CannotRemoveMemeRequiredPlayer>Não é possível remover {ME}: requerido pela facção do jogador.</CannotRemoveMemeRequiredPlayer>
+  <CannotRemoveMemeRequiredPlayer>Não é possível remover {MEME}: exigido pela fação do jogador.</CannotRemoveMemeRequiredPlayer>
   <!-- EN: Required by {FACTION_name}. -->
-  <RequiredByFaction>Requisito por {FACTION_name}.</RequiredByFaction>
+  <RequiredByFaction>Exigido por {FACTION_name}.</RequiredByFaction>
   <!-- EN: Roles cannot have overlapping apparel requirements. -->
-  <OverlappingRoleApparel>As funções não podem ter requisitos de vestuário sobrepostos.</OverlappingRoleApparel>
-  
+  <OverlappingRoleApparel>Os papéis não podem ter requisitos de vestuário sobrepostos.</OverlappingRoleApparel>
+
   <!-- EN: {0} will self-destruct in {1}. -->
-  <SelfDestructCountdown>{0} autodestruirá em {1}.</SelfDestructCountdown>
+  <SelfDestructCountdown>{0} vai autodestruir-se em {1}.</SelfDestructCountdown>
   <!-- EN: Precept name is too long (maximum {0} letters) -->
-  <PreceptNameTooLong>O nome preceito é muito longo (máximo {0} letras)</PreceptNameTooLong>
+  <PreceptNameTooLong>O nome do preceito é demasiado longo (máximo de {0} letras)</PreceptNameTooLong>
 
   <!-- Ancient complex -->
   <!-- EN: You've discovered an ancient terminal with info about the {0}! -->
-  <MessageAncientTerminalDiscovered>Você descobriu um terminal antigo com informações sobre o {0}!</MessageAncientTerminalDiscovered>
+  <MessageAncientTerminalDiscovered>Descobriste um terminal antigo com informações sobre {0}!</MessageAncientTerminalDiscovered>
   <!-- EN: You've discovered secret information about {0}! Get back on the shuttle to launch it. -->
   <MessageAncientComplexBackToShuttle>Descobriste informações secretas sobre {0}! Volta para o vaivém para o lançar.</MessageAncientComplexBackToShuttle>
   <!-- EN: An ancient supply satellite has been activated. Supplies will drop nearby. -->
-  <MessageAncientSignalActivated>Um antigo satélite de abastecimento foi activado. Os suprimentos vão cair nas proximidades.</MessageAncientSignalActivated>
+  <MessageAncientSignalActivated>Um antigo satélite de abastecimento foi ativado. Os suprimentos cairão nas proximidades.</MessageAncientSignalActivated>
   <!-- EN: {0} from the {1} have detected the supply signal and are attacking. -->
-  <MessageAncientSignalHostileDetected>{0} do {1} detectaram o sinal de abastecimento e estão atacando.</MessageAncientSignalHostileDetected>
+  <MessageAncientSignalHostileDetected>{0} de {1} detetaram o sinal de abastecimento e estão a atacar.</MessageAncientSignalHostileDetected>
 
   <!-- Ancient altar -->
   <!-- EN: All security systems are waking up! -->
   <MessageAncientAltarThreatsWokenUp>Todos os sistemas de segurança estão a acordar!</MessageAncientAltarThreatsWokenUp>
   <!-- EN: All security systems are alerted to your presence. -->
-  <MessageAncientAltarThreatsAlerted>Todos os sistemas de segurança estão alertados para a sua presença.</MessageAncientAltarThreatsAlerted>
+  <MessageAncientAltarThreatsAlerted>Todos os sistemas de segurança foram alertados para a tua presença.</MessageAncientAltarThreatsAlerted>
 
   <!-- Animals -->
   <!-- EN: Warning: {PAWNKINDLABELPLURAL} are venerated by all {PAWNS}, and will not be harmed. -->
-  <MessageAnimalIsVeneratedForAllColonists>Aviso: {PAWNKINDLABELPLURAL} são venerados por todos {PAWNS} e não serão prejudicados.</MessageAnimalIsVeneratedForAllColonists>
+  <MessageAnimalIsVeneratedForAllColonists>Aviso: {PAWNKINDLABELPLURAL} são venerados por todos os {PAWNS} e não serão magoados.</MessageAnimalIsVeneratedForAllColonists>
 
   <!-- Archonexus -->
   <!-- EN: Select at most {0} {1} to bring to the new colony. -->
-  <MessageNewColonyMax>Selecione no máximo {0} {1} para trazer à nova colônia.</MessageNewColonyMax>
+  <MessageNewColonyMax>Seleciona no máximo {0} {1} para levar para a nova colónia.</MessageNewColonyMax>
   <!-- EN: You must select at least 1 colonist. -->
-  <MessageNewColoyRequiresOneColonist>Você deve selecionar pelo menos 1 colonizador.</MessageNewColoyRequiresOneColonist>
+  <MessageNewColoyRequiresOneColonist>Tens de selecionar pelo menos 1 colono.</MessageNewColoyRequiresOneColonist>
 
   <!-- Fuel node -->
   <!-- EN: A {0} has been ignited and is going to explode! -->
-  <MessageFuelNodeTriggered>A {0} foi ignida e vai explodir!</MessageFuelNodeTriggered>
+  <MessageFuelNodeTriggered>{0} foi incendiado e vai explodir!</MessageFuelNodeTriggered>
 
   <!-- Ancient complex -->
   <!-- EN: {0_pawnsPlural} will wake up in {1}. -->
-  <MessageSleepingThreatDelayActivated>{0_pawnsPlural} acordará em {1}.</MessageSleepingThreatDelayActivated>
+  <MessageSleepingThreatDelayActivated>{0_pawnsPlural} acordarão em {1}.</MessageSleepingThreatDelayActivated>
   <!-- EN: Infestation arriving. -->
   <MessageInfestationDelayActivated>Infestação a chegar.</MessageInfestationDelayActivated>
   <!-- EN: {0} was disturbed and might explode soon! -->
@@ -152,8 +152,8 @@
 
   <!-- Fluid ideo messages -->
   <!-- EN: Development points changed from {0} to {1} ({2}). -->
-  <MessageDevelopmentPointsEarned>Os pontos de desenvolvimento mudaram de {0} para {1} ({2}).</MessageDevelopmentPointsEarned>
+  <MessageDevelopmentPointsEarned>Os pontos de desenvolvimento passaram de {0} para {1} ({2}).</MessageDevelopmentPointsEarned>
   <!-- EN: Only one change to structures, memes and styles is allowed. -->
-  <MessageFluidIdeoOneChangeAllowed>Apenas uma mudança para estruturas, memes e estilos é permitido.</MessageFluidIdeoOneChangeAllowed>
+  <MessageFluidIdeoOneChangeAllowed>É permitida apenas uma alteração a estruturas, memes e estilos.</MessageFluidIdeoOneChangeAllowed>
 
 </LanguageData>

@@ -3,7 +3,7 @@
 
   <!-- Entities -->
   <!-- EN: {0_definite}'s activity is rising due to taking damage. -->
-  <MessageActivityRisingDamage>a atividade de {0_definite} está a aumentar devido a sofrer danos.</MessageActivityRisingDamage>
+  <MessageActivityRisingDamage>A atividade de {0_definite} está a aumentar por ter sofrido danos.</MessageActivityRisingDamage>
   <!-- EN: {0_definite} has died on a holding platform. -->
   <EntityDiedOnHoldingPlatform>{0_definite} morreu numa plataforma de retenção.</EntityDiedOnHoldingPlatform>
   <!-- EN: New entity discovered -->
@@ -13,80 +13,80 @@
   <!-- EN: The cultists are in a trance and don't respond when attacked. -->
   <MessageHateChantersAbsorbed>Os cultistas estão em transe e não respondem quando são atacados.</MessageHateChantersAbsorbed>
   <!-- EN: The hate chanting has increased in volume. -->
-  <MessageHateChantIncreased>A cântico de ódio aumentou em quantidade.</MessageHateChantIncreased>
+  <MessageHateChantIncreased>O cântico de ódio aumentou de volume.</MessageHateChantIncreased>
 
   <!-- Self-resurrection -->
   <!-- EN: {0_nameDef} can self-resurrect on command using death refusal. -->
-  <SelfResurrectText>{0_nameDef} pode auto ressuscistar-se no comando usando a recusa de morte.</SelfResurrectText>
+  <SelfResurrectText>{0_nameDef} pode ressuscitar-se a pedido, através da recusa da morte.</SelfResurrectText>
   <!-- EN: {0_nameDef} is using death refusal to self-resurrect. -->
-  <MessageUsingSelfResurrection>{0_nameDef} está a usar a recusa de morte para auto ressuscistar-se.</MessageUsingSelfResurrection>
+  <MessageUsingSelfResurrection>{0_nameDef} está a usar a recusa da morte para se ressuscitar.</MessageUsingSelfResurrection>
 
   <!-- Pit Gate -->
   <!-- EN: The pit gate has collapsed. -->
-  <MessagePitGateCollapsed>O buraco colapsou.</MessagePitGateCollapsed>
+  <MessagePitGateCollapsed>O portão do fosso desmoronou-se.</MessagePitGateCollapsed>
   <!-- EN: A pit burrow has collapsed. -->
-  <MessagePitBurrowCollapsed>A cova colapsou.</MessagePitBurrowCollapsed>
+  <MessagePitBurrowCollapsed>Uma toca do fosso desmoronou-se.</MessagePitBurrowCollapsed>
 
   <!-- Fleshsack -->
   <!-- EN: The flesh sack contained something -->
-  <FleshmassContainedMessage>O saco de carne contem algo</FleshmassContainedMessage>
+  <FleshmassContainedMessage>O saco de carne continha algo</FleshmassContainedMessage>
 
   <!-- Psychic rituals -->
   <!-- EN: {0_pawnsPluralDef} are attacking! -->
   <MessagePsychicRitualAssault>{0_pawnsPluralDef} estão a atacar!</MessagePsychicRitualAssault>
   <!-- EN: {FACTION_pawnsPluralDef} are beginning the psychic ritual -->
-  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef} estão a começar o ritual psíquico</MessageAIPsychicRitualBegan>
+  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef} estão a iniciar o ritual psíquico</MessageAIPsychicRitualBegan>
   
   <!-- Biomutation lance -->
   <!-- EN: Cannot target: {0_nameDef} is not an animal or human. -->
-  <MessageBiomutationLanceInvalidTargetRace>Não pode ser alvo: {0_nameDef} não é animal nem humano.</MessageBiomutationLanceInvalidTargetRace>
+  <MessageBiomutationLanceInvalidTargetRace>Alvo inválido: {0_nameDef} não é um animal nem um humano.</MessageBiomutationLanceInvalidTargetRace>
   <!-- EN: Cannot target: {0_nameDef} is too large. -->
-  <MessageBiomutationLanceTargetTooBig>Não pode ser alvo: {0_nameDef} é muito grande.</MessageBiomutationLanceTargetTooBig>
+  <MessageBiomutationLanceTargetTooBig>Alvo inválido: {0_nameDef} é demasiado grande.</MessageBiomutationLanceTargetTooBig>
 
   <!-- Containment -->
   <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It may escape soon. -->
-  <MessageNoRoomWithMinimumContainmentStrength>Aviso: Nenhum quarto tem a força de contenção mínima para {0}. Poderá escapar em breve.</MessageNoRoomWithMinimumContainmentStrength>
+  <MessageNoRoomWithMinimumContainmentStrength>Aviso: nenhuma divisão tem a força de contenção mínima para {0}. Poderá escapar em breve.</MessageNoRoomWithMinimumContainmentStrength>
   <!-- EN: Warning: {0} is below minimum containment strength for {1}. It may escape soon. -->
   <MessageTargetBelowMinimumContainmentStrength>Aviso: {0} está abaixo da força de contenção mínima para {1}. Poderá escapar em breve.</MessageTargetBelowMinimumContainmentStrength>
   <!-- EN: Can't transfer to {0} reserved by someone else. -->
-  <MessageHolderReserved>Não é possível transferir para {0} que está reservado por outra pessoa.</MessageHolderReserved>
+  <MessageHolderReserved>Não é possível transferir para {0}, reservado por outra pessoa.</MessageHolderReserved>
   <!-- EN: {EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}. -->
   <MessageEntityExecuted>{EXECUTIONER_labelShort} executou {VICTIM_kindIndef}.</MessageEntityExecuted>
   <!-- EN: Warning: Reinstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
-  <MessageOccupiedHoldingPlatformReinstalled>Aviso: Reinstalar uma plataforma de retenção ocupada irá libertar a entidade. Transfira a entidade para outra plataforma primeiro.</MessageOccupiedHoldingPlatformReinstalled>
+  <MessageOccupiedHoldingPlatformReinstalled>Aviso: reinstalar uma plataforma de retenção ocupada libertará a entidade. Transfere primeiro a entidade para outra plataforma.</MessageOccupiedHoldingPlatformReinstalled>
   <!-- EN: Warning: Uninstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
-  <MessageOccupiedHoldingPlatformUninstalled>Aviso: Desinstalar uma plataforma de retenção ocupada irá libertar a entidade. Transfira a entidade para outra plataforma primeiro.</MessageOccupiedHoldingPlatformUninstalled>
+  <MessageOccupiedHoldingPlatformUninstalled>Aviso: desinstalar uma plataforma de retenção ocupada libertará a entidade. Transfere primeiro a entidade para outra plataforma.</MessageOccupiedHoldingPlatformUninstalled>
   <!-- EN: Warning: Deconstructing an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
-  <MessageOccupiedHoldingPlatformDeconstructed>Aviso: Desconstruir uma plataforma de retenção ocupada irá libertar a entidade. Transfira a entidade para outra plataforma primeiro.</MessageOccupiedHoldingPlatformDeconstructed>
+  <MessageOccupiedHoldingPlatformDeconstructed>Aviso: desconstruir uma plataforma de retenção ocupada libertará a entidade. Transfere primeiro a entidade para outra plataforma.</MessageOccupiedHoldingPlatformDeconstructed>
   
   <!-- Duplicator obelisk -->
   <!-- EN: A hostile duplicate of {0_nameDef} has appeared. -->
-  <MessageHostileDuplicate>Um duplo do hostil de {0_nameDef} apareceu.</MessageHostileDuplicate>
+  <MessageHostileDuplicate>Apareceu um duplicado hostil de {0_nameDef}.</MessageHostileDuplicate>
   
   <!-- Proximity detector -->
   <!-- EN: A proximity detector has detected an invisible creature. -->
-  <MessageProximityDetectorTriggered>Um detector de proximidade detectou uma criatura invisível.</MessageProximityDetectorTriggered>
+  <MessageProximityDetectorTriggered>Um detetor de proximidade detetou uma criatura invisível.</MessageProximityDetectorTriggered>
   
   <!-- Unnatural darkness --> 
   <!-- EN: Something in the darkness has attacked {0_nameDef}. -->
-  <MessagePawnAttackedInDarkness>Alguma coisa na escuridão atacou {0_nameDef}.</MessagePawnAttackedInDarkness>
+  <MessagePawnAttackedInDarkness>Algo na escuridão atacou {0_nameDef}.</MessagePawnAttackedInDarkness>
   
   <!-- Revenant -->
   <!-- EN: A hidden revenant has been revealed! -->
-  <MessageRevenantForcedVisibility>Um revenant escondido foi revelado!</MessageRevenantForcedVisibility>
+  <MessageRevenantForcedVisibility>Um revenante escondido foi revelado!</MessageRevenantForcedVisibility>
   <!-- EN: {PAWN_nameDef} can hear the revenant {1} nearby! -->
-  <MessageRevenantHeard>{PAWN_nameDef} pode ouvir o revenant {1} nas proximidades!</MessageRevenantHeard>
+  <MessageRevenantHeard>{PAWN_nameDef} consegue ouvir o revenante {1} por perto!</MessageRevenantHeard>
   
   <!-- Abilities -->
   <!-- EN: {ABILITY_label} cannot be used on non-bleeding creatures. -->
-  <MessageCannotUseOnNonBleeder>{ABILITY_label} não pode ser usado em criaturas sem sangue.</MessageCannotUseOnNonBleeder>
+  <MessageCannotUseOnNonBleeder>{ABILITY_label} não pode ser usado em criaturas que não sangram.</MessageCannotUseOnNonBleeder>
   
   <!-- EN: {WAKER_nameDef} has disturbed a fingerspike. -->
-  <MessageFingerspikeDisturbed>{WAKER_nameDef} perturbou um fingerspike.</MessageFingerspikeDisturbed>
+  <MessageFingerspikeDisturbed>{WAKER_nameDef} perturbou um espigão-dedo.</MessageFingerspikeDisturbed>
   <!-- EN: {WAKER_nameDef} has disturbed several fingerspikes. -->
-  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} perturbou vários fingerspikes.</MessageFingerspikeDisturbedPlural>
+  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} perturbou vários espigões-dedo.</MessageFingerspikeDisturbedPlural>
 
   <!-- EN: The death pall has begun to resurrect corpses. -->
-  <DeathPallResurrectedMessage>O death pall ressuscitou {0_indefinido}.</DeathPallResurrectedMessage>
+  <DeathPallResurrectedMessage>A mortalha da morte começou a ressuscitar cadáveres.</DeathPallResurrectedMessage>
   
 </LanguageData>

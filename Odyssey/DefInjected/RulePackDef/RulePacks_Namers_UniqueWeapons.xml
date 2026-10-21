@@ -60,6 +60,64 @@
     <li>badass_concept->love</li>
     <li>badass_concept->laughter</li>
   -->
-  <NamerUniqueWeapon.rulePack.rulesStrings>TODO</NamerUniqueWeapon.rulePack.rulesStrings>
+  <NamerUniqueWeapon.rulePack.rulesStrings>
+    <li>r_weapon_name(p=2)->[weapon_noun] [weapon_adjective]</li>
+    <li>r_weapon_name(p=0.5)->[weapon_type] de [badass_concept]</li>
+    <li>r_weapon_name(p=0.5)->[weapon_type] [weapon_adjective]</li>
+    <li>r_weapon_name(p=0.5)->[weapon_type] de [badass_concept]</li>
+    <li>r_weapon_name(p=0.3)->[weapon_noun] de [ANYPAWN_nameIndef]</li>
+    <li>r_weapon_name(p=0.3)->[weapon_noun] [weapon_adjective] de [ANYPAWN_nameIndef]</li>
+    <li>r_weapon_name(p=0.3)->[badass_concept] de [ANYPAWN_nameIndef]</li>
+    <li>weapon_noun(p=2)->[weapon_type]</li>
+    <li>weapon_noun->[badass_noun]</li>
+    <li>weapon_noun->[badass_concept]</li>
+    <li>weapon_adjective(p=2)->[trait_adjective]</li>
+    <li>weapon_adjective->[badass_adjective]</li>
+    <li>badass_adjective->Lúgubre</li>
+    <li>badass_adjective->Imortal</li>
+    <li>badass_adjective->da Noite</li>
+    <li>badass_adjective->Grave</li>
+    <li>badass_adjective->Excecional</li>
+    <li>badass_adjective->Mortal</li>
+    <li>badass_adjective->Infame</li>
+    <li>badass_adjective->Singular</li>
+    <li>badass_adjective->Fatal</li>
+    <li>badass_adjective->Trovejante</li>
+    <li>badass_adjective->Execrável</li>
+    <li>badass_adjective->Grande</li>
+    <li>badass_noun->Ceifeiro</li>
+    <li>badass_noun->Fim</li>
+    <li>badass_noun->Uivo</li>
+    <li>badass_noun->Tempestade</li>
+    <li>badass_noun->Fantasma</li>
+    <li>badass_noun->Viúva</li>
+    <li>badass_noun->Titã</li>
+    <li>badass_noun->Colosso</li>
+    <li>badass_noun->Serpente</li>
+    <li>badass_noun->Bigorna</li>
+    <li>badass_noun->Assassino</li>
+    <li>badass_noun->Amante</li>
+    <li>badass_noun->Besta</li>
+    <li>badass_noun->Presa</li>
+    <li>badass_noun->Braço</li>
+    <li>badass_noun->Corno</li>
+    <li>badass_concept->Justiça</li>
+    <li>badass_concept->Vingança</li>
+    <li>badass_concept->Retaliação</li>
+    <li>badass_concept->Dor</li>
+    <li>badass_concept->Agonia</li>
+    <li>badass_concept->Tormento</li>
+    <li>badass_concept->Lenda</li>
+    <li>badass_concept->Deleite</li>
+    <li>badass_concept->Arrependimento</li>
+    <li>badass_concept->Orgulho</li>
+    <li>badass_concept->Vaidade</li>
+    <li>badass_concept->Honra</li>
+    <li>badass_concept->Fúria</li>
+    <li>badass_concept->Ajuste de Contas</li>
+    <li>badass_concept->Serenidade</li>
+    <li>badass_concept->Amor</li>
+    <li>badass_concept->Riso</li>
+  </NamerUniqueWeapon.rulePack.rulesStrings>
   
 </LanguageData>

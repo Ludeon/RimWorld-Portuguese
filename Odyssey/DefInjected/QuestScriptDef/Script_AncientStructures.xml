@@ -5,7 +5,10 @@
     <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
     <li>structureNameWithArticle->an infested settlement</li>
   -->
-  <Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>TODO</Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>
+  <Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] a localização de [structureNameWithArticle]. Podes saquear a estrutura para obter recursos valiosos.\n\nCuidado: as estruturas antigas podem conter várias ameaças.</li>
+    <li>structureNameWithArticle->uma povoação infestada</li>
+  </Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [structureName]</li>
     <li>questName->[ancient] [structureName]</li>
@@ -15,7 +18,15 @@
     <li>ancient->Lost</li>
     <li>structureName->infested settlement</li>
   -->
-  <Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>TODO</Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>
+  <Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>
+    <li>questName->A [structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] Descoberta</li>
+    <li>questName->Descoberta: [structureName]</li>
+    <li>ancient(p=2)->Antiga</li>
+    <li>ancient->Perdida</li>
+    <li>structureName->Povoação Infestada</li>
+  </Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient buildings</li>
     <li>subject->lost landmarks</li>
@@ -31,13 +42,30 @@
     <li>questMapFeature->anatomical drawing of a megaspider</li>
     <li>questMapText->insects everywhere</li>
   -->
-  <Opportunity_AncientInfestedSettlement.questSubjectRules.rulesStrings>TODO</Opportunity_AncientInfestedSettlement.questSubjectRules.rulesStrings>
+  <Opportunity_AncientInfestedSettlement.questSubjectRules.rulesStrings>
+    <li>subject->edifícios antigos</li>
+    <li>subject->marcos perdidos</li>
+    <li>subject->estruturas antigas</li>
+    <li>questMapFeature->desenho de um edifício velho</li>
+    <li>questMapText->alvo de recuperação</li>
+    <li>questMapText->local de exploração</li>
+    <li>questMapText->estrutura antiga perigosa</li>
+    <li>questMapText->cuidado com as armadilhas</li>
+    <li>subject->colmeias de insetos</li>
+    <li>subject->infestações</li>
+    <li>questMapFeature->colmeia de insetos</li>
+    <li>questMapFeature->desenho anatómico de uma mega-aranha</li>
+    <li>questMapText->insetos por todo o lado</li>
+  </Opportunity_AncientInfestedSettlement.questSubjectRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
     <li>structureNameWithArticle->an ancient chemfuel refinery</li>
   -->
-  <Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>TODO</Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>
+  <Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] a localização de [structureNameWithArticle]. Podes saquear a estrutura para obter recursos valiosos.\n\nCuidado: as estruturas antigas podem conter várias ameaças.</li>
+    <li>structureNameWithArticle->uma antiga refinaria de combustível químico</li>
+  </Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [structureName]</li>
     <li>questName->[ancient] [structureName]</li>
@@ -47,7 +75,15 @@
     <li>ancient->Lost</li>
     <li>structureName->chemfuel refinery</li>
   -->
-  <Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>TODO</Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>
+  <Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>
+    <li>questName->A [structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] Descoberta</li>
+    <li>questName->Descoberta: [structureName]</li>
+    <li>ancient(p=2)->Antiga</li>
+    <li>ancient->Perdida</li>
+    <li>structureName->Refinaria de Combustível Químico</li>
+  </Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient buildings</li>
     <li>subject->lost landmarks</li>
@@ -65,13 +101,32 @@
     <li>questMapText->chemfuel depot</li>
     <li>questMapText->chemfuel here</li>
   -->
-  <Opportunity_AncientStructureChemfuelRefinery.questSubjectRules.rulesStrings>TODO</Opportunity_AncientStructureChemfuelRefinery.questSubjectRules.rulesStrings>
+  <Opportunity_AncientStructureChemfuelRefinery.questSubjectRules.rulesStrings>
+    <li>subject->edifícios antigos</li>
+    <li>subject->marcos perdidos</li>
+    <li>subject->estruturas antigas</li>
+    <li>questMapFeature->desenho de um edifício velho</li>
+    <li>questMapText->alvo de recuperação</li>
+    <li>questMapText->local de exploração</li>
+    <li>questMapText->estrutura antiga perigosa</li>
+    <li>questMapText->cuidado com as armadilhas</li>
+    <li>subject->refinarias antigas</li>
+    <li>subject->fábricas químicas</li>
+    <li>questMapFeature->refinaria de combustível químico</li>
+    <li>questMapFeature->imagem de um depósito de combustível químico</li>
+    <li>questMapFeature->esboço de equipamento de refinaria</li>
+    <li>questMapText->depósito de combustível químico</li>
+    <li>questMapText->combustível químico aqui</li>
+  </Opportunity_AncientStructureChemfuelRefinery.questSubjectRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
     <li>structureNameWithArticle->an ancient garrison</li>
   -->
-  <Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>TODO</Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>
+  <Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] a localização de [structureNameWithArticle]. Podes saquear a estrutura para obter recursos valiosos.\n\nCuidado: as estruturas antigas podem conter várias ameaças.</li>
+    <li>structureNameWithArticle->uma antiga guarnição</li>
+  </Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [structureName]</li>
     <li>questName->[ancient] [structureName]</li>
@@ -81,7 +136,15 @@
     <li>ancient->Lost</li>
     <li>structureName->garrison</li>
   -->
-  <Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>TODO</Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>
+  <Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>
+    <li>questName->A [structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] Descoberta</li>
+    <li>questName->Descoberta: [structureName]</li>
+    <li>ancient(p=2)->Antiga</li>
+    <li>ancient->Perdida</li>
+    <li>structureName->Guarnição</li>
+  </Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient buildings</li>
     <li>subject->lost landmarks</li>
@@ -100,13 +163,33 @@
     <li>questMapText->ancient armory</li>
     <li>questMapText->lots of military equipment</li>
   -->
-  <Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>TODO</Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>
+  <Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>
+    <li>subject->edifícios antigos</li>
+    <li>subject->marcos perdidos</li>
+    <li>subject->estruturas antigas</li>
+    <li>questMapFeature->desenho de um edifício velho</li>
+    <li>questMapText->alvo de recuperação</li>
+    <li>questMapText->local de exploração</li>
+    <li>questMapText->estrutura antiga perigosa</li>
+    <li>questMapText->cuidado com as armadilhas</li>
+    <li>subject->antigos locais militares</li>
+    <li>subject->antigas guarnições</li>
+    <li>questMapFeature->guarnição</li>
+    <li>questMapFeature->imagem de suportes de armas</li>
+    <li>questMapFeature->esboço a carvão de uma espingarda de assalto</li>
+    <li>questMapText->instalação de armamento</li>
+    <li>questMapText->antigo arsenal</li>
+    <li>questMapText->muito equipamento militar</li>
+  </Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
     <li>structureNameWithArticle->an ancient launch site</li>
   -->
-  <Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>TODO</Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>
+  <Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] a localização de [structureNameWithArticle]. Podes saquear a estrutura para obter recursos valiosos.\n\nCuidado: as estruturas antigas podem conter várias ameaças.</li>
+    <li>structureNameWithArticle->um antigo local de lançamento</li>
+  </Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [structureName]</li>
     <li>questName->[ancient] [structureName]</li>
@@ -116,7 +199,15 @@
     <li>ancient->Lost</li>
     <li>structureName->launch site</li>
   -->
-  <Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>TODO</Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>
+  <Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>
+    <li>questName->A [structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] Descoberto</li>
+    <li>questName->Descoberta: [structureName]</li>
+    <li>ancient(p=2)->Antigo</li>
+    <li>ancient->Perdido</li>
+    <li>structureName->Local de Lançamento</li>
+  </Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient buildings</li>
     <li>subject->lost landmarks</li>
@@ -133,13 +224,31 @@
     <li>questMapFeature->sketch of treasure being loaded into transport pods</li>
     <li>questMapText->they have fuel</li>
   -->
-  <Opportunity_AncientStructureLaunchSite.questSubjectRules.rulesStrings>TODO</Opportunity_AncientStructureLaunchSite.questSubjectRules.rulesStrings>
+  <Opportunity_AncientStructureLaunchSite.questSubjectRules.rulesStrings>
+    <li>subject->edifícios antigos</li>
+    <li>subject->marcos perdidos</li>
+    <li>subject->estruturas antigas</li>
+    <li>questMapFeature->desenho de um edifício velho</li>
+    <li>questMapText->alvo de recuperação</li>
+    <li>questMapText->local de exploração</li>
+    <li>questMapText->estrutura antiga perigosa</li>
+    <li>questMapText->cuidado com as armadilhas</li>
+    <li>subject->antigos locais de lançamento</li>
+    <li>subject->espaçoportos</li>
+    <li>questMapFeature->local de lançamento</li>
+    <li>questMapFeature->diagrama de um aparelho de reabastecimento de vaivéns</li>
+    <li>questMapFeature->esboço de tesouros a serem carregados em cápsulas de transporte</li>
+    <li>questMapText->têm combustível</li>
+  </Opportunity_AncientStructureLaunchSite.questSubjectRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
     <li>structureNameWithArticle->an ancient warehouse</li>
   -->
-  <Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>TODO</Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>
+  <Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] a localização de [structureNameWithArticle]. Podes saquear a estrutura para obter recursos valiosos.\n\nCuidado: as estruturas antigas podem conter várias ameaças.</li>
+    <li>structureNameWithArticle->um antigo armazém</li>
+  </Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [structureName]</li>
     <li>questName->[ancient] [structureName]</li>
@@ -149,7 +258,15 @@
     <li>ancient->Lost</li>
     <li>structureName->warehouse</li>
   -->
-  <Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>TODO</Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>
+  <Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>
+    <li>questName->A [structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] Descoberto</li>
+    <li>questName->Descoberta: [structureName]</li>
+    <li>ancient(p=2)->Antigo</li>
+    <li>ancient->Perdido</li>
+    <li>structureName->Armazém</li>
+  </Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient buildings</li>
     <li>subject->lost landmarks</li>
@@ -166,6 +283,21 @@
     <li>questMapFeature->sketch of a forklift</li>
     <li>questMapText->massive ancient building</li>
   -->
-  <Opportunity_AncientStructureWarehouse.questSubjectRules.rulesStrings>TODO</Opportunity_AncientStructureWarehouse.questSubjectRules.rulesStrings>
+  <Opportunity_AncientStructureWarehouse.questSubjectRules.rulesStrings>
+    <li>subject->edifícios antigos</li>
+    <li>subject->marcos perdidos</li>
+    <li>subject->estruturas antigas</li>
+    <li>questMapFeature->desenho de um edifício velho</li>
+    <li>questMapText->alvo de recuperação</li>
+    <li>questMapText->local de exploração</li>
+    <li>questMapText->estrutura antiga perigosa</li>
+    <li>questMapText->cuidado com as armadilhas</li>
+    <li>subject->antigos entrepostos</li>
+    <li>subject->armazéns</li>
+    <li>questMapFeature->armazém</li>
+    <li>questMapFeature->diagrama de prateleiras cheias de caixas</li>
+    <li>questMapFeature->esboço de um empilhador</li>
+    <li>questMapText->edifício antigo gigantesco</li>
+  </Opportunity_AncientStructureWarehouse.questSubjectRules.rulesStrings>
   
 </LanguageData>

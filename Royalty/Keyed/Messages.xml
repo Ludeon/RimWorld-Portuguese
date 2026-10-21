@@ -3,38 +3,38 @@
 
   <!-- Shuttle landing zones -->
   <!-- EN: Shuttle could not land on pad: {0} -->
-  <ShuttleBlocked>O transporte não pode pousar na almofada: Não</ShuttleBlocked>
+  <ShuttleBlocked>O vaivém não pôde aterrar na plataforma: {0}</ShuttleBlocked>
   <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
   <MessageShuttleArrivedContentsLost>O vaivém chegou, mas como não havia colonos lá dentro, o conteúdo foi perdido.</MessageShuttleArrivedContentsLost>
 
   <!-- EN: Cannot land in undiscovered area. -->
-  <ShuttleCannotLand_Fogged>Não pode pousar em área não descoberta.</ShuttleCannotLand_Fogged>
+  <ShuttleCannotLand_Fogged>Não pode aterrar numa zona por descobrir.</ShuttleCannotLand_Fogged>
   <!-- EN: Area must be walkable. -->
-  <ShuttleCannotLand_Unwalkable>A área deve ser acessível.</ShuttleCannotLand_Unwalkable>
+  <ShuttleCannotLand_Unwalkable>A zona tem de ser transitável.</ShuttleCannotLand_Unwalkable>
   <!-- EN: Terrain does not support {0}. -->
-  <ShuttleCannotLand_Unaffordable>TODO</ShuttleCannotLand_Unaffordable>
+  <ShuttleCannotLand_Unaffordable>O terreno não suporta {0}.</ShuttleCannotLand_Unaffordable>
 
   <!-- EN: Select {BESTOWER_definite} and click 'Begin bestowing ceremony' to commence the ceremony. -->
-  <MessageBestowerWaiting>Selecione {BESTOWER_definite} e clique em 'Begin bestowing ceremony' para iniciar a cerimônia.</MessageBestowerWaiting>
+  <MessageBestowerWaiting>Seleciona {BESTOWER_definite} e clica em «Begin bestowing ceremony» para iniciar a cerimónia.</MessageBestowerWaiting>
   <!-- EN: Cannot reach bestower! -->
-  <MessageBestowerUnreachable>Não pode chegar melhor!</MessageBestowerUnreachable>
+  <MessageBestowerUnreachable>Não é possível chegar ao outorgante!</MessageBestowerUnreachable>
   <!-- EN: {0} is busy. -->
-  <MessageBestowingTargetIsBusy>está ocupado.</MessageBestowingTargetIsBusy>
+  <MessageBestowingTargetIsBusy>{0} está ocupado.</MessageBestowingTargetIsBusy>
   <!-- EN: The bestower is annoyed with the interference and has decided to leave. -->
-  <MessageBestowingSpotUnreachable>O bestower está irritado com a interferência e decidiu sair.</MessageBestowingSpotUnreachable>
+  <MessageBestowingSpotUnreachable>O outorgante está irritado com a interferência e decidiu partir.</MessageBestowingSpotUnreachable>
   <!-- EN: The bestower is leaving due to life-threatening danger. -->
-  <MessageBestowingDanger>O melhor é sair devido ao perigo fatal.</MessageBestowingDanger>
+  <MessageBestowingDanger>O outorgante está a partir devido a perigo de vida.</MessageBestowingDanger>
   <!-- EN: The bestower is leaving due to life-threatening temperature. -->
-  <MessageBestowingDangerTemperature>O bestower está saindo devido à temperatura de risco de vida.</MessageBestowingDangerTemperature>
+  <MessageBestowingDangerTemperature>O outorgante está a partir devido a uma temperatura que põe a vida em risco.</MessageBestowingDangerTemperature>
   <!-- EN: The bestower is leaving due to dangerous gases in the area. -->
-  <MessageBestowingDangerGas>O bestower está saindo devido a gases perigosos na área.</MessageBestowingDangerGas>
+  <MessageBestowingDangerGas>O outorgante está a partir devido a gases perigosos na zona.</MessageBestowingDangerGas>
   <!-- EN: The bestowing ceremony has been interrupted. -->
-  <MessageBestowingInterrupted>A cerimónia de concessão foi interrompida.</MessageBestowingInterrupted>
+  <MessageBestowingInterrupted>A cerimónia de outorga foi interrompida.</MessageBestowingInterrupted>
 
   <!-- EN: {PAWN_definite}'s bestowing ceremony has begun. -->
-  <MessageBestowingCeremonyStarted>A cerimónia de auto-outorga do PAWN_definite começou.</MessageBestowingCeremonyStarted>
+  <MessageBestowingCeremonyStarted>A cerimónia de outorga de {PAWN_definite} começou.</MessageBestowingCeremonyStarted>
   <!-- EN: You defeated the {FACTION_pawnsPlural}! Get back on the shuttle to launch it. -->
-  <MessageMissionGetBackToShuttle>Você derrotou o {FACTION_pawnsPlural}! Volta para o vaivém para o lançar.</MessageMissionGetBackToShuttle>
+  <MessageMissionGetBackToShuttle>Derrotaste {FACTION_pawnsPlural}! Volta para o vaivém para o lançar.</MessageMissionGetBackToShuttle>
 
   <!-- EN: {FACTION_name} has dropped resources nearby. -->
   <MessagePermitTransportDrop>{FACTION_name} deixou recursos nas proximidades.</MessagePermitTransportDrop>
@@ -42,9 +42,9 @@
   <MessagePermitTransportDropCaravan>{FACTION_name} enviou recursos para a caravana de {PAWN_nameDef}.</MessagePermitTransportDropCaravan>
 
   <!-- EN: No orbiting mechanoids found. -->
-  <MessageNoFactionForVerbMechCluster>Nenhum mecanóide orbitando encontrado.</MessageNoFactionForVerbMechCluster>
+  <MessageNoFactionForVerbMechCluster>Não foram encontrados mecanoides em órbita.</MessageNoFactionForVerbMechCluster>
 
   <!-- UNUSED -->
-  <CannotCallShuttle>Não pode ligar para o vaivém</CannotCallShuttle>
+  <CannotCallShuttle>Não é possível chamar o vaivém</CannotCallShuttle>
 
 </LanguageData>

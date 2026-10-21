@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: orbital debris -->
-  <OrbitalDebris.label>TODO</OrbitalDebris.label>
+  <OrbitalDebris.label>detritos orbitais</OrbitalDebris.label>
   <!-- EN:
     <li>tale_noun->a micrometeorite storm sweeping over [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->micrometeorite fragments peppering the area around [PAWN_nameDef]'s [Community]</li>
@@ -28,6 +28,30 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s scurry about, seeking cover.</li>
     <li>desc_sentence->Space is charged with an eerie power.</li>
   -->
-  <OrbitalDebris.rulePack.rulesStrings>TODO</OrbitalDebris.rulePack.rulesStrings>
+  <OrbitalDebris.rulePack.rulesStrings>
+    <li>tale_noun->uma tempestade de micrometeoritos a varrer o povoado do tipo [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->fragmentos de micrometeoritos a crivar a área à volta do povoado do tipo [Community] de [PAWN_nameDef]</li>
+    <li>image->uma cascata de micrometeoritos a cintilar com faíscas [Color] [airborne_circumstance]</li>
+    <li>image->uma dispersão de micrometeoritos de brilho intenso [airborne_circumstance]</li>
+    <li>image->uma chuva de faíscas [Color] enquanto os micrometeoritos ardem [airborne_circumstance]</li>
+    <li>airborne_circumstance->a atravessar o céu a toda a velocidade</li>
+    <li>airborne_circumstance->a cair num turbilhão de luz</li>
+    <li>airborne_circumstance->a dissipar-se em pó cintilante ao cair</li>
+    <li>image->um aglomerado de marcas de impacto a fumegar, [ground_circumstance]</li>
+    <li>image->um fragmento chamuscado [Color], [ground_circumstance]</li>
+    <li>image->uma dispersão [Color] de pedrinhas, [ground_circumstance]</li>
+    <li>ground_circumstance->no meio de uma neblina de pó fino</li>
+    <li>ground_circumstance->a brilhar tenuemente com o calor residual</li>
+    <li>ground_circumstance->num manto de chão rachado</li>
+    <li>ground_circumstance->por toda a paisagem</li>
+    <li>ground_circumstance->no meio de um campo de pequenas crateras</li>
+    <li>desc_sentence->[PAWN_nameDef] observa a chuva com assombro.</li>
+    <li>desc_sentence->[PAWN_nameDef] olha para cima com espanto.</li>
+    <li>desc_sentence->A barragem incessante sobressalta [PAWN_nameDef].</li>
+    <li>desc_sentence->[Quantity_adjphrase] figuras saem de uma paisagem do tipo [TerrainFeature] próxima para se abrigarem.</li>
+    <li>desc_sentence->[Quantity_adjphrase] figuras apressam-se a pôr os seus pertences em segurança.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s correm de um lado para o outro, à procura de abrigo.</li>
+    <li>desc_sentence->O espaço está carregado de um poder sinistro.</li>
+  </OrbitalDebris.rulePack.rulesStrings>
   
 </LanguageData>

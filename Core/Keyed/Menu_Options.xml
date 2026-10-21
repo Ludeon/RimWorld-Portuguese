@@ -5,7 +5,7 @@
   <!-- EN: Audiovisuals -->
   <Audiovisuals>Audiovisuais</Audiovisuals>
   <!-- EN: Master volume -->
-  <MasterVolume>Volume Geral</MasterVolume>
+  <MasterVolume>Volume geral</MasterVolume>
   <!-- EN: Game volume -->
   <GameVolume>Volume do jogo</GameVolume>
   <!-- EN: Music volume -->
@@ -13,7 +13,7 @@
   <!-- EN: Ambience volume -->
   <AmbientVolume>Volume ambiente</AmbientVolume>
   <!-- EN: UI volume -->
-  <UIVolume>Volume da IU</UIVolume>
+  <UIVolume>Volume da interface</UIVolume>
   <!-- EN: Affects all sounds. -->
   <MasterVolumeTooltip>Afeta todos os sons.</MasterVolumeTooltip>
   <!-- EN: Affects all in world sounds, e.g. chopping trees, building walls. -->
@@ -29,33 +29,33 @@
 
   <!-- Gameplay -->
   <!-- EN: Remember draw styles -->
-  <RememberDrawStyle>TODO</RememberDrawStyle>
+  <RememberDrawStyle>Lembrar estilos de desenho</RememberDrawStyle>
   <!-- EN: When enabled, draw styles won't reset to the default draw style when placing new buildings or zones. -->
-  <RememberDrawStyle_Tooltip>TODO</RememberDrawStyle_Tooltip>
+  <RememberDrawStyle_Tooltip>Quando ativado, os estilos de desenho não voltam ao estilo predefinido ao colocar novos edifícios ou zonas.</RememberDrawStyle_Tooltip>
   <!-- EN: Zoom switches world map layers -->
-  <ZoomSwitchLayer>TODO</ZoomSwitchLayer>
+  <ZoomSwitchLayer>O zoom muda as camadas do mapa do mundo</ZoomSwitchLayer>
   <!-- EN: When enabled, zooming out on the world map will switch to an orbital view. Zooming in will show the planet again. -->
-  <ZoomSwitchLayer_Tooltip>TODO</ZoomSwitchLayer_Tooltip>
+  <ZoomSwitchLayer_Tooltip>Quando ativado, afastar o zoom no mapa do mundo muda para uma vista orbital. Aproximar o zoom volta a mostrar o planeta.</ZoomSwitchLayer_Tooltip>
   <!-- EN: Screen-edge mouse scroll -->
-  <EdgeScreenScroll>Mover câmara se rato estiver na margem do ecrã</EdgeScreenScroll>
+  <EdgeScreenScroll>Deslocar a câmara com o rato na margem do ecrã</EdgeScreenScroll>
   <!-- EN: Zoom to mouse -->
-  <ZoomToMouse>Ampliar no rato</ZoomToMouse>
+  <ZoomToMouse>Zoom na posição do rato</ZoomToMouse>
   <!-- EN: Pause on load -->
-  <PauseOnLoad>Pausar ao carregar jogo</PauseOnLoad>
+  <PauseOnLoad>Pausar ao carregar o jogo</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
-  <PauseOnUrgentLetter>Pausar na carta urgente</PauseOnUrgentLetter>
+  <PauseOnUrgentLetter>Pausar com carta urgente</PauseOnUrgentLetter>
   <!-- EN: Pause on letter -->
-  <AutomaticPauseModeSetting>Pausar na carta</AutomaticPauseModeSetting>
+  <AutomaticPauseModeSetting>Pausar com carta</AutomaticPauseModeSetting>
   <!-- EN: Disable game-specific cursor -->
-  <CustomCursor>Cursor customizado</CustomCursor>
+  <CustomCursor>Desativar cursor próprio do jogo</CustomCursor>
   <!-- EN: Hide hats on UI -->
-  <HatsShownOnlyOnMap>Esconder chapéus na IU</HatsShownOnlyOnMap>
+  <HatsShownOnlyOnMap>Esconder chapéus na interface</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
-  <UIScale>Escala da IU</UIScale>
+  <UIScale>Escala da interface</UIScale>
   <!-- EN: Respect system display scaling -->
-  <RespectSystemScaling>TODO</RespectSystemScaling>
+  <RespectSystemScaling>Respeitar a escala do ecrã do sistema</RespectSystemScaling>
   <!-- EN: When enabled, the UI scale is multiplied by the operating system's display scaling. Disable to apply the UI scale as-is. -->
-  <RespectSystemScaling_Tooltip>TODO</RespectSystemScaling_Tooltip>
+  <RespectSystemScaling_Tooltip>Quando ativado, a escala da interface é multiplicada pela escala do ecrã do sistema operativo. Desativa para aplicar a escala da interface tal como está.</RespectSystemScaling_Tooltip>
   <!-- EN: Keyboard configuration -->
   <KeyboardConfig>Configuração do teclado</KeyboardConfig>
   <!-- EN: Controller configuration -->
@@ -65,9 +65,9 @@
   <!-- EN: Choose language -->
   <ChooseLanguage>Escolher idioma</ChooseLanguage>
   <!-- EN: Reset learning helper -->
-  <ResetAdaptiveTutor>Repor tutorial adaptável</ResetAdaptiveTutor>
+  <ResetAdaptiveTutor>Repor assistente de aprendizagem</ResetAdaptiveTutor>
   <!-- EN: Tutor is reset. You will be now be re-taught all lessons from scratch. -->
-  <AdaptiveTutorIsReset>Tutorial adaptável reiniciado. Ele irá agora ensinar-te do zero.</AdaptiveTutorIsReset>
+  <AdaptiveTutorIsReset>Assistente de aprendizagem reposto. Vais voltar a aprender todas as lições do zero.</AdaptiveTutorIsReset>
   <!-- EN: Keyboard mode -->
   <SteamDeckKeyboardMode>Modo teclado</SteamDeckKeyboardMode>
   <!-- EN: Run in background -->
@@ -75,47 +75,47 @@
   <!-- EN: Development mode -->
   <DevelopmentMode>Modo de desenvolvimento</DevelopmentMode>
   <!-- EN: Auto-reset mods config on crash -->
-  <ResetModsConfigOnCrash>Auto-reset da configuração dos mods se crashar</ResetModsConfigOnCrash>
+  <ResetModsConfigOnCrash>Repor automaticamente a configuração de mods após uma falha</ResetModsConfigOnCrash>
   <!-- EN: Quick start has no cryptosleep sickness -->
-  <DisableQuickStartCryptoSickness>Início rápido não tem doença de criptosono</DisableQuickStartCryptoSickness>
+  <DisableQuickStartCryptoSickness>O início rápido não tem doença do criossono</DisableQuickStartCryptoSickness>
   <!-- EN: Start game with dev palette on -->
-  <StartDevPaletteOn>Iniciar jogo </StartDevPaletteOn>
+  <StartDevPaletteOn>Iniciar o jogo com a paleta de desenvolvimento ativa</StartDevPaletteOn>
   <!-- EN: Open log on warnings -->
-  <OpenLogOnWarnings>Abrir logo ao receber avisos</OpenLogOnWarnings>
+  <OpenLogOnWarnings>Abrir o registo ao receber avisos</OpenLogOnWarnings>
   <!-- EN: Close log by pressing cancel -->
-  <CloseLogWindowOnEscape>Fechar log ao pressionar cancelar</CloseLogWindowOnEscape>
+  <CloseLogWindowOnEscape>Fechar o registo ao premir cancelar</CloseLogWindowOnEscape>
   <!-- EN: Verbose logging -->
-  <LogVerbose>Log detalhado</LogVerbose>
+  <LogVerbose>Registo detalhado</LogVerbose>
   <!-- EN: Save data folder -->
-  <SaveGameDataFolder>Pasta de saves</SaveGameDataFolder>
+  <SaveGameDataFolder>Pasta de dados de gravação</SaveGameDataFolder>
   <!-- EN: Save data location -->
-  <SaveGameDataLocation>Localização da pasta de saves</SaveGameDataLocation>
+  <SaveGameDataLocation>Localização dos dados de gravação</SaveGameDataLocation>
   <!-- EN: Log file folder -->
-  <LogFileFolder>Pasta do ficheiro log</LogFileFolder>
+  <LogFileFolder>Pasta do ficheiro de registo</LogFileFolder>
   <!-- EN: Log file location -->
-  <LogFileLocation>Localização do ficheiro log</LogFileLocation>
+  <LogFileLocation>Localização do ficheiro de registo</LogFileLocation>
   <!-- EN: Open -->
   <OpenFolder>Abrir</OpenFolder>
   <!-- EN: Show -->
   <ShowFolder>Mostrar</ShowFolder>
   <!-- EN: Preferred "Name in Game" characters -->
-  <NamesYouWantToSee>Sobrenomes que queiras que apareçam em certas personagens ou Biografias pelo jogo:</NamesYouWantToSee>
+  <NamesYouWantToSee>Nomes preferidos no jogo</NamesYouWantToSee>
   <!-- EN: These characters will be more likely to appear randomly during play. -->
-  <NamesYouWantToSeeSubText>Estes personagens têm mais probabilidade de aparecer aleatóriamente durante o jogo.</NamesYouWantToSeeSubText>
+  <NamesYouWantToSeeSubText>Estas personagens têm maior probabilidade de aparecer aleatoriamente durante o jogo.</NamesYouWantToSeeSubText>
   <!-- EN: Add name -->
   <AddName>Adicionar nome</AddName>
   <!-- EN: Type the first name, nickname, or last name. -->
-  <TypeFirstNickOrLastName>Escreve o primeiro nome, alcunha, ou apelido.</TypeFirstNickOrLastName>
+  <TypeFirstNickOrLastName>Escreve o nome próprio, a alcunha ou o apelido.</TypeFirstNickOrLastName>
   <!-- EN: This name is already on the preferred list. -->
   <MessageAlreadyPreferredName>Este nome já está na tua lista de preferidos.</MessageAlreadyPreferredName>
   <!-- EN: Storyteller settings -->
-  <ChangeStoryteller>Escolhe o narrador</ChangeStoryteller>
+  <ChangeStoryteller>Definições do narrador</ChangeStoryteller>
   <!-- EN: Autosave interval -->
-  <AutosaveInterval>Intervalo de autosave</AutosaveInterval>
+  <AutosaveInterval>Intervalo de gravação automática</AutosaveInterval>
   <!-- EN: The number of in game days between each auto save. -->
-  <AutosaveIntervalTooltip>O número de dias (no jogo) entre cada autosave.</AutosaveIntervalTooltip>
+  <AutosaveIntervalTooltip>O número de dias de jogo entre cada gravação automática.</AutosaveIntervalTooltip>
   <!-- EN: Temperature unit -->
-  <TemperatureMode>Modo de temperatura</TemperatureMode>
+  <TemperatureMode>Unidade de temperatura</TemperatureMode>
   <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>Mostrar relógio em tempo real</ShowRealtimeClock>
   <!-- EN: Use 12 hour clock -->
@@ -125,33 +125,33 @@
   <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>Número máximo de colónias: {0}</MaxNumberOfPlayerSettlements>
   <!-- EN: Autosaves count: {0} -->
-  <AutosavesCount>Número de autosaves: {0}</AutosavesCount>
+  <AutosavesCount>Número de gravações automáticas: {0}</AutosavesCount>
   <!-- EN: Map mouse drag sensitivity -->
-  <MapDragSensitivity>Sensibilidade do rato ao arrastar mapa</MapDragSensitivity>
+  <MapDragSensitivity>Sensibilidade do rato ao arrastar o mapa</MapDragSensitivity>
   <!-- EN: Plant wind sway -->
   <PlantWindSway>Balanço da planta ao vento</PlantWindSway>
   <!-- EN: Enable test map sizes -->
-  <EnableTestMapSizes>Ativar tamanho de mapas de testes</EnableTestMapSizes>
+  <EnableTestMapSizes>Ativar tamanhos de mapa de teste</EnableTestMapSizes>
   <!-- EN: Maximum autosave interval in permadeath mode is {0} day. -->
-  <MaxPermadeathAutosaveIntervalInfo>Intervalo máximo do autosave em modo morte permanente é de {0} dias.</MaxPermadeathAutosaveIntervalInfo>
+  <MaxPermadeathAutosaveIntervalInfo>O intervalo máximo de gravação automática no modo de morte permanente é de {0} dia.</MaxPermadeathAutosaveIntervalInfo>
   <!-- EN: Mod Settings -->
-  <ModSettings>Definições de mod</ModSettings>
+  <ModSettings>Definições dos mods</ModSettings>
   <!-- EN: Permanently disable development mode -->
   <PermanentlyDisableDevMode>Desativar permanentemente o modo de desenvolvimento</PermanentlyDisableDevMode>
   <!-- EN: Texture compression -->
   <TextureCompression>Compressão de textura</TextureCompression>
   <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
-  <TextureCompression_Tooltip>Desativar a compressão de textira irá usar mais memória de vídeo, mas permite que as texturas pareçam melhores em áreas detalhadas. Desativa apenas esta opção se sabes que tens bastante memória de vídeo.\n\nNota que ao usar certos mods, irá consumir mais memória de vídeo, portanto poderá ser necessário ativar esta opção com certos mods.</TextureCompression_Tooltip>
+  <TextureCompression_Tooltip>Desativar a compressão de texturas usa muito mais memória de vídeo, mas faz com que as texturas fiquem ligeiramente melhores em zonas detalhadas. Só desativa se tiveres a certeza de que tens muita memória de vídeo livre.\n\nTem em conta que certos mods consomem muito mais memória de vídeo, pelo que talvez precises de ativar esta opção se adicionares alguns deles.</TextureCompression_Tooltip>
   <!-- EN: Texture compression in the Waylith engine is higher quality and always enabled. -->
-  <TextureCompressionAlwaysOn_Tooltip>TODO</TextureCompressionAlwaysOn_Tooltip>
+  <TextureCompressionAlwaysOn_Tooltip>A compressão de texturas no motor Waylith é de maior qualidade e está sempre ativada.</TextureCompressionAlwaysOn_Tooltip>
   <!-- EN: Smooth camera jumps -->
-  <SmoothCameraJumps>Saltos de câmera suaves</SmoothCameraJumps>
+  <SmoothCameraJumps>Saltos de câmara suaves</SmoothCameraJumps>
   <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
-  <SmoothCameraJumpsDesc>Quando ativado, a câmera fará uma panorâmica rápida ao focar num novo local. Quando desativado, a câmera dará um salto instantâneo.</SmoothCameraJumpsDesc>
+  <SmoothCameraJumpsDesc>Quando ativado, a câmara desloca-se rapidamente ao focar um novo local. Quando desativado, a câmara salta instantaneamente.</SmoothCameraJumpsDesc>
   <!-- EN: Gravship cutscenes -->
-  <GravshipCutscenes>TODO</GravshipCutscenes>
+  <GravshipCutscenes>Cenas animadas da gravinave</GravshipCutscenes>
   <!-- EN: When disabled, gravships will take off and land instantly. -->
-  <GravshipCutscenesDesc>TODO</GravshipCutscenesDesc>
+  <GravshipCutscenesDesc>Quando desativado, as gravinaves descolam e aterram instantaneamente.</GravshipCutscenesDesc>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
@@ -159,27 +159,27 @@
   <!-- EN: Fullscreen -->
   <Fullscreen>Ecrã inteiro</Fullscreen>
   <!-- EN: Borderless fullscreen -->
-  <BorderlessFullscreen>Ecrã inteiro sem bordas</BorderlessFullscreen>
+  <BorderlessFullscreen>Ecrã inteiro sem margens</BorderlessFullscreen>
   <!-- EN: Display mode -->
-  <DisplayMode>TODO</DisplayMode>
+  <DisplayMode>Modo de visualização</DisplayMode>
   <!-- EN: Windowed -->
-  <DisplayMode_Windowed>TODO</DisplayMode_Windowed>
+  <DisplayMode_Windowed>Em janela</DisplayMode_Windowed>
   <!-- EN: Exclusive fullscreen -->
-  <DisplayMode_ExclusiveFullscreen>TODO</DisplayMode_ExclusiveFullscreen>
+  <DisplayMode_ExclusiveFullscreen>Ecrã inteiro exclusivo</DisplayMode_ExclusiveFullscreen>
   <!-- EN: Monitor -->
-  <Monitor>TODO</Monitor>
+  <Monitor>Monitor</Monitor>
   <!-- EN: Automatic -->
-  <Monitor_Automatic>TODO</Monitor_Automatic>
+  <Monitor_Automatic>Automático</Monitor_Automatic>
   <!-- EN: Graphics card -->
-  <Gpu>TODO</Gpu>
+  <Gpu>Placa gráfica</Gpu>
   <!-- EN: Automatic -->
-  <Gpu_Automatic>TODO</Gpu_Automatic>
+  <Gpu_Automatic>Automática</Gpu_Automatic>
   <!-- EN: {0} (in use) -->
-  <Gpu_InUse>TODO</Gpu_InUse>
+  <Gpu_InUse>{0} (em utilização)</Gpu_InUse>
   <!-- EN: Changing the graphics card requires a restart. Unsaved progress will be lost.\n\nRestart now? -->
-  <GpuChangedRestart>TODO</GpuChangedRestart>
+  <GpuChangedRestart>Mudar a placa gráfica requer um reinício. O progresso não guardado será perdido.\n\nReiniciar agora?</GpuChangedRestart>
   <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
-  <BorderlessFullscreenInstructions>Para jogar RimWorld em ecrã inteiro sem bordas:\n\n1)Abre a Steam\n2)Vai à aba "Biblioteca" no topo\n3) Encontra o RimWorld na lista e seleciona-o com o lado direito do rato\n4) Seleciona "Propriedades..."\n5) Adiciona "-popupwindow" sem aspas, nas opções de arranque na seção "Geral"\n6) Reinicia o jogo\n7) Se for feito corretamente, não verás esta janela\n\nDica: Usa a tecla do Windows + Shift + Seta Esquerda/Direita para mover a janela entre monitores.</BorderlessFullscreenInstructions>
+  <BorderlessFullscreenInstructions>Para jogar RimWorld em ecrã inteiro sem margens:\n\n1) Abre a Steam\n2) Vai ao separador "Biblioteca", no topo\n3) Encontra o RimWorld na lista e clica nele com o botão direito do rato\n4) Escolhe "Propriedades..."\n5) Adiciona "-popupwindow" (sem aspas) às "Opções de arranque", no separador "Geral"\n6) Reinicia o jogo\n7) Se tudo correr bem, não verás esta janela\n\nDica: usa a tecla Windows + Shift + seta esquerda/direita para mover a janela entre monitores.</BorderlessFullscreenInstructions>
 
   <!-- Mods -->
   <!-- EN: Select mod... -->
@@ -189,18 +189,18 @@
   
   <!-- Options reset -->
   <!-- EN: Restore all settings to default -->
-  <RestoreToDefaultSettingsLabel>Restaurar todas as definições para o padrão</RestoreToDefaultSettingsLabel>
+  <RestoreToDefaultSettingsLabel>Repor todas as definições para as predefinições</RestoreToDefaultSettingsLabel>
   <!-- EN: Restore defaults -->
-  <RestoreToDefaultSettings>Restaurar padrões</RestoreToDefaultSettings>
+  <RestoreToDefaultSettings>Repor predefinições</RestoreToDefaultSettings>
   <!-- EN: All settings have been reset. The game will now restart automatically. -->
-  <ResetAndRestart>Todas as definições foram restauradas. O jogo irá reiniciar automaticamente.</ResetAndRestart>
+  <ResetAndRestart>Todas as definições foram repostas. O jogo vai reiniciar automaticamente.</ResetAndRestart>
   <!-- EN: All settings will be reset to the default and the game will be restarted. Unsaved progress will be lost,\n\nContinue? -->
-  <ResetAndRestartConfirmationDialog>Todas as definições foram restauradas para o padrão e o jogo será reiniciado. Progresso que não foi salvo será perdido,\n\nContinuar?</ResetAndRestartConfirmationDialog>
+  <ResetAndRestartConfirmationDialog>Todas as definições serão repostas para as predefinições e o jogo será reiniciado. O progresso não guardado será perdido.\n\nContinuar?</ResetAndRestartConfirmationDialog>
   <!-- EN: Changing texture compression settings requires a restart. Unsaved progress will be lost.\n\nContinue? -->
-  <ChangedTextureCompressionRestart>Mudar a compressão de textura requer um reinício. Progresso que não foi salvo será perdido,\n\nContinuar?</ChangedTextureCompressionRestart>
+  <ChangedTextureCompressionRestart>Mudar a compressão de texturas requer um reinício. O progresso não guardado será perdido.\n\nContinuar?</ChangedTextureCompressionRestart>
   
   <!-- Background image -->
   <!-- EN: Menu background -->
-  <SetBackgroundImage>Plano de fundo do menu</SetBackgroundImage>
+  <SetBackgroundImage>Fundo do menu</SetBackgroundImage>
 
 </LanguageData>
