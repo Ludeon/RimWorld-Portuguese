@@ -132,17 +132,17 @@
   <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
   <HemogenDesc>O hemogénio é uma fonte de energia biológica derivada de compostos do sangue humano. Os humanos de base produzem-no de forma endógena e consomem-no ao longo do tempo no seu equilíbrio interno. Alguns xenótipos humanos usam-no como uma espécie de combustível para habilidades específicas, enquanto outros têm de o consumir para sobreviver.</HemogenDesc>
   <!-- EN: deathrest capacity -->
-  <DeathrestCapacity>capacidade de sono mortal</DeathrestCapacity>
+  <DeathrestCapacity>capacidade de descanso mortal</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
-  <DeathrestCapacityDesc>Determina a quantos edifícios de sono mortal uma pessoa se pode ligar durante o sono mortal. Cada edifício de sono mortal confere um benefício específico, por isso é melhor poder ligar-se a mais deles.\n\nA capacidade de sono mortal pode ser aumentada com soros de capacidade de sono mortal. Estes soros podem ser comprados a comerciantes.</DeathrestCapacityDesc>
+  <DeathrestCapacityDesc>Determina a quantos edifícios de descanso mortal uma pessoa se pode ligar durante o descanso mortal. Cada edifício de descanso mortal confere um benefício específico, por isso é melhor poder ligar-se a mais deles.\n\nA capacidade de descanso mortal pode ser aumentada com soros de capacidade de descanso mortal. Estes soros podem ser comprados a comerciantes.</DeathrestCapacityDesc>
   <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
-  <PawnIsConnectedToBuildings>{PAWN_nameDef} está ligado(a) a {CURRENT} / {MAX} (máx.) edifícios de sono mortal.</PawnIsConnectedToBuildings>
+  <PawnIsConnectedToBuildings>{PAWN_nameDef} está ligado(a) a {CURRENT} / {MAX} (máx.) edifícios de descanso mortal.</PawnIsConnectedToBuildings>
   <!-- EN: wake now -->
   <Wake>acordar agora</Wake>
   <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
-  <WakeDesc>Acordar do sono mortal.\n\n{PAWN_nameDef} está em sono mortal há {DURATION}.</WakeDesc>
+  <WakeDesc>Acordar do descanso mortal.\n\n{PAWN_nameDef} está em descanso mortal há {DURATION}.</WakeDesc>
   <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
-  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} precisa de fazer sono mortal durante pelo menos {TOTAL}. Acordar {PAWN_objective} mais cedo deixá-lo-á doente, e {PAWN_pronoun} não beneficiará de nenhum edifício de sono mortal.</WakeExtraDesc_Exhaustion>
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} precisa de fazer descanso mortal durante pelo menos {TOTAL}. Acordar {PAWN_objective} mais cedo deixá-lo-á doente, e {PAWN_pronoun} não beneficiará de nenhum edifício de descanso mortal.</WakeExtraDesc_Exhaustion>
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
   <WakeExtraDesc_Safe>{PAWN_nameDef} já pode acordar em segurança.</WakeExtraDesc_Safe>
   <!-- EN: Cannot wake. Need at least {0} hemogen. -->
@@ -150,17 +150,17 @@
   <!-- EN: Auto-wake -->
   <AutoWake>Acordar automático</AutoWake>
   <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
-  <AutoWakeDesc>Quando ativo, {PAWN_nameDef} acordará automaticamente assim que o sono mortal de {PAWN_possessive} terminar.\n\nQuando desativo, {PAWN_pronoun} continuará em sono mortal até o acordares manualmente.</AutoWakeDesc>
+  <AutoWakeDesc>Quando ativo, {PAWN_nameDef} acordará automaticamente assim que o descanso mortal de {PAWN_possessive} terminar.\n\nQuando desativo, {PAWN_pronoun} continuará em descanso mortal até o acordares manualmente.</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
-  <IsDeathresting>{PAWN_nameDef} está em sono mortal.</IsDeathresting>
+  <IsDeathresting>{PAWN_nameDef} está em descanso mortal.</IsDeathresting>
   <!-- EN: cannot deathrest -->
-  <CannotDeathrest>não pode fazer sono mortal</CannotDeathrest>
+  <CannotDeathrest>não pode fazer descanso mortal</CannotDeathrest>
   <!-- EN: Start deathrest -->
-  <StartDeathrest>Iniciar sono mortal</StartDeathrest>
+  <StartDeathrest>Iniciar descanso mortal</StartDeathrest>
   <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
-  <ConfirmExitDeathrestUnderMinDays>Concluir o sono mortal em segurança demora {MINDURATION}, mas {PAWN_nameDef} só está em sono mortal há {CURDURATION}.\n\nAcordar {PAWN_nameDef} agora interromperia o sono mortal de {PAWN_possessive}, desequilibrando o metabolismo de {PAWN_possessive} e deixando {PAWN_objective} doente durante dias.\n\nTens a certeza de que queres acordar {PAWN_objective}?</ConfirmExitDeathrestUnderMinDays>
+  <ConfirmExitDeathrestUnderMinDays>Concluir o descanso mortal em segurança demora {MINDURATION}, mas {PAWN_nameDef} só está em descanso mortal há {CURDURATION}.\n\nAcordar {PAWN_nameDef} agora interromperia o descanso mortal de {PAWN_possessive}, desequilibrando o metabolismo de {PAWN_possessive} e deixando {PAWN_objective} doente durante dias.\n\nTens a certeza de que queres acordar {PAWN_objective}?</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
-  <Deathresting>em sono mortal</Deathresting>
+  <Deathresting>em descanso mortal</Deathresting>
   <!-- EN: can wake safely now. -->
   <CanWakeSafely>já pode acordar em segurança.</CanWakeSafely>
   <!-- EN: Disabled by gene -->
@@ -172,9 +172,9 @@
   <!-- EN: Regeneration rate -->
   <RegenerationRate>Ritmo de regeneração</RegenerationRate>
   <!-- EN: {PAWN_nameDef} should deathrest in {DURATION} to avoid exhaustion. -->
-  <NextDeathrestNeed>{PAWN_nameDef} deve fazer sono mortal dentro de {DURATION} para evitar a exaustão.</NextDeathrestNeed>
+  <NextDeathrestNeed>{PAWN_nameDef} deve fazer descanso mortal dentro de {DURATION} para evitar a exaustão.</NextDeathrestNeed>
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
-  <PawnShouldDeathrestNow>{PAWN_nameDef} deve fazer sono mortal em breve para evitar a exaustão.</PawnShouldDeathrestNow>
+  <PawnShouldDeathrestNow>{PAWN_nameDef} deve fazer descanso mortal em breve para evitar a exaustão.</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
   <AutoTakeHemogenDesc>Determina se {PAWN_nameDef} ingerirá automaticamente sacos de hemogénio quando o hemogénio de {PAWN_possessive} estiver abaixo de {MIN}.\n\nA ingestão automática está atualmente {ONOFF}.</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
@@ -194,11 +194,11 @@
   <!-- EN: Will bind permanently on first use. -->
   <WillBindOnFirstUse>Ligará permanentemente no primeiro uso.</WillBindOnFirstUse>
   <!-- EN: Time active this deathrest -->
-  <TimeActiveThisDeathrest>Tempo ativo neste sono mortal</TimeActiveThisDeathrest>
+  <TimeActiveThisDeathrest>Tempo ativo neste descanso mortal</TimeActiveThisDeathrest>
   <!-- EN: Minimum is {0} to apply -->
   <MinimumNeededToApply>O mínimo é {0} para aplicar</MinimumNeededToApply>
   <!-- EN: Cannot deathrest -->
-  <CannotAssignBedCannotDeathrest>Não pode fazer sono mortal</CannotAssignBedCannotDeathrest>
+  <CannotAssignBedCannotDeathrest>Não pode fazer descanso mortal</CannotAssignBedCannotDeathrest>
   <!-- EN: Already bound to {0_nameDef} -->
   <CannotAssignAlreadyBound>Já ligado a {0_nameDef}</CannotAssignAlreadyBound>
   <!-- EN: Cannot bind to more {BUILDING_labelPlural} -->
@@ -420,15 +420,15 @@
   <!-- EN: Xenogerm -->
   <Xenogerm>Xenogerme</Xenogerm>
   <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} continuará em sono mortal enquanto {PAWN_pronoun} tiver ferimentos letais.</PawnWillKeepDeathrestingLethalInjuries>
+  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} continuará em descanso mortal enquanto {PAWN_pronoun} tiver ferimentos letais.</PawnWillKeepDeathrestingLethalInjuries>
   <!-- EN: {PAWN_nameDef} will remain in a regeneration coma so long as {PAWN_pronoun} has lethal injuries. -->
   <PawnWillKeepRegeneratingLethalInjuries>{PAWN_nameDef} permanecerá em coma de regeneração enquanto {PAWN_pronoun} tiver ferimentos letais.</PawnWillKeepRegeneratingLethalInjuries>
   <!-- EN: Deathrest stopped -->
-  <DeathrestPaused>Sono mortal interrompido</DeathrestPaused>
+  <DeathrestPaused>Descanso mortal interrompido</DeathrestPaused>
   <!-- EN: Lethal injuries -->
   <LethalInjuries>Ferimentos letais</LethalInjuries>
   <!-- EN: deathrest -->
-  <Deathrest>sono mortal</Deathrest>
+  <Deathrest>descanso mortal</Deathrest>
   <!-- EN: capacity -->
   <Capacity>capacidade</Capacity>
   <!-- EN: Non-{GENE} romance chance -->
