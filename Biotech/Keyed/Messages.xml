@@ -73,7 +73,7 @@
   <MessageWorkTypeDisabledAge>{0_nameDef} tem apenas {1} anos. O trabalho de {2} só pode ser feito a partir dos {3} anos.</MessageWorkTypeDisabledAge>
 
   <!-- EN: {PAWN_nameDef} can now wake from deathrest safely. -->
-  <MessageDeathrestingPawnCanWakeSafely>{PAWN_nameDef} já pode acordar do sono mortal em segurança.</MessageDeathrestingPawnCanWakeSafely>
+  <MessageDeathrestingPawnCanWakeSafely>{PAWN_nameDef} já pode acordar do descanso mortal em segurança.</MessageDeathrestingPawnCanWakeSafely>
 
   <!-- EN: {0_nameDef} has lost control of a {1_kindBase} mech -->
   <MessageMechanitorLostControlOfMech>{0_nameDef} perdeu o controlo de um mec {1_kindBase}</MessageMechanitorLostControlOfMech>
@@ -97,7 +97,7 @@
   <MessageGeneMissingPrerequisite>{0} não tem um gene pré-requisito</MessageGeneMissingPrerequisite>
 
   <!-- EN: {PAWN_nameDef}'s deathrest capacity has increased from {OLD} to {NEW}. -->
-  <MessageDeathrestCapacityChanged>A capacidade de sono mortal de {PAWN_nameDef} aumentou de {OLD} para {NEW}.</MessageDeathrestCapacityChanged>
+  <MessageDeathrestCapacityChanged>A capacidade de descanso mortal de {PAWN_nameDef} aumentou de {OLD} para {NEW}.</MessageDeathrestCapacityChanged>
 
   <!-- EN: The sanguophages will arrive in a few hours for their meeting. -->
   <SanguophagesArrivingSoon>Os sanguófagos chegarão dentro de algumas horas para a sua reunião.</SanguophagesArrivingSoon>
@@ -107,9 +107,9 @@
   <SanguophagesLeavingTemperature>Os sanguófagos vão-se embora devido a uma temperatura que põe a vida em risco.</SanguophagesLeavingTemperature>
 
   <!-- EN: {PAWN_nameDef} was woken from {PAWN_possessive} deathrest due to sunlight exposure. -->
-  <MessagePawnWokenFromSunlight>{PAWN_nameDef} foi acordado(a) do sono mortal devido à exposição à luz solar.</MessagePawnWokenFromSunlight>
+  <MessagePawnWokenFromSunlight>{PAWN_nameDef} foi acordado(a) do descanso mortal devido à exposição à luz solar.</MessagePawnWokenFromSunlight>
   <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
-  <MessageBedExposedToSunlight>O/A {BED_labelShort} que {PAWN_nameDef} tem designado para o sono mortal foi exposto(a) à luz solar. {PAWN_nameDef} não pode fazer sono mortal aí.</MessageBedExposedToSunlight>
+  <MessageBedExposedToSunlight>O/A {BED_labelShort} que {PAWN_nameDef} tem designado para o descanso mortal foi exposto(a) à luz solar. {PAWN_nameDef} não pode fazer descanso mortal aí.</MessageBedExposedToSunlight>
 
   <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
   <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort} foi ejetado(a) de um extrator de genes por falta de energia.</GeneExtractorNoPowerEjectedMessage>
@@ -118,7 +118,7 @@
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
   <MessagePawnKilledRipscanner>O cérebro de {PAWN_nameDef} foi destruído pelo ripscanner de subnúcleo.</MessagePawnKilledRipscanner>
   <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
-  <MessageSubcoreSoftscannerCompleted>Escâner de software de subnúcleo concluído para {PAWN_nameDef}.</MessageSubcoreSoftscannerCompleted>
+  <MessageSubcoreSoftscannerCompleted>Scanner de software de subnúcleo concluído para {PAWN_nameDef}.</MessageSubcoreSoftscannerCompleted>
 
   <!-- EN: Cannot resurrect dessicated corpses. -->
   <MessageCannotResurrectDessicatedCorpse>Não é possível ressuscitar cadáveres dessecados.</MessageCannotResurrectDessicatedCorpse>
@@ -138,7 +138,7 @@
   <MessageConflictingGenesPresent>Não é possível guardar um xenótipo com vários genes em conflito.</MessageConflictingGenesPresent>
 
   <!-- EN: {BUILDING_labelShort} has been bound to {PAWN_nameDef} ({CUR}/{MAX} deathrest capacity). -->
-  <MessageDeathrestBuildingBound>{BUILDING_labelShort} foi ligado a {PAWN_nameDef} (capacidade de sono mortal {CUR}/{MAX}).</MessageDeathrestBuildingBound>
+  <MessageDeathrestBuildingBound>{BUILDING_labelShort} foi ligado a {PAWN_nameDef} (capacidade de descanso mortal {CUR}/{MAX}).</MessageDeathrestBuildingBound>
 
   <!-- EN: Developmental stage selection disabled by scenario. -->
   <MessageDevelopmentalStageSelectionDisabledByScenario>Seleção da fase de desenvolvimento desativada pelo cenário.</MessageDevelopmentalStageSelectionDisabledByScenario>

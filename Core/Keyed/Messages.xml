@@ -62,7 +62,7 @@
   <MessageConditionCauserDespawned>{0} foi destruído.</MessageConditionCauserDespawned>
   
   <!-- EN: Bill complete: {0}. -->
-  <MessageBillComplete>Encomenda concluída: {0}.</MessageBillComplete>
+  <MessageBillComplete>Tarefa concluída: {0}.</MessageBillComplete>
 
   <!-- EN: {1_label} is fully healed. -->
   <MessageFullyHealed>{1_label} recuperou por completo.</MessageFullyHealed>
@@ -591,21 +591,21 @@
   <MessageFormedCaravan_Orders>Ordens</MessageFormedCaravan_Orders>
 
   <!-- EN: {1}'s "{0}" can no longer deliver to deleted stockpile {2}. -->
-  <MessageBillValidationStoreZoneDeleted>A encomenda "{0}" de {1} já não pode entregar no armazém eliminado {2}.</MessageBillValidationStoreZoneDeleted>
+  <MessageBillValidationStoreZoneDeleted>A tarefa "{0}" de {1} já não pode entregar no armazém eliminado {2}.</MessageBillValidationStoreZoneDeleted>
   <!-- EN: {1}'s "{0}" can no longer deliver to unavailable stockpile {2}. -->
-  <MessageBillValidationStoreZoneUnavailable>A encomenda "{0}" de {1} já não pode entregar no armazém indisponível {2}.</MessageBillValidationStoreZoneUnavailable>
+  <MessageBillValidationStoreZoneUnavailable>A tarefa "{0}" de {1} já não pode entregar no armazém indisponível {2}.</MessageBillValidationStoreZoneUnavailable>
   <!-- EN: {0} can no longer work on "{1}" at {2}. The restriction has been removed. -->
   <MessageBillValidationPawnUnavailable>{0} já não pode trabalhar em "{1}" em {2}. A restrição foi removida.</MessageBillValidationPawnUnavailable>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted stockpile {2}. -->
-  <MessageBillValidationIncludeZoneDeleted>A encomenda "{0}" de {1} já não pode contar itens no armazém eliminado {2}.</MessageBillValidationIncludeZoneDeleted>
+  <MessageBillValidationIncludeZoneDeleted>A tarefa "{0}" de {1} já não pode contar itens no armazém eliminado {2}.</MessageBillValidationIncludeZoneDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted building {2}. -->
-  <MessageBillValidationIncludeBuildingDeleted>A encomenda "{0}" de {1} já não pode contar itens no edifício eliminado {2}.</MessageBillValidationIncludeBuildingDeleted>
+  <MessageBillValidationIncludeBuildingDeleted>A tarefa "{0}" de {1} já não pode contar itens no edifício eliminado {2}.</MessageBillValidationIncludeBuildingDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted storage group {2}. -->
-  <MessageBillValidationIncludeStorageGroupDeleted>A encomenda "{0}" de {1} já não pode contar itens no grupo de armazenamento eliminado {2}.</MessageBillValidationIncludeStorageGroupDeleted>
+  <MessageBillValidationIncludeStorageGroupDeleted>A tarefa "{0}" de {1} já não pode contar itens no grupo de armazenamento eliminado {2}.</MessageBillValidationIncludeStorageGroupDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in unavailable stockpile {2}. -->
-  <MessageBillValidationIncludeZoneUnavailable>A encomenda "{0}" de {1} já não pode contar itens no armazém indisponível {2}.</MessageBillValidationIncludeZoneUnavailable>
+  <MessageBillValidationIncludeZoneUnavailable>A tarefa "{0}" de {1} já não pode contar itens no armazém indisponível {2}.</MessageBillValidationIncludeZoneUnavailable>
   <!-- EN: {1}'s "{0}" can no longer deliver all products to stockpile {2}. -->
-  <MessageBillValidationStoreZoneInsufficient>A encomenda "{0}" de {1} já não consegue entregar todos os produtos no armazém {2}.</MessageBillValidationStoreZoneInsufficient>
+  <MessageBillValidationStoreZoneInsufficient>A tarefa "{0}" de {1} já não consegue entregar todos os produtos no armazém {2}.</MessageBillValidationStoreZoneInsufficient>
 
   <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
   <MessageAnimalReturnedWild>Por falta de manutenção da domesticação, {1_labelShort} voltou à natureza.</MessageAnimalReturnedWild>
@@ -743,7 +743,7 @@
   <!-- EN: No roles available for {0_labelShort}. -->
   <MessageRitualNoRolesAvailable>Não há papéis disponíveis para {0_labelShort}.</MessageRitualNoRolesAvailable>
   <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
-  <MessageRitualNotOfPlayerIdeo>{0_labelShort} não pertence a nenhuma ideoligião da colónia.</MessageRitualNotOfPlayerIdeo>
+  <MessageRitualNotOfPlayerIdeo>{0_labelShort} não pertence a nenhuma ideologia da colónia.</MessageRitualNotOfPlayerIdeo>
   <!-- EN: {0} must have eyes -->
   <MessageRitualRoleMustHaveEyes>{0} tem de ter olhos</MessageRitualRoleMustHaveEyes>
   <!-- EN: {0_labelShort} does not require further scarification. -->
@@ -759,7 +759,7 @@
   <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
   <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort} não pode ligar-se a uma árvore gauranlen porque a ligação foi cortada recentemente.</MessageRitualRolePawnRecentlyTornConnection>
   <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
-  <MessageRitualRolePawnHasSameIdeo>{0_labelShort} tem a mesma ideoligião que o conversor.</MessageRitualRolePawnHasSameIdeo>
+  <MessageRitualRolePawnHasSameIdeo>{0_labelShort} tem a mesma ideologia que o conversor.</MessageRitualRolePawnHasSameIdeo>
   <!-- EN: {0_labelShort} must be capable of wardening. -->
   <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} tem de ser capaz de fazer de carcereiro.</MessageRitualRoleMustBeCapableOfWardening>
   <!-- EN: {0} must be capable of {1}. -->

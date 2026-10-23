@@ -945,47 +945,47 @@
   
   <!-- Policies -->
   <!-- EN: Available policies -->
-  <AvailablePolicies>Políticas disponíveis</AvailablePolicies>
+  <AvailablePolicies>Regras disponíveis</AvailablePolicies>
   <!-- EN: Unnamed -->
   <UnnamedPolicy>Sem nome</UnnamedPolicy>
   <!-- EN: New... -->
   <NewPolicy>Nova...</NewPolicy>
   <!-- EN: Invalid policy name -->
-  <InvalidName>Nome de política inválido</InvalidName>
+  <InvalidName>Nome de regra inválido</InvalidName>
   <!-- EN: Delete the selected policy. -->
-  <DeletePolicyTip>Apagar a política selecionada.</DeletePolicyTip>
+  <DeletePolicyTip>Apagar a regra selecionada.</DeletePolicyTip>
   <!-- EN: Create a duplicate of the selected policy. -->
-  <DuplicatePolicyTip>Criar uma cópia da política selecionada.</DuplicatePolicyTip>
+  <DuplicatePolicyTip>Criar uma cópia da regra selecionada.</DuplicatePolicyTip>
   <!-- EN: Rename this policy. -->
-  <RenamePolicyTip>Mudar o nome desta política.</RenamePolicyTip>
+  <RenamePolicyTip>Mudar o nome desta regra.</RenamePolicyTip>
   <!-- EN: Make this policy the default policy given to new colonists. -->
-  <DefaultPolicyTip>Tornar esta política a política predefinida atribuída aos novos colonos.</DefaultPolicyTip>
+  <DefaultPolicyTip>Tornar esta regra a regra predefinida atribuída aos novos colonos.</DefaultPolicyTip>
   <!-- EN: Are you sure you want to delete the policy: {0}? -->
-  <DeletePolicyConfirm>Tens a certeza de que queres apagar a política: {0}?</DeletePolicyConfirm>
+  <DeletePolicyConfirm>Tens a certeza de que queres apagar a regra: {0}?</DeletePolicyConfirm>
   <!-- EN: Delete -->
   <DeletePolicyConfirmButton>Apagar</DeletePolicyConfirmButton>
   <!-- EN: No policy selected -->
-  <NoPolicySelected>Nenhuma política selecionada</NoPolicySelected>
+  <NoPolicySelected>Nenhuma regra selecionada</NoPolicySelected>
   
   <!-- Outfit management -->
   <!-- EN: Apparel policies -->
-  <ApparelPolicyTitle>Políticas de vestuário</ApparelPolicyTitle>
+  <ApparelPolicyTitle>Regras de vestuário</ApparelPolicyTitle>
   <!-- EN: Create and manage templates for controlling what apparel items colony members can wear. -->
   <ApparelPolicyTip>Cria e gere modelos para controlar que peças de vestuário os membros da colónia podem usar.</ApparelPolicyTip>
   <!-- EN: Apparel policy -->
-  <ApparelPolicy>Política de vestuário</ApparelPolicy>
+  <ApparelPolicy>Regra de vestuário</ApparelPolicy>
   <!-- EN: Apparel policy is in use by {0}. -->
-  <OutfitInUse>A política de vestuário está em uso por {0}.</OutfitInUse>
+  <OutfitInUse>A regra de vestuário está em uso por {0}.</OutfitInUse>
   
   <!-- Drug policy management -->
   <!-- EN: Drug policies -->
-  <DrugPolicyTitle>Políticas de drogas</DrugPolicyTitle>
+  <DrugPolicyTitle>Regras de drogas</DrugPolicyTitle>
   <!-- EN: Create and manage templates for controlling which drugs your colonists are allowed to consume. -->
   <DrugPolicyTip>Cria e gere modelos para controlar que drogas os teus colonos podem consumir.</DrugPolicyTip>
   <!-- EN: Drug policy -->
-  <DrugPolicy>Política de drogas</DrugPolicy>
+  <DrugPolicy>Regra de drogas</DrugPolicy>
   <!-- EN: Drugs policy is in use by {0}. -->
-  <DrugPolicyInUse>A política de drogas está em uso por {0}.</DrugPolicyInUse>
+  <DrugPolicyInUse>A regra de drogas está em uso por {0}.</DrugPolicyInUse>
   <!-- EN: Food restriction is in use by {0}. -->
   <FoodRestrictionInUse>A restrição alimentar está em uso por {0}.</FoodRestrictionInUse>
   <!-- EN: Add drug... -->
@@ -1031,11 +1031,11 @@
 
   <!-- Food restriction management -->
   <!-- EN: Food policies -->
-  <FoodPolicyTitle>Políticas alimentares</FoodPolicyTitle>
+  <FoodPolicyTitle>Regras alimentares</FoodPolicyTitle>
   <!-- EN: Create and manage templates for controlling what food items colony members can eat. -->
   <FoodPolicyTip>Cria e gere modelos para controlar que alimentos os membros da colónia podem comer.</FoodPolicyTip>
   <!-- EN: Food policy -->
-  <FoodPolicy>Política alimentar</FoodPolicy>
+  <FoodPolicy>Regra alimentar</FoodPolicy>
   <!-- EN: Allow food -->
   <AllowFood>Permitir comida</AllowFood>
   <!-- EN: Lavish -->
@@ -1053,13 +1053,13 @@
   
   <!-- Reading management -->
   <!-- EN: Reading policies -->
-  <ReadingPolicyTitle>Políticas de leitura</ReadingPolicyTitle>
+  <ReadingPolicyTitle>Regras de leitura</ReadingPolicyTitle>
   <!-- EN: Create and manage templates for controlling which books colony members are allowed to read. -->
   <ReadingPolicyTip>Cria e gere modelos para controlar que livros os membros da colónia podem ler.</ReadingPolicyTip>
   <!-- EN: Reading policy -->
-  <ReadingPolicy>Política de leitura</ReadingPolicy>
+  <ReadingPolicy>Regra de leitura</ReadingPolicy>
   <!-- EN: Reading policy is in use. -->
-  <ReadingPolicyInUse>A política de leitura está em uso.</ReadingPolicyInUse>
+  <ReadingPolicyInUse>A regra de leitura está em uso.</ReadingPolicyInUse>
 
   <!-- EN: Anything -->
   <AllReadingPolicy>Tudo</AllReadingPolicy>
@@ -1235,9 +1235,9 @@
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
   <AbilityCantGetInspiredNow>{0_labelShort} não pode receber uma inspiração neste momento.</AbilityCantGetInspiredNow>
   <!-- EN: {0_labelShort} must be of a different ideoligion than {1_labelShort}. -->
-  <AbilityMustBeNotSameIdeo>{0_labelShort} tem de ser de uma ideoligião diferente de {1_labelShort}.</AbilityMustBeNotSameIdeo>
+  <AbilityMustBeNotSameIdeo>{0_labelShort} tem de ser de uma ideologia diferente de {1_labelShort}.</AbilityMustBeNotSameIdeo>
   <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
-  <AbilityMustBeSameIdeo>{0_labelShort} tem de ser da mesma ideoligião que {1_labelShort}.</AbilityMustBeSameIdeo>
+  <AbilityMustBeSameIdeo>{0_labelShort} tem de ser da mesma ideologia que {1_labelShort}.</AbilityMustBeSameIdeo>
   <!-- EN: {0_labelShort} must be sick or injured. -->
   <AbilityMustBeSickOrInjured>{0_labelShort} tem de estar doente ou ferido.</AbilityMustBeSickOrInjured>
   <!-- EN: {0} can only counsel {1}s. -->
@@ -1446,7 +1446,7 @@
   <ColonyGainsName>A colónia é agora conhecida como {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Esse nome para a colónia não é válido.</ColonyNameIsInvalid>
   <Researched>Pesquisado</Researched>
-  <ResearchMenuWithoutBench>Até que construas um RESEARCH BENCH, os teus colonos não conseguirão fazer pesquisas.\n\nNo entanto, podes ver na mesma os projectos de pesquisa.</ResearchMenuWithoutBench>
+  <ResearchMenuWithoutBench>Até que construas um RESEARCH BENCH, os teus colonos não conseguirão fazer pesquisas.\n\nNo entanto, podes ver na mesma os projetos de investigação.</ResearchMenuWithoutBench>
   <DoXTimes>Fazer X vezes</DoXTimes>
   <DoUntilYouHaveX>Fazer até ter X</DoUntilYouHaveX>
   <DoForever>Fazer eternamente</DoForever>
@@ -1455,7 +1455,7 @@
   <BillStoreMode_NearestStockpileAnyPriority>Levar para a zona de stock mais próxima</BillStoreMode_NearestStockpileAnyPriority>
   <DragToTrade>Arrasta o número\npara trocar</DragToTrade>
   <InitializingMap>A inicializar mapa</InitializingMap>
-  <ResearchPrerequisites>Requisitos de pesquisa</ResearchPrerequisites>
+  <ResearchPrerequisites>Requisitos de investigação</ResearchPrerequisites>
   <PermadeathMode>Modo morte-permanete</PermadeathMode>
   <MinimumSkillLevel>Habilidade min de {0}</MinimumSkillLevel>
   <BillRequiresNutrition>Requer {0} nutrição</BillRequiresNutrition>

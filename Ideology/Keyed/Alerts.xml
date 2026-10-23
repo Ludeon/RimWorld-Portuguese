@@ -37,7 +37,7 @@
   <!-- EN: {0} desired -->
   <IdeoBuildingMissing>{0} desejado</IdeoBuildingMissing>
   <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\n{0} is a variant of {BASEBUILDING_label}.{BUILDINGINFO}\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
-  <IdeoBuildingMissingDesc>{IDEO_name} exige que tenhas um(a) {0} na tua colónia enquanto {2} ou superior.\n\n{0} é uma variante de {BASEBUILDING_label}.{BUILDINGINFO}\n\nEste requisito só está ativo se {IDEO_name} for a ideoligião principal da tua fação, ou se houver {MINBELIEVERS} crentes na tua fação.{4}\n\nSe o requisito não for cumprido, estes crentes ficarão infelizes:\n{3}</IdeoBuildingMissingDesc>
+  <IdeoBuildingMissingDesc>{IDEO_name} exige que tenhas um(a) {0} na tua colónia enquanto {2} ou superior.\n\n{0} é uma variante de {BASEBUILDING_label}.{BUILDINGINFO}\n\nEste requisito só está ativo se {IDEO_name} for a ideologia principal da tua fação, ou se houver {MINBELIEVERS} crentes na tua fação.{4}\n\nSe o requisito não for cumprido, estes crentes ficarão infelizes:\n{3}</IdeoBuildingMissingDesc>
   <!-- EN:  You can find it by opening the '{TABNAME}' tab of the architect menu. -->
   <IdeoBuildingArchitectTabDesc> Podes encontrá-lo ao abrir o separador '{TABNAME}' do menu do arquiteto.</IdeoBuildingArchitectTabDesc>
   <!-- EN:  It can be created at:\n{0}. -->
@@ -99,9 +99,9 @@
   <!-- EN: One or more Gauranlen trees do not have their dryad caste set.\n\nSelect the tree and click the '{0}' button to set produced dryad caste. -->
   <AlertGauranlenTreeWithoutDryadTypeDesc>Uma ou mais árvores gauranlen não têm a casta de dríade definida.\n\nSeleciona a árvore e clica no botão '{0}' para definir a casta de dríade produzida.</AlertGauranlenTreeWithoutDryadTypeDesc>
   <!-- EN: Connector not assigned to plant cutting -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>Conector sem corte de plantas atribuído</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
+  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>Conector sem colheita atribuída</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
   <!-- EN: You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>Tens árvores gauranlen marcadas para serem podadas, mas os seus conectores não têm o corte de plantas atribuído.\n\nDevias atribuir o trabalho de corte de plantas às seguintes pessoas</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>Tens árvores gauranlen marcadas para serem podadas, mas os seus conectores não têm a colheita atribuída.\n\nDevias atribuir o trabalho de colheita às seguintes pessoas</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
 
   <!-- EN: Fuel node explodes in {0} -->
   <AlertFuelNodeIgniting>Nó de combustível explode em {0}</AlertFuelNodeIgniting>

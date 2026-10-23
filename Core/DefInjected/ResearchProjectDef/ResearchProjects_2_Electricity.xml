@@ -80,7 +80,7 @@
   </BiofuelRefining.generalRules.rulesStrings>
 
   <!-- EN: blowback operation -->
-  <BlowbackOperation.label>operação por recuo</BlowbackOperation.label>
+  <BlowbackOperation.label>ação por recuo</BlowbackOperation.label>
   <!-- EN: Craft low-power blowback-operated guns like autopistols and machine pistols. -->
   <BlowbackOperation.description>Fabrica armas de baixa potência com funcionamento por recuo, como pistolas automáticas e pistolas-metralhadoras.</BlowbackOperation.description>
   <!-- EN:
@@ -143,9 +143,9 @@
   </Electricity.generalRules.rulesStrings>
 
   <!-- EN: firefoam -->
-  <Firefoam.label>espuma anti-incêndio</Firefoam.label>
+  <Firefoam.label>espuma anti-fogo</Firefoam.label>
   <!-- EN: Construct firefoam poppers, automatic fire-safety devices which spread fire-retardant foam in response to encroaching flames. -->
-  <Firefoam.description>Constrói aspersores de espuma anti-incêndio, dispositivos de segurança automáticos que espalham espuma retardadora de chamas quando o fogo se aproxima.</Firefoam.description>
+  <Firefoam.description>Constrói aspersores de espuma anti-fogo, dispositivos de segurança automáticos que espalham espuma retardadora de chamas quando o fogo se aproxima.</Firefoam.description>
   <!-- EN:
     <li>subject->firefoam poppers</li>
     <li>subject->fire safety devices</li>
@@ -156,12 +156,12 @@
     <li>subject_gerund->suppressing fires with poppers</li>
   -->
   <Firefoam.generalRules.rulesStrings>
-    <li>subject->aspersores de espuma anti-incêndio</li>
+    <li>subject->aspersores de espuma anti-fogo</li>
     <li>subject->dispositivos de segurança contra incêndios</li>
     <li>subject_story->dirigiu uma agência que promovia a segurança contra incêndios junto de toda a população</li>
     <li>subject_story->tornou-se bombeiro</li>
     <li>subject_story->foi salvo pelos aspersores quando um incêndio de petróleo se descontrolou</li>
-    <li>subject_gerund->a construir aspersores de espuma anti-incêndio</li>
+    <li>subject_gerund->a construir aspersores de espuma anti-fogo</li>
     <li>subject_gerund->a combater incêndios com aspersores</li>
   </Firefoam.generalRules.rulesStrings>
 
@@ -200,7 +200,7 @@
   <FoamTurret.generalRules.rulesStrings>
     <li>subject->torretas de espuma</li>
     <li>subject->torretas de supressão de incêndios</li>
-    <li>subject_story->redesenhou torretas de armas para apagarem incêndios em vez de os provocarem</li>
+    <li>subject_story->redesenhou torretas armadas para apagarem incêndios em vez de os provocarem</li>
     <li>subject_story->integrou sensores de calor e ejetores de espuma num chassis de torreta normal</li>
     <li>subject_story->foi elogiado depois de instalar torretas de espuma baratas em zonas públicas e salvar muitas vidas</li>
     <li>subject_gerund->a construir torretas de supressão de incêndios</li>
@@ -208,7 +208,7 @@
   </FoamTurret.generalRules.rulesStrings>
 
   <!-- EN: gas operation -->
-  <GasOperation.label>operação a gás</GasOperation.label>
+  <GasOperation.label>ação a gás</GasOperation.label>
   <!-- EN: Craft high-power guns like chain shotguns, LMGs, and heavy SMGs. -->
   <GasOperation.description>Fabrica armas de alta potência, como caçadeiras de corrente, metralhadoras ligeiras e pistolas-metralhadoras pesadas.</GasOperation.description>
   <!-- EN:
@@ -250,7 +250,7 @@
   </GeothermalPower.generalRules.rulesStrings>
 
   <!-- EN: gunsmithing -->
-  <Gunsmithing.label>armaria</Gunsmithing.label>
+  <Gunsmithing.label>fabrico de armas</Gunsmithing.label>
   <!-- EN: Craft simple manually-operated guns like revolvers, pump shotguns, bolt-action rifles, and incendiary launchers. -->
   <Gunsmithing.description>Fabrica armas simples de operação manual, como revólveres, caçadeiras de ação por bomba, espingardas de ferrolho e lançadores incendiários.</Gunsmithing.description>
   <!-- EN:
@@ -264,14 +264,14 @@
   <Gunsmithing.generalRules.rulesStrings>
     <li>subject->armas de fogo simples</li>
     <li>subject_story->construiu um revólver único de 12 tiros e venceu duelo atrás de duelo</li>
-    <li>subject_story->especializou-se em armaria simples, fornecendo caçadeiras e espingardas a caçadores</li>
+    <li>subject_story->especializou-se no fabrico de armas simples, fornecendo caçadeiras e espingardas a caçadores</li>
     <li>subject_story->estabeleceu-se como armeiro e alcançou fama em todo o setor</li>
-    <li>subject_gerund->a fazer armaria</li>
+    <li>subject_gerund->a trabalhar no fabrico de armas</li>
     <li>subject_gerund->a fabricar armas de fogo</li>
   </Gunsmithing.generalRules.rulesStrings>
 
   <!-- EN: gun turrets -->
-  <GunTurrets.label>torretas de armas</GunTurrets.label>
+  <GunTurrets.label>torretas armadas</GunTurrets.label>
   <!-- EN: Produce simple automated gun turrets. -->
   <GunTurrets.description>Produz torretas automáticas simples.</GunTurrets.description>
   <!-- EN:
@@ -282,11 +282,11 @@
     <li>subject_gerund->constructing automated gun turrets</li>
   -->
   <GunTurrets.generalRules.rulesStrings>
-    <li>subject->torretas de armas</li>
+    <li>subject->torretas armadas</li>
     <li>subject_story->trabalhou em rotinas de IA para permitir que as torretas distinguissem amigos de inimigos</li>
     <li>subject_story->projetou um suporte modular para torretas, capaz de acomodar qualquer tipo de arma</li>
     <li>subject_story->desativou à distância as torretas do inimigo, antes de liderar a investida</li>
-    <li>subject_gerund->a construir torretas de armas automáticas</li>
+    <li>subject_gerund->a construir torretas armadas automáticas</li>
   </GunTurrets.generalRules.rulesStrings>
 
   <!-- EN: hydroponics -->
@@ -393,9 +393,9 @@
   </NutrientPaste.generalRules.rulesStrings>
 
   <!-- EN: packaged survival meal -->
-  <PackagedSurvivalMeal.label>refeição de sobrevivência embalada</PackagedSurvivalMeal.label>
+  <PackagedSurvivalMeal.label>ração de sobrevivência</PackagedSurvivalMeal.label>
   <!-- EN: Produce packaged survival meals which never go bad. Great for traveling. -->
-  <PackagedSurvivalMeal.description>Produz refeições de sobrevivência embaladas que nunca se estragam. Excelentes para viajar.</PackagedSurvivalMeal.description>
+  <PackagedSurvivalMeal.description>Produz rações de sobrevivência que nunca se estragam. Excelentes para viajar.</PackagedSurvivalMeal.description>
   <!-- EN:
     <li>subject->packaged survival meals</li>
     <li>subject->non-perishable food</li>
@@ -405,12 +405,12 @@
     <li>subject_gerund->preparing survival meals</li>
   -->
   <PackagedSurvivalMeal.generalRules.rulesStrings>
-    <li>subject->refeições de sobrevivência embaladas</li>
+    <li>subject->rações de sobrevivência</li>
     <li>subject->alimentos não perecíveis</li>
     <li>subject_story->sabia que, quando o desastre atingiu, havia refeições embaladas suficientes para sobreviver até à chegada dos socorristas</li>
-    <li>subject_story->criou uma cozinha social, que doava refeições de sobrevivência a todas as naves de partida</li>
-    <li>subject_story->descobriu nas montanhas refeições de sobrevivência com centenas de anos</li>
-    <li>subject_gerund->a preparar refeições de sobrevivência</li>
+    <li>subject_story->criou uma cozinha social, que doava rações de sobrevivência a todas as naves de partida</li>
+    <li>subject_story->descobriu nas montanhas rações de sobrevivência com centenas de anos</li>
+    <li>subject_gerund->a preparar rações de sobrevivência</li>
   </PackagedSurvivalMeal.generalRules.rulesStrings>
 
   <!-- EN: prosthetics -->
@@ -496,9 +496,9 @@
   </SterileMaterials.generalRules.rulesStrings>
 
   <!-- EN: tube television -->
-  <TubeTelevision.label>televisão de tubo</TubeTelevision.label>
+  <TubeTelevision.label>televisor de tubo catódico</TubeTelevision.label>
   <!-- EN: Produce tube televisions for recreational watching. -->
-  <TubeTelevision.description>Produz televisões de tubo para ver como passatempo.</TubeTelevision.description>
+  <TubeTelevision.description>Produz televisores de tubo catódico para ver como passatempo.</TubeTelevision.description>
   <!-- EN:
     <li>subject->tube televisions</li>
     <li>subject_story->designed a faux-retro television set that could pick up interstellar signals</li>
@@ -507,11 +507,11 @@
     <li>subject_gerund->producing tube televisions</li>
   -->
   <TubeTelevision.generalRules.rulesStrings>
-    <li>subject->televisões de tubo</li>
+    <li>subject->televisores de tubo catódico</li>
     <li>subject_story->projetou um televisor de estilo retro que conseguia captar sinais interestelares</li>
-    <li>subject_story->passou para a radiodifusão, produzindo programas só para as arcaicas televisões de tubo</li>
+    <li>subject_story->passou para a radiodifusão, produzindo programas só para as arcaicos televisores de tubo catódico</li>
     <li>subject_story->garantiu que todos conheciam os perigos dos tubos de raios catódicos</li>
-    <li>subject_gerund->a produzir televisões de tubo</li>
+    <li>subject_gerund->a produzir televisores de tubo catódico</li>
   </TubeTelevision.generalRules.rulesStrings>
 
   <!-- EN: watermill generator -->

@@ -449,7 +449,7 @@
   <ClassClown96.titleShort>palhaço</ClassClown96.titleShort>
   
   <!-- EN: Clone children are seeded into nutrient-rich womb-vats and rapidly grown in a simmed universe. They're harvested later, sometimes for food, sometimes for organs, sometimes for workers - but they're always disposable. -->
-  <CloneFarmed21.description>As crianças-clone são semeadas em cubas-útero ricas em nutrientes e crescem rapidamente num universo simulado. São colhidas mais tarde, às vezes para alimento, às vezes para órgãos, às vezes como trabalhadores, mas são sempre descartáveis.</CloneFarmed21.description>
+  <CloneFarmed21.description>As crianças-clone são semeadas em cápsulas-útero ricas em nutrientes e crescem rapidamente num universo simulado. São colhidas mais tarde, às vezes para alimento, às vezes para órgãos, às vezes como trabalhadores, mas são sempre descartáveis.</CloneFarmed21.description>
   <!-- EN: clone-farmed -->
   <CloneFarmed21.title>clone de criação</CloneFarmed21.title>
   <CloneFarmed21.titleFemale>clone de criação</CloneFarmed21.titleFemale>
@@ -482,7 +482,7 @@
   <ColonyKid47.titleShort>miúdo da colónia</ColonyKid47.titleShort>
   
   <!-- EN: [PAWN_nameDef] was a street urchin on a feudal steamworld.\n\n        After [PAWN_pronoun] tried to steal food from the palace, the emperor, desperate to secure an heir, took [PAWN_objective] in and groomed [PAWN_objective] to be next in line for the throne. -->
-  <CommonerHeir5.description>[PAWN_nameDef] era {PAWN_gender ? um garoto : uma garota} de rua num mundo a vapor feudal.\n\nDepois de tentar roubar comida do palácio, o imperador, desesperado por garantir um herdeiro, acolheu-{PAWN_gender ? o : a} e preparou-{PAWN_gender ? o : a} para ser {PAWN_gender ? o próximo : a próxima} na linha de sucessão ao trono.</CommonerHeir5.description>
+  <CommonerHeir5.description>[PAWN_nameDef] era {PAWN_gender ? um rapaz : uma rapariga} de rua num mundo a vapor feudal.\n\nDepois de tentar roubar comida do palácio, o imperador, desesperado por garantir um herdeiro, acolheu-{PAWN_gender ? o : a} e preparou-{PAWN_gender ? o : a} para ser {PAWN_gender ? o próximo : a próxima} na linha de sucessão ao trono.</CommonerHeir5.description>
   <!-- EN: commoner heir -->
   <CommonerHeir5.title>herdeiro plebeu</CommonerHeir5.title>
   <CommonerHeir5.titleFemale>herdeira plebeia</CommonerHeir5.titleFemale>
@@ -1073,9 +1073,13 @@
   <!-- EN: [PAWN_nameDef] grew up on the streets of a world in the early stages of its industrial revolution. [PAWN_pronoun] passed [PAWN_possessive] days stealing, begging and tinkering with discarded machine scraps, always on the lookout for a way to escape poverty. -->
   <IndworldUrchin73.description>[PAWN_nameDef] cresceu nas ruas de um mundo nos primórdios da sua revolução industrial. Passava os dias a roubar, a pedir esmola e a mexer em sucata de máquinas abandonadas, sempre à procura de uma maneira de fugir à pobreza.</IndworldUrchin73.description>
   <!-- EN: indworld urchin -->
-  <IndworldUrchin73.title>garoto de mundo industrial</IndworldUrchin73.title>
+  <IndworldUrchin73.title>rapaz de mundo industrial</IndworldUrchin73.title>
+  <!-- EN: indworld urchin -->
+  <IndworldUrchin73.titleFemale>rapariga de mundo industrial</IndworldUrchin73.titleFemale>
   <!-- EN: urchin -->
-  <IndworldUrchin73.titleShort>garoto de rua</IndworldUrchin73.titleShort>
+  <IndworldUrchin73.titleShort>rapaz de rua</IndworldUrchin73.titleShort>
+  <!-- EN: urchin -->
+  <IndworldUrchin73.titleShortFemale>rapariga de rua</IndworldUrchin73.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was raised on a world wracked by war.\n\nAt an early age, [PAWN_pronoun] was shown how to use guns and cruelty to project [PAWN_possessive] will. [PAWN_pronoun] later distinguished [PAWN_objective]self by committing atrocities with more enthusiasm than anyone else. -->
   <Infantry99.description>[PAWN_nameDef] foi {PAWN_gender ? criado : criada} num mundo assolado pela guerra.\n\nDesde muito cedo, aprendeu a impor a sua vontade com armas e crueldade. Mais tarde, destacou-se por cometer atrocidades com mais entusiasmo do que qualquer outro.</Infantry99.description>
@@ -1515,7 +1519,7 @@
   <Pickpocket61.titleShortFemale>ladra</Pickpocket61.titleShortFemale>
   
   <!-- EN: Orphaned and abandoned on the tumultuous streets of [PAWN_possessive] polluted, teeming homeworld, [PAWN_nameDef] survived by deft hand and fleet foot. A natural born thief and trickster, [PAWN_pronoun] rose to prominence early, running the notorious and violent urchin gang 'Doomben Rats'. -->
-  <Pickpocket82.description>{PAWN_gender ? Órfão e abandonado : Órfã e abandonada} nas ruas tumultuosas do seu planeta natal, poluído e superpovoado, [PAWN_nameDef] sobrevivia graças às mãos hábeis e aos pés ligeiros. {PAWN_gender ? Ladrão e trapaceiro nato : Ladra e trapaceira nata}, ganhou destaque cedo, à frente do famigerado e violento gangue de garotos de rua «Ratos de Doomben».</Pickpocket82.description>
+  <Pickpocket82.description>{PAWN_gender ? Órfão e abandonado : Órfã e abandonada} nas ruas tumultuosas do seu planeta natal, poluído e superpovoado, [PAWN_nameDef] sobrevivia graças às mãos hábeis e aos pés ligeiros. {PAWN_gender ? Ladrão e trapaceiro nato : Ladra e trapaceira nata}, ganhou destaque cedo, à frente do famigerado e violento gangue de rapazes de rua «Ratos de Doomben».</Pickpocket82.description>
   <!-- EN: pickpocket -->
   <Pickpocket82.title>carteirista</Pickpocket82.title>
   <Pickpocket82.titleFemale>carteirista</Pickpocket82.titleFemale>
@@ -2044,21 +2048,29 @@
   <!-- EN: Born to a poor family, [PAWN_nameDef] was a sickly child who never quite developed the strength of [PAWN_possessive] siblings.\n\n[PAWN_possessive] parents, unable to afford to provide for [PAWN_objective] and certain [PAWN_pronoun] couldn't pay [PAWN_possessive] own way, threw [PAWN_objective] to the streets. [PAWN_pronoun] learned hard and fast how to survive by any means necessary. -->
   <StreetUrchin45.description>{PAWN_gender ? Nascido : Nascida} numa família pobre, [PAWN_nameDef] era uma criança enfermiça que nunca chegou a ter a força dos irmãos.\n\nOs pais, sem meios para {PAWN_gender ? o : a} sustentar e certos de que não conseguiria ganhar o seu sustento, puseram-{PAWN_gender ? no : na} na rua. Aprendeu depressa e da pior maneira a sobreviver por todos os meios necessários.</StreetUrchin45.description>
   <!-- EN: street urchin -->
-  <StreetUrchin45.title>garoto de rua</StreetUrchin45.title>
+  <StreetUrchin45.title>rapaz de rua</StreetUrchin45.title>
+  <!-- EN: street urchin -->
+  <StreetUrchin45.titleFemale>rapariga de rua</StreetUrchin45.titleFemale>
   <!-- EN: street rat -->
   <StreetUrchin45.titleShort>rato de rua</StreetUrchin45.titleShort>
   
   <!-- EN: Born to a poor family on an urbworld, [PAWN_nameDef] was abandoned on the streets at a young age.\n\n[PAWN_pronoun] learned to steal and kill to survive the ruthless streets, gaining skills in melee and ranged combat. There was little time for talk in [PAWN_possessive] life. -->
   <StreetUrchin53.description>{PAWN_gender ? Nascido : Nascida} numa família pobre de um mundo urbano, [PAWN_nameDef] foi {PAWN_gender ? abandonado : abandonada} na rua muito {PAWN_gender ? novo : nova}.\n\nAprendeu a roubar e a matar para sobreviver às ruas implacáveis e ganhou competências de combate corpo a corpo e à distância. Havia pouco tempo para conversas na sua vida.</StreetUrchin53.description>
   <!-- EN: street urchin -->
-  <StreetUrchin53.title>garoto de rua</StreetUrchin53.title>
+  <StreetUrchin53.title>rapaz de rua</StreetUrchin53.title>
+  <!-- EN: street urchin -->
+  <StreetUrchin53.titleFemale>rapariga de rua</StreetUrchin53.titleFemale>
   <!-- EN: urchin -->
-  <StreetUrchin53.titleShort>garoto</StreetUrchin53.titleShort>
+  <StreetUrchin53.titleShort>rapaz</StreetUrchin53.titleShort>
+  <!-- EN: urchin -->
+  <StreetUrchin53.titleShortFemale>rapariga</StreetUrchin53.titleShortFemale>
   
   <!-- EN: After running away from home, [PAWN_nameDef] had to live on the streets.\n\n[PAWN_pronoun] grew up fast, and learned early that [PAWN_pronoun] had to figure out how to fool people into connecting with [PAWN_objective]. -->
   <StreetUrchin74.description>Depois de fugir de casa, [PAWN_nameDef] teve de viver na rua.\n\nCresceu depressa e aprendeu cedo que tinha de descobrir maneiras de enganar as pessoas para que se ligassem a si.</StreetUrchin74.description>
   <!-- EN: street urchin -->
-  <StreetUrchin74.title>garoto de rua</StreetUrchin74.title>
+  <StreetUrchin74.title>rapaz de rua</StreetUrchin74.title>
+  <!-- EN: street urchin -->
+  <StreetUrchin74.titleFemale>rapariga de rua</StreetUrchin74.titleFemale>
   <!-- EN: grifter -->
   <StreetUrchin74.titleShort>vigarista</StreetUrchin74.titleShort>
   <StreetUrchin74.titleShortFemale>vigarista</StreetUrchin74.titleShortFemale>
@@ -2262,30 +2274,38 @@
   <!-- EN: [PAWN_nameDef] was born in the darkest slums of [PAWN_possessive] urban homeworld. Neglected by [PAWN_possessive] mother, [PAWN_pronoun] learned to survive on [PAWN_possessive] own, battling for every scrap of food [PAWN_pronoun] saw.\n\nEventually, as [PAWN_possessive] talents exceeded [PAWN_possessive] peers, [PAWN_pronoun] ascended from the depths to the surface streets and left [PAWN_possessive] mother behind. -->
   <UrbworldUrchin6.description>[PAWN_nameDef] nasceu nos bairros de lata mais sombrios do seu planeta natal urbano. Negligenciad{PAWN_gender ? o : a} pela mãe, aprendeu a sobreviver por conta própria, a lutar por cada migalha de comida que via.\n\nCom o tempo, à medida que o seu talento ultrapassava o dos seus pares, subiu das profundezas às ruas da superfície e deixou a mãe para trás.</UrbworldUrchin6.description>
   <!-- EN: urbworld urchin -->
-  <UrbworldUrchin6.title>garoto de mundo urbano</UrbworldUrchin6.title>
+  <UrbworldUrchin6.title>rapaz de mundo urbano</UrbworldUrchin6.title>
+  <!-- EN: urbworld urchin -->
+  <UrbworldUrchin6.titleFemale>rapariga de mundo urbano</UrbworldUrchin6.titleFemale>
   <!-- EN: urchin -->
-  <UrbworldUrchin6.titleShort>garoto</UrbworldUrchin6.titleShort>
+  <UrbworldUrchin6.titleShort>rapaz</UrbworldUrchin6.titleShort>
+  <!-- EN: urchin -->
+  <UrbworldUrchin6.titleShortFemale>rapariga</UrbworldUrchin6.titleShortFemale>
   
   <!-- EN: Abandoned among the filthy concrete spires, [PAWN_nameDef] never knew [PAWN_possessive] parents. [PAWN_pronoun] never received formal education, and often resorted to doing menial labor in exchange for food. Sometimes [PAWN_pronoun] lied, cheated, and stole to survive. -->
   <UrbworldUrchin90.description>{PAWN_gender ? Abandonado : Abandonada} entre os imundos pináculos de betão, [PAWN_nameDef] nunca conheceu os pais. Nunca teve educação formal e recorria muitas vezes a trabalhos servis em troca de comida. Às vezes mentia, fazia batota e roubava para sobreviver.</UrbworldUrchin90.description>
   <!-- EN: urbworld urchin -->
-  <UrbworldUrchin90.title>garoto de mundo urbano</UrbworldUrchin90.title>
+  <UrbworldUrchin90.title>rapaz de mundo urbano</UrbworldUrchin90.title>
+  <!-- EN: urbworld urchin -->
+  <UrbworldUrchin90.titleFemale>rapariga de mundo urbano</UrbworldUrchin90.titleFemale>
   <!-- EN: urchin -->
-  <UrbworldUrchin90.titleShort>garoto</UrbworldUrchin90.titleShort>
+  <UrbworldUrchin90.titleShort>rapaz</UrbworldUrchin90.titleShort>
+  <!-- EN: urchin -->
+  <UrbworldUrchin90.titleShortFemale>rapariga</UrbworldUrchin90.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was not made as a man, but a cold hearted assassin. [PAWN_pronoun] was bio-engineered by scientists, and trained as a killer. [PAWN_pronoun] was bred to have no emotion, no feelings, and no care for who lives, and who dies. -->
   <VatgrownAssassin20.description>[PAWN_nameDef] não foi {PAWN_gender ? feito : feita} para ser pessoa, mas sim {PAWN_gender ? um assassino : uma assassina} de coração frio. Foi {PAWN_gender ? concebido : concebida} por bioengenharia por cientistas e {PAWN_gender ? treinado : treinada} para matar. Foi {PAWN_gender ? criado : criada} para não ter emoções, nem sentimentos, nem se importar com quem vive e quem morre.</VatgrownAssassin20.description>
   <!-- EN: vatgrown assassin -->
-  <VatgrownAssassin20.title>assassino de cuba</VatgrownAssassin20.title>
-  <VatgrownAssassin20.titleFemale>assassina de cuba</VatgrownAssassin20.titleFemale>
+  <VatgrownAssassin20.title>assassino de cápsula</VatgrownAssassin20.title>
+  <VatgrownAssassin20.titleFemale>assassina de cápsula</VatgrownAssassin20.titleFemale>
   <!-- EN: clone -->
   <VatgrownAssassin20.titleShort>clone</VatgrownAssassin20.titleShort>
   
   <!-- EN: Raised to be a combat medic, [PAWN_nameDef] was trained in firearms as well as medicine. [PAWN_possessive] favorite phrase when coming upon a wounded soldier was, "Life or death?" Most chose life. -->
   <VatgrownMedic53.description>{PAWN_gender ? Criado : Criada} para ser socorrista de combate, [PAWN_nameDef] recebeu treino em armas de fogo e em medicina. A sua frase preferida quando encontrava um soldado ferido era: «Vida ou morte?» A maioria escolhia a vida.</VatgrownMedic53.description>
   <!-- EN: vatgrown medic -->
-  <VatgrownMedic53.title>socorrista de cuba</VatgrownMedic53.title>
-  <VatgrownMedic53.titleFemale>socorrista de cuba</VatgrownMedic53.titleFemale>
+  <VatgrownMedic53.title>socorrista de cápsula</VatgrownMedic53.title>
+  <VatgrownMedic53.titleFemale>socorrista de cápsula</VatgrownMedic53.titleFemale>
   <!-- EN: medic -->
   <VatgrownMedic53.titleShort>socorrista</VatgrownMedic53.titleShort>
   <VatgrownMedic53.titleShortFemale>socorrista</VatgrownMedic53.titleShortFemale>
@@ -2293,16 +2313,16 @@
   <!-- EN: [PAWN_nameDef] was grown to be a perfect scientist, with a mind perfectly tuned for physics and chemistry.\n\n[PAWN_possessive] creators used [PAWN_objective] as a teaching aid on mind design, hoping [PAWN_pronoun] would eventually grow to be a great mind and continue their research. -->
   <VatgrownScientist91.description>[PAWN_nameDef] foi {PAWN_gender ? criado : criada} para ser {PAWN_gender ? o cientista perfeito : a cientista perfeita}, com uma mente perfeitamente afinada para a física e a química.\n\nOs seus criadores usaram-{PAWN_gender ? no : na} como material didático sobre conceção de mentes, na esperança de que um dia se tornasse uma grande mente e continuasse a sua investigação.</VatgrownScientist91.description>
   <!-- EN: vatgrown scientist -->
-  <VatgrownScientist91.title>cientista de cuba</VatgrownScientist91.title>
-  <VatgrownScientist91.titleFemale>cientista de cuba</VatgrownScientist91.titleFemale>
+  <VatgrownScientist91.title>cientista de cápsula</VatgrownScientist91.title>
+  <VatgrownScientist91.titleFemale>cientista de cápsula</VatgrownScientist91.titleFemale>
   <!-- EN: scientist -->
   <VatgrownScientist91.titleShort>cientista</VatgrownScientist91.titleShort>
   <VatgrownScientist91.titleShortFemale>cientista</VatgrownScientist91.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was vat-grown as a slave in an illegal urbworld laboratory. As a young child, [PAWN_pronoun] was taught only to cook, clean and serve [PAWN_possessive] masters. For most of [PAWN_possessive] childhood, [PAWN_pronoun] knew nothing else. -->
-  <VatgrownSlavegirl8.description>[PAWN_nameDef] foi {PAWN_gender ? criado : criada} em cuba como escrav{PAWN_gender ? o : a} num laboratório ilegal de um mundo urbano. Em pequen{PAWN_gender ? o : a}, só lhe ensinaram a cozinhar, a limpar e a servir os seus senhores. Durante a maior parte da infância, não conheceu mais nada.</VatgrownSlavegirl8.description>
+  <VatgrownSlavegirl8.description>[PAWN_nameDef] foi {PAWN_gender ? criado : criada} em cápsula de crescimento como escrav{PAWN_gender ? o : a} num laboratório ilegal de um mundo urbano. Em pequen{PAWN_gender ? o : a}, só lhe ensinaram a cozinhar, a limpar e a servir os seus senhores. Durante a maior parte da infância, não conheceu mais nada.</VatgrownSlavegirl8.description>
   <!-- EN: vatgrown slavegirl -->
-  <VatgrownSlavegirl8.title>escrava de cuba</VatgrownSlavegirl8.title>
+  <VatgrownSlavegirl8.title>escrava de cápsula</VatgrownSlavegirl8.title>
   <!-- EN: slave girl -->
   <VatgrownSlavegirl8.titleShort>escrava</VatgrownSlavegirl8.titleShort>
   

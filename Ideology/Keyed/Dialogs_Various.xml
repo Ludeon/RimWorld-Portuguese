@@ -18,9 +18,9 @@
   <NoStylesAvailable>Sem variações de estilo disponíveis</NoStylesAvailable>
 
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
-  <ChooseStructureMemesInfo>Escolhe a estrutura simbólica da tua ideoligião. Isto afeta apenas os símbolos - não afeta a jogabilidade.</ChooseStructureMemesInfo>
+  <ChooseStructureMemesInfo>Escolhe a estrutura simbólica da tua ideologia. Isto afeta apenas os símbolos - não afeta a jogabilidade.</ChooseStructureMemesInfo>
   <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. -->
-  <ChooseNormalMemesInfo>Escolhe {0}-{1} memes para formar as ideias fundamentais desta ideoligião.</ChooseNormalMemesInfo>
+  <ChooseNormalMemesInfo>Escolhe {0}-{1} memes para formar as ideias fundamentais desta ideologia.</ChooseNormalMemesInfo>
   <!-- EN: Choose at least {0} meme. -->
   <NotEnoughMemes>Escolhe pelo menos {0} meme.</NotEnoughMemes>
   <!-- EN: Choose at most {0} memes. -->
@@ -32,7 +32,7 @@
   <!-- EN: Some of these have much more gameplay impact than others. -->
   <SomeMemesHaveMoreImpact>Alguns destes têm muito mais impacto na jogabilidade do que outros.</SomeMemesHaveMoreImpact>
   <!-- EN: Choose one meme to form the initial idea of this ideoligion. You will add more memes as the ideoligion develops over time. -->
-  <ChooseNormalMemesFluidIdeoInfo>Escolhe um meme para formar a ideia inicial desta ideoligião. Irás acrescentar mais memes à medida que a ideoligião evoluir com o tempo.</ChooseNormalMemesFluidIdeoInfo>
+  <ChooseNormalMemesFluidIdeoInfo>Escolhe um meme para formar a ideia inicial desta ideologia. Irás acrescentar mais memes à medida que a ideologia evoluir com o tempo.</ChooseNormalMemesFluidIdeoInfo>
   <!-- EN: Choose a meme or remove a meme. -->
   <ChooseOrRemoveMeme>Escolhe um meme ou remove um meme.</ChooseOrRemoveMeme>
   <!-- EN: Reset changes -->
@@ -48,7 +48,7 @@
   <!-- EN: Room requirements -->
   <RoomRequirements>Requisitos da divisão</RoomRequirements>
   <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). -->
-  <ConfirmChangeMemesForFluidIdeo>A ideoligião que estás a carregar tem memes incompatíveis com uma nova ideoligião fluida e os seus memes terão de ser escolhidos de novo (as ideoligiões fluidas só podem começar com um meme de baixo impacto).</ConfirmChangeMemesForFluidIdeo>
+  <ConfirmChangeMemesForFluidIdeo>A ideologia que estás a carregar tem memes incompatíveis com uma nova ideologia fluida e os seus memes terão de ser escolhidos de novo (as ideologias fluidas só podem começar com um meme de baixo impacto).</ConfirmChangeMemesForFluidIdeo>
   <!-- EN: The following memes are incompatible -->
   <ConfirmIncompatibleMemes>Os seguintes memes são incompatíveis</ConfirmIncompatibleMemes>
   <!-- EN: Would you like to continue? -->
@@ -124,7 +124,7 @@
   <!-- EN: {RECIPIENT_labelShort}'s opinion of {INITIATOR_labelShort} -->
   <AbilityIdeoConvertBreakdownOpinion>Opinião de {RECIPIENT_labelShort} sobre {INITIATOR_labelShort}</AbilityIdeoConvertBreakdownOpinion>
   <!-- EN: {PAWN_nameDef}'s ideoligion -->
-  <AbilityIdeoConvertBreakdownPawnIdeo>Ideoligião de {PAWN_nameDef}</AbilityIdeoConvertBreakdownPawnIdeo>
+  <AbilityIdeoConvertBreakdownPawnIdeo>ideologia de {PAWN_nameDef}</AbilityIdeoConvertBreakdownPawnIdeo>
   <!-- EN: {MEME} vs {TRAIT} trait -->
   <AbilityIdeoConvertBreakdownMemeVsTrait>{MEME} vs traço {TRAIT}</AbilityIdeoConvertBreakdownMemeVsTrait>
 
@@ -134,9 +134,9 @@
   <!-- EN: Reform... -->
   <ReformIdeo>Reformar...</ReformIdeo>
   <!-- EN: Reform ideoligion -->
-  <ReformIdeoligion>Reformar ideoligião</ReformIdeoligion>
+  <ReformIdeoligion>Reformar ideologia</ReformIdeoligion>
   <!-- EN: Reform your ideoligion by changing its structure, memes or style. -->
-  <ReformIdeoligionDesc>Reforma a tua ideoligião ao alterar a sua estrutura, memes ou estilo.</ReformIdeoligionDesc>
+  <ReformIdeoligionDesc>Reforma a tua ideologia ao alterar a sua estrutura, memes ou estilo.</ReformIdeoligionDesc>
   <!-- EN: Change styles -->
   <ReformIdeoChangeStyles>Mudar estilos</ReformIdeoChangeStyles>
   <!-- EN: Add or remove a meme -->
@@ -150,7 +150,7 @@
   <!-- EN: Change any of the following -->
   <ReformIdeoChangeAny>Alterar qualquer um dos seguintes</ReformIdeoChangeAny>
   <!-- EN: The relic {0} will not be venerated by your colonists after reforming this ideoligion. Since the quest '{0}' is searching for this relic, it will be deactivated. -->
-  <ReformIdeoRelicHuntQuestEnd>A relíquia {0} deixará de ser venerada pelos teus colonos depois de reformares esta ideoligião. Como a missão '{0}' procura esta relíquia, será desativada.</ReformIdeoRelicHuntQuestEnd>
+  <ReformIdeoRelicHuntQuestEnd>A relíquia {0} deixará de ser venerada pelos teus colonos depois de reformares esta ideologia. Como a missão '{0}' procura esta relíquia, será desativada.</ReformIdeoRelicHuntQuestEnd>
   <!-- EN: The ritual {0} is in progress and will be cancelled. -->
   <ReformIdeoCancelRituals>O ritual {0} está em curso e será cancelado.</ReformIdeoCancelRituals>
   <!-- EN: Do you wish to continue? -->
@@ -209,7 +209,7 @@
   <!-- EN: {IDEO_memberNamePlural} will be happy if they notice buildings, floors, and art matching this style. -->
   <StyleCategoryDescStyleDominance>{IDEO_memberNamePlural} ficarão felizes se repararem em edifícios, pavimentos e obras de arte que combinem com este estilo.</StyleCategoryDescStyleDominance>
   <!-- EN: Ideoligion members will be happy if they notice buildings, floors, and art matching this style. -->
-  <StyleCategoryDescStyleDominanceAbstract>Os membros da ideoligião ficarão felizes se repararem em edifícios, pavimentos e obras de arte que combinem com este estilo.</StyleCategoryDescStyleDominanceAbstract>
+  <StyleCategoryDescStyleDominanceAbstract>Os membros da ideologia ficarão felizes se repararem em edifícios, pavimentos e obras de arte que combinem com este estilo.</StyleCategoryDescStyleDominanceAbstract>
   <!-- EN: {0} style category affects -->
   <StyleCategoryDetails>A categoria de estilo {0} afeta</StyleCategoryDetails>
   <!-- EN: Overriden by {0} -->
@@ -221,11 +221,11 @@
   <!-- EN: Hair and beards -->
   <HairAndBeards>Cabelo e barbas</HairAndBeards>
   <!-- EN: These settings determine how frequently each style appears on members of this ideoligion. -->
-  <HairAndBeardsDesc>Estas definições determinam a frequência com que cada estilo aparece nos membros desta ideoligião.</HairAndBeardsDesc>
+  <HairAndBeardsDesc>Estas definições determinam a frequência com que cada estilo aparece nos membros desta ideologia.</HairAndBeardsDesc>
   <!-- EN: Tattoos -->
   <Tattoos>Tatuagens</Tattoos>
   <!-- EN: These settings determines how frequently each tattoo appears on members of this ideoligion. -->
-  <TattoosDesc>Estas definições determinam a frequência com que cada tatuagem aparece nos membros desta ideoligião.</TattoosDesc>
+  <TattoosDesc>Estas definições determinam a frequência com que cada tatuagem aparece nos membros desta ideologia.</TattoosDesc>
   <!-- EN: Never -->
   <StyleItemFrequencyNever>Nunca</StyleItemFrequencyNever>
   <!-- EN: Rare -->
@@ -275,9 +275,9 @@
 
   <!-- Archonexus -->
   <!-- EN: Choose who to convert to your ideoligion -->
-  <ChooseColonistsForIdeoTitle>Escolher quem converter à tua ideoligião</ChooseColonistsForIdeoTitle>
+  <ChooseColonistsForIdeoTitle>Escolher quem converter à tua ideologia</ChooseColonistsForIdeoTitle>
   <!-- EN: You may convert people to your primary ideoligion when setting up a new colony. -->
-  <ChooseColonistsForIdeoDesc>Podes converter pessoas à tua ideoligião principal ao fundar uma nova colónia.</ChooseColonistsForIdeoDesc>
+  <ChooseColonistsForIdeoDesc>Podes converter pessoas à tua ideologia principal ao fundar uma nova colónia.</ChooseColonistsForIdeoDesc>
   <!-- EN: New Colony -->
   <ChooseThingsForNewColonyTitle>Nova colónia</ChooseThingsForNewColonyTitle>
   <!-- EN: Choose which colonists, animals and relics to bring to the new colony. -->
