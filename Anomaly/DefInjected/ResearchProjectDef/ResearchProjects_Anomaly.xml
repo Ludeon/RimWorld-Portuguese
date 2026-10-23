@@ -119,9 +119,9 @@
   </BioferriteGenerator.generalRules.rulesStrings>
 
   <!-- EN: bioferrite harvester -->
-  <BioferriteHarvesting.label>coletor de bioferrite</BioferriteHarvesting.label>
+  <BioferriteHarvesting.label>recolhedor de bioferrite</BioferriteHarvesting.label>
   <!-- EN: Build bioferrite harvesters that automatically extract bioferrite from captured entities. Produces more bioferrite than manual extraction. -->
-  <BioferriteHarvesting.description>Constrói coletores de bioferrite que extraem automaticamente bioferrite de entidades capturadas. Produzem mais bioferrite do que a extração manual.</BioferriteHarvesting.description>
+  <BioferriteHarvesting.description>Constrói recolhedores de bioferrite que extraem automaticamente bioferrite de entidades capturadas. Produzem mais bioferrite do que a extração manual.</BioferriteHarvesting.description>
   <!-- EN:
     <li>subject->bioferrite</li>
     <li>subject_story->investigated an exotic metal-like fibrous substance</li>
@@ -163,7 +163,7 @@
   </BioferriteIgnition.generalRules.rulesStrings>
 
   <!-- EN: bioferrite shaping -->
-  <BioferriteShaping.label>modelagem de bioferrite</BioferriteShaping.label>
+  <BioferriteShaping.label>modelação de bioferrite</BioferriteShaping.label>
   <!-- EN: Shape and re-form bioferrite into useful tools, weapons, flooring, and more. -->
   <BioferriteShaping.description>Molda e remodela bioferrite em ferramentas úteis, armas, pavimentos e muito mais.</BioferriteShaping.description>
   <!-- EN:
@@ -246,8 +246,8 @@
     <li>subject_story->trabalhou numa clínica com sobreviventes de lesões cerebrais</li>
     <li>subject_story->investigou as vias neurais de amnésicos</li>
     <li>subject_story->geriu uma instalação de lavagem cerebral após as Guerras Esquecidas</li>
-    <li>subject_gerund->apagar a mente de um sujeito</li>
-    <li>subject_gerund->realizar um ritual para apagar a mente de um sujeito</li>
+    <li>subject_gerund->apagar a mente de uma pessoa</li>
+    <li>subject_gerund->realizar um ritual para apagar a mente de uma pessoa</li>
   </Brainwipe.generalRules.rulesStrings>
 
   <!-- EN: chronophagy -->
@@ -347,7 +347,7 @@
   </DisruptorFlares.generalRules.rulesStrings>
 
   <!-- EN: electroharvester -->
-  <Electroharvester.label>eletrocoletor</Electroharvester.label>
+  <Electroharvester.label>eletrorrecolhedor</Electroharvester.label>
   <!-- EN: Build a generator that draws electricity from contained entities. This process aggravates entities, making them harder to contain. -->
   <Electroharvester.description>Constrói um gerador que extrai eletricidade de entidades contidas. Este processo enfurece as entidades, tornando-as mais difíceis de conter.</Electroharvester.description>
   <!-- EN:
@@ -366,7 +366,7 @@
     <li>subject_story->provocou arquites e estudou a sua produção térmica</li>
     <li>subject_story->teorizou sobre o potencial energético do arcotec</li>
     <li>subject_gerund->extrair energia de entidades</li>
-    <li>subject_gerund->construir eletrocoletores</li>
+    <li>subject_gerund->construir eletrorrecolhedores</li>
   </Electroharvester.generalRules.rulesStrings>
 
   <!-- EN: entity containment -->
@@ -635,7 +635,7 @@
     <li>subject_story->investigou processos de replicação neural nos laboratórios de um mundo cintilante</li>
     <li>subject_story->investigou as mentes danificadas de vítimas de cultos</li>
     <li>subject_story->viu as suas competências enfraquecidas depois de um ataque psíquico</li>
-    <li>subject_gerund->transferir a aprendizagem de um sujeito</li>
+    <li>subject_gerund->transferir a aprendizagem de uma pessoa</li>
     <li>subject_gerund->realizar um ritual para roubar as competências de uma vítima</li>
   </Philophagy.generalRules.rulesStrings>
 
@@ -680,7 +680,7 @@
     <li>subject->detetores de proximidade</li>
     <li>subject->sensores de movimento</li>
     <li>subject_story->viu antigas bobinas de entretenimento e ficou inspirado</li>
-    <li>subject_story->criou protótipos de dispositivos simples resistentes a psi</li>
+    <li>subject_story->criou protótipos de dispositivos simples resistentes a efeitos psíquicos</li>
     <li>subject_story->fez a manutenção dos sistemas de alerta precoce de um posto avançado num mundo mortal</li>
     <li>subject_story->estudou scanners multibanda para deteção de padrões entre sistemas</li>
     <li>subject_gerund->revelar o invisível</li>
@@ -703,7 +703,7 @@
   <Psychophagy.generalRules.rulesStrings>
     <li>subject->psicofagia</li>
     <li>subject_story->estudou a dessensibilização controlada a efeitos psíquicos</li>
-    <li>subject_story->geriu a transferência de arquites de sujeitos falecidos</li>
+    <li>subject_story->geriu a transferência de arquites de pessoas falecidas</li>
     <li>subject_story->compilou rumores de rituais de transferência psíquica</li>
     <li>subject_story->testemunhou um culto de Horax a sugar o poder de um nobre imperial</li>
     <li>subject_gerund->roubar capacidades psíquicas</li>
@@ -772,7 +772,7 @@
     <li>subject->abdução psíquica</li>
     <li>subject->abdução por salto</li>
     <li>subject_story->testemunhou uma tentativa de rapto de um nobre imperial</li>
-    <li>subject_story->foi resgatado mediante pagamento de um resgate a necrófagos toupeiras</li>
+    <li>subject_story->foi mantido para resgate por sucateiros toupeira-da-terra</li>
     <li>subject_story->observou um ritual de translocação falhado realizado por um líder de culto</li>
     <li>subject_story->investigou a transferência transespacial mediada por arcotec</li>
     <li>subject_gerund->raptar inimigos através de um ritual psíquico</li>
@@ -845,13 +845,13 @@
     <li>subject_story->presenciou a geração espontânea nos bumratos de Sahe</li>
     <li>subject_story->viu um filme antigo sobre fusão de carne e ficou inspirado</li>
     <li>subject_story->estudou a transferência e a separação da consciência na fusão orgânica</li>
-    <li>subject_story->observou uma comunidade de toupeiras que tinha encontrado bestas horripilantes debaixo da terra</li>
+    <li>subject_story->observou uma comunidade de toupeiras-da-terra que tinha encontrado bestas horripilantes debaixo da terra</li>
     <li>subject_gerund->invocar bestas de carne</li>
     <li>subject_gerund->realizar um ritual para invocar bestas de carne</li>
   </SummonFleshbeastsPlayer.generalRules.rulesStrings>
 
   <!-- EN: provoke pit gate -->
-  <SummonPitGate.label>provocar portão do fosso</SummonPitGate.label>
+  <SummonPitGate.label>invocar portão do fosso</SummonPitGate.label>
   <!-- EN: Perform a psychic ritual which causes underground fleshbeasts to open up a massive hole in the ground. The hole leads down to a fleshbeast-infested cavern which can be explored for resources. -->
   <SummonPitGate.description>Realiza um ritual psíquico que faz com que bestas de carne subterrâneas abram um buraco enorme no chão. O buraco desce até uma caverna infestada de bestas de carne, que pode ser explorada em busca de recursos.</SummonPitGate.description>
   <!-- EN:

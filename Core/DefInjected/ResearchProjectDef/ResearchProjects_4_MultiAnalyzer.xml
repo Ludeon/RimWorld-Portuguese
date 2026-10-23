@@ -42,9 +42,9 @@
   </Bionics.generalRules.rulesStrings>
 
   <!-- EN: pulse-charged munitions -->
-  <ChargedShot.label>munições de carga de pulso</ChargedShot.label>
+  <ChargedShot.label>munições de carga elétrica</ChargedShot.label>
   <!-- EN: Build weapons which fire pulse-charged munitions for extra damage. Note that these also require advanced components. -->
-  <ChargedShot.description>Constrói armas que disparam munições de carga de pulso para causar dano extra. Estas também requerem componentes avançados.</ChargedShot.description>
+  <ChargedShot.description>Constrói armas que disparam munições de carga elétrica para causar dano extra. Estas também requerem componentes avançados.</ChargedShot.description>
   <!-- EN:
     <li>subject->pulse munitions</li>
     <li>subject_story->studied glitterworld monorails and modified the tech for weapons</li>
@@ -54,12 +54,12 @@
     <li>subject_gerund->utilising pulse munitions</li>
   -->
   <ChargedShot.generalRules.rulesStrings>
-    <li>subject->munições de pulso</li>
+    <li>subject->munições de carga elétrica</li>
     <li>subject_story->estudou os monocarris dos mundos cintilantes e adaptou a tecnologia para armas</li>
-    <li>subject_story->matou um rastejante mecânico mantendo-o à distância com uma lança de impulso</li>
-    <li>subject_story->aprendeu a dotar a munição de espingarda de carga retida, aumentando muito a sua letalidade</li>
-    <li>subject_gerund->a construir munições de pulso</li>
-    <li>subject_gerund->a usar munições de pulso</li>
+    <li>subject_story->matou um rastejante mecânico mantendo-o à distância com uma lança de carga elétrica</li>
+    <li>subject_story->aprendeu a dotar a munição de espingarda de carga elétrica retida, aumentando muito a sua letalidade</li>
+    <li>subject_gerund->a construir munições de carga elétrica</li>
+    <li>subject_gerund->a usar munições de carga elétrica</li>
   </ChargedShot.generalRules.rulesStrings>
 
   <!-- EN: cryptosleep casket -->
@@ -153,7 +153,7 @@
   <!-- EN: recon armor -->
   <ReconArmor.label>armadura de reconhecimento</ReconArmor.label>
   <!-- EN: Craft recon armor, a light powered armor suit used by scout troops who need protection on the move. Note that these also require advanced components. -->
-  <ReconArmor.description>Fabrica armadura de reconhecimento, um fato de armadura assistida leve usado por batedores que precisam de proteção em movimento. Estas também requerem componentes avançados.</ReconArmor.description>
+  <ReconArmor.description>Fabrica armadura de reconhecimento, um fato de armadura motorizada leve usado por tropas de batedores que precisam de proteção em movimento. De notar que também requerem componentes avançados.</ReconArmor.description>
   <!-- EN:
     <li>subject->recon armor</li>
     <li>subject_story->led the rebel scouts against the Imperial forces, until captured</li>
@@ -202,11 +202,11 @@
     <li>subject_gerund->constructing sniper turrets</li>
   -->
   <SniperTurret.generalRules.rulesStrings>
-    <li>subject->torretas de atirador furtivo</li>
+    <li>subject->torretas de franco-atirador</li>
     <li>subject_story->liderou a limpeza depois da guerra, recolhendo da linha da frente projéteis de urânio radioativo gastos</li>
     <li>subject_story->viu uma torreta atravessar um mecanoide de assalto e precisou de perceber como</li>
     <li>subject_story->investigou os efeitos da densidade das munições nas armaduras</li>
-    <li>subject_gerund->a construir torretas de atirador furtivo</li>
+    <li>subject_gerund->a construir torretas de franco-atirador</li>
   </SniperTurret.generalRules.rulesStrings>
 
   <!-- EN: vitals monitor -->

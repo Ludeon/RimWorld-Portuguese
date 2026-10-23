@@ -537,9 +537,9 @@
   <!-- EN: Smokepop recharged in {0} -->
   <AbilityMechSmokepopRecharging>Nuvem de fumo recarregada em {0}</AbilityMechSmokepopRecharging>
   <!-- EN: Firefoam pop charged -->
-  <AbilityMechFirefoampopCharged>Pop de espuma anti-incêndio carregado</AbilityMechFirefoampopCharged>
+  <AbilityMechFirefoampopCharged>Pop de espuma anti-fogo carregado</AbilityMechFirefoampopCharged>
   <!-- EN: Firefoam pop recharged in {0} -->
-  <AbilityMechFirefoampopRecharging>Pop de espuma anti-incêndio recarregado em {0}</AbilityMechFirefoampopRecharging>
+  <AbilityMechFirefoampopRecharging>Pop de espuma anti-fogo recarregado em {0}</AbilityMechFirefoampopRecharging>
 
   <!-- EN: Polluted {0} -->
   <PollutedTerrain>{0} poluído(a)</PollutedTerrain>
@@ -548,11 +548,11 @@
   <!-- EN: Biostarvation -->
   <Biostarvation>Bioinanição</Biostarvation>
   <!-- EN: One or more growth vats are experiencing biostarvation from lack of nutrition or power.\n\nIf biostarvation reaches 100%, the contained people will die. -->
-  <BiostarvationExplanation>Uma ou mais cubas de crescimento estão com bioinanição por falta de nutrição ou de energia.\n\nSe a bioinanição chegar a 100%, as pessoas lá dentro morrerão.</BiostarvationExplanation>
+  <BiostarvationExplanation>Uma ou mais cápsulas de crescimento estão com bioinanição por falta de nutrição ou de energia.\n\nSe a bioinanição chegar a 100%, as pessoas lá dentro morrerão.</BiostarvationExplanation>
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
-  <InsertPersonGrowthVatDesc>Insere uma pessoa na cuba de crescimento. Envelhecerá 20 vezes mais depressa do que o normal.</InsertPersonGrowthVatDesc>
+  <InsertPersonGrowthVatDesc>Insere uma pessoa na cápsula de crescimento. Envelhecerá 20 vezes mais depressa do que o normal.</InsertPersonGrowthVatDesc>
   <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
-  <InsertEmbryoGrowthVatDesc>Implanta um embrião na cuba de crescimento. Após {0} de gestação, a cuba produzirá um bebé totalmente formado, com sorte com boa saúde.</InsertEmbryoGrowthVatDesc>
+  <InsertEmbryoGrowthVatDesc>Implanta um embrião na cápsula de crescimento. Após {0} de gestação, a cápsula produzirá um bebé totalmente formado, com sorte com boa saúde.</InsertEmbryoGrowthVatDesc>
   <!-- EN: Insert embryo -->
   <ImplantEmbryo>Inserir embrião</ImplantEmbryo>
   <!-- EN: Cannot insert embryo -->
@@ -570,7 +570,7 @@
   <!-- EN: Person selected -->
   <PersonSelected>Pessoa selecionada</PersonSelected>
   <!-- EN: No non-biostarving people of acceptable age. To enter the growth vat, the person must be below {0} years old and not currently biostarving. -->
-  <NoPawnsCanEnterGrowthVat>Não há pessoas sem bioinanição com idade aceitável. Para entrar na cuba de crescimento, a pessoa tem de ter menos de {0} anos e não estar em bioinanição.</NoPawnsCanEnterGrowthVat>
+  <NoPawnsCanEnterGrowthVat>Não há pessoas sem bioinanição com idade aceitável. Para entrar na cápsula de crescimento, a pessoa tem de ter menos de {0} anos e não estar em bioinanição.</NoPawnsCanEnterGrowthVat>
   <!-- EN: Aging speed -->
   <AgingSpeed>Velocidade de envelhecimento</AgingSpeed>
 
@@ -596,11 +596,11 @@
 
   <!-- Subcore scanner -->
   <!-- EN: Start scanner -->
-  <SubcoreScannerStart>Iniciar escâner</SubcoreScannerStart>
+  <SubcoreScannerStart>Iniciar scanner</SubcoreScannerStart>
   <!-- EN: Produces -->
   <SubcoreScannerProduces>Produz</SubcoreScannerProduces>
   <!-- EN: Once the {0} is filled with the required ingredients, {1}, select a colonist and right-click on the {0} or on a downed person to start the scanner. -->
-  <SubcoreScannerStartDesc>Quando {0} estiver cheio com os ingredientes necessários, {1}, seleciona um colono e clica com o botão direito em {0} ou numa pessoa incapacitada para iniciar o escâner.</SubcoreScannerStartDesc>
+  <SubcoreScannerStartDesc>Quando {0} estiver cheio com os ingredientes necessários, {1}, seleciona um colono e clica com o botão direito em {0} ou numa pessoa incapacitada para iniciar o scanner.</SubcoreScannerStartDesc>
   <!-- EN: Completes in -->
   <SubcoreScannerCompletesIn>Conclui em</SubcoreScannerCompletesIn>
   <!-- EN: Waiting for occupant -->
@@ -706,7 +706,7 @@
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>Não é possível fertilizar</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
-  <FertilizeGizmoDescription>Escolhe um homem para fertilizar este óvulo e criar um embrião. O embrião pode depois ser implantado numa mãe para iniciar uma gravidez, ou numa cuba de crescimento. Os pais biológicos da criança resultante serão a mulher que forneceu o óvulo e o homem que o fertilizou.</FertilizeGizmoDescription>
+  <FertilizeGizmoDescription>Escolhe um homem para fertilizar este óvulo e criar um embrião. O embrião pode depois ser implantado numa mãe para iniciar uma gravidez, ou numa cápsula de crescimento. Os pais biológicos da criança resultante serão a mulher que forneceu o óvulo e o homem que o fertilizou.</FertilizeGizmoDescription>
   <!-- EN: Cancel fertilization by {0} -->
   <FertilizeCancel>Cancelar fertilização por {0}</FertilizeCancel>
   <!-- EN: sterile -->
@@ -727,28 +727,28 @@
   <!-- EN: Implant this embryo in a surrogate mother to begin a pregnancy. -->
   <ImplantDescription>Implanta este embrião numa mãe de substituição para iniciar uma gravidez.</ImplantDescription>
   <!-- EN: Insert in growth vat -->
-  <InsertGrowthVatLabel>Inserir na cuba de crescimento</InsertGrowthVatLabel>
+  <InsertGrowthVatLabel>Inserir na cápsula de crescimento</InsertGrowthVatLabel>
 
   <!-- EN: Cannot implant -->
   <ImplantCannotFloatOption>Não é possível implantar</ImplantCannotFloatOption>
   <!-- EN: No woman can be a surrogate mother. -->
   <ImplantDisabledNoWomen>Nenhuma mulher pode ser mãe de substituição.</ImplantDisabledNoWomen>
   <!-- EN: No available growth vats. -->
-  <ImplantDisabledNoVats>Não há cubas de crescimento disponíveis.</ImplantDisabledNoVats>
+  <ImplantDisabledNoVats>Não há cápsulas de crescimento disponíveis.</ImplantDisabledNoVats>
   <!-- EN: Implant {0} -->
   <ImplantSurgeryLabel>Implantar {0}</ImplantSurgeryLabel>
   <!-- EN: The implantation success chance for the {0} in {1} is {2}.\n\nThe implantation success chance is dependent on the fertility of the surrogate mother. It will be lower if the mother is too old or too young. -->
   <ImplantSurgeryConfirm>A probabilidade de sucesso da implantação de {0} em {1} é de {2}.\n\nA probabilidade de sucesso da implantação depende da fertilidade da mãe de substituição. Será menor se a mãe for demasiado velha ou demasiado jovem.</ImplantSurgeryConfirm>
   <!-- EN: Ejecting the {0} from the growth vat right now will destroy it before a baby is formed.\n\nWould you like to continue? -->
-  <ImplantEmbryoCancelVat>Ejetar {0} da cuba de crescimento agora destruí-lo-á antes de se formar um bebé.\n\nQueres continuar?</ImplantEmbryoCancelVat>
+  <ImplantEmbryoCancelVat>Ejetar {0} da cápsula de crescimento agora destruí-lo-á antes de se formar um bebé.\n\nQueres continuar?</ImplantEmbryoCancelVat>
   <!-- EN: Implanting the {0} in {1} was unsuccessful. -->
   <ImplantFailedMessage>A implantação de {0} em {1} não teve sucesso.</ImplantFailedMessage>
   <!-- EN: Cancel embryo insertion -->
   <ImplantEmbryoCancel>Cancelar inserção de embrião</ImplantEmbryoCancel>
   <!-- EN: The {0} was ejected from a growth vat and destroyed. -->
-  <EmbryoEjectedFromGrowthVat>{0} foi ejetado de uma cuba de crescimento e destruído.</EmbryoEjectedFromGrowthVat>
+  <EmbryoEjectedFromGrowthVat>{0} foi ejetado de uma cápsula de crescimento e destruído.</EmbryoEjectedFromGrowthVat>
   <!-- EN: The {0} was destroyed in a growth vat due to biostarvation. -->
-  <EmbryoEjectedFromGrowthVatBiostarvation>{0} foi destruído numa cuba de crescimento devido a bioinanição.</EmbryoEjectedFromGrowthVatBiostarvation>
+  <EmbryoEjectedFromGrowthVatBiostarvation>{0} foi destruído numa cápsula de crescimento devido a bioinanição.</EmbryoEjectedFromGrowthVatBiostarvation>
 
   <!-- EN: {0} has successfully become pregnant from embryo implantation! -->
   <IvfPregnancyLetterText>{0} engravidou com sucesso graças à implantação de embrião!</IvfPregnancyLetterText>
