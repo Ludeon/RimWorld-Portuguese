@@ -12,10 +12,10 @@ Para uma melhor comunicação, entra no nosso servidor de Discord: [Tradução P
 
 ### 🧩 Tradutores:
 
- - [Ribas](https://github.com/Ribas-7)
- - [DarkTakayanagi](https://github.com/darktakayanagi)
  - [TitoFerreira](https://github.com/titoferreira)
  - [g-pereiraa](https://github.com/g-pereiraa)
+ - [Ribas](https://github.com/Ribas-7)
+ - [DarkTakayanagi](https://github.com/darktakayanagi)
 
 -------------------------
 
